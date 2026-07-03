@@ -3,6 +3,13 @@
     "id": "1101",
     "name": "Ganyu",
     "title": "\"Plenilune Gaze\" Ganyu",
+    "description": "\"This press release is due tomorrow... I suppose I could work through the night and get it done.\"",
+    "localizedNames": {
+      "en": "Ganyu",
+      "zh": "甘雨",
+      "ja": "甘雨",
+      "ko": "감우"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Ganyu",
     "tags": [
@@ -17,6 +24,13 @@
     "id": "1102",
     "name": "Diona",
     "title": "\"Kätzlein Cocktail\" Diona",
+    "description": "Dedicating 1% of her energy to mixing drinks, and 99% to... refusing to accept failure.",
+    "localizedNames": {
+      "en": "Diona",
+      "zh": "迪奥娜",
+      "ja": "ディオナ",
+      "ko": "디오나"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Diona",
     "tags": [
@@ -31,6 +45,13 @@
     "id": "1103",
     "name": "Kaeya",
     "title": "\"Frostwind Swordsman\" Kaeya",
+    "description": "Specializes in awakening knightly virtues in others.",
+    "localizedNames": {
+      "en": "Kaeya",
+      "zh": "凯亚",
+      "ja": "ガイア",
+      "ko": "케이아"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Kaeya",
     "tags": [
@@ -45,6 +66,13 @@
     "id": "1104",
     "name": "Chongyun",
     "title": "\"Frozen Ardor\" Chongyun",
+    "description": "\"Ugh, summer... Please pass us by in peace...\"",
+    "localizedNames": {
+      "en": "Chongyun",
+      "zh": "重云",
+      "ja": "重雲",
+      "ko": "중운"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Chongyun",
     "tags": [
@@ -59,6 +87,13 @@
     "id": "1105",
     "name": "Kamisato Ayaka",
     "title": "\"Frostflake Heron\" Kamisato Ayaka",
+    "description": "As graceful as the frost drifting in the wind, as elegant as a heron perched in a courtyard.",
+    "localizedNames": {
+      "en": "Kamisato Ayaka",
+      "zh": "神里绫华",
+      "ja": "神里綾華",
+      "ko": "카미사토 아야카"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Ayaka",
     "tags": [
@@ -73,6 +108,13 @@
     "id": "1106",
     "name": "Eula",
     "title": "\"Dance of the Shimmering Wave\" Eula",
+    "description": "It's but a game. I won't hold a grudge should luck happen to be on your side.",
+    "localizedNames": {
+      "en": "Eula",
+      "zh": "优菈",
+      "ja": "エウルア",
+      "ko": "유라"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Eula",
     "tags": [
@@ -87,6 +129,13 @@
     "id": "1107",
     "name": "Shenhe",
     "title": "\"Lonesome Transcendence\" Shenhe",
+    "description": "The mortal realm briefly gracing, like a wisp of smoke vanishing.",
+    "localizedNames": {
+      "en": "Shenhe",
+      "zh": "申鹤",
+      "ja": "申鶴",
+      "ko": "신학"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Shenhe",
     "tags": [
@@ -101,6 +150,13 @@
     "id": "1108",
     "name": "Qiqi",
     "title": "\"Icy Resurrection\" Qiqi",
+    "description": "Circulating endlessly, life goes on.",
+    "localizedNames": {
+      "en": "Qiqi",
+      "zh": "七七",
+      "ja": "七七",
+      "ko": "치치"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Qiqi",
     "tags": [
@@ -115,6 +171,13 @@
     "id": "1109",
     "name": "Layla",
     "title": "\"Fantastical Evening Star\" Layla",
+    "description": "As night falls, the stars swirl and the moon wanders amidst dreams.",
+    "localizedNames": {
+      "en": "Layla",
+      "zh": "莱依拉",
+      "ja": "レイラ",
+      "ko": "레일라"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Layla",
     "tags": [
@@ -129,6 +192,13 @@
     "id": "1110",
     "name": "Charlotte",
     "title": "\"Lens of Verity\" Charlotte",
+    "description": "\"Your credible source of the unbelievable truth!\"",
+    "localizedNames": {
+      "en": "Charlotte",
+      "zh": "夏洛蒂",
+      "ja": "シャルロット",
+      "ko": "샤를로트"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Charlotte",
     "tags": [
@@ -144,6 +214,13 @@
     "id": "1111",
     "name": "Wriothesley",
     "title": "\"Emissary of Solitary Iniquity\" Wriothesley",
+    "description": "Guilty waters run deep.",
+    "localizedNames": {
+      "en": "Wriothesley",
+      "zh": "莱欧斯利",
+      "ja": "リオセスリ",
+      "ko": "라이오슬리"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Wriothesley",
     "tags": [
@@ -159,6 +236,13 @@
     "id": "1112",
     "name": "Freminet",
     "title": "\"Yearning for Unseen Depths\" Freminet",
+    "description": "Alone under the cold light of stars.",
+    "localizedNames": {
+      "en": "Freminet",
+      "zh": "菲米尼",
+      "ja": "フレミネ",
+      "ko": "프레미네"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Freminet",
     "tags": [
@@ -175,6 +259,13 @@
     "id": "1113",
     "name": "Rosaria",
     "title": "\"Thorny Benevolence\" Rosaria",
+    "description": "\"Light creates shadow, but shadow will not be controlled by light.\"",
+    "localizedNames": {
+      "en": "Rosaria",
+      "zh": "罗莎莉亚",
+      "ja": "ロサリア",
+      "ko": "로자리아"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Rosaria",
     "tags": [
@@ -189,6 +280,13 @@
     "id": "1114",
     "name": "Citlali",
     "title": "\"Obsidian Opalstar\" Citlali",
+    "description": "The vivid night-wind flows, obsidian reflects the heart.",
+    "localizedNames": {
+      "en": "Citlali",
+      "zh": "茜特菈莉",
+      "ja": "シトラリ",
+      "ko": "시틀라리"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Citlali",
     "tags": [
@@ -203,6 +301,13 @@
     "id": "1115",
     "name": "Escoffier",
     "title": "\"Tasteful Excellence\" Escoffier",
+    "description": "Frosting and bake, the best taste to make.",
+    "localizedNames": {
+      "en": "Escoffier",
+      "zh": "爱可菲",
+      "ja": "エスコフィエ",
+      "ko": "에스코피에"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Escoffier",
     "tags": [
@@ -218,6 +323,13 @@
     "id": "1116",
     "name": "Skirk",
     "title": "\"Void Star\" Skirk",
+    "description": "The stars fade to black.",
+    "localizedNames": {
+      "en": "Skirk",
+      "zh": "丝柯克",
+      "ja": "スカーク",
+      "ko": "스커크"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_SkirkNew",
     "tags": [
@@ -232,6 +344,13 @@
     "id": "1117",
     "name": "Mika",
     "title": "\"Coordinates of Clear Frost\" Mika",
+    "description": "With a feather plume as gold as maize, uncharted borders are depicted as clear as day.",
+    "localizedNames": {
+      "en": "Mika",
+      "zh": "米卡",
+      "ja": "ミカ",
+      "ko": "미카"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Mika",
     "tags": [
@@ -246,6 +365,13 @@
     "id": "1201",
     "name": "Barbara",
     "title": "\"Shining Idol\" Barbara",
+    "description": "Ready to heal hearts and soothe souls at any time.",
+    "localizedNames": {
+      "en": "Barbara",
+      "zh": "芭芭拉",
+      "ja": "バーバラ",
+      "ko": "바바라"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Barbara",
     "tags": [
@@ -260,6 +386,13 @@
     "id": "1202",
     "name": "Xingqiu",
     "title": "\"Juvenile Galant\" Xingqiu",
+    "description": "\"Is it just me, or are the protagonists in novels nowadays all students of some private school or another...\"",
+    "localizedNames": {
+      "en": "Xingqiu",
+      "zh": "行秋",
+      "ja": "行秋",
+      "ko": "행추"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Xingqiu",
     "tags": [
@@ -274,6 +407,13 @@
     "id": "1203",
     "name": "Mona",
     "title": "\"Astral Reflection\" Mona",
+    "description": "Victory or defeat — it has all been written in the stars.",
+    "localizedNames": {
+      "en": "Mona",
+      "zh": "莫娜",
+      "ja": "モナ",
+      "ko": "모나"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Mona",
     "tags": [
@@ -288,6 +428,13 @@
     "id": "1204",
     "name": "Tartaglia",
     "title": "\"Childe\" Tartaglia",
+    "description": "Should this table be considered a battlefield, then may the strongest claim the win.",
+    "localizedNames": {
+      "en": "Tartaglia",
+      "zh": "达达利亚",
+      "ja": "タルタリヤ",
+      "ko": "타르탈리아"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Tartaglia",
     "tags": [
@@ -302,6 +449,13 @@
     "id": "1205",
     "name": "Sangonomiya Kokomi",
     "title": "\"Pearl of Wisdom\" Sangonomiya Kokomi",
+    "description": "To survive hardship, you must prepare for hardship.",
+    "localizedNames": {
+      "en": "Sangonomiya Kokomi",
+      "zh": "珊瑚宫心海",
+      "ja": "珊瑚宮心海",
+      "ko": "산고노미야 코코미"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Kokomi",
     "tags": [
@@ -316,6 +470,13 @@
     "id": "1206",
     "name": "Kamisato Ayato",
     "title": "\"Pillar of Fortitude\" Kamisato Ayato",
+    "description": "The divinely-blessed cypress sprouts new leaves.",
+    "localizedNames": {
+      "en": "Kamisato Ayato",
+      "zh": "神里绫人",
+      "ja": "神里綾人",
+      "ko": "카미사토 아야토"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Ayato",
     "tags": [
@@ -330,6 +491,13 @@
     "id": "1207",
     "name": "Candace",
     "title": "Golden Vow: Candace",
+    "description": "The crimson sand flows, an oath to defend.",
+    "localizedNames": {
+      "en": "Candace",
+      "zh": "坎蒂丝",
+      "ja": "キャンディス",
+      "ko": "캔디스"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Candace",
     "tags": [
@@ -344,6 +512,13 @@
     "id": "1208",
     "name": "Nilou",
     "title": "\"Dance of Lotuslight\" Nilou",
+    "description": "Steps floating like lotus petals, emerging from an intoxicating dream.",
+    "localizedNames": {
+      "en": "Nilou",
+      "zh": "妮露",
+      "ja": "ニィロウ",
+      "ko": "닐루"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Nilou",
     "tags": [
@@ -358,6 +533,13 @@
     "id": "1209",
     "name": "Yelan",
     "title": "\"Valley Orchid\" Yelan",
+    "description": "The world is vast and infinite, the solitary one comes and goes as she pleases.",
+    "localizedNames": {
+      "en": "Yelan",
+      "zh": "夜兰",
+      "ja": "夜蘭",
+      "ko": "야란"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Yelan",
     "tags": [
@@ -372,6 +554,13 @@
     "id": "1210",
     "name": "Neuvillette",
     "title": "\"Ordainer of Inexorable Judgment\" Neuvillette",
+    "description": "He who looks down on all that are haughty.",
+    "localizedNames": {
+      "en": "Neuvillette",
+      "zh": "那维莱特",
+      "ja": "ヌヴィレット",
+      "ko": "느비예트"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Neuvillette",
     "tags": [
@@ -387,6 +576,13 @@
     "id": "1211",
     "name": "Furina",
     "title": "\"Endless Solo of Solitude\" Furina",
+    "description": "Perpetual muse of chansons and rondeaux.",
+    "localizedNames": {
+      "en": "Furina",
+      "zh": "芙宁娜",
+      "ja": "フリーナ",
+      "ko": "푸리나"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Furina",
     "tags": [
@@ -402,6 +598,13 @@
     "id": "1213",
     "name": "Sigewinne",
     "title": "\"Wondrous Dragonheir\" Sigewinne",
+    "description": "\"Pure spirit, heed my wish.\"",
+    "localizedNames": {
+      "en": "Sigewinne",
+      "zh": "希格雯",
+      "ja": "シグウィン",
+      "ko": "시그윈"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Sigewinne",
     "tags": [
@@ -417,6 +620,13 @@
     "id": "1214",
     "name": "Mualani",
     "title": "\"Splish-Splash Wavechaser\" Mualani",
+    "description": "Swellrider of Perennial Springs",
+    "localizedNames": {
+      "en": "Mualani",
+      "zh": "玛拉妮",
+      "ja": "ムアラニ",
+      "ko": "말라니"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Mualani",
     "tags": [
@@ -431,6 +641,13 @@
     "id": "1215",
     "name": "Dahlia",
     "title": "\"Ode and Oblation\" Dahlia",
+    "description": "Let hymns of praise cast the winds as my ode.",
+    "localizedNames": {
+      "en": "Dahlia",
+      "zh": "塔利雅",
+      "ja": "ダリア",
+      "ko": "달리아"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Dahlia",
     "tags": [
@@ -445,6 +662,13 @@
     "id": "1216",
     "name": "Aino",
     "title": "\"Clinky-Clank Gadgets-A-Gogo\" Aino",
+    "description": "Dreams spring to life with a clink-clank-clatter.",
+    "localizedNames": {
+      "en": "Aino",
+      "zh": "爱诺",
+      "ja": "アイノ",
+      "ko": "아이노"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Aino",
     "tags": [
@@ -459,6 +683,13 @@
     "id": "1301",
     "name": "Diluc",
     "title": "\"Dark Side of Dawn\" Diluc",
+    "description": "His heart is his greatest foe.",
+    "localizedNames": {
+      "en": "Diluc",
+      "zh": "迪卢克",
+      "ja": "ディルック",
+      "ko": "다이루크"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Diluc",
     "tags": [
@@ -473,6 +704,13 @@
     "id": "1302",
     "name": "Xiangling",
     "title": "\"Exquisite Delicacy\" Xiangling",
+    "description": "As a chef, she is practically omnipotent.",
+    "localizedNames": {
+      "en": "Xiangling",
+      "zh": "香菱",
+      "ja": "香菱",
+      "ko": "향릉"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Xiangling",
     "tags": [
@@ -487,6 +725,13 @@
     "id": "1303",
     "name": "Bennett",
     "title": "\"Trial by Fire\" Bennett",
+    "description": "Once you know that you will certainly lose, then you must certainly know the way to win.",
+    "localizedNames": {
+      "en": "Bennett",
+      "zh": "班尼特",
+      "ja": "ベネット",
+      "ko": "베넷"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Bennett",
     "tags": [
@@ -501,6 +746,13 @@
     "id": "1304",
     "name": "Amber",
     "title": "\"Outrider\" Amber",
+    "description": "If you want to be a great player...\\nFirst, you have to have the courage to sit down and play.",
+    "localizedNames": {
+      "en": "Amber",
+      "zh": "安柏",
+      "ja": "アンバー",
+      "ko": "엠버"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Ambor",
     "tags": [
@@ -515,6 +767,13 @@
     "id": "1305",
     "name": "Yoimiya",
     "title": "\"Frolicking Flames\" Yoimiya",
+    "description": "Captain and Vanguard of Team Naganohara for the 11th Hanamizaka Street Invitational.",
+    "localizedNames": {
+      "en": "Yoimiya",
+      "zh": "宵宫",
+      "ja": "宵宮",
+      "ko": "요이미야"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Yoimiya",
     "tags": [
@@ -529,6 +788,13 @@
     "id": "1306",
     "name": "Klee",
     "title": "\"Fleeing Sunlight\" Klee",
+    "description": "Every card you draw may bring an \"explosive surprise.\"",
+    "localizedNames": {
+      "en": "Klee",
+      "zh": "可莉",
+      "ja": "クレー",
+      "ko": "클레"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Klee",
     "tags": [
@@ -543,6 +809,13 @@
     "id": "1307",
     "name": "Hu Tao",
     "title": "\"Fragrance in Thaw\" Hu Tao",
+    "description": "\"Send one, send 'em all!\"",
+    "localizedNames": {
+      "en": "Hu Tao",
+      "zh": "胡桃",
+      "ja": "胡桃",
+      "ko": "호두"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Hutao",
     "tags": [
@@ -557,6 +830,13 @@
     "id": "1308",
     "name": "Yanfei",
     "title": "Wise Innocence: Yanfei",
+    "description": "One who fails to revise the classics is liable to fall foul of the law.",
+    "localizedNames": {
+      "en": "Yanfei",
+      "zh": "烟绯",
+      "ja": "煙緋",
+      "ko": "연비"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Feiyan",
     "tags": [
@@ -571,6 +851,13 @@
     "id": "1309",
     "name": "Dehya",
     "title": "\"Flame-Mane\" Dehya",
+    "description": "The eyes of a vulture, the spirit of a lion, an unbridled daughter of the desert.",
+    "localizedNames": {
+      "en": "Dehya",
+      "zh": "迪希雅",
+      "ja": "ディシア",
+      "ko": "데히야"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Dehya",
     "tags": [
@@ -586,6 +873,13 @@
     "id": "1310",
     "name": "Lyney",
     "title": "\"Spectacle of Phantasmagoria\" Lyney",
+    "description": "Those flowers in the mirror... who are they for?",
+    "localizedNames": {
+      "en": "Lyney",
+      "zh": "林尼",
+      "ja": "リネ",
+      "ko": "리니"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Liney",
     "tags": [
@@ -602,6 +896,13 @@
     "id": "1311",
     "name": "Thoma",
     "title": "\"Protector From Afar\" Thoma",
+    "description": "A protector from abroad, loyal to the end.",
+    "localizedNames": {
+      "en": "Thoma",
+      "zh": "托马",
+      "ja": "トーマ",
+      "ko": "토마"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Tohma",
     "tags": [
@@ -616,6 +917,13 @@
     "id": "1312",
     "name": "Xinyan",
     "title": "\"Blazing Riff\" Xinyan",
+    "description": "Time to rock!",
+    "localizedNames": {
+      "en": "Xinyan",
+      "zh": "辛焱",
+      "ja": "辛炎",
+      "ko": "신염"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Xinyan",
     "tags": [
@@ -630,6 +938,13 @@
     "id": "1313",
     "name": "Chevreuse",
     "title": "Executor of Justice: Chevreuse",
+    "description": "Righteous Enforcer of the Law.",
+    "localizedNames": {
+      "en": "Chevreuse",
+      "zh": "夏沃蕾",
+      "ja": "シュヴルーズ",
+      "ko": "슈브르즈"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Chevreuse",
     "tags": [
@@ -645,6 +960,13 @@
     "id": "1314",
     "name": "Arlecchino",
     "title": "\"Dire Balemoon\" Arlecchino",
+    "description": "Solitary Balemoon in a Sky of Fading Stars.",
+    "localizedNames": {
+      "en": "Arlecchino",
+      "zh": "阿蕾奇诺",
+      "ja": "アルレッキーノ",
+      "ko": "아를레키노"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Arlecchino",
     "tags": [
@@ -659,6 +981,13 @@
     "id": "1315",
     "name": "Mavuika",
     "title": "\"Night-Igniting Flame\" Mavuika",
+    "description": "The brightest, most splendid, most resplendent flame reborn.",
+    "localizedNames": {
+      "en": "Mavuika",
+      "zh": "玛薇卡",
+      "ja": "マーヴィカ",
+      "ko": "마비카"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Mavuika",
     "tags": [
@@ -673,6 +1002,13 @@
     "id": "1316",
     "name": "Gaming",
     "title": "\"Leonine Vanguard\" Gaming",
+    "description": "\"Stalwart strider.\"",
+    "localizedNames": {
+      "en": "Gaming",
+      "zh": "嘉明",
+      "ja": "嘉明",
+      "ko": "가명"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Gaming",
     "tags": [
@@ -684,9 +1020,36 @@
     "localAsset": "Nanoka/gi/gcg/character cards/assets/1316-Gaming.webp"
   },
   {
+    "id": "1317",
+    "name": "Durin",
+    "title": "\"The Undying Fire\" Durin",
+    "description": "Born from ink, he soars among the stars.",
+    "localizedNames": {
+      "en": "Durin",
+      "zh": "杜林",
+      "ja": "ドゥリン"
+    },
+    "type": "Character",
+    "icon": "UI_Gcg_CardFace_Char_Avatar_Durin",
+    "tags": [
+      "Pyro",
+      "Sword",
+      "Mondstadt"
+    ],
+    "playableCharacter": "Durin",
+    "localAsset": null
+  },
+  {
     "id": "1401",
     "name": "Fischl",
     "title": "\"Fischl, Prinzessin der Verurteilung!\" Fischl",
+    "description": "\"Oz, mine familiar, spread thine wings and weave for me a new fate in the gloom of this night!\"\\n\"Mein Fräulein, you cannot expect me to fetch you a replacement card...\"",
+    "localizedNames": {
+      "en": "Fischl",
+      "zh": "菲谢尔",
+      "ja": "フィッシュル",
+      "ko": "피슬"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Fischl",
     "tags": [
@@ -701,6 +1064,13 @@
     "id": "1402",
     "name": "Razor",
     "title": "\"Wolf Boy\" Razor",
+    "description": "\"Cards, hard.\"\\n\"But... friends...\"",
+    "localizedNames": {
+      "en": "Razor",
+      "zh": "雷泽",
+      "ja": "レザー",
+      "ko": "레이저"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Razor",
     "tags": [
@@ -715,6 +1085,13 @@
     "id": "1403",
     "name": "Keqing",
     "title": "\"Driving Thunder\" Keqing",
+    "description": "She can build decks heretofore not conceived and win battles in which victory is unthinkable.",
+    "localizedNames": {
+      "en": "Keqing",
+      "zh": "刻晴",
+      "ja": "刻晴",
+      "ko": "각청"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Keqing",
     "tags": [
@@ -729,6 +1106,13 @@
     "id": "1404",
     "name": "Cyno",
     "title": "\"Judicator of Secrets\" Cyno",
+    "description": "The card bears the General Mahamatra's ardent fondness, which reminds one of the scorching sun hanging above the desert.",
+    "localizedNames": {
+      "en": "Cyno",
+      "zh": "赛诺",
+      "ja": "セノ",
+      "ko": "사이노"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Cyno",
     "tags": [
@@ -743,6 +1127,13 @@
     "id": "1405",
     "name": "Beidou",
     "title": "\"Uncrowned Lord of the Ocean\" Beidou",
+    "description": "\"Remember this day, you almost won money from the Captain of the Crux.\"",
+    "localizedNames": {
+      "en": "Beidou",
+      "zh": "北斗",
+      "ja": "北斗",
+      "ko": "북두"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Beidou",
     "tags": [
@@ -757,6 +1148,13 @@
     "id": "1406",
     "name": "Kujou Sara",
     "title": "\"Crowfeather Kaburaya\" Kujou Sara",
+    "description": "\"This is an act of righteousness.\"",
+    "localizedNames": {
+      "en": "Kujou Sara",
+      "zh": "九条裟罗",
+      "ja": "九条裟羅",
+      "ko": "쿠죠 사라"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Sara",
     "tags": [
@@ -771,6 +1169,13 @@
     "id": "1407",
     "name": "Raiden Shogun",
     "title": "\"Plane of Euthymia\" Raiden Shogun",
+    "description": "The tranquil thunder shall scatter this world most ephemeral.",
+    "localizedNames": {
+      "en": "Raiden Shogun",
+      "zh": "雷电将军",
+      "ja": "雷電将軍",
+      "ko": "라이덴 쇼군"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Shougun",
     "tags": [
@@ -785,6 +1190,13 @@
     "id": "1408",
     "name": "Yae Miko",
     "title": "\"Astute Amusement\" Yae Miko",
+    "description": "\"The wise and beautiful Yae Miko.\"",
+    "localizedNames": {
+      "en": "Yae Miko",
+      "zh": "八重神子",
+      "ja": "八重神子",
+      "ko": "야에 미코"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Yae",
     "tags": [
@@ -799,6 +1211,13 @@
     "id": "1409",
     "name": "Lisa",
     "title": "\"Witch of Purple Rose\" Lisa",
+    "description": "Pursuing the arcane mysteries of magic, and waiting quietly for an encounter with truth.",
+    "localizedNames": {
+      "en": "Lisa",
+      "zh": "丽莎",
+      "ja": "リサ",
+      "ko": "리사"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Lisa",
     "tags": [
@@ -813,6 +1232,13 @@
     "id": "1410",
     "name": "Dori",
     "title": "\"Treasure of Dream Garden\" Dori",
+    "description": "The Mora, the merrier!",
+    "localizedNames": {
+      "en": "Dori",
+      "zh": "多莉",
+      "ja": "ドリー",
+      "ko": "도리"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Dori",
     "tags": [
@@ -827,6 +1253,13 @@
     "id": "1411",
     "name": "Kuki Shinobu",
     "title": "\"Mender of Tribulations\" Kuki Shinobu",
+    "description": "Master of all trades, deputy of the oni.",
+    "localizedNames": {
+      "en": "Kuki Shinobu",
+      "zh": "久岐忍",
+      "ja": "久岐忍",
+      "ko": "쿠키 시노부"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Shinobu",
     "tags": [
@@ -841,6 +1274,13 @@
     "id": "1412",
     "name": "Clorinde",
     "title": "\"Candlebearer, Shadowhunter\" Clorinde",
+    "description": "Vanquisher of Phantoms, Vigil of the Long Night",
+    "localizedNames": {
+      "en": "Clorinde",
+      "zh": "克洛琳德",
+      "ja": "クロリンデ",
+      "ko": "클로린드"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Clorinde",
     "tags": [
@@ -856,6 +1296,13 @@
     "id": "1413",
     "name": "Sethos",
     "title": "\"Wisdom's Measure\" Sethos",
+    "description": "A visitor from the sea of sand, profound in providence.",
+    "localizedNames": {
+      "en": "Sethos",
+      "zh": "赛索斯",
+      "ja": "セトス",
+      "ko": "세토스"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Sethos",
     "tags": [
@@ -870,6 +1317,13 @@
     "id": "1414",
     "name": "Iansan",
     "title": "\"Tempered in Molten Stone\" Iansan",
+    "description": "Early to bed, early to rise. Avoid anything high in sugar or sodium.",
+    "localizedNames": {
+      "en": "Iansan",
+      "zh": "伊安珊",
+      "ja": "イアンサ",
+      "ko": "얀사"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Iansan",
     "tags": [
@@ -884,6 +1338,13 @@
     "id": "1415",
     "name": "Varesa",
     "title": "\"Strength in Serenity\" Varesa",
+    "description": "Steadfast in defense, unshakeable in offense.",
+    "localizedNames": {
+      "en": "Varesa",
+      "zh": "瓦雷莎",
+      "ja": "ヴァレサ",
+      "ko": "바레사"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Varesa",
     "tags": [
@@ -898,6 +1359,13 @@
     "id": "1416",
     "name": "Ororon",
     "title": "\"Shadow of the Night-Wind\" Ororon",
+    "description": "Enigmatic Shadowwalker",
+    "localizedNames": {
+      "en": "Ororon",
+      "zh": "欧洛伦",
+      "ja": "オロルン",
+      "ko": "올로룬"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Olorun",
     "tags": [
@@ -912,6 +1380,13 @@
     "id": "1417",
     "name": "Ineffa",
     "title": "\"Boom Boom Thunderwave\" Ineffa",
+    "description": "White iron forged the body, crimson heart cast the soul.",
+    "localizedNames": {
+      "en": "Ineffa",
+      "zh": "伊涅芙",
+      "ja": "イネファ",
+      "ko": "이네파"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Ineffa",
     "tags": [
@@ -926,6 +1401,13 @@
     "id": "1418",
     "name": "Flins",
     "title": "\"Shadowy Lights, Stranger Wights\" Flins",
+    "description": "The graven light leads into fathomless night.",
+    "localizedNames": {
+      "en": "Flins",
+      "zh": "菲林斯",
+      "ja": "フリンズ",
+      "ko": "플린스"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Flins",
     "tags": [
@@ -940,6 +1422,13 @@
     "id": "1501",
     "name": "Sucrose",
     "title": "\"Harmless Sweetie\" Sucrose",
+    "description": "\"You can't rate the strength of an as-yet untested deck!\"",
+    "localizedNames": {
+      "en": "Sucrose",
+      "zh": "砂糖",
+      "ja": "スクロース",
+      "ko": "설탕"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Sucrose",
     "tags": [
@@ -954,6 +1443,13 @@
     "id": "1502",
     "name": "Jean",
     "title": "\"Dandelion Knight\" Jean",
+    "description": "Never believes that she has done well enough — not until final victory is hers, anyway.",
+    "localizedNames": {
+      "en": "Jean",
+      "zh": "琴",
+      "ja": "ジン",
+      "ko": "진"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Qin",
     "tags": [
@@ -968,6 +1464,13 @@
     "id": "1503",
     "name": "Venti",
     "title": "\"Windborne Bard\" Venti",
+    "description": "\"As the four seasons in turn shall say their piece, so the four winds too shall never cease. \\n\"Of course, to look at it differently, I am the one who should be credited here, and not they.\"\\nCredits should be given where credits belong — if not for the bard who pens the song, then who shall ensure that these tales are passed on!?\"",
+    "localizedNames": {
+      "en": "Venti",
+      "zh": "温迪",
+      "ja": "ウェンティ",
+      "ko": "벤티"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Venti",
     "tags": [
@@ -982,6 +1485,13 @@
     "id": "1504",
     "name": "Xiao",
     "title": "\"Vigilant Yaksha\" Xiao",
+    "description": "The Vigilant Yaksha, the bane of all evil.",
+    "localizedNames": {
+      "en": "Xiao",
+      "zh": "魈",
+      "ja": "魈",
+      "ko": "소"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Xiao",
     "tags": [
@@ -996,6 +1506,13 @@
     "id": "1505",
     "name": "Kaedehara Kazuha",
     "title": "Scarlet Leaves Pursue Wild Waves: Kaedehara Kazuha",
+    "description": "Flowers and birds are a dear pleasure to one winding under the moonlight.",
+    "localizedNames": {
+      "en": "Kaedehara Kazuha",
+      "zh": "枫原万叶",
+      "ja": "楓原万葉",
+      "ko": "카에데하라 카즈하"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Kazuha",
     "tags": [
@@ -1010,6 +1527,13 @@
     "id": "1506",
     "name": "Wanderer",
     "title": "\"Eons Adrift\" Wanderer",
+    "description": "Tribulations uncounted, trials unknowable.",
+    "localizedNames": {
+      "en": "#{REALNAME[ID(1)|DELAYHANDLE(true)]}",
+      "zh": "#{REALNAME[ID(1)|DELAYHANDLE(true)]}",
+      "ja": "#{REALNAME[ID(1)|DELAYHANDLE(true)]}",
+      "ko": "#{REALNAME[ID(1)|DELAYHANDLE(true)]}"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Wanderer",
     "tags": [
@@ -1023,6 +1547,13 @@
     "id": "1507",
     "name": "Sayu",
     "title": "\"Mujina Ninja\" Sayu",
+    "description": "By your side without a trace, like a character from a dream.",
+    "localizedNames": {
+      "en": "Sayu",
+      "zh": "早柚",
+      "ja": "早柚",
+      "ko": "사유"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Sayu",
     "tags": [
@@ -1037,6 +1568,13 @@
     "id": "1508",
     "name": "Lynette",
     "title": "\"Elegance in the Shadows\" Lynette",
+    "description": "The firmament glimpsed in a reflected moon.",
+    "localizedNames": {
+      "en": "Lynette",
+      "zh": "琳妮特",
+      "ja": "リネット",
+      "ko": "리넷"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Linette",
     "tags": [
@@ -1053,6 +1591,13 @@
     "id": "1509",
     "name": "Faruzan",
     "title": "\"Enigmatic Machinist\" Faruzan",
+    "description": "Simple machines, mysterious world.",
+    "localizedNames": {
+      "en": "Faruzan",
+      "zh": "珐露珊",
+      "ja": "ファルザン",
+      "ko": "파루잔"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Faruzan",
     "tags": [
@@ -1067,6 +1612,13 @@
     "id": "1510",
     "name": "Xianyun",
     "title": "\"Passerine Herald\" Xianyun",
+    "description": "Chivalrous shadow, shrouded in cloud.",
+    "localizedNames": {
+      "en": "Xianyun",
+      "zh": "闲云",
+      "ja": "閑雲",
+      "ko": "한운"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Liuyun",
     "tags": [
@@ -1081,6 +1633,13 @@
     "id": "1511",
     "name": "Chasca",
     "title": "\"Skyborne Arbiter\" Chasca",
+    "description": "Grace and power resound, feathered wings skybound.",
+    "localizedNames": {
+      "en": "Chasca",
+      "zh": "恰斯卡",
+      "ja": "チャスカ",
+      "ko": "차스카"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Chasca",
     "tags": [
@@ -1095,6 +1654,13 @@
     "id": "1512",
     "name": "Lan Yan",
     "title": "\"Spring Woven From Jade\" Lan Yan",
+    "description": "The brilliant swallow bears branches of joy to fill the home.",
+    "localizedNames": {
+      "en": "Lan Yan",
+      "zh": "蓝砚",
+      "ja": "藍硯",
+      "ko": "남연"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Lanyan",
     "tags": [
@@ -1109,6 +1675,13 @@
     "id": "1513",
     "name": "Shikanoin Heizou",
     "title": "\"Analytical Harmony\" Shikanoin Heizou",
+    "description": "The heavenly robes, though seamlessly sewn, still fear the winds that with coldness are blown.",
+    "localizedNames": {
+      "en": "Shikanoin Heizou",
+      "zh": "鹿野院平藏",
+      "ja": "鹿野院平蔵",
+      "ko": "시카노인 헤이조"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Heizo",
     "tags": [
@@ -1123,6 +1696,13 @@
     "id": "1514",
     "name": "Yumemizuki Mizuki",
     "title": "\"Embrace of Enchanting Dreams\" Yumemizuki Mizuki",
+    "description": "Clouds of doubt depart, moonlight amidst dreams unveiled, to grace dreamers' hearts.",
+    "localizedNames": {
+      "en": "Yumemizuki Mizuki",
+      "zh": "梦见月瑞希",
+      "ja": "夢見月瑞希",
+      "ko": "유메미즈키 미즈키"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Mizuki",
     "tags": [
@@ -1137,6 +1717,13 @@
     "id": "1515",
     "name": "Ifa",
     "title": "\"In the Wake of Wandering Winds\" Ifa",
+    "description": "Rescue rapid as a raid.",
+    "localizedNames": {
+      "en": "Ifa",
+      "zh": "伊法",
+      "ja": "イファ",
+      "ko": "이파"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Ifa",
     "tags": [
@@ -1148,9 +1735,36 @@
     "localAsset": "Nanoka/gi/gcg/character cards/assets/1515-Ifa.webp"
   },
   {
+    "id": "1516",
+    "name": "Jahoda",
+    "title": "\"Windthreading Shadow\" Jahoda",
+    "description": "Persistent thought brings light to even the deepest secrets.",
+    "localizedNames": {
+      "en": "Jahoda",
+      "zh": "雅珂达",
+      "ja": "ヤフォダ"
+    },
+    "type": "Character",
+    "icon": "UI_Gcg_CardFace_Char_Avatar_Jahoda",
+    "tags": [
+      "Anemo",
+      "Bow",
+      "Nod-Krai"
+    ],
+    "playableCharacter": "Jahoda",
+    "localAsset": null
+  },
+  {
     "id": "1601",
     "name": "Ningguang",
     "title": "\"Eclipsing Star\" Ningguang",
+    "description": "The greatest secret she keeps is that she keeps a great many of Liyue's secrets.",
+    "localizedNames": {
+      "en": "Ningguang",
+      "zh": "凝光",
+      "ja": "凝光",
+      "ko": "응광"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Ningguang",
     "tags": [
@@ -1165,6 +1779,13 @@
     "id": "1602",
     "name": "Noelle",
     "title": "\"Chivalric Blossom\" Noelle",
+    "description": "You can leave arranging the table to her — really, you can.",
+    "localizedNames": {
+      "en": "Noelle",
+      "zh": "诺艾尔",
+      "ja": "ノエル",
+      "ko": "노엘"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Noel",
     "tags": [
@@ -1179,6 +1800,13 @@
     "id": "1603",
     "name": "Zhongli",
     "title": "\"Vago Mundo\" Zhongli",
+    "description": "A hidden gemstone can illuminate the whole earth, bright and unrivaled as a star.",
+    "localizedNames": {
+      "en": "Zhongli",
+      "zh": "钟离",
+      "ja": "鍾離",
+      "ko": "종려"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Zhongli",
     "tags": [
@@ -1193,6 +1821,13 @@
     "id": "1604",
     "name": "Albedo",
     "title": "\"Kreideprinz\" Albedo",
+    "description": "Nigredo and calx, rubedo and citrinitas.",
+    "localizedNames": {
+      "en": "Albedo",
+      "zh": "阿贝多",
+      "ja": "アルベド",
+      "ko": "알베도"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Albedo",
     "tags": [
@@ -1207,6 +1842,13 @@
     "id": "1605",
     "name": "Arataki Itto",
     "title": "\"Hanamizaka Heroics\" Arataki Itto",
+    "description": "Arataki \"The Ultimate TCG Champion\" Itto",
+    "localizedNames": {
+      "en": "Arataki Itto",
+      "zh": "荒泷一斗",
+      "ja": "荒瀧一斗",
+      "ko": "아라타키 이토"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Itto",
     "tags": [
@@ -1221,6 +1863,13 @@
     "id": "1606",
     "name": "Gorou",
     "title": "\"Canine Warrior\" Gorou",
+    "description": "The leader of the pack, leading the soldiers onward!",
+    "localizedNames": {
+      "en": "Gorou",
+      "zh": "五郎",
+      "ja": "ゴロー",
+      "ko": "고로"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Gorou",
     "tags": [
@@ -1235,6 +1884,13 @@
     "id": "1607",
     "name": "Yun Jin",
     "title": "\"Stage Lucida\" Yun Jin",
+    "description": "Elegance on the stage, in decorous harmony.",
+    "localizedNames": {
+      "en": "Yun Jin",
+      "zh": "云堇",
+      "ja": "雲菫",
+      "ko": "운근"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Yunjin",
     "tags": [
@@ -1249,6 +1905,13 @@
     "id": "1608",
     "name": "Navia",
     "title": "Helm of the Radiant Rose: Navia",
+    "description": "\"The Soaring Yellow Rose.\"",
+    "localizedNames": {
+      "en": "Navia",
+      "zh": "娜维娅",
+      "ja": "ナヴィア",
+      "ko": "나비아"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Navia",
     "tags": [
@@ -1264,6 +1927,13 @@
     "id": "1609",
     "name": "Chiori",
     "title": "\"The Thundering Seamstress\" Chiori",
+    "description": "Couturiere of Countless Colors",
+    "localizedNames": {
+      "en": "Chiori",
+      "zh": "千织",
+      "ja": "千織",
+      "ko": "치오리"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Chiori",
     "tags": [
@@ -1278,6 +1948,13 @@
     "id": "1610",
     "name": "Kachina",
     "title": "\"Mottled Gold Yet Unsmelted\" Kachina",
+    "description": "Wrought of tears and mettle.",
+    "localizedNames": {
+      "en": "Kachina",
+      "zh": "卡齐娜",
+      "ja": "カチーナ",
+      "ko": "카치나"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Kachina",
     "tags": [
@@ -1292,6 +1969,13 @@
     "id": "1611",
     "name": "Xilonen",
     "title": "\"Ardent Flames Forge the Soul\" Xilonen",
+    "description": "The peaks resound, their golden veins gleaming.",
+    "localizedNames": {
+      "en": "Xilonen",
+      "zh": "希诺宁",
+      "ja": "シロネン",
+      "ko": "실로닌"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Xilonen",
     "tags": [
@@ -1306,6 +1990,13 @@
     "id": "1701",
     "name": "Collei",
     "title": "\"Sprout of Rebirth\" Collei",
+    "description": "\"'Shouting the name of your card loudly will increase its power many-fold'... You've got to be kidding, right?\"",
+    "localizedNames": {
+      "en": "Collei",
+      "zh": "柯莱",
+      "ja": "コレイ",
+      "ko": "콜레이"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Collei",
     "tags": [
@@ -1320,6 +2011,13 @@
     "id": "1702",
     "name": "Tighnari",
     "title": "\"Verdant Strider\" Tighnari",
+    "description": "From a certain perspective, experience does not hold parity with wisdom.",
+    "localizedNames": {
+      "en": "Tighnari",
+      "zh": "提纳里",
+      "ja": "ティナリ",
+      "ko": "타이나리"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Tighnari",
     "tags": [
@@ -1334,6 +2032,13 @@
     "id": "1703",
     "name": "Nahida",
     "title": "\"Physic of Purity\" Nahida",
+    "description": "The panacea brings purity, and from the palace depths is spring renewed.",
+    "localizedNames": {
+      "en": "Nahida",
+      "zh": "纳西妲",
+      "ja": "ナヒーダ",
+      "ko": "나히다"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Nahida",
     "tags": [
@@ -1348,6 +2053,13 @@
     "id": "1704",
     "name": "Yaoyao",
     "title": "\"Burgeoning Grace\" Yaoyao",
+    "description": "An adeptal constitution.",
+    "localizedNames": {
+      "en": "Yaoyao",
+      "zh": "瑶瑶",
+      "ja": "ヨォーヨ",
+      "ko": "요요"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Yaoyao",
     "tags": [
@@ -1362,6 +2074,13 @@
     "id": "1705",
     "name": "Baizhu",
     "title": "\"Beyond Mortality\" Baizhu",
+    "description": "Living with many maladies, where will one find a cure?",
+    "localizedNames": {
+      "en": "Baizhu",
+      "zh": "白术",
+      "ja": "白朮",
+      "ko": "백출"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Baizhuer",
     "tags": [
@@ -1376,6 +2095,13 @@
     "id": "1706",
     "name": "Alhaitham",
     "title": "\"Admonishing Instruction\" Alhaitham",
+    "description": "Learning, thinking, and taking care of business.",
+    "localizedNames": {
+      "en": "Alhaitham",
+      "zh": "艾尔海森",
+      "ja": "アルハイゼン",
+      "ko": "알하이탐"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Alhatham",
     "tags": [
@@ -1390,6 +2116,13 @@
     "id": "1707",
     "name": "Kirara",
     "title": "\"Cat Upon the Eaves\" Kirara",
+    "description": "On tails twain and padded feet, to all doors shall she deliver.",
+    "localizedNames": {
+      "en": "Kirara",
+      "zh": "绮良良",
+      "ja": "綺良々",
+      "ko": "키라라"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Momoka",
     "tags": [
@@ -1404,6 +2137,13 @@
     "id": "1708",
     "name": "Kaveh",
     "title": "\"Empyrean Reflection\" Kaveh",
+    "description": "Knowledge of comprehension, benevolence, and aesthetics.",
+    "localizedNames": {
+      "en": "Kaveh",
+      "zh": "卡维",
+      "ja": "カーヴェ",
+      "ko": "카베"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Kaveh",
     "tags": [
@@ -1418,6 +2158,13 @@
     "id": "1709",
     "name": "Kinich",
     "title": "\"Turnfire Hunt\" Kinich",
+    "description": "Fulfiller of Commissions, Flame Bearer of the Canopy.",
+    "localizedNames": {
+      "en": "Kinich",
+      "zh": "基尼奇",
+      "ja": "キィニチ",
+      "ko": "키니치"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Kinich",
     "tags": [
@@ -1432,6 +2179,13 @@
     "id": "1710",
     "name": "Emilie",
     "title": "\"A Thousand Scents Traced\" Emilie",
+    "description": "Like fragrance fading, like mist dissipating.",
+    "localizedNames": {
+      "en": "Emilie",
+      "zh": "艾梅莉埃",
+      "ja": "エミリエ",
+      "ko": "에밀리"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Emilie",
     "tags": [
@@ -1447,6 +2201,13 @@
     "id": "1711",
     "name": "Lauma",
     "title": "\"Evermoon's Sacrament Song\" Lauma",
+    "description": "The mirrored moon fractures in the water.",
+    "localizedNames": {
+      "en": "Lauma",
+      "zh": "菈乌玛",
+      "ja": "ラウマ",
+      "ko": "라우마"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Lauma",
     "tags": [
@@ -1461,6 +2222,13 @@
     "id": "1712",
     "name": "Nefer",
     "title": "\"Secret Beneath the Sands\" Nefer",
+    "description": "Seeking hidden secrets, to know all hearts.",
+    "localizedNames": {
+      "en": "Nefer",
+      "zh": "奈芙尔",
+      "ja": "ネフェル",
+      "ko": "네페르"
+    },
     "type": "Character",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Nefer",
     "tags": [

@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-03T14:06:25.000Z",
+  "generatedAt": "2026-07-03T16:15:02.197Z",
   "providers": {
     "Prydwen": "2026-07-01T09:00:25.858Z",
     "Nanoka": {
@@ -4495,16 +4495,23 @@ var NYX_DB = {
       "tcg": {
         "source": "Nanoka",
         "sourceUrl": "https://gi.nanoka.cc/gcg",
-        "updated": null,
+        "updated": "2026-07-03T15:58:51.787Z",
         "counts": {
           "characterCards": 104,
-          "otherCards": 48
+          "otherCards": 503
         },
         "characterCards": [
           {
             "id": "1101",
             "name": "Ganyu",
             "title": "\"Plenilune Gaze\" Ganyu",
+            "description": "\"This press release is due tomorrow... I suppose I could work through the night and get it done.\"",
+            "localizedNames": {
+              "en": "Ganyu",
+              "zh": "\u7518\u96e8",
+              "ja": "\u7518\u96e8",
+              "ko": "\uac10\uc6b0"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4519,6 +4526,13 @@ var NYX_DB = {
             "id": "1102",
             "name": "Diona",
             "title": "\"K\u00e4tzlein Cocktail\" Diona",
+            "description": "Dedicating 1% of her energy to mixing drinks, and 99% to... refusing to accept failure.",
+            "localizedNames": {
+              "en": "Diona",
+              "zh": "\u8fea\u5965\u5a1c",
+              "ja": "\u30c7\u30a3\u30aa\u30ca",
+              "ko": "\ub514\uc624\ub098"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4533,6 +4547,13 @@ var NYX_DB = {
             "id": "1103",
             "name": "Kaeya",
             "title": "\"Frostwind Swordsman\" Kaeya",
+            "description": "Specializes in awakening knightly virtues in others.",
+            "localizedNames": {
+              "en": "Kaeya",
+              "zh": "\u51ef\u4e9a",
+              "ja": "\u30ac\u30a4\u30a2",
+              "ko": "\ucf00\uc774\uc544"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4547,6 +4568,13 @@ var NYX_DB = {
             "id": "1104",
             "name": "Chongyun",
             "title": "\"Frozen Ardor\" Chongyun",
+            "description": "\"Ugh, summer... Please pass us by in peace...\"",
+            "localizedNames": {
+              "en": "Chongyun",
+              "zh": "\u91cd\u4e91",
+              "ja": "\u91cd\u96f2",
+              "ko": "\uc911\uc6b4"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4561,6 +4589,13 @@ var NYX_DB = {
             "id": "1105",
             "name": "Kamisato Ayaka",
             "title": "\"Frostflake Heron\" Kamisato Ayaka",
+            "description": "As graceful as the frost drifting in the wind, as elegant as a heron perched in a courtyard.",
+            "localizedNames": {
+              "en": "Kamisato Ayaka",
+              "zh": "\u795e\u91cc\u7eeb\u534e",
+              "ja": "\u795e\u91cc\u7dbe\u83ef",
+              "ko": "\uce74\ubbf8\uc0ac\ud1a0 \uc544\uc57c\uce74"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4575,6 +4610,13 @@ var NYX_DB = {
             "id": "1106",
             "name": "Eula",
             "title": "\"Dance of the Shimmering Wave\" Eula",
+            "description": "It's but a game. I won't hold a grudge should luck happen to be on your side.",
+            "localizedNames": {
+              "en": "Eula",
+              "zh": "\u4f18\u83c8",
+              "ja": "\u30a8\u30a6\u30eb\u30a2",
+              "ko": "\uc720\ub77c"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4589,6 +4631,13 @@ var NYX_DB = {
             "id": "1107",
             "name": "Shenhe",
             "title": "\"Lonesome Transcendence\" Shenhe",
+            "description": "The mortal realm briefly gracing, like a wisp of smoke vanishing.",
+            "localizedNames": {
+              "en": "Shenhe",
+              "zh": "\u7533\u9e64",
+              "ja": "\u7533\u9db4",
+              "ko": "\uc2e0\ud559"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4603,6 +4652,13 @@ var NYX_DB = {
             "id": "1108",
             "name": "Qiqi",
             "title": "\"Icy Resurrection\" Qiqi",
+            "description": "Circulating endlessly, life goes on.",
+            "localizedNames": {
+              "en": "Qiqi",
+              "zh": "\u4e03\u4e03",
+              "ja": "\u4e03\u4e03",
+              "ko": "\uce58\uce58"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4617,6 +4673,13 @@ var NYX_DB = {
             "id": "1109",
             "name": "Layla",
             "title": "\"Fantastical Evening Star\" Layla",
+            "description": "As night falls, the stars swirl and the moon wanders amidst dreams.",
+            "localizedNames": {
+              "en": "Layla",
+              "zh": "\u83b1\u4f9d\u62c9",
+              "ja": "\u30ec\u30a4\u30e9",
+              "ko": "\ub808\uc77c\ub77c"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4631,6 +4694,13 @@ var NYX_DB = {
             "id": "1110",
             "name": "Charlotte",
             "title": "\"Lens of Verity\" Charlotte",
+            "description": "\"Your credible source of the unbelievable truth!\"",
+            "localizedNames": {
+              "en": "Charlotte",
+              "zh": "\u590f\u6d1b\u8482",
+              "ja": "\u30b7\u30e3\u30eb\u30ed\u30c3\u30c8",
+              "ko": "\uc0e4\ub97c\ub85c\ud2b8"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4646,6 +4716,13 @@ var NYX_DB = {
             "id": "1111",
             "name": "Wriothesley",
             "title": "\"Emissary of Solitary Iniquity\" Wriothesley",
+            "description": "Guilty waters run deep.",
+            "localizedNames": {
+              "en": "Wriothesley",
+              "zh": "\u83b1\u6b27\u65af\u5229",
+              "ja": "\u30ea\u30aa\u30bb\u30b9\u30ea",
+              "ko": "\ub77c\uc774\uc624\uc2ac\ub9ac"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4661,6 +4738,13 @@ var NYX_DB = {
             "id": "1112",
             "name": "Freminet",
             "title": "\"Yearning for Unseen Depths\" Freminet",
+            "description": "Alone under the cold light of stars.",
+            "localizedNames": {
+              "en": "Freminet",
+              "zh": "\u83f2\u7c73\u5c3c",
+              "ja": "\u30d5\u30ec\u30df\u30cd",
+              "ko": "\ud504\ub808\ubbf8\ub124"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4677,6 +4761,13 @@ var NYX_DB = {
             "id": "1113",
             "name": "Rosaria",
             "title": "\"Thorny Benevolence\" Rosaria",
+            "description": "\"Light creates shadow, but shadow will not be controlled by light.\"",
+            "localizedNames": {
+              "en": "Rosaria",
+              "zh": "\u7f57\u838e\u8389\u4e9a",
+              "ja": "\u30ed\u30b5\u30ea\u30a2",
+              "ko": "\ub85c\uc790\ub9ac\uc544"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4691,6 +4782,13 @@ var NYX_DB = {
             "id": "1114",
             "name": "Citlali",
             "title": "\"Obsidian Opalstar\" Citlali",
+            "description": "The vivid night-wind flows, obsidian reflects the heart.",
+            "localizedNames": {
+              "en": "Citlali",
+              "zh": "\u831c\u7279\u83c8\u8389",
+              "ja": "\u30b7\u30c8\u30e9\u30ea",
+              "ko": "\uc2dc\ud2c0\ub77c\ub9ac"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4705,6 +4803,13 @@ var NYX_DB = {
             "id": "1115",
             "name": "Escoffier",
             "title": "\"Tasteful Excellence\" Escoffier",
+            "description": "Frosting and bake, the best taste to make.",
+            "localizedNames": {
+              "en": "Escoffier",
+              "zh": "\u7231\u53ef\u83f2",
+              "ja": "\u30a8\u30b9\u30b3\u30d5\u30a3\u30a8",
+              "ko": "\uc5d0\uc2a4\ucf54\ud53c\uc5d0"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4720,6 +4825,13 @@ var NYX_DB = {
             "id": "1116",
             "name": "Skirk",
             "title": "\"Void Star\" Skirk",
+            "description": "The stars fade to black.",
+            "localizedNames": {
+              "en": "Skirk",
+              "zh": "\u4e1d\u67ef\u514b",
+              "ja": "\u30b9\u30ab\u30fc\u30af",
+              "ko": "\uc2a4\ucee4\ud06c"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4734,6 +4846,13 @@ var NYX_DB = {
             "id": "1117",
             "name": "Mika",
             "title": "\"Coordinates of Clear Frost\" Mika",
+            "description": "With a feather plume as gold as maize, uncharted borders are depicted as clear as day.",
+            "localizedNames": {
+              "en": "Mika",
+              "zh": "\u7c73\u5361",
+              "ja": "\u30df\u30ab",
+              "ko": "\ubbf8\uce74"
+            },
             "type": "Character",
             "tags": [
               "Cryo",
@@ -4748,6 +4867,13 @@ var NYX_DB = {
             "id": "1201",
             "name": "Barbara",
             "title": "\"Shining Idol\" Barbara",
+            "description": "Ready to heal hearts and soothe souls at any time.",
+            "localizedNames": {
+              "en": "Barbara",
+              "zh": "\u82ad\u82ad\u62c9",
+              "ja": "\u30d0\u30fc\u30d0\u30e9",
+              "ko": "\ubc14\ubc14\ub77c"
+            },
             "type": "Character",
             "tags": [
               "Hydro",
@@ -4762,6 +4888,13 @@ var NYX_DB = {
             "id": "1202",
             "name": "Xingqiu",
             "title": "\"Juvenile Galant\" Xingqiu",
+            "description": "\"Is it just me, or are the protagonists in novels nowadays all students of some private school or another...\"",
+            "localizedNames": {
+              "en": "Xingqiu",
+              "zh": "\u884c\u79cb",
+              "ja": "\u884c\u79cb",
+              "ko": "\ud589\ucd94"
+            },
             "type": "Character",
             "tags": [
               "Hydro",
@@ -4776,6 +4909,13 @@ var NYX_DB = {
             "id": "1203",
             "name": "Mona",
             "title": "\"Astral Reflection\" Mona",
+            "description": "Victory or defeat \u2014 it has all been written in the stars.",
+            "localizedNames": {
+              "en": "Mona",
+              "zh": "\u83ab\u5a1c",
+              "ja": "\u30e2\u30ca",
+              "ko": "\ubaa8\ub098"
+            },
             "type": "Character",
             "tags": [
               "Hydro",
@@ -4790,6 +4930,13 @@ var NYX_DB = {
             "id": "1204",
             "name": "Tartaglia",
             "title": "\"Childe\" Tartaglia",
+            "description": "Should this table be considered a battlefield, then may the strongest claim the win.",
+            "localizedNames": {
+              "en": "Tartaglia",
+              "zh": "\u8fbe\u8fbe\u5229\u4e9a",
+              "ja": "\u30bf\u30eb\u30bf\u30ea\u30e4",
+              "ko": "\ud0c0\ub974\ud0c8\ub9ac\uc544"
+            },
             "type": "Character",
             "tags": [
               "Hydro",
@@ -4804,6 +4951,13 @@ var NYX_DB = {
             "id": "1205",
             "name": "Sangonomiya Kokomi",
             "title": "\"Pearl of Wisdom\" Sangonomiya Kokomi",
+            "description": "To survive hardship, you must prepare for hardship.",
+            "localizedNames": {
+              "en": "Sangonomiya Kokomi",
+              "zh": "\u73ca\u745a\u5bab\u5fc3\u6d77",
+              "ja": "\u73ca\u745a\u5bae\u5fc3\u6d77",
+              "ko": "\uc0b0\uace0\ub178\ubbf8\uc57c \ucf54\ucf54\ubbf8"
+            },
             "type": "Character",
             "tags": [
               "Hydro",
@@ -4818,6 +4972,13 @@ var NYX_DB = {
             "id": "1206",
             "name": "Kamisato Ayato",
             "title": "\"Pillar of Fortitude\" Kamisato Ayato",
+            "description": "The divinely-blessed cypress sprouts new leaves.",
+            "localizedNames": {
+              "en": "Kamisato Ayato",
+              "zh": "\u795e\u91cc\u7eeb\u4eba",
+              "ja": "\u795e\u91cc\u7dbe\u4eba",
+              "ko": "\uce74\ubbf8\uc0ac\ud1a0 \uc544\uc57c\ud1a0"
+            },
             "type": "Character",
             "tags": [
               "Hydro",
@@ -4832,6 +4993,13 @@ var NYX_DB = {
             "id": "1207",
             "name": "Candace",
             "title": "Golden Vow: Candace",
+            "description": "The crimson sand flows, an oath to defend.",
+            "localizedNames": {
+              "en": "Candace",
+              "zh": "\u574e\u8482\u4e1d",
+              "ja": "\u30ad\u30e3\u30f3\u30c7\u30a3\u30b9",
+              "ko": "\uce94\ub514\uc2a4"
+            },
             "type": "Character",
             "tags": [
               "Hydro",
@@ -4846,6 +5014,13 @@ var NYX_DB = {
             "id": "1208",
             "name": "Nilou",
             "title": "\"Dance of Lotuslight\" Nilou",
+            "description": "Steps floating like lotus petals, emerging from an intoxicating dream.",
+            "localizedNames": {
+              "en": "Nilou",
+              "zh": "\u59ae\u9732",
+              "ja": "\u30cb\u30a3\u30ed\u30a6",
+              "ko": "\ub2d0\ub8e8"
+            },
             "type": "Character",
             "tags": [
               "Hydro",
@@ -4860,6 +5035,13 @@ var NYX_DB = {
             "id": "1209",
             "name": "Yelan",
             "title": "\"Valley Orchid\" Yelan",
+            "description": "The world is vast and infinite, the solitary one comes and goes as she pleases.",
+            "localizedNames": {
+              "en": "Yelan",
+              "zh": "\u591c\u5170",
+              "ja": "\u591c\u862d",
+              "ko": "\uc57c\ub780"
+            },
             "type": "Character",
             "tags": [
               "Hydro",
@@ -4874,6 +5056,13 @@ var NYX_DB = {
             "id": "1210",
             "name": "Neuvillette",
             "title": "\"Ordainer of Inexorable Judgment\" Neuvillette",
+            "description": "He who looks down on all that are haughty.",
+            "localizedNames": {
+              "en": "Neuvillette",
+              "zh": "\u90a3\u7ef4\u83b1\u7279",
+              "ja": "\u30cc\u30f4\u30a3\u30ec\u30c3\u30c8",
+              "ko": "\ub290\ube44\uc608\ud2b8"
+            },
             "type": "Character",
             "tags": [
               "Hydro",
@@ -4889,6 +5078,13 @@ var NYX_DB = {
             "id": "1211",
             "name": "Furina",
             "title": "\"Endless Solo of Solitude\" Furina",
+            "description": "Perpetual muse of chansons and rondeaux.",
+            "localizedNames": {
+              "en": "Furina",
+              "zh": "\u8299\u5b81\u5a1c",
+              "ja": "\u30d5\u30ea\u30fc\u30ca",
+              "ko": "\ud478\ub9ac\ub098"
+            },
             "type": "Character",
             "tags": [
               "Hydro",
@@ -4904,6 +5100,13 @@ var NYX_DB = {
             "id": "1213",
             "name": "Sigewinne",
             "title": "\"Wondrous Dragonheir\" Sigewinne",
+            "description": "\"Pure spirit, heed my wish.\"",
+            "localizedNames": {
+              "en": "Sigewinne",
+              "zh": "\u5e0c\u683c\u96ef",
+              "ja": "\u30b7\u30b0\u30a6\u30a3\u30f3",
+              "ko": "\uc2dc\uadf8\uc708"
+            },
             "type": "Character",
             "tags": [
               "Hydro",
@@ -4919,6 +5122,13 @@ var NYX_DB = {
             "id": "1214",
             "name": "Mualani",
             "title": "\"Splish-Splash Wavechaser\" Mualani",
+            "description": "Swellrider of Perennial Springs",
+            "localizedNames": {
+              "en": "Mualani",
+              "zh": "\u739b\u62c9\u59ae",
+              "ja": "\u30e0\u30a2\u30e9\u30cb",
+              "ko": "\ub9d0\ub77c\ub2c8"
+            },
             "type": "Character",
             "tags": [
               "Hydro",
@@ -4933,6 +5143,13 @@ var NYX_DB = {
             "id": "1215",
             "name": "Dahlia",
             "title": "\"Ode and Oblation\" Dahlia",
+            "description": "Let hymns of praise cast the winds as my ode.",
+            "localizedNames": {
+              "en": "Dahlia",
+              "zh": "\u5854\u5229\u96c5",
+              "ja": "\u30c0\u30ea\u30a2",
+              "ko": "\ub2ec\ub9ac\uc544"
+            },
             "type": "Character",
             "tags": [
               "Hydro",
@@ -4947,6 +5164,13 @@ var NYX_DB = {
             "id": "1216",
             "name": "Aino",
             "title": "\"Clinky-Clank Gadgets-A-Gogo\" Aino",
+            "description": "Dreams spring to life with a clink-clank-clatter.",
+            "localizedNames": {
+              "en": "Aino",
+              "zh": "\u7231\u8bfa",
+              "ja": "\u30a2\u30a4\u30ce",
+              "ko": "\uc544\uc774\ub178"
+            },
             "type": "Character",
             "tags": [
               "Hydro",
@@ -4961,6 +5185,13 @@ var NYX_DB = {
             "id": "1301",
             "name": "Diluc",
             "title": "\"Dark Side of Dawn\" Diluc",
+            "description": "His heart is his greatest foe.",
+            "localizedNames": {
+              "en": "Diluc",
+              "zh": "\u8fea\u5362\u514b",
+              "ja": "\u30c7\u30a3\u30eb\u30c3\u30af",
+              "ko": "\ub2e4\uc774\ub8e8\ud06c"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -4975,6 +5206,13 @@ var NYX_DB = {
             "id": "1302",
             "name": "Xiangling",
             "title": "\"Exquisite Delicacy\" Xiangling",
+            "description": "As a chef, she is practically omnipotent.",
+            "localizedNames": {
+              "en": "Xiangling",
+              "zh": "\u9999\u83f1",
+              "ja": "\u9999\u83f1",
+              "ko": "\ud5a5\ub989"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -4989,6 +5227,13 @@ var NYX_DB = {
             "id": "1303",
             "name": "Bennett",
             "title": "\"Trial by Fire\" Bennett",
+            "description": "Once you know that you will certainly lose, then you must certainly know the way to win.",
+            "localizedNames": {
+              "en": "Bennett",
+              "zh": "\u73ed\u5c3c\u7279",
+              "ja": "\u30d9\u30cd\u30c3\u30c8",
+              "ko": "\ubca0\ub137"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -5003,6 +5248,13 @@ var NYX_DB = {
             "id": "1304",
             "name": "Amber",
             "title": "\"Outrider\" Amber",
+            "description": "If you want to be a great player...\\nFirst, you have to have the courage to sit down and play.",
+            "localizedNames": {
+              "en": "Amber",
+              "zh": "\u5b89\u67cf",
+              "ja": "\u30a2\u30f3\u30d0\u30fc",
+              "ko": "\uc5e0\ubc84"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -5017,6 +5269,13 @@ var NYX_DB = {
             "id": "1305",
             "name": "Yoimiya",
             "title": "\"Frolicking Flames\" Yoimiya",
+            "description": "Captain and Vanguard of Team Naganohara for the 11th Hanamizaka Street Invitational.",
+            "localizedNames": {
+              "en": "Yoimiya",
+              "zh": "\u5bb5\u5bab",
+              "ja": "\u5bb5\u5bae",
+              "ko": "\uc694\uc774\ubbf8\uc57c"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -5031,6 +5290,13 @@ var NYX_DB = {
             "id": "1306",
             "name": "Klee",
             "title": "\"Fleeing Sunlight\" Klee",
+            "description": "Every card you draw may bring an \"explosive surprise.\"",
+            "localizedNames": {
+              "en": "Klee",
+              "zh": "\u53ef\u8389",
+              "ja": "\u30af\u30ec\u30fc",
+              "ko": "\ud074\ub808"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -5045,6 +5311,13 @@ var NYX_DB = {
             "id": "1307",
             "name": "Hu Tao",
             "title": "\"Fragrance in Thaw\" Hu Tao",
+            "description": "\"Send one, send 'em all!\"",
+            "localizedNames": {
+              "en": "Hu Tao",
+              "zh": "\u80e1\u6843",
+              "ja": "\u80e1\u6843",
+              "ko": "\ud638\ub450"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -5059,6 +5332,13 @@ var NYX_DB = {
             "id": "1308",
             "name": "Yanfei",
             "title": "Wise Innocence: Yanfei",
+            "description": "One who fails to revise the classics is liable to fall foul of the law.",
+            "localizedNames": {
+              "en": "Yanfei",
+              "zh": "\u70df\u7eef",
+              "ja": "\u7159\u7dcb",
+              "ko": "\uc5f0\ube44"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -5073,6 +5353,13 @@ var NYX_DB = {
             "id": "1309",
             "name": "Dehya",
             "title": "\"Flame-Mane\" Dehya",
+            "description": "The eyes of a vulture, the spirit of a lion, an unbridled daughter of the desert.",
+            "localizedNames": {
+              "en": "Dehya",
+              "zh": "\u8fea\u5e0c\u96c5",
+              "ja": "\u30c7\u30a3\u30b7\u30a2",
+              "ko": "\ub370\ud788\uc57c"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -5088,6 +5375,13 @@ var NYX_DB = {
             "id": "1310",
             "name": "Lyney",
             "title": "\"Spectacle of Phantasmagoria\" Lyney",
+            "description": "Those flowers in the mirror... who are they for?",
+            "localizedNames": {
+              "en": "Lyney",
+              "zh": "\u6797\u5c3c",
+              "ja": "\u30ea\u30cd",
+              "ko": "\ub9ac\ub2c8"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -5104,6 +5398,13 @@ var NYX_DB = {
             "id": "1311",
             "name": "Thoma",
             "title": "\"Protector From Afar\" Thoma",
+            "description": "A protector from abroad, loyal to the end.",
+            "localizedNames": {
+              "en": "Thoma",
+              "zh": "\u6258\u9a6c",
+              "ja": "\u30c8\u30fc\u30de",
+              "ko": "\ud1a0\ub9c8"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -5118,6 +5419,13 @@ var NYX_DB = {
             "id": "1312",
             "name": "Xinyan",
             "title": "\"Blazing Riff\" Xinyan",
+            "description": "Time to rock!",
+            "localizedNames": {
+              "en": "Xinyan",
+              "zh": "\u8f9b\u7131",
+              "ja": "\u8f9b\u708e",
+              "ko": "\uc2e0\uc5fc"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -5132,6 +5440,13 @@ var NYX_DB = {
             "id": "1313",
             "name": "Chevreuse",
             "title": "Executor of Justice: Chevreuse",
+            "description": "Righteous Enforcer of the Law.",
+            "localizedNames": {
+              "en": "Chevreuse",
+              "zh": "\u590f\u6c83\u857e",
+              "ja": "\u30b7\u30e5\u30f4\u30eb\u30fc\u30ba",
+              "ko": "\uc288\ube0c\ub974\uc988"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -5147,6 +5462,13 @@ var NYX_DB = {
             "id": "1314",
             "name": "Arlecchino",
             "title": "\"Dire Balemoon\" Arlecchino",
+            "description": "Solitary Balemoon in a Sky of Fading Stars.",
+            "localizedNames": {
+              "en": "Arlecchino",
+              "zh": "\u963f\u857e\u5947\u8bfa",
+              "ja": "\u30a2\u30eb\u30ec\u30c3\u30ad\u30fc\u30ce",
+              "ko": "\uc544\ub97c\ub808\ud0a4\ub178"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -5161,6 +5483,13 @@ var NYX_DB = {
             "id": "1315",
             "name": "Mavuika",
             "title": "\"Night-Igniting Flame\" Mavuika",
+            "description": "The brightest, most splendid, most resplendent flame reborn.",
+            "localizedNames": {
+              "en": "Mavuika",
+              "zh": "\u739b\u8587\u5361",
+              "ja": "\u30de\u30fc\u30f4\u30a3\u30ab",
+              "ko": "\ub9c8\ube44\uce74"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -5175,6 +5504,13 @@ var NYX_DB = {
             "id": "1316",
             "name": "Gaming",
             "title": "\"Leonine Vanguard\" Gaming",
+            "description": "\"Stalwart strider.\"",
+            "localizedNames": {
+              "en": "Gaming",
+              "zh": "\u5609\u660e",
+              "ja": "\u5609\u660e",
+              "ko": "\uac00\uba85"
+            },
             "type": "Character",
             "tags": [
               "Pyro",
@@ -5189,6 +5525,13 @@ var NYX_DB = {
             "id": "1401",
             "name": "Fischl",
             "title": "\"Fischl, Prinzessin der Verurteilung!\" Fischl",
+            "description": "\"Oz, mine familiar, spread thine wings and weave for me a new fate in the gloom of this night!\"\\n\"Mein Fr\u00e4ulein, you cannot expect me to fetch you a replacement card...\"",
+            "localizedNames": {
+              "en": "Fischl",
+              "zh": "\u83f2\u8c22\u5c14",
+              "ja": "\u30d5\u30a3\u30c3\u30b7\u30e5\u30eb",
+              "ko": "\ud53c\uc2ac"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5203,6 +5546,13 @@ var NYX_DB = {
             "id": "1402",
             "name": "Razor",
             "title": "\"Wolf Boy\" Razor",
+            "description": "\"Cards, hard.\"\\n\"But... friends...\"",
+            "localizedNames": {
+              "en": "Razor",
+              "zh": "\u96f7\u6cfd",
+              "ja": "\u30ec\u30b6\u30fc",
+              "ko": "\ub808\uc774\uc800"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5217,6 +5567,13 @@ var NYX_DB = {
             "id": "1403",
             "name": "Keqing",
             "title": "\"Driving Thunder\" Keqing",
+            "description": "She can build decks heretofore not conceived and win battles in which victory is unthinkable.",
+            "localizedNames": {
+              "en": "Keqing",
+              "zh": "\u523b\u6674",
+              "ja": "\u523b\u6674",
+              "ko": "\uac01\uccad"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5231,6 +5588,13 @@ var NYX_DB = {
             "id": "1404",
             "name": "Cyno",
             "title": "\"Judicator of Secrets\" Cyno",
+            "description": "The card bears the General Mahamatra's ardent fondness, which reminds one of the scorching sun hanging above the desert.",
+            "localizedNames": {
+              "en": "Cyno",
+              "zh": "\u8d5b\u8bfa",
+              "ja": "\u30bb\u30ce",
+              "ko": "\uc0ac\uc774\ub178"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5245,6 +5609,13 @@ var NYX_DB = {
             "id": "1405",
             "name": "Beidou",
             "title": "\"Uncrowned Lord of the Ocean\" Beidou",
+            "description": "\"Remember this day, you almost won money from the Captain of the Crux.\"",
+            "localizedNames": {
+              "en": "Beidou",
+              "zh": "\u5317\u6597",
+              "ja": "\u5317\u6597",
+              "ko": "\ubd81\ub450"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5259,6 +5630,13 @@ var NYX_DB = {
             "id": "1406",
             "name": "Kujou Sara",
             "title": "\"Crowfeather Kaburaya\" Kujou Sara",
+            "description": "\"This is an act of righteousness.\"",
+            "localizedNames": {
+              "en": "Kujou Sara",
+              "zh": "\u4e5d\u6761\u88df\u7f57",
+              "ja": "\u4e5d\u6761\u88df\u7f85",
+              "ko": "\ucfe0\uc8e0 \uc0ac\ub77c"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5273,6 +5651,13 @@ var NYX_DB = {
             "id": "1407",
             "name": "Raiden Shogun",
             "title": "\"Plane of Euthymia\" Raiden Shogun",
+            "description": "The tranquil thunder shall scatter this world most ephemeral.",
+            "localizedNames": {
+              "en": "Raiden Shogun",
+              "zh": "\u96f7\u7535\u5c06\u519b",
+              "ja": "\u96f7\u96fb\u5c06\u8ecd",
+              "ko": "\ub77c\uc774\ub374 \uc1fc\uad70"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5287,6 +5672,13 @@ var NYX_DB = {
             "id": "1408",
             "name": "Yae Miko",
             "title": "\"Astute Amusement\" Yae Miko",
+            "description": "\"The wise and beautiful Yae Miko.\"",
+            "localizedNames": {
+              "en": "Yae Miko",
+              "zh": "\u516b\u91cd\u795e\u5b50",
+              "ja": "\u516b\u91cd\u795e\u5b50",
+              "ko": "\uc57c\uc5d0 \ubbf8\ucf54"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5301,6 +5693,13 @@ var NYX_DB = {
             "id": "1409",
             "name": "Lisa",
             "title": "\"Witch of Purple Rose\" Lisa",
+            "description": "Pursuing the arcane mysteries of magic, and waiting quietly for an encounter with truth.",
+            "localizedNames": {
+              "en": "Lisa",
+              "zh": "\u4e3d\u838e",
+              "ja": "\u30ea\u30b5",
+              "ko": "\ub9ac\uc0ac"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5315,6 +5714,13 @@ var NYX_DB = {
             "id": "1410",
             "name": "Dori",
             "title": "\"Treasure of Dream Garden\" Dori",
+            "description": "The Mora, the merrier!",
+            "localizedNames": {
+              "en": "Dori",
+              "zh": "\u591a\u8389",
+              "ja": "\u30c9\u30ea\u30fc",
+              "ko": "\ub3c4\ub9ac"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5329,6 +5735,13 @@ var NYX_DB = {
             "id": "1411",
             "name": "Kuki Shinobu",
             "title": "\"Mender of Tribulations\" Kuki Shinobu",
+            "description": "Master of all trades, deputy of the oni.",
+            "localizedNames": {
+              "en": "Kuki Shinobu",
+              "zh": "\u4e45\u5c90\u5fcd",
+              "ja": "\u4e45\u5c90\u5fcd",
+              "ko": "\ucfe0\ud0a4 \uc2dc\ub178\ubd80"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5343,6 +5756,13 @@ var NYX_DB = {
             "id": "1412",
             "name": "Clorinde",
             "title": "\"Candlebearer, Shadowhunter\" Clorinde",
+            "description": "Vanquisher of Phantoms, Vigil of the Long Night",
+            "localizedNames": {
+              "en": "Clorinde",
+              "zh": "\u514b\u6d1b\u7433\u5fb7",
+              "ja": "\u30af\u30ed\u30ea\u30f3\u30c7",
+              "ko": "\ud074\ub85c\ub9b0\ub4dc"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5358,6 +5778,13 @@ var NYX_DB = {
             "id": "1413",
             "name": "Sethos",
             "title": "\"Wisdom's Measure\" Sethos",
+            "description": "A visitor from the sea of sand, profound in providence.",
+            "localizedNames": {
+              "en": "Sethos",
+              "zh": "\u8d5b\u7d22\u65af",
+              "ja": "\u30bb\u30c8\u30b9",
+              "ko": "\uc138\ud1a0\uc2a4"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5372,6 +5799,13 @@ var NYX_DB = {
             "id": "1414",
             "name": "Iansan",
             "title": "\"Tempered in Molten Stone\" Iansan",
+            "description": "Early to bed, early to rise. Avoid anything high in sugar or sodium.",
+            "localizedNames": {
+              "en": "Iansan",
+              "zh": "\u4f0a\u5b89\u73ca",
+              "ja": "\u30a4\u30a2\u30f3\u30b5",
+              "ko": "\uc580\uc0ac"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5386,6 +5820,13 @@ var NYX_DB = {
             "id": "1415",
             "name": "Varesa",
             "title": "\"Strength in Serenity\" Varesa",
+            "description": "Steadfast in defense, unshakeable in offense.",
+            "localizedNames": {
+              "en": "Varesa",
+              "zh": "\u74e6\u96f7\u838e",
+              "ja": "\u30f4\u30a1\u30ec\u30b5",
+              "ko": "\ubc14\ub808\uc0ac"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5400,6 +5841,13 @@ var NYX_DB = {
             "id": "1416",
             "name": "Ororon",
             "title": "\"Shadow of the Night-Wind\" Ororon",
+            "description": "Enigmatic Shadowwalker",
+            "localizedNames": {
+              "en": "Ororon",
+              "zh": "\u6b27\u6d1b\u4f26",
+              "ja": "\u30aa\u30ed\u30eb\u30f3",
+              "ko": "\uc62c\ub85c\ub8ec"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5414,6 +5862,13 @@ var NYX_DB = {
             "id": "1417",
             "name": "Ineffa",
             "title": "\"Boom Boom Thunderwave\" Ineffa",
+            "description": "White iron forged the body, crimson heart cast the soul.",
+            "localizedNames": {
+              "en": "Ineffa",
+              "zh": "\u4f0a\u6d85\u8299",
+              "ja": "\u30a4\u30cd\u30d5\u30a1",
+              "ko": "\uc774\ub124\ud30c"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5428,6 +5883,13 @@ var NYX_DB = {
             "id": "1418",
             "name": "Flins",
             "title": "\"Shadowy Lights, Stranger Wights\" Flins",
+            "description": "The graven light leads into fathomless night.",
+            "localizedNames": {
+              "en": "Flins",
+              "zh": "\u83f2\u6797\u65af",
+              "ja": "\u30d5\u30ea\u30f3\u30ba",
+              "ko": "\ud50c\ub9b0\uc2a4"
+            },
             "type": "Character",
             "tags": [
               "Electro",
@@ -5442,6 +5904,13 @@ var NYX_DB = {
             "id": "1501",
             "name": "Sucrose",
             "title": "\"Harmless Sweetie\" Sucrose",
+            "description": "\"You can't rate the strength of an as-yet untested deck!\"",
+            "localizedNames": {
+              "en": "Sucrose",
+              "zh": "\u7802\u7cd6",
+              "ja": "\u30b9\u30af\u30ed\u30fc\u30b9",
+              "ko": "\uc124\ud0d5"
+            },
             "type": "Character",
             "tags": [
               "Anemo",
@@ -5456,6 +5925,13 @@ var NYX_DB = {
             "id": "1502",
             "name": "Jean",
             "title": "\"Dandelion Knight\" Jean",
+            "description": "Never believes that she has done well enough \u2014 not until final victory is hers, anyway.",
+            "localizedNames": {
+              "en": "Jean",
+              "zh": "\u7434",
+              "ja": "\u30b8\u30f3",
+              "ko": "\uc9c4"
+            },
             "type": "Character",
             "tags": [
               "Anemo",
@@ -5470,6 +5946,13 @@ var NYX_DB = {
             "id": "1503",
             "name": "Venti",
             "title": "\"Windborne Bard\" Venti",
+            "description": "\"As the four seasons in turn shall say their piece, so the four winds too shall never cease. \\n\"Of course, to look at it differently, I am the one who should be credited here, and not they.\"\\nCredits should be given where credits belong \u2014 if not for the bard who pens the song, then who shall ensure that these tales are passed on!?\"",
+            "localizedNames": {
+              "en": "Venti",
+              "zh": "\u6e29\u8fea",
+              "ja": "\u30a6\u30a7\u30f3\u30c6\u30a3",
+              "ko": "\ubca4\ud2f0"
+            },
             "type": "Character",
             "tags": [
               "Anemo",
@@ -5484,6 +5967,13 @@ var NYX_DB = {
             "id": "1504",
             "name": "Xiao",
             "title": "\"Vigilant Yaksha\" Xiao",
+            "description": "The Vigilant Yaksha, the bane of all evil.",
+            "localizedNames": {
+              "en": "Xiao",
+              "zh": "\u9b48",
+              "ja": "\u9b48",
+              "ko": "\uc18c"
+            },
             "type": "Character",
             "tags": [
               "Anemo",
@@ -5498,6 +5988,13 @@ var NYX_DB = {
             "id": "1505",
             "name": "Kaedehara Kazuha",
             "title": "Scarlet Leaves Pursue Wild Waves: Kaedehara Kazuha",
+            "description": "Flowers and birds are a dear pleasure to one winding under the moonlight.",
+            "localizedNames": {
+              "en": "Kaedehara Kazuha",
+              "zh": "\u67ab\u539f\u4e07\u53f6",
+              "ja": "\u6953\u539f\u4e07\u8449",
+              "ko": "\uce74\uc5d0\ub370\ud558\ub77c \uce74\uc988\ud558"
+            },
             "type": "Character",
             "tags": [
               "Anemo",
@@ -5512,6 +6009,13 @@ var NYX_DB = {
             "id": "1506",
             "name": "Wanderer",
             "title": "\"Eons Adrift\" Wanderer",
+            "description": "Tribulations uncounted, trials unknowable.",
+            "localizedNames": {
+              "en": "#{REALNAME[ID(1)|DELAYHANDLE(true)]}",
+              "zh": "#{REALNAME[ID(1)|DELAYHANDLE(true)]}",
+              "ja": "#{REALNAME[ID(1)|DELAYHANDLE(true)]}",
+              "ko": "#{REALNAME[ID(1)|DELAYHANDLE(true)]}"
+            },
             "type": "Character",
             "tags": [
               "Anemo",
@@ -5525,6 +6029,13 @@ var NYX_DB = {
             "id": "1507",
             "name": "Sayu",
             "title": "\"Mujina Ninja\" Sayu",
+            "description": "By your side without a trace, like a character from a dream.",
+            "localizedNames": {
+              "en": "Sayu",
+              "zh": "\u65e9\u67da",
+              "ja": "\u65e9\u67da",
+              "ko": "\uc0ac\uc720"
+            },
             "type": "Character",
             "tags": [
               "Anemo",
@@ -5539,6 +6050,13 @@ var NYX_DB = {
             "id": "1508",
             "name": "Lynette",
             "title": "\"Elegance in the Shadows\" Lynette",
+            "description": "The firmament glimpsed in a reflected moon.",
+            "localizedNames": {
+              "en": "Lynette",
+              "zh": "\u7433\u59ae\u7279",
+              "ja": "\u30ea\u30cd\u30c3\u30c8",
+              "ko": "\ub9ac\ub137"
+            },
             "type": "Character",
             "tags": [
               "Anemo",
@@ -5555,6 +6073,13 @@ var NYX_DB = {
             "id": "1509",
             "name": "Faruzan",
             "title": "\"Enigmatic Machinist\" Faruzan",
+            "description": "Simple machines, mysterious world.",
+            "localizedNames": {
+              "en": "Faruzan",
+              "zh": "\u73d0\u9732\u73ca",
+              "ja": "\u30d5\u30a1\u30eb\u30b6\u30f3",
+              "ko": "\ud30c\ub8e8\uc794"
+            },
             "type": "Character",
             "tags": [
               "Anemo",
@@ -5569,6 +6094,13 @@ var NYX_DB = {
             "id": "1510",
             "name": "Xianyun",
             "title": "\"Passerine Herald\" Xianyun",
+            "description": "Chivalrous shadow, shrouded in cloud.",
+            "localizedNames": {
+              "en": "Xianyun",
+              "zh": "\u95f2\u4e91",
+              "ja": "\u9591\u96f2",
+              "ko": "\ud55c\uc6b4"
+            },
             "type": "Character",
             "tags": [
               "Anemo",
@@ -5583,6 +6115,13 @@ var NYX_DB = {
             "id": "1511",
             "name": "Chasca",
             "title": "\"Skyborne Arbiter\" Chasca",
+            "description": "Grace and power resound, feathered wings skybound.",
+            "localizedNames": {
+              "en": "Chasca",
+              "zh": "\u6070\u65af\u5361",
+              "ja": "\u30c1\u30e3\u30b9\u30ab",
+              "ko": "\ucc28\uc2a4\uce74"
+            },
             "type": "Character",
             "tags": [
               "Anemo",
@@ -5597,6 +6136,13 @@ var NYX_DB = {
             "id": "1512",
             "name": "Lan Yan",
             "title": "\"Spring Woven From Jade\" Lan Yan",
+            "description": "The brilliant swallow bears branches of joy to fill the home.",
+            "localizedNames": {
+              "en": "Lan Yan",
+              "zh": "\u84dd\u781a",
+              "ja": "\u85cd\u786f",
+              "ko": "\ub0a8\uc5f0"
+            },
             "type": "Character",
             "tags": [
               "Anemo",
@@ -5611,6 +6157,13 @@ var NYX_DB = {
             "id": "1513",
             "name": "Shikanoin Heizou",
             "title": "\"Analytical Harmony\" Shikanoin Heizou",
+            "description": "The heavenly robes, though seamlessly sewn, still fear the winds that with coldness are blown.",
+            "localizedNames": {
+              "en": "Shikanoin Heizou",
+              "zh": "\u9e7f\u91ce\u9662\u5e73\u85cf",
+              "ja": "\u9e7f\u91ce\u9662\u5e73\u8535",
+              "ko": "\uc2dc\uce74\ub178\uc778 \ud5e4\uc774\uc870"
+            },
             "type": "Character",
             "tags": [
               "Anemo",
@@ -5625,6 +6178,13 @@ var NYX_DB = {
             "id": "1514",
             "name": "Yumemizuki Mizuki",
             "title": "\"Embrace of Enchanting Dreams\" Yumemizuki Mizuki",
+            "description": "Clouds of doubt depart, moonlight amidst dreams unveiled, to grace dreamers' hearts.",
+            "localizedNames": {
+              "en": "Yumemizuki Mizuki",
+              "zh": "\u68a6\u89c1\u6708\u745e\u5e0c",
+              "ja": "\u5922\u898b\u6708\u745e\u5e0c",
+              "ko": "\uc720\uba54\ubbf8\uc988\ud0a4 \ubbf8\uc988\ud0a4"
+            },
             "type": "Character",
             "tags": [
               "Anemo",
@@ -5639,6 +6199,13 @@ var NYX_DB = {
             "id": "1515",
             "name": "Ifa",
             "title": "\"In the Wake of Wandering Winds\" Ifa",
+            "description": "Rescue rapid as a raid.",
+            "localizedNames": {
+              "en": "Ifa",
+              "zh": "\u4f0a\u6cd5",
+              "ja": "\u30a4\u30d5\u30a1",
+              "ko": "\uc774\ud30c"
+            },
             "type": "Character",
             "tags": [
               "Anemo",
@@ -5653,6 +6220,13 @@ var NYX_DB = {
             "id": "1601",
             "name": "Ningguang",
             "title": "\"Eclipsing Star\" Ningguang",
+            "description": "The greatest secret she keeps is that she keeps a great many of Liyue's secrets.",
+            "localizedNames": {
+              "en": "Ningguang",
+              "zh": "\u51dd\u5149",
+              "ja": "\u51dd\u5149",
+              "ko": "\uc751\uad11"
+            },
             "type": "Character",
             "tags": [
               "Geo",
@@ -5667,6 +6241,13 @@ var NYX_DB = {
             "id": "1602",
             "name": "Noelle",
             "title": "\"Chivalric Blossom\" Noelle",
+            "description": "You can leave arranging the table to her \u2014 really, you can.",
+            "localizedNames": {
+              "en": "Noelle",
+              "zh": "\u8bfa\u827e\u5c14",
+              "ja": "\u30ce\u30a8\u30eb",
+              "ko": "\ub178\uc5d8"
+            },
             "type": "Character",
             "tags": [
               "Geo",
@@ -5681,6 +6262,13 @@ var NYX_DB = {
             "id": "1603",
             "name": "Zhongli",
             "title": "\"Vago Mundo\" Zhongli",
+            "description": "A hidden gemstone can illuminate the whole earth, bright and unrivaled as a star.",
+            "localizedNames": {
+              "en": "Zhongli",
+              "zh": "\u949f\u79bb",
+              "ja": "\u937e\u96e2",
+              "ko": "\uc885\ub824"
+            },
             "type": "Character",
             "tags": [
               "Geo",
@@ -5695,6 +6283,13 @@ var NYX_DB = {
             "id": "1604",
             "name": "Albedo",
             "title": "\"Kreideprinz\" Albedo",
+            "description": "Nigredo and calx, rubedo and citrinitas.",
+            "localizedNames": {
+              "en": "Albedo",
+              "zh": "\u963f\u8d1d\u591a",
+              "ja": "\u30a2\u30eb\u30d9\u30c9",
+              "ko": "\uc54c\ubca0\ub3c4"
+            },
             "type": "Character",
             "tags": [
               "Geo",
@@ -5709,6 +6304,13 @@ var NYX_DB = {
             "id": "1605",
             "name": "Arataki Itto",
             "title": "\"Hanamizaka Heroics\" Arataki Itto",
+            "description": "Arataki \"The Ultimate TCG Champion\" Itto",
+            "localizedNames": {
+              "en": "Arataki Itto",
+              "zh": "\u8352\u6cf7\u4e00\u6597",
+              "ja": "\u8352\u7027\u4e00\u6597",
+              "ko": "\uc544\ub77c\ud0c0\ud0a4 \uc774\ud1a0"
+            },
             "type": "Character",
             "tags": [
               "Geo",
@@ -5723,6 +6325,13 @@ var NYX_DB = {
             "id": "1606",
             "name": "Gorou",
             "title": "\"Canine Warrior\" Gorou",
+            "description": "The leader of the pack, leading the soldiers onward!",
+            "localizedNames": {
+              "en": "Gorou",
+              "zh": "\u4e94\u90ce",
+              "ja": "\u30b4\u30ed\u30fc",
+              "ko": "\uace0\ub85c"
+            },
             "type": "Character",
             "tags": [
               "Geo",
@@ -5737,6 +6346,13 @@ var NYX_DB = {
             "id": "1607",
             "name": "Yun Jin",
             "title": "\"Stage Lucida\" Yun Jin",
+            "description": "Elegance on the stage, in decorous harmony.",
+            "localizedNames": {
+              "en": "Yun Jin",
+              "zh": "\u4e91\u5807",
+              "ja": "\u96f2\u83eb",
+              "ko": "\uc6b4\uadfc"
+            },
             "type": "Character",
             "tags": [
               "Geo",
@@ -5751,6 +6367,13 @@ var NYX_DB = {
             "id": "1608",
             "name": "Navia",
             "title": "Helm of the Radiant Rose: Navia",
+            "description": "\"The Soaring Yellow Rose.\"",
+            "localizedNames": {
+              "en": "Navia",
+              "zh": "\u5a1c\u7ef4\u5a05",
+              "ja": "\u30ca\u30f4\u30a3\u30a2",
+              "ko": "\ub098\ube44\uc544"
+            },
             "type": "Character",
             "tags": [
               "Geo",
@@ -5766,6 +6389,13 @@ var NYX_DB = {
             "id": "1609",
             "name": "Chiori",
             "title": "\"The Thundering Seamstress\" Chiori",
+            "description": "Couturiere of Countless Colors",
+            "localizedNames": {
+              "en": "Chiori",
+              "zh": "\u5343\u7ec7",
+              "ja": "\u5343\u7e54",
+              "ko": "\uce58\uc624\ub9ac"
+            },
             "type": "Character",
             "tags": [
               "Geo",
@@ -5780,6 +6410,13 @@ var NYX_DB = {
             "id": "1610",
             "name": "Kachina",
             "title": "\"Mottled Gold Yet Unsmelted\" Kachina",
+            "description": "Wrought of tears and mettle.",
+            "localizedNames": {
+              "en": "Kachina",
+              "zh": "\u5361\u9f50\u5a1c",
+              "ja": "\u30ab\u30c1\u30fc\u30ca",
+              "ko": "\uce74\uce58\ub098"
+            },
             "type": "Character",
             "tags": [
               "Geo",
@@ -5794,6 +6431,13 @@ var NYX_DB = {
             "id": "1611",
             "name": "Xilonen",
             "title": "\"Ardent Flames Forge the Soul\" Xilonen",
+            "description": "The peaks resound, their golden veins gleaming.",
+            "localizedNames": {
+              "en": "Xilonen",
+              "zh": "\u5e0c\u8bfa\u5b81",
+              "ja": "\u30b7\u30ed\u30cd\u30f3",
+              "ko": "\uc2e4\ub85c\ub2cc"
+            },
             "type": "Character",
             "tags": [
               "Geo",
@@ -5808,6 +6452,13 @@ var NYX_DB = {
             "id": "1701",
             "name": "Collei",
             "title": "\"Sprout of Rebirth\" Collei",
+            "description": "\"'Shouting the name of your card loudly will increase its power many-fold'... You've got to be kidding, right?\"",
+            "localizedNames": {
+              "en": "Collei",
+              "zh": "\u67ef\u83b1",
+              "ja": "\u30b3\u30ec\u30a4",
+              "ko": "\ucf5c\ub808\uc774"
+            },
             "type": "Character",
             "tags": [
               "Dendro",
@@ -5822,6 +6473,13 @@ var NYX_DB = {
             "id": "1702",
             "name": "Tighnari",
             "title": "\"Verdant Strider\" Tighnari",
+            "description": "From a certain perspective, experience does not hold parity with wisdom.",
+            "localizedNames": {
+              "en": "Tighnari",
+              "zh": "\u63d0\u7eb3\u91cc",
+              "ja": "\u30c6\u30a3\u30ca\u30ea",
+              "ko": "\ud0c0\uc774\ub098\ub9ac"
+            },
             "type": "Character",
             "tags": [
               "Dendro",
@@ -5836,6 +6494,13 @@ var NYX_DB = {
             "id": "1703",
             "name": "Nahida",
             "title": "\"Physic of Purity\" Nahida",
+            "description": "The panacea brings purity, and from the palace depths is spring renewed.",
+            "localizedNames": {
+              "en": "Nahida",
+              "zh": "\u7eb3\u897f\u59b2",
+              "ja": "\u30ca\u30d2\u30fc\u30c0",
+              "ko": "\ub098\ud788\ub2e4"
+            },
             "type": "Character",
             "tags": [
               "Dendro",
@@ -5850,6 +6515,13 @@ var NYX_DB = {
             "id": "1704",
             "name": "Yaoyao",
             "title": "\"Burgeoning Grace\" Yaoyao",
+            "description": "An adeptal constitution.",
+            "localizedNames": {
+              "en": "Yaoyao",
+              "zh": "\u7476\u7476",
+              "ja": "\u30e8\u30a9\u30fc\u30e8",
+              "ko": "\uc694\uc694"
+            },
             "type": "Character",
             "tags": [
               "Dendro",
@@ -5864,6 +6536,13 @@ var NYX_DB = {
             "id": "1705",
             "name": "Baizhu",
             "title": "\"Beyond Mortality\" Baizhu",
+            "description": "Living with many maladies, where will one find a cure?",
+            "localizedNames": {
+              "en": "Baizhu",
+              "zh": "\u767d\u672f",
+              "ja": "\u767d\u672e",
+              "ko": "\ubc31\ucd9c"
+            },
             "type": "Character",
             "tags": [
               "Dendro",
@@ -5878,6 +6557,13 @@ var NYX_DB = {
             "id": "1706",
             "name": "Alhaitham",
             "title": "\"Admonishing Instruction\" Alhaitham",
+            "description": "Learning, thinking, and taking care of business.",
+            "localizedNames": {
+              "en": "Alhaitham",
+              "zh": "\u827e\u5c14\u6d77\u68ee",
+              "ja": "\u30a2\u30eb\u30cf\u30a4\u30bc\u30f3",
+              "ko": "\uc54c\ud558\uc774\ud0d0"
+            },
             "type": "Character",
             "tags": [
               "Dendro",
@@ -5892,6 +6578,13 @@ var NYX_DB = {
             "id": "1707",
             "name": "Kirara",
             "title": "\"Cat Upon the Eaves\" Kirara",
+            "description": "On tails twain and padded feet, to all doors shall she deliver.",
+            "localizedNames": {
+              "en": "Kirara",
+              "zh": "\u7eee\u826f\u826f",
+              "ja": "\u7dba\u826f\u3005",
+              "ko": "\ud0a4\ub77c\ub77c"
+            },
             "type": "Character",
             "tags": [
               "Dendro",
@@ -5906,6 +6599,13 @@ var NYX_DB = {
             "id": "1708",
             "name": "Kaveh",
             "title": "\"Empyrean Reflection\" Kaveh",
+            "description": "Knowledge of comprehension, benevolence, and aesthetics.",
+            "localizedNames": {
+              "en": "Kaveh",
+              "zh": "\u5361\u7ef4",
+              "ja": "\u30ab\u30fc\u30f4\u30a7",
+              "ko": "\uce74\ubca0"
+            },
             "type": "Character",
             "tags": [
               "Dendro",
@@ -5920,6 +6620,13 @@ var NYX_DB = {
             "id": "1709",
             "name": "Kinich",
             "title": "\"Turnfire Hunt\" Kinich",
+            "description": "Fulfiller of Commissions, Flame Bearer of the Canopy.",
+            "localizedNames": {
+              "en": "Kinich",
+              "zh": "\u57fa\u5c3c\u5947",
+              "ja": "\u30ad\u30a3\u30cb\u30c1",
+              "ko": "\ud0a4\ub2c8\uce58"
+            },
             "type": "Character",
             "tags": [
               "Dendro",
@@ -5934,6 +6641,13 @@ var NYX_DB = {
             "id": "1710",
             "name": "Emilie",
             "title": "\"A Thousand Scents Traced\" Emilie",
+            "description": "Like fragrance fading, like mist dissipating.",
+            "localizedNames": {
+              "en": "Emilie",
+              "zh": "\u827e\u6885\u8389\u57c3",
+              "ja": "\u30a8\u30df\u30ea\u30a8",
+              "ko": "\uc5d0\ubc00\ub9ac"
+            },
             "type": "Character",
             "tags": [
               "Dendro",
@@ -5949,6 +6663,13 @@ var NYX_DB = {
             "id": "1711",
             "name": "Lauma",
             "title": "\"Evermoon's Sacrament Song\" Lauma",
+            "description": "The mirrored moon fractures in the water.",
+            "localizedNames": {
+              "en": "Lauma",
+              "zh": "\u83c8\u4e4c\u739b",
+              "ja": "\u30e9\u30a6\u30de",
+              "ko": "\ub77c\uc6b0\ub9c8"
+            },
             "type": "Character",
             "tags": [
               "Dendro",
@@ -5963,6 +6684,13 @@ var NYX_DB = {
             "id": "1712",
             "name": "Nefer",
             "title": "\"Secret Beneath the Sands\" Nefer",
+            "description": "Seeking hidden secrets, to know all hearts.",
+            "localizedNames": {
+              "en": "Nefer",
+              "zh": "\u5948\u8299\u5c14",
+              "ja": "\u30cd\u30d5\u30a7\u30eb",
+              "ko": "\ub124\ud398\ub974"
+            },
             "type": "Character",
             "tags": [
               "Dendro",
@@ -5977,329 +6705,244 @@ var NYX_DB = {
         ],
         "otherCards": [
           {
-            "id": "1506",
-            "name": "#{REALNAME[ID(1) DELAYHANDLE(true)]}",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/1506-#{REALNAME[ID(1)_DELAYHANDLE(true)]}.webp",
-            "source": "Nanoka"
-          },
-          {
             "id": "332054",
-            "name": "A Blessing From 'M'",
-            "title": null,
+            "name": "\"A Blessing From 'M'\"",
+            "title": "\"A Blessing From 'M'\"",
+            "description": "\"Go forth and witness this world, my child... Make sure to be nice to everyone...\\nYou'll meet good friends one day, I'm sure of it... That is my wish for your future.\"",
+            "localizedNames": {
+              "en": "\"A Blessing From 'M'\"",
+              "zh": "\u300c\u9b54\u5973M\u7684\u795d\u798f\u300d",
+              "ja": "\u300c\u9b54\u5973M\u304b\u3089\u306e\u795d\u798f\u300d",
+              "ko": "\u300c\ub9c8\ub140M\uc758 \ucd95\ubcf5\u300d"
+            },
             "type": "Action",
-            "tags": [],
+            "tags": [
+              "Simulanka"
+            ],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332054-_A Blessing From 'M'_.webp",
             "source": "Nanoka"
           },
           {
-            "id": "330001",
-            "name": "Ancient Courtyard",
-            "title": null,
+            "id": "332059",
+            "name": "\"An Adventure Through the Morning Mist\"",
+            "title": "\"An Adventure Through the Morning Mist\"",
+            "description": "\"...I won't let you get it! Because we're going to stop your plan, right here!\"",
+            "localizedNames": {
+              "en": "\"An Adventure Through the Morning Mist\"",
+              "zh": "\u300c\u7a7f\u8d8a\u6668\u972d\u7684\u5192\u9669\u300d",
+              "ja": "\u300c\u671d\u9727\u3092\u8d8a\u3048\u305f\u5192\u967a\u300d",
+              "ko": "\u300c\uc0c8\ubcbd \uc548\uac1c\ub97c \ub118\uc5b4\u300d"
+            },
             "type": "Action",
             "tags": [],
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330001-Ancient Courtyard.webp",
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332059-_An Adventure Through the Morning Mist_.webp",
             "source": "Nanoka"
           },
           {
-            "id": "332045",
-            "name": "Art of Sleepy Meditation",
-            "title": null,
+            "id": "321028",
+            "name": "\"Collective of Plenty\"",
+            "title": "\"Collective of Plenty\"",
+            "description": "A tribe that prizes strength and muscular physiques, it's said that nearly every member regularly works out.",
+            "localizedNames": {
+              "en": "\"Collective of Plenty\"",
+              "zh": "\u300c\u6c83\u9646\u4e4b\u90a6\u300d",
+              "ja": "\u300c\u8c4a\u7a63\u306e\u90a6\u300d",
+              "ko": "\u300c\ube44\uc625\ud55c \ud130\uc804\u300d"
+            },
             "type": "Action",
-            "tags": [],
+            "tags": [
+              "Location"
+            ],
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332045-Art of Sleepy Meditation.webp",
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321028-_Collective of Plenty_.webp",
             "source": "Nanoka"
           },
           {
-            "id": "332050",
-            "name": "Awesome, Bro",
-            "title": null,
+            "id": "321026",
+            "name": "\"Flower-Feather Clan\"",
+            "title": "\"Flower-Feather Clan\"",
+            "description": "A tribe of Qucusaur Riders \u2014 swift and aloof \u2014 who venerate the Wayob who dictate the flow of heat and scorching winds...\\nEvery day, members of the tribe fly with the Qucusaurs, patrolling their territory from the air.",
+            "localizedNames": {
+              "en": "\"Flower-Feather Clan\"",
+              "zh": "\u300c\u82b1\u7fbd\u4f1a\u300d",
+              "ja": "\u300c\u82b1\u7ffc\u306e\u96c6\u300d",
+              "ko": "\u300c\uaf43\uae43\ud68c\u300d"
+            },
             "type": "Action",
-            "tags": [],
+            "tags": [
+              "Location"
+            ],
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332050-Awesome, Bro.webp",
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321026-_Flower-Feather Clan_.webp",
             "source": "Nanoka"
           },
           {
-            "id": "332011",
-            "name": "Blessing of the Divine Relic's Installation",
-            "title": null,
+            "id": "212111",
+            "name": "\"Hear Me \u2014 Let Us Raise the Chalice of Love!\"",
+            "title": "Furina: Hear Me \u2014 Let Us Raise the Chalice of Love!",
+            "description": "\"Let the world come alive, hehe!\"",
+            "localizedNames": {
+              "en": "\"Hear Me \u2014 Let Us Raise the Chalice of Love!\"",
+              "zh": "\u300c\u8bf8\u541b\u542c\u6211\u9882\uff0c\u5171\u4e3e\u7231\u4e4b\u676f\uff01\u300d",
+              "ja": "\u300c\u50d5\u306e\u6b4c\u3092\u8074\u304d\u305f\u307e\u3048\u2014\u2014\u3055\u3042 \u611b\u306e\u676f\u3092\u63b2\u3052\u3088\u3046\uff01\u300d",
+              "ko": "\u300c\ubaa8\ub450 \uc0ac\ub791\uc758 \ucd95\ubc30\ub97c \ub4e4\ub834!\u300d"
+            },
             "type": "Action",
-            "tags": [],
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332011-Blessing of the Divine Relic's Installation.webp",
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212111-_Hear Me \u2014 Let Us Raise the Chalice of Love!_.webp",
             "source": "Nanoka"
           },
           {
-            "id": "332002",
-            "name": "Changing Shifts",
-            "title": null,
+            "id": "213151",
+            "name": "\"Humanity's Name\" Unfettered",
+            "title": "Mavuika: \"Humanity's Name\" Unfettered",
+            "description": "\"Light of the blazing sun!\"",
+            "localizedNames": {
+              "en": "\"Humanity's Name\" Unfettered",
+              "zh": "\u300c\u4eba\u4e4b\u540d\u300d\u89e3\u653e",
+              "ja": "\u300c\u4eba\u306e\u540d\u300d\u89e3\u653e",
+              "ko": "\u300c\uc778\uac04\uc758 \uc774\ub984\u300d \ud574\ubc29"
+            },
             "type": "Action",
-            "tags": [],
+            "tags": [
+              "Talent"
+            ],
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332002-Changing Shifts.webp",
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213151-_Humanity's Name_ Unfettered.webp",
             "source": "Nanoka"
           },
           {
-            "id": "332062",
-            "name": "Cleaning Time",
-            "title": null,
+            "id": "332036",
+            "name": "\"I'd Rather Lose Money Myself...\"",
+            "title": "\"I'd Rather Lose Money Myself...\"",
+            "description": "\"...than see that rascal make some!\"",
+            "localizedNames": {
+              "en": "\"I'd Rather Lose Money Myself...\"",
+              "zh": "\u300c\u770b\u5230\u90a3\u5c0f\u5b50\u6323\u94b1\u2026\u300d",
+              "ja": "\u300c\u3042\u3044\u3064\u3089\u304c\u91d1\u3092\u7a3c\u3050\u3053\u3068\u306f\u2026\u300d",
+              "ko": "\u300c\uadf8 \uc790\uc2dd\uc774 \ub3c8\uc744 \ubc84\ub294 \uac8c\u2026\u300d"
+            },
             "type": "Action",
             "tags": [],
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332062-Cleaning Time.webp",
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332036-_I'd Rather Lose Money Myself..._.webp",
             "source": "Nanoka"
           },
           {
-            "id": "332032",
-            "name": "Countdown to the Show 3",
-            "title": null,
+            "id": "321027",
+            "name": "\"Masters of the Night-Wind\"",
+            "title": "\"Masters of the Night-Wind\"",
+            "description": "A tribe renowned for its mastery of the arcane arts. It is said that in their domain, one can listen to the echoes of the silent kingdom of the night.",
+            "localizedNames": {
+              "en": "\"Masters of the Night-Wind\"",
+              "zh": "\u300c\u70df\u8c1c\u4e3b\u300d",
+              "ja": "\u300c\u8b0e\u7159\u306e\u4e3b\u300d",
+              "ko": "\u300c\uc5f0\uae30 \uc8fc\uc778\u300d"
+            },
             "type": "Action",
-            "tags": [],
+            "tags": [
+              "Location"
+            ],
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332032-Countdown to the Show_ 3.webp",
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321027-_Masters of the Night-Wind_.webp",
             "source": "Nanoka"
           },
           {
-            "id": "330002",
-            "name": "Covenant of Rock",
-            "title": null,
+            "id": "217111",
+            "name": "\"O Lips, Weave Me Songs and Psalms\"",
+            "title": "Lauma: \"O Lips, Weave Me Songs and Psalms\"",
+            "description": "\"With one heart, we pray.\"",
+            "localizedNames": {
+              "en": "\"O Lips, Weave Me Songs and Psalms\"",
+              "zh": "\u300c\u5507\u554a\uff0c\u4e3a\u6211\u7eba\u51fa\u6b4c\u4e0e\u541f\u54e6\u300d",
+              "ja": "\u300c\u5507\u3088\u6b4c\u3092\u7d21\u304e\u3066\u8a69\u3092\u7e54\u308a\u306a\u305b\u300d",
+              "ko": "\u300c\uc785\uc220\uc774\uc5ec, \ub098\ub97c \uc704\ud574 \uc2dc\uc640 \ub178\ub798\ub85c\u300d"
+            },
             "type": "Action",
-            "tags": [],
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330002-Covenant of Rock.webp",
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217111-_O Lips, Weave Me Songs and Psalms_.webp",
             "source": "Nanoka"
           },
           {
-            "id": "330009",
-            "name": "Edict of Absolution",
-            "title": null,
+            "id": "226041",
+            "name": "\"Once Stood Against the Tide of Dark Waters Like Bedrock...\"",
+            "title": "\"Once Stood Against the Tide of Dark Waters Like Bedrock...\"",
+            "description": "\"And in the realm's darkest hour, those who had to protect their homeland had little room to be fussy anyway.\"",
+            "localizedNames": {
+              "en": "\"Once Stood Against the Tide of Dark Waters Like Bedrock...\"",
+              "zh": "\u300c\u66fe\u5982\u78d0\u77f3\u62b5\u6321\u9ed1\u6c34\u5954\u6d41\u2026\u300d",
+              "ja": "\u300c\u304b\u3064\u3066\u3001\u9ed2\u6c34\u306e\u5954\u6d41\u3092\u906e\u3063\u305f\u78d0\u77f3\u306e\u5982\u304f\u2026\u300d",
+              "ko": "\u300c\uac80\uc740 \uaca9\ub958\ub97c \ub9c9\uc740 \ubc18\uc11d\u2026\u300d"
+            },
             "type": "Action",
-            "tags": [],
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330009-Edict of Absolution.webp",
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/226041-_Once Stood Against the Tide of Dark Waters Like Bedrock..._.webp",
             "source": "Nanoka"
           },
           {
-            "id": "331806",
-            "name": "Fire and War",
-            "title": null,
+            "id": "225041",
+            "name": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
+            "title": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
+            "description": "\"When a kingdom's glory has all but faded, warriors who still hold honor in their hearts often find themselves led, by different roads, to the same choice...\"",
+            "localizedNames": {
+              "en": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
+              "zh": "\u300c\u66fe\u5982\u5b64\u98ce\u963b\u9694\u9ed1\u707e\u8513\u5ef6\u2026\u300d",
+              "ja": "\u300c\u304b\u3064\u3066\u5b64\u72ec\u306a\u98a8\u304c\u6f06\u9ed2\u306e\u707d\u3044\u3092\u6b62\u3081\u305f\u3088\u3046\u306b\u2026\u300d",
+              "ko": "\u300c\uac80\uc740 \uc7ac\uc559\uc744 \ub9c9\uc740 \uace0\ub3c5\ud55c \ubc14\ub78c\u2026\u300d"
+            },
             "type": "Action",
-            "tags": [],
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331806-Fire and War.webp",
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/225041-_Once, the Lone Wind That Kept the Dark Calamity at Bay..._.webp",
             "source": "Nanoka"
           },
           {
-            "id": "332046",
-            "name": "Flying Squad, Attack!",
-            "title": null,
+            "id": "321025",
+            "name": "\"People of the Springs\"",
+            "title": "\"People of the Springs\"",
+            "description": "Natlan's best vacation destination, and a happy home for the Koholasaurus and hot spring enthusiasts!",
+            "localizedNames": {
+              "en": "\"People of the Springs\"",
+              "zh": "\u300c\u6d41\u6cc9\u4e4b\u4f17\u300d",
+              "ja": "\u300c\u6d41\u6cc9\u306e\u8846\u300d",
+              "ko": "\u300c\uc0d8\ubb3c \ubb34\ub9ac\u300d"
+            },
             "type": "Action",
-            "tags": [],
+            "tags": [
+              "Location"
+            ],
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332046-Flying Squad, Attack!.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "330004",
-            "name": "Fresh Wind of Freedom",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330004-Fresh Wind of Freedom.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "332048",
-            "name": "Fruits of Training",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332048-Fruits of Training.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "332060",
-            "name": "Genius's Upgrade Technique",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332060-Genius's Upgrade Technique.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "332014",
-            "name": "Guardian's Oath",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332014-Guardian's Oath.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "332049",
-            "name": "Harvest Time",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332049-Harvest Time.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "332018",
-            "name": "Heavy Strike",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332018-Heavy Strike.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "332005",
-            "name": "I Haven't Lost Yet!",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332005-I Haven't Lost Yet!.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "1515",
-            "name": "Ifa",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/1515-Ifa.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "330005",
-            "name": "In Every House a Stove",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330005-In Every House a Stove.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "332044",
-            "name": "In the Name of the Extreme",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332044-In the Name of the Extreme.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "332006",
-            "name": "Leave it to Me!",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332006-Leave it to Me!.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "330012",
-            "name": "Lost Legacies in the Sand",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330012-Lost Legacies in the Sand.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "332010",
-            "name": "Master of Weaponry",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332010-Master of Weaponry.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "331807",
-            "name": "Moon and Homeland",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331807-Moon and Homeland.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "332052",
-            "name": "Narration Footnotes",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332052-Narration Footnotes.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "331804",
-            "name": "Nature and Wisdom",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331804-Nature and Wisdom.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "330006",
-            "name": "Passing of Judgment",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330006-Passing of Judgment.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "330010",
-            "name": "Pilgrimage of the Return of the Sacred Flame",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330010-Pilgrimage of the Return of the Sacred Flame.webp",
-            "source": "Nanoka"
-          },
-          {
-            "id": "332012",
-            "name": "Quick Knit",
-            "title": null,
-            "type": "Action",
-            "tags": [],
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332012-Quick Knit.webp",
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321025-_People of the Springs_.webp",
             "source": "Nanoka"
           },
           {
             "id": "332055",
-            "name": "Revelrous Beats",
-            "title": null,
+            "name": "\"Revelrous Beats\"",
+            "title": "\"Revelrous Beats\"",
+            "description": "\"Come on! Follow the beat!\"",
+            "localizedNames": {
+              "en": "\"Revelrous Beats\"",
+              "zh": "\u300c\u72c2\u6b22\u8282\u594f\u300d",
+              "ja": "\u300c\u30d5\u30a7\u30b9\u306e\u30ea\u30ba\u30e0\u300d",
+              "ko": "\u300c\ucd95\uc81c\uc758 \ub9ac\ub4ec\u300d"
+            },
             "type": "Action",
             "tags": [],
             "playableCharacter": null,
@@ -6307,9 +6950,6884 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "321024",
+            "name": "\"Scions of the Canopy\"",
+            "title": "\"Scions of the Canopy\"",
+            "description": "\"Legend has it that the warriors of the Scions of the Canopy, along with one hundred Yumkasaurs, spent a hundred days and a hundred ropes moving the 'Obsidian Totem Pole,' the symbol of their faith, to its current location.\"",
+            "localizedNames": {
+              "en": "\"Scions of the Canopy\"",
+              "zh": "\u300c\u60ac\u6728\u4eba\u300d",
+              "ja": "\u300c\u61f8\u6728\u306e\u6c11\u300d",
+              "ko": "\u300c\ub098\ubb34\uc0b4\uc774\u300d"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321024-_Scions of the Canopy_.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311308",
+            "name": "\"Ultimate Overlord's Mega Magic Sword\"",
+            "title": "Melussistance! \"Ultimate Overlord's Mega Magic Sword\"",
+            "description": "\"... Uh, what? A cheap cardboard claymore? No, no, no, this is... Well, it's... the Ultimate Overlord's Mega Magic Sword, once used to triumph over the Crab Emperor!\"\\nAfter some discussion, the Melusines reached a consensus. This, the mightiest sword in Merusea Village, that had shone so illustriously in the shadowed mists of the past, should be given to an unparalleled hero, as a memorial to their friendship.",
+            "localizedNames": {
+              "en": "\"Ultimate Overlord's Mega Magic Sword\"",
+              "zh": "\u300c\u7a76\u6781\u9738\u738b\u8d85\u7ea7\u9b54\u5251\u300d",
+              "ja": "\u300c\u30b9\u30fc\u30d1\u30fc\u30a2\u30eb\u30c6\u30a3\u30e1\u30c3\u30c8\u8987\u738b\u9b54\u5263\u300d",
+              "ko": "\u300c\uc288\ud37c \uc6b8\ud2b8\ub77c \ud328\uc655 \ub9c8\uac80\u300d"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Claymore"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311308-_Ultimate Overlord's Mega Magic Sword_.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215081",
+            "name": "A Cold Blade Like a Shadow",
+            "title": "Lynette: A Cold Blade Like a Shadow",
+            "description": "\"Step on up!\"",
+            "localizedNames": {
+              "en": "A Cold Blade Like a Shadow",
+              "zh": "\u5982\u5f71\u6d41\u9732\u7684\u51b7\u5203",
+              "ja": "\u6d41\u5f71\u5e7b\u8996\u306e\u51b7\u5203",
+              "ko": "\uc11c\ub298\ud55c \uadf8\ub9bc\uc790 \uac80"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215081-A Cold Blade Like a Shadow.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214151",
+            "name": "A Hero of Justice's Triumph",
+            "title": "Varesa: A Hero of Justice's Triumph",
+            "description": "\"Ultimate flying kick!\"",
+            "localizedNames": {
+              "en": "A Hero of Justice's Triumph",
+              "zh": "\u6b63\u4e49\u82f1\u96c4\u7684\u51ef\u65cb",
+              "ja": "\u6b63\u7fa9\u306e\u30d2\u30fc\u30ed\u30fc\u306e\u51f1\u65cb",
+              "ko": "\ud788\uc5b4\ub85c\uc758 \uc2b9\ub9ac"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214151-A Hero of Justice's Triumph.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213111",
+            "name": "A Subordinate's Skills",
+            "title": "Thoma: A Subordinate's Skills",
+            "description": "\"It looks like I'm responsible for another smile.\"",
+            "localizedNames": {
+              "en": "A Subordinate's Skills",
+              "zh": "\u50da\u4f50\u7684\u624d\u5de7",
+              "ja": "\u5b98\u540f\u306e\u624d\u77e5",
+              "ko": "\ubcf4\uc88c\uad00\uc758 \uc7ac\uc8fc"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213111-A Subordinate's Skills.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211101",
+            "name": "A Summation of Interest",
+            "title": "Charlotte: A Summation of Interest",
+            "description": "\"Breaking news!\"",
+            "localizedNames": {
+              "en": "A Summation of Interest",
+              "zh": "\u4ee5\u6709\u8da3\u76f8\u5173\u4e3a\u8981\u4e49",
+              "ja": "\u597d\u5947\u3092\u4ee5\u3066\u8981\u7fa9\u3068\u70ba\u3059",
+              "ko": "\ud765\ubbf8 \ucd94\uad6c\uc758 \uc694\uc9c0"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211101-A Summation of Interest.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311104",
+            "name": "A Thousand Floating Dreams",
+            "title": "A Thousand Nights' Dawnsong: A Thousand Floating Dreams",
+            "description": "\"There is an appointed time for all things to live and die, just like the ceaseless cycles of night and dawn.\"\\n\"May the stories within this lamp grant you dreams worth looking forward to.\"",
+            "localizedNames": {
+              "en": "A Thousand Floating Dreams",
+              "zh": "\u5343\u591c\u6d6e\u68a6",
+              "ja": "\u5343\u591c\u306b\u6d6e\u304b\u3076\u5922",
+              "ko": "\ub5a0\uc624\ub974\ub294 \ucc9c\uc77c \ubc24\uc758 \uafc8"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Catalyst"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311104-A Thousand Floating Dreams.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "227021",
+            "name": "A Thousand Young",
+            "title": "Guardian of Apep's Oasis: A Thousand Young",
+            "description": "Apep once walked through an ocean of fragrant grass, gigantic trees, and unimaginably long vines like a fish with its many offspring swimming through the sea. Finally, the grass, trees, and vines withered and turned to dust, while countless beings as minute as grains of gravel built a fragile kingdom upon Apep's land.\\nApep and its offspring made the sea of sand rage like boiling water and swept houses down as if they were falling leaves. Until the day when the new Lord of Sand reconciled with the king who lost their homeland, the dunes under the sun belonged to humanity, while the dragon's oasis remained in the hearts of the dragons.\\nApep shared the knowledge of evolution with its many offspring, because spreading knowledge ensures dissemination while the stagnation of hoarded wisdom courted only decay. Till the day the promise between it and the Lord of Sand was finally attained, with ultimate wisdom claimed. Henceforth, it reaped only sights of oblivion, of an endless calamity...",
+            "localizedNames": {
+              "en": "A Thousand Young",
+              "zh": "\u4e07\u5343\u5b50\u55e3",
+              "ja": "\u5e7e\u5343\u4e07\u306e\u5b50\u5b6b",
+              "ko": "\uc218\ub9ce\uc740 \uc790\uc190"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/227021-A Thousand Young.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "224011",
+            "name": "Absorbing Prism",
+            "title": "Electro Hypostasis: Absorbing Prism",
+            "description": "\"Here's our chance!\"\\n\"Hey, it's on our side!\"",
+            "localizedNames": {
+              "en": "Absorbing Prism",
+              "zh": "\u6c72\u80fd\u68f1\u6676",
+              "ja": "\u30a8\u30cd\u30eb\u30ae\u30fc\u5438\u53ce\u30d7\u30ea\u30ba\u30e0",
+              "ko": "\uc5d0\ub108\uc9c0 \ud761\uc218 \uacb0\uc815"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224011-Absorbing Prism.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332042",
+            "name": "Abundant Phlogiston",
+            "title": "Abundant Phlogiston",
+            "description": "A special high-temperature thermal energy that can be found throughout Natlan. It comes in all shapes and sizes, and has many wondrous uses...\\nAfter Nightsoul points are fully depleted, warriors will switch to consuming Phlogiston to maintain their Nightsoul's Blessing.",
+            "localizedNames": {
+              "en": "Abundant Phlogiston",
+              "zh": "\u71c3\u7d20\u5145\u76c8",
+              "ja": "\u71c3\u7d20\u6e80\u30bf\u30f3",
+              "ko": "\uc5f4\uc18c \ucda9\ub9cc"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332042-Abundant Phlogiston.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2203",
+            "name": "Abyss Herald: Wicked Torrents",
+            "title": "Abyss Herald: Wicked Torrents",
+            "description": "The world shall be severed, and all shall be obliterated.",
+            "localizedNames": {
+              "en": "Abyss Herald: Wicked Torrents",
+              "zh": "\u6df1\u6e0a\u4f7f\u5f92\u00b7\u6fc0\u6d41",
+              "ja": "\u30a2\u30d3\u30b9\u306e\u4f7f\u5f92\u00b7\u6fc0\u6d41",
+              "ko": "\uc2ec\uc5f0 \uc0ac\ub3c4\u00b7\uaca9\ub958"
+            },
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2203-Abyss Herald_ Wicked Torrents.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2302",
+            "name": "Abyss Lector: Fathomless Flames",
+            "title": "Abyss Lector: Fathomless Flames",
+            "description": "From chapters of canon revealed come much heeded admonishments.",
+            "localizedNames": {
+              "en": "Abyss Lector: Fathomless Flames",
+              "zh": "\u6df1\u6e0a\u548f\u8005\u00b7\u6e0a\u706b",
+              "ja": "\u30a2\u30d3\u30b9\u306e\u8a60\u5531\u8005\u00b7\u6df5\u708e",
+              "ko": "\uc2ec\uc5f0 \ubd09\ub3c5\uc790\u00b7\uc2ec\uc5f0\uc758 \ubd88\uaf43"
+            },
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2302-Abyss Lector_ Fathomless Flames.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2406",
+            "name": "Abyss Lector: Violet Lightning",
+            "title": "Abyss Lector: Violet Lightning",
+            "description": "Praise be unto the Abyss, the Wisdom of Corrosion.",
+            "localizedNames": {
+              "en": "Abyss Lector: Violet Lightning",
+              "zh": "\u6df1\u6e0a\u548f\u8005\u00b7\u7d2b\u7535",
+              "ja": "\u30a2\u30d3\u30b9\u306e\u8a60\u5531\u8005\u30fb\u7d2b\u96fb",
+              "ko": "\uc2ec\uc5f0 \ubd09\ub3c5\uc790\u00b7\uc790\uc0c9 \ub1cc\uc804"
+            },
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2406-Abyss Lector_ Violet Lightning.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "212041",
+            "name": "Abyssal Mayhem: Hydrospout",
+            "title": "Tartaglia: Hydrospout",
+            "description": "A reckless yet precise blow.",
+            "localizedNames": {
+              "en": "Abyssal Mayhem: Hydrospout",
+              "zh": "\u6df1\u6e0a\u4e4b\u707e\u00b7\u51dd\u6c34\u76db\u653e",
+              "ja": "\u6df5\u306e\u707d\u3044\u00b7\u5fa9\u6c34\u653e\u6d41",
+              "ko": "\uc2ec\uc5f0\uc758 \uc7ac\uc559\u00b7\ucc28\uc624\ub974\ub294 \ubb3c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212041-Abyssal Mayhem_ Hydrospout.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332015",
+            "name": "Abyssal Summons",
+            "title": "Abyssal Summons",
+            "description": "\"Yaya ika!\"",
+            "localizedNames": {
+              "en": "Abyssal Summons",
+              "zh": "\u6df1\u6e0a\u7684\u547c\u5524",
+              "ja": "\u30a2\u30d3\u30b9\u306e\u547c\u3073\u304b\u3051",
+              "ko": "\uc2ec\uc5f0\uc758 \ubd80\ub984"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332015-Abyssal Summons.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333002",
+            "name": "Adeptus' Temptation",
+            "title": "Adeptus' Temptation",
+            "description": "It is said that this name was derived from this dish's ability to tempt an adeptus to return to the mortal realm. But that begs the question... Which adeptus was that?",
+            "localizedNames": {
+              "en": "Adeptus' Temptation",
+              "zh": "\u4ed9\u8df3\u5899",
+              "ja": "\u4ed9\u8df3\u7246",
+              "ko": "\uc120\ub3c4\uc7a5"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333002-Adeptus' Temptation.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312001",
+            "name": "Adventurer's Bandana",
+            "title": "Trail-Tramper: Adventurer's Bandana",
+            "description": "\"All the secrets of the stars and the abyss await discovery by mere mortals.\"",
+            "localizedNames": {
+              "en": "Adventurer's Bandana",
+              "zh": "\u5192\u9669\u5bb6\u5934\u5e26",
+              "ja": "\u5192\u967a\u8005\u306e\u30d0\u30f3\u30c0\u30ca",
+              "ko": "\ubaa8\ud5d8\uac00\uc758 \uba38\ub9ac\ub760"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312001-Adventurer's Bandana.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321031",
+            "name": "Adventurers' Guild",
+            "title": "Adventurers' Guild",
+            "description": "They boldly venture \"up to the stars, down to the abyss,\" or so their motto would have you believe. In truth, they take on jobs ranging from finding kittens to exploring domains. Well, you cannot afford to gaze at the stars or the abyss without an honest job.",
+            "localizedNames": {
+              "en": "Adventurers' Guild",
+              "zh": "\u5192\u9669\u5bb6\u534f\u4f1a",
+              "ja": "\u5192\u967a\u8005\u5354\u4f1a",
+              "ko": "\ubaa8\ud5d8\uac00 \uae38\ub4dc"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321031-Adventurers' Guild.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213141",
+            "name": "All Reprisals and Arrears, Mine to Bear",
+            "title": "Arlecchino: All Reprisals and Arrears, Mine to Bear",
+            "description": "\"Everlasting as the moon.\"",
+            "localizedNames": {
+              "en": "All Reprisals and Arrears, Mine to Bear",
+              "zh": "\u6240\u6709\u7684\u4ec7\u4e0e\u503a\u7686\u7531\u6211\u507f\u2026",
+              "ja": "\u3042\u3089\u3086\u308b\u6028\u307f\u3068\u501f\u308a\u306f\u79c1\u304c\u6e05\u7b97\u3057\u3088\u3046\u2026",
+              "ko": "\ubaa8\ub4e0 \uc6d0\ud55c\uacfc \ube5a\uc740 \ub0b4\uac00 \uac1a\uace0\u2026"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213141-All Reprisals and Arrears, Mine to Bear.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "217051",
+            "name": "All Things Are of the Earth",
+            "title": "\"All Things Are of the Earth\" Baizhu",
+            "description": "\"If you can perceive the heavens and the earth, defend against malignant auras with the flow of qi, and keep your mind clear, surely nothing can hinder you.\"",
+            "localizedNames": {
+              "en": "All Things Are of the Earth",
+              "zh": "\u5728\u5730\u4e3a\u5316",
+              "ja": "\u5730\u306b\u5728\u308a\u3066\u5f62\u3092\u6210\u3059",
+              "ko": "\ubcc0\ud654\uc758 \ubc95\uce59"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217051-All Things Are of the Earth.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2204",
+            "name": "All-Devouring Narwhal",
+            "title": "Cryptic Creature: All-Devouring Narwhal",
+            "description": "In the most fantastical of fables, or perhaps in the most rabid of ravings, the true stars in the depths of cosmos are just as full of life as on Teyvat, while the universe itself is akin to an ocean.\\nPerhaps the universe's infiltration of Teyvat has never ceased, and perhaps the drawing of borders around this world was the work of a higher will, meant to protect it.",
+            "localizedNames": {
+              "en": "All-Devouring Narwhal",
+              "zh": "\u541e\u661f\u4e4b\u9cb8",
+              "ja": "\u5451\u661f\u306e\u9be8",
+              "ko": "\ubcc4\uc744 \uc0bc\ud0a8 \uace0\ub798"
+            },
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Other Weapons",
+              "Monster",
+              "Cosmic Calamity"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2204-All-Devouring Narwhal.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312027",
+            "name": "Amethyst Crown",
+            "title": "A Pact Deeply Felt: Amethyst Crown",
+            "description": "\"In honor of the eternal oasis and the flourishing Padisarahs, the Lord of Flowers wore an amethyst crown.\"",
+            "localizedNames": {
+              "en": "Amethyst Crown",
+              "zh": "\u7d2b\u6676\u7684\u82b1\u51a0",
+              "ja": "\u7d2b\u6676\u306e\u82b1\u51a0",
+              "ko": "\uc790\uc218\uc815 \ud654\uad00"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312027-Amethyst Crown.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311204",
+            "name": "Amos' Bow",
+            "title": "Strong-Willed: Amos' Bow",
+            "description": "\"I dreamt of ocean waves and sand, of lush forests and land.\"\\n\"I dreamt of boars playing in berry bushes, of a towering spire.\"",
+            "localizedNames": {
+              "en": "Amos' Bow",
+              "zh": "\u963f\u83ab\u65af\u4e4b\u5f13",
+              "ja": "\u30a2\u30e2\u30b9\u306e\u5f13",
+              "ko": "\uc544\ubaa8\uc2a4\uc758 \ud65c"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Bow"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311204-Amos' Bow.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332056",
+            "name": "An Ancient Sacrifice of Sacred Brocade",
+            "title": "An Ancient Sacrifice of Sacred Brocade",
+            "description": "\"Have you noticed them, seen them? The children who wash their little feet in the streams, fishermen laughing beneath the light of the rainbow's arc, the moonlight trysts of lovebirds, their figures painted silver... Humans, too, are creatures of this land. Just how different is their innocence from ours?\"",
+            "localizedNames": {
+              "en": "An Ancient Sacrifice of Sacred Brocade",
+              "zh": "\u7940\u73d1\u5728\u6614\uff0c\u7075\u9526\u6b46\u8bda",
+              "ja": "\u5f80\u6614\u306b\u7940\u74cf\u6709\u308a\u3001\u970a\u9326\u306e\u8aa0\u3092\u6b46\u3051\u308b",
+              "ko": "\uacfc\uac70\uc758 \uc758\uc2dd\uacfc \uc9c4\uc2ec \uc5b4\ub9b0 \ub9c8\uc74c"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332056-An Ancient Sacrifice of Sacred Brocade.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330001",
+            "name": "Ancient Courtyard",
+            "title": "Ancient Courtyard",
+            "description": "\"Is mortal life not an empty shell, as unto a dream?\"",
+            "localizedNames": {
+              "en": "Ancient Courtyard",
+              "zh": "\u65e7\u65f6\u5ead\u56ed",
+              "ja": "\u65e7\u6642\u306e\u5ead\u5712",
+              "ko": "\uacfc\uac70\uc758 \uc815\uc6d0"
+            },
+            "type": "Action",
+            "tags": [
+              "Arcane Legend",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330001-Ancient Courtyard.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311208",
+            "name": "Aqua Simulacra",
+            "title": "Wisdom of Mutability: Aqua Simulacra",
+            "description": "\"It is in defense of the purity of the source that water's gentleness can also become as blade and bow.\\nConspiracy and coded language are interwoven with ease under the pale blue full moon \u2014 this is the wisdom of water's shape.\"",
+            "localizedNames": {
+              "en": "Aqua Simulacra",
+              "zh": "\u82e5\u6c34",
+              "ja": "\u82e5\u6c34",
+              "ko": "\uc57d\uc218"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Bow"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311208-Aqua Simulacra.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311503",
+            "name": "Aquila Favonia",
+            "title": "Let the Wind Lead: Aquila Favonia",
+            "description": "This sword was ever at the hip of the warrior from another land, and it bore witness to her achievement in spreading justice and freedom across Mondstadt.",
+            "localizedNames": {
+              "en": "Aquila Favonia",
+              "zh": "\u98ce\u9e70\u5251",
+              "ja": "\u98a8\u9df9\u5263",
+              "ko": "\ub9e4\uc758 \uac80"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Sword"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311503-Aquila Favonia.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "216051",
+            "name": "Arataki Ichiban",
+            "title": "Arataki Itto: Arataki Ichiban",
+            "description": "Whatever you do, remember to ride the momentum.",
+            "localizedNames": {
+              "en": "Arataki Ichiban",
+              "zh": "\u8352\u6cf7\u7b2c\u4e00",
+              "ja": "\u8352\u7027\u7b2c\u4e00",
+              "ko": "\uc544\ub77c\ud0c0\ud0a4 \uc81c\uc77c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216051-Arataki Ichiban.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312602",
+            "name": "Archaic Petra",
+            "title": "Of Mountains Mighty: Archaic Petra",
+            "description": "\"While the Millelith stands guard, evil shall never prevail!\"",
+            "localizedNames": {
+              "en": "Archaic Petra",
+              "zh": "\u60a0\u53e4\u7684\u78d0\u5ca9",
+              "ja": "\u60a0\u4e45\u306e\u78d0\u5ca9",
+              "ko": "\uc720\uad6c\ud55c \ubc18\uc554"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312602-Archaic Petra.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332045",
+            "name": "Art of Sleepy Meditation",
+            "title": "Art of Sleepy Meditation",
+            "description": "\"What is the nature of meditation... Hey! Whatever it is, it sure as heck isn't sleeping!\"",
+            "localizedNames": {
+              "en": "Art of Sleepy Meditation",
+              "zh": "\u56f0\u56f0\u51a5\u60f3\u672f",
+              "ja": "\u3080\u306b\u3083\u3080\u306b\u3083\u7791\u60f3\u8853",
+              "ko": "\uc218\uba74 \uba85\uc0c1\uc220"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332045-Art of Sleepy Meditation.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322028",
+            "name": "Atea",
+            "title": "Atea",
+            "description": "A tribal warrior known as the \"Candlekeeper,\" the pride of the People of the Springs.",
+            "localizedNames": {
+              "en": "Atea",
+              "zh": "\u963f\u4f3d\u5a05",
+              "ja": "\u30a2\u30c6\u30a2",
+              "ko": "\uc544\ud14c\uc544"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322028-Atea.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214021",
+            "name": "Awakening",
+            "title": "Razor: Awakening",
+            "description": "The hunt is about to begin.",
+            "localizedNames": {
+              "en": "Awakening",
+              "zh": "\u89c9\u9192",
+              "ja": "\u899a\u9192",
+              "ko": "\uac01\uc131"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214021-Awakening.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332050",
+            "name": "Awesome, Bro",
+            "title": "Awesome, Bro",
+            "description": "\"Alright, come here, sit still, open up, and say 'ah'!\"",
+            "localizedNames": {
+              "en": "Awesome, Bro",
+              "zh": "\u5f88\u68d2\uff0c\u54e5\u4eec\u3002",
+              "ja": "\u3044\u3044\u305e\u3001\u304d\u3087\u3046\u3060\u3044\u3002",
+              "ko": "\uc798\ud588\uc5b4, \ud615\uc528!"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332050-Awesome, Bro.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2602",
+            "name": "Azhdaha",
+            "title": "Ancient Geovishap Ancestor: Azhdaha",
+            "description": "The faint rattling of this dragon lord's shackles and his deep, angry growl echo through the bowels of the mountains like memories of a bygone era.",
+            "localizedNames": {
+              "en": "Azhdaha",
+              "zh": "\u82e5\u9640\u9f99\u738b",
+              "ja": "\u82e5\u9640\u9f8d\u738b",
+              "ko": "\uc57c\ud0c0\uc6a9\uc655"
+            },
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2602-Azhdaha.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311306",
+            "name": "Beacon of the Reed Sea",
+            "title": "Desert Watch: Beacon of the Reed Sea",
+            "description": "\"On top of the ruins of the pool where the regalia of past executions of offenders was excavated, those who had lost the dream of the desert, yet were unwilling to give up their vast sea of sand, gathered.\\nIn the name of the Reed Sea that never existed, they connected with the dream that was promised to them...\"",
+            "localizedNames": {
+              "en": "Beacon of the Reed Sea",
+              "zh": "\u82c7\u6d77\u4fe1\u6807",
+              "ja": "\u8466\u6d77\u306e\u6a19",
+              "ko": "\uac08\ub300 \ubc14\ub2e4\uc758 \ub4f1\ub300"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Claymore"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311306-Beacon of the Reed Sea.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "226031",
+            "name": "Beastly Corrosion",
+            "title": "Golden Wolflord: Beastly Corrosion",
+            "description": "\"The Wolflord has no name, for it was but one of \"Gold\"'s unintentional creations, and that is precisely why it is obsessed with invading worlds that do not belong to it and making a name for itself.\"",
+            "localizedNames": {
+              "en": "Beastly Corrosion",
+              "zh": "\u5f02\u517d\u4fb5\u8680",
+              "ja": "\u7570\u7363\u306e\u4fb5\u98df",
+              "ko": "\uc774\uacc4 \ub9f9\uc218\uc758 \uce68\uc2dd"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/226031-Beastly Corrosion.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "217041",
+            "name": "Beneficent",
+            "title": "Yaoyao: Beneficent",
+            "description": "\"Pain, pain, go away!\"",
+            "localizedNames": {
+              "en": "Beneficent",
+              "zh": "\u6148\u60e0\u4ec1\u5fc3",
+              "ja": "\u6148\u6075\u4ec1\u5fc3",
+              "ko": "\uc790\uc560\ub86d\uace0 \uc5b4\uc9c4 \ub9c8\uc74c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217041-Beneficent.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2604",
+            "name": "Black Serpent Knight: Rockbreaker Ax",
+            "title": "Black Serpent Knight: Rockbreaker Ax",
+            "description": "A guard of some standing in the court, sundering the foes of the nation's rulers using a sword art known as \"Truthseeker.\"",
+            "localizedNames": {
+              "en": "Black Serpent Knight: Rockbreaker Ax",
+              "zh": "\u9ed1\u86c7\u9a91\u58eb\u00b7\u6467\u5ca9\u4e4b\u94ba",
+              "ja": "\u9ed2\u86c7\u9a0e\u58eb\u30fb\u7815\u5ca9\u306e\u65a7",
+              "ko": "\ud751 \ubc40 \uae30\uc0ac\u00b7\ubc14\uc704\ub97c \ubd80\uc218\ub294 \ub3c4\ub07c"
+            },
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2604-Black Serpent Knight_ Rockbreaker Ax.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2504",
+            "name": "Black Serpent Knight: Windcutter",
+            "title": "Black Serpent Knight: Windcutter",
+            "description": "\"A guard of some standing in the court. The Twilight Sword was once one of their number.\"",
+            "localizedNames": {
+              "en": "Black Serpent Knight: Windcutter",
+              "zh": "\u9ed1\u86c7\u9a91\u58eb\u00b7\u65a9\u98ce\u4e4b\u5251",
+              "ja": "\u9ed2\u86c7\u9a0e\u58eb\u30fb\u65ac\u98a8\u306e\u5263",
+              "ko": "\ud751 \ubc40 \uae30\uc0ac\u00b7\ubc14\ub78c\uc744 \uac00\ub974\ub294 \uac80"
+            },
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2504-Black Serpent Knight_ Windcutter.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332011",
+            "name": "Blessing of the Divine Relic's Installation",
+            "title": "Divine Relic's Installation",
+            "description": "\"Hehe... Well now, isn't this finally getting interesting?\"",
+            "localizedNames": {
+              "en": "Blessing of the Divine Relic's Installation",
+              "zh": "\u795e\u5b9d\u8fc1\u5bab\u795d\u8bcd",
+              "ja": "\u795e\u5b9d\u9077\u5bae\u795d\u8a5e",
+              "ko": "\uc131\ubb3c \uc548\uce58 \ucd95\uc0ac"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332011-Blessing of the Divine Relic's Installation.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312102",
+            "name": "Blizzard Strayer",
+            "title": "Wintry Wandering: Blizzard Strayer",
+            "description": "\"...Then please, live on. Do not accompany us unto our doom \u2014 to languish forgotten in the snow.\"",
+            "localizedNames": {
+              "en": "Blizzard Strayer",
+              "zh": "\u51b0\u98ce\u8ff7\u9014\u7684\u52c7\u58eb",
+              "ja": "\u6c37\u98a8\u3092\u5f77\u5fa8\u3046\u52c7\u58eb",
+              "ko": "\uc5bc\uc74c\ubc14\ub78c \uc18d\uc5d0\uc11c \uae38\uc783\uc740 \uc6a9\uc0ac"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312102-Blizzard Strayer.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "313010",
+            "name": "Blubberbeast",
+            "title": "Blubberbeast",
+            "description": "\"A type of mammal that resides in the watery regions of Fontaine. It communicates with its companions through melodious sounds.\"",
+            "localizedNames": {
+              "en": "Blubberbeast",
+              "zh": "\u81a8\u81a8\u517d",
+              "ja": "\u30d7\u30af\u30d7\u30af\u7363",
+              "ko": "\ud0f1\ud0f1 \ubb3c\ubc94"
+            },
+            "type": "Action",
+            "tags": [
+              "Technique"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313010-Blubberbeast.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322032",
+            "name": "Bona and Cocouik",
+            "title": "Bona and Cocouik",
+            "description": "\"For starters, one needs enough curiosity, a thirst for knowledge, and a sense of responsibility to help others.\\nBut most importantly, you need the courage to take that first step! Once you make the decision and start on a journey, you've become an adventurer.\"",
+            "localizedNames": {
+              "en": "Bona and Cocouik",
+              "zh": "\u73bb\u5a1c\u4e0e\u300c\u7eff\u677e\u77f3\u300d",
+              "ja": "\u30dd\u30fc\u30ca\u3068\u300c\u30b3\u30b3\u30a6\u30a3\u30af\u300d",
+              "ko": "\ud30c\uc6b0\ub098\uc640 \u300c\ud130\ud0a4\uc11d\u300d"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322032-Bona and Cocouik.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213161",
+            "name": "Bringer of Blessing",
+            "title": "Gaming: Bringer of Blessing",
+            "description": "\"Hop to it, Man Chai!\"",
+            "localizedNames": {
+              "en": "Bringer of Blessing",
+              "zh": "\u901a\u660e\u5e87\u4f51",
+              "ja": "\u745e\u7363\u5e87\u8b77",
+              "ko": "\ud1b5\uba85\uc758 \uac00\ud638"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213161-Bringer of Blessing.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312101",
+            "name": "Broken Rime's Echo",
+            "title": "Icy Song, Distant Realm: Broken Rime's Echo",
+            "description": "\"Past the ice-sealed door, walking down the corridors to the depths, he will break off a branch of silver-white, and bring hope to the snowy land.\"",
+            "localizedNames": {
+              "en": "Broken Rime's Echo",
+              "zh": "\u7834\u51b0\u8e0f\u96ea\u7684\u56de\u97f3",
+              "ja": "\u6c37\u96ea\u3092\u8e0f\u3080\u97f3",
+              "ko": "\ube59\uc124\uc744 \ubc1f\ub294 \uc18c\ub9ac"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312101-Broken Rime's Echo.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332053",
+            "name": "Broken Sea",
+            "title": "Broken Sea",
+            "description": "\"We surge through different bushes and shrubs like a gust of wind, like rivers passing through another lake... We encounter different things, and we, too, become different people.\"",
+            "localizedNames": {
+              "en": "Broken Sea",
+              "zh": "\u7834\u788e\u4e4b\u6d77",
+              "ja": "\u7815\u3051\u305f\u6d77",
+              "ko": "\ubd80\uc11c\uc9c4 \ubc14\ub2e4"
+            },
+            "type": "Action",
+            "tags": [
+              "Simulanka"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332053-Broken Sea.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215111",
+            "name": "Bullet Trick",
+            "title": "Chasca: Bullet Trick",
+            "description": "\"Fire in the hole!\"",
+            "localizedNames": {
+              "en": "Bullet Trick",
+              "zh": "\u5b50\u5f39\u7684\u620f\u6cd5",
+              "ja": "\u5f3e\u4e38\u30c8\u30ea\u30c3\u30af",
+              "ko": "\ucd1d\uc54c \ud2b8\ub9ad"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215111-Bullet Trick.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213041",
+            "name": "Bunny Triggered",
+            "title": "Amber: Bunny Triggered",
+            "description": "\"Go go Baron Bunny!\"",
+            "localizedNames": {
+              "en": "Bunny Triggered",
+              "zh": "\u4e00\u89e6\u5373\u53d1",
+              "ja": "\u4e00\u89e6\u5373\u767a",
+              "ko": "\uc77c\ucd09\uc989\ubc1c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213041-Bunny Triggered.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333012",
+            "name": "Butter Crab",
+            "title": "Butter Crab",
+            "description": "The butter-infused crab legs have a rich aroma that washes over the taste buds so seductively that none can resist its allure.\\n\"Another helping, please!\"",
+            "localizedNames": {
+              "en": "Butter Crab",
+              "zh": "\u9ec4\u6cb9\u87f9\u87f9",
+              "ja": "\u30ab\u30cb\u306e\u30d0\u30bf\u30fc\u6dfb\u3048",
+              "ko": "\ubc84\ud130 \ud06c\ub7a9"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333012-Butter Crab.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321029",
+            "name": "Calligraphy Tavern",
+            "title": "Calligraphy Tavern",
+            "description": "\"Well, if you're offering... Paimon will take a glass of Bulle Fruit Tonic! ...Um, but hold the Tonic, hehe!\"",
+            "localizedNames": {
+              "en": "Calligraphy Tavern",
+              "zh": "\u58a8\u8272\u9152\u9986",
+              "ja": "\u30a4\u30f3\u30af\u9152\u5834",
+              "ko": "\uc789\ud06c\ube5b \uc8fc\uc810"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321029-Calligraphy Tavern.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332009",
+            "name": "Calx's Arts",
+            "title": "Alchemical Experiment",
+            "description": "\"Not to worry. The experiment has been completed, and it is \u2014 if I may say so \u2014 a great success.\"",
+            "localizedNames": {
+              "en": "Calx's Arts",
+              "zh": "\u767d\u57a9\u4e4b\u672f",
+              "ja": "\u767d\u4e9c\u306e\u8853",
+              "ko": "\ubc31\uc545\uc758 \uc220\ubc95"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332009-Calx's Arts.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312013",
+            "name": "Capricious Visage",
+            "title": "Preponderant Recollection: Capricious Visage",
+            "description": "Even a faint smile could not conceal her sorrow.\\nThough this is a festive day, it seems more like a farewell...",
+            "localizedNames": {
+              "en": "Capricious Visage",
+              "zh": "\u65e0\u5e38\u4e4b\u9762",
+              "ja": "\u7121\u5e38\u306e\u9762",
+              "ko": "\ubb34\uc0c1\uc758 \uac00\uba74"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312013-Capricious Visage.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311109",
+            "name": "Cashflow Supervision",
+            "title": "Golden Blood-Tide: Cashflow Supervision",
+            "description": "\"The overseer made of precision machinery rumbles as it observes the monetary flow of the tiny nation,\\nTirelessly recording the movement of every amount of money, the savings and spending of all,\\nThe changes in value, and the number of times each piece of currency is circulated over a specific period.\"",
+            "localizedNames": {
+              "en": "Cashflow Supervision",
+              "zh": "\u91d1\u6d41\u76d1\u7763",
+              "ja": "\u51db\u6d41\u306e\u76e3\u8996\u8005",
+              "ko": "\ud604\uae08 \ud750\ub984 \uac10\ub3c5"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Catalyst"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311109-Cashflow Supervision.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321021",
+            "name": "Central Laboratory Ruins",
+            "title": "Fontaine Research Institute: Central Laboratory Ruins",
+            "description": "...When excess intelligence and passion came together, research brought about results in a manner that surpassed everyone's expectations. Now, however, there remains no one to applaud that achievement.\\nWhen an ideal is destroyed, its most important responsibility is to hold its peace...",
+            "localizedNames": {
+              "en": "Central Laboratory Ruins",
+              "zh": "\u4e2d\u592e\u5b9e\u9a8c\u5ba4\u9057\u5740",
+              "ja": "\u4e2d\u592e\u5b9f\u9a13\u5ba4\u8de1\u5730",
+              "ko": "\uc911\uc559 \uc2e4\ud5d8\uc2e4 \uc720\uc801"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321021-Central Laboratory Ruins.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "224061",
+            "name": "Chain Lightning Cascade",
+            "title": "Abyss Lector: Chain Lightning Cascade",
+            "description": "\"Their violent lightning strikes the hearts of unbelievers with dark wisdom, warped by the shadowy depths of an eternal night, its violet glow proclaiming the existence of a great power that corrodes human intellect.\"",
+            "localizedNames": {
+              "en": "Chain Lightning Cascade",
+              "zh": "\u4fb5\u96f7\u91cd\u95ea",
+              "ja": "\u8972\u96f7\u9583\u5149",
+              "ko": "\uce68\uc2dd \ubc88\uac1c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224061-Chain Lightning Cascade.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322009",
+            "name": "Chang the Ninth",
+            "title": "Chang the Ninth, Listless Literati",
+            "description": "\"He who has not known poverty has yet to become a true man, and at least this man has books to keep him company!\"",
+            "localizedNames": {
+              "en": "Chang the Ninth",
+              "zh": "\u5e38\u4e5d\u7237",
+              "ja": "\u5e38\u4e5d",
+              "ko": "\uc0c1\uad6c\uc57c"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322009-Chang the Ninth.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332002",
+            "name": "Changing Shifts",
+            "title": "Changing Shifts",
+            "description": "\"It's time for the adults to get to work, and for the kids to get some sleep.\"",
+            "localizedNames": {
+              "en": "Changing Shifts",
+              "zh": "\u6362\u73ed\u65f6\u95f4",
+              "ja": "\u30b7\u30d5\u30c8\u4ea4\u4ee3\u306e\u6642\u9593",
+              "ko": "\uadfc\ubb34 \uad50\ub300 \uc2dc\uac04"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332002-Changing Shifts.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215011",
+            "name": "Chaotic Entropy",
+            "title": "Sucrose: Chaotic Entropy",
+            "description": "The wild winds gather \u2014 and amidst the chaos, victory.",
+            "localizedNames": {
+              "en": "Chaotic Entropy",
+              "zh": "\u6df7\u5143\u71b5\u589e\u8bba",
+              "ja": "\u6df7\u5143\u71b5\u5897\u8ad6",
+              "ko": "\ud63c\ub3c8\uc758 \uc5d4\ud2b8\ub85c\ud53c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215011-Chaotic Entropy.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322005",
+            "name": "Chef Mao",
+            "title": "Chef Mao, Ingenious Gourmet",
+            "description": "\"We just concern ourselves with making the most delicious food imaginable using everyday ingredients, universally loved flavors, and truly excellent cooking.\"",
+            "localizedNames": {
+              "en": "Chef Mao",
+              "zh": "\u536f\u5e08\u5085",
+              "ja": "\u536f\u5e2b\u5320",
+              "ko": "\ubb18 \uc0ac\ubd80"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322005-Chef Mao.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333029",
+            "name": "Chenyu Brew",
+            "title": "Chenyu Brew",
+            "description": "Your initial sip brings forth flavor on an elegant light breeze, the sweet fragrances of Chenyu Vale alighting upon your lips and tongue. Hark \u2014 is that the sweet tinkling of the mountain springs singing in your ear?",
+            "localizedNames": {
+              "en": "Chenyu Brew",
+              "zh": "\u6c89\u7389\u8336\u9732",
+              "ja": "\u6c88\u7389\u8336",
+              "ko": "\uce68\uc625 \ucc28 \uc774\uc2ac"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333029-Chenyu Brew.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321012",
+            "name": "Chinju Forest",
+            "title": "Abode of Dwelling Demons",
+            "description": "Legend has it that this sacred forest was once home to many demons.",
+            "localizedNames": {
+              "en": "Chinju Forest",
+              "zh": "\u9547\u5b88\u4e4b\u68ee",
+              "ja": "\u93ae\u5b88\u306e\u68ee",
+              "ko": "\uc9c4\uc218\uc758 \uc232"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321012-Chinju Forest.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "221011",
+            "name": "Cicin's Cold Glare",
+            "title": "Cryo Cicin Mage: Cicin's Cold Glare",
+            "description": "More Mist Grass means more friendly Cryo Cicins.\\n...But what happens when the Mist Grass is used up?\\nPerhaps she never considered this.",
+            "localizedNames": {
+              "en": "Cicin's Cold Glare",
+              "zh": "\u51b0\u8424\u5bd2\u5149",
+              "ja": "\u6c37\u86cd\u5bd2\u5149",
+              "ko": "\uc5bc\uc74c \uce58\uce5c\uc758 \uc11c\ub298\ud55c \ube5b"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/221011-Cicin's Cold Glare.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332062",
+            "name": "Cleaning Time",
+            "title": "Cleaning Time",
+            "description": "\"Cleanup sequence in progress... Based on data from past incidents, please avoid dropping small items such as: Mora, screws, gears, minerals, toys, gummies, snacks, hairbands, socks, and slippers.\"",
+            "localizedNames": {
+              "en": "Cleaning Time",
+              "zh": "\u6e05\u626b\u65f6\u95f4",
+              "ja": "\u304a\u6383\u9664\u306e\u6642\u9593",
+              "ko": "\uccad\uc18c \uc2dc\uac04"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332062-Cleaning Time.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332061",
+            "name": "Clink Clank Legion",
+            "title": "Clink Clank Legion",
+            "description": "\"Clink Clank Legion, move out!\"",
+            "localizedNames": {
+              "en": "Clink Clank Legion",
+              "zh": "\u53ee\u94c3\u54d0\u5577\u519b\u56e2",
+              "ja": "\u30ab\u30c1\u30e3\u30ab\u30c1\u30e3\u8ecd\u56e3",
+              "ko": "\ub69d\ub531\ub69d\ub531 \uad70\ub2e8"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332061-Clink Clank Legion.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211031",
+            "name": "Cold-Blooded Strike",
+            "title": "Kaeya: Cold-Blooded Strike",
+            "description": "A slightly cold joke.",
+            "localizedNames": {
+              "en": "Cold-Blooded Strike",
+              "zh": "\u51b7\u8840\u4e4b\u5251",
+              "ja": "\u51b7\u8840\u306e\u5263",
+              "ko": "\ub0c9\ud608\uc758 \uac80"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211031-Cold-Blooded Strike.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211171",
+            "name": "Companion's Counsel",
+            "title": "Mika: Companion's Counsel",
+            "description": "\"Let's keep going, team!\"",
+            "localizedNames": {
+              "en": "Companion's Counsel",
+              "zh": "\u4f9d\u968f\u7684\u7b56\u63f4",
+              "ja": "\u81e8\u6a5f\u306e\u7b56\u5fdc",
+              "ko": "\ub3d9\ubc18 \ub3c4\uc6b0\ubbf8"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211171-Companion's Counsel.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213101",
+            "name": "Conclusive Ovation",
+            "title": "Lyney: Conclusive Ovation",
+            "description": "\"A round of applause!\"",
+            "localizedNames": {
+              "en": "Conclusive Ovation",
+              "zh": "\u5b8c\u573a\u559d\u5f69",
+              "ja": "\u30d5\u30a3\u30ca\u30fc\u30ec\u306e\u559d\u91c7",
+              "ko": "\uac08\ucc44 \uc18d \ub9c8\ubb34\ub9ac"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213101-Conclusive Ovation.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312030",
+            "name": "Conductor's Top Hat",
+            "title": "The Sound of Ancient Music: Conductor's Top Hat",
+            "description": "\"The members then turned the notes into words and recorded their journey in a book.\\nThis book, The Widsith as they called it, was still held tightly in the conductor's hands even after his death.\"",
+            "localizedNames": {
+              "en": "Conductor's Top Hat",
+              "zh": "\u6307\u6325\u7684\u793c\u5e3d",
+              "ja": "\u6307\u63ee\u8005\u306e\u30cf\u30c3\u30c8",
+              "ko": "\uc9c0\ud718\uc758 \ud0d1 \ud587"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312030-Conductor's Top Hat.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215041",
+            "name": "Conqueror of Evil: Guardian Yaksha",
+            "title": "Xiao: Conqueror of Evil",
+            "description": "Evil shall be dispersed, and the vile will be scattered.",
+            "localizedNames": {
+              "en": "Conqueror of Evil: Guardian Yaksha",
+              "zh": "\u964d\u9b54\u00b7\u62a4\u6cd5\u591c\u53c9",
+              "ja": "\u964d\u9b54\u00b7\u8b77\u6cd5\u591c\u53c9",
+              "ko": "\ud56d\ub9c8\u00b7\ud638\ubc95\uc57c\ucc28"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215041-Conqueror of Evil_ Guardian Yaksha.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2705",
+            "name": "Consecrated Fanged Beast",
+            "title": "Remnant Weed: Consecrated Fanged Beast",
+            "description": "A predator that has mutated after feeding from greater lifeforms. It now wields the power of frenzied vines.",
+            "localizedNames": {
+              "en": "Consecrated Fanged Beast",
+              "zh": "\u5723\u9ab8\u7259\u517d",
+              "ja": "\u8056\u9ab8\u7259\u7363",
+              "ko": "\uc131\ud574 \uac80\uce58\ud638"
+            },
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Other Weapons",
+              "Monster",
+              "Consecrated Beast"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2705-Consecrated Fanged Beast.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2503",
+            "name": "Consecrated Flying Serpent",
+            "title": "Remnant Squall: Consecrated Flying Serpent",
+            "description": "A flying serpent that became twisted and warped by eating some great being. Now, it commands the fearsome winds.",
+            "localizedNames": {
+              "en": "Consecrated Flying Serpent",
+              "zh": "\u5723\u9ab8\u98de\u86c7",
+              "ja": "\u8056\u9ab8\u30c8\u30d3\u30d8\u30d3",
+              "ko": "\uc131\ud574 \ub0a0\ubc40"
+            },
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Other Weapons",
+              "Monster",
+              "Consecrated Beast"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2503-Consecrated Flying Serpent.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2207",
+            "name": "Consecrated Horned Crocodile",
+            "title": "Remnant Tide: Consecrated Horned Crocodile",
+            "description": "A reptile that has mutated after feeding from greater lifeforms, controlling the ever-changing flow of water.",
+            "localizedNames": {
+              "en": "Consecrated Horned Crocodile",
+              "zh": "\u5723\u9ab8\u89d2\u9cc4",
+              "ja": "\u8056\u9ab8\u30c4\u30ce\u30ef\u30cb",
+              "ko": "\uc131\ud574 \ubfd4 \uc545\uc5b4"
+            },
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Other Weapons",
+              "Monster",
+              "Consecrated Beast"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2207-Consecrated Horned Crocodile.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2405",
+            "name": "Consecrated Scorpion",
+            "title": "Remnant Venom: Consecrated Scorpion",
+            "description": "A poisonous scorpion that became twisted and warped by eating some great being. It now commands perilous lightning.",
+            "localizedNames": {
+              "en": "Consecrated Scorpion",
+              "zh": "\u5723\u9ab8\u6bd2\u874e",
+              "ja": "\u8056\u9ab8\u30b5\u30bd\u30ea",
+              "ko": "\uc131\ud574 \ub3c5\uc804\uac08"
+            },
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Other Weapons",
+              "Monster",
+              "Consecrated Beast"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2405-Consecrated Scorpion.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321030",
+            "name": "Constellation Metropole",
+            "title": "Constellation Metropole",
+            "description": "\"The heroes gazed upon the skies of gray, and in carriages bright they went their way.\"",
+            "localizedNames": {
+              "en": "Constellation Metropole",
+              "zh": "\u661f\u8f68\u738b\u57ce",
+              "ja": "\u30aa\u30eb\u30d3\u30c3\u30c8\u57ce",
+              "ko": "\ubcc4\uae38 \uc655\uc131"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321030-Constellation Metropole.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332030",
+            "name": "Controlled Directional Blast",
+            "title": "Controlled Directional Blast",
+            "description": "\"...haven't hidden anything. All the Arkhium has been handled appropriately. This explosion was always a 'controllable hazard removal directional blast.'\"",
+            "localizedNames": {
+              "en": "Controlled Directional Blast",
+              "zh": "\u53ef\u63a7\u6027\u53bb\u5371\u5bb3\u5316\u5f0f\u5b9a\u5411\u7206\u7834",
+              "ja": "\u53ef\u5236\u5fa1\u6027\u7121\u5bb3\u5316\u578b\u6307\u5411\u6027\u7206\u767a",
+              "ko": "\uc81c\uc5b4 \uac00\ub2a5\ud55c \uc704\ud5d8 \uc81c\uac70\uc6a9 \uc9c0\ud5a5 \ud3ed\ubc1c"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332030-Controlled Directional Blast.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332032",
+            "name": "Countdown to the Show: 3",
+            "title": "Countdown to the Show",
+            "description": "\"Would you like to see a magic trick? Now then, count down with me \u2014 three... two... one!\"",
+            "localizedNames": {
+              "en": "Countdown to the Show: 3",
+              "zh": "\u5e7b\u620f\u5012\u8ba1\u65f6\uff1a3",
+              "ja": "\u30c8\u30ea\u30c3\u30af\u30ab\u30a6\u30f3\u30c8\u30c0\u30a6\u30f3\uff1a3",
+              "ko": "\ub9c8\uc220\uc1fc \uce74\uc6b4\ud2b8\ub2e4\uc6b4: 3"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332032-Countdown to the Show_ 3.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "217071",
+            "name": "Countless Sights to See",
+            "title": "Kirara: Countless Sights to See",
+            "description": "\"Service with a smile!\"",
+            "localizedNames": {
+              "en": "Countless Sights to See",
+              "zh": "\u6cbf\u9014\u767e\u666f\u4f1a\u5fc3",
+              "ja": "\u9053\u4e2d\u767e\u666f\u5fc3\u5f97\u305f\u308a",
+              "ko": "\ubc30\uc1a1 \uc911\uc758 \uacbd\uce58"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217071-Countless Sights to See.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330002",
+            "name": "Covenant of Rock",
+            "title": "Covenant of Rock",
+            "description": "\"Rex Lapis bestowed him with a pair of eyes to see the world, and came to an agreement with him. The dragon then accompanied the Lord of Geo, fighting campaigns alongside him in the four corners of the world...\"",
+            "localizedNames": {
+              "en": "Covenant of Rock",
+              "zh": "\u78d0\u5ca9\u76df\u5951",
+              "ja": "\u78d0\u5ca9\u306e\u8a93\u7d04",
+              "ko": "\ubc18\uc554\uc758 \uacc4\uc57d"
+            },
+            "type": "Action",
+            "tags": [
+              "Arcane Legend",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330002-Covenant of Rock.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312302",
+            "name": "Crimson Witch of Flames",
+            "title": "Blazing Dissipation: Crimson Witch of Flames",
+            "description": "\"I will sing no elegies. I refuse laments. I shall not sigh. I have no use for pointless noise.\\nIf justice is long dead, then to whom can I offer redemption?\"",
+            "localizedNames": {
+              "en": "Crimson Witch of Flames",
+              "zh": "\u70bd\u70c8\u7684\u708e\u4e4b\u9b54\u5973",
+              "ja": "\u71c3\u3048\u76db\u308b\u708e\u306e\u9b54\u5973",
+              "ko": "\ubd88\ud0c0\uc624\ub974\ub294 \ud654\uc5fc\uc758 \ub9c8\ub140"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312302-Crimson Witch of Flames.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213021",
+            "name": "Crossfire",
+            "title": "Xiangling: Crossfire",
+            "description": "This heat's just normal for a restaurant's standards!",
+            "localizedNames": {
+              "en": "Crossfire",
+              "zh": "\u4ea4\u53c9\u706b\u529b",
+              "ja": "\u4ea4\u5dee\u3059\u308b\u708e",
+              "ko": "\uad50\ucc28 \ud654\ub825"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213021-Crossfire.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312033",
+            "name": "Crown of the Saints",
+            "title": "Testimony of Tribal Kings: Crown of the Saints",
+            "description": "\"Under the sun's radiance did the tribes make a pact of armistice, and thus did the sacred ones of the night realm lay their arguments aside and offer him the crown.\"",
+            "localizedNames": {
+              "en": "Crown of the Saints",
+              "zh": "\u8bf8\u5723\u7684\u793c\u51a0",
+              "ja": "\u8af8\u8056\u306e\u6804\u51a0",
+              "ko": "\uc131\uc790\uc758 \uc655\uad00"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312033-Crown of the Saints.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312015",
+            "name": "Crown of Watatsumi",
+            "title": "Pearl Crown \u2014 Crown of Watatsumi",
+            "description": "\"The people of the sea sing that these crowns of pearls and coral will never be stained by any dirt.\"",
+            "localizedNames": {
+              "en": "Crown of Watatsumi",
+              "zh": "\u6d77\u7947\u4e4b\u51a0",
+              "ja": "\u6d77\u7947\u306e\u51a0",
+              "ko": "\uc640\ud0c0\uce20\ubbf8\uc758 \uc655\uad00"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312015-Crown of Watatsumi.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312035",
+            "name": "Crownless Crown",
+            "title": "Endless Wait: Crownless Crown",
+            "description": "\"And with those things bearing his name, she walked into the dark night, never to return.\"",
+            "localizedNames": {
+              "en": "Crownless Crown",
+              "zh": "\u5931\u5195\u7684\u5b9d\u51a0",
+              "ja": "\u4e3b\u306a\u304d\u51a0",
+              "ko": "\uc8fc\uc778 \uc783\uc740 \uc655\uad00"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312035-Crownless Crown.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2103",
+            "name": "Cryo Hypostasis",
+            "title": "Cryo Hypostasis",
+            "description": "Code name: Daleth. A high-purity Cryo entity.\\nIt doesn't seem all that good at ball sports...",
+            "localizedNames": {
+              "en": "Cryo Hypostasis",
+              "zh": "\u65e0\u76f8\u4e4b\u51b0",
+              "ja": "\u7121\u76f8\u306e\u6c37",
+              "ko": "\ubb34\uc0c1\uc758 \uc5bc\uc74c"
+            },
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2103-Cryo Hypostasis.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215131",
+            "name": "Curious Casefiles",
+            "title": "Shikanoin Heizou: Curious Casefiles",
+            "description": "\"Can't fool me!\"",
+            "localizedNames": {
+              "en": "Curious Casefiles",
+              "zh": "\u5947\u60f3\u5929\u5f00\u6355\u7269\u5e10",
+              "ja": "\u5947\u60f3\u5929\u5916\u6355\u7269\u5e33",
+              "ko": "\uae30\uc0c1\ucc9c\uc678 \uc0ac\uac74 \uae30\ub85d\ubd80"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215131-Curious Casefiles.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215121",
+            "name": "Dance Vestments Billow Like Rainbow Jade",
+            "title": "Lan Yan: Dance Vestments Billow Like Rainbow Jade",
+            "description": "\"Ills, be gone!\"",
+            "localizedNames": {
+              "en": "Dance Vestments Billow Like Rainbow Jade",
+              "zh": "\u821e\u8882\u7fe9\u516e\u626c\u7389\u9713",
+              "ja": "\u821e\u3046\u8882\u8efd\u304f\u7f8e\u7389\u5149\u308b",
+              "ko": "\uc625\ube5b \ubb34\uc9c0\uac1c\ub97c \uadf8\ub9ac\uba70 \ucda4\ucd94\uace0"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215121-Dance Vestments Billow Like Rainbow Jade.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214121",
+            "name": "Dark-Shattering Flame",
+            "title": "Clorinde: Dark-Shattering Flame",
+            "description": "\"Where evil lurks, shoot on sight!\"",
+            "localizedNames": {
+              "en": "Dark-Shattering Flame",
+              "zh": "\u7834\u591c\u7684\u660e\u7130",
+              "ja": "\u591c\u3092\u88c2\u304f\u7d2b\u7114",
+              "ko": "\ubc24\uc744 \uac00\ub974\ub294 \ubd88\uaf43"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214121-Dark-Shattering Flame.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321004",
+            "name": "Dawn Winery",
+            "title": "Manor of Daybreak",
+            "description": "\"The best wine will always be brewed next year.\"",
+            "localizedNames": {
+              "en": "Dawn Winery",
+              "zh": "\u6668\u66e6\u9152\u5e84",
+              "ja": "\u30a2\u30ab\u30c4\u30ad\u30ef\u30a4\u30ca\u30ea\u30fc",
+              "ko": "\ub2e4\uc6b4 \uc640\uc774\ub108\ub9ac"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321004-Dawn Winery.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330007",
+            "name": "Day of Resistance: Moment of Shattered Dreams",
+            "title": "Day of Resistance: Moment of Shattered Dreams",
+            "description": "Victorious were we who fought to be free... Thus did the dream of eternal prosperity fall with this mighty capital...",
+            "localizedNames": {
+              "en": "Day of Resistance: Moment of Shattered Dreams",
+              "zh": "\u6297\u4e89\u4e4b\u65e5\u00b7\u788e\u68a6\u4e4b\u65f6",
+              "ja": "\u6297\u4e89\u306e\u65e5\u00b7\u5922\u7815\u3051\u308b\u6642",
+              "ko": "\ud22c\uc7c1\uc758 \ub0a0\u00b7\uae68\uc9c4 \uafc8\uc758 \uc21c\uac04"
+            },
+            "type": "Action",
+            "tags": [
+              "Arcane Legend",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330007-Day of Resistance_ Moment of Shattered Dreams.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "225031",
+            "name": "Deathly Cyclone",
+            "title": "Consecrated Flying Serpent: Deathly Cyclone",
+            "description": "Though now imbued with the power of elemental manipulation, the Consecrated Beasts themselves still cannot fully digest the pieces of flesh they devoured from immortal carcasses. Instead, the pieces slowly fused with the beasts themselves, changing them...",
+            "localizedNames": {
+              "en": "Deathly Cyclone",
+              "zh": "\u4ea1\u98ce\u5578\u5377",
+              "ja": "\u6b7b\u98a8\u5486\u54ee",
+              "ko": "\ud729\uc4f0\ub294 \uc8fd\uc74c\uc758 \ubc14\ub78c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/225031-Deathly Cyclone.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "222071",
+            "name": "Deathly Overflow",
+            "title": "Consecrated Horned Crocodile: Deathly Overflow",
+            "description": "\"To devour, to merge, to seek yet another immortal carcass \u2014 the Consecrated Beasts enact this evolution in ceaseless repetition. Little do they know that the end of this cycle may never come...\"",
+            "localizedNames": {
+              "en": "Deathly Overflow",
+              "zh": "\u4ea1\u6c34\u6ea2\u6d41",
+              "ja": "\u4ea1\u6c34\u6ea2\u6d41",
+              "ko": "\uac70\uc13c \uc8fd\uc74c\uc758 \ud30c\ub3c4"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222071-Deathly Overflow.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "216071",
+            "name": "Decorous Harmony",
+            "title": "Yun Jin: Decorous Harmony",
+            "description": "\"Strike as one!\"",
+            "localizedNames": {
+              "en": "Decorous Harmony",
+              "zh": "\u5e84\u8c10\u5e76\u4e3e",
+              "ja": "\u8358\u8ae7\u4f75\u6301",
+              "ko": "\uc7a5\uc5c4\ud558\uace0 \uc775\uc0b4\uc2a4\ub7ec\uc6b4 \ub178\ub7ab\uc18c\ub9ac"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216071-Decorous Harmony.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312702",
+            "name": "Deepwood Memories",
+            "title": "Knowledge of the Vine: Deepwood Memories",
+            "description": "\"For all those who follow nature must pass through the maze of the forest and reach that endless plain.\"",
+            "localizedNames": {
+              "en": "Deepwood Memories",
+              "zh": "\u6df1\u6797\u7684\u8bb0\u5fc6",
+              "ja": "\u6df1\u6797\u306e\u8a18\u61b6",
+              "ko": "\uc232\uc758 \uae30\uc5b5"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312702-Deepwood Memories.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312032",
+            "name": "Demon-Warrior's Feather Mask",
+            "title": "Symbol of The Brave: Demon-Warrior's Feather Mask",
+            "description": "\"...Nonetheless, someone had to shoulder the responsibility, and the strong naturally should bear a greater burden.\\nIt was only after witnessing true war that he first felt the weight of destiny.\"",
+            "localizedNames": {
+              "en": "Demon-Warrior's Feather Mask",
+              "zh": "\u9b54\u6218\u58eb\u7684\u7fbd\u9762",
+              "ja": "\u546a\u6226\u58eb\u306e\u7fbd\u9762",
+              "ko": "\ub9c8\uc804\uc0ac\uc758 \uae43\ud138 \uac00\uba74"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312032-Demon-Warrior's Feather Mask.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "216041",
+            "name": "Descent of Divinity",
+            "title": "Albedo: Descent of Divinity",
+            "description": "\"The process of confirming the strategy for a duel also requires meticulous calculations...\"",
+            "localizedNames": {
+              "en": "Descent of Divinity",
+              "zh": "\u795e\u6027\u4e4b\u9668",
+              "ja": "\u8056\u306a\u308b\u5815\u843d",
+              "ko": "\uc2e0\uc131\uc758 \ucd94\ub77d"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216041-Descent of Divinity.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214101",
+            "name": "Discretionary Supplement",
+            "title": "\"Discretionary Supplement\" Dori",
+            "description": "\"First raise the price by 30%, then sell at a 20% discount!\"",
+            "localizedNames": {
+              "en": "Discretionary Supplement",
+              "zh": "\u914c\u76c8\u5242\u865a",
+              "ja": "\u76ca\u3092\u3068\u3063\u3066\u640d\u3092\u88dc\u3046",
+              "ko": "\uc801\uc790 \ubcf4\ucda9"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214101-Discretionary Supplement.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211131",
+            "name": "Divine Retribution",
+            "title": "Rosaria: Divine Retribution",
+            "description": "\"Lights out...\"",
+            "localizedNames": {
+              "en": "Divine Retribution",
+              "zh": "\u4ee3\u884c\u88c1\u5224",
+              "ja": "\u4ee3\u884c\u88c1\u5224",
+              "ko": "\uc7ac\ud310\uc758 \ub300\ub9ac\uc778"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211131-Divine Retribution.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "216031",
+            "name": "Dominance of Earth",
+            "title": "Zhongli: Dominance of Earth",
+            "description": "The vastness of rivers flows endless, perpetual upon the tapestry of eons.",
+            "localizedNames": {
+              "en": "Dominance of Earth",
+              "zh": "\u708a\u91d1\u9994\u7389",
+              "ja": "\u8d05\u6ca2\u306a\u98df\u994c",
+              "ko": "\ud638\uc758\ud638\uc2dd"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216031-Dominance of Earth.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322016",
+            "name": "Dunyarzad",
+            "title": "Purity of Trust: Dunyarzad",
+            "description": "\"The point of living is to not leave behind any regrets.\"",
+            "localizedNames": {
+              "en": "Dunyarzad",
+              "zh": "\u8fea\u5a1c\u6cfd\u9edb",
+              "ja": "\u30c9\u30cb\u30a2\u30b6\u30fc\u30c9",
+              "ko": "\ub450\ub0d0\ub974\uc790\ub4dc"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322016-Dunyarzad.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2502",
+            "name": "Dvalin",
+            "title": "\"Dragon of the East\" Dvalin",
+            "description": "\"How wonderful it would have been if you were as I, witnessing your noble, beautiful form as you soared through the blue sky.\"\\n\"Then you would know that this sky and this earth are both things worth fighting for.\"",
+            "localizedNames": {
+              "en": "Dvalin",
+              "zh": "\u7279\u74e6\u6797",
+              "ja": "\u30c8\u30ef\u30ea\u30f3",
+              "ko": "\ub4dc\ubc1c\ub9b0"
+            },
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2502-Dvalin.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312044",
+            "name": "Dyed Tassel",
+            "title": "Warrior's Legacy: Dyed Tassel",
+            "description": "\"That ghostly blue wildfire of which ancient legends spoke would burn brightly anew on fresh fields of battle...\"",
+            "localizedNames": {
+              "en": "Dyed Tassel",
+              "zh": "\u88ab\u6d78\u67d3\u7684\u7f28\u76d4",
+              "ja": "\u67d3\u3081\u3089\u308c\u3057\u7fbd\u515c",
+              "ko": "\ud53c\ub85c \ubb3c\ub4e0 \ud22c\uad6c"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312044-Dyed Tassel.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312020",
+            "name": "Echoes of an Offering",
+            "title": "Everlasting Uncut Jade: Echoes of an Offering",
+            "description": "\"The wide river of a legend will oft produce many tributaries. One of these goes like this: This gem was once jade from a sacred mountain, carved into its current shape only by the hand of Rex Lapis himself.\"",
+            "localizedNames": {
+              "en": "Echoes of an Offering",
+              "zh": "\u6765\u6b46\u4f59\u54cd",
+              "ja": "\u6765\u6b46\u306e\u4f59\u97ff",
+              "ko": "\uc81c\uc0ac\uc758 \uc5ec\uc6b4"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312020-Echoes of an Offering.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330009",
+            "name": "Edict of Absolution",
+            "title": "Edict of Absolution",
+            "description": "\"Every last Fontainian is guilty, with judgment and doom certain to one day fall upon them \u2014 this is neither metaphor nor rhetoric.\"",
+            "localizedNames": {
+              "en": "Edict of Absolution",
+              "zh": "\u8d66\u514d\u5ba3\u544a",
+              "ja": "\u8d66\u514d\u306e\u5ba3\u544a",
+              "ko": "\uc0ac\uba74 \uc120\uace0"
+            },
+            "type": "Action",
+            "tags": [
+              "Arcane Legend",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330009-Edict of Absolution.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "224041",
+            "name": "Electro Cicin's Gleam",
+            "title": "Electro Cicin Mage: Electro Cicin's Gleam",
+            "description": "\"Are you... here to play with me?\"",
+            "localizedNames": {
+              "en": "Electro Cicin's Gleam",
+              "zh": "\u96f7\u8424\u6d6e\u95ea",
+              "ja": "\u96f7\u86cd\u6d6e\u5149",
+              "ko": "\ubc88\uac1c \uce58\uce5c\uc758 \uc12c\uad11"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224041-Electro Cicin's Gleam.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2401",
+            "name": "Electro Hypostasis",
+            "title": "Electro Hypostasis",
+            "description": "Code name: Aleph. A high-purity Electro entity.\\nEven if you win at rock-paper-scissors, Aleph is not one to admit defeat.",
+            "localizedNames": {
+              "en": "Electro Hypostasis",
+              "zh": "\u65e0\u76f8\u4e4b\u96f7",
+              "ja": "\u7121\u76f8\u306e\u96f7",
+              "ko": "\ubb34\uc0c1\uc758 \ub1cc\uc804"
+            },
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2401-Electro Hypostasis.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311205",
+            "name": "Elegy for the End",
+            "title": "The Parting Refrain: Elegy for the End",
+            "description": "\"...But no wind in any season on earth\"\\n\"Shall have you gaze upon me again.\"",
+            "localizedNames": {
+              "en": "Elegy for the End",
+              "zh": "\u7ec8\u672b\u55df\u53f9\u4e4b\u8bd7",
+              "ja": "\u7d42\u7109\u3092\u5606\u304f\u8a69",
+              "ko": "\uc885\ub9d0 \ud0c4\uc2dd\uc758 \ub178\ub798"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Bow"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311205-Elegy for the End.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331602",
+            "name": "Elemental Resonance: Enduring Rock",
+            "title": "Elemental Resonance: Enduring Rock",
+            "description": "Bedrock shall make the hills unshakable.",
+            "localizedNames": {
+              "en": "Elemental Resonance: Enduring Rock",
+              "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u575a\u5b9a\u4e4b\u5ca9",
+              "ja": "\u5143\u7d20\u5171\u9cf4\uff1a\u4e0d\u52d5\u306e\u5ca9",
+              "ko": "\uc6d0\uc18c \uacf5\uba85: \ubd80\ub3d9\uc758 \ubc14\uc704"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Resonance"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331602-Elemental Resonance_ Enduring Rock.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331302",
+            "name": "Elemental Resonance: Fervent Flames",
+            "title": "Elemental Resonance: Fervent Flames",
+            "description": "A burning heart may match the sun and moon.",
+            "localizedNames": {
+              "en": "Elemental Resonance: Fervent Flames",
+              "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u70ed\u8bda\u4e4b\u706b",
+              "ja": "\u5143\u7d20\u5171\u9cf4\uff1a\u71b1\u8aa0\u306e\u708e",
+              "ko": "\uc6d0\uc18c \uacf5\uba85: \uc5f4\uc815\uc758 \ubd88"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Resonance"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331302-Elemental Resonance_ Fervent Flames.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331402",
+            "name": "Elemental Resonance: High Voltage",
+            "title": "Elemental Resonance: High Voltage",
+            "description": "The storm rises in majesty.",
+            "localizedNames": {
+              "en": "Elemental Resonance: High Voltage",
+              "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u5f3a\u80fd\u4e4b\u96f7",
+              "ja": "\u5143\u7d20\u5171\u9cf4\uff1a\u5f37\u6a29\u306e\u96f7",
+              "ko": "\uc6d0\uc18c \uacf5\uba85: \uace0\uc5d0\ub108\uc9c0\uc758 \ubc88\uac1c"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Resonance"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331402-Elemental Resonance_ High Voltage.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331502",
+            "name": "Elemental Resonance: Impetuous Winds",
+            "title": "Elemental Resonance: Impetuous Winds",
+            "description": "The gale gallops through the woods.",
+            "localizedNames": {
+              "en": "Elemental Resonance: Impetuous Winds",
+              "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u8fc5\u6377\u4e4b\u98ce",
+              "ja": "\u5143\u7d20\u5171\u9cf4\uff1a\u8fc5\u901f\u306e\u98a8",
+              "ko": "\uc6d0\uc18c \uacf5\uba85: \uc2e0\uc18d\uc758 \ubc14\ub78c"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Resonance"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331502-Elemental Resonance_ Impetuous Winds.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331102",
+            "name": "Elemental Resonance: Shattering Ice",
+            "title": "Elemental Resonance: Shattering Ice",
+            "description": "The frost flower blooms as a heart undivided.",
+            "localizedNames": {
+              "en": "Elemental Resonance: Shattering Ice",
+              "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u7c89\u788e\u4e4b\u51b0",
+              "ja": "\u5143\u7d20\u5171\u9cf4\uff1a\u7c89\u7815\u306e\u6c37",
+              "ko": "\uc6d0\uc18c \uacf5\uba85: \ubd84\uc1c4\uc758 \uc5bc\uc74c"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Resonance"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331102-Elemental Resonance_ Shattering Ice.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331202",
+            "name": "Elemental Resonance: Soothing Water",
+            "title": "Elemental Resonance: Soothing Water",
+            "description": "With purest water flows prosperity.",
+            "localizedNames": {
+              "en": "Elemental Resonance: Soothing Water",
+              "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u6108\u7597\u4e4b\u6c34",
+              "ja": "\u5143\u7d20\u5171\u9cf4\uff1a\u6cbb\u7642\u306e\u6c34",
+              "ko": "\uc6d0\uc18c \uacf5\uba85: \uce58\uc720\uc758 \ubb3c"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Resonance"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331202-Elemental Resonance_ Soothing Water.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331702",
+            "name": "Elemental Resonance: Sprawling Greenery",
+            "title": "Elemental Resonance: Sprawling Greenery",
+            "description": "New branches and sprouts grow into a forest.",
+            "localizedNames": {
+              "en": "Elemental Resonance: Sprawling Greenery",
+              "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u8513\u751f\u4e4b\u8349",
+              "ja": "\u5143\u7d20\u5171\u9cf4\uff1a\u8513\u751f\u306e\u8349",
+              "ko": "\uc6d0\uc18c \uacf5\uba85: \ub9cc\uc0dd\uc758 \ud480"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Resonance"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331702-Elemental Resonance_ Sprawling Greenery.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331301",
+            "name": "Elemental Resonance: Woven Flames",
+            "title": "Elemental Resonance: Woven Flames",
+            "description": "The scarlet flame reduces the vanquished to dust.",
+            "localizedNames": {
+              "en": "Elemental Resonance: Woven Flames",
+              "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u4ea4\u7ec7\u4e4b\u706b",
+              "ja": "\u5143\u7d20\u5171\u9cf4\uff1a\u4ea4\u932f\u306e\u708e",
+              "ko": "\uc6d0\uc18c \uacf5\uba85: \ub4a4\uc5c9\ud0a8 \ubd88"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Resonance"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331301-Elemental Resonance_ Woven Flames.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331101",
+            "name": "Elemental Resonance: Woven Ice",
+            "title": "Elemental Resonance: Woven Ice",
+            "description": "Even the sky shall shiver before the ice.",
+            "localizedNames": {
+              "en": "Elemental Resonance: Woven Ice",
+              "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u4ea4\u7ec7\u4e4b\u51b0",
+              "ja": "\u5143\u7d20\u5171\u9cf4\uff1a\u4ea4\u932f\u306e\u6c37",
+              "ko": "\uc6d0\uc18c \uacf5\uba85: \ub4a4\uc5c9\ud0a8 \uc5bc\uc74c"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Resonance"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331101-Elemental Resonance_ Woven Ice.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331601",
+            "name": "Elemental Resonance: Woven Stone",
+            "title": "Elemental Resonance: Woven Stone",
+            "description": "The jagged mountains sign a lasting pact.",
+            "localizedNames": {
+              "en": "Elemental Resonance: Woven Stone",
+              "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u4ea4\u7ec7\u4e4b\u5ca9",
+              "ja": "\u5143\u7d20\u5171\u9cf4\uff1a\u4ea4\u932f\u306e\u5ca9",
+              "ko": "\uc6d0\uc18c \uacf5\uba85: \ub4a4\uc5c9\ud0a8 \ubc14\uc704"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Resonance"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331601-Elemental Resonance_ Woven Stone.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331401",
+            "name": "Elemental Resonance: Woven Thunder",
+            "title": "Elemental Resonance: Woven Thunder",
+            "description": "Lightning falls on the land of eternity.",
+            "localizedNames": {
+              "en": "Elemental Resonance: Woven Thunder",
+              "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u4ea4\u7ec7\u4e4b\u96f7",
+              "ja": "\u5143\u7d20\u5171\u9cf4\uff1a\u4ea4\u932f\u306e\u96f7",
+              "ko": "\uc6d0\uc18c \uacf5\uba85: \ub4a4\uc5c9\ud0a8 \ubc88\uac1c"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Resonance"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331401-Elemental Resonance_ Woven Thunder.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331201",
+            "name": "Elemental Resonance: Woven Waters",
+            "title": "Elemental Resonance: Woven Waters",
+            "description": "The dance of water nourishes life.",
+            "localizedNames": {
+              "en": "Elemental Resonance: Woven Waters",
+              "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u4ea4\u7ec7\u4e4b\u6c34",
+              "ja": "\u5143\u7d20\u5171\u9cf4\uff1a\u4ea4\u932f\u306e\u6c34",
+              "ko": "\uc6d0\uc18c \uacf5\uba85: \ub4a4\uc5c9\ud0a8 \ubb3c"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Resonance"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331201-Elemental Resonance_ Woven Waters.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331701",
+            "name": "Elemental Resonance: Woven Weeds",
+            "title": "Elemental Resonance: Woven Weeds",
+            "description": "All shall dance in the dream forest.",
+            "localizedNames": {
+              "en": "Elemental Resonance: Woven Weeds",
+              "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u4ea4\u7ec7\u4e4b\u8349",
+              "ja": "\u5143\u7d20\u5171\u9cf4\uff1a\u4ea4\u932f\u306e\u8349",
+              "ko": "\uc6d0\uc18c \uacf5\uba85: \ub4a4\uc5c9\ud0a8 \ud480"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Resonance"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331701-Elemental Resonance_ Woven Weeds.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331501",
+            "name": "Elemental Resonance: Woven Winds",
+            "title": "Elemental Resonance: Woven Winds",
+            "description": "The wind sings like a leisurely lyre.",
+            "localizedNames": {
+              "en": "Elemental Resonance: Woven Winds",
+              "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u4ea4\u7ec7\u4e4b\u98ce",
+              "ja": "\u5143\u7d20\u5171\u9cf4\uff1a\u4ea4\u932f\u306e\u98a8",
+              "ko": "\uc6d0\uc18c \uacf5\uba85: \ub4a4\uc5c9\ud0a8 \ubc14\ub78c"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Resonance"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331501-Elemental Resonance_ Woven Winds.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331010",
+            "name": "Elemental Transfiguration: Aquabreeze Blessing",
+            "title": "Elemental Transfiguration: Aquabreeze Blessing",
+            "description": "Winds rage, waves surge, and the sea rises to meet the sky.",
+            "localizedNames": {
+              "en": "Elemental Transfiguration: Aquabreeze Blessing",
+              "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u6c34\u98ce\u795d\u4f51",
+              "ja": "\u5143\u7d20\u5909\u5e7b\u30fb\u6c34\u3068\u98a8\u306e\u795d\u798f",
+              "ko": "\uc6d0\uc18c \ubcc0\ud658: \ubb3c\ubc14\ub78c \ucd95\ubcf5"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Transfiguration",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331010-Elemental Transfiguration_ Aquabreeze Blessing.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331006",
+            "name": "Elemental Transfiguration: Bloom Blessing",
+            "title": "Elemental Transfiguration: Bloom Blessing",
+            "description": "Nurtured by rain and soil, life thrives in endless bloom.",
+            "localizedNames": {
+              "en": "Elemental Transfiguration: Bloom Blessing",
+              "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u7efd\u653e\u795d\u4f51",
+              "ja": "\u5143\u7d20\u5909\u5e7b\u30fb\u958b\u82b1\u306e\u795d\u798f",
+              "ko": "\uc6d0\uc18c \ubcc0\ud658: \uac1c\ud654 \ucd95\ubcf5"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Transfiguration",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331006-Elemental Transfiguration_ Bloom Blessing.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331007",
+            "name": "Elemental Transfiguration: Lava Blessing",
+            "title": "Elemental Transfiguration: Lava Blessing",
+            "description": "Forged of fire and stone, might stands unyielding and eternal.",
+            "localizedNames": {
+              "en": "Elemental Transfiguration: Lava Blessing",
+              "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u706b\u5ca9\u795d\u4f51",
+              "ja": "\u5143\u7d20\u5909\u5e7b\u30fb\u708e\u3068\u5ca9\u306e\u795d\u798f",
+              "ko": "\uc6d0\uc18c \ubcc0\ud658: \ubd88\ubc14\uc704 \ucd95\ubcf5"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Transfiguration",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331007-Elemental Transfiguration_ Lava Blessing.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331008",
+            "name": "Elemental Transfiguration: Rimegrass Blessing",
+            "title": "Elemental Transfiguration: Rimegrass Blessing",
+            "description": "As rime seals the land and the grasses fall still, all sounds are hushed.",
+            "localizedNames": {
+              "en": "Elemental Transfiguration: Rimegrass Blessing",
+              "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u51b0\u8349\u795d\u4f51",
+              "ja": "\u5143\u7d20\u5909\u5e7b\u30fb\u6c37\u3068\u8349\u306e\u795d\u798f",
+              "ko": "\uc6d0\uc18c \ubcc0\ud658: \uc5bc\uc74c\ud480 \ucd95\ubcf5"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Transfiguration",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331008-Elemental Transfiguration_ Rimegrass Blessing.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331009",
+            "name": "Elemental Transfiguration: Stormgale Blessing",
+            "title": "Elemental Transfiguration: Stormgale Blessing",
+            "description": "Wind and thunder surge, swift and unrelenting.",
+            "localizedNames": {
+              "en": "Elemental Transfiguration: Stormgale Blessing",
+              "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u96f7\u98ce\u795d\u4f51",
+              "ja": "\u5143\u7d20\u5909\u5e7b\u30fb\u96f7\u3068\u98a8\u306e\u795d\u798f",
+              "ko": "\uc6d0\uc18c \ubcc0\ud658: \ubc88\uac1c\ubc14\ub78c \ucd95\ubcf5"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Transfiguration",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331009-Elemental Transfiguration_ Stormgale Blessing.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331004",
+            "name": "Elemental Transfiguration: Superconduct Blessing",
+            "title": "Elemental Transfiguration: Superconduct Blessing",
+            "description": "The thunder borrows the might of ice, piercing clouds and splitting rocks.",
+            "localizedNames": {
+              "en": "Elemental Transfiguration: Superconduct Blessing",
+              "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u8d85\u5bfc\u795d\u4f51",
+              "ja": "\u5143\u7d20\u5909\u5e7b\u30fb\u8d85\u96fb\u5c0e\u306e\u795d\u798f",
+              "ko": "\uc6d0\uc18c \ubcc0\ud658: \ucd08\uc804\ub3c4 \ucd95\ubcf5"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Transfiguration",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331004-Elemental Transfiguration_ Superconduct Blessing.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331011",
+            "name": "Elemental Transfiguration: Thunderbloom Blessing",
+            "title": "Elemental Transfiguration: Thunderbloom Blessing",
+            "description": "Thunder cracks, and creeping vines burst forth.",
+            "localizedNames": {
+              "en": "Elemental Transfiguration: Thunderbloom Blessing",
+              "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u96f7\u8349\u795d\u4f51",
+              "ja": "\u5143\u7d20\u5909\u5e7b\u30fb\u96f7\u3068\u8349\u306e\u795d\u798f",
+              "ko": "\uc6d0\uc18c \ubcc0\ud658: \ubc88\uac1c\ud480 \ucd95\ubcf5"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Transfiguration",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331011-Elemental Transfiguration_ Thunderbloom Blessing.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331005",
+            "name": "Elemental Transfiguration: Vaporize Blessing",
+            "title": "Elemental Transfiguration: Vaporize Blessing",
+            "description": "When water and fire meet in concord, no venture shall fail.",
+            "localizedNames": {
+              "en": "Elemental Transfiguration: Vaporize Blessing",
+              "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u84b8\u53d1\u795d\u4f51",
+              "ja": "\u5143\u7d20\u5909\u5e7b\u30fb\u84b8\u767a\u306e\u795d\u798f",
+              "ko": "\uc6d0\uc18c \ubcc0\ud658: \uc99d\ubc1c \ucd95\ubcf5"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Transfiguration",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331005-Elemental Transfiguration_ Vaporize Blessing.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322010",
+            "name": "Ellin",
+            "title": "\"Knightly Dream\" Ellin",
+            "description": "\"I've got to hone my spirit and strength both if my sword arm is to be as steady as Master Jean's!\"",
+            "localizedNames": {
+              "en": "Ellin",
+              "zh": "\u827e\u7433",
+              "ja": "\u30a8\u30ea\u30f3",
+              "ko": "\uc5d8\ub9b0"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322010-Ellin.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "223021",
+            "name": "Embers Rekindled",
+            "title": "Abyss Lector: Embers Rekindled",
+            "description": "The path toward sowing grace is not assured to be one free of obstructions.",
+            "localizedNames": {
+              "en": "Embers Rekindled",
+              "zh": "\u70ec\u706b\u91cd\u71c3",
+              "ja": "\u518d\u3073\u71c3\u3048\u76db\u308b\u6b8b\u706b",
+              "ko": "\ub2e4\uc2dc \ud0c0\uc624\ub978 \uc7bf\ubd88"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223021-Embers Rekindled.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312008",
+            "name": "Emblem of Severed Fate",
+            "title": "Emblem of Severed Fate: Ornate Kabuto",
+            "description": "Thirteen years went by like a dream.\\nThe scarlet snow flies through the shadowed pass like smoke.\\nYou have now gone afar.",
+            "localizedNames": {
+              "en": "Emblem of Severed Fate",
+              "zh": "\u7edd\u7f18\u4e4b\u65d7\u5370",
+              "ja": "\u7d76\u7e01\u306e\u65d7\u5370",
+              "ko": "\uc808\uc5f0\uc758 \uae30\uce58"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312008-Emblem of Severed Fate.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215031",
+            "name": "Embrace of Winds",
+            "title": "Venti: Embrace of Winds",
+            "description": "\"Watch your step.\"",
+            "localizedNames": {
+              "en": "Embrace of Winds",
+              "zh": "\u7eea\u98ce\u4e4b\u62e5",
+              "ja": "\u4f59\u98a8\u306e\u62b1\u64c1",
+              "ko": "\uc5ec\ud48d\uc758 \ud3ec\uc639"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215031-Embrace of Winds.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2304",
+            "name": "Emperor of Fire and Iron",
+            "title": "Emperor of Fire and Iron",
+            "description": "One of the two sovereigns who once stood at the apex of the aberrant species of the Fontemer. An Armored Crab that has avoided predation, and has constantly partaken in hunting and eating. Its imperial title is made half in awe, and half in jest.",
+            "localizedNames": {
+              "en": "Emperor of Fire and Iron",
+              "zh": "\u94c1\u7532\u7194\u706b\u5e1d\u7687",
+              "ja": "\u9244\u7532\u7194\u708e\u5e1d\u738b",
+              "ko": "\uc6a9\uc554\ucca0\uac11 \uc81c\uc655"
+            },
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2304-Emperor of Fire and Iron.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311207",
+            "name": "End of the Line",
+            "title": "Net Snapper: End of the Line",
+            "description": "\"...The fish that once shot forth like an arrow across a huge lake on the plateau,\\nThat would stretch out as straight as a spear, cruising back and forth between the sacred sites,\\nWould see its stream seep into the sand, its lake shrink into a puddle,\\nTill at last, it wound up curled in a little plash, at the mercy of passing pilgrims.\"",
+            "localizedNames": {
+              "en": "End of the Line",
+              "zh": "\u7aed\u6cfd",
+              "ja": "\u7aed\u6ca2",
+              "ko": "\uba54\ub9c8\ub978 \uc5f0\ubabb"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Bow"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311207-End of the Line.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311405",
+            "name": "Engulfing Lightning",
+            "title": "Timeless Dream: Engulfing Lightning",
+            "description": "The naginata was a lethal weapon by which scattered dross might be cut away.\\nAnd the one who wielded that naginata was one who guarded the path to eternity.",
+            "localizedNames": {
+              "en": "Engulfing Lightning",
+              "zh": "\u8599\u8349\u4e4b\u7a3b\u5149",
+              "ja": "\u8349\u8599\u306e\u7a32\u5149",
+              "ko": "\uc608\ucd08\uc758 \ubc88\uac1c"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Polearm"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311405-Engulfing Lightning.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2703",
+            "name": "Eremite Floral Ring-Dancer",
+            "title": "\"Whirling Memories\" Eremite Floral Ring-Dancer",
+            "description": "\"The children of the desert have a rich tradition of song and dance. Originally used to praise and serve the gods, the crafts were later adapted for battle and the seduction of kings.\"",
+            "localizedNames": {
+              "en": "Eremite Floral Ring-Dancer",
+              "zh": "\u9540\u91d1\u65c5\u56e2\u00b7\u53f6\u8f6e\u821e\u8005",
+              "ja": "\u30a8\u30eb\u30de\u30a4\u30c8\u65c5\u56e3\u30fb\u30d5\u30ed\u30fc\u30e9\u30eb\u30ea\u30f3\u30b0\u30c0\u30f3\u30b5\u30fc",
+              "ko": "\ub3c4\uae08 \uc5ec\ub2e8\u00b7\ud480\uace0\ub9ac \ubb34\uc6a9\uc218"
+            },
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Other Weapons",
+              "The Eremites"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2703-Eremite Floral Ring-Dancer.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2303",
+            "name": "Eremite Scorching Loremaster",
+            "title": "\"Poetry and Secret Histories\" Eremite Scorching Loremaster",
+            "description": "Those who still remember will never betray the spirit of the sands yet flowing through their veins.",
+            "localizedNames": {
+              "en": "Eremite Scorching Loremaster",
+              "zh": "\u9540\u91d1\u65c5\u56e2\u00b7\u70bd\u6c99\u53d9\u4e8b\u4eba",
+              "ja": "\u30a8\u30eb\u30de\u30a4\u30c8\u65c5\u56e3\u00b7\u30b5\u30f3\u30c9\u30ed\u30a2\u30de\u30b9\u30bf\u30fc",
+              "ko": "\ub3c4\uae08 \uc5ec\ub2e8\u00b7\ubaa8\ub798\uc758 \uc774\uc57c\uae30\uafbc"
+            },
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Other Weapons",
+              "The Eremites"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2303-Eremite Scorching Loremaster.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332040",
+            "name": "Eremite Teatime",
+            "title": "Eremite Teatime",
+            "description": "\"Join the Eremites and Embrace a Wonderful New Life!\"",
+            "localizedNames": {
+              "en": "Eremite Teatime",
+              "zh": "\u9540\u91d1\u65c5\u56e2\u7684\u8336\u6b47",
+              "ja": "\u30a8\u30eb\u30de\u30a4\u30c8\u65c5\u56e3\u306e\u30c6\u30a3\u30fc\u30bf\u30a4\u30e0",
+              "ko": "\ub3c4\uae08 \uc5ec\ub2e8\uc758 \ud2f0\ud0c0\uc784"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332040-Eremite Teatime.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311111",
+            "name": "Everlasting Moonglow",
+            "title": "Emblem of Pearl and Waves: Everlasting Moonglow",
+            "description": "\"Even if the storm clouds should gather, and even if the violet lightning's ferocity be perilous and unpredictable.\\nThe silver moon of Watatsumi shall still pierce through the clouds and scatter forth its light.\"",
+            "localizedNames": {
+              "en": "Everlasting Moonglow",
+              "zh": "\u4e0d\u706d\u6708\u534e",
+              "ja": "\u4e0d\u6ec5\u306e\u6708\u83ef",
+              "ko": "\ubd88\uba78\uc758 \ub2ec\ube5b"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Catalyst"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311111-Everlasting Moonglow.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312006",
+            "name": "Exile's Circlet",
+            "title": "Noble Descent: Exile's Circlet",
+            "description": "\"Woe to thee, oh great hall with silver piled high! Why is your crown drenched in blood?\"",
+            "localizedNames": {
+              "en": "Exile's Circlet",
+              "zh": "\u6d41\u653e\u8005\u5934\u51a0",
+              "ja": "\u4ea1\u547d\u8005\u306e\u51a0",
+              "ko": "\uc720\ubc30\uc790\uc758 \uba38\ub9ac\uc7a5\uc2dd"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312006-Exile's Circlet.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2605",
+            "name": "Experimental Field Generator",
+            "title": "Unfinished Ideal: Experimental Field Generator",
+            "description": "A product of the Fontaine Research Institute of Kinetic Energy Engineering that has gone out of control due to an accident. It has the ability to \"counteract\" the effects of gravity.",
+            "localizedNames": {
+              "en": "Experimental Field Generator",
+              "zh": "\u5b9e\u9a8c\u6027\u573a\u529b\u53d1\u751f\u88c5\u7f6e",
+              "ja": "\u5b9f\u9a13\u7528\u30d5\u30a3\u30fc\u30eb\u30c9\u751f\u6210\u88c5\u7f6e",
+              "ko": "\uc2e4\ud5d8\uc131 \uc5ed\uc7a5 \ubc1c\uc0dd \uc7a5\uce58"
+            },
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2605-Experimental Field Generator.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332026",
+            "name": "Falls and Fortune",
+            "title": "Falls and Fortune",
+            "description": "The accident of falling into a pit can also be a chance to reveal the buried past beneath the dust.",
+            "localizedNames": {
+              "en": "Falls and Fortune",
+              "zh": "\u574d\u9677\u4e0e\u5951\u673a",
+              "ja": "\u5d29\u843d\u3068\u304d\u3063\u304b\u3051",
+              "ko": "\ucd94\ub77d\uacfc \uacc4\uae30"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332026-Falls and Fortune.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211161",
+            "name": "Far to Fall",
+            "title": "Skirk: Far to Fall",
+            "description": "\"Another star goes out.\"",
+            "localizedNames": {
+              "en": "Far to Fall",
+              "zh": "\u6e6e\u8fdc",
+              "ja": "\u60a0\u9060",
+              "ko": "\uc694\uc6d0"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211161-Far to Fall.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "224051",
+            "name": "Fatal Fulmination",
+            "title": "Consecrated Scorpion: Fatal Fulmination",
+            "description": "Lifeforms are governed by the laws of evolution, Consecrated Beasts exploited these rules by being fortunate enough to discover a long-dead carcass of a greater being before any of their competition ever did.",
+            "localizedNames": {
+              "en": "Fatal Fulmination",
+              "zh": "\u4ea1\u96f7\u51dd\u84c4",
+              "ja": "\u6b7b\u96f7\u51dd\u96c6",
+              "ko": "\uc751\ucd95\ub41c \uc8fd\uc74c\uc758 \ubc88\uac1c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224051-Fatal Fulmination.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332016",
+            "name": "Fatui Conspiracy",
+            "title": "A Conspiracy Under Winter's Resplendence",
+            "description": "...But none know the intricacies of what they are plotting.",
+            "localizedNames": {
+              "en": "Fatui Conspiracy",
+              "zh": "\u611a\u4eba\u4f17\u7684\u9634\u8c0b",
+              "ja": "\u30d5\u30a1\u30c7\u30e5\u30a4\u306e\u60aa\u5de7\u307f",
+              "ko": "\uc6b0\uc778\ub2e8\uc758 \uc74c\ubaa8"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332016-Fatui Conspiracy.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2101",
+            "name": "Fatui Cryo Cicin Mage",
+            "title": "\"Cicin of the Hollow Mist\" Cryo Cicin Mage",
+            "description": "And so long as the Mist Grass yet lingers, the Cryo Cicins will not abandon her.",
+            "localizedNames": {
+              "en": "Fatui Cryo Cicin Mage",
+              "zh": "\u611a\u4eba\u4f17\u00b7\u51b0\u8424\u672f\u58eb",
+              "ja": "\u30d5\u30a1\u30c7\u30e5\u30a4\u00b7\u6c37\u86cd\u8853\u5e2b",
+              "ko": "\uc6b0\uc778\ub2e8\u00b7\uc5bc\uc74c \uce58\uce5c \uc220\uc0ac"
+            },
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Other Weapons",
+              "Fatui"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2101-Fatui Cryo Cicin Mage.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2404",
+            "name": "Fatui Electro Cicin Mage",
+            "title": "Thunder in the Mist: Electro Cicin Mage",
+            "description": "...Just as the scent of Mist Grass intoxicates the Electro Cicins, so too does the sadistic mage hanker after the pleasure of toying with her foe...",
+            "localizedNames": {
+              "en": "Fatui Electro Cicin Mage",
+              "zh": "\u611a\u4eba\u4f17\u00b7\u96f7\u8424\u672f\u58eb",
+              "ja": "\u30d5\u30a1\u30c7\u30e5\u30a4\u00b7\u96f7\u86cd\u8853\u5e2b",
+              "ko": "\uc6b0\uc778\ub2e8\u00b7\ubc88\uac1c \uce58\uce5c \uc220\uc0ac"
+            },
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Other Weapons",
+              "Fatui"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2404-Fatui Electro Cicin Mage.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2301",
+            "name": "Fatui Pyro Agent",
+            "title": "\"Blade of Settlement\" Agent",
+            "description": "\"There is no running from your debt, be you living or otherwise.\"",
+            "localizedNames": {
+              "en": "Fatui Pyro Agent",
+              "zh": "\u611a\u4eba\u4f17\u00b7\u706b\u4e4b\u503a\u52a1\u5904\u7406\u4eba",
+              "ja": "\u30d5\u30a1\u30c7\u30e5\u30a4\u00b7\u30c7\u30c3\u30c8\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u00b7\u708e",
+              "ko": "\uc6b0\uc778\ub2e8\u00b7\ud654\uc5fc \ucc44\ubb34 \ucc98\ub9ac\uc778"
+            },
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Other Weapons",
+              "Fatui"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2301-Fatui Pyro Agent.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321006",
+            "name": "Favonius Cathedral",
+            "title": "Gathering of the Devout",
+            "description": "\"If you speak sincerely into the wind, your words will surely reach the archon's ear one day.\"",
+            "localizedNames": {
+              "en": "Favonius Cathedral",
+              "zh": "\u897f\u98ce\u5927\u6559\u5802",
+              "ja": "\u897f\u98a8\u5927\u8056\u5802",
+              "ko": "\ud398\ubcf4\ub2c8\uc6b0\uc2a4 \ub300\uc131\ub2f9"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321006-Favonius Cathedral.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311505",
+            "name": "Favonius Sword",
+            "title": "Windfall: Favonius Sword",
+            "description": "\"Legend has it that the knight that bore the title of Wolf Pup could cleave even raindrops with his blade, and the gales spurred by his blows were strong enough to snap roses.\\nThough none could match the heights of the Wolf Pup's prowess, the knights bear his oath of protection yet, his legacy lasting even to the present.\"",
+            "localizedNames": {
+              "en": "Favonius Sword",
+              "zh": "\u897f\u98ce\u5251",
+              "ja": "\u897f\u98a8\u5263",
+              "ko": "\ud398\ubcf4\ub2c8\uc6b0\uc2a4 \uac80"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Sword"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311505-Favonius Sword.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214041",
+            "name": "Featherfall Judgment",
+            "title": "Cyno: Featherfall Judgment",
+            "description": "\"This is my duel soul.\"",
+            "localizedNames": {
+              "en": "Featherfall Judgment",
+              "zh": "\u843d\u7fbd\u7684\u88c1\u62e9",
+              "ja": "\u843d\u7fbd\u306e\u88c1\u6c7a",
+              "ko": "\ub099\ud558\ud558\ub294 \uae43\ud138\uc758 \uc2ec\ud310"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214041-Featherfall Judgment.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "222051",
+            "name": "Featherweight Foam",
+            "title": "Hydro Hilichurl Rogue: Hydrodart Slime",
+            "description": "\"Slimo movo!\"",
+            "localizedNames": {
+              "en": "Featherweight Foam",
+              "zh": "\u8f7b\u76c8\u6c34\u6cab",
+              "ja": "\u8efd\u3084\u304b\u306a\u6c34\u3057\u3076\u304d",
+              "ko": "\uacbd\ucf8c\ud55c \ubb3c\uac70\ud488"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222051-Featherweight Foam.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332051",
+            "name": "Fell Dragon's Awakening",
+            "title": "Fell Dragon's Awakening",
+            "description": "\"It came down from the skies in an ominous black mist and ravaged our homeland...\"",
+            "localizedNames": {
+              "en": "Fell Dragon's Awakening",
+              "zh": "\u300c\u90aa\u9f99\u300d\u7684\u82cf\u9192",
+              "ja": "\u300c\u60aa\u9f8d\u300d\u306e\u76ee\u899a\u3081",
+              "ko": "\uae68\uc5b4\ub09c \u300c\uc545\ub8e1\u300d"
+            },
+            "type": "Action",
+            "tags": [
+              "Simulanka"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332051-Fell Dragon's Awakening.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312040",
+            "name": "Fell Dragon's Monocle",
+            "title": "The Future: Fell Dragon's Monocle",
+            "description": "\"I will surely return to save all souls. Ten years, even a hundred years may pass, but I shall be reborn as a new universe.\"",
+            "localizedNames": {
+              "en": "Fell Dragon's Monocle",
+              "zh": "\u6076\u9f99\u7684\u5355\u7247\u955c",
+              "ja": "\u60aa\u9f8d\u306e\u7247\u773c\u93e1",
+              "ko": "\uc545\ub8e1\uc758 \ub2e8\uc548\uacbd"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312040-Fell Dragon's Monocle.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330011",
+            "name": "Fight for Death",
+            "title": "Fight for Death",
+            "description": "\"No hero should have to wander alone.\"",
+            "localizedNames": {
+              "en": "Fight for Death",
+              "zh": "\u4e3a\u300c\u6b7b\u300d\u800c\u6218",
+              "ja": "\u300c\u6b7b\u300d\u306e\u305f\u3081\u306e\u6226\u3044",
+              "ko": "\u300c\uc8fd\uc74c\u300d\uc744 \uc704\ud55c \uc804\ud22c"
+            },
+            "type": "Action",
+            "tags": [
+              "Arcane Legend",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330011-Fight for Death.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331806",
+            "name": "Fire and War",
+            "title": "Fire and War",
+            "description": "\"We are the inheritors of memory and legend. Those who grew alongside sun and wind. Those who forged our own destiny and future. That is Natlan's fire, the lifeblood of our nation.\"",
+            "localizedNames": {
+              "en": "Fire and War",
+              "zh": "\u706b\u4e0e\u6218\u4e89",
+              "ja": "\u708e\u3068\u6226\u4e89",
+              "ko": "\ubd88\uacfc \uc804\uc7c1"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331806-Fire and War.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333013",
+            "name": "Fish and Chips",
+            "title": "Fish and Chips",
+            "description": "Fish fried until golden and crispy, with chips and a smorgasbord of sauces. Every single bite is suffused with savory satisfaction...",
+            "localizedNames": {
+              "en": "Fish and Chips",
+              "zh": "\u70b8\u9c7c\u85af\u6761",
+              "ja": "\u30d5\u30a3\u30c3\u30b7\u30e5\u30a2\u30f3\u30c9\u30c1\u30c3\u30d7\u30b9",
+              "ko": "\ud53c\uc2dc \uc564 \uce69\uc2a4"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333013-Fish and Chips.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311310",
+            "name": "Flame-Forged Insight",
+            "title": "Mind in Bloom: Flame-Forged Insight",
+            "description": "\"Let the memories of the past accompany you on your journey, in place of forebears who now lack the strength to...\"\\n\"The past flows through the blood into each new generation, like an unquenchable fire passed down through rituals that never cease to burn.\"",
+            "localizedNames": {
+              "en": "Flame-Forged Insight",
+              "zh": "\u62fe\u6167\u94f8\u7194",
+              "ja": "\u77e5\u6075\u306e\u6eb6\u708e",
+              "ko": "\ubd88\ub85c \ubcbc\ub9b0 \uc9c0\ud61c"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Claymore"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311310-Flame-Forged Insight.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "223061",
+            "name": "Flamelord's Blessing",
+            "title": "Goldflame Qucusaur Tyrant: Flamelord's Blessing",
+            "description": "\"However, judging from his current title of 'Tyrant,' that story did not have a happy ending...\"",
+            "localizedNames": {
+              "en": "Flamelord's Blessing",
+              "zh": "\u300c\u7130\u4e3b\u4e4b\u795d\u300d",
+              "ja": "\u300c\u7114\u306e\u4e3b\u306e\u795d\u798f\u300d",
+              "ko": "\u300c\ubd88\uaf43 \uc8fc\uc778\uc758 \ucd95\ubcf5\u300d"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223061-Flamelord's Blessing.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332027",
+            "name": "Flickering Four-Leaf Sigil",
+            "title": "Flickering Four-Leaf Sigil",
+            "description": "A wondrous symbol shaped like a four-leaf clover, it is of great assistance to one who manipulates the elements.",
+            "localizedNames": {
+              "en": "Flickering Four-Leaf Sigil",
+              "zh": "\u6d6e\u70c1\u7684\u56db\u53f6\u5370",
+              "ja": "\u304d\u3089\u3081\u304f\u30af\u30ed\u30fc\u30d0\u30fc\u30de\u30fc\u30af",
+              "ko": "\ubc18\uc9dd\uc774\ub294 \ud074\ub85c\ubc84 \uc778\uc7a5"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332027-Flickering Four-Leaf Sigil.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "217011",
+            "name": "Floral Sidewinder",
+            "title": "Collei: Floral Sidewinder",
+            "description": "Never underestimate Collei, and never underestimate her cat.",
+            "localizedNames": {
+              "en": "Floral Sidewinder",
+              "zh": "\u98de\u53f6\u8ff4\u659c",
+              "ja": "\u30d5\u30e9\u30a4\u30ea\u30fc\u30d5\u30ef\u30a4\u30f3\u30c0\u30fc",
+              "ko": "\ub418\ub3cc\uc544\uc624\ub294 \uc78e\uc0c8"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217011-Floral Sidewinder.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "222061",
+            "name": "Flow Convergence",
+            "title": "Hydro Tulpa: Flow Convergence",
+            "description": "\"Countless wills dissolved in the water, which, like the universe, was full of souls that wished to be born.\"",
+            "localizedNames": {
+              "en": "Flow Convergence",
+              "zh": "\u6c47\u6d41",
+              "ja": "\u5408\u6d41",
+              "ko": "\ud569\ub958"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222061-Flow Convergence.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "221051",
+            "name": "Flow of Forms",
+            "title": "Wayward Hermetic Spiritspeaker: Flow of Forms",
+            "description": "\"Night and day, in a place of exile far from worldly clamor, a hermit contemplates an ever-changing flow of forms and the metaphors they contain. Any warrior with the courage to step up and accept her challenge will face the colorful trials she has woven.\"",
+            "localizedNames": {
+              "en": "Flow of Forms",
+              "zh": "\u6d41\u53d8\u7684\u7ed8\u5f62",
+              "ja": "\u79fb\u308a\u5909\u308f\u308b\u7d75",
+              "ko": "\uc0c9\ucc44\uc758 \ud750\ub984"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/221051-Flow of Forms.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312028",
+            "name": "Flower of Paradise Lost",
+            "title": "Withered Dreamscape: Flower of Paradise Lost",
+            "description": "\"But 'eternity' is ultimately a lie. Intoxication and love could only grind memories down to broken dreams.\"",
+            "localizedNames": {
+              "en": "Flower of Paradise Lost",
+              "zh": "\u4e50\u56ed\u9057\u843d\u4e4b\u82b1",
+              "ja": "\u697d\u5712\u306e\u7d76\u82b1",
+              "ko": "\uc783\uc5b4\ubc84\ub9b0 \ub099\uc6d0\uc758 \uaf43"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312028-Flower of Paradise Lost.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213011",
+            "name": "Flowing Flame",
+            "title": "Diluc: Flowing Flame",
+            "description": "A simple way out of perilous situations.",
+            "localizedNames": {
+              "en": "Flowing Flame",
+              "zh": "\u6d41\u706b\u7126\u707c",
+              "ja": "\u6d41\u706b\u713c\u707c",
+              "ko": "\uc720\ud654\uc758 \ud654\uc0c1"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213011-Flowing Flame.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311110",
+            "name": "Flowing Purity",
+            "title": "Flowing Purity",
+            "description": "\"...This heart of mine, which beats as though it were ensconced in a vessel of flesh and blood, has already been stained with the same sin on this journey. This heart of mine, so tortured by the pain of regret \u2014 where could it ever hope to find peace?\"",
+            "localizedNames": {
+              "en": "Flowing Purity",
+              "zh": "\u7eaf\u6c34\u6d41\u534e",
+              "ja": "\u7d14\u6c34\u6d41\u83ef",
+              "ko": "\uc21c\uc218\ud55c \ub2ec\ube5b \ubb3c\uacb0"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Catalyst"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311110-Flowing Purity.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312019",
+            "name": "Flowing Rings",
+            "title": "Enthralling Tales Passed On: Flowing Rings",
+            "description": "\"...And the stone that had been lost to the waters may have been a lesser jade, or perhaps just a simple cup. Some even say that the \"jade\" in the tale is in fact an analogy for a beautiful person.\"",
+            "localizedNames": {
+              "en": "Flowing Rings",
+              "zh": "\u6d6e\u6eaf\u4e4b\u73cf",
+              "ja": "\u6d6e\u6d41\u306e\u5bfe\u7389",
+              "ko": "\ucd94\uc5b5\uc758 \ubcf4\uc625"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312019-Flowing Rings.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332046",
+            "name": "Flying Squad, Attack!",
+            "title": "Flying Squad, Attack!",
+            "description": "\"Back when the Flower-Feather Clan was responsible for patrolling and defending all of Natlan, the flying squad was the best of the best \u2014 the fiercest warriors in the nation.\"",
+            "localizedNames": {
+              "en": "Flying Squad, Attack!",
+              "zh": "\u98de\u884c\u961f\u51fa\u51fb\uff01",
+              "ja": "\u98db\u884c\u968a\u51fa\u6483\uff01",
+              "ko": "\ube44\ud589 \ubd80\ub300 \ucd9c\uaca9!"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332046-Flying Squad, Attack!.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322029",
+            "name": "Forest Blessing",
+            "title": "Forest Blessing",
+            "description": "\"I bestow upon you the blessings of the forest, and offer you a home in this land...\"",
+            "localizedNames": {
+              "en": "Forest Blessing",
+              "zh": "\u68ee\u6797\u7684\u795d\u798f",
+              "ja": "\u68ee\u306e\u795d\u798f",
+              "ko": "\uc232\uc758 \ucd95\ubcf5"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322029-Forest Blessing.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311307",
+            "name": "Forest Regalia",
+            "title": "Forest Sanctuary: Forest Regalia",
+            "description": "\"...Then the current changed and the moon's reflection was scattered. Much has changed, and yet, much will now remain unchanged forevermore.\\nBut even if you, like me, have never met a king, you would still get the impression that Tiger was a noble and powerful king of the forest.\"",
+            "localizedNames": {
+              "en": "Forest Regalia",
+              "zh": "\u68ee\u6797\u738b\u5668",
+              "ja": "\u68ee\u6797\u306e\u30ec\u30ac\u30ea\u30a2",
+              "ko": "\uc232\uc758 \ub9ac\uac8c\uc77c\ub9ac\uc5b4"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Claymore"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311307-Forest Regalia.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321018",
+            "name": "Fortress of Meropide",
+            "title": "Fortress of Meropide",
+            "description": "\"A fastness of bronze and iron will collapse one day, but a city of law and justice will never fall.\"",
+            "localizedNames": {
+              "en": "Fortress of Meropide",
+              "zh": "\u6885\u6d1b\u5f7c\u5f97\u5821",
+              "ja": "\u30e1\u30ed\u30d4\u30c7\u8981\u585e",
+              "ko": "\uba54\ub85c\ud53c\ub4dc \uc694\uc0c8"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321018-Fortress of Meropide.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312039",
+            "name": "Fragment of Harmonic Whimsy",
+            "title": "Whimsical Waltz: Fragment of Harmonic Whimsy",
+            "description": "\"If I truly did have a chance to choose, then I would be able to change the unchangeable end of which you spoke.\"",
+            "localizedNames": {
+              "en": "Fragment of Harmonic Whimsy",
+              "zh": "\u8c10\u5f8b\u5f02\u60f3\u65ad\u7ae0",
+              "ja": "\u8ae7\u5f8b\u5947\u60f3\u306e\u65ad\u7ae0",
+              "ko": "\uc870\ud654\ub85c\uc6b4 \uacf5\uc0c1\uc758 \ub2e8\ud3b8"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312039-Fragment of Harmonic Whimsy.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330004",
+            "name": "Fresh Wind of Freedom",
+            "title": "Fresh Wind of Freedom",
+            "description": "\"The heavenly bard brushed the strings of the lyre, summoning forth the gale, dispersing the ice and snow, cleaving the peaks, and making the new Mondstadt the home of freedom.\"",
+            "localizedNames": {
+              "en": "Fresh Wind of Freedom",
+              "zh": "\u81ea\u7531\u7684\u65b0\u98ce",
+              "ja": "\u81ea\u7531\u306e\u65b0\u98a8",
+              "ko": "\uc0c8\ub85c\uc6b4 \uc790\uc720\uc758 \ubc14\ub78c"
+            },
+            "type": "Action",
+            "tags": [
+              "Arcane Legend",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330004-Fresh Wind of Freedom.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332020",
+            "name": "Friendship Eternal",
+            "title": "Bosom Friends",
+            "description": "Good friends never truly leave. They stay with us in another form.",
+            "localizedNames": {
+              "en": "Friendship Eternal",
+              "zh": "\u6c38\u8fdc\u7684\u53cb\u8c0a",
+              "ja": "\u6c38\u9060\u306a\u308b\u53cb\u60c5",
+              "ko": "\uc601\uc6d0\ud55c \uc6b0\uc815"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332020-Friendship Eternal.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2104",
+            "name": "Frost Operative",
+            "title": "Filtered in Liquidation: Frost Operative",
+            "description": "Selected while still children, they can only become an \"Operative\" after many long years of training and teaching, after countless rounds have winnowed the field.",
+            "localizedNames": {
+              "en": "Frost Operative",
+              "zh": "\u611a\u4eba\u4f17\u00b7\u971c\u5f79\u4eba",
+              "ja": "\u30d5\u30a1\u30c7\u30e5\u30a4\u00b7\u6c37\u971c\u306e\u5f93\u8005",
+              "ko": "\uc6b0\uc778\ub2e8\u00b7\uc11c\ub9ac \uc2ec\ubd80\ub984\uafbc"
+            },
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Other Weapons",
+              "Fatui"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2104-Frost Operative.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321037",
+            "name": "Frostmoon Enclave",
+            "title": "Frostmoon Enclave",
+            "description": "Here, the Frostmoon Scions gather, listening to the teachings of moonlight.",
+            "localizedNames": {
+              "en": "Frostmoon Enclave",
+              "zh": "\u971c\u6708\u4e4b\u574a",
+              "ja": "\u971c\u6708\u306e\u91cc",
+              "ko": "\uc11c\ub9ac\ub2ec \ub9c8\uc744"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321037-Frostmoon Enclave.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311105",
+            "name": "Fruit of Fulfillment",
+            "title": "Moon's Fullness: Fruit of Fulfillment",
+            "description": "\"Even the most bitter of stories contain courage and strength... The story of the good Golden Nara's adventures with us will help good Nara defend the forest.\"",
+            "localizedNames": {
+              "en": "Fruit of Fulfillment",
+              "zh": "\u76c8\u6ee1\u4e4b\u5b9e",
+              "ja": "\u6e80\u60a6\u306e\u5b9f",
+              "ko": "\ucda9\ub9cc\uc758 \uc5f4\ub9e4"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Catalyst"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311105-Fruit of Fulfillment.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332048",
+            "name": "Fruits of Training",
+            "title": "Fruits of Training",
+            "description": "\"I keep telling them it's down to the training... Why doesn't anybody listen?\"",
+            "localizedNames": {
+              "en": "Fruits of Training",
+              "zh": "\u5065\u8eab\u7684\u6210\u679c",
+              "ja": "\u30c8\u30ec\u30fc\u30cb\u30f3\u30b0\u306e\u6210\u679c",
+              "ko": "\ud5ec\uc2a4\uc758 \uc131\uacfc"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332048-Fruits of Training.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215061",
+            "name": "Gales of Reverie",
+            "title": "Wanderer: Gales of Reverie",
+            "description": "\"Squall and fury!\"",
+            "localizedNames": {
+              "en": "Gales of Reverie",
+              "zh": "\u68a6\u8ff9\u4e00\u98ce",
+              "ja": "\u5922\u8de1\u4e00\u98a8",
+              "ko": "\ubabd\uc0c1\uc758 \ubc14\ub78c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215061-Gales of Reverie.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312004",
+            "name": "Gambler's Earrings",
+            "title": "Wager: Gambler's Earrings",
+            "description": "\"In games where one gambles with life and death, remaining calm and composed is key to increasing one's odds of victory.\"",
+            "localizedNames": {
+              "en": "Gambler's Earrings",
+              "zh": "\u8d4c\u5f92\u7684\u8033\u73af",
+              "ja": "\u535a\u5f92\u306e\u30d4\u30a2\u30b9",
+              "ko": "\ub178\ub984\uafbc\uc758 \uadc0\uac78\uc774"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312004-Gambler's Earrings.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321014",
+            "name": "Gandharva Ville",
+            "title": "Gandharva Ville",
+            "description": "The place where travelers and Forest Rangers meet in joy \u2014 the village that listens to the heartbeat of the rainforest.",
+            "localizedNames": {
+              "en": "Gandharva Ville",
+              "zh": "\u5316\u57ce\u90ed",
+              "ja": "\u30ac\u30f3\u30c0\u30eb\u30f4\u30a1\u30fc\u6751",
+              "ko": "\uac04\ub2e4\ub974\ubc14 \uc131\uacfd"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321014-Gandharva Ville.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312009",
+            "name": "General's Ancient Helm",
+            "title": "Ironclad Promise: General's Ancient Helm",
+            "description": "\"The last drop of blood had soaked into the battlefield, and the glazed sands shone gloriously once more.\"",
+            "localizedNames": {
+              "en": "General's Ancient Helm",
+              "zh": "\u5c06\u5e05\u515c\u936a",
+              "ja": "\u5c06\u5e25\u306e\u515c",
+              "ko": "\uc7a5\uc218\uc758 \ud22c\uad6c"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312009-General's Ancient Helm.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332060",
+            "name": "Genius's Upgrade Technique",
+            "title": "Genius's Upgrade Technique",
+            "description": "\"Alright, upgrade complete! Time to treat myself to a tasty snack.\"",
+            "localizedNames": {
+              "en": "Genius's Upgrade Technique",
+              "zh": "\u5929\u624d\u7684\u6539\u9020\u6cd5",
+              "ja": "\u5929\u624d\u7684\u306a\u6539\u9020",
+              "ko": "\ucc9c\uc7ac\uc758 \uac1c\uc870\ubc95"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332060-Genius's Upgrade Technique.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322030",
+            "name": "Gift of the Goddess of Prophecy",
+            "title": "Gift of the Goddess of Prophecy",
+            "description": "\"When that time comes, I shall dance, and return the tracks beneath my people's feet back to the stars in the sky...\"",
+            "localizedNames": {
+              "en": "Gift of the Goddess of Prophecy",
+              "zh": "\u9884\u8a00\u5973\u795e\u7684\u793c\u7269",
+              "ja": "\u9810\u8a00\u306e\u5973\u795e\u306e\u8d08\u308a\u7269",
+              "ko": "\uc608\uc5b8\uc758 \uc5ec\uc2e0\uc758 \uc120\ubb3c"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322030-Gift of the Goddess of Prophecy.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312018",
+            "name": "Gilded Dreams",
+            "title": "Golden Vision: Gilded Dreams",
+            "description": "\"Some time later, absurd decisions would be issued alongside illusory madness, using lovely expectations as bait to lead the people towards a bitter end.\"",
+            "localizedNames": {
+              "en": "Gilded Dreams",
+              "zh": "\u9970\u91d1\u4e4b\u68a6",
+              "ja": "\u91d1\u30e1\u30c3\u30ad\u306e\u5922",
+              "ko": "\ub3c4\uae08\ub41c \uafc8"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312018-Gilded Dreams.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312045",
+            "name": "Gladiator's Finale",
+            "title": "Unbound Dream: Gladiator's Finale",
+            "description": "\"The gladiator's healing wounds were covered with invisible feathers.\\nHe eventually set off on a journey, finally as free as a bird. His destination was the place where flowers bloom and birds soar.\"",
+            "localizedNames": {
+              "en": "Gladiator's Finale",
+              "zh": "\u89d2\u6597\u58eb\u7684\u7ec8\u5e55\u793c",
+              "ja": "\u5263\u95d8\u58eb\u306e\u30d5\u30a3\u30ca\u30fc\u30ec",
+              "ko": "\uac80\ud22c\uc0ac\uc758 \ud53c\ub0a0\ub808"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312045-Gladiator's Finale.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312029",
+            "name": "Gladiator's Triumphus",
+            "title": "Unbeaten: Gladiator's Triumphus",
+            "description": "\"Only in moments of victory could the slave have a taste of what it felt like to be a master. But the cost of this vain aspiration was for the faint glow of freedom to be shrouded by darkness.\\nOn the day of his triumph, the gladiator finally caught a glimpse of the world outside his cell. He was a step closer to freedom.\"",
+            "localizedNames": {
+              "en": "Gladiator's Triumphus",
+              "zh": "\u89d2\u6597\u58eb\u7684\u51ef\u65cb",
+              "ja": "\u5263\u95d8\u58eb\u306e\u51f1\u65cb",
+              "ko": "\uac80\ud22c\uc0ac\uc758 \uac1c\uc120"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312029-Gladiator's Triumphus.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333017",
+            "name": "Glittering Gemstones",
+            "title": "Glittering Gemstones",
+            "description": "Multicolored biscuits. The sour and sweet jam gives off the clear luster of crystalline form, adding a shine to the crunchy treats. Such radiance! Such tastiness! What could this be but equal even to the most precious jewels?",
+            "localizedNames": {
+              "en": "Glittering Gemstones",
+              "zh": "\u5b9d\u77f3\u95ea\u95ea",
+              "ja": "\u304d\u3089\u304d\u3089\u30b8\u30e5\u30a8\u30ea\u30fc",
+              "ko": "\ubc18\uc9dd\uc774\ub294 \ubcf4\uc11d"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333017-Glittering Gemstones.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "212011",
+            "name": "Glorious Season",
+            "title": "Barbara: Glorious Season",
+            "description": "Here's a song for you~",
+            "localizedNames": {
+              "en": "Glorious Season",
+              "zh": "\u5149\u8f89\u7684\u5b63\u8282",
+              "ja": "\u8f1d\u304f\u5b63\u7bc0",
+              "ko": "\uad11\ud718\uc758 \uacc4\uc808"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212011-Glorious Season.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2704",
+            "name": "Gluttonous Yumkasaur Mountain King",
+            "title": "Lord of the Mountain: Gluttonous Yumkasaur Mountain King",
+            "description": "A mighty Yumkasaurus that has survived since ancient times and seen countless battles.",
+            "localizedNames": {
+              "en": "Gluttonous Yumkasaur Mountain King",
+              "zh": "\u8d2a\u98df\u533f\u53f6\u9f99\u5c71\u738b",
+              "ja": "\u5c71\u306e\u738b\u30fb\u8caa\u98df\u306e\u30e6\u30e0\u30ab\u7adc",
+              "ko": "\uc2dd\ud0d0\uc758 \uc232\ub8e1 \uc0b0\uc655"
+            },
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2704-Gluttonous Yumkasaur Mountain King.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321013",
+            "name": "Golden House",
+            "title": "Golden House",
+            "description": "All the contracts that circulate throughout the land are forged here.",
+            "localizedNames": {
+              "en": "Golden House",
+              "zh": "\u9ec4\u91d1\u5c4b",
+              "ja": "\u9ec4\u91d1\u5c4b",
+              "ko": "\ud669\uae08\uc625"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321013-Golden House.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312026",
+            "name": "Golden Troupe",
+            "title": "Surpassing the Ancient Dream: Golden Troupe",
+            "description": "\"Abide until that day... Abide until that day...\\nWhen every member of the Golden Troupe shall win the whole future as their prize.\"",
+            "localizedNames": {
+              "en": "Golden Troupe",
+              "zh": "\u9ec4\u91d1\u5267\u56e2",
+              "ja": "\u9ec4\u91d1\u306e\u5287\u56e3",
+              "ko": "\ud669\uae08 \uadf9\ub2e8"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312026-Golden Troupe.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312025",
+            "name": "Golden Troupe's Reward",
+            "title": "Song of Harmony: Golden Troupe's Reward",
+            "description": "\"When the great golden symphony plays once more, the Golden Troupe will receive the rightful rewards owed to the true and loyal.\"\\n\"When the perfect order separates humanity into master and servant, prosperity and beauty shall make the kingdom glorious once more...\"",
+            "localizedNames": {
+              "en": "Golden Troupe's Reward",
+              "zh": "\u9ec4\u91d1\u5267\u56e2\u7684\u5956\u8d4f",
+              "ja": "\u9ec4\u91d1\u306e\u5287\u56e3\u306e\u8912\u8cde",
+              "ko": "\ud669\uae08 \uadf9\ub2e8\uc758 \ubcf4\uc0c1"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312025-Golden Troupe's Reward.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2603",
+            "name": "Golden Wolflord",
+            "title": "\"King of the Riftwolves\" Golden Wolflord",
+            "description": "A twisted beast from another world. This creature is the ruler of the Riftwolves, and wields the power to command them to dissolve space itself.",
+            "localizedNames": {
+              "en": "Golden Wolflord",
+              "zh": "\u9ec4\u91d1\u738b\u517d",
+              "ja": "\u9ec4\u91d1\u738b\u7363",
+              "ko": "\ud669\uae08 \ub291\ub300\uc655"
+            },
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2603-Golden Wolflord.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2306",
+            "name": "Goldflame Qucusaur Tyrant",
+            "title": "\"Feather of Proclamation\" Goldflame Qucusaur Tyrant",
+            "description": "A Qucusaurus whose body has attained a supernatural form due to enduring forces that the bodies of modern Saurians cannot control.",
+            "localizedNames": {
+              "en": "Goldflame Qucusaur Tyrant",
+              "zh": "\u91d1\u7130\u7ed2\u7ffc\u9f99\u66b4\u541b",
+              "ja": "\u66b4\u541b\u30fb\u91d1\u7114\u306e\u30af\u30af\u7adc",
+              "ko": "\ud669\uae08\ubd88\uaf43\uc758 \uae43\ub8e1 \ud3ed\uad70"
+            },
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2306-Goldflame Qucusaur Tyrant.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213031",
+            "name": "Grand Expectation",
+            "title": "Bennett: Grand Expectation",
+            "description": "The best adventure is always yet to be.",
+            "localizedNames": {
+              "en": "Grand Expectation",
+              "zh": "\u5192\u9669\u61a7\u61ac",
+              "ja": "\u5192\u967a\u306e\u61a7\u308c",
+              "ko": "\ubaa8\ud5d8 \ub3d9\uacbd"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213031-Grand Expectation.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321008",
+            "name": "Grand Narukami Shrine",
+            "title": "Distant Red Dreams Forlorn",
+            "description": "\"May Mt. Yougou flourish eternal, and may its glory be everlasting.\"",
+            "localizedNames": {
+              "en": "Grand Narukami Shrine",
+              "zh": "\u9e23\u795e\u5927\u793e",
+              "ja": "\u9cf4\u795e\u5927\u793e",
+              "ko": "\ub098\ub8e8\uce74\ubbf8 \ub2e4\uc774\uc0e4"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321008-Grand Narukami Shrine.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "226051",
+            "name": "Gravity Field",
+            "title": "Experimental Field Generator: Gravity Field",
+            "description": "According to the original design intentions, this was the first step in a plan to turn Fontaine into a city in the sky, so never again would the people have to worry about the waves that once swept over the land. Even if all seven nations were to be swallowed by the deeps, the elegant Court of Fontaine would float above it all, just like Celestia. Even the secrets of the universe would no longer seem so distant.",
+            "localizedNames": {
+              "en": "Gravity Field",
+              "zh": "\u91cd\u529b\u573a\u57df",
+              "ja": "\u30b0\u30e9\u30d3\u30c6\u30a3\u30d5\u30a3\u30fc\u30eb\u30c9",
+              "ko": "\uc911\ub825\uc7a5"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/226051-Gravity Field.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "224021",
+            "name": "Grieving Echo",
+            "title": "Thunder Manifestation: Grieving Echo",
+            "description": "That which drives the Thunder Manifestation is a much more primal fury...",
+            "localizedNames": {
+              "en": "Grieving Echo",
+              "zh": "\u60b2\u53f7\u56de\u5531",
+              "ja": "\u60b2\u5606\u53f7\u6ce3",
+              "ko": "\ud1b5\uace1\uc758 \uba54\uc544\ub9ac"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224021-Grieving Echo.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2702",
+            "name": "Guardian of Apep's Oasis",
+            "title": "Wisdom's End: Guardian of Apep's Oasis",
+            "description": "Apep found itself swallowed alone amidst the scenery of the catastrophe. All the people, gods, dragons, beasts, birds, and fish. All memories, wisdom, words, and hatred were ground into colorless dust, and the last of the moonlight burned away into a rain of pale fire, falling on the barren land.\\n...\\nApep once deemed the bottom of the sea of sand to be its grave, not the palace of a dispossessed king. The poison of \"wisdom\" would soon free Apep from the hatred and anger festering within it over countless moons. Apep had grown weary of the colorless apocalypse. Then, finally, the young god and the golden Traveler let it recall once again, even though the verdant land it once ruled had been reduced to this gilded wasteland, even though Apep and its many offspring had grown twisted and wretched to secure their continued survival therein, Apep still treasured the sight and scenes of the oasis sparkling in its heart.",
+            "localizedNames": {
+              "en": "Guardian of Apep's Oasis",
+              "zh": "\u963f\u4f69\u666e\u7684\u7eff\u6d32\u5b88\u671b\u8005",
+              "ja": "\u30a2\u30da\u30d7\u306e\u30aa\u30a2\u30b7\u30b9\u5b88\u8b77\u8005",
+              "ko": "\uc544\ud3a9\uc758 \uc624\uc544\uc2dc\uc2a4 \ud30c\uc218\uafbc"
+            },
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2702-Guardian of Apep's Oasis.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332014",
+            "name": "Guardian's Oath",
+            "title": "Evil Is Banished",
+            "description": "\"Adeptus Xiao. I will be here when you call.\"",
+            "localizedNames": {
+              "en": "Guardian's Oath",
+              "zh": "\u62a4\u6cd5\u4e4b\u8a93",
+              "ja": "\u8b77\u6cd5\u306e\u8a93\u3044",
+              "ko": "\ud638\ubc95\uc758 \ub9f9\uc138"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332014-Guardian's Oath.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322013",
+            "name": "Hanachirusato",
+            "title": "Persistence of Pain: Hanachirusato",
+            "description": "\"When shall we meet again after this parting? For life is like the morning dew.\"",
+            "localizedNames": {
+              "en": "Hanachirusato",
+              "zh": "\u82b1\u6563\u91cc",
+              "ja": "\u82b1\u6563\u91cc",
+              "ko": "\ud558\ub098\uce58\ub8e8\uc0ac\ud1a0"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322013-Hanachirusato.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332049",
+            "name": "Harvest Time",
+            "title": "Harvest Time",
+            "description": "\"Very good. Exactly like that. Keep it up.\"",
+            "localizedNames": {
+              "en": "Harvest Time",
+              "zh": "\u6536\u83b7\u65f6\u95f4",
+              "ja": "\u53ce\u7a6b\u671f",
+              "ko": "\uc218\ud655 \uc2dc\uac04"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332049-Harvest Time.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333028",
+            "name": "Harvest's Boon",
+            "title": "Harvest's Boon",
+            "description": "A rich and comforting meal held together by the humble Grainfruit. Minced meat is stir-fried and placed in a baking pan with larger chunks of meat and eggs. The whole thing is then covered with a layer of mashed Grainfruit and baked until a tantalizing golden brown. This hearty dish can often be found on the tables of the Collective of Plenty during harvest festivals.",
+            "localizedNames": {
+              "en": "Harvest's Boon",
+              "zh": "\u4e30\u7a14\u4e4b\u8d50",
+              "ja": "\u30cf\u30fc\u30d9\u30b9\u30c8\u30fb\u30d6\u30fc\u30f3",
+              "ko": "\ube44\uc625\ud55c \ucd95\ubcf5"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333028-Harvest's Boon.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312202",
+            "name": "Heart of Depth",
+            "title": "Shipborne Afterthought: Heart of Depth",
+            "description": "\"For all deaths are in vain. There is no saving those who indulge in the past.\"",
+            "localizedNames": {
+              "en": "Heart of Depth",
+              "zh": "\u6c89\u6ca6\u4e4b\u5fc3",
+              "ja": "\u6c88\u6dea\u306e\u5fc3",
+              "ko": "\ubab0\ub77d\ud55c \ub9c8\uc74c"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312202-Heart of Depth.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312021",
+            "name": "Heart of Khvarena's Brilliance",
+            "title": "Cleansing of Filth: Heart of Khvarena's Brilliance",
+            "description": "\"If the darkness of death did not threaten it, no life would have any importance.\\nIf the waves of forgetfulness did not surge against them, there would be no histories worth recording...\"",
+            "localizedNames": {
+              "en": "Heart of Khvarena's Brilliance",
+              "zh": "\u7075\u5149\u660e\u70c1\u4e4b\u5fc3",
+              "ja": "\u970a\u5149\u660e\u6ec5\u306e\u5fc3",
+              "ko": "\ud06c\ubc14\ub808\ub098\uc758 \ub208\ubd80\uc2e0 \uc2ec\uc7a5"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312021-Heart of Khvarena's Brilliance.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332018",
+            "name": "Heavy Strike",
+            "title": "The Shatterstone Method",
+            "description": "For those that aren't so strong...\\nIt's best to regard the \"The Shatterstone Method\" as just a \"metaphor.\"",
+            "localizedNames": {
+              "en": "Heavy Strike",
+              "zh": "\u91cd\u653b\u51fb",
+              "ja": "\u91cd\u653b\u6483",
+              "ko": "\uac15\ud55c \uacf5\uaca9"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332018-Heavy Strike.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "212101",
+            "name": "Heir to the Ancient Sea's Authority",
+            "title": "Neuvillette: Heir to the Ancient Sea's Authority",
+            "description": "\"The tides beckon.\"",
+            "localizedNames": {
+              "en": "Heir to the Ancient Sea's Authority",
+              "zh": "\u53e4\u6d77\u5b51\u9057\u7684\u6743\u67c4",
+              "ja": "\u53e4\u6d77\u7d99\u55e3\u306e\u6a29\u5a01",
+              "ko": "\uc0dd\uc874\ud55c \uace0\ub300\ubc14\ub2e4\uc758 \uacc4\uc2b9\uc790"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212101-Heir to the Ancient Sea's Authority.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333019",
+            "name": "Hot Spring O'Clock",
+            "title": "Hot Spring O'Clock",
+            "description": "A pizza made using Grainfruit. Grainfruit is scattered across the crust before a thick layer of cheese is poured on top, and the whole thing is delivered into the oven. The final touch is to then draw a little Koholasaurus picture on it. Eat it while it's hot \u2014 the warmth will remind you of a serene time spent enjoying a soothing soak in a hot spring.",
+            "localizedNames": {
+              "en": "Hot Spring O'Clock",
+              "zh": "\u6e29\u6cc9\u65f6\u5149",
+              "ja": "\u6e29\u6cc9\u30bf\u30a4\u30e0",
+              "ko": "\uc628\ucc9c\uc758 \ub9db"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333019-Hot Spring O'Clock.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2205",
+            "name": "Hydro Hilichurl Rogue",
+            "title": "\"Razorwave Roamer\" Hydro Hilichurl Rogue",
+            "description": "Hilichurl wanderers unaffiliated with any specific tribe. They can often be found roving the wilds as if in voluntary exile.",
+            "localizedNames": {
+              "en": "Hydro Hilichurl Rogue",
+              "zh": "\u4e18\u4e18\u6c34\u884c\u6e38\u4fa0",
+              "ja": "\u30d2\u30eb\u30c1\u30e3\u30fc\u30eb\u30ec\u30f3\u30b8\u30e3\u30fc\u00b7\u6c34",
+              "ko": "\uce04\uce04 \ubb3c\uac78\uc74c \uc21c\ucc30\uc790"
+            },
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Other Weapons",
+              "Monster",
+              "Hilichurl"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2205-Hydro Hilichurl Rogue.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2206",
+            "name": "Hydro Tulpa",
+            "title": "\"Awakened Egregore\" Hydro Tulpa",
+            "description": "A human-shaped monster formed from the agglomeration of countless drops of water.",
+            "localizedNames": {
+              "en": "Hydro Tulpa",
+              "zh": "\u6c34\u5f62\u5e7b\u4eba",
+              "ja": "\u6c34\u5f62\u30bf\u30eb\u30d1",
+              "ko": "\ubb3c\uc758 \ud658\uc778\uac04"
+            },
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2206-Hydro Tulpa.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "216021",
+            "name": "I Got Your Back",
+            "title": "Noelle: I Got Your Back",
+            "description": "A stout heart is the sternest armor.",
+            "localizedNames": {
+              "en": "I Got Your Back",
+              "zh": "\u652f\u63f4\u5c31\u4ea4\u7ed9\u6211\u5427",
+              "ja": "\u652f\u63f4\u306f\u304a\u4efb\u305b\u304f\u3060\u3055\u3044",
+              "ko": "\uc9c0\uc6d0\uc740 \uc800\ud55c\ud14c \ub9e1\uae30\uc138\uc694"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216021-I Got Your Back.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332005",
+            "name": "I Haven't Lost Yet!",
+            "title": "I Haven't Lost Yet!",
+            "description": "Arataki \"He Might Lose but He'll Never Admit Defeatto\" is always game for another round!",
+            "localizedNames": {
+              "en": "I Haven't Lost Yet!",
+              "zh": "\u672c\u5927\u7237\u8fd8\u6ca1\u6709\u8f93\uff01",
+              "ja": "\u4ffa\u69d8\u306f\u307e\u3060\u8ca0\u3051\u3061\u3083\u3044\u306d\u3047\uff01",
+              "ko": "\uc774 \ubab8\uc740 \uc544\uc9c1 \uc9c0\uc9c0 \uc54a\uc558\uc5b4!"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332005-I Haven't Lost Yet!.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "313005",
+            "name": "Iktomisaurus",
+            "title": "Iktomisaurus: Spiritual Support",
+            "description": "\"According to legend, their ancestors did not have a physical form, and instead could drift like spirits between reality and the spiritual realm...\"",
+            "localizedNames": {
+              "en": "Iktomisaurus",
+              "zh": "\u669d\u89c6\u9f99",
+              "ja": "\u30a4\u30af\u30c8\u30df\u7adc",
+              "ko": "\uba85\ub8e1"
+            },
+            "type": "Action",
+            "tags": [
+              "Technique"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313005-Iktomisaurus.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330005",
+            "name": "In Every House a Stove",
+            "title": "In Every House a Stove",
+            "description": "\"The Stove God cared for the people, turning himself into minions who went into every home, fostering food and solidarity alike.\"",
+            "localizedNames": {
+              "en": "In Every House a Stove",
+              "zh": "\u4e07\u5bb6\u7076\u706b",
+              "ja": "\u4e07\u6238\u306e\u7ac8",
+              "ko": "\uc628 \uc138\uc0c1\uc758 \ubd80\ub69c\ub9c9"
+            },
+            "type": "Action",
+            "tags": [
+              "Arcane Legend",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330005-In Every House a Stove.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "216091",
+            "name": "In Five Colors Dyed",
+            "title": "Chiori: In Five Colors Dyed",
+            "description": "\"Scraps of color, scatter!\"",
+            "localizedNames": {
+              "en": "In Five Colors Dyed",
+              "zh": "\u843d\u67d3\u4e94\u8272",
+              "ja": "\u843d\u67d3\u4e94\u8272",
+              "ko": "\uc624\uc0c9 \uc5fc\uc0c9"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216091-In Five Colors Dyed.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332044",
+            "name": "In the Name of the Extreme",
+            "title": "In the Name of the Extreme",
+            "description": "\"Relax your body and embrace the storm! Together with your companions, chase the tailwinds of extremity.\"",
+            "localizedNames": {
+              "en": "In the Name of the Extreme",
+              "zh": "\u4ee5\u6781\u9650\u4e4b\u540d",
+              "ja": "\u6975\u9650\u306e\u540d\u306e\u4e0b\u306b",
+              "ko": "\uadf9\ud55c\uc758 \uc815\uc2e0"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332044-In the Name of the Extreme.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312005",
+            "name": "Instructor's Cap",
+            "title": "Pre-Prepared: Instructor's Cap",
+            "description": "\"I don't have the talent to command an army as its general, nor am I qualified for anything beyond being a soldier.\"\\n\"All I can do is to be a strict instructor to these children, so that they might survive on the battlefield a bit longer.\"",
+            "localizedNames": {
+              "en": "Instructor's Cap",
+              "zh": "\u6559\u5b98\u7684\u5e3d\u5b50",
+              "ja": "\u6559\u5b98\u306e\u5e3d\u5b50",
+              "ko": "\uad50\uad00\uc758 \ubaa8\uc790"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312005-Instructor's Cap.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322011",
+            "name": "Iron Tongue Tian",
+            "title": "\"Where We Last Left Off\" Iron Tongue Tian",
+            "description": "\"Listen, I'll tell you how is it... Let me show you real storytelling tradition!\"",
+            "localizedNames": {
+              "en": "Iron Tongue Tian",
+              "zh": "\u7530\u94c1\u5634",
+              "ja": "\u7530\u9952\u820c",
+              "ko": "\uc804\ub2ec\ubcc0"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322011-Iron Tongue Tian.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321003",
+            "name": "Jade Chamber",
+            "title": "Stargazing Amidst Clouds",
+            "description": "\"They say that it contains a thousand dazzling jewels.\"",
+            "localizedNames": {
+              "en": "Jade Chamber",
+              "zh": "\u7fa4\u7389\u9601",
+              "ja": "\u7fa4\u7389\u95a3",
+              "ko": "\uad70\uc625\uac01"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321003-Jade Chamber.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2701",
+            "name": "Jadeplume Terrorshroom",
+            "title": "\"Lord of Fungi\" Jadeplume Terrorshroom",
+            "description": "If you keep silent and listen closely, you can hear the sound of the ruler of the Shroom-Kin inspecting its territory...",
+            "localizedNames": {
+              "en": "Jadeplume Terrorshroom",
+              "zh": "\u7fe0\u7fce\u6050\u8548",
+              "ja": "\u30de\u30c3\u30b7\u30e5\u30e9\u30d7\u30c8\u30eb",
+              "ko": "\uacf5\ud3ec\uc758 \ucde8\ub839 \ubc84\uc12f"
+            },
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2701-Jadeplume Terrorshroom.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322022",
+            "name": "Jeht",
+            "title": "Drifting Sand, Drifting Dreams: Jeht",
+            "description": "\"Here's a thousand hugs! We will meet again!\"\\n\"May we meet again under a lovelier sun.\"",
+            "localizedNames": {
+              "en": "Jeht",
+              "zh": "\u5a55\u5fb7",
+              "ja": "\u30b8\u30a7\u30a4\u30c9",
+              "ko": "\uc81c\ud2b8"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322022-Jeht.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330003",
+            "name": "Joyous Celebration",
+            "title": "Joyous Celebration",
+            "description": "\"Celebration should be shared with everyone.\"",
+            "localizedNames": {
+              "en": "Joyous Celebration",
+              "zh": "\u6109\u821e\u6b22\u6e38",
+              "ja": "\u96c0\u8e8d\u306e\u30d1\u30ec\u30fc\u30c9",
+              "ko": "\uae30\uc068\uc758 \ucd95\uc81c"
+            },
+            "type": "Action",
+            "tags": [
+              "Arcane Legend",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330003-Joyous Celebration.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333001",
+            "name": "Jueyun Guoba",
+            "title": "Jueyun Guoba",
+            "description": "Flavorful and crispy Jueyun Guoba \u2014 with Guoba's stamp of approval.",
+            "localizedNames": {
+              "en": "Jueyun Guoba",
+              "zh": "\u7edd\u4e91\u9505\u5df4",
+              "ja": "\u7d76\u96f2\u306e\u304a\u7126\u3052",
+              "ko": "\uc808\uc6b4 \ub204\ub8fd\uc9c0"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333001-Jueyun Guoba.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211051",
+            "name": "Kanten Senmyou Blessing",
+            "title": "Kamisato Ayaka: Kanten Senmyou Blessing",
+            "description": "The heron holds upon the ice on elegant wing.",
+            "localizedNames": {
+              "en": "Kanten Senmyou Blessing",
+              "zh": "\u5bd2\u5929\u5ba3\u547d\u795d\u8bcd",
+              "ja": "\u5bd2\u7a7a\u306e\u5ba3\u547d\u795d\u8a5e",
+              "ko": "\ud55c\ucc9c\uc120\uba85 \ucd95\uc0ac"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211051-Kanten Senmyou Blessing.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322002",
+            "name": "Katheryne",
+            "title": "Katheryne, Guild Receptionist",
+            "description": "\"Ad astra abyssosque! Welcome to the Adventurers' Guild.\"",
+            "localizedNames": {
+              "en": "Katheryne",
+              "zh": "\u51ef\u745f\u7433",
+              "ja": "\u30ad\u30e3\u30b5\u30ea\u30f3",
+              "ko": "\uce90\uc11c\ub9b0"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322002-Katheryne.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "217021",
+            "name": "Keen Sight",
+            "title": "Tighnari: Keen Sight",
+            "description": "Mistakes are part of learning... However, these mistakes should be corrected upon being discovered.",
+            "localizedNames": {
+              "en": "Keen Sight",
+              "zh": "\u773c\u8bc6\u6b8a\u660e",
+              "ja": "\u6df1\u304d\u773c\u8b58",
+              "ko": "\uc608\ub9ac\ud55c \uc548\ubaa9"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217021-Keen Sight.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322014",
+            "name": "Kid Kujirai",
+            "title": "Temari-Hiding Intentions: Kid Kujirai",
+            "description": "\"When you hide a Temari, you have to hide it within the time of a Temari song. The person who is looking for it will also find it within a song's time. That will make the game fair!\"",
+            "localizedNames": {
+              "en": "Kid Kujirai",
+              "zh": "\u9cb8\u4e95\u5c0f\u5f1f",
+              "ja": "\u9be8\u4e95\u574a\u3084",
+              "ko": "\ucfe0\uc9c0\ub77c\uc774"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322014-Kid Kujirai.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311206",
+            "name": "King's Squire",
+            "title": "Teachings of the Forest: King's Squire",
+            "description": "A weapon you obtained from an Aranara tale. It has taken on the shape of a bow.\\n\"Remember, this whole world is but a dream of the forest... Please pass on the forest's language and the responsibility of protecting the King's land to future successors.\"",
+            "localizedNames": {
+              "en": "King's Squire",
+              "zh": "\u738b\u4e0b\u8fd1\u4f8d",
+              "ja": "\u738b\u306e\u8fd1\u4f8d",
+              "ko": "\uc655\uc758 \uce21\uadfc"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Bow"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311206-King's Squire.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321002",
+            "name": "Knights of Favonius Library",
+            "title": "Athenaeum of the North",
+            "description": "\"Most of the books here can be lent out, but do bear in mind that you will have to return them... on time.\"",
+            "localizedNames": {
+              "en": "Knights of Favonius Library",
+              "zh": "\u9a91\u58eb\u56e2\u56fe\u4e66\u9986",
+              "ja": "\u9a0e\u58eb\u56e3\u56f3\u66f8\u9928",
+              "ko": "\uae30\uc0ac\ub2e8 \ub3c4\uc11c\uad00"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321002-Knights of Favonius Library.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "313003",
+            "name": "Koholasaurus",
+            "title": "Koholasaurus: Spiritway",
+            "description": "Only the Koholasaurs \u2014 and some adults from the People of the Springs who have mastered a variety of different skills \u2014 are able to use the Spiritways with unfettered facility, swiftly traversing these pathways of constantly flowing phlogiston...",
+            "localizedNames": {
+              "en": "Koholasaurus",
+              "zh": "\u9ccd\u6e38\u9f99",
+              "ja": "\u30b3\u30db\u30e9\u7adc",
+              "ko": "\uc5b4\ub8e1"
+            },
+            "type": "Action",
+            "tags": [
+              "Technique"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313003-Koholasaurus.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "323008",
+            "name": "Kusava",
+            "title": "Kusava",
+            "description": "Kusava, Kusava~\u266a\\nMemories and dreams are full of power.\\nIt is the fruit of flowering plants, and also the seed of new life.\\nThey are the temporary dwelling place of Aranara memories, and they give Aranara strength.",
+            "localizedNames": {
+              "en": "Kusava",
+              "zh": "\u82e6\u820d\u6853",
+              "ja": "\u30af\u30b5\u30f4\u30a1",
+              "ko": "\ucfe0\uc0ac\ubc14"
+            },
+            "type": "Action",
+            "tags": [
+              "Item"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323008-Kusava.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321039",
+            "name": "Kuuvahki Experimental Design Bureau",
+            "title": "Kuuvahki Experimental Design Bureau",
+            "description": "This leviathan forged of white iron and black steel hungrily devours all in its sight \u2013 energy, blood, and tears alike. Yet what it seeks is not plunder, but power enough to withstand the looming calamity.",
+            "localizedNames": {
+              "en": "Kuuvahki Experimental Design Bureau",
+              "zh": "\u6708\u77e9\u529b\u8bd5\u9a8c\u8bbe\u8ba1\u5c40",
+              "ja": "\u30af\u30fc\u30f4\u30a1\u30ad\u5b9f\u9a13\u8a2d\u8a08\u5c40",
+              "ko": "\ub2ec\uc758 \ud798 \uc2e4\ud5d8\uc124\uacc4\uad6d"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321039-Kuuvahki Experimental Design Bureau.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "212061",
+            "name": "Kyouka Fuushi",
+            "title": "Kamisato Ayato: Kyouka Fuushi",
+            "description": "The courtyard remains fragrant even in the bitterest winter.",
+            "localizedNames": {
+              "en": "Kyouka Fuushi",
+              "zh": "\u955c\u534e\u98ce\u59ff",
+              "ja": "\u93e1\u83ef\u98a8\u59ff",
+              "ko": "\uac70\uc6b8 \uc18d\uc758 \uc790\ud0dc"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212061-Kyouka Fuushi.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2102",
+            "name": "La Signora",
+            "title": "\"The Eighth Harbinger\" La Signora",
+            "description": "The crimson dawn was reflected in her pupils, and at last, she unfolded her flaming wings and flew towards the light.\\n\"But that light is not the dawn, dear Rosalyne. That is a sea of flame that will consume everything.\"\\nYet it mattered not, for she knew in her heart that the flames had devoured her long ago.",
+            "localizedNames": {
+              "en": "La Signora",
+              "zh": "\u300c\u5973\u58eb\u300d",
+              "ja": "\u300c\u6dd1\u5973\u300d",
+              "ko": "\u300c\uc2dc\ub1e8\ub77c\u300d"
+            },
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Other Weapons",
+              "Fatui"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2102-La Signora.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333031",
+            "name": "Lakkaberry Pie",
+            "title": "Lakkaberry Pie",
+            "description": "A sweet treat from the borderlands. Once made using nothing but Lakkaberries, the recipe was later enhanced by adding Midsommar Berries to the mix. The two fruits complement each other perfectly, giving this sweet pie a rich, enticing flavor. The original name, however, remains unchanged.",
+            "localizedNames": {
+              "en": "Lakkaberry Pie",
+              "zh": "\u767d\u7075\u679c\u6d3e",
+              "ja": "\u30db\u30ef\u30a4\u30c8\u30d9\u30ea\u30fc\u30af\u30c3\u30b3",
+              "ko": "\ubc31\ub839\uacfc \ud30c\uc774"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333031-Lakkaberry Pie.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215021",
+            "name": "Lands of Dandelion",
+            "title": "Jean: Lands of Dandelion",
+            "description": "\"Wind, hear me!\"",
+            "localizedNames": {
+              "en": "Lands of Dandelion",
+              "zh": "\u84b2\u516c\u82f1\u7684\u56fd\u571f",
+              "ja": "\u84b2\u516c\u82f1\u306e\u56fd\u571f",
+              "ko": "\ubbfc\ub4e4\ub808\uc758 \uad6d\ud1a0"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215021-Lands of Dandelion.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312701",
+            "name": "Laurel Coronet",
+            "title": "Raincaller's Emblem: Laurel Coronet",
+            "description": "\"There is a time appointed for all things to live and die, and the cycle continues on forever.\"",
+            "localizedNames": {
+              "en": "Laurel Coronet",
+              "zh": "\u6708\u6842\u7684\u5b9d\u51a0",
+              "ja": "\u6708\u6842\u306e\u5b9d\u51a0",
+              "ko": "\uc6d4\uacc4\uc218 \uc655\uad00"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312701-Laurel Coronet.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332006",
+            "name": "Leave it to Me!",
+            "title": "Leave it to Me!",
+            "description": "\"It's fine, leave everything to me!\" \u2014 This ranks first among \"lines to put Mondstadter hearts at ease.\"",
+            "localizedNames": {
+              "en": "Leave it to Me!",
+              "zh": "\u4ea4\u7ed9\u6211\u5427\uff01",
+              "ja": "\u304a\u4efb\u305b\u304f\u3060\u3055\u3044\uff01",
+              "ko": "\uc81c\uac8c \ub9e1\uae30\uc138\uc694!"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332006-Leave it to Me!.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322033",
+            "name": "Lepine-Pauline",
+            "title": "Lepine-Pauline",
+            "description": "\"I'm begging you! Begging you like the beggiest beggar in all of begdom!\"",
+            "localizedNames": {
+              "en": "Lepine-Pauline",
+              "zh": "\u4e50\u5e73\u6ce2\u7433",
+              "ja": "\u30ec\u30d4\u30fc\u30cc\u30fb\u30dd\u30fc\u30ea\u30fc\u30f3",
+              "ko": "\ub974\ud540 \ud3f4\ub9b0"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion",
+              "Untransformed"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322033-Lepine-Pauline.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322008",
+            "name": "Liben",
+            "title": "\"Marvelous Merchandise\" Liben",
+            "description": "Big things are about to happen, big things! Oh, and I have an excellent business proposition for you, so, if I could just have a moment of your time?",
+            "localizedNames": {
+              "en": "Liben",
+              "zh": "\u7acb\u672c",
+              "ja": "\u7acb\u672c",
+              "ko": "\ubcf8\uc774"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322008-Liben.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311506",
+            "name": "Light of Foliar Incision",
+            "title": "Whitemoon Bristle: Light of Foliar Incision",
+            "description": "\"If you believe that he yet has the potential to reclaim his honor in the maze, then guide him to break off the pale branch...\\nOnly then can the bright moon and the newborn stars grant him pure wisdom and help him shed his bitter memories and desires.\"",
+            "localizedNames": {
+              "en": "Light of Foliar Incision",
+              "zh": "\u88c1\u53f6\u8403\u5149",
+              "ja": "\u8403\u5149\u306e\u88c1\u8449",
+              "ko": "\uc78e\uc744 \uac00\ub974\ub294 \ube5b"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Sword"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311506-Light of Foliar Incision.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211091",
+            "name": "Light's Remit",
+            "title": "Layla: Light's Remit",
+            "description": "\"My guiding stars.\"",
+            "localizedNames": {
+              "en": "Light's Remit",
+              "zh": "\u5f52\u8292\u643a\u4fe1",
+              "ja": "\u4fbf\u308a\u3068\u5171\u306b\u9084\u308b\u661f\u5f71",
+              "ko": "\uc18c\uc2dd\uacfc \ud568\uaed8 \ub3cc\uc544\uc624\ub294 \ube5b"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211091-Light's Remit.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "222041",
+            "name": "Lightless Feeding",
+            "title": "All-Devouring Narwhal: Lightless Feeding",
+            "description": "Phosphorescent creatures float all about the dark, moonless seas of dreams \u2014 perhaps they are as food for some titanic leviathan.",
+            "localizedNames": {
+              "en": "Lightless Feeding",
+              "zh": "\u65e0\u5149\u9cb8\u566c",
+              "ja": "\u5149\u7121\u304d\u9be8\u306e\u5451\u566c",
+              "ko": "\ube5b \uc5c6\ub294 \ud3ec\uc2dd\uc790"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222041-Lightless Feeding.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214051",
+            "name": "Lightning Storm",
+            "title": "Beidou: Lightning Storm",
+            "description": "Rumbling thunder goes well with lightning storms!",
+            "localizedNames": {
+              "en": "Lightning Storm",
+              "zh": "\u9739\u96f3\u8fde\u9704",
+              "ja": "\u6e80\u5929\u306e\u9739\u9742",
+              "ko": "\ud558\ub298\uc758 \ubcbd\ub825"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214051-Lightning Storm.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332063",
+            "name": "Lil' Fungi's Fun-Tastic Fiesta",
+            "title": "Lil' Fungi's Fun-Tastic Fiesta",
+            "description": "\"Lil' Fungi, Loads of Fun!\"",
+            "localizedNames": {
+              "en": "Lil' Fungi's Fun-Tastic Fiesta",
+              "zh": "\u5c0f\u5c0f\u7075\u8548\u5927\u5e7b\u620f",
+              "ja": "\u3061\u3073\u30c1\u30a8\u30ad\u30ce\u30b3\u30f3\u5927\u5408\u6226",
+              "ko": "\ubbf8\ub2c8 \ubc84\uc12f\ubaac \ud310\ud0c0\uc9c0"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332063-Lil' Fungi's Fun-Tastic Fiesta.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311402",
+            "name": "Lithic Spear",
+            "title": "Evil Shall Never Prevail: Lithic Spear",
+            "description": "These spears were forged from the rocks of the Guyun Stone Forest, and were favored by the Millelith of old. Their hardness knows no equal.",
+            "localizedNames": {
+              "en": "Lithic Spear",
+              "zh": "\u5343\u5ca9\u957f\u67aa",
+              "ja": "\u5343\u5ca9\u9577\u69cd",
+              "ko": "\ucc9c\uc554\uc7a5\ucc3d"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Polearm"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311402-Lithic Spear.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332043",
+            "name": "Little Tepetlisaur \u2014 Treasure Hunter at Large",
+            "title": "Little Tepetlisaur \u2014 Treasure Hunter at Large",
+            "description": "\"Shiny stones that gleam like gold!\"",
+            "localizedNames": {
+              "en": "Little Tepetlisaur \u2014 Treasure Hunter at Large",
+              "zh": "\u5c0f\u5d74\u950b\u9f99\uff01\u53d1\u73b0\u5b9d\u85cf\uff01",
+              "ja": "\u30c6\u30da\u30c8\u30eb\u4ed4\u7adc\uff01\u304a\u5b9d\u767a\u898b\uff01",
+              "ko": "\uaf2c\ub9c8 \uc0b0\ub8e1! \ubcf4\ubb3c \ubc1c\uacac!"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332043-Little Tepetlisaur \u2014 Treasure Hunter at Large.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322012",
+            "name": "Liu Su",
+            "title": "\"In the Next Volume\" Liu Su",
+            "description": "\"Well then, dear guests, what would you all like to hear next?\"",
+            "localizedNames": {
+              "en": "Liu Su",
+              "zh": "\u5218\u82cf",
+              "ja": "\u5289\u8607",
+              "ko": "\uc720\uc18c"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322012-Liu Su.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321001",
+            "name": "Liyue Harbor Wharf",
+            "title": "Where All Ships Dock",
+            "description": "\"Nature provides, the mountains rejoice, we are blessed by heaven's good grace.\"",
+            "localizedNames": {
+              "en": "Liyue Harbor Wharf",
+              "zh": "\u7483\u6708\u6e2f\u53e3",
+              "ja": "\u7483\u6708\u6e2f\u53e3",
+              "ko": "\ub9ac\uc6d4\ud56d"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321001-Liyue Harbor Wharf.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2305",
+            "name": "Lord of Eroded Primal Fire",
+            "title": "\"The Slain Dragon Molded\" Lord of Eroded Primal Fire",
+            "description": "A monster of the void, known as both the Reaper of the Abyss and \"Gosoythoth.\" It is able to corrupt memories contained within the Ley Lines, congealing them into tangible forces of catastrophic portent.",
+            "localizedNames": {
+              "en": "Lord of Eroded Primal Fire",
+              "zh": "\u8680\u706d\u7684\u6e90\u7130\u4e4b\u4e3b",
+              "ja": "\u8755\u307e\u308c\u3057\u6e90\u7114\u306e\u4e3b",
+              "ko": "\uce68\uc2dd\ub41c \uadfc\uc6d0\uc758 \ubd88\uaf43 \uc8fc\uc778"
+            },
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2305-Lord of Eroded Primal Fire.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330012",
+            "name": "Lost Legacies in the Sand",
+            "title": "Lost Legacies in the Sand",
+            "description": "\"Children of the desert, cling no longer to past grievances. But hold tight to the memory of this act of benevolence...\"",
+            "localizedNames": {
+              "en": "Lost Legacies in the Sand",
+              "zh": "\u300c\u6c99\u4e2d\u9057\u4e8b\u300d",
+              "ja": "\u300c\u7802\u4e2d\u306e\u907a\u4e8b\u300d",
+              "ko": "\u300c\uc0ac\ub9c9\uc5d0 \uc804\ud574\uc838\uc624\ub294 \uc774\uc57c\uae30\u300d"
+            },
+            "type": "Action",
+            "tags": [
+              "Arcane Legend",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330012-Lost Legacies in the Sand.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311106",
+            "name": "Lost Prayer to the Sacred Winds",
+            "title": "Boundless Blessing: Lost Prayer to the Sacred Winds",
+            "description": "\"When flowers bloom, when leaves sway, that is me who sings the songs of freedom, of the winds.\"",
+            "localizedNames": {
+              "en": "Lost Prayer to the Sacred Winds",
+              "zh": "\u56db\u98ce\u539f\u5178",
+              "ja": "\u56db\u98a8\u539f\u5178",
+              "ko": "\uc0ac\ud48d \uc6d0\uc11c"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Catalyst"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311106-Lost Prayer to the Sacred Winds.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333003",
+            "name": "Lotus Flower Crisp",
+            "title": "Lotus Flower Crisp",
+            "description": "Dough is formed into bud-like shapes and placed into a pot of oil as if upon the surface of a lake, causing them to slowly bloom layer by layer... A pleasing sight indeed.",
+            "localizedNames": {
+              "en": "Lotus Flower Crisp",
+              "zh": "\u83b2\u82b1\u9165",
+              "ja": "\u30cf\u30b9\u306e\u82b1\u30d1\u30a4",
+              "ko": "\uc5f0\uaf43 \ud30c\uc774"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333003-Lotus Flower Crisp.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312002",
+            "name": "Lucky Dog's Silver Circlet",
+            "title": "Unworried Crown: Lucky Dog's Silver Circlet",
+            "description": "\"One who is favored by fortune can even find priceless treasures in the most deadly of traps.\"",
+            "localizedNames": {
+              "en": "Lucky Dog's Silver Circlet",
+              "zh": "\u5e78\u8fd0\u513f\u94f6\u51a0",
+              "ja": "\u5e78\u904b\u306e\u51a0",
+              "ko": "\ud589\uc6b4\uc544\uc758 \uc740\uad00"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312002-Lucky Dog's Silver Circlet.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "323007",
+            "name": "Lumenstone Adjuvant",
+            "title": "Lumenstone Adjuvant",
+            "description": "\"May it be as a sun in your palm, lighting the way through the lightless tunnels and bringing comfort where all is dark.\"",
+            "localizedNames": {
+              "en": "Lumenstone Adjuvant",
+              "zh": "\u6d41\u660e\u77f3\u89e6\u5a92",
+              "ja": "\u6d41\u660e\u77f3\u306e\u89e6\u5a92",
+              "ko": "\uc720\uba85\uc11d \ucd09\ub9e4"
+            },
+            "type": "Action",
+            "tags": [
+              "Item"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323007-Lumenstone Adjuvant.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "226022",
+            "name": "Lunar Cycles Unending",
+            "title": "Azhdaha: Lunar Cycles Unending",
+            "description": "\"Today is the day... We settle this now!\"",
+            "localizedNames": {
+              "en": "Lunar Cycles Unending",
+              "zh": "\u6666\u6714\u5343\u5f15",
+              "ja": "\u671d\u5915\u306e\u5343\u5f15",
+              "ko": "\ub05d\uc5c6\ub294 \ud68c\uc0ad"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/226022-Lunar Cycles Unending.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332024",
+            "name": "Lyresong",
+            "title": "Lyresong",
+            "description": "\"The traditions of song and poetry, flowing onward in clear, moving melodies.\"",
+            "localizedNames": {
+              "en": "Lyresong",
+              "zh": "\u7434\u97f3\u4e4b\u8bd7",
+              "ja": "\u7434\u97f3\u306e\u8a69",
+              "ko": "\ud604\uc74c\uc758 \uc2dc"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332024-Lyresong.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332028",
+            "name": "Machine Assembly Line",
+            "title": "Machine Assembly Line",
+            "description": "Countless widgets, heated and forged, eventually go into making these exceptional machines, and to the inmates of the Fortress of Meropide, they mean valuable Credit Coupons...",
+            "localizedNames": {
+              "en": "Machine Assembly Line",
+              "zh": "\u673a\u5173\u94f8\u6210\u4e4b\u94fe",
+              "ja": "\u30de\u30b7\u30ca\u30ea\u30fc\u306e\u751f\u7523\u30e9\u30a4\u30f3",
+              "ko": "\uc7a5\uce58 \uc8fc\uc870 \ub77c\uc778"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332028-Machine Assembly Line.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311101",
+            "name": "Magic Guide",
+            "title": "Bane of Storm and Tide: Magic Guide",
+            "description": "The 12th edition of the Magic Guide.\\nIt contains a great detail of errors, but nonetheless remains the most authoritative guide to magic in existence.",
+            "localizedNames": {
+              "en": "Magic Guide",
+              "zh": "\u9b54\u5bfc\u7eea\u8bba",
+              "ja": "\u9b54\u5c0e\u7dd2\u8ad6",
+              "ko": "\ub9c8\ub3c4 \uc11c\ub860"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Catalyst"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311101-Magic Guide.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2501",
+            "name": "Maguu Kenki",
+            "title": "\"Ingenious Machine\" Maguu Kenki",
+            "description": "Even today, it still patrols the place where fate was severed.",
+            "localizedNames": {
+              "en": "Maguu Kenki",
+              "zh": "\u9b54\u5076\u5251\u9b3c",
+              "ja": "\u9b54\u5076\u5263\u9b3c",
+              "ko": "\uaf2d\ub450\uac01\uc2dc \uac80\uadc0"
+            },
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2501-Maguu Kenki.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312031",
+            "name": "Maiden's Fading Beauty",
+            "title": "Crowd of Bouquets: Maiden's Fading Beauty",
+            "description": "\"...As time passed, fewer and fewer courters visited her with flowers. What did it matter? For her, time had already stopped long ago on that fateful day.\"",
+            "localizedNames": {
+              "en": "Maiden's Fading Beauty",
+              "zh": "\u5c11\u5973\u6613\u901d\u7684\u82b3\u989c",
+              "ja": "\u5c11\u5973\u306e\u511a\u304d\u9854",
+              "ko": "\uc18c\ub140\uc758 \uaebe\uc5ec\uac00\ub294 \ubbf8\ubaa8"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312031-Maiden's Fading Beauty.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211141",
+            "name": "Mamaloaco's Frigid Rain",
+            "title": "Citlali: Mamaloaco's Frigid Rain",
+            "description": "\"Citlalin, Itzpapa, get 'em!\"",
+            "localizedNames": {
+              "en": "Mamaloaco's Frigid Rain",
+              "zh": "\u4e94\u91cd\u5929\u7684\u5bd2\u96e8",
+              "ja": "\u4e94\u91cd\u5929\u306e\u5bd2\u96e8",
+              "ko": "\ub2e4\uc12f \ubc88\uc9f8 \ud558\ub298\uc758 \uc11c\ub9ac\ube44"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211141-Mamaloaco's Frigid Rain.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322021",
+            "name": "Mamere",
+            "title": "Mamere",
+            "description": "A Melusine that paints every day. \\n\"Because painting the things that I want to brings me happiness!\"",
+            "localizedNames": {
+              "en": "Mamere",
+              "zh": "\u739b\u6885\u8d6b",
+              "ja": "\u30de\u30e1\u30fc\u30eb",
+              "ko": "\ub9c8\uba54\ud750"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322021-Mamere.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "217101",
+            "name": "Marcotte Sillage",
+            "title": "Emilie: Marcotte Sillage",
+            "description": "\"A little ambience.\"",
+            "localizedNames": {
+              "en": "Marcotte Sillage",
+              "zh": "\u8309\u6d01\u9999\u8ff9",
+              "ja": "\u30de\u30eb\u30b3\u30c3\u30c8\u306e\u6b8b\u9999",
+              "ko": "\ub9c8\ucf54\ud2b8 \ubca0\uc774\uc2a4 \ub178\ud2b8"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217101-Marcotte Sillage.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312024",
+            "name": "Marechaussee Hunter",
+            "title": "Glorious Hunter: Marechaussee Hunter",
+            "description": "\"'Pursue the phantoms in the dark, expel them all, and hunt them down.'\\nSuch is the origin of the name 'Marechaussee Hunter,'\\nCredited to one Cassiodor, who would be elevated to the revered title of 'Golden Hunter,'\\nBut who saw the name as a humiliation.\"",
+            "localizedNames": {
+              "en": "Marechaussee Hunter",
+              "zh": "\u9010\u5f71\u730e\u4eba",
+              "ja": "\u30d5\u30a1\u30f3\u30c8\u30e0\u30cf\u30f3\u30bf\u30fc",
+              "ko": "\uadf8\ub9bc\uc790 \uc0ac\ub0e5\uafbc"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312024-Marechaussee Hunter.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312601",
+            "name": "Mask of Solitude Basalt",
+            "title": "Jagged Stone: Mask of Solitude Basalt",
+            "description": "\"He knew right from wrong, and he never missed his mark.\"",
+            "localizedNames": {
+              "en": "Mask of Solitude Basalt",
+              "zh": "\u4e0d\u52a8\u7384\u77f3\u4e4b\u76f8",
+              "ja": "\u4e0d\u52d5\u7384\u77f3\u306e\u76f8",
+              "ko": "\ubd80\ub3d9\ud604\uc11d\uc758 \uc0c1"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312601-Mask of Solitude Basalt.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332010",
+            "name": "Master of Weaponry",
+            "title": "Master of Weaponry",
+            "description": "\"Watch and learn, comrade! A real warrior isn't picky about their weapons!\"",
+            "localizedNames": {
+              "en": "Master of Weaponry",
+              "zh": "\u8bf8\u6b66\u7cbe\u901a",
+              "ja": "\u6b66\u82b8\u30de\u30b9\u30bf\u30fc",
+              "ko": "\ubb34\uc608 \ub9c8\uc2a4\ud130\ub9ac"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332010-Master of Weaponry.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322018",
+            "name": "Master Zhang",
+            "title": "Arsenal Forge: Master Zhang",
+            "description": "Much burning frustration must transpire before a hunk of metal may become a keen blade.",
+            "localizedNames": {
+              "en": "Master Zhang",
+              "zh": "\u8001\u7ae0",
+              "ja": "\u7ae0",
+              "ko": "\uc7a5 \uc528"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322018-Master Zhang.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333014",
+            "name": "Matsutake Meat Rolls",
+            "title": "Matsutake Meat Rolls",
+            "description": "Ground meat is put on the Matsutake and gently pan-fried on low heat so the Matsutake can fully take in the aromatic juice of the meat. It's a mouthwatering delicacy in all of its glory.",
+            "localizedNames": {
+              "en": "Matsutake Meat Rolls",
+              "zh": "\u677e\u8338\u917f\u8089\u5377",
+              "ja": "\u677e\u8338\u306e\u8089\u5dfb\u304d",
+              "ko": "\ubc84\uc12f\uace0\uae30\ub9d0\uc774"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333014-Matsutake Meat Rolls.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "323006",
+            "name": "Memento Lens",
+            "title": "Memento Lens",
+            "description": "They say that in the distant past, the legendary Kitsune Saiguu left a catalyst for the then-Hiiragi Clan head, Hiroshi, as a tool to be used in exorcisms.\\nThe Hiiragis would have a special Kamera made to order from overseas with that catalyst mounted on its lens assembly, before giving it back to the Grand Narukami Shrine as a symbol of their friendship.",
+            "localizedNames": {
+              "en": "Memento Lens",
+              "zh": "\u7559\u5ff5\u955c",
+              "ja": "\u8ffd\u61b6\u306e\u30ec\u30f3\u30ba",
+              "ko": "\uae30\uc5b5\uc758 \ub80c\uc988"
+            },
+            "type": "Action",
+            "tags": [
+              "Item"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323006-Memento Lens.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2403",
+            "name": "Millennial Pearl Seahorse",
+            "title": "Millennial Pearl Seahorse",
+            "description": "One of the two sovereigns standing at the apex of the Fontemer Aberrants. Poets and authors view it as a proud and noble creature, thus bestowing it with its high-flown title.",
+            "localizedNames": {
+              "en": "Millennial Pearl Seahorse",
+              "zh": "\u5343\u5e74\u73cd\u73e0\u9a8f\u9e9f",
+              "ja": "\u5343\u5e74\u771f\u73e0\u306e\u6d77\u99ff",
+              "ko": "\ucc9c\ub144 \ubb35\uc740 \uc9c4\uc8fc \uae30\ub9b0"
+            },
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2403-Millennial Pearl Seahorse.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333008",
+            "name": "Minty Meat Rolls",
+            "title": "Minty Meat Rolls",
+            "description": "Though this might be its current form, think about it for a moment: did this dish first start as mint rolled around meat, or meat rolled around mint?",
+            "localizedNames": {
+              "en": "Minty Meat Rolls",
+              "zh": "\u517d\u8089\u8584\u8377\u5377",
+              "ja": "\u30df\u30f3\u30c8\u306e\u7363\u8089\u5dfb\u304d",
+              "ko": "\ubbfc\ud2b8 \uace0\uae30\ub9d0\uc774"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333008-Minty Meat Rolls.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "222021",
+            "name": "Mirror Cage",
+            "title": "The Mirror's Secret",
+            "description": "\"Mirror, mirror, in my hand, where do our foes lurk in this land?\"",
+            "localizedNames": {
+              "en": "Mirror Cage",
+              "zh": "\u955c\u9522\u4e4b\u7b3c",
+              "ja": "\u93e1\u306e\u6abb",
+              "ko": "\uac70\uc6b8\uc758 \uc18d\ubc15"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222021-Mirror Cage.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2202",
+            "name": "Mirror Maiden",
+            "title": "\"Snezhnayan Maiden\" Mirror Envoy",
+            "description": "All secrets shall be concealed within the mirror of glaring brightness...",
+            "localizedNames": {
+              "en": "Mirror Maiden",
+              "zh": "\u611a\u4eba\u4f17\u00b7\u85cf\u955c\u4ed5\u5973",
+              "ja": "\u30d5\u30a1\u30c7\u30e5\u30a4\u00b7\u30df\u30e9\u30fc\u30e1\u30a4\u30c7\u30f3",
+              "ko": "\uc6b0\uc778\ub2e8\u00b7\uac70\uc6b8\uc758 \uc5ec\uc778"
+            },
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Other Weapons",
+              "Fatui"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2202-Mirror Maiden.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "223041",
+            "name": "Molten Mail",
+            "title": "Emperor of Fire and Iron: Molten Mail",
+            "description": "\"Imagine this world: All of humanity has been purged from Teyvat, and the ever-growing Emperor of Fire and Iron eventually wears the Palais Mermonia upon its body like a luxurious coat of white stone.\"",
+            "localizedNames": {
+              "en": "Molten Mail",
+              "zh": "\u7194\u706b\u94c1\u7532",
+              "ja": "\u7194\u708e\u9244\u7532",
+              "ko": "\uc6a9\uc554\ucca0\uac11"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223041-Molten Mail.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211121",
+            "name": "Moment of Waking and Resolve",
+            "title": "Freminet: Moment of Waking and Resolve",
+            "description": "\"Going under.\"",
+            "localizedNames": {
+              "en": "Moment of Waking and Resolve",
+              "zh": "\u68a6\u6653\u4e0e\u51b3\u610f\u4e4b\u523b",
+              "ja": "\u76ee\u899a\u3081\u3068\u6c7a\u610f\u306e\u523b",
+              "ko": "\uac01\uc131\uacfc \uacb0\uc2ec\uc758 \uc21c\uac04"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211121-Moment of Waking and Resolve.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333006",
+            "name": "Mondstadt Hash Brown",
+            "title": "Mondstadt Hash Brown",
+            "description": "The sweet taste verifies the famous words of a certain famous gourmet known throughout Teyvat \u2014 a dish that may be called a regional specialty cannot taste bad.",
+            "localizedNames": {
+              "en": "Mondstadt Hash Brown",
+              "zh": "\u8499\u5fb7\u571f\u8c46\u997c",
+              "ja": "\u30e2\u30f3\u30c9\u98a8\u30cf\u30c3\u30b7\u30e5\u30c9\u30dd\u30c6\u30c8",
+              "ko": "\ubaac\ub4dc \uac10\uc790\uc804"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333006-Mondstadt Hash Brown.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331807",
+            "name": "Moon and Homeland",
+            "title": "Moon and Homeland",
+            "description": "\"My moon, my beloved song,\\nabandon me not in this dark night.\\nMy little doves, bring from that golden city\\nthe song of my homeland.\"",
+            "localizedNames": {
+              "en": "Moon and Homeland",
+              "zh": "\u6708\u4e0e\u6545\u4e61",
+              "ja": "\u6708\u3068\u6545\u90f7",
+              "ko": "\ub2ec\uacfc \uace0\ud5a5"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331807-Moon and Homeland.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311406",
+            "name": "Moonpiercer",
+            "title": "Stillwood Moonshadow: Moonpiercer",
+            "description": "\"Children fascinated by the moon will weep when they gaze upon it, for the moon has turned into fine sand and entered their eyes. In many stories, no tears are shed in vain.\"",
+            "localizedNames": {
+              "en": "Moonpiercer",
+              "zh": "\u8d2f\u6708\u77e2",
+              "ja": "\u30e0\u30fc\u30f3\u30d4\u30a2\u30b5\u30fc",
+              "ko": "\ub2ec\uc744 \uaff0\ub6ab\ub294 \ud654\uc0b4"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Polearm"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311406-Moonpiercer.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331721",
+            "name": "Moonsign: Ascendant Gleam",
+            "title": "Moonsign: Ascendant Gleam",
+            "description": "\"Come night or day, may the moonlight connect us.\"",
+            "localizedNames": {
+              "en": "Moonsign: Ascendant Gleam",
+              "zh": "\u6708\u5146\u00b7\u6ee1\u8f89",
+              "ja": "\u6708\u5146\u30fb\u6e80\u7167",
+              "ko": "\ub2ec\ube5b \uc9d5\uc870\u00b7\ubcf4\ub984"
+            },
+            "type": "Action",
+            "tags": [
+              "Elemental Resonance"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331721-Moonsign_ Ascendant Gleam.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333007",
+            "name": "Mushroom Pizza",
+            "title": "Mushroom Pizza",
+            "description": "They say that a researcher once used very precise calculations to uncover the \"fairest way to cut pizza,\" but as the process is far too bothersome, basically no one uses it...",
+            "localizedNames": {
+              "en": "Mushroom Pizza",
+              "zh": "\u70e4\u8611\u83c7\u62ab\u8428",
+              "ja": "\u30ad\u30ce\u30b3\u30d4\u30b6",
+              "ko": "\ubc84\uc12f\ud53c\uc790"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333007-Mushroom Pizza.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211071",
+            "name": "Mystical Abandon",
+            "title": "Shenhe: Mystical Abandon",
+            "description": "Transfigure, and let my will be embodied!",
+            "localizedNames": {
+              "en": "Mystical Abandon",
+              "zh": "\u5fd8\u7384",
+              "ja": "\u5fd8\u7384",
+              "ko": "\ub9dd\ud604"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211071-Mystical Abandon.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333020",
+            "name": "Mystique Soup",
+            "title": "Mystique Soup",
+            "description": "A drink made from Grainfruit. Originally invented as a type of medicine by a certain shaman of the Masters of the Night-Wind, the recipe has been altered with the passage of time and is now a common drink at social gatherings.",
+            "localizedNames": {
+              "en": "Mystique Soup",
+              "zh": "\u5947\u7470\u4e4b\u6c64",
+              "ja": "\u30df\u30b9\u30c6\u30ea\u30fc\u30c9\u30ea\u30f3\u30af",
+              "ko": "\ud658\uc0c1\uc758 \uc218\ud504"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333020-Mystique Soup.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213051",
+            "name": "Naganohara Meteor Swarm",
+            "title": "Yoimiya: Naganohara Meteor Swarm",
+            "description": "Naganohara Ideal Firework Reserve Theory.",
+            "localizedNames": {
+              "en": "Naganohara Meteor Swarm",
+              "zh": "\u957f\u91ce\u539f\u9f99\u52bf\u6d41\u661f\u7fa4",
+              "ja": "\u9577\u91ce\u539f\u9f8d\u52e2\u6d41\u661f\u7fa4",
+              "ko": "\ub098\uac00\ub178\ud558\ub77c \uc720\uc131\uad70"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213051-Naganohara Meteor Swarm.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332052",
+            "name": "Narration Footnotes",
+            "title": "Narration Footnotes",
+            "description": "\"Suspect, try and look more serious. Heroes, more natural please, happy smiles! ...But no smiling from the victim or their friends and family, thank you. No, no, don't get up! Stay on the ground, we need to capture the crime scene as-is!\"",
+            "localizedNames": {
+              "en": "Narration Footnotes",
+              "zh": "\u65c1\u767d\u7684\u6ce8\u811a",
+              "ja": "\u30ca\u30ec\u30fc\u30b7\u30e7\u30f3\u306e\u88dc\u8db3",
+              "ko": "\ub0b4\ub808\uc774\uc158\uc758 \uc8fc\uc11d"
+            },
+            "type": "Action",
+            "tags": [
+              "Simulanka"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332052-Narration Footnotes.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321038",
+            "name": "Nasha Town",
+            "title": "Nasha Town",
+            "description": "This town sits like a ship run aground on the world's edge \u2014 a place where drifters gather to scavenge fragments of elysium from the wreckage of history and fabricated pasts.",
+            "localizedNames": {
+              "en": "Nasha Town",
+              "zh": "\u90a3\u590f\u9547",
+              "ja": "\u30ca\u30b7\u30e3\u30bf\u30a6\u30f3",
+              "ko": "\ub098\uc0e4 \ub9c8\uc744"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321038-Nasha Town.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331804",
+            "name": "Nature and Wisdom",
+            "title": "Wisdom of the Joyous Spirits",
+            "description": "\"That dancing circle embodied everything about the universe. Life has always been the end, while it is wisdom that shall be the means.\"",
+            "localizedNames": {
+              "en": "Nature and Wisdom",
+              "zh": "\u8349\u4e0e\u667a\u6167",
+              "ja": "\u8349\u3068\u77e5\u6075",
+              "ko": "\ud480\uacfc \uc9c0\ud61c"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331804-Nature and Wisdom.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322034",
+            "name": "Netochka",
+            "title": "Netochka",
+            "description": "\"Just as the oppressive, greedy governor here stole treasures from the Frostmoon Scions all those years ago, the Fatui now have seized things that don't belong to them.\\nI must retrieve the Proof of the Cognoscenti from them and find Reed Miller's Great Treasure, so that his name, now forgotten, will be held in esteem once more throughout the world!\"",
+            "localizedNames": {
+              "en": "Netochka",
+              "zh": "\u6d85\u6735\u5947\u5361",
+              "ja": "\u30cb\u30a7\u30c9\u30c1\u30ab",
+              "ko": "\ub124\ud1a0\uce58\uce74"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322034-Netochka.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "212141",
+            "name": "Night Realm's Gift: Crests and Troughs",
+            "title": "Mualani: Crests and Troughs",
+            "description": "\"Catch an epic wave! Woosh~!\"",
+            "localizedNames": {
+              "en": "Night Realm's Gift: Crests and Troughs",
+              "zh": "\u591c\u57df\u8d50\u793c\u00b7\u6ce2\u6d9b\u9876\u5e95",
+              "ja": "\u591c\u57df\u306e\u8cdc\u7269\u30fb\u9006\u5dfb\u304f\u6012\u6fe4",
+              "ko": "\ubc24 \uc601\uc5ed\uc758 \uc120\ubb3c\u00b7\ud30c\ub3c4 \uc815\uc0c1"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212141-Night Realm's Gift_ Crests and Troughs.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "216101",
+            "name": "Night Realm's Gift: Heart of Unity",
+            "title": "Kachina: Heart of Unity",
+            "description": "\"Clear the area!\"",
+            "localizedNames": {
+              "en": "Night Realm's Gift: Heart of Unity",
+              "zh": "\u591c\u57df\u8d50\u793c\u00b7\u56e2\u7ed3\u7089\u5fc3",
+              "ja": "\u591c\u57df\u306e\u8cdc\u7269\u30fb\u56e3\u7d50\u306e\u7089\u5fc3",
+              "ko": "\ubc24 \uc601\uc5ed\uc758 \uc120\ubb3c\u00b7\ub178\uc2ec \ub2e8\uacb0"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216101-Night Realm's Gift_ Heart of Unity.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "217091",
+            "name": "Night Realm's Gift: Repaid in Full",
+            "title": "Kinich: Repaid in Full",
+            "description": "\"For the Lord of the Night.\"",
+            "localizedNames": {
+              "en": "Night Realm's Gift: Repaid in Full",
+              "zh": "\u591c\u57df\u8d50\u793c\u00b7\u7d22\u62a5\u7686\u507f",
+              "ja": "\u591c\u57df\u306e\u8cdc\u7269\u30fb\u3059\u3079\u3066\u306b\u5bfe\u4fa1\u3092",
+              "ko": "\ubc24 \uc601\uc5ed\uc758 \uc120\ubb3c\u00b7\ub9c8\ub545\ud55c \ub300\uac00"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217091-Night Realm's Gift_ Repaid in Full.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321041",
+            "name": "Nightmare Omen",
+            "title": "Nightmare Omen",
+            "description": "\"A colossal, lidless eye it was, its gaze unflinching, piercing through the clouds, the mist, the land, and the mountains alike. It was a vision both omniscient and omnipresent.\"",
+            "localizedNames": {
+              "en": "Nightmare Omen",
+              "zh": "\u5669\u68a6\u7684\u9884\u5146",
+              "ja": "\u60aa\u5922\u306e\u5146\u3057",
+              "ko": "\uc545\ubabd\uc758 \uc9d5\uc870"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321041-Nightmare Omen.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312041",
+            "name": "Noblesse Oblige",
+            "title": "The Past: Noblesse Oblige",
+            "description": "\"They were noble not only in lineage, but also in their commitment to virtues and principles.\\nThe longevity of the nobles was cut short by their endless self-indulgence. Ostentation gave way to devolution.\"",
+            "localizedNames": {
+              "en": "Noblesse Oblige",
+              "zh": "\u6614\u65e5\u5b97\u5ba4\u4e4b\u4eea",
+              "ja": "\u65e7\u8cb4\u65cf\u306e\u3057\u3064\u3051",
+              "ko": "\uc61b \uc655\uc2e4\uc758 \uc758\uc2dd"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312041-Noblesse Oblige.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333004",
+            "name": "Northern Smoked Chicken",
+            "title": "Northern Smoked Chicken",
+            "description": "This dish makes for a warm welcome for guests who come to the northern regions. Now, what manner of guests shall be \"treated\" to this hospitality this time?",
+            "localizedNames": {
+              "en": "Northern Smoked Chicken",
+              "zh": "\u5317\u5730\u70df\u718f\u9e21",
+              "ja": "\u5317\u5730\u306e\u30b9\u30e2\u30fc\u30af\u30c1\u30ad\u30f3",
+              "ko": "\ubd81\uadf9 \ud6c8\uc81c \ub2ed"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333004-Northern Smoked Chicken.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "323002",
+            "name": "NRE",
+            "title": "Emergency Intake: Portable Dish",
+            "description": "\"Regular nutrition helps in case of physical exertion.\"",
+            "localizedNames": {
+              "en": "NRE",
+              "zh": "\u4fbf\u643a\u8425\u517b\u888b",
+              "ja": "\u643a\u5e2f\u5f0f\u6804\u990a\u888b",
+              "ko": "\uc601\uc591\ud0a4\ud2b8"
+            },
+            "type": "Action",
+            "tags": [
+              "Item"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323002-NRE.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312043",
+            "name": "Nymph's Dream",
+            "title": "Nymph's Dream",
+            "description": "\"And just as how some people treasure withered flowers, some still reminisce endlessly over the afternoon adventures that have yet to continue...\"",
+            "localizedNames": {
+              "en": "Nymph's Dream",
+              "zh": "\u6c34\u4ed9\u4e4b\u68a6",
+              "ja": "\u6c34\u4ed9\u306e\u5922",
+              "ko": "\ub2d8\ud504\uc758 \uafc8"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312043-Nymph's Dream.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312016",
+            "name": "Ocean-Hued Clam",
+            "title": "Memories of the Deep: Ocean-Hued Clam",
+            "description": "\"Bringing hopes and memories from the depths, permeating long-lost civilizations and history, these graceful and exquisite crowns slide into the forgotten rifts with their owners.\"",
+            "localizedNames": {
+              "en": "Ocean-Hued Clam",
+              "zh": "\u6d77\u67d3\u7817\u78f2",
+              "ja": "\u6d77\u67d3\u7868\u78f2",
+              "ko": "\ubc14\ub2e4\uc5d0 \ubb3c\ub4e0 \uac70\ub300 \uc870\uac1c"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312016-Ocean-Hued Clam.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321017",
+            "name": "Opera Epiclese",
+            "title": "Opera Epiclese",
+            "description": "The true and the fantastical, the comedic and tragic find a stage here equally. Perhaps it truly is as an ancient Fontainian playwright once said \u2014 \"All the world's a stage, and all of us merely players.\"",
+            "localizedNames": {
+              "en": "Opera Epiclese",
+              "zh": "\u6b27\u5e87\u514b\u83b1\u6b4c\u5267\u9662",
+              "ja": "\u30a8\u30d4\u30af\u30ec\u30b7\u30b9\u6b4c\u5287\u5834",
+              "ko": "\uc5d0\ud53c\ud074\ub808\uc2a4 \uc624\ud398\ub77c \ud558\uc6b0\uc2a4"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321017-Opera Epiclese.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312007",
+            "name": "Ornate Kabuto",
+            "title": "Bygone Lightning: Ornate Kabuto",
+            "description": "\"Thirteen years went by like a dream. The scarlet snow flies through the shadowed pass like smoke. You have now gone afar.\"",
+            "localizedNames": {
+              "en": "Ornate Kabuto",
+              "zh": "\u534e\u9970\u4e4b\u515c",
+              "ja": "\u83ef\u98fe\u306e\u515c",
+              "ko": "\ud654\ub824\ud55c \ud22c\uad6c"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312007-Ornate Kabuto.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "223011",
+            "name": "Paid in Full",
+            "title": "Stealthy Extraction",
+            "description": "Remember this for so long as you live: You know who it is you owe, and you know when you must pay.",
+            "localizedNames": {
+              "en": "Paid in Full",
+              "zh": "\u6089\u6570\u8ba8\u56de",
+              "ja": "\u76ee\u306b\u306f\u76ee\u3092",
+              "ko": "\uc804\ubd80 \ub418\ub3cc\ub824\uc8fc\uc9c0"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223011-Paid in Full.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322001",
+            "name": "Paimon",
+            "title": "Paimon, the Best Guide",
+            "description": "\"That's right! Your fortune is Paimon's fortune! And vice versa, Paimon's fortune is also your fortune.\"",
+            "localizedNames": {
+              "en": "Paimon",
+              "zh": "\u6d3e\u8499",
+              "ja": "\u30d1\u30a4\u30e2\u30f3",
+              "ko": "\ud398\uc774\ubaac"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322001-Paimon.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "221021",
+            "name": "Pain for Pain",
+            "title": "La Signora: Pain for Pain",
+            "description": "\"You too will experience this suffering.\"",
+            "localizedNames": {
+              "en": "Pain for Pain",
+              "zh": "\u82e6\u75db\u5949\u8fd8",
+              "ja": "\u82e6\u75db\u8fd4\u4e0a",
+              "ko": "\uace0\ud1b5 \ubc18\ud658"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/221021-Pain for Pain.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332023",
+            "name": "Pankration!",
+            "title": "Pankration!",
+            "description": "\"For victory, Credit Coupons, and the hottest goods in the Rag and Bone Shop... and the freedom that may come someday, strike!\"",
+            "localizedNames": {
+              "en": "Pankration!",
+              "zh": "\u62f3\u529b\u6597\u6280\uff01",
+              "ja": "\u9244\u62f3\u95d8\u6280\uff01",
+              "ko": "\uaca9\ud22c\uae30!"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332023-Pankration!.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "323001",
+            "name": "Parametric Transformer",
+            "title": "Perpetual Rotation: Parametric Transformation",
+            "description": "\"Simply put, everything on this earth and below it has cycles. Memories and elements surge throughout the Ley Lines.\"\\n\"Perhaps the ancient civilizations were attempting to uncover the cycle that governs the conversion of dust to treasure.\"",
+            "localizedNames": {
+              "en": "Parametric Transformer",
+              "zh": "\u53c2\u91cf\u8d28\u53d8\u4eea",
+              "ja": "\u53c2\u91cf\u7269\u8cea\u5909\u5316\u5668",
+              "ko": "\ub9e4\uac1c \ubcc0\uc218 \ubcc0\ud658\uae30"
+            },
+            "type": "Action",
+            "tags": [
+              "Item"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323001-Parametric Transformer.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214181",
+            "name": "Part the Veil of Snow",
+            "title": "Flins: Part the Veil of Snow",
+            "description": "\"The long sleep beckons.\"",
+            "localizedNames": {
+              "en": "Part the Veil of Snow",
+              "zh": "\u62e8\u5f00\u96ea\u7ff3\u4e4b\u5e55",
+              "ja": "\u96ea\u5f71\u306e\u5e55\u3092\u3072\u3089\u304f\u6642",
+              "ko": "\uac77\ud78c \ub208\uc758 \uc7a5\ub9c9"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214181-Part the Veil of Snow.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330006",
+            "name": "Passing of Judgment",
+            "title": "Passing of Judgment",
+            "description": "\"It is time to make the final decision on this case.\"",
+            "localizedNames": {
+              "en": "Passing of Judgment",
+              "zh": "\u88c1\u5b9a\u4e4b\u65f6",
+              "ja": "\u88c1\u5b9a\u306e\u6642",
+              "ko": "\ud310\uacb0\uc758 \ub54c"
+            },
+            "type": "Action",
+            "tags": [
+              "Arcane Legend",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330006-Passing of Judgment.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "224031",
+            "name": "Pearl Solidification",
+            "title": "Millennial Pearl Seahorse: Pearl Solidification",
+            "description": "Xenomare Pearl, Fontemer Hoarthunder... The seahorse-shaped phantasmal beast, though a solitary king, has neither an opulent court nor the ruins of one. What it does have, however, is the majesty and might to send other Fontemer Aberrants skittering away from it in terror...",
+            "localizedNames": {
+              "en": "Pearl Solidification",
+              "zh": "\u660e\u73e0\u56fa\u5316",
+              "ja": "\u30d1\u30fc\u30eb\u56fa\u5316",
+              "ko": "\uc9c4\uc8fc \uc751\uace0"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224031-Pearl Solidification.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330010",
+            "name": "Pilgrimage of the Return of the Sacred Flame",
+            "title": "Pilgrimage of the Return of the Sacred Flame",
+            "description": "\"Every participant, whether they win or lose, contributes to the defense of our nation. That's what makes it such an honor to take part.\"",
+            "localizedNames": {
+              "en": "Pilgrimage of the Return of the Sacred Flame",
+              "zh": "\u5f52\u706b\u5723\u591c\u5de1\u793c",
+              "ja": "\u5e30\u706b\u8056\u591c\u306e\u5de1\u793c",
+              "ko": "\ubd88\uc774 \ub3cc\uc544\uc628 \ubc24\uc758 \uc21c\ub840"
+            },
+            "type": "Action",
+            "tags": [
+              "Arcane Legend",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330010-Pilgrimage of the Return of the Sacred Flame.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332058",
+            "name": "Plan to Save the World",
+            "title": "Plan to Save the World",
+            "description": "\"I refuse. The world is not as weak as you think.\"",
+            "localizedNames": {
+              "en": "Plan to Save the World",
+              "zh": "\u62ef\u6551\u4e16\u754c\u7684\u8ba1\u5212",
+              "ja": "\u4e16\u754c\u3092\u6551\u3046\u8a08\u753b",
+              "ko": "\uc138\uacc4 \uad6c\uc6d0 \uacc4\ud68d"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332058-Plan to Save the World.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332017",
+            "name": "Plunging Strike",
+            "title": "Fallraid",
+            "description": "\"...Don't deploy your Wind Glider halfway down! You'll get discovered!\"",
+            "localizedNames": {
+              "en": "Plunging Strike",
+              "zh": "\u4e0b\u843d\u65a9",
+              "ja": "\u843d\u4e0b\u65ac\u308a",
+              "ko": "\ub099\ud558 \ubca0\uae30"
+            },
+            "type": "Action",
+            "tags": [
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332017-Plunging Strike.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215051",
+            "name": "Poetics of Fuubutsu",
+            "title": "Kaedehara Kazuha: Poetics of Fuubutsu",
+            "description": "There is something elegant about this match.\\nIf nothing else, both sides may concede defeat without regrets.",
+            "localizedNames": {
+              "en": "Poetics of Fuubutsu",
+              "zh": "\u98ce\u7269\u4e4b\u8bd7\u548f",
+              "ja": "\u98a8\u7269\u306e\u8a69\u541f",
+              "ko": "\ubc14\ub78c \uc18d \uc2dc \ub0ad\uc1a1"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215051-Poetics of Fuubutsu.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311309",
+            "name": "Portable Power Saw",
+            "title": "Sea Shanty: Portable Power Saw",
+            "description": "\"A chainsaw favored by workers of the past to cut through keels and pipes... Grab the handle tightly with both hands, and even hard steel shall split before you.\"",
+            "localizedNames": {
+              "en": "Portable Power Saw",
+              "zh": "\u4fbf\u643a\u52a8\u529b\u952f",
+              "ja": "\u643a\u5e2f\u578b\u30c1\u30a7\u30fc\u30f3\u30bd\u30fc",
+              "ko": "\ud734\ub300\uc6a9 \uccb4\uc778\ud1b1"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Claymore",
+              "Damage Reduction"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311309-Portable Power Saw.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213061",
+            "name": "Pounding Surprise",
+            "title": "Klee: Pounding Surprise",
+            "description": "Let out a good laugh when you draw this card!",
+            "localizedNames": {
+              "en": "Pounding Surprise",
+              "zh": "\u7830\u7830\u793c\u7269",
+              "ja": "\u3053\u3093\u3053\u3093\u30d7\u30ec\u30bc\u30f3\u30c8",
+              "ko": "\ud391\ud391 \uc120\ubb3c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213061-Pounding Surprise.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311407",
+            "name": "Primordial Jade Winged-Spear",
+            "title": "Eagle Spear of Justice: Primordial Jade Winged-Spear",
+            "description": "\"The stone bird took to the unbound skies once forged. Into the heart of the ocean it dove, into the battlefield with the behemoth and the whale. Into the depths of the sea the behemoth sank, there to stay forever. Released from its thundering roars were the people of Liyue.\"",
+            "localizedNames": {
+              "en": "Primordial Jade Winged-Spear",
+              "zh": "\u548c\u749e\u9e22",
+              "ja": "\u548c\u749e\u9cf6",
+              "ko": "\ud654\ubc15\uc5f0"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Polearm"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311407-Primordial Jade Winged-Spear.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "227011",
+            "name": "Proliferating Spores",
+            "title": "Spore Dust Cloud",
+            "description": "Few can safely traverse the traps laid by the Fungus with intelligence above that of the average living being.",
+            "localizedNames": {
+              "en": "Proliferating Spores",
+              "zh": "\u5b62\u5b50\u589e\u6b96",
+              "ja": "\u80de\u5b50\u5897\u6b96",
+              "ko": "\ud3ec\uc790 \uc99d\uc2dd"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/227011-Proliferating Spores.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "212031",
+            "name": "Prophecy of Submersion",
+            "title": "Mona: Prophecy of Submersion",
+            "description": "\"Hey! You should be playing that card!\"\\n\"...Well, alright then, do what you want.\"",
+            "localizedNames": {
+              "en": "Prophecy of Submersion",
+              "zh": "\u6c89\u6ca1\u7684\u9884\u8a00",
+              "ja": "\u6c88\u6ca1\u306e\u9810\u8a00",
+              "ko": "\uce68\ubab0\ud55c \uc608\uc5b8"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212031-Prophecy of Submersion.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311409",
+            "name": "Prospector's Drill",
+            "title": "Masons' Ditty: Prospector's Drill",
+            "description": "\"The tool's piercing and cutting power were unmatched.\\nSince it could pierce through even rocks like a hot knife through butter,\\nit made quick work out of penetrating through even softer materials.\"",
+            "localizedNames": {
+              "en": "Prospector's Drill",
+              "zh": "\u52d8\u63a2\u94bb\u673a",
+              "ja": "\u30d7\u30ed\u30b9\u30da\u30af\u30bf\u30fc\u30c9\u30ea\u30eb",
+              "ko": "\ud0d0\uc0ac\uc6a9 \ub4dc\ub9b4"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Polearm",
+              "Damage Reduction"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311409-Prospector's Drill.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333018",
+            "name": "Puff Pops",
+            "title": "Puff Pops",
+            "description": "A snack with lots of different flavors. If you close your eyes, you won't be able to guess what flavor you'll get next, and eating them is sure to increase your heart rate. The \"pop\" part of the name comes from the sound of Grainfruit kernels bursting open under high temperatures.",
+            "localizedNames": {
+              "en": "Puff Pops",
+              "zh": "\u549a\u549a\u562d\u562d",
+              "ja": "\u30c9\u30ad\u30c9\u30ad\u30dd\u30f3\u30dd\u30f3",
+              "ko": "\ud1b5\ud1b5\ud31d\ud31d"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333018-Puff Pops.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214091",
+            "name": "Pulsating Witch",
+            "title": "Lisa: Pulsating Witch",
+            "description": "As a Librarian who has read through tens of thousands of volumes, of course it's trivial for me to remember how to win...",
+            "localizedNames": {
+              "en": "Pulsating Witch",
+              "zh": "\u8109\u51b2\u7684\u9b54\u5973",
+              "ja": "\u30d1\u30eb\u30b9\u306e\u9b54\u5973",
+              "ko": "\ud384\uc2a4\uc758 \ub9c8\ub140"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214091-Pulsating Witch.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214131",
+            "name": "Pylon of the Sojourning Sun Temple",
+            "title": "Sethos: Pylon of the Sojourning Sun Temple",
+            "description": "\"Glory to Al-Ahmar!\"",
+            "localizedNames": {
+              "en": "Pylon of the Sojourning Sun Temple",
+              "zh": "\u5de1\u65e5\u5854\u95e8\u4e66",
+              "ja": "\u5de1\u65e5\u306e\u30d1\u30a4\u30ed\u30f3",
+              "ko": "\uc21c\ud658\ud558\ub294 \ud0dc\uc591\uc758 \ud30c\uc77c\ub860"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214131-Pylon of the Sojourning Sun Temple.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "313006",
+            "name": "Qucusaurus",
+            "title": "Qucusaurus: Swift Glide",
+            "description": "It is said that the ancestors of the Qucusaurs were the closest in form to the mighty winged dragons, and that they could soar through the sky like clouds.",
+            "localizedNames": {
+              "en": "Qucusaurus",
+              "zh": "\u7ed2\u7ffc\u9f99",
+              "ja": "\u30af\u30af\u7adc",
+              "ko": "\uae43\ub8e1"
+            },
+            "type": "Action",
+            "tags": [
+              "Technique"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313006-Qucusaurus.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332012",
+            "name": "Quick Knit",
+            "title": "Patched-Up Bunny",
+            "description": "'Tis the secret to Baron Bunny the 893rd's longevity.",
+            "localizedNames": {
+              "en": "Quick Knit",
+              "zh": "\u5feb\u5feb\u7f1d\u8865\u672f",
+              "ja": "\u8fc5\u901f\u88c1\u7e2b\u306e\u8853",
+              "ko": "\ube60\ub978 \ubc14\ub290\uc9c8 \uae30\uc220"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332012-Quick Knit.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333015",
+            "name": "Rainbow Macarons",
+            "title": "Rainbow Macarons",
+            "description": "Small, multicolored little pastries. Their crispy outer shell packages a sweet, soft center, each refined to perfection.\\nThere is a saying in Fontaine that \"a dessert spread without macarons is like having the many waters bereft of their source.\"",
+            "localizedNames": {
+              "en": "Rainbow Macarons",
+              "zh": "\u7f24\u7eb7\u9a6c\u5361\u9f99",
+              "ja": "\u30ab\u30e9\u30d5\u30eb\u30de\u30ab\u30ed\u30f3",
+              "ko": "\uc54c\ub85d\ub2ec\ub85d \ub9c8\uce74\ub871"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333015-Rainbow Macarons.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322017",
+            "name": "Rana",
+            "title": "Gem of Remembrance: Rana",
+            "description": "\"We still have a lot of time with each other. We can explore the vastness of the forest, the world, and the future together.\"",
+            "localizedNames": {
+              "en": "Rana",
+              "zh": "\u62c9\u5a1c",
+              "ja": "\u30e9\u30ca",
+              "ko": "\ub77c\ub098"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322017-Rana.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311201",
+            "name": "Raven Bow",
+            "title": "Bane of Flame and Water: Raven Bow",
+            "description": "Ravens are known to be the ferrymen of the dead. As such, hunters would decorate their bows' limbs with feathers which forebode the imminent death of their targets.",
+            "localizedNames": {
+              "en": "Raven Bow",
+              "zh": "\u9e26\u7fbd\u5f13",
+              "ja": "\u9d09\u7fbd\u306e\u5f13",
+              "ko": "\uae4c\ub9c8\uadc0\uae43 \ud65c"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Bow"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311201-Raven Bow.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "313009",
+            "name": "Rawr! Rawr!",
+            "title": "Rawr! Rawr!",
+            "description": "\"Get ready to meet your best travel companion in Natlan! Ahem, make that second best...\"",
+            "localizedNames": {
+              "en": "Rawr! Rawr!",
+              "zh": "\u5440\uff01\u5440\uff01",
+              "ja": "\u30ad\u30e5\u30a4\u30c3\uff01\u30ad\u30e5\u30a4\u30c3\uff01",
+              "ko": "\uae84! \uae84!"
+            },
+            "type": "Action",
+            "tags": [
+              "Technique"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313009-Rawr! Rawr!.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214171",
+            "name": "Rectifying Processor",
+            "title": "Ineffa: Rectifying Processor",
+            "description": "\"Ultimatum protocol.\"",
+            "localizedNames": {
+              "en": "Rectifying Processor",
+              "zh": "\u5faa\u73af\u6574\u6d41\u5f15\u64ce",
+              "ja": "\u5faa\u74b0\u6574\u6d41\u5668",
+              "ko": "\uc815\ub958 \ud68c\ub85c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214171-Rectifying Processor.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "323003",
+            "name": "Red Feather Fan",
+            "title": "Ineffable Breeze: Red Feather Fan",
+            "description": "Legend has it that this fan is capable of unleashing various effects in the hands of a tengu warrior.\\nBut in the hands of an ordinary person, it only possesses the power to \"make one's body lighter.\"\\nEven so, this degree of power is more than useful for the average individual.",
+            "localizedNames": {
+              "en": "Red Feather Fan",
+              "zh": "\u7ea2\u7fbd\u56e2\u6247",
+              "ja": "\u8d64\u7fbd\u56e3\u6247",
+              "ko": "\ubd89\uc740 \uae43\ud138 \ubd80\ucc44"
+            },
+            "type": "Action",
+            "tags": [
+              "Item"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323003-Red Feather Fan.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "225021",
+            "name": "Rending Vortex",
+            "title": "Dvalin: Rending Vortex",
+            "description": "But never forget that dust can be wiped away, and the power of doubt and poison can be shattered.",
+            "localizedNames": {
+              "en": "Rending Vortex",
+              "zh": "\u6bc1\u88c2\u98ce\u6da1",
+              "ja": "\u7834\u58ca\u306e\u98a8\u6e26",
+              "ko": "\ud30c\uc5f4\uc758 \uc18c\uc6a9\ub3cc\uc774"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/225021-Rending Vortex.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "212131",
+            "name": "Requires Appropriate Rest",
+            "title": "Sigewinne: Requires Appropriate Rest",
+            "description": "\"Don't be nervous! Just relax.\"",
+            "localizedNames": {
+              "en": "Requires Appropriate Rest",
+              "zh": "\u5e94\u6709\u9002\u5f53\u7684\u4f11\u61a9",
+              "ja": "\u4f11\u606f\u306f\u9069\u5ea6\u306b\u53d6\u308b\u306e\u3088",
+              "ko": "\uc801\ub2f9\ud55c \ud734\uc2dd\uc740 \ud544\uc218"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212131-Requires Appropriate Rest.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2201",
+            "name": "Rhodeia of Loch",
+            "title": "\"Lady of Clear Waters\" Rhodeia",
+            "description": "\"As long as rain falls and rivers flow... water will exist forever... \"",
+            "localizedNames": {
+              "en": "Rhodeia of Loch",
+              "zh": "\u7eaf\u6c34\u7cbe\u7075\u00b7\u6d1b\u8482\u5a05",
+              "ja": "\u7d14\u6c34\u7cbe\u970a\u00b7\u30ed\u30fc\u30c7\u30b7\u30a2",
+              "ko": "\ubb3c\uc758 \uc815\ub839\u00b7\ub85c\ub370\uc774\uc544"
+            },
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2201-Rhodeia of Loch.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332021",
+            "name": "Rhythm of the Great Dream",
+            "title": "Rhythm of the Great Dream",
+            "description": "\"Enter our dreams, our world.\"\\n\"Write of deeds good, brave, and honest.\"",
+            "localizedNames": {
+              "en": "Rhythm of the Great Dream",
+              "zh": "\u5927\u68a6\u7684\u66f2\u8c03",
+              "ja": "\u5927\u5922\u306e\u30e1\u30ed\u30c7\u30a3\u30fc",
+              "ko": "\uc704\ub300\ud55c \uafc8\uc758 \uba5c\ub85c\ub514"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332021-Rhythm of the Great Dream.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213081",
+            "name": "Right of Final Interpretation",
+            "title": "Yanfei: Right of Final Interpretation",
+            "description": "\"When it comes to cards... Well, anything is permissible, so long as the rules don't forbid it.\"",
+            "localizedNames": {
+              "en": "Right of Final Interpretation",
+              "zh": "\u6700\u7ec8\u89e3\u91ca\u6743",
+              "ja": "\u6700\u7d42\u89e3\u91c8\u6a29",
+              "ko": "\ucd5c\uc885 \ud574\uc11d\uad8c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213081-Right of Final Interpretation.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311408",
+            "name": "Rightful Reward",
+            "title": "Tip of the Spear: Rightful Reward",
+            "description": "\"That is how the world ought to operate, and how righteousness should be.\"\\n\"But when it comes to \"how things ought to be,\" it is always fiendishly difficult to get ideal results.\"",
+            "localizedNames": {
+              "en": "Rightful Reward",
+              "zh": "\u516c\u4e49\u7684\u916c\u62a5",
+              "ja": "\u6b63\u7fa9\u306e\u5831\u916c",
+              "ko": "\uacf5\uc758\uc758 \ubcf4\uc0c1"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Polearm"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311408-Rightful Reward.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "221041",
+            "name": "Rimeflow Rapier",
+            "title": "Frost Operative: Rimeflow Rapier",
+            "description": "\"Forgive my prior inconsideration.\"",
+            "localizedNames": {
+              "en": "Rimeflow Rapier",
+              "zh": "\u51b0\u96c5\u523a\u5251",
+              "ja": "\u512a\u96c5\u306a\u6c37\u5263",
+              "ko": "\uc6b0\uc544\ud55c \uc5bc\uc74c \ub808\uc774\ud53c\uc5b4"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/221041-Rimeflow Rapier.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211081",
+            "name": "Rite of Resurrection",
+            "title": "Qiqi: Rite of Resurrection",
+            "description": "\"I must... live on...\"",
+            "localizedNames": {
+              "en": "Rite of Resurrection",
+              "zh": "\u8d77\u6b7b\u56de\u9ab8",
+              "ja": "\u8d77\u6b7b\u56de\u9ab8",
+              "ko": "\uae30\uc0ac\ud68c\ud574"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211081-Rite of Resurrection.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213121",
+            "name": "Rockin' in a Flaming World",
+            "title": "Xinyan: Rockin' in a Flaming World",
+            "description": "\"Amp it up!\"",
+            "localizedNames": {
+              "en": "Rockin' in a Flaming World",
+              "zh": "\u5730\u72f1\u91cc\u6447\u6446",
+              "ja": "\u5730\u7344\u306e\u30b7\u30a7\u30fc\u30af",
+              "ko": "\uc9c0\uc625\uc758 \uc5f0\uc8fc"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213121-Rockin' in a Flaming World.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333030",
+            "name": "Roulette Special",
+            "title": "Roulette Special",
+            "description": "Colorful drinks. It might be more accurate to call this a table game than nourishment of any sort, one where the rules are to drink whatever drink the pointer falls on.",
+            "localizedNames": {
+              "en": "Roulette Special",
+              "zh": "\u8f6c\u76d8\u7279\u8c03",
+              "ja": "\u30eb\u30fc\u30ec\u30c3\u30c8\u30ab\u30af\u30c6\u30eb",
+              "ko": "\ub8f0\ub81b \uce75\ud14c\uc77c"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333030-Roulette Special.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312037",
+            "name": "Royal Masque",
+            "title": "Past Splendor: Royal Masque",
+            "description": "\"In that golden age, the nobles shared with the people their knowledge and profits.\\nBut the later nobles were seduced by power. Their banquets were exclusively for their own pleasure.\"",
+            "localizedNames": {
+              "en": "Royal Masque",
+              "zh": "\u5b97\u5ba4\u9762\u5177",
+              "ja": "\u65e7\u8cb4\u65cf\u306e\u4eee\u9762",
+              "ko": "\uc655\uc2e4\uc758 \uac00\uba74"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312037-Royal Masque.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "216061",
+            "name": "Rushing Hound: Swift as the Wind",
+            "title": "Gorou: Rushing Hound: Swift as the Wind",
+            "description": "\"Rally!\"",
+            "localizedNames": {
+              "en": "Rushing Hound: Swift as the Wind",
+              "zh": "\u72ac\u5954\u00b7\u75be\u5982\u98ce",
+              "ja": "\u72ac\u77ac\u00b7\u75be\u304d\u3053\u3068\u98a8\u306e\u5982\u304f",
+              "ko": "\ub2ec\ub9ac\ub294 \uac15\uc544\uc9c0\u00b7\ubc14\ub78c\ucc98\ub7fc \ube60\ub974\uac8c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216061-Rushing Hound_ Swift as the Wind.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311202",
+            "name": "Sacrificial Bow",
+            "title": "Composed: Sacrificial Bow",
+            "description": "A ceremonial hunting bow that has seen the passage of many years. The trinkets on it are still visible.",
+            "localizedNames": {
+              "en": "Sacrificial Bow",
+              "zh": "\u796d\u793c\u5f13",
+              "ja": "\u796d\u793c\u306e\u5f13",
+              "ko": "\uc81c\ub840\ud65c"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Bow"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311202-Sacrificial Bow.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311102",
+            "name": "Sacrificial Fragments",
+            "title": "Composed: Sacrificial Fragments",
+            "description": "A weathered musical score, the content of which is no longer legible.",
+            "localizedNames": {
+              "en": "Sacrificial Fragments",
+              "zh": "\u796d\u793c\u6b8b\u7ae0",
+              "ja": "\u796d\u793c\u306e\u65ad\u7247",
+              "ko": "\uc81c\ub840\uc758 \uc545\uc7a5"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Catalyst"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311102-Sacrificial Fragments.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311302",
+            "name": "Sacrificial Greatsword",
+            "title": "Composed: Sacrificial Greatsword",
+            "description": "This greatsword has seen the passage of many years, and was once owned by a clan of brave and gifted warriors who fought hard and died young.",
+            "localizedNames": {
+              "en": "Sacrificial Greatsword",
+              "zh": "\u796d\u793c\u5927\u5251",
+              "ja": "\u796d\u793c\u306e\u5927\u5263",
+              "ko": "\uc81c\ub840 \ub300\uac80"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Claymore"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311302-Sacrificial Greatsword.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311502",
+            "name": "Sacrificial Sword",
+            "title": "Composed: Sacrificial Sword",
+            "description": "This blade was just a prop before its blade was sharpened by the passage of time.",
+            "localizedNames": {
+              "en": "Sacrificial Sword",
+              "zh": "\u796d\u793c\u5251",
+              "ja": "\u796d\u793c\u306e\u5263",
+              "ko": "\uc81c\ub840\uac80"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Sword"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311502-Sacrificial Sword.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321009",
+            "name": "Sangonomiya Shrine",
+            "title": "The Pearlescent Palace",
+            "description": "\"Sangonomiya was once an ocean abyss, until the Great Serpent came, forming a vortex with its spiral movements, and fashioning the coral into an island.\"",
+            "localizedNames": {
+              "en": "Sangonomiya Shrine",
+              "zh": "\u73ca\u745a\u5bab",
+              "ja": "\u73ca\u745a\u5bae",
+              "ko": "\uc0b0\ud638\uad81"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321009-Sangonomiya Shrine.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213071",
+            "name": "Sanguine Rouge",
+            "title": "Hu Tao: Sanguine Rouge",
+            "description": "Director Hu needs a bit more firepower to settle certain unique affairs.",
+            "localizedNames": {
+              "en": "Sanguine Rouge",
+              "zh": "\u8840\u4e4b\u7076\u706b",
+              "ja": "\u8840\u306e\u304b\u307e\u3069",
+              "ko": "\ud54f\ube5b \ubd84\uc7a5"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213071-Sanguine Rouge.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311507",
+            "name": "Sapwood Blade",
+            "title": "Forest Sanctuary: Sapwood Blade",
+            "description": "\"...Even so, your stories and mine will leave their traces in the depths of the desert, like the footprints of the Forest Kind.\"\\n\"So shall past friendships peacefully sleep, like an Aranara transformed into a seed.\"",
+            "localizedNames": {
+              "en": "Sapwood Blade",
+              "zh": "\u539f\u6728\u5200",
+              "ja": "\u539f\u6728\u5200",
+              "ko": "\uc6d0\ubaa9 \uac80"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Sword"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311507-Sapwood Blade.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333010",
+            "name": "Sashimi Platter",
+            "title": "Sashimi Platter",
+            "description": "Under the blade of a master chef, the texture of the ingredients remains pristine. Upon consumption, it is as if something living is leaping inside your mouth...\\nHold on, could these ingredients still be...",
+            "localizedNames": {
+              "en": "Sashimi Platter",
+              "zh": "\u523a\u8eab\u62fc\u76d8",
+              "ja": "\u523a\u8eab\u306e\u76db\u308a\u5408\u308f\u305b",
+              "ko": "\ubaa8\ub460 \ud68c"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333010-Sashimi Platter.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332039",
+            "name": "Saurian Dining Buddies",
+            "title": "Saurian Dining Buddies",
+            "description": "\"...Last but not least: Get 'em some good grub! The way to a Saurian's heart is through the stomach, after all!\"",
+            "localizedNames": {
+              "en": "Saurian Dining Buddies",
+              "zh": "\u9f99\u4f19\u4f34\u7684\u805a\u9910",
+              "ja": "\u7adc\u306e\u4ef2\u9593\u305f\u3061\u306e\u98df\u4e8b",
+              "ko": "\uc6a9 \ub3d9\ub8cc\uc758 \uc2dd\uc0ac \uc2dc\uac04"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332039-Saurian Dining Buddies.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333016",
+            "name": "Saurus Crackers",
+            "title": "Saurus Crackers",
+            "description": "Crackers shaped like little Saurians. Light, crispy, sweet, and fragrant, with adorable patterns on top to boot \u2014 how could the people of Natlan not be won over by such delectable snacks?",
+            "localizedNames": {
+              "en": "Saurus Crackers",
+              "zh": "\u9f99\u9f99\u997c\u5e72",
+              "ja": "\u3061\u3073\u7adc\u30d3\u30b9\u30b1\u30c3\u30c8",
+              "ko": "\uc6a9\uc6a9 \ucfe0\ud0a4"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333016-Saurus Crackers.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "223031",
+            "name": "Scorpocalypse",
+            "title": "Eremite Scorching Loremaster: Scorpocalypse",
+            "description": "\"For the Eternal Oasis!\"",
+            "localizedNames": {
+              "en": "Scorpocalypse",
+              "zh": "\u9b54\u874e\u70c8\u7978",
+              "ja": "\u30b5\u30bd\u30ea\u306e\u5927\u798d",
+              "ko": "\uc804\uac08\uc758 \ud070 \uc7ac\uc559"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223031-Scorpocalypse.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312034",
+            "name": "Scroll of the Hero of Cinder City",
+            "title": "A Journey with No Return: Scroll of the Hero of Cinder City",
+            "description": "\"The gates of hell are stained red by the flowing blood of the brave. Let me offer my blood, and leave the key to those gates with my child.\"",
+            "localizedNames": {
+              "en": "Scroll of the Hero of Cinder City",
+              "zh": "\u70ec\u57ce\u52c7\u8005\u7ed8\u5377",
+              "ja": "\u7070\u71fc\u306e\u90fd\u306b\u7acb\u3064\u82f1\u96c4\u306e\u7d75\u5dfb",
+              "ko": "\uc7bf\ub354\ubbf8\uc131 \uc6a9\uc0ac\uc758 \ub450\ub8e8\ub9c8\ub9ac"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312034-Scroll of the Hero of Cinder City.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "323005",
+            "name": "Seed Dispensary",
+            "title": "Seed Dispensary",
+            "description": "A special container obtained from Madame Ping. According to her, this dispensary has the power to \"generate seeds\"...",
+            "localizedNames": {
+              "en": "Seed Dispensary",
+              "zh": "\u5316\u79cd\u5323",
+              "ja": "\u7a2e\u306e\u5323",
+              "ko": "\uc528\uc557 \ud568"
+            },
+            "type": "Action",
+            "tags": [
+              "Item"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323005-Seed Dispensary.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321019",
+            "name": "Seirai Island",
+            "title": "Seirai Island",
+            "description": "\"The great battle where the sea and sky changed color have become lost to time, but the vast storms that were called upon at this time still remain.\"",
+            "localizedNames": {
+              "en": "Seirai Island",
+              "zh": "\u6e05\u7c41\u5c9b",
+              "ja": "\u30bb\u30a4\u30e9\u30a4\u5cf6",
+              "ko": "\uc138\uc774\ub77c\uc774\uc12c"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321019-Seirai Island.webp",
+            "source": "Nanoka"
+          },
+          {
             "id": "332013",
             "name": "Send Off",
-            "title": null,
+            "title": "Send Off",
+            "description": "\"Here at Wangsheng Funeral Parlor, you can count on us to go full send! Satisfaction guaranteed!\"",
+            "localizedNames": {
+              "en": "Send Off",
+              "zh": "\u9001\u4f60\u4e00\u7a0b",
+              "ja": "\u9001\u3063\u3066\u3042\u3052\u3088\uff5e\uff01",
+              "ko": "\ub110 \uc800\uc138\uc0c1\uc73c\ub85c \ub370\ub824\ub2e4\uc904\uac8c"
+            },
             "type": "Action",
             "tags": [],
             "playableCharacter": null,
@@ -6317,19 +13835,485 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "322027",
+            "name": "Serene",
+            "title": "Serene",
+            "description": "\"We're going to solve everyone's troubles today, too!\"",
+            "localizedNames": {
+              "en": "Serene",
+              "zh": "\u745f\u7433",
+              "ja": "\u30bb\u30ec\u30fc\u30cd",
+              "ko": "\uc138\ub9b0"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322027-Serene.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322019",
+            "name": "Setaria",
+            "title": "Crossing the Wall: Setaria",
+            "description": "A genius from the desert, deep within the rainforest's temple...",
+            "localizedNames": {
+              "en": "Setaria",
+              "zh": "\u585e\u5854\u857e",
+              "ja": "\u30bb\u30bf\u30ec",
+              "ko": "\uc138\ud0c0\ub974"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322019-Setaria.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322031",
+            "name": "Seymour",
+            "title": "Seymour",
+            "description": "\"Welcome back, milady. You are as gentle, lovely, and radiant as ever.\"",
+            "localizedNames": {
+              "en": "Seymour",
+              "zh": "\u897f\u6469\u5c14",
+              "ja": "\u30bb\u30a4\u30e2\u30a2",
+              "ko": "\uc2dc\ubaa8\uc5b4"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322031-Seymour.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312017",
+            "name": "Shadow of the Sand King",
+            "title": "Proxy Generations: Shadow of the Sand King",
+            "description": "\"Once, the wise mortal king and the clergy received divine oracles personally, and they were the masters of the land.\"\\n\"Today, those who rule as proxies in the oases are the shadows of the gods.\"",
+            "localizedNames": {
+              "en": "Shadow of the Sand King",
+              "zh": "\u6c99\u738b\u7684\u6295\u5f71",
+              "ja": "\u7802\u738b\u306e\u6295\u5f71",
+              "ko": "\ubaa8\ub798\uc655\uc758 \uadf8\ub9bc\uc790"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312017-Shadow of the Sand King.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211021",
+            "name": "Shaken, Not Purred",
+            "title": "Diona: Shaken, Not Purred",
+            "description": "Shake and stir till its all evenly mixed... and there! Your refill's ready!",
+            "localizedNames": {
+              "en": "Shaken, Not Purred",
+              "zh": "\u732b\u722a\u51b0\u6447",
+              "ja": "\u30af\u30fc\u30eb\u30ad\u30e3\u30c3\u30c4\u30af\u30ed\u30fc",
+              "ko": "\uaf41\uaf41\uc824\ub9ac \uc250\uc774\ud070"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211021-Shaken, Not Purred.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312014",
+            "name": "Shimenawa's Reminiscence",
+            "title": "Fleeting Iridescence: Shimenawa's Reminiscence",
+            "description": "\"...Losing one's memory is no different from losing one's life. It is like death amidst darkness eternal.\"\\n\"Life is full of uncertainty. Love is fleeting, and even lasting memories may be lost...\"",
+            "localizedNames": {
+              "en": "Shimenawa's Reminiscence",
+              "zh": "\u8ffd\u5fc6\u4e4b\u6ce8\u8fde",
+              "ja": "\u8ffd\u61b6\u306e\u3057\u3081\u7e04",
+              "ko": "\ucd94\uc5b5\uc758 \uc2dc\uba54\ub098\uc640"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312014-Shimenawa's Reminiscence.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322023",
+            "name": "Silver and Melus",
+            "title": "The Best Attendants: Silver and Melus",
+            "description": "\"Don't be afraid. We will protect you to the very end.\"",
+            "localizedNames": {
+              "en": "Silver and Melus",
+              "zh": "\u897f\u5c14\u5f17\u548c\u8fc8\u52d2\u65af",
+              "ja": "\u30b7\u30eb\u30f4\u30a1\u3068\u30de\u30eb\u30b7\u30e9\u30c3\u30af",
+              "ko": "\uc2e4\ubc84\uc640 \ub9c8\ub974\uc2dc\uc545"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322023-Silver and Melus.webp",
+            "source": "Nanoka"
+          },
+          {
             "id": "321035",
             "name": "Silvermoon Hall",
-            "title": null,
+            "title": "Silvermoon Hall",
+            "description": "And still the moonlight flows as ever.",
+            "localizedNames": {
+              "en": "Silvermoon Hall",
+              "zh": "\u94f6\u6708\u4e4b\u5ead",
+              "ja": "\u9280\u6708\u306e\u5ead",
+              "ko": "\ub2ec\ube5b \uc815\uc6d0"
+            },
             "type": "Action",
-            "tags": [],
+            "tags": [
+              "Location"
+            ],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321035-Silvermoon Hall.webp",
             "source": "Nanoka"
           },
           {
+            "id": "214061",
+            "name": "Sin of Pride",
+            "title": "Kujou Sara: Sin of Pride",
+            "description": "\"With this unity between my mind, arrow, and bow, any enemy will be struck down!\"",
+            "localizedNames": {
+              "en": "Sin of Pride",
+              "zh": "\u6211\u754c",
+              "ja": "\u6211\u754c",
+              "ko": "\uc544\uacc4(\u6211\u754c)"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214061-Sin of Pride.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333027",
+            "name": "Sing Your Heart Out",
+            "title": "Sing Your Heart Out",
+            "description": "A cool-flavored throat lozenge. Said to be the Flower-Feather Clan's secret weapon for soothing their throats and protecting their vocal cords \u2014 so eat one and go sing your heart out! Just make sure you don't go overboard, as too much sugar can leave your throat feeling hoarse.",
+            "localizedNames": {
+              "en": "Sing Your Heart Out",
+              "zh": "\u7eb5\u58f0\u6b22\u5531",
+              "ja": "\u9ad8\u3089\u304b\u306a\u6b4c\u58f0",
+              "ko": "\ud798\ucc2c \ub178\ub798"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333027-Sing Your Heart Out.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322026",
+            "name": "Sir Arthur",
+            "title": "Sir Arthur",
+            "description": "\"Hello! Hello!\"",
+            "localizedNames": {
+              "en": "Sir Arthur",
+              "zh": "\u4e9a\u745f\u5148\u751f",
+              "ja": "\u30b5\u30fc\u00b7\u30a2\u30fc\u30b5\u30fc",
+              "ko": "\uc544\ub974\ud280\ub974 \uc528"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322026-Sir Arthur.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215071",
+            "name": "Skiving: New and Improved",
+            "title": "Sayu: Skiving: New and Improved",
+            "description": "\"I should have just stayed in bed today.\"",
+            "localizedNames": {
+              "en": "Skiving: New and Improved",
+              "zh": "\u5077\u61d2\u7684\u65b0\u65b9\u6cd5",
+              "ja": "\u65b0\u3057\u3044\u30b5\u30dc\u308a\u65b9",
+              "ko": "\uc0c8\ub85c\uc6b4 \ub18d\ub561\uc774 \ubc29\ubc95"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215071-Skiving_ New and Improved.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311103",
+            "name": "Skyward Atlas",
+            "title": "Cloud Atlas: Skyward Atlas",
+            "description": "Its full name is the \"An atlas of the winds and clouds.\"\\nThis text records the winds and clouds of the northern lands' skies in poetic and archival forms.",
+            "localizedNames": {
+              "en": "Skyward Atlas",
+              "zh": "\u5929\u7a7a\u4e4b\u5377",
+              "ja": "\u5929\u7a7a\u306e\u5dfb",
+              "ko": "\ucc9c\uacf5\uc758 \ub450\ub8e8\ub9c8\ub9ac"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Catalyst"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311103-Skyward Atlas.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311504",
+            "name": "Skyward Blade",
+            "title": "Sky-Piercing: Skyward Blade",
+            "description": "The sky-piercing fang. With nemesis vanquished, the wind dragon fell into a deep slumber.\\nCenturies passed, and Dvalin's sacrifice was all but forgotten by Mondstadt.\\nA prayer, this sword is. May Dvalin's name be restored.",
+            "localizedNames": {
+              "en": "Skyward Blade",
+              "zh": "\u5929\u7a7a\u4e4b\u5203",
+              "ja": "\u5929\u7a7a\u306e\u5203",
+              "ko": "\ucc9c\uacf5\uc758 \uac80"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Sword"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311504-Skyward Blade.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311203",
+            "name": "Skyward Harp",
+            "title": "Echoing Ballad: Skyward Harp",
+            "description": "The sound of this sky-piercing lyre firing is music to the Anemo Archon's ears.",
+            "localizedNames": {
+              "en": "Skyward Harp",
+              "zh": "\u5929\u7a7a\u4e4b\u7ffc",
+              "ja": "\u5929\u7a7a\u306e\u7ffc",
+              "ko": "\ucc9c\uacf5\uc758 \ub0a0\uac1c"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Bow"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311203-Skyward Harp.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311304",
+            "name": "Skyward Pride",
+            "title": "Sky-Rippin: Skyward Pride",
+            "description": "This is a tale of sky-shaking valor. Bearing the will to defend all, let the wind dragon bestow wrath upon its vile nemesis.",
+            "localizedNames": {
+              "en": "Skyward Pride",
+              "zh": "\u5929\u7a7a\u4e4b\u50b2",
+              "ja": "\u5929\u7a7a\u306e\u50b2",
+              "ko": "\ucc9c\uacf5\uc758 \uae0d\uc9c0"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Claymore"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311304-Skyward Pride.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311403",
+            "name": "Skyward Spine",
+            "title": "Carving Black Wings: Skyward Spine",
+            "description": "A spear that can hold up the skies. It was this unshakable resolve that sustained the wind dragon through its mortal battle against its vile nemesis.",
+            "localizedNames": {
+              "en": "Skyward Spine",
+              "zh": "\u5929\u7a7a\u4e4b\u810a",
+              "ja": "\u5929\u7a7a\u306e\u810a",
+              "ko": "\ucc9c\uacf5\uc758 \ub9c8\ub8e8"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Polearm"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311403-Skyward Spine.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311209",
+            "name": "Snare Hook",
+            "title": "Phantom Flash: Snare Hook",
+            "description": "\"There are few truly inescapable traps in this world, for even the densest web can be threaded with a needle.\\nGlimmers of hope can be found between the hooks and cages of even a trap set to kill.\\nJust as no one can fully lock away their heart, even the most cautious defenses must eventually falter.\"",
+            "localizedNames": {
+              "en": "Snare Hook",
+              "zh": "\u7f57\u7f51\u52fe\u9488",
+              "ja": "\u7f85\u7db2\u306e\u91dd",
+              "ko": "\uadf8\ubb3c\uc744 \ub6ab\ub294 \ud654\uc0b4"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Bow"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311209-Snare Hook.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "227031",
+            "name": "Spirit Serpent's Swirl",
+            "title": "Floral Ring-Dancer: Spirit Serpent's Swirl",
+            "description": "\"...Even though all such gods and kings have now faded into the flowing sands, the memory of dance yet persists in the desert-dwellers' veins.\"",
+            "localizedNames": {
+              "en": "Spirit Serpent's Swirl",
+              "zh": "\u7075\u86c7\u65cb\u5636",
+              "ja": "\u3068\u3050\u308d\u5dfb\u304f\u970a\u86c7\u306e\u5a01\u5687",
+              "ko": "\ud718\uac10\ub294 \uc601\ud63c\uc758 \ubc40"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/227031-Spirit Serpent's Swirl.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311508",
+            "name": "Splendor of Tranquil Waters",
+            "title": "Dawn and Dusk by the Lake: Splendor of Tranquil Waters",
+            "description": "\"...On a morning clear as the light reflected on the lake, the Mistress of Many Waters was moved by that pained plea.\\nAnd so the kindly goddess granted her wish and gave her blessing to the journey ahead.\\nFor the Mistress of Many Waters knew that a fair judgment was the greatest leniency one could give a selfless soul.\\nAnd perhaps that is why that noble verdict dyed fate in its colors.\"",
+            "localizedNames": {
+              "en": "Splendor of Tranquil Waters",
+              "zh": "\u9759\u6c34\u6d41\u6d8c\u4e4b\u8f89",
+              "ja": "\u9759\u6c34\u6d41\u8ee2\u306e\u8f1d\u304d",
+              "ko": "\uace0\uc694\ud788 \uc0d8\uc19f\ub294 \ube5b"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Sword"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311508-Splendor of Tranquil Waters.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321022",
+            "name": "Stadium of the Sacred Flame",
+            "title": "Stadium of the Sacred Flame",
+            "description": "\"Seize victory and glory for Natlan!\"",
+            "localizedNames": {
+              "en": "Stadium of the Sacred Flame",
+              "zh": "\u5723\u706b\u7ade\u6280\u573a",
+              "ja": "\u8056\u706b\u7af6\u6280\u5834",
+              "ko": "\uc131\ud654 \uacbd\uae30\uc7a5"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321022-Stadium of the Sacred Flame.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321023",
+            "name": "Stage Tepetl",
+            "title": "Stage Tepetl",
+            "description": "\"Get up on stage, and dance, dance, dance! Become a member of the Drillbit Dance! Show us your courage and resolve, and you can also become a legend of the stage!\"",
+            "localizedNames": {
+              "en": "Stage Tepetl",
+              "zh": "\u7279\u4f69\u5229\u821e\u53f0",
+              "ja": "\u30c6\u30da\u30c8\u30eb\u306e\u821e\u53f0",
+              "ko": "\ud14c\ud398\ud2c0 \ubb34\ub300"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321023-Stage Tepetl.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213091",
+            "name": "Stalwart and True",
+            "title": "Dehya: Stalwart and True",
+            "description": "\"Don't hold back, let's go!\"",
+            "localizedNames": {
+              "en": "Stalwart and True",
+              "zh": "\u5d07\u8bda\u4e4b\u771f",
+              "ja": "\u81f3\u8aa0\u306e\u5c0a\u5d07",
+              "ko": "\ucc38\ub41c \ucda9\uc2ec"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213091-Stalwart and True.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311112",
+            "name": "Starcaller's Watch",
+            "title": "Offering Unto Wind and Sun: Starcaller's Watch",
+            "description": "\"I shall watch over you always, O hero solely mine, bound to your shoulder always, like a silken string...\"\\n\"Until our souls are entwined eternally in profoundest peace, where even death shall not do us part.\"",
+            "localizedNames": {
+              "en": "Starcaller's Watch",
+              "zh": "\u796d\u661f\u8005\u4e4b\u671b",
+              "ja": "\u796d\u661f\u8005\u306e\u773a\u3081",
+              "ko": "\ubcc4\uc9c0\uae30\uc758 \uc2dc\uc120"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Catalyst"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311112-Starcaller's Watch.webp",
+            "source": "Nanoka"
+          },
+          {
             "id": "332008",
             "name": "Starsigns",
-            "title": null,
+            "title": "Destined Path",
+            "description": "\"This is destiny, and it cannot be defied.\"",
+            "localizedNames": {
+              "en": "Starsigns",
+              "zh": "\u661f\u5929\u4e4b\u5146",
+              "ja": "\u661f\u5929\u306e\u5146",
+              "ko": "\ubcc4\ud558\ub298\uc758 \uc9d5\uc870"
+            },
             "type": "Action",
             "tags": [],
             "playableCharacter": null,
@@ -6337,9 +14321,75 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "211041",
+            "name": "Steady Breathing",
+            "title": "Chongyun: Steady Breathing",
+            "description": "Steady breathing makes a steady heart.",
+            "localizedNames": {
+              "en": "Steady Breathing",
+              "zh": "\u5410\u7eb3\u771f\u5b9a",
+              "ja": "\u5410\u7d0d\u771f\u5b9a",
+              "ko": "\uc9c4\uae30 \ud1a0\ub0a9"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211041-Steady Breathing.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214011",
+            "name": "Stellar Predator",
+            "title": "Fischl: Stellar Predator",
+            "description": "\"The instant in which Ozvaldo Hrafnavins shows his great might.\"",
+            "localizedNames": {
+              "en": "Stellar Predator",
+              "zh": "\u566c\u661f\u9b54\u9e26",
+              "ja": "\u661f\u55b0\u3044\u306e\u9d09",
+              "ko": "\ubcc4\uc744 \uc0bc\ud0a8 \uae4c\ub9c8\uadc0"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214011-Stellar Predator.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "221031",
+            "name": "Sternfrost Prism",
+            "title": "Cryo Hypostasis: Sternfrost Prism",
+            "description": "Despite its highly stable form and almost machine-like movements, it must still meticulously defend its weak spot...",
+            "localizedNames": {
+              "en": "Sternfrost Prism",
+              "zh": "\u4e25\u971c\u68f1\u6676",
+              "ja": "\u53b3\u971c\u306e\u30d7\u30ea\u30ba\u30e0",
+              "ko": "\uc11c\ub9ac \ud504\ub9ac\uc998 \uacb0\uc815"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/221031-Sternfrost Prism.webp",
+            "source": "Nanoka"
+          },
+          {
             "id": "331802",
             "name": "Stone and Contracts",
-            "title": null,
+            "title": "Contract of Eons Unshaken",
+            "description": "\"This is the trust I have placed in them. Betray it, and you taint my blood.\"",
+            "localizedNames": {
+              "en": "Stone and Contracts",
+              "zh": "\u5ca9\u4e0e\u5951\u7ea6",
+              "ja": "\u5ca9\u3068\u5951\u7d04",
+              "ko": "\ubc14\uc704\uc640 \uacc4\uc57d"
+            },
             "type": "Action",
             "tags": [],
             "playableCharacter": null,
@@ -6347,9 +14397,97 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "2601",
+            "name": "Stonehide Lawachurl",
+            "title": "\"Vale-Crosser\" Stonehide Lawachurl",
+            "description": "Go around \u2014 the way ahead is the realm of the \"king.\"",
+            "localizedNames": {
+              "en": "Stonehide Lawachurl",
+              "zh": "\u4e18\u4e18\u5ca9\u76d4\u738b",
+              "ja": "\u30d2\u30eb\u30c1\u30e3\u30fc\u30eb\u00b7\u5ca9\u515c\u306e\u738b",
+              "ko": "\uce04\uce04 \ubc14\uc704\uc655"
+            },
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Other Weapons",
+              "Monster",
+              "Hilichurl"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2601-Stonehide Lawachurl.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "226011",
+            "name": "Stonehide Reforged",
+            "title": "Forged From Rock",
+            "description": "An enduring force flows through that craggy form.",
+            "localizedNames": {
+              "en": "Stonehide Reforged",
+              "zh": "\u91cd\u94f8\uff1a\u5ca9\u76d4",
+              "ja": "\u92f3\u76f4\u3057\uff1a\u5ca9\u515c",
+              "ko": "\uc7ac\uac74: \ubc14\uc704 \ud22c\uad6c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/226011-Stonehide Reforged.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321015",
+            "name": "Stormterror's Lair",
+            "title": "Stormterror's Lair",
+            "description": "The ambitious dream was built proudly upon the capital of the God of Storms, and collapsed to ruin under the lofty song of freedom.",
+            "localizedNames": {
+              "en": "Stormterror's Lair",
+              "zh": "\u98ce\u9f99\u5e9f\u589f",
+              "ja": "\u98a8\u9f8d\u5ec3\u589f",
+              "ko": "\ubc14\ub78c \ub4dc\ub798\uace4\uc758 \ud3d0\ud5c8"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321015-Stormterror's Lair.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "216011",
+            "name": "Strategic Reserve",
+            "title": "Ningguang: Strategic Reserve",
+            "description": "Abundance is synonymous with confidence.",
+            "localizedNames": {
+              "en": "Strategic Reserve",
+              "zh": "\u50a8\u4e4b\u5343\u65e5\uff0c\u7528\u4e4b\u4e00\u523b",
+              "ja": "\u5099\u3048\u3042\u308c\u3070\u6182\u3044\u306a\u3057",
+              "ko": "\uc0ac\uc804 \uc900\ube44"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216011-Strategic Reserve.webp",
+            "source": "Nanoka"
+          },
+          {
             "id": "332004",
             "name": "Strategize",
-            "title": null,
+            "title": "Strategize",
+            "description": "\"This might look quite complicated, but in truth, the possible scenarios do not exceed 187 in number.\"",
+            "localizedNames": {
+              "en": "Strategize",
+              "zh": "\u8fd0\u7b79\u5e37\u5e44",
+              "ja": "\u6a29\u8b00\u8853\u6570",
+              "ko": "\uc804\ub7b5 \uad6c\uc0c1"
+            },
             "type": "Action",
             "tags": [],
             "playableCharacter": null,
@@ -6357,9 +14495,149 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "222011",
+            "name": "Streaming Surge",
+            "title": "Flowing",
+            "description": "The racing waters are a display of love toward a deceased deity.",
+            "localizedNames": {
+              "en": "Streaming Surge",
+              "zh": "\u767e\u5ddd\u5954\u6d41",
+              "ja": "\u767e\u5ddd\u5954\u6d41",
+              "ko": "\uc138\ucc2c \uaca9\ub958"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222011-Streaming Surge.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "217061",
+            "name": "Structuration",
+            "title": "Alhaitham: Structuration",
+            "description": "\"A process of elimination.\"",
+            "localizedNames": {
+              "en": "Structuration",
+              "zh": "\u6b63\u7406",
+              "ja": "\u30b9\u30c8\u30e9\u30af\u30bf\u30ec\u30fc\u30b7\u30e7\u30f3",
+              "ko": "\uc815\ub9ac"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217061-Structuration.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321010",
+            "name": "Sumeru City",
+            "title": "The City Where All Wisdom Resides",
+            "description": "Under the luxuriant Divine Tree, the sages of the academy city have accumulated all the knowledge there is to be gathered.",
+            "localizedNames": {
+              "en": "Sumeru City",
+              "zh": "\u987b\u5f25\u57ce",
+              "ja": "\u30b9\u30e1\u30fc\u30eb\u30b7\u30c6\u30a3",
+              "ko": "\uc218\uba54\ub974\uc131"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321010-Sumeru City.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332029",
+            "name": "Sunyata Flower",
+            "title": "Sunyata Flower",
+            "description": "\"This vibrant color is the miracle of life's flowing springs.\"\\n\"Abide with me, sing and caper with me, and let us weave eternal joy\"...",
+            "localizedNames": {
+              "en": "Sunyata Flower",
+              "zh": "\u51c0\u89c9\u82b1",
+              "ja": "\u30b7\u30e5\u30fc\u30cb\u30e3\u30bf\u30fc\u82b1",
+              "ko": "\uc21c\uc57c\ud0c0 \uaf43"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332029-Sunyata Flower.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "222031",
+            "name": "Surging Undercurrent",
+            "title": "Abyss Herald: Surging Undercurrent",
+            "description": "\"Destruction inexorable!\"",
+            "localizedNames": {
+              "en": "Surging Undercurrent",
+              "zh": "\u6697\u6d41\u6d8c\u52a8",
+              "ja": "\u6e26\u5dfb\u304f\u6697\u6d41",
+              "ko": "\uc19f\uad6c\uce58\ub294 \uc554\ub958"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222031-Surging Undercurrent.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333005",
+            "name": "Sweet Madame",
+            "title": "Sweet Madame",
+            "description": "Perhaps some have never seen a chicken run... But there's no one who hasn't tried a Sweet Madame!",
+            "localizedNames": {
+              "en": "Sweet Madame",
+              "zh": "\u751c\u751c\u82b1\u917f\u9e21",
+              "ja": "\u9ce5\u8089\u306e\u30b9\u30a4\u30fc\u30c8\u30d5\u30e9\u30ef\u30fc\u6f2c\u3051\u713c\u304d",
+              "ko": "\ub2ec\ucf64\ub2ec\ucf64 \ub2ed\uace0\uae30 \uc2a4\ud29c"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333005-Sweet Madame.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215151",
+            "name": "Tactical Warm Compress Bandaging",
+            "title": "Ifa: Tactical Warm Compress Bandaging",
+            "description": "\"Mind your step!\"",
+            "localizedNames": {
+              "en": "Tactical Warm Compress Bandaging",
+              "zh": "\u6e29\u6577\u6218\u672f\u5305\u624e",
+              "ja": "\u6226\u7565\u7684\u6e29\u7f68\u6cd5",
+              "ko": "\uc628\uc5f4 \uc694\ubc95"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215151-Tactical Warm Compress Bandaging.webp",
+            "source": "Nanoka"
+          },
+          {
             "id": "332037",
             "name": "Tada!",
-            "title": null,
+            "title": "Tada!",
+            "description": "\"Surprise.\"",
+            "localizedNames": {
+              "en": "Tada!",
+              "zh": "\u5654\u5654\uff01",
+              "ja": "\u30b8\u30e3\u30b8\u30e3\uff5e\u30f3\uff01",
+              "ko": "\uc9dc\uc794!"
+            },
             "type": "Action",
             "tags": [],
             "playableCharacter": null,
@@ -6367,9 +14645,288 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "212051",
+            "name": "Tamakushi Casket",
+            "title": "Sangonomiya Kokomi: Tamakushi Casket",
+            "description": "Wisdom yet revealed from the casket parallels tides yet unfolded by the sea.",
+            "localizedNames": {
+              "en": "Tamakushi Casket",
+              "zh": "\u5323\u4e2d\u7389\u6809",
+              "ja": "\u845b\u7c60\u306e\u4e2d\u306e\u7389\u6adb",
+              "ko": "\ud568 \uc18d\uc758 \ud0c0\ub9c8\ucfe0\uc2dc"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212051-Tamakushi Casket.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333011",
+            "name": "Tandoori Roast Chicken",
+            "title": "Tandoori Roast Chicken",
+            "description": "The chicken and spices are capable of performing a mysterious Sumeru dance on the tip of your tongue, evoking the image of a festive banquet...\\nBut even a dish so delicious has its last bite, and every feast has its end.",
+            "localizedNames": {
+              "en": "Tandoori Roast Chicken",
+              "zh": "\u5510\u675c\u5c14\u70e4\u9e21",
+              "ja": "\u30bf\u30f3\u30c9\u30ea\u30fc\u30c1\u30ad\u30f3",
+              "ko": "\ud0c4\ub450\ub9ac \uce58\ud0a8"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333011-Tandoori Roast Chicken.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322024",
+            "name": "Taroumaru",
+            "title": "Taroumaru",
+            "description": "The boss of Komore Teahouse, with whom all staff members are said to have signed a \"contract\"...\\nFew people know that back in the day, Taroumaru would accompany powerful ninja of the Shuumatsuban, striving in service of the Yashiro Commission...",
+            "localizedNames": {
+              "en": "Taroumaru",
+              "zh": "\u592a\u90ce\u4e38",
+              "ja": "\u592a\u90ce\u4e38",
+              "ko": "\ud0c0\ub85c\ub9c8\ub8e8"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322024-Taroumaru.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "313008",
+            "name": "Tatankasaurus",
+            "title": "Tatankasaurus: Spirited Charge",
+            "description": "To a charging Tatankasaurus, solid Pulverite is no more imposing an obstacle than gently wafting steam, while the surfaces of water and liquid Phlogiston alike are as stable and supportive as a road.",
+            "localizedNames": {
+              "en": "Tatankasaurus",
+              "zh": "\u7a81\u89d2\u9f99",
+              "ja": "\u30e9\u30a4\u30ce\u7adc",
+              "ko": "\ubfd4\ub8e1"
+            },
+            "type": "Action",
+            "tags": [
+              "Technique"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313008-Tatankasaurus.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211151",
+            "name": "Tea Parties Bursting With Color",
+            "title": "\"Tea Parties Bursting With Color\" Escoffier",
+            "description": "The pinnacle of excellence!",
+            "localizedNames": {
+              "en": "Tea Parties Bursting With Color",
+              "zh": "\u8679\u5f69\u7f24\u7eb7\u7684\u751c\u70b9\u8336\u8bdd",
+              "ja": "\u8679\u8272\u30d1\u30c6\u30a3\u30b9\u30ea\u30fc\u306e\u8336\u8a71",
+              "ko": "\ubb34\uc9c0\uac2f\ube5b \ud2f0\ud0c0\uc784"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211151-Tea Parties Bursting With Color.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214141",
+            "name": "Teachings of the Collective of Plenty",
+            "title": "Iansan: Teachings of the Collective of Plenty",
+            "description": "\"On my mark!\"",
+            "localizedNames": {
+              "en": "Teachings of the Collective of Plenty",
+              "zh": "\u300c\u6c83\u9646\u4e4b\u90a6\u300d\u7684\u8bad\u6559",
+              "ja": "\u300c\u8c4a\u7a63\u306e\u90a6\u300d\u306e\u6559\u3048",
+              "ko": "\u300c\ube44\uc625\ud55c \ud130\uc804\u300d\uc758 \uac00\ub974\uce68"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214141-Teachings of the Collective of Plenty.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312010",
+            "name": "Tenacity of the Millelith",
+            "title": "Tenacity of the Millelith: General's Ancient Helm",
+            "description": "\"...To ensure that the afflicted civilians could safely escape, and to maintain their honor in the eyes of the Lord of Geo,\\nThe helmet-clad troops of the front line took the lead, pointing their spears towards the Abyss and charging into battle.\"",
+            "localizedNames": {
+              "en": "Tenacity of the Millelith",
+              "zh": "\u5343\u5ca9\u7262\u56fa",
+              "ja": "\u5343\u5ca9\u7262\u56fa",
+              "ko": "\uacac\uace0\ud55c \ucc9c\uc554"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312010-Tenacity of the Millelith.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321007",
+            "name": "Tenshukaku",
+            "title": "Omnipresence Over Mortals",
+            "description": "\"What matters is that I tread the path of eternity on my people's behalf.\"",
+            "localizedNames": {
+              "en": "Tenshukaku",
+              "zh": "\u5929\u5b88\u9601",
+              "ja": "\u5929\u5b88\u95a3",
+              "ko": "\ucc9c\uc218\uac01"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321007-Tenshukaku.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "313004",
+            "name": "Tepetlisaurus",
+            "title": "Tepetlisaurus: Burrowing Assault",
+            "description": "\"Tepetlisaurs are skilled diggers, and as they tunnel through the earth, they occasionally uncover buried treasures...\"",
+            "localizedNames": {
+              "en": "Tepetlisaurus",
+              "zh": "\u5d74\u950b\u9f99",
+              "ja": "\u30c6\u30da\u30c8\u30eb\u7adc",
+              "ko": "\uc0b0\ub8e1"
+            },
+            "type": "Action",
+            "tags": [
+              "Technique"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313004-Tepetlisaurus.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211111",
+            "name": "Terror for the Evildoers",
+            "title": "Wriothesley: Terror for the Evildoers",
+            "description": "\"Stay cool and face your guilt!\"",
+            "localizedNames": {
+              "en": "Terror for the Evildoers",
+              "zh": "\u4e88\u884c\u6076\u8005\u4ee5\u60e9\u60e7",
+              "ja": "\u60aa\u3092\u70ba\u3059\u8005\u306b\u6050\u308c\u3092",
+              "ko": "\uc545\ud589\uc790\uc5d0\uac8c \uc9d5\ubc8c\uc744"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211111-Terror for the Evildoers.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "333009",
+            "name": "Teyvat Fried Egg",
+            "title": "Teyvat Fried Egg",
+            "description": "With a taste of the summer sun, it invigorates you from the first bite.\\nTake care to eat this meal slowly, and avoid choking the throat of destiny when impelled by the fullness of life's vitality.",
+            "localizedNames": {
+              "en": "Teyvat Fried Egg",
+              "zh": "\u63d0\u74e6\u7279\u714e\u86cb",
+              "ja": "\u30c6\u30a4\u30ef\u30c3\u30c8\u98a8\u76ee\u7389\u713c\u304d",
+              "ko": "\ud2f0\ubc14\ud2b8 \ub2ec\uac40 \ud504\ub77c\uc774"
+            },
+            "type": "Action",
+            "tags": [
+              "Food"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333009-Teyvat Fried Egg.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "227041",
+            "name": "The All-Devourer",
+            "title": "\"The All-Devourer\" Gluttonous Yumkasaur Mountain King",
+            "description": "\"Some tribe members believe that it has its current body shape because it has a unique physique, like the Qucusaur Tyrant... Though in fact, this is simply because it's lived for so long, and eaten way, WAY too much.\"",
+            "localizedNames": {
+              "en": "The All-Devourer",
+              "zh": "\u9955\u566c\u5c3d\u541e",
+              "ja": "\u4e07\u7269\u3092\u55b0\u3089\u3046\u8005",
+              "ko": "\ud0d0\uc695\uc2a4\ub7ec\uc6b4 \ud3ec\uc2dd"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/227041-The All-Devourer.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "217081",
+            "name": "The Art of Budgeting",
+            "title": "Kaveh: The Art of Budgeting",
+            "description": "\"Feast your eyes!\"",
+            "localizedNames": {
+              "en": "The Art of Budgeting",
+              "zh": "\u9884\u7b97\u5e08\u7684\u6280\u827a",
+              "ja": "\u7a4d\u7b97\u58eb\u306e\u6280\u5de7",
+              "ko": "\uc608\uc0b0\uc758 \ub9c8\uc220\uc0ac"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217081-The Art of Budgeting.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311305",
+            "name": "The Bell",
+            "title": "Rebellious Guardian: The Bell",
+            "description": "There once was a traitor who brandished a blade against his fallen clan.\\nThough this individual was eventually cast out from his clan, rumor has it that his organization continued their chosen duties.\\nLegend claims that even the Wolf Pup Rostam might have been involved...",
+            "localizedNames": {
+              "en": "The Bell",
+              "zh": "\u949f\u5251",
+              "ja": "\u9418\u306e\u5263",
+              "ko": "\uc2dc\uac04\uc758 \uac80"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Claymore"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311305-The Bell.webp",
+            "source": "Nanoka"
+          },
+          {
             "id": "332001",
             "name": "The Bestest Travel Companion!",
-            "title": null,
+            "title": "The Bestest Travel Companion!",
+            "description": "\"You might be only one of countless stars, but you're Paimon's whole world!\"",
+            "localizedNames": {
+              "en": "The Bestest Travel Companion!",
+              "zh": "\u6700\u597d\u7684\u4f19\u4f34\uff01",
+              "ja": "\u6700\u9ad8\u306e\u4ef2\u9593\uff01",
+              "ko": "\ucd5c\uace0\uc758 \ud30c\ud2b8\ub108!"
+            },
             "type": "Action",
             "tags": [],
             "playableCharacter": null,
@@ -6377,9 +14934,324 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "332025",
+            "name": "The Boar Princess",
+            "title": "The Boar Princess",
+            "description": "In ancient legends, the Boar Kingdom was prosperous and filled with joy. The young princess of the Kingdom took the wise Fox and long-lived Tortoise, and set out on the road to the north, hoping to turn the little wolf back into that good child...",
+            "localizedNames": {
+              "en": "The Boar Princess",
+              "zh": "\u91ce\u732a\u516c\u4e3b",
+              "ja": "\u30a4\u30ce\u30b7\u30b7\u30d7\u30ea\u30f3\u30bb\u30b9",
+              "ko": "\uba67\ub3fc\uc9c0 \uacf5\uc8fc"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332025-The Boar Princess.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "212161",
+            "name": "The Burden of Creative Genius",
+            "title": "Aino: The Burden of Creative Genius",
+            "description": "\"Look, a rainbow!\"",
+            "localizedNames": {
+              "en": "The Burden of Creative Genius",
+              "zh": "\u5929\u624d\u4e4b\u4e3a\u6784\u9020\u4e4b\u8d23\u4efb",
+              "ja": "\u5929\u624d\u306a\u308a\u306e\u69cb\u7bc9\u8cac\u4efb",
+              "ko": "\ubc1c\uba85\uc740 \ucc9c\uc7ac\uc758 \uc758\ubb34"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212161-The Burden of Creative Genius.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311509",
+            "name": "The Dockhand's Assistant",
+            "title": "Sea Shanty: The Dockhand's Assistant",
+            "description": "\"Although such blades were not owned by their wielders, those who depended on them saw them as extensions of their limbs, and so they often inscribed their names onto the hilts and blades to avoid losing them. The name inscribed on this blade belongs to one of Poisson's former mayors.\"",
+            "localizedNames": {
+              "en": "The Dockhand's Assistant",
+              "zh": "\u8239\u575e\u957f\u5251",
+              "ja": "\u8239\u6e20\u5263",
+              "ko": "\ubc43\ub3c4\ub791 \uc7a5\uac80"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Sword",
+              "Damage Reduction"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311509-The Dockhand's Assistant.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332019",
+            "name": "The Legend of Vennessa",
+            "title": "Dream of Freedom Unrelinquished",
+            "description": "\"Lonely forest breezes converged, jointly they overthrew the tyrant's tower from the sky.\"\\n\"Broken free from shackles at last, the young lioness stood firm in the winds with her head held high.\"",
+            "localizedNames": {
+              "en": "The Legend of Vennessa",
+              "zh": "\u6e29\u59ae\u838e\u4f20\u5947",
+              "ja": "\u30f4\u30a1\u30cd\u30c3\u30b5\u306e\u7269\u8a9e",
+              "ko": "\ubc14\ub124\uc0ac \uc804\uae30"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332019-The Legend of Vennessa.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321020",
+            "name": "The Mausoleum of King Deshret",
+            "title": "The Mausoleum of King Deshret",
+            "description": "\"The huge cone is like a supporting pillar between the high sky and the yellow sands that has stood in the middle of the desert since time immemorial. Standing in front of it, be you a commoner, a wealthy man, or a well-informed researcher, you shall feel that you are but a few grains of sand all the same.\"",
+            "localizedNames": {
+              "en": "The Mausoleum of King Deshret",
+              "zh": "\u8d64\u738b\u9675",
+              "ja": "\u30ad\u30f3\u30b0\u30c7\u30b7\u30a7\u30ec\u30c8\u306e\u970a\u5edf",
+              "ko": "\uc801\uc655\uc758 \ubb34\ub364"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321020-The Mausoleum of King Deshret.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332057",
+            "name": "The Narzissenkreuz Adventure",
+            "title": "The Narzissenkreuz Adventure",
+            "description": "\"Before you arrived, I had a dream. I dreamed that I was a small, brave Oceanid, and we set out to save the Princess...\"",
+            "localizedNames": {
+              "en": "The Narzissenkreuz Adventure",
+              "zh": "\u6c34\u4ed9\u5341\u5b57\u5927\u5192\u9669",
+              "ja": "\u6c34\u4ed9\u5341\u5b57\u5927\u5192\u967a",
+              "ko": "\uc218\uc120\ud654 \uc2ed\uc790 \ub300\ubaa8\ud5d8"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332057-The Narzissenkreuz Adventure.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330013",
+            "name": "The Other Side of the Frostmoon",
+            "title": "The Other Side of the Frostmoon",
+            "description": "\"We are all tainted by sin... How could we ever hope to behold the moonlight in its purest form?\"",
+            "localizedNames": {
+              "en": "The Other Side of the Frostmoon",
+              "zh": "\u53e6\u4e00\u4fa7\u7684\u971c\u6708",
+              "ja": "\u5411\u3053\u3046\u5074\u306e\u971c\u6708",
+              "ko": "\uc11c\ub9ac\ub2ec\uc758 \uc800\ud3b8"
+            },
+            "type": "Action",
+            "tags": [
+              "Arcane Legend",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330013-The Other Side of the Frostmoon.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "212071",
+            "name": "The Overflow",
+            "title": "Candace: The Overflow",
+            "description": "Those who do not respect the regulations at cards...\\nAre the enemy of all who love the game.",
+            "localizedNames": {
+              "en": "The Overflow",
+              "zh": "\u884d\u6ea2\u7684\u6c50\u6f6e",
+              "ja": "\u6e80\u6ea2\u306e\u6f6e\u6c50",
+              "ko": "\ubc94\ub78c\ud558\ub294 \uc870\uc11d"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212071-The Overflow.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332064",
+            "name": "The Power of Research",
+            "title": "The Power of Research",
+            "description": "\"Science, of course! That's the only way!\"",
+            "localizedNames": {
+              "en": "The Power of Research",
+              "zh": "\u79d1\u7814\u7684\u52a8\u529b",
+              "ja": "\u7814\u7a76\u306e\u539f\u52d5\u529b",
+              "ko": "\uacfc\ud559 \uc5f0\uad6c\uc758 \uc6d0\ub3d9\ub825"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332064-The Power of Research.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "212021",
+            "name": "The Scent Remained",
+            "title": "Xingqiu: The Scent Remained",
+            "description": "His penmanship leaves quite the impression.",
+            "localizedNames": {
+              "en": "The Scent Remained",
+              "zh": "\u91cd\u5e18\u7559\u9999",
+              "ja": "\u3059\u3060\u308c\u306e\u6b8b\u9999",
+              "ko": "\uc7a5\ub9c9\uc758 \uc794\ud5a5"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212021-The Scent Remained.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "217031",
+            "name": "The Seed of Stored Knowledge",
+            "title": "Nahida: The Seed of Stored Knowledge",
+            "description": "\"Share in my knowledge.\"",
+            "localizedNames": {
+              "en": "The Seed of Stored Knowledge",
+              "zh": "\u5fc3\u8bc6\u8574\u85cf\u4e4b\u79cd",
+              "ja": "\u5fc3\u8b58\u860a\u8535\u306e\u7a2e",
+              "ko": "\uc9c0\ud61c\ub97c \uba38\uae08\uc740 \uc528\uc557"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217031-The Seed of Stored Knowledge.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214081",
+            "name": "The Shrine's Sacred Shade",
+            "title": "Yae Miko: The Shrine's Sacred Shade",
+            "description": "\"Ah... A sight to behold...\"",
+            "localizedNames": {
+              "en": "The Shrine's Sacred Shade",
+              "zh": "\u795e\u7bf1\u4e4b\u5fa1\u836b",
+              "ja": "\u795e\u7c6c\u4e4b\u5fa1\u852d",
+              "ko": "\ud788\ubaa8\ub85c\uae30\uc758 \uadf8\ub298"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214081-The Shrine's Sacred Shade.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "212081",
+            "name": "The Starry Skies Their Flowers Rain",
+            "title": "\"The Starry Skies Their Flowers Rain\" Nilou",
+            "description": "Seven heavens, passing like a radiant stream, as though a dream drawn into being.",
+            "localizedNames": {
+              "en": "The Starry Skies Their Flowers Rain",
+              "zh": "\u661f\u5929\u7684\u82b1\u96e8",
+              "ja": "\u661f\u5929\u306e\u82b1\u96e8",
+              "ko": "\ubcc4\ud558\ub298\uc758 \uaf43\ube44"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212081-The Starry Skies Their Flowers Rain.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322025",
+            "name": "The White Glove and the Fisherman",
+            "title": "The White Glove and the Fisherman",
+            "description": "\"Amongst us, there is our own justice.\"",
+            "localizedNames": {
+              "en": "The White Glove and the Fisherman",
+              "zh": "\u767d\u624b\u5957\u548c\u6e14\u592b",
+              "ja": "\u767d\u624b\u888b\u3068\u6f01\u5e2b",
+              "ko": "\ud770 \uc7a5\uac11\uacfc \uc5b4\ubd80"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion",
+              "Undiscoverable"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322025-The White Glove and the Fisherman.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215091",
+            "name": "The Wondrous Path of Truth",
+            "title": "Faruzan: The Wondrous Path of Truth",
+            "description": "\"Truth repeats its course.\"",
+            "localizedNames": {
+              "en": "The Wondrous Path of Truth",
+              "zh": "\u5999\u9053\u5408\u771f",
+              "ja": "\u5999\u9053\u5408\u4e00",
+              "ko": "\uc9c4\ub9ac\ub85c \ud1b5\ud558\ub294 \uae38"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215091-The Wondrous Path of Truth.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215101",
+            "name": "They Call Her Cloud Retainer",
+            "title": "Xianyun: They Call Her Cloud Retainer",
+            "description": "\"Stray clouds, converge.\"",
+            "localizedNames": {
+              "en": "They Call Her Cloud Retainer",
+              "zh": "\u77e5\u662f\u7559\u4e91\u50ca",
+              "ja": "\u7559\u96f2\u3092\u4ed9\u3068\u899a\u308b",
+              "ko": "\ub958\uc6b4 \uc120\uc778!"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215101-They Call Her Cloud Retainer.webp",
+            "source": "Nanoka"
+          },
+          {
             "id": "331803",
             "name": "Thunder and Eternity",
-            "title": null,
+            "title": "Dream of Evanescent Eternity",
+            "description": "\"It once promised its people a dream: the never-changing 'eternity.'\"",
+            "localizedNames": {
+              "en": "Thunder and Eternity",
+              "zh": "\u96f7\u4e0e\u6c38\u6052",
+              "ja": "\u96f7\u3068\u6c38\u9060",
+              "ko": "\ubc88\uac1c\uc640 \uc601\uc6d0"
+            },
             "type": "Action",
             "tags": [],
             "playableCharacter": null,
@@ -6387,9 +15259,211 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "2402",
+            "name": "Thunder Manifestation",
+            "title": "\"Lingering Hatred\" Thunder Manifestation",
+            "description": "As long as the grudges of the land do not fade, so will the roaring thunder persist.",
+            "localizedNames": {
+              "en": "Thunder Manifestation",
+              "zh": "\u96f7\u97f3\u6743\u73b0",
+              "ja": "\u96f7\u97f3\u6a29\u73fe",
+              "ko": "\ub1cc\uc74c\uc758 \uad8c\ud604"
+            },
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2402-Thunder Manifestation.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312401",
+            "name": "Thunder Summoner's Crown",
+            "title": "Lightning and Rain: Thunder Summoner's Crown",
+            "description": "\"The song pierced the storm's low hum, ripped through the clouds, and bestowed upon it, light.\"",
+            "localizedNames": {
+              "en": "Thunder Summoner's Crown",
+              "zh": "\u5524\u96f7\u7684\u5934\u51a0",
+              "ja": "\u96f7\u3092\u547c\u3076\u51a0",
+              "ko": "\ubc88\uac1c\ub97c \ubd80\ub974\ub294 \ubaa8\uc790"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312401-Thunder Summoner's Crown.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312402",
+            "name": "Thundering Fury",
+            "title": "Plume of the Stormy Skies: Thundering Fury",
+            "description": "\"Then I shall sing you another tune \u2014 when you come again with thunder and rain!\"",
+            "localizedNames": {
+              "en": "Thundering Fury",
+              "zh": "\u5982\u96f7\u7684\u76db\u6012",
+              "ja": "\u96f7\u306e\u3088\u3046\u306a\u6012\u308a",
+              "ko": "\ubc88\uac1c \uac19\uc740 \ubd84\ub178"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312402-Thundering Fury.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214031",
+            "name": "Thundering Penance",
+            "title": "Keqing: Thundering Penance",
+            "description": "As long as you're not actually cheating, this is just the name of a card.",
+            "localizedNames": {
+              "en": "Thundering Penance",
+              "zh": "\u62b5\u5929\u96f7\u7f5a",
+              "ja": "\u62b5\u5929\u306e\u96f7\u7f70",
+              "ko": "\ud558\ub298\uc5d0 \ub2ff\uc740 \ub1cc\ubc8c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214031-Thundering Penance.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312011",
+            "name": "Thundering Poise",
+            "title": "Stilling Calamity: Thundering Poise",
+            "description": "\"...Tianqiu once played host to a Yaksha, four-armed and mighty.\"\\n\"He came to The Chasm from afar, to the praises of the tribes.\"",
+            "localizedNames": {
+              "en": "Thundering Poise",
+              "zh": "\u867a\u96f7\u4e4b\u59ff",
+              "ja": "\u867a\u96f7\u306e\u59ff",
+              "ko": "\ubc88\uac1c\uc758 \uc790\ud0dc"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312011-Thundering Poise.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321036",
+            "name": "Tideseal Stone",
+            "title": "Tideseal Stone",
+            "description": "\"The night sky has been devoured by deathly silence. We knead blood and bone for fuel, and so proclaim: The Long Night flows dark and deep. With these lanterns we wield, no specter shall stir from their sleep. By the lunar spirits, this pact is sealed.\"",
+            "localizedNames": {
+              "en": "Tideseal Stone",
+              "zh": "\u6c50\u5370\u77f3",
+              "ja": "\u6f6e\u5370\u77f3",
+              "ko": "\uc870\uc11d \uc778\uc7a5\uc11d"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321036-Tideseal Stone.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322003",
+            "name": "Timaeus",
+            "title": "Timaeus, Scholar of Alchemy",
+            "description": "\"Hello there... Oh, you'd like to use the Crafting Bench? Sure, be my guest.\"",
+            "localizedNames": {
+              "en": "Timaeus",
+              "zh": "\u8482\u739b\u4e4c\u65af",
+              "ja": "\u30c6\u30a3\u30de\u30a4\u30aa\u30b9",
+              "ko": "\ub370\ub9c8\ub85c\uc6b0\uc2a4"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322003-Timaeus.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322007",
+            "name": "Timmie",
+            "title": "\"Pure Patience\" Timmie",
+            "description": "\"Will pigeons that have flown away come back?\"",
+            "localizedNames": {
+              "en": "Timmie",
+              "zh": "\u63d0\u7c73",
+              "ja": "\u30c6\u30a3\u30df\u30fc",
+              "ko": "\ud2f0\ubbf8"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322007-Timmie.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214111",
+            "name": "To Ward Weakness",
+            "title": "Kuki Shinobu: To Ward Weakness",
+            "description": "\"Lightning... purifies!\"",
+            "localizedNames": {
+              "en": "To Ward Weakness",
+              "zh": "\u5272\u820d\u8f6f\u5f31\u4e4b\u5fc3",
+              "ja": "\u6368\u3066\u53bb\u308a\u3057\u8edf\u5f31\u306a\u5fc3",
+              "ko": "\ub098\uc57d\uc744 \ub5a8\uccd0\ub0b4\ub294 \ub9c8\uc74c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214111-To Ward Weakness.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311108",
+            "name": "Tome of the Eternal Flow",
+            "title": "Aeon Wave: Tome of the Eternal Flow",
+            "description": "\"...For if the harbinger of the apocalypse would indeed one day arrive, the flood would wash everything away.\"\\n\"And we would fight with both duty and joy in our hearts, just as the goddess had found empathy for us in hers.\"",
+            "localizedNames": {
+              "en": "Tome of the Eternal Flow",
+              "zh": "\u4e07\u4e16\u6d41\u6d8c\u5927\u5178",
+              "ja": "\u4e45\u9060\u6d41\u8ee2\u306e\u5927\u5178",
+              "ko": "\uc601\uc6d0\ud788 \uc0d8\uc19f\ub294 \ubc95\uc804"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Catalyst"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311108-Tome of the Eternal Flow.webp",
+            "source": "Nanoka"
+          },
+          {
             "id": "332003",
-            "name": "Toss Up",
-            "title": null,
+            "name": "Toss-Up",
+            "title": "Toss-Up",
+            "description": "Before the dice are thrown, none can know their own destiny.",
+            "localizedNames": {
+              "en": "Toss-Up",
+              "zh": "\u4e00\u63b7\u4e7e\u5764",
+              "ja": "\u4e7e\u5764\u4e00\u64f2",
+              "ko": "\uac74\uace4\uc77c\ucc99"
+            },
             "type": "Action",
             "tags": [],
             "playableCharacter": null,
@@ -6397,11 +15471,196 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "216111",
+            "name": "Tour of Tepeilhuitl",
+            "title": "Xilonen: Tour of Tepeilhuitl",
+            "description": "\"Let the mountain's veins boil!\"",
+            "localizedNames": {
+              "en": "Tour of Tepeilhuitl",
+              "zh": "\u4e1b\u5c71\u953b\u706b\u9a70\u884c",
+              "ja": "\u5c71\u3092\u99c6\u3051\u5de1\u308b\u9435\u706b",
+              "ko": "\uc0b0\uc73c\ub85c \ubc88\uc9c0\ub294 \ub2e8\uc870\uc758 \ubd88"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216111-Tour of Tepeilhuitl.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214161",
+            "name": "Trails Amidst the Forest Fog",
+            "title": "Ororon: Trails Amidst the Forest Fog",
+            "description": "\"Go, you're free now.\"",
+            "localizedNames": {
+              "en": "Trails Amidst the Forest Fog",
+              "zh": "\u6797\u96fe\u95f4\u7684\u884c\u8ff9",
+              "ja": "\u9727\u7acb\u3064\u6797\u4e2d\u306e\u75d5\u8de1",
+              "ko": "\uc232 \uc548\uac1c \uc18d \ud589\uc801"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214161-Trails Amidst the Forest Fog.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "225011",
+            "name": "Transcendent Automaton",
+            "title": "Marionette Swordmaster",
+            "description": "That unerring strike has been delivered countless times.",
+            "localizedNames": {
+              "en": "Transcendent Automaton",
+              "zh": "\u673a\u5de7\u795e\u901a",
+              "ja": "\u304b\u3089\u304f\u308a\u795e\u901a",
+              "ko": "\uc2e0\ud1b5\ubc29\ud1b5"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/225011-Transcendent Automaton.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311501",
+            "name": "Traveler's Handy Sword",
+            "title": "Traveler's Companion: Traveler's Handy Sword",
+            "description": "A handy steel sword that contains all manner of useful items in its sheath.",
+            "localizedNames": {
+              "en": "Traveler's Handy Sword",
+              "zh": "\u65c5\u884c\u5251",
+              "ja": "\u65c5\u9053\u306e\u5263",
+              "ko": "\uc5ec\ud589\uc790\uc758 \uac80"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Sword"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311501-Traveler's Handy Sword.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312003",
+            "name": "Traveling Doctor's Handkerchief",
+            "title": "Medical Practice: Traveling Doctor's Handkerchief",
+            "description": "\"Come sun or rain, nothing could stay the traveling doctor's steps.\"",
+            "localizedNames": {
+              "en": "Traveling Doctor's Handkerchief",
+              "zh": "\u6e38\u533b\u7684\u65b9\u5dfe",
+              "ja": "\u533b\u8005\u306e\u65b9\u5dfe",
+              "ko": "\ub5a0\ub3cc\uc774 \uc758\uc0ac\uc758 \ub450\uac74"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312003-Traveling Doctor's Handkerchief.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "323004",
+            "name": "Treasure-Seeking Seelie",
+            "title": "Revelation's Potential: Treasure-Seeking Seelie",
+            "description": "Strange Seelie capable of guiding people toward treasure. Legend has it that some individuals know how to communicate with these Seelie...",
+            "localizedNames": {
+              "en": "Treasure-Seeking Seelie",
+              "zh": "\u5bfb\u5b9d\u4ed9\u7075",
+              "ja": "\u5b9d\u63a2\u3057\u4ed9\u970a",
+              "ko": "\ubcf4\ubb3c \ucc3e\ub294 \uc120\ub839"
+            },
+            "type": "Action",
+            "tags": [
+              "Item"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323004-Treasure-Seeking Seelie.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322006",
+            "name": "Tubby",
+            "title": "\"Rain Calmer\" Tubby",
+            "description": "\"Steeping a pot of tea, watching over the abode, accompanying the Traveler and Paimon to await the arrival of Ping and the others, watching the cloud-filled sky. These days of not having to concern myself with matters of adeptal import truly are ones of leisure...\"\\n\"Oh! Oh dear, I must have fallen asleep again. It's a good thing that no one noticed...\"",
+            "localizedNames": {
+              "en": "Tubby",
+              "zh": "\u963f\u5706",
+              "ja": "\u30de\u30eb",
+              "ko": "\ud3ec\ub871\uc774"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322006-Tubby.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311107",
+            "name": "Tulaytullah's Remembrance",
+            "title": "Bygone Azure Teardrop: Tulaytullah's Remembrance",
+            "description": "\"In the end, all people, good or evil, will find themselves ground beneath the wheels of fate, and the sapphire city would fade, dissipating like tears beneath the scorching sun.\"",
+            "localizedNames": {
+              "en": "Tulaytullah's Remembrance",
+              "zh": "\u56fe\u83b1\u675c\u62c9\u7684\u56de\u5fc6",
+              "ja": "\u30c8\u30a5\u30e9\u30a4\u30c8\u30a5\u30fc\u30e9\u306e\u8a18\u61b6",
+              "ko": "\ud234\ub808\uc774\ud234\ub77c\uc758 \uae30\uc5b5"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Catalyst"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311107-Tulaytullah's Remembrance.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "212091",
+            "name": "Turn Control",
+            "title": "Yelan: Turn Control",
+            "description": "\"Things are about to get dicey.\"",
+            "localizedNames": {
+              "en": "Turn Control",
+              "zh": "\u731c\u5148\u6709\u65b9",
+              "ja": "\u5148\u5f8c\u306e\u6c7a\u3081\u624b",
+              "ko": "\uc120\uacf5\uc758 \ubb18\uc218"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212091-Turn Control.webp",
+            "source": "Nanoka"
+          },
+          {
             "id": "332041",
             "name": "Ultimate Surfing Buddy!",
-            "title": null,
+            "title": "Ultimate Surfing Buddy!",
+            "description": "\"Just find yourself a good swell, pick up a suitable surfboard, and you too can experience the joys of surfing whenever you want!\"",
+            "localizedNames": {
+              "en": "Ultimate Surfing Buddy!",
+              "zh": "\u5f3a\u52b2\u51b2\u6d6a\u62cd\u6863\uff01",
+              "ja": "\u6700\u5f37\u30b5\u30fc\u30d5\u30a3\u30f3\u30b3\u30f3\u30d3\uff01",
+              "ko": "\uac15\ub825\ud55c \uc11c\ud551 \ud30c\ud2b8\ub108!"
+            },
             "type": "Action",
-            "tags": [],
+            "tags": [
+              "Combat Action"
+            ],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332041-Ultimate Surfing Buddy!.webp",
             "source": "Nanoka"
@@ -6409,7 +15668,14 @@ var NYX_DB = {
           {
             "id": "332031",
             "name": "Underwater Treasure Hunt",
-            "title": null,
+            "title": "Underwater Treasure Hunt",
+            "description": "Beryl Conches, Lumitoiles, and the occasional treasure chest hidden within a shell...",
+            "localizedNames": {
+              "en": "Underwater Treasure Hunt",
+              "zh": "\u6d77\u4e2d\u5bfb\u5b9d",
+              "ja": "\u6d77\u4e2d\u306e\u5b9d\u63a2\u3057",
+              "ko": "\ubc14\ub2e4 \ubcf4\ubb3c\ucc3e\uae30"
+            },
             "type": "Action",
             "tags": [],
             "playableCharacter": null,
@@ -6417,19 +15683,324 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "216081",
+            "name": "Undisclosed Distribution Channels",
+            "title": "Navia: Undisclosed Distribution Channels",
+            "description": "\"Where'd that come from!?\"",
+            "localizedNames": {
+              "en": "Undisclosed Distribution Channels",
+              "zh": "\u4e0d\u660e\u6d41\u901a\u6e20\u9053",
+              "ja": "\u672a\u77e5\u306e\u6d41\u901a\u30eb\u30fc\u30c8",
+              "ko": "\ube44\ubc00 \uc720\ud1b5 \uacbd\ub85c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216081-Undisclosed Distribution Channels.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211011",
+            "name": "Undivided Heart",
+            "title": "Ganyu: Undivided Heart",
+            "description": "First the arrow strikes, and then it turns to frost.",
+            "localizedNames": {
+              "en": "Undivided Heart",
+              "zh": "\u552f\u6b64\u4e00\u5fc3",
+              "ja": "\u552f\u4e00\u306e\u5fc3",
+              "ko": "\ub2e8 \ud558\ub098\uc758 \ub9c8\uc74c"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211011-Undivided Heart.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "223051",
+            "name": "Undying Fury",
+            "title": "Lord of Eroded Primal Fire: Undying Fury",
+            "description": "\"Trapped perpetually in the final day of its existence by this pitch-black gospel, its boundless fury has consumed all reason. Now, what remains is its unrelenting lust for battle, burning on without end.\"",
+            "localizedNames": {
+              "en": "Undying Fury",
+              "zh": "\u7f54\u6781\u76db\u6012",
+              "ja": "\u71c3\u3048\u308b\u61a4\u6012",
+              "ko": "\ud0c0\uc624\ub974\ub294 \ubd84\ub178"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223051-Undying Fury.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312038",
+            "name": "Unfinished Reverie",
+            "title": "Heroes' Afterglow: Unfinished Reverie",
+            "description": "\"Do not break faith with the eyes of those still willing to gaze upon the burning flames.\"",
+            "localizedNames": {
+              "en": "Unfinished Reverie",
+              "zh": "\u672a\u7adf\u7684\u9050\u601d",
+              "ja": "\u9042\u3052\u3089\u308c\u306a\u304b\u3063\u305f\u60f3\u3044",
+              "ko": "\ubbf8\uc644\uc758 \ubabd\uc0c1"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312038-Unfinished Reverie.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321011",
+            "name": "Vanarana",
+            "title": "Abidance of the Forested Path",
+            "description": "\"Enter the memories of the trees in the forest, descend into seedbeds sprouting the dreams of slumbering leaves, and dive into a world free of woes.\"",
+            "localizedNames": {
+              "en": "Vanarana",
+              "zh": "\u6853\u90a3\u5170\u90a3",
+              "ja": "\u30f4\u30a1\u30ca\u30e9\u30fc\u30ca",
+              "ko": "\ubc14\ub098\ub77c\ub098"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321011-Vanarana.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213131",
+            "name": "Vanguard's Coordinated Tactics",
+            "title": "Chevreuse: Vanguard's Coordinated Tactics",
+            "description": "\"The Special Security and Surveillance Patrol deals with a whole host of heinous crimes and dangerous criminals. As such, the methods we employ to enforce the law can be a bit on the... harsher side.\"",
+            "localizedNames": {
+              "en": "Vanguard's Coordinated Tactics",
+              "zh": "\u5c16\u5175\u534f\u540c\u6218\u6cd5",
+              "ja": "\u5c16\u5175\u5354\u540c\u6226\u8853",
+              "ko": "\uc120\ubd09 \ud611\ub3d9 \uc804\uc220"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213131-Vanguard's Coordinated Tactics.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312012",
+            "name": "Vermillion Hereafter",
+            "title": "Masked Twilight: Vermillion Hereafter",
+            "description": "\"Do you not hear? The drums die in the north wind, the hero sinks into the vortex.\"\\n\"Have you not seen? The Yaksha's battle for the dawn \u2014 alas for a life so spent.\"",
+            "localizedNames": {
+              "en": "Vermillion Hereafter",
+              "zh": "\u8fb0\u7802\u5f80\u751f\u5f55",
+              "ja": "\u8fb0\u7802\u5f80\u751f\u9332",
+              "ko": "\uc9c4\uc0ac \uc655\uc0dd\ub85d"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312012-Vermillion Hereafter.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312023",
+            "name": "Veteran's Visage",
+            "title": "Face of Glory: Veteran's Visage",
+            "description": "\"Yet even though the scars can be covered, the wounds laid on one's heart will not disappear.\"",
+            "localizedNames": {
+              "en": "Veteran's Visage",
+              "zh": "\u8001\u5175\u7684\u5bb9\u989c",
+              "ja": "\u8001\u5175\u306e\u5bb9\u8c8c",
+              "ko": "\ub178\ubcd1\uc758 \uc5bc\uad74"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312023-Veteran's Visage.webp",
+            "source": "Nanoka"
+          },
+          {
             "id": "330008",
             "name": "Vicious Ancient Battle",
-            "title": null,
+            "title": "Vicious Ancient Battle",
+            "description": "The god whom the people of Watatsumi Island once trusted fought a bitter battle against the ruler of Narukami...\\nMusoujin Gorge, that yawning chasm in Yashiori Island, is the lasting scar of that conflict...",
+            "localizedNames": {
+              "en": "Vicious Ancient Battle",
+              "zh": "\u65e7\u65e5\u93d6\u6218",
+              "ja": "\u5f80\u65e5\u306e\u6fc0\u6226",
+              "ko": "\uc9c0\ub09c\ub0a0\uc758 \uaca9\uc804"
+            },
             "type": "Action",
-            "tags": [],
+            "tags": [
+              "Arcane Legend",
+              "Undiscoverable"
+            ],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330008-Vicious Ancient Battle.webp",
             "source": "Nanoka"
           },
           {
+            "id": "217121",
+            "name": "Victory Flows from the Turning of Tides",
+            "title": "Nefer: Victory Flows from the Turning of Tides",
+            "description": "\"The mystery unravels.\"",
+            "localizedNames": {
+              "en": "Victory Flows from the Turning of Tides",
+              "zh": "\u51b3\u80dc\u4e8e\u9006\u8f6c\u4e4b\u65f6",
+              "ja": "\u5fc5\u52dd\u306f\u9006\u8ee2\u306b\u3042\u308a",
+              "ko": "\uac70\uba38\uc954 \uc5ed\uc804\uc758 \uc2b9\ub9ac"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217121-Victory Flows from the Turning of Tides.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312502",
+            "name": "Viridescent Venerer",
+            "title": "Dream of Broken Leaves: Viridescent Venerer",
+            "description": "\"One day, in those boundless hunting grounds... we will meet again.\"",
+            "localizedNames": {
+              "en": "Viridescent Venerer",
+              "zh": "\u7fe0\u7eff\u4e4b\u5f71",
+              "ja": "\u7fe0\u7dd1\u306e\u5f71",
+              "ko": "\uccad\ub85d\uc0c9 \uadf8\ub9bc\uc790"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312502-Viridescent Venerer.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312501",
+            "name": "Viridescent Venerer's Diadem",
+            "title": "Verdant Winds: Viridescent Venerer's Diadem",
+            "description": "\"None could ever bestow a crown upon the queen of hunters, for only earth and heaven were higher than she.\"",
+            "localizedNames": {
+              "en": "Viridescent Venerer's Diadem",
+              "zh": "\u7fe0\u7eff\u7684\u730e\u4eba\u4e4b\u51a0",
+              "ja": "\u7dd1\u306e\u72e9\u4eba\u306e\u51a0",
+              "ko": "\uccad\ub85d\uc0c9 \uc0ac\ub0e5\uafbc\uc758 \ubaa8\uc790"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312501-Viridescent Venerer's Diadem.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311404",
+            "name": "Vortex Vanquisher",
+            "title": "Golden Majesty: Vortex Vanquisher",
+            "description": "Folklore spoke of a vast shadow entrenched in the depths of the ocean capable of swallowing passing warships...\\nAt tale's end, they believe that Rex Lapis once wielded a spear that pierced the rainbow, pinning the churning vortex that had once terrorized the oceans in the center of the deep sea.",
+            "localizedNames": {
+              "en": "Vortex Vanquisher",
+              "zh": "\u8d2f\u8679\u4e4b\u69ca",
+              "ja": "\u7834\u5929\u306e\u69cd",
+              "ko": "\uad00\ud64d\uc758 \ucc3d"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Polearm"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311404-Vortex Vanquisher.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312022",
+            "name": "Vourukasha's Glow",
+            "title": "Scions of the Khvarena: Vourukasha's Glow",
+            "description": "\"Many spirits dwell in the sea, and they carry the wishes of grass, tree, and dew, cleansing all filth.\\nMany spirits dwell in the sea, and they sing of the three mothers \u2014 of verdure, of sweet dew, and of fresh flowers.\"",
+            "localizedNames": {
+              "en": "Vourukasha's Glow",
+              "zh": "\u82b1\u6d77\u7518\u9732\u4e4b\u5149",
+              "ja": "\u82b1\u6d77\u7518\u9732\u306e\u5149",
+              "ko": "\uac10\ub85c\ube5b \uaf43\ubc14\ub2e4"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312022-Vourukasha's Glow.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322004",
+            "name": "Wagner",
+            "title": "Wagner, Blacksmith",
+            "description": "\"Smithing is not dependent on brute strength. You need the sweat on your brow from constant hard work, and perseverance stronger than the metals we forge!\"",
+            "localizedNames": {
+              "en": "Wagner",
+              "zh": "\u74e6\u683c\u7eb3",
+              "ja": "\u30ef\u30fc\u30b0\u30ca\u30fc",
+              "ko": "\ubc14\uadf8\ub108"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322004-Wagner.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321005",
+            "name": "Wangshu Inn",
+            "title": "Dihua Vantage Point",
+            "description": "\"Folk stories also have it that even ones as august as the adepti sometimes bask in the moonlight here.\"",
+            "localizedNames": {
+              "en": "Wangshu Inn",
+              "zh": "\u671b\u8212\u5ba2\u6808",
+              "ja": "\u671b\u8212\u65c5\u9928",
+              "ko": "\ub9dd\uc11c \uac1d\uc794"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321005-Wangshu Inn.webp",
+            "source": "Nanoka"
+          },
+          {
             "id": "331805",
             "name": "Water and Justice",
-            "title": null,
+            "title": "Dance of Justice",
+            "description": "\"'Existence' was Egeria's justice... and to me, justice is the 'continuation' of that existence.\"",
+            "localizedNames": {
+              "en": "Water and Justice",
+              "zh": "\u6c34\u4e0e\u6b63\u4e49",
+              "ja": "\u6c34\u3068\u6b63\u7fa9",
+              "ko": "\ubb3c\uacfc \uc815\uc758"
+            },
             "type": "Action",
             "tags": [],
             "playableCharacter": null,
@@ -6437,9 +16008,95 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "313007",
+            "name": "Waverider",
+            "title": "Waverider",
+            "description": "A mysterious waterborne vehicle equipped with a magical weapon. With its deck beneath your feet, there is no waterway you cannot effortlessly traverse.",
+            "localizedNames": {
+              "en": "Waverider",
+              "zh": "\u6d6a\u8239",
+              "ja": "\u30a6\u30a7\u30fc\u30d6\u30dc\u30fc\u30c8",
+              "ko": "\ud30c\ub3c4 \ubc30"
+            },
+            "type": "Action",
+            "tags": [
+              "Technique"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313007-Waverider.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2105",
+            "name": "Wayward Hermetic Spiritspeaker",
+            "title": "Solitary Seclusion: Wayward Hermetic Spiritspeaker",
+            "description": "A priestess of the Masters of the Night-Wind who has lived apart from her tribe, honing her abilities in utter solitude. It is said that her Spiritspeaking powers surpass those of ordinary priests and shamans, a result of having had the protection of the Masters of the Night-Wind's Wayob bestowed upon her.",
+            "localizedNames": {
+              "en": "Wayward Hermetic Spiritspeaker",
+              "zh": "\u7075\u89c9\u9690\u4fee\u7684\u8ff7\u8005",
+              "ja": "\u8ff7\u3048\u308b\u970a\u899a\u306e\u4fee\u9a13\u8005",
+              "ko": "\uc218\uc218\uaed8\ub07c \uc601\ub825 \uc218\ud589\uc790"
+            },
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Other Weapons",
+              "Monster"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2105-Wayward Hermetic Spiritspeaker.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321016",
+            "name": "Weeping Willow of the Lake",
+            "title": "Weeping Willow of the Lake",
+            "description": "In ancient times, the weeping willow of the lake was an object of reverence. All the water veins converge upon Erinnyes and the weeping willow flourishes or withers when the waters are sweet or bitter.",
+            "localizedNames": {
+              "en": "Weeping Willow of the Lake",
+              "zh": "\u6e56\u4e2d\u5782\u67f3",
+              "ja": "\u6e56\u4e2d\u306e\u30a6\u30a3\u30fc\u30d4\u30f3\u30b0\u30a6\u30a3\u30ed\u30fc",
+              "ko": "\ud638\uc218 \uc704 \ubc84\ub4dc\ub098\ubb34"
+            },
+            "type": "Action",
+            "tags": [
+              "Location"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321016-Weeping Willow of the Lake.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "211061",
+            "name": "Wellspring of War-Lust",
+            "title": "Eula: Wellspring of War-Lust",
+            "description": "Flood of frost will ensure that vengeance is mine.",
+            "localizedNames": {
+              "en": "Wellspring of War-Lust",
+              "zh": "\u6218\u6b32\u6d8c\u73b0",
+              "ja": "\u6226\u610f\u306e\u8868\u308c",
+              "ko": "\uc19f\uad6c\uce58\ub294 \uc804\ud22c\uc758 \uc695\ub9dd"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211061-Wellspring of War-Lust.webp",
+            "source": "Nanoka"
+          },
+          {
             "id": "332007",
             "name": "When the Crane Returned",
-            "title": null,
+            "title": "When the Crane Returned",
+            "description": "\"The crane once returned, and once, she was spurned, she turned, and left alone; now, she might be found, with friends all around, to whom she is bound \u2014 a home.\"",
+            "localizedNames": {
+              "en": "When the Crane Returned",
+              "zh": "\u9e64\u5f52\u4e4b\u65f6",
+              "ja": "\u9db4\u306e\u5e30\u90f7",
+              "ko": "\ud559\uc774 \ub3cc\uc544\uc62c \ub54c"
+            },
             "type": "Action",
             "tags": [],
             "playableCharacter": null,
@@ -6447,13 +16104,309 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "332022",
+            "name": "Where Is the Unseen Razor?",
+            "title": "Where Is the Unseen Razor?",
+            "description": "The origins of this Branch Master of the Adventurers' Guild are shrouded in mystery, yet she keeps looking for clues about the sword, constantly challenging powerful enemies along the way...",
+            "localizedNames": {
+              "en": "Where Is the Unseen Razor?",
+              "zh": "\u85cf\u950b\u4f55\u5904",
+              "ja": "\u5263\u306f\u3044\u305a\u3053",
+              "ko": "\uc7a5\ubd09\uc740 \uc5b4\ub514 \uc788\ub294 \uac70\uc57c"
+            },
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332022-Where Is the Unseen Razor_.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312036",
+            "name": "Whimsical Dance of the Withered",
+            "title": "Commander's Mask: Whimsical Dance of the Withered",
+            "description": "\"In the end, all dreams shall merge into one, bringing ultimate salvation to all the people of the world.\"",
+            "localizedNames": {
+              "en": "Whimsical Dance of the Withered",
+              "zh": "\u5f02\u60f3\u96f6\u843d\u7684\u5706\u821e",
+              "ja": "\u7570\u60f3\u304c\u67af\u308c\u843d\u3061\u308b\u5186\u821e",
+              "ko": "\uc601\ub77d\ud55c \uacf5\uc0c1\uc758 \uc648\uce20"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312036-Whimsical Dance of the Withered.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311301",
+            "name": "White Iron Greatsword",
+            "title": "Mourning Silver Snow: White Iron Greatsword",
+            "description": "A lightweight greatsword made of white iron with a silver sheen.",
+            "localizedNames": {
+              "en": "White Iron Greatsword",
+              "zh": "\u767d\u94c1\u5927\u5251",
+              "ja": "\u767d\u9244\u306e\u5927\u5263",
+              "ko": "\ubc31\ucca0 \ub300\uac80"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Claymore"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311301-White Iron Greatsword.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311401",
+            "name": "White Tassel",
+            "title": "Ardent Argent: White Tassel",
+            "description": "A standard-issue weapon of the Millelith soldiers. It has a sturdy shaft and sharp spearhead. It's a reliable weapon.",
+            "localizedNames": {
+              "en": "White Tassel",
+              "zh": "\u767d\u7f28\u67aa",
+              "ja": "\u767d\u7e93\u69cd",
+              "ko": "\ubc31\uc220\ucc3d"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Polearm"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311401-White Tassel.webp",
+            "source": "Nanoka"
+          },
+          {
             "id": "331801",
             "name": "Wind and Freedom",
-            "title": null,
+            "title": "Verse of Unchained Happenings",
+            "description": "\"Someday, the winds will blow towards a brighter future.\"",
+            "localizedNames": {
+              "en": "Wind and Freedom",
+              "zh": "\u98ce\u4e0e\u81ea\u7531",
+              "ja": "\u98a8\u3068\u81ea\u7531",
+              "ko": "\ubc14\ub78c\uacfc \uc790\uc720"
+            },
             "type": "Action",
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331801-Wind and Freedom.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312201",
+            "name": "Wine-Stained Tricorne",
+            "title": "Sunken Dreams of Yore: Wine-Stained Tricorne",
+            "description": "\"The wine-sodden sea hat was thrust by a storm into the sky, and then carried away on the roiling waves, while those fated to lose their homelands engaged in battles bereft of hope and want.\"",
+            "localizedNames": {
+              "en": "Wine-Stained Tricorne",
+              "zh": "\u9152\u6e0d\u8239\u5e3d",
+              "ja": "\u9152\u306b\u6f2c\u3051\u305f\u5e3d\u5b50",
+              "ko": "\uc220\ub85c \uc5bc\ub8e9\uc9c4 \uc218\ubcd1\ubaa8"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312201-Wine-Stained Tricorne.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "214071",
+            "name": "Wishes Unnumbered",
+            "title": "Raiden Shogun: Wishes Unnumbered",
+            "description": "Shine down, baleful omen!",
+            "localizedNames": {
+              "en": "Wishes Unnumbered",
+              "zh": "\u4e07\u5343\u7684\u613f\u671b",
+              "ja": "\u5343\u4e07\u306e\u9858\u671b",
+              "ko": "\uc218\ucc9c\uc218\ub9cc\uc758 \uc5fc\uc6d0"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214071-Wishes Unnumbered.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "312301",
+            "name": "Witch's Scorching Hat",
+            "title": "Ashen Lament: Witch's Scorching Hat",
+            "description": "\"...You ashes who dance so wildly, answer me \u2014 why have you taken all that I love?\"",
+            "localizedNames": {
+              "en": "Witch's Scorching Hat",
+              "zh": "\u7126\u707c\u7684\u9b54\u5973\u5e3d",
+              "ja": "\u7126\u3052\u305f\u9b54\u5973\u306e\u5e3d\u5b50",
+              "ko": "\ubd88\ud0c0\uc624\ub974\ub294 \ub9c8\ub140 \ubaa8\uc790"
+            },
+            "type": "Action",
+            "tags": [
+              "Artifact"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312301-Witch's Scorching Hat.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "227051",
+            "name": "Withered Reeds Eclipse the Sun",
+            "title": "Consecrated Fanged Beast: Withered Reeds Eclipse the Sun",
+            "description": "\"Human beings' baits and the remains of immortal beings are essentially deliberate or unintentional traps. The price of coveting the gift of the strongest is much more painful than being locked in a cage.\"",
+            "localizedNames": {
+              "en": "Withered Reeds Eclipse the Sun",
+              "zh": "\u4ea1\u8349\u853d\u65e5",
+              "ja": "\u5929\u3092\u8986\u3046\u67af\u308c\u8349",
+              "ko": "\ud0dc\uc591\uc744 \uac00\ub9b0 \uc8fd\uc74c\uc758 \ud480"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/227051-Withered Reeds Eclipse the Sun.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "311303",
+            "name": "Wolf's Gravestone",
+            "title": "Mountain Trail: Wolf's Gravestone",
+            "description": "A longsword said to have been used by the knight of the north wind. It became endowed with legendary power owing to his friendship with the wolves.",
+            "localizedNames": {
+              "en": "Wolf's Gravestone",
+              "zh": "\u72fc\u7684\u672b\u8def",
+              "ja": "\u72fc\u306e\u672b\u8def",
+              "ko": "\ub291\ub300\uc758 \ub9d0\ub85c"
+            },
+            "type": "Action",
+            "tags": [
+              "Weapon",
+              "Claymore"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311303-Wolf's Gravestone.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "313001",
+            "name": "Xenochromatic Hunter's Ray",
+            "title": "Xenochromatic Hunter's Ray: Fontemer Water Blades",
+            "description": "Among the Fontemer Aberrants, there are certain strange \"Xenochromatic\" lifeforms. It is said that these are not actually living creatures, but rather spirits from the ocean that have neither taken physical form nor swallowed bait. They are said to bestow blessings upon those accepted by the Fontemer as well as those that are able to control it.\\nThe Xenochromatic Hunter's Ray's Ability allows the wielder to release Fontemer Water Blades that are long and sharp.",
+            "localizedNames": {
+              "en": "Xenochromatic Hunter's Ray",
+              "zh": "\u5f02\u8272\u730e\u5200\u9cd0",
+              "ja": "\u72e9\u731f\u5200\u30a8\u30a4\u4e9c\u7a2e",
+              "ko": "\uc774\uc0c9 \uce7c\ub0a0 \uac00\uc624\ub9ac"
+            },
+            "type": "Action",
+            "tags": [
+              "Technique"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313001-Xenochromatic Hunter's Ray.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322015",
+            "name": "Xudong",
+            "title": "Fulfillment First: Xudong",
+            "description": "\"Hmm? A problem. Agh. We can deal with it after we finish eating.\"",
+            "localizedNames": {
+              "en": "Xudong",
+              "zh": "\u65ed\u4e1c",
+              "ja": "\u65ed\u6771",
+              "ko": "\ub3d9\uc6b1"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322015-Xudong.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "322020",
+            "name": "Yayoi Nanatsuki",
+            "title": "Art of Lacquerwater: Yayoi Nanatsuki",
+            "description": "\"If my skill can reach that apex, I am sure that my lacquerware will bear out the pattern of the truth...\"",
+            "localizedNames": {
+              "en": "Yayoi Nanatsuki",
+              "zh": "\u5f25\u751f\u4e03\u6708",
+              "ja": "\u5f25\u751f\u4e03\u6708",
+              "ko": "\uc57c\uc694\uc774 \ub098\ub098\uce20\ud0a4"
+            },
+            "type": "Action",
+            "tags": [
+              "Companion"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322020-Yayoi Nanatsuki.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "212151",
+            "name": "You Shall Go Out With Joy",
+            "title": "Dahlia: You Shall Go Out With Joy",
+            "description": "\"May the Archon protect you!\"",
+            "localizedNames": {
+              "en": "You Shall Go Out With Joy",
+              "zh": "\u613f\u4e00\u5207\u6b22\u7766\u966a\u4f34\u4f60",
+              "ja": "\u3042\u3089\u3086\u308b\u559c\u3073\u304c\u541b\u3068\u3042\u3089\u3093\u3053\u3068\u3092",
+              "ko": "\ubaa8\ub4e0 \uae30\uc068\uc774 \ud568\uaed8\ud558\uae38"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212151-You Shall Go Out With Joy.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215141",
+            "name": "Your Echo I Meet in Dreams",
+            "title": "Yumemizuki Mizuki: Your Echo I Meet in Dreams",
+            "description": "\"Cast your worries to the wind.\"",
+            "localizedNames": {
+              "en": "Your Echo I Meet in Dreams",
+              "zh": "\u7f20\u5fc6\u541b\u5f71\u68a6\u76f8\u89c1",
+              "ja": "\u5e0c\u306a\u308b\u671d\u306e",
+              "ko": "\uadf8\ub300 \uafc8\uc18d\uc5d0\uc11c \ubcf8"
+            },
+            "type": "Action",
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215141-Your Echo I Meet in Dreams.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "313002",
+            "name": "Yumkasaurus",
+            "title": "Yumkasaurus: Artful Grapple",
+            "description": "Yumkasaurs are extremely skilled at latching onto heavy objects, then pulling themselves forward to move with great rapidity. They're also a great way to retrieve items from afar...",
+            "localizedNames": {
+              "en": "Yumkasaurus",
+              "zh": "\u533f\u53f6\u9f99",
+              "ja": "\u30e6\u30e0\u30ab\u7adc",
+              "ko": "\uc232\ub8e1"
+            },
+            "type": "Action",
+            "tags": [
+              "Technique"
+            ],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313002-Yumkasaurus.webp",
             "source": "Nanoka"
           }
         ]
@@ -6948,7 +16901,8 @@ var NYX_DB = {
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kachina.webp",
           "overviewArt": "../../Database/Nanoka/gi/gcg/character cards/assets/1610-Kachina.webp",
           "overviewArtPool": [
-            "../../Database/Nanoka/gi/gcg/character cards/assets/1610-Kachina.webp"
+            "../../Database/Nanoka/gi/gcg/character cards/assets/1610-Kachina.webp",
+            "../../Database/Nanoka/gi/gcg/other cards/assets/332043-Little Tepetlisaur \u2014 Treasure Hunter at Large.webp"
           ],
           "forms": []
         },

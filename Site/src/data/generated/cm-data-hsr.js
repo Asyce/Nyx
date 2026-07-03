@@ -9794,6 +9794,9 @@
     {
       "id": "hsr-aventurine-waveflair",
       "n": "Aventurine Waveflair",
+      "localizedNames": {
+        "en": "Aventurine Waveflair"
+      },
       "slug": "aventurine-waveflair",
       "updated": 1782770400000,
       "sourceOrder": 0,
@@ -9813,6 +9816,9 @@
     {
       "id": "hsr-robin-summeretto",
       "n": "Robin Summeretto",
+      "localizedNames": {
+        "en": "Robin Summeretto"
+      },
       "slug": "robin-summeretto",
       "updated": 1782770400000,
       "sourceOrder": 0,
@@ -9832,10 +9838,24 @@
     {
       "id": "hsr-evanescia",
       "n": "Evanescia",
+      "localizedNames": {
+        "en": "Evanescia",
+        "zh": "\u7eef\u82f1",
+        "ja": "\u7dcb\u82f1",
+        "ko": "\uc5d0\ubc14\ub124\uc2dc\uc544"
+      },
       "title": "The Demoiselle in Charge",
       "slug": "evanescia",
+      "release": 1778662800000,
+      "releasePatch": "4.2",
       "updated": 1782252000000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Nathalie Ferare",
+        "japanese": "\u4f50\u5009\u7dbe\u97f3",
+        "chinese": "\u6eaf\u6d54",
+        "korean": "\ubb38\uc720\uc815"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1505.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/evanescia-67e58c4745c7.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/evanescia-7567d1297c5d.webp",
@@ -10833,6 +10853,9 @@
     {
       "id": "hsr-himeko-nova",
       "n": "Himeko Nova",
+      "localizedNames": {
+        "en": "Himeko Nova"
+      },
       "slug": "himeko-nova",
       "updated": 1782252000000,
       "sourceOrder": 0,
@@ -10852,10 +10875,24 @@
     {
       "id": "hsr-yao-guang",
       "n": "Yao Guang",
+      "localizedNames": {
+        "en": "Yao Guang",
+        "zh": "\u723b\u5149",
+        "ja": "\u723b\u5149",
+        "ko": "\ud6a8\uad11"
+      },
       "title": "Gleam of a Thousand Plumes",
       "slug": "yao-guang",
+      "release": 1770976800000,
+      "releasePatch": "4.0",
       "updated": 1781474400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Ari Thrash",
+        "japanese": "\u82b1\u6fa4\u9999\u83dc",
+        "chinese": "\u79e6\u7d2b\u7ffc",
+        "korean": "\uc774\uc2ac"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1502.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/yao-guang-116e442805a2.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/yao-guang-84b9f69c7269.webp",
@@ -11858,10 +11895,24 @@
     {
       "id": "hsr-blade-mortenax",
       "n": "Mortenax Blade",
+      "localizedNames": {
+        "en": "Mortenax Blade",
+        "zh": "\u5343\u51b6\u2022\u5203",
+        "ja": "\u5343\u51b6\u30fb\u5203",
+        "ko": "\ucc9c\uc57c\u2022\ube14\ub808\uc774\ub4dc"
+      },
       "title": "Now I Am Become Blade",
       "slug": "blade-mortenax",
+      "release": 1780272000000,
+      "releasePatch": "4.3",
       "updated": 1781042400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Daman Mills",
+        "japanese": "\u4e09\u6728\u771e\u4e00\u90ce",
+        "chinese": "\u5218\u4ee5\u5609",
+        "korean": "\uacfd\uc724\uc0c1"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1507.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/mortenax-blade-def9f0bdd69e.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/mortenax-blade-95aef83c18a0.webp",
@@ -12864,9 +12915,20 @@
     {
       "id": "hsr-gilgamesh",
       "n": "Gilgamesh",
+      "localizedNames": {
+        "en": "Gilgamesh"
+      },
       "slug": "gilgamesh",
+      "release": 1784851200000,
+      "releasePatch": "4.2",
       "updated": 1780783200000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "|vaCN = Teng Xin (\u85e4\u65b0)",
+        "japanese": "Tomokazu Seki|Seki Tomokazu (\u95a2 \u667a\u4e00)",
+        "chinese": "Teng Xin (\u85e4\u65b0)",
+        "korean": "Kim Jong-yeop (\uae40\uc885\uc5fd)"
+      },
       "icon": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-8b85b84d2d9d.webp",
       "iconZoom": 1.18,
       "art": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-7eb51f1144e6.webp",
@@ -12882,10 +12944,24 @@
     {
       "id": "hsr-cerydra",
       "n": "Cerydra",
+      "localizedNames": {
+        "en": "Cerydra",
+        "zh": "\u523b\u5f8b\u5fb7\u83c8",
+        "ja": "\u30b1\u30ea\u30e5\u30c9\u30e9",
+        "ko": "\ucf00\ub9ac\ub4dc\ub77c"
+      },
       "title": "The Iron Tamer of Tides",
       "slug": "cerydra",
+      "release": 1760518800000,
+      "releasePatch": "3.5",
       "updated": 1780524000000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Rhiannon Moushall",
+        "japanese": "\u9ad8\u5c3e\u594f\u97f3",
+        "chinese": "\u65f6\u6b23\u857e",
+        "korean": "\uae40\uc724\ucc44"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1412.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/cerydra-d76dfbe116b9.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/cerydra-a700141d7887.webp",
@@ -13882,10 +13958,24 @@
     {
       "id": "hsr-acheron",
       "n": "Acheron",
+      "localizedNames": {
+        "en": "Acheron",
+        "zh": "\u9ec4\u6cc9",
+        "ja": "\u9ec4\u6cc9",
+        "ko": "\uc544\ucf00\ub860"
+      },
       "title": "Bosenmori",
       "slug": "acheron",
+      "release": 1711533600000,
+      "releasePatch": "2.1",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Allegra Clark",
+        "japanese": "\u6ca2\u57ce\u307f\u3086\u304d",
+        "chinese": "\u83ca\u82b1\u82b1",
+        "korean": "\ubc15\uc9c0\uc724"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1308.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/acheron-b97d86ce4b72.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/acheron-7af70ebb6120.webp",
@@ -14885,10 +14975,24 @@
     {
       "id": "hsr-aglaea",
       "n": "Aglaea",
+      "localizedNames": {
+        "en": "Aglaea",
+        "zh": "\u963f\u683c\u83b1\u96c5",
+        "ja": "\u30a2\u30b0\u30e9\u30a4\u30a2",
+        "ko": "\uc544\uae00\ub77c\uc774\uc544"
+      },
       "title": "Tailored Fate",
       "slug": "aglaea",
+      "release": 1738749600000,
+      "releasePatch": "3.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Morgan Laur\u00e9",
+        "japanese": "\u9060\u85e4\u7dbe",
+        "chinese": "\u695a\u8d8a",
+        "korean": "\uc624\ub85c\uc544"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1402.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/aglaea-f94d5b796912.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/aglaea-775754cfb8c5.webp",
@@ -15896,10 +16000,24 @@
     {
       "id": "hsr-anaxa",
       "n": "Anaxa",
+      "localizedNames": {
+        "en": "Anaxa",
+        "zh": "\u90a3\u523b\u590f",
+        "ja": "\u30a2\u30ca\u30a4\u30af\u30b9",
+        "ko": "\uc544\ub099\uc0ac"
+      },
       "title": "The Universe in a Seed",
       "slug": "anaxa",
+      "release": 1746003600000,
+      "releasePatch": "3.2",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Stephen Fu",
+        "japanese": "\u5185\u7530\u96c4\u99ac",
+        "chinese": "\u94b1\u6587\u9752",
+        "korean": "\uc774\uc0c1\uc900"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1405.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/anaxa-9deca43a40ab.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/anaxa-5979b0746f3c.webp",
@@ -16906,10 +17024,24 @@
     {
       "id": "hsr-archer",
       "n": "Archer",
+      "localizedNames": {
+        "en": "Archer",
+        "zh": "Archer",
+        "ja": "\u30a2\u30fc\u30c1\u30e3\u30fc",
+        "ko": "\uc544\ucc98"
+      },
       "title": "I Am the Bone of My Sword",
       "slug": "archer",
+      "release": 1752224400000,
+      "releasePatch": "3.4",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "|vaCN = Wu Lei (\u5434\u78ca)",
+        "japanese": "\u8acf\u8a2a\u90e8 \u9806\u4e00",
+        "chinese": "\u5434\u78ca",
+        "korean": "\uc784\ucc44\ud5cc"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1015.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/archer-3a9c56eb8499.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/archer-cbcfd61516cc.webp",
@@ -17906,10 +18038,24 @@
     {
       "id": "hsr-argenti",
       "n": "Argenti",
+      "localizedNames": {
+        "en": "Argenti",
+        "zh": "\u94f6\u679d",
+        "ja": "\u30a2\u30eb\u30b8\u30a7\u30f3\u30c6\u30a3",
+        "ko": "\uc544\uc820\ud2f0"
+      },
       "title": "An Instant Before A Gaze",
       "slug": "argenti",
+      "release": 1701856800000,
+      "releasePatch": "1.5",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Talon Warburton",
+        "japanese": "\u7acb\u82b1\u614e\u4e4b\u4ecb",
+        "chinese": "\u6881\u8fbe\u4f1f",
+        "korean": "\ucd5c\uc2b9\ud6c8"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1302.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/argenti-cdd5db26d874.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/argenti-e0158ba5931d.webp",
@@ -18915,10 +19061,24 @@
     {
       "id": "hsr-ashveil",
       "n": "Ashveil",
+      "localizedNames": {
+        "en": "Ashveil",
+        "zh": "\u4e0d\u6b7b\u9014",
+        "ja": "\u4e0d\u6b7b\u9014",
+        "ko": "\uc560\uc26c\ubca0\uc77c"
+      },
       "title": "A Hunt Through Night",
       "slug": "ashveil",
+      "release": 1774432800000,
+      "releasePatch": "4.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Blythe Melin",
+        "japanese": "\u5b50\u5b89\u6b66\u4eba",
+        "chinese": "\u5f20\u6c9b",
+        "korean": "\uac15\uc218\uc9c4"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1504.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/ashveil-b9f510eb9e49.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/ashveil-052ce1666926.webp",
@@ -19919,10 +20079,24 @@
     {
       "id": "hsr-aventurine",
       "n": "Aventurine",
+      "localizedNames": {
+        "en": "Aventurine",
+        "zh": "\u7802\u91d1",
+        "ja": "\u30a2\u30d9\u30f3\u30c1\u30e5\u30ea\u30f3",
+        "ko": "\uc5b4\ubca4\uce04\ub9b0"
+      },
       "title": "Gilded Imprisonment",
       "slug": "aventurine",
+      "release": 1713344400000,
+      "releasePatch": "2.1",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Camden Sutkowski",
+        "japanese": "\u6cb3\u897f\u5065\u543e",
+        "chinese": "\u6768\u8d85\u7136",
+        "korean": "\ubc15\uc900\uc6d0"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1304.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/aventurine-7eab8a728935.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/aventurine-ec37a043dccd.webp",
@@ -20923,10 +21097,24 @@
     {
       "id": "hsr-bailu",
       "n": "Bailu",
+      "localizedNames": {
+        "en": "Bailu",
+        "zh": "\u767d\u9732",
+        "ja": "\u767d\u9732",
+        "ko": "\ubc31\ub85c"
+      },
       "title": "Time Waits for No One",
       "slug": "bailu",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Su Ling Chan",
+        "japanese": "\u52a0\u85e4\u82f1\u7f8e\u91cc",
+        "chinese": "\u591a\u591a",
+        "korean": "\uc870\ud604\uc815"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1211.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/bailu-6d808a5df95b.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/bailu-c44b2e3eb5c3.webp",
@@ -21928,10 +22116,24 @@
     {
       "id": "hsr-black-swan",
       "n": "Black Swan",
+      "localizedNames": {
+        "en": "Black Swan",
+        "zh": "\u9ed1\u5929\u9e45",
+        "ja": "\u30d6\u30e9\u30c3\u30af\u30b9\u30ef\u30f3",
+        "ko": "\ube14\ub799 \uc2a4\uc644"
+      },
       "title": "Ripples in Reflection",
       "slug": "black-swan",
+      "release": 1707213600000,
+      "releasePatch": "2.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Arryn Zech",
+        "japanese": "\u751f\u5929\u76ee\u4ec1\u7f8e",
+        "chinese": "\u6768\u68a6\u9732",
+        "korean": "\uae40\ud558\uc601"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1307.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/black-swan-eaa0eb62d57f.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/black-swan-270afa85f18e.webp",
@@ -22937,10 +23139,24 @@
     {
       "id": "hsr-blade",
       "n": "Blade",
+      "localizedNames": {
+        "en": "Blade",
+        "zh": "\u5203",
+        "ja": "\u5203",
+        "ko": "\ube14\ub808\uc774\ub4dc"
+      },
       "title": "The Unreachable Side",
       "slug": "blade",
+      "release": 1689757200000,
+      "releasePatch": "1.2",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Daman Mills",
+        "japanese": "\u4e09\u6728\u771e\u4e00\u90ce",
+        "chinese": "\u5218\u4ee5\u5609",
+        "korean": "\uacfd\uc724\uc0c1"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1205.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/blade-d81cdf6c097e.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/blade-8cfa3daebfe6.webp",
@@ -23946,10 +24162,24 @@
     {
       "id": "hsr-boothill",
       "n": "Boothill",
+      "localizedNames": {
+        "en": "Boothill",
+        "zh": "\u6ce2\u63d0\u6b27",
+        "ja": "\u30d6\u30fc\u30c8\u30d2\u30eb",
+        "ko": "\ubd80\ud2b8\ud790"
+      },
       "title": "Dusty Trail's Lone Star",
       "slug": "boothill",
+      "release": 1716973200000,
+      "releasePatch": "2.2",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Andrew Russell",
+        "japanese": "\u5c0f\u897f\u514b\u5e78",
+        "chinese": "\u5f6d\u535a",
+        "korean": "\uae40\ub2e8"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1315.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/boothill-49799bbf17d6.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/boothill-89426c95cc56.webp",
@@ -24950,10 +25180,24 @@
     {
       "id": "hsr-bronya",
       "n": "Bronya",
+      "localizedNames": {
+        "en": "Bronya",
+        "zh": "\u5e03\u6d1b\u59ae\u5a05",
+        "ja": "\u30d6\u30ed\u30fc\u30cb\u30e3",
+        "ko": "\ube0c\ub85c\ub0d0"
+      },
       "title": "But the Battle Isn't Over",
       "slug": "bronya",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Madeline Reiter",
+        "japanese": "\u963f\u6f84\u4f73\u5948",
+        "chinese": "\u8c22\u83b9",
+        "korean": "\uc774\ubcf4\ud76c"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1101.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/bronya-4ae6e88598ab.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/bronya-8b9a40705315.webp",
@@ -25954,10 +26198,24 @@
     {
       "id": "hsr-castorice",
       "n": "Castorice",
+      "localizedNames": {
+        "en": "Castorice",
+        "zh": "\u9050\u8776",
+        "ja": "\u30ad\u30e3\u30b9\u30c8\u30ea\u30b9",
+        "ko": "\uce74\uc2a4\ud1a0\ub9ac\uc2a4"
+      },
       "title": "Blossom to the Beyond",
       "slug": "castorice",
+      "release": 1744189200000,
+      "releasePatch": "3.2",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Melody Muze",
+        "japanese": "\u658e\u85e4\u5343\u548c",
+        "chinese": "\u962e\u4ece\u9752",
+        "korean": "\uc774\uc138\ub808\ub098"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1407.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/castorice-e684162b72fd.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/castorice-e57e4aaef3ff.webp",
@@ -26959,10 +27217,24 @@
     {
       "id": "hsr-cipher",
       "n": "Cipher",
+      "localizedNames": {
+        "en": "Cipher",
+        "zh": "\u8d5b\u98de\u513f",
+        "ja": "\u30b5\u30d5\u30a7\u30eb",
+        "ko": "\uc0ac\uc774\ud37c"
+      },
       "title": "Slick and Speedy Steals the Sky",
       "slug": "cipher",
+      "release": 1749632400000,
+      "releasePatch": "3.3",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Shea Fairaday",
+        "japanese": "\u4f0a\u85e4\u5f69\u6c99",
+        "chinese": "\u738b\u96c5\u6b23",
+        "korean": "\ubbf8\uc18c"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1406.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/cipher-015686a982c5.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/cipher-c7debfb39bc2.webp",
@@ -27962,10 +28234,24 @@
     {
       "id": "hsr-clara",
       "n": "Clara",
+      "localizedNames": {
+        "en": "Clara",
+        "zh": "\u514b\u62c9\u62c9",
+        "ja": "\u30af\u30e9\u30fc\u30e9",
+        "ko": "\ud074\ub77c\ub77c"
+      },
       "title": "Something Irreplaceable",
       "slug": "clara",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Emily Sun & D.C. Douglas",
+        "japanese": "\u65e5\u9ad8\u91cc\u83dc&\u5b89\u5143\u6d0b\u8cb4",
+        "chinese": "\u7d2b\u82cf\u4e5d\u6708&\u738b\u5b87\u822a",
+        "korean": "\uae40\uc608\ub9bc&\ucd5c\ub099\uc724"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1107.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/clara-d52a34bd0b67.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/clara-b30f96eb6551.webp",
@@ -28966,10 +29252,24 @@
     {
       "id": "hsr-cyrene",
       "n": "Cyrene",
+      "localizedNames": {
+        "en": "Cyrene",
+        "zh": "\u6614\u6d9f",
+        "ja": "\u30ad\u30e5\u30ec\u30cd",
+        "ko": "\ud0a4\ub808\ub124"
+      },
       "title": "Ripples Rejoined",
       "slug": "cyrene",
+      "release": 1762336800000,
+      "releasePatch": "3.7",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Aiden Dawn",
+        "japanese": "\u4e95\u4e0a\u9ebb\u91cc\u5948",
+        "chinese": "\u5bb4\u5b81",
+        "korean": "\uc870\uacbd\uc774"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1415.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/cyrene-c68f58cf71c5.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/cyrene-6d443544111a.webp",
@@ -29976,10 +30276,24 @@
     {
       "id": "hsr-imbibitor-lunae",
       "n": "Dan Heng \u2022 Imbibitor Lunae",
+      "localizedNames": {
+        "en": "Dan Heng \u2022 Imbibitor Lunae",
+        "zh": "\u4e39\u6052\u2022\u996e\u6708",
+        "ja": "\u4e39\u6052\u30fb\u98f2\u6708",
+        "ko": "\ub2e8\ud56d\u2022\uc74c\uc6d4"
+      },
       "title": "Epochal Spectrum",
       "slug": "imbibitor-lunae",
+      "release": 1693386000000,
+      "releasePatch": "1.3",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Nicholas Leung",
+        "japanese": "\u4f0a\u6771\u5065\u4eba",
+        "chinese": "\u674e\u6625\u80e4",
+        "korean": "\uae40\ud61c\uc131"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1213.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-baa0ad20b2b7.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-84f0773bc3d5.webp",
@@ -30980,10 +31294,24 @@
     {
       "id": "hsr-dan-heng-permansor-terrae",
       "n": "Dan Heng \u2022 Permansor Terrae",
+      "localizedNames": {
+        "en": "Dan Heng \u2022 Permansor Terrae",
+        "zh": "\u4e39\u6052\u2022\u817e\u8352",
+        "ja": "\u4e39\u6052\u30fb\u9a30\u8352",
+        "ko": "\ub2e8\ud56d\u2022\ub4f1\ud669"
+      },
       "title": "Slay Until Evil Ends",
       "slug": "dan-heng-permansor-terrae",
+      "release": 1682460000000,
+      "releasePatch": "3.6",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Nicholas Leung",
+        "japanese": "\u4f0a\u6771\u5065\u4eba",
+        "chinese": "\u674e\u6625\u80e4",
+        "korean": "\uae40\ud61c\uc131"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1414.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-5d790d1ba159.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-5a8994b046b4.webp",
@@ -31984,10 +32312,24 @@
     {
       "id": "hsr-dr-ratio",
       "n": "Dr. Ratio",
+      "localizedNames": {
+        "en": "Dr. Ratio",
+        "zh": "\u771f\u7406\u533b\u751f",
+        "ja": "Dr.\u30ec\u30a4\u30b7\u30aa",
+        "ko": "Dr. \ub808\uc774\uc2dc\uc624"
+      },
       "title": "Panta Rhei",
       "slug": "dr-ratio",
+      "release": 1705485600000,
+      "releasePatch": "1.6",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Jordan Paul Haro",
+        "japanese": "\u6b66\u5185\u99ff\u8f14",
+        "chinese": "\u6851\u6bd3\u6cfd",
+        "korean": "\uc774\ub3d9\ud6c8"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1305.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/dr-ratio-310ed2bb50ec.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/dr-ratio-b21115efaa74.webp",
@@ -32987,10 +33329,24 @@
     {
       "id": "hsr-feixiao",
       "n": "Feixiao",
+      "localizedNames": {
+        "en": "Feixiao",
+        "zh": "\u98de\u9704",
+        "ja": "\u98db\u9704",
+        "ko": "\ube44\uc18c"
+      },
       "title": "Stormrider's Bolt",
       "slug": "feixiao",
+      "release": 1725958800000,
+      "releasePatch": "2.5",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Anairis Quinones",
+        "japanese": "\u5c0f\u677e\u672a\u53ef\u5b50",
+        "chinese": "\u53f6\u77e5\u79cb",
+        "korean": "\uc190\uc815\ubbfc"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1220.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/feixiao-f301a2c77dc1.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/feixiao-51f92b37ea6d.webp",
@@ -33998,10 +34354,24 @@
     {
       "id": "hsr-firefly",
       "n": "Firefly",
+      "localizedNames": {
+        "en": "Firefly",
+        "zh": "\u6d41\u8424",
+        "ja": "\u30db\u30bf\u30eb",
+        "ko": "\ubc18\ub514"
+      },
       "title": "Firefull Flyshine",
       "slug": "firefly",
+      "release": 1718787600000,
+      "releasePatch": "2.3",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Analesa Fisher & Adin Rudd",
+        "japanese": "\u6960\u6728\u3068\u3082\u308a&\u7b20\u9593\u6df3",
+        "chinese": "\u5b8b\u5a9b\u5a9b&\u6de6\u5b50\u9f50",
+        "korean": "\uc720\ud61c\uc9c0&\uc7a5\uc11c\ud654"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1310.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/firefly-6259a9ca0ba4.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/firefly-623b0891aedd.webp",
@@ -35001,10 +35371,24 @@
     {
       "id": "hsr-fu-xuan",
       "n": "Fu Xuan",
+      "localizedNames": {
+        "en": "Fu Xuan",
+        "zh": "\u7b26\u7384",
+        "ja": "\u7b26\u7384",
+        "ko": "\ubd80\ud604"
+      },
       "title": "She Already Shut Her Eyes",
       "slug": "fu-xuan",
+      "release": 1695200400000,
+      "releasePatch": "1.3",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Sarah Wiedenheft",
+        "japanese": "\u4f0a\u85e4\u7f8e\u6765",
+        "chinese": "\u82b1\u73b2",
+        "korean": "\uc774\uc9c0\ud604"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1208.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/fu-xuan-5851d1dea1e9.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/fu-xuan-41b77b8d96c0.webp",
@@ -36006,10 +36390,24 @@
     {
       "id": "hsr-gepard",
       "n": "Gepard",
+      "localizedNames": {
+        "en": "Gepard",
+        "zh": "\u6770\u5e15\u5fb7",
+        "ja": "\u30b8\u30a7\u30d1\u30fc\u30c9",
+        "ko": "\uac8c\ud30c\ub4dc"
+      },
       "title": "Moment of Victory",
       "slug": "gepard",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Bryson Baugus",
+        "japanese": "\u53e4\u5ddd\u614e",
+        "chinese": "\u9a6c\u6d0b",
+        "korean": "\ubbfc\uc2b9\uc6b0"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1104.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/gepard-8f06a975750f.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/gepard-c0e7cf4bb1f9.webp",
@@ -37010,10 +37408,24 @@
     {
       "id": "hsr-himeko",
       "n": "Himeko",
+      "localizedNames": {
+        "en": "Himeko",
+        "zh": "\u59ec\u5b50",
+        "ja": "\u59eb\u5b50",
+        "ko": "\ud788\uba54\ucf54"
+      },
       "title": "Night on the Milky Way",
       "slug": "himeko",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Cia Court",
+        "japanese": "\u7530\u4e2d\u7406\u6075",
+        "chinese": "\u6797\u7c0c",
+        "korean": "\uae40\ubcf4\ub098"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1003.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/himeko-64afdc8a4aff.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/himeko-986dab5cee76.webp",
@@ -38019,10 +38431,24 @@
     {
       "id": "hsr-huohuo",
       "n": "Huohuo",
+      "localizedNames": {
+        "en": "Huohuo",
+        "zh": "\u85ff\u85ff",
+        "ja": "\u30d5\u30a9\u30d5\u30a9",
+        "ko": "\uacfd\ud5a5"
+      },
       "title": "Night of Fright",
       "slug": "huohuo",
+      "release": 1700042400000,
+      "releasePatch": "1.5",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Megan Shipman & Aaron Veach",
+        "japanese": "\u9577\u7e04\u307e\u308a\u3042&\u5e73\u6797\u525b",
+        "chinese": "\u845b\u5b50\u745e&\u5218\u5317\u8fb0",
+        "korean": "\uae40\ucc44\ub9b0&\ud55c\ubcf5\ud604"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1217.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/huohuo-ac4d5717b69e.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/huohuo-2eb0ec6b3ec0.webp",
@@ -39028,10 +39454,24 @@
     {
       "id": "hsr-hyacine",
       "n": "Hyacine",
+      "localizedNames": {
+        "en": "Hyacine",
+        "zh": "\u98ce\u5807",
+        "ja": "\u30d2\u30a2\u30f3\u30b7\u30fc",
+        "ko": "\ud788\uc544\ud0a8"
+      },
       "title": "A Rainbow onto Twilight",
       "slug": "hyacine",
+      "release": 1747818000000,
+      "releasePatch": "3.3",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Holly Earl",
+        "japanese": "\u7f8a\u5bae\u5983\u90a3",
+        "chinese": "\u9759\u5bb8",
+        "korean": "\uae40\uc5f0\uc6b0"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1409.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/hyacine-7a76e3deaee9.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/hyacine-1e9a0fafaf7c.webp",
@@ -40037,10 +40477,24 @@
     {
       "id": "hsr-hysilens",
       "n": "Hysilens",
+      "localizedNames": {
+        "en": "Hysilens",
+        "zh": "\u6d77\u745f\u97f3",
+        "ja": "\u30bb\u30a4\u30ec\u30f3\u30b9",
+        "ko": "\ud788\uc2e4\ub80c\uc2a4"
+      },
       "title": "Winedark Swansong",
       "slug": "hysilens",
+      "release": 1755075600000,
+      "releasePatch": "3.5",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Rosie Day",
+        "japanese": "\u77f3\u898b\u821e\u83dc\u9999",
+        "chinese": "\u6d6e\u68a6\u82e5\u8587",
+        "korean": "\uc624\uc740\uc218"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1410.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/hysilens-5df2504c5560.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/hysilens-cb2fae560eae.webp",
@@ -41037,10 +41491,24 @@
     {
       "id": "hsr-jade",
       "n": "Jade",
+      "localizedNames": {
+        "en": "Jade",
+        "zh": "\u7fe1\u7fe0",
+        "ja": "\u30b8\u30a7\u30a4\u30c9",
+        "ko": "\uc81c\uc774\ub4dc"
+      },
       "title": "Lien on Life, Lease on Fate",
       "slug": "jade",
+      "release": 1720602000000,
+      "releasePatch": "2.3",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Faye Mata",
+        "japanese": "\u4e09\u77f3\u7434\u4e43",
+        "chinese": "\u5f20\u82e5\u745c",
+        "korean": "\uae40\uc21c\ubbf8"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1314.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/jade-e2f15621938e.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/jade-5a27f10fb7e1.webp",
@@ -42040,10 +42508,24 @@
     {
       "id": "hsr-jiaoqiu",
       "n": "Jiaoqiu",
+      "localizedNames": {
+        "en": "Jiaoqiu",
+        "zh": "\u6912\u4e18",
+        "ja": "\u6912\u4e18",
+        "ko": "\ucd08\uad6c"
+      },
       "title": "Cauldron Contrivance",
       "slug": "jiaoqiu",
+      "release": 1724230800000,
+      "releasePatch": "2.4",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Mark Whitten",
+        "japanese": "\u8c4a\u6c38\u5229\u884c",
+        "chinese": "\u9648\u5f20\u592a\u5eb7",
+        "korean": "\uc774\uc815\ubbfc"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1218.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/jiaoqiu-ba3564847373.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/jiaoqiu-29056a8915e0.webp",
@@ -43044,10 +43526,24 @@
     {
       "id": "hsr-jing-yuan",
       "n": "Jing Yuan",
+      "localizedNames": {
+        "en": "Jing Yuan",
+        "zh": "\u666f\u5143",
+        "ja": "\u666f\u5143",
+        "ko": "\uacbd\uc6d0"
+      },
       "title": "Swirl of Heavenly Spear",
       "slug": "jing-yuan",
+      "release": 1684335600000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Alejandro Saab",
+        "japanese": "\u5c0f\u91ce\u5927\u8f14",
+        "chinese": "\u5b59\u6654",
+        "korean": "\ub958\uc2b9\uace4"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1204.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/jing-yuan-388ef1942c9c.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/jing-yuan-87407975cfe5.webp",
@@ -44053,10 +44549,24 @@
     {
       "id": "hsr-jingliu",
       "n": "Jingliu",
+      "localizedNames": {
+        "en": "Jingliu",
+        "zh": "\u955c\u6d41",
+        "ja": "\u93e1\u6d41",
+        "ko": "\uacbd\ub958"
+      },
       "title": "Gentle Eclipse of the Moon",
       "slug": "jingliu",
+      "release": 1697014800000,
+      "releasePatch": "1.4",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "AmaLee",
+        "japanese": "\u6851\u5cf6\u6cd5\u5b50",
+        "chinese": "\u675c\u51a5\u9e26",
+        "korean": "\ubc15\uc774\uc11c"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1212.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/jingliu-d236596ce94c.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/jingliu-b899a44529f0.webp",
@@ -45056,10 +45566,24 @@
     {
       "id": "hsr-kafka",
       "n": "Kafka",
+      "localizedNames": {
+        "en": "Kafka",
+        "zh": "\u5361\u8299\u5361",
+        "ja": "\u30ab\u30d5\u30ab",
+        "ko": "\uce74\ud504\uce74"
+      },
       "title": "Nessun Dorma",
       "slug": "kafka",
+      "release": 1689757200000,
+      "releasePatch": "1.2",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Cheryl Texiera",
+        "japanese": "\u4f0a\u85e4\u9759",
+        "chinese": "\u5f90\u6167",
+        "korean": "\uc0ac\ubb38\uc601"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1005.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/kafka-5e4eda10e96f.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/kafka-400047d61892.webp",
@@ -46059,10 +46583,24 @@
     {
       "id": "hsr-lingsha",
       "n": "Lingsha",
+      "localizedNames": {
+        "en": "Lingsha",
+        "zh": "\u7075\u7802",
+        "ja": "\u970a\u7802",
+        "ko": "\uc601\uc0ac"
+      },
       "title": "Let Scent Sink In",
       "slug": "lingsha",
+      "release": 1727859600000,
+      "releasePatch": "2.5",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Whitney Holland",
+        "japanese": "\u524d\u7530\u4f73\u7e54\u91cc",
+        "chinese": "\u9976\u6893\u541b",
+        "korean": "\uc7a5\uc608\ub098"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1222.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/lingsha-8774a66680b2.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/lingsha-d9effded33c0.webp",
@@ -47063,10 +47601,24 @@
     {
       "id": "hsr-luocha",
       "n": "Luocha",
+      "localizedNames": {
+        "en": "Luocha",
+        "zh": "\u7f57\u5239",
+        "ja": "\u7f85\u5239",
+        "ko": "\ub098\ucc30"
+      },
       "title": "Echoes of the Coffin",
       "slug": "luocha",
+      "release": 1687942800000,
+      "releasePatch": "1.1",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Craig Lee Thomas",
+        "japanese": "\u77f3\u7530\u5f70",
+        "chinese": "\u8d75\u8def",
+        "korean": "\uc2e0\uc6a9\uc6b0"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1203.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/luocha-81418a99216b.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/luocha-50ed93457dad.webp",
@@ -48176,10 +48728,24 @@
     {
       "id": "hsr-mydei",
       "n": "Mydei",
+      "localizedNames": {
+        "en": "Mydei",
+        "zh": "\u4e07\u654c",
+        "ja": "\u30e2\u30fc\u30c7\u30a3\u30b9",
+        "ko": "\ub9c8\uc774\ub370\uc774"
+      },
       "title": "Fiery Lionheart",
       "slug": "mydei",
+      "release": 1742378400000,
+      "releasePatch": "3.1",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Gabriel Warburton",
+        "japanese": "\u963f\u5ea7\u4e0a\u6d0b\u5e73",
+        "chinese": "\u8d75\u6210\u6668",
+        "korean": "\uc548\ud6a8\ubbfc"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1404.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/mydei-9934d5364a1a.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/mydei-a2ca53d1474f.webp",
@@ -49179,10 +49745,24 @@
     {
       "id": "hsr-phainon",
       "n": "Phainon",
+      "localizedNames": {
+        "en": "Phainon",
+        "zh": "\u767d\u5384",
+        "ja": "\u30d5\u30a1\u30a4\u30ce\u30f3",
+        "ko": "\ud30c\uc774\ub17c"
+      },
       "title": "To Evermore Burn as the Sun",
       "slug": "phainon",
+      "release": 1751446800000,
+      "releasePatch": "3.4",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Joshua Waters",
+        "japanese": "\u65e5\u91ce\u8061",
+        "chinese": "\u79e6\u4e14\u6b4c",
+        "korean": "\uc724\uc6a9\uc2dd"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1408.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/phainon-99688b617211.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/phainon-3341050db154.webp",
@@ -50183,10 +50763,24 @@
     {
       "id": "hsr-rappa",
       "n": "Rappa",
+      "localizedNames": {
+        "en": "Rappa",
+        "zh": "\u4e71\u7834",
+        "ja": "\u4e71\u7834",
+        "ko": "\ub77c\ud30c"
+      },
       "title": "Eyes of a Ninja",
       "slug": "rappa",
+      "release": 1729674000000,
+      "releasePatch": "2.6",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Kendell Byrd",
+        "japanese": "\u6f58\u3081\u3050\u307f",
+        "chinese": "\u91d1\u5a1c",
+        "korean": "\uae40\uc720\ub9bc"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1317.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/rappa-75e4957f3e9e.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/rappa-c857d370ad35.webp",
@@ -51193,9 +51787,20 @@
     {
       "id": "hsr-rin-tohsaka",
       "n": "Rin Tohsaka",
+      "localizedNames": {
+        "en": "Rin Tohsaka"
+      },
       "slug": "rin-tohsaka",
+      "release": 1784851200000,
+      "releasePatch": "4.2",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "|vaCN = Shuo Xiaotu (\u6714\u5c0f\u5154)",
+        "japanese": "Kana Ueda|Ueda Kana (\u690d\u7530 \u4f73\u5948)",
+        "chinese": "Shuo Xiaotu (\u6714\u5c0f\u5154)",
+        "korean": "Kim Bo-min (\uae40\ubcf4\ubbfc)"
+      },
       "icon": "../../Database/Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
       "iconZoom": 1.18,
       "art": "../../Database/Prydwen/hsr/assets/characters/rin-tohsaka-ac78bcd23e3e.webp",
@@ -51211,10 +51816,24 @@
     {
       "id": "hsr-robin",
       "n": "Robin",
+      "localizedNames": {
+        "en": "Robin",
+        "zh": "\u77e5\u66f4\u9e1f",
+        "ja": "\u30ed\u30d3\u30f3",
+        "ko": "\ub85c\ube48"
+      },
       "title": "Flowing Nightglow",
       "slug": "robin",
+      "release": 1715158800000,
+      "releasePatch": "2.2",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Alice Himora / \\nSong Vocals: Chevy",
+        "japanese": "\u540d\u585a\u4f73\u7e54 / Song Vocals: Chevy",
+        "chinese": "\u94b1\u741b / Song Vocals: Chevy",
+        "korean": "\uc2e0\uc628\uc720/ Song Vocals: Chevy"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1309.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/robin-166441a7c32b.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/robin-69c7301903f4.webp",
@@ -52214,10 +52833,24 @@
     {
       "id": "hsr-ruan-mei",
       "n": "Ruan Mei",
+      "localizedNames": {
+        "en": "Ruan Mei",
+        "zh": "\u962e\u2022\u6885",
+        "ja": "\u30eb\u30a2\u30f3\u30fb\u30e1\u30a7\u30a4",
+        "ko": "\uc644\u2022\ub9e4"
+      },
       "title": "Past Self in Mirror",
       "slug": "ruan-mei",
+      "release": 1703671200000,
+      "releasePatch": "1.6",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Emi Lo",
+        "japanese": "\u5927\u897f\u6c99\u7e54",
+        "chinese": "\u5f20\u6587\u94b0",
+        "korean": "\uc724\uc5ec\uc9c4"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1303.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/ruan-mei-b4f3614106cf.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/ruan-mei-8506b75184e5.webp",
@@ -53219,10 +53852,24 @@
     {
       "id": "hsr-saber",
       "n": "Saber",
+      "localizedNames": {
+        "en": "Saber",
+        "zh": "Saber",
+        "ja": "\u30bb\u30a4\u30d0\u30fc",
+        "ko": "\uc138\uc774\ubc84"
+      },
       "title": "Excalibur Excelsior",
       "slug": "saber",
+      "release": 1752224400000,
+      "releasePatch": "3.4",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "|vaCN = Bai Xinzan (\u767d\u677a\u74d2)",
+        "japanese": "\u5ddd\u6f84 \u7dbe\u5b50",
+        "chinese": "\u767d\u677a\u74d2",
+        "korean": "\uc815\uc720\uc815"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1014.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/saber-241dd7321fad.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/saber-dae0995059e4.webp",
@@ -54225,10 +54872,24 @@
     {
       "id": "hsr-seele",
       "n": "Seele",
+      "localizedNames": {
+        "en": "Seele",
+        "zh": "\u5e0c\u513f",
+        "ja": "\u30bc\u30fc\u30ec",
+        "ko": "\uc81c\ub808"
+      },
       "title": "In the Night",
       "slug": "seele",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Molly Zhang",
+        "japanese": "\u4e2d\u539f\u9ebb\u8863",
+        "chinese": "\u5510\u96c5\u83c1",
+        "korean": "\uc1a1\ud558\ub9bc"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1102.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/seele-0ce26c00a884.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/seele-d60eff70f81c.webp",
@@ -55229,10 +55890,24 @@
     {
       "id": "hsr-silver-wolf",
       "n": "Silver Wolf",
+      "localizedNames": {
+        "en": "Silver Wolf",
+        "zh": "\u94f6\u72fc",
+        "ja": "\u9280\u72fc",
+        "ko": "\uc740\ub791"
+      },
       "title": "Incessant Rain",
       "slug": "silver-wolf",
+      "release": 1686128400000,
+      "releasePatch": "1.1",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Melissa Fahn",
+        "japanese": "\u963f\u6f84\u4f73\u5948",
+        "chinese": "Hanser",
+        "korean": "\uc7a5\ubbf8"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1006.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/silver-wolf-4160e673662f.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/silver-wolf-a86ff142fa92.webp",
@@ -56328,10 +57003,24 @@
     {
       "id": "hsr-sparkle",
       "n": "Sparkle",
+      "localizedNames": {
+        "en": "Sparkle",
+        "zh": "\u82b1\u706b",
+        "ja": "\u82b1\u706b",
+        "ko": "\uc2a4\ud30c\ud074"
+      },
       "title": "Sparkling Splendor",
       "slug": "sparkle",
+      "release": 1707213600000,
+      "releasePatch": "2.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Lizzie Freeman",
+        "japanese": "\u4e0a\u7530\u9e97\u5948",
+        "chinese": "\u8d75\u723d",
+        "korean": "\uc131\uc608\uc6d0"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1306.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/sparkle-12736023b340.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/sparkle-c948ac5a51ee.webp",
@@ -57331,10 +58020,24 @@
     {
       "id": "hsr-sparxie",
       "n": "Sparxie",
+      "localizedNames": {
+        "en": "Sparxie",
+        "zh": "\u706b\u82b1",
+        "ja": "\u706b\u82b1",
+        "ko": "\uc2a4\ud30c\ud0a4"
+      },
       "title": "Project: Party Time",
       "slug": "sparxie",
+      "release": 1770976800000,
+      "releasePatch": "4.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Lizzie Freeman",
+        "japanese": "\u4e0a\u7530\u9e97\u5948",
+        "chinese": "\u8d75\u723d",
+        "korean": "\uc131\uc608\uc6d0"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1501.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/sparxie-234f67152306.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/sparxie-67b870bc5ac4.webp",
@@ -58331,10 +59034,24 @@
     {
       "id": "hsr-sunday",
       "n": "Sunday",
+      "localizedNames": {
+        "en": "Sunday",
+        "zh": "\u661f\u671f\u65e5",
+        "ja": "\u30b5\u30f3\u30c7\u30fc",
+        "ko": "\uc120\ub370\uc774"
+      },
       "title": "Eyes to the Stars",
       "slug": "sunday",
+      "release": 1733306400000,
+      "releasePatch": "2.7",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Griffin Puatu",
+        "japanese": "\u5927\u585a\u525b\u592e",
+        "chinese": "\u5f90\u7fd4",
+        "korean": "\uac15\uc131\uc6b0"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1313.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/sunday-7a3f3cf10c31.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/sunday-6aab96cad79c.webp",
@@ -59342,10 +60059,24 @@
     {
       "id": "hsr-the-dahlia",
       "n": "The Dahlia",
+      "localizedNames": {
+        "en": "The Dahlia",
+        "zh": "\u5927\u4e3d\u82b1",
+        "ja": "\u30c0\u30ea\u30a2",
+        "ko": "\ub2ec\ub9ac\uc544"
+      },
       "title": "Dance in Flame",
       "slug": "the-dahlia",
+      "release": 1765101600000,
+      "releasePatch": "3.8",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Cristina Vee",
+        "japanese": "\u4f50\u3005\u6728\u672a\u6765",
+        "chinese": "\u962e\u4ece\u9752",
+        "korean": "\uae40\ub3c4\ud76c"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1321.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/the-dahlia-04dcb5188322.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/the-dahlia-de1d9d08efeb.webp",
@@ -60345,10 +61076,24 @@
     {
       "id": "hsr-the-herta",
       "n": "The Herta",
+      "localizedNames": {
+        "en": "The Herta",
+        "zh": "\u5927\u9ed1\u5854",
+        "ja": "\u30de\u30c0\u30e0\u30fb\u30d8\u30eb\u30bf",
+        "ko": "\ub354 \ud5e4\ub974\ud0c0"
+      },
       "title": "Message From Beyond",
       "slug": "the-herta",
+      "release": 1736935200000,
+      "releasePatch": "3.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "PJ Mattson",
+        "japanese": "\u5c71\u5d0e\u306f\u308b\u304b",
+        "chinese": "\u4faf\u5c0f\u83f2",
+        "korean": "\uae40\uc11c\uc601"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1401.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/the-herta-49570c83b7dc.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/the-herta-f728fd35660c.webp",
@@ -61444,10 +62189,24 @@
     {
       "id": "hsr-topaz",
       "n": "Topaz & Numby",
+      "localizedNames": {
+        "en": "Topaz & Numby",
+        "zh": "\u6258\u5e15&\u8d26\u8d26",
+        "ja": "\u30c8\u30d1\u30fc\u30ba&\u30ab\u30d6",
+        "ko": "\ud1a0\ud30c\uc988&\ubcf5\uc21c\uc774"
+      },
       "title": "Worrisome, Blissful",
       "slug": "topaz",
+      "release": 1698483600000,
+      "releasePatch": "1.4",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Sam Slade",
+        "japanese": "\u5357\u689d\u611b\u4e43",
+        "chinese": "\u9646\u654f\u60a6",
+        "korean": "\ubc29\uc2dc\uc6b0"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1112.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/topaz-numby-3624ace30bbd.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/topaz-numby-e48ef824c5e0.webp",
@@ -62694,10 +63453,24 @@
     {
       "id": "hsr-tribbie",
       "n": "Tribbie",
+      "localizedNames": {
+        "en": "Tribbie",
+        "zh": "\u7f07\u5b9d",
+        "ja": "\u30c8\u30ea\u30d3\u30fc",
+        "ko": "\ud2b8\ub9ac\ube44"
+      },
       "title": "Back to Fons et Origo",
       "slug": "tribbie",
+      "release": 1740564000000,
+      "releasePatch": "3.1",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Hayden Daviau",
+        "japanese": "\u9060\u91ce\u3072\u304b\u308b",
+        "chinese": "\u8521\u4e66\u747e",
+        "korean": "\ubc29\uc5f0\uc9c0"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1403.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/tribbie-d248a0326c3d.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/tribbie-fc0b40ff638a.webp",
@@ -63698,10 +64471,24 @@
     {
       "id": "hsr-welt",
       "n": "Welt",
+      "localizedNames": {
+        "en": "Welt",
+        "zh": "\u74e6\u5c14\u7279",
+        "ja": "\u30f4\u30a7\u30eb\u30c8",
+        "ko": "\uc6f0\ud2b8"
+      },
       "title": "In the Name of the World",
       "slug": "welt",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Corey Landis",
+        "japanese": "\u7d30\u8c37\u4f73\u6b63",
+        "chinese": "\u5f6d\u535a",
+        "korean": "\ud55c\uc2e0"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1004.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/welt-1433e382bcf8.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/welt-6c0cefc442eb.webp",
@@ -64705,10 +65492,24 @@
     {
       "id": "hsr-yanqing",
       "n": "Yanqing",
+      "localizedNames": {
+        "en": "Yanqing",
+        "zh": "\u5f66\u537f",
+        "ja": "\u5f66\u537f",
+        "ko": "\uc5f0\uacbd"
+      },
       "title": "Sleep Like the Dead",
       "slug": "yanqing",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Amber May",
+        "japanese": "\u4e95\u4e0a\u9ebb\u91cc\u5948",
+        "chinese": "\u55b5\u9171",
+        "korean": "\uc774\uc0c8\uc544"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1209.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/yanqing-6919e01de57d.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/yanqing-2cb713068815.webp",
@@ -65710,10 +66511,24 @@
     {
       "id": "hsr-yunli",
       "n": "Yunli",
+      "localizedNames": {
+        "en": "Yunli",
+        "zh": "\u4e91\u7483",
+        "ja": "\u96f2\u7483",
+        "ko": "\uc6b4\ub9ac"
+      },
       "title": "Dance at Sunset",
       "slug": "yunli",
+      "release": 1722416400000,
+      "releasePatch": "2.4",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Brenna Larsen",
+        "japanese": "\u82e5\u5c71\u8a69\u97f3",
+        "chinese": "\u5218\u96ef",
+        "korean": "\uc774\uc8fc\uc740"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1221.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/yunli-fee0a789395c.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/yunli-0ec74736d83e.webp",
@@ -66714,9 +67529,23 @@
     {
       "id": "hsr-arlan",
       "n": "Arlan",
+      "localizedNames": {
+        "en": "Arlan",
+        "zh": "\u963f\u5170",
+        "ja": "\u30a2\u30fc\u30e9\u30f3",
+        "ko": "\uc544\ub97c\ub780"
+      },
       "slug": "arlan",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Dani Chambers",
+        "japanese": "\u767d\u77f3\u6dbc\u5b50",
+        "chinese": "\u9676\u5178",
+        "korean": "\uae40\uc728"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1008.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/arlan-f5ff2658fe9e.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/arlan-6570c752e7cc.webp",
@@ -67613,9 +68442,23 @@
     {
       "id": "hsr-asta",
       "n": "Asta",
+      "localizedNames": {
+        "en": "Asta",
+        "zh": "\u827e\u4e1d\u59b2",
+        "ja": "\u30a2\u30b9\u30bf\u30fc",
+        "ko": "\uc544\uc2a4\ud0c0"
+      },
       "slug": "asta",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Felecia Angelle",
+        "japanese": "\u8d64\ufa11\u5343\u590f",
+        "chinese": "\u9f9f\u5a18",
+        "korean": "\uae40\ud604\uc9c0"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1009.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/asta-6b116c87f39d.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/asta-00298d219ef3.webp",
@@ -68515,10 +69358,24 @@
     {
       "id": "hsr-dan-heng",
       "n": "Dan Heng",
+      "localizedNames": {
+        "en": "Dan Heng",
+        "zh": "\u4e39\u6052",
+        "ja": "\u4e39\u6052",
+        "ko": "\ub2e8\ud56d"
+      },
       "title": "* Eye of the Storm",
       "slug": "dan-heng",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Nicholas Leung",
+        "japanese": "\u4f0a\u6771\u5065\u4eba",
+        "chinese": "\u674e\u6625\u80e4",
+        "korean": "\uae40\ud61c\uc131"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1002.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/dan-heng-2af74fc9cd45.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/dan-heng-68aee0a99f24.webp",
@@ -69426,10 +70283,24 @@
     {
       "id": "hsr-gallagher",
       "n": "Gallagher",
+      "localizedNames": {
+        "en": "Gallagher",
+        "zh": "\u52a0\u62c9\u8d6b",
+        "ja": "\u30ae\u30e3\u30e9\u30ac\u30fc",
+        "ko": "\uac24\ub7ec\uac70"
+      },
       "title": "* Any Warp Banner (except Departure Warp)",
       "slug": "gallagher",
+      "release": 1711533600000,
+      "releasePatch": "2.1",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Erik Braa",
+        "japanese": "\u4e09\u4e0a\u54f2",
+        "chinese": "\u9a6c\u8bed\u975e",
+        "korean": "\ubc15\uc0c1\ud6c8"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1301.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/gallagher-3b2d2ab7dcb6.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/gallagher-53eb230701d1.webp",
@@ -70326,9 +71197,23 @@
     {
       "id": "hsr-guinaifen",
       "n": "Guinaifen",
+      "localizedNames": {
+        "en": "Guinaifen",
+        "zh": "\u6842\u4e43\u82ac",
+        "ja": "\u6842\u4e43\u82ac",
+        "ko": "\uacc4\ub124\ube48"
+      },
       "slug": "guinaifen",
+      "release": 1698483600000,
+      "releasePatch": "1.4",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Morgan Laur\u00e9",
+        "japanese": "\u76f4\u7530\u59eb\u5948",
+        "chinese": "\u5c0f\u6562",
+        "korean": "\uae40\uc218\uc601"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1210.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/guinaifen-ccfd0b05a9af.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/guinaifen-e7c32f758256.webp",
@@ -71225,10 +72110,24 @@
     {
       "id": "hsr-hanya",
       "n": "Hanya",
+      "localizedNames": {
+        "en": "Hanya",
+        "zh": "\u5bd2\u9e26",
+        "ja": "\u5bd2\u9d09",
+        "ko": "\ud55c\uc544"
+      },
       "title": "* Any Warp Banner (except Departure Warp)",
       "slug": "hanya",
+      "release": 1701856800000,
+      "releasePatch": "1.5",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Suzie Yeung",
+        "japanese": "\u9234\u4ee3\u7d17\u5f13",
+        "chinese": "\u5f20\u96e8\u66e6",
+        "korean": "\uc724\uc740\uc11c"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1215.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/hanya-ef653980c8ac.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/hanya-e05f75e0ed4b.webp",
@@ -72131,9 +73030,23 @@
     {
       "id": "hsr-herta",
       "n": "Herta",
+      "localizedNames": {
+        "en": "Herta",
+        "zh": "\u9ed1\u5854",
+        "ja": "\u30d8\u30eb\u30bf",
+        "ko": "\ud5e4\ub974\ud0c0"
+      },
       "slug": "herta",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "PJ Mattson",
+        "japanese": "\u5c71\u5d0e\u306f\u308b\u304b",
+        "chinese": "\u4faf\u5c0f\u83f2",
+        "korean": "\uae40\uc11c\uc601"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1013.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/herta-5eb921b823ca.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/herta-d93a5aec8214.webp",
@@ -73030,9 +73943,23 @@
     {
       "id": "hsr-hook",
       "n": "Hook",
+      "localizedNames": {
+        "en": "Hook",
+        "zh": "\u864e\u514b",
+        "ja": "\u30d5\u30c3\u30af",
+        "ko": "\ud6c4\ud06c"
+      },
       "slug": "hook",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Felecia Angelle",
+        "japanese": "\u5fb3\u4e95\u9752\u7a7a",
+        "chinese": "\u738b\u6653\u5f64",
+        "korean": "\uc774\uc7ac\ud604"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1109.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/hook-c27c777b6337.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/hook-04178d3d46d9.webp",
@@ -73933,9 +74860,23 @@
     {
       "id": "hsr-luka",
       "n": "Luka",
+      "localizedNames": {
+        "en": "Luka",
+        "zh": "\u5362\u5361",
+        "ja": "\u30eb\u30ab",
+        "ko": "\ub8e8\uce74"
+      },
       "slug": "luka",
+      "release": 1689757200000,
+      "releasePatch": "1.2",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Howard Wang",
+        "japanese": "\u68b6\u539f\u5cb3\u4eba",
+        "chinese": "\u8427\u7fdf",
+        "korean": "\uc774\uc8fc\uc2b9"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1111.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/luka-c408c18123ff.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/luka-1589f6fedf05.webp",
@@ -74835,9 +75776,23 @@
     {
       "id": "hsr-lynx",
       "n": "Lynx",
+      "localizedNames": {
+        "en": "Lynx",
+        "zh": "\u73b2\u53ef",
+        "ja": "\u30ea\u30f3\u30af\u30b9",
+        "ko": "\ub9c1\uc2a4"
+      },
       "slug": "lynx",
+      "release": 1695200400000,
+      "releasePatch": "1.3",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Risa Mei",
+        "japanese": "\u7167\u4e95\u6625\u4f73",
+        "chinese": "\u7c73\u7cca",
+        "korean": "\uc774\uc740\uc870"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1110.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/lynx-20fadae192d9.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/lynx-caf7bd0fec96.webp",
@@ -75737,9 +76692,23 @@
     {
       "id": "hsr-march-7th",
       "n": "March 7th",
+      "localizedNames": {
+        "en": "March 7th",
+        "zh": "\u4e09\u6708\u4e03",
+        "ja": "\u4e09\u6708\u306a\u306e\u304b",
+        "ko": "Mar. 7th"
+      },
       "slug": "march-7th",
+      "release": 1722416400000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Skyler Davenport",
+        "japanese": "Yui Ogura|Ogura Yui (\u5c0f\u5009\u552f)",
+        "chinese": "Nuoya (\u8bfa\u4e9a)",
+        "korean": "Jung Hye-won (\uc815\ud61c\uc6d0)"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1224.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/march-7th-b9b058e0b744.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/march-7th-c5b60a50f43d.webp",
@@ -76678,10 +77647,24 @@
     {
       "id": "hsr-misha",
       "n": "Misha",
+      "localizedNames": {
+        "en": "Misha",
+        "zh": "\u7c73\u6c99",
+        "ja": "\u30df\u30fc\u30b7\u30e3",
+        "ko": "\ubbf8\uc0e4"
+      },
       "title": "* Any Warp Banner (except Departure Warp)",
       "slug": "misha",
+      "release": 1709200800000,
+      "releasePatch": "2.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Cat Protano",
+        "japanese": "\u677e\u4e95\u6075\u7406\u5b50",
+        "chinese": "\u67f3\u77e5\u8427",
+        "korean": "\ubc15\uc2e0\ud76c"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1312.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/misha-160cd1f54f79.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/misha-a59a3e8a73a9.webp",
@@ -77581,10 +78564,24 @@
     {
       "id": "hsr-moze",
       "n": "Moze",
+      "localizedNames": {
+        "en": "Moze",
+        "zh": "\u8c8a\u6cfd",
+        "ja": "\u30e2\u30bc",
+        "ko": "\ub9e5\ud0dd"
+      },
       "title": "* Any Warp Banner (except Departure Warp)",
       "slug": "moze",
+      "release": 1725958800000,
+      "releasePatch": "2.5",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Ben Balmaceda",
+        "japanese": "\u5742\u7530\u5c06\u543e",
+        "chinese": "\u9ec4\u8fdb\u6cfd",
+        "korean": "\ucd5c\ud604\uc2dd"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1223.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/moze-abf9d7bef1cb.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/moze-11cb976ee484.webp",
@@ -78490,9 +79487,23 @@
     {
       "id": "hsr-natasha",
       "n": "Natasha",
+      "localizedNames": {
+        "en": "Natasha",
+        "zh": "\u5a1c\u5854\u838e",
+        "ja": "\u30ca\u30bf\u30fc\u30b7\u30e3",
+        "ko": "\ub098\ud0c0\uc0e4"
+      },
       "slug": "natasha",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Elizabeth Maxwell",
+        "japanese": "\u5185\u5c71\u5915\u5b9f",
+        "chinese": "\u79e6\u7d2b\u7ffc",
+        "korean": "\uac15\uc740\uc560"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1105.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/natasha-85dfaeda1186.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/natasha-092e3b8edc77.webp",
@@ -79392,9 +80403,23 @@
     {
       "id": "hsr-pela",
       "n": "Pela",
+      "localizedNames": {
+        "en": "Pela",
+        "zh": "\u4f69\u62c9",
+        "ja": "\u30da\u30e9",
+        "ko": "\ud398\ub77c"
+      },
       "slug": "pela",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Xanthe Huynh",
+        "japanese": "\u8af8\u661f\u3059\u307f\u308c",
+        "chinese": "\u5bb4\u5b81",
+        "korean": "\uc774\ub2e4\uc740"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1106.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/pela-3a94179844a2.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/pela-4023dca6dfde.webp",
@@ -80294,9 +81319,23 @@
     {
       "id": "hsr-qingque",
       "n": "Qingque",
+      "localizedNames": {
+        "en": "Qingque",
+        "zh": "\u9752\u96c0",
+        "ja": "\u9752\u96c0",
+        "ko": "\uccad\uc791"
+      },
       "slug": "qingque",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Bryn Apprill",
+        "japanese": "\u4f0a\u9054\u6731\u91cc\u7d17",
+        "chinese": "\u5218\u5341\u56db",
+        "korean": "\uc11c\ub2e4\ud61c"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1201.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/qingque-fbd9d82bca58.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/qingque-42fec9840aca.webp",
@@ -81197,9 +82236,23 @@
     {
       "id": "hsr-sampo",
       "n": "Sampo",
+      "localizedNames": {
+        "en": "Sampo",
+        "zh": "\u6851\u535a",
+        "ja": "\u30b5\u30f3\u30dd",
+        "ko": "\uc0bc\ud3ec"
+      },
       "slug": "sampo",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Roger Rose",
+        "japanese": "\u5e73\u5ddd\u5927\u8f14",
+        "chinese": "\u5218\u5723\u535a",
+        "korean": "\uc815\uc7ac\ud5cc"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1108.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/sampo-4990c1afc41a.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/sampo-ed86ec39afab.webp",
@@ -82100,9 +83153,23 @@
     {
       "id": "hsr-serval",
       "n": "Serval",
+      "localizedNames": {
+        "en": "Serval",
+        "zh": "\u5e0c\u9732\u74e6",
+        "ja": "\u30bb\u30fc\u30d0\u30eb",
+        "ko": "\uc11c\ubc8c"
+      },
       "slug": "serval",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Natalie Van Sistine",
+        "japanese": "\u611b\u7f8e",
+        "chinese": "\u7a46\u96ea\u5a77",
+        "korean": "\ubbfc\uc544"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1103.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/serval-e59543413d0c.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/serval-3c247d3771b8.webp",
@@ -83002,9 +84069,23 @@
     {
       "id": "hsr-sushang",
       "n": "Sushang",
+      "localizedNames": {
+        "en": "Sushang",
+        "zh": "\u7d20\u88f3",
+        "ja": "\u7d20\u88f3",
+        "ko": "\uc18c\uc0c1"
+      },
       "slug": "sushang",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Anjali Kunapaneni",
+        "japanese": "\u798f\u5713\u7f8e\u91cc",
+        "chinese": "\u9648\u5a77\u5a77",
+        "korean": "\ubc15\uc2dc\uc724"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1206.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/sushang-1f3fcfa90040.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/sushang-257b48f16066.webp",
@@ -83905,9 +84986,23 @@
     {
       "id": "hsr-tingyun",
       "n": "Tingyun",
+      "localizedNames": {
+        "en": "Tingyun",
+        "zh": "\u505c\u4e91",
+        "ja": "\u505c\u96f2",
+        "ko": "\uc815\uc6b4"
+      },
       "slug": "tingyun",
+      "release": 1682460000000,
+      "releasePatch": "1.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Anya Floris",
+        "japanese": "\u9ad8\u7530\u6182\u5e0c",
+        "chinese": "\u848b\u4e3d",
+        "korean": "\uc774\uba85\ud638"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1202.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/tingyun-6b93ecc4e161.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/tingyun-1a50dd52f9a7.webp",
@@ -84804,9 +85899,23 @@
     {
       "id": "hsr-xueyi",
       "n": "Xueyi",
+      "localizedNames": {
+        "en": "Xueyi",
+        "zh": "\u96ea\u8863",
+        "ja": "\u96ea\u8863",
+        "ko": "\uc124\uc758"
+      },
       "slug": "xueyi",
+      "release": 1703671200000,
+      "releasePatch": "1.6",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Jenny Yokobori",
+        "japanese": "\u6cb3\u702c\u8309\u5e0c",
+        "chinese": "\u6eaf\u6d54",
+        "korean": "\ubc15\ub9ac\ub098"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1214.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/xueyi-3ab3f97e181a.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/xueyi-89798f7f7acd.webp",
@@ -85703,9 +86812,23 @@
     {
       "id": "hsr-yukong",
       "n": "Yukong",
+      "localizedNames": {
+        "en": "Yukong",
+        "zh": "\u9a6d\u7a7a",
+        "ja": "\u5fa1\u7a7a",
+        "ko": "\uc5b4\uacf5"
+      },
       "slug": "yukong",
+      "release": 1687942800000,
+      "releasePatch": "1.1",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Dawn M. Bennett",
+        "japanese": "\u51ac\u99ac\u7531\u7f8e",
+        "chinese": "\u949f\u53ef",
+        "korean": "\uc804\uc219\uacbd"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1207.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/yukong-237e9805e9d7.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/yukong-ec992fb513db.webp",

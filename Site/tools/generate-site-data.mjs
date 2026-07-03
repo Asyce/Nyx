@@ -117,6 +117,111 @@ function normKey(s) {
     .replace(/[^a-z0-9]+/g, '');
 }
 
+function localizedNamesFrom(source) {
+  const row = source && typeof source === 'object' ? source : {};
+  const out = {};
+  if (row.en || row.name) out.en = cleanText(row.en || row.name, 90);
+  if (row.zh) out.zh = cleanText(row.zh, 90);
+  if (row.ja) out.ja = cleanText(String(row.ja).replace(/\{RUBY_[^}]+\}/g, ''), 90);
+  if (row.ko) out.ko = cleanText(row.ko, 90);
+  return Object.keys(out).length ? out : undefined;
+}
+
+function voiceActorsFrom(source) {
+  const row = source && typeof source === 'object' ? source : {};
+  const out = {};
+  const pairs = [
+    ['english', row.english || row.en || row.cv_name_en],
+    ['japanese', row.japanese || row.jp || row.ja || row.cv_name_jp],
+    ['chinese', row.chinese || row.cn || row.zh || row.cv_name_cn],
+    ['korean', row.korean || row.kr || row.ko || row.cv_name_ko],
+  ];
+  pairs.forEach(([key, value]) => {
+    const text = cleanText(value, 120);
+    if (text && text !== '-') out[key] = text;
+  });
+  return Object.keys(out).length ? out : undefined;
+}
+
+function mergeVoiceActors(primary, fallback) {
+  const out = {};
+  [fallback, primary].forEach((source) => {
+    if (!source || typeof source !== 'object') return;
+    Object.entries(source).forEach(([key, value]) => {
+      const text = cleanText(value, 120);
+      if (key && text && text !== '-') out[key] = text;
+    });
+  });
+  return Object.keys(out).length ? out : undefined;
+}
+
+const fandomCharacterMetadataCache = new Map();
+
+function fandomCharacterMetadata(game) {
+  const key = game === 'ww' ? 'wuwa' : game;
+  if (fandomCharacterMetadataCache.has(key)) return fandomCharacterMetadataCache.get(key);
+  const rel = `Fandom/${key}/character-metadata.json`;
+  const byName = new Map();
+  if (exists(rel)) {
+    for (const row of readJson(rel)) {
+      if (!row || !row.name) continue;
+      const meta = {
+        localizedNames: localizedNamesFrom(row.localizedNames || row),
+        voiceActors: voiceActorsFrom(row.voiceActors),
+        release: parseRelease(row.releaseDate || row.release),
+        releasePatch: cleanText(row.releasePatch || row.releaseVersion || row.version, 40) || undefined,
+      };
+      [row.name, row.pageTitle, ...(Array.isArray(row.aliases) ? row.aliases : [])]
+        .filter(Boolean)
+        .forEach((name) => byName.set(normKey(name), meta));
+    }
+  }
+  fandomCharacterMetadataCache.set(key, byName);
+  return byName;
+}
+
+const rawCharacterLocaleCache = new Map();
+function rawCharacterLocaleMap(game) {
+  const key = `${game}:${nch()}`;
+  if (rawCharacterLocaleCache.has(key)) return rawCharacterLocaleCache.get(key);
+  const rel = `Nanoka/${game}/${nch()}/raw/characters.json`;
+  const map = new Map();
+  if (exists(rel)) {
+    const raw = readJson(rel);
+    const rows = Array.isArray(raw) ? raw : Object.values(raw || {});
+    rows.forEach((row) => {
+      const names = localizedNamesFrom(row);
+      const name = row.en || row.name || row.code || row.code_name;
+      if (name && names) map.set(normKey(name), names);
+    });
+  }
+  rawCharacterLocaleCache.set(key, map);
+  return map;
+}
+
+function prydwenVoiceActors(game, slug) {
+  if (!slug) return undefined;
+  const rel = `Prydwen/${game}/pages/characters/${slug}.json`;
+  if (!exists(rel)) return undefined;
+  const page = readJson(rel);
+  const section = (page.sections || []).find((row) => /voice actors?/i.test(row.heading || row.id || ''));
+  const text = section?.text || '';
+  if (!text) return undefined;
+  const out = {};
+  const patterns = [
+    ['english', /\b(?:ENG|EN)\s+([^\n]+)/i],
+    ['japanese', /\b(?:JPN|JP)\s+([^\n]+)/i],
+    ['chinese', /\b(?:CN|CHN)\s+([^\n]+)/i],
+    ['korean', /\b(?:KR|KOR)\s+([^\n]+)/i],
+  ];
+  patterns.forEach(([key, pattern]) => {
+    const match = text.match(pattern);
+    const value = cleanText(match?.[1], 120);
+    if (value && value !== '-') out[key] = value;
+  });
+  return Object.keys(out).length ? out : undefined;
+}
+
 const QUALITY_RARITY = {
   QUALITY_WHITE: 1,
   QUALITY_GREEN: 2,
@@ -703,13 +808,18 @@ function gcgAssetLabel(file) {
 
 function buildGenshinTcgCards() {
   const characterRel = 'Nanoka/gi/gcg/character cards/cards.json';
+  const otherRel = 'Nanoka/gi/gcg/other cards/cards.json';
   const reportRel = 'Nanoka/gi/gcg/report.json';
   const sourceUrl = 'https://gi.nanoka.cc/gcg';
+  const ambrRel = 'Ambr/gi/gcg/cards-en.json';
+  const ambrById = new Map((exists(ambrRel) ? readJson(ambrRel) : []).map((card) => [String(card.id), card]));
   const characterCards = exists(characterRel)
     ? readJson(characterRel).map((card) => ({
       id: String(card.id || card.name),
       name: card.name || card.playableCharacter || String(card.id),
       title: card.title || null,
+      description: card.description || ambrById.get(String(card.id || card.name))?.description || null,
+      localizedNames: card.localizedNames || undefined,
       type: card.type || 'Character',
       tags: Array.isArray(card.tags) ? card.tags : [],
       playableCharacter: card.playableCharacter || null,
@@ -718,25 +828,40 @@ function buildGenshinTcgCards() {
     })).filter((card) => card.art)
     : [];
   const otherDir = path.resolve(dbDir, 'Nanoka/gi/gcg/other cards/assets');
-  const otherCards = fs.existsSync(otherDir)
-    ? fs.readdirSync(otherDir, { withFileTypes:true })
-      .filter((entry) => entry.isFile() && /\.webp$/i.test(entry.name))
-      .map((entry) => {
-        const id = entry.name.match(/^(\d+)-/)?.[1] || entry.name.replace(/\.webp$/i, '');
+  const otherCards = exists(otherRel)
+    ? readJson(otherRel).map((card) => ({
+      id:String(card.id || card.name),
+      name:card.name || String(card.id),
+      title:card.title || null,
+      description:card.description || ambrById.get(String(card.id || card.name))?.description || null,
+      localizedNames:card.localizedNames || undefined,
+      type:card.type || 'Action',
+      tags:Array.isArray(card.tags) ? card.tags : [],
+      playableCharacter:null,
+      art:dbAsset(card.localAsset),
+      source:'Nanoka',
+    })).filter((card) => card.art).sort((a, b) => a.name.localeCompare(b.name))
+    : fs.existsSync(otherDir)
+      ? fs.readdirSync(otherDir, { withFileTypes:true })
+        .filter((entry) => entry.isFile() && /\.webp$/i.test(entry.name))
+        .map((entry) => {
+          const id = entry.name.match(/^(\d+)-/)?.[1] || entry.name.replace(/\.webp$/i, '');
         return {
           id:String(id),
           name:gcgAssetLabel(entry.name) || String(id),
           title:null,
+          description:ambrById.get(String(id))?.description || null,
+          localizedNames:ambrById.get(String(id))?.localizedNames || undefined,
           type:'Action',
           tags:[],
           playableCharacter:null,
           art:dbAsset(`Nanoka/gi/gcg/other cards/assets/${entry.name}`),
           source:'Nanoka',
         };
-      })
-      .filter((card) => card.art)
-      .sort((a, b) => a.name.localeCompare(b.name))
-    : [];
+        })
+        .filter((card) => card.art)
+        .sort((a, b) => a.name.localeCompare(b.name))
+      : [];
   const report = exists(reportRel) ? readJson(reportRel) : null;
   return {
     source:'Nanoka',
@@ -857,36 +982,57 @@ function localAvatarOverlay(game) {
   const cacheKey = `${key}:${nch()}`;
   if (localAvatarOverlayCache.has(cacheKey)) return localAvatarOverlayCache.get(cacheKey);
   const byName = new Map();
+  const fandom = fandomCharacterMetadata(key);
 
   if (key === 'hsr' && exists(`Nanoka/hsr/${nch()}/characters.json`)) {
+    const localized = rawCharacterLocaleMap('hsr');
     for (const ch of readJson(`Nanoka/hsr/${nch()}/characters.json`)) {
       if (!ch?.name) continue;
+      const meta = fandom.get(normKey(ch.name));
       byName.set(normKey(ch.name), {
         icon: dbAsset(ch.assets?.roundIcon || ch.assets?.avatar),
         fallbackArt: dbAsset(ch.assets?.drawCard || ch.assets?.avatar),
         title: titleOverride('hsr', ch.name),
+        localizedNames: localized.get(normKey(ch.name)) || meta?.localizedNames,
+        voiceActors: mergeVoiceActors(voiceActorsFrom(ch.profile?.va), meta?.voiceActors),
+        release: parseRelease(ch.release) || meta?.release,
+        releasePatch: meta?.releasePatch,
       });
     }
   }
 
   if (key === 'zzz' && exists(`Nanoka/zzz/${nch()}/agents.json`)) {
+    const localized = rawCharacterLocaleMap('zzz');
     for (const ch of readJson(`Nanoka/zzz/${nch()}/agents.json`)) {
       if (!ch?.name) continue;
+      const meta = fandom.get(normKey(ch.name));
       byName.set(normKey(ch.name), {
         icon: dbAsset(ch.assets?.partnerIcon || ch.assets?.icon),
         fallbackArt: dbAsset(ch.assets?.icon),
         title: titleOverride('zzz', ch.name),
+        localizedNames: localized.get(normKey(ch.name)) || meta?.localizedNames,
+        voiceActors: meta?.voiceActors,
+        release: meta?.release,
+        releasePatch: meta?.releasePatch,
       });
     }
   }
 
   if (key === 'wuwa' && exists(`Nanoka/ww/${nch()}/characters.json`)) {
+    const localized = rawCharacterLocaleMap('ww');
     for (const ch of readJson(`Nanoka/ww/${nch()}/characters.json`)) {
       if (!ch?.name) continue;
+      const detailRel = `Nanoka/ww/${nch()}/raw/characters/${ch.id}.json`;
+      const detail = exists(detailRel) ? readJson(detailRel) : null;
+      const meta = fandom.get(normKey(ch.name));
       byName.set(normKey(ch.name), {
         icon: dbAsset(ch.assets?.icon),
         fallbackArt: dbAsset(ch.assets?.background),
         title: titleOverride('wuwa', ch.name),
+        localizedNames: localized.get(normKey(ch.name)) || meta?.localizedNames,
+        voiceActors: mergeVoiceActors(voiceActorsFrom(detail || ch.profile), meta?.voiceActors),
+        release: meta?.release,
+        releasePatch: meta?.releasePatch,
         releaseOrder: Number(ch.id) || 0,
       });
     }
@@ -1222,6 +1368,7 @@ function kindRank(kind) {
 
 function buildGiRoster() {
   const signatures = loadGiSignatureMap();
+  const fandom = fandomCharacterMetadata('gi');
   const chars = readJson(`Nanoka/gi/${nch()}/characters.json`)
     .filter((ch) => ch.name && (ch.rarity === 4 || ch.rarity === 5))
     .map((ch) => {
@@ -1235,15 +1382,19 @@ function buildGiRoster() {
       const birthdayArtPool = GENSHIN_BIRTHDAY_ART.get(nameKey) || [];
       const signature = signatures.get(nameKey);
       const skillIcons = giSkillIcons(raw);
+      const meta = fandom.get(nameKey);
       return {
         id: 'gi-' + ch.id,
         n: ch.name,
+        localizedNames: localizedNamesFrom(raw || ch) || meta?.localizedNames,
         title: displayTitle('gi', ch),
         r: ch.rarity,
         el: ch.element || raw?.element || 'Unknown',
         w: weaponMap[ch.weapon] || ch.weapon || 'Unknown',
         tag: ch.profile?.region ? String(ch.profile.region).replace(/^ASSOC_TYPE_/, '').replace(/_/g, ' ') : undefined,
-        release: parseRelease(ch.release),
+        release: parseRelease(ch.release) || meta?.release,
+        releasePatch: meta?.releasePatch,
+        voiceActors: mergeVoiceActors(voiceActorsFrom(ch.profile?.va), meta?.voiceActors),
         icon: circleIcon || fallbackIcon,
         iconZoom,
         art: dbAsset(ch.assets?.gacha || ch.assets?.card || ch.assets?.circle || ch.assets?.icon),
@@ -1718,12 +1869,14 @@ function buildWuwaSkillIconMap() {
 function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName = null) {
   const overlayGame = game === 'ww' ? 'wuwa' : game;
   const overlay = localAvatarOverlay(game);
+  const fandom = fandomCharacterMetadata(overlayGame);
   const rawChars = readJson(`Prydwen/${game}/characters.json`);
   // ZZZ: only surface agents Nanoka actually has — drop Prydwen-only placeholders
   // (which arrive without icons/data). Other games keep the full Prydwen roster.
   const chars = (game === 'zzz' ? rawChars.filter((ch) => overlay.has(normKey(ch.name))) : rawChars).map((ch) => {
     const mapped = mapFacts(ch.facts || {});
     const local = overlay.get(normKey(ch.name));
+    const meta = fandom.get(normKey(ch.name));
     const req = reqByName?.get(String(ch.name || '').toLowerCase()) || reqByName?.get(normKey(ch.name)) || null;
     const skillIcons = skillIconsByName?.get(String(ch.name || '').toLowerCase()) || skillIconsByName?.get(normKey(ch.name)) || (game === 'zzz' ? ZZZ_SKILL_ICONS : null);
     const signatureLightCone = game === 'hsr' ? hsrSignatureForCharacter(ch.name, mapped.path) : null;
@@ -1750,10 +1903,14 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     return {
       id: `${game}-${ch.id}`,
       n: ch.name,
+      localizedNames: local?.localizedNames || meta?.localizedNames,
       title: local?.title || displayTitle(overlayGame, ch, ch.facts || {}),
       slug: ch.slug,
+      release: local?.release || meta?.release || undefined,
+      releasePatch: local?.releasePatch || meta?.releasePatch || undefined,
       updated: parsePrydwenDate(ch.updatedText),
       sourceOrder: local?.releaseOrder || 0,
+      voiceActors: mergeVoiceActors(local?.voiceActors || prydwenVoiceActors(game, ch.slug), meta?.voiceActors),
       icon,
       iconZoom,
       art,

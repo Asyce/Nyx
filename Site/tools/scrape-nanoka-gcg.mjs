@@ -179,6 +179,13 @@ for (const [id, raw] of Object.entries(payloads.gcg)) {
     id,
     name,
     title: raw.title || null,
+    description: raw.desc || null,
+    localizedNames: {
+      ...(raw.en ? { en: raw.en } : {}),
+      ...(raw.zh ? { zh: raw.zh } : {}),
+      ...(raw.ja ? { ja: raw.ja } : {}),
+      ...(raw.ko ? { ko: raw.ko } : {}),
+    },
     type: raw.type || null,
     icon: raw.icon || null,
     tags: raw.tag || [],

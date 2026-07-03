@@ -89,6 +89,45 @@ function cmLoadIdentityPrefs(){
   }
 }
 
+const CM_LANGUAGE_DEFAULTS = { gi:'en', hsr:'en', zzz:'en', wuwa:'en', ae:'en' };
+const CM_LANGUAGE_ALLOWED = ['en', 'zh', 'ja', 'ko'];
+
+function cmSanitizeLanguagePrefs(raw){
+  const src = (raw && typeof raw === 'object') ? raw : {};
+  const next = Object.assign({}, CM_LANGUAGE_DEFAULTS);
+  Object.keys(CM_LANGUAGE_DEFAULTS).forEach((key) => {
+    if (CM_LANGUAGE_ALLOWED.includes(src[key])) next[key] = src[key];
+  });
+  return next;
+}
+
+function cmLanguagePrefsKey(prefs){
+  const safe = cmSanitizeLanguagePrefs(prefs);
+  return Object.keys(CM_LANGUAGE_DEFAULTS).map((key) => safe[key]).join('|');
+}
+
+function cmLoadLanguagePrefs(){
+  try {
+    if (typeof window !== 'undefined' && window.NYX_LANGUAGE_PREFS) {
+      return cmSanitizeLanguagePrefs(window.NYX_LANGUAGE_PREFS);
+    }
+    const raw = JSON.parse(localStorage.getItem(CM_IDENTITY_SETTINGS_KEY) || '{}');
+    return cmSanitizeLanguagePrefs(raw.language);
+  } catch (e) {
+    return Object.assign({}, CM_LANGUAGE_DEFAULTS);
+  }
+}
+
+function cmAlwaysBetaEnabled(){
+  try {
+    if (typeof window !== 'undefined' && window.NYX_ALWAYS_BETA === true) return true;
+    const raw = JSON.parse(localStorage.getItem(CM_IDENTITY_SETTINGS_KEY) || '{}');
+    return raw.alwaysBeta === true;
+  } catch (e) {
+    return false;
+  }
+}
+
 const CM_SPECIAL_UNIT_DEFAULTS = {
   gi: { aloy:true },
   hsr: { archer:true, saber:true, rin_tohsaka:true, gilgamesh:true },
@@ -1014,8 +1053,46 @@ function cmMetaChips(gameKey, ch){
     const id = key + ':' + text.toLowerCase();
     if (seen.has(id)) return null;
     seen.add(id);
-    return { key, label, value:text };
+  return { key, label, value:text };
   }).filter(Boolean);
+}
+
+function cmFormatReleaseDate(value){
+  const raw = Number(value || 0);
+  if (!Number.isFinite(raw) || raw <= 0) return '';
+  const d = new Date(raw);
+  if (!Number.isFinite(d.getTime())) return '';
+  return d.toLocaleDateString(undefined, { year:'numeric', month:'short', day:'numeric' });
+}
+
+function cmCharacterReleaseText(ch){
+  const date = cmFormatReleaseDate(ch?.release || ch?.releaseDate || ch?.updated);
+  const patch = ch?.releasePatch || ch?.patch || ch?.version;
+  if (date && patch) return date + ' - Patch ' + patch;
+  return date || (patch ? 'Patch ' + patch : '');
+}
+
+function cmVoiceRows(ch){
+  const va = ch?.voiceActors || ch?.va;
+  if (!va || typeof va !== 'object') return [];
+  const labels = [
+    ['english', 'EN'], ['en', 'EN'],
+    ['japanese', 'JP'], ['ja', 'JP'], ['jp', 'JP'],
+    ['chinese', 'CN'], ['zh', 'CN'], ['cn', 'CN'],
+    ['korean', 'KR'], ['ko', 'KR'], ['kr', 'KR'],
+  ];
+  const seen = new Set();
+  return labels.map(([key, label]) => {
+    const value = cleanVaText(va[key]);
+    if (!value || seen.has(label)) return null;
+    seen.add(label);
+    return { key:label, label, value };
+  }).filter(Boolean);
+}
+
+function cleanVaText(value){
+  const text = String(value || '').replace(/\s+/g, ' ').trim();
+  return text && text !== '-' ? text : '';
 }
 
 function cmRoleLabel(ch){
@@ -1038,8 +1115,10 @@ function cmBlockArtStyle(artOrChars){
 }
 
 const NYX_CHARACTER_IMAGES_KEY = 'nyx:character-images:v1';
-const NYX_LOCAL_IMAGE_ACCEPT = 'image/png,image/jpeg,image/webp';
-const NYX_SAFE_DATA_IMAGE_RE = /^data:image\/(?:png|jpeg|jpg|webp);base64,[a-z0-9+/=\s]+$/i;
+const NYX_LOCAL_IMAGE_LIBRARY_KEY = 'nyx:local-image-library:v1';
+const NYX_LOCAL_IMAGE_ACCEPT = 'image/png,image/jpeg,image/webp,image/gif';
+const NYX_SAFE_DATA_IMAGE_RE = /^data:image\/(?:png|jpeg|jpg|webp|gif);base64,[a-z0-9+/=\s]+$/i;
+const NYX_SAFE_FILE_IMAGE_RE = /^image\/(?:png|jpeg|webp|gif)$/i;
 
 function nyxSafeImageSrc(src){
   const text = String(src || '').trim();
@@ -1047,6 +1126,57 @@ function nyxSafeImageSrc(src){
   if (/^javascript:/i.test(text)) return null;
   if (/^data:/i.test(text) && !NYX_SAFE_DATA_IMAGE_RE.test(text)) return null;
   return text;
+}
+
+function nyxLoadLocalImageLibrary(){
+  try {
+    const rows = JSON.parse(localStorage.getItem(NYX_LOCAL_IMAGE_LIBRARY_KEY) || '[]');
+    return Array.isArray(rows)
+      ? rows.map((row) => ({
+        id:String(row?.id || ''),
+        name:String(row?.name || 'Local image').slice(0, 80),
+        src:nyxSafeImageSrc(row?.src),
+        savedAt:Number(row?.savedAt || 0),
+      })).filter((row) => row.id && row.src).slice(0, 18)
+      : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function nyxSaveLocalImageLibrary(rows){
+  const clean = (rows || [])
+    .map((row) => ({
+      id:String(row?.id || ''),
+      name:String(row?.name || 'Local image').slice(0, 80),
+      src:nyxSafeImageSrc(row?.src),
+      savedAt:Number(row?.savedAt || Date.now()),
+    }))
+    .filter((row) => row.id && row.src)
+    .slice(0, 18);
+  try { localStorage.setItem(NYX_LOCAL_IMAGE_LIBRARY_KEY, JSON.stringify(clean)); } catch (e) {}
+  try { window.dispatchEvent(new CustomEvent('nyx:local-image-library-changed', { detail:clean })); } catch (e) {}
+  return clean;
+}
+
+function nyxRememberLocalImage(name, src){
+  const safe = nyxSafeImageSrc(src);
+  if (!safe) return nyxLoadLocalImageLibrary();
+  const current = nyxLoadLocalImageLibrary().filter((row) => row.src !== safe);
+  return nyxSaveLocalImageLibrary([
+    { id:String(Date.now()) + '-' + Math.random().toString(16).slice(2), name:name || 'Local image', src:safe, savedAt:Date.now() },
+    ...current,
+  ]);
+}
+
+function useNyxLocalImageLibrary(){
+  const [rows, setRows] = React.useState(nyxLoadLocalImageLibrary);
+  React.useEffect(() => {
+    const onChanged = (event) => setRows(Array.isArray(event.detail) ? event.detail : nyxLoadLocalImageLibrary());
+    window.addEventListener('nyx:local-image-library-changed', onChanged);
+    return () => window.removeEventListener('nyx:local-image-library-changed', onChanged);
+  }, []);
+  return [rows, setRows];
 }
 
 function nyxSanitizeCharacterImages(raw){
@@ -1159,32 +1289,45 @@ function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 5
   const [rotate, setRotate] = React.useState(0);
   const [panX, setPanX] = React.useState(0);
   const [panY, setPanY] = React.useState(0);
+  const [flipX, setFlipX] = React.useState(false);
+  const [flipY, setFlipY] = React.useState(false);
   const [ready, setReady] = React.useState(false);
   const [error, setError] = React.useState('');
+  const [library, setLibrary] = useNyxLocalImageLibrary();
   const imgRef = React.useRef(null);
 
-  React.useEffect(() => () => { if (sourceUrl) URL.revokeObjectURL(sourceUrl); }, [sourceUrl]);
+  const clamp = (value, min, max) => Math.max(min, Math.min(max, Number(value) || 0));
+  const setSource = (src, name = 'Local image', remember = false) => {
+    const safe = nyxSafeImageSrc(src);
+    if (!safe) {
+      setError('Use PNG, JPEG, WebP, or GIF.');
+      return;
+    }
+    setSourceUrl(safe);
+    setFileName(name || 'Local image');
+    setZoom(1.16);
+    setRotate(0);
+    setPanX(0);
+    setPanY(0);
+    setFlipX(false);
+    setFlipY(false);
+    setReady(false);
+    if (remember) setLibrary(nyxRememberLocalImage(name, safe));
+  };
 
   const pickFile = (event) => {
     const file = event.target.files && event.target.files[0];
     event.target.value = '';
     setError('');
     if (!file) return;
-    if (!/^image\/(?:png|jpeg|webp)$/i.test(file.type)) {
-      setError('Use PNG, JPEG, or WebP.');
+    if (!NYX_SAFE_FILE_IMAGE_RE.test(file.type)) {
+      setError('Use PNG, JPEG, WebP, or GIF.');
       return;
     }
-    const url = URL.createObjectURL(file);
-    setSourceUrl((prev) => {
-      if (prev) URL.revokeObjectURL(prev);
-      return url;
-    });
-    setFileName(file.name || 'Local image');
-    setZoom(1.16);
-    setRotate(0);
-    setPanX(0);
-    setPanY(0);
-    setReady(false);
+    const reader = new FileReader();
+    reader.onerror = () => setError('This image could not be read locally.');
+    reader.onload = () => setSource(reader.result, file.name || 'Local image', true);
+    reader.readAsDataURL(file);
   };
 
   const commit = () => {
@@ -1199,6 +1342,7 @@ function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 5
       ctx.save();
       ctx.translate(outputWidth / 2 + (panX / 100) * outputWidth * .45, outputHeight / 2 + (panY / 100) * outputHeight * .45);
       ctx.rotate((rotate * Math.PI) / 180);
+      ctx.scale(flipX ? -1 : 1, flipY ? -1 : 1);
       const baseScale = Math.max(outputWidth / img.naturalWidth, outputHeight / img.naturalHeight);
       const scale = baseScale * zoom;
       const drawW = img.naturalWidth * scale;
@@ -1210,6 +1354,21 @@ function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 5
       setError('This image could not be saved locally.');
     }
   };
+
+  const useOriginal = () => {
+    const safe = nyxSafeImageSrc(sourceUrl);
+    if (!safe) return;
+    onSave(safe);
+  };
+
+  const control = (name, value, min, max, step, setter, suffix = '') => (
+    <label>
+      <span>{name}</span>
+      <input type="range" min={min} max={max} step={step} value={value} onChange={(e) => setter(clamp(e.target.value, min, max))} />
+      <input type="number" min={min} max={max} step={step} value={value} onChange={(e) => setter(clamp(e.target.value, min, max))} aria-label={name + ' value'} />
+      <em>{suffix}</em>
+    </label>
+  );
 
   return (
     <div className={'nyx-img-editor shape-' + shape}>
@@ -1228,20 +1387,41 @@ function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 5
             alt=""
             draggable="false"
             onLoad={() => setReady(true)}
-            style={{ transform:`translate(${panX * .45}%, ${panY * .45}%) rotate(${rotate}deg) scale(${zoom})` }}
+            style={{ transform:`translate(${panX * .45}%, ${panY * .45}%) rotate(${rotate}deg) scale(${flipX ? -zoom : zoom}, ${flipY ? -zoom : zoom})` }}
           />
         </div>
       )}
+      {library.length > 0 && (
+        <div className="nyx-img-library-block">
+          <div className="nyx-img-library-head">
+            <span>Local image memory</span>
+            <button type="button" onClick={() => { nyxSaveLocalImageLibrary([]); setLibrary([]); }}>Clear</button>
+          </div>
+          <div className="nyx-img-library" aria-label="Previously uploaded local images">
+            {library.map((row) => (
+              <button type="button" key={row.id} title={row.name} onClick={() => setSource(row.src, row.name, false)}>
+                <img src={row.src} alt="" draggable="false" />
+                <span>{row.name}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
       <div className="nyx-img-fields">
-        <label><span>Zoom</span><input type="range" min="1" max="3" step=".01" value={zoom} onChange={(e) => setZoom(Number(e.target.value))} /></label>
-        <label><span>X</span><input type="range" min="-100" max="100" step="1" value={panX} onChange={(e) => setPanX(Number(e.target.value))} /></label>
-        <label><span>Y</span><input type="range" min="-100" max="100" step="1" value={panY} onChange={(e) => setPanY(Number(e.target.value))} /></label>
-        <label><span>Rotate</span><input type="range" min="-180" max="180" step="1" value={rotate} onChange={(e) => setRotate(Number(e.target.value))} /></label>
+        {control('Zoom', zoom, .1, 10, .01, setZoom, 'x')}
+        {control('X', panX, -500, 500, 1, setPanX)}
+        {control('Y', panY, -500, 500, 1, setPanY)}
+        {control('Rotate', rotate, -360, 360, 1, setRotate, 'deg')}
+      </div>
+      <div className="nyx-img-flips" role="group" aria-label="Mirror image">
+        <button type="button" className={flipX ? 'on' : ''} aria-pressed={flipX} onClick={() => setFlipX((v) => !v)} disabled={!sourceUrl}>Mirror Horizontal</button>
+        <button type="button" className={flipY ? 'on' : ''} aria-pressed={flipY} onClick={() => setFlipY((v) => !v)} disabled={!sourceUrl}>Mirror Vertical</button>
       </div>
       <div className="nyx-img-actions">
-        <span>{fileName || 'PNG, JPEG, or WebP. Stored only in this browser.'}</span>
+        <span>{fileName || 'PNG, JPEG, WebP, or GIF. Stored only in this browser.'}</span>
         <button type="button" onClick={() => setRotate((r) => r - 90)} disabled={!sourceUrl}>Rotate Left</button>
         <button type="button" onClick={() => setRotate((r) => r + 90)} disabled={!sourceUrl}>Rotate Right</button>
+        <button type="button" onClick={useOriginal} disabled={!sourceUrl}>Use Original</button>
         <button type="button" onClick={onCancel}>Cancel</button>
         <button type="button" className="primary" onClick={commit} disabled={!ready}>Save</button>
       </div>
@@ -1433,6 +1613,25 @@ function cmWithIdentityDisplay(ch, label, opts = {}){
   };
 }
 
+function cmApplyLanguageDisplay(gameKey, ch, prefs){
+  if (!ch) return ch;
+  const lang = cmSanitizeLanguagePrefs(prefs)[gameKey] || 'en';
+  if (lang === 'en') return ch;
+  const localized = ch.localizedNames && ch.localizedNames[lang];
+  if (!localized) return ch;
+  const forms = Array.isArray(ch.forms) ? ch.forms.map((form) => ({
+    ...form,
+    englishName: form.englishName || form.n,
+    n: form.localizedNames?.[lang] || localized,
+  })) : ch.forms;
+  return {
+    ...ch,
+    englishName: ch.englishName || ch.n,
+    n: localized,
+    forms,
+  };
+}
+
 function cmFormsForGender(ch, gender){
   const forms = Array.isArray(ch?.forms) ? ch.forms : [];
   const filtered = forms.filter((form) => form.gender === gender);
@@ -1597,7 +1796,10 @@ function cmHasBeta(gk){
   return !!(typeof window !== 'undefined' && window.CM_BETA_FILES && window.CM_BETA_FILES[gk]);
 }
 function cmLoadChannel(gk){
-  try { return localStorage.getItem('nyx:cm-channel:' + gk) === 'beta' ? 'beta' : 'live'; }
+  try {
+    if (cmAlwaysBetaEnabled() && cmHasBeta(gk)) return 'beta';
+    return localStorage.getItem('nyx:cm-channel:' + gk) === 'beta' ? 'beta' : 'live';
+  }
   catch (e) { return 'live'; }
 }
 function cmSaveChannel(gk, ch){
@@ -1652,8 +1854,11 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const [weaponPickerOpen, setWeaponPickerOpen] = React.useState(false);
   const [weaponSearch, setWeaponSearch] = React.useState('');
   const [totalIncludeByChar, setTotalIncludeByChar] = React.useState(cmLoadTotalIncludePrefs);
+  const [customizeOpen, setCustomizeOpen] = React.useState(false);
+  const [ledgerRestoreScroll, setLedgerRestoreScroll] = React.useState(0);
   const [identityPrefs, setIdentityPrefs] = React.useState(cmLoadIdentityPrefs);
   const [unitPrefs, setUnitPrefs] = React.useState(cmLoadSpecialUnitPrefs);
+  const [languagePrefs, setLanguagePrefs] = React.useState(cmLoadLanguagePrefs);
   const [characterImagePrefs, setCharacterImagePrefs] = useNyxCharacterImagePrefs();
 
   const betaAvailable = cmHasBeta(gk);
@@ -1691,14 +1896,19 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
 
   React.useEffect(() => {
     const onSettings = (event) => {
-      const next = cmSanitizeSpecialUnitPrefs((event.detail || {}).specialUnits || cmLoadSpecialUnitPrefs());
+      const detail = event.detail || {};
+      const next = cmSanitizeSpecialUnitPrefs(detail.specialUnits || cmLoadSpecialUnitPrefs());
+      const nextLang = cmSanitizeLanguagePrefs(detail.language || cmLoadLanguagePrefs());
       setUnitPrefs(next);
+      setLanguagePrefs((prev) => (cmLanguagePrefsKey(prev) === cmLanguagePrefsKey(nextLang) ? prev : nextLang));
+      window.NYX_ALWAYS_BETA = detail.alwaysBeta === true;
+      setChannel(cmLoadChannel(gk));
     };
     window.addEventListener('nyx:settings-changed', onSettings);
     return () => window.removeEventListener('nyx:settings-changed', onSettings);
-  }, []);
+  }, [gk]);
 
-  React.useEffect(() => { setSel(null); }, [identityPrefs, unitPrefs, gk]);
+  React.useEffect(() => { setSel(null); }, [identityPrefs, unitPrefs, languagePrefs, gk]);
 
   React.useEffect(() => {
     let live = true;
@@ -1754,6 +1964,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     if (!sel) {
       setActiveVariant(null);
       setActiveGender(null);
+      setCustomizeOpen(false);
       return;
     }
     const wanted = String(selectedName || '').toLowerCase();
@@ -1771,6 +1982,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     const nextRoster = (nextCfg.roster || [])
       .map((ch) => cmApplyIdentityDisplay(activeGame, ch, identityPrefs))
       .filter((ch) => cmSpecialUnitVisible(activeGame, ch, unitPrefs))
+      .map((ch) => cmApplyLanguageDisplay(activeGame, ch, languagePrefs))
       .map((ch) => nyxApplyCharacterCustomImages(activeGame, ch, characterImagePrefs));
     const wanted = String(selectedName).toLowerCase();
     const found = nextRoster.find((ch) => (
@@ -1785,7 +1997,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
         setActiveGender(form.gender || null);
       }
     }
-  }, [selectedName, game, gk, dataTick, identityPrefs, unitPrefs, characterImagePrefs]);
+  }, [selectedName, game, gk, dataTick, identityPrefs, unitPrefs, languagePrefs, characterImagePrefs]);
   React.useEffect(() => {
     setWeaponPickerOpen(false);
     setWeaponSearch('');
@@ -1794,6 +2006,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   // dialog, close on Escape, and restore focus to the triggering card on close.
   const cmPopRef = React.useRef(null);
   const cmCloseBtnRef = React.useRef(null);
+  const cmLedgerMainRef = React.useRef(null);
   React.useEffect(() => {
     if (!sel) return undefined;
     const trigger = (typeof document !== 'undefined') ? document.activeElement : null;
@@ -1846,6 +2059,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const displayRoster = (cfg.roster || [])
     .map((ch) => cmApplyIdentityDisplay(gk, ch, identityPrefs))
     .filter((ch) => cmSpecialUnitVisible(gk, ch, unitPrefs))
+    .map((ch) => cmApplyLanguageDisplay(gk, ch, languagePrefs))
     .map((ch) => nyxApplyCharacterCustomImages(gk, ch, characterImagePrefs));
   const byName = {};
   displayRoster.forEach(ch => {
@@ -2022,6 +2236,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const selArt = view ? (view.customBackground || cmPopupArtFor(gk, sel, view, activeArtIndex)) : null;
   const specialArtClass = view && !view.customBackground ? cmSpecialArtClass(gk, sel, view) : '';
   const metaChips = view ? cmMetaChips(gk, view) : [];
+  const releaseText = view ? cmCharacterReleaseText(view) : '';
+  const voiceRows = view ? cmVoiceRows(view) : [];
   const setGiTalentTarget = (index, value) => {
     const next = giTargets.slice(0, 3);
     next[index] = Math.max(1, Math.min(10, Number(value) || 1));
@@ -2058,8 +2274,20 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     });
   };
   const closePop = () => {
+    setCustomizeOpen(false);
     setSel(null);
     if (modalOnly && onClose) onClose();
+  };
+  const openCustomize = () => {
+    const node = cmLedgerMainRef.current;
+    setLedgerRestoreScroll(node ? node.scrollTop : 0);
+    setCustomizeOpen(true);
+    setTimeout(() => { if (cmLedgerMainRef.current) cmLedgerMainRef.current.scrollTop = 0; }, 0);
+  };
+  const backFromCustomize = () => {
+    setCustomizeOpen(false);
+    const top = ledgerRestoreScroll;
+    setTimeout(() => { if (cmLedgerMainRef.current) cmLedgerMainRef.current.scrollTop = top; }, 0);
   };
 
   const hasBoss = !!cfg.tabs.boss;
@@ -2308,7 +2536,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                     ref={cmCloseBtnRef} onClick={closePop}>{'\u2715'}</button>
 
             <div className="cm-pop-layout">
-              <div className="cm-pop-main cm-ledger-main">
+              <div className="cm-pop-main cm-ledger-main" ref={cmLedgerMainRef}>
                 <div className="cm-ledger-top">
                   <div className="cm-ledger-title">
                     <div className="cm-pop-name-row">
@@ -2328,6 +2556,14 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                         </span>
                       )}
                     </div>
+                    {(releaseText || voiceRows.length > 0) && (
+                      <div className="cm-pop-extra-meta">
+                        {releaseText && <span><b>Release</b>{releaseText}</span>}
+                        {voiceRows.length > 0 && (
+                          <span className="voice"><b>VA</b>{voiceRows.map((row) => <em key={row.key}>{row.label}: {row.value}</em>)}</span>
+                        )}
+                      </div>
+                    )}
                   </div>
 
                   {gk === 'gi' && view.req?.talentStages?.length > 0 && (
@@ -2353,6 +2589,21 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                   )}
                 </div>
 
+                {customizeOpen ? (
+                  <div className="cm-customize-view">
+                    <button type="button" className="cm-custom-back" onClick={backFromCustomize}>
+                      <span>{'\u2039'}</span><b>Back to Materials</b>
+                    </button>
+                    <CharacterImageControls
+                      gameKey={gk}
+                      base={sel}
+                      view={view}
+                      prefs={characterImagePrefs}
+                      onPrefs={setCharacterImagePrefs}
+                    />
+                  </div>
+                ) : (
+                  <React.Fragment>
                 {(formOptions.length > 1 || genderOptions.length > 1) && (
                   <div className="cm-form-switches compact">
                     {formOptions.length > 1 && (
@@ -2391,14 +2642,6 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                     )}
                   </div>
                 )}
-
-                <CharacterImageControls
-                  gameKey={gk}
-                  base={sel}
-                  view={view}
-                  prefs={characterImagePrefs}
-                  onPrefs={setCharacterImagePrefs}
-                />
 
                 <div className="cm-ledger-rows">
                   {selArt && <div className={'cm-ledger-art' + specialArtClass} aria-hidden="true"><img src={selArt} alt="" draggable="false" /></div>}
@@ -2595,7 +2838,15 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                   {!hasAnyLedgerReq && (
                     <div className="cm-empty">No material data available for this unit yet.</div>
                   )}
+                  <div className="cm-ledger-customize-entry">
+                    <button type="button" onClick={openCustomize}>
+                      <span>Customize Visuals</span>
+                      <b>Icon / Background / Local Upload</b>
+                    </button>
+                  </div>
                 </div>
+                  </React.Fragment>
+                )}
               </div>
             </div>
           </div>

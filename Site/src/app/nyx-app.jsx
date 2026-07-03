@@ -1645,6 +1645,7 @@ function GenshinTcgView(){
   const tcg = gameData.tcg || {};
   const [kind, setKind] = React.useState('all');
   const [q, setQ] = React.useState('');
+  const [activeCard, setActiveCard] = React.useState(null);
   const cards = [
     ...((tcg.characterCards || []).map((card) => ({ ...card, kind:'character' }))),
     ...((tcg.otherCards || []).map((card) => ({ ...card, kind:'action' }))),
@@ -1652,7 +1653,7 @@ function GenshinTcgView(){
   const qq = q.trim().toLowerCase();
   const visible = cards.filter((card) => {
     if (kind !== 'all' && card.kind !== kind) return false;
-    const hay = [card.name, card.title, card.type, card.playableCharacter, ...(card.tags || [])].filter(Boolean).join(' ').toLowerCase();
+    const hay = [card.name, card.title, card.type, card.description, card.playableCharacter, ...(card.tags || [])].filter(Boolean).join(' ').toLowerCase();
     return !qq || hay.includes(qq);
   });
   const filters = [
@@ -1679,22 +1680,33 @@ function GenshinTcgView(){
       </div>
       <div className="tcg-grid">
         {visible.map((card) => (
-          <article className={'tcg-card kind-' + card.kind} key={card.kind + '-' + card.id}>
+          <button type="button" className={'tcg-card kind-' + card.kind} key={card.kind + '-' + card.id}
+                  onClick={() => setActiveCard(card)}>
             <div className="tcg-art">
               {card.art ? <img src={card.art} alt="" draggable="false" /> : <span>{simInitials(card.name)}</span>}
             </div>
             <div className="tcg-meta">
               <b>{card.name}</b>
-              {card.title && <em>{card.title}</em>}
-              <span>{card.type || (card.kind === 'character' ? 'Character Card' : 'Action Card')}</span>
-              {!!(card.tags || []).length && (
-                <div>{card.tags.slice(0, 4).map((tag) => <i key={tag}>{tag}</i>)}</div>
-              )}
             </div>
-          </article>
+          </button>
         ))}
       </div>
       {visible.length === 0 && <div className="db-empty">No TCG cards match your search.</div>}
+      {activeCard && (
+        <div className="tcg-detail-pop" role="dialog" aria-modal="true" aria-label={activeCard.name + ' details'} onMouseDown={(e) => { if (e.target === e.currentTarget) setActiveCard(null); }}>
+          <article>
+            <button type="button" className="tcg-detail-close" aria-label="Close TCG details" onClick={() => setActiveCard(null)}>{'\u2715'}</button>
+            <div className="tcg-detail-art">{activeCard.art ? <img src={activeCard.art} alt="" draggable="false" /> : <span>{simInitials(activeCard.name)}</span>}</div>
+            <div className="tcg-detail-copy">
+              <b>{activeCard.name}</b>
+              {activeCard.title && <em>{activeCard.title}</em>}
+              <span>{activeCard.type || (activeCard.kind === 'character' ? 'Character Card' : 'Action Card')}</span>
+              {!!(activeCard.tags || []).length && <div>{activeCard.tags.join(' / ')}</div>}
+              <p>{activeCard.description || 'No card text is available in the local scrape yet.'}</p>
+            </div>
+          </article>
+        </div>
+      )}
     </div>
   );
 }
@@ -1841,6 +1853,13 @@ const DEFAULT_TAB = () => 'overview';
 const NYX_PENGO_SETTINGS_KEY = 'nyx-pengo-settings';
 const NYX_PENGO_DISPLAY_DEFAULTS = { gi:true, hsr:true, zzz:true, wuwa:true, ae:true };
 const NYX_IDENTITY_DEFAULTS = { twin:'aether', receptacle:'caelus', sibling:'wise', rover:'male', endmin:'male' };
+const NYX_LANGUAGE_DEFAULTS = { gi:'en', hsr:'en', zzz:'en', wuwa:'en', ae:'en' };
+const NYX_LANGUAGE_OPTIONS = [
+  ['en', 'English'],
+  ['zh', 'Chinese'],
+  ['ja', 'Japanese'],
+  ['ko', 'Korean'],
+];
 const NYX_IDENTITY_GROUPS = [
   { key:'twin', label:'Traveler', tip:'Who went with Columbina to the moon?', options:[['aether', 'Aether'], ['lumine', 'Lumine'], ['paimon', 'Paimon'], ['little_one', 'Little One'], ['arama', 'Arama']] },
   { key:'receptacle', label:'Trailblazer', tip:'Who is digging into the Trashcan?', options:[['caelus', 'Caelus'], ['stelle', 'Stelle'], ['pom_pom', 'Pom-Pom'], ['gepard', 'Gepard?'], ['trash', 'I am Trash']] },
@@ -1855,7 +1874,9 @@ const NYX_PENGO_DEFAULTS = {
   displayGames: NYX_PENGO_DISPLAY_DEFAULTS,
   gameIcons: {},
   identity: NYX_IDENTITY_DEFAULTS,
+  language: NYX_LANGUAGE_DEFAULTS,
   specialUnits: NYX_SPECIAL_UNIT_DEFAULTS,
+  alwaysBeta: false,
   lapis: false,
   energy: 35,
   spawn: 1,
@@ -1888,6 +1909,16 @@ function sanitizeGameIcons(raw){
   return next;
 }
 
+function sanitizeNyxLanguage(raw){
+  const src = (raw && typeof raw === 'object') ? raw : {};
+  const next = Object.assign({}, NYX_LANGUAGE_DEFAULTS);
+  const allowed = NYX_LANGUAGE_OPTIONS.map(([key]) => key);
+  Object.keys(NYX_LANGUAGE_DEFAULTS).forEach((key) => {
+    if (allowed.includes(src[key])) next[key] = src[key];
+  });
+  return next;
+}
+
 function loadPengoSettings(){
   try {
     const raw = JSON.parse(localStorage.getItem(NYX_PENGO_SETTINGS_KEY) || '{}');
@@ -1896,7 +1927,9 @@ function loadPengoSettings(){
       displayGames: Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS, raw.displayGames || {}),
       gameIcons: sanitizeGameIcons(raw.gameIcons),
       identity: sanitizeNyxIdentity(raw.identity),
+      language: sanitizeNyxLanguage(raw.language),
       specialUnits: sanitizeSpecialUnits(raw.specialUnits),
+      alwaysBeta: raw.alwaysBeta === true,
       energy: clampPengoNumber(raw.energy ?? NYX_PENGO_DEFAULTS.energy, 1, 69),
       spawn: clampPengoNumber(raw.spawn ?? NYX_PENGO_DEFAULTS.spawn, 0, 9999),
       sacrifice: clampPengoNumber(raw.sacrifice ?? NYX_PENGO_DEFAULTS.sacrifice, 0, 9999),
@@ -1967,8 +2000,14 @@ function GameIconPicker({ game, selected, onPick }){
     const rect = node.getBoundingClientRect();
     const width = Math.min(560, Math.max(320, window.innerWidth - 32));
     const left = Math.max(16, Math.min(window.innerWidth - width - 16, rect.right - width));
-    const top = Math.max(16, Math.min(window.innerHeight - 120, rect.bottom + 8));
-    setPos({ left, top, width });
+    const desired = Math.min(720, window.innerHeight - 32);
+    const belowTop = rect.bottom + 8;
+    const aboveTop = rect.top - desired - 8;
+    const top = belowTop + 320 <= window.innerHeight
+      ? Math.max(16, belowTop)
+      : Math.max(16, Math.min(rect.top - 16, aboveTop > 16 ? aboveTop : window.innerHeight - desired - 16));
+    const maxHeight = Math.max(280, window.innerHeight - top - 16);
+    setPos({ left, top, width, maxHeight });
   }, []);
   React.useEffect(() => {
     if (!open) return undefined;
@@ -1991,7 +2030,7 @@ function GameIconPicker({ game, selected, onPick }){
     };
   }, [open, updatePos]);
   const pop = open ? (
-    <div className="pm-icon-pop fixed" ref={popRef} style={pos ? { left:pos.left + 'px', top:pos.top + 'px', width:pos.width + 'px' } : undefined}>
+    <div className="pm-icon-pop fixed" ref={popRef} style={pos ? { left:pos.left + 'px', top:pos.top + 'px', width:pos.width + 'px', maxHeight:pos.maxHeight + 'px' } : undefined}>
       <div className="pm-icon-search">
         <input value={q} placeholder="Search icons" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
         <button type="button" onClick={() => setEditing((v) => !v)}>{editing ? 'Close Upload' : 'Upload Local'}</button>
@@ -2033,12 +2072,15 @@ function GameIconPicker({ game, selected, onPick }){
 }
 
 function PengoMenu({ settings, setSettings, inline }){
+  const [collabOpen, setCollabOpen] = React.useState({});
   const update = (patch) => setSettings((prev) => Object.assign({}, prev, patch));
   const identity = sanitizeNyxIdentity(settings.identity);
   const gameIcons = sanitizeGameIcons(settings.gameIcons);
   const specialUnits = sanitizeSpecialUnits(settings.specialUnits);
   const displayGames = Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS, settings.displayGames || {});
+  const language = sanitizeNyxLanguage(settings.language);
   const setIdentity = (group, value) => update({ identity:Object.assign({}, identity, { [group]:value }) });
+  const setLanguage = (gameKey, value) => update({ language:Object.assign({}, language, { [gameKey]:value }) });
   const opusCount = clampPengoNumber(settings.spawn ?? settings.sacrifice ?? NYX_PENGO_DEFAULTS.spawn, 0, 9999);
   const setOpusCount = (value) => {
     const next = clampPengoNumber(value, 0, 9999);
@@ -2059,10 +2101,23 @@ function PengoMenu({ settings, setSettings, inline }){
       [gameKey]:Object.assign({}, specialUnits[gameKey] || {}, { [unitKey]:(specialUnits[gameKey] || {})[unitKey] === false }),
     }),
   });
+  const setCollabAll = (gameKey, specials, enabled) => update({
+    specialUnits:Object.assign({}, specialUnits, {
+      [gameKey]:Object.assign({}, specialUnits[gameKey] || {}, Object.fromEntries(specials.map(([unitKey]) => [unitKey, enabled]))),
+    }),
+  });
+  const resetAll = () => setSettings(Object.assign({}, NYX_PENGO_DEFAULTS, {
+    displayGames:Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS),
+    gameIcons:{},
+    identity:Object.assign({}, NYX_IDENTITY_DEFAULTS),
+    language:Object.assign({}, NYX_LANGUAGE_DEFAULTS),
+    specialUnits:sanitizeSpecialUnits(NYX_SPECIAL_UNIT_DEFAULTS),
+  }));
   const resetInterface = () => update({
     whispers: NYX_PENGO_DEFAULTS.whispers,
     animation: NYX_PENGO_DEFAULTS.animation,
     khaenriah: NYX_PENGO_DEFAULTS.khaenriah,
+    alwaysBeta: NYX_PENGO_DEFAULTS.alwaysBeta,
   });
   const resetOpus = () => update({
     lapis: NYX_PENGO_DEFAULTS.lapis,
@@ -2070,6 +2125,24 @@ function PengoMenu({ settings, setSettings, inline }){
     spawn: NYX_PENGO_DEFAULTS.spawn,
     sacrifice: NYX_PENGO_DEFAULTS.sacrifice,
   });
+  const resetGame = (gameKey, groupKey, specials) => update({
+    displayGames:Object.assign({}, displayGames, { [gameKey]:NYX_PENGO_DISPLAY_DEFAULTS[gameKey] }),
+    gameIcons:Object.fromEntries(Object.entries(gameIcons).filter(([key]) => key !== gameKey)),
+    identity:Object.assign({}, identity, { [groupKey]:NYX_IDENTITY_DEFAULTS[groupKey] }),
+    language:Object.assign({}, language, { [gameKey]:NYX_LANGUAGE_DEFAULTS[gameKey] }),
+    specialUnits:Object.assign({}, specialUnits, specials.length ? { [gameKey]:Object.assign({}, NYX_SPECIAL_UNIT_DEFAULTS[gameKey] || {}) } : {}),
+  });
+  const identityPreview = (gameKey, group, value) => {
+    const assets = (typeof CM_IDENTITY_ASSETS !== 'undefined' && CM_IDENTITY_ASSETS[gameKey]) ? CM_IDENTITY_ASSETS[gameKey] : {};
+    if (assets[value]?.icon) return assets[value].icon;
+    const cfg = GAME_REGISTRY[gameKey];
+    if (!cfg) return null;
+    const protagonist = makeRoster(cfg).find((ch) => String(ch.id || '').includes(group.key) || String(ch.n || ch.name || '').toLowerCase() === String(group.label || '').toLowerCase());
+    const forms = protagonist?.forms || [];
+    const gender = (value === 'lumine' || value === 'stelle' || value === 'female' || value === 'belle') ? 'female' : (value === 'aether' || value === 'caelus' || value === 'male' || value === 'wise') ? 'male' : null;
+    const form = forms.find((row) => row.gender === gender) || forms[0] || protagonist;
+    return form?.icon || form?.circle || protagonist?.icon || protagonist?.circle || null;
+  };
   const nextAnim = settings.animation === 'play' ? 'pause' : (settings.animation === 'pause' ? 'stop' : 'play');
   const animIcon = settings.animation === 'play' ? '\u25b6' : (settings.animation === 'pause' ? '\u23f8' : '\u25a0');
   return (
@@ -2088,6 +2161,10 @@ function PengoMenu({ settings, setSettings, inline }){
             <span>Energy</span>
             <input type="range" min="1" max="69" value={settings.energy}
                    onChange={(e) => update({ energy:clampPengoNumber(e.target.value, 1, 69) })} />
+            <input type="number" min="1" max="69" inputMode="numeric" value={settings.energy}
+                   aria-label="Energy value"
+                   onChange={(e) => update({ energy:clampPengoNumber(e.target.value, 1, 69) })}
+                   onFocus={(e) => e.target.select()} />
           </label>
           <div className="pm-opus-actions">
             <button type="button" className="pm-action" data-tip="Summon more Pengo assistants to keep you company!">Summon</button>
@@ -2116,7 +2193,15 @@ function PengoMenu({ settings, setSettings, inline }){
                   onClick={() => update({ khaenriah:!settings.khaenriah })}>
             <span>Welcome to Khaenri'ah</span><b className="pm-state">{settings.khaenriah ? 'On' : 'Off'}</b>
           </button>
+          <button type="button" className="pm-row" data-tip="Always show beta data where a beta channel exists"
+                  onClick={() => update({ alwaysBeta:!settings.alwaysBeta })}>
+            <span>Always Show Beta Content</span><b className="pm-state">{settings.alwaysBeta ? 'On' : 'Off'}</b>
+          </button>
           <button type="button" className="pm-reset" data-tip="Reset the interface to default" onClick={resetInterface}>Reset</button>
+        </section>
+        <section className="pm-section pm-reset-all">
+          <h3>Reset</h3>
+          <button type="button" className="pm-reset danger" data-tip="Reset every Nyx and game setting to default" onClick={resetAll}>Reset All Settings</button>
         </section>
       </div>
       <div className="settings-games-col">
@@ -2141,30 +2226,62 @@ function PengoMenu({ settings, setSettings, inline }){
               {group && (
                 <div className="pm-identity-row" data-tip={group.tip}>
                   <span>{group.label}</span>
-                  <div className="pm-choice-set" role="group" aria-label={group.label}>
-                    {group.options.map(([key, label]) => (
-                      <button key={key} type="button" className={identity[group.key] === key ? 'on' : ''}
-                              aria-pressed={identity[group.key] === key}
-                              onClick={() => setIdentity(group.key, key)}>
-                        {label}
-                      </button>
-                    ))}
+                  <div className="pm-identity-control">
+                    <div className="pm-choice-set" role="group" aria-label={group.label}>
+                      {group.options.map(([key, label]) => (
+                        <button key={key} type="button" className={identity[group.key] === key ? 'on' : ''}
+                                aria-pressed={identity[group.key] === key}
+                                onClick={() => setIdentity(group.key, key)}>
+                          {label}
+                        </button>
+                      ))}
+                    </div>
+                    {identityPreview(game.key, group, identity[group.key]) && (
+                      <div className="pm-identity-preview" aria-label={group.label + ' icon preview'}>
+                        <img src={identityPreview(game.key, group, identity[group.key])} alt="" draggable="false" />
+                      </div>
+                    )}
                   </div>
                 </div>
               )}
+              <label className="pm-identity-row pm-language-row">
+                <span>Language</span>
+                <select value={language[game.key]} onChange={(e) => setLanguage(game.key, e.target.value)}>
+                  {NYX_LANGUAGE_OPTIONS.map(([key, label]) => <option key={key} value={key}>{label}</option>)}
+                </select>
+              </label>
               {specials.length > 0 && (
-                <div className="pm-special-list">
-                  {specials.map(([unitKey, label]) => {
+                <div className={'pm-special-list' + (collabOpen[game.key] ? ' open' : '')}>
+                  {(() => {
+                    const enabledCount = specials.filter(([unitKey]) => (specialUnits[game.key] || {})[unitKey] !== false).length;
+                    const allOn = enabledCount === specials.length;
+                    return (
+                      <div className="pm-collab-control">
+                        <button type="button" className={'pm-row pm-collab-master' + (allOn ? ' on' : '')}
+                                aria-pressed={allOn}
+                                onClick={() => setCollabAll(game.key, specials, !allOn)}>
+                          <span>Collab Characters</span><b className="pm-state">{allOn ? 'On' : 'Off'}</b>
+                        </button>
+                        <button type="button" className="pm-collab-expand"
+                                aria-expanded={!!collabOpen[game.key]}
+                                onClick={() => setCollabOpen((prev) => Object.assign({}, prev, { [game.key]:!prev[game.key] }))}>
+                          {collabOpen[game.key] ? 'Collapse' : 'Expand'}
+                        </button>
+                      </div>
+                    );
+                  })()}
+                  {collabOpen[game.key] && specials.map(([unitKey, label]) => {
                     const on = (specialUnits[game.key] || {})[unitKey] !== false;
                     return (
-                      <button type="button" key={unitKey} className={'pm-row' + (on ? ' on' : '')}
+                      <button type="button" key={unitKey} className={'pm-row pm-collab-unit' + (on ? ' on' : '')}
                               aria-pressed={on} onClick={() => toggleSpecial(game.key, unitKey)}>
-                        <span>{label}</span><b className="pm-state">{on ? 'On' : 'Off'}</b>
+                        <span>{label.replace(/^Display\s+/i, '')}</span><b className="pm-state">{on ? 'On' : 'Off'}</b>
                       </button>
                     );
                   })}
                 </div>
               )}
+              <button type="button" className="pm-reset" data-tip={'Reset ' + game.name + ' settings'} onClick={() => resetGame(game.key, groupKey, specials)}>Reset {game.name}</button>
             </section>
           );
         })}
@@ -2209,7 +2326,8 @@ function NyxChannelToggle({ gameKey }){
     setConfirmBeta(false);
     commitPick('beta');
   };
-  const isBeta = betaAvailable && channel === 'beta';
+  const alwaysBeta = (() => { try { return window.NYX_ALWAYS_BETA === true; } catch (e) { return false; } })();
+  const isBeta = betaAvailable && (channel === 'beta' || alwaysBeta);
   const toggle = () => pick(isBeta ? 'live' : 'beta');
   return (
     <React.Fragment>
@@ -2229,7 +2347,7 @@ function NyxChannelToggle({ gameKey }){
         <div className="nyx-beta-confirm" role="dialog" aria-modal="true" aria-label="View Beta content">
           <div className="nyx-beta-card">
             <b>View Beta content?</b>
-            <p>Are you sure you wish to view Beta content? Please be aware there could be spoilers.</p>
+            <p>Are you sure you wish to view Beta content?<br />Please be aware there could be spoilers.</p>
             <div>
               <button type="button" onClick={() => setConfirmBeta(false)}>Cancel</button>
               <button type="button" className="primary" onClick={acceptBeta}>View Beta</button>
@@ -2252,10 +2370,21 @@ function NyxApp(){
   React.useEffect(() => {
     try { localStorage.setItem(NYX_PENGO_SETTINGS_KEY, JSON.stringify(pengoSettings)); } catch (e) {}
     const identity = sanitizeNyxIdentity(pengoSettings.identity);
+    const language = sanitizeNyxLanguage(pengoSettings.language);
     window.NYX_IDENTITY_PREFS = identity;
+    window.NYX_LANGUAGE_PREFS = language;
+    window.NYX_ALWAYS_BETA = pengoSettings.alwaysBeta === true;
     window.NYX_SPECIAL_UNIT_PREFS = sanitizeSpecialUnits(pengoSettings.specialUnits);
     try { window.dispatchEvent(new CustomEvent('nyx:identity-changed', { detail:identity })); } catch (e) {}
     try { window.dispatchEvent(new CustomEvent('nyx:settings-changed', { detail:pengoSettings })); } catch (e) {}
+    if (pengoSettings.alwaysBeta) {
+      SIM_GAMES.forEach((game) => {
+        if (typeof cmHasBeta === 'function' && cmHasBeta(game.key)) {
+          try { cmSaveChannel(game.key, 'beta'); } catch (e) {}
+          try { window.dispatchEvent(new CustomEvent('nyx:cm-channel-changed', { detail:{ key:game.key, channel:'beta' } })); } catch (e) {}
+        }
+      });
+    }
     const root = document.documentElement;
     root.classList.toggle('nyx-whispers-off', !pengoSettings.whispers);
     root.classList.toggle('nyx-pattern-paused', pengoSettings.animation === 'pause');

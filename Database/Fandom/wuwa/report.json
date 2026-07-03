@@ -1,0 +1,17 @@
+{
+  "game": "wuwa",
+  "label": "Wuthering Waves",
+  "source": "https://wutheringwaves.fandom.com/api.php",
+  "scrapedAt": "2026-07-03T16:13:15.584Z",
+  "total": 53,
+  "saved": 50,
+  "withReleaseDate": 50,
+  "withReleasePatch": 50,
+  "withVoiceActors": 50,
+  "missing": [
+    "Rover: Aero",
+    "Rover: Spectro",
+    "Rover: Havoc"
+  ],
+  "thin": []
+}

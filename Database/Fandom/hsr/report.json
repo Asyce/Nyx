@@ -1,0 +1,27 @@
+{
+  "game": "hsr",
+  "label": "Honkai: Star Rail",
+  "source": "https://honkai-star-rail.fandom.com/api.php",
+  "scrapedAt": "2026-07-03T16:12:21.265Z",
+  "total": 92,
+  "saved": 83,
+  "withReleaseDate": 80,
+  "withReleasePatch": 80,
+  "withVoiceActors": 80,
+  "missing": [
+    "March 7th • Evernight",
+    "March 7th • The Hunt",
+    "Silver Wolf • Lv. 999",
+    "Tingyun • Fugue",
+    "Trailblazer • Destruction",
+    "Trailblazer • Elation",
+    "Trailblazer • Harmony",
+    "Trailblazer • Preservation",
+    "Trailblazer • Remembrance"
+  ],
+  "thin": [
+    "Aventurine Waveflair",
+    "Himeko Nova",
+    "Robin Summeretto"
+  ]
+}

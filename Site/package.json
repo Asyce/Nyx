@@ -6,6 +6,8 @@
     "generate:data": "node ./tools/generate-site-data.mjs",
     "generate:weapons": "node ./tools/gen-weapons-meta.mjs",
     "scrape:gcg": "node ./tools/scrape-nanoka-gcg.mjs",
+    "scrape:gcg:ambr": "node ./tools/scrape-ambr-gcg.mjs",
+    "scrape:character-meta": "node ./tools/scrape-character-fandom-metadata.mjs",
     "scrape:gi-birthdays": "node ./tools/scrape-genshin-birthday-art.mjs",
     "scrape:gi-namecards": "node ./tools/scrape-genshin-namecards.mjs",
     "scrape:ae-skills": "node ./tools/scrape-endfield-skill-icons.mjs",

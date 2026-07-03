@@ -1,0 +1,1132 @@
+[
+  {
+    "name": "Alice",
+    "pageTitle": "Alice Thymefield",
+    "aliases": [
+      "Alice",
+      "1401"
+    ],
+    "releaseDate": "2025-08-06",
+    "releasePatch": "2.1",
+    "voiceActors": {
+      "english": "Diana Garnet",
+      "chinese": "Duoduo (多多)",
+      "japanese": "Minami Tanaka|Tanaka Minami (ja=田中 美海)",
+      "korean": "ko:박시윤|Park Shi-yoon (박시윤)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.6",
+      "Category:Released in Version 2.1",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Anby",
+    "pageTitle": "Anby Demara",
+    "aliases": [
+      "Anby",
+      "1011"
+    ],
+    "releaseDate": "2024-07-04",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Sam Slade",
+      "chinese": "Yanning (宴宁)",
+      "japanese": "Atsumi Tanezaki|Tanezaki Atsumi (種﨑 敦美)",
+      "korean": "ko:김보나|Kim Bo-na (김보나)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Anton",
+    "pageTitle": "Anton Ivanov",
+    "aliases": [
+      "Anton",
+      "1111"
+    ],
+    "releaseDate": "2024-07-04",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Alejandro Saab",
+      "chinese": "Xiao Zhai (萧翟)",
+      "japanese": "Kamio Shinichirō (神尾 晋一郎)",
+      "korean": "Jang Seo-hwa (장서화)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Aria",
+    "pageTitle": "Aria",
+    "aliases": [
+      "Aria",
+      "1501"
+    ],
+    "releaseDate": "2026-03-04",
+    "releasePatch": "2.6",
+    "voiceActors": {
+      "english": "Rebecca Wang",
+      "chinese": "Jingchen (静宸)",
+      "japanese": "Kaori Maeda|Maeda Kaori (前田 佳織里)",
+      "korean": "ko:차영희|Cha Young-hee (차영희)"
+    },
+    "categories": [
+      "Category:Introduced in Version 0.3.0",
+      "Category:Released in Version 2.6",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Astra Yao",
+    "pageTitle": "Astra Yao",
+    "aliases": [
+      "Astra Yao",
+      "1311"
+    ],
+    "releaseDate": "2025-01-22",
+    "releasePatch": "1.5",
+    "voiceActors": {
+      "english": "Molly Zhang",
+      "chinese": "Xiao N (小N)",
+      "japanese": "Aya Endō|Endō Aya (遠藤 綾)",
+      "korean": "ko:윤아영| Yoon A-yeong (윤아영)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.1",
+      "Category:Released in Version 1.5",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Banyue",
+    "pageTitle": "Banyue",
+    "aliases": [
+      "Banyue",
+      "1471"
+    ],
+    "releaseDate": "2025-12-17",
+    "releasePatch": "2.4",
+    "voiceActors": {
+      "english": "|voiceCN = Liu Beichen (刘北辰)",
+      "chinese": "Liu Beichen (刘北辰)",
+      "japanese": "Show Hayami|Hayami Shō (速水 奨)",
+      "korean": "ko:김상백|Kim Sang-baek (김상백)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.2",
+      "Category:Released in Version 2.4",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Ben",
+    "pageTitle": "Ben Bigger",
+    "aliases": [
+      "Ben",
+      "1121"
+    ],
+    "releaseDate": "2024-07-04",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Henry Schrader",
+      "chinese": "Meng Xianglong (孟祥龙)",
+      "japanese": "Kenji Hamada|Hamada Kenji (浜田 賢二)",
+      "korean": "Han Bokhyun (한복현)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Billy",
+    "pageTitle": "Billy Kid",
+    "aliases": [
+      "Billy",
+      "1081"
+    ],
+    "releaseDate": "2024-07-04",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Clifford Chapin",
+      "chinese": "Chen Runqiu (陈润秋)",
+      "japanese": "Yū Hayashi|Hayashi Yū (林 勇)",
+      "korean": "ko:이주승 (성우)|Lee Joo-seung (이주승)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Burnice",
+    "pageTitle": "Burnice White",
+    "aliases": [
+      "Burnice",
+      "1171"
+    ],
+    "releaseDate": "2024-10-16",
+    "releasePatch": "1.2",
+    "voiceActors": {
+      "english": "Risa Mei",
+      "chinese": "Ge Zirui (葛子瑞)",
+      "japanese": "Karin Takahashi (voice actress)|Takahashi Karin (高橋 花林)",
+      "korean": "Bae Ha-gyoung (배하경)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.2",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Caesar",
+    "pageTitle": "Caesar King",
+    "aliases": [
+      "Caesar",
+      "1071"
+    ],
+    "releaseDate": "2024-09-25",
+    "releasePatch": "1.2",
+    "voiceActors": {
+      "english": "Jennifer Sun Bell",
+      "chinese": "Su Ziwu (苏子芜)",
+      "japanese": "Rina Satō|Satō Rina (佐藤 利奈)",
+      "korean": "ko: 김보민 (성우)|Kim Bo-min (김보민)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.2",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Cissia",
+    "pageTitle": "Cissia",
+    "aliases": [
+      "Cissia",
+      "1521"
+    ],
+    "releaseDate": "2026-04-15",
+    "releasePatch": "2.7",
+    "voiceActors": {
+      "english": "Erin Yvette",
+      "chinese": "Jiang Wen (降温)",
+      "japanese": "Fairouz Ai|Fairouz Ai (ファイルー ズ あい)",
+      "korean": "Kim I-an (김이안)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.6",
+      "Category:Released in Version 2.7",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Corin",
+    "pageTitle": "Corin Wickes",
+    "aliases": [
+      "Corin",
+      "1061"
+    ],
+    "releaseDate": "2024-07-04",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Chloe Eves",
+      "chinese": "Mufei (沐霏)",
+      "japanese": "Hiromi Igarashi|Igarashi Hiromi (五十嵐 裕美)",
+      "korean": "ko:조경이|Cho Kyung-yi (조경이)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Dialyn",
+    "pageTitle": "Dialyn",
+    "aliases": [
+      "Dialyn",
+      "1481"
+    ],
+    "releaseDate": "2025-11-26",
+    "releasePatch": "2.4",
+    "voiceActors": {
+      "english": "Jad Saxton",
+      "chinese": "Cai Shujin (蔡书瑾)",
+      "japanese": "Ayana Taketatsu|Taketatsu Ayana (竹達 彩奈)",
+      "korean": "ko:박이서 (성우)|Park Yi-seo (박이서)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.2",
+      "Category:Released in Version 2.4",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Ellen",
+    "pageTitle": "Ellen Joe",
+    "aliases": [
+      "Ellen",
+      "1191"
+    ],
+    "releaseDate": "2024-07-04",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Giselle Fernandez",
+      "chinese": "Xiao Qingyuan (萧清源)",
+      "japanese": "Shion Wakayama|Wakayama Shion (若山 詩音)",
+      "korean": "Lee Ji-na (이지나)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Evelyn",
+    "pageTitle": "Evelyn Chevalier",
+    "aliases": [
+      "Evelyn",
+      "1321"
+    ],
+    "releaseDate": "2025-02-12",
+    "releasePatch": "1.5",
+    "voiceActors": {
+      "english": "Elizabeth Maxwell",
+      "chinese": "Li Chanfei (李蝉妃)",
+      "japanese": "Yoko Hikasa|Hikasa Yōko (日笠 陽子)",
+      "korean": "ko:장채연|Jang Chae-yeon (장채연)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.3",
+      "Category:Released in Version 1.5",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Grace",
+    "pageTitle": "Grace Howard",
+    "aliases": [
+      "Grace",
+      "1181"
+    ],
+    "releaseDate": "2024-07-04",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Megan Shipman",
+      "chinese": "Xiaogan (小敢)",
+      "japanese": "Haruka Shiraishi|Shiraishi Haruka (白石 晴香)",
+      "korean": "Kim Yea-lim (김예림)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Harumasa",
+    "pageTitle": "Asaba Harumasa",
+    "aliases": [
+      "Harumasa",
+      "1201"
+    ],
+    "releaseDate": "2024-12-18",
+    "releasePatch": "1.4",
+    "voiceActors": {
+      "english": "Micah Solusod",
+      "chinese": "Xu Xiang (徐翔)",
+      "japanese": "Tetsuya Kakihara|Kakihara Tetsuya (柿原 徹也)",
+      "korean": "ko:정의택|Chung Eui-taek (정의택)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.4",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Hugo",
+    "pageTitle": "Hugo Vlad",
+    "aliases": [
+      "Hugo",
+      "1291"
+    ],
+    "releaseDate": "2025-05-14",
+    "releasePatch": "1.7",
+    "voiceActors": {
+      "english": "Jimmie Yamaguchi",
+      "chinese": "Liang Dawei (梁达伟)",
+      "japanese": "Jun Fukuyama|Fukuyama Jun (福山 潤)",
+      "korean": "ko:김혜성 (성우)|Kim Hye-sung (김혜성)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.7",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Jane",
+    "pageTitle": "Jane Doe",
+    "aliases": [
+      "Jane",
+      "1261"
+    ],
+    "releaseDate": "2024-09-04",
+    "releasePatch": "1.1",
+    "voiceActors": {
+      "english": "Kelsey Jaffer",
+      "chinese": "Zeng Tong (曾彤)",
+      "japanese": "Yū Shimamura|Shimamura Yū (嶋村 侑)",
+      "korean": "ko:장예나|Jang Ye-na (장예나)"
+    },
+    "categories": [
+      "Category:Released in Version 1.1",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Ju Fufu",
+    "pageTitle": "Ju Fufu",
+    "aliases": [
+      "Ju Fufu",
+      "1391"
+    ],
+    "releaseDate": "2025-06-25",
+    "releasePatch": "2.0",
+    "voiceActors": {
+      "english": "Lindsay Sheppard",
+      "chinese": "Xie Ying (谢莹)",
+      "japanese": "Ayaka Suwa|Suwa Ayaka (諏訪 彩花)",
+      "korean": "ko:김예령 (성우)|Kim Ye-ryeong (김예령)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.6",
+      "Category:Released in Version 2.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Koleda",
+    "pageTitle": "Koleda Belobog",
+    "aliases": [
+      "Koleda",
+      "1101"
+    ],
+    "releaseDate": "2024-07-04",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Emily Reams",
+      "chinese": "Mu Xueting (穆雪婷)",
+      "japanese": "Yuka Iguchi|Iguchi Yuka (井口 裕香)",
+      "korean": "Jeong Hae-eun (정해은)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Lighter",
+    "pageTitle": "Lighter",
+    "aliases": [
+      "Lighter",
+      "1161"
+    ],
+    "releaseDate": "2024-11-27",
+    "releasePatch": "1.3",
+    "voiceActors": {
+      "english": "Aleks Le",
+      "chinese": "Zhang Pei (张沛)",
+      "japanese": "Hiroki Takahashi|Takahashi Hiroki (高橋 広樹)",
+      "korean": "ko:정의한 (성우)|Chung Eui-han (정의한)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.3",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Lucia",
+    "pageTitle": "Lucia Elowen",
+    "aliases": [
+      "Lucia",
+      "1451"
+    ],
+    "releaseDate": "2025-10-15",
+    "releasePatch": "2.3",
+    "voiceActors": {
+      "english": "Nola Klop",
+      "chinese": "Liang Shuang (梁爽)",
+      "japanese": "Rio Tsuchiya|Tsuchiya Rio (土屋 李央)",
+      "korean": "ko:손정민 (성우)|Son Jung-min (손정민)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.1",
+      "Category:Released in Version 2.3",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Lucy",
+    "pageTitle": "Agent Focus: Lucy",
+    "aliases": [
+      "Lucy",
+      "1151"
+    ],
+    "releaseDate": null,
+    "releasePatch": "1.0",
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Lycaon",
+    "pageTitle": "Von Lycaon",
+    "aliases": [
+      "Lycaon",
+      "1141"
+    ],
+    "releaseDate": "2024-07-04",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Will De Renzy-Martin",
+      "chinese": "Wang Yuhang (王宇航)",
+      "japanese": "Chikahiro Kobayashi|Kobayashi Chikahiro (小林 親弘)",
+      "korean": "ko:장민혁|Jang Min-hyeok (장민혁)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Manato",
+    "pageTitle": "Komano Manato",
+    "aliases": [
+      "Manato",
+      "1441"
+    ],
+    "releaseDate": "2025-10-15",
+    "releasePatch": "2.3",
+    "voiceActors": {
+      "english": "Ricco Fajardo",
+      "chinese": "Li Zhuoting (李卓霆)",
+      "japanese": "Kazuyuki Okitsu|Okitsu Kazuyuki (興津 和幸)",
+      "korean": "ko:서정익|Seo Jung-ik (서정익)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.0",
+      "Category:Released in Version 2.3",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Miyabi",
+    "pageTitle": "Hoshimi Miyabi",
+    "aliases": [
+      "Miyabi",
+      "1091"
+    ],
+    "releaseDate": "2024-12-18",
+    "releasePatch": "1.4",
+    "voiceActors": {
+      "english": "Cristina Vee",
+      "chinese": "Ruan Congqing (阮从青)",
+      "japanese": "Ami Koshimizu|Koshimizu Ami (小清水 亜美)",
+      "korean": "Kim Do-hee (김도희)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.4",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Nangong Yu",
+    "pageTitle": "Nangong Yu",
+    "aliases": [
+      "Nangong Yu",
+      "1511"
+    ],
+    "releaseDate": "2026-03-24",
+    "releasePatch": "2.7",
+    "voiceActors": {
+      "english": "Michelle Marie",
+      "chinese": "Du Qingqing (杜晴晴)",
+      "japanese": "Kanon Takao|Takao Kanon (高尾 奏音)",
+      "korean": "Lim Ji-yeon (임지연)"
+    },
+    "categories": [
+      "Category:Introduced in Version 0.3.0",
+      "Category:Released in Version 2.7",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Nekomata",
+    "pageTitle": "Agent",
+    "aliases": [
+      "Nekomata",
+      "1021"
+    ],
+    "releaseDate": null,
+    "releasePatch": "1.0",
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Nicole",
+    "pageTitle": "Nicole Demara",
+    "aliases": [
+      "Nicole",
+      "1031"
+    ],
+    "releaseDate": "2024-07-04",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Nadia Marshall",
+      "chinese": "Chen Tingting (陈婷婷)",
+      "japanese": "Serizawa Yū (芹澤 優)",
+      "korean": "Shin Na-ri (신나리)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Norma",
+    "pageTitle": "Norma Hollowell",
+    "aliases": [
+      "Norma",
+      "1571"
+    ],
+    "releaseDate": "|name = Norma Hollowell",
+    "releasePatch": "2.5",
+    "voiceActors": {
+      "english": "Madeline Dorroh",
+      "chinese": "Wang Xiaotong (王晓彤)",
+      "japanese": "Fūka Izumi|Izumi Fūka (和泉 風花)",
+      "korean": "ko:김윤채|Kim Yun-chae (김윤채)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.5"
+    ]
+  },
+  {
+    "name": "Orphie & Magus",
+    "pageTitle": "Agent Focus: Orphie & Magus",
+    "aliases": [
+      "Orphie & Magus",
+      "1301"
+    ],
+    "releaseDate": null,
+    "releasePatch": "2.2",
+    "categories": [
+      "Category:Released in Version 2.2",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Pan Yinhu",
+    "pageTitle": "Pan Yinhu",
+    "aliases": [
+      "Pan Yinhu",
+      "1421"
+    ],
+    "releaseDate": "2025-06-06",
+    "releasePatch": "2.0",
+    "voiceActors": {
+      "english": "Philip Sacramento",
+      "chinese": "Wang Xigua (王西瓜)",
+      "japanese": "Ryota Takeuchi|Takeuchi Ryōta (竹内 良太)",
+      "korean": "Oh Gun-woo (오건우)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.6",
+      "Category:Released in Version 2.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Piper",
+    "pageTitle": "Piper Wheel",
+    "aliases": [
+      "Piper",
+      "1281"
+    ],
+    "releaseDate": "2024-07-04",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Suzie Yeung",
+      "chinese": "Wu Zheru (吴哲茹)",
+      "japanese": "Manaka Iwami|Iwami Manaka (石見 舞菜香)",
+      "korean": "ko:손정민 (성우)|Son Jeong-min (손정민)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Promeia",
+    "pageTitle": "Promeia",
+    "aliases": [
+      "Promeia",
+      "1541"
+    ],
+    "releaseDate": "2026-05-06",
+    "releasePatch": "2.8",
+    "voiceActors": {
+      "english": "Natalie Van Sistine",
+      "chinese": "Yun He Zhui (云鹤追)",
+      "japanese": "Akari Kitō|Kitō Akari (鬼頭 明里)",
+      "korean": "ko:전해리|Jeon Hae-ri (전해리)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.4",
+      "Category:Released in Version 2.8",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Pulchra",
+    "pageTitle": "Pulchra Fellini",
+    "aliases": [
+      "Pulchra",
+      "1351"
+    ],
+    "releaseDate": "2025-03-12",
+    "releasePatch": "1.6",
+    "voiceActors": {
+      "english": "Marissa Lenti",
+      "chinese": "Pan Danni (潘丹妮)",
+      "japanese": "Natsumi Fujiwara|Fujiwara Natsumi (藤原 夏海)",
+      "korean": "ko:손선영|Son Seon-yeong (손선영)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.2",
+      "Category:Released in Version 1.6",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Pyrois",
+    "pageTitle": "Pyrois",
+    "aliases": [
+      "Pyrois",
+      "1551"
+    ],
+    "releaseDate": "2026-06-17",
+    "releasePatch": "3.0",
+    "categories": [
+      "Category:Introduced in Version 2.7",
+      "Category:Released in Version 3.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Qingyi",
+    "pageTitle": "Qingyi",
+    "aliases": [
+      "Qingyi",
+      "1251"
+    ],
+    "releaseDate": "2024-08-14",
+    "releasePatch": "1.1",
+    "voiceActors": {
+      "english": "Kira Buckland",
+      "chinese": "Xiao Sibai (皛四白)",
+      "japanese": "Abo Maria (阿保 まりあ)",
+      "korean": "Kim Soon-mi (김순미)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.1",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Rina",
+    "pageTitle": "Alexandrina Sebastiane",
+    "aliases": [
+      "Rina",
+      "1211"
+    ],
+    "releaseDate": "2024-07-04",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Morgan Lauré",
+      "chinese": "Zhang Ruoyu (张若瑜)",
+      "japanese": "Satomi Arai|Arai Satomi (新井 里美)",
+      "korean": "ko:이은조|Lee Eun-jo (이은조)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Seed",
+    "pageTitle": "Seed",
+    "aliases": [
+      "Seed",
+      "1461"
+    ],
+    "releaseDate": "2025-09-04 10:00:00 GMT+8",
+    "releasePatch": "2.2",
+    "voiceActors": {
+      "english": "Monica Rial",
+      "chinese": "Su Wan (苏婉)",
+      "japanese": "Kiyono Yasuno|Yasuno Kiyono (安野 希世乃)",
+      "korean": "ko:유혜지|Yu Hye-ji (유혜지)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 2.2",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Seth",
+    "pageTitle": "Seth Lowell",
+    "aliases": [
+      "Seth",
+      "1271"
+    ],
+    "releaseDate": "2024-09-04",
+    "releasePatch": "1.1",
+    "voiceActors": {
+      "english": "Nazeeh Tarsha",
+      "chinese": "Xiu Yuan (修缘)",
+      "japanese": "Takanashi Kengo (高梨 謙吾)",
+      "korean": "ko:임채빈|Lim Chae-bin (임채빈)"
+    },
+    "categories": [
+      "Category:Released in Version 1.1",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Soldier 0 - Anby",
+    "pageTitle": "Soldier 0 - Anby",
+    "aliases": [
+      "Soldier 0 - Anby",
+      "1381"
+    ],
+    "releaseDate": "2025-03-12",
+    "releasePatch": "1.6",
+    "voiceActors": {
+      "english": "Sam Slade",
+      "chinese": "Yanning (宴宁)",
+      "japanese": "Atsumi Tanezaki|Tanezaki Atsumi (種﨑 敦美)",
+      "korean": "ko:김보나|Kim Bo-na (김보나)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.5",
+      "Category:Released in Version 1.6",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Soldier 11",
+    "pageTitle": "Soldier 11",
+    "aliases": [
+      "Soldier 11",
+      "1041"
+    ],
+    "releaseDate": "2024-07-04",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "|voiceCN = Chen Yu (陈雨)",
+      "chinese": "Chen Yu (陈雨)",
+      "japanese": "Yukiyo Fujii|Fujii Yukiyo (藤井 ゆきよ)",
+      "korean": "ko:문유정|Moon Yoo-jeong (문유정)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Soukaku",
+    "pageTitle": "Soukaku",
+    "aliases": [
+      "Soukaku",
+      "1131"
+    ],
+    "releaseDate": "2024-07-04",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Rogin Rashidan",
+      "chinese": "Liu Wen (刘雯)",
+      "japanese": "Machico (singer)|Machico (真知子)",
+      "korean": "ko:이지현 (성우)|Lee Ji-hyeon (이지현)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Starlight - Billy",
+    "pageTitle": "Starlight - Billy Kid",
+    "aliases": [
+      "Starlight - Billy",
+      "1531"
+    ],
+    "releaseDate": "2026-05-27",
+    "releasePatch": "2.8",
+    "voiceActors": {
+      "english": "Clifford Chapin",
+      "chinese": "Chen Runqiu (陈润秋)",
+      "japanese": "Yū_Hayashi|Hayashi Yū (林 勇)",
+      "korean": "ko:이주승 (성우)|Lee Joo-seung (이주승)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.7",
+      "Category:Released in Version 2.8",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Sunna",
+    "pageTitle": "Sunna",
+    "aliases": [
+      "Sunna",
+      "1491"
+    ],
+    "releaseDate": "2026-02-06",
+    "releasePatch": "2.6",
+    "voiceActors": {
+      "english": "Alexis Tipton",
+      "chinese": "Muya Ruilin (木雅瑞林)",
+      "japanese": "Yuuka Morishima|Morishima Yūka (森嶋 優花)",
+      "korean": "Lee Seul (이슬)"
+    },
+    "categories": [
+      "Category:Introduced in Version 0.3.0",
+      "Category:Released in Version 2.6",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Trigger",
+    "pageTitle": "Trigger",
+    "aliases": [
+      "Trigger",
+      "1361"
+    ],
+    "releaseDate": "2025-04-02",
+    "releasePatch": "1.6",
+    "voiceActors": {
+      "english": "Erica Mendez",
+      "chinese": "Qin Ziyi (秦紫翼)",
+      "japanese": "Yoshino Nanjo|Nanjō Yoshino (南條 愛乃)",
+      "korean": "Lim Eun-ji (임은지)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.6",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Velina",
+    "pageTitle": "Velina Airgid",
+    "aliases": [
+      "Velina",
+      "1561"
+    ],
+    "releaseDate": "2026-06-17",
+    "releasePatch": "3.0",
+    "voiceActors": {
+      "english": "Rhiannon Moushall",
+      "chinese": "Zhang Anqi (张安琪)",
+      "japanese": "Chiwa Saitō|Saitō Chiwa (斎藤 千和)",
+      "korean": "ko:신온유|Shin On-yu (신온유)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.5",
+      "Category:Released in Version 3.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Vivian",
+    "pageTitle": "Vivian Banshee",
+    "aliases": [
+      "Vivian",
+      "1331"
+    ],
+    "releaseDate": "2025-04-23",
+    "releasePatch": "1.7",
+    "voiceActors": {
+      "english": "Sarah Wiedenheft",
+      "chinese": "Chen Yang (陈阳)",
+      "japanese": "Saku Mizuno|Mizuno Saku (水野 朔)",
+      "korean": "ko:장미 (성우)|Jang Mi (장미)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.5",
+      "Category:Released in Version 1.7",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Yanagi",
+    "pageTitle": "Tsukishiro Yanagi",
+    "aliases": [
+      "Yanagi",
+      "1221"
+    ],
+    "releaseDate": "2024-11-06",
+    "releasePatch": "1.3",
+    "voiceActors": {
+      "english": "Corey Pettit",
+      "chinese": "Juhuahua (菊花花)",
+      "japanese": "Kaori Nazuka|Nazuka Kaori (名塚 佳織)",
+      "korean": "Kwon Da-ye (권다예)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.3",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Ye Shunguang",
+    "pageTitle": "Ye Shunguang",
+    "aliases": [
+      "Ye Shunguang",
+      "1431"
+    ],
+    "releaseDate": "2025-12-30",
+    "releasePatch": "2.5",
+    "voiceActors": {
+      "english": "Kristen McGuire",
+      "chinese": "Tao Dian (陶典)",
+      "japanese": "Ichimichi Mao (M・A・O)",
+      "korean": "ko:김하루|Kim Ha-ru (김하루)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.6",
+      "Category:Released in Version 2.5",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Yidhari",
+    "pageTitle": "Yidhari Murphy",
+    "aliases": [
+      "Yidhari",
+      "1051"
+    ],
+    "releaseDate": "2025-11-05",
+    "releasePatch": "2.3",
+    "voiceActors": {
+      "english": "Katelyn Barr",
+      "chinese": "Zhang Ye (张晔)",
+      "japanese": "Yumi Hara|Hara Yumi (原 由実)",
+      "korean": "Kim Seo-hyun (김서현)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.1",
+      "Category:Released in Version 2.3",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Yixuan",
+    "pageTitle": "Yixuan",
+    "aliases": [
+      "Yixuan",
+      "1371"
+    ],
+    "releaseDate": "2025-06-06",
+    "releasePatch": "2.0",
+    "voiceActors": {
+      "english": "|voiceCN = Zhang Yu (张昱)",
+      "chinese": "Zhang Yu (张昱)",
+      "japanese": "Mamiko Noto|Noto Mamiko (能登 麻美子)",
+      "korean": "Su-hyeon (수현)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.6",
+      "Category:Released in Version 2.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Yuzuha",
+    "pageTitle": "Ukinami Yuzuha",
+    "aliases": [
+      "Yuzuha",
+      "1411"
+    ],
+    "releaseDate": "2025-07-16",
+    "releasePatch": "2.1",
+    "voiceActors": {
+      "english": "Kimberly Tierney",
+      "chinese": "Jin Na (金娜)",
+      "japanese": "Ikumi Hasegawa|Hasegawa Ikumi (長谷川 育美)",
+      "korean": "Kim Jin-ah (김진아)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.6",
+      "Category:Released in Version 2.1",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Zhao",
+    "pageTitle": "Zhao",
+    "aliases": [
+      "Zhao",
+      "1341"
+    ],
+    "releaseDate": "2025-12-30",
+    "releasePatch": "2.5",
+    "voiceActors": {
+      "english": "Siv Ryan",
+      "chinese": "Nuoya (诺亚)",
+      "japanese": "Naomi Ōzora|Ōzora Naomi (大空 直美)",
+      "korean": "Miso (미소)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.6",
+      "Category:Released in Version 2.5",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Zhu Yuan",
+    "pageTitle": "Zhu Yuan",
+    "aliases": [
+      "Zhu Yuan",
+      "1241"
+    ],
+    "releaseDate": "2024-07-24",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Alaina Wis",
+      "chinese": "Mace (陆敏悦)",
+      "japanese": "Marina Inoue|Inoue Marina (井上 麻里奈)",
+      "korean": "ko:이주은 (성우)|Lee Joo-eun (이주은)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  }
+]

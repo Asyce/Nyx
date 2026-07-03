@@ -1,0 +1,9 @@
+{
+  "name": "",
+  "desc": "",
+  "weapon_type": "ITEM_TPS_WEAPON",
+  "rarity": 4,
+  "icon": "Sword_Template",
+  "skill": 0,
+  "tps": true
+}

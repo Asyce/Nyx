@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-07-02T08:48:53.797Z",
+  "generatedAt": "2026-07-03T08:34:27.463Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 5,
-      "unchanged": 90
+      "changed": 6,
+      "unchanged": 89
     }
   },
   "sections": {
@@ -18,35 +18,41 @@
         {
           "id": "characters:blade-mortenax",
           "name": "Mortenax Blade",
-          "previousHash": "41507d7edc1f2fd73aa0bccdd4c4a411defd8e14d3c5eea13bc116381a71fdef",
-          "currentHash": "476d2a520eb497e87896e1eea29ae349dd15d09355c692749a834935dec64554"
+          "previousHash": "476d2a520eb497e87896e1eea29ae349dd15d09355c692749a834935dec64554",
+          "currentHash": "41507d7edc1f2fd73aa0bccdd4c4a411defd8e14d3c5eea13bc116381a71fdef"
         },
         {
           "id": "characters:jiaoqiu",
           "name": "Jiaoqiu",
-          "previousHash": "7b7e96d18e8f704663c9fa407e2a9aa2f7cf3ee9a1df0f6925e7a849c3d7939a",
-          "currentHash": "35b0c14f8c048a1607d262f1c87acf62a457f69c46f17755a268c759ee1546e5"
+          "previousHash": "35b0c14f8c048a1607d262f1c87acf62a457f69c46f17755a268c759ee1546e5",
+          "currentHash": "7b7e96d18e8f704663c9fa407e2a9aa2f7cf3ee9a1df0f6925e7a849c3d7939a"
         },
         {
           "id": "characters:march-7th-evernight",
           "name": "March 7th • Evernight",
-          "previousHash": "9174246f141d62b1381287040864fd8a1ce218bd4e5fb721a1e0a844e590d4de",
-          "currentHash": "a431b801a1710d4dffc91c283c2666d854695b8e0f3e6fb1ad4472c7958c5522"
+          "previousHash": "a431b801a1710d4dffc91c283c2666d854695b8e0f3e6fb1ad4472c7958c5522",
+          "currentHash": "9174246f141d62b1381287040864fd8a1ce218bd4e5fb721a1e0a844e590d4de"
         },
         {
           "id": "characters:rappa",
           "name": "Rappa",
-          "previousHash": "b3c3e76c5c834eef5c19f9fd941fc0b9e729342f6508aea573bd88f2138dd115",
-          "currentHash": "22a60e5ae913b59f761054730e7853d72bbef0d6a41893379dc439dd1a20260d"
+          "previousHash": "22a60e5ae913b59f761054730e7853d72bbef0d6a41893379dc439dd1a20260d",
+          "currentHash": "b3c3e76c5c834eef5c19f9fd941fc0b9e729342f6508aea573bd88f2138dd115"
+        },
+        {
+          "id": "characters:robin",
+          "name": "Robin",
+          "previousHash": "1db5f90418ba36d721dec0c62bf3959582ab3016d77744497fc3ec39fc32b77f",
+          "currentHash": "228ca5a3a239332d31ba11d869c0312b2129115d6e5b75ae33a9c3c3f5f6f789"
         },
         {
           "id": "characters:topaz",
           "name": "Topaz & Numby",
-          "previousHash": "56a0a71eed627111f002da53e0f28c055e1195c57cfd7e3812364e26e96c1ce4",
-          "currentHash": "ce4b1ba8add816fb352c1afc02fd3d9c67315c8e122a44c01ff150f54388407d"
+          "previousHash": "ce4b1ba8add816fb352c1afc02fd3d9c67315c8e122a44c01ff150f54388407d",
+          "currentHash": "56a0a71eed627111f002da53e0f28c055e1195c57cfd7e3812364e26e96c1ce4"
         }
       ],
-      "unchanged": 90,
+      "unchanged": 89,
       "totals": {
         "previous": 95,
         "current": 95

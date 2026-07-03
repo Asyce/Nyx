@@ -157245,6 +157245,126 @@
     }
   },
   {
+    "id": "224001",
+    "contentStatus": "beta",
+    "name": "Shathanaya's Pale Silver",
+    "rarity": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Glacia.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_AssaultRifle_Glacia.webp"
+    },
+    "properties": [],
+    "liveComparison": {
+      "currentHash": "7d572e4e65bd14ec89310b38146fa818d89cdc1fd33a41541c126a8744418fcd"
+    }
+  },
+  {
+    "id": "224002",
+    "contentStatus": "beta",
+    "name": "Asha's Thousand Lights",
+    "rarity": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Fulmen.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_AssaultRifle_Fulmen.webp"
+    },
+    "properties": [],
+    "liveComparison": {
+      "currentHash": "24c3288334d1d7dbe6e25455617f28661f1de6322b0ca345163f5f31d8712950"
+    }
+  },
+  {
+    "id": "224003",
+    "contentStatus": "beta",
+    "name": "Sun of Valsag",
+    "rarity": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_GrenadeLauncher_Ignis.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_GrenadeLauncher_Ignis.webp"
+    },
+    "properties": [],
+    "liveComparison": {
+      "currentHash": "d882b76dd38f93cee6692b7dfee63c9dfb4f6f679c1cfae32358c6bdc00868d3"
+    }
+  },
+  {
+    "id": "224004",
+    "contentStatus": "beta",
+    "name": "Pomegranate Crystal Pyro",
+    "rarity": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/Sword_Template.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/Sword_Template.webp"
+    },
+    "properties": [],
+    "liveComparison": {
+      "currentHash": "f74fc1011865b3a30cc60637dd24ede3c1cec1d9a797efa8bebef5d48673a53f"
+    }
+  },
+  {
+    "id": "224005",
+    "contentStatus": "beta",
+    "name": "Hydro Crystal",
+    "rarity": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/Sword_Template.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/Sword_Template.webp"
+    },
+    "properties": [],
+    "liveComparison": {
+      "currentHash": "bc8c11b58cbaf1d6a9b2874cd0d1753216214691a51d01dd97e09313ca86d055"
+    }
+  },
+  {
+    "id": "224006",
+    "contentStatus": "beta",
+    "name": "Electro Crystal",
+    "rarity": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/Sword_Template.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/Sword_Template.webp"
+    },
+    "properties": [],
+    "liveComparison": {
+      "currentHash": "64947da46ee945771acfdbc73c1db51af17c98c3b4071780f5e4ac47ca80f4fa"
+    }
+  },
+  {
+    "id": "224007",
+    "contentStatus": "beta",
+    "name": "Garnet Cryo",
+    "rarity": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/Sword_Template.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/Sword_Template.webp"
+    },
+    "properties": [],
+    "liveComparison": {
+      "currentHash": "93d827e5c75ab259de6f57402487cd03b18007221afc1b35a5ba2dc8be8ca8dd"
+    }
+  },
+  {
+    "id": "224008",
+    "contentStatus": "beta",
+    "name": "224008",
+    "rarity": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/Sword_Template.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/Sword_Template.webp"
+    },
+    "properties": [],
+    "liveComparison": {
+      "currentHash": "813e6f7e17164bb780b3ffb6b8f040bb34bbd1c56a4bab9f3ff48db302385ac0"
+    }
+  },
+  {
     "id": "310001",
     "contentStatus": "live",
     "name": "Serpent Devourer",

@@ -10,27 +10,28 @@
     "6.7",
     "6.7.50"
   ],
-  "scrapedAt": "2026-07-02T08:38:40.299Z",
+  "scrapedAt": "2026-07-03T08:33:38.560Z",
   "counts": {
-    "characters": 144,
-    "weapons": 260,
+    "characters": 148,
+    "weapons": 268,
     "artifacts": 65,
     "monsters": 584,
     "items": 10323
   },
   "sourceCounts": {
-    "characters": 144,
-    "weapons": 260,
+    "characters": 148,
+    "weapons": 268,
     "artifacts": 65,
     "monsters": 584,
     "items": 10323
   },
   "newInManifest": {
     "character": [
-      10000134,
-      10000135,
       10000148,
-      10000150
+      10000150,
+      "10000007-5",
+      "10000118-5",
+      10000135
     ],
     "weapon": [
       11435,
@@ -45,6 +46,14 @@
       14436,
       15435,
       15436,
+      224001,
+      224002,
+      224003,
+      224004,
+      224005,
+      224006,
+      224007,
+      224008,
       380003
     ],
     "artifact": [
@@ -396,6 +405,6 @@
     "items": "Nanoka/gi/beta/items.json",
     "raw": "Nanoka/gi/beta/raw"
   },
-  "assetsPlanned": 8516,
+  "assetsPlanned": 8524,
   "contentStatus": "Beta records are compared to Live and marked live, beta, or beta_changed."
 }

@@ -1,0 +1,9 @@
+{
+  "name": "Garnet Cryo",
+  "desc": "",
+  "weapon_type": "ITEM_TPS_WEAPON",
+  "rarity": 4,
+  "icon": "Sword_Template",
+  "skill": 999007,
+  "tps": true
+}

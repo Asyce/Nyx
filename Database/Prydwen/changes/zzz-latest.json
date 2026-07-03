@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "zzz",
-  "generatedAt": "2026-07-02T08:48:53.797Z",
+  "generatedAt": "2026-07-03T08:34:27.463Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 5,
-      "unchanged": 63
+      "changed": 1,
+      "unchanged": 67
     }
   },
   "sections": {
@@ -18,35 +18,11 @@
         {
           "id": "characters:anton",
           "name": "Anton",
-          "previousHash": "aea57edf5f8177843bf8eb2847540aae065f554acb78af8b5983c38d4be5c728",
-          "currentHash": "3dadb4a6307e23cc721f525279f795f08f2155d4e929b8ddac13a0ee1d4b378a"
-        },
-        {
-          "id": "characters:billy-kid",
-          "name": "Billy",
-          "previousHash": "6071d36d19d84af24994f1e12a493416cca07c6850c2d18235cb3d846364a782",
-          "currentHash": "d9a72a10c99dd352375341f937cbff81f6d5c4625e14e0ef3206e704173fd7ca"
-        },
-        {
-          "id": "characters:pulchra",
-          "name": "Pulchra",
-          "previousHash": "8d609ac0cee9643be99161f3ff9242325d64ce40eabd6c61d6146081b1f1b173",
-          "currentHash": "01532d8db1c32efcb455c4f81b4cbdbbc959a55b135633d07bf8483da33f7f75"
-        },
-        {
-          "id": "characters:pyrois",
-          "name": "Pyrois",
-          "previousHash": "83e3a33eff3b25909f9afae69714ab2fd97ae5f118c8d5761a23ed1786fe8e9c",
-          "currentHash": "220bc2196761f96bcd527ae542653803174e1cf0564c2a898cbe9a61349e8a9c"
-        },
-        {
-          "id": "characters:velina",
-          "name": "Velina",
-          "previousHash": "2617f6212a1f6bcbe0ed0e019b2a4150450322f25e76015c6c088aaa79d286b3",
-          "currentHash": "57a9d7ad86ac2b24af581470511afe9ed0b4eaa301502316e84dd7db09bdee45"
+          "previousHash": "3dadb4a6307e23cc721f525279f795f08f2155d4e929b8ddac13a0ee1d4b378a",
+          "currentHash": "aea57edf5f8177843bf8eb2847540aae065f554acb78af8b5983c38d4be5c728"
         }
       ],
-      "unchanged": 63,
+      "unchanged": 67,
       "totals": {
         "previous": 68,
         "current": 68

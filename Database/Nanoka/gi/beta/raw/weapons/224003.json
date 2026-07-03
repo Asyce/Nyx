@@ -1,0 +1,9 @@
+{
+  "name": "Sun of Valsag",
+  "desc": "",
+  "weapon_type": "ITEM_TPS_WEAPON",
+  "rarity": 4,
+  "icon": "UI_EquipIcon_GrenadeLauncher_Ignis",
+  "skill": 11348,
+  "tps": true
+}

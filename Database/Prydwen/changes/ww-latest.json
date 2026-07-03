@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-07-02T08:48:53.797Z",
+  "generatedAt": "2026-07-03T08:34:27.463Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 19,
-      "unchanged": 44
+      "changed": 2,
+      "unchanged": 61
     }
   },
   "sections": {
@@ -16,121 +16,19 @@
       "removed": [],
       "changed": [
         {
-          "id": "characters:aemeath",
-          "name": "Aemeath",
-          "previousHash": "6d3b36a762caaa68e39859996d9998b1f4928f10897bcae2bd082d0925b25be4",
-          "currentHash": "93d1ba5c450052cb137929446629624796d0266dc9b2f826b0a0d931fbd01088"
-        },
-        {
-          "id": "characters:buling",
-          "name": "Buling",
-          "previousHash": "1e8d788d50e20e2023d6b5a879291a660f6d42f8009a211565abf0d7be1f7f78",
-          "currentHash": "f017306395b1f128ff3b90860a0df6119d351299ca1f11056e3ffbf3c7fbfeb6"
-        },
-        {
-          "id": "characters:cantarella",
-          "name": "Cantarella",
-          "previousHash": "c4089b9dcad7ea5deea7753b9fb1e134fbef5374a4be9dd227e53c97f15c8a4c",
-          "currentHash": "e16ff36ec097352f86ba69d533927eeb5adbdf01d07815156ea90d07a92f7bcd"
-        },
-        {
-          "id": "characters:changli",
-          "name": "Changli",
-          "previousHash": "ca9b127c3219ae687bff488fb928b9d1fbecf1d1435c162e579b015a0a2efa89",
-          "currentHash": "adafecaecfe3f35b6103a2b624892bd6b3d6cb1b6f1c5452e443718c4b50c0b5"
-        },
-        {
-          "id": "characters:chisa",
-          "name": "Chisa",
-          "previousHash": "3eb0182a662b7236daa01437ffcef9be715c7cf00e2306cbf5ba61a4ba597eea",
-          "currentHash": "56a568be11c90d75f32d124f1e45f4f1bafbd288abbf11ea36a5c3e24fa3a359"
-        },
-        {
-          "id": "characters:denia",
-          "name": "Denia",
-          "previousHash": "2618449166b24e9efa9ec6d5a9e37f96e1c854d8a27d48096636ae412de03c9d",
-          "currentHash": "22120e2a5ff08708e5a514f4a94835141d47590d2f53a28dbfe32da01d246c35"
-        },
-        {
-          "id": "characters:hiyuki",
-          "name": "Hiyuki",
-          "previousHash": "95fd92584e2a63271227b0aef0cd2cf749ebbedc5fc1e6c0dca65367916a1057",
-          "currentHash": "5fbd574295fdd9e85e46bd26f938238289bc4c8e15b85ce4190ab2452b77e0ff"
-        },
-        {
-          "id": "characters:jinhsi",
-          "name": "Jinhsi",
-          "previousHash": "c9c8d5fb19df2492b13060144a9a49f9adc7d06b8dde60d0b7b6a8ff49789763",
-          "currentHash": "227ec690a8232abcdb8a629c7d092cd39b4ea19981bed98cfc83abb622fffc44"
-        },
-        {
-          "id": "characters:lucy",
-          "name": "Lucy",
-          "previousHash": "a21480c50541f6dc38476cade48e55be7c48c93414a9d32ef1085ce03750cd85",
-          "currentHash": "e74e5944793acceef69ec4a16bdecccf231b1dcba81a40484055fb2382ec359c"
-        },
-        {
-          "id": "characters:luuk-herssen",
-          "name": "Luuk Herssen",
-          "previousHash": "9767dfcfe147185f933db645df13cdb62622ec6f175ed2830618fadedd5e4768",
-          "currentHash": "aa22c7c2cf45f504c35fbdf1733ded69763d44095728b1d059f2542501ac56b4"
-        },
-        {
-          "id": "characters:lynae",
-          "name": "Lynae",
-          "previousHash": "9e9d68ca685c9777195fd65db12c26cbc82631714a5b219a98e64d2324c4aeb0",
-          "currentHash": "16267d3238c9fe2b6771e75b0667f48fa198aeb207e3cf593fe9140f3f24db16"
-        },
-        {
-          "id": "characters:mornye",
-          "name": "Mornye",
-          "previousHash": "7c0f04414bb8eadd600110ab960cd25619001c8a938e330086d57b0a64f9f20c",
-          "currentHash": "ee5efb88f118d607ac01ca5428cff2a4a487bf859dae29b88d96b5fcb07d30db"
-        },
-        {
-          "id": "characters:qiuyuan",
-          "name": "Qiuyuan",
-          "previousHash": "e016f70f7505db36ef92098f07e4fdaff4e95dfccc0f7dcaa2cb76cd4595d8c8",
-          "currentHash": "6ccd8267485daacf5d7e169ebfee79e44941ae634f4abfbff9b7bb171eb0ca25"
-        },
-        {
-          "id": "characters:rebecca",
-          "name": "Rebecca",
-          "previousHash": "412d18d9b5d7b3108ec4b2fa0e36a8d6b127cb758ee5b94c9d8a356d8af50340",
-          "currentHash": "29e754e9920eb4cf742ea65e9106f5055fe8e2aa942cd9e920b315f255762499"
-        },
-        {
-          "id": "characters:roccia",
-          "name": "Roccia",
-          "previousHash": "86c73e5a47d3e19f2e029b426c3e6b96a7980c11ce5df541df39b347a703b9c1",
-          "currentHash": "a3e97217b4c82b5d6fe059319ae8b115c2a456269a7939479cfbff459bf19d15"
-        },
-        {
           "id": "characters:sigrika",
           "name": "Sigrika",
-          "previousHash": "ef5e161d607b7f388078d56c13b0838f08d62f2a826a884309aa535eb2730bd5",
-          "currentHash": "e4d7f183a8f2f1589f3ea87bdfd129fb1b363fdaea1d4baa63adffbbcfdbee75"
+          "previousHash": "e4d7f183a8f2f1589f3ea87bdfd129fb1b363fdaea1d4baa63adffbbcfdbee75",
+          "currentHash": "c9397cfec3d42f6405fdec6b9354a97c724e09addaf0c4f0c709121ed71732c3"
         },
         {
           "id": "characters:suisui",
           "name": "Suisui",
-          "previousHash": "688bf49b54bb13ecae9c4064c6c719ec85f20e9ba9d27f08df400911f62554f6",
-          "currentHash": "0f63cc89e64660d86928e92cd4aff0e2e3cf8a4e2d6965dafe8704b78922221c"
-        },
-        {
-          "id": "characters:yangyang",
-          "name": "Yangyang",
-          "previousHash": "7374bfecd515bbfff01b1b79442db7163e38dc95c5343fb2acf8f0b9d77760a9",
-          "currentHash": "574a6c57d44bd07776b116bde7e2fade69dbb732af765a2d829859261d942711"
-        },
-        {
-          "id": "characters:zhezhi",
-          "name": "Zhezhi",
-          "previousHash": "85ff5c328fe26edb6fa5e78850e06f3591f92b272bbc5971091156fdc4650486",
-          "currentHash": "aeabb02d7f69708736f38d4c567c974a6a3fb728ff62aee176f9582b299f7db9"
+          "previousHash": "0f63cc89e64660d86928e92cd4aff0e2e3cf8a4e2d6965dafe8704b78922221c",
+          "currentHash": "688bf49b54bb13ecae9c4064c6c719ec85f20e9ba9d27f08df400911f62554f6"
         }
       ],
-      "unchanged": 44,
+      "unchanged": 61,
       "totals": {
         "previous": 63,
         "current": 63

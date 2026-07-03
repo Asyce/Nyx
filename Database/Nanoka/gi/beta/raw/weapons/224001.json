@@ -1,0 +1,9 @@
+{
+  "name": "Shathanaya's Pale Silver",
+  "desc": "",
+  "weapon_type": "ITEM_TPS_WEAPON",
+  "rarity": 4,
+  "icon": "UI_EquipIcon_AssaultRifle_Glacia",
+  "skill": 11344,
+  "tps": true
+}

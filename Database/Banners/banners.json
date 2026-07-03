@@ -1,16 +1,15 @@
 {
-  "checkedAt": "2026-07-01T20:12:47.889Z",
-  "updated": "2026-07-01T04:53:03.064Z",
+  "checkedAt": "2026-07-03T14:02:56.117Z",
+  "updated": "2026-07-03T14:02:56.117Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-01T20:12:47.889Z",
-        "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "checkedAt": "2026-07-03T14:02:56.117Z",
+        "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
+        "source": "game8"
       },
       "current": {
         "phase": "4.3",
@@ -53,10 +52,9 @@
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-01T20:12:47.889Z",
-        "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "checkedAt": "2026-07-03T14:02:56.117Z",
+        "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
+        "source": "game8"
       },
       "current": {
         "phase": "6.7 Phase 1",
@@ -98,10 +96,9 @@
       "name": "Wuthering Waves",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-01T20:12:47.889Z",
-        "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "checkedAt": "2026-07-03T14:02:56.117Z",
+        "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
+        "source": "game8"
       },
       "current": {
         "phase": null,
@@ -202,10 +199,9 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-01T20:12:47.889Z",
-        "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "checkedAt": "2026-07-03T14:02:56.117Z",
+        "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
+        "source": "game8"
       },
       "current": {
         "phase": null,
@@ -260,10 +256,9 @@
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "unavailable",
-        "checkedAt": "2026-07-01T20:12:47.889Z",
-        "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "checkedAt": "2026-07-03T14:02:56.117Z",
+        "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
+        "source": "game8"
       },
       "current": {
         "phase": "1.3 Phase 2",

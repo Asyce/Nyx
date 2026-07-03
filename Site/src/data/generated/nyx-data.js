@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-03T11:28:48.369Z",
+  "generatedAt": "2026-07-03T14:06:25.000Z",
   "providers": {
     "Prydwen": "2026-07-01T09:00:25.858Z",
     "Nanoka": {
@@ -334,18 +334,17 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-07-01T04:53:03.064Z",
-    "checkedAt": "2026-07-01T20:12:47.889Z",
+    "updated": "2026-07-03T14:02:56.117Z",
+    "checkedAt": "2026-07-03T14:02:56.117Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-01T20:12:47.889Z",
-          "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
-          "lastValidUpdate": "2026-07-01T04:53:03.064Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-03T14:02:56.117Z",
+          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
+          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "source": "game8"
         },
         "current": {
           "phase": "4.3",
@@ -397,12 +396,11 @@ var NYX_DB = {
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-01T20:12:47.889Z",
-          "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
-          "lastValidUpdate": "2026-07-01T04:53:03.064Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-03T14:02:56.117Z",
+          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
+          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "source": "game8"
         },
         "current": {
           "phase": "6.7 Phase 1",
@@ -452,12 +450,11 @@ var NYX_DB = {
       "wuwa": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-01T20:12:47.889Z",
-          "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
-          "lastValidUpdate": "2026-07-01T04:53:03.064Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-03T14:02:56.117Z",
+          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
+          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "source": "game8"
         },
         "current": {
           "phase": null,
@@ -641,12 +638,11 @@ var NYX_DB = {
       "zzz": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-01T20:12:47.889Z",
-          "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
-          "lastValidUpdate": "2026-07-01T04:53:03.064Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-03T14:02:56.117Z",
+          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
+          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "source": "game8"
         },
         "current": {
           "phase": null,
@@ -706,11 +702,10 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "unavailable",
-          "checkedAt": "2026-07-01T20:12:47.889Z",
-          "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
+          "checkedAt": "2026-07-03T14:02:56.117Z",
+          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
           "lastValidUpdate": null,
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "source": "game8"
         },
         "current": null,
         "next": null,
@@ -4446,12 +4441,11 @@ var NYX_DB = {
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-01T20:12:47.889Z",
-          "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
-          "lastValidUpdate": "2026-07-01T04:53:03.064Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-03T14:02:56.117Z",
+          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
+          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "source": "game8"
         },
         "current": {
           "phase": "6.7 Phase 1",
@@ -11634,12 +11628,11 @@ var NYX_DB = {
       "banners": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-01T20:12:47.889Z",
-          "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
-          "lastValidUpdate": "2026-07-01T04:53:03.064Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-03T14:02:56.117Z",
+          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
+          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "source": "game8"
         },
         "current": {
           "phase": "4.3",
@@ -15298,12 +15291,11 @@ var NYX_DB = {
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-01T20:12:47.889Z",
-          "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
-          "lastValidUpdate": "2026-07-01T04:53:03.064Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-03T14:02:56.117Z",
+          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
+          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "source": "game8"
         },
         "current": {
           "phase": null,
@@ -19570,12 +19562,11 @@ var NYX_DB = {
       "banners": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-01T20:12:47.889Z",
-          "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
-          "lastValidUpdate": "2026-07-01T04:53:03.064Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-03T14:02:56.117Z",
+          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
+          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "source": "game8"
         },
         "current": {
           "phase": null,
@@ -23961,11 +23952,10 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "unavailable",
-          "checkedAt": "2026-07-01T20:12:47.889Z",
-          "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
+          "checkedAt": "2026-07-03T14:02:56.117Z",
+          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
           "lastValidUpdate": null,
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "source": "game8"
         },
         "current": null,
         "next": null,

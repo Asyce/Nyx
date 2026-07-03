@@ -1640,37 +1640,130 @@ function CollectionCard({ item }){
   );
 }
 
-const TCG_CATEGORY_PRIORITY = [
-  'Talent',
-  'Weapon',
-  'Artifact',
-  'Location',
-  'Companion',
-  'Food',
-  'Elemental Resonance',
-  'Arcane Legend',
-  'Technique',
-  'Item',
-  'Monster',
-  'Combat Action',
-];
+const TCG_COST_LABELS = {
+  GCG_COST_DICE_CRYO:'Cryo',
+  GCG_COST_DICE_HYDRO:'Hydro',
+  GCG_COST_DICE_PYRO:'Pyro',
+  GCG_COST_DICE_ELECTRO:'Electro',
+  GCG_COST_DICE_ANEMO:'Anemo',
+  GCG_COST_DICE_GEO:'Geo',
+  GCG_COST_DICE_DENDRO:'Dendro',
+  GCG_COST_DICE_VOID:'Unaligned',
+  GCG_COST_DICE_SAME:'Matching Element',
+  GCG_COST_DICE_LEGEND:'Arcane Legend',
+  GCG_COST_ENERGY:'Energy',
+  GCG_COST_LEGEND:'Arcane Legend',
+  GCG_COST_SKIRK_SPECIAL_ENERGY:"Serpent's Subtlety",
+};
 
-function tcgPrimaryCategory(card){
-  if (!card) return 'Other';
-  if (card.kind === 'character') return 'Character';
-  const tags = Array.isArray(card.tags) ? card.tags : [];
-  return TCG_CATEGORY_PRIORITY.find((tag) => tags.includes(tag)) || tags[0] || card.type || 'Other';
+const TCG_ELEMENT_LABELS = {
+  GCG_ELEMENT_VOID:'Physical DMG',
+  GCG_ELEMENT_CRYO:'Cryo DMG',
+  GCG_ELEMENT_HYDRO:'Hydro DMG',
+  GCG_ELEMENT_PYRO:'Pyro DMG',
+  GCG_ELEMENT_ELECTRO:'Electro DMG',
+  GCG_ELEMENT_ANEMO:'Anemo DMG',
+  GCG_ELEMENT_GEO:'Geo DMG',
+  GCG_ELEMENT_DENDRO:'Dendro DMG',
+};
+
+const TCG_SKILL_TAG_LABELS = {
+  GCG_SKILL_TAG_A:'Normal Attack',
+  GCG_SKILL_TAG_E:'Elemental Skill',
+  GCG_SKILL_TAG_Q:'Elemental Burst',
+  GCG_SKILL_TAG_PASSIVE:'Passive',
+};
+
+function tcgCleanText(value){
+  return String(value ?? '')
+    .replace(/\\n/g, '\n')
+    .replace(/<color=[^>]+>/gi, '')
+    .replace(/<\/color>/gi, '')
+    .replace(/\{SPRITE_PRESET#\d+\}/g, '')
+    .replace(/[ \t]+\n/g, '\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
+function tcgCleanInline(value){
+  return tcgCleanText(value).replace(/\s+/g, ' ').trim();
+}
+
+function tcgCostTypeLabel(value){
+  const key = String(value || '').toUpperCase();
+  return TCG_COST_LABELS[key] || key.replace(/^GCG_COST_/, '').replace(/^DICE_/, '').replace(/_/g, ' ').toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function tcgFormatCost(cost){
+  if (cost === undefined || cost === null || cost === '') return '';
+  if (Number.isFinite(Number(cost))) return String(Number(cost));
+  if (Array.isArray(cost)) {
+    return cost
+      .filter((row) => row && row.cost_type !== 'GCG_COST_INVALID')
+      .map((row) => `${Number(row.count) || 0} ${tcgCostTypeLabel(row.cost_type)}`)
+      .join(' / ');
+  }
+  if (typeof cost === 'object') {
+    return Object.entries(cost)
+      .filter(([, value]) => Number.isFinite(Number(value)) && Number(value) > 0)
+      .map(([key, value]) => `${Number(value)} ${tcgCostTypeLabel(key)}`)
+      .join(' / ');
+  }
+  return String(cost);
+}
+
+function tcgReferenceLabel(raw, child, resolver){
+  const key = String(raw || '');
+  const normalized = key.toLowerCase().replace(/[^a-z0-9_]/g, '');
+  if (normalized === 'd__key__damage') return child?.d_key_damage ?? key;
+  if (normalized === 'd__key__element') return TCG_ELEMENT_LABELS[child?.d_key_element] || child?.d_key_element || key;
+  const value = child?.[normalized];
+  if (value && typeof value === 'object') return tcgCleanInline(value.name || value.desc || key);
+  if (typeof value === 'string') return resolver?.[value] || resolver?.[key] || resolver?.[value.replace(/^[ACKS]/, '')] || value;
+  return resolver?.[key] || resolver?.[key.replace(/^[ACKS]/, '')] || key;
+}
+
+function tcgRenderText(value, child, resolver){
+  return tcgCleanText(value)
+    .replace(/\$\[([^\]]+)\]/g, (_, key) => tcgReferenceLabel(key, child || {}, resolver || {}))
+    .replace(/\s+\./g, '.')
+    .replace(/\s+,/g, ',');
+}
+
+function tcgReferenceRows(child, resolver){
+  if (!child || typeof child !== 'object') return [];
+  return Object.entries(child)
+    .filter(([, value]) => value && typeof value === 'object' && (value.name || value.desc))
+    .map(([key, value]) => ({
+      key,
+      name:tcgRenderText(value.name || key, value.child, resolver),
+      desc:tcgRenderText(value.desc || '', value.child, resolver),
+    }))
+    .filter((row) => row.name || row.desc);
+}
+
+function tcgTalentRows(card){
+  const talent = card?.talent;
+  if (!talent) return [];
+  if (Array.isArray(talent)) return talent;
+  if (card.type === 'Character' && typeof talent === 'object') {
+    return Object.entries(talent).map(([id, row]) => ({ id, ...row }));
+  }
+  if (typeof talent === 'object') return [{ id:card.id, ...talent }];
+  return [];
 }
 
 function tcgStatRows(card){
   if (!card) return [];
   const rows = [];
-  if (Number.isFinite(Number(card.cost))) rows.push(['Cost', String(card.cost)]);
-  if (Number.isFinite(Number(card.hp))) rows.push(['HP', String(card.hp)]);
+  rows.push(['ID', String(card.id || '')]);
   rows.push(['Type', card.type || (card.kind === 'character' ? 'Character' : 'Action')]);
-  rows.push(['Category', tcgPrimaryCategory(card)]);
+  const costText = tcgFormatCost(card.cost);
+  if (costText) rows.push([card.type === 'Character' ? 'Energy' : 'Cost', costText]);
+  if (Number.isFinite(Number(card.hp))) rows.push(['HP', String(card.hp)]);
   if (card.playableCharacter) rows.push(['Character', card.playableCharacter]);
   if (Array.isArray(card.tags) && card.tags.length) rows.push(['Tags', card.tags.join(' / ')]);
+  if (card.relatedCardId) rows.push(['Related', card.relatedCardId]);
   return rows;
 }
 
@@ -1678,38 +1771,46 @@ function GenshinTcgView(){
   const gameData = dbGame('gi') || {};
   const tcg = gameData.tcg || {};
   const [kind, setKind] = React.useState('all');
-  const [category, setCategory] = React.useState('all');
+  const [tag, setTag] = React.useState('all');
   const [q, setQ] = React.useState('');
   const [activeCard, setActiveCard] = React.useState(null);
   const cards = [
     ...((tcg.characterCards || []).map((card) => ({ ...card, kind:'character' }))),
     ...((tcg.otherCards || []).map((card) => ({ ...card, kind:'action' }))),
   ];
-  const categoryFilters = React.useMemo(() => {
+  const resolver = React.useMemo(() => {
+    const out = {};
+    cards.forEach((card) => {
+      if (card.type === 'Character') {
+        out[String(card.id)] = card.name;
+        out['A' + card.id] = card.name;
+      }
+      tcgTalentRows(card).forEach((row) => {
+        if (!row.id || !row.name) return;
+        out[String(row.id)] = row.name;
+        out['S' + row.id] = row.name;
+      });
+    });
+    return out;
+  }, [cards.length]);
+  const tagFilters = React.useMemo(() => {
     const counts = new Map();
     cards.filter((card) => kind === 'all' || card.kind === kind).forEach((card) => {
-      const cat = tcgPrimaryCategory(card);
-      counts.set(cat, (counts.get(cat) || 0) + 1);
+      (card.tags || []).forEach((value) => counts.set(value, (counts.get(value) || 0) + 1));
     });
     return [...counts.entries()]
-      .sort((a, b) => {
-        const ai = TCG_CATEGORY_PRIORITY.indexOf(a[0]);
-        const bi = TCG_CATEGORY_PRIORITY.indexOf(b[0]);
-        if (a[0] === 'Character') return -1;
-        if (b[0] === 'Character') return 1;
-        if (ai !== -1 || bi !== -1) return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
-        return a[0].localeCompare(b[0]);
-      });
+      .sort((a, b) => a[0].localeCompare(b[0]));
   }, [cards.length, kind]);
   React.useEffect(() => {
-    if (category === 'all') return;
-    if (!categoryFilters.some(([cat]) => cat === category)) setCategory('all');
-  }, [category, categoryFilters]);
+    if (tag === 'all') return;
+    if (!tagFilters.some(([value]) => value === tag)) setTag('all');
+  }, [tag, tagFilters]);
   const qq = q.trim().toLowerCase();
   const visible = cards.filter((card) => {
     if (kind !== 'all' && card.kind !== kind) return false;
-    if (category !== 'all' && tcgPrimaryCategory(card) !== category) return false;
-    const hay = [card.name, card.title, card.type, card.description, card.playableCharacter, card.cost, card.hp, ...(card.tags || [])].filter(Boolean).join(' ').toLowerCase();
+    if (tag !== 'all' && !(card.tags || []).includes(tag)) return false;
+    const talentText = tcgTalentRows(card).map((row) => [row.name, row.desc, tcgFormatCost(row.cost)].join(' ')).join(' ');
+    const hay = [card.name, card.title, card.type, card.description, card.sourceText, card.playableCharacter, tcgFormatCost(card.cost), card.hp, talentText, ...(card.tags || [])].filter(Boolean).join(' ').toLowerCase();
     return !qq || hay.includes(qq);
   });
   const filters = [
@@ -1717,7 +1818,7 @@ function GenshinTcgView(){
     ['character', 'Character', (tcg.characterCards || []).length],
     ['action', 'Action', (tcg.otherCards || []).length],
   ];
-  const categoryTotal = categoryFilters.reduce((sum, [, count]) => sum + count, 0);
+  const tagTotal = tagFilters.reduce((sum, [, count]) => sum + count, 0);
   return (
     <div className="tcg-view">
       <div className="tcg-head">
@@ -1728,23 +1829,29 @@ function GenshinTcgView(){
           {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
         </div>
       </div>
-      <div className="tcg-tabs">
-        {filters.map(([key, label, count]) => (
-          <button type="button" key={key} className={kind === key ? 'on' : ''} onClick={() => setKind(key)}>
-            <span>{label}</span><b>{count}</b>
-          </button>
-        ))}
-      </div>
-      {categoryFilters.length > 1 && (
-        <div className="tcg-tabs tcg-category-tabs" aria-label="TCG card categories">
-          <button type="button" className={category === 'all' ? 'on' : ''} onClick={() => setCategory('all')}>
-            <span>All Types</span><b>{categoryTotal}</b>
-          </button>
-          {categoryFilters.map(([cat, count]) => (
-            <button type="button" key={cat} className={category === cat ? 'on' : ''} onClick={() => setCategory(cat)}>
-              <span>{cat}</span><b>{count}</b>
+      <div className="tcg-filter-block">
+        <span>CARD TYPE</span>
+        <div className="tcg-tabs">
+          {filters.map(([key, label, count]) => (
+            <button type="button" key={key} className={kind === key ? 'on' : ''} onClick={() => setKind(key)}>
+              <span>{label}</span><b>{count}</b>
             </button>
           ))}
+        </div>
+      </div>
+      {tagFilters.length > 0 && (
+        <div className="tcg-filter-block">
+          <span>TAGS</span>
+          <div className="tcg-tabs tcg-category-tabs" aria-label="TCG card tags">
+            <button type="button" className={tag === 'all' ? 'on' : ''} onClick={() => setTag('all')}>
+              <span>All</span><b>{tagTotal}</b>
+            </button>
+            {tagFilters.map(([value, count]) => (
+              <button type="button" key={value} className={tag === value ? 'on' : ''} onClick={() => setTag(value)}>
+                <span>{value}</span><b>{count}</b>
+              </button>
+            ))}
+          </div>
         </div>
       )}
       <div className="tcg-grid">
@@ -1756,6 +1863,7 @@ function GenshinTcgView(){
             </div>
             <div className="tcg-meta">
               <b>{card.name}</b>
+              <span>{card.type}</span>
             </div>
           </button>
         ))}
@@ -1774,10 +1882,48 @@ function GenshinTcgView(){
                   <span key={label}><b>{label}</b><em>{value}</em></span>
                 ))}
               </div>
-              <div className="tcg-effect">
-                <span>Card Effect</span>
-                <p>{activeCard.description || 'No card effect text is available in the local scrape yet.'}</p>
-              </div>
+              {activeCard.description && (
+                <div className="tcg-effect">
+                  <span>Description</span>
+                  <p>{tcgRenderText(activeCard.description, null, resolver)}</p>
+                </div>
+              )}
+              {activeCard.sourceText && (
+                <div className="tcg-effect tcg-source">
+                  <span>Source</span>
+                  <p>{activeCard.sourceText}</p>
+                </div>
+              )}
+              {tcgTalentRows(activeCard).length > 0 && (
+                <div className="tcg-skill-list">
+                  <span>Skills / Effects</span>
+                  {tcgTalentRows(activeCard).map((row, index) => {
+                    const refs = tcgReferenceRows(row.child, resolver);
+                    return (
+                      <article className="tcg-skill-card" key={(row.id || activeCard.id) + '-' + index}>
+                        <div className="tcg-skill-head">
+                          <b>{row.name || activeCard.name}</b>
+                          {row.tag && <em>{TCG_SKILL_TAG_LABELS[row.tag] || row.tag}</em>}
+                          {tcgFormatCost(row.cost) && <i>{tcgFormatCost(row.cost)}</i>}
+                        </div>
+                        {row.desc && <p>{tcgRenderText(row.desc, row.child, resolver)}</p>}
+                        {refs.length > 0 && (
+                          <div className="tcg-reference-list">
+                            <span>References</span>
+                            {refs.map((ref) => (
+                              <div key={ref.key}>
+                                <b>{ref.name}</b>
+                                {ref.desc && <p>{ref.desc}</p>}
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </article>
+                    );
+                  })}
+                </div>
+              )}
+              {activeCard.sourceUrl && <a className="tcg-source-link" href={activeCard.sourceUrl} target="_blank" rel="noopener noreferrer">Open on Nanoka</a>}
             </div>
           </article>
         </div>
@@ -2169,6 +2315,46 @@ function GameIconPicker({ game, selected, onPick }){
   );
 }
 
+function PmSelect({ value, options, onChange, label }){
+  const [open, setOpen] = React.useState(false);
+  const ref = React.useRef(null);
+  const active = options.find(([key]) => key === value) || options[0];
+  React.useEffect(() => {
+    if (!open) return undefined;
+    const onDoc = (event) => {
+      if (!ref.current || !ref.current.contains(event.target)) setOpen(false);
+    };
+    const onKey = (event) => {
+      if (event.key === 'Escape') setOpen(false);
+    };
+    document.addEventListener('mousedown', onDoc);
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.removeEventListener('mousedown', onDoc);
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [open]);
+  return (
+    <div className="pm-select" ref={ref}>
+      <button type="button" className="pm-select-trigger" aria-haspopup="listbox" aria-expanded={open}
+              aria-label={label} onClick={() => setOpen((v) => !v)}>
+        <span>{active?.[1] || value}</span><i>{'\u25BE'}</i>
+      </button>
+      {open && (
+        <div className="pm-select-menu" role="listbox" aria-label={label}>
+          {options.map(([key, optionLabel]) => (
+            <button type="button" key={key} role="option" aria-selected={value === key}
+                    className={value === key ? 'on' : ''}
+                    onClick={() => { onChange(key); setOpen(false); }}>
+              {optionLabel}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function PengoMenu({ settings, setSettings, inline }){
   const [collabOpen, setCollabOpen] = React.useState({});
   const update = (patch) => setSettings((prev) => Object.assign({}, prev, patch));
@@ -2345,12 +2531,15 @@ function PengoMenu({ settings, setSettings, inline }){
                   </div>
                 </div>
               )}
-              <label className="pm-identity-row pm-language-row">
+              <div className="pm-identity-row pm-language-row">
                 <span>Language</span>
-                <select value={language[game.key]} onChange={(e) => setLanguage(game.key, e.target.value)}>
-                  {NYX_LANGUAGE_OPTIONS.map(([key, label]) => <option key={key} value={key}>{label}</option>)}
-                </select>
-              </label>
+                <PmSelect
+                  label={`${game.name} language`}
+                  value={language[game.key]}
+                  options={NYX_LANGUAGE_OPTIONS}
+                  onChange={(value) => setLanguage(game.key, value)}
+                />
+              </div>
               {specials.length > 0 && (
                 <div className={'pm-special-list' + (collabOpen[game.key] ? ' open' : '')}>
                   {(() => {

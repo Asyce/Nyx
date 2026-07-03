@@ -70,6 +70,7 @@ jobs:
           node ./wiki-titles/scrape.mjs                      || echo "::warning::wiki-titles sync had errors; carry-forward applied"
           node ./banners/scrape.cjs                          || echo "::warning::banner scrape had errors; carry-forward applied"
           node ./codes/scrape.cjs                            || echo "::warning::codes scrape had errors; carry-forward applied"
+          npm --prefix ../Site run scrape:gcg                 || echo "::warning::genshin tcg scrape had errors; carry-forward applied"
 
       - name: Validate scraped data
         working-directory: Scraper

@@ -823,40 +823,40 @@ function buildGenshinTcgCards() {
   const sourceUrl = 'https://gi.nanoka.cc/gcg';
   const ambrRel = 'Ambr/gi/gcg/cards-en.json';
   const ambrById = new Map((exists(ambrRel) ? readJson(ambrRel) : []).map((card) => [String(card.id), card]));
-  const characterCards = exists(characterRel)
-    ? readJson(characterRel).map((card) => ({
-      id: String(card.id || card.name),
-      name: card.name || card.playableCharacter || String(card.id),
-      title: card.title || null,
-      description: card.description || ambrById.get(String(card.id || card.name))?.description || null,
-      localizedNames: card.localizedNames || undefined,
-      type: card.type || 'Character',
-      cost: Number.isFinite(Number(card.cost)) ? Number(card.cost) : undefined,
-      hp: Number.isFinite(Number(card.hp)) ? Number(card.hp) : undefined,
-      relatedCardId: card.relatedCardId ? String(card.relatedCardId) : undefined,
-      tags: Array.isArray(card.tags) ? card.tags : [],
-      playableCharacter: card.playableCharacter || null,
-      art: dbAsset(card.localAsset),
-      source: 'Nanoka',
-    })).filter((card) => card.art)
-    : [];
-  const otherDir = path.resolve(dbDir, 'Nanoka/gi/gcg/other cards/assets');
-  const otherCards = exists(otherRel)
-    ? readJson(otherRel).map((card) => ({
-      id:String(card.id || card.name),
-      name:card.name || String(card.id),
+  const mapTcgCard = (card, fallbackType, playableCharacter) => {
+    const id = String(card.id || card.name);
+    const detailTalent = card.details?.talent || null;
+    const ambr = ambrById.get(id);
+    return {
+      id,
+      name:card.name || card.playableCharacter || String(card.id),
       title:card.title || null,
-      description:card.description || ambrById.get(String(card.id || card.name))?.description || null,
+      description:card.description || ambr?.description || null,
+      sourceText:card.source || null,
+      sourceUrl:card.sourceUrl || `${sourceUrl}/${id}`,
       localizedNames:card.localizedNames || undefined,
-      type:card.type || 'Action',
-      cost:Number.isFinite(Number(card.cost)) ? Number(card.cost) : undefined,
+      type:card.type || fallbackType,
+      cost:card.cost ?? undefined,
       hp:Number.isFinite(Number(card.hp)) ? Number(card.hp) : undefined,
       relatedCardId:card.relatedCardId ? String(card.relatedCardId) : undefined,
       tags:Array.isArray(card.tags) ? card.tags : [],
-      playableCharacter:null,
+      talent:detailTalent || undefined,
+      playableCharacter,
       art:dbAsset(card.localAsset),
       source:'Nanoka',
-    })).filter((card) => card.art).sort((a, b) => a.name.localeCompare(b.name))
+    };
+  };
+  const characterCards = exists(characterRel)
+    ? readJson(characterRel)
+      .map((card) => mapTcgCard(card, 'Character', card.playableCharacter || null))
+      .filter((card) => card.art)
+    : [];
+  const otherDir = path.resolve(dbDir, 'Nanoka/gi/gcg/other cards/assets');
+  const otherCards = exists(otherRel)
+    ? readJson(otherRel)
+      .map((card) => mapTcgCard(card, 'Action', null))
+      .filter((card) => card.art)
+      .sort((a, b) => a.name.localeCompare(b.name))
     : fs.existsSync(otherDir)
       ? fs.readdirSync(otherDir, { withFileTypes:true })
         .filter((entry) => entry.isFile() && /\.webp$/i.test(entry.name))

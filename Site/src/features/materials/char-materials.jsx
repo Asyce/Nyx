@@ -1339,6 +1339,7 @@ function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 5
   const [error, setError] = React.useState('');
   const [library, setLibrary] = useNyxLocalImageLibrary();
   const imgRef = React.useRef(null);
+  const dragRef = React.useRef(null);
 
   const clamp = (value, min, max) => Math.max(min, Math.min(max, Number(value) || 0));
   const setSource = (src, name = 'Local image', remember = false) => {
@@ -1414,6 +1415,35 @@ function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 5
     </label>
   );
 
+  const onPreviewWheel = (event) => {
+    if (!sourceUrl) return;
+    event.preventDefault();
+    const factor = event.deltaY < 0 ? 1.08 : 1 / 1.08;
+    setZoom((value) => clamp(Number(value) * factor, .1, 10));
+  };
+
+  const onPreviewPointerDown = (event) => {
+    if (!sourceUrl || event.button !== 0) return;
+    event.preventDefault();
+    dragRef.current = { x:event.clientX, y:event.clientY, panX, panY };
+    event.currentTarget.setPointerCapture?.(event.pointerId);
+  };
+
+  const onPreviewPointerMove = (event) => {
+    const drag = dragRef.current;
+    if (!drag) return;
+    const rect = event.currentTarget.getBoundingClientRect();
+    const dx = ((event.clientX - drag.x) / Math.max(1, rect.width)) * 220;
+    const dy = ((event.clientY - drag.y) / Math.max(1, rect.height)) * 220;
+    setPanX(clamp(drag.panX + dx, -500, 500));
+    setPanY(clamp(drag.panY + dy, -500, 500));
+  };
+
+  const onPreviewPointerUp = (event) => {
+    dragRef.current = null;
+    event.currentTarget.releasePointerCapture?.(event.pointerId);
+  };
+
   return (
     <div className={'nyx-img-editor shape-' + shape}>
       <div className="nyx-img-editor-head">
@@ -1424,7 +1454,12 @@ function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 5
         </label>
       </div>
       {sourceUrl && (
-        <div className="nyx-img-preview" style={{ aspectRatio:String(aspect) }}>
+        <div className="nyx-img-preview" style={{ aspectRatio:String(aspect) }}
+             onWheel={onPreviewWheel}
+             onPointerDown={onPreviewPointerDown}
+             onPointerMove={onPreviewPointerMove}
+             onPointerUp={onPreviewPointerUp}
+             onPointerCancel={onPreviewPointerUp}>
           <img
             ref={imgRef}
             src={sourceUrl}
@@ -2380,7 +2415,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   return (
     <div className={inline ? 'cm-inline' : 'cm-overlay'}
          onMouseDown={inline ? undefined : (e) => { if (e.target === e.currentTarget) onClose(); }}>
-      {!modalOnly && <div className="cm-panel" data-screen-label="Character Materials">
+      {!modalOnly && !(inline && sel) && <div className="cm-panel" data-screen-label="Character Materials">
 
         {/* The "Character Materials" header box is removed on the game page (sections
             are switched from the left nav); the standalone panel keeps a plain title. */}
@@ -2608,16 +2643,23 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
 
       {sel && (() => {
         const pop = (
-        <div className={'cm-pop-wrap' + (inline ? ' float' : '')} onMouseDown={(e) => { if (e.target === e.currentTarget) closePop(); }}>
-          <div className="cm-pop ledger" data-screen-label="Material popup" ref={cmPopRef}
-               role="dialog" aria-modal="true" aria-label={(sel.n || 'Character') + ' materials'}
+        <div className={'cm-pop-wrap' + (inline ? ' float page' : '')} onMouseDown={inline ? undefined : (e) => { if (e.target === e.currentTarget) closePop(); }}>
+          <div className="cm-pop ledger" data-screen-label={inline ? 'Material detail page' : 'Material popup'} ref={cmPopRef}
+               role={inline ? undefined : 'dialog'} aria-modal={inline ? undefined : 'true'} aria-label={(sel.n || 'Character') + ' materials'}
                style={{ '--el':CM_ELEM[view.el] || '#b7aaff' }}>
             <div className="cm-pop-ambient"></div>
             <div className="cm-pop-scrim"></div>
-            <button type="button" className="cm-x sm cm-pop-close" title="Close" aria-label="Close"
-                    ref={cmCloseBtnRef} onClick={closePop}>{'\u2715'}</button>
+            {!inline && (
+              <button type="button" className="cm-x sm cm-pop-close" title="Close" aria-label="Close"
+                      ref={cmCloseBtnRef} onClick={closePop}>{'\u2715'}</button>
+            )}
 
             <div className="cm-pop-layout">
+              {inline && (
+                <button type="button" className="cm-detail-back" onClick={closePop}>
+                  <span>{'\u2039'}</span><b>Back to Character Materials</b>
+                </button>
+              )}
               <div className="cm-pop-main cm-ledger-main" ref={cmLedgerMainRef}>
                 <div className="cm-ledger-top">
                   <div className="cm-ledger-title">
@@ -2940,7 +2982,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
           </div>
         </div>
         );
-        return inline && ReactDOM.createPortal ? ReactDOM.createPortal(pop, document.body) : pop;
+        return pop;
       })()}
     </div>
   );

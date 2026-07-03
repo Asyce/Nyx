@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-03T19:07:07.938Z",
+  "generatedAt": "2026-07-03T21:14:44.057Z",
   "providers": {
     "Prydwen": "2026-07-01T09:00:25.858Z",
     "Nanoka": {
@@ -4518,7 +4518,7 @@ var NYX_DB = {
       "tcg": {
         "source": "Nanoka",
         "sourceUrl": "https://gi.nanoka.cc/gcg",
-        "updated": "2026-07-03T15:58:51.787Z",
+        "updated": "2026-07-03T21:01:46.869Z",
         "counts": {
           "characterCards": 104,
           "otherCards": 503
@@ -4536,6 +4536,9 @@ var NYX_DB = {
               "ko": "\uac10\uc6b0"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 12,
+            "relatedCardId": "211011",
             "tags": [
               "Cryo",
               "Bow",
@@ -4557,6 +4560,9 @@ var NYX_DB = {
               "ko": "\ub514\uc624\ub098"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 12,
+            "relatedCardId": "211021",
             "tags": [
               "Cryo",
               "Bow",
@@ -4578,6 +4584,9 @@ var NYX_DB = {
               "ko": "\ucf00\uc774\uc544"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "211031",
             "tags": [
               "Cryo",
               "Sword",
@@ -4599,6 +4608,9 @@ var NYX_DB = {
               "ko": "\uc911\uc6b4"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "211041",
             "tags": [
               "Cryo",
               "Claymore",
@@ -4620,6 +4632,9 @@ var NYX_DB = {
               "ko": "\uce74\ubbf8\uc0ac\ud1a0 \uc544\uc57c\uce74"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "211051",
             "tags": [
               "Cryo",
               "Sword",
@@ -4641,6 +4656,9 @@ var NYX_DB = {
               "ko": "\uc720\ub77c"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "211061",
             "tags": [
               "Cryo",
               "Claymore",
@@ -4662,6 +4680,9 @@ var NYX_DB = {
               "ko": "\uc2e0\ud559"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "211071",
             "tags": [
               "Cryo",
               "Polearm",
@@ -4683,6 +4704,9 @@ var NYX_DB = {
               "ko": "\uce58\uce58"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "211081",
             "tags": [
               "Cryo",
               "Sword",
@@ -4704,6 +4728,9 @@ var NYX_DB = {
               "ko": "\ub808\uc77c\ub77c"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "211091",
             "tags": [
               "Cryo",
               "Sword",
@@ -4725,6 +4752,9 @@ var NYX_DB = {
               "ko": "\uc0e4\ub97c\ub85c\ud2b8"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "211101",
             "tags": [
               "Cryo",
               "Catalyst",
@@ -4747,6 +4777,9 @@ var NYX_DB = {
               "ko": "\ub77c\uc774\uc624\uc2ac\ub9ac"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 11,
+            "relatedCardId": "211111",
             "tags": [
               "Cryo",
               "Catalyst",
@@ -4769,6 +4802,9 @@ var NYX_DB = {
               "ko": "\ud504\ub808\ubbf8\ub124"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "211121",
             "tags": [
               "Cryo",
               "Claymore",
@@ -4792,6 +4828,9 @@ var NYX_DB = {
               "ko": "\ub85c\uc790\ub9ac\uc544"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "211131",
             "tags": [
               "Cryo",
               "Polearm",
@@ -4813,6 +4852,9 @@ var NYX_DB = {
               "ko": "\uc2dc\ud2c0\ub77c\ub9ac"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "211141",
             "tags": [
               "Cryo",
               "Catalyst",
@@ -4834,6 +4876,9 @@ var NYX_DB = {
               "ko": "\uc5d0\uc2a4\ucf54\ud53c\uc5d0"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "211151",
             "tags": [
               "Cryo",
               "Polearm",
@@ -4856,6 +4901,9 @@ var NYX_DB = {
               "ko": "\uc2a4\ucee4\ud06c"
             },
             "type": "Character",
+            "cost": 0,
+            "hp": 10,
+            "relatedCardId": "211161",
             "tags": [
               "Cryo",
               "Sword",
@@ -4877,6 +4925,9 @@ var NYX_DB = {
               "ko": "\ubbf8\uce74"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "211171",
             "tags": [
               "Cryo",
               "Polearm",
@@ -4898,6 +4949,9 @@ var NYX_DB = {
               "ko": "\ubc14\ubc14\ub77c"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 12,
+            "relatedCardId": "212011",
             "tags": [
               "Hydro",
               "Catalyst",
@@ -4919,6 +4973,9 @@ var NYX_DB = {
               "ko": "\ud589\ucd94"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "212021",
             "tags": [
               "Hydro",
               "Sword",
@@ -4940,6 +4997,9 @@ var NYX_DB = {
               "ko": "\ubaa8\ub098"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "212031",
             "tags": [
               "Hydro",
               "Catalyst",
@@ -4961,6 +5021,9 @@ var NYX_DB = {
               "ko": "\ud0c0\ub974\ud0c8\ub9ac\uc544"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "212041",
             "tags": [
               "Hydro",
               "Bow",
@@ -4982,6 +5045,9 @@ var NYX_DB = {
               "ko": "\uc0b0\uace0\ub178\ubbf8\uc57c \ucf54\ucf54\ubbf8"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 12,
+            "relatedCardId": "212051",
             "tags": [
               "Hydro",
               "Catalyst",
@@ -5003,6 +5069,9 @@ var NYX_DB = {
               "ko": "\uce74\ubbf8\uc0ac\ud1a0 \uc544\uc57c\ud1a0"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "212061",
             "tags": [
               "Hydro",
               "Sword",
@@ -5024,6 +5093,9 @@ var NYX_DB = {
               "ko": "\uce94\ub514\uc2a4"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "212071",
             "tags": [
               "Hydro",
               "Polearm",
@@ -5045,6 +5117,9 @@ var NYX_DB = {
               "ko": "\ub2d0\ub8e8"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "212081",
             "tags": [
               "Hydro",
               "Sword",
@@ -5066,6 +5141,9 @@ var NYX_DB = {
               "ko": "\uc57c\ub780"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 11,
+            "relatedCardId": "212091",
             "tags": [
               "Hydro",
               "Bow",
@@ -5087,6 +5165,9 @@ var NYX_DB = {
               "ko": "\ub290\ube44\uc608\ud2b8"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "212101",
             "tags": [
               "Hydro",
               "Catalyst",
@@ -5109,6 +5190,9 @@ var NYX_DB = {
               "ko": "\ud478\ub9ac\ub098"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 12,
+            "relatedCardId": "212111",
             "tags": [
               "Hydro",
               "Sword",
@@ -5131,6 +5215,9 @@ var NYX_DB = {
               "ko": "\uc2dc\uadf8\uc708"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 12,
+            "relatedCardId": "212131",
             "tags": [
               "Hydro",
               "Bow",
@@ -5153,6 +5240,9 @@ var NYX_DB = {
               "ko": "\ub9d0\ub77c\ub2c8"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "212141",
             "tags": [
               "Hydro",
               "Catalyst",
@@ -5174,6 +5264,9 @@ var NYX_DB = {
               "ko": "\ub2ec\ub9ac\uc544"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "212151",
             "tags": [
               "Hydro",
               "Sword",
@@ -5195,6 +5288,9 @@ var NYX_DB = {
               "ko": "\uc544\uc774\ub178"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "212161",
             "tags": [
               "Hydro",
               "Claymore",
@@ -5216,6 +5312,9 @@ var NYX_DB = {
               "ko": "\ub2e4\uc774\ub8e8\ud06c"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "213011",
             "tags": [
               "Pyro",
               "Claymore",
@@ -5237,6 +5336,9 @@ var NYX_DB = {
               "ko": "\ud5a5\ub989"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "213021",
             "tags": [
               "Pyro",
               "Polearm",
@@ -5258,6 +5360,9 @@ var NYX_DB = {
               "ko": "\ubca0\ub137"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "213031",
             "tags": [
               "Pyro",
               "Sword",
@@ -5279,6 +5384,9 @@ var NYX_DB = {
               "ko": "\uc5e0\ubc84"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 12,
+            "relatedCardId": "213041",
             "tags": [
               "Pyro",
               "Bow",
@@ -5300,6 +5408,9 @@ var NYX_DB = {
               "ko": "\uc694\uc774\ubbf8\uc57c"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "213051",
             "tags": [
               "Pyro",
               "Bow",
@@ -5321,6 +5432,9 @@ var NYX_DB = {
               "ko": "\ud074\ub808"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "213061",
             "tags": [
               "Pyro",
               "Catalyst",
@@ -5342,6 +5456,9 @@ var NYX_DB = {
               "ko": "\ud638\ub450"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 12,
+            "relatedCardId": "213071",
             "tags": [
               "Pyro",
               "Polearm",
@@ -5363,6 +5480,9 @@ var NYX_DB = {
               "ko": "\uc5f0\ube44"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "213081",
             "tags": [
               "Pyro",
               "Catalyst",
@@ -5384,6 +5504,9 @@ var NYX_DB = {
               "ko": "\ub370\ud788\uc57c"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "213091",
             "tags": [
               "Pyro",
               "Claymore",
@@ -5406,6 +5529,9 @@ var NYX_DB = {
               "ko": "\ub9ac\ub2c8"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "213101",
             "tags": [
               "Pyro",
               "Bow",
@@ -5429,6 +5555,9 @@ var NYX_DB = {
               "ko": "\ud1a0\ub9c8"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 12,
+            "relatedCardId": "213111",
             "tags": [
               "Pyro",
               "Polearm",
@@ -5450,6 +5579,9 @@ var NYX_DB = {
               "ko": "\uc2e0\uc5fc"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "213121",
             "tags": [
               "Pyro",
               "Claymore",
@@ -5471,6 +5603,9 @@ var NYX_DB = {
               "ko": "\uc288\ube0c\ub974\uc988"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "213131",
             "tags": [
               "Pyro",
               "Polearm",
@@ -5493,6 +5628,9 @@ var NYX_DB = {
               "ko": "\uc544\ub97c\ub808\ud0a4\ub178"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "213141",
             "tags": [
               "Pyro",
               "Polearm",
@@ -5514,6 +5652,9 @@ var NYX_DB = {
               "ko": "\ub9c8\ube44\uce74"
             },
             "type": "Character",
+            "cost": 0,
+            "hp": 10,
+            "relatedCardId": "213151",
             "tags": [
               "Pyro",
               "Claymore",
@@ -5535,6 +5676,9 @@ var NYX_DB = {
               "ko": "\uac00\uba85"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "213161",
             "tags": [
               "Pyro",
               "Claymore",
@@ -5556,6 +5700,9 @@ var NYX_DB = {
               "ko": "\ud53c\uc2ac"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "214011",
             "tags": [
               "Electro",
               "Bow",
@@ -5577,6 +5724,9 @@ var NYX_DB = {
               "ko": "\ub808\uc774\uc800"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "214021",
             "tags": [
               "Electro",
               "Claymore",
@@ -5598,6 +5748,9 @@ var NYX_DB = {
               "ko": "\uac01\uccad"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "214031",
             "tags": [
               "Electro",
               "Sword",
@@ -5619,6 +5772,9 @@ var NYX_DB = {
               "ko": "\uc0ac\uc774\ub178"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "214041",
             "tags": [
               "Electro",
               "Polearm",
@@ -5640,6 +5796,9 @@ var NYX_DB = {
               "ko": "\ubd81\ub450"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 11,
+            "relatedCardId": "214051",
             "tags": [
               "Electro",
               "Claymore",
@@ -5661,6 +5820,9 @@ var NYX_DB = {
               "ko": "\ucfe0\uc8e0 \uc0ac\ub77c"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "214061",
             "tags": [
               "Electro",
               "Bow",
@@ -5682,6 +5844,9 @@ var NYX_DB = {
               "ko": "\ub77c\uc774\ub374 \uc1fc\uad70"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "214071",
             "tags": [
               "Electro",
               "Polearm",
@@ -5703,6 +5868,9 @@ var NYX_DB = {
               "ko": "\uc57c\uc5d0 \ubbf8\ucf54"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "214081",
             "tags": [
               "Electro",
               "Catalyst",
@@ -5724,6 +5892,9 @@ var NYX_DB = {
               "ko": "\ub9ac\uc0ac"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "214091",
             "tags": [
               "Electro",
               "Catalyst",
@@ -5745,6 +5916,9 @@ var NYX_DB = {
               "ko": "\ub3c4\ub9ac"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "214101",
             "tags": [
               "Electro",
               "Claymore",
@@ -5766,6 +5940,9 @@ var NYX_DB = {
               "ko": "\ucfe0\ud0a4 \uc2dc\ub178\ubd80"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "214111",
             "tags": [
               "Electro",
               "Sword",
@@ -5787,6 +5964,9 @@ var NYX_DB = {
               "ko": "\ud074\ub85c\ub9b0\ub4dc"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "214121",
             "tags": [
               "Electro",
               "Sword",
@@ -5809,6 +5989,9 @@ var NYX_DB = {
               "ko": "\uc138\ud1a0\uc2a4"
             },
             "type": "Character",
+            "cost": 4,
+            "hp": 10,
+            "relatedCardId": "214131",
             "tags": [
               "Electro",
               "Bow",
@@ -5830,6 +6013,9 @@ var NYX_DB = {
               "ko": "\uc580\uc0ac"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "214141",
             "tags": [
               "Electro",
               "Polearm",
@@ -5851,6 +6037,9 @@ var NYX_DB = {
               "ko": "\ubc14\ub808\uc0ac"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "214151",
             "tags": [
               "Electro",
               "Catalyst",
@@ -5872,6 +6061,9 @@ var NYX_DB = {
               "ko": "\uc62c\ub85c\ub8ec"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "214161",
             "tags": [
               "Electro",
               "Bow",
@@ -5893,6 +6085,9 @@ var NYX_DB = {
               "ko": "\uc774\ub124\ud30c"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "214171",
             "tags": [
               "Electro",
               "Polearm",
@@ -5914,6 +6109,9 @@ var NYX_DB = {
               "ko": "\ud50c\ub9b0\uc2a4"
             },
             "type": "Character",
+            "cost": 4,
+            "hp": 10,
+            "relatedCardId": "214181",
             "tags": [
               "Electro",
               "Polearm",
@@ -5935,6 +6133,9 @@ var NYX_DB = {
               "ko": "\uc124\ud0d5"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "215011",
             "tags": [
               "Anemo",
               "Catalyst",
@@ -5956,6 +6157,9 @@ var NYX_DB = {
               "ko": "\uc9c4"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 12,
+            "relatedCardId": "215021",
             "tags": [
               "Anemo",
               "Sword",
@@ -5977,6 +6181,9 @@ var NYX_DB = {
               "ko": "\ubca4\ud2f0"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 12,
+            "relatedCardId": "215031",
             "tags": [
               "Anemo",
               "Bow",
@@ -5998,6 +6205,9 @@ var NYX_DB = {
               "ko": "\uc18c"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "215041",
             "tags": [
               "Anemo",
               "Polearm",
@@ -6019,6 +6229,9 @@ var NYX_DB = {
               "ko": "\uce74\uc5d0\ub370\ud558\ub77c \uce74\uc988\ud558"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "215051",
             "tags": [
               "Anemo",
               "Sword",
@@ -6040,6 +6253,9 @@ var NYX_DB = {
               "ko": "#{REALNAME[ID(1)|DELAYHANDLE(true)]}"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "215061",
             "tags": [
               "Anemo",
               "Catalyst"
@@ -6060,6 +6276,9 @@ var NYX_DB = {
               "ko": "\uc0ac\uc720"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "215071",
             "tags": [
               "Anemo",
               "Claymore",
@@ -6081,6 +6300,9 @@ var NYX_DB = {
               "ko": "\ub9ac\ub137"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "215081",
             "tags": [
               "Anemo",
               "Sword",
@@ -6104,6 +6326,9 @@ var NYX_DB = {
               "ko": "\ud30c\ub8e8\uc794"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "215091",
             "tags": [
               "Anemo",
               "Bow",
@@ -6125,6 +6350,9 @@ var NYX_DB = {
               "ko": "\ud55c\uc6b4"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "215101",
             "tags": [
               "Anemo",
               "Catalyst",
@@ -6146,6 +6374,9 @@ var NYX_DB = {
               "ko": "\ucc28\uc2a4\uce74"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "215111",
             "tags": [
               "Anemo",
               "Bow",
@@ -6167,6 +6398,9 @@ var NYX_DB = {
               "ko": "\ub0a8\uc5f0"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "215121",
             "tags": [
               "Anemo",
               "Catalyst",
@@ -6188,6 +6422,9 @@ var NYX_DB = {
               "ko": "\uc2dc\uce74\ub178\uc778 \ud5e4\uc774\uc870"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "215131",
             "tags": [
               "Anemo",
               "Catalyst",
@@ -6209,6 +6446,9 @@ var NYX_DB = {
               "ko": "\uc720\uba54\ubbf8\uc988\ud0a4 \ubbf8\uc988\ud0a4"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "215141",
             "tags": [
               "Anemo",
               "Catalyst",
@@ -6230,6 +6470,9 @@ var NYX_DB = {
               "ko": "\uc774\ud30c"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "215151",
             "tags": [
               "Anemo",
               "Catalyst",
@@ -6251,6 +6494,9 @@ var NYX_DB = {
               "ko": "\uc751\uad11"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "216011",
             "tags": [
               "Geo",
               "Catalyst",
@@ -6272,6 +6518,9 @@ var NYX_DB = {
               "ko": "\ub178\uc5d8"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 12,
+            "relatedCardId": "216021",
             "tags": [
               "Geo",
               "Claymore",
@@ -6293,6 +6542,9 @@ var NYX_DB = {
               "ko": "\uc885\ub824"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 12,
+            "relatedCardId": "216031",
             "tags": [
               "Geo",
               "Polearm",
@@ -6314,6 +6566,9 @@ var NYX_DB = {
               "ko": "\uc54c\ubca0\ub3c4"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 12,
+            "relatedCardId": "216041",
             "tags": [
               "Geo",
               "Sword",
@@ -6335,6 +6590,9 @@ var NYX_DB = {
               "ko": "\uc544\ub77c\ud0c0\ud0a4 \uc774\ud1a0"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "216051",
             "tags": [
               "Geo",
               "Claymore",
@@ -6356,6 +6614,9 @@ var NYX_DB = {
               "ko": "\uace0\ub85c"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "216061",
             "tags": [
               "Geo",
               "Bow",
@@ -6377,6 +6638,9 @@ var NYX_DB = {
               "ko": "\uc6b4\uadfc"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "216071",
             "tags": [
               "Geo",
               "Polearm",
@@ -6398,6 +6662,9 @@ var NYX_DB = {
               "ko": "\ub098\ube44\uc544"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "216081",
             "tags": [
               "Geo",
               "Claymore",
@@ -6420,6 +6687,9 @@ var NYX_DB = {
               "ko": "\uce58\uc624\ub9ac"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "216091",
             "tags": [
               "Geo",
               "Sword",
@@ -6441,6 +6711,9 @@ var NYX_DB = {
               "ko": "\uce74\uce58\ub098"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "216101",
             "tags": [
               "Geo",
               "Polearm",
@@ -6462,6 +6735,9 @@ var NYX_DB = {
               "ko": "\uc2e4\ub85c\ub2cc"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 12,
+            "relatedCardId": "216111",
             "tags": [
               "Geo",
               "Sword",
@@ -6483,6 +6759,9 @@ var NYX_DB = {
               "ko": "\ucf5c\ub808\uc774"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "217011",
             "tags": [
               "Dendro",
               "Bow",
@@ -6504,6 +6783,9 @@ var NYX_DB = {
               "ko": "\ud0c0\uc774\ub098\ub9ac"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "217021",
             "tags": [
               "Dendro",
               "Bow",
@@ -6525,6 +6807,9 @@ var NYX_DB = {
               "ko": "\ub098\ud788\ub2e4"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "217031",
             "tags": [
               "Dendro",
               "Catalyst",
@@ -6546,6 +6831,9 @@ var NYX_DB = {
               "ko": "\uc694\uc694"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "217041",
             "tags": [
               "Dendro",
               "Polearm",
@@ -6567,6 +6855,9 @@ var NYX_DB = {
               "ko": "\ubc31\ucd9c"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "217051",
             "tags": [
               "Dendro",
               "Catalyst",
@@ -6588,6 +6879,9 @@ var NYX_DB = {
               "ko": "\uc54c\ud558\uc774\ud0d0"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "217061",
             "tags": [
               "Dendro",
               "Sword",
@@ -6609,6 +6903,9 @@ var NYX_DB = {
               "ko": "\ud0a4\ub77c\ub77c"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "217071",
             "tags": [
               "Dendro",
               "Sword",
@@ -6630,6 +6927,9 @@ var NYX_DB = {
               "ko": "\uce74\ubca0"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 12,
+            "relatedCardId": "217081",
             "tags": [
               "Dendro",
               "Claymore",
@@ -6651,6 +6951,9 @@ var NYX_DB = {
               "ko": "\ud0a4\ub2c8\uce58"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "217091",
             "tags": [
               "Dendro",
               "Claymore",
@@ -6672,6 +6975,9 @@ var NYX_DB = {
               "ko": "\uc5d0\ubc00\ub9ac"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "217101",
             "tags": [
               "Dendro",
               "Polearm",
@@ -6694,6 +7000,9 @@ var NYX_DB = {
               "ko": "\ub77c\uc6b0\ub9c8"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "217111",
             "tags": [
               "Dendro",
               "Catalyst",
@@ -6715,6 +7024,9 @@ var NYX_DB = {
               "ko": "\ub124\ud398\ub974"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "217121",
             "tags": [
               "Dendro",
               "Catalyst",
@@ -6739,6 +7051,8 @@ var NYX_DB = {
               "ko": "\u300c\ub9c8\ub140M\uc758 \ucd95\ubcf5\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Simulanka"
             ],
@@ -6758,6 +7072,8 @@ var NYX_DB = {
               "ko": "\u300c\uc0c8\ubcbd \uc548\uac1c\ub97c \ub118\uc5b4\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332059-_An Adventure Through the Morning Mist_.webp",
@@ -6775,6 +7091,8 @@ var NYX_DB = {
               "ko": "\u300c\ube44\uc625\ud55c \ud130\uc804\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -6794,6 +7112,8 @@ var NYX_DB = {
               "ko": "\u300c\uaf43\uae43\ud68c\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -6813,6 +7133,8 @@ var NYX_DB = {
               "ko": "\u300c\ubaa8\ub450 \uc0ac\ub791\uc758 \ucd95\ubc30\ub97c \ub4e4\ub834!\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -6833,6 +7155,8 @@ var NYX_DB = {
               "ko": "\u300c\uc778\uac04\uc758 \uc774\ub984\u300d \ud574\ubc29"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -6852,6 +7176,8 @@ var NYX_DB = {
               "ko": "\u300c\uadf8 \uc790\uc2dd\uc774 \ub3c8\uc744 \ubc84\ub294 \uac8c\u2026\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332036-_I'd Rather Lose Money Myself..._.webp",
@@ -6869,6 +7195,8 @@ var NYX_DB = {
               "ko": "\u300c\uc5f0\uae30 \uc8fc\uc778\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -6888,6 +7216,8 @@ var NYX_DB = {
               "ko": "\u300c\uc785\uc220\uc774\uc5ec, \ub098\ub97c \uc704\ud574 \uc2dc\uc640 \ub178\ub798\ub85c\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -6908,6 +7238,8 @@ var NYX_DB = {
               "ko": "\u300c\uac80\uc740 \uaca9\ub958\ub97c \ub9c9\uc740 \ubc18\uc11d\u2026\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -6928,6 +7260,8 @@ var NYX_DB = {
               "ko": "\u300c\uac80\uc740 \uc7ac\uc559\uc744 \ub9c9\uc740 \uace0\ub3c5\ud55c \ubc14\ub78c\u2026\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -6948,6 +7282,8 @@ var NYX_DB = {
               "ko": "\u300c\uc0d8\ubb3c \ubb34\ub9ac\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -6967,6 +7303,8 @@ var NYX_DB = {
               "ko": "\u300c\ucd95\uc81c\uc758 \ub9ac\ub4ec\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332055-_Revelrous Beats_.webp",
@@ -6984,6 +7322,8 @@ var NYX_DB = {
               "ko": "\u300c\ub098\ubb34\uc0b4\uc774\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -7003,6 +7343,8 @@ var NYX_DB = {
               "ko": "\u300c\uc288\ud37c \uc6b8\ud2b8\ub77c \ud328\uc655 \ub9c8\uac80\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Claymore"
@@ -7023,6 +7365,8 @@ var NYX_DB = {
               "ko": "\uc11c\ub298\ud55c \uadf8\ub9bc\uc790 \uac80"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -7043,6 +7387,8 @@ var NYX_DB = {
               "ko": "\ud788\uc5b4\ub85c\uc758 \uc2b9\ub9ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -7062,6 +7408,8 @@ var NYX_DB = {
               "ko": "\ubcf4\uc88c\uad00\uc758 \uc7ac\uc8fc"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -7082,6 +7430,8 @@ var NYX_DB = {
               "ko": "\ud765\ubbf8 \ucd94\uad6c\uc758 \uc694\uc9c0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -7102,6 +7452,8 @@ var NYX_DB = {
               "ko": "\ub5a0\uc624\ub974\ub294 \ucc9c\uc77c \ubc24\uc758 \uafc8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Catalyst"
@@ -7122,6 +7474,8 @@ var NYX_DB = {
               "ko": "\uc218\ub9ce\uc740 \uc790\uc190"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -7141,6 +7495,8 @@ var NYX_DB = {
               "ko": "\uc5d0\ub108\uc9c0 \ud761\uc218 \uacb0\uc815"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action",
@@ -7162,6 +7518,8 @@ var NYX_DB = {
               "ko": "\uc5f4\uc18c \ucda9\ub9cc"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332042-Abundant Phlogiston.webp",
@@ -7179,6 +7537,9 @@ var NYX_DB = {
               "ko": "\uc2ec\uc5f0 \uc0ac\ub3c4\u00b7\uaca9\ub958"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 6,
+            "relatedCardId": "222031",
             "tags": [
               "Hydro",
               "Other Weapons",
@@ -7200,6 +7561,9 @@ var NYX_DB = {
               "ko": "\uc2ec\uc5f0 \ubd09\ub3c5\uc790\u00b7\uc2ec\uc5f0\uc758 \ubd88\uaf43"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 6,
+            "relatedCardId": "223021",
             "tags": [
               "Pyro",
               "Other Weapons",
@@ -7221,6 +7585,9 @@ var NYX_DB = {
               "ko": "\uc2ec\uc5f0 \ubd09\ub3c5\uc790\u00b7\uc790\uc0c9 \ub1cc\uc804"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 6,
+            "relatedCardId": "224061",
             "tags": [
               "Electro",
               "Other Weapons",
@@ -7242,6 +7609,8 @@ var NYX_DB = {
               "ko": "\uc2ec\uc5f0\uc758 \uc7ac\uc559\u00b7\ucc28\uc624\ub974\ub294 \ubb3c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -7262,6 +7631,8 @@ var NYX_DB = {
               "ko": "\uc2ec\uc5f0\uc758 \ubd80\ub984"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332015-Abyssal Summons.webp",
@@ -7279,6 +7650,8 @@ var NYX_DB = {
               "ko": "\uc120\ub3c4\uc7a5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -7298,6 +7671,8 @@ var NYX_DB = {
               "ko": "\ubaa8\ud5d8\uac00\uc758 \uba38\ub9ac\ub760"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -7317,6 +7692,8 @@ var NYX_DB = {
               "ko": "\ubaa8\ud5d8\uac00 \uae38\ub4dc"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -7336,6 +7713,8 @@ var NYX_DB = {
               "ko": "\ubaa8\ub4e0 \uc6d0\ud55c\uacfc \ube5a\uc740 \ub0b4\uac00 \uac1a\uace0\u2026"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -7356,6 +7735,8 @@ var NYX_DB = {
               "ko": "\ubcc0\ud654\uc758 \ubc95\uce59"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -7376,6 +7757,9 @@ var NYX_DB = {
               "ko": "\ubcc4\uc744 \uc0bc\ud0a8 \uace0\ub798"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 6,
+            "relatedCardId": "222041",
             "tags": [
               "Hydro",
               "Other Weapons",
@@ -7398,6 +7782,8 @@ var NYX_DB = {
               "ko": "\uc790\uc218\uc815 \ud654\uad00"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -7417,6 +7803,8 @@ var NYX_DB = {
               "ko": "\uc544\ubaa8\uc2a4\uc758 \ud65c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Bow"
@@ -7437,6 +7825,8 @@ var NYX_DB = {
               "ko": "\uacfc\uac70\uc758 \uc758\uc2dd\uacfc \uc9c4\uc2ec \uc5b4\ub9b0 \ub9c8\uc74c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332056-An Ancient Sacrifice of Sacred Brocade.webp",
@@ -7454,6 +7844,8 @@ var NYX_DB = {
               "ko": "\uacfc\uac70\uc758 \uc815\uc6d0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Arcane Legend",
               "Undiscoverable"
@@ -7474,6 +7866,8 @@ var NYX_DB = {
               "ko": "\uc57d\uc218"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Bow"
@@ -7494,6 +7888,8 @@ var NYX_DB = {
               "ko": "\ub9e4\uc758 \uac80"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Sword"
@@ -7514,6 +7910,8 @@ var NYX_DB = {
               "ko": "\uc544\ub77c\ud0c0\ud0a4 \uc81c\uc77c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -7534,6 +7932,8 @@ var NYX_DB = {
               "ko": "\uc720\uad6c\ud55c \ubc18\uc554"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -7553,6 +7953,8 @@ var NYX_DB = {
               "ko": "\uc218\uba74 \uba85\uc0c1\uc220"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332045-Art of Sleepy Meditation.webp",
@@ -7570,6 +7972,8 @@ var NYX_DB = {
               "ko": "\uc544\ud14c\uc544"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -7589,6 +7993,8 @@ var NYX_DB = {
               "ko": "\uac01\uc131"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -7609,6 +8015,8 @@ var NYX_DB = {
               "ko": "\uc798\ud588\uc5b4, \ud615\uc528!"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332050-Awesome, Bro.webp",
@@ -7626,6 +8034,9 @@ var NYX_DB = {
               "ko": "\uc57c\ud0c0\uc6a9\uc655"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "226022",
             "tags": [
               "Geo",
               "Other Weapons",
@@ -7647,6 +8058,8 @@ var NYX_DB = {
               "ko": "\uac08\ub300 \ubc14\ub2e4\uc758 \ub4f1\ub300"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Claymore"
@@ -7667,6 +8080,8 @@ var NYX_DB = {
               "ko": "\uc774\uacc4 \ub9f9\uc218\uc758 \uce68\uc2dd"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -7687,6 +8102,8 @@ var NYX_DB = {
               "ko": "\uc790\uc560\ub86d\uace0 \uc5b4\uc9c4 \ub9c8\uc74c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -7707,6 +8124,9 @@ var NYX_DB = {
               "ko": "\ud751 \ubc40 \uae30\uc0ac\u00b7\ubc14\uc704\ub97c \ubd80\uc218\ub294 \ub3c4\ub07c"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 12,
+            "relatedCardId": "226041",
             "tags": [
               "Geo",
               "Other Weapons",
@@ -7728,6 +8148,9 @@ var NYX_DB = {
               "ko": "\ud751 \ubc40 \uae30\uc0ac\u00b7\ubc14\ub78c\uc744 \uac00\ub974\ub294 \uac80"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "225041",
             "tags": [
               "Anemo",
               "Other Weapons",
@@ -7749,6 +8172,8 @@ var NYX_DB = {
               "ko": "\uc131\ubb3c \uc548\uce58 \ucd95\uc0ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332011-Blessing of the Divine Relic's Installation.webp",
@@ -7766,6 +8191,8 @@ var NYX_DB = {
               "ko": "\uc5bc\uc74c\ubc14\ub78c \uc18d\uc5d0\uc11c \uae38\uc783\uc740 \uc6a9\uc0ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -7785,6 +8212,8 @@ var NYX_DB = {
               "ko": "\ud0f1\ud0f1 \ubb3c\ubc94"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Technique"
             ],
@@ -7804,6 +8233,8 @@ var NYX_DB = {
               "ko": "\ud30c\uc6b0\ub098\uc640 \u300c\ud130\ud0a4\uc11d\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -7823,6 +8254,8 @@ var NYX_DB = {
               "ko": "\ud1b5\uba85\uc758 \uac00\ud638"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -7843,6 +8276,8 @@ var NYX_DB = {
               "ko": "\ube59\uc124\uc744 \ubc1f\ub294 \uc18c\ub9ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -7862,6 +8297,8 @@ var NYX_DB = {
               "ko": "\ubd80\uc11c\uc9c4 \ubc14\ub2e4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Simulanka"
             ],
@@ -7881,6 +8318,8 @@ var NYX_DB = {
               "ko": "\ucd1d\uc54c \ud2b8\ub9ad"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Undiscoverable"
@@ -7901,6 +8340,8 @@ var NYX_DB = {
               "ko": "\uc77c\ucd09\uc989\ubc1c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -7921,6 +8362,8 @@ var NYX_DB = {
               "ko": "\ubc84\ud130 \ud06c\ub7a9"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -7940,6 +8383,8 @@ var NYX_DB = {
               "ko": "\uc789\ud06c\ube5b \uc8fc\uc810"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -7959,6 +8404,8 @@ var NYX_DB = {
               "ko": "\ubc31\uc545\uc758 \uc220\ubc95"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332009-Calx's Arts.webp",
@@ -7976,6 +8423,8 @@ var NYX_DB = {
               "ko": "\ubb34\uc0c1\uc758 \uac00\uba74"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -7995,6 +8444,8 @@ var NYX_DB = {
               "ko": "\ud604\uae08 \ud750\ub984 \uac10\ub3c5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Catalyst"
@@ -8015,6 +8466,8 @@ var NYX_DB = {
               "ko": "\uc911\uc559 \uc2e4\ud5d8\uc2e4 \uc720\uc801"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -8034,6 +8487,8 @@ var NYX_DB = {
               "ko": "\uce68\uc2dd \ubc88\uac1c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -8053,6 +8508,8 @@ var NYX_DB = {
               "ko": "\uc0c1\uad6c\uc57c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -8072,6 +8529,8 @@ var NYX_DB = {
               "ko": "\uadfc\ubb34 \uad50\ub300 \uc2dc\uac04"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332002-Changing Shifts.webp",
@@ -8089,6 +8548,8 @@ var NYX_DB = {
               "ko": "\ud63c\ub3c8\uc758 \uc5d4\ud2b8\ub85c\ud53c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8109,6 +8570,8 @@ var NYX_DB = {
               "ko": "\ubb18 \uc0ac\ubd80"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -8128,6 +8591,8 @@ var NYX_DB = {
               "ko": "\uce68\uc625 \ucc28 \uc774\uc2ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -8147,6 +8612,8 @@ var NYX_DB = {
               "ko": "\uc9c4\uc218\uc758 \uc232"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -8166,6 +8633,8 @@ var NYX_DB = {
               "ko": "\uc5bc\uc74c \uce58\uce5c\uc758 \uc11c\ub298\ud55c \ube5b"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8186,6 +8655,8 @@ var NYX_DB = {
               "ko": "\uccad\uc18c \uc2dc\uac04"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332062-Cleaning Time.webp",
@@ -8203,6 +8674,8 @@ var NYX_DB = {
               "ko": "\ub69d\ub531\ub69d\ub531 \uad70\ub2e8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332061-Clink Clank Legion.webp",
@@ -8220,6 +8693,8 @@ var NYX_DB = {
               "ko": "\ub0c9\ud608\uc758 \uac80"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8240,6 +8715,8 @@ var NYX_DB = {
               "ko": "\ub3d9\ubc18 \ub3c4\uc6b0\ubbf8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8260,6 +8737,8 @@ var NYX_DB = {
               "ko": "\uac08\ucc44 \uc18d \ub9c8\ubb34\ub9ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8280,6 +8759,8 @@ var NYX_DB = {
               "ko": "\uc9c0\ud718\uc758 \ud0d1 \ud587"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -8299,6 +8780,8 @@ var NYX_DB = {
               "ko": "\ud56d\ub9c8\u00b7\ud638\ubc95\uc57c\ucc28"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8319,6 +8802,9 @@ var NYX_DB = {
               "ko": "\uc131\ud574 \uac80\uce58\ud638"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "227051",
             "tags": [
               "Dendro",
               "Other Weapons",
@@ -8341,6 +8827,9 @@ var NYX_DB = {
               "ko": "\uc131\ud574 \ub0a0\ubc40"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "225031",
             "tags": [
               "Anemo",
               "Other Weapons",
@@ -8363,6 +8852,9 @@ var NYX_DB = {
               "ko": "\uc131\ud574 \ubfd4 \uc545\uc5b4"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "222071",
             "tags": [
               "Hydro",
               "Other Weapons",
@@ -8385,6 +8877,9 @@ var NYX_DB = {
               "ko": "\uc131\ud574 \ub3c5\uc804\uac08"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "224051",
             "tags": [
               "Electro",
               "Other Weapons",
@@ -8407,6 +8902,8 @@ var NYX_DB = {
               "ko": "\ubcc4\uae38 \uc655\uc131"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -8426,6 +8923,8 @@ var NYX_DB = {
               "ko": "\uc81c\uc5b4 \uac00\ub2a5\ud55c \uc704\ud5d8 \uc81c\uac70\uc6a9 \uc9c0\ud5a5 \ud3ed\ubc1c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332030-Controlled Directional Blast.webp",
@@ -8443,6 +8942,8 @@ var NYX_DB = {
               "ko": "\ub9c8\uc220\uc1fc \uce74\uc6b4\ud2b8\ub2e4\uc6b4: 3"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332032-Countdown to the Show_ 3.webp",
@@ -8460,6 +8961,8 @@ var NYX_DB = {
               "ko": "\ubc30\uc1a1 \uc911\uc758 \uacbd\uce58"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8480,6 +8983,8 @@ var NYX_DB = {
               "ko": "\ubc18\uc554\uc758 \uacc4\uc57d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Arcane Legend",
               "Undiscoverable"
@@ -8500,6 +9005,8 @@ var NYX_DB = {
               "ko": "\ubd88\ud0c0\uc624\ub974\ub294 \ud654\uc5fc\uc758 \ub9c8\ub140"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -8519,6 +9026,8 @@ var NYX_DB = {
               "ko": "\uad50\ucc28 \ud654\ub825"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8539,6 +9048,8 @@ var NYX_DB = {
               "ko": "\uc131\uc790\uc758 \uc655\uad00"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -8558,6 +9069,8 @@ var NYX_DB = {
               "ko": "\uc640\ud0c0\uce20\ubbf8\uc758 \uc655\uad00"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -8577,6 +9090,8 @@ var NYX_DB = {
               "ko": "\uc8fc\uc778 \uc783\uc740 \uc655\uad00"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -8596,6 +9111,9 @@ var NYX_DB = {
               "ko": "\ubb34\uc0c1\uc758 \uc5bc\uc74c"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 8,
+            "relatedCardId": "221031",
             "tags": [
               "Cryo",
               "Other Weapons",
@@ -8617,6 +9135,8 @@ var NYX_DB = {
               "ko": "\uae30\uc0c1\ucc9c\uc678 \uc0ac\uac74 \uae30\ub85d\ubd80"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8637,6 +9157,8 @@ var NYX_DB = {
               "ko": "\uc625\ube5b \ubb34\uc9c0\uac1c\ub97c \uadf8\ub9ac\uba70 \ucda4\ucd94\uace0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8657,6 +9179,8 @@ var NYX_DB = {
               "ko": "\ubc24\uc744 \uac00\ub974\ub294 \ubd88\uaf43"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8677,6 +9201,8 @@ var NYX_DB = {
               "ko": "\ub2e4\uc6b4 \uc640\uc774\ub108\ub9ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -8696,6 +9222,8 @@ var NYX_DB = {
               "ko": "\ud22c\uc7c1\uc758 \ub0a0\u00b7\uae68\uc9c4 \uafc8\uc758 \uc21c\uac04"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Arcane Legend",
               "Undiscoverable"
@@ -8716,6 +9244,8 @@ var NYX_DB = {
               "ko": "\ud729\uc4f0\ub294 \uc8fd\uc74c\uc758 \ubc14\ub78c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -8735,6 +9265,8 @@ var NYX_DB = {
               "ko": "\uac70\uc13c \uc8fd\uc74c\uc758 \ud30c\ub3c4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -8754,6 +9286,8 @@ var NYX_DB = {
               "ko": "\uc7a5\uc5c4\ud558\uace0 \uc775\uc0b4\uc2a4\ub7ec\uc6b4 \ub178\ub7ab\uc18c\ub9ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8774,6 +9308,8 @@ var NYX_DB = {
               "ko": "\uc232\uc758 \uae30\uc5b5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -8793,6 +9329,8 @@ var NYX_DB = {
               "ko": "\ub9c8\uc804\uc0ac\uc758 \uae43\ud138 \uac00\uba74"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -8812,6 +9350,8 @@ var NYX_DB = {
               "ko": "\uc2e0\uc131\uc758 \ucd94\ub77d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8832,6 +9372,8 @@ var NYX_DB = {
               "ko": "\uc801\uc790 \ubcf4\ucda9"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8852,6 +9394,8 @@ var NYX_DB = {
               "ko": "\uc7ac\ud310\uc758 \ub300\ub9ac\uc778"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8872,6 +9416,8 @@ var NYX_DB = {
               "ko": "\ud638\uc758\ud638\uc2dd"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -8892,6 +9438,8 @@ var NYX_DB = {
               "ko": "\ub450\ub0d0\ub974\uc790\ub4dc"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -8911,6 +9459,9 @@ var NYX_DB = {
               "ko": "\ub4dc\ubc1c\ub9b0"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "225021",
             "tags": [
               "Anemo",
               "Other Weapons",
@@ -8932,6 +9483,8 @@ var NYX_DB = {
               "ko": "\ud53c\ub85c \ubb3c\ub4e0 \ud22c\uad6c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -8951,6 +9504,8 @@ var NYX_DB = {
               "ko": "\uc81c\uc0ac\uc758 \uc5ec\uc6b4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -8970,6 +9525,8 @@ var NYX_DB = {
               "ko": "\uc0ac\uba74 \uc120\uace0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Arcane Legend",
               "Undiscoverable"
@@ -8990,6 +9547,8 @@ var NYX_DB = {
               "ko": "\ubc88\uac1c \uce58\uce5c\uc758 \uc12c\uad11"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -9010,6 +9569,9 @@ var NYX_DB = {
               "ko": "\ubb34\uc0c1\uc758 \ub1cc\uc804"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 8,
+            "relatedCardId": "224011",
             "tags": [
               "Electro",
               "Other Weapons",
@@ -9031,6 +9593,8 @@ var NYX_DB = {
               "ko": "\uc885\ub9d0 \ud0c4\uc2dd\uc758 \ub178\ub798"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Bow"
@@ -9051,6 +9615,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \uacf5\uba85: \ubd80\ub3d9\uc758 \ubc14\uc704"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Resonance"
             ],
@@ -9070,6 +9636,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \uacf5\uba85: \uc5f4\uc815\uc758 \ubd88"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Resonance"
             ],
@@ -9089,6 +9657,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \uacf5\uba85: \uace0\uc5d0\ub108\uc9c0\uc758 \ubc88\uac1c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Resonance"
             ],
@@ -9108,6 +9678,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \uacf5\uba85: \uc2e0\uc18d\uc758 \ubc14\ub78c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Resonance"
             ],
@@ -9127,6 +9699,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \uacf5\uba85: \ubd84\uc1c4\uc758 \uc5bc\uc74c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Resonance"
             ],
@@ -9146,6 +9720,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \uacf5\uba85: \uce58\uc720\uc758 \ubb3c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Resonance"
             ],
@@ -9165,6 +9741,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \uacf5\uba85: \ub9cc\uc0dd\uc758 \ud480"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Resonance"
             ],
@@ -9184,6 +9762,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \uacf5\uba85: \ub4a4\uc5c9\ud0a8 \ubd88"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Resonance"
             ],
@@ -9203,6 +9783,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \uacf5\uba85: \ub4a4\uc5c9\ud0a8 \uc5bc\uc74c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Resonance"
             ],
@@ -9222,6 +9804,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \uacf5\uba85: \ub4a4\uc5c9\ud0a8 \ubc14\uc704"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Resonance"
             ],
@@ -9241,6 +9825,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \uacf5\uba85: \ub4a4\uc5c9\ud0a8 \ubc88\uac1c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Resonance"
             ],
@@ -9260,6 +9846,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \uacf5\uba85: \ub4a4\uc5c9\ud0a8 \ubb3c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Resonance"
             ],
@@ -9279,6 +9867,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \uacf5\uba85: \ub4a4\uc5c9\ud0a8 \ud480"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Resonance"
             ],
@@ -9298,6 +9888,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \uacf5\uba85: \ub4a4\uc5c9\ud0a8 \ubc14\ub78c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Resonance"
             ],
@@ -9317,6 +9909,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \ubcc0\ud658: \ubb3c\ubc14\ub78c \ucd95\ubcf5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Transfiguration",
               "Undiscoverable"
@@ -9337,6 +9931,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \ubcc0\ud658: \uac1c\ud654 \ucd95\ubcf5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Transfiguration",
               "Undiscoverable"
@@ -9357,6 +9953,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \ubcc0\ud658: \ubd88\ubc14\uc704 \ucd95\ubcf5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Transfiguration",
               "Undiscoverable"
@@ -9377,6 +9975,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \ubcc0\ud658: \uc5bc\uc74c\ud480 \ucd95\ubcf5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Transfiguration",
               "Undiscoverable"
@@ -9397,6 +9997,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \ubcc0\ud658: \ubc88\uac1c\ubc14\ub78c \ucd95\ubcf5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Transfiguration",
               "Undiscoverable"
@@ -9417,6 +10019,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \ubcc0\ud658: \ucd08\uc804\ub3c4 \ucd95\ubcf5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Transfiguration",
               "Undiscoverable"
@@ -9437,6 +10041,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \ubcc0\ud658: \ubc88\uac1c\ud480 \ucd95\ubcf5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Transfiguration",
               "Undiscoverable"
@@ -9457,6 +10063,8 @@ var NYX_DB = {
               "ko": "\uc6d0\uc18c \ubcc0\ud658: \uc99d\ubc1c \ucd95\ubcf5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Transfiguration",
               "Undiscoverable"
@@ -9477,6 +10085,8 @@ var NYX_DB = {
               "ko": "\uc5d8\ub9b0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -9496,6 +10106,8 @@ var NYX_DB = {
               "ko": "\ub2e4\uc2dc \ud0c0\uc624\ub978 \uc7bf\ubd88"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -9515,6 +10127,8 @@ var NYX_DB = {
               "ko": "\uc808\uc5f0\uc758 \uae30\uce58"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -9534,6 +10148,8 @@ var NYX_DB = {
               "ko": "\uc5ec\ud48d\uc758 \ud3ec\uc639"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -9554,6 +10170,9 @@ var NYX_DB = {
               "ko": "\uc6a9\uc554\ucca0\uac11 \uc81c\uc655"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 5,
+            "relatedCardId": "223041",
             "tags": [
               "Pyro",
               "Other Weapons",
@@ -9575,6 +10194,8 @@ var NYX_DB = {
               "ko": "\uba54\ub9c8\ub978 \uc5f0\ubabb"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Bow"
@@ -9595,6 +10216,8 @@ var NYX_DB = {
               "ko": "\uc608\ucd08\uc758 \ubc88\uac1c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Polearm"
@@ -9615,6 +10238,9 @@ var NYX_DB = {
               "ko": "\ub3c4\uae08 \uc5ec\ub2e8\u00b7\ud480\uace0\ub9ac \ubb34\uc6a9\uc218"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "227031",
             "tags": [
               "Dendro",
               "Other Weapons",
@@ -9636,6 +10262,9 @@ var NYX_DB = {
               "ko": "\ub3c4\uae08 \uc5ec\ub2e8\u00b7\ubaa8\ub798\uc758 \uc774\uc57c\uae30\uafbc"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "223031",
             "tags": [
               "Pyro",
               "Other Weapons",
@@ -9657,6 +10286,8 @@ var NYX_DB = {
               "ko": "\ub3c4\uae08 \uc5ec\ub2e8\uc758 \ud2f0\ud0c0\uc784"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332040-Eremite Teatime.webp",
@@ -9674,6 +10305,8 @@ var NYX_DB = {
               "ko": "\ubd88\uba78\uc758 \ub2ec\ube5b"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Catalyst"
@@ -9694,6 +10327,8 @@ var NYX_DB = {
               "ko": "\uc720\ubc30\uc790\uc758 \uba38\ub9ac\uc7a5\uc2dd"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -9713,6 +10348,9 @@ var NYX_DB = {
               "ko": "\uc2e4\ud5d8\uc131 \uc5ed\uc7a5 \ubc1c\uc0dd \uc7a5\uce58"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "226051",
             "tags": [
               "Geo",
               "Other Weapons",
@@ -9734,6 +10372,8 @@ var NYX_DB = {
               "ko": "\ucd94\ub77d\uacfc \uacc4\uae30"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332026-Falls and Fortune.webp",
@@ -9751,6 +10391,8 @@ var NYX_DB = {
               "ko": "\uc694\uc6d0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -9770,6 +10412,8 @@ var NYX_DB = {
               "ko": "\uc751\ucd95\ub41c \uc8fd\uc74c\uc758 \ubc88\uac1c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -9789,6 +10433,8 @@ var NYX_DB = {
               "ko": "\uc6b0\uc778\ub2e8\uc758 \uc74c\ubaa8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332016-Fatui Conspiracy.webp",
@@ -9806,6 +10452,9 @@ var NYX_DB = {
               "ko": "\uc6b0\uc778\ub2e8\u00b7\uc5bc\uc74c \uce58\uce5c \uc220\uc0ac"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "221011",
             "tags": [
               "Cryo",
               "Other Weapons",
@@ -9827,6 +10476,9 @@ var NYX_DB = {
               "ko": "\uc6b0\uc778\ub2e8\u00b7\ubc88\uac1c \uce58\uce5c \uc220\uc0ac"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "224041",
             "tags": [
               "Electro",
               "Other Weapons",
@@ -9848,6 +10500,9 @@ var NYX_DB = {
               "ko": "\uc6b0\uc778\ub2e8\u00b7\ud654\uc5fc \ucc44\ubb34 \ucc98\ub9ac\uc778"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "223011",
             "tags": [
               "Pyro",
               "Other Weapons",
@@ -9869,6 +10524,8 @@ var NYX_DB = {
               "ko": "\ud398\ubcf4\ub2c8\uc6b0\uc2a4 \ub300\uc131\ub2f9"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -9888,6 +10545,8 @@ var NYX_DB = {
               "ko": "\ud398\ubcf4\ub2c8\uc6b0\uc2a4 \uac80"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Sword"
@@ -9908,6 +10567,8 @@ var NYX_DB = {
               "ko": "\ub099\ud558\ud558\ub294 \uae43\ud138\uc758 \uc2ec\ud310"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -9928,6 +10589,8 @@ var NYX_DB = {
               "ko": "\uacbd\ucf8c\ud55c \ubb3c\uac70\ud488"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -9948,6 +10611,8 @@ var NYX_DB = {
               "ko": "\uae68\uc5b4\ub09c \u300c\uc545\ub8e1\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Simulanka"
             ],
@@ -9967,6 +10632,8 @@ var NYX_DB = {
               "ko": "\uc545\ub8e1\uc758 \ub2e8\uc548\uacbd"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -9986,6 +10653,8 @@ var NYX_DB = {
               "ko": "\u300c\uc8fd\uc74c\u300d\uc744 \uc704\ud55c \uc804\ud22c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Arcane Legend",
               "Undiscoverable"
@@ -10006,6 +10675,8 @@ var NYX_DB = {
               "ko": "\ubd88\uacfc \uc804\uc7c1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331806-Fire and War.webp",
@@ -10023,6 +10694,8 @@ var NYX_DB = {
               "ko": "\ud53c\uc2dc \uc564 \uce69\uc2a4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -10042,6 +10715,8 @@ var NYX_DB = {
               "ko": "\ubd88\ub85c \ubcbc\ub9b0 \uc9c0\ud61c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Claymore"
@@ -10062,6 +10737,8 @@ var NYX_DB = {
               "ko": "\u300c\ubd88\uaf43 \uc8fc\uc778\uc758 \ucd95\ubcf5\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -10082,6 +10759,8 @@ var NYX_DB = {
               "ko": "\ubc18\uc9dd\uc774\ub294 \ud074\ub85c\ubc84 \uc778\uc7a5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332027-Flickering Four-Leaf Sigil.webp",
@@ -10099,6 +10778,8 @@ var NYX_DB = {
               "ko": "\ub418\ub3cc\uc544\uc624\ub294 \uc78e\uc0c8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -10119,6 +10800,8 @@ var NYX_DB = {
               "ko": "\ud569\ub958"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -10138,6 +10821,8 @@ var NYX_DB = {
               "ko": "\uc0c9\ucc44\uc758 \ud750\ub984"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -10157,6 +10842,8 @@ var NYX_DB = {
               "ko": "\uc783\uc5b4\ubc84\ub9b0 \ub099\uc6d0\uc758 \uaf43"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -10176,6 +10863,8 @@ var NYX_DB = {
               "ko": "\uc720\ud654\uc758 \ud654\uc0c1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -10196,6 +10885,8 @@ var NYX_DB = {
               "ko": "\uc21c\uc218\ud55c \ub2ec\ube5b \ubb3c\uacb0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Catalyst"
@@ -10216,6 +10907,8 @@ var NYX_DB = {
               "ko": "\ucd94\uc5b5\uc758 \ubcf4\uc625"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -10235,6 +10928,8 @@ var NYX_DB = {
               "ko": "\ube44\ud589 \ubd80\ub300 \ucd9c\uaca9!"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332046-Flying Squad, Attack!.webp",
@@ -10252,6 +10947,8 @@ var NYX_DB = {
               "ko": "\uc232\uc758 \ucd95\ubcf5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -10271,6 +10968,8 @@ var NYX_DB = {
               "ko": "\uc232\uc758 \ub9ac\uac8c\uc77c\ub9ac\uc5b4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Claymore"
@@ -10291,6 +10990,8 @@ var NYX_DB = {
               "ko": "\uba54\ub85c\ud53c\ub4dc \uc694\uc0c8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -10310,6 +11011,8 @@ var NYX_DB = {
               "ko": "\uc870\ud654\ub85c\uc6b4 \uacf5\uc0c1\uc758 \ub2e8\ud3b8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -10329,6 +11032,8 @@ var NYX_DB = {
               "ko": "\uc0c8\ub85c\uc6b4 \uc790\uc720\uc758 \ubc14\ub78c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Arcane Legend",
               "Undiscoverable"
@@ -10349,6 +11054,8 @@ var NYX_DB = {
               "ko": "\uc601\uc6d0\ud55c \uc6b0\uc815"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332020-Friendship Eternal.webp",
@@ -10366,6 +11073,9 @@ var NYX_DB = {
               "ko": "\uc6b0\uc778\ub2e8\u00b7\uc11c\ub9ac \uc2ec\ubd80\ub984\uafbc"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "221041",
             "tags": [
               "Cryo",
               "Other Weapons",
@@ -10387,6 +11097,8 @@ var NYX_DB = {
               "ko": "\uc11c\ub9ac\ub2ec \ub9c8\uc744"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -10406,6 +11118,8 @@ var NYX_DB = {
               "ko": "\ucda9\ub9cc\uc758 \uc5f4\ub9e4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Catalyst"
@@ -10426,6 +11140,8 @@ var NYX_DB = {
               "ko": "\ud5ec\uc2a4\uc758 \uc131\uacfc"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332048-Fruits of Training.webp",
@@ -10443,6 +11159,8 @@ var NYX_DB = {
               "ko": "\ubabd\uc0c1\uc758 \ubc14\ub78c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -10463,6 +11181,8 @@ var NYX_DB = {
               "ko": "\ub178\ub984\uafbc\uc758 \uadc0\uac78\uc774"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -10482,6 +11202,8 @@ var NYX_DB = {
               "ko": "\uac04\ub2e4\ub974\ubc14 \uc131\uacfd"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -10501,6 +11223,8 @@ var NYX_DB = {
               "ko": "\uc7a5\uc218\uc758 \ud22c\uad6c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -10520,6 +11244,8 @@ var NYX_DB = {
               "ko": "\ucc9c\uc7ac\uc758 \uac1c\uc870\ubc95"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332060-Genius's Upgrade Technique.webp",
@@ -10537,6 +11263,8 @@ var NYX_DB = {
               "ko": "\uc608\uc5b8\uc758 \uc5ec\uc2e0\uc758 \uc120\ubb3c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -10556,6 +11284,8 @@ var NYX_DB = {
               "ko": "\ub3c4\uae08\ub41c \uafc8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -10575,6 +11305,8 @@ var NYX_DB = {
               "ko": "\uac80\ud22c\uc0ac\uc758 \ud53c\ub0a0\ub808"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -10594,6 +11326,8 @@ var NYX_DB = {
               "ko": "\uac80\ud22c\uc0ac\uc758 \uac1c\uc120"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -10613,6 +11347,8 @@ var NYX_DB = {
               "ko": "\ubc18\uc9dd\uc774\ub294 \ubcf4\uc11d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -10632,6 +11368,8 @@ var NYX_DB = {
               "ko": "\uad11\ud718\uc758 \uacc4\uc808"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -10652,6 +11390,9 @@ var NYX_DB = {
               "ko": "\uc2dd\ud0d0\uc758 \uc232\ub8e1 \uc0b0\uc655"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 8,
+            "relatedCardId": "227041",
             "tags": [
               "Dendro",
               "Other Weapons",
@@ -10673,6 +11414,8 @@ var NYX_DB = {
               "ko": "\ud669\uae08\uc625"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -10692,6 +11435,8 @@ var NYX_DB = {
               "ko": "\ud669\uae08 \uadf9\ub2e8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -10711,6 +11456,8 @@ var NYX_DB = {
               "ko": "\ud669\uae08 \uadf9\ub2e8\uc758 \ubcf4\uc0c1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -10730,6 +11477,9 @@ var NYX_DB = {
               "ko": "\ud669\uae08 \ub291\ub300\uc655"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "226031",
             "tags": [
               "Geo",
               "Other Weapons",
@@ -10751,6 +11501,9 @@ var NYX_DB = {
               "ko": "\ud669\uae08\ubd88\uaf43\uc758 \uae43\ub8e1 \ud3ed\uad70"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "223061",
             "tags": [
               "Pyro",
               "Other Weapons",
@@ -10772,6 +11525,8 @@ var NYX_DB = {
               "ko": "\ubaa8\ud5d8 \ub3d9\uacbd"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -10792,6 +11547,8 @@ var NYX_DB = {
               "ko": "\ub098\ub8e8\uce74\ubbf8 \ub2e4\uc774\uc0e4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -10811,6 +11568,8 @@ var NYX_DB = {
               "ko": "\uc911\ub825\uc7a5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -10830,6 +11589,8 @@ var NYX_DB = {
               "ko": "\ud1b5\uace1\uc758 \uba54\uc544\ub9ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -10850,6 +11611,9 @@ var NYX_DB = {
               "ko": "\uc544\ud3a9\uc758 \uc624\uc544\uc2dc\uc2a4 \ud30c\uc218\uafbc"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "227021",
             "tags": [
               "Dendro",
               "Other Weapons",
@@ -10871,6 +11635,8 @@ var NYX_DB = {
               "ko": "\ud638\ubc95\uc758 \ub9f9\uc138"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332014-Guardian's Oath.webp",
@@ -10888,6 +11654,8 @@ var NYX_DB = {
               "ko": "\ud558\ub098\uce58\ub8e8\uc0ac\ud1a0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -10907,6 +11675,8 @@ var NYX_DB = {
               "ko": "\uc218\ud655 \uc2dc\uac04"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332049-Harvest Time.webp",
@@ -10924,6 +11694,8 @@ var NYX_DB = {
               "ko": "\ube44\uc625\ud55c \ucd95\ubcf5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -10943,6 +11715,8 @@ var NYX_DB = {
               "ko": "\ubab0\ub77d\ud55c \ub9c8\uc74c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -10962,6 +11736,8 @@ var NYX_DB = {
               "ko": "\ud06c\ubc14\ub808\ub098\uc758 \ub208\ubd80\uc2e0 \uc2ec\uc7a5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -10981,6 +11757,8 @@ var NYX_DB = {
               "ko": "\uac15\ud55c \uacf5\uaca9"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332018-Heavy Strike.webp",
@@ -10998,6 +11776,8 @@ var NYX_DB = {
               "ko": "\uc0dd\uc874\ud55c \uace0\ub300\ubc14\ub2e4\uc758 \uacc4\uc2b9\uc790"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -11018,6 +11798,8 @@ var NYX_DB = {
               "ko": "\uc628\ucc9c\uc758 \ub9db"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -11037,6 +11819,9 @@ var NYX_DB = {
               "ko": "\uce04\uce04 \ubb3c\uac78\uc74c \uc21c\ucc30\uc790"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "222051",
             "tags": [
               "Hydro",
               "Other Weapons",
@@ -11059,6 +11844,9 @@ var NYX_DB = {
               "ko": "\ubb3c\uc758 \ud658\uc778\uac04"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "222061",
             "tags": [
               "Hydro",
               "Other Weapons",
@@ -11080,6 +11868,8 @@ var NYX_DB = {
               "ko": "\uc9c0\uc6d0\uc740 \uc800\ud55c\ud14c \ub9e1\uae30\uc138\uc694"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -11100,6 +11890,8 @@ var NYX_DB = {
               "ko": "\uc774 \ubab8\uc740 \uc544\uc9c1 \uc9c0\uc9c0 \uc54a\uc558\uc5b4!"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332005-I Haven't Lost Yet!.webp",
@@ -11117,6 +11909,8 @@ var NYX_DB = {
               "ko": "\uba85\ub8e1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Technique"
             ],
@@ -11136,6 +11930,8 @@ var NYX_DB = {
               "ko": "\uc628 \uc138\uc0c1\uc758 \ubd80\ub69c\ub9c9"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Arcane Legend",
               "Undiscoverable"
@@ -11156,6 +11952,8 @@ var NYX_DB = {
               "ko": "\uc624\uc0c9 \uc5fc\uc0c9"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -11176,6 +11974,8 @@ var NYX_DB = {
               "ko": "\uadf9\ud55c\uc758 \uc815\uc2e0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332044-In the Name of the Extreme.webp",
@@ -11193,6 +11993,8 @@ var NYX_DB = {
               "ko": "\uad50\uad00\uc758 \ubaa8\uc790"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -11212,6 +12014,8 @@ var NYX_DB = {
               "ko": "\uc804\ub2ec\ubcc0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -11231,6 +12035,8 @@ var NYX_DB = {
               "ko": "\uad70\uc625\uac01"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -11250,6 +12056,9 @@ var NYX_DB = {
               "ko": "\uacf5\ud3ec\uc758 \ucde8\ub839 \ubc84\uc12f"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 12,
+            "relatedCardId": "227011",
             "tags": [
               "Dendro",
               "Other Weapons",
@@ -11271,6 +12080,8 @@ var NYX_DB = {
               "ko": "\uc81c\ud2b8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -11290,6 +12101,8 @@ var NYX_DB = {
               "ko": "\uae30\uc068\uc758 \ucd95\uc81c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Arcane Legend",
               "Undiscoverable"
@@ -11310,6 +12123,8 @@ var NYX_DB = {
               "ko": "\uc808\uc6b4 \ub204\ub8fd\uc9c0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -11329,6 +12144,8 @@ var NYX_DB = {
               "ko": "\ud55c\ucc9c\uc120\uba85 \ucd95\uc0ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -11348,6 +12165,8 @@ var NYX_DB = {
               "ko": "\uce90\uc11c\ub9b0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -11367,6 +12186,8 @@ var NYX_DB = {
               "ko": "\uc608\ub9ac\ud55c \uc548\ubaa9"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -11387,6 +12208,8 @@ var NYX_DB = {
               "ko": "\ucfe0\uc9c0\ub77c\uc774"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -11406,6 +12229,8 @@ var NYX_DB = {
               "ko": "\uc655\uc758 \uce21\uadfc"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Bow"
@@ -11426,6 +12251,8 @@ var NYX_DB = {
               "ko": "\uae30\uc0ac\ub2e8 \ub3c4\uc11c\uad00"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -11445,6 +12272,8 @@ var NYX_DB = {
               "ko": "\uc5b4\ub8e1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Technique"
             ],
@@ -11464,6 +12293,8 @@ var NYX_DB = {
               "ko": "\ucfe0\uc0ac\ubc14"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Item"
             ],
@@ -11483,6 +12314,8 @@ var NYX_DB = {
               "ko": "\ub2ec\uc758 \ud798 \uc2e4\ud5d8\uc124\uacc4\uad6d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -11502,6 +12335,8 @@ var NYX_DB = {
               "ko": "\uac70\uc6b8 \uc18d\uc758 \uc790\ud0dc"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -11522,6 +12357,9 @@ var NYX_DB = {
               "ko": "\u300c\uc2dc\ub1e8\ub77c\u300d"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "221021",
             "tags": [
               "Cryo",
               "Other Weapons",
@@ -11543,6 +12381,8 @@ var NYX_DB = {
               "ko": "\ubc31\ub839\uacfc \ud30c\uc774"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -11562,6 +12402,8 @@ var NYX_DB = {
               "ko": "\ubbfc\ub4e4\ub808\uc758 \uad6d\ud1a0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -11582,6 +12424,8 @@ var NYX_DB = {
               "ko": "\uc6d4\uacc4\uc218 \uc655\uad00"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -11601,6 +12445,8 @@ var NYX_DB = {
               "ko": "\uc81c\uac8c \ub9e1\uae30\uc138\uc694!"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332006-Leave it to Me!.webp",
@@ -11618,6 +12464,8 @@ var NYX_DB = {
               "ko": "\ub974\ud540 \ud3f4\ub9b0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion",
               "Untransformed"
@@ -11638,6 +12486,8 @@ var NYX_DB = {
               "ko": "\ubcf8\uc774"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -11657,6 +12507,8 @@ var NYX_DB = {
               "ko": "\uc78e\uc744 \uac00\ub974\ub294 \ube5b"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Sword"
@@ -11677,6 +12529,8 @@ var NYX_DB = {
               "ko": "\uc18c\uc2dd\uacfc \ud568\uaed8 \ub3cc\uc544\uc624\ub294 \ube5b"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -11697,6 +12551,8 @@ var NYX_DB = {
               "ko": "\ube5b \uc5c6\ub294 \ud3ec\uc2dd\uc790"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -11717,6 +12573,8 @@ var NYX_DB = {
               "ko": "\ud558\ub298\uc758 \ubcbd\ub825"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -11737,6 +12595,8 @@ var NYX_DB = {
               "ko": "\ubbf8\ub2c8 \ubc84\uc12f\ubaac \ud310\ud0c0\uc9c0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332063-Lil' Fungi's Fun-Tastic Fiesta.webp",
@@ -11754,6 +12614,8 @@ var NYX_DB = {
               "ko": "\ucc9c\uc554\uc7a5\ucc3d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Polearm"
@@ -11774,6 +12636,8 @@ var NYX_DB = {
               "ko": "\uaf2c\ub9c8 \uc0b0\ub8e1! \ubcf4\ubb3c \ubc1c\uacac!"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332043-Little Tepetlisaur \u2014 Treasure Hunter at Large.webp",
@@ -11791,6 +12655,8 @@ var NYX_DB = {
               "ko": "\uc720\uc18c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -11810,6 +12676,8 @@ var NYX_DB = {
               "ko": "\ub9ac\uc6d4\ud56d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -11829,6 +12697,9 @@ var NYX_DB = {
               "ko": "\uce68\uc2dd\ub41c \uadfc\uc6d0\uc758 \ubd88\uaf43 \uc8fc\uc778"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 11,
+            "relatedCardId": "223051",
             "tags": [
               "Pyro",
               "Other Weapons",
@@ -11850,6 +12721,8 @@ var NYX_DB = {
               "ko": "\u300c\uc0ac\ub9c9\uc5d0 \uc804\ud574\uc838\uc624\ub294 \uc774\uc57c\uae30\u300d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Arcane Legend",
               "Undiscoverable"
@@ -11870,6 +12743,8 @@ var NYX_DB = {
               "ko": "\uc0ac\ud48d \uc6d0\uc11c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Catalyst"
@@ -11890,6 +12765,8 @@ var NYX_DB = {
               "ko": "\uc5f0\uaf43 \ud30c\uc774"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -11909,6 +12786,8 @@ var NYX_DB = {
               "ko": "\ud589\uc6b4\uc544\uc758 \uc740\uad00"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -11928,6 +12807,8 @@ var NYX_DB = {
               "ko": "\uc720\uba85\uc11d \ucd09\ub9e4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Item"
             ],
@@ -11947,6 +12828,8 @@ var NYX_DB = {
               "ko": "\ub05d\uc5c6\ub294 \ud68c\uc0ad"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action",
@@ -11968,6 +12851,8 @@ var NYX_DB = {
               "ko": "\ud604\uc74c\uc758 \uc2dc"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332024-Lyresong.webp",
@@ -11985,6 +12870,8 @@ var NYX_DB = {
               "ko": "\uc7a5\uce58 \uc8fc\uc870 \ub77c\uc778"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332028-Machine Assembly Line.webp",
@@ -12002,6 +12889,8 @@ var NYX_DB = {
               "ko": "\ub9c8\ub3c4 \uc11c\ub860"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Catalyst"
@@ -12022,6 +12911,9 @@ var NYX_DB = {
               "ko": "\uaf2d\ub450\uac01\uc2dc \uac80\uadc0"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 10,
+            "relatedCardId": "225011",
             "tags": [
               "Anemo",
               "Other Weapons",
@@ -12043,6 +12935,8 @@ var NYX_DB = {
               "ko": "\uc18c\ub140\uc758 \uaebe\uc5ec\uac00\ub294 \ubbf8\ubaa8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -12062,6 +12956,8 @@ var NYX_DB = {
               "ko": "\ub2e4\uc12f \ubc88\uc9f8 \ud558\ub298\uc758 \uc11c\ub9ac\ube44"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -12081,6 +12977,8 @@ var NYX_DB = {
               "ko": "\ub9c8\uba54\ud750"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -12100,6 +12998,8 @@ var NYX_DB = {
               "ko": "\ub9c8\ucf54\ud2b8 \ubca0\uc774\uc2a4 \ub178\ud2b8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -12119,6 +13019,8 @@ var NYX_DB = {
               "ko": "\uadf8\ub9bc\uc790 \uc0ac\ub0e5\uafbc"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -12138,6 +13040,8 @@ var NYX_DB = {
               "ko": "\ubd80\ub3d9\ud604\uc11d\uc758 \uc0c1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -12157,6 +13061,8 @@ var NYX_DB = {
               "ko": "\ubb34\uc608 \ub9c8\uc2a4\ud130\ub9ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332010-Master of Weaponry.webp",
@@ -12174,6 +13080,8 @@ var NYX_DB = {
               "ko": "\uc7a5 \uc528"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -12193,6 +13101,8 @@ var NYX_DB = {
               "ko": "\ubc84\uc12f\uace0\uae30\ub9d0\uc774"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -12212,6 +13122,8 @@ var NYX_DB = {
               "ko": "\uae30\uc5b5\uc758 \ub80c\uc988"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Item"
             ],
@@ -12231,6 +13143,9 @@ var NYX_DB = {
               "ko": "\ucc9c\ub144 \ubb35\uc740 \uc9c4\uc8fc \uae30\ub9b0"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 8,
+            "relatedCardId": "224031",
             "tags": [
               "Electro",
               "Other Weapons",
@@ -12252,6 +13167,8 @@ var NYX_DB = {
               "ko": "\ubbfc\ud2b8 \uace0\uae30\ub9d0\uc774"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -12271,6 +13188,8 @@ var NYX_DB = {
               "ko": "\uac70\uc6b8\uc758 \uc18d\ubc15"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -12291,6 +13210,9 @@ var NYX_DB = {
               "ko": "\uc6b0\uc778\ub2e8\u00b7\uac70\uc6b8\uc758 \uc5ec\uc778"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "222021",
             "tags": [
               "Hydro",
               "Other Weapons",
@@ -12312,6 +13234,8 @@ var NYX_DB = {
               "ko": "\uc6a9\uc554\ucca0\uac11"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -12331,6 +13255,8 @@ var NYX_DB = {
               "ko": "\uac01\uc131\uacfc \uacb0\uc2ec\uc758 \uc21c\uac04"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -12351,6 +13277,8 @@ var NYX_DB = {
               "ko": "\ubaac\ub4dc \uac10\uc790\uc804"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -12370,6 +13298,8 @@ var NYX_DB = {
               "ko": "\ub2ec\uacfc \uace0\ud5a5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331807-Moon and Homeland.webp",
@@ -12387,6 +13317,8 @@ var NYX_DB = {
               "ko": "\ub2ec\uc744 \uaff0\ub6ab\ub294 \ud654\uc0b4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Polearm"
@@ -12407,6 +13339,8 @@ var NYX_DB = {
               "ko": "\ub2ec\ube5b \uc9d5\uc870\u00b7\ubcf4\ub984"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Elemental Resonance"
             ],
@@ -12426,6 +13360,8 @@ var NYX_DB = {
               "ko": "\ubc84\uc12f\ud53c\uc790"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -12445,6 +13381,8 @@ var NYX_DB = {
               "ko": "\ub9dd\ud604"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -12465,6 +13403,8 @@ var NYX_DB = {
               "ko": "\ud658\uc0c1\uc758 \uc218\ud504"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -12484,6 +13424,8 @@ var NYX_DB = {
               "ko": "\ub098\uac00\ub178\ud558\ub77c \uc720\uc131\uad70"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -12504,6 +13446,8 @@ var NYX_DB = {
               "ko": "\ub0b4\ub808\uc774\uc158\uc758 \uc8fc\uc11d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Simulanka"
             ],
@@ -12523,6 +13467,8 @@ var NYX_DB = {
               "ko": "\ub098\uc0e4 \ub9c8\uc744"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -12542,6 +13488,8 @@ var NYX_DB = {
               "ko": "\ud480\uacfc \uc9c0\ud61c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331804-Nature and Wisdom.webp",
@@ -12559,6 +13507,8 @@ var NYX_DB = {
               "ko": "\ub124\ud1a0\uce58\uce74"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -12578,6 +13528,8 @@ var NYX_DB = {
               "ko": "\ubc24 \uc601\uc5ed\uc758 \uc120\ubb3c\u00b7\ud30c\ub3c4 \uc815\uc0c1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -12597,6 +13549,8 @@ var NYX_DB = {
               "ko": "\ubc24 \uc601\uc5ed\uc758 \uc120\ubb3c\u00b7\ub178\uc2ec \ub2e8\uacb0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -12616,6 +13570,8 @@ var NYX_DB = {
               "ko": "\ubc24 \uc601\uc5ed\uc758 \uc120\ubb3c\u00b7\ub9c8\ub545\ud55c \ub300\uac00"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -12635,6 +13591,8 @@ var NYX_DB = {
               "ko": "\uc545\ubabd\uc758 \uc9d5\uc870"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -12654,6 +13612,8 @@ var NYX_DB = {
               "ko": "\uc61b \uc655\uc2e4\uc758 \uc758\uc2dd"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -12673,6 +13633,8 @@ var NYX_DB = {
               "ko": "\ubd81\uadf9 \ud6c8\uc81c \ub2ed"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -12692,6 +13654,8 @@ var NYX_DB = {
               "ko": "\uc601\uc591\ud0a4\ud2b8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Item"
             ],
@@ -12711,6 +13675,8 @@ var NYX_DB = {
               "ko": "\ub2d8\ud504\uc758 \uafc8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -12730,6 +13696,8 @@ var NYX_DB = {
               "ko": "\ubc14\ub2e4\uc5d0 \ubb3c\ub4e0 \uac70\ub300 \uc870\uac1c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -12749,6 +13717,8 @@ var NYX_DB = {
               "ko": "\uc5d0\ud53c\ud074\ub808\uc2a4 \uc624\ud398\ub77c \ud558\uc6b0\uc2a4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -12768,6 +13738,8 @@ var NYX_DB = {
               "ko": "\ud654\ub824\ud55c \ud22c\uad6c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -12787,6 +13759,8 @@ var NYX_DB = {
               "ko": "\uc804\ubd80 \ub418\ub3cc\ub824\uc8fc\uc9c0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -12807,6 +13781,8 @@ var NYX_DB = {
               "ko": "\ud398\uc774\ubaac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -12826,6 +13802,8 @@ var NYX_DB = {
               "ko": "\uace0\ud1b5 \ubc18\ud658"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -12845,6 +13823,8 @@ var NYX_DB = {
               "ko": "\uaca9\ud22c\uae30!"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332023-Pankration!.webp",
@@ -12862,6 +13842,8 @@ var NYX_DB = {
               "ko": "\ub9e4\uac1c \ubcc0\uc218 \ubcc0\ud658\uae30"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Item"
             ],
@@ -12881,6 +13863,8 @@ var NYX_DB = {
               "ko": "\uac77\ud78c \ub208\uc758 \uc7a5\ub9c9"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -12900,6 +13884,8 @@ var NYX_DB = {
               "ko": "\ud310\uacb0\uc758 \ub54c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Arcane Legend",
               "Undiscoverable"
@@ -12920,6 +13906,8 @@ var NYX_DB = {
               "ko": "\uc9c4\uc8fc \uc751\uace0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -12939,6 +13927,8 @@ var NYX_DB = {
               "ko": "\ubd88\uc774 \ub3cc\uc544\uc628 \ubc24\uc758 \uc21c\ub840"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Arcane Legend",
               "Undiscoverable"
@@ -12959,6 +13949,8 @@ var NYX_DB = {
               "ko": "\uc138\uacc4 \uad6c\uc6d0 \uacc4\ud68d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332058-Plan to Save the World.webp",
@@ -12976,6 +13968,8 @@ var NYX_DB = {
               "ko": "\ub099\ud558 \ubca0\uae30"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Combat Action"
             ],
@@ -12995,6 +13989,8 @@ var NYX_DB = {
               "ko": "\ubc14\ub78c \uc18d \uc2dc \ub0ad\uc1a1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -13015,6 +14011,8 @@ var NYX_DB = {
               "ko": "\ud734\ub300\uc6a9 \uccb4\uc778\ud1b1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Claymore",
@@ -13036,6 +14034,8 @@ var NYX_DB = {
               "ko": "\ud391\ud391 \uc120\ubb3c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -13056,6 +14056,8 @@ var NYX_DB = {
               "ko": "\ud654\ubc15\uc5f0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Polearm"
@@ -13076,6 +14078,8 @@ var NYX_DB = {
               "ko": "\ud3ec\uc790 \uc99d\uc2dd"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -13096,6 +14100,8 @@ var NYX_DB = {
               "ko": "\uce68\ubab0\ud55c \uc608\uc5b8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -13116,6 +14122,8 @@ var NYX_DB = {
               "ko": "\ud0d0\uc0ac\uc6a9 \ub4dc\ub9b4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Polearm",
@@ -13137,6 +14145,8 @@ var NYX_DB = {
               "ko": "\ud1b5\ud1b5\ud31d\ud31d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -13156,6 +14166,8 @@ var NYX_DB = {
               "ko": "\ud384\uc2a4\uc758 \ub9c8\ub140"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -13175,6 +14187,8 @@ var NYX_DB = {
               "ko": "\uc21c\ud658\ud558\ub294 \ud0dc\uc591\uc758 \ud30c\uc77c\ub860"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -13194,6 +14208,8 @@ var NYX_DB = {
               "ko": "\uae43\ub8e1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Technique"
             ],
@@ -13213,6 +14229,8 @@ var NYX_DB = {
               "ko": "\ube60\ub978 \ubc14\ub290\uc9c8 \uae30\uc220"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332012-Quick Knit.webp",
@@ -13230,6 +14248,8 @@ var NYX_DB = {
               "ko": "\uc54c\ub85d\ub2ec\ub85d \ub9c8\uce74\ub871"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -13249,6 +14269,8 @@ var NYX_DB = {
               "ko": "\ub77c\ub098"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -13268,6 +14290,8 @@ var NYX_DB = {
               "ko": "\uae4c\ub9c8\uadc0\uae43 \ud65c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Bow"
@@ -13288,6 +14312,8 @@ var NYX_DB = {
               "ko": "\uae84! \uae84!"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Technique"
             ],
@@ -13307,6 +14333,8 @@ var NYX_DB = {
               "ko": "\uc815\ub958 \ud68c\ub85c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -13326,6 +14354,8 @@ var NYX_DB = {
               "ko": "\ubd89\uc740 \uae43\ud138 \ubd80\ucc44"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Item"
             ],
@@ -13345,6 +14375,8 @@ var NYX_DB = {
               "ko": "\ud30c\uc5f4\uc758 \uc18c\uc6a9\ub3cc\uc774"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -13365,6 +14397,8 @@ var NYX_DB = {
               "ko": "\uc801\ub2f9\ud55c \ud734\uc2dd\uc740 \ud544\uc218"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -13385,6 +14419,9 @@ var NYX_DB = {
               "ko": "\ubb3c\uc758 \uc815\ub839\u00b7\ub85c\ub370\uc774\uc544"
             },
             "type": "Character",
+            "cost": 3,
+            "hp": 11,
+            "relatedCardId": "222011",
             "tags": [
               "Hydro",
               "Other Weapons",
@@ -13406,6 +14443,8 @@ var NYX_DB = {
               "ko": "\uc704\ub300\ud55c \uafc8\uc758 \uba5c\ub85c\ub514"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332021-Rhythm of the Great Dream.webp",
@@ -13423,6 +14462,8 @@ var NYX_DB = {
               "ko": "\ucd5c\uc885 \ud574\uc11d\uad8c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -13443,6 +14484,8 @@ var NYX_DB = {
               "ko": "\uacf5\uc758\uc758 \ubcf4\uc0c1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Polearm"
@@ -13463,6 +14506,8 @@ var NYX_DB = {
               "ko": "\uc6b0\uc544\ud55c \uc5bc\uc74c \ub808\uc774\ud53c\uc5b4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -13483,6 +14528,8 @@ var NYX_DB = {
               "ko": "\uae30\uc0ac\ud68c\ud574"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -13503,6 +14550,8 @@ var NYX_DB = {
               "ko": "\uc9c0\uc625\uc758 \uc5f0\uc8fc"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -13523,6 +14572,8 @@ var NYX_DB = {
               "ko": "\ub8f0\ub81b \uce75\ud14c\uc77c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -13542,6 +14593,8 @@ var NYX_DB = {
               "ko": "\uc655\uc2e4\uc758 \uac00\uba74"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -13561,6 +14614,8 @@ var NYX_DB = {
               "ko": "\ub2ec\ub9ac\ub294 \uac15\uc544\uc9c0\u00b7\ubc14\ub78c\ucc98\ub7fc \ube60\ub974\uac8c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -13581,6 +14636,8 @@ var NYX_DB = {
               "ko": "\uc81c\ub840\ud65c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Bow"
@@ -13601,6 +14658,8 @@ var NYX_DB = {
               "ko": "\uc81c\ub840\uc758 \uc545\uc7a5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Catalyst"
@@ -13621,6 +14680,8 @@ var NYX_DB = {
               "ko": "\uc81c\ub840 \ub300\uac80"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Claymore"
@@ -13641,6 +14702,8 @@ var NYX_DB = {
               "ko": "\uc81c\ub840\uac80"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Sword"
@@ -13661,6 +14724,8 @@ var NYX_DB = {
               "ko": "\uc0b0\ud638\uad81"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -13680,6 +14745,8 @@ var NYX_DB = {
               "ko": "\ud54f\ube5b \ubd84\uc7a5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -13700,6 +14767,8 @@ var NYX_DB = {
               "ko": "\uc6d0\ubaa9 \uac80"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Sword"
@@ -13720,6 +14789,8 @@ var NYX_DB = {
               "ko": "\ubaa8\ub460 \ud68c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -13739,6 +14810,8 @@ var NYX_DB = {
               "ko": "\uc6a9 \ub3d9\ub8cc\uc758 \uc2dd\uc0ac \uc2dc\uac04"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332039-Saurian Dining Buddies.webp",
@@ -13756,6 +14829,8 @@ var NYX_DB = {
               "ko": "\uc6a9\uc6a9 \ucfe0\ud0a4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -13775,6 +14850,8 @@ var NYX_DB = {
               "ko": "\uc804\uac08\uc758 \ud070 \uc7ac\uc559"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -13795,6 +14872,8 @@ var NYX_DB = {
               "ko": "\uc7bf\ub354\ubbf8\uc131 \uc6a9\uc0ac\uc758 \ub450\ub8e8\ub9c8\ub9ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -13814,6 +14893,8 @@ var NYX_DB = {
               "ko": "\uc528\uc557 \ud568"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Item"
             ],
@@ -13833,6 +14914,8 @@ var NYX_DB = {
               "ko": "\uc138\uc774\ub77c\uc774\uc12c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -13852,6 +14935,8 @@ var NYX_DB = {
               "ko": "\ub110 \uc800\uc138\uc0c1\uc73c\ub85c \ub370\ub824\ub2e4\uc904\uac8c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332013-Send Off.webp",
@@ -13869,6 +14954,8 @@ var NYX_DB = {
               "ko": "\uc138\ub9b0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -13888,6 +14975,8 @@ var NYX_DB = {
               "ko": "\uc138\ud0c0\ub974"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -13907,6 +14996,8 @@ var NYX_DB = {
               "ko": "\uc2dc\ubaa8\uc5b4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -13926,6 +15017,8 @@ var NYX_DB = {
               "ko": "\ubaa8\ub798\uc655\uc758 \uadf8\ub9bc\uc790"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -13945,6 +15038,8 @@ var NYX_DB = {
               "ko": "\uaf41\uaf41\uc824\ub9ac \uc250\uc774\ud070"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -13965,6 +15060,8 @@ var NYX_DB = {
               "ko": "\ucd94\uc5b5\uc758 \uc2dc\uba54\ub098\uc640"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -13984,6 +15081,8 @@ var NYX_DB = {
               "ko": "\uc2e4\ubc84\uc640 \ub9c8\ub974\uc2dc\uc545"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -14003,6 +15102,8 @@ var NYX_DB = {
               "ko": "\ub2ec\ube5b \uc815\uc6d0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -14022,6 +15123,8 @@ var NYX_DB = {
               "ko": "\uc544\uacc4(\u6211\u754c)"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -14042,6 +15145,8 @@ var NYX_DB = {
               "ko": "\ud798\ucc2c \ub178\ub798"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -14061,6 +15166,8 @@ var NYX_DB = {
               "ko": "\uc544\ub974\ud280\ub974 \uc528"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -14080,6 +15187,8 @@ var NYX_DB = {
               "ko": "\uc0c8\ub85c\uc6b4 \ub18d\ub561\uc774 \ubc29\ubc95"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -14100,6 +15209,8 @@ var NYX_DB = {
               "ko": "\ucc9c\uacf5\uc758 \ub450\ub8e8\ub9c8\ub9ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Catalyst"
@@ -14120,6 +15231,8 @@ var NYX_DB = {
               "ko": "\ucc9c\uacf5\uc758 \uac80"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Sword"
@@ -14140,6 +15253,8 @@ var NYX_DB = {
               "ko": "\ucc9c\uacf5\uc758 \ub0a0\uac1c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Bow"
@@ -14160,6 +15275,8 @@ var NYX_DB = {
               "ko": "\ucc9c\uacf5\uc758 \uae0d\uc9c0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Claymore"
@@ -14180,6 +15297,8 @@ var NYX_DB = {
               "ko": "\ucc9c\uacf5\uc758 \ub9c8\ub8e8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Polearm"
@@ -14200,6 +15319,8 @@ var NYX_DB = {
               "ko": "\uadf8\ubb3c\uc744 \ub6ab\ub294 \ud654\uc0b4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Bow"
@@ -14220,6 +15341,8 @@ var NYX_DB = {
               "ko": "\ud718\uac10\ub294 \uc601\ud63c\uc758 \ubc40"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -14240,6 +15363,8 @@ var NYX_DB = {
               "ko": "\uace0\uc694\ud788 \uc0d8\uc19f\ub294 \ube5b"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Sword"
@@ -14260,6 +15385,8 @@ var NYX_DB = {
               "ko": "\uc131\ud654 \uacbd\uae30\uc7a5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -14279,6 +15406,8 @@ var NYX_DB = {
               "ko": "\ud14c\ud398\ud2c0 \ubb34\ub300"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -14298,6 +15427,8 @@ var NYX_DB = {
               "ko": "\ucc38\ub41c \ucda9\uc2ec"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -14318,6 +15449,8 @@ var NYX_DB = {
               "ko": "\ubcc4\uc9c0\uae30\uc758 \uc2dc\uc120"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Catalyst"
@@ -14338,6 +15471,8 @@ var NYX_DB = {
               "ko": "\ubcc4\ud558\ub298\uc758 \uc9d5\uc870"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332008-Starsigns.webp",
@@ -14355,6 +15490,8 @@ var NYX_DB = {
               "ko": "\uc9c4\uae30 \ud1a0\ub0a9"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -14375,6 +15512,8 @@ var NYX_DB = {
               "ko": "\ubcc4\uc744 \uc0bc\ud0a8 \uae4c\ub9c8\uadc0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -14395,6 +15534,8 @@ var NYX_DB = {
               "ko": "\uc11c\ub9ac \ud504\ub9ac\uc998 \uacb0\uc815"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -14414,6 +15555,8 @@ var NYX_DB = {
               "ko": "\ubc14\uc704\uc640 \uacc4\uc57d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331802-Stone and Contracts.webp",
@@ -14431,6 +15574,9 @@ var NYX_DB = {
               "ko": "\uce04\uce04 \ubc14\uc704\uc655"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "226011",
             "tags": [
               "Geo",
               "Other Weapons",
@@ -14453,6 +15599,8 @@ var NYX_DB = {
               "ko": "\uc7ac\uac74: \ubc14\uc704 \ud22c\uad6c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -14473,6 +15621,8 @@ var NYX_DB = {
               "ko": "\ubc14\ub78c \ub4dc\ub798\uace4\uc758 \ud3d0\ud5c8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -14492,6 +15642,8 @@ var NYX_DB = {
               "ko": "\uc0ac\uc804 \uc900\ube44"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -14512,6 +15664,8 @@ var NYX_DB = {
               "ko": "\uc804\ub7b5 \uad6c\uc0c1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332004-Strategize.webp",
@@ -14529,6 +15683,8 @@ var NYX_DB = {
               "ko": "\uc138\ucc2c \uaca9\ub958"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -14549,6 +15705,8 @@ var NYX_DB = {
               "ko": "\uc815\ub9ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -14569,6 +15727,8 @@ var NYX_DB = {
               "ko": "\uc218\uba54\ub974\uc131"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -14588,6 +15748,8 @@ var NYX_DB = {
               "ko": "\uc21c\uc57c\ud0c0 \uaf43"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332029-Sunyata Flower.webp",
@@ -14605,6 +15767,8 @@ var NYX_DB = {
               "ko": "\uc19f\uad6c\uce58\ub294 \uc554\ub958"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -14624,6 +15788,8 @@ var NYX_DB = {
               "ko": "\ub2ec\ucf64\ub2ec\ucf64 \ub2ed\uace0\uae30 \uc2a4\ud29c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -14643,6 +15809,8 @@ var NYX_DB = {
               "ko": "\uc628\uc5f4 \uc694\ubc95"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -14662,6 +15830,8 @@ var NYX_DB = {
               "ko": "\uc9dc\uc794!"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332037-Tada!.webp",
@@ -14679,6 +15849,8 @@ var NYX_DB = {
               "ko": "\ud568 \uc18d\uc758 \ud0c0\ub9c8\ucfe0\uc2dc"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -14699,6 +15871,8 @@ var NYX_DB = {
               "ko": "\ud0c4\ub450\ub9ac \uce58\ud0a8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -14718,6 +15892,8 @@ var NYX_DB = {
               "ko": "\ud0c0\ub85c\ub9c8\ub8e8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -14737,6 +15913,8 @@ var NYX_DB = {
               "ko": "\ubfd4\ub8e1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Technique"
             ],
@@ -14756,6 +15934,8 @@ var NYX_DB = {
               "ko": "\ubb34\uc9c0\uac2f\ube5b \ud2f0\ud0c0\uc784"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -14776,6 +15956,8 @@ var NYX_DB = {
               "ko": "\u300c\ube44\uc625\ud55c \ud130\uc804\u300d\uc758 \uac00\ub974\uce68"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -14796,6 +15978,8 @@ var NYX_DB = {
               "ko": "\uacac\uace0\ud55c \ucc9c\uc554"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -14815,6 +15999,8 @@ var NYX_DB = {
               "ko": "\ucc9c\uc218\uac01"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -14834,6 +16020,8 @@ var NYX_DB = {
               "ko": "\uc0b0\ub8e1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Technique"
             ],
@@ -14853,6 +16041,8 @@ var NYX_DB = {
               "ko": "\uc545\ud589\uc790\uc5d0\uac8c \uc9d5\ubc8c\uc744"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -14873,6 +16063,8 @@ var NYX_DB = {
               "ko": "\ud2f0\ubc14\ud2b8 \ub2ec\uac40 \ud504\ub77c\uc774"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Food"
             ],
@@ -14892,6 +16084,8 @@ var NYX_DB = {
               "ko": "\ud0d0\uc695\uc2a4\ub7ec\uc6b4 \ud3ec\uc2dd"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -14911,6 +16105,8 @@ var NYX_DB = {
               "ko": "\uc608\uc0b0\uc758 \ub9c8\uc220\uc0ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -14931,6 +16127,8 @@ var NYX_DB = {
               "ko": "\uc2dc\uac04\uc758 \uac80"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Claymore"
@@ -14951,6 +16149,8 @@ var NYX_DB = {
               "ko": "\ucd5c\uace0\uc758 \ud30c\ud2b8\ub108!"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
@@ -14968,6 +16168,8 @@ var NYX_DB = {
               "ko": "\uba67\ub3fc\uc9c0 \uacf5\uc8fc"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332025-The Boar Princess.webp",
@@ -14985,6 +16187,8 @@ var NYX_DB = {
               "ko": "\ubc1c\uba85\uc740 \ucc9c\uc7ac\uc758 \uc758\ubb34"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -15005,6 +16209,8 @@ var NYX_DB = {
               "ko": "\ubc43\ub3c4\ub791 \uc7a5\uac80"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Sword",
@@ -15026,6 +16232,8 @@ var NYX_DB = {
               "ko": "\ubc14\ub124\uc0ac \uc804\uae30"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332019-The Legend of Vennessa.webp",
@@ -15043,6 +16251,8 @@ var NYX_DB = {
               "ko": "\uc801\uc655\uc758 \ubb34\ub364"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -15062,6 +16272,8 @@ var NYX_DB = {
               "ko": "\uc218\uc120\ud654 \uc2ed\uc790 \ub300\ubaa8\ud5d8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332057-The Narzissenkreuz Adventure.webp",
@@ -15079,6 +16291,8 @@ var NYX_DB = {
               "ko": "\uc11c\ub9ac\ub2ec\uc758 \uc800\ud3b8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Arcane Legend",
               "Undiscoverable"
@@ -15099,6 +16313,8 @@ var NYX_DB = {
               "ko": "\ubc94\ub78c\ud558\ub294 \uc870\uc11d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -15119,6 +16335,8 @@ var NYX_DB = {
               "ko": "\uacfc\ud559 \uc5f0\uad6c\uc758 \uc6d0\ub3d9\ub825"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332064-The Power of Research.webp",
@@ -15136,6 +16354,8 @@ var NYX_DB = {
               "ko": "\uc7a5\ub9c9\uc758 \uc794\ud5a5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -15156,6 +16376,8 @@ var NYX_DB = {
               "ko": "\uc9c0\ud61c\ub97c \uba38\uae08\uc740 \uc528\uc557"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -15176,6 +16398,8 @@ var NYX_DB = {
               "ko": "\ud788\ubaa8\ub85c\uae30\uc758 \uadf8\ub298"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -15196,6 +16420,8 @@ var NYX_DB = {
               "ko": "\ubcc4\ud558\ub298\uc758 \uaf43\ube44"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -15216,6 +16442,8 @@ var NYX_DB = {
               "ko": "\ud770 \uc7a5\uac11\uacfc \uc5b4\ubd80"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion",
               "Undiscoverable"
@@ -15236,6 +16464,8 @@ var NYX_DB = {
               "ko": "\uc9c4\ub9ac\ub85c \ud1b5\ud558\ub294 \uae38"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -15256,6 +16486,8 @@ var NYX_DB = {
               "ko": "\ub958\uc6b4 \uc120\uc778!"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -15276,6 +16508,8 @@ var NYX_DB = {
               "ko": "\ubc88\uac1c\uc640 \uc601\uc6d0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331803-Thunder and Eternity.webp",
@@ -15293,6 +16527,9 @@ var NYX_DB = {
               "ko": "\ub1cc\uc74c\uc758 \uad8c\ud604"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "224021",
             "tags": [
               "Electro",
               "Other Weapons",
@@ -15314,6 +16551,8 @@ var NYX_DB = {
               "ko": "\ubc88\uac1c\ub97c \ubd80\ub974\ub294 \ubaa8\uc790"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -15333,6 +16572,8 @@ var NYX_DB = {
               "ko": "\ubc88\uac1c \uac19\uc740 \ubd84\ub178"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -15352,6 +16593,8 @@ var NYX_DB = {
               "ko": "\ud558\ub298\uc5d0 \ub2ff\uc740 \ub1cc\ubc8c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -15372,6 +16615,8 @@ var NYX_DB = {
               "ko": "\ubc88\uac1c\uc758 \uc790\ud0dc"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -15391,6 +16636,8 @@ var NYX_DB = {
               "ko": "\uc870\uc11d \uc778\uc7a5\uc11d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -15410,6 +16657,8 @@ var NYX_DB = {
               "ko": "\ub370\ub9c8\ub85c\uc6b0\uc2a4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -15429,6 +16678,8 @@ var NYX_DB = {
               "ko": "\ud2f0\ubbf8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -15448,6 +16699,8 @@ var NYX_DB = {
               "ko": "\ub098\uc57d\uc744 \ub5a8\uccd0\ub0b4\ub294 \ub9c8\uc74c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -15468,6 +16721,8 @@ var NYX_DB = {
               "ko": "\uc601\uc6d0\ud788 \uc0d8\uc19f\ub294 \ubc95\uc804"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Catalyst"
@@ -15488,6 +16743,8 @@ var NYX_DB = {
               "ko": "\uac74\uace4\uc77c\ucc99"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332003-Toss-Up.webp",
@@ -15505,6 +16762,8 @@ var NYX_DB = {
               "ko": "\uc0b0\uc73c\ub85c \ubc88\uc9c0\ub294 \ub2e8\uc870\uc758 \ubd88"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -15525,6 +16784,8 @@ var NYX_DB = {
               "ko": "\uc232 \uc548\uac1c \uc18d \ud589\uc801"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -15544,6 +16805,8 @@ var NYX_DB = {
               "ko": "\uc2e0\ud1b5\ubc29\ud1b5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -15564,6 +16827,8 @@ var NYX_DB = {
               "ko": "\uc5ec\ud589\uc790\uc758 \uac80"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Sword"
@@ -15584,6 +16849,8 @@ var NYX_DB = {
               "ko": "\ub5a0\ub3cc\uc774 \uc758\uc0ac\uc758 \ub450\uac74"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -15603,6 +16870,8 @@ var NYX_DB = {
               "ko": "\ubcf4\ubb3c \ucc3e\ub294 \uc120\ub839"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Item"
             ],
@@ -15622,6 +16891,8 @@ var NYX_DB = {
               "ko": "\ud3ec\ub871\uc774"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -15641,6 +16912,8 @@ var NYX_DB = {
               "ko": "\ud234\ub808\uc774\ud234\ub77c\uc758 \uae30\uc5b5"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Catalyst"
@@ -15661,6 +16934,8 @@ var NYX_DB = {
               "ko": "\uc120\uacf5\uc758 \ubb18\uc218"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -15681,6 +16956,8 @@ var NYX_DB = {
               "ko": "\uac15\ub825\ud55c \uc11c\ud551 \ud30c\ud2b8\ub108!"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Combat Action"
             ],
@@ -15700,6 +16977,8 @@ var NYX_DB = {
               "ko": "\ubc14\ub2e4 \ubcf4\ubb3c\ucc3e\uae30"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332031-Underwater Treasure Hunt.webp",
@@ -15717,6 +16996,8 @@ var NYX_DB = {
               "ko": "\ube44\ubc00 \uc720\ud1b5 \uacbd\ub85c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -15737,6 +17018,8 @@ var NYX_DB = {
               "ko": "\ub2e8 \ud558\ub098\uc758 \ub9c8\uc74c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -15757,6 +17040,8 @@ var NYX_DB = {
               "ko": "\ud0c0\uc624\ub974\ub294 \ubd84\ub178"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -15776,6 +17061,8 @@ var NYX_DB = {
               "ko": "\ubbf8\uc644\uc758 \ubabd\uc0c1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -15795,6 +17082,8 @@ var NYX_DB = {
               "ko": "\ubc14\ub098\ub77c\ub098"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -15814,6 +17103,8 @@ var NYX_DB = {
               "ko": "\uc120\ubd09 \ud611\ub3d9 \uc804\uc220"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -15833,6 +17124,8 @@ var NYX_DB = {
               "ko": "\uc9c4\uc0ac \uc655\uc0dd\ub85d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -15852,6 +17145,8 @@ var NYX_DB = {
               "ko": "\ub178\ubcd1\uc758 \uc5bc\uad74"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -15871,6 +17166,8 @@ var NYX_DB = {
               "ko": "\uc9c0\ub09c\ub0a0\uc758 \uaca9\uc804"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Arcane Legend",
               "Undiscoverable"
@@ -15891,6 +17188,8 @@ var NYX_DB = {
               "ko": "\uac70\uba38\uc954 \uc5ed\uc804\uc758 \uc2b9\ub9ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -15910,6 +17209,8 @@ var NYX_DB = {
               "ko": "\uccad\ub85d\uc0c9 \uadf8\ub9bc\uc790"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -15929,6 +17230,8 @@ var NYX_DB = {
               "ko": "\uccad\ub85d\uc0c9 \uc0ac\ub0e5\uafbc\uc758 \ubaa8\uc790"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -15948,6 +17251,8 @@ var NYX_DB = {
               "ko": "\uad00\ud64d\uc758 \ucc3d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Polearm"
@@ -15968,6 +17273,8 @@ var NYX_DB = {
               "ko": "\uac10\ub85c\ube5b \uaf43\ubc14\ub2e4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -15987,6 +17294,8 @@ var NYX_DB = {
               "ko": "\ubc14\uadf8\ub108"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -16006,6 +17315,8 @@ var NYX_DB = {
               "ko": "\ub9dd\uc11c \uac1d\uc794"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -16025,6 +17336,8 @@ var NYX_DB = {
               "ko": "\ubb3c\uacfc \uc815\uc758"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331805-Water and Justice.webp",
@@ -16042,6 +17355,8 @@ var NYX_DB = {
               "ko": "\ud30c\ub3c4 \ubc30"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Technique"
             ],
@@ -16061,6 +17376,9 @@ var NYX_DB = {
               "ko": "\uc218\uc218\uaed8\ub07c \uc601\ub825 \uc218\ud589\uc790"
             },
             "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "221051",
             "tags": [
               "Cryo",
               "Other Weapons",
@@ -16082,6 +17400,8 @@ var NYX_DB = {
               "ko": "\ud638\uc218 \uc704 \ubc84\ub4dc\ub098\ubb34"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Location"
             ],
@@ -16101,6 +17421,8 @@ var NYX_DB = {
               "ko": "\uc19f\uad6c\uce58\ub294 \uc804\ud22c\uc758 \uc695\ub9dd"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -16121,6 +17443,8 @@ var NYX_DB = {
               "ko": "\ud559\uc774 \ub3cc\uc544\uc62c \ub54c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332007-When the Crane Returned.webp",
@@ -16138,6 +17462,8 @@ var NYX_DB = {
               "ko": "\uc7a5\ubd09\uc740 \uc5b4\ub514 \uc788\ub294 \uac70\uc57c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332022-Where Is the Unseen Razor_.webp",
@@ -16155,6 +17481,8 @@ var NYX_DB = {
               "ko": "\uc601\ub77d\ud55c \uacf5\uc0c1\uc758 \uc648\uce20"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -16174,6 +17502,8 @@ var NYX_DB = {
               "ko": "\ubc31\ucca0 \ub300\uac80"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Claymore"
@@ -16194,6 +17524,8 @@ var NYX_DB = {
               "ko": "\ubc31\uc220\ucc3d"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Polearm"
@@ -16214,6 +17546,8 @@ var NYX_DB = {
               "ko": "\ubc14\ub78c\uacfc \uc790\uc720"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [],
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331801-Wind and Freedom.webp",
@@ -16231,6 +17565,8 @@ var NYX_DB = {
               "ko": "\uc220\ub85c \uc5bc\ub8e9\uc9c4 \uc218\ubcd1\ubaa8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -16250,6 +17586,8 @@ var NYX_DB = {
               "ko": "\uc218\ucc9c\uc218\ub9cc\uc758 \uc5fc\uc6d0"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -16270,6 +17608,8 @@ var NYX_DB = {
               "ko": "\ubd88\ud0c0\uc624\ub974\ub294 \ub9c8\ub140 \ubaa8\uc790"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Artifact"
             ],
@@ -16289,6 +17629,8 @@ var NYX_DB = {
               "ko": "\ud0dc\uc591\uc744 \uac00\ub9b0 \uc8fd\uc74c\uc758 \ud480"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent"
             ],
@@ -16308,6 +17650,8 @@ var NYX_DB = {
               "ko": "\ub291\ub300\uc758 \ub9d0\ub85c"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Weapon",
               "Claymore"
@@ -16328,6 +17672,8 @@ var NYX_DB = {
               "ko": "\uc774\uc0c9 \uce7c\ub0a0 \uac00\uc624\ub9ac"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Technique"
             ],
@@ -16347,6 +17693,8 @@ var NYX_DB = {
               "ko": "\ub3d9\uc6b1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -16366,6 +17714,8 @@ var NYX_DB = {
               "ko": "\uc57c\uc694\uc774 \ub098\ub098\uce20\ud0a4"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Companion"
             ],
@@ -16385,6 +17735,8 @@ var NYX_DB = {
               "ko": "\ubaa8\ub4e0 \uae30\uc068\uc774 \ud568\uaed8\ud558\uae38"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -16405,6 +17757,8 @@ var NYX_DB = {
               "ko": "\uadf8\ub300 \uafc8\uc18d\uc5d0\uc11c \ubcf8"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Talent",
               "Combat Action"
@@ -16425,6 +17779,8 @@ var NYX_DB = {
               "ko": "\uc232\ub8e1"
             },
             "type": "Action",
+            "cost": 0,
+            "hp": 0,
             "tags": [
               "Technique"
             ],

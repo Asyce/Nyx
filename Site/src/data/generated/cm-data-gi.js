@@ -50220,10 +50220,10 @@
       "tag": "SNEZHNAYA STAR",
       "release": 1782770400000,
       "voiceActors": {
-        "english": "Deneen Melody",
-        "japanese": "\u672c\u591a\u771f\u68a8\u5b50",
-        "chinese": "\u6d2a\u6d77\u5929",
-        "korean": "Kang Eun-ae"
+        "english": "imdb:nm3069800|Deneen Melody",
+        "japanese": "Mariko Honda|Honda Mariko (\u672c\u591a\u771f\u68a8\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u6d2a\u6d77\u5929|Hong Haitian (\u6d2a\u6d77\u5929)",
+        "korean": "ko:\uac15\uc740\uc560|Kang Eun-ae (\uac15\uc740\uc560)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
@@ -52335,10 +52335,10 @@
       "tag": "MONDSTADT",
       "release": 1781020800000,
       "voiceActors": {
-        "english": "Nick Wolfhard",
-        "japanese": "\u5929\ufa11\u6ec9\u5e73",
-        "chinese": "\u6797\u5a67\u5357",
-        "korean": "Lee Sang-ho"
+        "english": "imdb:nm6016510|Nick Wolfhard",
+        "japanese": "K\u014dhei Amasaki|Amasaki K\u014dhei (\u5929\ufa11 \u6ec9\u5e73)",
+        "chinese": "https://zh.moegirl.org.cn/\u6797\u5a67\u5357|Lin Jingnan (\u6797\u5a67\u5357)",
+        "korean": "https://namu.wiki/w/\uc774\uc0c1\ud638(\uc131\uc6b0)|Lee Sang-ho (\uc774\uc0c1\ud638)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Lohen_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Lohen.webp",
@@ -54187,10 +54187,10 @@
       "tag": "HVISION",
       "release": 1779141600000,
       "voiceActors": {
-        "english": "Sophie Shad",
-        "japanese": "\u8c4a\u53e3\u3081\u3050\u307f",
-        "chinese": "\u4e91\u9e64\u8ffd",
-        "korean": "Lee So-eun"
+        "english": "imdb:nm0787155|Sophie Shad",
+        "japanese": "Megumi Toyoguchi|Toyoguchi Megumi (\u8c4a\u53e3\u3081\u3050\u307f)",
+        "chinese": "https://zh.moegirl.org.cn/\u4e91\u9e64\u8ffd|Yun He Zhui (\u4e91\u9e64\u8ffd)",
+        "korean": "ko:\uc774\uc18c\uc740_(\uc131\uc6b0)|Lee So-eun (\uc774\uc18c\uc740)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Nicole_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nicole.webp",
@@ -56290,10 +56290,10 @@
       "tag": "MONDSTADT",
       "release": 1779141600000,
       "voiceActors": {
-        "english": "Alice Himora",
-        "japanese": "\u9577\u6708\u3042\u304a\u3044",
-        "chinese": "\u5bb4\u5b81",
-        "korean": "Jang Ye-na"
+        "english": "imdb:nm12363730|Alice Himora",
+        "japanese": "ja:\u9577\u6708\u3042\u304a\u3044|Nagatsuki Aoi (\u9577\u6708 \u3042\u304a\u3044)",
+        "chinese": "https://zh.moegirl.org.cn/\u5bb4\u5b81|Yanning (\u5bb4\u5b81)",
+        "korean": "https://namu.wiki/w/\uc7a5\uc608\ub098|Jang Ye-na (\uc7a5\uc608\ub098)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Prune_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Prune.webp",
@@ -58406,10 +58406,10 @@
       "tag": "NODKRAI",
       "release": 1775512800000,
       "voiceActors": {
-        "english": "Savanna Menzel",
-        "japanese": "\u767d\u77f3\u6674\u9999",
-        "chinese": "\u5468\u4f97",
-        "korean": "Kim Yun-chae"
+        "english": "imdb:nm10476229|Savanna Menzel",
+        "japanese": "Haruka Shiraishi|Shiraishi Haruka (\u767d\u77f3 \u6674\u9999)",
+        "chinese": "https://zh.moegirl.org.cn/\u5468\u4f97|Zhou Tong (\u5468\u4f97)",
+        "korean": "https://namu.wiki/w/\uae40\uc724\ucc44|Kim Yun-chae (\uae40\uc724\ucc44)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Linnea_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Linnea.webp",
@@ -60525,9 +60525,9 @@
       "release": 1771887600000,
       "voiceActors": {
         "english": "Joseph May",
-        "japanese": "\u6749\u7530\u667a\u548c",
-        "chinese": "\u90dd\u7965\u6d77",
-        "korean": "Park Sang-hoon"
+        "japanese": "Tomokazu Sugita|Sugita Tomokazu (\u6749\u7530\u667a\u548c)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u90dd\u7965\u6d77|Hao Xianghai (\u90dd\u7965\u6d77)",
+        "korean": "https://namu.wiki/w/\ubc15\uc0c1\ud6c8(1982)|Park Sang-hoon (\ubc15\uc0c1\ud6c8)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Varka_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Varka.webp",
@@ -62639,10 +62639,10 @@
       "tag": "NODKRAI ZIBAI",
       "release": 1770138000000,
       "voiceActors": {
-        "english": "Laura Welsh",
-        "japanese": "\u798f\u5713\u7f8e\u91cc",
-        "chinese": "Mace",
-        "korean": "Chun Song-e"
+        "english": "imdb:nm11533466|Laura Welsh",
+        "japanese": "Misato Fukuen|Fukuen Misato (\u798f\u5713 \u7f8e\u91cc)",
+        "chinese": "https://zh.moegirl.org.cn/Mace|Mace",
+        "korean": "https://namu.wiki/w/\ucc9c\uc1a1\uc774(\uc131\uc6b0)|Chun Song-e (\ucc9c\uc1a1\uc774)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Zibai.webp",
       "iconZoom": 1.18,
@@ -64758,10 +64758,10 @@
       "tag": "NODKRAI",
       "release": 1770138000000,
       "voiceActors": {
-        "english": "Jonathon Ha",
-        "japanese": "\u6885\u7530\u4fee\u4e00\u6717",
-        "chinese": "\u6631\u5934",
-        "korean": "Hwang Dong-hyun"
+        "english": "imdb:nm15807516|Jonathon Ha",
+        "japanese": "Sh\u016bichir\u014d Umeda|Umeda Shuuichirou (\u6885\u7530 \u4fee\u4e00\u6717)",
+        "chinese": "https://zh.moegirl.org.cn/\u6631\u5934|Yu Tou (\u6631\u5934)",
+        "korean": "https://namu.wiki/w/\ud669\ub3d9\ud604(\uc131\uc6b0)|Hwang Dong-hyeon (\ud669\ub3d9\ud604)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Illuga.webp",
       "iconZoom": 1.18,
@@ -66875,9 +66875,9 @@
       "release": 1768258800000,
       "voiceActors": {
         "english": "Emi Lo",
-        "japanese": "Lynn",
-        "chinese": "\u6768\u68a6\u9732",
-        "korean": "Yu Yeong"
+        "japanese": "Lynn (voice actress)|Lynn (\u308a\u3093)",
+        "chinese": "https://zh.moegirl.org.cn/\u6768\u68a6\u9732|Yang Menglu (\u6768\u68a6\u9732)",
+        "korean": "ko:\uc720\uc601 (\uc131\uc6b0)|Yu Yeong (\uc720\uc601)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Columbina.webp",
       "iconZoom": 1.32,
@@ -68996,10 +68996,10 @@
       "tag": "MONDSTADT",
       "release": 1764630000000,
       "voiceActors": {
-        "english": "Laurie Kynaston",
-        "japanese": "\u5c0f\u6797\u5343\u6643",
-        "chinese": "\u9676\u5178",
-        "korean": "Kim Ji-yul"
+        "english": "Laurie Kynaston (Human)",
+        "japanese": "Chiaki Kobayashi|Kobayashi Chiaki (\u5c0f\u6797 \u5343\u6643) (Human)",
+        "chinese": "zh:\u9676\u5178|Tao Dian (\u9676\u5178) (Human)",
+        "korean": "https://namu.wiki/w/\uae40\uc9c0\uc728|Kim Ji-yul (\uae40\uc9c0\uc728) (Human)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Durin.webp",
       "iconZoom": 1.34,
@@ -71120,10 +71120,10 @@
       "tag": "NODKRAI",
       "release": 1764630000000,
       "voiceActors": {
-        "english": "Sonya Krueger",
-        "japanese": "\u7a32\u57a3\u597d",
-        "chinese": "\u97e9\u5a07\u5a07",
-        "korean": "Oh Ro-ah"
+        "english": "imdb:nm5015345|Sonya Krueger",
+        "japanese": "Konomi Inagaki|Inagaki Konomi (\u7a32\u57a3\u597d)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u4e8c\u5a07|Han Jiaojiao (\u97e9\u5a07\u5a07)",
+        "korean": "https://namu.wiki/w/\uc624\ub85c\uc544|Oh Ro-ah (\uc624\ub85c\uc544)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Jahoda_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Jahoda.webp",
@@ -73238,10 +73238,10 @@
       "tag": "NODKRAI",
       "release": 1760997600000,
       "voiceActors": {
-        "english": "Ashleigh Haddad",
-        "japanese": "\u6c34\u6a39\u5948\u3005",
-        "chinese": "\u66fe\u5f64",
-        "korean": "Won Esther"
+        "english": "imdb:nm7514824|Ashleigh Haddad",
+        "japanese": "Nana Mizuki|Mizuki Nana (\u6c34\u6a39 \u5948\u3005)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u66fe\u5f64|Zeng Tong (\u66fe\u5f64)",
+        "korean": "https://namu.wiki/w/\uc6d0\uc5d0\uc2a4\ub354|Won Esther (\uc6d0\uc5d0\uc2a4\ub354)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Nefer.webp",
       "iconZoom": 1.32,
@@ -75330,10 +75330,10 @@
       "tag": "NODKRAI",
       "release": 1759248000000,
       "voiceActors": {
-        "english": "Nic Olsen",
-        "japanese": "\u4e2d\u6751\u60a0\u4e00",
-        "chinese": "\u9a6c\u6b63\u9633",
-        "korean": "Shin Yong-woo"
+        "english": "imdb:nm7837046|Nic Olsen",
+        "japanese": "Yuichi Nakamura|Nakamura Yuuichi (\u4e2d\u6751\u60a0\u4e00)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u9a6c\u6b63\u9633|Ma Zhengyang (\u9a6c\u6b63\u9633)",
+        "korean": "https://namu.wiki/w/\uc2e0\uc6a9\uc6b0|Shin Yong-woo (\uc2e0\uc6a9\uc6b0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
@@ -77452,10 +77452,10 @@
       "tag": "NODKRAI",
       "release": 1757368800000,
       "voiceActors": {
-        "english": "Alexandra Guelff",
-        "japanese": "\u6851\u5cf6\u6cd5\u5b50",
-        "chinese": "\u5f20\u5b89\u742a",
-        "korean": "Jang Chae-yeon"
+        "english": "imdb:nm5498692| Alexandra Guelff",
+        "japanese": "Houko Kuwashima|Kuwashima Houko (\u6851\u5cf6\u6cd5\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5f20\u5b89\u742a|Zhang Anqi (\u5f20\u5b89\u742a)",
+        "korean": "https://namu.wiki/w/\uc7a5\ucc44\uc5f0|Jang Chae-yeon (\uc7a5\ucc44\uc5f0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Lauma_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Lauma.webp",
@@ -79542,10 +79542,10 @@
       "tag": "NODKRAI",
       "release": 1757368800000,
       "voiceActors": {
-        "english": "Annabel Brook",
-        "japanese": "\u9ad8\u68ee\u5948\u6d25\u7f8e",
-        "chinese": "\u845b\u5b50\u745e",
-        "korean": "Jo Kyeong-i"
+        "english": "imdb:nm9971173|Annabel Brook",
+        "japanese": "Natsumi Takamori|Takamori Natsumi (\u9ad8\u68ee\u5948\u6d25\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u845b\u5b50\u745e|Ge Zirui (\u845b\u5b50\u745e)",
+        "korean": "ko:\uc870\uacbd\uc774|Jo Kyeong-i (ko=\uc870\uacbd\uc774)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Aino_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Aino.webp",
@@ -81663,10 +81663,10 @@
       "release": 1753740000000,
       "releasePatch": "5.8",
       "voiceActors": {
-        "english": "Angelina Danielle Cama",
-        "japanese": "\u4e2d\u5cf6\u611b",
-        "chinese": "\u7f8e\u52a0",
-        "korean": "Sung Ye-won"
+        "english": "imdb:nm7349310|Angelina Danielle Cama",
+        "japanese": "Megumi Nakajima|Nakajima Megumi (\u4e2d\u5cf6\u611b)",
+        "chinese": "https://zh.moegirl.org.cn/\u7f8e\u52a0|Meijia (\u7f8e\u52a0)",
+        "korean": "https://en.namu.wiki/w/\uc131\uc608\uc6d0|Sung Ye-won (\uc131\uc608\uc6d0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
@@ -83787,10 +83787,10 @@
       "release": 1750111200000,
       "releasePatch": "5.7",
       "voiceActors": {
-        "english": "Cat Protano",
-        "japanese": "\u80fd\u767b\u9ebb\u7f8e\u5b50",
-        "chinese": "\u8c22\u83b9",
-        "korean": "Seo Da-hye"
+        "english": "imdb:nm11767862|Cat Protano",
+        "japanese": "Mamiko Noto|Noto Mamiko (\u80fd\u767b\u9ebb\u7f8e\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u8c22\u83b9|Xie Ying (\u8c22\u83b9)",
+        "korean": "ko:\uc11c\ub2e4\ud61c|Seo Da-hye (\uc11c\ub2e4\ud61c)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_SkirkNew_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_SkirkNew.webp",
@@ -85250,10 +85250,10 @@
       "release": 1750111200000,
       "releasePatch": "5.7",
       "voiceActors": {
-        "english": "Aileen Mythen",
-        "japanese": "\u5c71\u672c\u548c\u81e3",
-        "chinese": "\u98ce\u8896",
-        "korean": "Seok Seung-hoon"
+        "english": "imdb:nm2300801|Aileen Mythen",
+        "japanese": "Kazutomi Yamamoto|Yamamoto Kazutomi (\u5c71\u672c\u548c\u81e3)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u98ce\u8896|Feng Xiu (\u98ce\u8896)",
+        "korean": "https://en.namu.wiki/w/\uc11d\uc2b9\ud6c8|Seok Seung-hoon (\uc11d\uc2b9\ud6c8)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Dahlia_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Dahlia.webp",
@@ -87109,10 +87109,10 @@
       "release": 1746482400000,
       "releasePatch": "5.6",
       "voiceActors": {
-        "english": "Emily Cass",
-        "japanese": "\u4f50\u85e4\u8061\u7f8e",
-        "chinese": "\u8521\u6d77\u5a77",
-        "korean": "Son Jeong-min"
+        "english": "imdb:nm12853763|Emily Cass",
+        "japanese": "Satomi Sat\u014d|Satou Satomi (\u4f50\u85e4\u8061\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hant/\u8521\u6d77\u5a77|Cai Haiting (\u8521\u6d77\u5a77)",
+        "korean": "https://namu.wiki/w/\uc190\uc815\ubbfc(\uc131\uc6b0)|Son Jeong-min (\uc190\uc815\ubbfc)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Escoffier_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Escoffier.webp",
@@ -88573,10 +88573,10 @@
       "release": 1746482400000,
       "releasePatch": "5.6",
       "voiceActors": {
-        "english": "Jonny Loquasto & Dominic Catrambone",
-        "japanese": "\u5bfa\u5cf6\u60c7\u592a&\u5c0f\u677e\u660c\u5e73",
-        "chinese": "\u5415\u4e66\u541b",
-        "korean": "Park Ki-wook"
+        "english": "imdb:nm3637167|Jonny Loquasto",
+        "japanese": "Junta Terashima|Terashima Junta (\u5bfa\u5cf6\u60c7\u592a)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5415\u4e66\u541b|Lu Shujun (\u5415\u4e66\u541b)",
+        "korean": "https://en.namu.wiki/w/\ubc15\uae30\uc6b1|Park Ki-wook (\ubc15\uae30\uc6b1)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Ifa_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ifa.webp",
@@ -90698,10 +90698,10 @@
       "release": 1742857200000,
       "releasePatch": "5.5",
       "voiceActors": {
-        "english": "Jane Jackson",
-        "japanese": "M\u30fbA\u30fbO",
-        "chinese": "\u4e54\u82cf",
-        "korean": "Kim Yea-lim"
+        "english": "imdb:nm10145347|Jane Jackson",
+        "japanese": "Ichimichi Mao (M\u30fbA\u30fbO)",
+        "chinese": "https://zh.moegirl.org.cn/\u4e54\u82cf|Qiao Su (\u4e54\u82cf)",
+        "korean": "https://en.namu.wiki/w/\uae40\uc608\ub9bc(\uc131\uc6b0)|Kim Yea-lim (\uae40\uc608\ub9bc)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Varesa_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Varesa.webp",
@@ -92821,10 +92821,10 @@
       "release": 1742857200000,
       "releasePatch": "5.5",
       "voiceActors": {
-        "english": "Katrina Salisbury",
-        "japanese": "\u5927\u6a4b\u5f69\u9999",
-        "chinese": "\u771f\u7406",
-        "korean": "Lee Jae-hyun"
+        "english": "imdb:nm8632962|Katrina Salisbury",
+        "japanese": "Ayaka Ohashi|Ohashi Ayaka (\u5927\u6a4b\u5f69\u9999)",
+        "chinese": "https://zh.moegirl.org.cn/\u9b54\u6cd5\u5c11\u5973\u771f\u7406\u9171|Zhen Li (\u771f\u7406)",
+        "korean": "https://en.namu.wiki/w/\uc774\uc7ac\ud604(\uc131\uc6b0)|Lee Jae-hyun (\uc774\uc7ac\ud604)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Iansan_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Iansan.webp",
@@ -94945,10 +94945,10 @@
       "release": 1739228400000,
       "releasePatch": "5.4",
       "voiceActors": {
-        "english": "Naomi McDonald",
-        "japanese": "\u4f1a\u6ca2\u7d17\u5f25",
-        "chinese": "\u6d6e\u68a6\u82e5\u8587",
-        "korean": "Kim Seo-hyun"
+        "english": "imdb:nm1696370|Naomi McDonald",
+        "japanese": "Saya Aizawa|Aizawa Saya (\u4f1a\u6ca2\u7d17\u5f25)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u6d6e\u68a6\u82e5\u8587|Fumeng Ruowei (\u6d6e\u68a6\u82e5\u8587)",
+        "korean": "https://en.namu.wiki/w/\uae40\uc11c\ud604(\uc131\uc6b0)|Kim Seo-hyun (\uae40\uc11c\ud604)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Mizuki_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mizuki.webp",
@@ -96937,10 +96937,10 @@
       "release": 1737478800000,
       "releasePatch": "5.3",
       "voiceActors": {
-        "english": "Anna Devlin",
-        "japanese": "\u82e5\u5c71\u8a69\u97f3",
-        "chinese": "\u5218\u5341\u56db",
-        "korean": "Kim Soon-mi"
+        "english": "imdb:nm1683988|Anna Devlin",
+        "japanese": "Shion Wakayama|Wakayama Shion (\u82e5\u5c71\u8a69\u97f3)",
+        "chinese": "https://zh.moegirl.org.cn/\u5218\u5341\u56db|Liu Shisi (\u5218\u5341\u56db)",
+        "korean": "https://en.namu.wiki/w/\uae40\uc21c\ubbf8|Kim Soon-mi (\uae40\uc21c\ubbf8)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Lanyan_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Lanyan.webp",
@@ -98665,9 +98665,9 @@
       "releasePatch": "5.3",
       "voiceActors": {
         "english": "Skyler Davenport",
-        "japanese": "\u7530\u91ce\u30a2\u30b5\u30df",
-        "chinese": "\u67f3\u77e5\u8427",
-        "korean": "Lee Eun-jo"
+        "japanese": "Asami Tano|Tano Asami (\u7530\u91ce\u30a2\u30b5\u30df)",
+        "chinese": "https://zh.moegirl.org.cn/\u67f3\u77e5\u8427|Liu Zhixiao (\u67f3\u77e5\u8427)",
+        "korean": "https://en.namu.wiki/w/\uc774\uc740\uc870(\uc131\uc6b0)|Lee Eun-jo (\uc774\uc740\uc870)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Citlali_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Citlali.webp",
@@ -100789,10 +100789,10 @@
       "release": 1735599600000,
       "releasePatch": "5.3",
       "voiceActors": {
-        "english": "Katiana Sarkissian",
-        "japanese": "\u5c0f\u677e\u672a\u53ef\u5b50",
-        "chinese": "\u674e\u6654",
-        "korean": "Kim Na-yul"
+        "english": "imdb:nm12283630|Katiana Sarkissian",
+        "japanese": "Mikako Komatsu|Komatsu Mikako (\u5c0f\u677e\u672a\u53ef\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u674e\u6654|Li Ye (\u674e\u6654)",
+        "korean": "ko:\uae40\ub098\uc728|Kim Na-yul (\uae40\ub098\uc728)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Mavuika_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mavuika.webp",
@@ -102914,10 +102914,10 @@
       "release": 1731970800000,
       "releasePatch": "5.2",
       "voiceActors": {
-        "english": "Lauren Amante",
-        "japanese": "\u7532\u6590\u7530\u88d5\u5b50",
-        "chinese": "\u5f20\u82e5\u745c",
-        "korean": "Soo-hyun"
+        "english": "imdb:nm12129007|Lauren Amante",
+        "japanese": "Y\u016bko Kaida|Kaida Yuuko (\u7532\u6590\u7530\u88d5\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u82e5\u745c|Zhang Ruoyu (\u5f20\u82e5\u745c)",
+        "korean": "https://en.namu.wiki/w/\uc218\ud604(\uc131\uc6b0)|Soo-hyun (\uc218\ud604)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Chasca_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Chasca.webp",
@@ -105039,10 +105039,10 @@
       "release": 1731970800000,
       "releasePatch": "5.2",
       "voiceActors": {
-        "english": "Nathan Nokes",
-        "japanese": "\u8fd1\u85e4\u9686",
-        "chinese": "\u6881\u8fbe\u4f1f",
-        "korean": "Seo Joung-ik"
+        "english": "imdb:nm12322393|Nathan Nokes",
+        "japanese": "Takashi Kond\u014d|Kondo Takashi (\u8fd1\u85e4\u9686)",
+        "chinese": "https://zh.moegirl.org.cn/\u6881\u8fbe\u4f1f|Liang Dawei (\u6881\u8fbe\u4f1f)",
+        "korean": "https://en.namu.wiki/w/\uc11c\uc815\uc775|Seo Joung-ik (\uc11c\uc815\uc775)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Olorun_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Olorun.webp",
@@ -107163,10 +107163,10 @@
       "release": 1728338400000,
       "releasePatch": "5.1",
       "voiceActors": {
-        "english": "Elizabeth Dean",
-        "japanese": "\u30d5\u30a1\u30a4\u30eb\u30fc\u30ba\u3042\u3044",
-        "chinese": "\u5f2d\u6d0b",
-        "korean": "Kim I-an"
+        "english": "imdb:nm0193048|Elizabeth Dean",
+        "japanese": "Fairouz Ai|Fairouz Ai (\u30d5\u30a1\u30a4\u30eb\u30fc\u30ba\u3042\u3044)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f2d\u6d0b|Mi Yang (\u5f2d\u6d0b)",
+        "korean": "https://en.namu.wiki/w/\uae40\uc774\uc548(\uc131\uc6b0)|Kim I-an (\uae40\uc774\uc548)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Xilonen_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xilonen.webp",
@@ -109275,10 +109275,10 @@
       "release": 1726588800000,
       "releasePatch": "5.0",
       "voiceActors": {
-        "english": "Jacob Takanashi & Abby Espiritu",
-        "japanese": "\u6749\u5c71\u7d00\u5f70 & \u7af9\u5185\u9806\u5b50",
-        "chinese": "\u6591\u9a6c & \u5f2d\u6d0b",
-        "korean": "Kang Seong-woo & Park Li-na"
+        "english": "imdb:nm12417568|Jacob Takanashi",
+        "japanese": "Noriaki Sugiyama|Sugiyama Noriaki (\u6749\u5c71\u7d00\u5f70)",
+        "chinese": "https://zh.moegirl.org.cn/\u9a6c\u6591\u9a6c|Banma (\u6591\u9a6c)",
+        "korean": "https://namu.wiki/w/\uac15\uc131\uc6b0(\uc131\uc6b0)|Kang Seong-woo (\uac15\uc131\uc6b0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Kinich_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kinich.webp",
@@ -111369,9 +111369,9 @@
       "releasePatch": "5.0",
       "voiceActors": {
         "english": "Cassandra Lee Morris",
-        "japanese": "\u6771\u5c71\u5948\u592e",
-        "chinese": "\u738b\u6653\u5f64",
-        "korean": "Kim Do-hee"
+        "japanese": "Nao T\u014dyama|Toyama Nao (\u6771\u5c71\u5948\u592e)",
+        "chinese": "https://zh.moegirl.org.cn/\u738b\u6653\u5f64|Wang Xiaotong (\u738b\u6653\u5f64)",
+        "korean": "ko:\uae40\ub3c4\ud76c_(\uc131\uc6b0)|Kim Do-hee (\uae40\ub3c4\ud76c)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Mualani_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mualani.webp",
@@ -113493,9 +113493,9 @@
       "releasePatch": "5.0",
       "voiceActors": {
         "english": "Kristen McGuire",
-        "japanese": "\u4e45\u4fdd\u30e6\u30ea\u30ab",
-        "chinese": "\u9759\u5bb8",
-        "korean": "Son Sun-young"
+        "japanese": "Yurika Kubo|Kubo Yurika (\u4e45\u4fdd\u30e6\u30ea\u30ab)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u9759\u5bb8|Jing Chen (\u9759\u5bb8)",
+        "korean": "https://en.namu.wiki/w/\uc190\uc120\uc601|Son Sun-young (\uc190\uc120\uc601)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Kachina_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kachina.webp",
@@ -115617,10 +115617,10 @@
       "release": 1722960000000,
       "releasePatch": "4.8",
       "voiceActors": {
-        "english": "Amber Aviles",
-        "japanese": "\u65e5\u7b20\u967d\u5b50",
-        "chinese": "\u6728\u5b50\u6a59",
-        "korean": "Kwon Da-ye"
+        "english": "imdb:nm5710428|Amber Aviles",
+        "japanese": "Yoko Hikasa|Hikasa Yoko (\u65e5\u7b20\u967d\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u6728\u5b50\u6a59|Muzi Cheng (\u6728\u5b50\u6a59)",
+        "korean": "https://namu.wiki/w/\uad8c\ub2e4\uc608|Kwon Da-ye (\uad8c\ub2e4\uc608)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Emilie_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Emilie.webp",
@@ -117050,9 +117050,9 @@
       "releasePatch": "4.7",
       "voiceActors": {
         "english": "Sarah Williams",
-        "japanese": "\u6728\u91ce\u65e5\u83dc",
-        "chinese": "\u8d75\u723d",
-        "korean": "Kim Chae-rin"
+        "japanese": "Hina Kino|Kino Hina (\u6728\u91ce\u65e5\u83dc)",
+        "chinese": "https://baike.baidu.com/item/\u8d75\u723d/53245853|Zhao Shuang (\u8d75\u723d)",
+        "korean": "https://namu.wiki/w/\uae40\ucc44\ub9b0|Kim Chae-rin (\uae40\ucc44\ub9b0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Sigewinne_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sigewinne.webp",
@@ -119173,9 +119173,9 @@
       "release": 1717452000000,
       "releasePatch": "4.7",
       "voiceActors": {
-        "japanese": "\u77f3\u5ddd\u7531\u4f9d",
-        "chinese": "\u8d75\u6db5\u96e8",
-        "korean": "Shin Na-ri",
+        "japanese": "Yui Ishikawa|Ishikawa Yui (\u77f3\u5ddd\u7531\u4f9d)",
+        "chinese": "https://zh.moegirl.org.cn/\u8d75\u6db5\u96e8|Zhao Hanyu (\u8d75\u6db5\u96e8)",
+        "korean": "https://namu.wiki/w/\uc2e0\ub098\ub9ac(\uc131\uc6b0)|Shin Na-ri (\uc2e0\ub098\ub9ac)",
         "english": "Crystal Lee"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Clorinde_Circle.webp",
@@ -121297,10 +121297,10 @@
       "release": 1717452000000,
       "releasePatch": "4.7",
       "voiceActors": {
-        "english": "Zeno Robinson",
-        "japanese": "\u5343\u8449\u7fd4\u4e5f",
-        "chinese": "\u674e\u5170\u9675",
-        "korean": "Kim Dong-hyun"
+        "english": "https://www.imdb.com/name/nm0954900/|Zeno Robinson",
+        "japanese": "Shoya Chiba|Chiba Shoya (\u5343\u8449\u7fd4\u4e5f)",
+        "chinese": "https://zh.moegirl.org.cn/\u674e\u5170\u9675|Li Lanling (\u674e\u5170\u9675)",
+        "korean": "ko:\uae40\ub3d9\ud604 (CJ ENM \uc131\uc6b0)|Kim Dong-hyun (\uae40\ub3d9\ud604)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Sethos_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sethos.webp",
@@ -123409,9 +123409,9 @@
       "releasePatch": "4.6",
       "voiceActors": {
         "english": "Erin Yvette",
-        "japanese": "\u68ee\u306a\u306a\u5b50",
-        "chinese": "\u9ec4\u83ba",
-        "korean": "Lee Myung-hi"
+        "japanese": "Nanako Mori|Mori Nanako (\u68ee\u306a\u306a\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u9ec4\u83ba|Huang Ying (\u9ec4\u83ba)",
+        "korean": "ko:\uc774\uba85\ud76c (\uc131\uc6b0)|Lee Myung-hi (\uc774\uba85\ud76c)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
@@ -125533,9 +125533,9 @@
       "releasePatch": "4.5",
       "voiceActors": {
         "english": "Brittany Lauda",
-        "japanese": "\u7af9\u9054\u5f69\u5948",
-        "chinese": "\u9648\u9633",
-        "korean": "Lee Da-eun"
+        "japanese": "Ayana Taketatsu|Taketatsu Ayana (\u7af9\u9054\u5f69\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/\u9648\u9633|Chen Yang (\u9648\u9633)",
+        "korean": "ko:\uc774\ub2e4\uc740|Lee Da-eun (\uc774\ub2e4\uc740)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Chiori_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Chiori.webp",
@@ -127386,10 +127386,10 @@
       "release": 1706569200000,
       "releasePatch": "4.4",
       "voiceActors": {
-        "english": "Stephanie Panisello",
-        "japanese": "\u4e2d\u81e3\u771f\u83dc",
-        "chinese": "\u79e6\u7d2b\u7ffc",
-        "korean": "Kang Si-hyun"
+        "english": "imdb:nm6234098|Stephanie Panisello",
+        "japanese": "http://amuleto.jp/talents/nakatomimana.html|Nakatomi Mana (\u4e2d\u81e3\u771f\u83dc)",
+        "chinese": "https://zh.moegirl.org.cn/\u79e6\u7d2b\u7ffc|Qin Ziyi (\u79e6\u7d2b\u7ffc)",
+        "korean": "ko:\uac15\uc2dc\ud604|Kang Si-hyun (\uac15\uc2dc\ud604)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Liuyun_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Liuyun.webp",
@@ -129511,10 +129511,10 @@
       "release": 1706569200000,
       "releasePatch": "4.4",
       "voiceActors": {
-        "english": "Caleb Yen",
-        "japanese": "\u5c0f\u677e\u660c\u5e73",
-        "chinese": "\u8c22\u83b9",
-        "korean": "Kim Yoon-gi"
+        "english": "imdb:nm9242088|Caleb Yen",
+        "japanese": "ja:\u5c0f\u677e\u660c\u5e73|Komatsu Shouhei (\u5c0f\u677e\u660c\u5e73)",
+        "chinese": "https://zh.moegirl.org.cn/\u8c22\u83b9|Xie Ying (\u8c22\u83b9)",
+        "korean": "https://namu.wiki/w/\uae40\uc724\uae30(\uc131\uc6b0)|Kim Yoon-gi (\uae40\uc724\uae30)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Gaming_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Gaming.webp",
@@ -131629,10 +131629,10 @@
       "release": 1704819600000,
       "releasePatch": "4.3",
       "voiceActors": {
-        "english": "Erica Lindbeck",
-        "japanese": "\u4e0b\u5730\u7d2b\u91ce",
-        "chinese": "\u6f58\u4e39\u59ae",
-        "korean": "Chae Min-ji"
+        "english": "https://www.imdb.com/name/nm6949652/|Erica Lindbeck",
+        "japanese": "Shino Shimoji|Shimoji Shino (\u4e0b\u5730\u7d2b\u91ce)",
+        "chinese": "https://zh.moegirl.org.cn/\u6f58\u4e39\u59ae|Pan Danni (\u6f58\u4e39\u59ae )",
+        "korean": "https://namu.wiki/w/\ucc44\ubbfc\uc9c0|Chae Min-ji (\ucc44\ubbfc\uc9c0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Chevreuse_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Chevreuse.webp",
@@ -133096,10 +133096,10 @@
       "release": 1702940400000,
       "releasePatch": "4.3",
       "voiceActors": {
-        "english": "Brenna Larsen",
-        "japanese": "\u8c4a\u5d0e\u611b\u751f",
-        "chinese": "\u5c0f\u6562",
-        "korean": "Jeong Hae-eun"
+        "english": "imdb:nm7446036|Brenna Larsen",
+        "japanese": "Aki Toyosaki|Toyosaki Aki (\u8c4a\u5d0e\u611b\u751f)",
+        "chinese": "https://zh.moegirl.org.cn/\u5c0f\u6562|Xiaogan (\u5c0f\u6562)",
+        "korean": "https://namu.wiki/w/\uc815\ud574\uc740(\uc131\uc6b0)|Jeong Hae-eun (\uc815\ud574\uc740)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Navia_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Navia.webp",
@@ -135214,10 +135214,10 @@
       "release": 1699311600000,
       "releasePatch": "4.2",
       "voiceActors": {
-        "english": "Amber Lee Connors",
-        "japanese": "\u6c34\u702c\u3044\u306e\u308a",
-        "chinese": "\u94b1\u741b",
-        "korean": "Kim Ha-young"
+        "english": "https://www.amberleeconnors.com/|Amber Lee Connors",
+        "japanese": "Inori Minase|Minase Inori (\u6c34\u702c\u3044\u306e\u308a)",
+        "chinese": "https://baike.baidu.com/item/\u94b1\u741b/50023226|Qian Chen (\u94b1\u741b)",
+        "korean": "https://namu.wiki/w/\uae40\ud558\uc601|Kim Ha-young (\uae40\ud558\uc601)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Furina_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Furina.webp",
@@ -136944,10 +136944,10 @@
       "release": 1699311600000,
       "releasePatch": "4.2",
       "voiceActors": {
-        "english": "Rebecca Wang & Maya Aoki Tuttle",
-        "japanese": "\u548c\u6c23\u3042\u305a\u672a",
-        "chinese": "\u962e\u4ece\u9752",
-        "korean": "Shin On-yu"
+        "english": "imdb:nm9702939|Rebecca Wang (Luna IV onwards) & imdb:nm3622625|Maya Aoki Tuttle (Pre-Luna IV)",
+        "japanese": "Azumi Waki|Waki Azumi (\u548c\u6c23\u3042\u305a\u672a)",
+        "chinese": "https://zh.moegirl.org.cn/\u962e\u4ece\u9752|Ruan Congqing (\u962e\u4ece\u9752 )",
+        "korean": "https://namu.wiki/w/\uc2e0\uc628\uc720|Shin On-yu (\uc2e0\uc628\uc720)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Charlotte_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Charlotte.webp",
@@ -138410,9 +138410,9 @@
       "releasePatch": "4.1",
       "voiceActors": {
         "english": "Joe Zieja",
-        "japanese": "\u5c0f\u91ce\u5927\u8f14",
-        "chinese": "\u5218\u5317\u8fb0",
-        "korean": "Kwon Chang-wook"
+        "japanese": "Daisuke Ono|Ono Daisuke (\u5c0f\u91ce\u5927\u8f14)",
+        "chinese": "zh:\u5218\u5317\u8fb0 (\u914d\u97f3\u5458)|Liu Beichen (\u5218\u5317\u8fb0)",
+        "korean": "https://namu.wiki/w/\uad8c\ucc3d\uc6b1|Kwon Chang-wook (\uad8c\ucc3d\uc6b1)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Wriothesley_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Wriothesley.webp",
@@ -139877,9 +139877,9 @@
       "releasePatch": "4.1",
       "voiceActors": {
         "english": "Ray Chase",
-        "japanese": "\u795e\u8c37\u6d69\u53f2",
-        "chinese": "\u6851\u6bd3\u6cfd",
-        "korean": "Kwak Yoon-sang"
+        "japanese": "Hiroshi Kamiya|Kamiya Hiroshi (\u795e\u8c37\u6d69\u53f2)",
+        "chinese": "https://baike.baidu.com/item/\u6851\u6bd3\u6cfd?timestamp=1688362873971&fromModule=search_box|Sang Yuze (\u6851\u6bd3\u6cfd)",
+        "korean": "https://namu.wiki/w/\uacfd\uc724\uc0c1|Kwak Yoon-sang (\uacfd\uc724\uc0c1)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Neuvillette_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Neuvillette.webp",
@@ -142004,10 +142004,10 @@
       "release": 1693929600000,
       "releasePatch": "4.0",
       "voiceActors": {
-        "english": "Paul Castro Jr.",
-        "japanese": "\u571f\u5c90\u96bc\u4e00",
-        "chinese": "\u9526\u9ca4",
-        "korean": "Lee Ju-seung"
+        "english": "https://www.paulcastrojr.com|Paul Castro Jr.",
+        "japanese": "Shun'ichi Toki|Toki Shunichi (\u571f\u5c90\u96bc\u4e00)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u9526\u9ca4|Jinli (\u9526\u9ca4)",
+        "korean": "ko:\uc774\uc8fc\uc2b9_(\uc131\uc6b0)|Lee Ju-seung (\uc774\uc8fc\uc2b9)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Freminet_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Freminet.webp",
@@ -144126,10 +144126,10 @@
       "release": 1692050400000,
       "releasePatch": "4.0",
       "voiceActors": {
-        "english": "Daman Mills",
-        "japanese": "\u4e0b\u91ce\u7d18",
-        "chinese": "\u9526\u9ca4",
-        "korean": "Park Seong-yeong"
+        "english": "imdb:nm5410860|Daman Mills",
+        "japanese": "Hiro Shimono|Shimono Hiro (\u4e0b\u91ce\u7d18)",
+        "chinese": "https://zh.moegirl.org.cn/\u9526\u9ca4|Jinli (\u9526\u9ca4)",
+        "korean": "https://namu.wiki/w/\ubc15\uc131\uc601|Park Seong-yeong (\ubc15\uc131\uc601)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Liney_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Liney.webp",
@@ -146249,9 +146249,9 @@
       "releasePatch": "4.0",
       "voiceActors": {
         "english": "Anairis Qui\u00f1ones",
-        "japanese": "\u7be0\u539f\u4f91",
-        "chinese": "\u53ef\u53ef\u5473",
-        "korean": "Lee Serena"
+        "japanese": "Y\u016b Sasahara|Sasahara Yu (\u7be0\u539f\u4f91)",
+        "chinese": "https://zh.moegirl.org.cn/\u53ef\u53ef\u5473|Kekewei (\u53ef\u53ef\u5473)",
+        "korean": "https://namu.wiki/w/\uc774\uc138\ub808\ub098|Lee Serena (\uc774\uc138\ub808\ub098)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Linette_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Linette.webp",
@@ -147710,10 +147710,10 @@
       "release": 1684792800000,
       "releasePatch": "3.7",
       "voiceActors": {
-        "english": "Julia Gu",
-        "japanese": "\u9234\u4ee3\u7d17\u5f13",
-        "chinese": "\u5b59\u8273\u7426",
-        "korean": "Kang Eun-ae"
+        "english": "imdb:nm12824498|Julia Gu",
+        "japanese": "Sayumi Suzushiro| Suzushiro Sayumi (\u9234\u4ee3\u7d17\u5f13)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5b59\u8273\u7426|Sun Yanqi (\u5b59\u8273\u7426)",
+        "korean": "ko:\uac15\uc740\uc560|Kang Eun-ae (\uac15\uc740\uc560)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Momoka_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Momoka.webp",
@@ -149535,10 +149535,10 @@
       "release": 1683043200000,
       "releasePatch": "3.6",
       "voiceActors": {
-        "english": "Sean Durrie & Xanthe Huynh",
-        "japanese": "\u904a\u4f50\u6d69\u4e8c & \u5e84\u5b50\u88d5\u8863",
-        "chinese": "\u79e6\u4e14\u6b4c & \u738b\u6653\u5f64",
-        "korean": "Yi Ho-san & Jang Mi"
+        "english": "imdb:nm2257743|Sean Durrie",
+        "japanese": "K\u014dji Yusa|Yusa Koji (\u904a\u4f50\u6d69\u4e8c)",
+        "chinese": "https://zh.moegirl.org.cn/\u79e6\u4e14\u6b4c|Qin Qiege (\u79e6\u4e14\u6b4c)",
+        "korean": "ko:\uc774\ud638\uc0b0|Yi Ho-san (\uc774\ud638\uc0b0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Baizhuer_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Baizhuer.webp",
@@ -151623,10 +151623,10 @@
       "release": 1683043200000,
       "releasePatch": "3.6",
       "voiceActors": {
-        "english": "Ben Balmaceda",
-        "japanese": "\u5185\u7530\u96c4\u99ac",
-        "chinese": "\u5218\u4e09\u6728",
-        "korean": "Lee Jeong-min"
+        "english": "https://www.benbevoicing.com/|Ben Balmaceda",
+        "japanese": "Yuma Uchida|Uchida Yuma (\u5185\u7530\u96c4\u99ac)",
+        "chinese": "https://zh.moegirl.org.cn/\u5218\u4e09\u6728|Liu Sanmu (\u5218\u4e09\u6728)",
+        "korean": "https://namu.wiki/w/\uc774\uc815\ubbfc(\uc131\uc6b0)|Lee Jeong-min (\uc774\uc815\ubbfc)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Kaveh_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kaveh.webp",
@@ -153718,10 +153718,10 @@
       "release": 1679418000000,
       "releasePatch": "3.5",
       "voiceActors": {
-        "english": "Robb Moreira",
-        "japanese": "\u4e09\u74f6\u7531\u5e03\u5b50",
-        "chinese": "\u9093\u5ba5\u5e0c",
-        "korean": "Yoon Eun-seo"
+        "english": "imdb:nm11454647|Robb Moreira",
+        "japanese": "Y\u016bko Sanpei|Sanpei Yuuko (\u4e09\u74f6\u7531\u5e03\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u9093\u5ba5\u5e0c|Deng Youxi (\u9093\u5ba5\u5e0c)",
+        "korean": "ko:\uc724\uc740\uc11c|Yoon Eun-seo (\uc724\uc740\uc11c)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Mika_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mika.webp",
@@ -155832,10 +155832,10 @@
       "release": 1677538800000,
       "releasePatch": "3.5",
       "voiceActors": {
-        "english": "Amber May",
-        "japanese": "\u798f\u539f\u7dbe\u9999",
-        "chinese": "\u9648\u96e8",
-        "korean": "Kim Hyeon-sim"
+        "english": "imdb:nm6442558|Amber May",
+        "japanese": "Ayaka Fukuhara|Fukuhara Ayaka (\u798f\u539f\u7dbe\u9999)",
+        "chinese": "https://mzh.moegirl.org.cn/zh-hans/%E9%99%88%E9%9B%A8|Chen Yu (\u9648\u96e8)",
+        "korean": "ko:\uae40\ud604\uc2ec|Kim Hyeon-sim (\uae40\ud604\uc2ec)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Dehya_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Dehya.webp",
@@ -157948,10 +157948,10 @@
       "release": 1673910000000,
       "releasePatch": "3.4",
       "voiceActors": {
-        "english": "Nazeeh Tarsha",
-        "japanese": "\u6885\u539f\u88d5\u4e00\u90ce",
-        "chinese": "\u6768\u8d85\u7136",
-        "korean": "Jun Seung-hwa"
+        "english": "imdb:nm5941822|Nazeeh Tarsha",
+        "japanese": "Y\u016bichir\u014d Umehara|Umehara Yuuichirou (\u6885\u539f\u88d5\u4e00\u90ce)",
+        "chinese": "https://zh.moegirl.org.cn/\u6768\u8d85\u7136|Yang Chaoran (\u6768\u8d85\u7136)",
+        "korean": "ko:\uc804\uc2b9\ud654|Jun Seung-hwa (\uc804\uc2b9\ud654)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Alhatham_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alhatham.webp",
@@ -160033,10 +160033,10 @@
       "release": 1673910000000,
       "releasePatch": "3.4",
       "voiceActors": {
-        "english": "Kelsey Jaffer",
-        "japanese": "\u9580\u8107\u821e\u4ee5",
-        "chinese": "\u5218\u9890\u8bfa",
-        "korean": "Yu Hye-ji"
+        "english": "https://www.kelseyjaffer.com/|Kelsey Jaffer",
+        "japanese": "Mai Kadowaki|Kadowaki Mai (\u9580\u8107\u821e\u4ee5)",
+        "chinese": "https://zh.moegirl.org.cn/\u5218\u6674|Liu Yinuo (\u5218\u9890\u8bfa)",
+        "korean": "https://namu.wiki/w/\uc720\ud61c\uc9c0|Yu Hye-ji (\uc720\ud61c\uc9c0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Yaoyao_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Yaoyao.webp",
@@ -162116,10 +162116,10 @@
       "release": 1670281200000,
       "releasePatch": "3.3",
       "voiceActors": {
-        "english": "Patrick Pedraza",
-        "japanese": "\u67ff\u539f\u5fb9\u4e5f",
-        "chinese": "\u9e7f\u5591",
-        "korean": "Min Seung-woo"
+        "english": "imdb:nm2533639|Patrick Pedraza",
+        "japanese": "Tetsuya Kakihara|Kakihara Tetsuya (\u67ff\u539f\u5fb9\u4e5f)",
+        "chinese": "https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+        "korean": "ko:\ubbfc\uc2b9\uc6b0|Min Seung-woo (\ubbfc\uc2b9\uc6b0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Wanderer_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Wanderer.webp",
@@ -164102,10 +164102,10 @@
       "release": 1670281200000,
       "releasePatch": "3.3",
       "voiceActors": {
-        "english": "Chandni Parekh",
-        "japanese": "\u5800\u6c5f\u7531\u8863",
-        "chinese": "\u960e\u840c\u840c",
-        "korean": "Kim Yu-rim"
+        "english": "imdb:nm9548844|Chandni Parekh",
+        "japanese": "Yui Horie|Horie Yui (\u5800\u6c5f\u7531\u8863)",
+        "chinese": "https://zh.moegirl.org.cn/zh-tw/%E9%98%8E%E8%90%8C%E8%90%8C|Yan Mengmeng (\u960e\u840c\u840c)",
+        "korean": "ko:\uae40\uc720\ub9bc_(\uc131\uc6b0)|Kim Yu-rim (\uae40\uc720\ub9bc)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Faruzan_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Faruzan.webp",
@@ -166216,10 +166216,10 @@
       "release": 1668790800000,
       "releasePatch": "3.2",
       "voiceActors": {
-        "english": "Ashely Biski",
-        "japanese": "\u5bcc\u7530\u7f8e\u6182",
-        "chinese": "\u4faf\u5c0f\u83f2",
-        "korean": "Kang Sae-bom"
+        "english": "imdb:nm4945801|Ashely Biski",
+        "japanese": "Miyu Tomita|Tomita Miyu (\u5bcc\u7530\u7f8e\u6182)",
+        "chinese": "https://baike.baidu.com/item/\u4faf\u5c0f\u83f2|Hou Xiaofei (\u4faf\u5c0f\u83f2)",
+        "korean": "https://namu.wiki/w/\uac15\uc0c8\ubd04|Kang Sae-bom (\uac15\uc0c8\ubd04)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Layla_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Layla.webp",
@@ -168333,10 +168333,10 @@
       "release": 1667257200000,
       "releasePatch": "3.2",
       "voiceActors": {
-        "english": "Kimberley Anne Campbell",
-        "japanese": "\u7530\u6751\u3086\u304b\u308a",
-        "chinese": "\u82b1\u73b2",
-        "korean": "Park Shi-yoon"
+        "english": "imdb:nm5280239|Kimberley Anne Campbell",
+        "japanese": "Yukari Tamura|Tamura Yukari (\u7530\u6751\u3086\u304b\u308a)",
+        "chinese": "zh:\u82b1\u73b2|Hualing (\u82b1\u73b2)",
+        "korean": "ko:\ubc15\uc2dc\uc724_(\uc131\uc6b0)|Park Shi-yoon (\ubc15\uc2dc\uc724)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Nahida_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nahida.webp",
@@ -170418,9 +170418,9 @@
       "releasePatch": "3.1",
       "voiceActors": {
         "english": "Dani Chambers",
-        "japanese": "\u91d1\u5143\u5bff\u5b50",
-        "chinese": "\u7d2b\u82cf\u4e5d\u6708",
-        "korean": "Chae Rim"
+        "japanese": "Hisako Kanemoto|Kanemoto Hisako (\u91d1\u5143\u5bff\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/zh-tw/%E7%B4%AB%E8%8B%8F%E4%B9%9D%E6%9C%88|Zisu Jiuyue (\u7d2b\u82cf\u4e5d\u6708)",
+        "korean": "https://namu.wiki/w/\ucc44\ub9bc(\uc131\uc6b0)|Chae Rim (\ucc44\ub9bc)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Nilou_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nilou.webp",
@@ -172548,9 +172548,9 @@
       "releasePatch": "3.1",
       "voiceActors": {
         "english": "Alejandro Saab",
-        "japanese": "\u5165\u91ce\u81ea\u7531",
-        "chinese": "\u674e\u8f7b\u626c",
-        "korean": "Jung Eui-jin & Lee Woo-ri"
+        "japanese": "Miyu Irino|Irino Miyu (\u5165\u91ce\u81ea\u7531)",
+        "chinese": "https://zh.moegirl.org.cn/\u674e\u8f7b\u626c|Li Qingyang (\u674e\u8f7b\u626c)",
+        "korean": "ko:\uc815\uc758\uc9c4|Jung Eui-jin (\uc815\uc758\uc9c4) & https://namu.wiki/w/\uc774\uc6b0\ub9ac|Lee Woo-ri (\uc774\uc6b0\ub9ac)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Cyno_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Cyno.webp",
@@ -174675,10 +174675,10 @@
       "release": 1664229600000,
       "releasePatch": "3.1",
       "voiceActors": {
-        "english": "Heather Gonzalez",
-        "japanese": "\u67da\u6728\u6dbc\u9999",
-        "chinese": "\u5f20\u7426",
-        "korean": "Jun Young-soo"
+        "english": "imdb:nm5338039|Heather Gonzalez",
+        "japanese": "Ryoka Yuzuki|Yuzuki Ryoka (\u67da\u6728\u6dbc\u9999)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u7426|Zhang Qi (\u5f20\u7426)",
+        "korean": "ko:\uc804\uc601\uc218|Jun Young-soo (\uc804\uc601\uc218)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Candace_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Candace.webp",
@@ -176804,10 +176804,10 @@
       "release": 1662739200000,
       "releasePatch": "3.0",
       "voiceActors": {
-        "english": "Anjali Kunapaneni",
-        "japanese": "\u91d1\u7530\u670b\u5b50",
-        "chinese": "\u738b\u6653\u5f64",
-        "korean": "Lee Myeong-ho"
+        "english": "imdb:nm10698863|Anjali Kunapaneni",
+        "japanese": "https://across-ent.com/talent/women/tomoko_kaneda.html|Kaneda Tomoko (\u91d1\u7530\u670b\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u738b\u6653\u5f64|Wang Xiaotong (\u738b\u6653\u5f64)",
+        "korean": "https://namu.wiki/w/\uc774\uba85\ud638(KBS%20\uc131\uc6b0)|Lee Myeong-ho (\uc774\uba85\ud638)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Dori_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Dori.webp",
@@ -178935,10 +178935,10 @@
       "release": 1661292000000,
       "releasePatch": "3.0",
       "voiceActors": {
-        "english": "Zachary Gordon",
-        "japanese": "\u5c0f\u6797\u6c99\u82d7",
-        "chinese": "\u83ab\u7136",
-        "korean": "Jung Ui-taek"
+        "english": "imdb:nm2325393|Zachary Gordon",
+        "japanese": "Sanae Kobayashi|Kobayashi Sanae (\u5c0f\u6797\u6c99\u82d7)",
+        "chinese": "https://zh.moegirl.org.cn/zh-tw/\u83ab\u7136|Moran (\u83ab\u7136)",
+        "korean": "https://namu.wiki/w/\uc815\uc758\ud0dd|Jung Ui-taek (\uc815\uc758\ud0dd)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Tighnari_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Tighnari.webp",
@@ -181033,10 +181033,10 @@
       "release": 1661292000000,
       "releasePatch": "3.0",
       "voiceActors": {
-        "english": "Christina Costello",
-        "japanese": "\u524d\u5ddd\u6dbc\u5b50",
-        "chinese": "\u79e6\u6587\u9759",
-        "korean": "Bang Siu"
+        "english": "https://www.christinacostello.net|Christina Costello",
+        "japanese": "https://www.atomicmonkey.jp/jp/archives/talent/maekawaryoko|Maekawa Ryoko (\u524d\u5ddd\u6dbc\u5b50)",
+        "chinese": "https://mzh.moegirl.org.cn/zh-hans/%E7%A7%A6%E6%96%87%E9%9D%99|Qin Wenjing (\u79e6\u6587\u9759)",
+        "korean": "https://namu.wiki/w/\ubc29\uc2dc\uc6b0|Bang Siu (\ubc29\uc2dc\uc6b0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Collei_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Collei.webp",
@@ -182866,10 +182866,10 @@
       "release": 1657663200000,
       "releasePatch": "2.8",
       "voiceActors": {
-        "english": "Kieran Regan",
-        "japanese": "\u4e95\u53e3\u7950\u4e00",
-        "chinese": "\u6797\u666f",
-        "korean": "Jung Eui-jin"
+        "english": "https://www.kieranregan.com/|Kieran Regan",
+        "japanese": "Y\u016bichi Iguchi|Iguchi Yuuichi (\u4e95\u53e3\u7950\u4e00)",
+        "chinese": "https://mzh.moegirl.org.cn/zh-hans/%E6%9E%97%E6%99%AF|Lin Jing (\u6797\u666f)",
+        "korean": "ko:\uc815\uc758\uc9c4|Jung Eui-jin (\uc815\uc758\uc9c4)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Heizo_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Heizo.webp",
@@ -184997,9 +184997,9 @@
       "releasePatch": "2.7",
       "voiceActors": {
         "english": "Kira Buckland",
-        "japanese": "\u6c34\u6a4b\u304b\u304a\u308a",
-        "chinese": "\u6768\u51dd",
-        "korean": "Kim Yool"
+        "japanese": "Kaori Mizuhashi|Mizuhashi Kaori (\u6c34\u6a4b\u304b\u304a\u308a)",
+        "chinese": "https://baike.baidu.com/item/\u6768\u51dd/20394525|Yang Ning (\u6768\u51dd)",
+        "korean": "ko:\uae40\uc728|Kim Yool (\uae40\uc728)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Shinobu_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Shinobu.webp",
@@ -186863,9 +186863,9 @@
       "releasePatch": "2.7",
       "voiceActors": {
         "english": "Laura Post",
-        "japanese": "\u9060\u85e4\u7dbe",
-        "chinese": "\u5f90\u6167",
-        "korean": "Min Ah"
+        "japanese": "Aya End\u014d|Endou Aya (\u9060\u85e4\u7dbe)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f90\u6167|Xu Hui (\u5f90\u6167)",
+        "korean": "ko:\ubbfc\uc544 (\uc131\uc6b0)|Min Ah (\ubbfc\uc544)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Yelan_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Yelan.webp",
@@ -188991,10 +188991,10 @@
       "release": 1648591200000,
       "releasePatch": "2.6",
       "voiceActors": {
-        "english": "Chris Hackney",
-        "japanese": "\u77f3\u7530\u5f70",
-        "chinese": "\u8d75\u8def",
-        "korean": "Jang Min-hyeok"
+        "english": "imdb:nm5804925|Chris Hackney",
+        "japanese": "Akira Ishida|Ishida Akira (\u77f3\u7530\u5f70)",
+        "chinese": "https://zh.moegirl.org.cn/\u8d75\u8def|Zhao Lu (\u8d75\u8def)",
+        "korean": "Jang Min-hyeok|Jang Min-hyeok (\uc7a5\ubbfc\ud601)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Ayato_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ayato.webp",
@@ -190988,10 +190988,10 @@
       "release": 1644966000000,
       "releasePatch": "2.5",
       "voiceActors": {
-        "english": "Ratana",
-        "japanese": "\u4f50\u5009\u7dbe\u97f3",
-        "chinese": "\u675c\u51a5\u9e26",
-        "korean": "Moon Yoo-jung"
+        "english": "imdb:nm4861536|Ratana",
+        "japanese": "Ayane Sakura|Sakura Ayane (ja=\u4f50\u5009\u7dbe\u97f3)",
+        "chinese": "https://zh.moegirl.org.cn/\u675c\u51a5\u9e26|Du Mingya (zh=\u675c\u51a5\u9e26)",
+        "korean": "ko:\ubb38\uc720\uc815|Moon Yoo-jung (ko=\ubb38\uc720\uc815)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Yae_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Yae.webp",
@@ -192987,10 +192987,10 @@
       "release": 1641337200000,
       "releasePatch": "2.4",
       "voiceActors": {
-        "english": "Chelsea Kwoka",
-        "japanese": "\u5ddd\u6f84\u7dbe\u5b50",
-        "chinese": "\u79e6\u7d2b\u7ffc",
-        "korean": "Lee Hyeon-jin"
+        "english": "https://www.chelseakwoka.com/|Chelsea Kwoka",
+        "japanese": "Ayako Kawasumi|Kawasumi Ayako (\u5ddd\u6f84\u7dbe\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u79e6\u7d2b\u7ffc|Qin Ziyi (\u79e6\u7d2b\u7ffc)",
+        "korean": "ko:\uc774\ud604\uc9c4 (\uc131\uc6b0)|Lee Hyeon-jin (\uc774\ud604\uc9c4)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Shenhe_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Shenhe.webp",
@@ -194724,10 +194724,10 @@
       "release": 1641337200000,
       "releasePatch": "2.4",
       "voiceActors": {
-        "english": "Judy Alice Lee & Yang Yang",
-        "japanese": "\u5c0f\u5ca9\u4e95\u3053\u3068\u308a & Yang Yang",
-        "chinese": "\u8d3a\u6587\u6f47&\u6768\u626c",
-        "korean": "Sah Moon-young & Yang Yang"
+        "english": "https://www.judyalicelee.com/|Judy Alice Lee",
+        "japanese": "Kotori Koiwai|Koiwai Kotori (\u5c0f\u5ca9\u4e95\u3053\u3068\u308a)",
+        "chinese": "https://zh.moegirl.org.cn/\u8d3a\u6587\u6f47|He Wenxiao (\u8d3a\u6587\u6f47)",
+        "korean": "ko:\uc0ac\ubb38\uc601|Sah Moon-young (\uc0ac\ubb38\uc601)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Yunjin_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Yunjin.webp",
@@ -196857,9 +196857,9 @@
       "releasePatch": "2.3",
       "voiceActors": {
         "english": "Max Mittelman",
-        "japanese": "\u897f\u5ddd\u8cb4\u6559",
-        "chinese": "\u5218\u7167\u5764",
-        "korean": "Song Jun-seok"
+        "japanese": "Takanori Nishikawa|Nishikawa Takanori (\u897f\u5ddd\u8cb4\u6559)",
+        "chinese": "https://zh.moegirl.org.cn/\u5218\u7167\u5764|Liu Zhaokun (\u5218\u7167\u5764)",
+        "korean": "Song Joon-seok|Song Jun-seok (\uc1a1\uc900\uc11d)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Itto_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Itto.webp",
@@ -198989,10 +198989,10 @@
       "release": 1639501200000,
       "releasePatch": "2.3",
       "voiceActors": {
-        "english": "Cory Yee",
-        "japanese": "\u7560\u4e2d\u7950",
-        "chinese": "\u6768\u6615\u71c3",
-        "korean": "Lee Sae-byeok"
+        "english": "https://www.coryyee.com/|Cory Yee",
+        "japanese": "Tasuku Hatanaka|Hatanaka Tasuku (\u7560\u4e2d\u7950)",
+        "chinese": "https://zh.moegirl.org.cn/\u6768\u6615\u71c3|Yang Xinran (\u6768\u6615\u71c3)",
+        "korean": "ko:\uc774\uc0c8\ubcbd|Lee Sae-byeok (\uc774\uc0c8\ubcbd)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Gorou_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Gorou.webp",
@@ -200857,10 +200857,10 @@
       "release": 1635872400000,
       "releasePatch": "2.2",
       "voiceActors": {
-        "english": "Christian Banas",
-        "japanese": "\u68ee\u7530\u6210\u4e00",
-        "chinese": "\u5f20\u6c9b",
-        "korean": "Ryu Seung-kon"
+        "english": "imdb:nm10744245|Christian Banas",
+        "japanese": "Masakazu Morita|Morita Masakazu (ja=\u68ee\u7530\u6210\u4e00)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u6c9b|Zhang Pei (zh=\u5f20\u6c9b)",
+        "korean": "ko:\ub958\uc2b9\uace4|Ryu Seung-kon (ko=\ub958\uc2b9\uace4)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Tohma_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Tohma.webp",
@@ -202989,10 +202989,10 @@
       "release": 1632240000000,
       "releasePatch": "2.1",
       "voiceActors": {
-        "english": "Risa Mei",
-        "japanese": "\u4e09\u68ee\u3059\u305a\u3053",
-        "chinese": "\u9f9f\u5a18",
-        "korean": "Yeo Yoon-mi"
+        "english": "imdb:nm10862160|Risa Mei",
+        "japanese": "Suzuko Mimori|Mimori Suzuko (\u4e09\u68ee\u3059\u305a\u3053)",
+        "chinese": "https://zh.moegirl.org.cn/\u9f9f\u5a18|Guiniang (\u9f9f\u5a18)",
+        "korean": "ko:\uc5ec\uc724\ubbf8|Yeo Yoon-mi (\uc5ec\uc724\ubbf8)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Kokomi_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kokomi.webp",
@@ -204857,10 +204857,10 @@
       "release": 1630447200000,
       "releasePatch": "2.1",
       "voiceActors": {
-        "english": "Anne Yatco",
-        "japanese": "\u6ca2\u57ce\u307f\u3086\u304d",
-        "chinese": "\u83ca\u82b1\u82b1",
-        "korean": "Park Ji-yoon"
+        "english": "imdb:nm3304361|Anne Yatco",
+        "japanese": "Miyuki Sawashiro|Sawashiro Miyuki (\u6ca2\u57ce\u307f\u3086\u304d)",
+        "chinese": "https://zh.moegirl.org.cn/\u83ca\u82b1\u82b1|Juhuahua (\u83ca\u82b1\u82b1)",
+        "korean": "ko:\ubc15\uc9c0\uc724_(\uc131\uc6b0)|Park Ji-yoon (\ubc15\uc9c0\uc724)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Shougun_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Shougun.webp",
@@ -206859,10 +206859,10 @@
       "release": 1630447200000,
       "releasePatch": "2.1",
       "voiceActors": {
-        "english": "Jeannie Tirado",
-        "japanese": "\u702c\u6238\u9ebb\u6c99\u7f8e",
-        "chinese": "\u6768\u68a6\u9732",
-        "korean": "Moon Ji-young"
+        "english": "imdb:nm7429639|Jeannie Tirado",
+        "japanese": "Asami Seto|Seto Asami (\u702c\u6238\u9ebb\u6c99\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/\u6768\u68a6\u9732|Yang Menglu (\u6768\u68a6\u9732)",
+        "korean": "ko:\ubb38\uc9c0\uc601|Moon Ji-young (\ubb38\uc9c0\uc601)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Sara_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sara.webp",
@@ -208989,10 +208989,10 @@
       "release": 1628611200000,
       "releasePatch": "2.0",
       "voiceActors": {
-        "english": "Jenny Yokobori",
-        "japanese": "\u690d\u7530\u4f73\u5948",
-        "chinese": "\u91d1\u5a1c",
-        "korean": "Park Shin-hee"
+        "english": "imdb:nm7095498|Jenny Yokobori",
+        "japanese": "Kana Ueda|Ueda Kana (\u690d\u7530\u4f73\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hant/%E9%87%91%E5%A8%9C|Jin Na (\u91d1\u5a1c)",
+        "korean": "Bak Sin-hee|Park Shin-hee (\ubc15\uc2e0\ud76c)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Yoimiya_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Yoimiya.webp",
@@ -211122,9 +211122,9 @@
       "releasePatch": "2.0",
       "voiceActors": {
         "english": "Lilypichu (Lily Ki)",
-        "japanese": "\u6d32\u5d0e\u7dbe",
-        "chinese": "Sakula\u5c0f\u821e",
-        "korean": "Lee Ji-hyeon"
+        "japanese": "Aya Suzaki|Suzaki Aya (\u6d32\u5d0e\u7dbe)",
+        "chinese": "https://mzh.moegirl.org.cn/zh-hans/Sakula%E5%B0%8F%E8%88%9E|Sakula\u5c0f\u821e",
+        "korean": "ko:\uc774\uc9c0\ud604 (\uc131\uc6b0)|Lee Ji-hyeon (\uc774\uc9c0\ud604)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Sayu_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sayu.webp",
@@ -212857,9 +212857,9 @@
       "releasePatch": "2.0",
       "voiceActors": {
         "english": "Erica Mendez",
-        "japanese": "\u65e9\u898b\u6c99\u7e54",
-        "chinese": "\u5c0fN",
-        "korean": "Lee Yoo-ri"
+        "japanese": "Saori Hayami|Hayami Saori (\u65e9\u898b\u6c99\u7e54)",
+        "chinese": "https://zh.moegirl.org.cn/\u5c0fN|Xiao N (\u5c0fN)",
+        "korean": "ko:\uc774\uc720\ub9ac_(\uc131\uc6b0)|Lee Yoo-ri (\uc774\uc720\ub9ac)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Ayaka_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ayaka.webp",
@@ -214857,10 +214857,10 @@
       "release": 1624982400000,
       "releasePatch": "1.6",
       "voiceActors": {
-        "english": "Mark Whitten",
-        "japanese": "\u5cf6\ufa11\u4fe1\u9577",
-        "chinese": "\u6591\u9a6c",
-        "korean": "Kim Shin-woo"
+        "english": "imdb:nm4008536|Mark Whitten",
+        "japanese": "Nobunaga Shimazaki|Shimazaki Nobunaga (\u5cf6\ufa11\u4fe1\u9577)",
+        "chinese": "https://zh.moegirl.org.cn/\u9a6c\u6591\u9a6c|Banma (\u6591\u9a6c)",
+        "korean": "ko:\uae40\uc2e0\uc6b0 (\uc131\uc6b0)|Kim Shin-woo (\uae40\uc2e0\uc6b0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Kazuha_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kazuha.webp",
@@ -216988,10 +216988,10 @@
       "release": 1621353600000,
       "releasePatch": "1.5",
       "voiceActors": {
-        "english": "Suzie Yeung",
-        "japanese": "\u4f50\u85e4\u5229\u5948",
-        "chinese": "\u5b50\u97f3",
-        "korean": "Kim Hyeon-ji"
+        "english": "imdb:nm10931637|Suzie Yeung",
+        "japanese": "Rina Sat\u014d|Satou Rina (\u4f50\u85e4\u5229\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/\u5b50\u97f3|Ziyin (\u5b50\u97f3)",
+        "korean": "ko:\uae40\ud604\uc9c0 (\uc131\uc6b0)|Kim Hyeon-ji (\uae40\ud604\uc9c0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Eula_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Eula.webp",
@@ -219119,10 +219119,10 @@
       "release": 1619474400000,
       "releasePatch": "1.5",
       "voiceActors": {
-        "english": "Lizzie Freeman",
-        "japanese": "\u82b1\u5b88\u3086\u307f\u308a",
-        "chinese": "\u82cf\u5b50\u829c",
-        "korean": "Jo Kyeong-i"
+        "english": "imdb:nm5213242|Lizzie Freeman",
+        "japanese": "Yumiri Hanamori|Hanamori Yumiri (ja=\u82b1\u5b88\u3086\u307f\u308a)",
+        "chinese": "https://zh.moegirl.org.cn/zh-tw/%E5%90%B4%E7%A7%8B%E9%9F%B5|Su Ziwu (zh=\u82cf\u5b50\u829c)",
+        "korean": "ko:\uc870\uacbd\uc774|Jo Kyeong-i (ko=\uc870\uacbd\uc774)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Feiyan_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Feiyan.webp",
@@ -221250,10 +221250,10 @@
       "release": 1617724800000,
       "releasePatch": "1.4",
       "voiceActors": {
-        "english": "Elizabeth Maxwell",
-        "japanese": "\u52a0\u9688\u4e9c\u8863",
-        "chinese": "\u5f20\u5b89\u742a",
-        "korean": "Kim Bo-na"
+        "english": "imdb:nm1752885|Elizabeth Maxwell",
+        "japanese": "Ai Kakuma|Kakuma Ai (\u52a0\u9688\u4e9c\u8863)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u5b89\u742a|Zhang Anqi (\u5f20\u5b89\u742a)",
+        "korean": "ko:\uae40\ubcf4\ub098|Kim Bo-na (\uae40\ubcf4\ub098)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Rosaria_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Rosaria.webp",
@@ -223382,10 +223382,10 @@
       "release": 1614704400000,
       "releasePatch": "1.3",
       "voiceActors": {
-        "english": "Brianna Knickerbocker",
-        "japanese": "\u9ad8\u6a4b\u674e\u4f9d",
-        "chinese": "\u9676\u5178",
-        "korean": "Kim Ha-ru"
+        "english": "imdb:nm3729637|Brianna Knickerbocker",
+        "japanese": "Rie Takahashi|Takahashi Rie (\u9ad8\u6a4b\u674e\u4f9d)",
+        "chinese": "zh:\u9676\u5178|Tao Dian (\u9676\u5178)",
+        "korean": "ko:\uae40\ud558\ub8e8|Kim Ha-ru (\uae40\ud558\ub8e8)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Hutao_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Hutao.webp",
@@ -225119,10 +225119,10 @@
       "release": 1612220400000,
       "releasePatch": "1.3",
       "voiceActors": {
-        "english": "Laila Berzins",
-        "japanese": "\u677e\u5ca1\u798e\u4e1e",
-        "chinese": "kinsen",
-        "korean": "Shim Kyu-hyeok"
+        "english": "imdb:nm5389637|Laila Berzins",
+        "japanese": "Yoshitsugu Matsuoka|Matsuoka Yoshitsugu (\u677e\u5ca1\u798e\u4e1e)",
+        "chinese": "https://zh.moegirl.org.cn/zh-cn/Kinsen|kinsen",
+        "korean": "ko:\uc2ec\uaddc\ud601|Shim Kyu-hyeok (\uc2ec\uaddc\ud601)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Xiao_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xiao.webp",
@@ -227254,10 +227254,10 @@
       "release": 1610470800000,
       "releasePatch": "1.2",
       "voiceActors": {
-        "english": "Rachel Lepore & Jennifer Losi",
-        "japanese": "\u4e0a\u7530\u9e97\u5948",
-        "chinese": "\u6797\u7c0c",
-        "korean": "Kim Seon-hye"
+        "english": "imdb:nm15054695|Rachel Lepore (Luna IV onwards) & imdb:nm1545196|Jennifer Losi (Pre-Luna IV)",
+        "japanese": "Reina Ueda|Ueda Reina (\u4e0a\u7530\u9e97\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/\u6797\u7c0c|Lin Su (\u6797\u7c0c)",
+        "korean": "ko:\uae40\uc120\ud61c (\uc131\uc6b0)|Kim Seon-hye (\uae40\uc120\ud61c)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Ganyu_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ganyu.webp",
@@ -228990,10 +228990,10 @@
       "release": 1608591600000,
       "releasePatch": "1.2",
       "voiceActors": {
-        "english": "Khoi Dao",
-        "japanese": "\u91ce\u5cf6\u5065\u5150",
-        "chinese": "Mace",
-        "korean": "Kim Myeong-joon"
+        "english": "imdb:nm6004732|Khoi Dao",
+        "japanese": "Kenji Nojima|Nojima Kenji (\u91ce\u5cf6\u5065\u5150)",
+        "chinese": "https://zh.moegirl.org.cn/Mace|Mace",
+        "korean": "ko:\uae40\uba85\uc900 (\uc131\uc6b0)|Kim Myeong-joon (\uae40\uba85\uc900)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Albedo_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Albedo.webp",
@@ -231122,9 +231122,9 @@
       "releasePatch": "1.1",
       "voiceActors": {
         "english": "Keith Silverstein",
-        "japanese": "\u524d\u91ce\u667a\u662d",
-        "chinese": "\u5f6d\u535a",
-        "korean": "Pyo Young-jae"
+        "japanese": "Tomoaki Maeno|Maeno Tomoaki (\u524d\u91ce\u667a\u662d)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f6d\u535a|Peng Bo (\u5f6d\u535a)",
+        "korean": "Pyo Yeong-jae|Pyo Young-jae (\ud45c\uc601\uc7ac)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Zhongli_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Zhongli.webp",
@@ -233255,10 +233255,10 @@
       "release": 1606878000000,
       "releasePatch": "1.1",
       "voiceActors": {
-        "english": "Laura Stahl",
-        "japanese": "\u305f\u304b\u306f\u3057\u667a\u79cb",
-        "chinese": "\u738b\u96c5\u6b23",
-        "korean": "Kim Chae-ha"
+        "english": "imdb:nm3338130|Laura Stahl",
+        "japanese": "Chiaki Takahashi (actress)|Takahashi Chiaki (ja=\u305f\u304b\u306f\u3057\u667a\u79cb)",
+        "chinese": "https://zh.moegirl.org.cn/\u738b\u96c5\u6b23|Wang Yaxin (zh=\u738b\u96c5\u6b23)",
+        "korean": "ko:\uae40\ucc44\ud558|Kim Chae-ha (ko=\uae40\ucc44\ud558)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Xinyan_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xinyan.webp",
@@ -235386,10 +235386,10 @@
       "release": 1605063600000,
       "releasePatch": "1.1",
       "voiceActors": {
-        "english": "Griffin Burns",
-        "japanese": "\u6728\u6751\u826f\u5e73",
-        "chinese": "\u9c7c\u51bb",
-        "korean": "Nam Do-hyeong"
+        "english": "imdb:nm4232585|Griffin Burns",
+        "japanese": "Ry\u014dhei Kimura|Kimura Ryohei (\u6728\u6751\u826f\u5e73)",
+        "chinese": "https://zh.moegirl.org.cn/\u9c7c\u51bb|Yudong (\u9c7c\u51bb)",
+        "korean": "Nam Doh-hyeong|Nam Do-hyeong (\ub0a8\ub3c4\ud615)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Tartaglia_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Tartaglia.webp",
@@ -237518,10 +237518,10 @@
       "release": 1605063600000,
       "releasePatch": "1.1",
       "voiceActors": {
-        "english": "Dina Sherman",
-        "japanese": "\u4e95\u6fa4\u8a69\u7e54",
-        "chinese": "\u8bfa\u4e9a",
-        "korean": "Woo Jeong-shin"
+        "english": "imdb:nm0088650|Dina Sherman",
+        "japanese": "Shiori Izawa|Izawa Shiori (\u4e95\u6fa4\u8a69\u7e54)",
+        "chinese": "https://zh.moegirl.org.cn/\u8bfa\u4e9a(\u914d\u97f3\u6f14\u5458)|Nuoya (\u8bfa\u4e9a)",
+        "korean": "ko:\uc6b0\uc815\uc2e0|Woo Jeong-shin (\uc6b0\uc815\uc2e0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Diona_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Diona.webp",
@@ -239388,9 +239388,9 @@
       "releasePatch": "1.0",
       "voiceActors": {
         "english": "Sean Chiplock",
-        "japanese": "\u5c0f\u91ce\u8ce2\u7ae0",
-        "chinese": "\u9a6c\u6d0b",
-        "korean": "Choi Seung-hoon"
+        "japanese": "Kensho Ono|Ono Kensho (\u5c0f\u91ce\u8ce2\u7ae0)",
+        "chinese": "https://zh.moegirl.org.cn/\u9a6c\u6d0b|Ma Yang (\u9a6c\u6d0b)",
+        "korean": "ko:\ucd5c\uc2b9\ud6c8|Choi Seung-hoon (\ucd5c\uc2b9\ud6c8)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Diluc_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Diluc.webp",
@@ -241521,10 +241521,10 @@
       "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Stephanie Southerland",
-        "japanese": "\u658e\u85e4\u5343\u548c",
-        "chinese": "\u6797\u7c0c",
-        "korean": "Ahn Young-mi"
+        "english": "imdb:nm7604056|Stephanie Southerland",
+        "japanese": "Chiwa Sait\u014d|Saitou Chiwa (\u658e\u85e4\u5343\u548c)",
+        "chinese": "https://zh.moegirl.org.cn/\u6797\u7c0c|Lin Su (\u6797\u7c0c)",
+        "korean": "ko:\uc548\uc601\ubbf8 (\uc131\uc6b0)|Ahn Young-mi (\uc548\uc601\ubbf8)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Qin_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Qin.webp",
@@ -243654,10 +243654,10 @@
       "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Rosie Day",
-        "japanese": "\u559c\u591a\u6751\u82f1\u68a8",
-        "chinese": "\u8c22\u83b9",
-        "korean": "Lee Bo-hee"
+        "english": "imdb:nm1133857|Rosie Day",
+        "japanese": "Eri Kitamura|Kitamura Eri (\u559c\u591a\u6751\u82f1\u68a8)",
+        "chinese": "https://zh.moegirl.org.cn/\u8c22\u83b9|Xie Ying (\u8c22\u83b9)",
+        "korean": "ko:\uc774\ubcf4\ud76c (\uc131\uc6b0)|Lee Bo-hee (\uc774\ubcf4\ud76c)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Keqing_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Keqing.webp",
@@ -245378,10 +245378,10 @@
       "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Poonam Basu",
-        "japanese": "\u4e45\u91ce\u7f8e\u54b2",
-        "chinese": "\u82b1\u73b2",
-        "korean": "Bang Yeon-ji"
+        "english": "imdb:nm4810398|Poonam Basu",
+        "japanese": "Misaki Kuno|Kuno Misaki (\u4e45\u91ce\u7f8e\u54b2)",
+        "chinese": "zh:\u82b1\u73b2|Hualing (\u82b1\u73b2)",
+        "korean": "ko:\ubc29\uc5f0\uc9c0|Bang Yeon-ji (\ubc29\uc5f0\uc9c0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Klee_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Klee.webp",
@@ -247499,9 +247499,9 @@
       "releasePatch": "1.0",
       "voiceActors": {
         "english": "Felecia Angelle",
-        "japanese": "\u5c0f\u539f\u597d\u7f8e",
-        "chinese": "\u9648\u5a77\u5a77",
-        "korean": "Woo Jeong-shin"
+        "japanese": "Konomi Kohara|Kohara Konomi (\u5c0f\u539f\u597d\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/\u9648\u5a77\u5a77|Chen Tingting (\u9648\u5a77\u5a77)",
+        "korean": "ko:\uc6b0\uc815\uc2e0|Woo Jeong-shin (\uc6b0\uc815\uc2e0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Mona_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mona.webp",
@@ -249223,10 +249223,10 @@
       "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Christie Cate",
-        "japanese": "\u7530\u6751\u3086\u304b\u308a",
-        "chinese": "\u5bb4\u5b81",
-        "korean": "Lee Seul"
+        "english": "imdb:nm7116087|Christie Cate",
+        "japanese": "Yukari Tamura|Tamura Yukari (\u7530\u6751\u3086\u304b\u308a)",
+        "chinese": "https://zh.moegirl.org.cn/\u5bb4\u5b81|Yanning (\u5bb4\u5b81)",
+        "korean": "ko:\uc774\uc2ac (\uc131\uc6b0)|Lee Seul (\uc774\uc2ac)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Qiqi_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Qiqi.webp",
@@ -251344,9 +251344,9 @@
       "releasePatch": "1.0",
       "voiceActors": {
         "english": "Erika Harlacher",
-        "japanese": "\u6751\u702c\u6b69",
-        "chinese": "\u55b5\u9171",
-        "korean": "Jung Yoo-jung"
+        "japanese": "Ayumu Murase|Murase Ayumu (\u6751\u702c\u6b69)",
+        "chinese": "https://zh.moegirl.org.cn/\u55b5\u9171(\u914d\u97f3\u6f14\u5458)#|Miaojiang (\u55b5\u9171)",
+        "korean": "ko:\uc815\uc720\uc815 (\uc131\uc6b0)|Jung Yoo-jung (\uc815\uc720\uc815)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Venti_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Venti.webp",
@@ -253466,10 +253466,10 @@
       "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Kelly Baskin",
-        "japanese": "\u77f3\u898b\u821e\u83dc\u9999",
-        "chinese": "\u8521\u4e66\u747e",
-        "korean": "Kim Yeon-woo"
+        "english": "imdb:nm5726463|Kelly Baskin",
+        "japanese": "Manaka Iwami|Iwami Manaka (\u77f3\u898b\u821e\u83dc\u9999)",
+        "chinese": "https://mzh.moegirl.org.cn/zh-hans/%E8%94%A1%E4%B9%A6%E7%91%BE|Cai Shujin (\u8521\u4e66\u747e)",
+        "korean": "ko:\uae40\uc5f0\uc6b0 (\uc131\uc6b0)|Kim Yeon-woo (\uae40\uc5f0\uc6b0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Ambor_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ambor.webp",
@@ -255336,10 +255336,10 @@
       "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Laura Stahl",
-        "japanese": "\u9b3c\u982d\u660e\u91cc",
-        "chinese": "\u5b8b\u5a9b\u5a9b",
-        "korean": "Yoon Ah-young"
+        "english": "imdb:nm3338130|Laura Stahl",
+        "japanese": "Akari Kit\u014d|Kitou Akari (\u9b3c\u982d\u660e\u91cc)",
+        "chinese": "https://zh.moegirl.org.cn/\u5b8b\u5a9b\u5a9b|Song Yuanyuan (\u5b8b\u5a9b\u5a9b)",
+        "korean": "ko:\uc724\uc544\uc601|Yoon Ah-young (\uc724\uc544\uc601)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Barbara_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Barbara.webp",
@@ -257455,10 +257455,10 @@
       "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Allegra Clark",
-        "japanese": "\u5c0f\u6e05\u6c34\u4e9c\u7f8e",
-        "chinese": "\u5510\u96c5\u83c1",
-        "korean": "Jung Yoo-mi"
+        "english": "imdb:nm3265752|Allegra Clark",
+        "japanese": "Ami Koshimizu|Koshimizu Ami (\u5c0f\u6e05\u6c34\u4e9c\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/\u5510\u96c5\u83c1|Tang Yajing (\u5510\u96c5\u83c1)",
+        "korean": "ko:\uc815\uc720\ubbf8 (\uc131\uc6b0)|Jung Yoo-mi (\uc815\uc720\ubbf8)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Beidou_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Beidou.webp",
@@ -259588,9 +259588,9 @@
       "releasePatch": "1.0",
       "voiceActors": {
         "english": "Cristina Vee Valenzuela",
-        "japanese": "\u9022\u5742\u826f\u592a",
-        "chinese": "\u7a46\u96ea\u5a77",
-        "korean": "Song Ha-rim"
+        "japanese": "Ry\u014dta \u014csaka|Ousaka Ryouta (\u9022\u5742\u826f\u592a)",
+        "chinese": "https://zh.moegirl.org.cn/\u7a46\u96ea\u5a77|Mu Xueting (\u7a46\u96ea\u5a77)",
+        "korean": "ko:\uc1a1\ud558\ub9bc|Song Ha-rim (\uc1a1\ud558\ub9bc)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Bennett_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Bennett.webp",
@@ -261719,10 +261719,10 @@
       "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Beau Bridgland",
-        "japanese": "\u6589\u85e4\u58ee\u99ac",
-        "chinese": "kinsen",
-        "korean": "Yang Jeong-hwa"
+        "english": "imdb:nm6940026|Beau Bridgland",
+        "japanese": "Soma Saito|Saito Soma (\u6589\u85e4\u58ee\u99ac)",
+        "chinese": "https://zh.moegirl.org.cn/zh-cn/Kinsen|kinsen",
+        "korean": "ko:\uc591\uc815\ud654 (\uc131\uc6b0)|Yang Jeong-hwa (\uc591\uc815\ud654)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Chongyun_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Chongyun.webp",
@@ -263851,10 +263851,10 @@
       "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Brittany Cox & Ben Pronsky",
-        "japanese": "\u5185\u7530\u771f\u793c & \u5897\u8c37\u5eb7\u7d00",
-        "chinese": "Mace & \u8d75\u60a6\u7a0b",
-        "korean": "Park Go-woon & Lee Hyeon"
+        "english": "imdb:nm3743705|Brittany Cox",
+        "japanese": "Maaya Uchida|Uchida Maaya (\u5185\u7530\u771f\u793c)",
+        "chinese": "https://zh.moegirl.org.cn/Mace|Mace",
+        "korean": "ko:\ubc15\uace0\uc6b4|Park Go-woon (\ubc15\uace0\uc6b4)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Fischl_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Fischl.webp",
@@ -265709,9 +265709,9 @@
       "releasePatch": "1.0",
       "voiceActors": {
         "english": "Josey Montana McCoy",
-        "japanese": "\u9ce5\u6d77\u6d69\u8f14",
-        "chinese": "\u5b59\u6654",
-        "korean": "Jung Joo-won"
+        "japanese": "Kohsuke Toriumi|Toriumi Kousuke (\u9ce5\u6d77\u6d69\u8f14)",
+        "chinese": "https://baike.baidu.com/item/\u5b59\u6654/6639799|Sun Ye (\u5b59\u6654)",
+        "korean": "ko:\uc815\uc8fc\uc6d0|Jung Joo-won (\uc815\uc8fc\uc6d0)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Kaeya_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kaeya.webp",
@@ -267827,10 +267827,10 @@
       "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Mara Junot",
-        "japanese": "\u7530\u4e2d\u7406\u6075",
-        "chinese": "\u949f\u53ef",
-        "korean": "Park Go-woon"
+        "english": "https://www.marajunot.com/home|Mara Junot",
+        "japanese": "Rie Tanaka|Tanaka Rie (\u7530\u4e2d\u7406\u6075)",
+        "chinese": "https://zh.moegirl.org.cn/\u949f\u53ef|Zhong Ke (\u949f\u53ef)",
+        "korean": "ko:\ubc15\uace0\uc6b4|Park Go-woon (\ubc15\uace0\uc6b4)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Lisa_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Lisa.webp",
@@ -269961,10 +269961,10 @@
       "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Erin Ebers",
-        "japanese": "\u5927\u539f\u3055\u3084\u304b",
-        "chinese": "\u675c\u51a5\u9e26",
-        "korean": "Kwak Kyu-mi"
+        "english": "imdb:nm2731614|Erin Ebers",
+        "japanese": "Sayaka Ohara|Ohara Sayaka (\u5927\u539f\u3055\u3084\u304b)",
+        "chinese": "https://zh.moegirl.org.cn/\u675c\u51a5\u9e26|Du Mingya (\u675c\u51a5\u9e26)",
+        "korean": "ko:\uacfd\uaddc\ubbf8|Kwak Kyu-mi (\uacfd\uaddc\ubbf8)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Ningguang_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ningguang.webp",
@@ -272082,10 +272082,10 @@
       "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Laura Faye Smith",
-        "japanese": "\u9ad8\u5c3e\u594f\u97f3",
-        "chinese": "\u5bb4\u5b81",
-        "korean": "Lee Bo-hee"
+        "english": "imdb:nm2269470|Laura Faye Smith",
+        "japanese": "Kanon Takao|Takao Kanon (\u9ad8\u5c3e\u594f\u97f3)",
+        "chinese": "https://zh.moegirl.org.cn/\u5bb4\u5b81|Yanning (\u5bb4\u5b81)",
+        "korean": "ko:\uc774\ubcf4\ud76c (\uc131\uc6b0)|Lee Bo-hee (\uc774\ubcf4\ud76c)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Noel_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Noel.webp",
@@ -274218,9 +274218,9 @@
       "releasePatch": "1.0",
       "voiceActors": {
         "english": "Todd Haberkorn",
-        "japanese": "\u5185\u5c71\u6602\u8f1d",
-        "chinese": "\u5468\u5e05",
-        "korean": "Kim Seo-young"
+        "japanese": "K\u014dki Uchiyama|Uchiyama Kouki (\u5185\u5c71\u6602\u8f1d)",
+        "chinese": "https://zh.moegirl.org.cn/\u5468\u5e05|Zhou Shuai (\u5468\u5e05)",
+        "korean": "Kim Seo-yeong|Kim Seo-young (\uae40\uc11c\uc601)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Razor_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Razor.webp",
@@ -276349,10 +276349,10 @@
       "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Maya Graydon",
-        "japanese": "\u85e4\u7530\u831c",
-        "chinese": "\u5c0f\u6562",
-        "korean": "Kim Ha-young"
+        "english": "imdb:nm14897455|Maya Graydon",
+        "japanese": "Akane Fujita|Fujita Akane (\u85e4\u7530\u831c)",
+        "chinese": "https://zh.moegirl.org.cn/\u5c0f\u6562|Xiaogan (\u5c0f\u6562)",
+        "korean": "ko:\uae40\ud558\uc601 (\uc131\uc6b0)|Kim Ha-young (\uae40\ud558\uc601)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Sucrose_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sucrose.webp",
@@ -278072,10 +278072,10 @@
       "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Jackie Lastra",
-        "japanese": "\u5c0f\u6fa4\u4e9c\u674e",
-        "chinese": "\u5c0fN",
-        "korean": "Yoon Ah-young"
+        "english": "imdb:nm4588329|Jackie Lastra",
+        "japanese": "Ari Ozawa|Ozawa Ari (\u5c0f\u6fa4\u4e9c\u674e)",
+        "chinese": "https://zh.moegirl.org.cn/\u5c0fN|Xiao N (\u5c0fN)",
+        "korean": "ko:\uc724\uc544\uc601|Yoon Ah-young (\uc724\uc544\uc601)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Xiangling_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xiangling.webp",
@@ -280206,9 +280206,9 @@
       "releasePatch": "1.0",
       "voiceActors": {
         "english": "Cristina Vee Valenzuela",
-        "japanese": "\u7686\u5ddd\u7d14\u5b50",
-        "chinese": "\u5510\u96c5\u83c1",
-        "korean": "Kwak Kyu-mi"
+        "japanese": "Junko Minagawa|Minagawa Junko (\u7686\u5ddd\u7d14\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u5510\u96c5\u83c1|Tang Yajing (\u5510\u96c5\u83c1)",
+        "korean": "ko:\uacfd\uaddc\ubbf8|Kwak Kyu-mi (\uacfd\uaddc\ubbf8)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Xingqiu_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xingqiu.webp",
@@ -282324,10 +282324,10 @@
       "release": -3600000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Zach Aguilar & Various Artists",
-        "japanese": "\u5800\u6c5f\u77ac & \u53e4\u8cc0\u8475",
-        "chinese": "\u9e7f\u5591 & \u591a\u591apoi",
-        "korean": "Lee Kyeong-tae & Kim Ka-ryoung"
+        "english": "Aether: imdb:nm6450743|Zach Aguilar",
+        "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+        "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+        "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
@@ -284344,10 +284344,10 @@
           "release": -3600000,
           "releasePatch": "1.0",
           "voiceActors": {
-            "english": "Zach Aguilar & Various Artists",
-            "japanese": "\u5800\u6c5f\u77ac & \u53e4\u8cc0\u8475",
-            "chinese": "\u9e7f\u5591 & \u591a\u591apoi",
-            "korean": "Lee Kyeong-tae & Kim Ka-ryoung"
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
           },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
@@ -286360,10 +286360,10 @@
           "release": -3600000,
           "releasePatch": "1.0",
           "voiceActors": {
-            "english": "Sarah Miller-Crews & Various Artists",
-            "japanese": "\u60a0\u6728\u78a7 & \u53e4\u8cc0\u8475",
-            "chinese": "\u5bb4\u5b81 & \u591a\u591apoi",
-            "korean": "Lee Sae-ah & Kim Ka-ryoung"
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
           },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
@@ -288376,10 +288376,10 @@
           "release": -3600000,
           "releasePatch": "1.0",
           "voiceActors": {
-            "english": "Zach Aguilar & Various Artists",
-            "japanese": "\u5800\u6c5f\u77ac & \u53e4\u8cc0\u8475",
-            "chinese": "\u9e7f\u5591 & \u591a\u591apoi",
-            "korean": "Lee Kyeong-tae & Kim Ka-ryoung"
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
           },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
@@ -290276,10 +290276,10 @@
           "release": -3600000,
           "releasePatch": "1.0",
           "voiceActors": {
-            "english": "Sarah Miller-Crews & Various Artists",
-            "japanese": "\u60a0\u6728\u78a7 & \u53e4\u8cc0\u8475",
-            "chinese": "\u5bb4\u5b81 & \u591a\u591apoi",
-            "korean": "Lee Sae-ah & Kim Ka-ryoung"
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
           },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
@@ -292176,10 +292176,10 @@
           "release": -3600000,
           "releasePatch": "1.0",
           "voiceActors": {
-            "english": "Zach Aguilar & Various Artists",
-            "japanese": "\u5800\u6c5f\u77ac & \u53e4\u8cc0\u8475",
-            "chinese": "\u9e7f\u5591 & \u591a\u591apoi",
-            "korean": "Lee Kyeong-tae & Kim Ka-ryoung"
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
           },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
@@ -294072,10 +294072,10 @@
           "release": -3600000,
           "releasePatch": "1.0",
           "voiceActors": {
-            "english": "Sarah Miller-Crews & Various Artists",
-            "japanese": "\u60a0\u6728\u78a7 & \u53e4\u8cc0\u8475",
-            "chinese": "\u5bb4\u5b81 & \u591a\u591apoi",
-            "korean": "Lee Sae-ah & Kim Ka-ryoung"
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
           },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
@@ -295968,10 +295968,10 @@
           "release": -3600000,
           "releasePatch": "1.0",
           "voiceActors": {
-            "english": "Zach Aguilar & Various Artists",
-            "japanese": "\u5800\u6c5f\u77ac & \u53e4\u8cc0\u8475",
-            "chinese": "\u9e7f\u5591 & \u591a\u591apoi",
-            "korean": "Lee Kyeong-tae & Kim Ka-ryoung"
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
           },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
@@ -297984,10 +297984,10 @@
           "release": -3600000,
           "releasePatch": "1.0",
           "voiceActors": {
-            "english": "Sarah Miller-Crews & Various Artists",
-            "japanese": "\u60a0\u6728\u78a7 & \u53e4\u8cc0\u8475",
-            "chinese": "\u5bb4\u5b81 & \u591a\u591apoi",
-            "korean": "Lee Sae-ah & Kim Ka-ryoung"
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
           },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
@@ -300000,10 +300000,10 @@
           "release": -3600000,
           "releasePatch": "1.0",
           "voiceActors": {
-            "english": "Zach Aguilar & Various Artists",
-            "japanese": "\u5800\u6c5f\u77ac & \u53e4\u8cc0\u8475",
-            "chinese": "\u9e7f\u5591 & \u591a\u591apoi",
-            "korean": "Lee Kyeong-tae & Kim Ka-ryoung"
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
           },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
@@ -302016,10 +302016,10 @@
           "release": -3600000,
           "releasePatch": "1.0",
           "voiceActors": {
-            "english": "Sarah Miller-Crews & Various Artists",
-            "japanese": "\u60a0\u6728\u78a7 & \u53e4\u8cc0\u8475",
-            "chinese": "\u5bb4\u5b81 & \u591a\u591apoi",
-            "korean": "Lee Sae-ah & Kim Ka-ryoung"
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
           },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
@@ -304032,10 +304032,10 @@
           "release": -3600000,
           "releasePatch": "1.0",
           "voiceActors": {
-            "english": "Zach Aguilar & Various Artists",
-            "japanese": "\u5800\u6c5f\u77ac & \u53e4\u8cc0\u8475",
-            "chinese": "\u9e7f\u5591 & \u591a\u591apoi",
-            "korean": "Lee Kyeong-tae & Kim Ka-ryoung"
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
           },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
@@ -305964,10 +305964,10 @@
           "release": -3600000,
           "releasePatch": "1.0",
           "voiceActors": {
-            "english": "Sarah Miller-Crews & Various Artists",
-            "japanese": "\u60a0\u6728\u78a7 & \u53e4\u8cc0\u8475",
-            "chinese": "\u5bb4\u5b81 & \u591a\u591apoi",
-            "korean": "Lee Sae-ah & Kim Ka-ryoung"
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
           },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",

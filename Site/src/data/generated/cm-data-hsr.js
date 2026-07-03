@@ -9851,10 +9851,10 @@
       "updated": 1782252000000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Nathalie Ferare",
-        "japanese": "\u4f50\u5009\u7dbe\u97f3",
-        "chinese": "\u6eaf\u6d54",
-        "korean": "\ubb38\uc720\uc815"
+        "english": "imdb:nm11116720|Nathalie Ferare",
+        "japanese": "Ayane Sakura|Sakura Ayane (\u4f50\u5009 \u7dbe\u97f3)",
+        "chinese": "https://zh.moegirl.org.cn/\u6eaf\u6d54|Suxun (\u6eaf\u6d54)",
+        "korean": "https://namu.wiki/w/\ubb38\uc720\uc815|Moon Yoo-jeong (\ubb38\uc720\uc815)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1505.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/evanescia-67e58c4745c7.webp",
@@ -10888,10 +10888,10 @@
       "updated": 1781474400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Ari Thrash",
-        "japanese": "\u82b1\u6fa4\u9999\u83dc",
-        "chinese": "\u79e6\u7d2b\u7ffc",
-        "korean": "\uc774\uc2ac"
+        "english": "imdb:nm14887295|Ari Thrash",
+        "japanese": "Kana Hanazawa|Hanazawa Kana (\u82b1\u6fa4 \u9999\u83dc)",
+        "chinese": "https://zh.moegirl.org.cn/\u79e6\u7d2b\u7ffc|Qin Ziyi (\u79e6\u7d2b\u7ffc)",
+        "korean": "https://namu.wiki/w/\uc774\uc2ac(\uc131\uc6b0)|Lee Seul (\uc774\uc2ac)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1502.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/yao-guang-116e442805a2.webp",
@@ -11908,10 +11908,10 @@
       "updated": 1781042400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Daman Mills",
-        "japanese": "\u4e09\u6728\u771e\u4e00\u90ce",
-        "chinese": "\u5218\u4ee5\u5609",
-        "korean": "\uacfd\uc724\uc0c1"
+        "english": "imdb:nm5410860|Daman Mills",
+        "japanese": "Shin-ichiro Miki|Miki Shin-ichiro (\u4e09\u6728\u771e\u4e00\u90ce)",
+        "chinese": "https://zh.moegirl.org.cn/\u5218\u4ee5\u5609|Liu Yijia (\u5218\u4ee5\u5609)",
+        "korean": "https://namu.wiki/w/\uacfd\uc724\uc0c1|Kwak Yoon-sang (\uacfd\uc724\uc0c1)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1507.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/mortenax-blade-def9f0bdd69e.webp",
@@ -12924,10 +12924,10 @@
       "updated": 1780783200000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "|vaCN = Teng Xin (\u85e4\u65b0)",
+        "english": "|vaCN = https://zh.moegirl.org.cn/\u85e4\u65b0|Teng Xin (\u85e4\u65b0)",
         "japanese": "Tomokazu Seki|Seki Tomokazu (\u95a2 \u667a\u4e00)",
-        "chinese": "Teng Xin (\u85e4\u65b0)",
-        "korean": "Kim Jong-yeop (\uae40\uc885\uc5fd)"
+        "chinese": "https://zh.moegirl.org.cn/\u85e4\u65b0|Teng Xin (\u85e4\u65b0)",
+        "korean": "https://namu.wiki/w/\uae40\uc885\uc5fd|Kim Jong-yeop (\uae40\uc885\uc5fd)"
       },
       "icon": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-8b85b84d2d9d.webp",
       "iconZoom": 1.18,
@@ -12957,10 +12957,10 @@
       "updated": 1780524000000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Rhiannon Moushall",
-        "japanese": "\u9ad8\u5c3e\u594f\u97f3",
-        "chinese": "\u65f6\u6b23\u857e",
-        "korean": "\uae40\uc724\ucc44"
+        "english": "imdb:nm5966262|Rhiannon Moushall",
+        "japanese": "Kanon Takao|Takao Kanon (\u9ad8\u5c3e \u594f\u97f3)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u591a\u591apoi|Shi Xinlei (\u65f6\u6b23\u857e)",
+        "korean": "https://namu.wiki/w/\uae40\uc724\ucc44|Kim Yun-chae (\uae40\uc724\ucc44)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1412.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/cerydra-d76dfbe116b9.webp",
@@ -13971,10 +13971,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Allegra Clark",
-        "japanese": "\u6ca2\u57ce\u307f\u3086\u304d",
-        "chinese": "\u83ca\u82b1\u82b1",
-        "korean": "\ubc15\uc9c0\uc724"
+        "english": "imdb:nm3265752|Allegra Clark",
+        "japanese": "Miyuki Sawashiro|Sawashiro Miyuki (\u6ca2\u57ce\u307f\u3086\u304d)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u83ca\u82b1\u82b1|Juhuahua (\u83ca\u82b1\u82b1)",
+        "korean": "ko:\ubc15\uc9c0\uc724 (\uc131\uc6b0)|Park Ji-yoon (\ubc15\uc9c0\uc724)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1308.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/acheron-b97d86ce4b72.webp",
@@ -14988,10 +14988,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Morgan Laur\u00e9",
-        "japanese": "\u9060\u85e4\u7dbe",
-        "chinese": "\u695a\u8d8a",
-        "korean": "\uc624\ub85c\uc544"
+        "english": "imdb:nm5098656|Morgan Laur\u00e9",
+        "japanese": "Aya End\u014d|Endo Aya (\u9060\u85e4 \u7dbe)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u695a\u8d8a|Chu Yue (\u695a\u8d8a)",
+        "korean": "https://namu.wiki/w/\uc624\ub85c\uc544|Oh Ro-ah (\uc624\ub85c\uc544)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1402.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/aglaea-f94d5b796912.webp",
@@ -16013,10 +16013,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Stephen Fu",
-        "japanese": "\u5185\u7530\u96c4\u99ac",
-        "chinese": "\u94b1\u6587\u9752",
-        "korean": "\uc774\uc0c1\uc900"
+        "english": "imdb:nm8002676|Stephen Fu",
+        "japanese": "Yuma Uchida|Uchida Yuma (\u5185\u7530 \u96c4\u99ac)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u94b1\u6587\u9752|Qian Wenqing (\u94b1\u6587\u9752)",
+        "korean": "https://namu.wiki/w/\uc774\uc0c1\uc900(\uc131\uc6b0)|Lee Sang-jun (\uc774\uc0c1\uc900)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1405.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/anaxa-9deca43a40ab.webp",
@@ -17037,10 +17037,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "|vaCN = Wu Lei (\u5434\u78ca)",
-        "japanese": "\u8acf\u8a2a\u90e8 \u9806\u4e00",
-        "chinese": "\u5434\u78ca",
-        "korean": "\uc784\ucc44\ud5cc"
+        "english": "|vaCN = https://zh.moegirl.org.cn/\u5434\u78ca|Wu Lei (\u5434\u78ca)",
+        "japanese": "Junichi Suwabe|Suwabe Junichi (\u8acf\u8a2a\u90e8 \u9806\u4e00)",
+        "chinese": "https://zh.moegirl.org.cn/\u5434\u78ca|Wu Lei (\u5434\u78ca)",
+        "korean": "https://namu.wiki/w/\uc784\ucc44\ud5cc|Lim Chae-heon (\uc784\ucc44\ud5cc)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1015.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/archer-3a9c56eb8499.webp",
@@ -18051,10 +18051,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Talon Warburton",
-        "japanese": "\u7acb\u82b1\u614e\u4e4b\u4ecb",
-        "chinese": "\u6881\u8fbe\u4f1f",
-        "korean": "\ucd5c\uc2b9\ud6c8"
+        "english": "imdb:nm8338757|Talon Warburton",
+        "japanese": "Shinnosuke Tachibana|Tachibana Shinnosuke (\u7acb\u82b1\u614e\u4e4b\u4ecb)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u6881\u8fbe\u4f1f|Liang Dawei (\u6881\u8fbe\u4f1f)",
+        "korean": "ko:\ucd5c\uc2b9\ud6c8 (\uc131\uc6b0)|Choi Seung-hoon (\ucd5c\uc2b9\ud6c8)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1302.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/argenti-cdd5db26d874.webp",
@@ -19074,10 +19074,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Blythe Melin",
-        "japanese": "\u5b50\u5b89\u6b66\u4eba",
-        "chinese": "\u5f20\u6c9b",
-        "korean": "\uac15\uc218\uc9c4"
+        "english": "imdb:nm10853569|Blythe Melin",
+        "japanese": "Takehito Koyasu|Koyasu Takehito (\u5b50\u5b89 \u6b66\u4eba)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u6c9b|Zhang Pei (\u5f20\u6c9b)",
+        "korean": "https://namu.wiki/w/\uac15\uc218\uc9c4(KBS%20\uc131\uc6b0)|Kang Soo-jin (\uac15\uc218\uc9c4)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1504.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/ashveil-b9f510eb9e49.webp",
@@ -20092,10 +20092,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Camden Sutkowski",
-        "japanese": "\u6cb3\u897f\u5065\u543e",
-        "chinese": "\u6768\u8d85\u7136",
-        "korean": "\ubc15\uc900\uc6d0"
+        "english": "imdb:nm8299400|Camden Sutkowski",
+        "japanese": "Kengo Kawanishi|Kawanishi Kengo (\u6cb3\u897f \u5065\u543e)",
+        "chinese": "https://zh.moegirl.org.cn/\u6768\u8d85\u7136|Yang Chaoran (\u6768\u8d85\u7136)",
+        "korean": "ko:\ubc15\uc900\uc6d0_(\uc131\uc6b0)|Park Jun-won (\ubc15\uc900\uc6d0)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1304.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/aventurine-7eab8a728935.webp",
@@ -21110,10 +21110,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Su Ling Chan",
-        "japanese": "\u52a0\u85e4\u82f1\u7f8e\u91cc",
-        "chinese": "\u591a\u591a",
-        "korean": "\uc870\ud604\uc815"
+        "english": "imdb:nm9149593|Su Ling Chan",
+        "japanese": "Emiri Kat\u014d|Kato Emiri (\u52a0\u85e4 \u82f1\u7f8e\u91cc)",
+        "chinese": "https://zh.moegirl.org.cn/\u591a\u591apoi|Duoduo (\u591a\u591a)",
+        "korean": "Jo Hyeon-jeong|Jo Hyeon-jeong (\uc870\ud604\uc815)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1211.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/bailu-6d808a5df95b.webp",
@@ -22129,10 +22129,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Arryn Zech",
-        "japanese": "\u751f\u5929\u76ee\u4ec1\u7f8e",
-        "chinese": "\u6768\u68a6\u9732",
-        "korean": "\uae40\ud558\uc601"
+        "english": "imdb:nm5771189|Arryn Zech",
+        "japanese": "Hitomi Nabatame|Nabatame Hitomi (\u751f\u5929\u76ee\u4ec1\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u6768\u68a6\u9732|Yang Menglu (\u6768\u68a6\u9732)",
+        "korean": "https://namu.wiki/w/\uae40\ud558\uc601|Kim Ha-young (\uae40\ud558\uc601)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1307.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/black-swan-eaa0eb62d57f.webp",
@@ -23152,10 +23152,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Daman Mills",
-        "japanese": "\u4e09\u6728\u771e\u4e00\u90ce",
-        "chinese": "\u5218\u4ee5\u5609",
-        "korean": "\uacfd\uc724\uc0c1"
+        "english": "imdb:nm5410860|Daman Mills",
+        "japanese": "Shin-ichiro Miki|Miki Shin-ichiro (\u4e09\u6728\u771e\u4e00\u90ce)",
+        "chinese": "https://zh.moegirl.org.cn/\u5218\u4ee5\u5609|Liu Yijia (\u5218\u4ee5\u5609)",
+        "korean": "https://namu.wiki/w/\uacfd\uc724\uc0c1|Kwak Yoon-sang (\uacfd\uc724\uc0c1)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1205.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/blade-d81cdf6c097e.webp",
@@ -24175,10 +24175,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Andrew Russell",
-        "japanese": "\u5c0f\u897f\u514b\u5e78",
-        "chinese": "\u5f6d\u535a",
-        "korean": "\uae40\ub2e8"
+        "english": "imdb:nm7325686|Andrew Russell",
+        "japanese": "Katsuyuki Konishi|Konishi Katsuyuki (\u5c0f\u897f\u514b\u5e78)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f6d\u535a|Peng Bo (\u5f6d\u535a)",
+        "korean": "https://namu.wiki/w/\uae40\ub2e8(\uc131\uc6b0)|Kim Dan (\uae40\ub2e8)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1315.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/boothill-49799bbf17d6.webp",
@@ -25193,10 +25193,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Madeline Reiter",
-        "japanese": "\u963f\u6f84\u4f73\u5948",
-        "chinese": "\u8c22\u83b9",
-        "korean": "\uc774\ubcf4\ud76c"
+        "english": "imdb:nm14682811|Madeline Reiter",
+        "japanese": "Kana Asumi|Asumi Kana (\u963f\u6f84\u4f73\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u8c22\u83b9|Xie Ying (\u8c22\u83b9)",
+        "korean": "ko:\uc774\ubcf4\ud76c (\uc131\uc6b0)|Lee Bo-hee (\uc774\ubcf4\ud76c)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1101.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/bronya-4ae6e88598ab.webp",
@@ -26211,10 +26211,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Melody Muze",
-        "japanese": "\u658e\u85e4\u5343\u548c",
-        "chinese": "\u962e\u4ece\u9752",
-        "korean": "\uc774\uc138\ub808\ub098"
+        "english": "imdb:nm10969007|Melody Muze",
+        "japanese": "Chiwa Sait\u014d|Saito Chiwa (\u658e\u85e4 \u5343\u548c)",
+        "chinese": "https://zh.moegirl.org.cn/\u962e\u4ece\u9752|Ruan Congqing (\u962e\u4ece\u9752)",
+        "korean": "https://namu.wiki/w/\uc774\uc138\ub808\ub098|Lee Serena (\uc774\uc138\ub808\ub098)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1407.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/castorice-e684162b72fd.webp",
@@ -27230,10 +27230,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Shea Fairaday",
-        "japanese": "\u4f0a\u85e4\u5f69\u6c99",
-        "chinese": "\u738b\u96c5\u6b23",
-        "korean": "\ubbf8\uc18c"
+        "english": "imdb:nm14096354|Shea Fairaday",
+        "japanese": "Ayasa It\u014d|Ito Ayasa (\u4f0a\u85e4 \u5f69\u6c99)",
+        "chinese": "https://zh.moegirl.org.cn/\u738b\u96c5\u6b23|Wang Yaxin (zh=\u738b\u96c5\u6b23)",
+        "korean": "https://namu.wiki/w/\ubbf8\uc18c(\uc131\uc6b0)|Mi So (\ubbf8\uc18c)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1406.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/cipher-015686a982c5.webp",
@@ -28247,10 +28247,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Emily Sun & D.C. Douglas",
-        "japanese": "\u65e5\u9ad8\u91cc\u83dc&\u5b89\u5143\u6d0b\u8cb4",
-        "chinese": "\u7d2b\u82cf\u4e5d\u6708&\u738b\u5b87\u822a",
-        "korean": "\uae40\uc608\ub9bc&\ucd5c\ub099\uc724"
+        "english": "imdb:nm13804083|Emily Sun",
+        "japanese": "Rina Hidaka|Hidaka Rina (\u65e5\u9ad8\u91cc\u83dc)",
+        "chinese": "https://zh.moegirl.org.cn/\u7d2b\u82cf\u4e5d\u6708|Zisu Jiuyue (\u7d2b\u82cf\u4e5d\u6708)",
+        "korean": "https://namu.wiki/w/\uae40\uc608\ub9bc(\uc131\uc6b0)|Kim Yea-lim (\uae40\uc608\ub9bc)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1107.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/clara-d52a34bd0b67.webp",
@@ -29265,10 +29265,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Aiden Dawn",
-        "japanese": "\u4e95\u4e0a\u9ebb\u91cc\u5948",
-        "chinese": "\u5bb4\u5b81",
-        "korean": "\uc870\uacbd\uc774"
+        "english": "imdb:nm12899945|Aiden Dawn",
+        "japanese": "Marina Inoue|Inoue Marina (\u4e95\u4e0a \u9ebb\u91cc\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/zh/\u5bb4\u5b81|Yanning (\u5bb4\u5b81)",
+        "korean": "https://namu.wiki/w/\uc870\uacbd\uc774|Jo Kyoung-i (\uc870\uacbd\uc774)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1415.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/cyrene-c68f58cf71c5.webp",
@@ -30289,10 +30289,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Nicholas Leung",
-        "japanese": "\u4f0a\u6771\u5065\u4eba",
-        "chinese": "\u674e\u6625\u80e4",
-        "korean": "\uae40\ud61c\uc131"
+        "english": "imdb:nm8855652|Nicholas Leung",
+        "japanese": "Kent It\u014d|Ito Kent (\u4f0a\u6771\u5065\u4eba)",
+        "chinese": "https://zh.moegirl.org.cn/\u9c7c\u51bb|Li Chunyin (\u674e\u6625\u80e4)",
+        "korean": "https://namu.wiki/w/\uae40\ud61c\uc131(\uc131\uc6b0)|Kim Hye-sung (\uae40\ud61c\uc131)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1213.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-baa0ad20b2b7.webp",
@@ -31307,10 +31307,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Nicholas Leung",
-        "japanese": "\u4f0a\u6771\u5065\u4eba",
-        "chinese": "\u674e\u6625\u80e4",
-        "korean": "\uae40\ud61c\uc131"
+        "english": "imdb:nm8855652|Nicholas Leung",
+        "japanese": "Kent It\u014d|Ito Kent (\u4f0a\u6771\u5065\u4eba)",
+        "chinese": "https://zh.moegirl.org.cn/\u9c7c\u51bb|Li Chunyin (\u674e\u6625\u80e4)",
+        "korean": "https://namu.wiki/w/\uae40\ud61c\uc131(\uc131\uc6b0)|Kim Hye-sung (\uae40\ud61c\uc131)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1414.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-5d790d1ba159.webp",
@@ -32325,10 +32325,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Jordan Paul Haro",
-        "japanese": "\u6b66\u5185\u99ff\u8f14",
-        "chinese": "\u6851\u6bd3\u6cfd",
-        "korean": "\uc774\ub3d9\ud6c8"
+        "english": "imdb:nm8289381|Jordan Paul Haro",
+        "japanese": "Shunsuke Takeuchi|Takeuchi Shunsuke (\u6b66\u5185\u99ff\u8f14)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u6851\u6bd3\u6cfd|Sang Yuze (\u6851\u6bd3\u6cfd)",
+        "korean": "https://namu.wiki/w/\uc774\ub3d9\ud6c8|Lee Donghoon (\uc774\ub3d9\ud6c8)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1305.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/dr-ratio-310ed2bb50ec.webp",
@@ -33342,10 +33342,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Anairis Quinones",
-        "japanese": "\u5c0f\u677e\u672a\u53ef\u5b50",
-        "chinese": "\u53f6\u77e5\u79cb",
-        "korean": "\uc190\uc815\ubbfc"
+        "english": "imdb:nm6657487|Anairis Qui\u00f1ones",
+        "japanese": "Mikako Komatsu|Komatsu Mikako (\u5c0f\u677e\u672a\u53ef\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u53f6\u77e5\u79cb|Ye Zhiqiu (\u53f6\u77e5\u79cb)",
+        "korean": "https://en.namu.wiki/w/\uc190\uc815\ubbfc(\uc131\uc6b0)|Son Jung-min (\uc190\uc815\ubbfc)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1220.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/feixiao-f301a2c77dc1.webp",
@@ -34367,10 +34367,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Analesa Fisher & Adin Rudd",
-        "japanese": "\u6960\u6728\u3068\u3082\u308a&\u7b20\u9593\u6df3",
-        "chinese": "\u5b8b\u5a9b\u5a9b&\u6de6\u5b50\u9f50",
-        "korean": "\uc720\ud61c\uc9c0&\uc7a5\uc11c\ud654"
+        "english": "imdb:nm8418823|Analesa Fisher",
+        "japanese": "Tomori Kusunoki|Kusunoki Tomori (\u6960\u6728\u3068\u3082\u308a)",
+        "chinese": "https://zh.moegirl.org.cn/\u5b8b\u5a9b\u5a9b|Song Yuanyuan (\u5b8b\u5a9b\u5a9b)",
+        "korean": "ko:\uc720\ud61c\uc9c0|Yu Hye-ji (\uc720\ud61c\uc9c0)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1310.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/firefly-6259a9ca0ba4.webp",
@@ -35384,10 +35384,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Sarah Wiedenheft",
-        "japanese": "\u4f0a\u85e4\u7f8e\u6765",
-        "chinese": "\u82b1\u73b2",
-        "korean": "\uc774\uc9c0\ud604"
+        "english": "imdb:nm6441957|Sarah Wiedenheft",
+        "japanese": "Miku It\u014d|Ito Miku (\u4f0a\u85e4\u7f8e\u6765)",
+        "chinese": "https://zh.moegirl.org.cn/zh/\u82b1\u73b2(\u914d\u97f3\u6f14\u5458)|Hualing (\u82b1\u73b2)",
+        "korean": "ko:\uc774\uc9c0\ud604 (\uc131\uc6b0)|Lee Ji-hyeon (\uc774\uc9c0\ud604)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1208.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/fu-xuan-5851d1dea1e9.webp",
@@ -36403,10 +36403,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Bryson Baugus",
-        "japanese": "\u53e4\u5ddd\u614e",
-        "chinese": "\u9a6c\u6d0b",
-        "korean": "\ubbfc\uc2b9\uc6b0"
+        "english": "imdb:nm5236687|Bryson Baugus",
+        "japanese": "Makoto Furukawa|Furukawa Makoto (\u53e4\u5ddd\u614e)",
+        "chinese": "https://zh.moegirl.org.cn/\u9a6c\u6d0b|Ma Yang (\u9a6c\u6d0b)",
+        "korean": "https://namu.wiki/w/\ubbfc\uc2b9\uc6b0|Min Seung-woo (\ubbfc\uc2b9\uc6b0)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1104.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/gepard-8f06a975750f.webp",
@@ -37421,10 +37421,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Cia Court",
-        "japanese": "\u7530\u4e2d\u7406\u6075",
-        "chinese": "\u6797\u7c0c",
-        "korean": "\uae40\ubcf4\ub098"
+        "english": "imdb:nm5947505|Cia Court",
+        "japanese": "Rie Tanaka|Tanaka Rie (\u7530\u4e2d \u7406\u6075)",
+        "chinese": "https://mzh.moegirl.org.cn/\u6797\u7c0c|Lin Su (\u6797\u7c0c)",
+        "korean": "https://namu.wiki/w/\uae40\ubcf4\ub098|Kim Bo-na (\uae40\ubcf4\ub098)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1003.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/himeko-64afdc8a4aff.webp",
@@ -38444,10 +38444,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Megan Shipman & Aaron Veach",
-        "japanese": "\u9577\u7e04\u307e\u308a\u3042&\u5e73\u6797\u525b",
-        "chinese": "\u845b\u5b50\u745e&\u5218\u5317\u8fb0",
-        "korean": "\uae40\ucc44\ub9b0&\ud55c\ubcf5\ud604"
+        "english": "imdb:nm6741358|Megan Shipman",
+        "japanese": "Maria Naganawa|Naganawa Maria (\u9577\u7e04\u307e\u308a\u3042)",
+        "chinese": "https://zh.moegirl.org.cn/\u845b\u5b50\u745e|Ge Zirui (\u845b\u5b50\u745e)",
+        "korean": "https://namu.wiki/w/\uae40\ucc44\ub9b0|Kim Chae-rin (\uae40\ucc44\ub9b0)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1217.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/huohuo-ac4d5717b69e.webp",
@@ -39467,10 +39467,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Holly Earl",
-        "japanese": "\u7f8a\u5bae\u5983\u90a3",
-        "chinese": "\u9759\u5bb8",
-        "korean": "\uae40\uc5f0\uc6b0"
+        "english": "imdb:nm0247237|Holly Earl",
+        "japanese": "Hina Y\u014dmiya|Yomiya Hina (\u7f8a\u5bae \u5983\u90a3)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u9759\u5bb8|Jing Chen (\u9759\u5bb8)",
+        "korean": "ko:\uae40\uc5f0\uc6b0 (\uc131\uc6b0)|Kim Yeon-woo (\uae40\uc5f0\uc6b0)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1409.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/hyacine-7a76e3deaee9.webp",
@@ -40490,10 +40490,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Rosie Day",
-        "japanese": "\u77f3\u898b\u821e\u83dc\u9999",
-        "chinese": "\u6d6e\u68a6\u82e5\u8587",
-        "korean": "\uc624\uc740\uc218"
+        "english": "imdb:nm1133857|Rosie Day",
+        "japanese": "Manaka Iwami|Iwami Manaka (\u77f3\u898b \u821e\u83dc\u9999)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u6d6e\u68a6\u82e5\u8587|Fumeng Ruowei (\u6d6e\u68a6\u82e5\u8587)",
+        "korean": "https://namu.wiki/w/\uc624\uc740\uc218(\uc131\uc6b0)|Oh Eun-soo (\uc624\uc740\uc218)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1410.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/hysilens-5df2504c5560.webp",
@@ -41504,10 +41504,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Faye Mata",
-        "japanese": "\u4e09\u77f3\u7434\u4e43",
-        "chinese": "\u5f20\u82e5\u745c",
-        "korean": "\uae40\uc21c\ubbf8"
+        "english": "imdb:nm3788571|Faye Mata",
+        "japanese": "Kotono Mitsuishi|Mitsuishi Kotono (\u4e09\u77f3\u7434\u4e43)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u82e5\u745c|Zhang Ruoyu (\u5f20\u82e5\u745c)",
+        "korean": "https://namu.wiki/w/\uae40\uc21c\ubbf8|Kim Soon-mi (\uae40\uc21c\ubbf8)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1314.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/jade-e2f15621938e.webp",
@@ -42521,10 +42521,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Mark Whitten",
-        "japanese": "\u8c4a\u6c38\u5229\u884c",
-        "chinese": "\u9648\u5f20\u592a\u5eb7",
-        "korean": "\uc774\uc815\ubbfc"
+        "english": "imdb:nm4008536|Mark Whitten",
+        "japanese": "Toshiyuki Toyonaga|Toyonaga Toshiyuki (\u8c4a\u6c38\u5229\u884c)",
+        "chinese": "https://zh.moegirl.org.cn/\u9648\u5f20\u592a\u5eb7|Chenzhang Taikang (\u9648\u5f20\u592a\u5eb7)",
+        "korean": "https://namu.wiki/w/\uc774\uc815\ubbfc(\uc131\uc6b0)|Lee Jung-min (\uc774\uc815\ubbfc)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1218.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/jiaoqiu-ba3564847373.webp",
@@ -43539,10 +43539,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Alejandro Saab",
-        "japanese": "\u5c0f\u91ce\u5927\u8f14",
-        "chinese": "\u5b59\u6654",
-        "korean": "\ub958\uc2b9\uace4"
+        "english": "imdb:nm5260806|Alejandro Saab",
+        "japanese": "Daisuke Ono|Ono Daisuke (\u5c0f\u91ce \u5927\u8f14)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5b59\u6654|Sun Ye (\u5b59\u6654)",
+        "korean": "ko:\ub958\uc2b9\uace4|Ryu Seung-gon (\ub958\uc2b9\uace4)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1204.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/jing-yuan-388ef1942c9c.webp",
@@ -44562,10 +44562,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "AmaLee",
-        "japanese": "\u6851\u5cf6\u6cd5\u5b50",
-        "chinese": "\u675c\u51a5\u9e26",
-        "korean": "\ubc15\uc774\uc11c"
+        "english": "imdb:nm1967053|AmaLee",
+        "japanese": "Houko Kuwashima|Kuwashima Houko (\u6851\u5cf6\u6cd5\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u675c\u51a5\u9e26|Du Mingya (\u675c\u51a5\u9e26)",
+        "korean": "ko:\ubc15\uc774\uc11c (\uc131\uc6b0)|Park Yi-seo (\ubc15\uc774\uc11c)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1212.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/jingliu-d236596ce94c.webp",
@@ -45579,10 +45579,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Cheryl Texiera",
-        "japanese": "\u4f0a\u85e4\u9759",
-        "chinese": "\u5f90\u6167",
-        "korean": "\uc0ac\ubb38\uc601"
+        "english": "imdb:nm2303263|Cheryl Texiera",
+        "japanese": "Shizuka It\u014d|Ito Shizuka (\u4f0a\u85e4\u9759)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5f90\u6167|Xu Hui (\u5f90\u6167)",
+        "korean": "https://namu.wiki/w/\uc0ac\ubb38\uc601|Sa Moon-young (\uc0ac\ubb38\uc601)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1005.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/kafka-5e4eda10e96f.webp",
@@ -46596,10 +46596,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Whitney Holland",
-        "japanese": "\u524d\u7530\u4f73\u7e54\u91cc",
-        "chinese": "\u9976\u6893\u541b",
-        "korean": "\uc7a5\uc608\ub098"
+        "english": "imdb:nm11326512|Whitney Holland",
+        "japanese": "Kaori Maeda|Maeda Kaori (\u524d\u7530\u4f73\u7e54\u91cc)",
+        "chinese": "https://zh.moegirl.org.cn/\u9976\u6893\u541b|Rao Zijun (\u9976\u6893\u541b)",
+        "korean": "https://en.namu.wiki/w/\uc7a5\uc608\ub098|Jang Ye-na (\uc7a5\uc608\ub098)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1222.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/lingsha-8774a66680b2.webp",
@@ -47614,10 +47614,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Craig Lee Thomas",
-        "japanese": "\u77f3\u7530\u5f70",
-        "chinese": "\u8d75\u8def",
-        "korean": "\uc2e0\uc6a9\uc6b0"
+        "english": "imdb:nm3951343|Craig Lee Thomas",
+        "japanese": "Akira Ishida|Ishida Akira (\u77f3\u7530\u5f70)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u8d75\u8def|Zhao Lu (\u8d75\u8def)",
+        "korean": "ko:\uc2e0\uc6a9\uc6b0 (\uc131\uc6b0)|Shin Yong-woo (\uc2e0\uc6a9\uc6b0)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1203.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/luocha-81418a99216b.webp",
@@ -48741,10 +48741,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Gabriel Warburton",
-        "japanese": "\u963f\u5ea7\u4e0a\u6d0b\u5e73",
-        "chinese": "\u8d75\u6210\u6668",
-        "korean": "\uc548\ud6a8\ubbfc"
+        "english": "imdb:nm3878276|Gabriel Warburton",
+        "japanese": "Y\u014dhei Azakami|Azakami Yohei (\u963f\u5ea7\u4e0a \u6d0b\u5e73)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u8d75\u6210\u6668|Zhao Chengchen (\u8d75\u6210\u6668)",
+        "korean": "ko:\uc548\ud6a8\ubbfc|Ahn Hyo-min (\uc548\ud6a8\ubbfc)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1404.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/mydei-9934d5364a1a.webp",
@@ -49758,10 +49758,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Joshua Waters",
-        "japanese": "\u65e5\u91ce\u8061",
-        "chinese": "\u79e6\u4e14\u6b4c",
-        "korean": "\uc724\uc6a9\uc2dd"
+        "english": "imdb:nm10853574|Joshua Waters",
+        "japanese": "Satoshi Hino|Hino Satoshi (\u65e5\u91ce \u8061)",
+        "chinese": "https://zh.moegirl.org.cn/\u79e6\u4e14\u6b4c|Qin Qiege (\u79e6\u4e14\u6b4c)",
+        "korean": "ko:\uc724\uc6a9\uc2dd|Yoon Yong-sik (\uc724\uc6a9\uc2dd)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1408.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/phainon-99688b617211.webp",
@@ -50776,10 +50776,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Kendell Byrd",
-        "japanese": "\u6f58\u3081\u3050\u307f",
-        "chinese": "\u91d1\u5a1c",
-        "korean": "\uae40\uc720\ub9bc"
+        "english": "imdb:nm9674561|Kendell Byrd",
+        "japanese": "Megumi Han|Han Megumi (\u6f58\u3081\u3050\u307f)",
+        "chinese": "https://zh.moegirl.org.cn/\u91d1\u5a1c|Jin Na (\u91d1\u5a1c)",
+        "korean": "https://en.namu.wiki/w/\uae40\uc720\ub9bc|Kim Yurim (\uae40\uc720\ub9bc)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1317.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/rappa-75e4957f3e9e.webp",
@@ -51796,10 +51796,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "|vaCN = Shuo Xiaotu (\u6714\u5c0f\u5154)",
+        "english": "|vaCN = https://zh.moegirl.org.cn/\u6714\u5c0f\u5154|Shuo Xiaotu (\u6714\u5c0f\u5154)",
         "japanese": "Kana Ueda|Ueda Kana (\u690d\u7530 \u4f73\u5948)",
-        "chinese": "Shuo Xiaotu (\u6714\u5c0f\u5154)",
-        "korean": "Kim Bo-min (\uae40\ubcf4\ubbfc)"
+        "chinese": "https://zh.moegirl.org.cn/\u6714\u5c0f\u5154|Shuo Xiaotu (\u6714\u5c0f\u5154)",
+        "korean": "https://namu.wiki/w/\uae40\ubcf4\ubbfc(\uc131\uc6b0)|Kim Bo-min (\uae40\ubcf4\ubbfc)"
       },
       "icon": "../../Database/Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
       "iconZoom": 1.18,
@@ -51829,10 +51829,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Alice Himora / \\nSong Vocals: Chevy",
-        "japanese": "\u540d\u585a\u4f73\u7e54 / Song Vocals: Chevy",
-        "chinese": "\u94b1\u741b / Song Vocals: Chevy",
-        "korean": "\uc2e0\uc628\uc720/ Song Vocals: Chevy"
+        "english": "imdb:nm12363730|Alice Himora",
+        "japanese": "Nazuka Kaori|Nazuka Kaori (\u540d\u585a \u4f73\u7e54)",
+        "chinese": "https://zh.moegirl.org.cn/\u94b1\u741b|Qian Chen (\u94b1\u741b)",
+        "korean": "ko:\uc2e0\uc628\uc720|Shin Onyu (\uc2e0\uc628\uc720)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1309.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/robin-166441a7c32b.webp",
@@ -52847,9 +52847,9 @@
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Emi Lo",
-        "japanese": "\u5927\u897f\u6c99\u7e54",
-        "chinese": "\u5f20\u6587\u94b0",
-        "korean": "\uc724\uc5ec\uc9c4"
+        "japanese": "Saori \u014cnishi|Onishi Saori (\u5927\u897f\u6c99\u7e54)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u6587\u94b0|Zhang Wenyu (\u5f20\u6587\u94b0)",
+        "korean": "https://namu.wiki/w/\uc724\uc5ec\uc9c4|Yoon Yeo-jin (\uc724\uc5ec\uc9c4)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1303.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/ruan-mei-b4f3614106cf.webp",
@@ -53865,10 +53865,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "|vaCN = Bai Xinzan (\u767d\u677a\u74d2)",
-        "japanese": "\u5ddd\u6f84 \u7dbe\u5b50",
-        "chinese": "\u767d\u677a\u74d2",
-        "korean": "\uc815\uc720\uc815"
+        "english": "|vaCN = https://zh.moegirl.org.cn/\u767d\u677a\u74d2|Bai Xinzan (\u767d\u677a\u74d2)",
+        "japanese": "Ayako Kawasumi|Kawasumi Ayako (\u5ddd\u6f84 \u7dbe\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u767d\u677a\u74d2|Bai Xinzan (\u767d\u677a\u74d2)",
+        "korean": "https://namu.wiki/w/\uc815\uc720\uc815(\uc131\uc6b0)|Jeong Yoo-jeong (\uc815\uc720\uc815)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1014.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/saber-241dd7321fad.webp",
@@ -54885,10 +54885,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Molly Zhang",
-        "japanese": "\u4e2d\u539f\u9ebb\u8863",
-        "chinese": "\u5510\u96c5\u83c1",
-        "korean": "\uc1a1\ud558\ub9bc"
+        "english": "imdb:nm10646355|Molly Zhang",
+        "japanese": "Mai Nakahara|Nakahara Mai (\u4e2d\u539f\u9ebb\u8863)",
+        "chinese": "https://mzh.moegirl.org.cn/\u5510\u96c5\u83c1|Tang Yajing (\u5510\u96c5\u83c1)",
+        "korean": "https://namu.wiki/w/\uc1a1\ud558\ub9bc|Song Ha-rim (\uc1a1\ud558\ub9bc)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1102.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/seele-0ce26c00a884.webp",
@@ -55903,10 +55903,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Melissa Fahn",
-        "japanese": "\u963f\u6f84\u4f73\u5948",
-        "chinese": "Hanser",
-        "korean": "\uc7a5\ubbf8"
+        "english": "imdb:nm0153100|Melissa Fahn",
+        "japanese": "Kana Asumi|Asumi Kana (\u963f\u6f84 \u4f73\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/Hanser|Hanser",
+        "korean": "https://namu.wiki/w/\uc7a5\ubbf8(\uc131\uc6b0)|Jang Mi (\uc7a5\ubbf8)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1006.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/silver-wolf-4160e673662f.webp",
@@ -57016,10 +57016,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Lizzie Freeman",
-        "japanese": "\u4e0a\u7530\u9e97\u5948",
-        "chinese": "\u8d75\u723d",
-        "korean": "\uc131\uc608\uc6d0"
+        "english": "imdb:nm5213242|Lizzie Freeman",
+        "japanese": "Reina Ueda|Ueda Reina (\u4e0a\u7530 \u9e97\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u8d75\u723d|Zhao Shuang (\u8d75\u723d)",
+        "korean": "https://namu.wiki/w/\uc131\uc608\uc6d0|Sung Ye-won (\uc131\uc608\uc6d0)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1306.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/sparkle-12736023b340.webp",
@@ -58033,10 +58033,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Lizzie Freeman",
-        "japanese": "\u4e0a\u7530\u9e97\u5948",
-        "chinese": "\u8d75\u723d",
-        "korean": "\uc131\uc608\uc6d0"
+        "english": "imdb:nm5213242|Lizzie Freeman",
+        "japanese": "Reina Ueda|Ueda Reina (\u4e0a\u7530 \u9e97\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u8d75\u723d|Zhao Shuang (\u8d75\u723d)",
+        "korean": "https://namu.wiki/w/\uc131\uc608\uc6d0|Sung Ye-won (\uc131\uc608\uc6d0)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1501.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/sparxie-234f67152306.webp",
@@ -59047,10 +59047,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Griffin Puatu",
-        "japanese": "\u5927\u585a\u525b\u592e",
-        "chinese": "\u5f90\u7fd4",
-        "korean": "\uac15\uc131\uc6b0"
+        "english": "imdb:nm8427541|Griffin Puatu",
+        "japanese": "Takeo \u014ctsuka (voice actor)|Otsuka Takeo (\u5927\u585a\u525b\u592e)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f90\u7fd4|Xu Xiang (\u5f90\u7fd4)",
+        "korean": "https://namu.wiki/w/\uac15\uc131\uc6b0(\uc131\uc6b0)|Kang Seong-woo (\uac15\uc131\uc6b0)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1313.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/sunday-7a3f3cf10c31.webp",
@@ -60072,10 +60072,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Cristina Vee",
-        "japanese": "\u4f50\u3005\u6728\u672a\u6765",
-        "chinese": "\u962e\u4ece\u9752",
-        "korean": "\uae40\ub3c4\ud76c"
+        "english": "imdb:nm2583829|Cristina Vee",
+        "japanese": "Mikoi Sasaki|Sasaki Mikoi (\u4f50\u3005\u6728\u672a\u6765)",
+        "chinese": "https://zh.moegirl.org.cn/\u962e\u4ece\u9752|Ruan Congqing (\u962e\u4ece\u9752)",
+        "korean": "ko:\uae40\ub3c4\ud76c_(\uc131\uc6b0)|Kim Do-hee (\uae40\ub3c4\ud76c)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1321.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/the-dahlia-04dcb5188322.webp",
@@ -61089,10 +61089,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "PJ Mattson",
-        "japanese": "\u5c71\u5d0e\u306f\u308b\u304b",
-        "chinese": "\u4faf\u5c0f\u83f2",
-        "korean": "\uae40\uc11c\uc601"
+        "english": "imdb:nm3021642|PJ Mattson",
+        "japanese": "Haruka Yamazaki|Yamazaki Haruka (\u5c71\u5d0e\u306f\u308b\u304b)",
+        "chinese": "https://zh.moegirl.org.cn/\u4e00\u53e3\u4e95|Hou Xiaofei (\u4faf\u5c0f\u83f2)",
+        "korean": "Kim Seo-yeong|Kim Seo-yeong (\uae40\uc11c\uc601)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1401.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/the-herta-49570c83b7dc.webp",
@@ -62202,10 +62202,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Sam Slade",
-        "japanese": "\u5357\u689d\u611b\u4e43",
-        "chinese": "\u9646\u654f\u60a6",
-        "korean": "\ubc29\uc2dc\uc6b0"
+        "english": "imdb:nm7430885|Sam Slade",
+        "japanese": "Yoshino Nanj\u014d|Nanjo Yoshino (\u5357\u689d\u611b\u4e43)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/Mace|Lu Minyue (\u9646\u654f\u60a6)",
+        "korean": "https://namu.wiki/w/\ubc29\uc2dc\uc6b0|Bang Si-u (\ubc29\uc2dc\uc6b0)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1112.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/topaz-numby-3624ace30bbd.webp",
@@ -63466,10 +63466,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Hayden Daviau",
-        "japanese": "\u9060\u91ce\u3072\u304b\u308b",
-        "chinese": "\u8521\u4e66\u747e",
-        "korean": "\ubc29\uc5f0\uc9c0"
+        "english": "imdb:nm6442425|Hayden Daviau",
+        "japanese": "Hikaru Tono|Tono Hikaru (\u9060\u91ce \u3072\u304b\u308b)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u8521\u4e66\u747e|Cai Shujin (\u8521\u4e66\u747e)",
+        "korean": "ko:\ubc29\uc5f0\uc9c0|Bang Yeon-ji (\ubc29\uc5f0\uc9c0)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1403.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/tribbie-d248a0326c3d.webp",
@@ -64484,10 +64484,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Corey Landis",
-        "japanese": "\u7d30\u8c37\u4f73\u6b63",
-        "chinese": "\u5f6d\u535a",
-        "korean": "\ud55c\uc2e0"
+        "english": "imdb:nm1813063|Corey Landis",
+        "japanese": "Yoshimasa Hosoya|Hosoya Yoshimasa (\u7d30\u8c37\u4f73\u6b63)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f6d\u535a|Peng Bo (\u5f6d\u535a)",
+        "korean": "https://namu.wiki/w/\ud55c\uc2e0(\uc131\uc6b0)|Han-sin (\ud55c\uc2e0)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1004.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/welt-1433e382bcf8.webp",
@@ -65505,10 +65505,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Amber May",
-        "japanese": "\u4e95\u4e0a\u9ebb\u91cc\u5948",
-        "chinese": "\u55b5\u9171",
-        "korean": "\uc774\uc0c8\uc544"
+        "english": "imdb:nm6442558|Amber May",
+        "japanese": "Marina Inoue|Inoue Marina (\u4e95\u4e0a \u9ebb\u91cc\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/\u55b5\u9171(\u914d\u97f3\u6f14\u5458)|Miaojiang (\u55b5\u9171)",
+        "korean": "ko:\uc774\uc0c8\uc544|Lee Sae-a (\uc774\uc0c8\uc544)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1209.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/yanqing-6919e01de57d.webp",
@@ -66524,10 +66524,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Brenna Larsen",
-        "japanese": "\u82e5\u5c71\u8a69\u97f3",
-        "chinese": "\u5218\u96ef",
-        "korean": "\uc774\uc8fc\uc740"
+        "english": "imdb:nm7446036|Brenna Larsen",
+        "japanese": "Shion Wakayama|Wakayama Shion (\u82e5\u5c71\u8a69\u97f3)",
+        "chinese": "https://zh.moegirl.org.cn/\u5218\u96ef|Liu Wen (\u5218\u96ef)",
+        "korean": "https://namu.wiki/w/\uc774\uc8fc\uc740(\uc131\uc6b0)|Lee Ju-eun (\uc774\uc8fc\uc740)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1221.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/yunli-fee0a789395c.webp",
@@ -67541,10 +67541,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Dani Chambers",
-        "japanese": "\u767d\u77f3\u6dbc\u5b50",
-        "chinese": "\u9676\u5178",
-        "korean": "\uae40\uc728"
+        "english": "imdb:nm8792229|Dani Chambers",
+        "japanese": "Ryoko Shiraishi|Shiraishi Ryoko (\u767d\u77f3\u6dbc\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u9676\u5178|Tao Dian (\u9676\u5178)",
+        "korean": "ko:\uae40\uc728|Kim Yul (\uae40\uc728)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1008.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/arlan-f5ff2658fe9e.webp",
@@ -68454,10 +68454,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Felecia Angelle",
-        "japanese": "\u8d64\ufa11\u5343\u590f",
-        "chinese": "\u9f9f\u5a18",
-        "korean": "\uae40\ud604\uc9c0"
+        "english": "imdb:nm5993940|Felecia Angelle",
+        "japanese": "Chinatsu Akasaki|Akasaki Chinatsu (\u8d64\ufa11\u5343\u590f)",
+        "chinese": "https://zh.moegirl.org.cn/\u9f9f\u5a18|Guiniang (\u9f9f\u5a18)",
+        "korean": "https://namu.wiki/w/\uae40\ud604\uc9c0(\uc131\uc6b0)|Kim Hyeon-ji (\uae40\ud604\uc9c0)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1009.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/asta-6b116c87f39d.webp",
@@ -69371,10 +69371,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Nicholas Leung",
-        "japanese": "\u4f0a\u6771\u5065\u4eba",
-        "chinese": "\u674e\u6625\u80e4",
-        "korean": "\uae40\ud61c\uc131"
+        "english": "imdb:nm8855652|Nicholas Leung",
+        "japanese": "Kent It\u014d|Ito Kent (\u4f0a\u6771\u5065\u4eba)",
+        "chinese": "https://zh.moegirl.org.cn/\u9c7c\u51bb|Li Chunyin (\u674e\u6625\u80e4)",
+        "korean": "https://namu.wiki/w/\uae40\ud61c\uc131(\uc131\uc6b0)|Kim Hye-sung (\uae40\ud61c\uc131)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1002.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/dan-heng-2af74fc9cd45.webp",
@@ -70296,10 +70296,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Erik Braa",
-        "japanese": "\u4e09\u4e0a\u54f2",
-        "chinese": "\u9a6c\u8bed\u975e",
-        "korean": "\ubc15\uc0c1\ud6c8"
+        "english": "imdb:nm2819770|Erik Braa",
+        "japanese": "Satoshi Mikami|Mikami Satoshi (\u4e09\u4e0a\u54f2)",
+        "chinese": "https://zh.moegirl.org.cn/\u9a6c\u8bed\u975e|Ma Yufei (\u9a6c\u8bed\u975e)",
+        "korean": "ko:\ubc15\uc0c1\ud6c8 (1982\ub144)|Park Sang-hoon (\ubc15\uc0c1\ud6c8)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1301.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/gallagher-3b2d2ab7dcb6.webp",
@@ -71209,10 +71209,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Morgan Laur\u00e9",
-        "japanese": "\u76f4\u7530\u59eb\u5948",
-        "chinese": "\u5c0f\u6562",
-        "korean": "\uae40\uc218\uc601"
+        "english": "imdb:nm5098656|Morgan Laur\u00e9",
+        "japanese": "Hina Suguta|Suguta Hina (\u76f4\u7530\u59ec\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5c0f\u6562|Xiao Gan (\u5c0f\u6562)",
+        "korean": "https://namu.wiki/w/\uae40\uc218\uc601(\uc131\uc6b0)|Kim Soo-young (\uae40\uc218\uc601)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1210.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/guinaifen-ccfd0b05a9af.webp",
@@ -72123,10 +72123,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Suzie Yeung",
-        "japanese": "\u9234\u4ee3\u7d17\u5f13",
-        "chinese": "\u5f20\u96e8\u66e6",
-        "korean": "\uc724\uc740\uc11c"
+        "english": "imdb:nm10931637|Suzie Yeung",
+        "japanese": "Sayumi Suzushiro|Suzushiro Sayumi (\u9234\u4ee3\u7d17\u5f13)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u96e8\u66e6|Zhang Yuxi (\u5f20\u96e8\u66e6)",
+        "korean": "ko:\uc724\uc740\uc11c|Yoon Eun-seo (\uc724\uc740\uc11c)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1215.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/hanya-ef653980c8ac.webp",
@@ -73042,10 +73042,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "PJ Mattson",
-        "japanese": "\u5c71\u5d0e\u306f\u308b\u304b",
-        "chinese": "\u4faf\u5c0f\u83f2",
-        "korean": "\uae40\uc11c\uc601"
+        "english": "imdb:nm3021642|PJ Mattson",
+        "japanese": "Haruka Yamazaki|Yamazaki Haruka (\u5c71\u5d0e\u306f\u308b\u304b)",
+        "chinese": "https://zh.moegirl.org.cn/\u4e00\u53e3\u4e95|Hou Xiaofei (\u4faf\u5c0f\u83f2)",
+        "korean": "Kim Seo-yeong|Kim Seo-yeong (\uae40\uc11c\uc601)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1013.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/herta-5eb921b823ca.webp",
@@ -73955,10 +73955,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Felecia Angelle",
-        "japanese": "\u5fb3\u4e95\u9752\u7a7a",
-        "chinese": "\u738b\u6653\u5f64",
-        "korean": "\uc774\uc7ac\ud604"
+        "english": "imdb:nm5993940|Felecia Angelle",
+        "japanese": "Sora Tokui|Tokui Sora (\u5fb3\u4e95\u9752\u7a7a)",
+        "chinese": "https://zh.moegirl.org.cn/\u738b\u6653\u5f64|Wang Xiaotong (\u738b\u6653\u5f64)",
+        "korean": "https://namu.wiki/w/\uc774\uc7ac\ud604(\uc131\uc6b0)|Lee Jae-hyun (\uc774\uc7ac\ud604)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1109.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/hook-c27c777b6337.webp",
@@ -74873,9 +74873,9 @@
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Howard Wang",
-        "japanese": "\u68b6\u539f\u5cb3\u4eba",
-        "chinese": "\u8427\u7fdf",
-        "korean": "\uc774\uc8fc\uc2b9"
+        "japanese": "Gakuto Kajiwara|Kajiwara Gakuto (\u68b6\u539f\u5cb3\u4eba)",
+        "chinese": "https://zh.moegirl.org.cn/\u8427\u7fdf|Xiao Zhai (\u8427\u7fdf)",
+        "korean": "ko:\uc774\uc8fc\uc2b9_(\uc131\uc6b0)|Lee Joo-seung (\uc774\uc8fc\uc2b9)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1111.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/luka-c408c18123ff.webp",
@@ -75788,10 +75788,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Risa Mei",
-        "japanese": "\u7167\u4e95\u6625\u4f73",
-        "chinese": "\u7c73\u7cca",
-        "korean": "\uc774\uc740\uc870"
+        "english": "imdb:nm10862160|Risa Mei",
+        "japanese": "Haruka Terui|Terui Haruka (\u7167\u4e95\u6625\u4f73)",
+        "chinese": "https://zh.moegirl.org.cn/\u7c73\u7ccazzZ|Mihu (\u7c73\u7cca)",
+        "korean": "ko:\uc774\uc740\uc870|Lee Eun-jo (\uc774\uc740\uc870)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1110.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/lynx-20fadae192d9.webp",
@@ -76706,8 +76706,8 @@
       "voiceActors": {
         "english": "Skyler Davenport",
         "japanese": "Yui Ogura|Ogura Yui (\u5c0f\u5009\u552f)",
-        "chinese": "Nuoya (\u8bfa\u4e9a)",
-        "korean": "Jung Hye-won (\uc815\ud61c\uc6d0)"
+        "chinese": "https://zh.moegirl.org.cn/\u8bfa\u4e9a(\u914d\u97f3\u6f14\u5458)#|Nuoya (\u8bfa\u4e9a)",
+        "korean": "https://namu.wiki/w/\uc815\ud61c\uc6d0(\uc131\uc6b0)|Jung Hye-won (\uc815\ud61c\uc6d0)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1224.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/march-7th-b9b058e0b744.webp",
@@ -77660,10 +77660,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Cat Protano",
-        "japanese": "\u677e\u4e95\u6075\u7406\u5b50",
-        "chinese": "\u67f3\u77e5\u8427",
-        "korean": "\ubc15\uc2e0\ud76c"
+        "english": "imdb:nm11767862|Cat Protano",
+        "japanese": "Eriko Matsui|Matsui Eriko (\u677e\u4e95 \u6075\u7406\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u67f3\u77e5\u8427|Liu Zhixiao (\u67f3\u77e5\u8427)",
+        "korean": "Bak Sin-hee|Bak Sin-hee (\ubc15\uc2e0\ud76c)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1312.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/misha-160cd1f54f79.webp",
@@ -78577,10 +78577,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Ben Balmaceda",
-        "japanese": "\u5742\u7530\u5c06\u543e",
-        "chinese": "\u9ec4\u8fdb\u6cfd",
-        "korean": "\ucd5c\ud604\uc2dd"
+        "english": "imdb:nm9261313|Ben Balmaceda",
+        "japanese": "Shogo Sakata|Sakata Shogo (\u5742\u7530\u5c06\u543e)",
+        "chinese": "https://zh.moegirl.org.cn/\u9ec4\u8fdb\u6cfd|Huang Jinze (\u9ec4\u8fdb\u6cfd)",
+        "korean": "https://en.namu.wiki/w/\ucd5c\ud604\uc2dd|Choi Hyun-sik (\ucd5c\ud604\uc2dd)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1223.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/moze-abf9d7bef1cb.webp",
@@ -79499,10 +79499,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Elizabeth Maxwell",
-        "japanese": "\u5185\u5c71\u5915\u5b9f",
-        "chinese": "\u79e6\u7d2b\u7ffc",
-        "korean": "\uac15\uc740\uc560"
+        "english": "imdb:nm1752885|Elizabeth Maxwell",
+        "japanese": "Yumi Uchiyama|Uchiyama Yumi (\u5185\u5c71\u5915\u5b9f)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u79e6\u7d2b\u7ffc|Qin Ziyi (\u79e6\u7d2b\u7ffc)",
+        "korean": "https://namu.wiki/w/\uac15\uc740\uc560|Gang Eun-ae (\uac15\uc740\uc560)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1105.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/natasha-85dfaeda1186.webp",
@@ -80415,10 +80415,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Xanthe Huynh",
-        "japanese": "\u8af8\u661f\u3059\u307f\u308c",
-        "chinese": "\u5bb4\u5b81",
-        "korean": "\uc774\ub2e4\uc740"
+        "english": "imdb:nm3125992|Xanthe Huynh",
+        "japanese": "Sumire Morohoshi|Morohoshi Sumire (\u8af8\u661f\u3059\u307f\u308c)",
+        "chinese": "https://zh.moegirl.org.cn/zh/\u5bb4\u5b81|Yanning (\u5bb4\u5b81)",
+        "korean": "https://namu.wiki/w/\uc774\ub2e4\uc740|Lee Da-eun (\uc774\ub2e4\uc740)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1106.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/pela-3a94179844a2.webp",
@@ -81331,10 +81331,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Bryn Apprill",
-        "japanese": "\u4f0a\u9054\u6731\u91cc\u7d17",
-        "chinese": "\u5218\u5341\u56db",
-        "korean": "\uc11c\ub2e4\ud61c"
+        "english": "imdb:nm6548466|Bryn Apprill",
+        "japanese": "Arisa Date|Date Arisa (\u4f0a\u9054 \u6731\u91cc\u7d17)",
+        "chinese": "https://zh.moegirl.org.cn/zh-tw/\u5341\u56db|Liu Shisi (\u5218\u5341\u56db)",
+        "korean": "ko:\uc11c\ub2e4\ud61c|Seo Da-hye (\uc11c\ub2e4\ud61c)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1201.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/qingque-fbd9d82bca58.webp",
@@ -82248,10 +82248,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Roger Rose",
-        "japanese": "\u5e73\u5ddd\u5927\u8f14",
-        "chinese": "\u5218\u5723\u535a",
-        "korean": "\uc815\uc7ac\ud5cc"
+        "english": "imdb:nm0741648|Roger Rose",
+        "japanese": "Daisuke Hirakawa|Hirakawa Daisuke (\u5e73\u5ddd\u5927\u8f14)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5218\u5723\u535a|Liu Shengbo (\u5218\u5723\u535a)",
+        "korean": "Jeong Jae-heon|Jeong Jae-heon (\uc815\uc7ac\ud5cc)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1108.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/sampo-4990c1afc41a.webp",
@@ -83165,10 +83165,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Natalie Van Sistine",
-        "japanese": "\u611b\u7f8e",
-        "chinese": "\u7a46\u96ea\u5a77",
-        "korean": "\ubbfc\uc544"
+        "english": "imdb:nm4630205|Natalie Van Sistine",
+        "japanese": "Aimi (actress)|Aimi (\u611b\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u7a46\u96ea\u5a77|Mu Xueting (\u7a46\u96ea\u5a77)",
+        "korean": "https://namu.wiki/w/\ubbfc\uc544(\uc131\uc6b0)|Min-a (\ubbfc\uc544)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1103.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/serval-e59543413d0c.webp",
@@ -84081,10 +84081,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Anjali Kunapaneni",
-        "japanese": "\u798f\u5713\u7f8e\u91cc",
-        "chinese": "\u9648\u5a77\u5a77",
-        "korean": "\ubc15\uc2dc\uc724"
+        "english": "imdb:nm10698863|Anjali Kunapaneni",
+        "japanese": "Misato Fukuen|Fukuen Misato (\u798f\u5713\u7f8e\u91cc)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u9648\u5a77\u5a77|Chen Tingting (\u9648\u5a77\u5a77)",
+        "korean": "https://namu.wiki/w/\ubc15\uc2dc\uc724|Park Shi-yoon (\ubc15\uc2dc\uc724)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1206.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/sushang-1f3fcfa90040.webp",
@@ -84998,10 +84998,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Anya Floris",
-        "japanese": "\u9ad8\u7530\u6182\u5e0c",
-        "chinese": "\u848b\u4e3d",
-        "korean": "\uc774\uba85\ud638"
+        "english": "imdb:nm14824546|Anya Floris",
+        "japanese": "Y\u016bki Takada|Takada Yuuki (\u9ad8\u7530 \u6182\u5e0c)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5c0fN|Jiang Li (\u848b\u4e3d)",
+        "korean": "ko:\uc774\uba85\ud638 (\uc5ec\uc790 \uc131\uc6b0)|Lee Myeong-ho (\uc774\uba85\ud638)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1202.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/tingyun-6b93ecc4e161.webp",
@@ -85911,10 +85911,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Jenny Yokobori",
-        "japanese": "\u6cb3\u702c\u8309\u5e0c",
-        "chinese": "\u6eaf\u6d54",
-        "korean": "\ubc15\ub9ac\ub098"
+        "english": "imdb:nm7095498|Jenny Yokobori",
+        "japanese": "Maki Kawase|Kawase Maki (\u6cb3\u702c\u8309\u5e0c)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u6eaf\u6d54|Suxun (\u6eaf\u6d54)",
+        "korean": "https://namu.wiki/w/\ubc15\ub9ac\ub098|Park Ri-na (\ubc15\ub9ac\ub098)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1214.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/xueyi-3ab3f97e181a.webp",
@@ -86824,10 +86824,10 @@
       "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Dawn M. Bennett",
-        "japanese": "\u51ac\u99ac\u7531\u7f8e",
-        "chinese": "\u949f\u53ef",
-        "korean": "\uc804\uc219\uacbd"
+        "english": "imdb:nm5261299|Dawn M. Bennett",
+        "japanese": "Yumi T\u014dma|Touma Yumi (\u51ac\u99ac \u7531\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/\u949f\u53ef|Zhong Ke (\u949f\u53ef)",
+        "korean": "ko:\uc804\uc219\uacbd|Jeon Sook-kyeong (\uc804\uc219\uacbd)"
       },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1207.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/yukong-237e9805e9d7.webp",

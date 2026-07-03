@@ -11,6 +11,9 @@
       "ko": "우인단·얼음 치친 술사"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "221011",
     "icon": "UI_Gcg_CardFace_Char_Monster_FatuusMageice",
     "tags": [
       "Cryo",
@@ -32,6 +35,9 @@
       "ko": "「시뇨라」"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "221021",
     "icon": "UI_Gcg_CardFace_Char_Monster_LaSignora",
     "tags": [
       "Cryo",
@@ -53,6 +59,9 @@
       "ko": "무상의 얼음"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 8,
+    "relatedCardId": "221031",
     "icon": "UI_Gcg_CardFace_Char_Monster_EffigyIce",
     "tags": [
       "Cryo",
@@ -74,6 +83,9 @@
       "ko": "우인단·서리 심부름꾼"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "221041",
     "icon": "UI_Gcg_CardFace_Char_Monster_EscadronIce",
     "tags": [
       "Cryo",
@@ -95,6 +107,9 @@
       "ko": "수수께끼 영력 수행자"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "221051",
     "icon": "UI_Gcg_CardFace_Char_Monster_Udugan",
     "tags": [
       "Cryo",
@@ -116,6 +131,9 @@
       "ko": "물의 정령·로데이아"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 11,
+    "relatedCardId": "222011",
     "icon": "UI_Gcg_CardFace_Char_Monster_Oceanid",
     "tags": [
       "Hydro",
@@ -137,6 +155,9 @@
       "ko": "우인단·거울의 여인"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "222021",
     "icon": "UI_Gcg_CardFace_Char_Monster_Maidenwater",
     "tags": [
       "Hydro",
@@ -158,6 +179,9 @@
       "ko": "심연 사도·격류"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 6,
+    "relatedCardId": "222031",
     "icon": "UI_Gcg_CardFace_Char_Monster_InvokerHeraldWater",
     "tags": [
       "Hydro",
@@ -179,6 +203,9 @@
       "ko": "별을 삼킨 고래"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 6,
+    "relatedCardId": "222041",
     "icon": "UI_Gcg_CardFace_Char_Monster_Ptahur",
     "tags": [
       "Hydro",
@@ -201,6 +228,9 @@
       "ko": "츄츄 물걸음 순찰자"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "222051",
     "icon": "UI_Gcg_CardFace_Char_Monster_HilistrayWater",
     "tags": [
       "Hydro",
@@ -223,6 +253,9 @@
       "ko": "물의 환인간"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "222061",
     "icon": "UI_Gcg_CardFace_Char_Monster_Narcissusborn",
     "tags": [
       "Hydro",
@@ -244,6 +277,9 @@
       "ko": "성해 뿔 악어"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "222071",
     "icon": "UI_Gcg_CardFace_Char_Monster_GatorSacred",
     "tags": [
       "Hydro",
@@ -265,6 +301,9 @@
       "ja": "無相の水"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 8,
+    "relatedCardId": "222081",
     "icon": "UI_Gcg_CardFace_Char_Monster_EffigyWater",
     "tags": [
       "Hydro",
@@ -286,6 +325,9 @@
       "ko": "우인단·화염 채무 처리인"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "223011",
     "icon": "UI_Gcg_CardFace_Char_Monster_Fatuus",
     "tags": [
       "Pyro",
@@ -307,6 +349,9 @@
       "ko": "심연 봉독자·심연의 불꽃"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 6,
+    "relatedCardId": "223021",
     "icon": "UI_Gcg_CardFace_Char_Monster_DeaconFire",
     "tags": [
       "Pyro",
@@ -328,6 +373,9 @@
       "ko": "도금 여단·모래의 이야기꾼"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "223031",
     "icon": "UI_Gcg_CardFace_Char_Monster_Muscleman",
     "tags": [
       "Pyro",
@@ -349,6 +397,9 @@
       "ko": "용암철갑 제왕"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 5,
+    "relatedCardId": "223041",
     "icon": "UI_Gcg_CardFace_Char_Monster_HermitCrabPrimo",
     "tags": [
       "Pyro",
@@ -370,6 +421,9 @@
       "ko": "침식된 근원의 불꽃 주인"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "223051",
     "icon": "UI_Gcg_CardFace_Char_Monster_TheAbyssXiuhcoatl",
     "tags": [
       "Pyro",
@@ -391,6 +445,9 @@
       "ko": "황금불꽃의 깃룡 폭군"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "223061",
     "icon": "UI_Gcg_CardFace_Char_Monster_FlamingoPrimo",
     "tags": [
       "Pyro",
@@ -412,6 +469,9 @@
       "ko": "무상의 뇌전"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 8,
+    "relatedCardId": "224011",
     "icon": "UI_Gcg_CardFace_Char_Monster_Effigyelectric",
     "tags": [
       "Electro",
@@ -433,6 +493,9 @@
       "ko": "뇌음의 권현"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "224021",
     "icon": "UI_Gcg_CardFace_Char_Monster_Raijin",
     "tags": [
       "Electro",
@@ -454,6 +517,9 @@
       "ko": "천년 묵은 진주 기린"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 8,
+    "relatedCardId": "224031",
     "icon": "UI_Gcg_CardFace_Char_Monster_SeaHorsePrimo",
     "tags": [
       "Electro",
@@ -475,6 +541,9 @@
       "ko": "우인단·번개 치친 술사"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "224041",
     "icon": "UI_Gcg_CardFace_Char_Monster_FatuusSummoner",
     "tags": [
       "Electro",
@@ -496,6 +565,9 @@
       "ko": "성해 독전갈"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "224051",
     "icon": "UI_Gcg_CardFace_Char_Monster_ScorpionSacred",
     "tags": [
       "Electro",
@@ -518,6 +590,9 @@
       "ko": "심연 봉독자·자색 뇌전"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 6,
+    "relatedCardId": "224061",
     "icon": "UI_Gcg_CardFace_Char_Monster_InvokerElectric",
     "tags": [
       "Electro",
@@ -539,6 +614,9 @@
       "ko": "꼭두각시 검귀"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "225011",
     "icon": "UI_Gcg_CardFace_Char_Monster_Ningyo",
     "tags": [
       "Anemo",
@@ -560,6 +638,9 @@
       "ko": "드발린"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "225021",
     "icon": "UI_Gcg_CardFace_Char_Monster_Dvalin",
     "tags": [
       "Anemo",
@@ -581,6 +662,9 @@
       "ko": "성해 날뱀"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "225031",
     "icon": "UI_Gcg_CardFace_Char_Monster_ChrysopeleaSacred",
     "tags": [
       "Anemo",
@@ -603,6 +687,9 @@
       "ko": "흑 뱀 기사·바람을 가르는 검"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "225041",
     "icon": "UI_Gcg_CardFace_Char_Monster_DarkwraithWind",
     "tags": [
       "Anemo",
@@ -624,6 +711,9 @@
       "ko": "츄츄 바위왕"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "226011",
     "icon": "UI_Gcg_CardFace_Char_Monster_Bruterock",
     "tags": [
       "Geo",
@@ -646,6 +736,9 @@
       "ko": "야타용왕"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "226022",
     "icon": "UI_Gcg_CardFace_Char_Monster_Dahaka",
     "tags": [
       "Geo",
@@ -667,6 +760,9 @@
       "ko": "황금 늑대왕"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "226031",
     "icon": "UI_Gcg_CardFace_Char_Monster_Planelurker",
     "tags": [
       "Geo",
@@ -688,6 +784,9 @@
       "ko": "흑 뱀 기사·바위를 부수는 도끼"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 12,
+    "relatedCardId": "226041",
     "icon": "UI_Gcg_CardFace_Char_Monster_DarkwraithRock",
     "tags": [
       "Geo",
@@ -709,6 +808,9 @@
       "ko": "실험성 역장 발생 장치"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "226051",
     "icon": "UI_Gcg_CardFace_Char_Monster_Gravitas",
     "tags": [
       "Geo",
@@ -730,6 +832,9 @@
       "ko": "공포의 취령 버섯"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 12,
+    "relatedCardId": "227011",
     "icon": "UI_Gcg_CardFace_Char_Monster_Fungusgrass",
     "tags": [
       "Dendro",
@@ -751,6 +856,9 @@
       "ko": "아펩의 오아시스 파수꾼"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "227021",
     "icon": "UI_Gcg_CardFace_Char_Monster_Apep",
     "tags": [
       "Dendro",
@@ -772,6 +880,9 @@
       "ko": "도금 여단·풀고리 무용수"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "227031",
     "icon": "UI_Gcg_CardFace_Char_Monster_EremiteGrass",
     "tags": [
       "Dendro",
@@ -793,6 +904,9 @@
       "ko": "식탐의 숲룡 산왕"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 8,
+    "relatedCardId": "227041",
     "icon": "UI_Gcg_CardFace_Char_Monster_HookwalkerPrimo",
     "tags": [
       "Dendro",
@@ -814,6 +928,9 @@
       "ko": "성해 검치호"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "227051",
     "icon": "UI_Gcg_CardFace_Char_Monster_PantherSacred",
     "tags": [
       "Dendro",
@@ -836,6 +953,9 @@
       "ko": "단 하나의 마음"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Ganyu",
     "tags": [
       "Talent",
@@ -856,6 +976,9 @@
       "ko": "꽁꽁젤리 쉐이큰"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Diona",
     "tags": [
       "Talent",
@@ -876,6 +999,9 @@
       "ko": "냉혈의 검"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Keaya",
     "tags": [
       "Talent",
@@ -896,6 +1022,9 @@
       "ko": "진기 토납"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Chongyun",
     "tags": [
       "Talent",
@@ -916,6 +1045,9 @@
       "ko": "한천선명 축사"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Ayaka",
     "tags": [
       "Talent"
@@ -935,6 +1067,9 @@
       "ko": "솟구치는 전투의 욕망"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Eula",
     "tags": [
       "Talent",
@@ -955,6 +1090,9 @@
       "ko": "망현"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Shenhe",
     "tags": [
       "Talent",
@@ -975,6 +1113,9 @@
       "ko": "기사회해"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Qiqi",
     "tags": [
       "Talent",
@@ -995,6 +1136,9 @@
       "ko": "소식과 함께 돌아오는 빛"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Layla",
     "tags": [
       "Talent",
@@ -1015,6 +1159,9 @@
       "ko": "흥미 추구의 요지"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Charlotte",
     "tags": [
       "Talent",
@@ -1035,6 +1182,9 @@
       "ko": "악행자에게 징벌을"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Wriothesley",
     "tags": [
       "Talent",
@@ -1055,6 +1205,9 @@
       "ko": "각성과 결심의 순간"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Freminet",
     "tags": [
       "Talent",
@@ -1075,6 +1228,9 @@
       "ko": "재판의 대리인"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Rosaria",
     "tags": [
       "Talent",
@@ -1095,6 +1251,9 @@
       "ko": "다섯 번째 하늘의 서리비"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Citlali",
     "tags": [
       "Talent"
@@ -1114,6 +1273,9 @@
       "ko": "무지갯빛 티타임"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Escoffier",
     "tags": [
       "Talent",
@@ -1134,6 +1296,9 @@
       "ko": "요원"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_SkirkNew",
     "tags": [
       "Talent"
@@ -1153,6 +1318,9 @@
       "ko": "동반 도우미"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Mika",
     "tags": [
       "Talent",
@@ -1173,6 +1341,9 @@
       "ko": "광휘의 계절"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Barbara",
     "tags": [
       "Talent",
@@ -1193,6 +1364,9 @@
       "ko": "장막의 잔향"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Xingqiu",
     "tags": [
       "Talent",
@@ -1213,6 +1387,9 @@
       "ko": "침몰한 예언"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Mona",
     "tags": [
       "Talent",
@@ -1232,6 +1409,9 @@
       "ja": "星座の始まり"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Mona",
     "tags": [
       "Talent",
@@ -1253,6 +1433,9 @@
       "ko": "심연의 재앙·차오르는 물"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Tartaglia",
     "tags": [
       "Talent",
@@ -1273,6 +1456,9 @@
       "ko": "함 속의 타마쿠시"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Kokomi",
     "tags": [
       "Talent",
@@ -1293,6 +1479,9 @@
       "ko": "거울 속의 자태"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Ayato",
     "tags": [
       "Talent",
@@ -1313,6 +1502,9 @@
       "ko": "범람하는 조석"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Candace",
     "tags": [
       "Talent",
@@ -1333,6 +1525,9 @@
       "ko": "별하늘의 꽃비"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Nilou",
     "tags": [
       "Talent",
@@ -1353,6 +1548,9 @@
       "ko": "선공의 묘수"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Yelan",
     "tags": [
       "Talent",
@@ -1373,6 +1571,9 @@
       "ko": "생존한 고대바다의 계승자"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Neuvillette",
     "tags": [
       "Talent",
@@ -1393,6 +1594,9 @@
       "ko": "「모두 사랑의 축배를 들렴!」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Furina",
     "tags": [
       "Talent",
@@ -1413,6 +1617,9 @@
       "ko": "적당한 휴식은 필수"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Sigewinne",
     "tags": [
       "Talent",
@@ -1433,6 +1640,9 @@
       "ko": "밤 영역의 선물·파도 정상"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Mualani",
     "tags": [
       "Talent"
@@ -1452,6 +1662,9 @@
       "ko": "모든 기쁨이 함께하길"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Dahlia",
     "tags": [
       "Talent",
@@ -1472,6 +1685,9 @@
       "ko": "발명은 천재의 의무"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Aino",
     "tags": [
       "Talent",
@@ -1492,6 +1708,9 @@
       "ko": "유화의 화상"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Diluc",
     "tags": [
       "Talent",
@@ -1512,6 +1731,9 @@
       "ko": "교차 화력"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Xiangling",
     "tags": [
       "Talent",
@@ -1532,6 +1754,9 @@
       "ko": "모험 동경"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Bennett",
     "tags": [
       "Talent",
@@ -1552,6 +1777,9 @@
       "ko": "일촉즉발"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Ambor",
     "tags": [
       "Talent",
@@ -1572,6 +1800,9 @@
       "ko": "나가노하라 유성군"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Yoyimiya",
     "tags": [
       "Talent",
@@ -1592,6 +1823,9 @@
       "ko": "펑펑 선물"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Klee",
     "tags": [
       "Talent",
@@ -1611,6 +1845,9 @@
       "ja": "火花の魔法"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Klee",
     "tags": [
       "Talent",
@@ -1631,6 +1868,9 @@
       "ko": "핏빛 분장"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Hutao",
     "tags": [
       "Talent",
@@ -1651,6 +1891,9 @@
       "ko": "최종 해석권"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Feiyan",
     "tags": [
       "Talent",
@@ -1671,6 +1914,9 @@
       "ko": "참된 충심"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Dehya",
     "tags": [
       "Talent",
@@ -1691,6 +1937,9 @@
       "ko": "갈채 속 마무리"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Liney",
     "tags": [
       "Talent",
@@ -1711,6 +1960,9 @@
       "ko": "보좌관의 재주"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Thoma",
     "tags": [
       "Talent",
@@ -1731,6 +1983,9 @@
       "ko": "지옥의 연주"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Xinyan",
     "tags": [
       "Talent",
@@ -1751,6 +2006,9 @@
       "ko": "선봉 협동 전술"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Chevreuse",
     "tags": [
       "Talent"
@@ -1770,6 +2028,9 @@
       "ko": "모든 원한과 빚은 내가 갚고…"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Arlecchino",
     "tags": [
       "Talent",
@@ -1790,6 +2051,9 @@
       "ko": "「인간의 이름」 해방"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Mavuika",
     "tags": [
       "Talent"
@@ -1809,6 +2073,9 @@
       "ko": "통명의 가호"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Gaming",
     "tags": [
       "Talent",
@@ -1828,6 +2095,9 @@
       "ja": "赤土の逆理"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Durin",
     "tags": [
       "Talent",
@@ -1848,6 +2118,9 @@
       "ko": "별을 삼킨 까마귀"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Fischl",
     "tags": [
       "Talent",
@@ -1867,6 +2140,9 @@
       "ja": "終宵の幻奏"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Fischl",
     "tags": [
       "Talent",
@@ -1887,6 +2163,9 @@
       "ko": "각성"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Razor",
     "tags": [
       "Talent",
@@ -1907,6 +2186,9 @@
       "ko": "하늘에 닿은 뇌벌"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Keqing",
     "tags": [
       "Talent",
@@ -1927,6 +2209,9 @@
       "ko": "낙하하는 깃털의 심판"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Cyno",
     "tags": [
       "Talent",
@@ -1947,6 +2232,9 @@
       "ko": "하늘의 벽력"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Beidou",
     "tags": [
       "Talent",
@@ -1967,6 +2255,9 @@
       "ko": "아계(我界)"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Sara",
     "tags": [
       "Talent",
@@ -1987,6 +2278,9 @@
       "ko": "수천수만의 염원"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Shougun",
     "tags": [
       "Talent",
@@ -2007,6 +2301,9 @@
       "ko": "히모로기의 그늘"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Yae",
     "tags": [
       "Talent",
@@ -2027,6 +2324,9 @@
       "ko": "펄스의 마녀"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Lisa",
     "tags": [
       "Talent"
@@ -2046,6 +2346,9 @@
       "ko": "적자 보충"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Dori",
     "tags": [
       "Talent",
@@ -2066,6 +2369,9 @@
       "ko": "나약을 떨쳐내는 마음"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Shinobu",
     "tags": [
       "Talent",
@@ -2086,6 +2392,9 @@
       "ko": "밤을 가르는 불꽃"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Clorinde",
     "tags": [
       "Talent",
@@ -2106,6 +2415,9 @@
       "ko": "순환하는 태양의 파일론"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Sethos",
     "tags": [
       "Talent"
@@ -2125,6 +2437,9 @@
       "ko": "「비옥한 터전」의 가르침"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Iansan",
     "tags": [
       "Talent",
@@ -2145,6 +2460,9 @@
       "ko": "히어로의 승리"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Varesa",
     "tags": [
       "Talent"
@@ -2164,6 +2482,9 @@
       "ko": "숲 안개 속 행적"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Olorun",
     "tags": [
       "Talent"
@@ -2183,6 +2504,9 @@
       "ko": "정류 회로"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Ineffa",
     "tags": [
       "Talent"
@@ -2202,6 +2526,9 @@
       "ko": "걷힌 눈의 장막"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Flins",
     "tags": [
       "Talent"
@@ -2221,6 +2548,9 @@
       "ko": "혼돈의 엔트로피"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Sucrose",
     "tags": [
       "Talent",
@@ -2241,6 +2571,9 @@
       "ko": "민들레의 국토"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Qin",
     "tags": [
       "Talent",
@@ -2261,6 +2594,9 @@
       "ko": "여풍의 포옹"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Venti",
     "tags": [
       "Talent",
@@ -2280,6 +2616,9 @@
       "ja": "風を讃えて"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Venti",
     "tags": [
       "Talent",
@@ -2300,6 +2639,9 @@
       "ko": "항마·호법야차"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Xiao",
     "tags": [
       "Talent",
@@ -2320,6 +2662,9 @@
       "ko": "바람 속 시 낭송"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Kazuha",
     "tags": [
       "Talent",
@@ -2340,6 +2685,9 @@
       "ko": "몽상의 바람"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Wanderer",
     "tags": [
       "Talent",
@@ -2360,6 +2708,9 @@
       "ko": "새로운 농땡이 방법"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Sayu",
     "tags": [
       "Talent",
@@ -2380,6 +2731,9 @@
       "ko": "서늘한 그림자 검"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Linette",
     "tags": [
       "Talent",
@@ -2400,6 +2754,9 @@
       "ko": "진리로 통하는 길"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Faruzan",
     "tags": [
       "Talent",
@@ -2420,6 +2777,9 @@
       "ko": "류운 선인!"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Liuyun",
     "tags": [
       "Talent",
@@ -2440,6 +2800,9 @@
       "ko": "총알 트릭"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Chasca",
     "tags": [
       "Talent",
@@ -2460,6 +2823,9 @@
       "ko": "옥빛 무지개를 그리며 춤추고"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Lanyan",
     "tags": [
       "Talent",
@@ -2480,6 +2846,9 @@
       "ko": "기상천외 사건 기록부"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Heizo",
     "tags": [
       "Talent",
@@ -2500,6 +2869,9 @@
       "ko": "그대 꿈속에서 본"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Mizuki",
     "tags": [
       "Talent",
@@ -2520,6 +2892,9 @@
       "ko": "온열 요법"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Ifa",
     "tags": [
       "Talent"
@@ -2538,6 +2913,9 @@
       "ja": "アンダーグラウンドの悪知恵"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Jahoda",
     "tags": [
       "Talent",
@@ -2558,6 +2936,9 @@
       "ko": "사전 준비"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Ningguang",
     "tags": [
       "Talent",
@@ -2578,6 +2959,9 @@
       "ko": "지원은 저한테 맡기세요"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Noel",
     "tags": [
       "Talent",
@@ -2598,6 +2982,9 @@
       "ko": "호의호식"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Zhongli",
     "tags": [
       "Talent",
@@ -2618,6 +3005,9 @@
       "ko": "신성의 추락"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Albedo",
     "tags": [
       "Talent",
@@ -2638,6 +3028,9 @@
       "ko": "아라타키 제일"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Itto",
     "tags": [
       "Talent",
@@ -2658,6 +3051,9 @@
       "ko": "달리는 강아지·바람처럼 빠르게"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Gorou",
     "tags": [
       "Talent",
@@ -2678,6 +3074,9 @@
       "ko": "장엄하고 익살스러운 노랫소리"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Yunjin",
     "tags": [
       "Talent",
@@ -2698,6 +3097,9 @@
       "ko": "비밀 유통 경로"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Navia",
     "tags": [
       "Talent",
@@ -2718,6 +3120,9 @@
       "ko": "오색 염색"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Chiori",
     "tags": [
       "Talent",
@@ -2738,6 +3143,9 @@
       "ko": "밤 영역의 선물·노심 단결"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Kachina",
     "tags": [
       "Talent"
@@ -2757,6 +3165,9 @@
       "ko": "산으로 번지는 단조의 불"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Xilonen",
     "tags": [
       "Talent",
@@ -2777,6 +3188,9 @@
       "ko": "되돌아오는 잎새"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Collei",
     "tags": [
       "Talent",
@@ -2797,6 +3211,9 @@
       "ko": "예리한 안목"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Tighnari",
     "tags": [
       "Talent",
@@ -2817,6 +3234,9 @@
       "ko": "지혜를 머금은 씨앗"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Tighnari",
     "tags": [
       "Talent",
@@ -2837,6 +3257,9 @@
       "ko": "자애롭고 어진 마음"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Yaoyao",
     "tags": [
       "Talent",
@@ -2857,6 +3280,9 @@
       "ko": "변화의 법칙"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Baizhuer",
     "tags": [
       "Talent",
@@ -2877,6 +3303,9 @@
       "ko": "정리"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Constellation_Alhatham",
     "tags": [
       "Talent",
@@ -2897,6 +3326,9 @@
       "ko": "배송 중의 경치"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Momoka",
     "tags": [
       "Talent",
@@ -2917,6 +3349,9 @@
       "ko": "예산의 마술사"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Kaveh",
     "tags": [
       "Talent",
@@ -2937,6 +3372,9 @@
       "ko": "밤 영역의 선물·마땅한 대가"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Kinich",
     "tags": [
       "Talent"
@@ -2956,6 +3394,9 @@
       "ko": "마코트 베이스 노트"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Emilie",
     "tags": [
       "Talent"
@@ -2975,6 +3416,9 @@
       "ko": "「입술이여, 나를 위해 시와 노래로」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Lauma",
     "tags": [
       "Talent",
@@ -2995,6 +3439,9 @@
       "ko": "거머쥔 역전의 승리"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Nefer",
     "tags": [
       "Talent"
@@ -3014,6 +3461,9 @@
       "ko": "얼음 치친의 서늘한 빛"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_MageIce",
     "tags": [
       "Talent",
@@ -3034,6 +3484,9 @@
       "ko": "고통 반환"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_LaSignora",
     "tags": [
       "Talent"
@@ -3053,6 +3506,9 @@
       "ko": "서리 프리즘 결정"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_EffigyIce",
     "tags": [
       "Talent"
@@ -3072,6 +3528,9 @@
       "ko": "우아한 얼음 레이피어"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_EscadronIce",
     "tags": [
       "Talent",
@@ -3092,6 +3551,9 @@
       "ko": "색채의 흐름"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Udugan",
     "tags": [
       "Talent"
@@ -3111,6 +3573,9 @@
       "ko": "세찬 격류"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Chunshui",
     "tags": [
       "Talent",
@@ -3131,6 +3596,9 @@
       "ko": "거울의 속박"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Maidenwater",
     "tags": [
       "Talent",
@@ -3151,6 +3619,9 @@
       "ko": "솟구치는 암류"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_InvokerHeraldWater",
     "tags": [
       "Talent"
@@ -3170,6 +3641,9 @@
       "ko": "빛 없는 포식자"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Ptahur",
     "tags": [
       "Talent",
@@ -3190,6 +3664,9 @@
       "ko": "경쾌한 물거품"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_HilistrayWater",
     "tags": [
       "Talent",
@@ -3210,6 +3687,9 @@
       "ko": "합류"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Narcissusborn",
     "tags": [
       "Talent"
@@ -3229,6 +3709,9 @@
       "ko": "거센 죽음의 파도"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_GatorSacred",
     "tags": [
       "Talent"
@@ -3246,6 +3729,9 @@
       "zh": "诡谲恶浪"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_EffigyWater",
     "tags": [
       "Talent"
@@ -3265,6 +3751,9 @@
       "ko": "전부 되돌려주지"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_FatuiPyroAgent",
     "tags": [
       "Talent",
@@ -3285,6 +3774,9 @@
       "ko": "다시 타오른 잿불"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_DeaconFire",
     "tags": [
       "Talent"
@@ -3304,6 +3796,9 @@
       "ko": "전갈의 큰 재앙"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Muscleman",
     "tags": [
       "Talent",
@@ -3324,6 +3819,9 @@
       "ko": "용암철갑"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_HermitCrabPrimo",
     "tags": [
       "Talent"
@@ -3343,6 +3841,9 @@
       "ko": "타오르는 분노"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_TheAbyssXiuhcoatl",
     "tags": [
       "Talent"
@@ -3362,6 +3863,9 @@
       "ko": "「불꽃 주인의 축복」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_FlamingoPrimo",
     "tags": [
       "Talent",
@@ -3382,6 +3886,9 @@
       "ko": "에너지 흡수 결정"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Effigyelectric",
     "tags": [
       "Talent",
@@ -3403,6 +3910,9 @@
       "ko": "통곡의 메아리"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Raijin",
     "tags": [
       "Talent",
@@ -3423,6 +3933,9 @@
       "ko": "진주 응고"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_SeaHorsePrimo",
     "tags": [
       "Talent"
@@ -3442,6 +3955,9 @@
       "ko": "번개 치친의 섬광"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_FatuusSummoner",
     "tags": [
       "Talent",
@@ -3462,6 +3978,9 @@
       "ko": "응축된 죽음의 번개"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_ScorpionSacred",
     "tags": [
       "Talent"
@@ -3481,6 +4000,9 @@
       "ko": "침식 번개"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_InvokerElectric",
     "tags": [
       "Talent"
@@ -3500,6 +4022,9 @@
       "ko": "신통방통"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Ningyo",
     "tags": [
       "Talent",
@@ -3520,6 +4045,9 @@
       "ko": "파열의 소용돌이"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Dvalin",
     "tags": [
       "Talent",
@@ -3540,6 +4068,9 @@
       "ko": "휩쓰는 죽음의 바람"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_ChrysopeleaSacred",
     "tags": [
       "Talent"
@@ -3559,6 +4090,9 @@
       "ko": "「검은 재앙을 막은 고독한 바람…」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_DarkwraithWind",
     "tags": [
       "Talent",
@@ -3579,6 +4113,9 @@
       "ko": "재건: 바위 투구"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Rockbrute",
     "tags": [
       "Talent",
@@ -3599,6 +4136,9 @@
       "ko": "끝없는 회삭"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Dahaka",
     "tags": [
       "Talent",
@@ -3620,6 +4160,9 @@
       "ko": "이계 맹수의 침식"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Planelurker",
     "tags": [
       "Talent",
@@ -3640,6 +4183,9 @@
       "ko": "「검은 격류를 막은 반석…」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_DarkwraithRock",
     "tags": [
       "Talent",
@@ -3660,6 +4206,9 @@
       "ko": "중력장"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Gravitas",
     "tags": [
       "Talent"
@@ -3679,6 +4228,9 @@
       "ko": "포자 증식"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Fungusgrass",
     "tags": [
       "Talent",
@@ -3699,6 +4251,9 @@
       "ko": "수많은 자손"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Apep",
     "tags": [
       "Talent"
@@ -3718,6 +4273,9 @@
       "ko": "휘감는 영혼의 뱀"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_EremiteGrass",
     "tags": [
       "Talent",
@@ -3738,6 +4296,9 @@
       "ko": "탐욕스러운 포식"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_HookwalkerPrimo",
     "tags": [
       "Talent"
@@ -3757,6 +4318,9 @@
       "ko": "태양을 가린 죽음의 풀"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Talent_PantherSacred",
     "tags": [
       "Talent"
@@ -3776,6 +4340,9 @@
       "ko": "마도 서론"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_CatalystIntro",
     "tags": [
       "Weapon",
@@ -3796,6 +4363,9 @@
       "ko": "제례의 악장"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_CatalystFossil",
     "tags": [
       "Weapon",
@@ -3816,6 +4386,9 @@
       "ko": "천공의 두루마리"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_CatalystDvalin",
     "tags": [
       "Weapon",
@@ -3836,6 +4409,9 @@
       "ko": "떠오르는 천일 밤의 꿈"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Ayus",
     "tags": [
       "Weapon",
@@ -3856,6 +4432,9 @@
       "ko": "충만의 열매"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Arakalari",
     "tags": [
       "Weapon",
@@ -3876,6 +4455,9 @@
       "ko": "사풍 원서"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Yuandian",
     "tags": [
       "Weapon",
@@ -3896,6 +4478,9 @@
       "ko": "툴레이툴라의 기억"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Tulaidu",
     "tags": [
       "Weapon",
@@ -3916,6 +4501,9 @@
       "ko": "영원히 샘솟는 법전"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Wanshiliuyongdadian",
     "tags": [
       "Weapon",
@@ -3936,6 +4524,9 @@
       "ko": "현금 흐름 감독"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Jinliujiandu",
     "tags": [
       "Weapon",
@@ -3956,6 +4547,9 @@
       "ko": "순수한 달빛 물결"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_ChunShui",
     "tags": [
       "Weapon",
@@ -3976,6 +4570,9 @@
       "ko": "불멸의 달빛"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Bumieyuehua",
     "tags": [
       "Weapon",
@@ -3996,6 +4593,9 @@
       "ko": "별지기의 시선"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Jixing",
     "tags": [
       "Weapon",
@@ -4016,6 +4616,9 @@
       "ko": "까마귀깃 활"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_BowCrowfeather",
     "tags": [
       "Weapon",
@@ -4036,6 +4639,9 @@
       "ko": "제례활"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_BowFossil",
     "tags": [
       "Weapon",
@@ -4056,6 +4662,9 @@
       "ko": "천공의 날개"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_BowDvalin",
     "tags": [
       "Weapon",
@@ -4076,6 +4685,9 @@
       "ko": "아모스의 활"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Amos",
     "tags": [
       "Weapon",
@@ -4096,6 +4708,9 @@
       "ko": "종말 탄식의 노래"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Widsith",
     "tags": [
       "Weapon",
@@ -4116,6 +4731,9 @@
       "ko": "왕의 측근"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Wangxia",
     "tags": [
       "Weapon",
@@ -4136,6 +4754,9 @@
       "ko": "메마른 연못"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Jieze",
     "tags": [
       "Weapon",
@@ -4156,6 +4777,9 @@
       "ko": "약수"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_RuoShui",
     "tags": [
       "Weapon",
@@ -4176,6 +4800,9 @@
       "ko": "그물을 뚫는 화살"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Luowang",
     "tags": [
       "Weapon",
@@ -4196,6 +4823,9 @@
       "ko": "백철 대검"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_ClaymoreTin",
     "tags": [
       "Weapon",
@@ -4216,6 +4846,9 @@
       "ko": "제례 대검"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Fossil",
     "tags": [
       "Weapon",
@@ -4236,6 +4869,9 @@
       "ko": "늑대의 말로"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_ClaymoreWolfmound",
     "tags": [
       "Weapon",
@@ -4256,6 +4892,9 @@
       "ko": "천공의 긍지"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_ClaymoreDvalin",
     "tags": [
       "Weapon",
@@ -4276,6 +4915,9 @@
       "ko": "시간의 검"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Troupe",
     "tags": [
       "Weapon",
@@ -4296,6 +4938,9 @@
       "ko": "갈대 바다의 등대"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Xinbiao",
     "tags": [
       "Weapon",
@@ -4316,6 +4961,9 @@
       "ko": "숲의 리게일리어"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Shenlinwangqi",
     "tags": [
       "Weapon",
@@ -4336,6 +4984,9 @@
       "ko": "「슈퍼 울트라 패왕 마검」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_BaWangJian",
     "tags": [
       "Weapon",
@@ -4356,6 +5007,9 @@
       "ko": "휴대용 체인톱"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_DongliJu",
     "tags": [
       "Weapon",
@@ -4377,6 +5031,9 @@
       "ko": "불로 벼린 지혜"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Shihui",
     "tags": [
       "Weapon",
@@ -4397,6 +5054,9 @@
       "ko": "백술창"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_PoleRuby",
     "tags": [
       "Weapon",
@@ -4417,6 +5077,9 @@
       "ko": "천암장창"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_PoleLapis",
     "tags": [
       "Weapon",
@@ -4437,6 +5100,9 @@
       "ko": "천공의 마루"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_PoleDvalin",
     "tags": [
       "Weapon",
@@ -4457,6 +5123,9 @@
       "ko": "관홍의 창"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Kunwu",
     "tags": [
       "Weapon",
@@ -4477,6 +5146,9 @@
       "ko": "예초의 번개"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Narukami",
     "tags": [
       "Weapon",
@@ -4497,6 +5169,9 @@
       "ko": "달을 꿰뚫는 화살"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Guanyue",
     "tags": [
       "Weapon",
@@ -4517,6 +5192,9 @@
       "ko": "화박연"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Hepuyuan",
     "tags": [
       "Weapon",
@@ -4537,6 +5215,9 @@
       "ko": "공의의 보상"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Gongyichoubao",
     "tags": [
       "Weapon",
@@ -4557,6 +5238,9 @@
       "ko": "탐사용 드릴"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_KanTanQiang",
     "tags": [
       "Weapon",
@@ -4578,6 +5262,9 @@
       "ko": "여행자의 검"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_SwordDarker",
     "tags": [
       "Weapon",
@@ -4598,6 +5285,9 @@
       "ko": "제례검"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_SwordFossil",
     "tags": [
       "Weapon",
@@ -4618,6 +5308,9 @@
       "ko": "매의 검"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_SwordFalcon",
     "tags": [
       "Weapon",
@@ -4638,6 +5331,9 @@
       "ko": "천공의 검"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_SwordDvalin",
     "tags": [
       "Weapon",
@@ -4658,6 +5354,9 @@
       "ko": "페보니우스 검"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Xifengjian",
     "tags": [
       "Weapon",
@@ -4678,6 +5377,9 @@
       "ko": "잎을 가르는 빛"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Caiye",
     "tags": [
       "Weapon",
@@ -4698,6 +5400,9 @@
       "ko": "원목 검"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Yuanmu",
     "tags": [
       "Weapon",
@@ -4718,6 +5423,9 @@
       "ko": "고요히 샘솟는 빛"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_Jinshuiliuyong",
     "tags": [
       "Weapon",
@@ -4738,6 +5446,9 @@
       "ko": "뱃도랑 장검"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_ChuanwuJian",
     "tags": [
       "Weapon",
@@ -4759,6 +5470,9 @@
       "ko": "모험가의 머리띠"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_MaoxianjiaDanjian",
     "tags": [
       "Artifact"
@@ -4778,6 +5492,9 @@
       "ko": "행운아의 은관"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_XingyunerDanjian",
     "tags": [
       "Artifact"
@@ -4797,6 +5514,9 @@
       "ko": "떠돌이 의사의 두건"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_YouyiDanjian",
     "tags": [
       "Artifact"
@@ -4816,6 +5536,9 @@
       "ko": "노름꾼의 귀걸이"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_DutuDanjian",
     "tags": [
       "Artifact"
@@ -4835,6 +5558,9 @@
       "ko": "교관의 모자"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_JiaoguanDanjian",
     "tags": [
       "Artifact"
@@ -4854,6 +5580,9 @@
       "ko": "유배자의 머리장식"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_LiufangzheDanjian",
     "tags": [
       "Artifact"
@@ -4873,6 +5602,9 @@
       "ko": "화려한 투구"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Huashi",
     "tags": [
       "Artifact"
@@ -4892,6 +5624,9 @@
       "ko": "절연의 기치"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_JueyuanTaozhuang",
     "tags": [
       "Artifact"
@@ -4911,6 +5646,9 @@
       "ko": "장수의 투구"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Jiangshuai",
     "tags": [
       "Artifact"
@@ -4930,6 +5668,9 @@
       "ko": "견고한 천암"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_QianyanTaozhuang",
     "tags": [
       "Artifact"
@@ -4949,6 +5690,9 @@
       "ko": "번개의 자태"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_ChenshaDanjian",
     "tags": [
       "Artifact"
@@ -4968,6 +5712,9 @@
       "ko": "진사 왕생록"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_ChenshaTaozhuang",
     "tags": [
       "Artifact"
@@ -4987,6 +5734,9 @@
       "ko": "무상의 가면"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Zhuiyidanjian",
     "tags": [
       "Artifact"
@@ -5006,6 +5756,9 @@
       "ko": "추억의 시메나와"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_ZhuiyiTaozhuang",
     "tags": [
       "Artifact"
@@ -5025,6 +5778,9 @@
       "ko": "와타츠미의 왕관"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_HaiRanDanJian",
     "tags": [
       "Artifact"
@@ -5044,6 +5800,9 @@
       "ko": "바다에 물든 거대 조개"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Hairantaozhuang",
     "tags": [
       "Artifact"
@@ -5063,6 +5822,9 @@
       "ko": "모래왕의 그림자"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Chiwangdanjian",
     "tags": [
       "Artifact"
@@ -5082,6 +5844,9 @@
       "ko": "도금된 꿈"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Chiwangtao",
     "tags": [
       "Artifact"
@@ -5101,6 +5866,9 @@
       "ko": "추억의 보옥"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Yuxiang",
     "tags": [
       "Artifact"
@@ -5120,6 +5888,9 @@
       "ko": "제사의 여운"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Yuxiangtao",
     "tags": [
       "Artifact"
@@ -5139,6 +5910,9 @@
       "ko": "크바레나의 눈부신 심장"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Huashen",
     "tags": [
       "Artifact"
@@ -5158,6 +5932,9 @@
       "ko": "감로빛 꽃바다"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Huashentao",
     "tags": [
       "Artifact"
@@ -5177,6 +5954,9 @@
       "ko": "노병의 얼굴"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_LaobinDanjian",
     "tags": [
       "Artifact"
@@ -5196,6 +5976,9 @@
       "ko": "그림자 사냥꾼"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_ZhuYingDa",
     "tags": [
       "Artifact"
@@ -5215,6 +5998,9 @@
       "ko": "황금 극단의 보상"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_HuangjinjutuanXiaojian",
     "tags": [
       "Artifact"
@@ -5234,6 +6020,9 @@
       "ko": "황금 극단"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Huangjinjutuanda",
     "tags": [
       "Artifact"
@@ -5253,6 +6042,9 @@
       "ko": "자수정 화관"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Zijinghuaguan",
     "tags": [
       "Artifact"
@@ -5272,6 +6064,9 @@
       "ko": "잃어버린 낙원의 꽃"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_ZijinghuaguanDa",
     "tags": [
       "Artifact"
@@ -5291,6 +6086,9 @@
       "ko": "검투사의 개선"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_JiaoDouShiXiao",
     "tags": [
       "Artifact"
@@ -5310,6 +6108,9 @@
       "ko": "지휘의 탑 햇"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_DadiYuezhang",
     "tags": [
       "Artifact"
@@ -5329,6 +6130,9 @@
       "ko": "소녀의 꺾여가는 미모"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_XiaoShaoNv",
     "tags": [
       "Artifact"
@@ -5348,6 +6152,9 @@
       "ko": "마전사의 깃털 가면"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Mozhanshi",
     "tags": [
       "Artifact"
@@ -5367,6 +6174,9 @@
       "ko": "성자의 왕관"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Weapon_HeiyaoXiao",
     "tags": [
       "Artifact"
@@ -5386,6 +6196,9 @@
       "ko": "잿더미성 용사의 두루마리"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_JinchengYongzhe",
     "tags": [
       "Artifact"
@@ -5405,6 +6218,9 @@
       "ko": "주인 잃은 왕관"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Xiasi",
     "tags": [
       "Artifact"
@@ -5424,6 +6240,9 @@
       "ko": "영락한 공상의 왈츠"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Xielve",
     "tags": [
       "Artifact"
@@ -5443,6 +6262,9 @@
       "ko": "왕실의 가면"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_ZongShixiao",
     "tags": [
       "Artifact"
@@ -5462,6 +6284,9 @@
       "ko": "미완의 몽상"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_XiasiDa",
     "tags": [
       "Artifact"
@@ -5481,6 +6306,9 @@
       "ko": "조화로운 공상의 단편"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_XieLveDa",
     "tags": [
       "Artifact"
@@ -5500,6 +6328,9 @@
       "ko": "악룡의 단안경"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Shuixianxiao",
     "tags": [
       "Artifact"
@@ -5519,6 +6350,9 @@
       "ko": "옛 왕실의 의식"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_XiriZongshi",
     "tags": [
       "Artifact"
@@ -5538,6 +6372,9 @@
       "ko": "님프의 꿈"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_ShuixianDa",
     "tags": [
       "Artifact"
@@ -5557,6 +6394,9 @@
       "ko": "피로 물든 투구"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Changyexiao",
     "tags": [
       "Artifact"
@@ -5576,6 +6416,9 @@
       "ko": "검투사의 피날레"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_JuedoushiDa",
     "tags": [
       "Artifact"
@@ -5595,6 +6438,9 @@
       "ko": "빙설을 밟는 소리"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_BinDanjian",
     "tags": [
       "Artifact"
@@ -5614,6 +6460,9 @@
       "ko": "얼음바람 속에서 길잃은 용사"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_BinTaozhuang",
     "tags": [
       "Artifact"
@@ -5633,6 +6482,9 @@
       "ko": "술로 얼룩진 수병모"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Shuidanjian",
     "tags": [
       "Artifact"
@@ -5652,6 +6504,9 @@
       "ko": "몰락한 마음"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Shuitaozhuang",
     "tags": [
       "Artifact"
@@ -5671,6 +6526,9 @@
       "ko": "불타오르는 마녀 모자"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Monvdanjian",
     "tags": [
       "Artifact"
@@ -5690,6 +6548,9 @@
       "ko": "불타오르는 화염의 마녀"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Monvtaozhuang",
     "tags": [
       "Artifact"
@@ -5709,6 +6570,9 @@
       "ko": "번개를 부르는 모자"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Leidanjia",
     "tags": [
       "Artifact"
@@ -5728,6 +6592,9 @@
       "ko": "번개 같은 분노"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_Leitaozhuang",
     "tags": [
       "Artifact"
@@ -5747,6 +6614,9 @@
       "ko": "청록색 사냥꾼의 모자"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_FengDanjian",
     "tags": [
       "Artifact"
@@ -5766,6 +6636,9 @@
       "ko": "청록색 그림자"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_FengTaozhuang",
     "tags": [
       "Artifact"
@@ -5785,6 +6658,9 @@
       "ko": "부동현석의 상"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_YanDanjian",
     "tags": [
       "Artifact"
@@ -5804,6 +6680,9 @@
       "ko": "유구한 반암"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_YanTaozhuang",
     "tags": [
       "Artifact"
@@ -5823,6 +6702,9 @@
       "ko": "월계수 왕관"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_CaoDanjian",
     "tags": [
       "Artifact"
@@ -5842,6 +6724,9 @@
       "ko": "숲의 기억"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Artifact_CaoTaozhuang",
     "tags": [
       "Artifact"
@@ -5861,6 +6746,9 @@
       "ko": "이색 칼날 가오리"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Vehicle_LiedaoYao",
     "tags": [
       "Technique"
@@ -5880,6 +6768,9 @@
       "ko": "숲룡"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Vehicle_GouzhuaLong",
     "tags": [
       "Technique"
@@ -5899,6 +6790,9 @@
       "ko": "어룡"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Vehicle_QiyouLong",
     "tags": [
       "Technique"
@@ -5918,6 +6812,9 @@
       "ko": "산룡"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Vehicle_JifengLong",
     "tags": [
       "Technique"
@@ -5937,6 +6834,9 @@
       "ko": "명룡"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Vehicle_MingshiLong",
     "tags": [
       "Technique"
@@ -5956,6 +6856,9 @@
       "ko": "깃룡"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Vehicle_RongyiLong",
     "tags": [
       "Technique"
@@ -5975,6 +6878,9 @@
       "ko": "파도 배"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Vehicle_LangChuan",
     "tags": [
       "Technique"
@@ -5994,6 +6900,9 @@
       "ko": "뿔룡"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Vehicle_TujiaoLong",
     "tags": [
       "Technique"
@@ -6013,6 +6922,9 @@
       "ko": "꺄! 꺄!"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Vehicle_Xiaokonglong",
     "tags": [
       "Technique"
@@ -6032,6 +6944,9 @@
       "ko": "탱탱 물범"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Modify_Vehicle_Pengpenshou",
     "tags": [
       "Technique"
@@ -6051,6 +6966,9 @@
       "ko": "리월항"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_LiyueHarbor",
     "tags": [
       "Location"
@@ -6070,6 +6988,9 @@
       "ko": "기사단 도서관"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_MdLibrary",
     "tags": [
       "Location"
@@ -6089,6 +7010,9 @@
       "ko": "군옥각"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Qunyuge",
     "tags": [
       "Location"
@@ -6108,6 +7032,9 @@
       "ko": "다운 와이너리"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Chenxijiuzhuang",
     "tags": [
       "Location"
@@ -6127,6 +7054,9 @@
       "ko": "망서 객잔"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Wangshukezhan",
     "tags": [
       "Location"
@@ -6146,6 +7076,9 @@
       "ko": "페보니우스 대성당"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_FavoniusChurch",
     "tags": [
       "Location"
@@ -6165,6 +7098,9 @@
       "ko": "천수각"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Tianshou",
     "tags": [
       "Location"
@@ -6184,6 +7120,9 @@
       "ko": "나루카미 다이샤"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Mingshendashe",
     "tags": [
       "Location"
@@ -6203,6 +7142,9 @@
       "ko": "산호궁"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Shanhu",
     "tags": [
       "Location"
@@ -6222,6 +7164,9 @@
       "ko": "수메르성"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Xumi",
     "tags": [
       "Location"
@@ -6241,6 +7186,9 @@
       "ko": "바나라나"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Hengna",
     "tags": [
       "Location"
@@ -6260,6 +7208,9 @@
       "ko": "진수의 숲"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Zhengshoui",
     "tags": [
       "Location"
@@ -6279,6 +7230,9 @@
       "ko": "황금옥"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Huangjinwu",
     "tags": [
       "Location"
@@ -6298,6 +7252,9 @@
       "ko": "간다르바 성곽"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Gandharva",
     "tags": [
       "Location"
@@ -6317,6 +7274,9 @@
       "ko": "바람 드래곤의 폐허"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Fenglong",
     "tags": [
       "Location"
@@ -6336,6 +7296,9 @@
       "ko": "호수 위 버드나무"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Chuiliu",
     "tags": [
       "Location"
@@ -6355,6 +7318,9 @@
       "ko": "에피클레스 오페라 하우스"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Gejuyuan",
     "tags": [
       "Location"
@@ -6374,6 +7340,9 @@
       "ko": "메로피드 요새"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_BideBao",
     "tags": [
       "Location"
@@ -6393,6 +7362,9 @@
       "ko": "세이라이섬"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Qinglaidao",
     "tags": [
       "Location"
@@ -6412,6 +7384,9 @@
       "ko": "적왕의 무덤"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_ChiWangLin",
     "tags": [
       "Location"
@@ -6431,6 +7406,9 @@
       "ko": "중앙 실험실 유적"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_FontaineSci",
     "tags": [
       "Location"
@@ -6450,6 +7428,9 @@
       "ko": "성화 경기장"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_JingjiChang",
     "tags": [
       "Location"
@@ -6469,6 +7450,9 @@
       "ko": "테페틀 무대"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_DouWuTai",
     "tags": [
       "Location"
@@ -6488,6 +7472,9 @@
       "ko": "「나무살이」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_XuanmuRen",
     "tags": [
       "Location"
@@ -6507,6 +7494,9 @@
       "ko": "「샘물 무리」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_LiuQuan",
     "tags": [
       "Location"
@@ -6526,6 +7516,9 @@
       "ko": "「꽃깃회」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_HuaYu",
     "tags": [
       "Location"
@@ -6545,6 +7538,9 @@
       "ko": "「연기 주인」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_YanmiZhu",
     "tags": [
       "Location"
@@ -6564,6 +7560,9 @@
       "ko": "「비옥한 터전」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Woluzhibang",
     "tags": [
       "Location"
@@ -6583,6 +7582,9 @@
       "ko": "잉크빛 주점"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_MoseJiuguan",
     "tags": [
       "Location"
@@ -6602,6 +7604,9 @@
       "ko": "별길 왕성"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_XinguiWangcheng",
     "tags": [
       "Location"
@@ -6621,6 +7626,9 @@
       "ko": "모험가 길드"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Gonghui",
     "tags": [
       "Location"
@@ -6640,6 +7648,9 @@
       "ko": "달빛 정원"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Huatian",
     "tags": [
       "Location"
@@ -6659,6 +7670,9 @@
       "ko": "조석 인장석"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_KuangLie",
     "tags": [
       "Location"
@@ -6678,6 +7692,9 @@
       "ko": "서리달 마을"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Shuangyue",
     "tags": [
       "Location"
@@ -6697,6 +7714,9 @@
       "ko": "나샤 마을"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Naxiazhen",
     "tags": [
       "Location"
@@ -6716,6 +7736,9 @@
       "ko": "달의 힘 실험설계국"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Yurenzhong",
     "tags": [
       "Location"
@@ -6735,6 +7758,9 @@
       "ko": "악몽의 징조"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Emeng",
     "tags": [
       "Location"
@@ -6754,6 +7780,9 @@
       "ko": "페이몬"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Paimon",
     "tags": [
       "Companion"
@@ -6773,6 +7802,9 @@
       "ko": "캐서린"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Katheryne",
     "tags": [
       "Companion"
@@ -6792,6 +7824,9 @@
       "ko": "데마로우스"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Timaeus",
     "tags": [
       "Companion"
@@ -6811,6 +7846,9 @@
       "ko": "바그너"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Wagner",
     "tags": [
       "Companion"
@@ -6830,6 +7868,9 @@
       "ko": "묘 사부"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Maoshifu",
     "tags": [
       "Companion"
@@ -6849,6 +7890,9 @@
       "ko": "포롱이"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_AYuan",
     "tags": [
       "Companion"
@@ -6868,6 +7912,9 @@
       "ko": "티미"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Timmy",
     "tags": [
       "Companion"
@@ -6887,6 +7934,9 @@
       "ko": "본이"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_LiBen",
     "tags": [
       "Companion"
@@ -6906,6 +7956,9 @@
       "ko": "상구야"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Changjiuye",
     "tags": [
       "Companion"
@@ -6925,6 +7978,9 @@
       "ko": "엘린"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Aileen",
     "tags": [
       "Companion"
@@ -6944,6 +8000,9 @@
       "ko": "전달변"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Tiantiezui",
     "tags": [
       "Companion"
@@ -6963,6 +8022,9 @@
       "ko": "유소"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Liusu",
     "tags": [
       "Companion"
@@ -6982,6 +8044,9 @@
       "ko": "하나치루사토"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Huasanli",
     "tags": [
       "Companion"
@@ -7001,6 +8066,9 @@
       "ko": "쿠지라이"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Yingjin",
     "tags": [
       "Companion"
@@ -7020,6 +8088,9 @@
       "ko": "동욱"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Xudong",
     "tags": [
       "Companion"
@@ -7039,6 +8110,9 @@
       "ko": "두냐르자드"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Dina",
     "tags": [
       "Companion"
@@ -7058,6 +8132,9 @@
       "ko": "라나"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Lana",
     "tags": [
       "Companion"
@@ -7077,6 +8154,9 @@
       "ko": "장 씨"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Laozhang",
     "tags": [
       "Companion"
@@ -7096,6 +8176,9 @@
       "ko": "세타르"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Saileita",
     "tags": [
       "Companion"
@@ -7115,6 +8198,9 @@
       "ko": "야요이 나나츠키"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Yayoyi",
     "tags": [
       "Companion"
@@ -7134,6 +8220,9 @@
       "ko": "마메흐"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Mamere",
     "tags": [
       "Companion"
@@ -7153,6 +8242,9 @@
       "ko": "제트"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Jeht",
     "tags": [
       "Companion"
@@ -7172,6 +8264,9 @@
       "ko": "실버와 마르시악"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Silver",
     "tags": [
       "Companion"
@@ -7191,6 +8286,9 @@
       "ko": "타로마루"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Taroumaru",
     "tags": [
       "Companion"
@@ -7210,6 +8308,9 @@
       "ko": "흰 장갑과 어부"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Baishoutao",
     "tags": [
       "Companion",
@@ -7230,6 +8331,9 @@
       "ko": "아르튀르 씨"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_MrArthur",
     "tags": [
       "Companion"
@@ -7249,6 +8353,9 @@
       "ko": "세린"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Seling",
     "tags": [
       "Companion"
@@ -7268,6 +8375,9 @@
       "ko": "아테아"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_AimiTa",
     "tags": [
       "Companion"
@@ -7287,6 +8397,9 @@
       "ko": "숲의 축복"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_ZhezhiJiazu",
     "tags": [
       "Companion"
@@ -7306,6 +8419,9 @@
       "ko": "예언의 여신의 선물"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_JimuRen",
     "tags": [
       "Companion"
@@ -7325,6 +8441,9 @@
       "ko": "시모어"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Ximoer",
     "tags": [
       "Companion"
@@ -7344,6 +8463,9 @@
       "ko": "파우나와 「터키석」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Bona",
     "tags": [
       "Companion"
@@ -7363,6 +8485,9 @@
       "ko": "르핀 폴린"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_LPBL",
     "tags": [
       "Companion",
@@ -7383,6 +8508,9 @@
       "ko": "네토치카"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_NPC_Nieduoqika",
     "tags": [
       "Companion"
@@ -7402,6 +8530,9 @@
       "ko": "매개 변수 변환기"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Prop_ParametricTransformer",
     "tags": [
       "Item"
@@ -7421,6 +8552,9 @@
       "ko": "영양키트"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Prop_NREMenu",
     "tags": [
       "Item"
@@ -7440,6 +8574,9 @@
       "ko": "붉은 깃털 부채"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Prop_Hongye",
     "tags": [
       "Item"
@@ -7459,6 +8596,9 @@
       "ko": "보물 찾는 선령"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Prop_Xunbao",
     "tags": [
       "Item"
@@ -7478,6 +8618,9 @@
       "ko": "씨앗 함"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Prop_Seedbox",
     "tags": [
       "Item"
@@ -7497,6 +8640,9 @@
       "ko": "기억의 렌즈"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Prop_Mirror",
     "tags": [
       "Item"
@@ -7516,6 +8662,9 @@
       "ko": "유명석 촉매"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Prop_Liumingshi",
     "tags": [
       "Item"
@@ -7535,6 +8684,9 @@
       "ko": "쿠사바"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Prop_KuSheHeng",
     "tags": [
       "Item"
@@ -7554,6 +8706,9 @@
       "ko": "과거의 정원"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Jiangjun",
     "tags": [
       "Arcane Legend",
@@ -7574,6 +8729,9 @@
       "ko": "반암의 계약"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Chuanglong",
     "tags": [
       "Arcane Legend",
@@ -7594,6 +8752,9 @@
       "ko": "기쁨의 축제"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Qingdian",
     "tags": [
       "Arcane Legend",
@@ -7614,6 +8775,9 @@
       "ko": "새로운 자유의 바람"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Xinfeng",
     "tags": [
       "Arcane Legend",
@@ -7634,6 +8798,9 @@
       "ko": "온 세상의 부뚜막"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Guobahelp",
     "tags": [
       "Arcane Legend",
@@ -7654,6 +8821,9 @@
       "ko": "판결의 때"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Xuanpanyouzui",
     "tags": [
       "Arcane Legend",
@@ -7674,6 +8844,9 @@
       "ko": "투쟁의 날·깨진 꿈의 순간"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Fankang",
     "tags": [
       "Arcane Legend",
@@ -7694,6 +8867,9 @@
       "ko": "지난날의 격전"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_LeiShenZhan",
     "tags": [
       "Arcane Legend",
@@ -7714,6 +8890,9 @@
       "ko": "사면 선고"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Wuzui",
     "tags": [
       "Arcane Legend",
@@ -7734,6 +8913,9 @@
       "ko": "불이 돌아온 밤의 순례"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_ShenyeXunli",
     "tags": [
       "Arcane Legend",
@@ -7754,6 +8936,9 @@
       "ko": "「죽음」을 위한 전투"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Yongye",
     "tags": [
       "Arcane Legend",
@@ -7774,6 +8959,9 @@
       "ko": "「사막에 전해져오는 이야기」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Dacishuwang",
     "tags": [
       "Arcane Legend",
@@ -7794,6 +8982,9 @@
       "ko": "서리달의 저편"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Yueyuwu",
     "tags": [
       "Arcane Legend",
@@ -7814,6 +9005,9 @@
       "ko": "원소 변환: 초전도 축복"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Resonance_IceElec",
     "tags": [
       "Elemental Transfiguration",
@@ -7834,6 +9028,9 @@
       "ko": "원소 변환: 증발 축복"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Resonance_WaterFire",
     "tags": [
       "Elemental Transfiguration",
@@ -7854,6 +9051,9 @@
       "ko": "원소 변환: 개화 축복"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Resonance_WaterGrass",
     "tags": [
       "Elemental Transfiguration",
@@ -7874,6 +9074,9 @@
       "ko": "원소 변환: 불바위 축복"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Resonance_FireRock",
     "tags": [
       "Elemental Transfiguration",
@@ -7894,6 +9097,9 @@
       "ko": "원소 변환: 얼음풀 축복"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Resonance_IceGrass",
     "tags": [
       "Elemental Transfiguration",
@@ -7914,6 +9120,9 @@
       "ko": "원소 변환: 번개바람 축복"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Resonance_WindElec",
     "tags": [
       "Elemental Transfiguration",
@@ -7934,6 +9143,9 @@
       "ko": "원소 변환: 물바람 축복"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Resonance_WaterWind",
     "tags": [
       "Elemental Transfiguration",
@@ -7954,6 +9166,9 @@
       "ko": "원소 변환: 번개풀 축복"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Resonance_ElecGrass",
     "tags": [
       "Elemental Transfiguration",
@@ -7974,6 +9189,9 @@
       "ko": "원소 공명: 뒤엉킨 얼음"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_ResonanceB_Ice",
     "tags": [
       "Elemental Resonance"
@@ -7993,6 +9211,9 @@
       "ko": "원소 공명: 분쇄의 얼음"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_ResonanceA_Ice",
     "tags": [
       "Elemental Resonance"
@@ -8012,6 +9233,9 @@
       "ko": "원소 공명: 뒤엉킨 물"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_ResonanceB_Water",
     "tags": [
       "Elemental Resonance"
@@ -8031,6 +9255,9 @@
       "ko": "원소 공명: 치유의 물"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_ResonanceA_Water",
     "tags": [
       "Elemental Resonance"
@@ -8050,6 +9277,9 @@
       "ko": "원소 공명: 뒤엉킨 불"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_ResonanceB_Fire",
     "tags": [
       "Elemental Resonance"
@@ -8069,6 +9299,9 @@
       "ko": "원소 공명: 열정의 불"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_ResonanceA_Fire",
     "tags": [
       "Elemental Resonance"
@@ -8088,6 +9321,9 @@
       "ko": "원소 공명: 뒤엉킨 번개"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_ResonanceB_Electric",
     "tags": [
       "Elemental Resonance"
@@ -8107,6 +9343,9 @@
       "ko": "원소 공명: 고에너지의 번개"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_ResonanceA_Electric",
     "tags": [
       "Elemental Resonance"
@@ -8126,6 +9365,9 @@
       "ko": "원소 공명: 뒤엉킨 바람"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_ResonanceB_Wind",
     "tags": [
       "Elemental Resonance"
@@ -8145,6 +9387,9 @@
       "ko": "원소 공명: 신속의 바람"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_ResonanceA_Wind",
     "tags": [
       "Elemental Resonance"
@@ -8164,6 +9409,9 @@
       "ko": "원소 공명: 뒤엉킨 바위"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_ResonanceB_Rock",
     "tags": [
       "Elemental Resonance"
@@ -8183,6 +9431,9 @@
       "ko": "원소 공명: 부동의 바위"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_ResonanceA_Rock",
     "tags": [
       "Elemental Resonance"
@@ -8202,6 +9453,9 @@
       "ko": "원소 공명: 뒤엉킨 풀"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_ResonanceB_Grass",
     "tags": [
       "Elemental Resonance"
@@ -8221,6 +9475,9 @@
       "ko": "원소 공명: 만생의 풀"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_ResonanceA_Grass",
     "tags": [
       "Elemental Resonance"
@@ -8240,6 +9497,9 @@
       "ko": "달빛 징조·보름"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Resonance_Moon",
     "tags": [
       "Elemental Resonance"
@@ -8259,6 +9519,9 @@
       "ko": "바람과 자유"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Fengyuziyou",
     "tags": [],
     "playableCharacter": null,
@@ -8276,6 +9539,9 @@
       "ko": "바위와 계약"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Yanyuqiyue",
     "tags": [],
     "playableCharacter": null,
@@ -8293,6 +9559,9 @@
       "ko": "번개와 영원"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Leiyuyongheng",
     "tags": [],
     "playableCharacter": null,
@@ -8310,6 +9579,9 @@
       "ko": "풀과 지혜"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Caoyuzhihui",
     "tags": [],
     "playableCharacter": null,
@@ -8327,6 +9599,9 @@
       "ko": "물과 정의"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_WaterJustice",
     "tags": [],
     "playableCharacter": null,
@@ -8344,6 +9619,9 @@
       "ko": "불과 전쟁"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_FireWar",
     "tags": [],
     "playableCharacter": null,
@@ -8361,6 +9639,9 @@
       "ko": "달과 고향"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Yueyuleyuan",
     "tags": [],
     "playableCharacter": null,
@@ -8378,6 +9659,9 @@
       "ko": "최고의 파트너!"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_BestAibo",
     "tags": [],
     "playableCharacter": null,
@@ -8395,6 +9679,9 @@
       "ko": "근무 교대 시간"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Huanbanshijian",
     "tags": [],
     "playableCharacter": null,
@@ -8412,6 +9699,9 @@
       "ko": "건곤일척"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Yizhiqiankun",
     "tags": [],
     "playableCharacter": null,
@@ -8429,6 +9719,9 @@
       "ko": "전략 구상"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Yunchouweiwo",
     "tags": [],
     "playableCharacter": null,
@@ -8446,6 +9739,9 @@
       "ko": "이 몸은 아직 지지 않았어!"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Bendayehaimeiyoushu",
     "tags": [],
     "playableCharacter": null,
@@ -8463,6 +9759,9 @@
       "ko": "제게 맡기세요!"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Jiaogeiwoba",
     "tags": [],
     "playableCharacter": null,
@@ -8480,6 +9779,9 @@
       "ko": "학이 돌아올 때"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Heguizhishi",
     "tags": [],
     "playableCharacter": null,
@@ -8497,6 +9799,9 @@
       "ko": "별하늘의 징조"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Xingtian",
     "tags": [],
     "playableCharacter": null,
@@ -8514,6 +9819,9 @@
       "ko": "백악의 술법"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Baiezhishu",
     "tags": [],
     "playableCharacter": null,
@@ -8531,6 +9839,9 @@
       "ko": "무예 마스터리"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Zhuwujingtong",
     "tags": [],
     "playableCharacter": null,
@@ -8548,6 +9859,9 @@
       "ko": "성물 안치 축사"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Shenbaoqiangongzhuci",
     "tags": [],
     "playableCharacter": null,
@@ -8565,6 +9879,9 @@
       "ko": "빠른 바느질 기술"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Kuaikuaifengbushu",
     "tags": [],
     "playableCharacter": null,
@@ -8582,6 +9899,9 @@
       "ko": "널 저세상으로 데려다줄게"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Songniyicheng",
     "tags": [],
     "playableCharacter": null,
@@ -8599,6 +9919,9 @@
       "ko": "호법의 맹세"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Hufazhishi",
     "tags": [],
     "playableCharacter": null,
@@ -8616,6 +9939,9 @@
       "ko": "심연의 부름"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Abyssdehuhuan",
     "tags": [],
     "playableCharacter": null,
@@ -8633,6 +9959,9 @@
       "ko": "우인단의 음모"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Yurenzhongi",
     "tags": [],
     "playableCharacter": null,
@@ -8650,6 +9979,9 @@
       "ko": "낙하 베기"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Xialuo",
     "tags": [
       "Combat Action"
@@ -8669,6 +10001,9 @@
       "ko": "강한 공격"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Zhonggongji",
     "tags": [],
     "playableCharacter": null,
@@ -8686,6 +10021,9 @@
       "ko": "바네사 전기"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Wennisha",
     "tags": [],
     "playableCharacter": null,
@@ -8703,6 +10041,9 @@
       "ko": "영원한 우정"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Yongyuandeyouyi",
     "tags": [],
     "playableCharacter": null,
@@ -8720,6 +10061,9 @@
       "ko": "위대한 꿈의 멜로디"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Dameng",
     "tags": [],
     "playableCharacter": null,
@@ -8737,6 +10081,9 @@
       "ko": "장봉은 어디 있는 거야"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Cangfen",
     "tags": [],
     "playableCharacter": null,
@@ -8754,6 +10101,9 @@
       "ko": "격투기!"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Heiquan",
     "tags": [],
     "playableCharacter": null,
@@ -8771,6 +10121,9 @@
       "ko": "현음의 시"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Wangfu",
     "tags": [],
     "playableCharacter": null,
@@ -8788,6 +10141,9 @@
       "ko": "멧돼지 공주"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Yezhu",
     "tags": [],
     "playableCharacter": null,
@@ -8805,6 +10161,9 @@
       "ko": "추락과 계기"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Tanta",
     "tags": [],
     "playableCharacter": null,
@@ -8822,6 +10181,9 @@
       "ko": "반짝이는 클로버 인장"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Siyeyin",
     "tags": [],
     "playableCharacter": null,
@@ -8839,6 +10201,9 @@
       "ko": "장치 주조 라인"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Fatiaoji",
     "tags": [],
     "playableCharacter": null,
@@ -8856,6 +10221,9 @@
       "ko": "순야타 꽃"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Ganluhua",
     "tags": [],
     "playableCharacter": null,
@@ -8873,6 +10241,9 @@
       "ko": "제어 가능한 위험 제거용 지향 폭발"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Kexueyuan",
     "tags": [],
     "playableCharacter": null,
@@ -8890,6 +10261,9 @@
       "ko": "바다 보물찾기"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Xunbao",
     "tags": [],
     "playableCharacter": null,
@@ -8907,6 +10281,9 @@
       "ko": "마술쇼 카운트다운: 3"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_MagicCount3",
     "tags": [],
     "playableCharacter": null,
@@ -8924,6 +10301,9 @@
       "ko": "「그 자식이 돈을 버는 게…」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_ZhuanQian",
     "tags": [],
     "playableCharacter": null,
@@ -8941,6 +10321,9 @@
       "ko": "짜잔!"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_DengDeng",
     "tags": [],
     "playableCharacter": null,
@@ -8958,6 +10341,9 @@
       "ko": "용 동료의 식사 시간"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_FeedDrogen",
     "tags": [],
     "playableCharacter": null,
@@ -8975,6 +10361,9 @@
       "ko": "도금 여단의 티타임"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Caxie",
     "tags": [],
     "playableCharacter": null,
@@ -8992,6 +10381,9 @@
       "ko": "강력한 서핑 파트너!"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_QiyouLong",
     "tags": [
       "Combat Action"
@@ -9011,6 +10403,9 @@
       "ko": "열소 충만"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Ransu",
     "tags": [],
     "playableCharacter": null,
@@ -9028,6 +10423,9 @@
       "ko": "꼬마 산룡! 보물 발견!"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_JifengLong",
     "tags": [],
     "playableCharacter": null,
@@ -9045,6 +10443,9 @@
       "ko": "극한의 정신"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_NiyeLong",
     "tags": [],
     "playableCharacter": null,
@@ -9062,6 +10463,9 @@
       "ko": "수면 명상술"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_MingshiLong",
     "tags": [],
     "playableCharacter": null,
@@ -9079,6 +10483,9 @@
       "ko": "비행 부대 출격!"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_RongyiLong",
     "tags": [],
     "playableCharacter": null,
@@ -9096,6 +10503,9 @@
       "ko": "헬스의 성과"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_TujiaoLong",
     "tags": [],
     "playableCharacter": null,
@@ -9113,6 +10523,9 @@
       "ko": "수확 시간"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Olorun",
     "tags": [],
     "playableCharacter": null,
@@ -9130,6 +10543,9 @@
       "ko": "잘했어, 형씨!"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Ifa",
     "tags": [],
     "playableCharacter": null,
@@ -9147,6 +10563,9 @@
       "ko": "깨어난 「악룡」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Elong",
     "tags": [
       "Simulanka"
@@ -9166,6 +10585,9 @@
       "ko": "내레이션의 주석"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Pangbai",
     "tags": [
       "Simulanka"
@@ -9185,6 +10607,9 @@
       "ko": "부서진 바다"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Assist_Location_Elong2",
     "tags": [
       "Simulanka"
@@ -9204,6 +10629,9 @@
       "ko": "「마녀M의 축복」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_ElongCry",
     "tags": [
       "Simulanka"
@@ -9223,6 +10651,9 @@
       "ko": "「축제의 리듬」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Xilonen",
     "tags": [],
     "playableCharacter": null,
@@ -9240,6 +10671,9 @@
       "ko": "과거의 의식과 진심 어린 마음"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Fujin",
     "tags": [],
     "playableCharacter": null,
@@ -9257,6 +10691,9 @@
       "ko": "수선화 십자 대모험"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_ShuixianMaoxian",
     "tags": [],
     "playableCharacter": null,
@@ -9274,6 +10711,9 @@
       "ko": "세계 구원 계획"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Yagebu",
     "tags": [],
     "playableCharacter": null,
@@ -9291,6 +10731,9 @@
       "ko": "「새벽 안개를 넘어」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_TiansheChuan",
     "tags": [],
     "playableCharacter": null,
@@ -9308,6 +10751,9 @@
       "ko": "천재의 개조법"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Ainuo",
     "tags": [],
     "playableCharacter": null,
@@ -9325,6 +10771,9 @@
       "ko": "뚝딱뚝딱 군단"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_ROBO",
     "tags": [],
     "playableCharacter": null,
@@ -9342,6 +10791,9 @@
       "ko": "청소 시간"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Ineffa",
     "tags": [],
     "playableCharacter": null,
@@ -9359,6 +10811,9 @@
       "ko": "미니 버섯몬 판타지"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Dongwu",
     "tags": [],
     "playableCharacter": null,
@@ -9376,6 +10831,9 @@
       "ko": "과학 연구의 원동력"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Keyan",
     "tags": [],
     "playableCharacter": null,
@@ -9392,6 +10850,9 @@
       "ja": "「魔女の課題」"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_Modao",
     "tags": [],
     "playableCharacter": null,
@@ -9407,6 +10868,9 @@
       "zh": "齐聚共饮"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Event_XumiFriend",
     "tags": [],
     "playableCharacter": null,
@@ -9424,6 +10888,9 @@
       "ko": "절운 누룽지"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Jueyunguoba",
     "tags": [
       "Food"
@@ -9443,6 +10910,9 @@
       "ko": "선도장"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_XTQ",
     "tags": [
       "Food"
@@ -9462,6 +10932,9 @@
       "ko": "연꽃 파이"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Lianhuasu",
     "tags": [
       "Food"
@@ -9481,6 +10954,9 @@
       "ko": "북극 훈제 닭"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Beidiyanxunji",
     "tags": [
       "Food"
@@ -9500,6 +10976,9 @@
       "ko": "달콤달콤 닭고기 스튜"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Huaniangji",
     "tags": [
       "Food"
@@ -9519,6 +10998,9 @@
       "ko": "몬드 감자전"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Tudoubin",
     "tags": [
       "Food"
@@ -9538,6 +11020,9 @@
       "ko": "버섯피자"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Kaomogupisa",
     "tags": [
       "Food"
@@ -9557,6 +11042,9 @@
       "ko": "민트 고기말이"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Bohejuan",
     "tags": [
       "Food"
@@ -9576,6 +11064,9 @@
       "ko": "티바트 달걀 프라이"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Jiandan",
     "tags": [
       "Food"
@@ -9595,6 +11086,9 @@
       "ko": "모둠 회"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Cishen",
     "tags": [
       "Food"
@@ -9614,6 +11108,9 @@
       "ko": "탄두리 치킨"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Tangduer",
     "tags": [
       "Food"
@@ -9633,6 +11130,9 @@
       "ko": "버터 크랩"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Huangyou",
     "tags": [
       "Food"
@@ -9652,6 +11152,9 @@
       "ko": "피시 앤 칩스"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Chips",
     "tags": [
       "Food"
@@ -9671,6 +11174,9 @@
       "ko": "버섯고기말이"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Matsutake",
     "tags": [
       "Food"
@@ -9690,6 +11196,9 @@
       "ko": "알록달록 마카롱"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Macarons",
     "tags": [
       "Food"
@@ -9709,6 +11218,9 @@
       "ko": "용용 쿠키"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_LonglongCookie",
     "tags": [
       "Food"
@@ -9728,6 +11240,9 @@
       "ko": "반짝이는 보석"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Baoshi",
     "tags": [
       "Food"
@@ -9747,6 +11262,9 @@
       "ko": "통통팝팝"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_DongDongPengPeng",
     "tags": [
       "Food"
@@ -9766,6 +11284,9 @@
       "ko": "온천의 맛"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_WenQuan",
     "tags": [
       "Food"
@@ -9785,6 +11306,9 @@
       "ko": "환상의 수프"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_MingShi",
     "tags": [
       "Food"
@@ -9804,6 +11328,9 @@
       "ko": "힘찬 노래"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Rongyi",
     "tags": [
       "Food"
@@ -9823,6 +11350,9 @@
       "ko": "비옥한 축복"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_TujiaoLong",
     "tags": [
       "Food"
@@ -9842,6 +11372,9 @@
       "ko": "침옥 차 이슬"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Chalu",
     "tags": [
       "Food"
@@ -9861,6 +11394,9 @@
       "ko": "룰렛 칵테일"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_Lunpan",
     "tags": [
       "Food"
@@ -9880,6 +11416,9 @@
       "ko": "백령과 파이"
     },
     "type": "Action",
+    "cost": null,
+    "hp": null,
+    "relatedCardId": null,
     "icon": "UI_Gcg_CardFace_Event_Food_BaiLing",
     "tags": [
       "Food"

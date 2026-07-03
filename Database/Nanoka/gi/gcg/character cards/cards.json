@@ -11,6 +11,9 @@
       "ko": "감우"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 12,
+    "relatedCardId": "211011",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Ganyu",
     "tags": [
       "Cryo",
@@ -32,6 +35,9 @@
       "ko": "디오나"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 12,
+    "relatedCardId": "211021",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Diona",
     "tags": [
       "Cryo",
@@ -53,6 +59,9 @@
       "ko": "케이아"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "211031",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Kaeya",
     "tags": [
       "Cryo",
@@ -74,6 +83,9 @@
       "ko": "중운"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "211041",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Chongyun",
     "tags": [
       "Cryo",
@@ -95,6 +107,9 @@
       "ko": "카미사토 아야카"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "211051",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Ayaka",
     "tags": [
       "Cryo",
@@ -116,6 +131,9 @@
       "ko": "유라"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "211061",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Eula",
     "tags": [
       "Cryo",
@@ -137,6 +155,9 @@
       "ko": "신학"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "211071",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Shenhe",
     "tags": [
       "Cryo",
@@ -158,6 +179,9 @@
       "ko": "치치"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "211081",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Qiqi",
     "tags": [
       "Cryo",
@@ -179,6 +203,9 @@
       "ko": "레일라"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "211091",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Layla",
     "tags": [
       "Cryo",
@@ -200,6 +227,9 @@
       "ko": "샤를로트"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "211101",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Charlotte",
     "tags": [
       "Cryo",
@@ -222,6 +252,9 @@
       "ko": "라이오슬리"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 11,
+    "relatedCardId": "211111",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Wriothesley",
     "tags": [
       "Cryo",
@@ -244,6 +277,9 @@
       "ko": "프레미네"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "211121",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Freminet",
     "tags": [
       "Cryo",
@@ -267,6 +303,9 @@
       "ko": "로자리아"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "211131",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Rosaria",
     "tags": [
       "Cryo",
@@ -288,6 +327,9 @@
       "ko": "시틀라리"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "211141",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Citlali",
     "tags": [
       "Cryo",
@@ -309,6 +351,9 @@
       "ko": "에스코피에"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "211151",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Escoffier",
     "tags": [
       "Cryo",
@@ -331,6 +376,9 @@
       "ko": "스커크"
     },
     "type": "Character",
+    "cost": 0,
+    "hp": 10,
+    "relatedCardId": "211161",
     "icon": "UI_Gcg_CardFace_Char_Avatar_SkirkNew",
     "tags": [
       "Cryo",
@@ -352,6 +400,9 @@
       "ko": "미카"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "211171",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Mika",
     "tags": [
       "Cryo",
@@ -373,6 +424,9 @@
       "ko": "바바라"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 12,
+    "relatedCardId": "212011",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Barbara",
     "tags": [
       "Hydro",
@@ -394,6 +448,9 @@
       "ko": "행추"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "212021",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Xingqiu",
     "tags": [
       "Hydro",
@@ -415,6 +472,9 @@
       "ko": "모나"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "212031",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Mona",
     "tags": [
       "Hydro",
@@ -436,6 +496,9 @@
       "ko": "타르탈리아"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "212041",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Tartaglia",
     "tags": [
       "Hydro",
@@ -457,6 +520,9 @@
       "ko": "산고노미야 코코미"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 12,
+    "relatedCardId": "212051",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Kokomi",
     "tags": [
       "Hydro",
@@ -478,6 +544,9 @@
       "ko": "카미사토 아야토"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "212061",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Ayato",
     "tags": [
       "Hydro",
@@ -499,6 +568,9 @@
       "ko": "캔디스"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "212071",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Candace",
     "tags": [
       "Hydro",
@@ -520,6 +592,9 @@
       "ko": "닐루"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "212081",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Nilou",
     "tags": [
       "Hydro",
@@ -541,6 +616,9 @@
       "ko": "야란"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 11,
+    "relatedCardId": "212091",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Yelan",
     "tags": [
       "Hydro",
@@ -562,6 +640,9 @@
       "ko": "느비예트"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "212101",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Neuvillette",
     "tags": [
       "Hydro",
@@ -584,6 +665,9 @@
       "ko": "푸리나"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 12,
+    "relatedCardId": "212111",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Furina",
     "tags": [
       "Hydro",
@@ -606,6 +690,9 @@
       "ko": "시그윈"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 12,
+    "relatedCardId": "212131",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Sigewinne",
     "tags": [
       "Hydro",
@@ -628,6 +715,9 @@
       "ko": "말라니"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "212141",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Mualani",
     "tags": [
       "Hydro",
@@ -649,6 +739,9 @@
       "ko": "달리아"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "212151",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Dahlia",
     "tags": [
       "Hydro",
@@ -670,6 +763,9 @@
       "ko": "아이노"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "212161",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Aino",
     "tags": [
       "Hydro",
@@ -691,6 +787,9 @@
       "ko": "다이루크"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "213011",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Diluc",
     "tags": [
       "Pyro",
@@ -712,6 +811,9 @@
       "ko": "향릉"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "213021",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Xiangling",
     "tags": [
       "Pyro",
@@ -733,6 +835,9 @@
       "ko": "베넷"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "213031",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Bennett",
     "tags": [
       "Pyro",
@@ -754,6 +859,9 @@
       "ko": "엠버"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 12,
+    "relatedCardId": "213041",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Ambor",
     "tags": [
       "Pyro",
@@ -775,6 +883,9 @@
       "ko": "요이미야"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "213051",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Yoimiya",
     "tags": [
       "Pyro",
@@ -796,6 +907,9 @@
       "ko": "클레"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "213061",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Klee",
     "tags": [
       "Pyro",
@@ -817,6 +931,9 @@
       "ko": "호두"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 12,
+    "relatedCardId": "213071",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Hutao",
     "tags": [
       "Pyro",
@@ -838,6 +955,9 @@
       "ko": "연비"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "213081",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Feiyan",
     "tags": [
       "Pyro",
@@ -859,6 +979,9 @@
       "ko": "데히야"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "213091",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Dehya",
     "tags": [
       "Pyro",
@@ -881,6 +1004,9 @@
       "ko": "리니"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "213101",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Liney",
     "tags": [
       "Pyro",
@@ -904,6 +1030,9 @@
       "ko": "토마"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 12,
+    "relatedCardId": "213111",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Tohma",
     "tags": [
       "Pyro",
@@ -925,6 +1054,9 @@
       "ko": "신염"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "213121",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Xinyan",
     "tags": [
       "Pyro",
@@ -946,6 +1078,9 @@
       "ko": "슈브르즈"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "213131",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Chevreuse",
     "tags": [
       "Pyro",
@@ -968,6 +1103,9 @@
       "ko": "아를레키노"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "213141",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Arlecchino",
     "tags": [
       "Pyro",
@@ -989,6 +1127,9 @@
       "ko": "마비카"
     },
     "type": "Character",
+    "cost": 0,
+    "hp": 10,
+    "relatedCardId": "213151",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Mavuika",
     "tags": [
       "Pyro",
@@ -1010,6 +1151,9 @@
       "ko": "가명"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "213161",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Gaming",
     "tags": [
       "Pyro",
@@ -1030,6 +1174,9 @@
       "ja": "ドゥリン"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "213171",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Durin",
     "tags": [
       "Pyro",
@@ -1051,6 +1198,9 @@
       "ko": "피슬"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "214011",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Fischl",
     "tags": [
       "Electro",
@@ -1072,6 +1222,9 @@
       "ko": "레이저"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "214021",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Razor",
     "tags": [
       "Electro",
@@ -1093,6 +1246,9 @@
       "ko": "각청"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "214031",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Keqing",
     "tags": [
       "Electro",
@@ -1114,6 +1270,9 @@
       "ko": "사이노"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "214041",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Cyno",
     "tags": [
       "Electro",
@@ -1135,6 +1294,9 @@
       "ko": "북두"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 11,
+    "relatedCardId": "214051",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Beidou",
     "tags": [
       "Electro",
@@ -1156,6 +1318,9 @@
       "ko": "쿠죠 사라"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "214061",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Sara",
     "tags": [
       "Electro",
@@ -1177,6 +1342,9 @@
       "ko": "라이덴 쇼군"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "214071",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Shougun",
     "tags": [
       "Electro",
@@ -1198,6 +1366,9 @@
       "ko": "야에 미코"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "214081",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Yae",
     "tags": [
       "Electro",
@@ -1219,6 +1390,9 @@
       "ko": "리사"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "214091",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Lisa",
     "tags": [
       "Electro",
@@ -1240,6 +1414,9 @@
       "ko": "도리"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "214101",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Dori",
     "tags": [
       "Electro",
@@ -1261,6 +1438,9 @@
       "ko": "쿠키 시노부"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "214111",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Shinobu",
     "tags": [
       "Electro",
@@ -1282,6 +1462,9 @@
       "ko": "클로린드"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "214121",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Clorinde",
     "tags": [
       "Electro",
@@ -1304,6 +1487,9 @@
       "ko": "세토스"
     },
     "type": "Character",
+    "cost": 4,
+    "hp": 10,
+    "relatedCardId": "214131",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Sethos",
     "tags": [
       "Electro",
@@ -1325,6 +1511,9 @@
       "ko": "얀사"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "214141",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Iansan",
     "tags": [
       "Electro",
@@ -1346,6 +1535,9 @@
       "ko": "바레사"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "214151",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Varesa",
     "tags": [
       "Electro",
@@ -1367,6 +1559,9 @@
       "ko": "올로룬"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "214161",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Olorun",
     "tags": [
       "Electro",
@@ -1388,6 +1583,9 @@
       "ko": "이네파"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "214171",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Ineffa",
     "tags": [
       "Electro",
@@ -1409,6 +1607,9 @@
       "ko": "플린스"
     },
     "type": "Character",
+    "cost": 4,
+    "hp": 10,
+    "relatedCardId": "214181",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Flins",
     "tags": [
       "Electro",
@@ -1430,6 +1631,9 @@
       "ko": "설탕"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "215011",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Sucrose",
     "tags": [
       "Anemo",
@@ -1451,6 +1655,9 @@
       "ko": "진"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 12,
+    "relatedCardId": "215021",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Qin",
     "tags": [
       "Anemo",
@@ -1472,6 +1679,9 @@
       "ko": "벤티"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 12,
+    "relatedCardId": "215031",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Venti",
     "tags": [
       "Anemo",
@@ -1493,6 +1703,9 @@
       "ko": "소"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "215041",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Xiao",
     "tags": [
       "Anemo",
@@ -1514,6 +1727,9 @@
       "ko": "카에데하라 카즈하"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "215051",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Kazuha",
     "tags": [
       "Anemo",
@@ -1535,6 +1751,9 @@
       "ko": "#{REALNAME[ID(1)|DELAYHANDLE(true)]}"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "215061",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Wanderer",
     "tags": [
       "Anemo",
@@ -1555,6 +1774,9 @@
       "ko": "사유"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "215071",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Sayu",
     "tags": [
       "Anemo",
@@ -1576,6 +1798,9 @@
       "ko": "리넷"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "215081",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Linette",
     "tags": [
       "Anemo",
@@ -1599,6 +1824,9 @@
       "ko": "파루잔"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "215091",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Faruzan",
     "tags": [
       "Anemo",
@@ -1620,6 +1848,9 @@
       "ko": "한운"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "215101",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Liuyun",
     "tags": [
       "Anemo",
@@ -1641,6 +1872,9 @@
       "ko": "차스카"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "215111",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Chasca",
     "tags": [
       "Anemo",
@@ -1662,6 +1896,9 @@
       "ko": "남연"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "215121",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Lanyan",
     "tags": [
       "Anemo",
@@ -1683,6 +1920,9 @@
       "ko": "시카노인 헤이조"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "215131",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Heizo",
     "tags": [
       "Anemo",
@@ -1704,6 +1944,9 @@
       "ko": "유메미즈키 미즈키"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "215141",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Mizuki",
     "tags": [
       "Anemo",
@@ -1725,6 +1968,9 @@
       "ko": "이파"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "215151",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Ifa",
     "tags": [
       "Anemo",
@@ -1745,6 +1991,9 @@
       "ja": "ヤフォダ"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "215161",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Jahoda",
     "tags": [
       "Anemo",
@@ -1766,6 +2015,9 @@
       "ko": "응광"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "216011",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Ningguang",
     "tags": [
       "Geo",
@@ -1787,6 +2039,9 @@
       "ko": "노엘"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 12,
+    "relatedCardId": "216021",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Noel",
     "tags": [
       "Geo",
@@ -1808,6 +2063,9 @@
       "ko": "종려"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 12,
+    "relatedCardId": "216031",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Zhongli",
     "tags": [
       "Geo",
@@ -1829,6 +2087,9 @@
       "ko": "알베도"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 12,
+    "relatedCardId": "216041",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Albedo",
     "tags": [
       "Geo",
@@ -1850,6 +2111,9 @@
       "ko": "아라타키 이토"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "216051",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Itto",
     "tags": [
       "Geo",
@@ -1871,6 +2135,9 @@
       "ko": "고로"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "216061",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Gorou",
     "tags": [
       "Geo",
@@ -1892,6 +2159,9 @@
       "ko": "운근"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "216071",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Yunjin",
     "tags": [
       "Geo",
@@ -1913,6 +2183,9 @@
       "ko": "나비아"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "216081",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Navia",
     "tags": [
       "Geo",
@@ -1935,6 +2208,9 @@
       "ko": "치오리"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "216091",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Chiori",
     "tags": [
       "Geo",
@@ -1956,6 +2232,9 @@
       "ko": "카치나"
     },
     "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "216101",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Kachina",
     "tags": [
       "Geo",
@@ -1977,6 +2256,9 @@
       "ko": "실로닌"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 12,
+    "relatedCardId": "216111",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Xilonen",
     "tags": [
       "Geo",
@@ -1998,6 +2280,9 @@
       "ko": "콜레이"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "217011",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Collei",
     "tags": [
       "Dendro",
@@ -2019,6 +2304,9 @@
       "ko": "타이나리"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "217021",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Tighnari",
     "tags": [
       "Dendro",
@@ -2040,6 +2328,9 @@
       "ko": "나히다"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "217031",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Nahida",
     "tags": [
       "Dendro",
@@ -2061,6 +2352,9 @@
       "ko": "요요"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "217041",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Yaoyao",
     "tags": [
       "Dendro",
@@ -2082,6 +2376,9 @@
       "ko": "백출"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "217051",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Baizhuer",
     "tags": [
       "Dendro",
@@ -2103,6 +2400,9 @@
       "ko": "알하이탐"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "217061",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Alhatham",
     "tags": [
       "Dendro",
@@ -2124,6 +2424,9 @@
       "ko": "키라라"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "217071",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Momoka",
     "tags": [
       "Dendro",
@@ -2145,6 +2448,9 @@
       "ko": "카베"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 12,
+    "relatedCardId": "217081",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Kaveh",
     "tags": [
       "Dendro",
@@ -2166,6 +2472,9 @@
       "ko": "키니치"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "217091",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Kinich",
     "tags": [
       "Dendro",
@@ -2187,6 +2496,9 @@
       "ko": "에밀리"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "217101",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Emilie",
     "tags": [
       "Dendro",
@@ -2209,6 +2521,9 @@
       "ko": "라우마"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 11,
+    "relatedCardId": "217111",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Lauma",
     "tags": [
       "Dendro",
@@ -2230,6 +2545,9 @@
       "ko": "네페르"
     },
     "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "217121",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Nefer",
     "tags": [
       "Dendro",

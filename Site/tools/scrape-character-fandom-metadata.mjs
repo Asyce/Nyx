@@ -79,7 +79,8 @@ function decodeHtmlEntities(s) {
     .replace(/&nbsp;/g, ' ');
 }
 
-function stripWikiText(value) {
+function stripWikiText(value, options = {}) {
+  const preserveLinks = options.preserveLinks === true;
   let text = decodeHtmlEntities(String(value || ''));
   text = text.split(/<br\s*\/?>/i)[0];
   text = text.replace(/<ref\b[^>]*\/>/gi, '');
@@ -91,20 +92,26 @@ function stripWikiText(value) {
   text = text.replace(/\{\{(?:zh|ja|ko|cn|jp|kr)\|([^{}]+)\}\}/gi, '$1');
   text = text.replace(/\{\{[^{}|]+\|([^{}]+)\}\}/g, '$1');
   text = text.replace(/\{\{[^{}]*\}\}/g, '');
-  text = text.replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, '$2');
-  text = text.replace(/\[\[([^\]]+)\]\]/g, '$1');
-  text = text.replace(/\[(https?:\/\/[^\s\]]+)\s+([^\]]+)\]/g, '$2');
+  if (preserveLinks) {
+    text = text.replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, '$1|$2');
+    text = text.replace(/\[\[([^\]]+)\]\]/g, '$1|$1');
+    text = text.replace(/\[(https?:\/\/[^\s\]]+)\s+([^\]]+)\]/g, '$1|$2');
+  } else {
+    text = text.replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, '$2');
+    text = text.replace(/\[\[([^\]]+)\]\]/g, '$1');
+    text = text.replace(/\[(https?:\/\/[^\s\]]+)\s+([^\]]+)\]/g, '$2');
+  }
   text = text.replace(/\[(https?:\/\/[^\]]+)\]/g, '');
   text = text.replace(/'''?/g, '');
   text = text.replace(/<[^>]+>/g, '');
   return text.replace(/\s+/g, ' ').trim();
 }
 
-function extractField(text, names) {
+function extractField(text, names, options = {}) {
   for (const name of names) {
     const re = new RegExp(String.raw`^\|\s*${name}\s*=\s*([\s\S]*?)(?=\n\||\n\}\}|\n<[!/]|$)`, 'im');
     const match = text.match(re);
-    const clean = match ? stripWikiText(match[1]) : '';
+    const clean = match ? stripWikiText(match[1], options) : '';
     if (clean) return clean;
   }
   return null;
@@ -120,10 +127,10 @@ function releasePatchFromCategories(categories) {
 
 function parseMetadata(name, pageTitle, text, categories, aliases = []) {
   const voiceActors = {
-    english: extractField(text, ['voiceEN', 'vaEN', 'englishVA', 'voiceEnglish']),
-    chinese: extractField(text, ['voiceCN', 'vaCN', 'chineseVA', 'voiceChinese']),
-    japanese: extractField(text, ['voiceJP', 'vaJP', 'japaneseVA', 'voiceJapanese']),
-    korean: extractField(text, ['voiceKR', 'vaKR', 'koreanVA', 'voiceKorean']),
+    english: extractField(text, ['voiceEN', 'vaEN', 'englishVA', 'voiceEnglish'], { preserveLinks:true }),
+    chinese: extractField(text, ['voiceCN', 'vaCN', 'chineseVA', 'voiceChinese'], { preserveLinks:true }),
+    japanese: extractField(text, ['voiceJP', 'vaJP', 'japaneseVA', 'voiceJapanese'], { preserveLinks:true }),
+    korean: extractField(text, ['voiceKR', 'vaKR', 'koreanVA', 'voiceKorean'], { preserveLinks:true }),
   };
   Object.keys(voiceActors).forEach((key) => { if (!voiceActors[key]) delete voiceActors[key]; });
   const releaseDate = extractField(text, ['releaseDate', 'release_date', 'release']);

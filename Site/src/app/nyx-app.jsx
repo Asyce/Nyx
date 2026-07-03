@@ -1640,20 +1640,76 @@ function CollectionCard({ item }){
   );
 }
 
+const TCG_CATEGORY_PRIORITY = [
+  'Talent',
+  'Weapon',
+  'Artifact',
+  'Location',
+  'Companion',
+  'Food',
+  'Elemental Resonance',
+  'Arcane Legend',
+  'Technique',
+  'Item',
+  'Monster',
+  'Combat Action',
+];
+
+function tcgPrimaryCategory(card){
+  if (!card) return 'Other';
+  if (card.kind === 'character') return 'Character';
+  const tags = Array.isArray(card.tags) ? card.tags : [];
+  return TCG_CATEGORY_PRIORITY.find((tag) => tags.includes(tag)) || tags[0] || card.type || 'Other';
+}
+
+function tcgStatRows(card){
+  if (!card) return [];
+  const rows = [];
+  if (Number.isFinite(Number(card.cost))) rows.push(['Cost', String(card.cost)]);
+  if (Number.isFinite(Number(card.hp))) rows.push(['HP', String(card.hp)]);
+  rows.push(['Type', card.type || (card.kind === 'character' ? 'Character' : 'Action')]);
+  rows.push(['Category', tcgPrimaryCategory(card)]);
+  if (card.playableCharacter) rows.push(['Character', card.playableCharacter]);
+  if (Array.isArray(card.tags) && card.tags.length) rows.push(['Tags', card.tags.join(' / ')]);
+  return rows;
+}
+
 function GenshinTcgView(){
   const gameData = dbGame('gi') || {};
   const tcg = gameData.tcg || {};
   const [kind, setKind] = React.useState('all');
+  const [category, setCategory] = React.useState('all');
   const [q, setQ] = React.useState('');
   const [activeCard, setActiveCard] = React.useState(null);
   const cards = [
     ...((tcg.characterCards || []).map((card) => ({ ...card, kind:'character' }))),
     ...((tcg.otherCards || []).map((card) => ({ ...card, kind:'action' }))),
   ];
+  const categoryFilters = React.useMemo(() => {
+    const counts = new Map();
+    cards.filter((card) => kind === 'all' || card.kind === kind).forEach((card) => {
+      const cat = tcgPrimaryCategory(card);
+      counts.set(cat, (counts.get(cat) || 0) + 1);
+    });
+    return [...counts.entries()]
+      .sort((a, b) => {
+        const ai = TCG_CATEGORY_PRIORITY.indexOf(a[0]);
+        const bi = TCG_CATEGORY_PRIORITY.indexOf(b[0]);
+        if (a[0] === 'Character') return -1;
+        if (b[0] === 'Character') return 1;
+        if (ai !== -1 || bi !== -1) return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
+        return a[0].localeCompare(b[0]);
+      });
+  }, [cards.length, kind]);
+  React.useEffect(() => {
+    if (category === 'all') return;
+    if (!categoryFilters.some(([cat]) => cat === category)) setCategory('all');
+  }, [category, categoryFilters]);
   const qq = q.trim().toLowerCase();
   const visible = cards.filter((card) => {
     if (kind !== 'all' && card.kind !== kind) return false;
-    const hay = [card.name, card.title, card.type, card.description, card.playableCharacter, ...(card.tags || [])].filter(Boolean).join(' ').toLowerCase();
+    if (category !== 'all' && tcgPrimaryCategory(card) !== category) return false;
+    const hay = [card.name, card.title, card.type, card.description, card.playableCharacter, card.cost, card.hp, ...(card.tags || [])].filter(Boolean).join(' ').toLowerCase();
     return !qq || hay.includes(qq);
   });
   const filters = [
@@ -1661,6 +1717,7 @@ function GenshinTcgView(){
     ['character', 'Character', (tcg.characterCards || []).length],
     ['action', 'Action', (tcg.otherCards || []).length],
   ];
+  const categoryTotal = categoryFilters.reduce((sum, [, count]) => sum + count, 0);
   return (
     <div className="tcg-view">
       <div className="tcg-head">
@@ -1678,6 +1735,18 @@ function GenshinTcgView(){
           </button>
         ))}
       </div>
+      {categoryFilters.length > 1 && (
+        <div className="tcg-tabs tcg-category-tabs" aria-label="TCG card categories">
+          <button type="button" className={category === 'all' ? 'on' : ''} onClick={() => setCategory('all')}>
+            <span>All Types</span><b>{categoryTotal}</b>
+          </button>
+          {categoryFilters.map(([cat, count]) => (
+            <button type="button" key={cat} className={category === cat ? 'on' : ''} onClick={() => setCategory(cat)}>
+              <span>{cat}</span><b>{count}</b>
+            </button>
+          ))}
+        </div>
+      )}
       <div className="tcg-grid">
         {visible.map((card) => (
           <button type="button" className={'tcg-card kind-' + card.kind} key={card.kind + '-' + card.id}
@@ -1700,9 +1769,15 @@ function GenshinTcgView(){
             <div className="tcg-detail-copy">
               <b>{activeCard.name}</b>
               {activeCard.title && <em>{activeCard.title}</em>}
-              <span>{activeCard.type || (activeCard.kind === 'character' ? 'Character Card' : 'Action Card')}</span>
-              {!!(activeCard.tags || []).length && <div>{activeCard.tags.join(' / ')}</div>}
-              <p>{activeCard.description || 'No card text is available in the local scrape yet.'}</p>
+              <div className="tcg-stat-grid">
+                {tcgStatRows(activeCard).map(([label, value]) => (
+                  <span key={label}><b>{label}</b><em>{value}</em></span>
+                ))}
+              </div>
+              <div className="tcg-effect">
+                <span>Card Effect</span>
+                <p>{activeCard.description || 'No card effect text is available in the local scrape yet.'}</p>
+              </div>
             </div>
           </article>
         </div>
@@ -1717,9 +1792,21 @@ function navKeyDown(fn){
   return (e) => { if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); fn(); } };
 }
 
-function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings }){
+function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, characterCustomize, setCharacterCustomize }){
   const fns = cfg.fns || ['Character Materials','Artifact Sorter','Wish Tracker'];
   const hasTcg = cfg.key === 'gi';
+  const openCharacterCustomize = (payload) => {
+    setCharacterCustomize(Object.assign({ game:cfg.key, restoreScroll:0 }, payload || {}));
+    setTab('char-customize');
+  };
+  const backFromCharacterCustomize = () => {
+    const restore = Number(characterCustomize?.restoreScroll || 0);
+    setTab('mats');
+    setTimeout(() => {
+      const scroller = document.querySelector('.cm-body');
+      if (scroller) scroller.scrollTop = restore;
+    }, 40);
+  };
   // G13: the section list the Character-Materials header icon-dropdown switches between.
   const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^character materials$/i.test(f) ? 'mats' : 'library';
   const sections = [{ key:'overview', label:'Overview' }, ...fns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasTcg ? [{ key:'tcg', label:'TCG' }] : []), { key:'settings', label:'Settings' }];
@@ -1765,7 +1852,18 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings }
       )}
       {tab === 'mats' && (
         <main className="gp-main-pane fill">
-          <CharMaterials inline game={cfg.key} pageTab={tab} onPageTab={setTab} sections={sections} />
+          <CharMaterials inline game={cfg.key} pageTab={tab} onPageTab={setTab} sections={sections} onCustomizeCharacter={openCharacterCustomize} />
+        </main>
+      )}
+      {tab === 'char-customize' && (
+        <main className="gp-main-pane fill">
+          <CharMaterials
+            inline
+            customizeOnly
+            game={cfg.key}
+            selectedName={characterCustomize?.name}
+            onBackCustomize={backFromCharacterCustomize}
+          />
         </main>
       )}
       {tab === 'tracker' && (
@@ -1836,8 +1934,8 @@ function keyFromLocation(){
 }
 
 function validTabsForKey(key){
-  if (key === 'gi') return ['overview','mats','library','tracker','tcg','settings'];
-  return key === 'nyx' ? ['overview','pulls','codes','banners','settings'] : ['overview','mats','library','tracker','settings'];
+  if (key === 'gi') return ['overview','mats','char-customize','library','tracker','tcg','settings'];
+  return key === 'nyx' ? ['overview','pulls','codes','banners','settings'] : ['overview','mats','char-customize','library','tracker','settings'];
 }
 
 function coerceTabForKey(key, wanted){
@@ -2210,6 +2308,7 @@ function PengoMenu({ settings, setSettings, inline }){
           const group = NYX_IDENTITY_GROUPS.find((row) => row.key === groupKey);
           const specials = SETTINGS_SPECIAL_TOGGLES[game.key] || [];
           const gameOn = displayGames[game.key] !== false;
+          const identityPreviewIcon = group ? identityPreview(game.key, group, identity[group.key]) : null;
           return (
             <section className="pm-section pm-game-section" key={game.key}>
               <div className="pm-game-head">
@@ -2225,7 +2324,14 @@ function PengoMenu({ settings, setSettings, inline }){
               </div>
               {group && (
                 <div className="pm-identity-row" data-tip={group.tip}>
-                  <span>{group.label}</span>
+                  <span className="pm-identity-label">
+                    <b>{group.label}</b>
+                    {identityPreviewIcon && (
+                      <span className="pm-identity-preview" aria-label={group.label + ' icon preview'}>
+                        <img src={identityPreviewIcon} alt="" draggable="false" />
+                      </span>
+                    )}
+                  </span>
                   <div className="pm-identity-control">
                     <div className="pm-choice-set" role="group" aria-label={group.label}>
                       {group.options.map(([key, label]) => (
@@ -2236,11 +2342,6 @@ function PengoMenu({ settings, setSettings, inline }){
                         </button>
                       ))}
                     </div>
-                    {identityPreview(game.key, group, identity[group.key]) && (
-                      <div className="pm-identity-preview" aria-label={group.label + ' icon preview'}>
-                        <img src={identityPreview(game.key, group, identity[group.key])} alt="" draggable="false" />
-                      </div>
-                    )}
                   </div>
                 </div>
               )}
@@ -2302,7 +2403,16 @@ function NyxChannelToggle({ gameKey }){
   const [channel, setChannel] = React.useState(() => cmLoadChannel(gameKey));
   const [confirmBeta, setConfirmBeta] = React.useState(false);
   React.useEffect(() => { setChannel(cmLoadChannel(gameKey)); }, [gameKey]);
+  React.useEffect(() => {
+    const onChannel = (event) => {
+      const detail = event.detail || {};
+      if (detail.key === gameKey && (detail.channel === 'live' || detail.channel === 'beta')) setChannel(detail.channel);
+    };
+    window.addEventListener('nyx:cm-channel-changed', onChannel);
+    return () => window.removeEventListener('nyx:cm-channel-changed', onChannel);
+  }, [gameKey]);
   const betaAvailable = cmHasBeta(gameKey);
+  const alwaysBeta = (() => { try { return window.NYX_ALWAYS_BETA === true; } catch (e) { return false; } })();
   const betaSessionKey = 'nyx:beta-disclaimer:' + gameKey + ':v1';
   const commitPick = (ch) => {
     const next = ch === 'beta' && !betaAvailable ? 'live' : ch;
@@ -2311,6 +2421,11 @@ function NyxChannelToggle({ gameKey }){
     try { window.dispatchEvent(new CustomEvent('nyx:cm-channel-changed', { detail:{ key:gameKey, channel:next } })); } catch (e) {}
   };
   const pick = (ch) => {
+    if (ch === 'live' && alwaysBeta) {
+      try { window.dispatchEvent(new CustomEvent('nyx:set-always-beta', { detail:{ value:false, source:'channel-toggle' } })); } catch (e) {}
+      commitPick('live');
+      return;
+    }
     if (ch === 'beta' && betaAvailable) {
       let accepted = false;
       try { accepted = sessionStorage.getItem(betaSessionKey) === '1'; } catch (e) {}
@@ -2326,7 +2441,6 @@ function NyxChannelToggle({ gameKey }){
     setConfirmBeta(false);
     commitPick('beta');
   };
-  const alwaysBeta = (() => { try { return window.NYX_ALWAYS_BETA === true; } catch (e) { return false; } })();
   const isBeta = betaAvailable && (channel === 'beta' || alwaysBeta);
   const toggle = () => pick(isBeta ? 'live' : 'beta');
   return (
@@ -2364,33 +2478,53 @@ function NyxApp(){
   const [activeKey, setActiveKey] = React.useState(initialKey);
   const [tab, setTab] = React.useState(DEFAULT_TAB(initialKey));
   const [materialModal, setMaterialModal] = React.useState(null);
+  const [characterCustomize, setCharacterCustomize] = React.useState(null);
   const [pengoSettings, setPengoSettings] = React.useState(loadPengoSettings);
   useCmGameVersion(activeKey);
+  const previousAlwaysBetaRef = React.useRef(pengoSettings.alwaysBeta === true);
 
   React.useEffect(() => {
     try { localStorage.setItem(NYX_PENGO_SETTINGS_KEY, JSON.stringify(pengoSettings)); } catch (e) {}
     const identity = sanitizeNyxIdentity(pengoSettings.identity);
     const language = sanitizeNyxLanguage(pengoSettings.language);
+    const alwaysBeta = pengoSettings.alwaysBeta === true;
+    const wasAlwaysBeta = previousAlwaysBetaRef.current === true;
     window.NYX_IDENTITY_PREFS = identity;
     window.NYX_LANGUAGE_PREFS = language;
-    window.NYX_ALWAYS_BETA = pengoSettings.alwaysBeta === true;
+    window.NYX_ALWAYS_BETA = alwaysBeta;
     window.NYX_SPECIAL_UNIT_PREFS = sanitizeSpecialUnits(pengoSettings.specialUnits);
     try { window.dispatchEvent(new CustomEvent('nyx:identity-changed', { detail:identity })); } catch (e) {}
     try { window.dispatchEvent(new CustomEvent('nyx:settings-changed', { detail:pengoSettings })); } catch (e) {}
-    if (pengoSettings.alwaysBeta) {
+    if (alwaysBeta) {
       SIM_GAMES.forEach((game) => {
         if (typeof cmHasBeta === 'function' && cmHasBeta(game.key)) {
-          try { cmSaveChannel(game.key, 'beta'); } catch (e) {}
           try { window.dispatchEvent(new CustomEvent('nyx:cm-channel-changed', { detail:{ key:game.key, channel:'beta' } })); } catch (e) {}
         }
       });
+    } else if (wasAlwaysBeta) {
+      SIM_GAMES.forEach((game) => {
+        if (typeof cmHasBeta === 'function' && cmHasBeta(game.key)) {
+          try { cmSaveChannel(game.key, 'live'); } catch (e) {}
+          try { window.dispatchEvent(new CustomEvent('nyx:cm-channel-changed', { detail:{ key:game.key, channel:'live' } })); } catch (e) {}
+        }
+      });
     }
+    previousAlwaysBetaRef.current = alwaysBeta;
     const root = document.documentElement;
     root.classList.toggle('nyx-whispers-off', !pengoSettings.whispers);
     root.classList.toggle('nyx-pattern-paused', pengoSettings.animation === 'pause');
     root.classList.toggle('nyx-pattern-off', pengoSettings.animation === 'stop');
     root.classList.toggle('nyx-khaenriah', !!pengoSettings.khaenriah);
   }, [pengoSettings]);
+
+  React.useEffect(() => {
+    const onAlwaysBeta = (event) => {
+      const value = event?.detail?.value === true;
+      setPengoSettings((prev) => prev.alwaysBeta === value ? prev : Object.assign({}, prev, { alwaysBeta:value }));
+    };
+    window.addEventListener('nyx:set-always-beta', onAlwaysBeta);
+    return () => window.removeEventListener('nyx:set-always-beta', onAlwaysBeta);
+  }, []);
 
   // reveal the page once the app has actually mounted. The page-level
   // background paints the instant the HTML is parsed (well before this bundle
@@ -2511,7 +2645,8 @@ function NyxApp(){
     const onPop = () => {
       const k = (window.history.state && window.history.state.nyxKey) || keyFromLocation() || 'nyx';
       setActiveKey(k);
-      setTab((prev) => coerceTabForKey(k, prev));
+      setTab((prev) => coerceTabForKey(k, prev === 'char-customize' ? 'mats' : prev));
+      setCharacterCustomize(null);
     };
     window.addEventListener('popstate', onPop);
     return () => window.removeEventListener('popstate', onPop);
@@ -2520,7 +2655,8 @@ function NyxApp(){
   const switchGame = (key) => {
     if (key === activeKey) return;
     setActiveKey(key);
-    setTab((prev) => coerceTabForKey(key, prev));
+    setTab((prev) => coerceTabForKey(key, prev === 'char-customize' ? 'mats' : prev));
+    setCharacterCustomize(null);
     try {
       const href = GP_PAGE_HREF[key];
       if (href) window.history.pushState({ nyxKey:key }, '', href);
@@ -2533,6 +2669,13 @@ function NyxApp(){
   const isNyx = activeKey === 'nyx';
   const cfg = isNyx ? NYX_META : GAME_REGISTRY[activeKey];
   const openMaterialModal = (game, name) => setMaterialModal({ game, name });
+  const openCharacterCustomize = (payload) => {
+    const next = Object.assign({ game:activeKey, restoreScroll:0 }, payload || {});
+    setMaterialModal(null);
+    if (next.game && next.game !== activeKey) setActiveKey(next.game);
+    setCharacterCustomize(next);
+    setTab('char-customize');
+  };
 
   return (
     <div style={{ position:'absolute', inset:0, display:'flex', flexDirection:'column' }} data-screen-label={cfg.name + ' page'}>
@@ -2564,7 +2707,7 @@ function NyxApp(){
 
       {isNyx
         ? <SimContent tab={tab} setTab={setTab} onOpenMaterial={openMaterialModal} settings={pengoSettings} setSettings={setPengoSettings} />
-        : <GameContent cfg={cfg} tab={tab} setTab={setTab} onOpenMaterial={openMaterialModal} settings={pengoSettings} setSettings={setPengoSettings} />}
+        : <GameContent cfg={cfg} tab={tab} setTab={setTab} onOpenMaterial={openMaterialModal} settings={pengoSettings} setSettings={setPengoSettings} characterCustomize={characterCustomize} setCharacterCustomize={setCharacterCustomize} />}
       {materialModal && (
         <CharMaterials
           inline
@@ -2572,6 +2715,7 @@ function NyxApp(){
           game={materialModal.game}
           selectedName={materialModal.name}
           onClose={() => setMaterialModal(null)}
+          onCustomizeCharacter={openCharacterCustomize}
         />
       )}
     </div>

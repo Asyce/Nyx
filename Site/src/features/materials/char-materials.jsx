@@ -1072,7 +1072,7 @@ function cmCharacterReleaseText(ch){
   return date || (patch ? 'Patch ' + patch : '');
 }
 
-function cmVoiceRows(ch){
+function cmVoiceRows(ch, gameKey){
   const va = ch?.voiceActors || ch?.va;
   if (!va || typeof va !== 'object') return [];
   const labels = [
@@ -1083,16 +1083,60 @@ function cmVoiceRows(ch){
   ];
   const seen = new Set();
   return labels.map(([key, label]) => {
-    const value = cleanVaText(va[key]);
-    if (!value || seen.has(label)) return null;
+    const voice = cmVoiceEntry(va[key], gameKey || ch?.gameKey || ch?.game || '');
+    if (!voice || seen.has(label)) return null;
     seen.add(label);
-    return { key:label, label, value };
+    return { key:label, label, value:voice.text, url:voice.url };
   }).filter(Boolean);
 }
 
 function cleanVaText(value){
   const text = String(value || '').replace(/\s+/g, ' ').trim();
   return text && text !== '-' ? text : '';
+}
+
+const CM_VOICE_WIKI_BASE = {
+  gi:'https://genshin-impact.fandom.com/wiki/',
+  hsr:'https://honkai-star-rail.fandom.com/wiki/',
+  zzz:'https://zenless-zone-zero.fandom.com/wiki/',
+  wuwa:'https://wutheringwaves.fandom.com/wiki/',
+  ae:'https://arknights-endfield.fandom.com/wiki/',
+};
+
+function cmVoiceWikiUrl(gameKey, target){
+  const clean = cleanVaText(target);
+  if (!clean) return '';
+  if (/^https?:\/\//i.test(clean)) return clean;
+  if (/:/.test(clean)) return '';
+  const base = CM_VOICE_WIKI_BASE[gameKey] || '';
+  if (!base) return '';
+  return base + encodeURIComponent(clean.replace(/\s+/g, '_')).replace(/%2F/gi, '/');
+}
+
+function cmVoiceEntry(value, gameKey){
+  const raw = cleanVaText(value);
+  if (!raw) return null;
+  let target = '';
+  let label = raw;
+  const pipe = raw.indexOf('|');
+  if (pipe !== -1) {
+    target = raw.slice(0, pipe).trim();
+    label = raw.slice(pipe + 1).trim();
+  }
+  label = label
+    .replace(/^(?:ko|zh|ja|cn|jp|kr):/i, '')
+    .replace(/\((?:ko|zh|ja|cn|jp|kr)=([^)]+)\)/gi, '($1)')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const cleanTarget = target.replace(/^(?:ko|zh|ja|cn|jp|kr):/i, '').trim();
+  if (target && cleanTarget && /[A-Za-z]/.test(cleanTarget) && !/[A-Za-z]/.test(label)) {
+    label = cleanTarget + ' (' + label + ')';
+  }
+  if (!target) {
+    const simpleTarget = label.replace(/\s*\([^)]*\)\s*/g, '').trim();
+    if (/^[A-Za-z][A-Za-z .'-]{1,80}$/.test(simpleTarget)) target = simpleTarget;
+  }
+  return { text:label || raw, url:cmVoiceWikiUrl(gameKey, target) };
 }
 
 function cmRoleLabel(ch){
@@ -1285,7 +1329,7 @@ function nyxCharacterImageChoices(base, view, kind){
 function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 512, shape = 'square', onSave, onCancel }){
   const [sourceUrl, setSourceUrl] = React.useState('');
   const [fileName, setFileName] = React.useState('');
-  const [zoom, setZoom] = React.useState(1.16);
+  const [zoom, setZoom] = React.useState(1);
   const [rotate, setRotate] = React.useState(0);
   const [panX, setPanX] = React.useState(0);
   const [panY, setPanY] = React.useState(0);
@@ -1305,7 +1349,7 @@ function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 5
     }
     setSourceUrl(safe);
     setFileName(name || 'Local image');
-    setZoom(1.16);
+    setZoom(1);
     setRotate(0);
     setPanX(0);
     setPanY(0);
@@ -1343,7 +1387,7 @@ function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 5
       ctx.translate(outputWidth / 2 + (panX / 100) * outputWidth * .45, outputHeight / 2 + (panY / 100) * outputHeight * .45);
       ctx.rotate((rotate * Math.PI) / 180);
       ctx.scale(flipX ? -1 : 1, flipY ? -1 : 1);
-      const baseScale = Math.max(outputWidth / img.naturalWidth, outputHeight / img.naturalHeight);
+      const baseScale = Math.min(outputWidth / img.naturalWidth, outputHeight / img.naturalHeight);
       const scale = baseScale * zoom;
       const drawW = img.naturalWidth * scale;
       const drawH = img.naturalHeight * scale;
@@ -1409,8 +1453,8 @@ function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 5
       )}
       <div className="nyx-img-fields">
         {control('Zoom', zoom, .1, 10, .01, setZoom, 'x')}
-        {control('X', panX, -500, 500, 1, setPanX)}
-        {control('Y', panY, -500, 500, 1, setPanY)}
+        {control('X Offset', panX, -500, 500, 1, setPanX)}
+        {control('Y Offset', panY, -500, 500, 1, setPanY)}
         {control('Rotate', rotate, -360, 360, 1, setRotate, 'deg')}
       </div>
       <div className="nyx-img-flips" role="group" aria-label="Mirror image">
@@ -1819,7 +1863,7 @@ function cmMergeBetaCfg(liveCfg, betaPack){
   return { ...liveCfg, roster: merged, __betaActive:true };
 }
 
-function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, pageTab, onPageTab, sections }){
+function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, pageTab, onPageTab, sections, customizeOnly, onCustomizeCharacter, onBackCustomize }){
   const [gk, setGk] = React.useState(game || 'gi');
   const [channel, setChannel] = React.useState(() => cmLoadChannel(game || 'gi'));
   const [dataTick, setDataTick] = React.useState(0);
@@ -1916,7 +1960,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
       if (!event.detail || event.detail.key === gk) setDataTick((v) => v + 1);
     };
     window.addEventListener('nyx:cm-game-loaded', onLoaded);
-    if ((open || inline || modalOnly) && !CM_CFG[gk] && window.loadNyxCmGame) {
+    if ((open || inline || modalOnly || customizeOnly) && !CM_CFG[gk] && window.loadNyxCmGame) {
       window.loadNyxCmGame(gk).then(() => { if (live) setDataTick((v) => v + 1); }).catch(() => {
         if (live) setDataTick((v) => v + 1);
       });
@@ -1925,7 +1969,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
       live = false;
       window.removeEventListener('nyx:cm-game-loaded', onLoaded);
     };
-  }, [gk, open, inline, modalOnly]);
+  }, [gk, open, inline, modalOnly, customizeOnly]);
 
   React.useEffect(() => {
     if (channel !== 'beta' || !betaAvailable) return undefined;
@@ -1952,7 +1996,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     return () => window.removeEventListener('nyx:cm-channel-changed', onChan);
   }, [gk]);
 
-  React.useEffect(() => { if (open || inline) { setGk(game || 'gi'); if (!selectedName) setSel(null); } }, [open, inline, game, selectedName]);
+  React.useEffect(() => { if (open || inline || customizeOnly) { setGk(game || 'gi'); if (!selectedName) setSel(null); } }, [open, inline, customizeOnly, game, selectedName]);
   React.useEffect(() => { setSel(null); setQ(''); setFilt({}); setShowFilt(false); setHideMenu(false); setSectionMenuOpen(false); setChannel(cmLoadChannel(gk)); }, [gk]);
   React.useEffect(() => {
     if (!sectionMenuOpen) return undefined;
@@ -2237,7 +2281,33 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const specialArtClass = view && !view.customBackground ? cmSpecialArtClass(gk, sel, view) : '';
   const metaChips = view ? cmMetaChips(gk, view) : [];
   const releaseText = view ? cmCharacterReleaseText(view) : '';
-  const voiceRows = view ? cmVoiceRows(view) : [];
+  const voiceRows = view ? cmVoiceRows(view, gk) : [];
+  if (customizeOnly) {
+    return (
+      <div className="cm-inline cm-custom-page">
+        <div className="cm-custom-page-head">
+          <button type="button" className="cm-custom-back" onClick={onBackCustomize}>
+            <span>{'\u2039'}</span><b>Back to Materials</b>
+          </button>
+          <div>
+            <b>{view?.n || selectedName || 'Character'} Visuals</b>
+            <em>Icon and background choices are stored locally in this browser.</em>
+          </div>
+        </div>
+        {view && sel ? (
+          <CharacterImageControls
+            gameKey={gk}
+            base={sel}
+            view={view}
+            prefs={characterImagePrefs}
+            onPrefs={setCharacterImagePrefs}
+          />
+        ) : (
+          <div className="cm-empty">Select a character before opening visual customization.</div>
+        )}
+      </div>
+    );
+  }
   const setGiTalentTarget = (index, value) => {
     const next = giTargets.slice(0, 3);
     next[index] = Math.max(1, Math.min(10, Number(value) || 1));
@@ -2279,6 +2349,18 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     if (modalOnly && onClose) onClose();
   };
   const openCustomize = () => {
+    if (typeof onCustomizeCharacter === 'function' && sel) {
+      const body = (typeof document !== 'undefined') ? document.querySelector('.cm-body') : null;
+      onCustomizeCharacter({
+        game:gk,
+        name:sel.rawName || sel.n || selectedName,
+        restoreScroll:body ? body.scrollTop : 0,
+      });
+      setCustomizeOpen(false);
+      setSel(null);
+      if (modalOnly && onClose) onClose();
+      return;
+    }
     const node = cmLedgerMainRef.current;
     setLedgerRestoreScroll(node ? node.scrollTop : 0);
     setCustomizeOpen(true);
@@ -2560,7 +2642,13 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                       <div className="cm-pop-extra-meta">
                         {releaseText && <span><b>Release</b>{releaseText}</span>}
                         {voiceRows.length > 0 && (
-                          <span className="voice"><b>VA</b>{voiceRows.map((row) => <em key={row.key}>{row.label}: {row.value}</em>)}</span>
+                          <span className="voice"><b>VA</b>{voiceRows.map((row) => (
+                            <em key={row.key}>
+                              {row.label}: {row.url
+                                ? <a href={row.url} target="_blank" rel="noopener noreferrer">{row.value}</a>
+                                : row.value}
+                            </em>
+                          ))}</span>
                         )}
                       </div>
                     )}

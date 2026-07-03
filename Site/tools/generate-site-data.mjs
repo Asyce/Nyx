@@ -137,7 +137,7 @@ function voiceActorsFrom(source) {
     ['korean', row.korean || row.kr || row.ko || row.cv_name_ko],
   ];
   pairs.forEach(([key, value]) => {
-    const text = cleanText(value, 120);
+    const text = cleanText(value, 180);
     if (text && text !== '-') out[key] = text;
   });
   return Object.keys(out).length ? out : undefined;
@@ -145,11 +145,21 @@ function voiceActorsFrom(source) {
 
 function mergeVoiceActors(primary, fallback) {
   const out = {};
+  const score = (value) => {
+    const text = cleanText(value, 180);
+    if (!text || text === '-') return 0;
+    return 1
+      + (/[|]|https?:\/\//i.test(text) ? 4 : 0)
+      + (/\([^)]*\)/.test(text) ? 2 : 0)
+      + (/[A-Za-z]/.test(text) ? 1 : 0)
+      + (/[^\x00-\x7f]/.test(text) ? 1 : 0);
+  };
   [fallback, primary].forEach((source) => {
     if (!source || typeof source !== 'object') return;
     Object.entries(source).forEach(([key, value]) => {
-      const text = cleanText(value, 120);
-      if (key && text && text !== '-') out[key] = text;
+      const text = cleanText(value, 180);
+      if (!key || !text || text === '-') return;
+      if (!out[key] || score(text) > score(out[key])) out[key] = text;
     });
   });
   return Object.keys(out).length ? out : undefined;
@@ -821,6 +831,9 @@ function buildGenshinTcgCards() {
       description: card.description || ambrById.get(String(card.id || card.name))?.description || null,
       localizedNames: card.localizedNames || undefined,
       type: card.type || 'Character',
+      cost: Number.isFinite(Number(card.cost)) ? Number(card.cost) : undefined,
+      hp: Number.isFinite(Number(card.hp)) ? Number(card.hp) : undefined,
+      relatedCardId: card.relatedCardId ? String(card.relatedCardId) : undefined,
       tags: Array.isArray(card.tags) ? card.tags : [],
       playableCharacter: card.playableCharacter || null,
       art: dbAsset(card.localAsset),
@@ -836,6 +849,9 @@ function buildGenshinTcgCards() {
       description:card.description || ambrById.get(String(card.id || card.name))?.description || null,
       localizedNames:card.localizedNames || undefined,
       type:card.type || 'Action',
+      cost:Number.isFinite(Number(card.cost)) ? Number(card.cost) : undefined,
+      hp:Number.isFinite(Number(card.hp)) ? Number(card.hp) : undefined,
+      relatedCardId:card.relatedCardId ? String(card.relatedCardId) : undefined,
       tags:Array.isArray(card.tags) ? card.tags : [],
       playableCharacter:null,
       art:dbAsset(card.localAsset),

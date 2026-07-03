@@ -367,7 +367,6 @@ const GAME_REGISTRY = {
     art:'../assets/char/skirk.jpg', benchIcon:'../assets/char/skirk_icon.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'42% 38%', bgSize:'138% auto', bgTransform:'scale(1.04) rotate(-2deg)',
     fns:['Character Materials','Artifact Sorter','Wish Tracker'],
-    banner:{ title:'Lone Shadow', five:'Skirk', fours:['Bennett','Xiangling','Fischl'], time:'Ends in 11d 22h 14m', pct:42 },
     track:{ pull:'Wish', pulls:'Wishes', title:'Wish Tracker', currency:'Primogems', cost:160,
       fives:['Skirk','Mavuika','Neuvillette','Arlecchino','Furina'], fours:['Bennett','Xiangling','Fischl','Sucrose','Rosaria'] },
     codes:[
@@ -384,7 +383,6 @@ const GAME_REGISTRY = {
     art:'../assets/bg/hsrbg.png', benchIcon:'../assets/bg/hsrbg.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'63% 31%', bgSize:'152% auto', bgTransform:'scaleX(-1) scale(1.07) rotate(2.5deg)',
     fns:['Character Materials','Relic Sorter','Warp Tracker'],
-    banner:{ title:'Reverie of Ash', five:'Castorice', fours:['Asta','March 7th','Herta'], time:'Ends in 6d 4h', pct:55 },
     track:{ pull:'Warp', pulls:'Warps', title:'Warp Tracker', currency:'Stellar Jade', cost:160,
       fives:['Castorice','Firefly','Acheron','Robin','Aglaea'], fours:['Asta','March 7th','Herta','Tingyun','Pela'] },
     codes:[
@@ -399,7 +397,6 @@ const GAME_REGISTRY = {
     art:'../assets/bg/zzzbg3.png', benchIcon:'../assets/bg/zzzbg3.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'30% 55%', bgSize:'165% auto', bgTransform:'scale(1.08) rotate(4deg)',
     fns:['Character Materials','Drive Disc Sorter','Signal Tracker'],
-    banner:{ title:'Astral Drive', five:'Yixuan', fours:['Nicole','Anby','Billy'], time:'Ends in 9d 13h', pct:40 },
     track:{ pull:'Signal', pulls:'Signals', title:'Signal Tracker', currency:'Polychrome', cost:160,
       fives:['Yixuan','Miyabi','Zhu Yuan','Evelyn','Astra Yao'], fours:['Nicole','Anby','Billy','Corin','Ben'] },
     codes:[
@@ -413,7 +410,6 @@ const GAME_REGISTRY = {
     art:'../assets/bg/wuwabg2.png', benchIcon:'../assets/bg/wuwabg2.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'74% 45%', bgSize:'148% auto', bgTransform:'scaleX(-1) scale(1.06) rotate(-3deg)',
     fns:['Character Materials','Echo Sorter','Convene Tracker'],
-    banner:{ title:'Tides of Echo', five:'Carlotta', fours:['Yangyang','Baizhi','Chixia'], time:'Ends in 4d 7h', pct:70 },
     track:{ pull:'Convene', pulls:'Convenes', title:'Convene Tracker', currency:'Astrite', cost:160,
       fives:['Carlotta','Jinhsi','Changli','Camellya','Zani'], fours:['Yangyang','Baizhi','Chixia','Sanhua','Taoqi'] },
     codes:[
@@ -427,7 +423,6 @@ const GAME_REGISTRY = {
     art:'../assets/bg/aebg.png', benchIcon:'../assets/bg/aebg.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'52% 68%', bgSize:'158% auto', bgTransform:'scale(1.08) rotate(1.5deg)',
     fns:['Character Materials','Gear Sorter','Headhunting Tracker'],
-    banner:{ title:'First Light', five:'Perlica', fours:['Wulfgard','Xaihi','Endmin'], time:'Ends in 15d 2h', pct:30 },
     track:{ pull:'Headhunt', pulls:'Headhunts', title:'Headhunting Tracker', currency:'Originium', cost:120,
       fives:['Perlica','Laevatain','Chen Qianyu','Ember','Wulfgard'], fours:['Xaihi','Endmin','Da Pan','Gilberta','Snowshine'] },
     codes:[
@@ -439,7 +434,7 @@ const GAME_REGISTRY = {
 };
 const NYX_META = { key:'nyx', name:'Nyx', charName:'Nyx', art:'../assets/bg/noxbg.png',
   benchIcon:'../assets/bg/noxbg.png', pageBg:'../assets/bg/backgroundnyx.png', bgPos:'50% 48%', bgSize:'132% auto', bgTransform:'scaleX(-1) scale(1.03) rotate(-1deg)',
-  codes:GAME_REGISTRY.gi.codes, banner:GAME_REGISTRY.gi.banner };
+  codes:GAME_REGISTRY.gi.codes };
 
 function dbGame(key){
   return (window.NYX_DB && window.NYX_DB.games && window.NYX_DB.games[key]) || null;
@@ -508,73 +503,64 @@ function shortDuration(ms){
   return Math.max(0, m) + 'm';
 }
 
-function phaseTimeLabel(phase, opts){
-  const end = phase && phase.end ? new Date(phase.end).getTime() : NaN;
-  const start = phase && phase.start ? new Date(phase.start).getTime() : NaN;
-  const now = Date.now();
-  const endLabel = Number.isFinite(end) ? (end >= now ? 'Ends in ' : 'Ended ') + shortDuration(end - now) : null;
-  const startLabel = Number.isFinite(start) ? (start >= now ? 'Starts in ' : 'Started ') + shortDuration(start - now) : null;
-  // Banners that aren't up yet show their START time; live banners show the end.
-  if (opts && opts.preferStart) return startLabel || endLabel;
-  return endLabel || startLabel;
+// Shared 1s clock so every banner countdown ticks live instead of freezing at
+// whatever Date.now() was when the page rendered.
+function useNowTick(intervalMs){
+  const [now, setNow] = React.useState(Date.now());
+  React.useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), intervalMs || 1000);
+    return () => clearInterval(id);
+  }, [intervalMs]);
+  return now;
 }
 
-function phasePct(phase, fallback){
-  const start = phase && phase.start ? new Date(phase.start).getTime() : NaN;
-  const end = phase && phase.end ? new Date(phase.end).getTime() : NaN;
-  const now = Date.now();
-  if (!Number.isFinite(start) || !Number.isFinite(end) || end <= start) return fallback;
-  const done = (now - start) / (end - start);
-  return Math.max(8, Math.min(96, Math.round(done * 100)));
+// Absolute times are always shown in the viewer's local timezone.
+function bannerAbsTime(ts){
+  const d = new Date(ts);
+  if (!Number.isFinite(d.getTime())) return null;
+  return d.toLocaleDateString(undefined, { month:'short', day:'numeric' }) + ', ' +
+    d.toLocaleTimeString(undefined, { hour:'2-digit', minute:'2-digit' });
 }
 
-function bannerFromDb(key, fallback){
-  const group = dbBannerGroup(key);
-  const phase = group && group.current;
-  const chars = phase && phase.characters && phase.characters.length ? phase.characters : null;
-  if (!chars) return fallback;
-  const first = chars[0];
-  return Object.assign({}, fallback, {
-    title:phase.phase || fallback.title || 'Current Banner',
-    five:first.name || fallback.five,
-    fours:chars.slice(1, 4).map(c => c.name).filter(Boolean),
-    time:phaseTimeLabel(phase) || fallback.time,
-    pct:phasePct(phase, fallback.pct || 42),
-    art:first.art || first.icon || fallback.art,
-  });
-}
+const BANNER_STATUS_META = {
+  live:{ label:'Live now', cls:'live' },
+  next:{ label:'Up next', cls:'next' },
+  upcoming:{ label:'Upcoming', cls:'upcoming' },
+  ended:{ label:'Ended', cls:'ended' },
+};
 
-function bannerPhaseCards(cfg){
-  const group = dbBannerGroup(cfg.key);
-  if (!group) return [];
-  const cards = [];
-  const is5 = (ch) => { const r = ch && ch.rarity; return r === 5 || r === '5' || r === 'S'; };
-  const add = (phase, status, splitFives) => {
-    const chars = phase?.characters || [];
-    if (!chars.length) return;
-    const fives = chars.filter(is5);
-    const fours = chars.filter((ch) => !is5(ch));
-    const fourChips = fours.map((ch, i) => ({ key:(ch.name || 'char') + '-' + i, text:ch.name, icon:ch.icon || null }));
-    // G32: every featured 5\u2605 gets its OWN card (e.g. Lohen AND Mavuika); 4\u2605s are shared chips.
-    const leads = (splitFives && fives.length > 1) ? fives : [fives[0] || chars[0]];
-    leads.forEach((first) => {
-      cards.push({
-        title:phase.phase || cfg.banner?.title || status,
-        status,
-        next:status !== 'Ongoing',
-        five:(first.rarity || 5) + '\u2605 ' + first.name,
-        fiveIcon:first.icon || null,
-        chips:fourChips,
-        time:phaseTimeLabel(phase, { preferStart:status !== 'Ongoing' }) || 'Date pending',
-        pct:phasePct(phase, cfg.banner?.pct || 42),
-        art:first.namecard || first.art || first.icon || cfg.art, // G31: GI prefers namecard, else splash
-      });
-    });
-  };
-  add(group.current, 'Ongoing', true);
-  add(group.next, 'Next', false);
-  (group.upcoming || []).slice(0, 2).forEach((phase) => add(phase, 'Upcoming', false));
-  return cards;
+// Timing block for a phase card. Only claims what the data supports: no
+// progress bar without a real start AND end, no invented "42%" placeholders.
+function bannerWhen(card, now){
+  const hasStart = Number.isFinite(card.start);
+  const hasEnd = Number.isFinite(card.end);
+  if (card.status === 'live') {
+    if (hasEnd && card.end <= now) {
+      return { state:'ended', headline:'Ended ' + shortDuration(now - card.end) + ' ago', sub:bannerAbsTime(card.end), pct:null };
+    }
+    return {
+      state:'live',
+      headline:hasEnd ? durationParts(card.end - now) + ' left' : 'End date unconfirmed',
+      sub:hasEnd ? 'Ends ' + bannerAbsTime(card.end) : null,
+      pct:hasStart && hasEnd && card.end > card.start
+        ? Math.max(0, Math.min(100, Math.round((now - card.start) / (card.end - card.start) * 100)))
+        : null,
+    };
+  }
+  if (hasStart && card.start > now) {
+    return {
+      state:card.status,
+      headline:'Starts in ' + durationParts(card.start - now),
+      sub:bannerAbsTime(card.start) + (hasEnd ? ' \u2192 ' + bannerAbsTime(card.end) : ''),
+      pct:null,
+    };
+  }
+  if (hasStart || hasEnd) {
+    const ref = hasEnd ? card.end : card.start;
+    if (ref <= now) return { state:'ended', headline:'Ended ' + shortDuration(now - ref) + ' ago', sub:bannerAbsTime(ref), pct:null };
+    return { state:card.status, headline:durationParts(ref - now) + ' left', sub:'Ends ' + bannerAbsTime(ref), pct:null };
+  }
+  return { state:card.status, headline:'Dates not confirmed yet', sub:null, pct:null };
 }
 
 const BANNER_WEAPON_COLLECTIONS = {
@@ -585,24 +571,10 @@ const BANNER_WEAPON_COLLECTIONS = {
   ae:['weapons'],
 };
 
-const BANNER_WEAPON_TITLES = {
-  gi:'Weapon Event Wish',
-  hsr:'Light Cone Event Warp',
-  zzz:'W-Engine Channel',
-  wuwa:'Weapon Convene',
-  ae:'Weapon Headhunt',
-};
-
 function bannerFeaturedRank(gameKey){
   if (gameKey === 'zzz') return 4;
   if (gameKey === 'ae') return 6;
   return 5;
-}
-
-function bannerSupportRank(gameKey){
-  if (gameKey === 'zzz') return 3;
-  if (gameKey === 'ae') return 5;
-  return 4;
 }
 
 function bannerRarityValue(value){
@@ -681,141 +653,47 @@ function phaseUnit(gameCfg, ch, rosterMap, index){
     icon,
     art,
     rarity,
-    badge:bannerRarityLabel(gameCfg.key, rarity || bannerFeaturedRank(gameCfg.key)),
+    // Badge only reflects a rarity we actually know (scrape or roster match) —
+    // an unknown unit renders without one instead of a guessed "5★".
+    badge:bannerRarityLabel(gameCfg.key, rarity),
     order:index,
   };
 }
 
-function fallbackRosterUnits(gameCfg, wantedRank, excludeNames, limit){
-  const blocked = excludeNames || new Set();
-  return makeRoster(gameCfg)
-    .filter((ch) => !blocked.has(normalizeUnitName(ch.name)))
-    .map((ch) => {
-      const rarity = bannerRarityValue(ch.rarity);
-      return {
-        name:ch.name,
-        icon:ch.icon,
-        art:ch.art,
-        rarity,
-        badge:bannerRarityLabel(gameCfg.key, rarity),
-      };
-    })
-    .filter((ch) => ch.rarity === wantedRank)
-    .slice(0, limit || 6);
-}
-
-function characterBannerCard(gameCfg, source){
+// One card per scraped phase (current / next / upcoming) \u2014 nothing invented.
+// Every banner surface on the site renders these same cards.
+function gameBannerCards(gameCfg, source){
   const group = dbBannerGroup(gameCfg.key);
-  const phase = group && group.current;
-  const chars = (phase && phase.characters) || [];
+  if (!group) return [];
   const rosterMap = rosterUnitMap(gameCfg);
-  const units = dedupeByName(chars.map((ch, i) => phaseUnit(gameCfg, ch, rosterMap, i))).filter((ch) => ch.name);
-  if (!units.length) {
-    const fallback = fallbackRosterUnits(gameCfg, bannerFeaturedRank(gameCfg.key), new Set(), 2);
-    if (!fallback.length) return null;
-    const low = fallbackRosterUnits(gameCfg, bannerSupportRank(gameCfg.key), new Set(fallback.map((x) => normalizeUnitName(x.name))), 4);
-    return {
-      kind:'character',
-      category:'Character',
-      title:gameCfg.banner?.title || 'Character Banner',
-      status:'Ongoing',
-      featured:fallback,
-      supports:low,
-      supportLabel:'4-Star Characters',
-      time:gameCfg.banner?.time || 'Date pending',
-      pct:gameCfg.banner?.pct || 42,
-      artPool:fallback.map((u) => u.art).filter(Boolean),
+  const rank = bannerFeaturedRank(gameCfg.key);
+  const cards = [];
+  const push = (phase, status) => {
+    if (!phase) return;
+    const units = dedupeByName(((phase.characters) || []).map((ch, i) => phaseUnit(gameCfg, ch, rosterMap, i))).filter((u) => u.name);
+    if (!units.length) return;
+    cards.push({
+      key:gameCfg.key + '-' + status + '-' + cards.length,
       game:source || gameCfg,
-    };
-  }
-  const featuredRank = bannerFeaturedRank(gameCfg.key);
-  const supportRank = bannerSupportRank(gameCfg.key);
-  const featured = units.filter((unit) => !unit.rarity || unit.rarity >= featuredRank);
-  const leads = featured.length ? featured : units.slice(0, Math.min(2, units.length));
-  const excluded = new Set(leads.map((unit) => normalizeUnitName(unit.name)));
-  const explicitSupports = units.filter((unit) => unit.rarity === supportRank && !excluded.has(normalizeUnitName(unit.name)));
-  const supports = explicitSupports.length ? explicitSupports : fallbackRosterUnits(gameCfg, supportRank, excluded, 4);
-  return {
-    kind:'character',
-    category:'Character',
-    title:phase.phase || gameCfg.banner?.title || 'Character Banner',
-    status:'Ongoing',
-    featured:leads,
-    supports,
-    supportLabel:'4-Star Characters',
-    time:phaseTimeLabel(phase) || gameCfg.banner?.time || 'Date pending',
-    pct:phasePct(phase, gameCfg.banner?.pct || 42),
-    artPool:leads.map((unit) => unit.art).filter(Boolean),
-    game:source || gameCfg,
+      status,
+      phase:phase.phase || null,
+      start:phase.start ? new Date(phase.start).getTime() : NaN,
+      end:phase.end ? new Date(phase.end).getTime() : NaN,
+      // Featured = top rank (or unknown rarity, which the scrape lists first);
+      // anything confirmed lower-rank rides along in the "Also featured" row.
+      featured:units.filter((u) => !u.rarity || u.rarity >= rank),
+      others:units.filter((u) => u.rarity && u.rarity < rank),
+      artPool:units.filter((u) => !u.rarity || u.rarity >= rank).map((u) => u.art).filter(Boolean),
+    });
   };
+  push(group.current, 'live');
+  push(group.next, 'next');
+  (group.upcoming || []).slice(0, 2).forEach((phase) => push(phase, 'upcoming'));
+  return cards;
 }
 
-function weaponBannerCard(gameCfg, source){
-  const items = weaponItemsFor(gameCfg.key);
-  if (!items.length) return null;
-  const featuredRank = bannerFeaturedRank(gameCfg.key);
-  const supportRank = bannerSupportRank(gameCfg.key);
-  const featured = items.filter((item) => item.rarity >= featuredRank).slice(0, 2);
-  const supports = items.filter((item) => item.rarity === supportRank).slice(0, 5);
-  if (!featured.length && !supports.length) return null;
-  const phase = dbBannerGroup(gameCfg.key)?.current;
-  return {
-    kind:'weapon',
-    category:gameCfg.key === 'hsr' ? 'Light Cone' : (gameCfg.key === 'zzz' ? 'W-Engine' : 'Weapon'),
-    title:BANNER_WEAPON_TITLES[gameCfg.key] || 'Weapon Banner',
-    status:'Ongoing',
-    featured:featured.length ? featured : items.slice(0, 2),
-    supports,
-    supportLabel:gameCfg.key === 'zzz' ? 'A-Rank Weapons' : '4-Star Weapons',
-    time:phaseTimeLabel(phase) || gameCfg.banner?.time || 'Date pending',
-    pct:phasePct(phase, gameCfg.banner?.pct || 42),
-    artPool:(featured.length ? featured : items.slice(0, 2)).map((item) => item.art || item.icon).filter(Boolean),
-    game:source || gameCfg,
-  };
-}
-
-function chronicleBannerCard(gameCfg, source){
-  if (gameCfg.key !== 'gi') return null;
-  const roster = makeRoster(gameCfg).filter((ch) => bannerRarityValue(ch.rarity) >= 5);
-  const weapons = weaponItemsFor(gameCfg.key).filter((item) => item.rarity >= 5);
-  if (!roster.length && !weapons.length) return null;
-  const featured = roster.map((ch) => ({
-    name:ch.name,
-    icon:ch.icon,
-    art:ch.art,
-    rarity:5,
-    badge:'5\u2605',
-  }));
-  const phase = dbBannerGroup(gameCfg.key)?.current;
-  return {
-    kind:'chronicle',
-    category:'Chronicle',
-    title:'Chronicled Wish',
-    status:'Ongoing',
-    featured,
-    supports:weapons,
-    supportLabel:'5-Star Weapons',
-    time:phaseTimeLabel(phase) || 'Selection banner',
-    pct:phasePct(phase, 42),
-    artPool:featured.map((item) => item.art).filter(Boolean),
-    game:source || gameCfg,
-  };
-}
-
-function currentBannerCards(cfg){
-  const buildFor = (gameCfg, source) => {
-    return [
-      characterBannerCard(gameCfg, source),
-      weaponBannerCard(gameCfg, source),
-      chronicleBannerCard(gameCfg, source),
-    ].filter(Boolean);
-  };
-  if (cfg.key !== 'nyx') return buildFor(cfg);
-  return SIM_GAMES.flatMap((game) => buildFor(GAME_REGISTRY[game.key], game));
-}
-
-function OverviewBannerCard({ card, index, showGame }){
-  const artPool = (card.artPool || []).filter(Boolean);
+function BannerPhaseCard({ card, now, showGame }){
+  const artPool = card.artPool || [];
   const [artIndex, setArtIndex] = React.useState(0);
   React.useEffect(() => {
     setArtIndex(0);
@@ -823,15 +701,18 @@ function OverviewBannerCard({ card, index, showGame }){
     const id = setInterval(() => setArtIndex((idx) => (idx + 1) % artPool.length), 4200);
     return () => clearInterval(id);
   }, [artPool.join('|')]);
-  const art = artPool.length ? artPool[artIndex % artPool.length] : (card.featured?.[0]?.art || card.game?.bg || card.game?.art);
+  const art = artPool.length ? artPool[artIndex % artPool.length] : (card.game?.bg || card.game?.art);
+  const when = bannerWhen(card, now);
+  const meta = BANNER_STATUS_META[when.state] || BANNER_STATUS_META[card.status] || BANNER_STATUS_META.live;
   const gameIcon = card.game?.icon || GAME_REGISTRY[card.game?.key]?.benchIcon;
   return (
-    <article className={'gp-oban kind-' + card.kind} style={{ '--pct':(card.pct || 42) + '%' }}>
+    <article className={'gp-oban st-' + meta.cls}>
       <div className="gp-oban-art" style={{ backgroundImage:bgUrl(art) }}></div>
       <div className="gp-oban-shade"></div>
       <div className="gp-oban-body">
         <div className="gp-oban-top">
-          <span className="gp-oban-cat">{card.category}</span>
+          <span className={'gp-oban-status st-' + meta.cls}>{meta.label}</span>
+          {card.phase && <span className="gp-oban-phase">{card.phase}</span>}
           {showGame && card.game && (
             <span className="gp-oban-game">
               {gameIcon && <img src={gameIcon} alt="" draggable="false" />}
@@ -839,9 +720,8 @@ function OverviewBannerCard({ card, index, showGame }){
             </span>
           )}
         </div>
-        <div className="gp-oban-title">{card.title}</div>
-        <div className="gp-oban-featured" aria-label={card.category + ' featured'}>
-          {(card.featured || []).map((unit) => (
+        <div className="gp-oban-featured" aria-label="Featured units">
+          {card.featured.map((unit) => (
             <span key={unit.name} className="gp-oban-unit" title={unit.name}>
               {unit.icon && <img src={unit.icon} alt="" draggable="false" />}
               <b>{unit.name}</b>
@@ -849,11 +729,11 @@ function OverviewBannerCard({ card, index, showGame }){
             </span>
           ))}
         </div>
-        {!!(card.supports || []).length && (
+        {!!card.others.length && (
           <div className="gp-oban-supports">
-            <span>{card.supportLabel}</span>
+            <span>Also featured</span>
             <div>
-              {card.supports.map((unit) => (
+              {card.others.map((unit) => (
                 <i key={unit.name} title={unit.name}>
                   {unit.icon && <img src={unit.icon} alt="" draggable="false" />}
                   <b>{unit.name}</b>
@@ -863,8 +743,9 @@ function OverviewBannerCard({ card, index, showGame }){
           </div>
         )}
         <div className="gp-oban-foot">
-          <span>{card.time}</span>
-          <i></i>
+          <b>{when.headline}</b>
+          {when.sub && <span>{when.sub}</span>}
+          {when.pct !== null && <i style={{ '--pct':when.pct + '%' }}></i>}
         </div>
       </div>
     </article>
@@ -872,21 +753,35 @@ function OverviewBannerCard({ card, index, showGame }){
 }
 
 function CurrentBannerStrip({ cfg }){
-  const cards = currentBannerCards(cfg);
-  if (!cards.length) return null;
+  const now = useNowTick(1000);
+  const isNyx = cfg.key === 'nyx';
+  // Game pages show the full phase flow; the Nyx overview shows what's live
+  // in each game right now (the All Banners tab has the rest). Memoized: the
+  // card data is static, only the countdowns tick.
+  const cards = React.useMemo(() => (
+    isNyx
+      ? SIM_GAMES.flatMap((game) => gameBannerCards(GAME_REGISTRY[game.key], game).filter((c) => c.status === 'live').slice(0, 1))
+      : gameBannerCards(cfg)
+  ), [cfg.key]);
+  const fresh = isNyx ? null : bannerFreshness(cfg.key);
+  const updated = window.NYX_DB && window.NYX_DB.banners && window.NYX_DB.banners.updated;
+  if (!cards.length && !fresh) return null;
   return (
     <section className="gp-current-banners" aria-label="Current banners">
       <div className="gp-current-banners-head">
         <GPSec title="Current Banners" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
-        <span>{cards.length} categories</span>
+        {updated && <span>Updated {formatUpdated(updated)}</span>}
       </div>
-      <div className="gp-current-banner-row">
-        {cards.map((card, i) => (
-          <div className="gp-current-banner-cell" key={(card.game?.key || cfg.key) + '-' + card.kind + '-' + i}>
-            <OverviewBannerCard card={card} index={i} showGame={cfg.key === 'nyx'} />
+      <BannerFreshnessNote fresh={fresh} />
+      {cards.length
+        ? <div className="gp-current-banner-row">
+            {cards.map((card) => (
+              <div className="gp-current-banner-cell" key={card.key}>
+                <BannerPhaseCard card={card} now={now} showGame={isNyx} />
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        : <div className="gp-oban-empty">No confirmed banners right now.</div>}
     </section>
   );
 }
@@ -1139,15 +1034,7 @@ Object.keys(GAME_REGISTRY).forEach((key) => {
   cfg.charName = top.n;
   cfg.art = top.art || top.card || cfg.art;
   cfg.benchIcon = top.icon || top.card || cfg.benchIcon;
-  cfg.banner = Object.assign({}, cfg.banner, {
-    title:'Database Highlights',
-    five:high[0] || top.n,
-    fours:(low.length ? low : roster.slice(1, 4).map(ch => ch.n)).slice(0, 3),
-    time:roster.length + ' units indexed',
-    pct:Math.max(24, Math.min(88, Math.round((high.length / Math.max(1, roster.length)) * 100))),
-  });
   cfg.codes = dbCodes(key, cfg.codes);
-  cfg.banner = bannerFromDb(key, cfg.banner);
   cfg.track = Object.assign({}, cfg.track, {
     fives:high.length ? high : roster.slice(0, 8).map(ch => ch.n),
     fours:low.length ? low : roster.slice(8, 16).map(ch => ch.n),
@@ -1156,13 +1043,6 @@ Object.keys(GAME_REGISTRY).forEach((key) => {
 
 NYX_META.roster = Object.keys(GAME_REGISTRY).flatMap(key => makeRoster(GAME_REGISTRY[key]));
 NYX_META.codes = Object.keys(GAME_REGISTRY).flatMap(key => GAME_REGISTRY[key].codes.slice(0, 2)).slice(0, 8);
-NYX_META.banner = Object.assign({}, NYX_META.banner, {
-  title:'Indexed Worlds',
-  five:'Database',
-  fours:Object.keys(GAME_REGISTRY).map(key => GAME_REGISTRY[key].name).slice(0, 3),
-  time:'Prydwen + Nanoka + EndfieldWiki',
-  pct:72,
-});
 
 const buildTrack = (cfg) => Object.assign({ pull:'Wish', pulls:'Wishes', currency:'Primogems', cost:160, fives:[], fours:[] }, cfg.track || {}, { key:cfg.key });
 
@@ -1626,122 +1506,60 @@ function AllCodesView(){
   );
 }
 
-const SIM_RESETS = { daily:'13h 10m 48s', weekly:'1d 13h 10m 48s' };
-
-function phaseNames(phase){
-  return ((phase && phase.characters) || []).map(ch => ch.name).filter(Boolean);
-}
-
-function phaseChars(phase){
-  return ((phase && phase.characters) || []).filter(ch => ch && ch.name);
-}
-
-function phaseSeconds(phase, fallback){
-  const end = phase && phase.end ? new Date(phase.end).getTime() : NaN;
-  if (!Number.isFinite(end)) return fallback;
-  return Math.max(0, Math.floor((end - Date.now()) / 1000));
-}
-
-function bannerFlowFor(g, i){
-  const group = dbBannerGroup(g.key);
-  if (group && group.current && phaseNames(group.current).length) {
-    const upcoming = (group.upcoming || []).flatMap(phaseChars);
-    const next = phaseChars(group.next).slice(0, 4);
-    const upcomingShort = upcoming.slice(0, 8);
-    return {
-      status:group.current.end && new Date(group.current.end).getTime() < Date.now() ? 'ended' : 'now',
-      secs:phaseSeconds(group.current, 824448 + i * 129600),
-      now:phaseChars(group.current).slice(0, 4),
-      next:next.length ? next : null,
-      upcoming:upcomingShort.length ? upcomingShort : null,
-    };
-  }
-  const names = makeRoster(GAME_REGISTRY[g.key]).map(ch => ({ name:ch.name, icon:ch.icon }));
-  const next = names.slice(2, 4);
-  const upcoming = names.slice(4, 8);
-  return {
-    status:'now',
-    secs:824448 + i * 129600,
-    now:names.slice(0, 2),
-    next:next.length ? next : null,
-    upcoming:upcoming.length ? upcoming : null,
-  };
-}
-
-const BANNER_FLOW = {};
-SIM_GAMES.forEach((g, i) => {
-  BANNER_FLOW[g.key] = bannerFlowFor(g, i);
-});
-const SIM_CC_COLORS = ['#dd0044','#635bff','#c08fe6','#e3b552','#b8b3ff','#d8b86a','#8f7fd6','#e07fb0'];
-
-function SimChar({ name }){
-  const ch = typeof name === 'string' ? { name } : name;
-  const col = SIM_CC_COLORS[ch.name.length % SIM_CC_COLORS.length];
-  return (
-    <div className="sim-cc" title={ch.name}>
-      <div className="d" style={{ '--c':col }}>
-        {ch.icon ? <img src={ch.icon} alt="" draggable="false" /> : <span>{simInitials(ch.name)}</span>}
-      </div>
-      <span className="n">{ch.name}</span>
-    </div>
-  );
-}
-
-function Countdown({ secs }){
-  const [t, setT] = React.useState(secs);
-  React.useEffect(() => { const id = setInterval(() => setT(x => x > 0 ? x - 1 : 0), 1000); return () => clearInterval(id); }, []);
-  const d = Math.floor(t / 86400), h = Math.floor(t % 86400 / 3600), m = Math.floor(t % 3600 / 60), s = t % 60;
-  const pad = (n) => String(n).padStart(2, '0');
-  return <span>{(d > 0 ? d + 'd ' : '') + pad(h) + 'h ' + pad(m) + 'm ' + pad(s) + 's'}</span>;
-}
-
-function SimGameBanner({ g }){
-  const f = BANNER_FLOW[g.key];
-  const ended = f.status === 'ended';
-  return (
-    <div className="sim-gbanner">
-      <div className="art" style={{ backgroundImage:'url(' + g.bg + ')', backgroundPosition:g.pos }}></div>
-      <div className="shade"></div>
-      <div className="inner">
-        <div className="ghd">{g.name}</div>
-        <div className={'phase' + (ended ? ' end' : '')}>{ended ? 'Ended' : 'Now'}</div>
-        <div className="ccrow">{f.now.map(n => <SimChar key={typeof n === 'string' ? n : n.name} name={n} />)}</div>
-        {ended ? <div className="timer ended">Ended</div> : <div className="timer"><Countdown secs={f.secs} /></div>}
-        {f.next && (
-          <React.Fragment>
-            <div className="phase">Next</div>
-            <div className="ccrow">{f.next.map(n => <SimChar key={typeof n === 'string' ? n : n.name} name={n} />)}</div>
-            {f.nextStart && <div className="substart">{f.nextStart}</div>}
-          </React.Fragment>
-        )}
-        {f.upcoming && (
-          <React.Fragment>
-            <div className="phase">Upcoming</div>
-            <div className="ccrow wrap">{f.upcoming.map(n => <SimChar key={typeof n === 'string' ? n : n.name} name={n} />)}</div>
-          </React.Fragment>
-        )}
-      </div>
-    </div>
-  );
-}
-
 function AllBannersView(){
-  const [region, setRegion] = React.useState('EU');
+  const now = useNowTick(1000);
+  // Shares the persisted region with the overview reset panel, so picking a
+  // server here and there stays consistent.
+  const [regionKey, setRegionKey] = React.useState(() => loadResetRegion('nyx'));
+  const pickRegion = (key) => {
+    if (!RESET_REGIONS[key]) return;
+    setRegionKey(key);
+    try { localStorage.setItem(resetRegionStorageKey('nyx'), key); } catch (e) {}
+  };
+  const region = RESET_REGIONS[regionKey] || RESET_REGIONS.local;
+  const updated = window.NYX_DB && window.NYX_DB.banners && window.NYX_DB.banners.updated;
+  const groups = React.useMemo(() => SIM_GAMES.map((g) => ({
+    game:g,
+    cards:gameBannerCards(GAME_REGISTRY[g.key], g),
+    fresh:bannerFreshness(g.key),
+  })), []);
   return (
     <div style={{ minWidth:0, minHeight:0, display:'flex', flexDirection:'column' }}>
       <div className="sim-banhd">
+        <GPSec title="All Banners" style={{ flex:1, minWidth:0 }} />
         <div className="sim-regions">
-          {['EU','NA','Asia'].map(r => (
-            <button type="button" key={r} className={region === r ? 'on' : ''} onClick={() => setRegion(r)}>{r}</button>
+          {['local','eu','na','asia'].map((key) => (
+            <button type="button" key={key} className={regionKey === key ? 'on' : ''} onClick={() => pickRegion(key)}>
+              {RESET_REGIONS[key].short}
+            </button>
           ))}
         </div>
         <div className="sim-resets">
-          <div className="rs"><span className="k">Daily</span><span className="v">{SIM_RESETS.daily}</span></div>
-          <div className="rs"><span className="k">Weekly</span><span className="v">{SIM_RESETS.weekly}</span></div>
+          <div className="rs"><span className="k">Daily reset</span><span className="v">{durationParts(nextDailyReset(now, region) - now)}</span></div>
+          <div className="rs"><span className="k">Weekly reset</span><span className="v">{durationParts(nextWeeklyReset(now, region) - now)}</span></div>
         </div>
       </div>
-      <div className="sim-gbangrid">
-        {SIM_GAMES.map(g => <SimGameBanner key={g.key} g={g} />)}
+      {updated && <span className="sim-updated" style={{ marginTop:'-8px', marginBottom:'10px' }}>Banner data updated {formatUpdated(updated)}</span>}
+      <div className="gp-codes-scroll" style={{ flex:1, minHeight:0, gap:'26px' }}>
+        {groups.map(({ game:g, cards, fresh }) => (
+          <section key={g.key} className="sim-bangroup" aria-label={g.name + ' banners'}>
+            <div className="sim-grouphd">
+              <img src={g.icon} alt="" />
+              <span className="gn">{g.name}</span>
+              <span className="rule"></span>
+            </div>
+            <BannerFreshnessNote fresh={fresh} />
+            {cards.length
+              ? <div className="gp-current-banner-row">
+                  {cards.map((card) => (
+                    <div className="gp-current-banner-cell" key={card.key}>
+                      <BannerPhaseCard card={card} now={now} />
+                    </div>
+                  ))}
+                </div>
+              : <div className="gp-oban-empty">No confirmed banners right now.</div>}
+          </section>
+        ))}
       </div>
     </div>
   );
@@ -2483,7 +2301,6 @@ function NyxApp(){
       '.gt-results',
       '.db-grid',
       '.tcg-grid',
-      '.sim-gbangrid',
       '.gp-overview-main',
       '.gp-overview-aside',
       '.gp-codes-scroll',
@@ -2535,7 +2352,7 @@ function NyxApp(){
       const candidates = contentScrollTargets
         .flatMap((selector) => Array.from(document.querySelectorAll(selector)))
         .filter((el) => canScrollY(el, event.deltaY));
-      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-pop.ledger .cm-pop-layout,.cm-body,.gt-results,.db-grid,.tcg-grid,.sim-gbangrid,.gp-overview-main,.gp-overview-aside,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
+      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-pop.ledger .cm-pop-layout,.cm-body,.gt-results,.db-grid,.tcg-grid,.gp-overview-main,.gp-overview-aside,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
       if (!preferred) return;
       event.preventDefault();
       preferred.scrollBy({ top:event.deltaY, left:0, behavior:'auto' });

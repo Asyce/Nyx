@@ -181,46 +181,6 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .gp-panel .body{ position:relative; clip-path:var(--hclip);
   background:linear-gradient(180deg, rgba(22,17,46,.96), rgba(10,8,26,.96)); }
 
-/* ===== banner cards ===== */
-.gp-ban{ position:relative; cursor:pointer; padding:2px;
-  transition:transform .35s, filter .35s;
-  filter:drop-shadow(0 0 4px var(--accent-glow)) drop-shadow(0 7px 16px rgba(0,0,0,.5)); }
-.gp-ban:hover{ transform:translateY(-3px); filter:drop-shadow(0 0 9px var(--accent-glow)) drop-shadow(0 8px 18px rgba(0,0,0,.55)); }
-.gp-ban .rim{ position:absolute; inset:0; clip-path:var(--hclip);
-  background:linear-gradient(152deg,#cabfff 0%,#8a79e8 34%,#3a2f74 66%,#6253b8 100%); }
-.gp-ban .body{ position:relative; clip-path:var(--hclip); overflow:hidden; background:#0c0922; }
-.gp-ban .art{ position:absolute; inset:0; background-size:cover; background-position:center 30%; }
-.gp-ban .art.ph{ background:repeating-linear-gradient(135deg, #161130 0 14px, #1b1540 14px 28px); }
-.gp-ban .art .phnote{ position:absolute; top:12px; right:16px; font-family:ui-monospace,monospace;
-  font-size:11px; color:#7d72ad; letter-spacing:.06em; }
-.gp-ban .shade{ position:absolute; inset:0;
-  background:linear-gradient(90deg, rgba(7,5,18,.96) 0%, rgba(7,5,18,.84) 45%, rgba(7,5,18,.18) 84%); }
-.gp-ban .inner{ position:relative; display:flex; flex-direction:column; justify-content:center; gap:8px;
-  padding:18px 24px; }
-.gp-ban .ban-head{ display:flex; align-items:center; justify-content:space-between; gap:12px; min-width:0; }
-.gp-ban .status{ display:flex; align-items:center; gap:8px; font-size:11px; letter-spacing:.22em;
-  text-transform:uppercase; color:var(--accent-bright); min-width:0; }
-.gp-ban .status span:last-child{ min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-.gp-ban .status .dot{ width:6px; height:6px; border-radius:50%; background:var(--accent-bright);
-  box-shadow:0 0 8px var(--accent-glow); }
-.gp-ban .status.next{ color:var(--tx-dim); }
-.gp-ban .status.next .dot{ background:var(--tx-dim); box-shadow:none; }
-.gp-ban .bt{ font-family:'GI',serif; font-size:24px; color:#f7f4ff;
-  text-shadow:0 0 16px var(--accent-glow), 0 2px 10px rgba(0,0,0,.7); }
-.gp-ban .feat{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
-.gp-ban .chip{ display:inline-flex; align-items:center; gap:5px; height:23px; padding:0 11px;
-  clip-path:var(--hclip); font-size:11.5px; letter-spacing:.06em; white-space:nowrap;
-  background:rgba(139,123,255,.16); color:#ded6ff; box-shadow:inset 0 0 0 1px rgba(183,170,255,.25); }
-.gp-ban .chip img{ width:18px; height:18px; flex:none; border-radius:50%; object-fit:cover; margin-left:-6px;
-  box-shadow:0 0 0 1px rgba(255,255,255,.24), 0 0 8px rgba(139,123,255,.35); }
-.gp-ban .chip.five{ background:linear-gradient(160deg, rgba(183,170,255,.28), rgba(139,123,255,.14));
-  color:#f2eeff; box-shadow:inset 0 0 0 1px rgba(183,170,255,.4); }
-.gp-ban .cd{ display:flex; align-items:center; gap:10px; margin-top:3px; }
-.gp-ban .cd .bar{ position:relative; width:min(210px, 64%); height:5px; border-radius:3px; background:rgba(183,170,255,.16); }
-.gp-ban .cd .bar i{ position:absolute; inset:0 auto 0 0; width:42%; border-radius:2px;
-  background:linear-gradient(90deg, var(--accent), var(--accent-bright)); box-shadow:0 0 8px var(--accent-glow); }
-.gp-ban .tm{ flex:none; font-size:12.5px; letter-spacing:.08em; color:#dcd6ff; text-shadow:0 0 10px rgba(139,123,255,.22); white-space:nowrap; }
-
 /* ===== redemption code rows ===== */
 .gp-code{ display:grid; grid-template-columns:minmax(0, 1fr) auto; align-items:center; gap:6px 12px; padding:10px 13px 10px 15px;
   border-radius:10px; background:rgba(18,13,40,.6);
@@ -406,38 +366,6 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   flex-direction:column;
   gap:6px;
 }
-.gp-current-banner-game{
-  min-width:0;
-  display:flex;
-  align-items:center;
-  gap:7px;
-  padding:0 2px;
-  color:#cfc6f5;
-  font-family:'HSR','Segoe UI',sans-serif;
-  font-size:10px;
-  letter-spacing:.12em;
-  text-transform:uppercase;
-}
-.gp-current-banner-game img{
-  width:18px;
-  height:18px;
-  border-radius:50%;
-  object-fit:contain;
-  filter:grayscale(.4) brightness(.82);
-}
-.gp-current-banner-game span{
-  min-width:0;
-  overflow:hidden;
-  text-overflow:ellipsis;
-  white-space:nowrap;
-}
-.gp-current-banner-cell .gp-ban.compact .ban-art-card{ height:126px; }
-.gp-current-banner-cell .gp-ban.compact .inner{ padding:10px 13px; }
-.gp-current-banner-cell .gp-ban.f .ban-name{ font-size:20px; max-width:72%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-.gp-current-banner-cell .gp-ban.f .ban-date{ font-size:12px; }
-.gp-current-banner-cell .gp-ban.f .four-icons img,
-.gp-current-banner-cell .gp-ban.f .four-init{ width:24px; height:24px; }
-.gp-current-banner-cell .gp-ban.f .four-init{ font-size:12px; }
 .gp-oban{
   position:relative;
   min-height:236px;
@@ -465,11 +393,6 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   opacity:.68;
   filter:saturate(1.05) contrast(1.04);
 }
-.gp-oban.kind-weapon .gp-oban-art,
-.gp-oban.kind-chronicle .gp-oban-art{
-  background-size:min(72%, 260px) auto;
-  background-position:88% 44%;
-}
 .gp-oban-shade{
   position:absolute;
   inset:0;
@@ -495,12 +418,39 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   font-family:'HSR','Segoe UI',sans-serif;
   text-transform:uppercase;
 }
-.gp-oban-cat{
+.gp-oban-status{
   flex:none;
-  color:#b7aaff;
-  font-size:10px;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  height:20px;
+  padding:0 9px;
+  border-radius:6px;
+  font-size:9px;
   font-weight:900;
   letter-spacing:.16em;
+}
+.gp-oban-status::before{
+  content:"";
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  background:currentColor;
+  box-shadow:0 0 8px currentColor;
+}
+.gp-oban-status.st-live{ color:#8ef0c3; background:rgba(64,203,141,.14); box-shadow:inset 0 0 0 1px rgba(64,203,141,.35); }
+.gp-oban-status.st-next{ color:#cfc4ff; background:rgba(139,123,255,.18); box-shadow:inset 0 0 0 1px rgba(160,142,255,.36); }
+.gp-oban-status.st-upcoming{ color:#a9b6d6; background:rgba(140,160,210,.12); box-shadow:inset 0 0 0 1px rgba(150,168,215,.3); }
+.gp-oban-status.st-ended{ color:#f0a9b9; background:rgba(217,85,119,.13); box-shadow:inset 0 0 0 1px rgba(217,85,119,.33); }
+.gp-oban-phase{
+  flex:1;
+  min-width:0;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  color:#b9aee6;
+  font-size:10px;
+  letter-spacing:.14em;
 }
 .gp-oban-game{
   min-width:0;
@@ -514,17 +464,10 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 }
 .gp-oban-game img{ width:18px; height:18px; border-radius:50%; object-fit:cover; filter:grayscale(.35) brightness(.8); }
 .gp-oban-game span{ min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-.gp-oban-title{
-  min-width:0;
-  color:#fbf8ff;
-  font-family:'GI',serif;
-  font-size:22px;
-  line-height:1.06;
-  text-shadow:0 0 15px rgba(139,123,255,.36), 0 2px 10px rgba(0,0,0,.7);
-}
 .gp-oban-featured{
   min-width:0;
-  max-height:78px;
+  /* fits three full 28px chip rows — no mid-row clipping */
+  max-height:96px;
   display:flex;
   align-content:flex-start;
   flex-wrap:wrap;
@@ -577,7 +520,6 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   display:flex;
   flex-direction:column;
   gap:5px;
-  margin-top:auto;
 }
 .gp-oban-supports > span{
   color:#9f95ca;
@@ -616,18 +558,47 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   min-width:0;
   display:grid;
   grid-template-columns:minmax(0, 1fr);
-  gap:6px;
-  color:#bfb6e8;
+  gap:5px;
+  margin-top:auto;
   font-family:ui-monospace,'Cascadia Mono',monospace;
-  font-size:11px;
 }
-.gp-oban-foot span{ min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.gp-oban-foot b{
+  min-width:0;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  color:#efeaff;
+  font-weight:600;
+  font-size:14px;
+  letter-spacing:.05em;
+  text-shadow:0 0 12px rgba(139,123,255,.3);
+}
+.gp-oban.st-ended .gp-oban-foot b{ color:#e3a2b2; text-shadow:none; }
+.gp-oban-foot span{
+  min-width:0;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  color:#9d93c9;
+  font-size:10.5px;
+  letter-spacing:.03em;
+}
 .gp-oban-foot i{
   display:block;
   height:3px;
   border-radius:3px;
   background:linear-gradient(90deg, #cfc4ff var(--pct), rgba(183,170,255,.18) var(--pct));
   box-shadow:0 0 10px rgba(139,123,255,.3);
+}
+.gp-oban-empty{
+  min-width:0;
+  padding:18px 16px;
+  border-radius:8px;
+  background:rgba(9,7,24,.5);
+  box-shadow:inset 0 0 0 1px rgba(183,170,255,.14);
+  color:#a99fd6;
+  font-size:12px;
+  letter-spacing:.04em;
 }
 
 .gp-reset-panel{
@@ -891,52 +862,6 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   transition:filter .3s; }
 .gp-logo-btn:hover{ transform:translateY(-2px); }
 .gp-logo-btn:hover img{ filter:brightness(0) invert(1) drop-shadow(0 0 12px rgba(183,170,255,.95)); }
-
-/* ===== compact banner cards (stacked 2+2 column) ===== */
-.gp-ban.compact .inner{ padding:15px 22px; gap:8px; justify-content:center; }
-.gp-ban.compact .ban-head{ align-items:flex-start; }
-.gp-ban.compact .status{ font-size:11.5px; letter-spacing:.18em; }
-.gp-ban.compact .tm{ font-size:12px; max-width:42%; overflow:hidden; text-overflow:ellipsis; }
-.gp-ban.compact .bt{ font-size:24px; line-height:1; }
-.gp-ban.compact .chip{ height:25px; padding:0 11px; font-size:12px; }
-.gp-ban.compact .chip.five{ height:30px; padding:0 14px; font-size:13px; }
-.gp-ban.compact .chip.five img{ width:24px; height:24px; margin-left:-8px; }
-.gp-ban.compact .cd{ margin-top:0; }
-.gp-ban.compact .cd .bar{ width:72%; height:5px; }
-.gp-ban.compact .shade{ background:linear-gradient(90deg, rgba(7,5,18,.97) 0%, rgba(7,5,18,.86) 48%, rgba(7,5,18,.18) 86%); }
-
-/* ===== banner — layout F (art-forward, 4★ icons, big duration below) ===== */
-.gp-ban.f{ padding:0; cursor:default; display:flex; flex-direction:column; gap:7px; }
-.gp-ban.f:hover{ transform:none; filter:none; }
-.gp-ban.f .ban-art-card{ position:relative; border-radius:12px; overflow:hidden; background:#0c0922;
-  box-shadow:inset 0 0 0 1px rgba(183,170,255,.2), 0 8px 18px rgba(0,0,0,.45); }
-.gp-ban.f .art{ position:absolute; inset:0; background-size:cover; background-position:center 22%; }
-.gp-ban.f .shade{ position:absolute; inset:0;
-  background:linear-gradient(0deg, rgba(6,4,16,.96) 0%, rgba(6,4,16,.55) 33%, rgba(6,4,16,0) 64%); }
-.gp-ban.f .status.f{ position:absolute; top:10px; left:12px; display:inline-flex; align-items:center; gap:7px;
-  font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; color:#ded6ff;
-  background:rgba(8,5,20,.62); padding:4px 9px; border-radius:999px; box-shadow:inset 0 0 0 1px rgba(183,170,255,.24); }
-.gp-ban.f .status.f .dot{ width:6px; height:6px; border-radius:50%; background:var(--accent-bright); box-shadow:0 0 8px var(--accent-glow); }
-.gp-ban.f .status.f.next{ color:var(--tx-dim); }
-.gp-ban.f .status.f.next .dot{ background:var(--tx-dim); box-shadow:none; }
-/* G32: name top-left; 4★ icons bottom-left; end date bottom-right; no "Ongoing". */
-.gp-ban.f .ban-name{ position:absolute; top:10px; left:13px; z-index:2; font-family:'GI',serif; font-size:24px; line-height:1;
-  color:#f7f4ff; text-shadow:0 2px 12px rgba(0,0,0,.85); }
-.gp-ban.f .ban-flag{ position:absolute; top:12px; right:12px; z-index:2; font-size:9.5px; letter-spacing:.16em; text-transform:uppercase;
-  color:#ded6ff; background:rgba(8,5,20,.62); padding:3px 8px; border-radius:999px; box-shadow:inset 0 0 0 1px rgba(183,170,255,.24); }
-.gp-ban.f .ban-bottom{ position:absolute; left:0; right:0; bottom:0; padding:10px 13px; display:flex; flex-direction:row;
-  align-items:flex-end; justify-content:space-between; gap:10px; }
-.gp-ban.f .four-icons{ display:flex; align-items:center; gap:6px; flex-wrap:wrap; min-height:1px; }
-.gp-ban.f .four-icons img{ width:30px; height:30px; border-radius:50%; object-fit:cover; flex:none;
-  box-shadow:0 0 0 1.5px rgba(183,170,255,.5), 0 2px 6px rgba(0,0,0,.5); background:#0c0922; }
-.gp-ban.f .four-init{ width:30px; height:30px; border-radius:50%; flex:none; display:grid; place-items:center;
-  font-family:'GI',serif; font-size:14px; color:#cfc6ff; background:rgba(20,15,46,.85); box-shadow:0 0 0 1.5px rgba(183,170,255,.4); }
-.gp-ban.f .ban-date{ flex:none; align-self:flex-end; font-family:'GI',serif; font-size:14px; letter-spacing:.02em;
-  color:#dcd6ff; text-shadow:0 0 10px rgba(139,123,255,.26), 0 1px 8px rgba(0,0,0,.8); white-space:nowrap; }
-/* G33: compact "Next" sub-banner — smaller name/icons/date. */
-.gp-ban.f.isnext .ban-name{ font-size:17px; }
-.gp-ban.f.isnext .four-icons img, .gp-ban.f.isnext .four-init{ width:24px; height:24px; }
-.gp-ban.f.isnext .ban-date{ font-size:12px; }
 
 /* ===== bare root (page-level bg handles backdrop) ===== */
 .gp.bare{ background:transparent; }
@@ -1942,7 +1867,6 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .gp-fav-picker,
 .overview-codes-scroll,
 .gp-codes-scroll,
-.sim-gbangrid,
 .gt-results,
 .gt-fives .lst,
 .gt-archive-grid,
@@ -1968,7 +1892,6 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .gp-fav-picker::-webkit-scrollbar,
 .overview-codes-scroll::-webkit-scrollbar,
 .gp-codes-scroll::-webkit-scrollbar,
-.sim-gbangrid::-webkit-scrollbar,
 .gt-results::-webkit-scrollbar,
 .gt-fives .lst::-webkit-scrollbar,
 .gt-archive-grid::-webkit-scrollbar,
@@ -2177,7 +2100,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
 .sim-code.st-copied{ box-shadow:inset 0 0 0 1.5px rgba(183,170,255,.5), 0 0 18px rgba(139,123,255,.12); }
 
 /* ===== Nyx — redesigned All Banners ===== */
-.sim-banhd{ display:flex; align-items:center; gap:18px; flex:none; margin-bottom:18px; }
+.sim-banhd{ display:flex; align-items:center; gap:18px; flex:none; margin-bottom:18px; padding-right:14px; }
 .sim-regions{ display:flex; gap:6px; padding:5px; border-radius:12px; background:rgba(13,10,30,.5);
   box-shadow:inset 0 0 0 1px rgba(183,170,255,.16); }
 .sim-regions button{ border:none; cursor:pointer; height:34px; padding:0 18px; border-radius:8px; background:none;
@@ -2189,35 +2112,9 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
 .sim-resets .k{ font-family:'HSR',sans-serif; font-size:10px; letter-spacing:.18em; text-transform:uppercase; color:#8d82bd; }
 .sim-resets .v{ font-family:ui-monospace,monospace; font-size:14px; color:#efeaff; letter-spacing:.04em; }
 
-.sim-gbangrid{ flex:1; min-height:0; overflow-y:auto; overscroll-behavior:contain; padding-right:8px;
-  display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:18px; align-content:start; }
-.sim-gbangrid::-webkit-scrollbar{ width:6px; }
-.sim-gbangrid::-webkit-scrollbar-thumb{ background:rgba(139,123,255,.45); border-radius:3px; }
-.sim-gbanner{ position:relative; min-height:230px; overflow:hidden; border-radius:18px; display:flex;
-  box-shadow:inset 0 0 0 1px rgba(183,170,255,.22); filter:drop-shadow(0 8px 18px rgba(0,0,0,.45)); }
-.sim-gbanner .art{ position:absolute; inset:0; background-size:cover; }
-.sim-gbanner .shade{ position:absolute; inset:0;
-  background:linear-gradient(180deg, rgba(8,6,18,.55) 0%, rgba(8,6,18,.82) 55%, rgba(8,6,18,.95) 100%); }
-.sim-gbanner .inner{ position:relative; z-index:2; flex:1; min-width:0; padding:16px 20px 18px; display:flex; flex-direction:column; gap:8px; }
-.sim-gbanner .ghd{ font-family:'GI',serif; font-size:20px; color:#f7f4ff; text-shadow:0 0 14px var(--accent-glow), 0 2px 8px rgba(0,0,0,.7); }
-.sim-gbanner .phase{ font-family:'HSR',sans-serif; font-size:10px; letter-spacing:.2em; text-transform:uppercase;
-  color:var(--accent-bright); margin-top:2px; }
-.sim-gbanner .phase.end{ color:#cf7d8d; }
-.sim-gbanner .ccrow{ display:flex; gap:12px; }
-.sim-gbanner .ccrow.wrap{ flex-wrap:wrap; gap:10px 12px; }
-.sim-cc{ display:flex; flex-direction:column; align-items:center; gap:5px; width:54px; }
-.sim-cc .d{ width:48px; height:48px; border-radius:50%; display:grid; place-items:center; flex:none;
-  background:radial-gradient(circle at 50% 30%, color-mix(in oklab, var(--c) 75%, #2a2150), #14102e);
-  box-shadow:inset 0 0 0 2px color-mix(in oklab, var(--c) 65%, transparent), 0 0 14px color-mix(in oklab, var(--c) 40%, transparent); }
-.sim-cc .d img{ width:100%; height:100%; border-radius:50%; object-fit:cover; }
-.sim-cc .d span{ font-family:'GI',serif; font-size:16px; color:#fff; text-shadow:0 1px 4px rgba(0,0,0,.6); }
-.sim-cc .n{ font-size:9.5px; letter-spacing:.02em; color:#cfc6f5; text-align:center; line-height:1.2; max-width:54px;
-  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-.sim-gbanner .timer{ font-family:ui-monospace,monospace; font-size:15px; letter-spacing:.06em; color:#dcd6ff;
-  text-shadow:0 0 12px rgba(139,123,255,.38); }
-.sim-gbanner .timer.ended{ color:#cf7d8d; text-shadow:none; }
-.sim-gbanner .substart{ font-size:11px; color:#a99fd6; letter-spacing:.03em; }
-.sim-gbanner .phase + .ccrow{ margin-top:-1px; }
+/* Per-game banner groups reuse the codes-page group header + the shared
+   gp-oban phase cards, so All Banners and game overviews look identical. */
+.sim-bangroup{ min-width:0; flex:none; display:flex; flex-direction:column; gap:10px; }
 
 /* ===== gacha pull tracker (overlay) ===== */
 .gt-overlay{ position:absolute; inset:0; z-index:60; display:grid; place-items:center;

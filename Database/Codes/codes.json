@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T20:19:56.149Z",
+  "generatedAt": "2026-07-03T22:11:26.825Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-03T20:19:37.664Z",
+      "lastSuccessfulFetch": "2026-07-03T22:11:07.025Z",
       "codes": [
         {
           "code": "EZSB8889C2BZ",
@@ -61,7 +61,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-03T20:19:56.149Z",
+      "lastSuccessfulFetch": "2026-07-03T22:11:26.824Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -120,10 +120,9 @@
         },
         {
           "code": "HT3QMCJ9U4JB",
-          "rewards": "100 stellar jade and five traveler's guides",
+          "rewards": "100 Stellar Jade and Five Traveler S Guides",
           "added": "2026-07-03",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=HT3QMCJ9U4JB",
-          "hoyoVerified": true,
           "premium": true,
           "premium100": true,
           "cwSeen": true,
@@ -164,10 +163,9 @@
         },
         {
           "code": "WAK84U29VLYP",
-          "rewards": "100 stellar jade and 50k credits",
+          "rewards": "100 Stellar Jade and 50k Credits",
           "added": "2026-07-03",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=WAK84U29VLYP",
-          "hoyoVerified": true,
           "premium": true,
           "premium100": true,
           "cwSeen": true,
@@ -175,10 +173,9 @@
         },
         {
           "code": "XTJ9MV38DL3X",
-          "rewards": "100 stellar jade and four refined aether",
+          "rewards": "100 Stellar Jade and Four Refined Aether",
           "added": "2026-07-03",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=XTJ9MV38DL3X",
-          "hoyoVerified": true,
           "premium": true,
           "premium100": true,
           "cwSeen": true,
@@ -203,7 +200,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-03T20:19:37.662Z",
+      "lastSuccessfulFetch": "2026-07-03T22:11:07.039Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -275,7 +272,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-03T20:19:37.618Z",
+      "lastSuccessfulFetch": "2026-07-03T22:11:07.241Z",
       "codes": []
     },
     {
@@ -285,7 +282,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-03T20:19:37.649Z",
+      "lastSuccessfulFetch": "2026-07-03T22:11:07.015Z",
       "codes": [
         {
           "code": "ALLFIELD",

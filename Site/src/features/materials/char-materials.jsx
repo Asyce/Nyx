@@ -1037,6 +1037,285 @@ function cmBlockArtStyle(artOrChars){
   return art ? { '--cm-block-art': cmCssUrl(art) } : undefined;
 }
 
+const NYX_CHARACTER_IMAGES_KEY = 'nyx:character-images:v1';
+const NYX_LOCAL_IMAGE_ACCEPT = 'image/png,image/jpeg,image/webp';
+const NYX_SAFE_DATA_IMAGE_RE = /^data:image\/(?:png|jpeg|jpg|webp);base64,[a-z0-9+/=\s]+$/i;
+
+function nyxSafeImageSrc(src){
+  const text = String(src || '').trim();
+  if (!text) return null;
+  if (/^javascript:/i.test(text)) return null;
+  if (/^data:/i.test(text) && !NYX_SAFE_DATA_IMAGE_RE.test(text)) return null;
+  return text;
+}
+
+function nyxSanitizeCharacterImages(raw){
+  const src = raw && typeof raw === 'object' ? raw : {};
+  const next = {};
+  Object.keys(src).forEach((key) => {
+    const row = src[key] && typeof src[key] === 'object' ? src[key] : {};
+    const icon = nyxSafeImageSrc(row.icon);
+    const background = nyxSafeImageSrc(row.background);
+    if (icon || background) next[key] = { ...(icon ? { icon } : {}), ...(background ? { background } : {}) };
+  });
+  return next;
+}
+
+function nyxLoadCharacterImages(){
+  try { return nyxSanitizeCharacterImages(JSON.parse(localStorage.getItem(NYX_CHARACTER_IMAGES_KEY) || '{}')); }
+  catch (e) { return {}; }
+}
+
+function nyxSaveCharacterImages(next){
+  const clean = nyxSanitizeCharacterImages(next);
+  try { localStorage.setItem(NYX_CHARACTER_IMAGES_KEY, JSON.stringify(clean)); } catch (e) {}
+  try { window.dispatchEvent(new CustomEvent('nyx:character-images-changed', { detail:clean })); } catch (e) {}
+  return clean;
+}
+
+function nyxCharacterImageKey(gameKey, ch){
+  const id = String(ch?.id || ch?.rawName || ch?.n || ch?.name || '').trim();
+  return (gameKey || 'game') + ':' + id;
+}
+
+function nyxSetCharacterImage(gameKey, ch, patch){
+  const key = nyxCharacterImageKey(gameKey, ch);
+  if (!key || /:$/.test(key)) return nyxLoadCharacterImages();
+  const current = nyxLoadCharacterImages();
+  const row = { ...(current[key] || {}) };
+  Object.keys(patch || {}).forEach((field) => {
+    const safe = nyxSafeImageSrc(patch[field]);
+    if (safe) row[field] = safe;
+    else delete row[field];
+  });
+  if (row.icon || row.background) current[key] = row;
+  else delete current[key];
+  return nyxSaveCharacterImages(current);
+}
+
+function useNyxCharacterImagePrefs(){
+  const [prefs, setPrefs] = React.useState(nyxLoadCharacterImages);
+  React.useEffect(() => {
+    const onChanged = (event) => setPrefs(nyxSanitizeCharacterImages(event.detail || nyxLoadCharacterImages()));
+    window.addEventListener('nyx:character-images-changed', onChanged);
+    return () => window.removeEventListener('nyx:character-images-changed', onChanged);
+  }, []);
+  return [prefs, setPrefs];
+}
+
+function nyxApplyCharacterCustomImages(gameKey, ch, prefs){
+  const key = nyxCharacterImageKey(gameKey, ch);
+  const row = (prefs || nyxLoadCharacterImages())[key];
+  if (!row) return ch;
+  const icon = nyxSafeImageSrc(row.icon);
+  const background = nyxSafeImageSrc(row.background);
+  if (!icon && !background) return ch;
+  return {
+    ...ch,
+    originalIcon: ch.originalIcon || ch.icon || ch.circle,
+    originalArt: ch.originalArt || ch.art || ch.card,
+    ...(icon ? { icon, circle:icon, customIcon:icon } : {}),
+    ...(background ? { art:background, card:background, customBackground:background } : {}),
+  };
+}
+
+function nyxDedupeImageChoices(rows){
+  const seen = new Set();
+  return (rows || []).map((row) => {
+    const src = nyxSafeImageSrc(row && row.src);
+    return src ? { ...row, src } : null;
+  }).filter(Boolean).filter((row) => {
+    if (seen.has(row.src)) return false;
+    seen.add(row.src);
+    return true;
+  });
+}
+
+function nyxCharacterImageChoices(base, view, kind){
+  const rows = [];
+  const add = (label, src, group) => rows.push({ label, src, group });
+  const addMany = (label, list, group) => (list || []).forEach((src, i) => add(list.length > 1 ? label + ' ' + (i + 1) : label, src, group));
+  if (kind === 'icon') {
+    add('Current icon', view?.icon || view?.circle, 'Current');
+    add('Base icon', base?.originalIcon || base?.icon || base?.circle, 'Character');
+    (base?.forms || []).forEach((form) => add(form.formLabel || form.rawName || form.n || 'Form', form.icon || form.circle, 'Forms'));
+  } else {
+    add('Current art', view?.art || view?.card, 'Current');
+    add('Base art', base?.originalArt || base?.art || base?.card, 'Character');
+    add('Namecard', base?.namecard || view?.namecard, 'Character');
+    add('Overview art', base?.overviewArt || view?.overviewArt, 'Overview');
+    addMany('Overview', base?.overviewArtPool || view?.overviewArtPool, 'Overview');
+    addMany('Birthday', base?.birthdayArtPool || view?.birthdayArtPool, 'Special');
+    addMany('Holiday', base?.holidayArtPool || view?.holidayArtPool, 'Special');
+    (base?.forms || []).forEach((form) => add(form.formLabel || form.rawName || form.n || 'Form', form.art || form.card, 'Forms'));
+  }
+  return nyxDedupeImageChoices(rows);
+}
+
+function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 512, shape = 'square', onSave, onCancel }){
+  const [sourceUrl, setSourceUrl] = React.useState('');
+  const [fileName, setFileName] = React.useState('');
+  const [zoom, setZoom] = React.useState(1.16);
+  const [rotate, setRotate] = React.useState(0);
+  const [panX, setPanX] = React.useState(0);
+  const [panY, setPanY] = React.useState(0);
+  const [ready, setReady] = React.useState(false);
+  const [error, setError] = React.useState('');
+  const imgRef = React.useRef(null);
+
+  React.useEffect(() => () => { if (sourceUrl) URL.revokeObjectURL(sourceUrl); }, [sourceUrl]);
+
+  const pickFile = (event) => {
+    const file = event.target.files && event.target.files[0];
+    event.target.value = '';
+    setError('');
+    if (!file) return;
+    if (!/^image\/(?:png|jpeg|webp)$/i.test(file.type)) {
+      setError('Use PNG, JPEG, or WebP.');
+      return;
+    }
+    const url = URL.createObjectURL(file);
+    setSourceUrl((prev) => {
+      if (prev) URL.revokeObjectURL(prev);
+      return url;
+    });
+    setFileName(file.name || 'Local image');
+    setZoom(1.16);
+    setRotate(0);
+    setPanX(0);
+    setPanY(0);
+    setReady(false);
+  };
+
+  const commit = () => {
+    const img = imgRef.current;
+    if (!img || !ready) return;
+    try {
+      const canvas = document.createElement('canvas');
+      canvas.width = outputWidth;
+      canvas.height = outputHeight;
+      const ctx = canvas.getContext('2d');
+      ctx.clearRect(0, 0, outputWidth, outputHeight);
+      ctx.save();
+      ctx.translate(outputWidth / 2 + (panX / 100) * outputWidth * .45, outputHeight / 2 + (panY / 100) * outputHeight * .45);
+      ctx.rotate((rotate * Math.PI) / 180);
+      const baseScale = Math.max(outputWidth / img.naturalWidth, outputHeight / img.naturalHeight);
+      const scale = baseScale * zoom;
+      const drawW = img.naturalWidth * scale;
+      const drawH = img.naturalHeight * scale;
+      ctx.drawImage(img, -drawW / 2, -drawH / 2, drawW, drawH);
+      ctx.restore();
+      onSave(canvas.toDataURL('image/png'));
+    } catch (e) {
+      setError('This image could not be saved locally.');
+    }
+  };
+
+  return (
+    <div className={'nyx-img-editor shape-' + shape}>
+      <div className="nyx-img-editor-head">
+        <b>{label}</b>
+        <label>
+          <input type="file" accept={NYX_LOCAL_IMAGE_ACCEPT} onChange={pickFile} />
+          <span>Choose File</span>
+        </label>
+      </div>
+      {sourceUrl && (
+        <div className="nyx-img-preview" style={{ aspectRatio:String(aspect) }}>
+          <img
+            ref={imgRef}
+            src={sourceUrl}
+            alt=""
+            draggable="false"
+            onLoad={() => setReady(true)}
+            style={{ transform:`translate(${panX * .45}%, ${panY * .45}%) rotate(${rotate}deg) scale(${zoom})` }}
+          />
+        </div>
+      )}
+      <div className="nyx-img-fields">
+        <label><span>Zoom</span><input type="range" min="1" max="3" step=".01" value={zoom} onChange={(e) => setZoom(Number(e.target.value))} /></label>
+        <label><span>X</span><input type="range" min="-100" max="100" step="1" value={panX} onChange={(e) => setPanX(Number(e.target.value))} /></label>
+        <label><span>Y</span><input type="range" min="-100" max="100" step="1" value={panY} onChange={(e) => setPanY(Number(e.target.value))} /></label>
+        <label><span>Rotate</span><input type="range" min="-180" max="180" step="1" value={rotate} onChange={(e) => setRotate(Number(e.target.value))} /></label>
+      </div>
+      <div className="nyx-img-actions">
+        <span>{fileName || 'PNG, JPEG, or WebP. Stored only in this browser.'}</span>
+        <button type="button" onClick={() => setRotate((r) => r - 90)} disabled={!sourceUrl}>Rotate Left</button>
+        <button type="button" onClick={() => setRotate((r) => r + 90)} disabled={!sourceUrl}>Rotate Right</button>
+        <button type="button" onClick={onCancel}>Cancel</button>
+        <button type="button" className="primary" onClick={commit} disabled={!ready}>Save</button>
+      </div>
+      {error && <div className="nyx-img-error">{error}</div>}
+    </div>
+  );
+}
+
+function NyxImageChoiceControl({ label, active, choices, aspect, outputWidth, outputHeight, shape, onPick }){
+  const [editing, setEditing] = React.useState(false);
+  const visible = nyxDedupeImageChoices(choices).slice(0, 48);
+  return (
+    <div className="nyx-img-choice">
+      <div className="nyx-img-choice-head">
+        <b>{label}</b>
+        <button type="button" onClick={() => setEditing((v) => !v)}>{editing ? 'Close Upload' : 'Upload Local'}</button>
+        <button type="button" onClick={() => onPick(null)}>Reset</button>
+      </div>
+      {visible.length > 0 && (
+        <div className="nyx-img-choice-row">
+          {visible.map((row) => (
+            <button type="button" key={row.src} className={active === row.src ? 'on' : ''} title={(row.group ? row.group + ': ' : '') + row.label} onClick={() => onPick(row.src)}>
+              <img src={row.src} alt="" draggable="false" />
+              <span>{row.label}</span>
+            </button>
+          ))}
+        </div>
+      )}
+      {editing && (
+        <NyxImageEditor
+          label={'Upload ' + label}
+          aspect={aspect}
+          outputWidth={outputWidth}
+          outputHeight={outputHeight}
+          shape={shape}
+          onSave={(src) => { onPick(src); setEditing(false); }}
+          onCancel={() => setEditing(false)}
+        />
+      )}
+    </div>
+  );
+}
+
+function CharacterImageControls({ gameKey, base, view, prefs, onPrefs }){
+  if (!base || !view) return null;
+  const key = nyxCharacterImageKey(gameKey, base);
+  const custom = prefs[key] || {};
+  const save = (patch) => onPrefs(nyxSetCharacterImage(gameKey, base, patch));
+  return (
+    <div className="cm-custom-art-panel">
+      <NyxImageChoiceControl
+        label="Character Icon"
+        active={custom.icon || ''}
+        choices={nyxCharacterImageChoices(base, view, 'icon')}
+        aspect={1}
+        outputWidth={512}
+        outputHeight={512}
+        shape="circle"
+        onPick={(src) => save({ icon:src })}
+      />
+      <NyxImageChoiceControl
+        label="Character Background"
+        active={custom.background || ''}
+        choices={nyxCharacterImageChoices(base, view, 'background')}
+        aspect={16 / 9}
+        outputWidth={1600}
+        outputHeight={900}
+        shape="wide"
+        onPick={(src) => save({ background:src })}
+      />
+    </div>
+  );
+}
+
 // G29/G30: newest-released character in a list (by release / updated / sourceOrder).
 function cmCharRelease(ch){
   return Number(ch && (ch.release || ch.updated || ch.sourceOrder)) || 0;
@@ -1375,6 +1654,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const [totalIncludeByChar, setTotalIncludeByChar] = React.useState(cmLoadTotalIncludePrefs);
   const [identityPrefs, setIdentityPrefs] = React.useState(cmLoadIdentityPrefs);
   const [unitPrefs, setUnitPrefs] = React.useState(cmLoadSpecialUnitPrefs);
+  const [characterImagePrefs, setCharacterImagePrefs] = useNyxCharacterImagePrefs();
 
   const betaAvailable = cmHasBeta(gk);
   const liveCfg = CM_CFG[gk] || null;
@@ -1490,7 +1770,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     const nextCfg = CM_CFG[activeGame] || cfg || { roster:[] };
     const nextRoster = (nextCfg.roster || [])
       .map((ch) => cmApplyIdentityDisplay(activeGame, ch, identityPrefs))
-      .filter((ch) => cmSpecialUnitVisible(activeGame, ch, unitPrefs));
+      .filter((ch) => cmSpecialUnitVisible(activeGame, ch, unitPrefs))
+      .map((ch) => nyxApplyCharacterCustomImages(activeGame, ch, characterImagePrefs));
     const wanted = String(selectedName).toLowerCase();
     const found = nextRoster.find((ch) => (
       String(ch.n || '').toLowerCase() === wanted
@@ -1504,7 +1785,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
         setActiveGender(form.gender || null);
       }
     }
-  }, [selectedName, game, gk, dataTick, identityPrefs, unitPrefs]);
+  }, [selectedName, game, gk, dataTick, identityPrefs, unitPrefs, characterImagePrefs]);
   React.useEffect(() => {
     setWeaponPickerOpen(false);
     setWeaponSearch('');
@@ -1564,7 +1845,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const gMeta = cfg;
   const displayRoster = (cfg.roster || [])
     .map((ch) => cmApplyIdentityDisplay(gk, ch, identityPrefs))
-    .filter((ch) => cmSpecialUnitVisible(gk, ch, unitPrefs));
+    .filter((ch) => cmSpecialUnitVisible(gk, ch, unitPrefs))
+    .map((ch) => nyxApplyCharacterCustomImages(gk, ch, characterImagePrefs));
   const byName = {};
   displayRoster.forEach(ch => {
     [ch.n, ch.rawName, ch.baseName, ...(ch.aliases || [])].filter(Boolean).forEach((key) => {
@@ -1686,7 +1968,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const activePreset = CM_GI_PRESETS.find((p) => p.targets.every((v, i) => v === giTargets[i]))
     || { key:'custom', label:giTargets.join('/'), targets:giTargets };
 
-  const view = sel ? cmActiveForm(sel, activeVariant, activeGender) : null;
+  const viewBase = sel ? cmActiveForm(sel, activeVariant, activeGender) : null;
+  const view = viewBase ? nyxApplyCharacterCustomImages(gk, viewBase, characterImagePrefs) : null;
   const formOptions = cmFormOptions(sel);
   const genderOptions = cmGenderOptions(sel);
   const hsrTalentTargets = hsrMax ? CM_TALENT_CFG.hsr.max : hsrTargets;
@@ -1736,8 +2019,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const hasAscData = !!(req && Array.isArray(req.ascension) && req.ascension.length > 0);
   const hasTalentData = !!(req && ((Array.isArray(req.talents) && req.talents.length > 0)
     || (Array.isArray(req.talentStages) && req.talentStages.some((s) => s.length))));
-  const selArt = view ? cmPopupArtFor(gk, sel, view, activeArtIndex) : null;
-  const specialArtClass = view ? cmSpecialArtClass(gk, sel, view) : '';
+  const selArt = view ? (view.customBackground || cmPopupArtFor(gk, sel, view, activeArtIndex)) : null;
+  const specialArtClass = view && !view.customBackground ? cmSpecialArtClass(gk, sel, view) : '';
   const metaChips = view ? cmMetaChips(gk, view) : [];
   const setGiTalentTarget = (index, value) => {
     const next = giTargets.slice(0, 3);
@@ -2108,6 +2391,14 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                     )}
                   </div>
                 )}
+
+                <CharacterImageControls
+                  gameKey={gk}
+                  base={sel}
+                  view={view}
+                  prefs={characterImagePrefs}
+                  onPrefs={setCharacterImagePrefs}
+                />
 
                 <div className="cm-ledger-rows">
                   {selArt && <div className={'cm-ledger-art' + specialArtClass} aria-hidden="true"><img src={selArt} alt="" draggable="false" /></div>}

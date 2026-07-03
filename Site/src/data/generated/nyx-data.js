@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-02T03:11:47.940Z",
+  "generatedAt": "2026-07-03T11:28:48.369Z",
   "providers": {
     "Prydwen": "2026-07-01T09:00:25.858Z",
     "Nanoka": {
@@ -340,7 +340,7 @@ var NYX_DB = {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-07-01T20:12:47.889Z",
           "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
           "lastValidUpdate": "2026-07-01T04:53:03.064Z",
@@ -397,7 +397,7 @@ var NYX_DB = {
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-07-01T20:12:47.889Z",
           "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
           "lastValidUpdate": "2026-07-01T04:53:03.064Z",
@@ -452,7 +452,7 @@ var NYX_DB = {
       "wuwa": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-07-01T20:12:47.889Z",
           "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
           "lastValidUpdate": "2026-07-01T04:53:03.064Z",
@@ -641,7 +641,7 @@ var NYX_DB = {
       "zzz": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-07-01T20:12:47.889Z",
           "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
           "lastValidUpdate": "2026-07-01T04:53:03.064Z",
@@ -4446,7 +4446,7 @@ var NYX_DB = {
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-07-01T20:12:47.889Z",
           "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
           "lastValidUpdate": "2026-07-01T04:53:03.064Z",
@@ -4497,6 +4497,1972 @@ var NYX_DB = {
           "subBanners": []
         },
         "upcoming": []
+      },
+      "tcg": {
+        "source": "Nanoka",
+        "sourceUrl": "https://gi.nanoka.cc/gcg",
+        "updated": null,
+        "counts": {
+          "characterCards": 104,
+          "otherCards": 48
+        },
+        "characterCards": [
+          {
+            "id": "1101",
+            "name": "Ganyu",
+            "title": "\"Plenilune Gaze\" Ganyu",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Bow",
+              "Liyue"
+            ],
+            "playableCharacter": "Ganyu",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1101-Ganyu.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1102",
+            "name": "Diona",
+            "title": "\"K\u00e4tzlein Cocktail\" Diona",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Bow",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Diona",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1102-Diona.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1103",
+            "name": "Kaeya",
+            "title": "\"Frostwind Swordsman\" Kaeya",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Sword",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Kaeya",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1103-Kaeya.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1104",
+            "name": "Chongyun",
+            "title": "\"Frozen Ardor\" Chongyun",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Claymore",
+              "Liyue"
+            ],
+            "playableCharacter": "Chongyun",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1104-Chongyun.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1105",
+            "name": "Kamisato Ayaka",
+            "title": "\"Frostflake Heron\" Kamisato Ayaka",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Sword",
+              "Inazuma"
+            ],
+            "playableCharacter": "Kamisato Ayaka",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1105-Kamisato Ayaka.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1106",
+            "name": "Eula",
+            "title": "\"Dance of the Shimmering Wave\" Eula",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Claymore",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Eula",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1106-Eula.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1107",
+            "name": "Shenhe",
+            "title": "\"Lonesome Transcendence\" Shenhe",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Polearm",
+              "Liyue"
+            ],
+            "playableCharacter": "Shenhe",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1107-Shenhe.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1108",
+            "name": "Qiqi",
+            "title": "\"Icy Resurrection\" Qiqi",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Sword",
+              "Liyue"
+            ],
+            "playableCharacter": "Qiqi",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1108-Qiqi.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1109",
+            "name": "Layla",
+            "title": "\"Fantastical Evening Star\" Layla",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Sword",
+              "Sumeru"
+            ],
+            "playableCharacter": "Layla",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1109-Layla.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1110",
+            "name": "Charlotte",
+            "title": "\"Lens of Verity\" Charlotte",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Catalyst",
+              "Fontaine",
+              "Arkhe: Pneuma"
+            ],
+            "playableCharacter": "Charlotte",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1110-Charlotte.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1111",
+            "name": "Wriothesley",
+            "title": "\"Emissary of Solitary Iniquity\" Wriothesley",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Catalyst",
+              "Fontaine",
+              "Arkhe: Ousia"
+            ],
+            "playableCharacter": "Wriothesley",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1111-Wriothesley.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1112",
+            "name": "Freminet",
+            "title": "\"Yearning for Unseen Depths\" Freminet",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Claymore",
+              "Fontaine",
+              "Fatui",
+              "Arkhe: Pneuma"
+            ],
+            "playableCharacter": "Freminet",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1112-Freminet.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1113",
+            "name": "Rosaria",
+            "title": "\"Thorny Benevolence\" Rosaria",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Polearm",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Rosaria",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1113-Rosaria.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1114",
+            "name": "Citlali",
+            "title": "\"Obsidian Opalstar\" Citlali",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Catalyst",
+              "Natlan"
+            ],
+            "playableCharacter": "Citlali",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1114-Citlali.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1115",
+            "name": "Escoffier",
+            "title": "\"Tasteful Excellence\" Escoffier",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Polearm",
+              "Fontaine",
+              "Arkhe: Ousia"
+            ],
+            "playableCharacter": "Escoffier",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1115-Escoffier.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1116",
+            "name": "Skirk",
+            "title": "\"Void Star\" Skirk",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Sword",
+              "Cosmic Calamity"
+            ],
+            "playableCharacter": "Skirk",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1116-Skirk.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1117",
+            "name": "Mika",
+            "title": "\"Coordinates of Clear Frost\" Mika",
+            "type": "Character",
+            "tags": [
+              "Cryo",
+              "Polearm",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Mika",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1117-Mika.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1201",
+            "name": "Barbara",
+            "title": "\"Shining Idol\" Barbara",
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Catalyst",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Barbara",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1201-Barbara.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1202",
+            "name": "Xingqiu",
+            "title": "\"Juvenile Galant\" Xingqiu",
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Sword",
+              "Liyue"
+            ],
+            "playableCharacter": "Xingqiu",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1202-Xingqiu.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1203",
+            "name": "Mona",
+            "title": "\"Astral Reflection\" Mona",
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Catalyst",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Mona",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1203-Mona.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1204",
+            "name": "Tartaglia",
+            "title": "\"Childe\" Tartaglia",
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Bow",
+              "Fatui"
+            ],
+            "playableCharacter": "Tartaglia",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1204-Tartaglia.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1205",
+            "name": "Sangonomiya Kokomi",
+            "title": "\"Pearl of Wisdom\" Sangonomiya Kokomi",
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Catalyst",
+              "Inazuma"
+            ],
+            "playableCharacter": "Sangonomiya Kokomi",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1205-Sangonomiya Kokomi.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1206",
+            "name": "Kamisato Ayato",
+            "title": "\"Pillar of Fortitude\" Kamisato Ayato",
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Sword",
+              "Inazuma"
+            ],
+            "playableCharacter": "Kamisato Ayato",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1206-Kamisato Ayato.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1207",
+            "name": "Candace",
+            "title": "Golden Vow: Candace",
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Polearm",
+              "Sumeru"
+            ],
+            "playableCharacter": "Candace",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1207-Candace.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1208",
+            "name": "Nilou",
+            "title": "\"Dance of Lotuslight\" Nilou",
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Sword",
+              "Sumeru"
+            ],
+            "playableCharacter": "Nilou",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1208-Nilou.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1209",
+            "name": "Yelan",
+            "title": "\"Valley Orchid\" Yelan",
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Bow",
+              "Liyue"
+            ],
+            "playableCharacter": "Yelan",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1209-Yelan.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1210",
+            "name": "Neuvillette",
+            "title": "\"Ordainer of Inexorable Judgment\" Neuvillette",
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Catalyst",
+              "Fontaine",
+              "Arkhe: Pneuma"
+            ],
+            "playableCharacter": "Neuvillette",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1210-Neuvillette.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1211",
+            "name": "Furina",
+            "title": "\"Endless Solo of Solitude\" Furina",
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Sword",
+              "Fontaine",
+              "Arkhe: Ousia"
+            ],
+            "playableCharacter": "Furina",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1211-Furina.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1213",
+            "name": "Sigewinne",
+            "title": "\"Wondrous Dragonheir\" Sigewinne",
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Bow",
+              "Fontaine",
+              "Arkhe: Ousia"
+            ],
+            "playableCharacter": "Sigewinne",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1213-Sigewinne.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1214",
+            "name": "Mualani",
+            "title": "\"Splish-Splash Wavechaser\" Mualani",
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Catalyst",
+              "Natlan"
+            ],
+            "playableCharacter": "Mualani",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1214-Mualani.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1215",
+            "name": "Dahlia",
+            "title": "\"Ode and Oblation\" Dahlia",
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Sword",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Dahlia",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1215-Dahlia.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1216",
+            "name": "Aino",
+            "title": "\"Clinky-Clank Gadgets-A-Gogo\" Aino",
+            "type": "Character",
+            "tags": [
+              "Hydro",
+              "Claymore",
+              "Nod-Krai"
+            ],
+            "playableCharacter": "Aino",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1216-Aino.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1301",
+            "name": "Diluc",
+            "title": "\"Dark Side of Dawn\" Diluc",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Claymore",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Diluc",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1301-Diluc.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1302",
+            "name": "Xiangling",
+            "title": "\"Exquisite Delicacy\" Xiangling",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Polearm",
+              "Liyue"
+            ],
+            "playableCharacter": "Xiangling",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1302-Xiangling.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1303",
+            "name": "Bennett",
+            "title": "\"Trial by Fire\" Bennett",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Sword",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Bennett",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1303-Bennett.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1304",
+            "name": "Amber",
+            "title": "\"Outrider\" Amber",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Bow",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Amber",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1304-Amber.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1305",
+            "name": "Yoimiya",
+            "title": "\"Frolicking Flames\" Yoimiya",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Bow",
+              "Inazuma"
+            ],
+            "playableCharacter": "Yoimiya",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1305-Yoimiya.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1306",
+            "name": "Klee",
+            "title": "\"Fleeing Sunlight\" Klee",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Catalyst",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Klee",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1306-Klee.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1307",
+            "name": "Hu Tao",
+            "title": "\"Fragrance in Thaw\" Hu Tao",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Polearm",
+              "Liyue"
+            ],
+            "playableCharacter": "Hu Tao",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1307-Hu Tao.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1308",
+            "name": "Yanfei",
+            "title": "Wise Innocence: Yanfei",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Catalyst",
+              "Liyue"
+            ],
+            "playableCharacter": "Yanfei",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1308-Yanfei.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1309",
+            "name": "Dehya",
+            "title": "\"Flame-Mane\" Dehya",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Claymore",
+              "Sumeru",
+              "The Eremites"
+            ],
+            "playableCharacter": "Dehya",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1309-Dehya.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1310",
+            "name": "Lyney",
+            "title": "\"Spectacle of Phantasmagoria\" Lyney",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Bow",
+              "Fontaine",
+              "Fatui",
+              "Arkhe: Pneuma"
+            ],
+            "playableCharacter": "Lyney",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1310-Lyney.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1311",
+            "name": "Thoma",
+            "title": "\"Protector From Afar\" Thoma",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Polearm",
+              "Inazuma"
+            ],
+            "playableCharacter": "Thoma",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1311-Thoma.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1312",
+            "name": "Xinyan",
+            "title": "\"Blazing Riff\" Xinyan",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Claymore",
+              "Liyue"
+            ],
+            "playableCharacter": "Xinyan",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1312-Xinyan.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1313",
+            "name": "Chevreuse",
+            "title": "Executor of Justice: Chevreuse",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Polearm",
+              "Fontaine",
+              "Arkhe: Ousia"
+            ],
+            "playableCharacter": "Chevreuse",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1313-Chevreuse.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1314",
+            "name": "Arlecchino",
+            "title": "\"Dire Balemoon\" Arlecchino",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Polearm",
+              "Fatui"
+            ],
+            "playableCharacter": "Arlecchino",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1314-Arlecchino.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1315",
+            "name": "Mavuika",
+            "title": "\"Night-Igniting Flame\" Mavuika",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Claymore",
+              "Natlan"
+            ],
+            "playableCharacter": "Mavuika",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1315-Mavuika.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1316",
+            "name": "Gaming",
+            "title": "\"Leonine Vanguard\" Gaming",
+            "type": "Character",
+            "tags": [
+              "Pyro",
+              "Claymore",
+              "Liyue"
+            ],
+            "playableCharacter": "Gaming",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1316-Gaming.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1401",
+            "name": "Fischl",
+            "title": "\"Fischl, Prinzessin der Verurteilung!\" Fischl",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Bow",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Fischl",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1401-Fischl.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1402",
+            "name": "Razor",
+            "title": "\"Wolf Boy\" Razor",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Claymore",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Razor",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1402-Razor.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1403",
+            "name": "Keqing",
+            "title": "\"Driving Thunder\" Keqing",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Sword",
+              "Liyue"
+            ],
+            "playableCharacter": "Keqing",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1403-Keqing.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1404",
+            "name": "Cyno",
+            "title": "\"Judicator of Secrets\" Cyno",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Polearm",
+              "Sumeru"
+            ],
+            "playableCharacter": "Cyno",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1404-Cyno.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1405",
+            "name": "Beidou",
+            "title": "\"Uncrowned Lord of the Ocean\" Beidou",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Claymore",
+              "Liyue"
+            ],
+            "playableCharacter": "Beidou",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1405-Beidou.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1406",
+            "name": "Kujou Sara",
+            "title": "\"Crowfeather Kaburaya\" Kujou Sara",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Bow",
+              "Inazuma"
+            ],
+            "playableCharacter": "Kujou Sara",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1406-Kujou Sara.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1407",
+            "name": "Raiden Shogun",
+            "title": "\"Plane of Euthymia\" Raiden Shogun",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Polearm",
+              "Inazuma"
+            ],
+            "playableCharacter": "Raiden Shogun",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1407-Raiden Shogun.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1408",
+            "name": "Yae Miko",
+            "title": "\"Astute Amusement\" Yae Miko",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Catalyst",
+              "Inazuma"
+            ],
+            "playableCharacter": "Yae Miko",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1408-Yae Miko.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1409",
+            "name": "Lisa",
+            "title": "\"Witch of Purple Rose\" Lisa",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Catalyst",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Lisa",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1409-Lisa.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1410",
+            "name": "Dori",
+            "title": "\"Treasure of Dream Garden\" Dori",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Claymore",
+              "Sumeru"
+            ],
+            "playableCharacter": "Dori",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1410-Dori.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1411",
+            "name": "Kuki Shinobu",
+            "title": "\"Mender of Tribulations\" Kuki Shinobu",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Sword",
+              "Inazuma"
+            ],
+            "playableCharacter": "Kuki Shinobu",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1411-Kuki Shinobu.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1412",
+            "name": "Clorinde",
+            "title": "\"Candlebearer, Shadowhunter\" Clorinde",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Sword",
+              "Fontaine",
+              "Arkhe: Ousia"
+            ],
+            "playableCharacter": "Clorinde",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1412-Clorinde.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1413",
+            "name": "Sethos",
+            "title": "\"Wisdom's Measure\" Sethos",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Bow",
+              "Sumeru"
+            ],
+            "playableCharacter": "Sethos",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1413-Sethos.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1414",
+            "name": "Iansan",
+            "title": "\"Tempered in Molten Stone\" Iansan",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Polearm",
+              "Natlan"
+            ],
+            "playableCharacter": "Iansan",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1414-Iansan.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1415",
+            "name": "Varesa",
+            "title": "\"Strength in Serenity\" Varesa",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Catalyst",
+              "Natlan"
+            ],
+            "playableCharacter": "Varesa",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1415-Varesa.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1416",
+            "name": "Ororon",
+            "title": "\"Shadow of the Night-Wind\" Ororon",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Bow",
+              "Natlan"
+            ],
+            "playableCharacter": "Ororon",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1416-Ororon.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1417",
+            "name": "Ineffa",
+            "title": "\"Boom Boom Thunderwave\" Ineffa",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Polearm",
+              "Nod-Krai"
+            ],
+            "playableCharacter": "Ineffa",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1417-Ineffa.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1418",
+            "name": "Flins",
+            "title": "\"Shadowy Lights, Stranger Wights\" Flins",
+            "type": "Character",
+            "tags": [
+              "Electro",
+              "Polearm",
+              "Nod-Krai"
+            ],
+            "playableCharacter": "Flins",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1418-Flins.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1501",
+            "name": "Sucrose",
+            "title": "\"Harmless Sweetie\" Sucrose",
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Catalyst",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Sucrose",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1501-Sucrose.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1502",
+            "name": "Jean",
+            "title": "\"Dandelion Knight\" Jean",
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Sword",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Jean",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1502-Jean.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1503",
+            "name": "Venti",
+            "title": "\"Windborne Bard\" Venti",
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Bow",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Venti",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1503-Venti.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1504",
+            "name": "Xiao",
+            "title": "\"Vigilant Yaksha\" Xiao",
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Polearm",
+              "Liyue"
+            ],
+            "playableCharacter": "Xiao",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1504-Xiao.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1505",
+            "name": "Kaedehara Kazuha",
+            "title": "Scarlet Leaves Pursue Wild Waves: Kaedehara Kazuha",
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Sword",
+              "Inazuma"
+            ],
+            "playableCharacter": "Kaedehara Kazuha",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1505-Kaedehara Kazuha.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1506",
+            "name": "Wanderer",
+            "title": "\"Eons Adrift\" Wanderer",
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Catalyst"
+            ],
+            "playableCharacter": "Wanderer",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1506-Wanderer.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1507",
+            "name": "Sayu",
+            "title": "\"Mujina Ninja\" Sayu",
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Claymore",
+              "Inazuma"
+            ],
+            "playableCharacter": "Sayu",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1507-Sayu.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1508",
+            "name": "Lynette",
+            "title": "\"Elegance in the Shadows\" Lynette",
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Sword",
+              "Fontaine",
+              "Fatui",
+              "Arkhe: Ousia"
+            ],
+            "playableCharacter": "Lynette",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1508-Lynette.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1509",
+            "name": "Faruzan",
+            "title": "\"Enigmatic Machinist\" Faruzan",
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Bow",
+              "Sumeru"
+            ],
+            "playableCharacter": "Faruzan",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1509-Faruzan.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1510",
+            "name": "Xianyun",
+            "title": "\"Passerine Herald\" Xianyun",
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Catalyst",
+              "Liyue"
+            ],
+            "playableCharacter": "Xianyun",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1510-Xianyun.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1511",
+            "name": "Chasca",
+            "title": "\"Skyborne Arbiter\" Chasca",
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Bow",
+              "Natlan"
+            ],
+            "playableCharacter": "Chasca",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1511-Chasca.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1512",
+            "name": "Lan Yan",
+            "title": "\"Spring Woven From Jade\" Lan Yan",
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Catalyst",
+              "Liyue"
+            ],
+            "playableCharacter": "Lan Yan",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1512-Lan Yan.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1513",
+            "name": "Shikanoin Heizou",
+            "title": "\"Analytical Harmony\" Shikanoin Heizou",
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Catalyst",
+              "Inazuma"
+            ],
+            "playableCharacter": "Shikanoin Heizou",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1513-Shikanoin Heizou.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1514",
+            "name": "Yumemizuki Mizuki",
+            "title": "\"Embrace of Enchanting Dreams\" Yumemizuki Mizuki",
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Catalyst",
+              "Inazuma"
+            ],
+            "playableCharacter": "Yumemizuki Mizuki",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1514-Yumemizuki Mizuki.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1515",
+            "name": "Ifa",
+            "title": "\"In the Wake of Wandering Winds\" Ifa",
+            "type": "Character",
+            "tags": [
+              "Anemo",
+              "Catalyst",
+              "Natlan"
+            ],
+            "playableCharacter": "Ifa",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1515-Ifa.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1601",
+            "name": "Ningguang",
+            "title": "\"Eclipsing Star\" Ningguang",
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Catalyst",
+              "Liyue"
+            ],
+            "playableCharacter": "Ningguang",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1601-Ningguang.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1602",
+            "name": "Noelle",
+            "title": "\"Chivalric Blossom\" Noelle",
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Claymore",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Noelle",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1602-Noelle.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1603",
+            "name": "Zhongli",
+            "title": "\"Vago Mundo\" Zhongli",
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Polearm",
+              "Liyue"
+            ],
+            "playableCharacter": "Zhongli",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1603-Zhongli.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1604",
+            "name": "Albedo",
+            "title": "\"Kreideprinz\" Albedo",
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Sword",
+              "Mondstadt"
+            ],
+            "playableCharacter": "Albedo",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1604-Albedo.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1605",
+            "name": "Arataki Itto",
+            "title": "\"Hanamizaka Heroics\" Arataki Itto",
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Claymore",
+              "Inazuma"
+            ],
+            "playableCharacter": "Arataki Itto",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1605-Arataki Itto.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1606",
+            "name": "Gorou",
+            "title": "\"Canine Warrior\" Gorou",
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Bow",
+              "Inazuma"
+            ],
+            "playableCharacter": "Gorou",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1606-Gorou.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1607",
+            "name": "Yun Jin",
+            "title": "\"Stage Lucida\" Yun Jin",
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Polearm",
+              "Liyue"
+            ],
+            "playableCharacter": "Yun Jin",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1607-Yun Jin.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1608",
+            "name": "Navia",
+            "title": "Helm of the Radiant Rose: Navia",
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Claymore",
+              "Fontaine",
+              "Arkhe: Ousia"
+            ],
+            "playableCharacter": "Navia",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1608-Navia.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1609",
+            "name": "Chiori",
+            "title": "\"The Thundering Seamstress\" Chiori",
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Sword",
+              "Inazuma"
+            ],
+            "playableCharacter": "Chiori",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1609-Chiori.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1610",
+            "name": "Kachina",
+            "title": "\"Mottled Gold Yet Unsmelted\" Kachina",
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Polearm",
+              "Natlan"
+            ],
+            "playableCharacter": "Kachina",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1610-Kachina.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1611",
+            "name": "Xilonen",
+            "title": "\"Ardent Flames Forge the Soul\" Xilonen",
+            "type": "Character",
+            "tags": [
+              "Geo",
+              "Sword",
+              "Natlan"
+            ],
+            "playableCharacter": "Xilonen",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1611-Xilonen.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1701",
+            "name": "Collei",
+            "title": "\"Sprout of Rebirth\" Collei",
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Bow",
+              "Sumeru"
+            ],
+            "playableCharacter": "Collei",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1701-Collei.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1702",
+            "name": "Tighnari",
+            "title": "\"Verdant Strider\" Tighnari",
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Bow",
+              "Sumeru"
+            ],
+            "playableCharacter": "Tighnari",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1702-Tighnari.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1703",
+            "name": "Nahida",
+            "title": "\"Physic of Purity\" Nahida",
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Catalyst",
+              "Sumeru"
+            ],
+            "playableCharacter": "Nahida",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1703-Nahida.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1704",
+            "name": "Yaoyao",
+            "title": "\"Burgeoning Grace\" Yaoyao",
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Polearm",
+              "Liyue"
+            ],
+            "playableCharacter": "Yaoyao",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1704-Yaoyao.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1705",
+            "name": "Baizhu",
+            "title": "\"Beyond Mortality\" Baizhu",
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Catalyst",
+              "Liyue"
+            ],
+            "playableCharacter": "Baizhu",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1705-Baizhu.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1706",
+            "name": "Alhaitham",
+            "title": "\"Admonishing Instruction\" Alhaitham",
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Sword",
+              "Sumeru"
+            ],
+            "playableCharacter": "Alhaitham",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1706-Alhaitham.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1707",
+            "name": "Kirara",
+            "title": "\"Cat Upon the Eaves\" Kirara",
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Sword",
+              "Inazuma"
+            ],
+            "playableCharacter": "Kirara",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1707-Kirara.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1708",
+            "name": "Kaveh",
+            "title": "\"Empyrean Reflection\" Kaveh",
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Claymore",
+              "Sumeru"
+            ],
+            "playableCharacter": "Kaveh",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1708-Kaveh.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1709",
+            "name": "Kinich",
+            "title": "\"Turnfire Hunt\" Kinich",
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Claymore",
+              "Natlan"
+            ],
+            "playableCharacter": "Kinich",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1709-Kinich.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1710",
+            "name": "Emilie",
+            "title": "\"A Thousand Scents Traced\" Emilie",
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Polearm",
+              "Fontaine",
+              "Arkhe: Pneuma"
+            ],
+            "playableCharacter": "Emilie",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1710-Emilie.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1711",
+            "name": "Lauma",
+            "title": "\"Evermoon's Sacrament Song\" Lauma",
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Catalyst",
+              "Nod-Krai"
+            ],
+            "playableCharacter": "Lauma",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1711-Lauma.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1712",
+            "name": "Nefer",
+            "title": "\"Secret Beneath the Sands\" Nefer",
+            "type": "Character",
+            "tags": [
+              "Dendro",
+              "Catalyst",
+              "Sumeru",
+              "Nod-Krai"
+            ],
+            "playableCharacter": "Nefer",
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1712-Nefer.webp",
+            "source": "Nanoka"
+          }
+        ],
+        "otherCards": [
+          {
+            "id": "1506",
+            "name": "#{REALNAME[ID(1) DELAYHANDLE(true)]}",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/1506-#{REALNAME[ID(1)_DELAYHANDLE(true)]}.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332054",
+            "name": "A Blessing From 'M'",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332054-_A Blessing From 'M'_.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330001",
+            "name": "Ancient Courtyard",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330001-Ancient Courtyard.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332045",
+            "name": "Art of Sleepy Meditation",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332045-Art of Sleepy Meditation.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332050",
+            "name": "Awesome, Bro",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332050-Awesome, Bro.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332011",
+            "name": "Blessing of the Divine Relic's Installation",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332011-Blessing of the Divine Relic's Installation.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332002",
+            "name": "Changing Shifts",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332002-Changing Shifts.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332062",
+            "name": "Cleaning Time",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332062-Cleaning Time.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332032",
+            "name": "Countdown to the Show 3",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332032-Countdown to the Show_ 3.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330002",
+            "name": "Covenant of Rock",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330002-Covenant of Rock.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330009",
+            "name": "Edict of Absolution",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330009-Edict of Absolution.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331806",
+            "name": "Fire and War",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331806-Fire and War.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332046",
+            "name": "Flying Squad, Attack!",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332046-Flying Squad, Attack!.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330004",
+            "name": "Fresh Wind of Freedom",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330004-Fresh Wind of Freedom.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332048",
+            "name": "Fruits of Training",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332048-Fruits of Training.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332060",
+            "name": "Genius's Upgrade Technique",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332060-Genius's Upgrade Technique.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332014",
+            "name": "Guardian's Oath",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332014-Guardian's Oath.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332049",
+            "name": "Harvest Time",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332049-Harvest Time.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332018",
+            "name": "Heavy Strike",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332018-Heavy Strike.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332005",
+            "name": "I Haven't Lost Yet!",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332005-I Haven't Lost Yet!.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "1515",
+            "name": "Ifa",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/1515-Ifa.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330005",
+            "name": "In Every House a Stove",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330005-In Every House a Stove.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332044",
+            "name": "In the Name of the Extreme",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332044-In the Name of the Extreme.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332006",
+            "name": "Leave it to Me!",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332006-Leave it to Me!.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330012",
+            "name": "Lost Legacies in the Sand",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330012-Lost Legacies in the Sand.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332010",
+            "name": "Master of Weaponry",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332010-Master of Weaponry.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331807",
+            "name": "Moon and Homeland",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331807-Moon and Homeland.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332052",
+            "name": "Narration Footnotes",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332052-Narration Footnotes.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331804",
+            "name": "Nature and Wisdom",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331804-Nature and Wisdom.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330006",
+            "name": "Passing of Judgment",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330006-Passing of Judgment.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330010",
+            "name": "Pilgrimage of the Return of the Sacred Flame",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330010-Pilgrimage of the Return of the Sacred Flame.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332012",
+            "name": "Quick Knit",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332012-Quick Knit.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332055",
+            "name": "Revelrous Beats",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332055-_Revelrous Beats_.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332013",
+            "name": "Send Off",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332013-Send Off.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "321035",
+            "name": "Silvermoon Hall",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321035-Silvermoon Hall.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332008",
+            "name": "Starsigns",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332008-Starsigns.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331802",
+            "name": "Stone and Contracts",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331802-Stone and Contracts.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332004",
+            "name": "Strategize",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332004-Strategize.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332037",
+            "name": "Tada!",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332037-Tada!.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332001",
+            "name": "The Bestest Travel Companion!",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331803",
+            "name": "Thunder and Eternity",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331803-Thunder and Eternity.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332003",
+            "name": "Toss Up",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332003-Toss-Up.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332041",
+            "name": "Ultimate Surfing Buddy!",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332041-Ultimate Surfing Buddy!.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332031",
+            "name": "Underwater Treasure Hunt",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332031-Underwater Treasure Hunt.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "330008",
+            "name": "Vicious Ancient Battle",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330008-Vicious Ancient Battle.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331805",
+            "name": "Water and Justice",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331805-Water and Justice.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "332007",
+            "name": "When the Crane Returned",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332007-When the Crane Returned.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "331801",
+            "name": "Wind and Freedom",
+            "title": null,
+            "type": "Action",
+            "tags": [],
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331801-Wind and Freedom.webp",
+            "source": "Nanoka"
+          }
+        ]
       },
       "roster": [
         {
@@ -9668,7 +11634,7 @@ var NYX_DB = {
       "banners": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-07-01T20:12:47.889Z",
           "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
           "lastValidUpdate": "2026-07-01T04:53:03.064Z",
@@ -13332,7 +15298,7 @@ var NYX_DB = {
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-07-01T20:12:47.889Z",
           "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
           "lastValidUpdate": "2026-07-01T04:53:03.064Z",
@@ -17604,7 +19570,7 @@ var NYX_DB = {
       "banners": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-07-01T20:12:47.889Z",
           "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
           "lastValidUpdate": "2026-07-01T04:53:03.064Z",

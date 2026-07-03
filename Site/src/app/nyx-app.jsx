@@ -175,7 +175,7 @@ function overviewCardArt(cfg, ch, offset = 0){
   return pool[Math.abs(Number(offset) || 0) % pool.length];
 }
 
-function makeRoster(cfg, settings){
+function makeRoster(cfg, settings, characterImagePrefs){
   const source = cfg.roster || getCmRoster(cfg.key);
   if (!source || !source.length) return [{ id:cfg.key + '-main', name:cfg.charName, tag:'', art:cfg.art, icon:cfg.benchIcon }];
   const seen = new Set();
@@ -186,12 +186,12 @@ function makeRoster(cfg, settings){
     const key = String(name || '').toLowerCase();
     if (key && seen.has(key)) return;
     if (key) seen.add(key);
-    out.push({
+    const row = {
       id:ch.id || (cfg.key + '-' + i),
       name,
       rawName:ch.rawName,
-      gameKey:cfg.key,
-      gameName:cfg.name,
+      gameKey:ch.gameKey || cfg.key,
+      gameName:ch.gameName || cfg.name,
       aliases:ch.aliases || [],
       tag:rosterTag(ch),
       art:overviewCardArt(cfg, ch, i),
@@ -200,7 +200,11 @@ function makeRoster(cfg, settings){
       icon:ch.icon || ch.circle || ch.card || cfg.benchIcon,
       rarity:ch.r,
       forms:ch.forms || [],
-    });
+    };
+    const customGameKey = row.gameKey && row.gameKey !== 'nyx' ? row.gameKey : cfg.key;
+    out.push(typeof nyxApplyCharacterCustomImages === 'function'
+      ? nyxApplyCharacterCustomImages(customGameKey, row, characterImagePrefs)
+      : row);
   });
   return out;
 }
@@ -892,18 +896,47 @@ const RESET_MS = {
   week:7 * 24 * 60 * 60 * 1000,
 };
 
+const RESET_REGIONS = {
+  local:{ key:'local', label:'Local', short:'Local', offset:null },
+  eu:{ key:'eu', label:'Europe', short:'EU', offset:1 },
+  na:{ key:'na', label:'America', short:'NA', offset:-5 },
+  asia:{ key:'asia', label:'Asia', short:'Asia', offset:8 },
+};
+
 function nextLocalResetAt(now, year, month, day, hour){
   return new Date(year, month, day, hour, 0, 0, 0).getTime();
 }
 
-function nextDailyReset(now){
+function serverParts(now, offset){
+  const d = new Date(now + offset * 60 * 60 * 1000);
+  return { year:d.getUTCFullYear(), month:d.getUTCMonth(), date:d.getUTCDate(), day:d.getUTCDay() };
+}
+
+function serverResetAt(year, month, day, hour, offset){
+  return Date.UTC(year, month, day, hour - offset, 0, 0, 0);
+}
+
+function nextDailyReset(now, region){
+  if (region && Number.isFinite(region.offset)) {
+    const p = serverParts(now, region.offset);
+    let next = serverResetAt(p.year, p.month, p.date, 4, region.offset);
+    if (next <= now) next = serverResetAt(p.year, p.month, p.date + 1, 4, region.offset);
+    return next;
+  }
   const d = new Date(now);
   let next = nextLocalResetAt(d, d.getFullYear(), d.getMonth(), d.getDate(), 4);
   if (next <= now) next += RESET_MS.day;
   return next;
 }
 
-function nextWeeklyReset(now){
+function nextWeeklyReset(now, region){
+  if (region && Number.isFinite(region.offset)) {
+    const p = serverParts(now, region.offset);
+    const daysUntilMonday = (8 - p.day) % 7;
+    let next = serverResetAt(p.year, p.month, p.date + daysUntilMonday, 4, region.offset);
+    if (next <= now) next = serverResetAt(p.year, p.month, p.date + daysUntilMonday + 7, 4, region.offset);
+    return next;
+  }
   const d = new Date(now);
   const day = d.getDay();
   const daysUntilMonday = (8 - day) % 7;
@@ -912,14 +945,29 @@ function nextWeeklyReset(now){
   return next;
 }
 
-function nextMonthlyReset(now){
+function nextMonthlyReset(now, region){
+  if (region && Number.isFinite(region.offset)) {
+    const p = serverParts(now, region.offset);
+    let next = serverResetAt(p.year, p.month, 1, 4, region.offset);
+    if (next <= now) next = serverResetAt(p.year, p.month + 1, 1, 4, region.offset);
+    return next;
+  }
   const d = new Date(now);
   let next = nextLocalResetAt(d, d.getFullYear(), d.getMonth(), 1, 4);
   if (next <= now) next = nextLocalResetAt(d, d.getFullYear(), d.getMonth() + 1, 1, 4);
   return next;
 }
 
-function nextSemiMonthlyReset(now){
+function nextSemiMonthlyReset(now, region){
+  if (region && Number.isFinite(region.offset)) {
+    const p = serverParts(now, region.offset);
+    const candidates = [
+      serverResetAt(p.year, p.month, 1, 4, region.offset),
+      serverResetAt(p.year, p.month, 16, 4, region.offset),
+      serverResetAt(p.year, p.month + 1, 1, 4, region.offset),
+    ];
+    return candidates.find((ts) => ts > now) || candidates[candidates.length - 1];
+  }
   const d = new Date(now);
   const candidates = [
     nextLocalResetAt(d, d.getFullYear(), d.getMonth(), 1, 4),
@@ -929,12 +977,13 @@ function nextSemiMonthlyReset(now){
   return candidates.find((ts) => ts > now) || candidates[candidates.length - 1];
 }
 
-function resetTimerRows(now){
+function resetTimerRows(now, regionKey){
+  const region = RESET_REGIONS[regionKey] || RESET_REGIONS.local;
   return [
-    { key:'abyss', label:'Abyss', target:nextSemiMonthlyReset(now) },
-    { key:'theater', label:'Imaginarium', target:nextMonthlyReset(now) },
-    { key:'weekly', label:'Weekly', target:nextWeeklyReset(now) },
-    { key:'daily', label:'Daily', target:nextDailyReset(now) },
+    { key:'abyss', label:'Abyss', target:nextSemiMonthlyReset(now, region) },
+    { key:'theater', label:'Imaginarium', target:nextMonthlyReset(now, region) },
+    { key:'weekly', label:'Weekly', target:nextWeeklyReset(now, region) },
+    { key:'daily', label:'Daily', target:nextDailyReset(now, region) },
   ];
 }
 
@@ -971,6 +1020,19 @@ function saveCustomTimers(gameKey, rows){
   try { localStorage.setItem(customTimerKey(gameKey), JSON.stringify(rows)); } catch (e) {}
 }
 
+function resetRegionStorageKey(gameKey){
+  return 'nyx:reset-region:' + (gameKey || 'nyx') + ':v1';
+}
+
+function loadResetRegion(gameKey){
+  try {
+    const key = localStorage.getItem(resetRegionStorageKey(gameKey));
+    return RESET_REGIONS[key] ? key : 'local';
+  } catch (e) {
+    return 'local';
+  }
+}
+
 function datetimeLocalValue(ts){
   const d = new Date(ts);
   if (!Number.isFinite(d.getTime())) return '';
@@ -980,6 +1042,7 @@ function datetimeLocalValue(ts){
 
 function ResetTimersPanel({ gameKey }){
   const [now, setNow] = React.useState(Date.now());
+  const [regionKey, setRegionKey] = React.useState(() => loadResetRegion(gameKey));
   const [custom, setCustom] = React.useState(() => loadCustomTimers(gameKey));
   const [label, setLabel] = React.useState('');
   const [target, setTarget] = React.useState(() => datetimeLocalValue(Date.now() + RESET_MS.day));
@@ -988,10 +1051,16 @@ function ResetTimersPanel({ gameKey }){
     return () => clearInterval(id);
   }, [gameKey]);
   React.useEffect(() => {
+    setRegionKey(loadResetRegion(gameKey));
     setCustom(loadCustomTimers(gameKey));
     setLabel('');
     setTarget(datetimeLocalValue(Date.now() + RESET_MS.day));
   }, [gameKey]);
+  const pickRegion = (key) => {
+    if (!RESET_REGIONS[key]) return;
+    setRegionKey(key);
+    try { localStorage.setItem(resetRegionStorageKey(gameKey), key); } catch (e) {}
+  };
   const commitCustom = (fn) => {
     setCustom((prev) => {
       const next = fn(prev).slice(0, 12);
@@ -1008,12 +1077,20 @@ function ResetTimersPanel({ gameKey }){
     setTarget(datetimeLocalValue(Date.now() + RESET_MS.day));
   };
   const removeTimer = (id) => commitCustom((prev) => prev.filter((row) => row.id !== id));
-  const rows = resetTimerRows(now);
+  const rows = resetTimerRows(now, regionKey);
+  const activeRegion = RESET_REGIONS[regionKey] || RESET_REGIONS.local;
   return (
     <section className="gp-reset-panel" aria-label="Reset timers">
       <div className="gp-reset-head">
         <span>Reset Timers</span>
-        <b>Local</b>
+        <b>{activeRegion.short}</b>
+      </div>
+      <div className="gp-reset-regions" role="group" aria-label="Timer region">
+        {Object.values(RESET_REGIONS).map((region) => (
+          <button type="button" key={region.key} className={regionKey === region.key ? 'on' : ''} aria-pressed={regionKey === region.key} onClick={() => pickRegion(region.key)}>
+            {region.short}
+          </button>
+        ))}
       </div>
       <div className="gp-reset-grid">
         {rows.map((row) => (
@@ -1192,8 +1269,10 @@ function savePinnedCards(cfg, cards){
 
 function Favourites({ cfg, onOpenMaterial, settings }){
   const cmVersion = useCmGameVersion(cfg.key);
+  const [characterImagePrefs] = useNyxCharacterImagePrefs();
   const specialKey = JSON.stringify(settings?.specialUnits || {});
-  const roster = React.useMemo(() => makeRoster(cfg, settings), [cfg.key, cmVersion, specialKey]);
+  const customKey = JSON.stringify(characterImagePrefs || {});
+  const roster = React.useMemo(() => makeRoster(cfg, settings, characterImagePrefs), [cfg.key, cmVersion, specialKey, customKey]);
   const [cards, setCards] = React.useState(() => loadPinnedCards(cfg, roster));
   const [hov, setHov] = React.useState(null);
   const [manage, setManage] = React.useState(false);
@@ -1743,6 +1822,65 @@ function CollectionCard({ item }){
   );
 }
 
+function GenshinTcgView(){
+  const gameData = dbGame('gi') || {};
+  const tcg = gameData.tcg || {};
+  const [kind, setKind] = React.useState('all');
+  const [q, setQ] = React.useState('');
+  const cards = [
+    ...((tcg.characterCards || []).map((card) => ({ ...card, kind:'character' }))),
+    ...((tcg.otherCards || []).map((card) => ({ ...card, kind:'action' }))),
+  ];
+  const qq = q.trim().toLowerCase();
+  const visible = cards.filter((card) => {
+    if (kind !== 'all' && card.kind !== kind) return false;
+    const hay = [card.name, card.title, card.type, card.playableCharacter, ...(card.tags || [])].filter(Boolean).join(' ').toLowerCase();
+    return !qq || hay.includes(qq);
+  });
+  const filters = [
+    ['all', 'All Cards', cards.length],
+    ['character', 'Character', (tcg.characterCards || []).length],
+    ['action', 'Action', (tcg.otherCards || []).length],
+  ];
+  return (
+    <div className="tcg-view">
+      <div className="tcg-head">
+        <GPSec title="Genius Invokation TCG" style={{ flex:1, minWidth:0 }} />
+        <div className="gp-search">
+          <span className="ic"></span>
+          <input value={q} placeholder="Search TCG Cards" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+          {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
+        </div>
+      </div>
+      <div className="tcg-tabs">
+        {filters.map(([key, label, count]) => (
+          <button type="button" key={key} className={kind === key ? 'on' : ''} onClick={() => setKind(key)}>
+            <span>{label}</span><b>{count}</b>
+          </button>
+        ))}
+      </div>
+      <div className="tcg-grid">
+        {visible.map((card) => (
+          <article className={'tcg-card kind-' + card.kind} key={card.kind + '-' + card.id}>
+            <div className="tcg-art">
+              {card.art ? <img src={card.art} alt="" draggable="false" /> : <span>{simInitials(card.name)}</span>}
+            </div>
+            <div className="tcg-meta">
+              <b>{card.name}</b>
+              {card.title && <em>{card.title}</em>}
+              <span>{card.type || (card.kind === 'character' ? 'Character Card' : 'Action Card')}</span>
+              {!!(card.tags || []).length && (
+                <div>{card.tags.slice(0, 4).map((tag) => <i key={tag}>{tag}</i>)}</div>
+              )}
+            </div>
+          </article>
+        ))}
+      </div>
+      {visible.length === 0 && <div className="db-empty">No TCG cards match your search.</div>}
+    </div>
+  );
+}
+
 /* ================= content panels ================= */
 // Keyboard activation for role="button" nav rows (Enter / Space).
 function navKeyDown(fn){
@@ -1751,9 +1889,10 @@ function navKeyDown(fn){
 
 function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings }){
   const fns = cfg.fns || ['Character Materials','Artifact Sorter','Wish Tracker'];
+  const hasTcg = cfg.key === 'gi';
   // G13: the section list the Character-Materials header icon-dropdown switches between.
   const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^character materials$/i.test(f) ? 'mats' : 'library';
-  const sections = [{ key:'overview', label:'Overview' }, ...fns.map((f) => ({ key:sectionKey(f), label:f })), { key:'settings', label:'Settings' }];
+  const sections = [{ key:'overview', label:'Overview' }, ...fns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasTcg ? [{ key:'tcg', label:'TCG' }] : []), { key:'settings', label:'Settings' }];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
       <nav className="gp-side-nav" aria-label="Tools">
@@ -1774,6 +1913,13 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings }
             </div>
           );
         })}
+        {hasTcg && (
+          <div className={'gp-fn-row click' + (tab === 'tcg' ? ' on' : '')}
+               role="button" tabIndex={0} aria-current={tab === 'tcg' ? 'page' : undefined}
+               onClick={() => setTab('tcg')} onKeyDown={navKeyDown(() => setTab('tcg'))}>
+            <span className="dia" aria-hidden="true"></span><span>TCG</span><span className="go">{'\u203A'}</span>
+          </div>
+        )}
         <div className={'gp-fn-row click' + (tab === 'settings' ? ' on' : '')}
              role="button" tabIndex={0} aria-current={tab === 'settings' ? 'page' : undefined}
              onClick={() => setTab('settings')} onKeyDown={navKeyDown(() => setTab('settings'))}>
@@ -1800,6 +1946,11 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings }
       {tab === 'library' && (
         <main className="gp-main-pane fill">
           <CollectionLibrary key={cfg.key} game={cfg.key} />
+        </main>
+      )}
+      {tab === 'tcg' && (
+        <main className="gp-main-pane fill">
+          <GenshinTcgView />
         </main>
       )}
       {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
@@ -1855,6 +2006,7 @@ function keyFromLocation(){
 }
 
 function validTabsForKey(key){
+  if (key === 'gi') return ['overview','mats','library','tracker','tcg','settings'];
   return key === 'nyx' ? ['overview','pulls','codes','banners','settings'] : ['overview','mats','library','tracker','settings'];
 }
 
@@ -1912,7 +2064,8 @@ function sanitizeGameIcons(raw){
   const src = (raw && typeof raw === 'object') ? raw : {};
   const next = {};
   SIM_GAMES.forEach((game) => {
-    if (typeof src[game.key] === 'string' && src[game.key]) next[game.key] = src[game.key];
+    const safe = typeof nyxSafeImageSrc === 'function' ? nyxSafeImageSrc(src[game.key]) : String(src[game.key] || '');
+    if (safe) next[game.key] = safe;
   });
   return next;
 }
@@ -1982,44 +2135,81 @@ function gameIconOptions(gameKey){
 function GameIconPicker({ game, selected, onPick }){
   const [open, setOpen] = React.useState(false);
   const [q, setQ] = React.useState('');
-  const ref = React.useRef(null);
+  const [editing, setEditing] = React.useState(false);
+  const [pos, setPos] = React.useState(null);
+  const triggerRef = React.useRef(null);
+  const popRef = React.useRef(null);
   const options = React.useMemo(() => gameIconOptions(game.key), [game.key]);
-  const activeIcon = selected || game.icon;
+  const activeIcon = (typeof nyxSafeImageSrc === 'function' ? nyxSafeImageSrc(selected) : selected) || game.icon;
   const query = q.trim().toLowerCase();
   const visible = options.filter((item) => !query || [item.name, item.group].join(' ').toLowerCase().includes(query));
+  const updatePos = React.useCallback(() => {
+    const node = triggerRef.current;
+    if (!node) return;
+    const rect = node.getBoundingClientRect();
+    const width = Math.min(560, Math.max(320, window.innerWidth - 32));
+    const left = Math.max(16, Math.min(window.innerWidth - width - 16, rect.right - width));
+    const top = Math.max(16, Math.min(window.innerHeight - 120, rect.bottom + 8));
+    setPos({ left, top, width });
+  }, []);
   React.useEffect(() => {
     if (!open) return undefined;
     const onDoc = (event) => {
-      if (ref.current && event.target instanceof Node && !ref.current.contains(event.target)) setOpen(false);
+      const target = event.target instanceof Node ? event.target : null;
+      if (!target) return;
+      if (triggerRef.current && triggerRef.current.contains(target)) return;
+      if (popRef.current && popRef.current.contains(target)) return;
+      setOpen(false);
+      setEditing(false);
     };
+    updatePos();
     document.addEventListener('mousedown', onDoc);
-    return () => document.removeEventListener('mousedown', onDoc);
-  }, [open]);
+    window.addEventListener('resize', updatePos);
+    window.addEventListener('scroll', updatePos, true);
+    return () => {
+      document.removeEventListener('mousedown', onDoc);
+      window.removeEventListener('resize', updatePos);
+      window.removeEventListener('scroll', updatePos, true);
+    };
+  }, [open, updatePos]);
+  const pop = open ? (
+    <div className="pm-icon-pop fixed" ref={popRef} style={pos ? { left:pos.left + 'px', top:pos.top + 'px', width:pos.width + 'px' } : undefined}>
+      <div className="pm-icon-search">
+        <input value={q} placeholder="Search icons" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+        <button type="button" onClick={() => setEditing((v) => !v)}>{editing ? 'Close Upload' : 'Upload Local'}</button>
+      </div>
+      {editing && (
+        <NyxImageEditor
+          label={'Upload ' + game.name + ' Icon'}
+          aspect={1}
+          outputWidth={512}
+          outputHeight={512}
+          shape="circle"
+          onSave={(src) => { onPick(src); setEditing(false); setOpen(false); }}
+          onCancel={() => setEditing(false)}
+        />
+      )}
+      <div className="pm-icon-grid">
+        {visible.map((item) => (
+          <button type="button" key={item.id} title={item.group + ': ' + item.name}
+                  className={item.icon === activeIcon ? 'on' : ''}
+                  onClick={() => { onPick(item.defaultIcon ? null : item.icon); setOpen(false); setEditing(false); }}>
+            <img src={item.icon} alt="" draggable="false" />
+            <span>{item.name}</span>
+          </button>
+        ))}
+        {visible.length === 0 && <div className="pm-icon-empty">No icons found.</div>}
+      </div>
+    </div>
+  ) : null;
   return (
-    <div className="pm-icon-picker" ref={ref}>
-      <button type="button" className="pm-icon-trigger" onClick={() => setOpen((v) => !v)}
+    <div className="pm-icon-picker">
+      <button type="button" ref={triggerRef} className="pm-icon-trigger" onClick={() => setOpen((v) => !v)}
               aria-expanded={open} aria-label={'Select ' + game.name + ' icon'}>
         <img src={activeIcon} alt="" draggable="false" />
         <span>Select Game Icon</span>
       </button>
-      {open && (
-        <div className="pm-icon-pop">
-          <div className="pm-icon-search">
-            <input value={q} placeholder="Search icons" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
-          </div>
-          <div className="pm-icon-grid">
-            {visible.map((item) => (
-              <button type="button" key={item.id} title={item.group + ': ' + item.name}
-                      className={item.icon === activeIcon ? 'on' : ''}
-                      onClick={() => { onPick(item.defaultIcon ? null : item.icon); setOpen(false); }}>
-                <img src={item.icon} alt="" draggable="false" />
-                <span>{item.name}</span>
-              </button>
-            ))}
-            {visible.length === 0 && <div className="pm-icon-empty">No icons found.</div>}
-          </div>
-        </div>
-      )}
+      {pop && ReactDOM.createPortal ? ReactDOM.createPortal(pop, document.body) : pop}
     </div>
   );
 }
@@ -2175,29 +2365,61 @@ function SettingsPane({ settings, setSettings }){
 
 function NyxChannelToggle({ gameKey }){
   const [channel, setChannel] = React.useState(() => cmLoadChannel(gameKey));
+  const [confirmBeta, setConfirmBeta] = React.useState(false);
   React.useEffect(() => { setChannel(cmLoadChannel(gameKey)); }, [gameKey]);
   const betaAvailable = cmHasBeta(gameKey);
-  const pick = (ch) => {
+  const betaSessionKey = 'nyx:beta-disclaimer:' + gameKey + ':v1';
+  const commitPick = (ch) => {
     const next = ch === 'beta' && !betaAvailable ? 'live' : ch;
     setChannel(next);
     cmSaveChannel(gameKey, next);
     try { window.dispatchEvent(new CustomEvent('nyx:cm-channel-changed', { detail:{ key:gameKey, channel:next } })); } catch (e) {}
   };
+  const pick = (ch) => {
+    if (ch === 'beta' && betaAvailable) {
+      let accepted = false;
+      try { accepted = sessionStorage.getItem(betaSessionKey) === '1'; } catch (e) {}
+      if (!accepted) {
+        setConfirmBeta(true);
+        return;
+      }
+    }
+    commitPick(ch);
+  };
+  const acceptBeta = () => {
+    try { sessionStorage.setItem(betaSessionKey, '1'); } catch (e) {}
+    setConfirmBeta(false);
+    commitPick('beta');
+  };
   const isBeta = betaAvailable && channel === 'beta';
   const toggle = () => pick(isBeta ? 'live' : 'beta');
   return (
-    <div className={'cm-chan-switch' + (isBeta ? ' beta' : ' live') + (betaAvailable ? '' : ' no-beta')}
-         role="group" aria-label="Data channel: Live or Beta" onClick={toggle}
-         title={betaAvailable ? undefined : 'Beta data is not available for this game yet'}>
-      <button type="button" className={'cm-chan-option live-option' + (!isBeta ? ' on' : '')} aria-pressed={!isBeta}
-              title="Released, live-server data" onClick={(e) => { e.stopPropagation(); toggle(); }}>Live</button>
-      <span className="cm-chan-medallion" aria-hidden="true">
-        <img src="../assets/icon/pengoemote.png" alt="" draggable="false" />
-      </span>
-      <button type="button" className={'cm-chan-option beta-option' + (isBeta ? ' on' : '')} aria-pressed={isBeta}
-              aria-disabled={!betaAvailable} onClick={(e) => { e.stopPropagation(); toggle(); }}
-              title={betaAvailable ? 'Beta (latest) data - upcoming, subject to change' : 'No beta data available yet'}>Beta</button>
-    </div>
+    <React.Fragment>
+      <div className={'cm-chan-switch' + (isBeta ? ' beta' : ' live') + (betaAvailable ? '' : ' no-beta')}
+           role="group" aria-label="Data channel: Live or Beta" onClick={toggle}
+           title={betaAvailable ? undefined : 'Beta data is not available for this game yet'}>
+        <button type="button" className={'cm-chan-option live-option' + (!isBeta ? ' on' : '')} aria-pressed={!isBeta}
+                title="Released, live-server data" onClick={(e) => { e.stopPropagation(); toggle(); }}>Live</button>
+        <span className="cm-chan-medallion" aria-hidden="true">
+          <img src="../assets/icon/pengoemote.png" alt="" draggable="false" />
+        </span>
+        <button type="button" className={'cm-chan-option beta-option' + (isBeta ? ' on' : '')} aria-pressed={isBeta}
+                aria-disabled={!betaAvailable} onClick={(e) => { e.stopPropagation(); toggle(); }}
+                title={betaAvailable ? 'Beta content may contain spoilers' : 'No beta data available yet'}>Beta</button>
+      </div>
+      {confirmBeta && (
+        <div className="nyx-beta-confirm" role="dialog" aria-modal="true" aria-label="View Beta content">
+          <div className="nyx-beta-card">
+            <b>View Beta content?</b>
+            <p>Are you sure you wish to view Beta content? Please be aware there could be spoilers.</p>
+            <div>
+              <button type="button" onClick={() => setConfirmBeta(false)}>Cancel</button>
+              <button type="button" className="primary" onClick={acceptBeta}>View Beta</button>
+            </div>
+          </div>
+        </div>
+      )}
+    </React.Fragment>
   );
 }
 
@@ -2260,6 +2482,7 @@ function NyxApp(){
       '.cm-body',
       '.gt-results',
       '.db-grid',
+      '.tcg-grid',
       '.sim-gbangrid',
       '.gp-overview-main',
       '.gp-overview-aside',
@@ -2274,6 +2497,8 @@ function NyxApp(){
       '.gt-panel',
       '.gp-side-nav',
       '.gp-main-pane',
+      '.pm-icon-grid',
+      '.cm-weapon-options',
     ];
     const isVisible = (el) => {
       if (!el) return false;
@@ -2283,6 +2508,8 @@ function NyxApp(){
     };
     const canScrollY = (el, deltaY) => {
       if (!el || !isVisible(el) || el.scrollHeight <= el.clientHeight + 1) return false;
+      const overflowY = window.getComputedStyle(el).overflowY;
+      if (overflowY === 'hidden' || overflowY === 'clip' || overflowY === 'visible') return false;
       if (deltaY > 0) return el.scrollTop + el.clientHeight < el.scrollHeight - 1;
       if (deltaY < 0) return el.scrollTop > 1;
       return false;
@@ -2308,7 +2535,7 @@ function NyxApp(){
       const candidates = contentScrollTargets
         .flatMap((selector) => Array.from(document.querySelectorAll(selector)))
         .filter((el) => canScrollY(el, event.deltaY));
-      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-pop.ledger .cm-pop-layout,.cm-body,.gt-results,.db-grid,.sim-gbangrid,.gp-overview-main,.gp-overview-aside,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
+      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-pop.ledger .cm-pop-layout,.cm-body,.gt-results,.db-grid,.tcg-grid,.sim-gbangrid,.gp-overview-main,.gp-overview-aside,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
       if (!preferred) return;
       event.preventDefault();
       preferred.scrollBy({ top:event.deltaY, left:0, behavior:'auto' });

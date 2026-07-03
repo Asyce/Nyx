@@ -692,6 +692,62 @@ function applyGenshinTcgOverviewArt(roster) {
   return report;
 }
 
+function gcgAssetLabel(file) {
+  return String(file || '')
+    .replace(/\.webp$/i, '')
+    .replace(/^\d+-/, '')
+    .replace(/[_-]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function buildGenshinTcgCards() {
+  const characterRel = 'Nanoka/gi/gcg/character cards/cards.json';
+  const reportRel = 'Nanoka/gi/gcg/report.json';
+  const sourceUrl = 'https://gi.nanoka.cc/gcg';
+  const characterCards = exists(characterRel)
+    ? readJson(characterRel).map((card) => ({
+      id: String(card.id || card.name),
+      name: card.name || card.playableCharacter || String(card.id),
+      title: card.title || null,
+      type: card.type || 'Character',
+      tags: Array.isArray(card.tags) ? card.tags : [],
+      playableCharacter: card.playableCharacter || null,
+      art: dbAsset(card.localAsset),
+      source: 'Nanoka',
+    })).filter((card) => card.art)
+    : [];
+  const otherDir = path.resolve(dbDir, 'Nanoka/gi/gcg/other cards/assets');
+  const otherCards = fs.existsSync(otherDir)
+    ? fs.readdirSync(otherDir, { withFileTypes:true })
+      .filter((entry) => entry.isFile() && /\.webp$/i.test(entry.name))
+      .map((entry) => {
+        const id = entry.name.match(/^(\d+)-/)?.[1] || entry.name.replace(/\.webp$/i, '');
+        return {
+          id:String(id),
+          name:gcgAssetLabel(entry.name) || String(id),
+          title:null,
+          type:'Action',
+          tags:[],
+          playableCharacter:null,
+          art:dbAsset(`Nanoka/gi/gcg/other cards/assets/${entry.name}`),
+          source:'Nanoka',
+        };
+      })
+      .filter((card) => card.art)
+      .sort((a, b) => a.name.localeCompare(b.name))
+    : [];
+  const report = exists(reportRel) ? readJson(reportRel) : null;
+  return {
+    source:'Nanoka',
+    sourceUrl,
+    updated: report?.generatedAt || null,
+    counts:{ characterCards:characterCards.length, otherCards:otherCards.length },
+    characterCards,
+    otherCards,
+  };
+}
+
 function markRecentBuckets(roster, keyFn, fallbackCount = 9) {
   roster.forEach((ch) => {
     delete ch.recent;
@@ -2940,6 +2996,7 @@ fs.writeFileSync(
 const collections = buildCollections();
 const codes = buildCodesData();
 const banners = buildBannersData(rosters);
+const genshinTcgCards = buildGenshinTcgCards();
 const meta = sourceMeta();
 
 fs.mkdirSync(generatedDataDir, { recursive: true });
@@ -2993,6 +3050,7 @@ const nyxData = {
       collections: collections[key],
       codes: codes.games[key] || [],
       banners: banners.games[key] || null,
+      tcg: key === 'gi' ? genshinTcgCards : undefined,
       roster: cmCfg[key].roster.map((ch) => ({
         id: ch.id,
         name: ch.n,

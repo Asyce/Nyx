@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-03T23:15:54.578Z",
+  "generatedAt": "2026-07-03T23:27:55.707Z",
   "providers": {
     "Prydwen": "2026-07-01T09:00:25.858Z",
     "Nanoka": {
@@ -4520,8 +4520,8 @@ var NYX_DB = {
         "sourceUrl": "https://gi.nanoka.cc/gcg",
         "updated": "2026-07-03T23:11:59.129Z",
         "counts": {
-          "characterCards": 104,
-          "otherCards": 503
+          "characterCards": 106,
+          "otherCards": 513
         },
         "characterCards": [
           {
@@ -9884,6 +9884,95 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "1317",
+            "name": "Durin",
+            "title": "\"The Undying Fire\" Durin",
+            "description": "Born from ink, he soars among the stars.",
+            "sourceText": "Reward for inviting Durin to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
+            "sourceUrl": "https://gi.nanoka.cc/gcg/1317",
+            "localizedNames": {
+              "en": "Durin",
+              "zh": "\u675c\u6797",
+              "ja": "\u30c9\u30a5\u30ea\u30f3"
+            },
+            "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "213171",
+            "tags": [
+              "Pyro",
+              "Sword",
+              "Mondstadt"
+            ],
+            "talent": {
+              "13171": {
+                "name": "Radiant Wingslash",
+                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] DMG.",
+                "child": {
+                  "d_key_damage": 2,
+                  "d_key_element": "GCG_ELEMENT_VOID"
+                },
+                "tag": "GCG_SKILL_TAG_A",
+                "cost": {
+                  "gcg_cost_dice_pyro": 1,
+                  "gcg_cost_dice_void": 2
+                }
+              },
+              "13172": {
+                "name": "Binary Form: Convergence and Division",
+                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
+                "child": {
+                  "d_key_damage": 3,
+                  "d_key_element": "GCG_ELEMENT_PYRO"
+                },
+                "tag": "GCG_SKILL_TAG_E",
+                "cost": {
+                  "gcg_cost_dice_pyro": 3
+                }
+              },
+              "13173": {
+                "name": "Principle of Purity: As the Light Shifts",
+                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#FFFFFFFF>$[C113171]</color>.",
+                "child": {
+                  "d_key_damage": 1,
+                  "d_key_element": "GCG_ELEMENT_PYRO",
+                  "c113171": {
+                    "name": "Confirmation of Purity",
+                    "desc": "<color=#FFFFFFFF>After your characters take action:</color> Deal 1 $[K103].\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+                    "child": {
+                      "k103": {
+                        "name": "{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>",
+                        "desc": "Applies {SPRITE_PRESET#2103}Pyro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Melt</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Overloaded</color>: DMG +2 for this instance, the target is forcibly switched to the next character\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Burning</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Burning Flame</color>] that will deal 1 Pyro DMG at the end of the Round (Takes effect once, max 2 stacks)"
+                      },
+                      "k3": {
+                        "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                        "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                      }
+                    }
+                  }
+                },
+                "tag": "GCG_SKILL_TAG_Q",
+                "cost": {
+                  "gcg_cost_dice_pyro": 3,
+                  "gcg_cost_energy": 2
+                }
+              },
+              "13175": {
+                "name": "Light Manifest of the Divine Calculus",
+                "desc": "[Passive] <color=#FFFFFFFF>After you use a Normal Attack:</color> Switch your Elemental Burst to <color=#FFFFFFFF>$[S13174]</color>.\\n<color=#FFFFFFFF>After you use an Elemental Skill:</color> Switch your Elemental Burst to <color=#FFFFFFFF>$[S13173]</color>.",
+                "child": {
+                  "s13174": "S13174",
+                  "s13173": "S13173"
+                },
+                "tag": "GCG_SKILL_TAG_PASSIVE",
+                "cost": {}
+              }
+            },
+            "playableCharacter": "Durin",
+            "art": null,
+            "source": "Nanoka"
+          },
+          {
             "id": "1401",
             "name": "Fischl",
             "title": "\"Fischl, Prinzessin der Verurteilung!\" Fischl",
@@ -13468,6 +13557,168 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "1516",
+            "name": "Jahoda",
+            "title": "\"Windthreading Shadow\" Jahoda",
+            "description": "Persistent thought brings light to even the deepest secrets.",
+            "sourceText": "Reward for inviting Jahoda to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
+            "sourceUrl": "https://gi.nanoka.cc/gcg/1516",
+            "localizedNames": {
+              "en": "Jahoda",
+              "zh": "\u96c5\u73c2\u8fbe",
+              "ja": "\u30e4\u30d5\u30a9\u30c0"
+            },
+            "type": "Character",
+            "cost": 2,
+            "hp": 10,
+            "relatedCardId": "215161",
+            "tags": [
+              "Anemo",
+              "Bow",
+              "Nod-Krai"
+            ],
+            "talent": {
+              "15161": {
+                "name": "Strike While the Arrow's Hot",
+                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
+                "child": {
+                  "d_key_damage": 2,
+                  "d_key_element": "GCG_ELEMENT_VOID"
+                },
+                "tag": "GCG_SKILL_TAG_A",
+                "cost": {
+                  "gcg_cost_dice_anemo": 1,
+                  "gcg_cost_dice_void": 2
+                }
+              },
+              "15162": {
+                "name": "Savvy Strategy: Splitting the Spoils",
+                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 layer of <color=#FFFFFFFF>$[C170]</color>, and switches to your next character. If you do not have <color=#FFFFFFFF>$[C115161]</color> of any element in your Hand, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand; otherwise, grant $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand.",
+                "child": {
+                  "d_key_damage": 2,
+                  "d_key_element": "GCG_ELEMENT_ANEMO",
+                  "c170": {
+                    "name": "Agile Switch",
+                    "desc": "<color=#FFFFFFFF>The next time you perform \"Switch Character\":</color> This switch will be considered a $[K2] instead of a $[K1]. (Can stack, no stack limit)",
+                    "child": {
+                      "k2": {
+                        "name": "<color=#FFFFFFFF>Fast Action</color>",
+                        "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
+                      },
+                      "k1": {
+                        "name": "<color=#FFFFFFFF>Combat Action</color>",
+                        "desc": "After you finish 1 Combat Action, it will be your opponent's turn.\\n<color=#FFFFFFFF>Playing a card from your Hand with this rule is also a Combat Action rather than a Fast Action</color>."
+                      }
+                    }
+                  },
+                  "c115161": {
+                    "name": "Purr-loined Treasure Flask",
+                    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent's active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+                    "child": {
+                      "a1516": "Jahoda",
+                      "k1": {
+                        "name": "<color=#FFFFFFFF>Combat Action</color>",
+                        "desc": "After you finish 1 Combat Action, it will be your opponent's turn.\\n<color=#FFFFFFFF>Playing a card from your Hand with this rule is also a Combat Action rather than a Fast Action</color>."
+                      },
+                      "k105": {
+                        "name": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>",
+                        "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Swirl</color>: Deals 1 Cryo DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Swirl</color>: Deals 1 Hydro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Swirl</color>: Deals 1 Pyro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Swirl</color>: Deals 1 Electro DMG to all opposing characters except the target"
+                      }
+                    }
+                  },
+                  "k3005": {
+                    "name": "<color=#FFFFFFFF>Cost Reduction</color>",
+                    "desc": ""
+                  }
+                },
+                "tag": "GCG_SKILL_TAG_E",
+                "cost": {
+                  "gcg_cost_dice_anemo": 3
+                }
+              },
+              "15163": {
+                "name": "Hidden Aces: Seven Tools of the Hunter",
+                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create <color=#FFFFFFFF>$[C115166]</color>.",
+                "child": {
+                  "d_key_damage": 3,
+                  "d_key_element": "GCG_ELEMENT_ANEMO",
+                  "c115166": {
+                    "name": "Purrsonal Coordinated Assistance Robot",
+                    "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 1 Elemental DMG of the same type as your active character (if the character is Dendro or Geo, deal Anemo DMG), and heal your character with the lowest HP for 2 points.\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+                    "child": {
+                      "k3": {
+                        "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                        "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                      }
+                    }
+                  }
+                },
+                "tag": "GCG_SKILL_TAG_Q",
+                "cost": {
+                  "gcg_cost_dice_anemo": 3,
+                  "gcg_cost_energy": 2
+                }
+              },
+              "15164": {
+                "name": "Moonsign Benediction: Rooftop Dash",
+                "desc": "[Passive] When the battle begins, create <color=#FFFFFFFF>$[C115161]</color> in your hand.\\nAfter your side triggers a Lunar or Swirl reaction, grant all <color=#FFFFFFFF>$[C115161]</color> in your hand $[K3005]. (Max 2 times per round)",
+                "child": {
+                  "c115161": {
+                    "name": "Purr-loined Treasure Flask",
+                    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent's active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+                    "child": {
+                      "a1516": "Jahoda",
+                      "k1": {
+                        "name": "<color=#FFFFFFFF>Combat Action</color>",
+                        "desc": "After you finish 1 Combat Action, it will be your opponent's turn.\\n<color=#FFFFFFFF>Playing a card from your Hand with this rule is also a Combat Action rather than a Fast Action</color>."
+                      },
+                      "k105": {
+                        "name": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>",
+                        "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Swirl</color>: Deals 1 Cryo DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Swirl</color>: Deals 1 Hydro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Swirl</color>: Deals 1 Pyro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Swirl</color>: Deals 1 Electro DMG to all opposing characters except the target"
+                      }
+                    }
+                  },
+                  "k3005": {
+                    "name": "<color=#FFFFFFFF>Cost Reduction</color>",
+                    "desc": ""
+                  }
+                },
+                "tag": "GCG_SKILL_TAG_PASSIVE",
+                "cost": {}
+              },
+              "15165": {
+                "name": "Moonsign Benediction: Rooftop Dash",
+                "desc": "[Passive] At the start of combat, create $[C115161] in your Hand.\\nAfter our side triggers a Lunar or Swirl reaction, grant all $[C115161] in your Hand $[K3005]. (Max 2 times per round)",
+                "child": {
+                  "c115161": {
+                    "name": "Purr-loined Treasure Flask",
+                    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent's active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+                    "child": {
+                      "a1516": "Jahoda",
+                      "k1": {
+                        "name": "<color=#FFFFFFFF>Combat Action</color>",
+                        "desc": "After you finish 1 Combat Action, it will be your opponent's turn.\\n<color=#FFFFFFFF>Playing a card from your Hand with this rule is also a Combat Action rather than a Fast Action</color>."
+                      },
+                      "k105": {
+                        "name": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>",
+                        "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Swirl</color>: Deals 1 Cryo DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Swirl</color>: Deals 1 Hydro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Swirl</color>: Deals 1 Pyro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Swirl</color>: Deals 1 Electro DMG to all opposing characters except the target"
+                      }
+                    }
+                  },
+                  "k3005": {
+                    "name": "<color=#FFFFFFFF>Cost Reduction</color>",
+                    "desc": ""
+                  }
+                },
+                "tag": "GCG_SKILL_TAG_PASSIVE",
+                "cost": {}
+              }
+            },
+            "playableCharacter": "Jahoda",
+            "art": null,
+            "source": "Nanoka"
+          },
+          {
             "id": "1601",
             "name": "Ningguang",
             "title": "\"Eclipsing Star\" Ningguang",
@@ -16836,6 +17087,48 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "332065",
+            "name": "\"Witch's Homework\"",
+            "title": "\"Witch's Homework\"",
+            "description": "\"Rather than having a deus ex machina jump in at the very end of the story, it's much easier to accept if the foreshadowing is laid out early on...\"",
+            "sourceText": null,
+            "sourceUrl": "https://gi.nanoka.cc/gcg/332065",
+            "localizedNames": {
+              "en": "\"Witch's Homework\"",
+              "zh": "\u300c\u9b54\u5973\u7684\u8bfe\u4e1a\u300d",
+              "ja": "\u300c\u9b54\u5973\u306e\u8ab2\u984c\u300d"
+            },
+            "type": "Action",
+            "cost": [
+              {
+                "cost_type": "GCG_COST_DICE_SAME",
+                "count": 1
+              },
+              {
+                "cost_type": "GCG_COST_INVALID"
+              }
+            ],
+            "hp": 0,
+            "tags": [],
+            "talent": {
+              "name": "\u300cWitch's Homework\u300d",
+              "desc": "Draw 1 {SPRITE_PRESET#3006} Talent card. If your deck initially contains at least 3 {SPRITE_PRESET#3006} Talent cards, grant $[K3005] to the {SPRITE_PRESET#3006} Talent card with the highest <color=#FFFFFFFF>$[K3002]</color> in your Hand.",
+              "child": {
+                "k3005": {
+                  "name": "<color=#FFFFFFFF>Cost Reduction</color>",
+                  "desc": ""
+                },
+                "k3002": {
+                  "name": "<color=#FFFFFFFF>Current Elemental Dice Cost</color>",
+                  "desc": "If a <color=#FFFFFFFF>Cost Increase</color> or <color=#FFFFFFFF>Cost Reduction</color> is attached to an Action Card, its current Elemental Dice cost will be adjusted accordingly.\\n(Effects that reduce the Elemental Dice cost when playing the card do not affect this cost.)"
+                }
+              }
+            },
+            "playableCharacter": null,
+            "art": null,
+            "source": "Nanoka"
+          },
+          {
             "id": "215081",
             "name": "A Cold Blade Like a Shadow",
             "title": "Lynette: A Cold Blade Like a Shadow",
@@ -17718,6 +18011,50 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "213171",
+            "name": "Adamah's Redemption",
+            "title": "Durin: Adamah's Redemption",
+            "description": "A turning point in fate.",
+            "sourceText": "Reward for inviting Durin to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
+            "sourceUrl": "https://gi.nanoka.cc/gcg/213171",
+            "localizedNames": {
+              "en": "Adamah's Redemption",
+              "zh": "\u7ea2\u571f\u4e4b\u9006",
+              "ja": "\u8d64\u571f\u306e\u9006\u7406"
+            },
+            "type": "Action",
+            "cost": [
+              {
+                "cost_type": "GCG_COST_DICE_PYRO",
+                "count": 3
+              },
+              {
+                "cost_type": "GCG_COST_ENERGY",
+                "count": 2
+              }
+            ],
+            "hp": 0,
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "talent": {
+              "name": "Adamah's Redemption",
+              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> once.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[C13173]:</color> Your next 3 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[C13174]:</color> This character and your <color=#FFFFFFFF>$[C13172]</color> deal +1 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
+              "child": {
+                "k1": {
+                  "name": "<color=#FFFFFFFF>Combat Action</color>",
+                  "desc": "After you finish 1 Combat Action, it will be your opponent's turn.\\n<color=#FFFFFFFF>Playing a card from your Hand with this rule is also a Combat Action rather than a Fast Action</color>."
+                },
+                "a1317": "Adamah's Redemption",
+                "s13173": "S13173"
+              }
+            },
+            "playableCharacter": null,
+            "art": null,
+            "source": "Nanoka"
+          },
+          {
             "id": "333002",
             "name": "Adeptus' Temptation",
             "title": "Adeptus' Temptation",
@@ -18096,6 +18433,56 @@ var NYX_DB = {
             },
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2204-All-Devouring Narwhal.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "212032",
+            "name": "Amaterasu's Step",
+            "title": "Mona: Celestial Fate",
+            "description": "\"If the fortune teller in the story ever took on an apprentice, I doubt she'd subject them to such an absurd test. Yeah, probably not.\"",
+            "sourceText": null,
+            "sourceUrl": "https://gi.nanoka.cc/gcg/212032",
+            "localizedNames": {
+              "en": "Amaterasu's Step",
+              "zh": "\u5929\u6b65\u771f\u539f",
+              "ja": "\u661f\u5ea7\u306e\u59cb\u307e\u308a"
+            },
+            "type": "Action",
+            "cost": [
+              {
+                "cost_type": "GCG_COST_DICE_HYDRO",
+                "count": 1
+              },
+              {
+                "cost_type": "GCG_COST_DICE_VOID",
+                "count": 2
+              }
+            ],
+            "hp": 0,
+            "tags": [
+              "Talent",
+              "Combat Action",
+              "Hexerei"
+            ],
+            "talent": {
+              "name": "Makoto of the Heaven Steps",
+              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1203]</color>, equip this card.\\nAfter $[A1203] equips this card, generate <color=#FFFFFFFF>$[C212033]</color> and immediately use <color=#FFD780FF>$[S12031]</color> once.\\nWhen <color=#FFFFFFFF>$[A1203]</color> uses a Normal Attack, spend 1 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>. After the Normal Attack, generate <color=#FFFFFFFF>$[C212033]</color>.\\n(You must have $[A1203] in your deck to add this card to your deck.)",
+              "child": {
+                "k1": {
+                  "name": "<color=#FFFFFFFF>Combat Action</color>",
+                  "desc": "After you finish 1 Combat Action, it will be your opponent's turn.\\n<color=#FFFFFFFF>Playing a card from your Hand with this rule is also a Combat Action rather than a Fast Action</color>."
+                },
+                "a1203": "Amaterasu's Step",
+                "c212033": {
+                  "name": "Amaterasu's Originality (Active)",
+                  "desc": "Your next Vaporize Reaction deals +2 DMG.",
+                  "child": {}
+                },
+                "s12031": "S12031"
+              }
+            },
+            "playableCharacter": null,
+            "art": null,
             "source": "Nanoka"
           },
           {
@@ -18672,6 +19059,49 @@ var NYX_DB = {
             },
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2602-Azhdaha.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215161",
+            "name": "Backstreet Guile",
+            "title": "Jahoda's Backstreet Guile",
+            "description": "All mine!",
+            "sourceText": "Reward for inviting Jahoda to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
+            "sourceUrl": "https://gi.nanoka.cc/gcg/215161",
+            "localizedNames": {
+              "en": "Backstreet Guile",
+              "zh": "\u6697\u5df7\u7684\u9ee0\u6167",
+              "ja": "\u30a2\u30f3\u30c0\u30fc\u30b0\u30e9\u30a6\u30f3\u30c9\u306e\u60aa\u77e5\u6075"
+            },
+            "type": "Action",
+            "cost": [
+              {
+                "cost_type": "GCG_COST_DICE_ANEMO",
+                "count": 3
+              },
+              {
+                "cost_type": "GCG_COST_INVALID"
+              }
+            ],
+            "hp": 0,
+            "tags": [
+              "Talent",
+              "Combat Action"
+            ],
+            "talent": {
+              "name": "Backstreet Guile",
+              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1516]</color>, equip this card.\\nAfter $[A1516] equips this card, immediately use <color=#FFD780FF>$[S15162]</color> once.\\nWhen <color=#FFFFFFFF>$[K1516]</color> switches to the active character, if the number of cards in your opponent's Hand is greater than or equal to the number of cards in your Hand, randomly copy 2 cards from their Hand.\\n(You must have $[A1516] in your deck to add this card to your deck.)",
+              "child": {
+                "k1": {
+                  "name": "<color=#FFFFFFFF>Combat Action</color>",
+                  "desc": "After you finish 1 Combat Action, it will be your opponent's turn.\\n<color=#FFFFFFFF>Playing a card from your Hand with this rule is also a Combat Action rather than a Fast Action</color>."
+                },
+                "a1516": "Backstreet Guile",
+                "s15162": "S15162"
+              }
+            },
+            "playableCharacter": null,
+            "art": null,
             "source": "Nanoka"
           },
           {
@@ -24845,6 +25275,66 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "214012",
+            "name": "Fantasia of the Evening World",
+            "title": "Fischl: Nightraven",
+            "description": "\"However, while all of these assignments were unexpected, some were far more unexpected than others. For instance, some little witches simply had to figure out how to use the primordial light to create their own material world, while others were tasked with breathing 'soul' into lifeforms that previously existed only in the imagination...\"",
+            "sourceText": null,
+            "sourceUrl": "https://gi.nanoka.cc/gcg/214012",
+            "localizedNames": {
+              "en": "Fantasia of the Evening World",
+              "zh": "\u5bb5\u4e16\u5e7b\u594f",
+              "ja": "\u7d42\u5bb5\u306e\u5e7b\u594f"
+            },
+            "type": "Action",
+            "cost": [
+              {
+                "cost_type": "GCG_COST_DICE_ELECTRO",
+                "count": 2
+              },
+              {
+                "cost_type": "GCG_COST_INVALID"
+              }
+            ],
+            "hp": 0,
+            "tags": [
+              "Talent",
+              "Hexerei"
+            ],
+            "talent": {
+              "name": "Phantasm of Night",
+              "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1401]</color>.\\nSummon <color=#FFFFFFFF>$[C114011]</color>.\\nWhile the <color=#FFFFFFFF>$[C114011]</color> is on the field, your $[K214] deals +1 DMG.\\n(You must have $[A1401] in your deck to add this card to your deck.)",
+              "child": {
+                "k2": {
+                  "name": "<color=#FFFFFFFF>Fast Action</color>",
+                  "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
+                },
+                "a1401": "Fantasia of the Evening World",
+                "c114011": {
+                  "name": "Oz",
+                  "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 1 $[K104].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+                  "child": {
+                    "k104": {
+                      "name": "{SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>",
+                      "desc": "Applies {SPRITE_PRESET#2104}Electro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Overloaded</color>: DMG +2 for this instance, the target is forcibly switched to the next character\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Superconduct</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Quicken</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Catalyzing Field</color>] that grants +1 DMG to the next 2 instances of Dendro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)"
+                    },
+                    "k3": {
+                      "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                      "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                    }
+                  }
+                },
+                "k214": {
+                  "name": "<color=#FFACFFFF>{SPRITE_PRESET#2104}Electro-Related Reactions</color>",
+                  "desc": "{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Overloaded</color>: DMG +2 for this instance, the target is forcibly switched to the next character\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Superconduct</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Quicken</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Catalyzing Field</color>] that grants +1 DMG to the next 2 instances of Dendro or Electro DMG\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Swirl</color>: Deal 1 Electro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)"
+                }
+              }
+            },
+            "playableCharacter": null,
+            "art": null,
+            "source": "Nanoka"
+          },
+          {
             "id": "211161",
             "name": "Far to Fall",
             "title": "Skirk: Far to Fall",
@@ -26990,6 +27480,37 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "332066",
+            "name": "Gathering Gourmet",
+            "title": "Gather and drink together",
+            "description": "\"You again? You're always the last one here. Sit down already, we've been waiting for you!\"",
+            "sourceText": null,
+            "sourceUrl": "https://gi.nanoka.cc/gcg/332066",
+            "localizedNames": {
+              "en": "Gathering Gourmet",
+              "zh": "\u9f50\u805a\u5171\u996e"
+            },
+            "type": "Action",
+            "cost": [
+              {
+                "cost_type": "GCG_COST_INVALID"
+              },
+              {
+                "cost_type": "GCG_COST_INVALID"
+              }
+            ],
+            "hp": 0,
+            "tags": [],
+            "talent": {
+              "name": "Gather for a Drink",
+              "desc": "<color=#FFFFFFFF>When the next Round begins:</color> Both sides draw 2 cards and gain 2 random Elemental Dice.",
+              "child": {}
+            },
+            "playableCharacter": null,
+            "art": null,
+            "source": "Nanoka"
+          },
+          {
             "id": "312009",
             "name": "General's Ancient Helm",
             "title": "Ironclad Promise: General's Ancient Helm",
@@ -28661,6 +29182,177 @@ var NYX_DB = {
             },
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2205-Hydro Hilichurl Rogue.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "2208",
+            "name": "Hydro Hypostasis",
+            "title": "He - Hydro Hypostasis",
+            "description": "A powerful high-level Hydro Elemental Lifeform code-named \"He,\" it possesses a strong instinct for exclusion and will mercilessly drive away anyone who dares to probe it.",
+            "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Hydro Hypostasis",
+            "sourceUrl": "https://gi.nanoka.cc/gcg/2208",
+            "localizedNames": {
+              "en": "Hydro Hypostasis",
+              "zh": "\u65e0\u76f8\u4e4b\u6c34",
+              "ja": "\u7121\u76f8\u306e\u6c34"
+            },
+            "type": "Character",
+            "cost": 2,
+            "hp": 8,
+            "relatedCardId": "222081",
+            "tags": [
+              "Hydro",
+              "Other Weapons",
+              "Monster"
+            ],
+            "talent": {
+              "22081": {
+                "name": "Hydro Diffusion",
+                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
+                "child": {
+                  "d_key_damage": 1,
+                  "d_key_element": "GCG_ELEMENT_HYDRO"
+                },
+                "tag": "GCG_SKILL_TAG_A",
+                "cost": {
+                  "gcg_cost_dice_hydro": 1,
+                  "gcg_cost_dice_void": 2
+                }
+              },
+              "22082": {
+                "name": "Surging Torrent",
+                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], then performs \"$[K53]\" for <color=#FFFFFFFF>$[S22085]</color>.",
+                "child": {
+                  "d_key_damage": 2,
+                  "d_key_element": "GCG_ELEMENT_HYDRO",
+                  "k53": {
+                    "name": "<color=#FFFFFFFF>Prepare Skill</color>|s1:<color=#FFFFFFFF>prepares</color>",
+                    "desc": "Some Skills cannot be used directly. Instead, they need to be <color=#FFFFFFFF>prepared</color> over a certain number of turns.\\nWhen it is a certain player's turn, and this player's active character is currently <color=#FFFFFFFF>preparing</color> a Skill, this player's turn will be skipped. If the Skill has finished being <color=#FFFFFFFF>prepared</color>, the character will directly use that Skill at this time. (Skills that require <color=#FFFFFFFF>preparing</color> cannot activate effects triggered by \"using a Skill\" or \"triggering an Elemental Reaction\" or other such effects.)\\nOnly active characters can <color=#FFFFFFFF>prepare</color> Skills, and if an active character who is <color=#FFFFFFFF>preparing</color> a Skill gets switched off-field, their <color=#FFFFFFFF>preparation</color> will be interrupted."
+                  },
+                  "s22085": "S22085"
+                },
+                "tag": "GCG_SKILL_TAG_E",
+                "cost": {
+                  "gcg_cost_dice_hydro": 3
+                }
+              },
+              "22083": {
+                "name": "Tide of Calamity",
+                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and summons <color=#FFFFFFFF>$[C122082]</color>.",
+                "child": {
+                  "d_key_damage": 3,
+                  "d_key_element": "GCG_ELEMENT_HYDRO",
+                  "c122082": {
+                    "name": "Water Droplets",
+                    "desc": "<color=#FFFFFFFF>End Phase:</color> If your <color=#FFFFFFFF>$[A2208]</color> does not have <color=#FFFFFFFF>$[C122081]</color> attached, attach <color=#FFFFFFFF>$[C122081]</color> to this character. Otherwise, deal 2 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+                    "child": {
+                      "a2208": "Hydro Hypostasis",
+                      "c122081": {
+                        "name": "Hydro Crystal Core",
+                        "desc": "<color=#FFFFFFFF>When the character to which this is attached would be defeated:</color> Remove this effect, ensure the character $[K54|s1], and heal them to 1 HP.",
+                        "child": {
+                          "k54": {
+                            "name": "<color=#FFFFFFFF>Immunity to Defeat</color>|s1:<color=#FFFFFFFF>will not be defeated</color>",
+                            "desc": "Certain effects will grant characters an <color=#FFFFFFFF>immunity to being defeated</color> when their HP hits 0, and will heal them for a certain amount thereafter.\\nWhen this occurs, characters will not be regarded as having experienced a <color=#FFFFFFFF>defeat.</color> (Hence, their attached equipment and statuses will not be removed, and their Energy will remain uncleared.)"
+                          }
+                        }
+                      },
+                      "k102": {
+                        "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
+                        "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>\uff1aDMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                      },
+                      "k3": {
+                        "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                        "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                      }
+                    }
+                  }
+                },
+                "tag": "GCG_SKILL_TAG_Q",
+                "cost": {
+                  "gcg_cost_dice_hydro": 3,
+                  "gcg_cost_energy": 2
+                }
+              },
+              "22084": {
+                "name": "Crystal Core",
+                "desc": "[Passive] At the start of battle, gain <color=#FFFFFFFF>$[C122081]</color> initially. If <color=#FFFFFFFF>$[C122082]</color> is present on the field, re-attach <color=#FFFFFFFF>$[C122081]</color> upon consumption, and reduce the usable charges of <color=#FFFFFFFF>$[C122082]</color> by 1.",
+                "child": {
+                  "c122081": {
+                    "name": "Hydro Crystal Core",
+                    "desc": "<color=#FFFFFFFF>When the character to which this is attached would be defeated:</color> Remove this effect, ensure the character $[K54|s1], and heal them to 1 HP.",
+                    "child": {
+                      "k54": {
+                        "name": "<color=#FFFFFFFF>Immunity to Defeat</color>|s1:<color=#FFFFFFFF>will not be defeated</color>",
+                        "desc": "Certain effects will grant characters an <color=#FFFFFFFF>immunity to being defeated</color> when their HP hits 0, and will heal them for a certain amount thereafter.\\nWhen this occurs, characters will not be regarded as having experienced a <color=#FFFFFFFF>defeat.</color> (Hence, their attached equipment and statuses will not be removed, and their Energy will remain uncleared.)"
+                      }
+                    }
+                  },
+                  "c122082": {
+                    "name": "Water Droplets",
+                    "desc": "<color=#FFFFFFFF>End Phase:</color> If your <color=#FFFFFFFF>$[A2208]</color> does not have <color=#FFFFFFFF>$[C122081]</color> attached, attach <color=#FFFFFFFF>$[C122081]</color> to this character. Otherwise, deal 2 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+                    "child": {
+                      "a2208": "Hydro Hypostasis",
+                      "k102": {
+                        "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
+                        "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>\uff1aDMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                      },
+                      "k3": {
+                        "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                        "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                      }
+                    }
+                  }
+                },
+                "tag": "GCG_SKILL_TAG_PASSIVE",
+                "cost": {}
+              },
+              "22085": {
+                "name": "Surge",
+                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
+                "child": {
+                  "d_key_damage": 1,
+                  "d_key_element": "GCG_ELEMENT_HYDRO"
+                },
+                "tag": "GCG_SKILL_TAG_E",
+                "cost": {}
+              },
+              "22086": {
+                "name": "Hydro Crystal Core",
+                "desc": "[Passive] At the start of combat, initially attach <color=#FFFFFFFF>$[C122081]</color>. If <color=#FFFFFFFF>$[C122082]</color> is on the field, when <color=#FFFFFFFF>$[C122081]</color> is consumed, re-attach <color=#FFFFFFFF>$[C122081]</color> and reduce the usage count of <color=#FFFFFFFF>$[C122082]</color> by 1.",
+                "child": {
+                  "c122081": {
+                    "name": "Hydro Crystal Core",
+                    "desc": "<color=#FFFFFFFF>When the character to which this is attached would be defeated:</color> Remove this effect, ensure the character $[K54|s1], and heal them to 1 HP.",
+                    "child": {
+                      "k54": {
+                        "name": "<color=#FFFFFFFF>Immunity to Defeat</color>|s1:<color=#FFFFFFFF>will not be defeated</color>",
+                        "desc": "Certain effects will grant characters an <color=#FFFFFFFF>immunity to being defeated</color> when their HP hits 0, and will heal them for a certain amount thereafter.\\nWhen this occurs, characters will not be regarded as having experienced a <color=#FFFFFFFF>defeat.</color> (Hence, their attached equipment and statuses will not be removed, and their Energy will remain uncleared.)"
+                      }
+                    }
+                  },
+                  "c122082": {
+                    "name": "Water Droplets",
+                    "desc": "<color=#FFFFFFFF>End Phase:</color> If your <color=#FFFFFFFF>$[A2208]</color> does not have <color=#FFFFFFFF>$[C122081]</color> attached, attach <color=#FFFFFFFF>$[C122081]</color> to this character. Otherwise, deal 2 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+                    "child": {
+                      "a2208": "Hydro Hypostasis",
+                      "k102": {
+                        "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
+                        "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>\uff1aDMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                      },
+                      "k3": {
+                        "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                        "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                      }
+                    }
+                  }
+                },
+                "tag": "GCG_SKILL_TAG_PASSIVE",
+                "cost": {}
+              }
+            },
+            "playableCharacter": null,
+            "art": null,
             "source": "Nanoka"
           },
           {
@@ -34064,6 +34756,74 @@ var NYX_DB = {
             },
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214131-Pylon of the Sojourning Sun Temple.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "213062",
+            "name": "Pyro Magic",
+            "title": "Klee's Pyro Magic",
+            "description": "\"And just like that, the cutest little Dodo-Sorcerer passed her qualification exam with the help of her friends. Now she's a real, full-fledged Dodo-Sorcerer! Congratulations!\"\\n\"Wait, weren't we supposed to be writing commentary? What does any of this have to do with the little witch!?\"",
+            "sourceText": null,
+            "sourceUrl": "https://gi.nanoka.cc/gcg/213062",
+            "localizedNames": {
+              "en": "Pyro Magic",
+              "zh": "\u706b\u82b1\u9b54\u6cd5",
+              "ja": "\u706b\u82b1\u306e\u9b54\u6cd5"
+            },
+            "type": "Action",
+            "cost": [
+              {
+                "cost_type": "GCG_COST_INVALID"
+              },
+              {
+                "cost_type": "GCG_COST_INVALID"
+              }
+            ],
+            "hp": 0,
+            "tags": [
+              "Talent",
+              "Hexerei"
+            ],
+            "talent": {
+              "name": "Spark Magic",
+              "desc": "$[K2]: Equip to your <color=#FFFFFFFF>$[A1306]</color>.\\n$[A1306] attaches <color=#FFFFFFFF>$[C113061]</color>.\\n<color=#FFFFFFFF>After the attached character performs a $[K51]:</color> Attach 1 stack of <color=#FFFFFFFF>$[C210]</color>.\\n(Must have $[A1306] in deck to add to deck.)",
+              "child": {
+                "k2": {
+                  "name": "<color=#FFFFFFFF>Fast Action</color>",
+                  "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
+                },
+                "a1306": "Pyro Magic",
+                "c113061": {
+                  "name": "Explosive Spark",
+                  "desc": "<color=#FFFFFFFF>When the character to which this is attached uses a $[K51]: </color>Spend 1 less <color=#FF9999FF>$[K303]</color> and deal +1 DMG.\\n<color=#FFFFFFFF>$[K3]: 1</color>",
+                  "child": {
+                    "k51": {
+                      "name": "<color=#FFFFFFFF>Charged Attack</color>",
+                      "desc": "Before your Action Phase, should the total number of your Elemental Dice be even, your Normal Attack will be considered a Charged Attack."
+                    },
+                    "k303": {
+                      "name": "{SPRITE_PRESET#1103}Pyro",
+                      "desc": "Spend the <color=#FF9999FF>{SPRITE_PRESET#1103}Pyro</color> Dice you have rolled to pay for this cost.\\n({SPRITE_PRESET#1111}Omni Dice may also be used to pay for this.)"
+                    },
+                    "k3": {
+                      "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                      "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                    }
+                  }
+                },
+                "k51": {
+                  "name": "<color=#FFFFFFFF>Charged Attack</color>",
+                  "desc": "Before your Action Phase, should the total number of your Elemental Dice be even, your Normal Attack will be considered a Charged Attack."
+                },
+                "c210": {
+                  "name": "RES",
+                  "desc": "<color=#FFFFFFFF>When the character to which this is attached takes DMG:</color> Decrease DMG taken by 1. (Can stack, no stack limit)",
+                  "child": {}
+                }
+              }
+            },
+            "playableCharacter": null,
+            "art": null,
             "source": "Nanoka"
           },
           {
@@ -40000,6 +40760,71 @@ var NYX_DB = {
             "source": "Nanoka"
           },
           {
+            "id": "222081",
+            "name": "Treacherous Tides",
+            "title": "Hydro Hypostasis: Treacherous Waves",
+            "description": "Beneath the treacherous waves of the silent gathering, a calamity of vicious tides gathers in silence...",
+            "sourceText": "Reward for accepting the Tavern Challenge against the Hydro Hypostasis at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
+            "sourceUrl": "https://gi.nanoka.cc/gcg/222081",
+            "localizedNames": {
+              "en": "Treacherous Tides",
+              "zh": "\u8be1\u8c32\u6076\u6d6a"
+            },
+            "type": "Action",
+            "cost": [
+              {
+                "cost_type": "GCG_COST_DICE_HYDRO",
+                "count": 1
+              },
+              {
+                "cost_type": "GCG_COST_INVALID"
+              }
+            ],
+            "hp": 0,
+            "tags": [
+              "Talent"
+            ],
+            "talent": {
+              "name": "Treacherous Tides",
+              "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A2208]</color>.\\nAfter your <color=#FFFFFFFF>$[A2208]</color> or <color=#FFFFFFFF>$[C122082]</color> deals Damage, heal the most damaged Monster on your side for 1 HP. (3 times per Round)\\n(You must have $[A2208] in your deck to add this card to your deck.)",
+              "child": {
+                "k2": {
+                  "name": "<color=#FFFFFFFF>Fast Action</color>",
+                  "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
+                },
+                "a2208": "Treacherous Tides",
+                "c122082": {
+                  "name": "Water Droplets",
+                  "desc": "<color=#FFFFFFFF>End Phase:</color> If your <color=#FFFFFFFF>$[A2208]</color> does not have <color=#FFFFFFFF>$[C122081]</color> attached, attach <color=#FFFFFFFF>$[C122081]</color> to this character. Otherwise, deal 2 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+                  "child": {
+                    "a2208": "Treacherous Tides",
+                    "c122081": {
+                      "name": "Hydro Crystal Core",
+                      "desc": "<color=#FFFFFFFF>When the character to which this is attached would be defeated:</color> Remove this effect, ensure the character $[K54|s1], and heal them to 1 HP.",
+                      "child": {
+                        "k54": {
+                          "name": "<color=#FFFFFFFF>Immunity to Defeat</color>|s1:<color=#FFFFFFFF>will not be defeated</color>",
+                          "desc": "Certain effects will grant characters an <color=#FFFFFFFF>immunity to being defeated</color> when their HP hits 0, and will heal them for a certain amount thereafter.\\nWhen this occurs, characters will not be regarded as having experienced a <color=#FFFFFFFF>defeat.</color> (Hence, their attached equipment and statuses will not be removed, and their Energy will remain uncleared.)"
+                        }
+                      }
+                    },
+                    "k102": {
+                      "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
+                      "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>\uff1aDMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                    },
+                    "k3": {
+                      "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                      "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                    }
+                  }
+                }
+              }
+            },
+            "playableCharacter": null,
+            "art": null,
+            "source": "Nanoka"
+          },
+          {
             "id": "323004",
             "name": "Treasure-Seeking Seelie",
             "title": "Revelation's Potential: Treasure-Seeking Seelie",
@@ -41461,6 +42286,74 @@ var NYX_DB = {
             },
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331801-Wind and Freedom.webp",
+            "source": "Nanoka"
+          },
+          {
+            "id": "215032",
+            "name": "Wind-Swept Verse",
+            "title": "Venti, Song of the Wind",
+            "description": "\"Therefore, in principle, there are only two types of 'unrevealed' things: the Mirai of those who are not anchored by the stars, and the Mirai of those who proactively interfere with divination for some purpose. The latter is truly infuriating; I hope the little witch in the story never becomes that kind of person.\"",
+            "sourceText": null,
+            "sourceUrl": "https://gi.nanoka.cc/gcg/215032",
+            "localizedNames": {
+              "en": "Wind-Swept Verse",
+              "zh": "\u9882\u65f6\u98ce\u82e5",
+              "ja": "\u98a8\u3092\u8b83\u3048\u3066"
+            },
+            "type": "Action",
+            "cost": [
+              {
+                "cost_type": "GCG_COST_DICE_ANEMO",
+                "count": 3
+              },
+              {
+                "cost_type": "GCG_COST_INVALID"
+              }
+            ],
+            "hp": 0,
+            "tags": [
+              "Talent",
+              "Hexerei"
+            ],
+            "talent": {
+              "name": "Wind-Swept Feathers",
+              "desc": "$[K2]: When equipping to your <color=#FFFFFFFF>$[A1503]</color>, equip this card.\\nSummon <color=#FFFFFFFF>$[C115034]</color>.\\nAfter you summon <color=#FFFFFFFF>$[C115034]</color>, the attached character's $[K100] is converted to $[K105] for their next two <color=#FFFFFFFF>Normal Attacks</color> during this Round, and these attacks cost 2 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>.\\n(You must have $[A1503] in your deck to add this card to your deck.)",
+              "child": {
+                "k2": {
+                  "name": "<color=#FFFFFFFF>Fast Action</color>",
+                  "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
+                },
+                "a1503": "Wind-Swept Verse",
+                "c115034": {
+                  "name": "Stormeye",
+                  "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 2 $[K105]. Your opponent switches to: $[K7].\\n<color=#FFFFFFFF>$[K3]: 2</color>\\n\\n<color=#FFFFFFFF>After your character or Summon triggers a Swirl reaction:</color> Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)",
+                  "child": {
+                    "k105": {
+                      "name": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>",
+                      "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Swirl</color>: Deals 1 Cryo DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Swirl</color>: Deals 1 Hydro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Swirl</color>: Deals 1 Pyro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Swirl</color>: Deals 1 Electro DMG to all opposing characters except the target"
+                    },
+                    "k7": {
+                      "name": "<color=#FFFFFFFF>Character Closest to Your Current Active Character</color>",
+                      "desc": "The opposing \"character closest to your current active character\" is the opposing character whose position is closest to that of your active character.\\nIf multiple such characters exist, the one with the foremost position will be viewed as being \"closest.\""
+                    },
+                    "k3": {
+                      "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                      "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                    }
+                  }
+                },
+                "k100": {
+                  "name": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>",
+                  "desc": "Physical DMG will not apply any Elements, nor can it engage in Elemental Reactions."
+                },
+                "k105": {
+                  "name": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>",
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Swirl</color>: Deals 1 Cryo DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Swirl</color>: Deals 1 Hydro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Swirl</color>: Deals 1 Pyro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Swirl</color>: Deals 1 Electro DMG to all opposing characters except the target"
+                }
+              }
+            },
+            "playableCharacter": null,
+            "art": null,
             "source": "Nanoka"
           },
           {

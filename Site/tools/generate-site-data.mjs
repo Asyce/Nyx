@@ -849,13 +849,11 @@ function buildGenshinTcgCards() {
   const characterCards = exists(characterRel)
     ? readJson(characterRel)
       .map((card) => mapTcgCard(card, 'Character', card.playableCharacter || null))
-      .filter((card) => card.art)
     : [];
   const otherDir = path.resolve(dbDir, 'Nanoka/gi/gcg/other cards/assets');
   const otherCards = exists(otherRel)
     ? readJson(otherRel)
       .map((card) => mapTcgCard(card, 'Action', null))
-      .filter((card) => card.art)
       .sort((a, b) => a.name.localeCompare(b.name))
     : fs.existsSync(otherDir)
       ? fs.readdirSync(otherDir, { withFileTypes:true })
@@ -875,7 +873,6 @@ function buildGenshinTcgCards() {
           source:'Nanoka',
         };
         })
-        .filter((card) => card.art)
         .sort((a, b) => a.name.localeCompare(b.name))
       : [];
   const report = exists(reportRel) ? readJson(reportRel) : null;

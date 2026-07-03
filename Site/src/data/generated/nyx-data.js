@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-03T16:15:02.197Z",
+  "generatedAt": "2026-07-03T19:07:07.938Z",
   "providers": {
     "Prydwen": "2026-07-01T09:00:25.858Z",
     "Nanoka": {
@@ -334,16 +334,16 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-07-03T14:02:56.117Z",
-    "checkedAt": "2026-07-03T14:02:56.117Z",
+    "updated": "2026-07-03T19:06:46.191Z",
+    "checkedAt": "2026-07-03T19:06:46.191Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-03T14:02:56.117Z",
-          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
-          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "checkedAt": "2026-07-03T19:06:46.191Z",
+          "lastSuccessfulFetch": "2026-07-03T19:06:46.191Z",
+          "lastValidUpdate": "2026-07-03T19:06:46.191Z",
           "source": "game8"
         },
         "current": {
@@ -368,38 +368,45 @@ var NYX_DB = {
               "art": "../../Database/Prydwen/hsr/assets/characters/phainon-99688b617211.webp",
               "namecard": null,
               "rarity": 5
-            },
-            {
-              "name": "Gilgamesh",
-              "icon": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-8b85b84d2d9d.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1509.webp",
-              "iconZoom": false,
-              "art": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-7eb51f1144e6.webp",
-              "namecard": null,
-              "rarity": 5
-            },
-            {
-              "name": "Rin Tohsaka",
-              "icon": "../../Database/Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1508.webp",
-              "iconZoom": false,
-              "art": "../../Database/Prydwen/hsr/assets/characters/rin-tohsaka-ac78bcd23e3e.webp",
-              "namecard": null,
-              "rarity": 5
             }
           ],
           "subBanners": []
         },
-        "next": null,
+        "next": {
+          "phase": "4.4",
+          "start": "2026-07-14T16:00:00.000Z",
+          "end": "2026-08-25T16:00:00.000Z",
+          "characters": [
+            {
+              "name": "Sparxie",
+              "icon": "../../Database/Nanoka/hsr/assets/characters/round/1501.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1501.webp",
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/hsr/assets/characters/sparxie-234f67152306.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Evernight",
+              "icon": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1413.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1413.webp",
+              "iconZoom": false,
+              "art": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1413.webp",
+              "namecard": null,
+              "rarity": null
+            }
+          ],
+          "subBanners": []
+        },
         "upcoming": []
       },
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-03T14:02:56.117Z",
-          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
-          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "checkedAt": "2026-07-03T19:06:46.191Z",
+          "lastSuccessfulFetch": "2026-07-03T19:06:46.191Z",
+          "lastValidUpdate": "2026-07-03T19:06:46.191Z",
           "source": "game8"
         },
         "current": {
@@ -451,9 +458,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-03T14:02:56.117Z",
-          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
-          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "checkedAt": "2026-07-03T19:06:46.191Z",
+          "lastSuccessfulFetch": "2026-07-03T19:06:46.191Z",
+          "lastValidUpdate": "2026-07-03T19:06:46.191Z",
           "source": "game8"
         },
         "current": {
@@ -639,9 +646,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-03T14:02:56.117Z",
-          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
-          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "checkedAt": "2026-07-03T19:06:46.191Z",
+          "lastSuccessfulFetch": "2026-07-03T19:06:46.191Z",
+          "lastValidUpdate": "2026-07-03T19:06:46.191Z",
           "source": "game8"
         },
         "current": {
@@ -701,13 +708,29 @@ var NYX_DB = {
       "ae": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "unavailable",
-          "checkedAt": "2026-07-03T14:02:56.117Z",
-          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
-          "lastValidUpdate": null,
+          "status": "fresh",
+          "checkedAt": "2026-07-03T19:06:46.191Z",
+          "lastSuccessfulFetch": "2026-07-03T19:06:46.191Z",
+          "lastValidUpdate": "2026-07-03T19:06:46.191Z",
           "source": "game8"
         },
-        "current": null,
+        "current": {
+          "phase": "1.3 Phase 2",
+          "start": null,
+          "end": "2026-07-16T02:00:00.000Z",
+          "characters": [
+            {
+              "name": "Camille",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/camille/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/camille/splash.png",
+              "namecard": null,
+              "rarity": 6
+            }
+          ],
+          "subBanners": []
+        },
         "next": null,
         "upcoming": []
       }
@@ -4442,9 +4465,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-03T14:02:56.117Z",
-          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
-          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "checkedAt": "2026-07-03T19:06:46.191Z",
+          "lastSuccessfulFetch": "2026-07-03T19:06:46.191Z",
+          "lastValidUpdate": "2026-07-03T19:06:46.191Z",
           "source": "game8"
         },
         "current": {
@@ -21583,9 +21606,9 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-03T14:02:56.117Z",
-          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
-          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "checkedAt": "2026-07-03T19:06:46.191Z",
+          "lastSuccessfulFetch": "2026-07-03T19:06:46.191Z",
+          "lastValidUpdate": "2026-07-03T19:06:46.191Z",
           "source": "game8"
         },
         "current": {
@@ -21610,29 +21633,36 @@ var NYX_DB = {
               "art": "../../Database/Prydwen/hsr/assets/characters/phainon-99688b617211.webp",
               "namecard": null,
               "rarity": 5
-            },
-            {
-              "name": "Gilgamesh",
-              "icon": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-8b85b84d2d9d.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1509.webp",
-              "iconZoom": false,
-              "art": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-7eb51f1144e6.webp",
-              "namecard": null,
-              "rarity": 5
-            },
-            {
-              "name": "Rin Tohsaka",
-              "icon": "../../Database/Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1508.webp",
-              "iconZoom": false,
-              "art": "../../Database/Prydwen/hsr/assets/characters/rin-tohsaka-ac78bcd23e3e.webp",
-              "namecard": null,
-              "rarity": 5
             }
           ],
           "subBanners": []
         },
-        "next": null,
+        "next": {
+          "phase": "4.4",
+          "start": "2026-07-14T16:00:00.000Z",
+          "end": "2026-08-25T16:00:00.000Z",
+          "characters": [
+            {
+              "name": "Sparxie",
+              "icon": "../../Database/Nanoka/hsr/assets/characters/round/1501.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1501.webp",
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/hsr/assets/characters/sparxie-234f67152306.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Evernight",
+              "icon": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1413.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1413.webp",
+              "iconZoom": false,
+              "art": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1413.webp",
+              "namecard": null,
+              "rarity": null
+            }
+          ],
+          "subBanners": []
+        },
         "upcoming": []
       },
       "roster": [
@@ -25246,9 +25276,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-03T14:02:56.117Z",
-          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
-          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "checkedAt": "2026-07-03T19:06:46.191Z",
+          "lastSuccessfulFetch": "2026-07-03T19:06:46.191Z",
+          "lastValidUpdate": "2026-07-03T19:06:46.191Z",
           "source": "game8"
         },
         "current": {
@@ -29517,9 +29547,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-03T14:02:56.117Z",
-          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
-          "lastValidUpdate": "2026-07-03T14:02:56.117Z",
+          "checkedAt": "2026-07-03T19:06:46.191Z",
+          "lastSuccessfulFetch": "2026-07-03T19:06:46.191Z",
+          "lastValidUpdate": "2026-07-03T19:06:46.191Z",
           "source": "game8"
         },
         "current": {
@@ -33905,13 +33935,29 @@ var NYX_DB = {
       "banners": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "unavailable",
-          "checkedAt": "2026-07-03T14:02:56.117Z",
-          "lastSuccessfulFetch": "2026-07-03T14:02:56.117Z",
-          "lastValidUpdate": null,
+          "status": "fresh",
+          "checkedAt": "2026-07-03T19:06:46.191Z",
+          "lastSuccessfulFetch": "2026-07-03T19:06:46.191Z",
+          "lastValidUpdate": "2026-07-03T19:06:46.191Z",
           "source": "game8"
         },
-        "current": null,
+        "current": {
+          "phase": "1.3 Phase 2",
+          "start": null,
+          "end": "2026-07-16T02:00:00.000Z",
+          "characters": [
+            {
+              "name": "Camille",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/camille/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/camille/splash.png",
+              "namecard": null,
+              "rarity": 6
+            }
+          ],
+          "subBanners": []
+        },
         "next": null,
         "upcoming": []
       },

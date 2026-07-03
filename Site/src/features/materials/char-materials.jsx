@@ -1339,6 +1339,7 @@ function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 5
   const [error, setError] = React.useState('');
   const [library, setLibrary] = useNyxLocalImageLibrary();
   const imgRef = React.useRef(null);
+  const previewRef = React.useRef(null);
   const dragRef = React.useRef(null);
 
   const clamp = (value, min, max) => Math.max(min, Math.min(max, Number(value) || 0));
@@ -1415,12 +1416,18 @@ function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 5
     </label>
   );
 
-  const onPreviewWheel = (event) => {
-    if (!sourceUrl) return;
-    event.preventDefault();
-    const factor = event.deltaY < 0 ? 1.08 : 1 / 1.08;
-    setZoom((value) => clamp(Number(value) * factor, .1, 10));
-  };
+  React.useEffect(() => {
+    const node = previewRef.current;
+    if (!node || !sourceUrl) return undefined;
+    const onWheel = (event) => {
+      event.preventDefault();
+      const factor = event.deltaY < 0 ? 1.08 : 1 / 1.08;
+      setZoom((value) => clamp(Number(value) * factor, .1, 10));
+    };
+    node.addEventListener('wheel', onWheel, { passive:false });
+    return () => node.removeEventListener('wheel', onWheel);
+  }, [sourceUrl]);
+
 
   const onPreviewPointerDown = (event) => {
     if (!sourceUrl || event.button !== 0) return;
@@ -1454,8 +1461,7 @@ function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 5
         </label>
       </div>
       {sourceUrl && (
-        <div className="nyx-img-preview" style={{ aspectRatio:String(aspect) }}
-             onWheel={onPreviewWheel}
+        <div className="nyx-img-preview" ref={previewRef} style={{ aspectRatio:String(aspect) }}
              onPointerDown={onPreviewPointerDown}
              onPointerMove={onPreviewPointerMove}
              onPointerUp={onPreviewPointerUp}

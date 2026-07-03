@@ -403,13 +403,15 @@ function cmFrameQuantityText(value){
   return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
 }
 
+/* Design formula: shrink the count so it always fits the 208px-wide frame canvas
+   (GI digits ≈ 0.64em, dots ≈ 0.30em). The canvas is scaled as a whole, so this
+   size is in design px — no per-frame-width correction. */
 function cmFrameQuantitySize(text){
   const raw = String(text || '');
   if (!raw) return null;
-  const digits = raw.replace(/[^\d]/g, '').length || raw.length;
   const dots = (raw.match(/\./g) || []).length;
-  const designSize = Math.min(35, Math.floor(194 / (0.64 * digits + 0.30 * dots)));
-  return Math.max(9, Math.round(designSize * 0.36)) + 'px';
+  const digits = raw.length - dots;
+  return Math.min(35, Math.floor(194 / (0.64 * digits + 0.30 * dots))) + 'px';
 }
 
 function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className }){
@@ -417,34 +419,36 @@ function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className }){
   const qty = cmFrameQuantityText(quantity);
   const style = {
     ...(CM_ITEM_FRAME_STYLES[r] || CM_ITEM_FRAME_STYLES[4]),
-    '--cmf-qty-size': cmFrameQuantitySize(qty) || '18px',
+    '--cmf-qty-size': cmFrameQuantitySize(qty) || '35px',
   };
+  /* DOM order mirrors the design template exactly — art, plate, seam glows,
+     band (z2), rim strokes, eye emblem — so the paint order matches 1:1. */
   return (
     <span className={'cm-item-frame' + (qty ? ' has-qty' : '') + (className ? ' ' + className : '')} style={style} aria-hidden={!icon && !glyph}>
-      <span className="cm-item-frame-top">
-        <span className="cm-item-frame-fill">
-          <span className="cm-item-frame-glow"></span>
-          <span className="cm-item-frame-eye-soft"></span>
+      <span className="cm-item-frame-canvas">
+        <span className="cm-item-frame-art">
+          <span className="cm-item-frame-fill">
+            <span className="cm-item-frame-glow"></span>
+            <span className="cm-item-frame-eye-soft"></span>
+          </span>
+          <span className="cm-item-frame-icon">
+            {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph">{glyph}</span>}
+          </span>
         </span>
-        <span className="cm-item-frame-icon">
-          {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph">{glyph}</span>}
+        <span className="cm-item-frame-plate" aria-hidden="true"></span>
+        <span className="cm-item-frame-seam" aria-hidden="true">
+          <span></span><i></i>
         </span>
-      </span>
-      <span className="cm-item-frame-plate" aria-hidden="true"></span>
-      <span className="cm-item-frame-seam" aria-hidden="true">
-        <span></span><i></i>
-      </span>
-      <span className="cm-item-frame-band">{qty && <b>{qty}</b>}</span>
-      <svg className="cm-item-frame-rim" viewBox="0 0 208 260" preserveAspectRatio="none" aria-hidden="true">
-        <path d="M14,1 L194,1 A13,13 0 0 1 207,14 L207,259 L1,259 L1,14 A13,13 0 0 1 14,1 Z" fill="none" stroke="var(--cmf-line)" strokeWidth="2"></path>
-        <path d="M14,4 L194,4 A10,10 0 0 1 204,14 L204,208 M4,208 L4,14 A10,10 0 0 1 14,4" fill="none" stroke="var(--cmf-line)" strokeWidth="0.75" strokeOpacity="0.55"></path>
-        <path d="M1,208 L207,208" fill="none" stroke="var(--cmf-line)" strokeWidth="1.5"></path>
-      </svg>
-      <span className="cm-item-frame-mark" aria-hidden="true">
-        <svg viewBox="0 0 13 15" focusable="false">
-          <path className="fill" d="M6.5,0 Q7.6,5.4 12.6,7.5 Q7.6,9.6 6.5,15 Q5.4,9.6 0.4,7.5 Q5.4,5.4 6.5,0 Z"></path>
-          <path className="line" d="M6.5,0 Q7.6,5.4 12.6,7.5 Q7.6,9.6 6.5,15 Q5.4,9.6 0.4,7.5 Q5.4,5.4 6.5,0 Z"></path>
+        <span className="cm-item-frame-band">{qty && <b>{qty}</b>}</span>
+        <svg className="cm-item-frame-rim" viewBox="0 0 208 260" aria-hidden="true">
+          <path d="M14,1 L194,1 A13,13 0 0 1 207,14 L207,259 L1,259 L1,14 A13,13 0 0 1 14,1 Z" fill="none" stroke="var(--cmf-line)" strokeWidth="2"></path>
+          <path d="M14,4 L194,4 A10,10 0 0 1 204,14 L204,208 M4,208 L4,14 A10,10 0 0 1 14,4" fill="none" stroke="var(--cmf-line)" strokeWidth="0.75" strokeOpacity="0.55"></path>
+          <path d="M1,208 L207,208" fill="none" stroke="var(--cmf-line)" strokeWidth="1.5"></path>
         </svg>
+        <span className="cm-item-frame-emblem" aria-hidden="true">
+          <span className="fill"></span>
+          <span className="line"></span>
+        </span>
       </span>
     </span>
   );

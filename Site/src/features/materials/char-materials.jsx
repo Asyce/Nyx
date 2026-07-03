@@ -294,6 +294,162 @@ function cmRarityValue(value, fallback = 1){
   return { S:5, A:4, B:3, Normal:1, NotNormal:2, Rare:3, SuperRare:4, VeryRare:5 }[String(value || '')] || fallback;
 }
 
+const CM_ITEM_FRAME_DEFS = {
+  white:{ h:90, c:0.006, L:[0.93, 0.88, 0.83], irid:true, tier:0 },
+  grey:{ h:250, c:0.02, L:[0.44, 0.55, 0.66], tier:1 },
+  green:{ h:158, c:0.10, L:[0.45, 0.57, 0.69], tier:2 },
+  blue:{ h:257, c:0.10, L:[0.45, 0.57, 0.69], tier:3 },
+  purple:{ h:288, c:0.10, L:[0.45, 0.57, 0.69], tier:4 },
+  gold:{ h:68, c:0.10, L:[0.58, 0.70, 0.82], tier:5 },
+  red:{ h:18, c:0.115, L:[0.41, 0.52, 0.62], tier:6 },
+};
+
+function cmFrameHexToRgb(hex){
+  const h = String(hex || '#000000').replace('#', '');
+  return [parseInt(h.slice(0, 2), 16) || 0, parseInt(h.slice(2, 4), 16) || 0, parseInt(h.slice(4, 6), 16) || 0];
+}
+
+function cmFrameMix(a, b, t){
+  const A = cmFrameHexToRgb(a);
+  const B = cmFrameHexToRgb(b);
+  const f = (i) => Math.round(A[i] + (B[i] - A[i]) * t).toString(16).padStart(2, '0');
+  return '#' + f(0) + f(1) + f(2);
+}
+
+function cmFrameRgba(hex, alpha){
+  const rgb = cmFrameHexToRgb(hex);
+  return `rgba(${rgb[0]},${rgb[1]},${rgb[2]},${alpha})`;
+}
+
+function cmFrameOklch(L, C, H){
+  const rad = H * Math.PI / 180;
+  const a = C * Math.cos(rad);
+  const b = C * Math.sin(rad);
+  const l = Math.pow(L + 0.3963377774 * a + 0.2158037573 * b, 3);
+  const m = Math.pow(L - 0.1055613458 * a - 0.0638541728 * b, 3);
+  const s = Math.pow(L - 0.0894841775 * a - 1.2914855480 * b, 3);
+  const R = 4.0767416621 * l - 3.3077115913 * m + 0.2309699292 * s;
+  const G = -1.2684380046 * l + 2.6097574011 * m - 0.3413193965 * s;
+  const B = -0.0041960863 * l - 0.7034186147 * m + 1.7076147010 * s;
+  const t = (v) => {
+    const clamped = Math.min(1, Math.max(0, v));
+    return clamped <= 0.0031308 ? 12.92 * clamped : 1.055 * Math.pow(clamped, 1 / 2.4) - 0.055;
+  };
+  const q = (v) => Math.round(t(v) * 255).toString(16).padStart(2, '0');
+  return '#' + q(R) + q(G) + q(B);
+}
+
+function cmFrameGlowGradient(base, peak){
+  if (!(peak > 0)) return 'transparent';
+  const rgb = cmFrameHexToRgb(base);
+  const c = (alpha) => `rgba(${rgb[0]},${rgb[1]},${rgb[2]},${alpha})`;
+  return `radial-gradient(circle at center, ${c(peak)} 0%, ${c(peak * 0.9)} 11%, ${c(peak * 0.74)} 22%, ${c(peak * 0.55)} 33%, ${c(peak * 0.38)} 43%, ${c(peak * 0.24)} 53%, ${c(peak * 0.14)} 62%, ${c(peak * 0.07)} 71%, ${c(peak * 0.03)} 80%, ${c(peak * 0.009)} 89%, ${c(0)} 100%)`;
+}
+
+function cmBuildItemFrameStyle(def){
+  const o = (L, c) => cmFrameOklch(L, c === undefined ? def.c : c, def.h);
+  const top = o(def.L[0]);
+  const mid = o(def.L[1]);
+  const bot = o(def.L[2]);
+  const base = def.irid ? cmFrameOklch(0.89, 0.032, 265) : mid;
+  const plate = cmFrameMix(base, '#1b1f27', 0.88);
+  const P = cmFrameHexToRgb(plate);
+  const Bs = cmFrameHexToRgb(base);
+  const eyeAt = (pos) => {
+    const alpha = 0.10 + 0.25 * pos;
+    const f = (i) => Math.round(P[i] * (1 - alpha) + Bs[i] * 0.10 * (1 - pos)).toString(16).padStart(2, '0');
+    return '#' + f(0) + f(1) + f(2);
+  };
+  const line = def.irid
+    ? cmFrameOklch(0.75, 0.038, 305)
+    : o(def.lineL === undefined ? 0.74 : def.lineL, def.lineC === undefined ? Math.min(def.c, 0.085) : def.lineC);
+  const fill = def.irid
+    ? `linear-gradient(180deg, ${cmFrameOklch(0.935, 0.03, 350)} 0%, ${cmFrameOklch(0.90, 0.036, 295)} 40%, ${cmFrameOklch(0.865, 0.038, 245)} 75%, ${cmFrameOklch(0.845, 0.034, 195)} 100%)`
+    : `linear-gradient(${def.angle || 180}deg, ${top} 0%, ${mid} 52%, ${bot} 100%)`;
+  return {
+    '--cmf-fill': fill,
+    '--cmf-line': line,
+    '--cmf-plate': plate,
+    '--cmf-eye-color': def.irid ? cmFrameOklch(0.86, 0.035, 280) : o(def.eyeL === undefined ? 0.75 : def.eyeL),
+    '--cmf-eye-fill': `linear-gradient(180deg, ${eyeAt(0)} 0%, ${eyeAt(0)} 52%, ${plate} 52%, ${plate} 100%)`,
+    '--cmf-band': `linear-gradient(180deg, ${cmFrameRgba(base, 0.10)} 0%, rgba(0,0,0,0.35) 100%)`,
+    '--cmf-glow': cmFrameRgba(base, 0.55),
+    '--cmf-glow-wide': `radial-gradient(closest-side, ${cmFrameRgba(base, 0.3)} 0%, ${cmFrameRgba(base, 0)} 75%)`,
+    '--cmf-glow-grad': cmFrameGlowGradient(base, 0.45),
+  };
+}
+
+const CM_ITEM_FRAME_STYLES = {
+  0: cmBuildItemFrameStyle(CM_ITEM_FRAME_DEFS.white),
+  1: cmBuildItemFrameStyle(CM_ITEM_FRAME_DEFS.grey),
+  2: cmBuildItemFrameStyle(CM_ITEM_FRAME_DEFS.green),
+  3: cmBuildItemFrameStyle(CM_ITEM_FRAME_DEFS.blue),
+  4: cmBuildItemFrameStyle(CM_ITEM_FRAME_DEFS.purple),
+  5: cmBuildItemFrameStyle(CM_ITEM_FRAME_DEFS.gold),
+  6: cmBuildItemFrameStyle(CM_ITEM_FRAME_DEFS.red),
+};
+
+function cmItemFrameRarity(value, fallback = 4){
+  return Math.max(0, Math.min(6, cmRarityValue(value, fallback)));
+}
+
+function cmFrameQuantityText(value){
+  if (value === undefined || value === null || value === '') return '';
+  const raw = typeof value === 'string' ? value.trim() : value;
+  if (raw === '') return '';
+  const n = Number(raw);
+  if (!Number.isFinite(n)) return String(raw);
+  if (n <= 0) return '';
+  return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+}
+
+function cmFrameQuantitySize(text){
+  const raw = String(text || '');
+  if (!raw) return null;
+  const digits = raw.replace(/[^\d]/g, '').length || raw.length;
+  const dots = (raw.match(/\./g) || []).length;
+  const designSize = Math.min(35, Math.floor(194 / (0.64 * digits + 0.30 * dots)));
+  return Math.max(9, Math.round(designSize * 0.36)) + 'px';
+}
+
+function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className }){
+  const r = cmItemFrameRarity(rarity, 4);
+  const qty = cmFrameQuantityText(quantity);
+  const style = {
+    ...(CM_ITEM_FRAME_STYLES[r] || CM_ITEM_FRAME_STYLES[4]),
+    '--cmf-qty-size': cmFrameQuantitySize(qty) || '18px',
+  };
+  return (
+    <span className={'cm-item-frame' + (qty ? ' has-qty' : '') + (className ? ' ' + className : '')} style={style} aria-hidden={!icon && !glyph}>
+      <span className="cm-item-frame-top">
+        <span className="cm-item-frame-fill">
+          <span className="cm-item-frame-glow"></span>
+          <span className="cm-item-frame-eye-soft"></span>
+        </span>
+        <span className="cm-item-frame-icon">
+          {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph">{glyph}</span>}
+        </span>
+      </span>
+      <span className="cm-item-frame-plate" aria-hidden="true"></span>
+      <span className="cm-item-frame-seam" aria-hidden="true">
+        <span></span><i></i>
+      </span>
+      <span className="cm-item-frame-band">{qty && <b>{qty}</b>}</span>
+      <svg className="cm-item-frame-rim" viewBox="0 0 208 260" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M14,1 L194,1 A13,13 0 0 1 207,14 L207,259 L1,259 L1,14 A13,13 0 0 1 14,1 Z" fill="none" stroke="var(--cmf-line)" strokeWidth="2"></path>
+        <path d="M14,4 L194,4 A10,10 0 0 1 204,14 L204,208 M4,208 L4,14 A10,10 0 0 1 14,4" fill="none" stroke="var(--cmf-line)" strokeWidth="0.75" strokeOpacity="0.55"></path>
+        <path d="M1,208 L207,208" fill="none" stroke="var(--cmf-line)" strokeWidth="1.5"></path>
+      </svg>
+      <span className="cm-item-frame-mark" aria-hidden="true">
+        <svg viewBox="0 0 13 15" focusable="false">
+          <path className="fill" d="M6.5,0 Q7.6,5.4 12.6,7.5 Q7.6,9.6 6.5,15 Q5.4,9.6 0.4,7.5 Q5.4,5.4 6.5,0 Z"></path>
+          <path className="line" d="M6.5,0 Q7.6,5.4 12.6,7.5 Q7.6,9.6 6.5,15 Q5.4,9.6 0.4,7.5 Q5.4,5.4 6.5,0 Z"></path>
+        </svg>
+      </span>
+    </span>
+  );
+}
+
 function cmMergeMat(map, mat){
   if (!mat || !mat.name) return;
   const key = mat.id ? 'id:' + mat.id : 'name:' + mat.name.toLowerCase();
@@ -502,10 +658,7 @@ function MatTile({ m }){
   return (
     <div className={'cm-mat' + (m.kind === 'currency' ? ' cur' : '')} title={(m.name || 'Material') + (qty ? ' x' + qty.toLocaleString('en-US') : '') + (source ? '\n' + source : '')}
          style={{ '--rA':pal.a, '--rB':pal.b, '--rarBg':'url("../../assets/mats/rarity' + rarity + '.png")' }}>
-      <div className="ic">
-        {m.sprite ? <ZzzSpriteIcon icon={icon} sprite={m.sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph">{g}</span>}
-      </div>
-      <b className="qt">{qty ? qty.toLocaleString('en-US') : '-'}</b>
+      <CMItemFrame icon={icon} sprite={m.sprite} glyph={g} rarity={rarity} quantity={qty} />
       <span className="nm">{m.name}</span>
       <span className="src-tip" role="tooltip">
         <b>{m.name}</b>
@@ -593,14 +746,13 @@ function ZzzSpriteIcon({ icon, sprite, alt }){
   );
 }
 
-function CMToken({ name, color, glyph, icon, sprite, meta }){
+function CMToken({ name, glyph, icon, sprite, rarity, meta }){
+  const quantity = /^\s*\d[\d.,]*\s*$/.test(String(meta || '')) ? meta : null;
   return (
     <div className="cm-mtoken">
-      <span className="tk" style={{ '--tc':color || '#9a89ea' }}>
-        {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : glyph}
-      </span>
+      <CMItemFrame icon={icon} sprite={sprite} glyph={glyph} rarity={rarity} quantity={quantity} />
       <span className="lbl">{name}</span>
-      {meta && <span className="mt">{meta}</span>}
+      {meta && !quantity && <span className="mt">{meta}</span>}
     </div>
   );
 }
@@ -619,6 +771,7 @@ function cmTokens(mats, fallback){
     n:cmMatName(m),
     icon:typeof m === 'object' && m ? (m.icon || m.art) : null,
     sprite:typeof m === 'object' && m ? m.sprite : null,
+    rar:typeof m === 'object' && m ? (m.rar || m.rarity || m.rank) : null,
   })).filter((m) => cmUsefulName(m.n));
   if (list.length) return list;
   const fb = cmMatName(fallback);
@@ -1763,6 +1916,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                               color="#e3b269"
                               glyph={'\u25A4'}
                               icon={row.trio.material?.icon}
+                              rarity={row.trio.material?.rar}
                             />
                           </div>
                           <div className="cm-grid">{row.chars.map((c, i) => renderCell('talent-' + row.key, c, i))}</div>
@@ -1798,7 +1952,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                     <div className={'cm-mrow' + (cmBlockArtStyle(chars) ? ' has-bg' : '')} style={cmBlockArtStyle(chars)}>
                       <div className="cm-mtokens">
                         {mats.map((m, mi) => (
-                          <CMToken key={mi} name={m.n} color={tokenColor(g.region)} glyph={CM_GLYPHS[(gi + mi) % CM_GLYPHS.length]} icon={m.icon} sprite={m.sprite} />
+                          <CMToken key={mi} name={m.n} color={tokenColor(g.region)} glyph={CM_GLYPHS[(gi + mi) % CM_GLYPHS.length]} icon={m.icon} sprite={m.sprite} rarity={m.rar} />
                         ))}
                       </div>
                       <div className="cm-grid">{chars.map((c, i) => renderCell('mid-' + gi, c, i))}</div>
@@ -1822,7 +1976,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                       {block.drops.map((row) => (
                         <div className="cm-brow cm-weekly-row" key={row.key}>
                           <div className="cm-bmats">
-                            <CMToken name={row.drop.name} color="#e3b269" glyph={'\u2726'} icon={row.drop.icon} sprite={row.drop.sprite} />
+                            <CMToken name={row.drop.name} color="#e3b269" glyph={'\u2726'} icon={row.drop.icon} sprite={row.drop.sprite} rarity={row.drop.rar} />
                           </div>
                           <div className="cm-grid">{row.chars.map((c, i) => renderCell('weekly-' + row.key, c, i))}</div>
                         </div>
@@ -1843,7 +1997,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                     <div className="cm-bgroup-hd">{title}</div>
                     <div className="cm-brow">
                       <div className="cm-bmats">
-                        {mats.map((m, mi) => <CMToken key={mi} name={m.n} color="#e3b269" glyph={CM_GLYPHS[(gi + mi) % CM_GLYPHS.length]} icon={m.icon} sprite={m.sprite} />)}
+                        {mats.map((m, mi) => <CMToken key={mi} name={m.n} color="#e3b269" glyph={CM_GLYPHS[(gi + mi) % CM_GLYPHS.length]} icon={m.icon} sprite={m.sprite} rarity={m.rar} />)}
                       </div>
                       <div className="cm-grid">{chars.map((c, i) => renderCell('boss-' + gi, c, i))}</div>
                     </div>

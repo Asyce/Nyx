@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T14:26:00.792Z",
+  "generatedAt": "2026-07-03T14:31:23.111Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-03T14:25:44.831Z",
+      "lastSuccessfulFetch": "2026-07-03T14:31:23.111Z",
       "codes": [
         {
           "code": "EZSB8889C2BZ",
@@ -41,16 +41,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-06-22T20:55:49.647Z"
-        },
-        {
-          "code": "LCXGEA5SX65L",
-          "rewards": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "added": "2026-06-12",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-03T11:40:31.178Z"
         }
       ]
     },
@@ -61,7 +51,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-03T14:26:00.791Z",
+      "lastSuccessfulFetch": "2026-07-03T14:31:15.148Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -73,17 +63,6 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-06-13T20:18:18.521Z"
-        },
-        {
-          "code": "5S6ZHRWTDNJB",
-          "rewards": "60 stellar jade",
-          "added": "2026-07-03",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-03T09:34:35.140Z"
         },
         {
           "code": "CREATIONNYMPH",
@@ -203,7 +182,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-03T14:25:45.033Z",
+      "lastSuccessfulFetch": "2026-07-03T14:31:16.735Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -275,7 +254,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-03T14:25:45.221Z",
+      "lastSuccessfulFetch": "2026-07-03T14:31:17.536Z",
       "codes": []
     },
     {
@@ -285,28 +264,8 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-03T14:25:45.026Z",
+      "lastSuccessfulFetch": "2026-07-03T14:31:19.135Z",
       "codes": [
-        {
-          "code": "ALLFIELD",
-          "rewards": "",
-          "added": "2026-06-28",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ALLFIELD",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-03T09:34:39.140Z"
-        },
-        {
-          "code": "RETURNOFALL",
-          "rewards": "",
-          "added": "2026-06-28",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=RETURNOFALL",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-03T09:34:39.140Z"
-        },
         {
           "code": "ZAU2SYXHWX5L4ZH",
           "rewards": "5k T Creds and Ten Arms Insp Kits",

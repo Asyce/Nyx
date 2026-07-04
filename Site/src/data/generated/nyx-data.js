@@ -4,19 +4,19 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-03T23:27:55.707Z",
+  "generatedAt": "2026-07-04T01:02:30.369Z",
   "providers": {
-    "Prydwen": "2026-07-01T09:00:25.858Z",
+    "Prydwen": "2026-07-03T08:34:27.463Z",
     "Nanoka": {
       "gi": "6.7",
       "hsr": "4.3",
       "ww": "3.4",
       "zzz": "3.0"
     },
-    "EndfieldWiki": "2026-07-01T09:02:06.149Z"
+    "EndfieldWiki": "2026-07-03T08:36:35.683Z"
   },
   "codes": {
-    "updated": "2026-07-02T00:17:01.304Z",
+    "updated": "2026-07-04T00:13:28.386Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -29,23 +29,23 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-20T23:42:46.446Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
         },
         {
           "code": "EZSB8889C2BZ",
-          "reward": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
+          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
           "premium": false,
           "premiumCurrency": {
             "name": "Primogems",
             "needle": "primogem",
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-01",
+          "added": "2026-07-03",
           "firstSeen": "2026-07-01T10:04:15.046Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ"
         },
         {
@@ -72,7 +72,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-06-12",
-          "firstSeen": "2026-07-01T21:11:41.317Z",
+          "firstSeen": "2026-07-03T20:19:37.664Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L"
         }
@@ -87,7 +87,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-13T20:18:18.521Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -101,8 +101,8 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-02",
-          "firstSeen": "2026-07-01T05:47:13.705Z",
+          "added": "2026-07-04",
+          "firstSeen": "2026-07-03T14:57:13.983Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
         },
@@ -115,7 +115,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -129,7 +129,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -143,7 +143,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -157,7 +157,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -171,10 +171,52 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
+        },
+        {
+          "code": "HT3QMCJ9U4JB",
+          "reward": "100 Stellar Jade and Five Traveler S Guides",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-03",
+          "firstSeen": "2026-07-03T14:26:00.791Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=HT3QMCJ9U4JB",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=HT3QMCJ9U4JB"
+        },
+        {
+          "code": "WAK84U29VLYP",
+          "reward": "100 Stellar Jade and 50k Credits",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-03",
+          "firstSeen": "2026-07-03T14:26:00.791Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=WAK84U29VLYP",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=WAK84U29VLYP"
+        },
+        {
+          "code": "XTJ9MV38DL3X",
+          "reward": "100 Stellar Jade and Four Refined Aether",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-03",
+          "firstSeen": "2026-07-03T14:26:00.791Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=XTJ9MV38DL3X",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=XTJ9MV38DL3X"
         },
         {
           "code": "BladeFitCheck",
@@ -201,7 +243,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-20T23:42:44.037Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -272,7 +314,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
           "added": "2026-06-06",
-          "firstSeen": "2026-06-25T15:11:40.186Z",
+          "firstSeen": "2026-07-02T11:40:20.504Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=BEYONDTHECLOUDS",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=BEYONDTHECLOUDS"
         }
@@ -292,7 +334,7 @@ var NYX_DB = {
             "icon": null
           },
           "added": "2026-05-05",
-          "firstSeen": "2026-06-27T02:44:42.442Z",
+          "firstSeen": "2026-07-02T09:31:27.765Z",
           "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
           "redeemUrl": null
         },
@@ -309,7 +351,7 @@ var NYX_DB = {
             "icon": null
           },
           "added": "2026-05-03",
-          "firstSeen": "2026-06-27T02:44:42.442Z",
+          "firstSeen": "2026-07-02T09:31:27.765Z",
           "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
           "redeemUrl": null
         },
@@ -326,7 +368,7 @@ var NYX_DB = {
             "icon": null
           },
           "added": "2026-05-03",
-          "firstSeen": "2026-06-27T02:44:42.442Z",
+          "firstSeen": "2026-07-02T09:31:27.765Z",
           "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
           "redeemUrl": null
         }
@@ -4413,23 +4455,23 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-20T23:42:46.446Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
         },
         {
           "code": "EZSB8889C2BZ",
-          "reward": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
+          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
           "premium": false,
           "premiumCurrency": {
             "name": "Primogems",
             "needle": "primogem",
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-01",
+          "added": "2026-07-03",
           "firstSeen": "2026-07-01T10:04:15.046Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ"
         },
         {
@@ -4456,7 +4498,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-06-12",
-          "firstSeen": "2026-07-01T21:11:41.317Z",
+          "firstSeen": "2026-07-03T20:19:37.664Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L"
         }
@@ -47928,7 +47970,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-13T20:18:18.521Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -47942,8 +47984,8 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-02",
-          "firstSeen": "2026-07-01T05:47:13.705Z",
+          "added": "2026-07-04",
+          "firstSeen": "2026-07-03T14:57:13.983Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
         },
@@ -47956,7 +47998,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -47970,7 +48012,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -47984,7 +48026,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -47998,7 +48040,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -48012,10 +48054,52 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
+        },
+        {
+          "code": "HT3QMCJ9U4JB",
+          "reward": "100 Stellar Jade and Five Traveler S Guides",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-03",
+          "firstSeen": "2026-07-03T14:26:00.791Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=HT3QMCJ9U4JB",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=HT3QMCJ9U4JB"
+        },
+        {
+          "code": "WAK84U29VLYP",
+          "reward": "100 Stellar Jade and 50k Credits",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-03",
+          "firstSeen": "2026-07-03T14:26:00.791Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=WAK84U29VLYP",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=WAK84U29VLYP"
+        },
+        {
+          "code": "XTJ9MV38DL3X",
+          "reward": "100 Stellar Jade and Four Refined Aether",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-03",
+          "firstSeen": "2026-07-03T14:26:00.791Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=XTJ9MV38DL3X",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=XTJ9MV38DL3X"
         },
         {
           "code": "BladeFitCheck",
@@ -51626,7 +51710,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-02",
+          "added": "2026-07-04",
           "firstSeen": "2026-06-20T23:42:44.037Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -51697,7 +51781,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
           "added": "2026-06-06",
-          "firstSeen": "2026-06-25T15:11:40.186Z",
+          "firstSeen": "2026-07-02T11:40:20.504Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=BEYONDTHECLOUDS",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=BEYONDTHECLOUDS"
         }
@@ -60323,7 +60407,7 @@ var NYX_DB = {
             "icon": null
           },
           "added": "2026-05-05",
-          "firstSeen": "2026-06-27T02:44:42.442Z",
+          "firstSeen": "2026-07-02T09:31:27.765Z",
           "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
           "redeemUrl": null
         },
@@ -60340,7 +60424,7 @@ var NYX_DB = {
             "icon": null
           },
           "added": "2026-05-03",
-          "firstSeen": "2026-06-27T02:44:42.442Z",
+          "firstSeen": "2026-07-02T09:31:27.765Z",
           "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
           "redeemUrl": null
         },
@@ -60357,7 +60441,7 @@ var NYX_DB = {
             "icon": null
           },
           "added": "2026-05-03",
-          "firstSeen": "2026-06-27T02:44:42.442Z",
+          "firstSeen": "2026-07-02T09:31:27.765Z",
           "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
           "redeemUrl": null
         }

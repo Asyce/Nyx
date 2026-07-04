@@ -2188,7 +2188,6 @@
         {
           "id": "ww-rover-electro",
           "n": "Rover",
-          "title": "Veil of Shadows",
           "slug": "rover-electro",
           "updated": 1782511200000,
           "sourceOrder": 0,

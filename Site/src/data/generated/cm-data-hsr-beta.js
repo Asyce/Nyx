@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["hsr"] = {
-  "version": "4.3.55",
+  "version": "4.3.56",
   "liveVersion": "4.3",
   "newCount": 0,
   "changedCount": 15,

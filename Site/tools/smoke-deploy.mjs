@@ -18,6 +18,14 @@ const routeFiles = new Map([
   ['/wuwa', 'wuwa.html'],
   ['/endfield', 'endfield.html'],
 ]);
+const routePrefixes = [
+  ['/nyx/', 'nyx.html'],
+  ['/genshin/', 'genshin.html'],
+  ['/hsr/', 'hsr.html'],
+  ['/zzz/', 'zzz.html'],
+  ['/wuwa/', 'wuwa.html'],
+  ['/endfield/', 'endfield.html'],
+];
 
 const contentTypes = {
   '.css': 'text/css; charset=utf-8',
@@ -33,7 +41,7 @@ const contentTypes = {
 
 function deployPath(urlPath) {
   const pathname = decodeURIComponent(urlPath.split('?')[0] || '/');
-  const routeFile = routeFiles.get(pathname);
+  const routeFile = routeFiles.get(pathname) || (routePrefixes.find(([prefix]) => pathname.startsWith(prefix)) || [])[1];
   const rel = routeFile || pathname.replace(/^\/+/, '');
   const candidate = path.resolve(deployDir, rel);
   if (!candidate.startsWith(deployDir)) return null;
@@ -114,6 +122,11 @@ async function main() {
       ['/zzz', 'Zenless Zone Zero'],
       ['/wuwa', 'Wuthering Waves'],
       ['/endfield', 'Arknights: Endfield'],
+      ['/nyx/codes', 'Nyx'],
+      ['/genshin/materials', 'Genshin Impact'],
+      ['/genshin/serenitea-pot', 'Genshin Impact'],
+      ['/genshin/characters/skirk', 'Genshin Impact'],
+      ['/hsr/characters/castorice', 'Honkai: Star Rail'],
       ['/sitemap.xml', '<urlset'],
       ['/version.json', '"app": "pengo-nyx"', 50],
     ]) {
@@ -149,6 +162,7 @@ async function main() {
   await assertNotExists('dist/vendor');
   for (const page of gamePages) {
     const html = await readDeployText(page);
+    if (!html.includes('<base href="/"/>')) throw new Error(`${page} missing root base href for nested routes`);
     if (html.includes('dist/vendor/react')) throw new Error(`${page} still references old React vendor scripts`);
   }
   if (!version.commit || !version.shortCommit) throw new Error('version.json is missing commit metadata');

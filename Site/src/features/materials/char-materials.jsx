@@ -316,6 +316,16 @@ function nyxMatchesSearch(name, rawName, q, extra){
 
 Object.assign(window, { NYX_SEARCH_ALIASES, nyxMatchesSearch });
 
+function cmRouteSlug(value){
+  return String(value || '')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 // per-game material schedule buckets (drives the click-through popup)
 const CM_MATS = {
   gi:   { gem:'Brilliant Gemstone', boss:'Boss Trophy', specialty:'Local Specialty',
@@ -1925,7 +1935,7 @@ function cmMergeBetaCfg(liveCfg, betaPack){
   return { ...liveCfg, roster: merged, __betaActive:true };
 }
 
-function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, pageTab, onPageTab, sections, customizeOnly, onCustomizeCharacter, onBackCustomize, onSelectedClose }){
+function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, pageTab, onPageTab, sections, customizeOnly, onCustomizeCharacter, onBackCustomize, onSelectedClose, onSelectCharacter }){
   const [gk, setGk] = React.useState(game || 'gi');
   const [channel, setChannel] = React.useState(() => cmLoadChannel(game || 'gi'));
   const [dataTick, setDataTick] = React.useState(0);
@@ -1956,6 +1966,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const [activeGender, setActiveGender] = React.useState(null);
   const [activeArtIndex, setActiveArtIndex] = React.useState(0);
   const [artCycle, setArtCycle] = React.useState({});
+  const artCycleRef = React.useRef({});
   const [weaponPickByChar, setWeaponPickByChar] = React.useState({});
   const [weaponPickerOpen, setWeaponPickerOpen] = React.useState(false);
   const [weaponSearch, setWeaponSearch] = React.useState('');
@@ -1980,17 +1991,24 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     setSel(null);
   }, [gk]);
 
-  const openCharacter = React.useCallback((ch) => {
+  React.useEffect(() => {
+    artCycleRef.current = artCycle;
+  }, [artCycle]);
+
+  const openCharacter = React.useCallback((ch, opts) => {
     if (!ch) return;
     const key = cmHiddenKey(ch);
     const pool = cmSpecialArtPool(gk, ch);
-    const idx = pool.length > 1 ? (artCycle[key] || 0) : 0;
+    const idx = pool.length > 1 ? (artCycleRef.current[key] || 0) : 0;
     setActiveArtIndex(idx);
     setSel(ch);
+    if (onSelectCharacter && !(opts && opts.silent)) onSelectCharacter(ch);
     if (pool.length > 1) {
-      setArtCycle((prev) => ({ ...prev, [key]: (idx + 1) % pool.length }));
+      const nextIdx = (idx + 1) % pool.length;
+      artCycleRef.current = { ...artCycleRef.current, [key]:nextIdx };
+      setArtCycle((prev) => ({ ...prev, [key]:nextIdx }));
     }
-  }, [artCycle, gk]);
+  }, [gk, onSelectCharacter]);
 
   React.useEffect(() => {
     const onIdentity = (event) => {
@@ -2075,7 +2093,12 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
       return;
     }
     const wanted = String(selectedName || '').toLowerCase();
-    const form = (sel.forms || []).find((row) => String(row.rawName || row.n || '').toLowerCase() === wanted);
+    const wantedSlug = cmRouteSlug(selectedName);
+    const matchesSelected = (value) => {
+      const raw = String(value || '');
+      return raw.toLowerCase() === wanted || cmRouteSlug(raw) === wantedSlug;
+    };
+    const form = (sel.forms || []).find((row) => matchesSelected(row.rawName || row.n));
     setActiveVariant(form?.variantKey || null);
     setActiveGender(form?.gender || null);
   }, [sel && sel.id, selectedName]);
@@ -2092,19 +2115,24 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
       .map((ch) => cmApplyLanguageDisplay(activeGame, ch, languagePrefs))
       .map((ch) => nyxApplyCharacterCustomImages(activeGame, ch, characterImagePrefs));
     const wanted = String(selectedName).toLowerCase();
+    const wantedSlug = cmRouteSlug(selectedName);
+    const matchesSelected = (value) => {
+      const raw = String(value || '');
+      return raw.toLowerCase() === wanted || cmRouteSlug(raw) === wantedSlug;
+    };
     const found = nextRoster.find((ch) => (
-      String(ch.n || '').toLowerCase() === wanted
-      || (ch.forms || []).some((form) => String(form.rawName || form.n || '').toLowerCase() === wanted)
+      [ch.n, ch.rawName, ch.baseName, ...(ch.aliases || [])].some(matchesSelected)
+      || (ch.forms || []).some((form) => [form.rawName, form.n, form.label].some(matchesSelected))
     ));
     if (found) {
-      const form = (found.forms || []).find((row) => String(row.rawName || row.n || '').toLowerCase() === wanted);
-      openCharacter(found);
+      const form = (found.forms || []).find((row) => [row.rawName, row.n, row.label].some(matchesSelected));
+      openCharacter(found, { silent:true });
       if (form) {
         setActiveVariant(form.variantKey || null);
         setActiveGender(form.gender || null);
       }
     }
-  }, [selectedName, game, gk, dataTick, identityPrefs, unitPrefs, languagePrefs, characterImagePrefs]);
+  }, [selectedName, game, gk, dataTick, identityPrefs, unitPrefs, languagePrefs, characterImagePrefs, openCharacter]);
   React.useEffect(() => {
     if (!(open || inline) || customizeOnly || sel) return undefined;
     const onKey = (event) => {
@@ -2491,7 +2519,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
         <div className="cm-controls">
           <div className="cm-tabs">
             {tabs.map(t => (
-              <button type="button" key={t.k} className={curTab === t.k ? 'on' : ''} onClick={() => { setTab(t.k); setSel(null); }}>{t.label}</button>
+              <button type="button" key={t.k} className={curTab === t.k ? 'on' : ''} onClick={() => { setTab(t.k); setSel(null); if (onSelectedClose) onSelectedClose(); }}>{t.label}</button>
             ))}
           </div>
           <div className="cm-tools">

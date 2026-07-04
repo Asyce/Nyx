@@ -1037,6 +1037,7 @@
         "ja": "\u59eb\u5b50\u30fb\u65c5\u7acb\u3061",
         "ko": "\ud788\uba54\ucf54\u2022\ub178\ubc14"
       },
+      "title": "Ad Astra Nova",
       "slug": "himeko-nova",
       "updated": 1782252000000,
       "sourceOrder": 0,
@@ -4012,6 +4013,7 @@
         "ja": "\u30ae\u30eb\u30ac\u30e1\u30c3\u30b7\u30e5",
         "ko": "\uae38\uac00\uba54\uc2dc"
       },
+      "title": "I Am As You Behold",
       "slug": "gilgamesh",
       "release": 1784851200000,
       "releasePatch": "4.2",
@@ -12082,6 +12084,7 @@
         "ja": "\u9060\u5742\u51db",
         "ko": "\ud1a0\uc624\uc0ac\uce74 \ub9b0"
       },
+      "title": "The Gem Coursing in Red",
       "slug": "rin-tohsaka",
       "release": 1784851200000,
       "releasePatch": "4.2",

@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["wuwa"] = {
-  "version": "3.5.5",
+  "version": "3.5.6",
   "liveVersion": "3.4",
   "newCount": 0,
   "changedCount": 12,
@@ -208,17 +208,19 @@
             ]
           },
           {
-            "id": "41400304",
-            "name": "We Who Question",
+            "id": "41400324",
+            "name": "Skyward Glazed Heart",
             "qty": 26,
             "rar": 4,
             "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
-            "source": "Denia / Denia - Early Access",
+            "source": "AccessPath_237000_Description / AccessPath_237001_Description",
             "sourceDetails": [
               {
-                "name": "Denia",
-                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34028_UI.webp"
+                "name": "AccessPath_237000_Description"
+              },
+              {
+                "name": "AccessPath_237001_Description"
               }
             ]
           },

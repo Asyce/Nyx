@@ -10856,6 +10856,7 @@
       "localizedNames": {
         "en": "Himeko Nova"
       },
+      "title": "Ad Astra Nova",
       "slug": "himeko-nova",
       "updated": 1782252000000,
       "sourceOrder": 0,
@@ -12918,6 +12919,7 @@
       "localizedNames": {
         "en": "Gilgamesh"
       },
+      "title": "I Am As You Behold",
       "slug": "gilgamesh",
       "release": 1784851200000,
       "releasePatch": "4.2",
@@ -17030,7 +17032,7 @@
         "ja": "\u30a2\u30fc\u30c1\u30e3\u30fc",
         "ko": "\uc544\ucc98"
       },
-      "title": "I Am the Bone of My Sword",
+      "title": "The Hell Where Ideals Burn",
       "slug": "archer",
       "release": 1752224400000,
       "releasePatch": "3.4",
@@ -51790,6 +51792,7 @@
       "localizedNames": {
         "en": "Rin Tohsaka"
       },
+      "title": "The Gem Coursing in Red",
       "slug": "rin-tohsaka",
       "release": 1784851200000,
       "releasePatch": "4.2",

@@ -11,3 +11,12 @@
 /arknights-endfield    /endfield   301
 /arknights-endfield.html /endfield 301
 /index.html            /           301
+
+# SPA detail/page routes. Serve the same game shell and let the React router
+# open the selected tab or character from the visible URL.
+/nyx/*                 /nyx        200
+/genshin/*             /genshin    200
+/hsr/*                 /hsr        200
+/zzz/*                 /zzz        200
+/wuwa/*                /wuwa       200
+/endfield/*            /endfield   200

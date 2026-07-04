@@ -251,6 +251,21 @@ function rarityNumber(value, fallback = 1) {
   return QUALITY_RARITY[String(value || '')] || fallback;
 }
 
+// The material frame paints a rarity number straight onto its colour tier
+// (1 grey, 2 green, 3 blue, 4 purple, 5 gold). GI/HSR/WuWa rank items on that
+// same 1-5 star scale, so their numbers map 1:1. ZZZ does NOT — it uses a B/A/S
+// rank enum (rarity 2/3/4 = blue/purple/gold, verified against agents: A-rank
+// Anby = 3, S-rank Ellen = 4). Feeding the raw enum to the frame paints every
+// ZZZ item a tier too low (S-rank boss mats show purple, not gold) and wrongly
+// uses green — a colour ZZZ never has. Remap the ZZZ enum onto the shared tier
+// scale: 1->grey, B(2)->blue, A(3)->purple, S(4)->gold, and clamp 5 to gold.
+const ZZZ_RARITY_TIER = { 0: 0, 1: 1, 2: 3, 3: 4, 4: 5, 5: 5 };
+function materialDisplayRarity(game, value, fallback = 1) {
+  const n = rarityNumber(value, fallback);
+  if (game !== 'zzz') return n;
+  return ZZZ_RARITY_TIER[n] ?? Math.min(5, Math.max(1, n));
+}
+
 const GENERIC_SOURCE_RE = /placeholder|craftable amount|crafting bench|crafting table|stardust|starglitter|embers exchange|starlight exchange|omni-synthesizer|synthesis|conversion|item exchange|weapon shop|souvenir shop|gift shop|supply pack|quest rewards?|mission rewards?|assignment rewards?|level rewards?|limited-time event|battle pass|nameless honor|daily training|shop\b/i;
 const MONSTER_SOURCE_CACHE = new Map();
 
@@ -1899,14 +1914,14 @@ function sumNanokaMaterialPairs(game, pairs, kindForId, currencyId) {
       id,
       name,
       qty: 0,
-      rar: rarityNumber(item?.rarity, 1),
+      rar: materialDisplayRarity(game, item?.rarity, 1),
       kind,
       icon,
       ...(sprite ? { sprite } : {}),
       ...materialSourceFields(game, item, id),
     };
     cur.qty += qty;
-    cur.rar = Math.max(cur.rar, rarityNumber(item?.rarity, 1));
+    cur.rar = Math.max(cur.rar, materialDisplayRarity(game, item?.rarity, 1));
     if (!cur.icon) cur.icon = icon;
     if (!cur.sprite && sprite) cur.sprite = sprite;
     if (!cur.source) cur.source = sourceSummary(item, null, game, id) || undefined;

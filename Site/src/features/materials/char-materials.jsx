@@ -760,6 +760,84 @@ function MatTile({ m }){
   );
 }
 
+// ZZZ boss / weekly materials ship as sprite-sheet atlases: a grid of animation
+// frames separated by transparent gutters. The frame size is NOT fixed across
+// sheets (and no sheet actually matches the old 256px / 8x8 assumption), so a
+// hardcoded stride reads misaligned chunks and the icon just churns garbage.
+// Instead, detect the grid from the art itself — find the solid column/row bands
+// between the transparent gutters, then keep every cell that actually holds a
+// frame (this drops the blank tail of a partial final row and any empty rows).
+// Detection runs on a downscaled copy for speed, with boxes scaled back to
+// source pixels, and is cached per sprite URL (the same mat renders in several
+// places). Returns an array of {x,y,w,h} source rects, or null for a plain
+// single-image icon that should just render statically.
+const CM_SPRITE_FRAME_CACHE = new Map();
+
+function cmDetectSpriteFrames(img){
+  const nw = img.naturalWidth, nh = img.naturalHeight;
+  if (!nw || !nh) return null;
+  const scale = Math.min(1, 1024 / Math.max(nw, nh));
+  const w = Math.max(1, Math.round(nw * scale));
+  const h = Math.max(1, Math.round(nh * scale));
+  let data;
+  try {
+    const cvs = document.createElement('canvas');
+    cvs.width = w;
+    cvs.height = h;
+    const ctx = cvs.getContext('2d', { willReadFrequently: true });
+    ctx.drawImage(img, 0, 0, w, h);
+    data = ctx.getImageData(0, 0, w, h).data;
+  } catch (e) {
+    return null; // unreadable/tainted -> caller falls back to the static icon
+  }
+  // A column/row is "solid" if any pixel in it is opaque; gutters read as blank.
+  const colSolid = new Uint8Array(w);
+  const rowSolid = new Uint8Array(h);
+  for (let y = 0; y < h; y += 1) {
+    const off = y * w * 4;
+    for (let x = 0; x < w; x += 1) {
+      if (data[off + x * 4 + 3] > 16) { colSolid[x] = 1; rowSolid[y] = 1; }
+    }
+  }
+  const bands = (solid, n) => {
+    const out = [];
+    let start = -1;
+    for (let i = 0; i < n; i += 1) {
+      if (solid[i]) { if (start < 0) start = i; }
+      else if (start >= 0) { out.push([start, i - 1]); start = -1; }
+    }
+    if (start >= 0) out.push([start, n - 1]);
+    return out;
+  };
+  const cols = bands(colSolid, w);
+  const rows = bands(rowSolid, h);
+  if (cols.length < 2 && rows.length < 2) return null; // one image, not a sheet
+  const inv = 1 / scale;
+  const frames = [];
+  for (let r = 0; r < rows.length; r += 1) {
+    const ry0 = rows[r][0], ry1 = rows[r][1];
+    for (let c = 0; c < cols.length; c += 1) {
+      const cx0 = cols[c][0], cx1 = cols[c][1];
+      let has = false;
+      for (let y = ry0; y <= ry1 && !has; y += 1) {
+        const off = y * w * 4;
+        for (let x = cx0; x <= cx1; x += 1) {
+          if (data[off + x * 4 + 3] > 16) { has = true; break; }
+        }
+      }
+      if (has) {
+        frames.push({
+          x: Math.round(cx0 * inv),
+          y: Math.round(ry0 * inv),
+          w: Math.round((cx1 - cx0 + 1) * inv),
+          h: Math.round((ry1 - ry0 + 1) * inv),
+        });
+      }
+    }
+  }
+  return frames.length >= 2 ? frames : null;
+}
+
 /* a small material token used in the Talents / Boss columns */
 function ZzzSpriteIcon({ icon, sprite, alt }){
   const canvasRef = React.useRef(null);
@@ -772,40 +850,45 @@ function ZzzSpriteIcon({ icon, sprite, alt }){
     let cancelled = false;
     const img = new Image();
     img.decoding = 'async';
-    img.onload = () => {
+
+    const play = (frames) => {
       if (cancelled) return;
-      const frame = 256;
-      const cols = Math.floor(img.naturalWidth / frame);
-      const rows = Math.floor(img.naturalHeight / frame);
-      const available = cols * rows;
-      const big = img.naturalWidth === 4096 && img.naturalHeight === 2048;
-      const small = img.naturalWidth === 2048 && img.naturalHeight === 2048;
-      if (!cols || !rows || img.naturalWidth < 1000 || (!big && !small)) {
-        setAnimated(false);
-        return;
-      }
-      const frameCount = Math.min(big ? 120 : 60, available);
-      const frameMs = big ? 25 : 50;
-      const pingPong = /ExBigBoss010/i.test(sprite);
+      if (!frames || frames.length < 2) { setAnimated(false); return; }
       const ctx = canvas.getContext('2d');
-      canvas.width = frame;
-      canvas.height = frame;
+      if (!ctx) { setAnimated(false); return; }
+      const SIZE = 256;                 // square backing store; CSS contains it
+      const frameMs = 33;               // ~30fps, matches the in-game loop tempo
+      const pingPong = /ExBigBoss010/i.test(sprite);
+      const span = Math.max(frames.length * 2 - 2, 1);
+      canvas.width = SIZE;
+      canvas.height = SIZE;
       setAnimated(true);
       const draw = (time) => {
-        if (cancelled || !ctx) return;
-        let index = Math.floor(time / frameMs) % frameCount;
+        if (cancelled) return;
+        let index = Math.floor(time / frameMs) % frames.length;
         if (pingPong) {
-          const span = frameCount * 2 - 2;
-          const pos = Math.floor(time / frameMs) % Math.max(span, 1);
-          index = pos >= frameCount ? span - pos : pos;
+          const pos = Math.floor(time / frameMs) % span;
+          index = pos >= frames.length ? span - pos : pos;
         }
-        const sx = (index % cols) * frame;
-        const sy = Math.floor(index / cols) * frame;
-        ctx.clearRect(0, 0, frame, frame);
-        ctx.drawImage(img, sx, sy, frame, frame, 0, 0, frame, frame);
+        const fr = frames[index];
+        // Fit each frame into the square canvas preserving its aspect ratio.
+        const s = Math.min(SIZE / fr.w, SIZE / fr.h);
+        const dw = fr.w * s, dh = fr.h * s;
+        ctx.clearRect(0, 0, SIZE, SIZE);
+        ctx.drawImage(img, fr.x, fr.y, fr.w, fr.h, (SIZE - dw) / 2, (SIZE - dh) / 2, dw, dh);
         raf = requestAnimationFrame(draw);
       };
       raf = requestAnimationFrame(draw);
+    };
+
+    img.onload = () => {
+      if (cancelled) return;
+      let frames = CM_SPRITE_FRAME_CACHE.get(sprite);
+      if (frames === undefined) {
+        frames = cmDetectSpriteFrames(img);
+        CM_SPRITE_FRAME_CACHE.set(sprite, frames);
+      }
+      play(frames);
     };
     img.onerror = () => setAnimated(false);
     img.src = sprite;

@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { fetchTextWithFallback } from './lib/html-fetch.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..', '..');
@@ -26,22 +27,11 @@ function ensureDir(dir) {
 }
 
 async function fetchText(url, retries = 3) {
-  let lastError = null;
-  for (let attempt = 1; attempt <= retries; attempt += 1) {
-    try {
-      const response = await fetch(url, {
-        redirect: 'follow',
-        headers: { 'user-agent': 'Mozilla/5.0 Nyx scraper' },
-        signal: AbortSignal.timeout(fetchTimeoutMs),
-      });
-      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
-      return await response.text();
-    } catch (error) {
-      lastError = error;
-      if (attempt < retries) await new Promise((resolve) => setTimeout(resolve, 350 * attempt));
-    }
-  }
-  throw new Error(`Failed to fetch ${url}: ${lastError?.message || lastError}`);
+  return fetchTextWithFallback(url, {
+    retries,
+    timeoutMs: fetchTimeoutMs,
+    userAgent: 'Mozilla/5.0 Nyx scraper',
+  });
 }
 
 async function fetchJson(url, { optional = false, retries = 3 } = {}) {

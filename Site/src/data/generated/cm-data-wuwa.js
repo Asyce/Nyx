@@ -65,6 +65,15679 @@
       ]
     }
   ],
+  "weapons": [
+    {
+      "id": "21010026",
+      "name": "Ages of Harvest",
+      "rarity": 5,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010026_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010026_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21010056",
+      "name": "Kumokiri",
+      "rarity": 5,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010056_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010056_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21010015",
+      "name": "Lustrous Razor",
+      "rarity": 5,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010015_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010015_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "80080007",
+      "name": "Projection - Peach Blossom",
+      "rarity": 5,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010017_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010017_UI.webp",
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "21010045",
+      "name": "Radiance Cleaver",
+      "rarity": 5,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21010045_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21010045_UI.webp",
+      "items": [
+        {
+          "id": "41100081",
+          "name": "Fractured Exoswarm Pendant",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100082",
+          "name": "Worn Exoswarm Pendant",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100083",
+          "name": "Chipped Exoswarm Pendant",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "41100084",
+          "name": "Intact Exoswarm Pendant",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "43021041",
+          "name": "LF Carved Crystal",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
+          "source": "Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021042",
+          "name": "MF Carved Crystal",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
+          "source": "Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021043",
+          "name": "HF Carved Crystal",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
+          "source": "Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021044",
+          "name": "FF Carved Crystal",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
+          "source": "Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21010066",
+      "name": "Starfield Calibrator",
+      "rarity": 5,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010066_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010066_UI.webp",
+      "items": [
+        {
+          "id": "41100081",
+          "name": "Fractured Exoswarm Pendant",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100082",
+          "name": "Worn Exoswarm Pendant",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100083",
+          "name": "Chipped Exoswarm Pendant",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "41100084",
+          "name": "Intact Exoswarm Pendant",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "43021041",
+          "name": "LF Carved Crystal",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
+          "source": "Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021042",
+          "name": "MF Carved Crystal",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
+          "source": "Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021043",
+          "name": "HF Carved Crystal",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
+          "source": "Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021044",
+          "name": "FF Carved Crystal",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
+          "source": "Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21010046",
+      "name": "Thunderflare Dominion",
+      "rarity": 5,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010046_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010046_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21010016",
+      "name": "Verdant Summit",
+      "rarity": 5,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010016_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010016_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21010036",
+      "name": "Wildfire Mark",
+      "rarity": 5,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010036_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010036_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21040015",
+      "name": "Abyss Surges",
+      "rarity": 5,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040015_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040015_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21040036",
+      "name": "Blazing Justice",
+      "rarity": 5,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040019_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040019_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21040056",
+      "name": "Daybreaker's Spine",
+      "rarity": 5,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21040056_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21040056_UI.webp",
+      "items": [
+        {
+          "id": "41100071",
+          "name": "LF Mech Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100072",
+          "name": "MF Mech Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100073",
+          "name": "HF Mech Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "41100074",
+          "name": "FF Mech Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "43021051",
+          "name": "LF Waveworn Shard",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
+          "source": "Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021052",
+          "name": "MF Waveworn Shard",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
+          "source": "Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021053",
+          "name": "HF Waveworn Shard",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
+          "source": "Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021054",
+          "name": "FF Waveworn Shard",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
+          "source": "Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21040046",
+      "name": "Moongazer's Sigil",
+      "rarity": 5,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040046_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040046_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21040045",
+      "name": "Pulsation Bracer",
+      "rarity": 5,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21040045_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21040045_UI.webp",
+      "items": [
+        {
+          "id": "41100071",
+          "name": "LF Mech Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100072",
+          "name": "MF Mech Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100073",
+          "name": "HF Mech Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "41100074",
+          "name": "FF Mech Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "43021051",
+          "name": "LF Waveworn Shard",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
+          "source": "Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021052",
+          "name": "MF Waveworn Shard",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
+          "source": "Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021053",
+          "name": "HF Waveworn Shard",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
+          "source": "Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021054",
+          "name": "FF Waveworn Shard",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
+          "source": "Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21040066",
+      "name": "Solsworn Ciphers",
+      "rarity": 5,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040066_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040066_UI.webp",
+      "items": [
+        {
+          "id": "41100071",
+          "name": "LF Mech Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100072",
+          "name": "MF Mech Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100073",
+          "name": "HF Mech Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "41100074",
+          "name": "FF Mech Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "43021051",
+          "name": "LF Waveworn Shard",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
+          "source": "Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021052",
+          "name": "MF Waveworn Shard",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
+          "source": "Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021053",
+          "name": "HF Waveworn Shard",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
+          "source": "Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021054",
+          "name": "FF Waveworn Shard",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
+          "source": "Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21040026",
+      "name": "Tragicomedy",
+      "rarity": 5,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040018_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040018_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21040016",
+      "name": "Verity's Handle",
+      "rarity": 5,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040016_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040016_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21030036",
+      "name": "Lux & Umbra",
+      "rarity": 5,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030036_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030036_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21030045",
+      "name": "Phasic Homogenizer",
+      "rarity": 5,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21030045_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21030045_UI.webp",
+      "items": [
+        {
+          "id": "41100081",
+          "name": "Fractured Exoswarm Pendant",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100082",
+          "name": "Worn Exoswarm Pendant",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100083",
+          "name": "Chipped Exoswarm Pendant",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "41100084",
+          "name": "Intact Exoswarm Pendant",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "43021021",
+          "name": "Incomplete Combustor",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021022",
+          "name": "Aftertune Combustor",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021023",
+          "name": "Remnant Combustor",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021024",
+          "name": "Reverb Combustor",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21030066",
+      "name": "Skull Thrasher",
+      "rarity": 5,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030066_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030066_UI.webp",
+      "items": [
+        {
+          "id": "41100081",
+          "name": "Fractured Exoswarm Pendant",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100082",
+          "name": "Worn Exoswarm Pendant",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100083",
+          "name": "Chipped Exoswarm Pendant",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "41100084",
+          "name": "Intact Exoswarm Pendant",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "43021021",
+          "name": "Incomplete Combustor",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021022",
+          "name": "Aftertune Combustor",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021023",
+          "name": "Remnant Combustor",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021024",
+          "name": "Reverb Combustor",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21030056",
+      "name": "Spectral Trigger",
+      "rarity": 5,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030056_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030056_UI.webp",
+      "items": [
+        {
+          "id": "41100081",
+          "name": "Fractured Exoswarm Pendant",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100082",
+          "name": "Worn Exoswarm Pendant",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100083",
+          "name": "Chipped Exoswarm Pendant",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "41100084",
+          "name": "Intact Exoswarm Pendant",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "43021021",
+          "name": "Incomplete Combustor",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021022",
+          "name": "Aftertune Combustor",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021023",
+          "name": "Remnant Combustor",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021024",
+          "name": "Reverb Combustor",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21030046",
+      "name": "Spectrum Blaster",
+      "rarity": 5,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030046_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030046_UI.webp",
+      "items": [
+        {
+          "id": "41100081",
+          "name": "Fractured Exoswarm Pendant",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100082",
+          "name": "Worn Exoswarm Pendant",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100083",
+          "name": "Chipped Exoswarm Pendant",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "41100084",
+          "name": "Intact Exoswarm Pendant",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "43021021",
+          "name": "Incomplete Combustor",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021022",
+          "name": "Aftertune Combustor",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021023",
+          "name": "Remnant Combustor",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021024",
+          "name": "Reverb Combustor",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
+          "source": "Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21030015",
+      "name": "Static Mist",
+      "rarity": 5,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030015_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030015_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21030016",
+      "name": "The Last Dance",
+      "rarity": 5,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030017_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030017_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21030026",
+      "name": "Woodland Aria",
+      "rarity": 5,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030026_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030026_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21050045",
+      "name": "Boson Astrolabe",
+      "rarity": 5,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21050045_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21050045_UI.webp",
+      "items": [
+        {
+          "id": "41100061",
+          "name": "LF Exoswarm Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100062",
+          "name": "MF Exoswarm Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100063",
+          "name": "HF Exoswarm Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "41100064",
+          "name": "FF Exoswarm Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "43021031",
+          "name": "Spliced String",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
+          "source": "Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021032",
+          "name": "Broken String",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
+          "source": "Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021033",
+          "name": "Solidified String",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
+          "source": "Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021034",
+          "name": "Melodic String",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
+          "source": "Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21050015",
+      "name": "Cosmic Ripples",
+      "rarity": 5,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050015_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050015_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21050076",
+      "name": "Forged Dwarf Star",
+      "rarity": 5,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050076_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050076_UI.webp",
+      "items": [
+        {
+          "id": "41100061",
+          "name": "LF Exoswarm Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100062",
+          "name": "MF Exoswarm Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100063",
+          "name": "HF Exoswarm Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "41100064",
+          "name": "FF Exoswarm Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "43021031",
+          "name": "Spliced String",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
+          "source": "Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021032",
+          "name": "Broken String",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
+          "source": "Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021033",
+          "name": "Solidified String",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
+          "source": "Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021034",
+          "name": "Melodic String",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
+          "source": "Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21050086",
+      "name": "Freeze Frame",
+      "rarity": 5,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050086_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050086_UI.webp",
+      "items": [
+        {
+          "id": "41100061",
+          "name": "LF Exoswarm Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100062",
+          "name": "MF Exoswarm Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100063",
+          "name": "HF Exoswarm Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "41100064",
+          "name": "FF Exoswarm Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "43021031",
+          "name": "Spliced String",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
+          "source": "Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021032",
+          "name": "Broken String",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
+          "source": "Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021033",
+          "name": "Solidified String",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
+          "source": "Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021034",
+          "name": "Melodic String",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
+          "source": "Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21050066",
+      "name": "Lethean Elegy",
+      "rarity": 5,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050066_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050066_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21050046",
+      "name": "Luminous Hymn",
+      "rarity": 5,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050029_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050029_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21050026",
+      "name": "Rime-Draped Sprouts",
+      "rarity": 5,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050026_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050026_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21050036",
+      "name": "Stellar Symphony",
+      "rarity": 5,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050027_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050027_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21050016",
+      "name": "Stringmaster",
+      "rarity": 5,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050016_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050016_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21050056",
+      "name": "Whispers of Sirens",
+      "rarity": 5,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050030_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050030_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21020016",
+      "name": "Blazing Brilliance",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21020046",
+      "name": "Bloodpact's Pledge",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020026_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020026_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21020056",
+      "name": "Defier's Thorn",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020056_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020056_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21020015",
+      "name": "Emerald of Genesis",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020015_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020015_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21020066",
+      "name": "Emerald Sentence",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020066_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020066_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21020076",
+      "name": "Everbright Polestar",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020076_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020076_UI.webp",
+      "items": [
+        {
+          "id": "41100071",
+          "name": "LF Mech Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100072",
+          "name": "MF Mech Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100073",
+          "name": "HF Mech Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "41100074",
+          "name": "FF Mech Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "43021011",
+          "name": "Broken Wing Polarizer",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+          "source": "Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021012",
+          "name": "Monowing Polarizer",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+          "source": "Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021013",
+          "name": "Polywing Polarizer",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+          "source": "Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021014",
+          "name": "Layered Wing Polarizer",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+          "source": "Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21020086",
+      "name": "Frostburn",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020086_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020086_UI.webp",
+      "items": [
+        {
+          "id": "41100071",
+          "name": "LF Mech Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100072",
+          "name": "MF Mech Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100073",
+          "name": "HF Mech Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "41100074",
+          "name": "FF Mech Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "43021011",
+          "name": "Broken Wing Polarizer",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+          "source": "Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021012",
+          "name": "Monowing Polarizer",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+          "source": "Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021013",
+          "name": "Polywing Polarizer",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+          "source": "Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021014",
+          "name": "Layered Wing Polarizer",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+          "source": "Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21020045",
+      "name": "Laser Shearer",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21020045_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21020045_UI.webp",
+      "items": [
+        {
+          "id": "41100071",
+          "name": "LF Mech Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100072",
+          "name": "MF Mech Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100073",
+          "name": "HF Mech Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "41100074",
+          "name": "FF Mech Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "43021011",
+          "name": "Broken Wing Polarizer",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+          "source": "Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021012",
+          "name": "Monowing Polarizer",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+          "source": "Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021013",
+          "name": "Polywing Polarizer",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+          "source": "Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021014",
+          "name": "Layered Wing Polarizer",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+          "source": "Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21020026",
+      "name": "Red Spring",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020017_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020017_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21020036",
+      "name": "Unflickering Valor",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020025_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020025_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21010104",
+      "name": "Aureate Zenith",
+      "rarity": 4,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010104_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010104_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21010074",
+      "name": "Autumntrace",
+      "rarity": 4,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010074_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010074_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21010034",
+      "name": "Broadblade#41",
+      "rarity": 4,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010034_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010034_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21010044",
+      "name": "Dauntless Evernight",
+      "rarity": 4,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010044_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010044_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21010024",
+      "name": "Discord",
+      "rarity": 4,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010024_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010024_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21010064",
+      "name": "Helios Cleaver",
+      "rarity": 4,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010064_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010064_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21010094",
+      "name": "Meditations on Mercy",
+      "rarity": 4,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010094_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010094_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21010084",
+      "name": "Waning Redshift",
+      "rarity": 4,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010084_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010084_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21040104",
+      "name": "Aether Strike",
+      "rarity": 4,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040104_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040104_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21040044",
+      "name": "Amity Accord",
+      "rarity": 4,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040044_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040044_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21040084",
+      "name": "Celestial Spiral",
+      "rarity": 4,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040084_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040084_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21040034",
+      "name": "Gauntlets#21D",
+      "rarity": 4,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040034_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040034_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21040064",
+      "name": "Hollow Mirage",
+      "rarity": 4,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040064_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040064_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21040094",
+      "name": "Legend of Drunken Hero",
+      "rarity": 4,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040094_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040094_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21040024",
+      "name": "Marcato",
+      "rarity": 4,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040024_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040024_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21040074",
+      "name": "Stonard",
+      "rarity": 4,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040074_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040074_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21030024",
+      "name": "Cadenza",
+      "rarity": 4,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030024_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030024_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21030064",
+      "name": "Novaburst",
+      "rarity": 4,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030064_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030064_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21030034",
+      "name": "Pistols#26",
+      "rarity": 4,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030034_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030034_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21030084",
+      "name": "Relativistic Jet",
+      "rarity": 4,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030084_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030084_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21030094",
+      "name": "Romance in Farewell",
+      "rarity": 4,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030094_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030094_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21030104",
+      "name": "Solar Flame",
+      "rarity": 4,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030104_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030104_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21030074",
+      "name": "Thunderbolt",
+      "rarity": 4,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030074_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030074_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21030044",
+      "name": "Undying Flame",
+      "rarity": 4,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030044_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030044_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21050074",
+      "name": "Augment",
+      "rarity": 4,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050074_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050074_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21050017",
+      "name": "Call of the Abyss",
+      "rarity": 4,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050017_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050017_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21050064",
+      "name": "Comet Flare",
+      "rarity": 4,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050064_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050064_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21050084",
+      "name": "Fusion Accretion",
+      "rarity": 4,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050084_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050084_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21050044",
+      "name": "Jinzhou Keeper",
+      "rarity": 4,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050044_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050044_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21050027",
+      "name": "Ocean's Gift",
+      "rarity": 4,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050036_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050036_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "80080008",
+      "name": "Projection: Ocean's Gift",
+      "rarity": 4,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050036_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050036_UI.webp",
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "21050104",
+      "name": "Radiant Dawn",
+      "rarity": 4,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050104_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050104_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21050034",
+      "name": "Rectifier#25",
+      "rarity": 4,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050034_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050034_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21050024",
+      "name": "Variation",
+      "rarity": 4,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050024_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050024_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21050094",
+      "name": "Waltz in Masquerade",
+      "rarity": 4,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050094_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050094_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21020044",
+      "name": "Commando of Conviction",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020044_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020044_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21020084",
+      "name": "Endless Collapse",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020084_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020084_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21020094",
+      "name": "Fables of Wisdom",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020094_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020094_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21020104",
+      "name": "Feather Edge",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020104_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020104_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21020074",
+      "name": "Lumingloss",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020074_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020074_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21020064",
+      "name": "Lunar Cutter",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020064_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020064_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21020024",
+      "name": "Overture",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020024_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020024_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "80080001",
+      "name": "Projection: Somnoire Anchor",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020019_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020019_UI.webp",
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "21020017",
+      "name": "Somnoire Anchor",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020019_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020019_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21020034",
+      "name": "Sword#18",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020034_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020034_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 5,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 5,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 9,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 11,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 5,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 7,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 5,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 17,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 264000
+    },
+    {
+      "id": "21010063",
+      "name": "Beguiling Melody",
+      "rarity": 3,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010063_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010063_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "21010013",
+      "name": "Broadblade of Night",
+      "rarity": 3,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010013_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010013_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "21010043",
+      "name": "Broadblade of Voyager",
+      "rarity": 3,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010043_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010043_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "21010053",
+      "name": "Guardian Broadblade",
+      "rarity": 3,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010053_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010053_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "21010023",
+      "name": "Originite: Type I",
+      "rarity": 3,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010023_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010023_UI.webp",
+      "items": [
+        {
+          "id": "41100011",
+          "name": "LF Whisperin Core",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100012",
+          "name": "MF Whisperin Core",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+          "source": "Whisperins / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100013",
+          "name": "HF Whisperin Core",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "41100014",
+          "name": "FF Whisperin Core",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+          "source": "Whisperins",
+          "sourceDetails": [
+            {
+              "name": "Whisperins"
+            }
+          ]
+        },
+        {
+          "id": "43020041",
+          "name": "Waveworn Residue 210",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020042",
+          "name": "Waveworn Residue 226",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020043",
+          "name": "Waveworn Residue 235",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        },
+        {
+          "id": "43020044",
+          "name": "Waveworn Residue 239",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Adoration"
+            },
+            {
+              "name": "Forgery Challenge: Eroded Ruins"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "80080002",
+      "name": "Projection: Formless Broadblade",
+      "rarity": 3,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010027_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010027_UI.webp",
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "21040013",
+      "name": "Gauntlets of Night",
+      "rarity": 3,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040013_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040013_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "21040043",
+      "name": "Gauntlets of Voyager",
+      "rarity": 3,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040043_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040043_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "21040053",
+      "name": "Guardian Gauntlets",
+      "rarity": 3,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040053_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040053_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "21040023",
+      "name": "Originite: Type IV",
+      "rarity": 3,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040023_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040023_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020051",
+          "name": "Cadence Seed",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020052",
+          "name": "Cadence Bud",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020053",
+          "name": "Cadence Leaf",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        },
+        {
+          "id": "43020054",
+          "name": "Cadence Blossom",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Sacrifice"
+            },
+            {
+              "name": "Forgery Challenge: Moonlit Groves"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "80080005",
+      "name": "Projection: Formless Gauntlets",
+      "rarity": 3,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040017_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040017_UI.webp",
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "21030053",
+      "name": "Guardian Pistols",
+      "rarity": 3,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030053_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030053_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "21030023",
+      "name": "Originite: Type III",
+      "rarity": 3,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030023_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030023_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "21030013",
+      "name": "Pistols of Night",
+      "rarity": 3,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030013_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030013_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "21030043",
+      "name": "Pistols of Voyager",
+      "rarity": 3,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030043_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030043_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020021",
+          "name": "Impure Phlogiston",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020022",
+          "name": "Extracted Phlogiston",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020023",
+          "name": "Refined Phlogiston",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        },
+        {
+          "id": "43020024",
+          "name": "Flawless Phlogiston",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Confession"
+            },
+            {
+              "name": "Forgery Challenge: Marigold Woods"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "80080004",
+      "name": "Projection: Formless Pistol",
+      "rarity": 3,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030016_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030016_UI.webp",
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "21050053",
+      "name": "Guardian Rectifier",
+      "rarity": 3,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050053_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050053_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "21050023",
+      "name": "Originite: Type V",
+      "rarity": 3,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050023_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050023_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "80080006",
+      "name": "Projection: Formless Rectifier",
+      "rarity": 3,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050028_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050028_UI.webp",
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "21050013",
+      "name": "Rectifier of Night",
+      "rarity": 3,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050013_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050013_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "21050043",
+      "name": "Rectifier of Voyager",
+      "rarity": 3,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050043_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050043_UI.webp",
+      "items": [
+        {
+          "id": "41100031",
+          "name": "Crude Ring",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100032",
+          "name": "Basic Ring",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+          "source": "Exiles / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100033",
+          "name": "Improved Ring",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "41100034",
+          "name": "Tailored Ring",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+          "source": "Exiles",
+          "sourceDetails": [
+            {
+              "name": "Exile",
+              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+            }
+          ]
+        },
+        {
+          "id": "43020031",
+          "name": "Lento Helix",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020032",
+          "name": "Adagio Helix",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020033",
+          "name": "Andante Helix",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        },
+        {
+          "id": "43020034",
+          "name": "Presto Helix",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Abyss of Initiation"
+            },
+            {
+              "name": "Forgery Challenge: Misty Forest"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "21020053",
+      "name": "Guardian Sword",
+      "rarity": 3,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020053_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020053_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "21020023",
+      "name": "Originite: Type II",
+      "rarity": 3,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020023_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020023_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "80080003",
+      "name": "Projection: Formless Sword",
+      "rarity": 3,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020018_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020018_UI.webp",
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "21020013",
+      "name": "Sword of Night",
+      "rarity": 3,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020013_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020013_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    },
+    {
+      "id": "21020043",
+      "name": "Sword of Voyager",
+      "rarity": 3,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020043_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020043_UI.webp",
+      "items": [
+        {
+          "id": "41100021",
+          "name": "LF Howler Core",
+          "qty": 4,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100022",
+          "name": "MF Howler Core",
+          "qty": 4,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+          "source": "Howlers / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100023",
+          "name": "HF Howler Core",
+          "qty": 7,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "41100024",
+          "name": "FF Howler Core",
+          "qty": 8,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+          "source": "Howlers",
+          "sourceDetails": [
+            {
+              "name": "Howlers"
+            }
+          ]
+        },
+        {
+          "id": "43020011",
+          "name": "Inert Metallic Drip",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            },
+            {
+              "name": "Souvenir Store"
+            }
+          ]
+        },
+        {
+          "id": "43020012",
+          "name": "Reactive Metallic Drip",
+          "qty": 5,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020013",
+          "name": "Polarized Metallic Drip",
+          "qty": 4,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43020014",
+          "name": "Heterized Metallic Drip",
+          "qty": 13,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Garden of Salvation"
+            },
+            {
+              "name": "Forgery Challenge: Flaming Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 198000
+    }
+  ],
   "roster": [
     {
       "id": "ww-phrolova",
@@ -90,6 +15763,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_41_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/phrolova-f93c4b04e040.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/phrolova-8e2483db1896.webp",
+      "signatureWeapon": {
+        "id": "21050066",
+        "name": "Lethean Elegy",
+        "type": "Rectifier",
+        "educated": false
+      },
+      "signatureWeaponId": "21050066",
+      "signatureWeaponName": "Lethean Elegy",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -369,7 +16050,152 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Lethean Elegy",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050066_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050066_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020031",
+              "name": "Lento Helix",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020032",
+              "name": "Adagio Helix",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020033",
+              "name": "Andante Helix",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020034",
+              "name": "Presto Helix",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -396,6 +16222,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_34_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/cantarella-838306f4f7be.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/cantarella-838306f4f7be.webp",
+      "signatureWeapon": {
+        "id": "21050056",
+        "name": "Whispers of Sirens",
+        "type": "Rectifier",
+        "educated": false
+      },
+      "signatureWeaponId": "21050056",
+      "signatureWeaponName": "Whispers of Sirens",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -672,7 +16506,152 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Whispers of Sirens",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050030_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050030_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020031",
+              "name": "Lento Helix",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020032",
+              "name": "Adagio Helix",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020033",
+              "name": "Andante Helix",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020034",
+              "name": "Presto Helix",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -699,6 +16678,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_33_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/roccia-79dea044afc4.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/roccia-79dea044afc4.webp",
+      "signatureWeapon": {
+        "id": "21040026",
+        "name": "Tragicomedy",
+        "type": "Gauntlets",
+        "educated": false
+      },
+      "signatureWeaponId": "21040026",
+      "signatureWeaponName": "Tragicomedy",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -975,7 +16962,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Tragicomedy",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040018_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040018_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020051",
+              "name": "Cadence Seed",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020052",
+              "name": "Cadence Bud",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020053",
+              "name": "Cadence Leaf",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020054",
+              "name": "Cadence Blossom",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -999,6 +17127,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/rover-spectro-62be77f1ce9f.webp",
       "card": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujue_UI.webp",
+      "signatureWeapon": {
+        "id": "21020016",
+        "name": "Blazing Brilliance",
+        "type": "Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "21020016",
+      "signatureWeaponName": "Blazing Brilliance",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -1271,7 +17407,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Blazing Brilliance",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020011",
+              "name": "Inert Metallic Drip",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020012",
+              "name": "Reactive Metallic Drip",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020013",
+              "name": "Polarized Metallic Drip",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020014",
+              "name": "Heterized Metallic Drip",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "rawName": "Rover",
       "baseName": "Rover",
@@ -1303,6 +17580,14 @@
           "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/rover-spectro-62be77f1ce9f.webp",
           "card": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujue_UI.webp",
+          "signatureWeapon": {
+            "id": "21020016",
+            "name": "Blazing Brilliance",
+            "type": "Sword",
+            "educated": false
+          },
+          "signatureWeaponId": "21020016",
+          "signatureWeaponName": "Blazing Brilliance",
           "status": "live",
           "labels": [],
           "r": 5,
@@ -1575,7 +17860,148 @@
             ],
             "ascCost": 170000,
             "talentCost": 2030000,
-            "currency": 2200000
+            "currency": 2530000,
+            "weapon": {
+              "name": "Blazing Brilliance",
+              "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+              "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+              "items": [
+                {
+                  "id": "41100021",
+                  "name": "LF Howler Core",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+                  "source": "Howlers / Forgery Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Howlers"
+                    },
+                    {
+                      "name": "Forgery Challenge"
+                    }
+                  ]
+                },
+                {
+                  "id": "41100022",
+                  "name": "MF Howler Core",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                  "source": "Howlers / Forgery Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Howlers"
+                    },
+                    {
+                      "name": "Forgery Challenge"
+                    }
+                  ]
+                },
+                {
+                  "id": "41100023",
+                  "name": "HF Howler Core",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                  "source": "Howlers",
+                  "sourceDetails": [
+                    {
+                      "name": "Howlers"
+                    }
+                  ]
+                },
+                {
+                  "id": "41100024",
+                  "name": "FF Howler Core",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+                  "source": "Howlers",
+                  "sourceDetails": [
+                    {
+                      "name": "Howlers"
+                    }
+                  ]
+                },
+                {
+                  "id": "43020011",
+                  "name": "Inert Metallic Drip",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+                  "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+                  "sourceDetails": [
+                    {
+                      "name": "Forgery Challenge: Garden of Salvation"
+                    },
+                    {
+                      "name": "Forgery Challenge: Flaming Remnants"
+                    },
+                    {
+                      "name": "Souvenir Store"
+                    }
+                  ]
+                },
+                {
+                  "id": "43020012",
+                  "name": "Reactive Metallic Drip",
+                  "qty": 8,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+                  "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+                  "sourceDetails": [
+                    {
+                      "name": "Forgery Challenge: Garden of Salvation"
+                    },
+                    {
+                      "name": "Forgery Challenge: Flaming Remnants"
+                    }
+                  ]
+                },
+                {
+                  "id": "43020013",
+                  "name": "Polarized Metallic Drip",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+                  "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+                  "sourceDetails": [
+                    {
+                      "name": "Forgery Challenge: Garden of Salvation"
+                    },
+                    {
+                      "name": "Forgery Challenge: Flaming Remnants"
+                    }
+                  ]
+                },
+                {
+                  "id": "43020014",
+                  "name": "Heterized Metallic Drip",
+                  "qty": 20,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+                  "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+                  "sourceDetails": [
+                    {
+                      "name": "Forgery Challenge: Garden of Salvation"
+                    },
+                    {
+                      "name": "Forgery Challenge: Flaming Remnants"
+                    }
+                  ]
+                }
+              ],
+              "cost": 330000
+            }
           },
           "rawName": "Rover (Spectro)",
           "baseName": "Rover",
@@ -1606,6 +18032,14 @@
           "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/rover-havoc-cc7df9718613.webp",
           "card": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.webp",
+          "signatureWeapon": {
+            "id": "21020026",
+            "name": "Red Spring",
+            "type": "Sword",
+            "educated": false
+          },
+          "signatureWeaponId": "21020026",
+          "signatureWeaponName": "Red Spring",
           "status": "live",
           "labels": [],
           "r": 5,
@@ -1875,7 +18309,148 @@
             ],
             "ascCost": 170000,
             "talentCost": 2030000,
-            "currency": 2200000
+            "currency": 2530000,
+            "weapon": {
+              "name": "Red Spring",
+              "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020017_UI.webp",
+              "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020017_UI.webp",
+              "items": [
+                {
+                  "id": "41100021",
+                  "name": "LF Howler Core",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+                  "source": "Howlers / Forgery Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Howlers"
+                    },
+                    {
+                      "name": "Forgery Challenge"
+                    }
+                  ]
+                },
+                {
+                  "id": "41100022",
+                  "name": "MF Howler Core",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                  "source": "Howlers / Forgery Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Howlers"
+                    },
+                    {
+                      "name": "Forgery Challenge"
+                    }
+                  ]
+                },
+                {
+                  "id": "41100023",
+                  "name": "HF Howler Core",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                  "source": "Howlers",
+                  "sourceDetails": [
+                    {
+                      "name": "Howlers"
+                    }
+                  ]
+                },
+                {
+                  "id": "41100024",
+                  "name": "FF Howler Core",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+                  "source": "Howlers",
+                  "sourceDetails": [
+                    {
+                      "name": "Howlers"
+                    }
+                  ]
+                },
+                {
+                  "id": "43020011",
+                  "name": "Inert Metallic Drip",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+                  "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+                  "sourceDetails": [
+                    {
+                      "name": "Forgery Challenge: Garden of Salvation"
+                    },
+                    {
+                      "name": "Forgery Challenge: Flaming Remnants"
+                    },
+                    {
+                      "name": "Souvenir Store"
+                    }
+                  ]
+                },
+                {
+                  "id": "43020012",
+                  "name": "Reactive Metallic Drip",
+                  "qty": 8,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+                  "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+                  "sourceDetails": [
+                    {
+                      "name": "Forgery Challenge: Garden of Salvation"
+                    },
+                    {
+                      "name": "Forgery Challenge: Flaming Remnants"
+                    }
+                  ]
+                },
+                {
+                  "id": "43020013",
+                  "name": "Polarized Metallic Drip",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+                  "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+                  "sourceDetails": [
+                    {
+                      "name": "Forgery Challenge: Garden of Salvation"
+                    },
+                    {
+                      "name": "Forgery Challenge: Flaming Remnants"
+                    }
+                  ]
+                },
+                {
+                  "id": "43020014",
+                  "name": "Heterized Metallic Drip",
+                  "qty": 20,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+                  "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+                  "sourceDetails": [
+                    {
+                      "name": "Forgery Challenge: Garden of Salvation"
+                    },
+                    {
+                      "name": "Forgery Challenge: Flaming Remnants"
+                    }
+                  ]
+                }
+              ],
+              "cost": 330000
+            }
           },
           "rawName": "Rover (Havoc)",
           "baseName": "Rover",
@@ -1906,6 +18481,14 @@
           "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/rover-aero-e18045d46d04.webp",
           "card": "../../Database/Prydwen/ww/assets/characters/rover-aero-578c4299a93d.webp",
+          "signatureWeapon": {
+            "id": "21020046",
+            "name": "Bloodpact's Pledge",
+            "type": "Sword",
+            "educated": false
+          },
+          "signatureWeaponId": "21020046",
+          "signatureWeaponName": "Bloodpact's Pledge",
           "status": "live",
           "labels": [],
           "r": 5,
@@ -2175,7 +18758,148 @@
             ],
             "ascCost": 170000,
             "talentCost": 2030000,
-            "currency": 2200000
+            "currency": 2530000,
+            "weapon": {
+              "name": "Bloodpact's Pledge",
+              "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020026_UI.webp",
+              "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020026_UI.webp",
+              "items": [
+                {
+                  "id": "41100021",
+                  "name": "LF Howler Core",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+                  "source": "Howlers / Forgery Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Howlers"
+                    },
+                    {
+                      "name": "Forgery Challenge"
+                    }
+                  ]
+                },
+                {
+                  "id": "41100022",
+                  "name": "MF Howler Core",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                  "source": "Howlers / Forgery Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Howlers"
+                    },
+                    {
+                      "name": "Forgery Challenge"
+                    }
+                  ]
+                },
+                {
+                  "id": "41100023",
+                  "name": "HF Howler Core",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                  "source": "Howlers",
+                  "sourceDetails": [
+                    {
+                      "name": "Howlers"
+                    }
+                  ]
+                },
+                {
+                  "id": "41100024",
+                  "name": "FF Howler Core",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+                  "source": "Howlers",
+                  "sourceDetails": [
+                    {
+                      "name": "Howlers"
+                    }
+                  ]
+                },
+                {
+                  "id": "43020011",
+                  "name": "Inert Metallic Drip",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+                  "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+                  "sourceDetails": [
+                    {
+                      "name": "Forgery Challenge: Garden of Salvation"
+                    },
+                    {
+                      "name": "Forgery Challenge: Flaming Remnants"
+                    },
+                    {
+                      "name": "Souvenir Store"
+                    }
+                  ]
+                },
+                {
+                  "id": "43020012",
+                  "name": "Reactive Metallic Drip",
+                  "qty": 8,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+                  "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+                  "sourceDetails": [
+                    {
+                      "name": "Forgery Challenge: Garden of Salvation"
+                    },
+                    {
+                      "name": "Forgery Challenge: Flaming Remnants"
+                    }
+                  ]
+                },
+                {
+                  "id": "43020013",
+                  "name": "Polarized Metallic Drip",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+                  "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+                  "sourceDetails": [
+                    {
+                      "name": "Forgery Challenge: Garden of Salvation"
+                    },
+                    {
+                      "name": "Forgery Challenge: Flaming Remnants"
+                    }
+                  ]
+                },
+                {
+                  "id": "43020014",
+                  "name": "Heterized Metallic Drip",
+                  "qty": 20,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+                  "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+                  "sourceDetails": [
+                    {
+                      "name": "Forgery Challenge: Garden of Salvation"
+                    },
+                    {
+                      "name": "Forgery Challenge: Flaming Remnants"
+                    }
+                  ]
+                }
+              ],
+              "cost": 330000
+            }
           },
           "rawName": "Rover (Aero)",
           "baseName": "Rover",
@@ -2234,6 +18958,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_29_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/camellya-b68cebb29e98.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/camellya-b68cebb29e98.webp",
+      "signatureWeapon": {
+        "id": "21020026",
+        "name": "Red Spring",
+        "type": "Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "21020026",
+      "signatureWeaponName": "Red Spring",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -2495,7 +19227,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Red Spring",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020017_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020017_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020011",
+              "name": "Inert Metallic Drip",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020012",
+              "name": "Reactive Metallic Drip",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020013",
+              "name": "Polarized Metallic Drip",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020014",
+              "name": "Heterized Metallic Drip",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -2523,6 +19396,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_10_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/danjin-f5c38f132cf5.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/danjin-f2f25e3c04cd.webp",
+      "signatureWeapon": {
+        "id": "21020016",
+        "name": "Blazing Brilliance",
+        "type": "Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "21020016",
+      "signatureWeaponName": "Blazing Brilliance",
       "status": "live",
       "labels": [],
       "r": 4,
@@ -2798,7 +19679,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Blazing Brilliance",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020011",
+              "name": "Inert Metallic Drip",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020012",
+              "name": "Reactive Metallic Drip",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020013",
+              "name": "Polarized Metallic Drip",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020014",
+              "name": "Heterized Metallic Drip",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -2825,6 +19847,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_9_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/taoqi-a3bb4a186b33.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/taoqi-a247d98b0cb7.webp",
+      "signatureWeapon": {
+        "id": "21010024",
+        "name": "Discord",
+        "type": "Broadblade",
+        "educated": false
+      },
+      "signatureWeaponId": "21010024",
+      "signatureWeaponName": "Discord",
       "status": "live",
       "labels": [],
       "r": 4,
@@ -3092,7 +20122,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2464000,
+        "weapon": {
+          "name": "Discord",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010024_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010024_UI.webp",
+          "items": [
+            {
+              "id": "41100011",
+              "name": "LF Whisperin Core",
+              "qty": 5,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100012",
+              "name": "MF Whisperin Core",
+              "qty": 5,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100013",
+              "name": "HF Whisperin Core",
+              "qty": 9,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "41100014",
+              "name": "FF Whisperin Core",
+              "qty": 11,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "43020041",
+              "name": "Waveworn Residue 210",
+              "qty": 5,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020042",
+              "name": "Waveworn Residue 226",
+              "qty": 7,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020043",
+              "name": "Waveworn Residue 235",
+              "qty": 5,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020044",
+              "name": "Waveworn Residue 239",
+              "qty": 17,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            }
+          ],
+          "cost": 264000
+        }
       }
     },
     {
@@ -3119,6 +20290,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_68_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/lucy-9479ec44b129.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/lucy-af75001a9717.webp",
+      "signatureWeapon": {
+        "id": "21030056",
+        "name": "Spectral Trigger",
+        "type": "Pistols",
+        "educated": false
+      },
+      "signatureWeaponId": "21030056",
+      "signatureWeaponName": "Spectral Trigger",
       "status": "live",
       "labels": [
         "New"
@@ -3370,7 +20549,133 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Spectral Trigger",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030056_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030056_UI.webp",
+          "items": [
+            {
+              "id": "41100081",
+              "name": "Fractured Exoswarm Pendant",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+              "source": "Roya Outcasts / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100082",
+              "name": "Worn Exoswarm Pendant",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+              "source": "Roya Outcasts / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100083",
+              "name": "Chipped Exoswarm Pendant",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+              "source": "Roya Outcasts",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                }
+              ]
+            },
+            {
+              "id": "41100084",
+              "name": "Intact Exoswarm Pendant",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+              "source": "Roya Outcasts",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                }
+              ]
+            },
+            {
+              "id": "43021021",
+              "name": "Incomplete Combustor",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
+              "source": "Forgery Challenge: Lesson in Embers",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Embers"
+                }
+              ]
+            },
+            {
+              "id": "43021022",
+              "name": "Aftertune Combustor",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
+              "source": "Forgery Challenge: Lesson in Embers",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Embers"
+                }
+              ]
+            },
+            {
+              "id": "43021023",
+              "name": "Remnant Combustor",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
+              "source": "Forgery Challenge: Lesson in Embers",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Embers"
+                }
+              ]
+            },
+            {
+              "id": "43021024",
+              "name": "Reverb Combustor",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
+              "source": "Forgery Challenge: Lesson in Embers",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Embers"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -3398,6 +20703,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_54_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/luuk-herssen-5652dfe8996d.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/luuk-herssen-f1d67bfe71d8.webp",
+      "signatureWeapon": {
+        "id": "21040056",
+        "name": "Daybreaker's Spine",
+        "type": "Gauntlets",
+        "educated": false
+      },
+      "signatureWeaponId": "21040056",
+      "signatureWeaponName": "Daybreaker's Spine",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -3647,7 +20960,133 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Daybreaker's Spine",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21040056_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21040056_UI.webp",
+          "items": [
+            {
+              "id": "41100071",
+              "name": "LF Mech Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100072",
+              "name": "MF Mech Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100073",
+              "name": "HF Mech Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                }
+              ]
+            },
+            {
+              "id": "41100074",
+              "name": "FF Mech Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                }
+              ]
+            },
+            {
+              "id": "43021051",
+              "name": "LF Waveworn Shard",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
+              "source": "Forgery Challenge: Lesson in Void",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Void"
+                }
+              ]
+            },
+            {
+              "id": "43021052",
+              "name": "MF Waveworn Shard",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
+              "source": "Forgery Challenge: Lesson in Void",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Void"
+                }
+              ]
+            },
+            {
+              "id": "43021053",
+              "name": "HF Waveworn Shard",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
+              "source": "Forgery Challenge: Lesson in Void",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Void"
+                }
+              ]
+            },
+            {
+              "id": "43021054",
+              "name": "FF Waveworn Shard",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
+              "source": "Forgery Challenge: Lesson in Void",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Void"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -3675,6 +21114,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_60_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/lynae-2900407f5a79.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/lynae-6c7571198e39.webp",
+      "signatureWeapon": {
+        "id": "21030046",
+        "name": "Spectrum Blaster",
+        "type": "Pistols",
+        "educated": false
+      },
+      "signatureWeaponId": "21030046",
+      "signatureWeaponName": "Spectrum Blaster",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -3924,7 +21371,133 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Spectrum Blaster",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030046_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030046_UI.webp",
+          "items": [
+            {
+              "id": "41100081",
+              "name": "Fractured Exoswarm Pendant",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+              "source": "Roya Outcasts / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100082",
+              "name": "Worn Exoswarm Pendant",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+              "source": "Roya Outcasts / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100083",
+              "name": "Chipped Exoswarm Pendant",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+              "source": "Roya Outcasts",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                }
+              ]
+            },
+            {
+              "id": "41100084",
+              "name": "Intact Exoswarm Pendant",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+              "source": "Roya Outcasts",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                }
+              ]
+            },
+            {
+              "id": "43021021",
+              "name": "Incomplete Combustor",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
+              "source": "Forgery Challenge: Lesson in Embers",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Embers"
+                }
+              ]
+            },
+            {
+              "id": "43021022",
+              "name": "Aftertune Combustor",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
+              "source": "Forgery Challenge: Lesson in Embers",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Embers"
+                }
+              ]
+            },
+            {
+              "id": "43021023",
+              "name": "Remnant Combustor",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
+              "source": "Forgery Challenge: Lesson in Embers",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Embers"
+                }
+              ]
+            },
+            {
+              "id": "43021024",
+              "name": "Reverb Combustor",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
+              "source": "Forgery Challenge: Lesson in Embers",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Embers"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -3951,6 +21524,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_57_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/chisa-4f80c7455c43.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/chisa-c9f908c02435.webp",
+      "signatureWeapon": {
+        "id": "21010056",
+        "name": "Kumokiri",
+        "type": "Broadblade",
+        "educated": false
+      },
+      "signatureWeaponId": "21010056",
+      "signatureWeaponName": "Kumokiri",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -4224,7 +21805,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Kumokiri",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010056_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010056_UI.webp",
+          "items": [
+            {
+              "id": "41100011",
+              "name": "LF Whisperin Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100012",
+              "name": "MF Whisperin Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100013",
+              "name": "HF Whisperin Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "41100014",
+              "name": "FF Whisperin Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "43020041",
+              "name": "Waveworn Residue 210",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020042",
+              "name": "Waveworn Residue 226",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020043",
+              "name": "Waveworn Residue 235",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020044",
+              "name": "Waveworn Residue 239",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -4252,6 +21974,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_38_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/zani-3b924faaa0f7.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/zani-3b924faaa0f7.webp",
+      "signatureWeapon": {
+        "id": "21040036",
+        "name": "Blazing Justice",
+        "type": "Gauntlets",
+        "educated": false
+      },
+      "signatureWeaponId": "21040036",
+      "signatureWeaponName": "Blazing Justice",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -4528,7 +22258,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Blazing Justice",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040019_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040019_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020051",
+              "name": "Cadence Seed",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020052",
+              "name": "Cadence Bud",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020053",
+              "name": "Cadence Leaf",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020054",
+              "name": "Cadence Blossom",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -4555,6 +22426,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_45_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/phoebe-3d4306d78712.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/phoebe-3d4306d78712.webp",
+      "signatureWeapon": {
+        "id": "21050046",
+        "name": "Luminous Hymn",
+        "type": "Rectifier",
+        "educated": false
+      },
+      "signatureWeaponId": "21050046",
+      "signatureWeaponName": "Luminous Hymn",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -4819,7 +22698,152 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Luminous Hymn",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050029_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050029_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020031",
+              "name": "Lento Helix",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020032",
+              "name": "Adagio Helix",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020033",
+              "name": "Andante Helix",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020034",
+              "name": "Presto Helix",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -4846,6 +22870,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_30_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/lumi-da7336a0c26e.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/lumi-da7336a0c26e.webp",
+      "signatureWeapon": {
+        "id": "21010026",
+        "name": "Ages of Harvest",
+        "type": "Broadblade",
+        "educated": false
+      },
+      "signatureWeaponId": "21010026",
+      "signatureWeaponName": "Ages of Harvest",
       "status": "live",
       "labels": [],
       "r": 4,
@@ -5116,7 +23148,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Ages of Harvest",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010026_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010026_UI.webp",
+          "items": [
+            {
+              "id": "41100011",
+              "name": "LF Whisperin Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100012",
+              "name": "MF Whisperin Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100013",
+              "name": "HF Whisperin Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "41100014",
+              "name": "FF Whisperin Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "43020041",
+              "name": "Waveworn Residue 210",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020042",
+              "name": "Waveworn Residue 226",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020043",
+              "name": "Waveworn Residue 235",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020044",
+              "name": "Waveworn Residue 239",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -5143,6 +23316,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_3_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/verina-4bfead3b632c.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/verina-97b026bd1974.webp",
+      "signatureWeapon": {
+        "id": "21050024",
+        "name": "Variation",
+        "type": "Rectifier",
+        "educated": false
+      },
+      "signatureWeaponId": "21050024",
+      "signatureWeaponName": "Variation",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -5410,7 +23591,152 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2464000,
+        "weapon": {
+          "name": "Variation",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050024_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050024_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 5,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 5,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 9,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 11,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020031",
+              "name": "Lento Helix",
+              "qty": 5,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020032",
+              "name": "Adagio Helix",
+              "qty": 7,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020033",
+              "name": "Andante Helix",
+              "qty": 5,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020034",
+              "name": "Presto Helix",
+              "qty": 17,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            }
+          ],
+          "cost": 264000
+        }
       }
     },
     {
@@ -5437,6 +23763,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_65_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/sigrika-feaeb4a6e35f.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/sigrika-dac26839b843.webp",
+      "signatureWeapon": {
+        "id": "21040066",
+        "name": "Solsworn Ciphers",
+        "type": "Gauntlets",
+        "educated": false
+      },
+      "signatureWeaponId": "21040066",
+      "signatureWeaponName": "Solsworn Ciphers",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -5686,7 +24020,133 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Solsworn Ciphers",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040066_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040066_UI.webp",
+          "items": [
+            {
+              "id": "41100071",
+              "name": "LF Mech Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100072",
+              "name": "MF Mech Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100073",
+              "name": "HF Mech Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                }
+              ]
+            },
+            {
+              "id": "41100074",
+              "name": "FF Mech Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                }
+              ]
+            },
+            {
+              "id": "43021051",
+              "name": "LF Waveworn Shard",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
+              "source": "Forgery Challenge: Lesson in Void",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Void"
+                }
+              ]
+            },
+            {
+              "id": "43021052",
+              "name": "MF Waveworn Shard",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
+              "source": "Forgery Challenge: Lesson in Void",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Void"
+                }
+              ]
+            },
+            {
+              "id": "43021053",
+              "name": "HF Waveworn Shard",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
+              "source": "Forgery Challenge: Lesson in Void",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Void"
+                }
+              ]
+            },
+            {
+              "id": "43021054",
+              "name": "FF Waveworn Shard",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
+              "source": "Forgery Challenge: Lesson in Void",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Void"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -5714,6 +24174,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_56_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/qiuyuan-9101898bdf10.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/qiuyuan-b816ed5533f2.webp",
+      "signatureWeapon": {
+        "id": "21020066",
+        "name": "Emerald Sentence",
+        "type": "Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "21020066",
+      "signatureWeaponName": "Emerald Sentence",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -5981,7 +24449,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Emerald Sentence",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020066_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020066_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020011",
+              "name": "Inert Metallic Drip",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020012",
+              "name": "Reactive Metallic Drip",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020013",
+              "name": "Polarized Metallic Drip",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020014",
+              "name": "Heterized Metallic Drip",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -6009,6 +24618,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_48_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/iuno-b7578fecf82e.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/iuno-565fb00e415b.webp",
+      "signatureWeapon": {
+        "id": "21040046",
+        "name": "Moongazer's Sigil",
+        "type": "Gauntlets",
+        "educated": false
+      },
+      "signatureWeaponId": "21040046",
+      "signatureWeaponName": "Moongazer's Sigil",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -6285,7 +24902,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Moongazer's Sigil",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040046_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040046_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020051",
+              "name": "Cadence Seed",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020052",
+              "name": "Cadence Bud",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020053",
+              "name": "Cadence Leaf",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020054",
+              "name": "Cadence Blossom",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -6312,6 +25070,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_40_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/cartethyia-0aab3b75d895.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/cartethyia-ed6aecb666f8.webp",
+      "signatureWeapon": {
+        "id": "21020056",
+        "name": "Defier's Thorn",
+        "type": "Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "21020056",
+      "signatureWeaponName": "Defier's Thorn",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -6588,7 +25354,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Defier's Thorn",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020056_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020056_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020011",
+              "name": "Inert Metallic Drip",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020012",
+              "name": "Reactive Metallic Drip",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020013",
+              "name": "Polarized Metallic Drip",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020014",
+              "name": "Heterized Metallic Drip",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -6614,6 +25521,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_37_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/ciaccona-b29f2ae0ca0d.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/ciaccona-f94394577c2e.webp",
+      "signatureWeapon": {
+        "id": "21030026",
+        "name": "Woodland Aria",
+        "type": "Pistols",
+        "educated": false
+      },
+      "signatureWeaponId": "21030026",
+      "signatureWeaponName": "Woodland Aria",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -6890,7 +25805,152 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Woodland Aria",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030026_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030026_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020021",
+              "name": "Impure Phlogiston",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020022",
+              "name": "Extracted Phlogiston",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            },
+            {
+              "id": "43020023",
+              "name": "Refined Phlogiston",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            },
+            {
+              "id": "43020024",
+              "name": "Flawless Phlogiston",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -6917,6 +25977,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_23_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/jianxin-e05b5541fac3.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/jianxin-0c0181a96d16.webp",
+      "signatureWeapon": {
+        "id": "21040016",
+        "name": "Verity's Handle",
+        "type": "Gauntlets",
+        "educated": false
+      },
+      "signatureWeaponId": "21040016",
+      "signatureWeaponName": "Verity's Handle",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -7187,7 +26255,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Verity's Handle",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040016_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040016_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020051",
+              "name": "Cadence Seed",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020052",
+              "name": "Cadence Bud",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020053",
+              "name": "Cadence Leaf",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020054",
+              "name": "Cadence Blossom",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -7214,6 +26423,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_11_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/jiyan-f77f8a07880e.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/jiyan-526f427140dc.webp",
+      "signatureWeapon": {
+        "id": "21010016",
+        "name": "Verdant Summit",
+        "type": "Broadblade",
+        "educated": false
+      },
+      "signatureWeaponId": "21010016",
+      "signatureWeaponName": "Verdant Summit",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -7481,7 +26698,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Verdant Summit",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010016_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010016_UI.webp",
+          "items": [
+            {
+              "id": "41100011",
+              "name": "LF Whisperin Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100012",
+              "name": "MF Whisperin Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100013",
+              "name": "HF Whisperin Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "41100014",
+              "name": "FF Whisperin Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "43020041",
+              "name": "Waveworn Residue 210",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020042",
+              "name": "Waveworn Residue 226",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020043",
+              "name": "Waveworn Residue 235",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020044",
+              "name": "Waveworn Residue 239",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -7508,6 +26866,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_12_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/aalto-05efecf613fe.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/aalto-539d2edc55d7.webp",
+      "signatureWeapon": {
+        "id": "21030016",
+        "name": "The Last Dance",
+        "type": "Pistols",
+        "educated": false
+      },
+      "signatureWeaponId": "21030016",
+      "signatureWeaponName": "The Last Dance",
       "status": "live",
       "labels": [],
       "r": 4,
@@ -7775,7 +27141,152 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "The Last Dance",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030017_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030017_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020021",
+              "name": "Impure Phlogiston",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020022",
+              "name": "Extracted Phlogiston",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            },
+            {
+              "id": "43020023",
+              "name": "Refined Phlogiston",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            },
+            {
+              "id": "43020024",
+              "name": "Flawless Phlogiston",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -7802,6 +27313,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_1_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/yangyang-340f9b1e8495.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/yangyang-a29c4de025eb.webp",
+      "signatureWeapon": {
+        "id": "21020016",
+        "name": "Blazing Brilliance",
+        "type": "Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "21020016",
+      "signatureWeaponName": "Blazing Brilliance",
       "status": "live",
       "labels": [],
       "r": 4,
@@ -8080,7 +27599,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Blazing Brilliance",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020011",
+              "name": "Inert Metallic Drip",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020012",
+              "name": "Reactive Metallic Drip",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020013",
+              "name": "Polarized Metallic Drip",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020014",
+              "name": "Heterized Metallic Drip",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -8107,6 +27767,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_69_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/rebecca-7d52d26dbc84.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/rebecca-9e9cb9043a78.webp",
+      "signatureWeapon": {
+        "id": "21030066",
+        "name": "Skull Thrasher",
+        "type": "Pistols",
+        "educated": false
+      },
+      "signatureWeaponId": "21030066",
+      "signatureWeaponName": "Skull Thrasher",
       "status": "live",
       "labels": [
         "New"
@@ -8358,7 +28026,133 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Skull Thrasher",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030066_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030066_UI.webp",
+          "items": [
+            {
+              "id": "41100081",
+              "name": "Fractured Exoswarm Pendant",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+              "source": "Roya Outcasts / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100082",
+              "name": "Worn Exoswarm Pendant",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+              "source": "Roya Outcasts / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100083",
+              "name": "Chipped Exoswarm Pendant",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+              "source": "Roya Outcasts",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                }
+              ]
+            },
+            {
+              "id": "41100084",
+              "name": "Intact Exoswarm Pendant",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+              "source": "Roya Outcasts",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                }
+              ]
+            },
+            {
+              "id": "43021021",
+              "name": "Incomplete Combustor",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
+              "source": "Forgery Challenge: Lesson in Embers",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Embers"
+                }
+              ]
+            },
+            {
+              "id": "43021022",
+              "name": "Aftertune Combustor",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
+              "source": "Forgery Challenge: Lesson in Embers",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Embers"
+                }
+              ]
+            },
+            {
+              "id": "43021023",
+              "name": "Remnant Combustor",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
+              "source": "Forgery Challenge: Lesson in Embers",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Embers"
+                }
+              ]
+            },
+            {
+              "id": "43021024",
+              "name": "Reverb Combustor",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
+              "source": "Forgery Challenge: Lesson in Embers",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Embers"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -8386,6 +28180,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_58_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/buling-f9d6c0f3deac.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/buling-7d7829257f62.webp",
+      "signatureWeapon": {
+        "id": "21050016",
+        "name": "Stringmaster",
+        "type": "Rectifier",
+        "educated": false
+      },
+      "signatureWeaponId": "21050016",
+      "signatureWeaponName": "Stringmaster",
       "status": "live",
       "labels": [],
       "r": 4,
@@ -8653,7 +28455,152 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Stringmaster",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050016_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050016_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020031",
+              "name": "Lento Helix",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020032",
+              "name": "Adagio Helix",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020033",
+              "name": "Andante Helix",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020034",
+              "name": "Presto Helix",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -8681,6 +28628,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_51_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/augusta-218057f11bbd.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/augusta-596c5cc53cbb.webp",
+      "signatureWeapon": {
+        "id": "21010046",
+        "name": "Thunderflare Dominion",
+        "type": "Broadblade",
+        "educated": false
+      },
+      "signatureWeaponId": "21010046",
+      "signatureWeaponName": "Thunderflare Dominion",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -8957,7 +28912,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Thunderflare Dominion",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010046_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010046_UI.webp",
+          "items": [
+            {
+              "id": "41100011",
+              "name": "LF Whisperin Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100012",
+              "name": "MF Whisperin Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100013",
+              "name": "HF Whisperin Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "41100014",
+              "name": "FF Whisperin Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "43020041",
+              "name": "Waveworn Residue 210",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020042",
+              "name": "Waveworn Residue 226",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020043",
+              "name": "Waveworn Residue 235",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020044",
+              "name": "Waveworn Residue 239",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -8984,6 +29080,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_25_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/xiangli-yao-de2311c30de7.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/xiangli-yao-de2311c30de7.webp",
+      "signatureWeapon": {
+        "id": "21040046",
+        "name": "Moongazer's Sigil",
+        "type": "Gauntlets",
+        "educated": false
+      },
+      "signatureWeaponId": "21040046",
+      "signatureWeaponName": "Moongazer's Sigil",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -9257,7 +29361,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Moongazer's Sigil",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040046_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040046_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020051",
+              "name": "Cadence Seed",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020052",
+              "name": "Cadence Bud",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020053",
+              "name": "Cadence Leaf",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020054",
+              "name": "Cadence Blossom",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -9284,6 +29529,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_24_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/jinhsi-5b27fbfe30f2.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/jinhsi-4e46d433a28a.webp",
+      "signatureWeapon": {
+        "id": "21010026",
+        "name": "Ages of Harvest",
+        "type": "Broadblade",
+        "educated": false
+      },
+      "signatureWeaponId": "21010026",
+      "signatureWeaponName": "Ages of Harvest",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -9551,7 +29804,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Ages of Harvest",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010026_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010026_UI.webp",
+          "items": [
+            {
+              "id": "41100011",
+              "name": "LF Whisperin Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100012",
+              "name": "MF Whisperin Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100013",
+              "name": "HF Whisperin Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "41100014",
+              "name": "FF Whisperin Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "43020041",
+              "name": "Waveworn Residue 210",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020042",
+              "name": "Waveworn Residue 226",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020043",
+              "name": "Waveworn Residue 235",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020044",
+              "name": "Waveworn Residue 239",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -9579,6 +29973,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_15_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/yuanwu-d5ca96af6402.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/yuanwu-b4bc2a6d49f2.webp",
+      "signatureWeapon": {
+        "id": "21040016",
+        "name": "Verity's Handle",
+        "type": "Gauntlets",
+        "educated": false
+      },
+      "signatureWeaponId": "21040016",
+      "signatureWeaponName": "Verity's Handle",
       "status": "live",
       "labels": [],
       "r": 4,
@@ -9860,7 +30262,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Verity's Handle",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040016_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040016_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020051",
+              "name": "Cadence Seed",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020052",
+              "name": "Cadence Bud",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020053",
+              "name": "Cadence Leaf",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020054",
+              "name": "Cadence Blossom",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -9887,6 +30430,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_17_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/yinlin-c9f7f0f5bff7.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/yinlin-8885c8997e38.webp",
+      "signatureWeapon": {
+        "id": "21050016",
+        "name": "Stringmaster",
+        "type": "Rectifier",
+        "educated": false
+      },
+      "signatureWeaponId": "21050016",
+      "signatureWeaponName": "Stringmaster",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -10157,7 +30708,152 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Stringmaster",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050016_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050016_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020031",
+              "name": "Lento Helix",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020032",
+              "name": "Adagio Helix",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020033",
+              "name": "Andante Helix",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020034",
+              "name": "Presto Helix",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -10184,6 +30880,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_18_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/calcharo-c7dbcf640fae.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/calcharo-f3467aaf6a4e.webp",
+      "signatureWeapon": {
+        "id": "21010036",
+        "name": "Wildfire Mark",
+        "type": "Broadblade",
+        "educated": false
+      },
+      "signatureWeaponId": "21010036",
+      "signatureWeaponName": "Wildfire Mark",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -10459,7 +31163,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Wildfire Mark",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010036_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010036_UI.webp",
+          "items": [
+            {
+              "id": "41100011",
+              "name": "LF Whisperin Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100012",
+              "name": "MF Whisperin Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100013",
+              "name": "HF Whisperin Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "41100014",
+              "name": "FF Whisperin Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "43020041",
+              "name": "Waveworn Residue 210",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020042",
+              "name": "Waveworn Residue 226",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020043",
+              "name": "Waveworn Residue 235",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020044",
+              "name": "Waveworn Residue 239",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -10485,6 +31330,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_64_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/denia-ad67928de9d2.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/denia-cd066b7db391.webp",
+      "signatureWeapon": {
+        "id": "21050076",
+        "name": "Forged Dwarf Star",
+        "type": "Rectifier",
+        "educated": false
+      },
+      "signatureWeaponId": "21050076",
+      "signatureWeaponName": "Forged Dwarf Star",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -10734,7 +31587,133 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Forged Dwarf Star",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050076_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050076_UI.webp",
+          "items": [
+            {
+              "id": "41100061",
+              "name": "LF Exoswarm Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+              "source": "Exoswarm / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exoswarm"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100062",
+              "name": "MF Exoswarm Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+              "source": "Exoswarm / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exoswarm"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100063",
+              "name": "HF Exoswarm Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+              "source": "Exoswarm",
+              "sourceDetails": [
+                {
+                  "name": "Exoswarm"
+                }
+              ]
+            },
+            {
+              "id": "41100064",
+              "name": "FF Exoswarm Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+              "source": "Exoswarm",
+              "sourceDetails": [
+                {
+                  "name": "Exoswarm"
+                }
+              ]
+            },
+            {
+              "id": "43021031",
+              "name": "Spliced String",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
+              "source": "Forgery Challenge: Lesson in Sunset",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Sunset"
+                }
+              ]
+            },
+            {
+              "id": "43021032",
+              "name": "Broken String",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
+              "source": "Forgery Challenge: Lesson in Sunset",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Sunset"
+                }
+              ]
+            },
+            {
+              "id": "43021033",
+              "name": "Solidified String",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
+              "source": "Forgery Challenge: Lesson in Sunset",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Sunset"
+                }
+              ]
+            },
+            {
+              "id": "43021034",
+              "name": "Melodic String",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
+              "source": "Forgery Challenge: Lesson in Sunset",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Sunset"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -10762,6 +31741,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_53_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/aemeath-c3afbd3131bd.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/aemeath-e8051cbd92ef.webp",
+      "signatureWeapon": {
+        "id": "21020076",
+        "name": "Everbright Polestar",
+        "type": "Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "21020076",
+      "signatureWeaponName": "Everbright Polestar",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -11011,7 +31998,133 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Everbright Polestar",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020076_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020076_UI.webp",
+          "items": [
+            {
+              "id": "41100071",
+              "name": "LF Mech Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100072",
+              "name": "MF Mech Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100073",
+              "name": "HF Mech Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                }
+              ]
+            },
+            {
+              "id": "41100074",
+              "name": "FF Mech Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                }
+              ]
+            },
+            {
+              "id": "43021011",
+              "name": "Broken Wing Polarizer",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+              "source": "Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021012",
+              "name": "Monowing Polarizer",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+              "source": "Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021013",
+              "name": "Polywing Polarizer",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+              "source": "Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021014",
+              "name": "Layered Wing Polarizer",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+              "source": "Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -11039,6 +32152,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/mornye-4ea899250861.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/mornye-a1fc5522783e.webp",
+      "signatureWeapon": {
+        "id": "21010066",
+        "name": "Starfield Calibrator",
+        "type": "Broadblade",
+        "educated": false
+      },
+      "signatureWeaponId": "21010066",
+      "signatureWeaponName": "Starfield Calibrator",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -11288,7 +32409,133 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Starfield Calibrator",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010066_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010066_UI.webp",
+          "items": [
+            {
+              "id": "41100081",
+              "name": "Fractured Exoswarm Pendant",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+              "source": "Roya Outcasts / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100082",
+              "name": "Worn Exoswarm Pendant",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+              "source": "Roya Outcasts / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100083",
+              "name": "Chipped Exoswarm Pendant",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+              "source": "Roya Outcasts",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                }
+              ]
+            },
+            {
+              "id": "41100084",
+              "name": "Intact Exoswarm Pendant",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+              "source": "Roya Outcasts",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                }
+              ]
+            },
+            {
+              "id": "43021041",
+              "name": "LF Carved Crystal",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
+              "source": "Forgery Challenge: Corroded Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Corroded Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021042",
+              "name": "MF Carved Crystal",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
+              "source": "Forgery Challenge: Corroded Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Corroded Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021043",
+              "name": "HF Carved Crystal",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
+              "source": "Forgery Challenge: Corroded Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Corroded Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021044",
+              "name": "FF Carved Crystal",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
+              "source": "Forgery Challenge: Corroded Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Corroded Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -11315,6 +32562,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_55_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/galbrena-6ddbd81df834.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/galbrena-fe2988f30e1d.webp",
+      "signatureWeapon": {
+        "id": "21030036",
+        "name": "Lux & Umbra",
+        "type": "Pistols",
+        "educated": false
+      },
+      "signatureWeaponId": "21030036",
+      "signatureWeaponName": "Lux & Umbra",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -11591,7 +32846,152 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Lux & Umbra",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030036_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030036_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020021",
+              "name": "Impure Phlogiston",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020022",
+              "name": "Extracted Phlogiston",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            },
+            {
+              "id": "43020023",
+              "name": "Refined Phlogiston",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            },
+            {
+              "id": "43020024",
+              "name": "Flawless Phlogiston",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -11617,6 +33017,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_46_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/lupa-7b0baf50aa8d.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/lupa-8ba3ee431e4e.webp",
+      "signatureWeapon": {
+        "id": "21010036",
+        "name": "Wildfire Mark",
+        "type": "Broadblade",
+        "educated": false
+      },
+      "signatureWeaponId": "21010036",
+      "signatureWeaponName": "Wildfire Mark",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -11881,7 +33289,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Wildfire Mark",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010036_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010036_UI.webp",
+          "items": [
+            {
+              "id": "41100011",
+              "name": "LF Whisperin Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100012",
+              "name": "MF Whisperin Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+              "source": "Whisperins / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100013",
+              "name": "HF Whisperin Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "41100014",
+              "name": "FF Whisperin Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+              "source": "Whisperins",
+              "sourceDetails": [
+                {
+                  "name": "Whisperins"
+                }
+              ]
+            },
+            {
+              "id": "43020041",
+              "name": "Waveworn Residue 210",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020042",
+              "name": "Waveworn Residue 226",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020043",
+              "name": "Waveworn Residue 235",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            },
+            {
+              "id": "43020044",
+              "name": "Waveworn Residue 239",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
+              "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Adoration"
+                },
+                {
+                  "name": "Forgery Challenge: Eroded Ruins"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -11908,6 +33457,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_44_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/brant-37f3d77543f6.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/brant-37f3d77543f6.webp",
+      "signatureWeapon": {
+        "id": "21020036",
+        "name": "Unflickering Valor",
+        "type": "Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "21020036",
+      "signatureWeaponName": "Unflickering Valor",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -12184,7 +33741,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Unflickering Valor",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020025_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020025_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020011",
+              "name": "Inert Metallic Drip",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020012",
+              "name": "Reactive Metallic Drip",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020013",
+              "name": "Polarized Metallic Drip",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020014",
+              "name": "Heterized Metallic Drip",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -12211,6 +33909,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_26_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/changli-dc0ce1974c67.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/changli-dc0ce1974c67.webp",
+      "signatureWeapon": {
+        "id": "21020016",
+        "name": "Blazing Brilliance",
+        "type": "Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "21020016",
+      "signatureWeaponName": "Blazing Brilliance",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -12486,7 +34192,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Blazing Brilliance",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020011",
+              "name": "Inert Metallic Drip",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020012",
+              "name": "Reactive Metallic Drip",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020013",
+              "name": "Polarized Metallic Drip",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020014",
+              "name": "Heterized Metallic Drip",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -12514,6 +34361,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_13_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/mortefi-d5d907185fab.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/mortefi-0600d7b7604b.webp",
+      "signatureWeapon": {
+        "id": "21030015",
+        "name": "Static Mist",
+        "type": "Pistols",
+        "educated": false
+      },
+      "signatureWeaponId": "21030015",
+      "signatureWeaponName": "Static Mist",
       "status": "live",
       "labels": [],
       "r": 4,
@@ -12784,7 +34639,152 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Static Mist",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030015_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030015_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020021",
+              "name": "Impure Phlogiston",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020022",
+              "name": "Extracted Phlogiston",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            },
+            {
+              "id": "43020023",
+              "name": "Refined Phlogiston",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            },
+            {
+              "id": "43020024",
+              "name": "Flawless Phlogiston",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -12811,6 +34811,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_8_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/encore-de906cd66fb0.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/encore-c448f1c9cc94.webp",
+      "signatureWeapon": {
+        "id": "21050016",
+        "name": "Stringmaster",
+        "type": "Rectifier",
+        "educated": false
+      },
+      "signatureWeaponId": "21050016",
+      "signatureWeaponName": "Stringmaster",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -13081,7 +35089,152 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Stringmaster",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050016_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050016_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020031",
+              "name": "Lento Helix",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020032",
+              "name": "Adagio Helix",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020033",
+              "name": "Andante Helix",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020034",
+              "name": "Presto Helix",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -13108,6 +35261,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_2_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/chixia-0bcf88495bb8.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/chixia-c0793791b62e.webp",
+      "signatureWeapon": {
+        "id": "21030016",
+        "name": "The Last Dance",
+        "type": "Pistols",
+        "educated": false
+      },
+      "signatureWeaponId": "21030016",
+      "signatureWeaponName": "The Last Dance",
       "status": "live",
       "labels": [],
       "r": 4,
@@ -13375,7 +35536,152 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "The Last Dance",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030017_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030017_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020021",
+              "name": "Impure Phlogiston",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020022",
+              "name": "Extracted Phlogiston",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            },
+            {
+              "id": "43020023",
+              "name": "Refined Phlogiston",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            },
+            {
+              "id": "43020024",
+              "name": "Flawless Phlogiston",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -13402,6 +35708,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_66_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/lucilla-645cef8d92d9.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/lucilla-3cde2eba4714.webp",
+      "signatureWeapon": {
+        "id": "21050086",
+        "name": "Freeze Frame",
+        "type": "Rectifier",
+        "educated": false
+      },
+      "signatureWeaponId": "21050086",
+      "signatureWeaponName": "Freeze Frame",
       "status": "live",
       "labels": [
         "New"
@@ -13653,7 +35967,133 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Freeze Frame",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050086_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050086_UI.webp",
+          "items": [
+            {
+              "id": "41100061",
+              "name": "LF Exoswarm Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+              "source": "Exoswarm / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exoswarm"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100062",
+              "name": "MF Exoswarm Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+              "source": "Exoswarm / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exoswarm"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100063",
+              "name": "HF Exoswarm Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+              "source": "Exoswarm",
+              "sourceDetails": [
+                {
+                  "name": "Exoswarm"
+                }
+              ]
+            },
+            {
+              "id": "41100064",
+              "name": "FF Exoswarm Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+              "source": "Exoswarm",
+              "sourceDetails": [
+                {
+                  "name": "Exoswarm"
+                }
+              ]
+            },
+            {
+              "id": "43021031",
+              "name": "Spliced String",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
+              "source": "Forgery Challenge: Lesson in Sunset",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Sunset"
+                }
+              ]
+            },
+            {
+              "id": "43021032",
+              "name": "Broken String",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
+              "source": "Forgery Challenge: Lesson in Sunset",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Sunset"
+                }
+              ]
+            },
+            {
+              "id": "43021033",
+              "name": "Solidified String",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
+              "source": "Forgery Challenge: Lesson in Sunset",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Sunset"
+                }
+              ]
+            },
+            {
+              "id": "43021034",
+              "name": "Melodic String",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
+              "source": "Forgery Challenge: Lesson in Sunset",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Lesson in Sunset"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -13681,6 +36121,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/hiyuki-099635d10d97.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/hiyuki-6dff9c6a84da.webp",
+      "signatureWeapon": {
+        "id": "21020086",
+        "name": "Frostburn",
+        "type": "Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "21020086",
+      "signatureWeaponName": "Frostburn",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -13930,7 +36378,133 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Frostburn",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020086_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020086_UI.webp",
+          "items": [
+            {
+              "id": "41100071",
+              "name": "LF Mech Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100072",
+              "name": "MF Mech Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100073",
+              "name": "HF Mech Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                }
+              ]
+            },
+            {
+              "id": "41100074",
+              "name": "FF Mech Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                }
+              ]
+            },
+            {
+              "id": "43021011",
+              "name": "Broken Wing Polarizer",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+              "source": "Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021012",
+              "name": "Monowing Polarizer",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+              "source": "Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021013",
+              "name": "Polywing Polarizer",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+              "source": "Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021014",
+              "name": "Layered Wing Polarizer",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+              "source": "Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -13958,6 +36532,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_32_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/carlotta-1bf19bae6c94.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/carlotta-1bf19bae6c94.webp",
+      "signatureWeapon": {
+        "id": "21030016",
+        "name": "The Last Dance",
+        "type": "Pistols",
+        "educated": false
+      },
+      "signatureWeaponId": "21030016",
+      "signatureWeaponName": "The Last Dance",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -14234,7 +36816,152 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "The Last Dance",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030017_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030017_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020021",
+              "name": "Impure Phlogiston",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020022",
+              "name": "Extracted Phlogiston",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            },
+            {
+              "id": "43020023",
+              "name": "Refined Phlogiston",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            },
+            {
+              "id": "43020024",
+              "name": "Flawless Phlogiston",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
+              "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Confession"
+                },
+                {
+                  "name": "Forgery Challenge: Marigold Woods"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -14261,6 +36988,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_31_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/youhu-27c8d6a72e6f.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/youhu-27c8d6a72e6f.webp",
+      "signatureWeapon": {
+        "id": "21040024",
+        "name": "Marcato",
+        "type": "Gauntlets",
+        "educated": false
+      },
+      "signatureWeaponId": "21040024",
+      "signatureWeaponName": "Marcato",
       "status": "live",
       "labels": [],
       "r": 4,
@@ -14539,7 +37274,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2464000,
+        "weapon": {
+          "name": "Marcato",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040024_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040024_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 5,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 5,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 9,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 11,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020051",
+              "name": "Cadence Seed",
+              "qty": 5,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020052",
+              "name": "Cadence Bud",
+              "qty": 7,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020053",
+              "name": "Cadence Leaf",
+              "qty": 5,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020054",
+              "name": "Cadence Blossom",
+              "qty": 17,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            }
+          ],
+          "cost": 264000
+        }
       }
     },
     {
@@ -14566,6 +37442,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_27_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/zhezhi-1c6bb925a9a4.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/zhezhi-1c6bb925a9a4.webp",
+      "signatureWeapon": {
+        "id": "21050026",
+        "name": "Rime-Draped Sprouts",
+        "type": "Rectifier",
+        "educated": false
+      },
+      "signatureWeaponId": "21050026",
+      "signatureWeaponName": "Rime-Draped Sprouts",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -14833,7 +37717,152 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Rime-Draped Sprouts",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050026_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050026_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020031",
+              "name": "Lento Helix",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020032",
+              "name": "Adagio Helix",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020033",
+              "name": "Andante Helix",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020034",
+              "name": "Presto Helix",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -14861,6 +37890,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_14_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/lingyang-12be3e3b8011.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/lingyang-b85e18b088e5.webp",
+      "signatureWeapon": {
+        "id": "21040046",
+        "name": "Moongazer's Sigil",
+        "type": "Gauntlets",
+        "educated": false
+      },
+      "signatureWeaponId": "21040046",
+      "signatureWeaponName": "Moongazer's Sigil",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -15134,7 +38171,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Moongazer's Sigil",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040046_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040046_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020051",
+              "name": "Cadence Seed",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020052",
+              "name": "Cadence Bud",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020053",
+              "name": "Cadence Leaf",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            },
+            {
+              "id": "43020054",
+              "name": "Cadence Blossom",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
+              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                },
+                {
+                  "name": "Forgery Challenge: Moonlit Groves"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -15161,6 +38339,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_6_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/baizhi-f96d468376de.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/baizhi-acde6f786624.webp",
+      "signatureWeapon": {
+        "id": "21050036",
+        "name": "Stellar Symphony",
+        "type": "Rectifier",
+        "educated": false
+      },
+      "signatureWeaponId": "21050036",
+      "signatureWeaponName": "Stellar Symphony",
       "status": "live",
       "labels": [],
       "r": 4,
@@ -15428,7 +38614,152 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Stellar Symphony",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050027_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050027_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020031",
+              "name": "Lento Helix",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020032",
+              "name": "Adagio Helix",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020033",
+              "name": "Andante Helix",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020034",
+              "name": "Presto Helix",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -15455,6 +38786,14 @@
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/sanhua-5209c9b1dd45.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/sanhua-57e51bfbb2dc.webp",
+      "signatureWeapon": {
+        "id": "21020016",
+        "name": "Blazing Brilliance",
+        "type": "Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "21020016",
+      "signatureWeaponName": "Blazing Brilliance",
       "status": "live",
       "labels": [],
       "r": 4,
@@ -15725,7 +39064,148 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Blazing Brilliance",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020011",
+              "name": "Inert Metallic Drip",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020012",
+              "name": "Reactive Metallic Drip",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020013",
+              "name": "Polarized Metallic Drip",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020014",
+              "name": "Heterized Metallic Drip",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       }
     },
     {
@@ -15831,11 +39311,167 @@
       "iconZoom": 1.18,
       "art": "../../Database/Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
+      "signatureWeapon": {
+        "id": "21050036",
+        "name": "Stellar Symphony",
+        "type": "Rectifier",
+        "educated": false
+      },
+      "signatureWeaponId": "21050036",
+      "signatureWeaponName": "Stellar Symphony",
       "status": "live",
       "labels": [],
       "r": 5,
       "el": "Spectro",
-      "w": "Rectifier"
+      "w": "Rectifier",
+      "req": {
+        "weapon": {
+          "name": "Stellar Symphony",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050027_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050027_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020031",
+              "name": "Lento Helix",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020032",
+              "name": "Adagio Helix",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020033",
+              "name": "Andante Helix",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020034",
+              "name": "Presto Helix",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        },
+        "currency": 330000
+      }
     },
     {
       "id": "ww-yangyang-xuanling",

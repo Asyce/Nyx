@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { fetchTextWithFallback } from './lib/html-fetch.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..', '..');
@@ -33,6 +34,9 @@ function decodeHtmlEntities(s) {
 function cleanFileName(s) {
   return String(s || 'card')
     .replace(/[<>:"/\\|?*\u0000-\u001f]/g, '_')
+    // Deploy asset scanner treats commas/parens/brackets/backticks as ref
+    // terminators (e.g. "Awesome, Bro"), so keep them out of asset paths.
+    .replace(/[,()\[\]`]/g, '_')
     .replace(/\s+/g, ' ')
     .trim()
     .slice(0, 120);
@@ -122,17 +126,41 @@ function matchPlayable(values, aliases) {
   return null;
 }
 
-function writeCards(folderName, cards) {
+const CARD_ASSET_CDN = 'https://static.nanoka.cc/assets/gi';
+
+async function downloadCardAsset(icon, dest) {
+  if (!icon) return false;
+  const stem = String(icon).replace(/\.webp$/i, '');
+  try {
+    const response = await fetch(`${CARD_ASSET_CDN}/${stem}.webp`, {
+      redirect: 'follow',
+      headers: { 'user-agent': 'Mozilla/5.0 Nyx scraper' },
+      signal: AbortSignal.timeout(fetchTimeoutMs),
+    });
+    if (!response.ok) return false;
+    fs.writeFileSync(dest, Buffer.from(await response.arrayBuffer()));
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function writeCards(folderName, cards) {
   const folder = path.resolve(outDir, folderName);
   const assetsDir = path.resolve(folder, 'assets');
   ensureDir(assetsDir);
-  const rows = cards.map((card) => {
+  const rows = await mapLimit(cards, detailConcurrency, async (card) => {
+    const file = `${card.id}-${cleanFileName(card.name)}.webp`;
+    const dest = path.resolve(assetsDir, file);
     const src = assetForIcon(card.icon);
     let localAsset = null;
     if (src) {
-      const file = `${card.id}-${cleanFileName(card.name)}.webp`;
-      const dest = path.resolve(assetsDir, file);
       fs.copyFileSync(src, dest);
+      localAsset = path.relative(dbDir, dest).replace(/\\/g, '/');
+    } else if (await downloadCardAsset(card.icon, dest)) {
+      // Newer cards (e.g. new characters) aren't in the local item mirror yet;
+      // pull the card face straight from the Nanoka CDN into the local mirror
+      // so no art is left blank and nothing loads externally at runtime.
       localAsset = path.relative(dbDir, dest).replace(/\\/g, '/');
     }
     return { ...card, localAsset };
@@ -175,13 +203,11 @@ async function mapLimit(entries, limit, mapper) {
   return out;
 }
 
-const response = await fetch(sourceUrl, {
-  redirect: 'follow',
-  headers: { 'user-agent': 'Mozilla/5.0 Nyx scraper' },
-  signal: AbortSignal.timeout(fetchTimeoutMs),
+const html = await fetchTextWithFallback(sourceUrl, {
+  retries: 3,
+  timeoutMs: fetchTimeoutMs,
+  userAgent: 'Mozilla/5.0 Nyx scraper',
 });
-if (!response.ok) throw new Error(`Nanoka GCG scrape failed: ${response.status} ${response.statusText}`);
-const html = await response.text();
 
 ensureDir(path.resolve(outDir, 'raw'));
 fs.writeFileSync(path.resolve(outDir, 'raw', 'page.html'), html, 'utf8');
@@ -262,8 +288,8 @@ for (const [id, raw] of Object.entries(payloads.gcg)) {
   else otherCards.push(card);
 }
 
-const writtenCharacterCards = writeCards('character cards', characterCards);
-const writtenOtherCards = writeCards('other cards', otherCards);
+const writtenCharacterCards = await writeCards('character cards', characterCards);
+const writtenOtherCards = await writeCards('other cards', otherCards);
 
 const carded = new Set(writtenCharacterCards.map((card) => normName(card.playableCharacter)));
 const missingPlayableCharacters = [...new Set(playable

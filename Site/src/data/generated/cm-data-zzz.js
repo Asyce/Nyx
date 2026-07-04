@@ -64,6 +64,2816 @@
       ]
     }
   ],
+  "weapons": [
+    {
+      "id": "14150",
+      "name": "Angel in the Shell",
+      "rarity": 4,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1501.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1501.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14117",
+      "name": "Flamemaker Shaker",
+      "rarity": 4,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1171.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1171.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14133",
+      "name": "Flight of Fancy",
+      "rarity": 4,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1331.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1331.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14154",
+      "name": "Frostfall Sickle",
+      "rarity": 4,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1541.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1541.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14118",
+      "name": "Fusion Compiler",
+      "rarity": 4,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1181.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1181.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14109",
+      "name": "Hailstorm Shrine",
+      "rarity": 4,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1091.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1091.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14156",
+      "name": "Joyau Dore",
+      "rarity": 4,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1561.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1561.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14140",
+      "name": "Practiced Perfection",
+      "rarity": 4,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1401.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1401.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14126",
+      "name": "Sharpened Stinger",
+      "rarity": 4,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1261.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1261.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14122",
+      "name": "Timeweaver",
+      "rarity": 4,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1221.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1221.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14130",
+      "name": "Bellicose Blaze",
+      "rarity": 4,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1301.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1301.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14143",
+      "name": "Cloudcleave Radiance",
+      "rarity": 4,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1431.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1431.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14146",
+      "name": "Cordis Germina",
+      "rarity": 4,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1461.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1461.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14119",
+      "name": "Deep Sea Visitor",
+      "rarity": 4,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1191.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1191.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14132",
+      "name": "Heartstring Nocturne",
+      "rarity": 4,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1321.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1321.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14129",
+      "name": "Myriad Eclipse",
+      "rarity": 4,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1291.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1291.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14124",
+      "name": "Riot Suppressor Mark VI",
+      "rarity": 4,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1241.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1241.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14152",
+      "name": "Serpentine Seeker",
+      "rarity": 4,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1521.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1521.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14138",
+      "name": "Severed Innocence",
+      "rarity": 4,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1381.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1381.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14155",
+      "name": "Sol Exuvia",
+      "rarity": 4,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_04.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_04.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14102",
+      "name": "Steel Cushion",
+      "rarity": 4,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1021.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1021.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14104",
+      "name": "The Brimstone",
+      "rarity": 4,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1041.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1041.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14120",
+      "name": "Zanshin Herb Case",
+      "rarity": 4,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1201.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1201.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14134",
+      "name": "Half-Sugar Bunny",
+      "rarity": 4,
+      "weaponType": "Defence",
+      "type": "Defence",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1341.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1341.webp",
+      "items": [
+        {
+          "id": "101014",
+          "name": "Defense Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield01.webp"
+        },
+        {
+          "id": "101024",
+          "name": "Reinforced Defense Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield02.webp"
+        },
+        {
+          "id": "101034",
+          "name": "Specialized Defense Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14107",
+      "name": "Tusks of Fury",
+      "rarity": 4,
+      "weaponType": "Defence",
+      "type": "Defence",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1071.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1071.webp",
+      "items": [
+        {
+          "id": "101014",
+          "name": "Defense Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield01.webp"
+        },
+        {
+          "id": "101024",
+          "name": "Reinforced Defense Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield02.webp"
+        },
+        {
+          "id": "101034",
+          "name": "Specialized Defense Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14105",
+      "name": "Kraken's Cradle",
+      "rarity": 4,
+      "weaponType": "Rupture",
+      "type": "Rupture",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1051.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1051.webp",
+      "items": [
+        {
+          "id": "101015",
+          "name": "Rupture Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin01.webp"
+        },
+        {
+          "id": "101025",
+          "name": "Reinforced Rupture Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin02.webp"
+        },
+        {
+          "id": "101035",
+          "name": "Specialized Rupture Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14137",
+      "name": "Qingming Birdcage",
+      "rarity": 4,
+      "weaponType": "Rupture",
+      "type": "Rupture",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1371.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1371.webp",
+      "items": [
+        {
+          "id": "101015",
+          "name": "Rupture Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin01.webp"
+        },
+        {
+          "id": "101025",
+          "name": "Reinforced Rupture Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin02.webp"
+        },
+        {
+          "id": "101035",
+          "name": "Specialized Rupture Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14153",
+      "name": "Starlight Rider Faceplate",
+      "rarity": 4,
+      "weaponType": "Rupture",
+      "type": "Rupture",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1531.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1531.webp",
+      "items": [
+        {
+          "id": "101015",
+          "name": "Rupture Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin01.webp"
+        },
+        {
+          "id": "101025",
+          "name": "Reinforced Rupture Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin02.webp"
+        },
+        {
+          "id": "101035",
+          "name": "Specialized Rupture Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14147",
+      "name": "Wrathful Vajra",
+      "rarity": 4,
+      "weaponType": "Rupture",
+      "type": "Rupture",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1471.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1471.webp",
+      "items": [
+        {
+          "id": "101015",
+          "name": "Rupture Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin01.webp"
+        },
+        {
+          "id": "101025",
+          "name": "Reinforced Rupture Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin02.webp"
+        },
+        {
+          "id": "101035",
+          "name": "Specialized Rupture Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14116",
+      "name": "Blazing Laurel",
+      "rarity": 4,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1161.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1161.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14157",
+      "name": "Chief Sidekick",
+      "rarity": 4,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1571.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1571.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14110",
+      "name": "Hellfire Gears",
+      "rarity": 4,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1101.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1101.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14125",
+      "name": "Ice-Jade Teapot",
+      "rarity": 4,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1251.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1251.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14151",
+      "name": "Neon Fantasies",
+      "rarity": 4,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1511.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1511.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14139",
+      "name": "Roaring Fur-nace",
+      "rarity": 4,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1391.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1391.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14136",
+      "name": "Spectral Gaze",
+      "rarity": 4,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1361.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1361.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14114",
+      "name": "The Restrained",
+      "rarity": 4,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1141.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1141.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14148",
+      "name": "Yesterday Calls",
+      "rarity": 4,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1481.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1481.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14145",
+      "name": "Dreamlit Hearth",
+      "rarity": 4,
+      "weaponType": "Support",
+      "type": "Support",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1451.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1451.webp",
+      "items": [
+        {
+          "id": "101013",
+          "name": "Support Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+        },
+        {
+          "id": "101023",
+          "name": "Reinforced Support Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+        },
+        {
+          "id": "101033",
+          "name": "Specialized Support Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14131",
+      "name": "Elegant Vanity",
+      "rarity": 4,
+      "weaponType": "Support",
+      "type": "Support",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1311.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1311.webp",
+      "items": [
+        {
+          "id": "101013",
+          "name": "Support Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+        },
+        {
+          "id": "101023",
+          "name": "Reinforced Support Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+        },
+        {
+          "id": "101033",
+          "name": "Specialized Support Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14141",
+      "name": "Metanukimorphosis",
+      "rarity": 4,
+      "weaponType": "Support",
+      "type": "Support",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1411.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1411.webp",
+      "items": [
+        {
+          "id": "101013",
+          "name": "Support Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+        },
+        {
+          "id": "101023",
+          "name": "Reinforced Support Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+        },
+        {
+          "id": "101033",
+          "name": "Specialized Support Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14149",
+      "name": "Thoughtbop",
+      "rarity": 4,
+      "weaponType": "Support",
+      "type": "Support",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1491.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1491.webp",
+      "items": [
+        {
+          "id": "101013",
+          "name": "Support Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+        },
+        {
+          "id": "101023",
+          "name": "Reinforced Support Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+        },
+        {
+          "id": "101033",
+          "name": "Specialized Support Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14121",
+      "name": "Weeping Cradle",
+      "rarity": 4,
+      "weaponType": "Support",
+      "type": "Support",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1211.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1211.webp",
+      "items": [
+        {
+          "id": "101013",
+          "name": "Support Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+        },
+        {
+          "id": "101023",
+          "name": "Reinforced Support Component",
+          "qty": 32,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+        },
+        {
+          "id": "101033",
+          "name": "Specialized Support Component",
+          "qty": 30,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "13018",
+      "name": "Boisterous Echoes",
+      "rarity": 3,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_18.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_18.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13009",
+      "name": "Electro-Lip Gloss",
+      "rarity": 3,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_09.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_09.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13003",
+      "name": "Rainforest Gourmet",
+      "rarity": 3,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_03.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_03.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13128",
+      "name": "Roaring Ride",
+      "rarity": 3,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1281.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1281.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13008",
+      "name": "Weeping Gemini",
+      "rarity": 3,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_08.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_08.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "14001",
+      "name": "Cannon Rotor",
+      "rarity": 3,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_01.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_01.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13111",
+      "name": "Drill Rig - Red Axis",
+      "rarity": 3,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1111.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1111.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13013",
+      "name": "Gilded Blossom",
+      "rarity": 3,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_13.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_13.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13106",
+      "name": "Housekeeper",
+      "rarity": 3,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1061.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1061.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13015",
+      "name": "Marcato Desire",
+      "rarity": 3,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_15.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_15.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13004",
+      "name": "Starlight Engine",
+      "rarity": 3,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_04.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_04.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13108",
+      "name": "Starlight Engine Replica",
+      "rarity": 3,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1081.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1081.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13001",
+      "name": "Street Superstar",
+      "rarity": 3,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_01.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_01.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13112",
+      "name": "Big Cylinder",
+      "rarity": 3,
+      "weaponType": "Defence",
+      "type": "Defence",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1121.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1121.webp",
+      "items": [
+        {
+          "id": "101014",
+          "name": "Defense Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield01.webp"
+        },
+        {
+          "id": "101024",
+          "name": "Reinforced Defense Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield02.webp"
+        },
+        {
+          "id": "101034",
+          "name": "Specialized Defense Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13010",
+      "name": "Bunny Band",
+      "rarity": 3,
+      "weaponType": "Defence",
+      "type": "Defence",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_10.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_10.webp",
+      "items": [
+        {
+          "id": "101014",
+          "name": "Defense Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield01.webp"
+        },
+        {
+          "id": "101024",
+          "name": "Reinforced Defense Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield02.webp"
+        },
+        {
+          "id": "101034",
+          "name": "Specialized Defense Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13007",
+      "name": "Original Transmorpher",
+      "rarity": 3,
+      "weaponType": "Defence",
+      "type": "Defence",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_07.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_07.webp",
+      "items": [
+        {
+          "id": "101014",
+          "name": "Defense Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield01.webp"
+        },
+        {
+          "id": "101024",
+          "name": "Reinforced Defense Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield02.webp"
+        },
+        {
+          "id": "101034",
+          "name": "Specialized Defense Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13127",
+      "name": "Peacekeeper - Specialized",
+      "rarity": 3,
+      "weaponType": "Defence",
+      "type": "Defence",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1271.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1271.webp",
+      "items": [
+        {
+          "id": "101014",
+          "name": "Defense Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield01.webp"
+        },
+        {
+          "id": "101024",
+          "name": "Reinforced Defense Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield02.webp"
+        },
+        {
+          "id": "101034",
+          "name": "Specialized Defense Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13016",
+      "name": "Reel Projector",
+      "rarity": 3,
+      "weaponType": "Defence",
+      "type": "Defence",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_16.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_16.webp",
+      "items": [
+        {
+          "id": "101014",
+          "name": "Defense Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield01.webp"
+        },
+        {
+          "id": "101024",
+          "name": "Reinforced Defense Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield02.webp"
+        },
+        {
+          "id": "101034",
+          "name": "Specialized Defense Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13011",
+      "name": "Spring Embrace",
+      "rarity": 3,
+      "weaponType": "Defence",
+      "type": "Defence",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_11.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_11.webp",
+      "items": [
+        {
+          "id": "101014",
+          "name": "Defense Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield01.webp"
+        },
+        {
+          "id": "101024",
+          "name": "Reinforced Defense Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield02.webp"
+        },
+        {
+          "id": "101034",
+          "name": "Specialized Defense Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13142",
+      "name": "Tremor Trigram Vessel",
+      "rarity": 3,
+      "weaponType": "Defence",
+      "type": "Defence",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1421.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1421.webp",
+      "items": [
+        {
+          "id": "101014",
+          "name": "Defense Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield01.webp"
+        },
+        {
+          "id": "101024",
+          "name": "Reinforced Defense Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield02.webp"
+        },
+        {
+          "id": "101034",
+          "name": "Specialized Defense Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13019",
+      "name": "Cauldron of Clarity",
+      "rarity": 3,
+      "weaponType": "Rupture",
+      "type": "Rupture",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_19.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_19.webp",
+      "items": [
+        {
+          "id": "101015",
+          "name": "Rupture Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin01.webp"
+        },
+        {
+          "id": "101025",
+          "name": "Reinforced Rupture Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin02.webp"
+        },
+        {
+          "id": "101035",
+          "name": "Specialized Rupture Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13144",
+      "name": "Grill O'Wisp",
+      "rarity": 3,
+      "weaponType": "Rupture",
+      "type": "Rupture",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1441.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1441.webp",
+      "items": [
+        {
+          "id": "101015",
+          "name": "Rupture Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin01.webp"
+        },
+        {
+          "id": "101025",
+          "name": "Reinforced Rupture Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin02.webp"
+        },
+        {
+          "id": "101035",
+          "name": "Specialized Rupture Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13012",
+      "name": "Puzzle Sphere",
+      "rarity": 3,
+      "weaponType": "Rupture",
+      "type": "Rupture",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_12.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_12.webp",
+      "items": [
+        {
+          "id": "101015",
+          "name": "Rupture Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin01.webp"
+        },
+        {
+          "id": "101025",
+          "name": "Reinforced Rupture Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin02.webp"
+        },
+        {
+          "id": "101035",
+          "name": "Specialized Rupture Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13014",
+      "name": "Radiowave Journey",
+      "rarity": 3,
+      "weaponType": "Rupture",
+      "type": "Rupture",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_14.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_14.webp",
+      "items": [
+        {
+          "id": "101015",
+          "name": "Rupture Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin01.webp"
+        },
+        {
+          "id": "101025",
+          "name": "Reinforced Rupture Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin02.webp"
+        },
+        {
+          "id": "101035",
+          "name": "Specialized Rupture Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13135",
+      "name": "Box Cutter",
+      "rarity": 3,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1351.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1351.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13101",
+      "name": "Demara Battery Mark II",
+      "rarity": 3,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1011.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1011.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13006",
+      "name": "Precious Fossilized Core",
+      "rarity": 3,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_06.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_06.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "14003",
+      "name": "Six Shooter",
+      "rarity": 3,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_03.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_03.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13005",
+      "name": "Steam Oven",
+      "rarity": 3,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_05.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_05.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13020",
+      "name": "The Simmering Pot",
+      "rarity": 3,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_20.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_20.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13113",
+      "name": "Bashful Demon",
+      "rarity": 3,
+      "weaponType": "Support",
+      "type": "Support",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1131.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1131.webp",
+      "items": [
+        {
+          "id": "101013",
+          "name": "Support Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+        },
+        {
+          "id": "101023",
+          "name": "Reinforced Support Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+        },
+        {
+          "id": "101033",
+          "name": "Specialized Support Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13115",
+      "name": "Kaboom the Cannon",
+      "rarity": 3,
+      "weaponType": "Support",
+      "type": "Support",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1151.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1151.webp",
+      "items": [
+        {
+          "id": "101013",
+          "name": "Support Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+        },
+        {
+          "id": "101023",
+          "name": "Reinforced Support Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+        },
+        {
+          "id": "101033",
+          "name": "Specialized Support Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13002",
+      "name": "Slice of Time",
+      "rarity": 3,
+      "weaponType": "Support",
+      "type": "Support",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_02.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_Common_02.webp",
+      "items": [
+        {
+          "id": "101013",
+          "name": "Support Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+        },
+        {
+          "id": "101023",
+          "name": "Reinforced Support Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+        },
+        {
+          "id": "101033",
+          "name": "Specialized Support Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13103",
+      "name": "The Vault",
+      "rarity": 3,
+      "weaponType": "Support",
+      "type": "Support",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1031.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1031.webp",
+      "items": [
+        {
+          "id": "101013",
+          "name": "Support Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+        },
+        {
+          "id": "101023",
+          "name": "Reinforced Support Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+        },
+        {
+          "id": "101033",
+          "name": "Specialized Support Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "14002",
+      "name": "Unfettered Game Ball",
+      "rarity": 3,
+      "weaponType": "Support",
+      "type": "Support",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_02.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_02.webp",
+      "items": [
+        {
+          "id": "101013",
+          "name": "Support Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+        },
+        {
+          "id": "101023",
+          "name": "Reinforced Support Component",
+          "qty": 26,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+        },
+        {
+          "id": "101033",
+          "name": "Specialized Support Component",
+          "qty": 24,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+        }
+      ],
+      "cost": 320000
+    }
+  ],
   "roster": [
     {
       "id": "zzz-aria",
@@ -89,6 +2899,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/aria-746e633109ad.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/aria-85e6eab1e21b.webp",
+      "signatureWeapon": {
+        "id": "14150",
+        "name": "Angel in the Shell",
+        "type": "Anomaly",
+        "educated": false
+      },
+      "signatureWeaponId": "14150",
+      "signatureWeaponName": "Angel in the Shell",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -241,7 +3059,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Angel in the Shell",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1501.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1501.webp",
+          "items": [
+            {
+              "id": "101012",
+              "name": "Anomaly Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+            },
+            {
+              "id": "101022",
+              "name": "Reinforced Anomaly Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+            },
+            {
+              "id": "101032",
+              "name": "Specialized Anomaly Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       },
       "recent": 1
     },
@@ -269,6 +3119,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle32.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/burnice-00756e804618.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/burnice-293c8567a0e0.webp",
+      "signatureWeapon": {
+        "id": "14117",
+        "name": "Flamemaker Shaker",
+        "type": "Anomaly",
+        "educated": false
+      },
+      "signatureWeaponId": "14117",
+      "signatureWeaponName": "Flamemaker Shaker",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -422,7 +3280,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Flamemaker Shaker",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1171.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1171.webp",
+          "items": [
+            {
+              "id": "101012",
+              "name": "Anomaly Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+            },
+            {
+              "id": "101022",
+              "name": "Reinforced Anomaly Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+            },
+            {
+              "id": "101032",
+              "name": "Specialized Anomaly Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       },
       "recent": 1
     },
@@ -450,6 +3340,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle20.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/grace-818f41423b37.webp",
       "card": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole20.webp",
+      "signatureWeapon": {
+        "id": "14122",
+        "name": "Timeweaver",
+        "type": "Anomaly",
+        "educated": false
+      },
+      "signatureWeaponId": "14122",
+      "signatureWeaponName": "Timeweaver",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -603,7 +3501,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Timeweaver",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1221.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1221.webp",
+          "items": [
+            {
+              "id": "101012",
+              "name": "Anomaly Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+            },
+            {
+              "id": "101022",
+              "name": "Reinforced Anomaly Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+            },
+            {
+              "id": "101032",
+              "name": "Specialized Anomaly Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       },
       "recent": 1
     },
@@ -631,6 +3561,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle59.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/nangong-yu-27f17dc0ec46.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/nangong-yu-f9e4f44692a6.webp",
+      "signatureWeapon": {
+        "id": "14151",
+        "name": "Neon Fantasies",
+        "type": "Stun",
+        "educated": false
+      },
+      "signatureWeaponId": "14151",
+      "signatureWeaponName": "Neon Fantasies",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -784,7 +3722,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Neon Fantasies",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1511.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1511.webp",
+          "items": [
+            {
+              "id": "101011",
+              "name": "Stun Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+            },
+            {
+              "id": "101021",
+              "name": "Reinforced Stun Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+            },
+            {
+              "id": "101031",
+              "name": "Specialized Stun Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       },
       "recent": 1
     },
@@ -812,6 +3782,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle41.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/vivian-68e896e0a867.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/vivian-482bcf62de00.webp",
+      "signatureWeapon": {
+        "id": "14133",
+        "name": "Flight of Fancy",
+        "type": "Anomaly",
+        "educated": false
+      },
+      "signatureWeaponId": "14133",
+      "signatureWeaponName": "Flight of Fancy",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -965,7 +3943,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Flight of Fancy",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1331.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1331.webp",
+          "items": [
+            {
+              "id": "101012",
+              "name": "Anomaly Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+            },
+            {
+              "id": "101022",
+              "name": "Reinforced Anomaly Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+            },
+            {
+              "id": "101032",
+              "name": "Specialized Anomaly Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       },
       "recent": 1
     },
@@ -986,6 +3996,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle49.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/orphie-magus-e44aeea91ef9.webp",
       "card": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole49.webp",
+      "signatureWeapon": {
+        "id": "14130",
+        "name": "Bellicose Blaze",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14130",
+      "signatureWeaponName": "Bellicose Blaze",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -1139,7 +4157,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Bellicose Blaze",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1301.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1301.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       },
       "recent": 1
     },
@@ -1160,6 +4210,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole63.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/pyrois-4c5bdf76ba79.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
+      "signatureWeapon": {
+        "id": "14155",
+        "name": "Sol Exuvia",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14155",
+      "signatureWeaponName": "Sol Exuvia",
       "status": "live",
       "labels": [
         "New"
@@ -1315,7 +4373,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Sol Exuvia",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_04.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_04.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       },
       "recent": 1
     },
@@ -1344,6 +4434,14 @@
       "iconZoom": 1.24,
       "art": "../../Database/Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
+      "signatureWeapon": {
+        "id": "14156",
+        "name": "Joyau Dore",
+        "type": "Anomaly",
+        "educated": false
+      },
+      "signatureWeaponId": "14156",
+      "signatureWeaponName": "Joyau Dore",
       "status": "live",
       "labels": [
         "New"
@@ -1499,7 +4597,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Joyau Dore",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1561.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1561.webp",
+          "items": [
+            {
+              "id": "101012",
+              "name": "Anomaly Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+            },
+            {
+              "id": "101022",
+              "name": "Reinforced Anomaly Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+            },
+            {
+              "id": "101032",
+              "name": "Specialized Anomaly Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       },
       "recent": 1
     },
@@ -1527,6 +4657,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle55.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/ye-shunguang-bdd0b5faf96c.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/ye-shunguang-df29444e0ab2.webp",
+      "signatureWeapon": {
+        "id": "14143",
+        "name": "Cloudcleave Radiance",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14143",
+      "signatureWeaponName": "Cloudcleave Radiance",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -1679,7 +4817,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Cloudcleave Radiance",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1431.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1431.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       },
       "recent": 1
     },
@@ -1707,6 +4877,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle46.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/alice-a3e05b9a7470.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/alice-3068331af0bc.webp",
+      "signatureWeapon": {
+        "id": "14140",
+        "name": "Practiced Perfection",
+        "type": "Anomaly",
+        "educated": false
+      },
+      "signatureWeaponId": "14140",
+      "signatureWeaponName": "Practiced Perfection",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -1860,7 +5038,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Practiced Perfection",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1401.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1401.webp",
+          "items": [
+            {
+              "id": "101012",
+              "name": "Anomaly Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+            },
+            {
+              "id": "101022",
+              "name": "Reinforced Anomaly Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+            },
+            {
+              "id": "101032",
+              "name": "Specialized Anomaly Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -1887,6 +5097,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle36.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/astra-yao-524011997577.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/astra-yao-9e47eb946906.webp",
+      "signatureWeapon": {
+        "id": "14131",
+        "name": "Elegant Vanity",
+        "type": "Support",
+        "educated": false
+      },
+      "signatureWeaponId": "14131",
+      "signatureWeaponName": "Elegant Vanity",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -2040,7 +5258,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Elegant Vanity",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1311.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1311.webp",
+          "items": [
+            {
+              "id": "101013",
+              "name": "Support Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+            },
+            {
+              "id": "101023",
+              "name": "Reinforced Support Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+            },
+            {
+              "id": "101033",
+              "name": "Specialized Support Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -2067,6 +5317,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle53.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/banyue-f74ed4cfb61e.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/banyue-0c1cb4ce5ba5.webp",
+      "signatureWeapon": {
+        "id": "14147",
+        "name": "Wrathful Vajra",
+        "type": "Rupture",
+        "educated": false
+      },
+      "signatureWeaponId": "14147",
+      "signatureWeaponName": "Wrathful Vajra",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -2220,7 +5478,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Wrathful Vajra",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1471.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1471.webp",
+          "items": [
+            {
+              "id": "101015",
+              "name": "Rupture Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin01.webp"
+            },
+            {
+              "id": "101025",
+              "name": "Reinforced Rupture Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin02.webp"
+            },
+            {
+              "id": "101035",
+              "name": "Specialized Rupture Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -2247,6 +5537,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle25.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/caesar-b1d63aed5ee9.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/caesar-1391fa604454.webp",
+      "signatureWeapon": {
+        "id": "14107",
+        "name": "Tusks of Fury",
+        "type": "Defence",
+        "educated": false
+      },
+      "signatureWeaponId": "14107",
+      "signatureWeaponName": "Tusks of Fury",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -2400,7 +5698,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Tusks of Fury",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1071.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1071.webp",
+          "items": [
+            {
+              "id": "101014",
+              "name": "Defense Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield01.webp"
+            },
+            {
+              "id": "101024",
+              "name": "Reinforced Defense Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield02.webp"
+            },
+            {
+              "id": "101034",
+              "name": "Specialized Defense Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -2427,6 +5757,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle60.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/cissia-5a04d57305a5.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/cissia-2e12f3602dee.webp",
+      "signatureWeapon": {
+        "id": "14152",
+        "name": "Serpentine Seeker",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14152",
+      "signatureWeaponName": "Serpentine Seeker",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -2580,7 +5918,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Serpentine Seeker",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1521.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1521.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -2607,6 +5977,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/dialyn-ff43f11449fb.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/dialyn-0237631c9941.webp",
+      "signatureWeapon": {
+        "id": "14148",
+        "name": "Yesterday Calls",
+        "type": "Stun",
+        "educated": false
+      },
+      "signatureWeaponId": "14148",
+      "signatureWeaponName": "Yesterday Calls",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -2760,7 +6138,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Yesterday Calls",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1481.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1481.webp",
+          "items": [
+            {
+              "id": "101011",
+              "name": "Stun Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+            },
+            {
+              "id": "101021",
+              "name": "Reinforced Stun Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+            },
+            {
+              "id": "101031",
+              "name": "Specialized Stun Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -2787,6 +6197,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle21.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/ellen-aaf7bba6a047.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/ellen-3b3592fe3c69.webp",
+      "signatureWeapon": {
+        "id": "14119",
+        "name": "Deep Sea Visitor",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14119",
+      "signatureWeaponName": "Deep Sea Visitor",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -2940,7 +6358,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Deep Sea Visitor",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1191.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1191.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -2967,6 +6417,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle37.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/evelyn-40cacb3ba05c.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/evelyn-a426018184c5.webp",
+      "signatureWeapon": {
+        "id": "14132",
+        "name": "Heartstring Nocturne",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14132",
+      "signatureWeaponName": "Heartstring Nocturne",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -3120,7 +6578,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Heartstring Nocturne",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1321.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1321.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -3147,6 +6637,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/harumasa-afd749153d1a.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/harumasa-0942d53bcdf0.webp",
+      "signatureWeapon": {
+        "id": "14146",
+        "name": "Cordis Germina",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14146",
+      "signatureWeaponName": "Cordis Germina",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -3300,7 +6798,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Cordis Germina",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1461.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1461.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -3327,6 +6857,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle42.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/hugo-d2392f8cd65f.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/hugo-fde01c1b39cb.webp",
+      "signatureWeapon": {
+        "id": "14129",
+        "name": "Myriad Eclipse",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14129",
+      "signatureWeaponName": "Myriad Eclipse",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -3480,7 +7018,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Myriad Eclipse",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1291.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1291.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -3507,6 +7077,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle43.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/ju-fufu-083ada970294.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/ju-fufu-ed2fd934b5c6.webp",
+      "signatureWeapon": {
+        "id": "14139",
+        "name": "Roaring Fur-nace",
+        "type": "Stun",
+        "educated": false
+      },
+      "signatureWeaponId": "14139",
+      "signatureWeaponName": "Roaring Fur-nace",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -3660,7 +7238,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Roaring Fur-nace",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1391.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1391.webp",
+          "items": [
+            {
+              "id": "101011",
+              "name": "Stun Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+            },
+            {
+              "id": "101021",
+              "name": "Reinforced Stun Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+            },
+            {
+              "id": "101031",
+              "name": "Specialized Stun Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -3687,6 +7297,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle14.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/koleda-b9f1d4fb1aad.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/koleda-e10522f3c747.webp",
+      "signatureWeapon": {
+        "id": "14110",
+        "name": "Hellfire Gears",
+        "type": "Stun",
+        "educated": false
+      },
+      "signatureWeaponId": "14110",
+      "signatureWeaponName": "Hellfire Gears",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -3840,7 +7458,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Hellfire Gears",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1101.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1101.webp",
+          "items": [
+            {
+              "id": "101011",
+              "name": "Stun Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+            },
+            {
+              "id": "101021",
+              "name": "Reinforced Stun Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+            },
+            {
+              "id": "101031",
+              "name": "Specialized Stun Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -3867,6 +7517,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle26.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/lighter-dc3a9a94a8f3.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/lighter-f660ea594d47.webp",
+      "signatureWeapon": {
+        "id": "14116",
+        "name": "Blazing Laurel",
+        "type": "Stun",
+        "educated": false
+      },
+      "signatureWeaponId": "14116",
+      "signatureWeaponName": "Blazing Laurel",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -4020,7 +7678,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Blazing Laurel",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1161.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1161.webp",
+          "items": [
+            {
+              "id": "101011",
+              "name": "Stun Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+            },
+            {
+              "id": "101021",
+              "name": "Reinforced Stun Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+            },
+            {
+              "id": "101031",
+              "name": "Specialized Stun Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -4047,6 +7737,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle50.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/lucia-b3f7c6c00e60.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/lucia-a0197eabc9aa.webp",
+      "signatureWeapon": {
+        "id": "14145",
+        "name": "Dreamlit Hearth",
+        "type": "Support",
+        "educated": false
+      },
+      "signatureWeaponId": "14145",
+      "signatureWeaponName": "Dreamlit Hearth",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -4200,7 +7898,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Dreamlit Hearth",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1451.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1451.webp",
+          "items": [
+            {
+              "id": "101013",
+              "name": "Support Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+            },
+            {
+              "id": "101023",
+              "name": "Reinforced Support Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+            },
+            {
+              "id": "101033",
+              "name": "Specialized Support Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -4227,6 +7957,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle18.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/lycaon-81640864dfb8.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/lycaon-e706e87c67e0.webp",
+      "signatureWeapon": {
+        "id": "14116",
+        "name": "Blazing Laurel",
+        "type": "Stun",
+        "educated": false
+      },
+      "signatureWeaponId": "14116",
+      "signatureWeaponName": "Blazing Laurel",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -4380,7 +8118,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Blazing Laurel",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1161.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1161.webp",
+          "items": [
+            {
+              "id": "101011",
+              "name": "Stun Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+            },
+            {
+              "id": "101021",
+              "name": "Reinforced Stun Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+            },
+            {
+              "id": "101031",
+              "name": "Specialized Stun Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -4407,6 +8177,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle13.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/miyabi-77dced7400d3.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/miyabi-6ec442dcf805.webp",
+      "signatureWeapon": {
+        "id": "14109",
+        "name": "Hailstorm Shrine",
+        "type": "Anomaly",
+        "educated": false
+      },
+      "signatureWeaponId": "14109",
+      "signatureWeaponName": "Hailstorm Shrine",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -4560,7 +8338,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Hailstorm Shrine",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1091.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1091.webp",
+          "items": [
+            {
+              "id": "101012",
+              "name": "Anomaly Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+            },
+            {
+              "id": "101022",
+              "name": "Reinforced Anomaly Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+            },
+            {
+              "id": "101032",
+              "name": "Specialized Anomaly Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -4584,6 +8394,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle11.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/nekomata-c03741fa6151.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/nekomata-b9bdae637f03.webp",
+      "signatureWeapon": {
+        "id": "14146",
+        "name": "Cordis Germina",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14146",
+      "signatureWeaponName": "Cordis Germina",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -4737,7 +8555,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Cordis Germina",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1461.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1461.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -4764,6 +8614,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle61.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/promeia-1aa59734d9f7.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/promeia-a03c6cd391d2.webp",
+      "signatureWeapon": {
+        "id": "14154",
+        "name": "Frostfall Sickle",
+        "type": "Anomaly",
+        "educated": false
+      },
+      "signatureWeaponId": "14154",
+      "signatureWeaponName": "Frostfall Sickle",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -4917,7 +8775,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Frostfall Sickle",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1541.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1541.webp",
+          "items": [
+            {
+              "id": "101012",
+              "name": "Anomaly Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+            },
+            {
+              "id": "101022",
+              "name": "Reinforced Anomaly Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+            },
+            {
+              "id": "101032",
+              "name": "Specialized Anomaly Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -4944,6 +8834,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle29.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/qingyi-41754ae2151b.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/qingyi-d4428a1ed5b7.webp",
+      "signatureWeapon": {
+        "id": "14125",
+        "name": "Ice-Jade Teapot",
+        "type": "Stun",
+        "educated": false
+      },
+      "signatureWeaponId": "14125",
+      "signatureWeaponName": "Ice-Jade Teapot",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -5097,7 +8995,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Ice-Jade Teapot",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1251.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1251.webp",
+          "items": [
+            {
+              "id": "101011",
+              "name": "Stun Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+            },
+            {
+              "id": "101021",
+              "name": "Reinforced Stun Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+            },
+            {
+              "id": "101031",
+              "name": "Specialized Stun Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -5124,6 +9054,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle22.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/rina-e34c2ce33c6c.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/rina-c1e5e69afdcd.webp",
+      "signatureWeapon": {
+        "id": "14121",
+        "name": "Weeping Cradle",
+        "type": "Support",
+        "educated": false
+      },
+      "signatureWeaponId": "14121",
+      "signatureWeaponName": "Weeping Cradle",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -5277,7 +9215,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Weeping Cradle",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1211.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1211.webp",
+          "items": [
+            {
+              "id": "101013",
+              "name": "Support Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+            },
+            {
+              "id": "101023",
+              "name": "Reinforced Support Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+            },
+            {
+              "id": "101033",
+              "name": "Specialized Support Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -5304,6 +9274,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle48.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/seed-03f6455f3ab6.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/seed-77ec54cdcb4f.webp",
+      "signatureWeapon": {
+        "id": "14146",
+        "name": "Cordis Germina",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14146",
+      "signatureWeaponName": "Cordis Germina",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -5457,7 +9435,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Cordis Germina",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1461.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1461.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -5484,6 +9494,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle05.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/soldier-11-c75f3e4f2c7c.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/soldier-11-e38c6c583d4e.webp",
+      "signatureWeapon": {
+        "id": "14132",
+        "name": "Heartstring Nocturne",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14132",
+      "signatureWeaponName": "Heartstring Nocturne",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -5637,7 +9655,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Heartstring Nocturne",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1321.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1321.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -5664,6 +9714,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle58.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/sunna-48eb55c7efc5.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/sunna-f8d4ae5bce0c.webp",
+      "signatureWeapon": {
+        "id": "14149",
+        "name": "Thoughtbop",
+        "type": "Support",
+        "educated": false
+      },
+      "signatureWeaponId": "14149",
+      "signatureWeaponName": "Thoughtbop",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -5816,7 +9874,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Thoughtbop",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1491.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1491.webp",
+          "items": [
+            {
+              "id": "101013",
+              "name": "Support Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+            },
+            {
+              "id": "101023",
+              "name": "Reinforced Support Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+            },
+            {
+              "id": "101033",
+              "name": "Specialized Support Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -5843,6 +9933,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle39.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/trigger-516b78c67182.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/trigger-d5bdbb4a5e1f.webp",
+      "signatureWeapon": {
+        "id": "14136",
+        "name": "Spectral Gaze",
+        "type": "Stun",
+        "educated": false
+      },
+      "signatureWeaponId": "14136",
+      "signatureWeaponName": "Spectral Gaze",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -5996,7 +10094,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Spectral Gaze",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1361.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1361.webp",
+          "items": [
+            {
+              "id": "101011",
+              "name": "Stun Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+            },
+            {
+              "id": "101021",
+              "name": "Reinforced Stun Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+            },
+            {
+              "id": "101031",
+              "name": "Specialized Stun Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -6023,6 +10153,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle31.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/yanagi-aef45a0459b1.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/yanagi-177b4ce659ce.webp",
+      "signatureWeapon": {
+        "id": "14122",
+        "name": "Timeweaver",
+        "type": "Anomaly",
+        "educated": false
+      },
+      "signatureWeaponId": "14122",
+      "signatureWeaponName": "Timeweaver",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -6176,7 +10314,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Timeweaver",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1221.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1221.webp",
+          "items": [
+            {
+              "id": "101012",
+              "name": "Anomaly Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+            },
+            {
+              "id": "101022",
+              "name": "Reinforced Anomaly Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+            },
+            {
+              "id": "101032",
+              "name": "Specialized Anomaly Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -6203,6 +10373,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle52.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/yidhari-59c8d8a979e1.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/yidhari-c82ab9906959.webp",
+      "signatureWeapon": {
+        "id": "14105",
+        "name": "Kraken's Cradle",
+        "type": "Rupture",
+        "educated": false
+      },
+      "signatureWeaponId": "14105",
+      "signatureWeaponName": "Kraken's Cradle",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -6356,7 +10534,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Kraken's Cradle",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1051.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1051.webp",
+          "items": [
+            {
+              "id": "101015",
+              "name": "Rupture Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin01.webp"
+            },
+            {
+              "id": "101025",
+              "name": "Reinforced Rupture Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin02.webp"
+            },
+            {
+              "id": "101035",
+              "name": "Specialized Rupture Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -6383,6 +10593,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle44.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/yixuan-b71d7689bc1d.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/yixuan-ad55b88ea3b6.webp",
+      "signatureWeapon": {
+        "id": "14137",
+        "name": "Qingming Birdcage",
+        "type": "Rupture",
+        "educated": false
+      },
+      "signatureWeaponId": "14137",
+      "signatureWeaponName": "Qingming Birdcage",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -6536,7 +10754,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Qingming Birdcage",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1371.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1371.webp",
+          "items": [
+            {
+              "id": "101015",
+              "name": "Rupture Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin01.webp"
+            },
+            {
+              "id": "101025",
+              "name": "Reinforced Rupture Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin02.webp"
+            },
+            {
+              "id": "101035",
+              "name": "Specialized Rupture Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -6563,6 +10813,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle47.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/yuzuha-46be4cd37d33.webp",
       "card": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole47.webp",
+      "signatureWeapon": {
+        "id": "14121",
+        "name": "Weeping Cradle",
+        "type": "Support",
+        "educated": false
+      },
+      "signatureWeaponId": "14121",
+      "signatureWeaponName": "Weeping Cradle",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -6716,7 +10974,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Weeping Cradle",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1211.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1211.webp",
+          "items": [
+            {
+              "id": "101013",
+              "name": "Support Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+            },
+            {
+              "id": "101023",
+              "name": "Reinforced Support Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+            },
+            {
+              "id": "101033",
+              "name": "Specialized Support Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -6743,6 +11033,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle56.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/zhao-7c786d3090b7.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/zhao-f906d81225cd.webp",
+      "signatureWeapon": {
+        "id": "14134",
+        "name": "Half-Sugar Bunny",
+        "type": "Defence",
+        "educated": false
+      },
+      "signatureWeaponId": "14134",
+      "signatureWeaponName": "Half-Sugar Bunny",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -6895,7 +11193,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Half-Sugar Bunny",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1341.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1341.webp",
+          "items": [
+            {
+              "id": "101014",
+              "name": "Defense Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield01.webp"
+            },
+            {
+              "id": "101024",
+              "name": "Reinforced Defense Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield02.webp"
+            },
+            {
+              "id": "101034",
+              "name": "Specialized Defense Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -6922,6 +11252,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle23.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/zhu-yuan-1eeccac3020e.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/zhu-yuan-1a293fc449ae.webp",
+      "signatureWeapon": {
+        "id": "14146",
+        "name": "Cordis Germina",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14146",
+      "signatureWeaponName": "Cordis Germina",
       "status": "live",
       "labels": [],
       "r": "S",
@@ -7075,7 +11413,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Cordis Germina",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1461.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1461.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -7102,6 +11472,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle01.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/anby-9f2294728151.webp",
       "card": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole01.webp",
+      "signatureWeapon": {
+        "id": "14110",
+        "name": "Hellfire Gears",
+        "type": "Stun",
+        "educated": false
+      },
+      "signatureWeaponId": "14110",
+      "signatureWeaponName": "Hellfire Gears",
       "status": "live",
       "labels": [],
       "r": "A",
@@ -7255,7 +11633,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Hellfire Gears",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1101.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1101.webp",
+          "items": [
+            {
+              "id": "101011",
+              "name": "Stun Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+            },
+            {
+              "id": "101021",
+              "name": "Reinforced Stun Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+            },
+            {
+              "id": "101031",
+              "name": "Specialized Stun Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -7282,6 +11692,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle15.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/anton-4e5e8d4cf8c5.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/anton-e474583d3963.webp",
+      "signatureWeapon": {
+        "id": "14132",
+        "name": "Heartstring Nocturne",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14132",
+      "signatureWeaponName": "Heartstring Nocturne",
       "status": "live",
       "labels": [],
       "r": "A",
@@ -7435,7 +11853,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Heartstring Nocturne",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1321.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1321.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -7462,6 +11912,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle16.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/ben-453d193f0424.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/ben-46b1afc0f1e3.webp",
+      "signatureWeapon": {
+        "id": "13142",
+        "name": "Tremor Trigram Vessel",
+        "type": "Defence",
+        "educated": false
+      },
+      "signatureWeaponId": "13142",
+      "signatureWeaponName": "Tremor Trigram Vessel",
       "status": "live",
       "labels": [],
       "r": "A",
@@ -7615,7 +12073,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4025000,
+        "weapon": {
+          "name": "Tremor Trigram Vessel",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1421.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1421.webp",
+          "items": [
+            {
+              "id": "101014",
+              "name": "Defense Component",
+              "qty": 3,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield01.webp"
+            },
+            {
+              "id": "101024",
+              "name": "Reinforced Defense Component",
+              "qty": 26,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield02.webp"
+            },
+            {
+              "id": "101034",
+              "name": "Specialized Defense Component",
+              "qty": 24,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield03.webp"
+            }
+          ],
+          "cost": 320000
+        }
       }
     },
     {
@@ -7642,6 +12132,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle10.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/billy-142f00f4ec7a.webp",
       "card": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole10.webp",
+      "signatureWeapon": {
+        "id": "14104",
+        "name": "The Brimstone",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14104",
+      "signatureWeaponName": "The Brimstone",
       "status": "live",
       "labels": [],
       "r": "A",
@@ -7795,7 +12293,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "The Brimstone",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1041.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1041.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -7822,6 +12352,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle09.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/corin-04cc14dacf63.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/corin-61bc3852fb48.webp",
+      "signatureWeapon": {
+        "id": "14146",
+        "name": "Cordis Germina",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14146",
+      "signatureWeaponName": "Cordis Germina",
       "status": "live",
       "labels": [],
       "r": "A",
@@ -7975,7 +12513,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Cordis Germina",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1461.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1461.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -7998,6 +12568,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle27.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/lucy-8522160730d1.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/lucy-d81b3141fde3.webp",
+      "signatureWeapon": {
+        "id": "13115",
+        "name": "Kaboom the Cannon",
+        "type": "Support",
+        "educated": false
+      },
+      "signatureWeaponId": "13115",
+      "signatureWeaponName": "Kaboom the Cannon",
       "status": "live",
       "labels": [],
       "r": "A",
@@ -8151,7 +12729,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4025000,
+        "weapon": {
+          "name": "Kaboom the Cannon",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1151.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1151.webp",
+          "items": [
+            {
+              "id": "101013",
+              "name": "Support Component",
+              "qty": 3,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+            },
+            {
+              "id": "101023",
+              "name": "Reinforced Support Component",
+              "qty": 26,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+            },
+            {
+              "id": "101033",
+              "name": "Specialized Support Component",
+              "qty": 24,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+            }
+          ],
+          "cost": 320000
+        }
       }
     },
     {
@@ -8178,6 +12788,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle51.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/manato-7f4b75e1c466.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/manato-8bec1392bd95.webp",
+      "signatureWeapon": {
+        "id": "13144",
+        "name": "Grill O'Wisp",
+        "type": "Rupture",
+        "educated": false
+      },
+      "signatureWeaponId": "13144",
+      "signatureWeaponName": "Grill O'Wisp",
       "status": "live",
       "labels": [],
       "r": "A",
@@ -8331,7 +12949,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4025000,
+        "weapon": {
+          "name": "Grill O'Wisp",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1441.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1441.webp",
+          "items": [
+            {
+              "id": "101015",
+              "name": "Rupture Component",
+              "qty": 3,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin01.webp"
+            },
+            {
+              "id": "101025",
+              "name": "Reinforced Rupture Component",
+              "qty": 26,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin02.webp"
+            },
+            {
+              "id": "101035",
+              "name": "Specialized Rupture Component",
+              "qty": 24,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
+            }
+          ],
+          "cost": 320000
+        }
       }
     },
     {
@@ -8358,6 +13008,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle12.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/nicole-373bd7d328b4.webp",
       "card": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole12.webp",
+      "signatureWeapon": {
+        "id": "13103",
+        "name": "The Vault",
+        "type": "Support",
+        "educated": false
+      },
+      "signatureWeaponId": "13103",
+      "signatureWeaponName": "The Vault",
       "status": "live",
       "labels": [],
       "r": "A",
@@ -8511,7 +13169,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4025000,
+        "weapon": {
+          "name": "The Vault",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1031.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1031.webp",
+          "items": [
+            {
+              "id": "101013",
+              "name": "Support Component",
+              "qty": 3,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+            },
+            {
+              "id": "101023",
+              "name": "Reinforced Support Component",
+              "qty": 26,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+            },
+            {
+              "id": "101033",
+              "name": "Specialized Support Component",
+              "qty": 24,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+            }
+          ],
+          "cost": 320000
+        }
       }
     },
     {
@@ -8538,6 +13228,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle45.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/pan-yinhu-68a0ebf14907.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/pan-yinhu-51234ed58c65.webp",
+      "signatureWeapon": {
+        "id": "14107",
+        "name": "Tusks of Fury",
+        "type": "Defence",
+        "educated": false
+      },
+      "signatureWeaponId": "14107",
+      "signatureWeaponName": "Tusks of Fury",
       "status": "live",
       "labels": [],
       "r": "A",
@@ -8691,7 +13389,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Tusks of Fury",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1071.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1071.webp",
+          "items": [
+            {
+              "id": "101014",
+              "name": "Defense Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield01.webp"
+            },
+            {
+              "id": "101024",
+              "name": "Reinforced Defense Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield02.webp"
+            },
+            {
+              "id": "101034",
+              "name": "Specialized Defense Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -8718,6 +13448,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle28.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/piper-647be76ff554.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/piper-65240c1c1fef.webp",
+      "signatureWeapon": {
+        "id": "14140",
+        "name": "Practiced Perfection",
+        "type": "Anomaly",
+        "educated": false
+      },
+      "signatureWeaponId": "14140",
+      "signatureWeaponName": "Practiced Perfection",
       "status": "live",
       "labels": [],
       "r": "A",
@@ -8871,7 +13609,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Practiced Perfection",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1401.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1401.webp",
+          "items": [
+            {
+              "id": "101012",
+              "name": "Anomaly Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+            },
+            {
+              "id": "101022",
+              "name": "Reinforced Anomaly Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+            },
+            {
+              "id": "101032",
+              "name": "Specialized Anomaly Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -8898,6 +13668,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle38.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/pulchra-cb6f22fc2a37.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/pulchra-dc3c088abe6b.webp",
+      "signatureWeapon": {
+        "id": "14116",
+        "name": "Blazing Laurel",
+        "type": "Stun",
+        "educated": false
+      },
+      "signatureWeaponId": "14116",
+      "signatureWeaponName": "Blazing Laurel",
       "status": "live",
       "labels": [],
       "r": "A",
@@ -9051,7 +13829,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Blazing Laurel",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1161.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1161.webp",
+          "items": [
+            {
+              "id": "101011",
+              "name": "Stun Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+            },
+            {
+              "id": "101021",
+              "name": "Reinforced Stun Component",
+              "qty": 32,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+            },
+            {
+              "id": "101031",
+              "name": "Specialized Stun Component",
+              "qty": 30,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       }
     },
     {
@@ -9078,6 +13888,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle30.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/seth-953351a4c1cf.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/seth-e376b296a914.webp",
+      "signatureWeapon": {
+        "id": "13127",
+        "name": "Peacekeeper - Specialized",
+        "type": "Defence",
+        "educated": false
+      },
+      "signatureWeaponId": "13127",
+      "signatureWeaponName": "Peacekeeper - Specialized",
       "status": "live",
       "labels": [],
       "r": "A",
@@ -9231,7 +14049,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4025000,
+        "weapon": {
+          "name": "Peacekeeper - Specialized",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1271.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1271.webp",
+          "items": [
+            {
+              "id": "101014",
+              "name": "Defense Component",
+              "qty": 3,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield01.webp"
+            },
+            {
+              "id": "101024",
+              "name": "Reinforced Defense Component",
+              "qty": 26,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield02.webp"
+            },
+            {
+              "id": "101034",
+              "name": "Specialized Defense Component",
+              "qty": 24,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankShield03.webp"
+            }
+          ],
+          "cost": 320000
+        }
       }
     },
     {
@@ -9258,6 +14108,14 @@
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle17.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/soukaku-b11bd2e95ae9.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/soukaku-023ed4ea14e8.webp",
+      "signatureWeapon": {
+        "id": "13113",
+        "name": "Bashful Demon",
+        "type": "Support",
+        "educated": false
+      },
+      "signatureWeaponId": "13113",
+      "signatureWeaponName": "Bashful Demon",
       "status": "live",
       "labels": [],
       "r": "A",
@@ -9411,7 +14269,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4025000,
+        "weapon": {
+          "name": "Bashful Demon",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1131.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_A_1131.webp",
+          "items": [
+            {
+              "id": "101013",
+              "name": "Support Component",
+              "qty": 3,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+            },
+            {
+              "id": "101023",
+              "name": "Reinforced Support Component",
+              "qty": 26,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+            },
+            {
+              "id": "101033",
+              "name": "Specialized Support Component",
+              "qty": 24,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+            }
+          ],
+          "cost": 320000
+        }
       }
     },
     {

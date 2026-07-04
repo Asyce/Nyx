@@ -71102,9 +71102,10 @@
         "currency": 5377500
       },
       "overviewArtPool": [
+        "../../Database/Nanoka/gi/gcg/character cards/assets/1317-Durin.webp",
         "../../Database/Nanoka/gi/gcg/other cards/assets/332054-_A Blessing From 'M'_.webp"
       ],
-      "overviewArt": "../../Database/Nanoka/gi/gcg/other cards/assets/332054-_A Blessing From 'M'_.webp",
+      "overviewArt": "../../Database/Nanoka/gi/gcg/character cards/assets/1317-Durin.webp",
       "overviewArtZoom": 1.12
     },
     {
@@ -73223,7 +73224,11 @@
         "ascCost": 420000,
         "talentCost": 4957500,
         "currency": 5377500
-      }
+      },
+      "overviewArtPool": [
+        "../../Database/Nanoka/gi/gcg/character cards/assets/1516-Jahoda.webp"
+      ],
+      "overviewArt": "../../Database/Nanoka/gi/gcg/character cards/assets/1516-Jahoda.webp"
     },
     {
       "id": "gi-10000122",
@@ -90679,8 +90684,7 @@
       },
       "overviewArtPool": [
         "../../Database/Nanoka/gi/gcg/character cards/assets/1515-Ifa.webp",
-        "../../Database/Nanoka/gi/gcg/other cards/assets/332050-Awesome, Bro.webp",
-        "../../Database/Nanoka/gi/gcg/other cards/assets/1515-Ifa.webp"
+        "../../Database/Nanoka/gi/gcg/other cards/assets/332050-Awesome_ Bro.webp"
       ],
       "overviewArt": "../../Database/Nanoka/gi/gcg/character cards/assets/1515-Ifa.webp"
     },
@@ -105021,7 +105025,7 @@
       },
       "overviewArtPool": [
         "../../Database/Nanoka/gi/gcg/character cards/assets/1511-Chasca.webp",
-        "../../Database/Nanoka/gi/gcg/other cards/assets/332046-Flying Squad, Attack!.webp"
+        "../../Database/Nanoka/gi/gcg/other cards/assets/332046-Flying Squad_ Attack!.webp"
       ],
       "overviewArt": "../../Database/Nanoka/gi/gcg/character cards/assets/1511-Chasca.webp"
     },
@@ -164083,8 +164087,7 @@
         "currency": 5377500
       },
       "overviewArtPool": [
-        "../../Database/Nanoka/gi/gcg/character cards/assets/1506-Wanderer.webp",
-        "../../Database/Nanoka/gi/gcg/other cards/assets/1506-#{REALNAME[ID(1)_DELAYHANDLE(true)]}.webp"
+        "../../Database/Nanoka/gi/gcg/character cards/assets/1506-Wanderer.webp"
       ],
       "overviewArt": "../../Database/Nanoka/gi/gcg/character cards/assets/1506-Wanderer.webp"
     },

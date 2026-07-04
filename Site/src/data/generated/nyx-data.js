@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-04T17:25:42.107Z",
+  "generatedAt": "2026-07-04T17:50:27.161Z",
   "codes": {
     "updated": "2026-07-04T16:10:48.350Z",
     "maxAgeDays": 28,
@@ -4512,7 +4512,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-04T08:13:24.617Z",
+        "updated": "2026-07-04T17:43:41.412Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -9866,7 +9866,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Durin",
-            "art": null
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1317-Durin.webp"
           },
           {
             "id": "1401",
@@ -13544,7 +13544,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Jahoda",
-            "art": null
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1516-Jahoda.webp"
           },
           {
             "id": "1601",
@@ -16595,7 +16595,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217111-_O Lips, Weave Me Songs and Psalms_.webp"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217111-_O Lips_ Weave Me Songs and Psalms_.webp"
           },
           {
             "id": "226041",
@@ -16687,7 +16687,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/225041-_Once, the Lone Wind That Kept the Dark Calamity at Bay..._.webp"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/225041-_Once_ the Lone Wind That Kept the Dark Calamity at Bay..._.webp"
           },
           {
             "id": "321025",
@@ -16876,7 +16876,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332065-_Witch's Homework_.webp"
           },
           {
             "id": "215081",
@@ -17774,7 +17774,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213171-Adamah's Redemption.webp"
           },
           {
             "id": "333002",
@@ -17936,7 +17936,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213141-All Reprisals and Arrears, Mine to Bear.webp"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213141-All Reprisals and Arrears_ Mine to Bear.webp"
           },
           {
             "id": "217051",
@@ -18191,7 +18191,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212032-Amaterasu's Step.webp"
           },
           {
             "id": "312027",
@@ -18645,7 +18645,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332050-Awesome, Bro.webp"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332050-Awesome_ Bro.webp"
           },
           {
             "id": "2602",
@@ -18782,7 +18782,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215161-Backstreet Guile.webp"
           },
           {
             "id": "311306",
@@ -24794,7 +24794,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214012-Fantasia of the Evening World.webp"
           },
           {
             "id": "211161",
@@ -26209,7 +26209,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332046-Flying Squad, Attack!.webp"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332046-Flying Squad_ Attack!.webp"
           },
           {
             "id": "322029",
@@ -26890,7 +26890,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": null
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332066-Gathering Gourmet.webp"
           },
           {
             "id": "312009",
@@ -28675,7 +28675,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2208-Hydro Hypostasis.webp"
           },
           {
             "id": "2206",
@@ -33922,7 +33922,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213062-Pyro Magic.webp"
           },
           {
             "id": "313006",
@@ -35686,7 +35686,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211021-Shaken, Not Purred.webp"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211021-Shaken_ Not Purred.webp"
           },
           {
             "id": "312014",
@@ -39668,7 +39668,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222081-Treacherous Tides.webp"
           },
           {
             "id": "323004",
@@ -41132,7 +41132,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215032-Wind-Swept Verse.webp"
           },
           {
             "id": "312201",
@@ -109677,8 +109677,9 @@ var NYX_DB = {
           "role": "Sword",
           "icon": "../../Database/Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Durin.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Durin.webp",
-          "overviewArt": "../../Database/Nanoka/gi/gcg/other cards/assets/332054-_A Blessing From 'M'_.webp",
+          "overviewArt": "../../Database/Nanoka/gi/gcg/character cards/assets/1317-Durin.webp",
           "overviewArtPool": [
+            "../../Database/Nanoka/gi/gcg/character cards/assets/1317-Durin.webp",
             "../../Database/Nanoka/gi/gcg/other cards/assets/332054-_A Blessing From 'M'_.webp"
           ],
           "overviewArtZoom": 1.12,
@@ -109694,6 +109695,10 @@ var NYX_DB = {
           "role": "Bow",
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Jahoda_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Jahoda.webp",
+          "overviewArt": "../../Database/Nanoka/gi/gcg/character cards/assets/1516-Jahoda.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/gi/gcg/character cards/assets/1516-Jahoda.webp"
+          ],
           "forms": []
         },
         {
@@ -109840,8 +109845,7 @@ var NYX_DB = {
           "overviewArt": "../../Database/Nanoka/gi/gcg/character cards/assets/1515-Ifa.webp",
           "overviewArtPool": [
             "../../Database/Nanoka/gi/gcg/character cards/assets/1515-Ifa.webp",
-            "../../Database/Nanoka/gi/gcg/other cards/assets/332050-Awesome, Bro.webp",
-            "../../Database/Nanoka/gi/gcg/other cards/assets/1515-Ifa.webp"
+            "../../Database/Nanoka/gi/gcg/other cards/assets/332050-Awesome_ Bro.webp"
           ],
           "forms": []
         },
@@ -109958,7 +109962,7 @@ var NYX_DB = {
           "overviewArt": "../../Database/Nanoka/gi/gcg/character cards/assets/1511-Chasca.webp",
           "overviewArtPool": [
             "../../Database/Nanoka/gi/gcg/character cards/assets/1511-Chasca.webp",
-            "../../Database/Nanoka/gi/gcg/other cards/assets/332046-Flying Squad, Attack!.webp"
+            "../../Database/Nanoka/gi/gcg/other cards/assets/332046-Flying Squad_ Attack!.webp"
           ],
           "forms": []
         },
@@ -110450,8 +110454,7 @@ var NYX_DB = {
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Wanderer.webp",
           "overviewArt": "../../Database/Nanoka/gi/gcg/character cards/assets/1506-Wanderer.webp",
           "overviewArtPool": [
-            "../../Database/Nanoka/gi/gcg/character cards/assets/1506-Wanderer.webp",
-            "../../Database/Nanoka/gi/gcg/other cards/assets/1506-#{REALNAME[ID(1)_DELAYHANDLE(true)]}.webp"
+            "../../Database/Nanoka/gi/gcg/character cards/assets/1506-Wanderer.webp"
           ],
           "forms": []
         },

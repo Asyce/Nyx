@@ -1,18 +1,16 @@
 {
-  "generatedAt": "2026-07-04T17:25:36.875Z",
+  "generatedAt": "2026-07-04T17:50:20.406Z",
   "note": "overviewArtPool is used only by overview favourite cards. Material/detail art stays on normal character assets.",
   "counts": {
     "roster": 116,
-    "withCharacterCard": 104,
-    "withManualExtra": 40,
-    "withOverviewPool": 107,
-    "missingOverviewPool": 9
+    "withCharacterCard": 106,
+    "withManualExtra": 39,
+    "withOverviewPool": 108,
+    "missingOverviewPool": 8
   },
   "missingCharacterCards": [
     "Columbina",
-    "Durin",
     "Illuga",
-    "Jahoda",
     "Linnea",
     "Lohen",
     "Nicole",
@@ -24,7 +22,6 @@
   ],
   "missingOverviewPool": [
     "Illuga",
-    "Jahoda",
     "Linnea",
     "Lohen",
     "Nicole",
@@ -33,7 +30,16 @@
     "Varka",
     "Zibai"
   ],
-  "missingManualPrefixes": [],
+  "missingManualPrefixes": [
+    {
+      "character": "Ifa",
+      "prefix": "1515"
+    },
+    {
+      "character": "Wanderer",
+      "prefix": "1506"
+    }
+  ],
   "characters": [
     {
       "name": "Sandrone",
@@ -91,15 +97,15 @@
     },
     {
       "name": "Durin",
-      "automatic": 0,
+      "automatic": 1,
       "manual": 1,
-      "pool": 1
+      "pool": 2
     },
     {
       "name": "Jahoda",
-      "automatic": 0,
+      "automatic": 1,
       "manual": 0,
-      "pool": 0
+      "pool": 1
     },
     {
       "name": "Nefer",
@@ -152,8 +158,8 @@
     {
       "name": "Ifa",
       "automatic": 1,
-      "manual": 2,
-      "pool": 3
+      "manual": 1,
+      "pool": 2
     },
     {
       "name": "Varesa",
@@ -374,8 +380,8 @@
     {
       "name": "Wanderer",
       "automatic": 1,
-      "manual": 1,
-      "pool": 2
+      "manual": 0,
+      "pool": 1
     },
     {
       "name": "Faruzan",

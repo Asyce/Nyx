@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { fetchTextWithFallback } from './lib/html-fetch.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..', '..');
@@ -92,24 +93,12 @@ function extractArticleAnchors(html) {
 }
 
 async function fetchText(url, tries = 3) {
-  let last;
-  for (let i = 0; i < tries; i += 1) {
-    try {
-      const res = await fetch(url, {
-        headers: {
-          'user-agent': userAgent,
-          accept: 'text/html,application/xhtml+xml',
-        },
-        signal: AbortSignal.timeout(fetchTimeoutMs),
-      });
-      if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-      return await res.text();
-    } catch (err) {
-      last = err;
-      await new Promise((resolve) => setTimeout(resolve, 500 * (i + 1)));
-    }
-  }
-  throw last;
+  return fetchTextWithFallback(url, {
+    retries: tries,
+    timeoutMs: fetchTimeoutMs,
+    userAgent,
+    accept: 'text/html,application/xhtml+xml',
+  });
 }
 
 async function mapConcurrent(items, worker) {

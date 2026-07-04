@@ -1,16 +1,18 @@
 # Scheduled workflows
 
-Three scheduled jobs keep pengo.gg fresh and deploy automatically.
+Four scheduled jobs keep pengo.gg fresh and deploy automatically.
 
 | Workflow | Cadence | What it does |
 |---|---|---|
 | `code-watch.yml` | hourly, plus half-hour checks during detected livestream windows | detect official livestream windows -> active-code-only scrape -> semantic diff -> validate -> commit -> build -> smoke -> deploy only when codes changed |
 | `data-refresh.yml` | every 6h | scrape banners + codes -> unit tests -> strict validate -> commit `Database/` -> build -> smoke -> deploy |
 | `roster-sync.yml` | daily | scrape rosters/materials/titles (`--skip-assets`) + banners + codes -> strict validate -> commit `Database/` -> build -> smoke -> deploy |
+| `side-data-sync.yml` | daily | scrape birthdays/namecards/signatures/holidays/TCG/furniture/Endfield skill icons/Genshin banner history -> strict validate -> commit `Database/` and Genshin banner helper -> build -> smoke -> deploy |
 
 Before any deploy:
 - `data-refresh.yml` runs `Scraper` unit tests (`npm test`) and the strict data gate (`npm run validate:strict`), which fails deploys when required banner data is stale, invalid, or unavailable.
 - `roster-sync.yml` runs the same strict data gate (`npm run validate:strict`).
+- `side-data-sync.yml` runs the same strict data gate (`npm run validate:strict`) after the secondary scrapers finish. It installs Crawl4AI and Chromium, but each Crawl4AI-backed fetch has a plain HTTP fallback.
 - `code-watch.yml` runs the structural data gate (`npm run validate`) because it is a fast codes-only deploy path and does not refresh banners.
 - A failure stops the run, so the already-live last-known-good is preserved.
 - Refreshed data is committed before the deploy step, so the deployed site maps back to a Git commit.
@@ -33,7 +35,7 @@ Set these under **Settings -> Secrets and variables -> Actions**. Without the Cl
 
 The Reddit proxy secrets are only needed for Reddit-backed deep code checks. Without them, normal hourly code-watch still runs, but livestream Reddit fallback is weaker when Reddit rate-limits GitHub Actions.
 
-Image/asset syncs are intentionally **not** automated (they would bloat git history); run them manually when new character art is needed:
+Large Nanoka character image/asset syncs are intentionally **not** automated (they would bloat git history); run them manually when new character art is needed:
 
 ```bash
 cd Scraper && node ./nanoka/scrape.mjs --game all

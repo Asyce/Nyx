@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-04T17:25:41.804Z",
+  "generatedAt": "2026-07-04T17:50:26.693Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
-  "count": 188,
+  "count": 206,
   "missing": [
     {
       "game": "gi",
@@ -1318,6 +1318,132 @@
       "id": "110113",
       "name": "Worldbreaker Blade",
       "kind": "book"
+    },
+    {
+      "game": "zzz",
+      "context": "Aria weapon",
+      "id": "101012",
+      "name": "Anomaly Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Orphie & Magus weapon",
+      "id": "101010",
+      "name": "Attack Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Caesar weapon",
+      "id": "101014",
+      "name": "Defense Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Aria weapon",
+      "id": "101022",
+      "name": "Reinforced Anomaly Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Orphie & Magus weapon",
+      "id": "101020",
+      "name": "Reinforced Attack Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Caesar weapon",
+      "id": "101024",
+      "name": "Reinforced Defense Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Banyue weapon",
+      "id": "101025",
+      "name": "Reinforced Rupture Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Nangong Yu weapon",
+      "id": "101021",
+      "name": "Reinforced Stun Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Astra Yao weapon",
+      "id": "101023",
+      "name": "Reinforced Support Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Banyue weapon",
+      "id": "101015",
+      "name": "Rupture Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Aria weapon",
+      "id": "101032",
+      "name": "Specialized Anomaly Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Orphie & Magus weapon",
+      "id": "101030",
+      "name": "Specialized Attack Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Caesar weapon",
+      "id": "101034",
+      "name": "Specialized Defense Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Banyue weapon",
+      "id": "101035",
+      "name": "Specialized Rupture Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Nangong Yu weapon",
+      "id": "101031",
+      "name": "Specialized Stun Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Astra Yao weapon",
+      "id": "101033",
+      "name": "Specialized Support Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Nangong Yu weapon",
+      "id": "101011",
+      "name": "Stun Component",
+      "kind": "mob"
+    },
+    {
+      "game": "zzz",
+      "context": "Astra Yao weapon",
+      "id": "101013",
+      "name": "Support Component",
+      "kind": "mob"
     }
   ]
 }

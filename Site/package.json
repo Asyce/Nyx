@@ -16,6 +16,7 @@
     "scrape:gi-signatures": "node ./tools/scrape-genshin-signature-weapons.mjs",
     "scrape:hsr-holidays": "node ./tools/scrape-hsr-holiday-art.mjs",
     "scrape:hsr-signatures": "node ./tools/scrape-hsr-signature-lightcones.mjs",
+    "scrape:side-data": "node ./tools/run-side-data-sync.mjs",
     "build": "npm run generate:data && npm run generate:weapons && node ./tools/build-site.mjs",
     "build:deploy": "npm run build && node ./tools/build-deploy.mjs && node ./tools/inject-seo.mjs",
     "smoke:deploy": "node ./tools/smoke-deploy.mjs",

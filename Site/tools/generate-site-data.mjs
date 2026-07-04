@@ -1696,6 +1696,151 @@ function setReqMapEntry(map, name, req) {
   map.set(normKey(name), req);
 }
 
+function sumZzzWEngineMaterials(engine) {
+  const pairs = [];
+  for (const group of engine?.materials || []) {
+    for (const mat of group?.materials || []) pairs.push([mat.itemId, mat.quantity]);
+  }
+  return sumNanokaMaterialPairs('zzz', pairs, zzzMaterialKind, '10');
+}
+
+function zzzWEngineType(engine) {
+  const type = firstValue(engine?.type || engine?.weapon_type) || 'Unknown';
+  return String(type) === 'Defense' ? 'Defence' : String(type);
+}
+
+function buildZzzWEngineRoster() {
+  if (!exists(`Nanoka/zzz/${nch()}/w-engines.json`)) return [];
+  return readJson(`Nanoka/zzz/${nch()}/w-engines.json`)
+    .filter((engine) => engine?.name && rarityNumber(engine.rarity, 0) >= 3)
+    .map((engine) => {
+      const summed = sumZzzWEngineMaterials(engine);
+      const type = zzzWEngineType(engine);
+      return {
+        id: String(engine.id),
+        name: cleanText(engine.name, 90),
+        rarity: rarityNumber(engine.rarity, 0),
+        weaponType: type,
+        type,
+        icon: dbAsset(engine.assets?.icon),
+        art: dbAsset(engine.assets?.icon),
+        items: summed.items.sort(materialIdSort).slice(0, 14),
+        cost: summed.cost,
+      };
+    })
+    .sort((a, b) => b.rarity - a.rarity || String(a.weaponType || '').localeCompare(String(b.weaponType || '')) || a.name.localeCompare(b.name));
+}
+
+function sumWuwaWeaponMaterials(weapon) {
+  const pairs = [];
+  for (const stage of Object.values(weapon?.ascensions || {})) {
+    for (const mat of stage || []) pairs.push([mat.itemId, mat.quantity]);
+  }
+  return sumNanokaMaterialPairs('ww', pairs, wuwaMaterialKind, '2');
+}
+
+function buildWuwaWeaponRoster() {
+  if (!exists(`Nanoka/ww/${nch()}/weapons.json`)) return [];
+  return readJson(`Nanoka/ww/${nch()}/weapons.json`)
+    .filter((weapon) => weapon?.name && rarityNumber(weapon.rarity, 0) >= 3)
+    .map((weapon) => {
+      const summed = sumWuwaWeaponMaterials(weapon);
+      const type = wwWeaponMap[weapon.type] || weapon.type || 'Weapon';
+      return {
+        id: String(weapon.id),
+        name: cleanText(weapon.name, 90),
+        rarity: rarityNumber(weapon.rarity, 0),
+        weaponType: type,
+        type,
+        icon: dbAsset(weapon.assets?.icon),
+        art: dbAsset(weapon.assets?.icon),
+        items: summed.items.sort(materialIdSort).slice(0, 14),
+        cost: summed.cost,
+      };
+    })
+    .sort((a, b) => b.rarity - a.rarity || String(a.weaponType || '').localeCompare(String(b.weaponType || '')) || a.name.localeCompare(b.name));
+}
+
+const weaponRosterCache = new Map();
+function weaponRosterForGame(game) {
+  const key = `${game}:${nch()}`;
+  if (weaponRosterCache.has(key)) return weaponRosterCache.get(key);
+  const roster = game === 'zzz'
+    ? buildZzzWEngineRoster()
+    : game === 'ww' || game === 'wuwa'
+      ? buildWuwaWeaponRoster()
+      : [];
+  weaponRosterCache.set(key, roster);
+  return roster;
+}
+
+function cleanRecommendedEquipmentLine(line) {
+  return cleanText(line, 160)
+    .replace(/^\d+(?:\.\d+)?%\s*/g, '')
+    .replace(/^\d+[.)]\s*/g, '')
+    .replace(/\((?:R|S|P)\s*\d+\s*\)/gi, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function recommendationSectionsForCharacter(ch, key) {
+  if (!ch?.pageFile || !exists(ch.pageFile)) return [];
+  const page = readJson(ch.pageFile);
+  const sections = [...(page?.recommendations?.[key]?.sections || [])];
+  const textBlock = prydwenRecommendationTextBlock(page, key);
+  if (textBlock) sections.push({ heading: key, text: textBlock, assets: [] });
+  return sections;
+}
+
+function prydwenRecommendationTextBlock(page, key) {
+  const text = String(page?.text || '');
+  const label = key === 'best-w-engines' ? 'Best W-Engines' : key === 'best-weapons' ? 'Best Weapons' : '';
+  if (!label) return '';
+  const start = text.search(new RegExp(`\\b${label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i'));
+  if (start < 0) return '';
+  const rest = text.slice(start);
+  const afterLabel = rest.slice(label.length);
+  const next = afterLabel.search(/\n\s*(?:Best (?!W-Engines\b|Weapons\b)[A-Z][^\n]{0,90}|Recommended endgame stats|Skills? priority|Traces priority|Synergy|Teams|Ratings)\s*\n/i);
+  return next >= 0 ? rest.slice(0, label.length + next) : rest;
+}
+
+function findRecommendedEquipmentInText(text, weapons) {
+  const byNorm = new Map(weapons.map((weapon) => [normKey(weapon.name), weapon]));
+  for (const line of String(text || '').split(/\n+/)) {
+    const clean = cleanRecommendedEquipmentLine(line);
+    if (!clean) continue;
+    const exact = byNorm.get(normKey(clean));
+    if (exact) return exact;
+    const leading = clean.match(/^(.+?)\s+(?:is|provides|offers|remains|works|comes)\b/i)?.[1];
+    if (leading && byNorm.get(normKey(leading))) return byNorm.get(normKey(leading));
+  }
+
+  const fullText = ` ${cleanText(text, 5000)} `;
+  return [...weapons]
+    .map((weapon) => ({ weapon, index: fullText.toLowerCase().indexOf(` ${weapon.name.toLowerCase()} `) }))
+    .filter((row) => row.index >= 0)
+    .sort((a, b) => a.index - b.index || b.weapon.name.length - a.weapon.name.length)[0]?.weapon || null;
+}
+
+function prydwenRecommendedEquipment(game, ch) {
+  const key = game === 'ww' ? 'best-weapons' : game === 'zzz' ? 'best-w-engines' : null;
+  if (!key) return null;
+  const weapons = weaponRosterForGame(game);
+  if (!weapons.length) return null;
+  const byNorm = new Map(weapons.map((weapon) => [normKey(weapon.name), weapon]));
+
+  for (const section of recommendationSectionsForCharacter(ch, key)) {
+    for (const asset of section.assets || []) {
+      const hit = byNorm.get(normKey(asset.name));
+      if (hit) return hit;
+    }
+    const textHit = findRecommendedEquipmentInText(section.text, weapons);
+    if (textHit) return textHit;
+  }
+
+  return null;
+}
+
 function zzzMaterialKind(id, item = null) {
   const name = String(item?.name || id || '');
   if (String(id) === '10') return 'currency';
@@ -1944,7 +2089,9 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const req = reqByName?.get(String(ch.name || '').toLowerCase()) || reqByName?.get(normKey(ch.name)) || null;
     const skillIcons = skillIconsByName?.get(String(ch.name || '').toLowerCase()) || skillIconsByName?.get(normKey(ch.name)) || (game === 'zzz' ? ZZZ_SKILL_ICONS : null);
     const signatureLightCone = game === 'hsr' ? hsrSignatureForCharacter(ch.name, mapped.path) : null;
-    const signatureReq = signatureLightCone ? hsrLightConeReqByName.get(normKey(signatureLightCone.name)) : null;
+    const signatureEquipment = signatureLightCone ? null : prydwenRecommendedEquipment(game, ch);
+    const signatureDisplay = signatureLightCone || signatureEquipment;
+    const signatureReq = signatureLightCone ? hsrLightConeReqByName.get(normKey(signatureLightCone.name)) : signatureEquipment;
     const holidayArtPool = game === 'hsr' ? (HSR_HOLIDAY_ART.get(normKey(ch.name)) || []) : [];
     const icon = local?.icon || dbAsset(ch.art?.icon || ch.art?.card || ch.art?.full);
     const iconZoom = MANUAL_ICON_ZOOM[overlayGame]?.[normKey(ch.name)] || (!local?.icon && icon ? 1.18 : undefined);
@@ -1980,24 +2127,27 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
       art,
       card,
       holidayArtPool: holidayArtPool.length ? holidayArtPool : undefined,
-      ...(signatureLightCone ? {
-        signatureLightCone: {
-          id: signatureLightCone.id,
-          name: signatureLightCone.name,
-          icon: signatureLightCone.icon,
-          art: signatureLightCone.art,
-          path: signatureLightCone.path,
-        },
+      ...(signatureDisplay ? {
+        ...(signatureLightCone ? { signatureLightCone: {
+          id: signatureDisplay.id,
+          name: signatureDisplay.name,
+          icon: signatureDisplay.icon,
+          art: signatureDisplay.art,
+          path: signatureDisplay.path,
+        } } : {}),
         signatureWeapon: {
-          id: signatureLightCone.id,
-          name: signatureLightCone.name,
-          path: signatureLightCone.path,
+          id: signatureDisplay.id,
+          name: signatureDisplay.name,
+          path: signatureDisplay.path,
+          type: signatureDisplay.weaponType || signatureDisplay.type,
           educated: false,
         },
-        signatureWeaponId: signatureLightCone.id,
-        signatureWeaponName: signatureLightCone.name,
-        overviewArt: signatureLightCone.art,
-        overviewArtPool: [signatureLightCone.art],
+        signatureWeaponId: signatureDisplay.id,
+        signatureWeaponName: signatureDisplay.name,
+        ...(signatureLightCone ? {
+          overviewArt: signatureDisplay.art,
+          overviewArtPool: [signatureDisplay.art],
+        } : {}),
       } : {}),
       status: ch.contentStatus,
       labels: ch.statusLabels || [],
@@ -2723,6 +2873,7 @@ function buildCmCfg(rosters) {
         { key: 'spec', label: 'Specialty', opts: ordered(rosters.zzz.map((ch) => ch.spec), preferred.zzzSpecs) },
         { key: 'r', label: 'Rarity', opts: [['S', 'S'], ['A', 'A']] },
       ],
+      weapons: weaponRosterForGame('zzz'),
       roster: rosters.zzz,
       midGroups: buildZzzSkillGroups(rosters.zzz),
       boss: { title: 'Notorious Hunt', count: rosters.zzz.length },
@@ -2747,6 +2898,7 @@ function buildCmCfg(rosters) {
         { key: 'w', label: 'Weapon', opts: ordered(rosters.wuwa.map((ch) => ch.w), preferred.wuwaWeapons) },
         { key: 'r', label: 'Rarity', opts: [['5-star', 5], ['4-star', 4]] },
       ],
+      weapons: weaponRosterForGame('ww'),
       roster: rosters.wuwa,
       midGroups: buildWuwaSkillGroups(rosters.wuwa),
       boss: { title: 'Weekly Challenge', count: rosters.wuwa.length },

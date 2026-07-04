@@ -792,11 +792,11 @@ const RESET_MS = {
 };
 
 const RESET_REGIONS = {
-  local:{ key:'local', label:'Local', short:'Local', offset:null },
   eu:{ key:'eu', label:'Europe', short:'EU', offset:1 },
   na:{ key:'na', label:'America', short:'NA', offset:-5 },
   asia:{ key:'asia', label:'Asia', short:'Asia', offset:8 },
 };
+const DEFAULT_RESET_REGION = 'na';
 
 function nextLocalResetAt(now, year, month, day, hour){
   return new Date(year, month, day, hour, 0, 0, 0).getTime();
@@ -873,7 +873,7 @@ function nextSemiMonthlyReset(now, region){
 }
 
 function resetTimerRows(now, regionKey){
-  const region = RESET_REGIONS[regionKey] || RESET_REGIONS.local;
+  const region = RESET_REGIONS[regionKey] || RESET_REGIONS[DEFAULT_RESET_REGION];
   return [
     { key:'abyss', label:'Abyss', target:nextSemiMonthlyReset(now, region) },
     { key:'theater', label:'Imaginarium', target:nextMonthlyReset(now, region) },
@@ -904,6 +904,7 @@ function loadCustomTimers(gameKey){
         id:String(row.id || row.label + '-' + row.target),
         label:String(row.label).slice(0, 42),
         target:Number(row.target),
+        recur:sanitizeRecur(row.recur),
       }))
       : [];
   } catch (e) {
@@ -922,9 +923,9 @@ function resetRegionStorageKey(gameKey){
 function loadResetRegion(gameKey){
   try {
     const key = localStorage.getItem(resetRegionStorageKey(gameKey));
-    return RESET_REGIONS[key] ? key : 'local';
+    return RESET_REGIONS[key] ? key : DEFAULT_RESET_REGION;
   } catch (e) {
-    return 'local';
+    return DEFAULT_RESET_REGION;
   }
 }
 
@@ -935,12 +936,59 @@ function datetimeLocalValue(ts){
   return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()) + 'T' + pad(d.getHours()) + ':' + pad(d.getMinutes());
 }
 
+// Custom timers may recur: 'interval' fires every N days; 'monthly' fires on the
+// same day-of-month at the same time. Stored alongside the one-off target.
+function sanitizeRecur(recur){
+  if (!recur || typeof recur !== 'object') return null;
+  if (recur.type === 'monthly') return { type:'monthly' };
+  if (recur.type === 'interval') {
+    const days = Number(recur.days);
+    return Number.isFinite(days) && days > 0 ? { type:'interval', days:Math.round(days) } : null;
+  }
+  return null;
+}
+
+// The next firing at or after `now`. One-off timers return their raw target;
+// recurring timers roll forward past `now` so they never read as "Expired".
+function nextRecurringTarget(target, recur, now){
+  const t = Number(target);
+  if (!Number.isFinite(t) || !recur || t > now) return t;
+  if (recur.type === 'interval') {
+    const stepMs = recur.days * RESET_MS.day;
+    if (stepMs <= 0) return t;
+    return t + Math.ceil((now - t) / stepMs) * stepMs;
+  }
+  if (recur.type === 'monthly') {
+    const base = new Date(t);
+    const day = base.getDate(), h = base.getHours(), mi = base.getMinutes();
+    const ref = new Date(now);
+    let cand = new Date(ref.getFullYear(), ref.getMonth(), day, h, mi, 0, 0);
+    if (cand.getTime() <= now) cand = new Date(ref.getFullYear(), ref.getMonth() + 1, day, h, mi, 0, 0);
+    return cand.getTime();
+  }
+  return t;
+}
+
+function recurLabel(recur){
+  if (!recur) return '';
+  if (recur.type === 'monthly') return 'Monthly';
+  if (recur.type === 'interval') {
+    const d = recur.days;
+    if (d % 7 === 0 && d >= 7) { const w = d / 7; return w === 1 ? 'Weekly' : 'Every ' + w + ' weeks'; }
+    return d === 1 ? 'Daily' : 'Every ' + d + ' days';
+  }
+  return '';
+}
+
 function ResetTimersPanel({ gameKey }){
   const [now, setNow] = React.useState(Date.now());
   const [regionKey, setRegionKey] = React.useState(() => loadResetRegion(gameKey));
   const [custom, setCustom] = React.useState(() => loadCustomTimers(gameKey));
   const [label, setLabel] = React.useState('');
   const [target, setTarget] = React.useState(() => datetimeLocalValue(Date.now() + RESET_MS.day));
+  const [recurMode, setRecurMode] = React.useState('once');
+  const [recurEvery, setRecurEvery] = React.useState('1');
+  const [recurUnit, setRecurUnit] = React.useState('day');
   React.useEffect(() => {
     const id = setInterval(() => setNow(Date.now()), 1000);
     return () => clearInterval(id);
@@ -950,6 +998,9 @@ function ResetTimersPanel({ gameKey }){
     setCustom(loadCustomTimers(gameKey));
     setLabel('');
     setTarget(datetimeLocalValue(Date.now() + RESET_MS.day));
+    setRecurMode('once');
+    setRecurEvery('1');
+    setRecurUnit('day');
   }, [gameKey]);
   const pickRegion = (key) => {
     if (!RESET_REGIONS[key]) return;
@@ -963,13 +1014,25 @@ function ResetTimersPanel({ gameKey }){
       return next;
     });
   };
+  const buildRecur = () => {
+    if (recurMode === 'monthly') return { type:'monthly' };
+    if (recurMode === 'interval') {
+      const every = Math.max(1, Math.round(Number(recurEvery) || 1));
+      return sanitizeRecur({ type:'interval', days:every * (recurUnit === 'week' ? 7 : 1) });
+    }
+    return null;
+  };
   const addTimer = () => {
     const clean = label.trim();
     const ts = new Date(target).getTime();
     if (!clean || !Number.isFinite(ts)) return;
-    commitCustom((prev) => [...prev, { id:String(Date.now()) + '-' + Math.random().toString(16).slice(2), label:clean, target:ts }]);
+    const recur = buildRecur();
+    commitCustom((prev) => [...prev, { id:String(Date.now()) + '-' + Math.random().toString(16).slice(2), label:clean, target:ts, recur }]);
     setLabel('');
     setTarget(datetimeLocalValue(Date.now() + RESET_MS.day));
+    setRecurMode('once');
+    setRecurEvery('1');
+    setRecurUnit('day');
   };
   const removeTimer = (id) => commitCustom((prev) => prev.filter((row) => row.id !== id));
   const rows = resetTimerRows(now, regionKey);
@@ -997,18 +1060,39 @@ function ResetTimersPanel({ gameKey }){
       </div>
       {custom.length > 0 && (
         <div className="gp-reset-custom">
-          {custom.map((row) => (
-            <div className="gp-reset-tile custom" key={row.id}>
-              <span className="k">{row.label}</span>
-              <span className="v">{row.target > now ? durationParts(row.target - now) : 'Expired'}</span>
-              <button type="button" aria-label={'Remove ' + row.label} title="Remove custom timer" onClick={() => removeTimer(row.id)}>x</button>
-            </div>
-          ))}
+          {custom.map((row) => {
+            const fireAt = nextRecurringTarget(row.target, row.recur, now);
+            const rl = recurLabel(row.recur);
+            return (
+              <div className="gp-reset-tile custom" key={row.id}>
+                <span className="k">{row.label}{rl && <em className="gp-reset-recur" title={'Recurs: ' + rl}>{'↻ ' + rl}</em>}</span>
+                <span className="v">{fireAt > now ? durationParts(fireAt - now) : 'Expired'}</span>
+                <button type="button" aria-label={'Remove ' + row.label} title="Remove custom timer" onClick={() => removeTimer(row.id)}>x</button>
+              </div>
+            );
+          })}
         </div>
       )}
       <div className="gp-reset-form" aria-label="Add custom timer">
         <input value={label} placeholder="Custom timer" maxLength="42" onChange={(e) => setLabel(e.target.value)} />
         <input type="datetime-local" value={target} onChange={(e) => setTarget(e.target.value)} />
+        <div className="gp-reset-recur-row">
+          <select value={recurMode} aria-label="Repeat" onChange={(e) => setRecurMode(e.target.value)}>
+            <option value="once">One-time</option>
+            <option value="interval">Repeat every…</option>
+            <option value="monthly">Monthly (same date)</option>
+          </select>
+          {recurMode === 'interval' && (
+            <div className="gp-reset-every">
+              <input type="number" min="1" max="365" value={recurEvery} aria-label="Interval amount"
+                     onChange={(e) => setRecurEvery(e.target.value)} />
+              <select value={recurUnit} aria-label="Interval unit" onChange={(e) => setRecurUnit(e.target.value)}>
+                <option value="day">days</option>
+                <option value="week">weeks</option>
+              </select>
+            </div>
+          )}
+        </div>
         <button type="button" onClick={addTimer} disabled={!label.trim()}>Add</button>
       </div>
     </section>
@@ -1524,7 +1608,7 @@ function AllBannersView(){
     setRegionKey(key);
     try { localStorage.setItem(resetRegionStorageKey('nyx'), key); } catch (e) {}
   };
-  const region = RESET_REGIONS[regionKey] || RESET_REGIONS.local;
+  const region = RESET_REGIONS[regionKey] || RESET_REGIONS[DEFAULT_RESET_REGION];
   const updated = window.NYX_DB && window.NYX_DB.banners && window.NYX_DB.banners.updated;
   const groups = React.useMemo(() => SIM_GAMES.map((g) => ({
     game:g,
@@ -1536,7 +1620,7 @@ function AllBannersView(){
       <div className="sim-banhd">
         <GPSec title="All Banners" style={{ flex:1, minWidth:0 }} />
         <div className="sim-regions">
-          {['local','eu','na','asia'].map((key) => (
+          {['eu','na','asia'].map((key) => (
             <button type="button" key={key} className={regionKey === key ? 'on' : ''} onClick={() => pickRegion(key)}>
               {RESET_REGIONS[key].short}
             </button>
@@ -2225,14 +2309,17 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
             inline
             game={cfg.key}
             selectedName={materialSelection?.game === cfg.key ? materialSelection.name : null}
+            selectedFrom={materialSelection?.game === cfg.key ? materialSelection.from : null}
             pageTab={tab}
             onPageTab={setTab}
             sections={sections}
             onCustomizeCharacter={openCharacterCustomize}
             onSelectCharacter={(ch) => onSelectMaterialCharacter && onSelectMaterialCharacter(cfg.key, ch)}
             onSelectedClose={() => {
+              const fromOverview = materialSelection?.game === cfg.key && materialSelection?.from === 'overview';
               if (setMaterialSelection) setMaterialSelection(null);
-              if (onCloseMaterialCharacter) onCloseMaterialCharacter(cfg.key);
+              if (fromOverview) setTab('overview');
+              else if (onCloseMaterialCharacter) onCloseMaterialCharacter(cfg.key);
             }}
           />
         </main>
@@ -3272,7 +3359,9 @@ function NyxApp(){
     setActiveKey(targetGame);
     setTab('mats');
     setCharacterCustomize(null);
-    const selection = { game:targetGame, name };
+    // Tag the origin so the character detail can offer "Back to Overview" and
+    // return to the overview (favourites) instead of the materials roster.
+    const selection = { game:targetGame, name, from:'overview' };
     setMaterialSelection(selection);
     commitRoute(targetGame, 'mats', selection);
   };

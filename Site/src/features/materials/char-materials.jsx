@@ -902,6 +902,11 @@ function cmWeaponCompatible(gameKey, ch, weapon){
   if (!ch || !weapon) return true;
   if (gameKey === 'gi') return !ch.w || !weapon.weaponType || weapon.weaponType === ch.w || weapon.type === ch.w;
   if (gameKey === 'hsr') return !ch.path || !weapon.path || weapon.path === ch.path || weapon.type === ch.path;
+  if (gameKey === 'wuwa') return !ch.w || !weapon.weaponType || weapon.weaponType === ch.w || weapon.type === ch.w;
+  if (gameKey === 'zzz') {
+    const normSpec = (value) => String(value || '').toLowerCase().replace('defense', 'defence');
+    return !ch.spec || !weapon.weaponType || normSpec(weapon.weaponType) === normSpec(ch.spec) || normSpec(weapon.type) === normSpec(ch.spec);
+  }
   return true;
 }
 
@@ -1938,7 +1943,7 @@ function cmMergeBetaCfg(liveCfg, betaPack){
   return { ...liveCfg, roster: merged, __betaActive:true };
 }
 
-function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, pageTab, onPageTab, sections, customizeOnly, onCustomizeCharacter, onBackCustomize, onSelectedClose, onSelectCharacter }){
+function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom, modalOnly, pageTab, onPageTab, sections, customizeOnly, onCustomizeCharacter, onBackCustomize, onSelectedClose, onSelectCharacter }){
   const [gk, setGk] = React.useState(game || 'gi');
   const [channel, setChannel] = React.useState(() => cmLoadChannel(game || 'gi'));
   const [dataTick, setDataTick] = React.useState(0);
@@ -2749,7 +2754,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
               {inline && (
                 <div className="cm-detail-nav">
                   <button type="button" className="cm-detail-back" onClick={closePop}>
-                    <span>{'\u2039'}</span><b>Back to Character Materials</b>
+                    <span>{'\u2039'}</span><b>{selectedFrom === 'overview' ? 'Back to Overview' : 'Back to Character Materials'}</b>
                   </button>
                   <button type="button" className="cm-detail-custom" onClick={openCustomize}>
                     <span>Customize Visuals</span><b>Icon / Background / Local Upload</b>

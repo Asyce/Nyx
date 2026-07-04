@@ -720,11 +720,12 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 }
 .gp-reset-tile.custom button:hover{ color:#fff; background:rgba(139,123,255,.28); }
 .gp-reset-form{
-  display:grid;
-  grid-template-columns:minmax(0, .9fr) minmax(0, 1.1fr) auto;
+  display:flex;
+  flex-direction:column;
   gap:6px;
 }
 .gp-reset-form input,
+.gp-reset-form select,
 .gp-reset-form button{
   min-width:0;
   height:30px;
@@ -737,7 +738,13 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   font-size:10px;
 }
 .gp-reset-form input{ padding:0 8px; }
+.gp-reset-form select{ padding:0 6px; color-scheme:dark; cursor:pointer; }
 .gp-reset-form input[type="datetime-local"]{ color-scheme:dark; }
+.gp-reset-recur-row{ display:flex; gap:6px; }
+.gp-reset-recur-row > select{ flex:1 1 auto; }
+.gp-reset-every{ display:flex; gap:6px; flex:0 0 auto; }
+.gp-reset-every input[type="number"]{ width:52px; text-align:center; padding:0 4px; }
+.gp-reset-every select{ width:auto; }
 .gp-reset-form button{
   padding:0 10px;
   cursor:pointer;
@@ -747,6 +754,16 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 }
 .gp-reset-form button:disabled{ opacity:.38; cursor:default; }
 .gp-reset-form button:not(:disabled):hover{ background:rgba(139,123,255,.3); }
+.gp-reset-recur{
+  margin-left:6px;
+  color:#a99fd6;
+  font-style:normal;
+  font-size:8.5px;
+  font-weight:900;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+  white-space:nowrap;
+}
 
 .gp-world-row{ display:flex; align-items:center; gap:12px; cursor:pointer; padding:7px 10px;
   border-radius:6px; transition:background .25s; }

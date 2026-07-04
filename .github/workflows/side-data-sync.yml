@@ -1,0 +1,101 @@
+name: Side data sync & deploy
+
+# Daily refresh for the smaller secondary datasets that the site uses around the
+# main rosters: birthdays, namecards, signatures, TCG, furniture, holidays,
+# Endfield skill icons, and Genshin banner history.
+
+on:
+  schedule:
+    - cron: '45 6 * * *' # 06:45 UTC daily, after roster-sync
+  workflow_dispatch: {}
+
+concurrency:
+  group: pengo-deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  side-data:
+    runs-on: ubuntu-latest
+    env:
+      CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      NYX_USE_CRAWL4AI: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Ensure LFS objects resolved
+        run: |
+          for i in 1 2 3; do
+            git lfs pull && break
+            echo "git lfs pull attempt $i failed; retrying" && sleep 5
+          done
+          for f in Database/Nanoka/hsr/live/characters.json Database/Nanoka/gi/live/characters.json; do
+            if head -c 40 "$f" | grep -q 'git-lfs'; then
+              echo "::error::$f is still an LFS pointer after git lfs pull"; exit 1
+            fi
+          done
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Crawl4AI
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install "crawl4ai>=0.9,<1"
+          crawl4ai-setup || python -m playwright install chromium
+
+      - name: Install scraper deps
+        working-directory: Scraper
+        run: npm ci --no-audit --no-fund
+
+      - name: Install site deps
+        working-directory: Site
+        run: npm ci --no-audit --no-fund
+
+      - name: Unit tests
+        working-directory: Scraper
+        run: npm test
+
+      - name: Sync side datasets
+        working-directory: Site
+        run: npm run scrape:side-data
+
+      - name: Validate scraped data
+        working-directory: Scraper
+        run: npm run validate:strict
+
+      - name: Commit refreshed side data
+        run: |
+          git config user.name "pengo-bot"
+          git config user.email "bot@pengo.gg"
+          git add Database Site/src/features/gacha/pulls-banners-gi.js
+          if git diff --cached --quiet; then
+            echo "No side-data changes to commit."
+          else
+            git commit -m "chore(data): scheduled side-data sync [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Build site
+        working-directory: Site
+        run: npm run build:deploy
+
+      - name: Smoke deploy artifact
+        working-directory: Site
+        run: npm run smoke:deploy
+
+      - name: Deploy to Cloudflare
+        if: ${{ env.CF_API_TOKEN != '' }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npx --yes wrangler deploy

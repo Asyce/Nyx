@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-04T11:37:41.683Z",
+  "generatedAt": "2026-07-04T17:07:14.197Z",
   "providers": {
     "Prydwen": "2026-07-04T08:11:11.087Z",
     "Nanoka": {
@@ -16,7 +16,7 @@ var NYX_DB = {
     "EndfieldWiki": "2026-07-04T08:12:51.752Z"
   },
   "codes": {
-    "updated": "2026-07-04T10:20:19.316Z",
+    "updated": "2026-07-04T16:10:48.350Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -72,7 +72,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-06-12",
-          "firstSeen": "2026-07-04T10:19:52.734Z",
+          "firstSeen": "2026-07-04T14:12:03.482Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L"
         }
@@ -175,48 +175,6 @@ var NYX_DB = {
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
-        },
-        {
-          "code": "HT3QMCJ9U4JB",
-          "reward": "100 Stellar Jade and Five Traveler S Guides",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-07-03",
-          "firstSeen": "2026-07-04T10:20:19.315Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=HT3QMCJ9U4JB",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=HT3QMCJ9U4JB"
-        },
-        {
-          "code": "WAK84U29VLYP",
-          "reward": "100 Stellar Jade and 50k Credits",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-07-03",
-          "firstSeen": "2026-07-04T10:20:19.315Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=WAK84U29VLYP",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=WAK84U29VLYP"
-        },
-        {
-          "code": "XTJ9MV38DL3X",
-          "reward": "100 Stellar Jade and Four Refined Aether",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-07-03",
-          "firstSeen": "2026-07-04T10:20:19.315Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=XTJ9MV38DL3X",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=XTJ9MV38DL3X"
         },
         {
           "code": "BladeFitCheck",
@@ -377,16 +335,17 @@ var NYX_DB = {
   },
   "banners": {
     "updated": "2026-07-04T08:50:19.396Z",
-    "checkedAt": "2026-07-04T08:50:19.396Z",
+    "checkedAt": "2026-07-04T13:56:36.952Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T08:50:19.396Z",
+          "checkedAt": "2026-07-04T13:56:36.952Z",
           "lastSuccessfulFetch": "2026-07-04T08:50:19.396Z",
           "lastValidUpdate": "2026-07-04T08:50:19.396Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "4.3",
@@ -446,10 +405,11 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T08:50:19.396Z",
+          "checkedAt": "2026-07-04T13:56:36.952Z",
           "lastSuccessfulFetch": "2026-07-04T08:50:19.396Z",
           "lastValidUpdate": "2026-07-04T08:50:19.396Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "6.7 Phase 1",
@@ -500,10 +460,11 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T08:50:19.396Z",
+          "checkedAt": "2026-07-04T13:56:36.952Z",
           "lastSuccessfulFetch": "2026-07-04T08:50:19.396Z",
           "lastValidUpdate": "2026-07-04T08:50:19.396Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -688,10 +649,11 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T08:50:19.396Z",
+          "checkedAt": "2026-07-04T13:56:36.952Z",
           "lastSuccessfulFetch": "2026-07-04T08:50:19.396Z",
           "lastValidUpdate": "2026-07-04T08:50:19.396Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -751,10 +713,11 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T08:50:19.396Z",
+          "checkedAt": "2026-07-04T13:56:36.952Z",
           "lastSuccessfulFetch": "2026-07-04T08:50:19.396Z",
           "lastValidUpdate": "2026-07-04T08:50:19.396Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "1.3 Phase 2",
@@ -4498,7 +4461,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-06-12",
-          "firstSeen": "2026-07-04T10:19:52.734Z",
+          "firstSeen": "2026-07-04T14:12:03.482Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L"
         }
@@ -4507,10 +4470,11 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T08:50:19.396Z",
+          "checkedAt": "2026-07-04T13:56:36.952Z",
           "lastSuccessfulFetch": "2026-07-04T08:50:19.396Z",
           "lastValidUpdate": "2026-07-04T08:50:19.396Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "6.7 Phase 1",
@@ -116065,48 +116029,6 @@ var NYX_DB = {
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
         },
         {
-          "code": "HT3QMCJ9U4JB",
-          "reward": "100 Stellar Jade and Five Traveler S Guides",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-07-03",
-          "firstSeen": "2026-07-04T10:20:19.315Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=HT3QMCJ9U4JB",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=HT3QMCJ9U4JB"
-        },
-        {
-          "code": "WAK84U29VLYP",
-          "reward": "100 Stellar Jade and 50k Credits",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-07-03",
-          "firstSeen": "2026-07-04T10:20:19.315Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=WAK84U29VLYP",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=WAK84U29VLYP"
-        },
-        {
-          "code": "XTJ9MV38DL3X",
-          "reward": "100 Stellar Jade and Four Refined Aether",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-07-03",
-          "firstSeen": "2026-07-04T10:20:19.315Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=XTJ9MV38DL3X",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=XTJ9MV38DL3X"
-        },
-        {
           "code": "BladeFitCheck",
           "reward": "Three Traveler S Guides and Two Cold Jokes",
           "premium": false,
@@ -116125,10 +116047,11 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T08:50:19.396Z",
+          "checkedAt": "2026-07-04T13:56:36.952Z",
           "lastSuccessfulFetch": "2026-07-04T08:50:19.396Z",
           "lastValidUpdate": "2026-07-04T08:50:19.396Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "4.3",
@@ -119798,10 +119721,11 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T08:50:19.396Z",
+          "checkedAt": "2026-07-04T13:56:36.952Z",
           "lastSuccessfulFetch": "2026-07-04T08:50:19.396Z",
           "lastValidUpdate": "2026-07-04T08:50:19.396Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -124069,10 +123993,11 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T08:50:19.396Z",
+          "checkedAt": "2026-07-04T13:56:36.952Z",
           "lastSuccessfulFetch": "2026-07-04T08:50:19.396Z",
           "lastValidUpdate": "2026-07-04T08:50:19.396Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -128458,10 +128383,11 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T08:50:19.396Z",
+          "checkedAt": "2026-07-04T13:56:36.952Z",
           "lastSuccessfulFetch": "2026-07-04T08:50:19.396Z",
           "lastValidUpdate": "2026-07-04T08:50:19.396Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "1.3 Phase 2",

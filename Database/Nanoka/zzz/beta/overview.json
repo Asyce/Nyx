@@ -3,9 +3,9 @@
   "game": "zzz",
   "gameName": "Zenless Zone Zero",
   "channel": "beta",
-  "version": "3.1.3+17077339",
+  "version": "3.1.4+17256074",
   "liveVersion": "3.0",
-  "betaVersion": "3.1.3+17077339",
+  "betaVersion": "3.1.4+17256074",
   "availableVersions": [
     "3.0",
     "3.1.0+16474634",
@@ -20,16 +20,18 @@
     "3.1.3+17050342",
     "3.1.3+17054650",
     "3.1.3+17059869",
-    "3.1.3+17077339"
+    "3.1.3+17077339",
+    "3.1.4+17254334",
+    "3.1.4+17256074"
   ],
-  "scrapedAt": "2026-07-03T08:34:27.074Z",
+  "scrapedAt": "2026-07-04T08:11:10.663Z",
   "counts": {
     "agents": 58,
     "wEngines": 95,
     "bangboos": 43,
     "driveDiscs": 30,
     "monsters": 293,
-    "items": 5567
+    "items": 5639
   },
   "sourceCounts": {
     "agents": 58,
@@ -37,7 +39,7 @@
     "bangboos": 43,
     "driveDiscs": 30,
     "monsters": 293,
-    "items": 5567
+    "items": 5639
   },
   "newInManifest": {
     "character": [
@@ -660,6 +662,6 @@
     "items": "Nanoka/zzz/beta/items.json",
     "raw": "Nanoka/zzz/beta/raw"
   },
-  "assetsPlanned": 2777,
+  "assetsPlanned": 2872,
   "contentStatus": "Beta records are compared to Live and marked live, beta, or beta_changed."
 }

@@ -3,7 +3,7 @@
   "game": "hsr",
   "collection": "light-cones",
   "sourcePath": "/star-rail/light-cones",
-  "scrapedAt": "2026-07-03T08:34:27.463Z",
+  "scrapedAt": "2026-07-04T08:11:11.087Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -49,6 +49,20 @@
         "path": "Destruction"
       },
       "text": "A Secret Vow\nRarity: 4 ★\nPath: Destruction\nIncreases DMG dealt by the wearer by 20/25/30/35/40% . The wearer also deals an extra 20/25/30/35/40% of DMG to enemies whose current HP percentage is equal to or higher than the wearer's current HP percentage.\nHP\n+ 1058\nATK\n+ 476\nDEF\n+ 264"
+    },
+    {
+      "id": "a-star-that-lights-the-night",
+      "name": "A Star That Lights the Night",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/a-star-that-lights-the-night-72107b8eb630.webp",
+      "assetId": "72107b8eb630",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Erudition"
+      },
+      "text": "A Star That Lights the Night\nRarity: 5 ★\nPath: Erudition\nUnknown\nStats for this Light Cone aren't available yet."
     },
     {
       "id": "a-thankless-coronation",
@@ -627,6 +641,20 @@
       "text": "Flames Afar\nRarity: 4 ★\nPath: Destruction\nWhen the HP lost by the wearer during a single attack exceeds 25% of their Max HP, or if the HP they consume is greater than 25% of their Max HP, then immediately heals them for 15% of their Max HP while also increasing the DMG they deal by 25/31/38/44/50% for 2 turn(s). This effect can only be triggered once every 3 turn(s).\nHP\n+ 1058\nATK\n+ 476\nDEF\n+ 265"
     },
     {
+      "id": "flickering-stars",
+      "name": "Flickering Stars",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/flickering-stars-389219b0b677.webp",
+      "assetId": "389219b0b677",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Erudition"
+      },
+      "text": "Flickering Stars\nRarity: 5 ★\nPath: Erudition\nUnknown\nStats for this Light Cone aren't available yet."
+    },
+    {
       "id": "flowing-nightglow",
       "name": "Flowing Nightglow",
       "kind": "light-cones",
@@ -751,6 +779,20 @@
         "path": "Nihility"
       },
       "text": "Holiday Thermae Escapade\nRarity: 4 ★\nPath: Nihility\nIncreases the wearer's DMG dealt by 16/20/24/28/32% . After the wearer attacks, there is a 100% base chance that the attacked target is inflicted with Vulnerability, increasing the DMG they receive by 10/11/13/14/16% for 2 turn(s). The same effect type cannot be stacked.\nHP\n+ 1058\nATK\n+ 529\nDEF\n+ 331"
+    },
+    {
+      "id": "i-am-as-you-behold",
+      "name": "I Am As You Behold",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/i-am-as-you-behold-26e9cb2ae8d4.webp",
+      "assetId": "26e9cb2ae8d4",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Destruction"
+      },
+      "text": "I Am As You Behold\nRarity: 5 ★\nPath: Destruction\nUnknown\nStats for this Light Cone aren't available yet."
     },
     {
       "id": "i-shall-be-my-own-sword",

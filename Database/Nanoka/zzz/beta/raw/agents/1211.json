@@ -335,7 +335,7 @@
         },
         {
           "name": "Morning Cleanup",
-          "desc": "After Rina uses her <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, or <color=#FFFFFF>[Ultimate]</color>, within 13s, Drusilla & Anastella attacks enemies once every 2.5s, dealing <color=#2EB6FF>Electric DMG</color> and gaining 1 <color=#FFFFFF>[Fright]</color>, up to 6 <color=#FFFFFF>[Fright]</color> max. After using this skill, Drusilla & Anastella's exit countdown resets.",
+          "desc": "After Rina uses her <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, or <color=#FFFFFF>[Ultimate]</color>, within 13s, Drusilla or Anastella attacks enemies once every 2.5s, dealing <color=#2EB6FF>Electric DMG</color> and gaining 1 <color=#FFFFFF>[Fright]</color>, up to 6 <color=#FFFFFF>[Fright]</color> max. After using this skill, Drusilla and Anastella's exit countdown resets.",
           "potential": [
             121100,
             121101,
@@ -347,7 +347,7 @@
         },
         {
           "name": "Midnight Cleanup",
-          "desc": "When <color=#FFFFFF>[Fright]</color> reaches 6, the next time Drusilla & Anastella uses <color=#FFFFFF>[Morning Cleanup]</color>, it will consume all <color=#FFFFFF>[Fright]</color> and trigger <color=#FFFFFF>[Midnight Cleanup]</color> instead; after using this skill, reset Drusilla & Anastella's exit countdown.",
+          "desc": "When <color=#FFFFFF>[Fright]</color> reaches 6, the next time Drusilla or Anastella uses <color=#FFFFFF>[Morning Cleanup]</color>, it will consume all <color=#FFFFFF>[Fright]</color> and trigger <color=#FFFFFF>[Midnight Cleanup]</color> instead; after using this skill, reset Drusilla and Anastella's exit countdown.",
           "potential": [
             121100,
             121101,

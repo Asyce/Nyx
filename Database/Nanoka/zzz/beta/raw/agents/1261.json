@@ -2634,7 +2634,7 @@
     "126101": {
       "id": 126101,
       "name": "Potential Awakening: Deadly Dance Steps",
-      "desc": "<color=#FFFFFF>[Passion]</color> increases Anomaly Proficiency by 6 and boosts the Physical Anomaly Buildup of <color=#FFFFFF>[Dodge Counter: Swift Shadow Dance]</color> by 5%.",
+      "desc": "When Jane triggers <color=#F0D12B>[Assault]</color>, CRIT DMG is additionally increased by 10%.",
       "image": "Jane",
       "level_show_name": "Heart-Stealing Tango II",
       "level": 2,
@@ -2652,7 +2652,7 @@
     "126102": {
       "id": 126102,
       "name": "Potential Awakening: Deadly Dance Steps",
-      "desc": "<color=#FFFFFF>[Passion]</color> increases Anomaly Proficiency by 9 and boosts the Physical Anomaly Buildup of <color=#FFFFFF>[Dodge Counter: Swift Shadow Dance]</color> by 7.5%.",
+      "desc": "When Jane triggers <color=#F0D12B>[Assault]</color>, CRIT DMG is additionally increased by 15%.",
       "image": "Jane",
       "level_show_name": "Heart-Stealing Tango III",
       "level": 3,
@@ -2670,7 +2670,7 @@
     "126103": {
       "id": 126103,
       "name": "Potential Awakening: Deadly Dance Steps",
-      "desc": "<color=#FFFFFF>[Passion]</color> increases Anomaly Proficiency by 12 and boosts the Physical Anomaly Buildup of <color=#FFFFFF>[Dodge Counter: Swift Shadow Dance]</color> by 10%.",
+      "desc": "When Jane triggers <color=#F0D12B>[Assault]</color>, her CRIT DMG is additionally increased by 20%.",
       "image": "Jane",
       "level_show_name": "Heart-Stealing Tango IV",
       "level": 4,
@@ -2688,7 +2688,7 @@
     "126104": {
       "id": 126104,
       "name": "Potential Awakening: Deadly Dance Steps",
-      "desc": "<color=#FFFFFF>[Passion]</color> increases Anomaly Proficiency by 15 and boosts the Physical Anomaly Buildup of <color=#FFFFFF>[Dodge Counter: Swift Shadow Dance]</color> by 12.5%.",
+      "desc": "When Jane triggers <color=#F0D12B>[Assault]</color>, her CRIT DMG is additionally increased by 25%.",
       "image": "Jane",
       "level_show_name": "Heart-Stealing Tango V",
       "level": 5,
@@ -2706,7 +2706,7 @@
     "126105": {
       "id": 126105,
       "name": "Potential Awakening: Deadly Dance Steps",
-      "desc": "<color=#FFFFFF>[Passion]</color> state increases Anomaly Proficiency by 18 and boosts Physical Anomaly Buildup from [Dodge Counter: Swift Shadow Dance] by 15%.",
+      "desc": "When Jane triggers <color=#F0D12B>[Assault]</color>, her CRIT DMG is additionally increased by 30%.",
       "image": "Jane",
       "level_show_name": "Heart-Stealing Tango VI",
       "level": 6,

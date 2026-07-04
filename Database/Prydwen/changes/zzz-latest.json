@@ -1,28 +1,21 @@
 {
   "provider": "Prydwen",
   "game": "zzz",
-  "generatedAt": "2026-07-03T08:34:27.463Z",
+  "generatedAt": "2026-07-04T08:11:11.087Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 1,
-      "unchanged": 67
+      "changed": 0,
+      "unchanged": 68
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [
-        {
-          "id": "characters:anton",
-          "name": "Anton",
-          "previousHash": "3dadb4a6307e23cc721f525279f795f08f2155d4e929b8ddac13a0ee1d4b378a",
-          "currentHash": "aea57edf5f8177843bf8eb2847540aae065f554acb78af8b5983c38d4be5c728"
-        }
-      ],
-      "unchanged": 67,
+      "changed": [],
+      "unchanged": 68,
       "totals": {
         "previous": 68,
         "current": 68

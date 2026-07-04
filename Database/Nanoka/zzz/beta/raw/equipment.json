@@ -644,44 +644,44 @@
     }
   },
   "34100": {
-    "icon": "",
+    "icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitFeatheredFate.png",
     "en": {
       "name": "Feathered Fate",
-      "desc2": "ATK +10%",
+      "desc2": "Anomaly Proficiency +30",
       "desc4": "When the equipper enters the battlefield or is switched to as the active character, they gain a buff: Anomaly Proficiency increases by 50, and if the equipper is a <color=#FFA9DD>Lumen Attribute</color> character, Attribute Anomaly Damage Dealt increases by 15%, lasting 15s;\nWhen the equipper is not the active character, they always retain this buff."
     },
     "ko": {
-      "name": "EquipmentSuit_34100_name",
+      "name": "깃털에 얽힌 맹세",
       "desc2": "공격력+10%",
-      "desc4": "착용자가 전장에 진입하거나, 현재 조작 중인 캐릭터로 교체 시, 버프 효과를 획득한다: 이상 마스터리 50pt 증가, 착용자가 <color=#FFA9DD>유명 속성</color>일 경우, 주는 속성 이상 피해 15% 증가, 15초 지속. 착용자가 조작 중인 캐릭터가 아닐 때, 해당 버프 효과를 항시 보유한다."
+      "desc4": "착용자가 전장에 진입하거나, 현재 조작 중인 캐릭터로 교체 시, 버프 효과를 획득한다: 이상 마스터리가 50pt 증가하고, 착용자가 <color=#FFA9DD>루멘 속성</color>일 경우, 주는 속성 이상 피해가 15% 증가한다. 지속 시간: 15초, 착용자가 조작 중인 캐릭터가 아닐 때, 해당 버프 효과를 항시 보유한다."
     },
     "zh": {
       "name": "谶羽之誓",
-      "desc2": "攻击力+10%。",
+      "desc2": "异常精通+30点。",
       "desc4": "装备者进入战场时，或被切换为当前操作中角色时，获得增益效果：异常精通提升50点，若装备者为<color=#FFA9DD>流明属性</color>，造成的属性异常伤害提升15%，持续15秒；\n当装备者为非操作中角色时，则始终持有该增益效果。"
     },
     "ja": {
       "name": "讖羽の誓い",
-      "desc2": "攻撃力+10%。",
+      "desc2": "異常マスタリー+30Pt。",
       "desc4": "装備者がフィールド入場時、または操作中メンバーに切り替わった時、バフ効果を獲得：異常マスタリー+50Pt、装備者が<color=#FFA9DD>ルーメン属性</color>の場合、与える属性異常ダメージ+15%、継続時間15秒。\n装備者が非操作中メンバーの場合、常にこのバフ効果を所持する。"
     }
   },
   "34200": {
-    "icon": "",
+    "icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitThornedRose.png",
     "en": {
       "name": "Thorned Rose",
       "desc2": "...",
       "desc4": "..."
     },
     "ko": {
-      "name": "EquipmentSuit_34200_name",
+      "name": "가시 돋친 장미",
       "desc2": "...",
       "desc4": "EquipmentSuit_34200_4_des"
     },
     "zh": {
       "name": "荆棘玫瑰",
       "desc2": "...",
-      "desc4": "(Test1)..."
+      "desc4": "..."
     },
     "ja": {
       "name": "荊棘の薔薇",

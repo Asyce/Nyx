@@ -1390,7 +1390,7 @@
     "ja": "ノルムー"
   },
   "1581": {
-    "code": "Avatar_Female_Size02_Remielle_En",
+    "code": "Remielle",
     "rank": 4,
     "type": 3,
     "element": 300,
@@ -1408,7 +1408,7 @@
       "3115811": {
         "name": "AvatarSkin_RemielleOrigin_Name_001",
         "desc": "AvatarSkin_RemielleOrigin_Desc_001",
-        "image": "IconRole67_01"
+        "image": "IconRole67_02"
       }
     },
     "desc": "Partner_ProfileDesc_1581",
@@ -1438,7 +1438,7 @@
         "image": "IconRole66_01"
       }
     },
-    "desc": "Partner_ProfileDesc_1591",
+    "desc": "...",
     "ko": "Avatar_Female_Size03_Sigrid",
     "zh": "(Test1)希格莉德",
     "ja": "Avatar_Female_Size03_Sigrid"

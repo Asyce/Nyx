@@ -49577,8 +49577,8 @@
     "type": {
       "3": "Anomaly"
     },
-    "description": "Remiel Test Engine Description",
-    "shortDescription": "Remiel Test Engine Short Description",
+    "description": "...",
+    "shortDescription": "...",
     "assets": {
       "icon": "Nanoka/zzz/assets/w-engines/Weapon_S_1581.webp"
     },
@@ -50077,40 +50077,40 @@
     "talents": {
       "1": {
         "name": "Paradise Lost",
-        "desc": "Anomaly Proficiency increases by <color=#2BAD00>96</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG Boost of <color=#2BAD00>20%</color>, and apply a DMG Boost of <color=#2BAD00>20%</color> to the whole squad. Both effects last 30s; repeated triggers reset the duration."
+        "desc": "Anomaly Proficiency increases by <color=#2BAD00>96</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG Boost of <color=#2BAD00>20%</color>, and apply a DMG Boost of <color=#2BAD00>30%</color> to the whole squad. Both effects last 30s; repeated triggers reset the duration."
       },
       "2": {
         "name": "Paradise Lost",
-        "desc": "Anomaly Proficiency increased by <color=#2BAD00>105</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG Boost <color=#2BAD00>21.5%</color>, and apply a DMG Boost of <color=#2BAD00>22%</color> to the whole squad. Both effects last 30s; repeated triggers reset the duration."
+        "desc": "Anomaly Proficiency increased by <color=#2BAD00>100</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG Boost <color=#2BAD00>21.5%</color>, and apply a DMG Boost of <color=#2BAD00>32%</color> to the whole squad. Both effects last 30s; repeated triggers reset the duration."
       },
       "3": {
         "name": "Paradise Lost",
-        "desc": "Anomaly Proficiency increases by <color=#2BAD00>115</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG increase of <color=#2BAD00>23%</color>, and the whole squad receives a DMG increase of <color=#2BAD00>24%</color>. Both effects last 30s, and repeated triggers reset the duration."
+        "desc": "Anomaly Proficiency increases by <color=#2BAD00>105</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG increase of <color=#2BAD00>23%</color>, and the whole squad receives a DMG increase of <color=#2BAD00>34%</color>. Both effects last 30s, and repeated triggers reset the duration."
       },
       "4": {
         "name": "Paradise Lost",
-        "desc": "Anomaly Proficiency increased by <color=#2BAD00>125</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG Boost <color=#2BAD00>24.5%</color>, and apply a DMG Boost of <color=#2BAD00>26%</color> to the whole squad. Both effects last 30s; repeated triggers reset the duration."
+        "desc": "Anomaly Proficiency increased by <color=#2BAD00>110</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG Boost <color=#2BAD00>24.5%</color>, and apply a DMG Boost of <color=#2BAD00>36%</color> to the whole squad. Both effects last 30s; repeated triggers reset the duration."
       },
       "5": {
         "name": "Paradise Lost",
-        "desc": "Anomaly Proficiency increases by <color=#2BAD00>135</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG Bonus of <color=#2BAD00>26%</color>, and apply a DMG Bonus of <color=#2BAD00>28%</color> to the whole squad. Both effects last 30s; repeated triggers reset the duration."
+        "desc": "Anomaly Proficiency increases by <color=#2BAD00>115</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG Bonus of <color=#2BAD00>26%</color>, and apply a DMG Bonus of <color=#2BAD00>38%</color> to the whole squad. Both effects last 30s; repeated triggers reset the duration."
       }
     },
     "liveComparison": {
-      "currentHash": "7035d4fbee18a37e21dd4b6ff645a9ed62fbb984fb95205dc2d49ce1b78e26ef"
+      "currentHash": "97bce84b9140a851c11b2d09f9ac5f944be8fb0122947196a7bf1c5d7280210c"
     }
   },
   {
     "id": "14159",
     "contentStatus": "beta",
-    "name": "Item_Weapon_S_1591_Name",
+    "name": "...",
     "codeName": "Weapon_S_1591",
     "rarity": 4,
     "type": {
       "1": "Attack"
     },
-    "description": "Item_Weapon_S_1591_Desc",
-    "shortDescription": "Item_Weapon_S_1591_ShortDesc",
+    "description": "...",
+    "shortDescription": "...",
     "assets": {
       "icon": "Nanoka/zzz/assets/w-engines/Weapon_S_1591.webp"
     },
@@ -50608,28 +50608,28 @@
     ],
     "talents": {
       "1": {
-        "name": "Weapon_TalentTitle_14159",
+        "name": "...",
         "desc": "When the equipper lands a Heavy Strike using <color=#FFFFFF>[Basic Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color>, they gain 1 stack of <color=#FFFFFF>[Blade's Edge]</color>. <color=#FFFFFF>[Blade's Edge]</color> stacks up to 2 times, with each skill type providing at most 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>28%</color>, lasting 25s;\nUsing the aforementioned skills refreshes the duration of <color=#FFFFFF>[Blade's Edge]</color>;\nWhen the equipper has 2 stacks of <color=#FFFFFF>[Blade's Edge]</color>, they gain <color=#FFFFFF>[Bone-Piercing]</color>: <color=#98EFF0>Ice DMG dealt is increased by <color=#2BAD00>14%</color></color>, and ignores 14% of the target's <color=#98EFF0>Ice RES</color>."
       },
       "2": {
-        "name": "Weapon_TalentTitle_14159",
+        "name": "...",
         "desc": "When the equipper lands a Heavy Strike using <color=#FFFFFF>[Basic Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color>, they gain 1 stack of <color=#FFFFFF>[Blade's Edge]</color>. <color=#FFFFFF>[Blade's Edge]</color> stacks up to 2 times, with each skill type providing at most 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>32.2%</color>, lasting 25s;\nUsing the aforementioned skills refreshes the duration of <color=#FFFFFF>[Blade's Edge]</color>;\nWhen the equipper has 2 stacks of <color=#FFFFFF>[Blade's Edge]</color>, they gain <color=#FFFFFF>[Bone-Piercing]</color>: <color=#98EFF0>Ice DMG dealt is increased by <color=#2BAD00>16.1%</color></color>, and ignores 16.1% of the target's <color=#98EFF0>Ice RES</color>."
       },
       "3": {
-        "name": "Weapon_TalentTitle_14159",
+        "name": "...",
         "desc": "When the equipper lands a Heavy Strike using <color=#FFFFFF>[Basic Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color>, they gain 1 stack of <color=#FFFFFF>[Blade's Edge]</color>. <color=#FFFFFF>[Blade's Edge]</color> stacks up to 2 times, with each skill type providing at most 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>36.4%</color>, lasting 25s;\nUsing the aforementioned skills refreshes the duration of <color=#FFFFFF>[Blade's Edge]</color>;\nWhen the equipper has 2 stacks of <color=#FFFFFF>[Blade's Edge]</color>, they gain <color=#FFFFFF>[Bone-Piercing]</color>: <color=#98EFF0>Ice DMG dealt is increased by <color=#2BAD00>18.2%</color></color>, and ignores 18.2% of the target's <color=#98EFF0>Ice RES</color>."
       },
       "4": {
-        "name": "Weapon_TalentTitle_14159",
+        "name": "...",
         "desc": "When the equipper lands a Heavy Strike using <color=#FFFFFF>[Basic Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color>, they gain 1 stack of <color=#FFFFFF>[Blade's Edge]</color>. <color=#FFFFFF>[Blade's Edge]</color> stacks up to 2 times, with each skill type providing at most 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>40.6%</color>, lasting 25s;\nUsing the aforementioned skills refreshes the duration of <color=#FFFFFF>[Blade's Edge]</color>;\nWhen the equipper has 2 stacks of <color=#FFFFFF>[Blade's Edge]</color>, they gain <color=#FFFFFF>[Bone-Piercing]</color>: <color=#98EFF0>Ice DMG dealt is increased by <color=#2BAD00>20.3%</color></color>, and ignores 20.3% of the target's <color=#98EFF0>Ice RES</color>."
       },
       "5": {
-        "name": "Weapon_TalentTitle_14159",
+        "name": "...",
         "desc": "When the equipper lands a Heavy Strike using <color=#FFFFFF>[Basic Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color>, they gain 1 stack of <color=#FFFFFF>[Blade's Edge]</color>. <color=#FFFFFF>[Blade's Edge]</color> stacks up to 2 times, with each skill type providing at most 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>44.8%</color>, lasting 25s;\nUsing the aforementioned skills refreshes the duration of <color=#FFFFFF>[Blade's Edge]</color>;\nWhen the equipper has 2 stacks of <color=#FFFFFF>[Blade's Edge]</color>, they gain <color=#FFFFFF>[Bone-Piercing]</color>: <color=#98EFF0>Ice DMG dealt is increased by <color=#2BAD00>22.4%</color></color>, and ignores 22.4% of the target's <color=#98EFF0>Ice RES</color>."
       }
     },
     "liveComparison": {
-      "currentHash": "aa3413e2615c24a46909cfa8b0e9ad037daadf7e08aeab6f733f0f57523af71f"
+      "currentHash": "051f9fce14800c1da5d72a0273e1691341ebab21a9097f1aecdd505876f6b9f0"
     }
   }
 ]

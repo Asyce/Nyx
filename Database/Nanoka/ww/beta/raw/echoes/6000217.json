@@ -7,7 +7,7 @@
   "place": "",
   "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.T_IconMonsterHead_34030_UI",
   "skill": {
-    "desc": "Use Echo Skill to summon Myriad Snare: Rustfire Chassis, dealing up to 3 stages of Fusion DMG equal to {0} of the Resonator's Max HP.\n\nResonators with this Echo equipped in the main slot gain {1} Fusion DMG Bonus and {2} Heavy Attack DMG Bonus.\n\nCD: {3}s",
+    "desc": "Summon Myriad Snare: Rustfire Chassis, dealing Fusion DMG equal to {0} of the Max HP on initial impact. During its duration, it repeatedly crushes enemies along its path up to {5} times, dealing Fusion DMG equal to {1} of the Max HP each time.\n\nResonators with this Echo equipped in the main slot gain {2} Fusion DMG Bonus and {3} Heavy Attack DMG Bonus.\n\nCD: {4}s",
     "simple_desc": "Summon Myriad Snare: Rustfire Chassis to attack enemies, dealing Fusion DMG.\nResonators with this Echo equipped in the main slot deal higher Fusion and Heavy Attack DMG.",
     "param": [
       [
@@ -98,7 +98,7 @@
           ]
         },
         "5": {
-          "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+          "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
           "param": [
             "5%",
             "4",

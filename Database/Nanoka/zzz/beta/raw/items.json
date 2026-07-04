@@ -219,7 +219,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/MessageLetterEmpty.png",
     "rank": 3,
     "class": 1,
-    "name": "Empty Envelope"
+    "name": "Wish Letter"
+  },
+  "142": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/ChallengeShopCoin02.png",
+    "rank": 4,
+    "class": 1,
+    "name": "Investigation Credential"
   },
   "201": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/ProxyEXP.png",
@@ -249,7 +255,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Currency_Experience.png",
     "rank": 3,
     "class": 2,
-    "name": "Item_Name_217"
+    "name": "Season EXP"
   },
   "221": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/SocialForumExp.png",
@@ -689,6 +695,12 @@
     "class": 2,
     "name": "\"Deep Cleaning\" Service Card"
   },
+  "705": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AbyssS2Points.png",
+    "rank": 3,
+    "class": 2,
+    "name": "Item_AbyssPoint_Name_705"
+  },
   "801": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/RoarinStore/UnPacker/RoarinStoreCard01.png",
     "rank": 4,
@@ -1062,19 +1074,19 @@
     "name": "Norma"
   },
   "1581": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece50.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece67.png",
     "rank": 4,
     "class": 3,
     "name": "Avatar_Female_Size02_Remielle"
   },
   "1582": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece50.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece67.png",
     "rank": 4,
     "class": 3,
     "name": "Avatar_Female_Size02_Remielle"
   },
   "1591": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece50.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece66.png",
     "rank": 4,
     "class": 3,
     "name": "Avatar_Female_Size03_Sigrid"
@@ -1440,13 +1452,13 @@
     "name": "Agent Focus: Norma"
   },
   "5581": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece50.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece67.png",
     "rank": 4,
     "class": 4,
     "name": "Agent Profile: Remiel"
   },
   "5582": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece50.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece67.png",
     "rank": 4,
     "class": 4,
     "name": "Agent Profile: Remiel"
@@ -2043,7 +2055,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_S_1591.png",
     "rank": 4,
     "class": 5,
-    "name": "Item_Weapon_S_1591_Name"
+    "name": "..."
   },
   "20102": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconRoleAwaken_1021.png",
@@ -5130,217 +5142,217 @@
     "name": "The Sky Ablaze [6]"
   },
   "34121": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_B.png",
     "rank": 2,
     "class": 7,
     "name": "Oath of Prophetic Feathers[1]"
   },
   "34122": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_B.png",
     "rank": 2,
     "class": 7,
     "name": "Oath of Prophetic Feathers[2]"
   },
   "34123": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_B.png",
     "rank": 2,
     "class": 7,
     "name": "Oath of Prophetic Feathers[3]"
   },
   "34124": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_B.png",
     "rank": 2,
     "class": 7,
     "name": "Oath of Prophetic Feathers[4]"
   },
   "34125": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_B.png",
     "rank": 2,
     "class": 7,
     "name": "Oath of Prophetic Feathers[5]"
   },
   "34126": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_B.png",
     "rank": 2,
     "class": 7,
     "name": "Oath of Prophetic Feathers[6]"
   },
   "34131": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_A.png",
     "rank": 3,
     "class": 7,
     "name": "Oath of Prophetic Feathers[1]"
   },
   "34132": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_A.png",
     "rank": 3,
     "class": 7,
     "name": "Oath of Prophetic Feathers[2]"
   },
   "34133": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_A.png",
     "rank": 3,
     "class": 7,
     "name": "Oath of Prophetic Feathers[3]"
   },
   "34134": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_A.png",
     "rank": 3,
     "class": 7,
     "name": "Oath of Prophetic Feathers[4]"
   },
   "34135": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_A.png",
     "rank": 3,
     "class": 7,
     "name": "Oath of Prophetic Feathers[5]"
   },
   "34136": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_A.png",
     "rank": 3,
     "class": 7,
     "name": "Oath of Prophetic Feathers[6]"
   },
   "34141": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_S.png",
     "rank": 4,
     "class": 7,
     "name": "Oath of Prophetic Feathers[1]"
   },
   "34142": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_S.png",
     "rank": 4,
     "class": 7,
     "name": "Oath of Prophetic Feathers[2]"
   },
   "34143": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_S.png",
     "rank": 4,
     "class": 7,
     "name": "Oath of Prophetic Feathers[3]"
   },
   "34144": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_S.png",
     "rank": 4,
     "class": 7,
     "name": "Oath of Prophetic Feathers[4]"
   },
   "34145": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_S.png",
     "rank": 4,
     "class": 7,
     "name": "Oath of Prophetic Feathers[5]"
   },
   "34146": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_S.png",
     "rank": 4,
     "class": 7,
     "name": "Oath of Prophetic Feathers[6]"
   },
   "34221": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_B.png",
     "rank": 2,
     "class": 7,
     "name": "Thorned Rose[1]"
   },
   "34222": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_B.png",
     "rank": 2,
     "class": 7,
     "name": "Thorned Rose[2]"
   },
   "34223": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_B.png",
     "rank": 2,
     "class": 7,
     "name": "Thorned Rose[3]"
   },
   "34224": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_B.png",
     "rank": 2,
     "class": 7,
     "name": "Thorned Rose[4]"
   },
   "34225": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_B.png",
     "rank": 2,
     "class": 7,
     "name": "Thorned Rose[5]"
   },
   "34226": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_B.png",
     "rank": 2,
     "class": 7,
     "name": "Thorned Rose[6]"
   },
   "34231": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_A.png",
     "rank": 3,
     "class": 7,
     "name": "Thorned Rose[1]"
   },
   "34232": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_A.png",
     "rank": 3,
     "class": 7,
     "name": "Thorned Rose[2]"
   },
   "34233": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_A.png",
     "rank": 3,
     "class": 7,
     "name": "Thorned Rose[3]"
   },
   "34234": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_A.png",
     "rank": 3,
     "class": 7,
     "name": "Thorned Rose[4]"
   },
   "34235": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_A.png",
     "rank": 3,
     "class": 7,
     "name": "Thorned Rose[5]"
   },
   "34236": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_A.png",
     "rank": 3,
     "class": 7,
     "name": "Thorned Rose[6]"
   },
   "34241": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_S.png",
     "rank": 4,
     "class": 7,
     "name": "Thorned Rose[1]"
   },
   "34242": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_S.png",
     "rank": 4,
     "class": 7,
     "name": "Thorned Rose[2]"
   },
   "34243": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_S.png",
     "rank": 4,
     "class": 7,
     "name": "Thorned Rose[3]"
   },
   "34244": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_S.png",
     "rank": 4,
     "class": 7,
     "name": "Thorned Rose[4]"
   },
   "34245": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_S.png",
     "rank": 4,
     "class": 7,
     "name": "Thorned Rose[5]"
   },
   "34246": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_S.png",
     "rank": 4,
     "class": 7,
     "name": "Thorned Rose[6]"
@@ -5640,10 +5652,10 @@
     "name": "Basic Windbite Chip"
   },
   "100117": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AvatarSkillLight01.png",
     "rank": 1,
     "class": 10,
-    "name": "Item_AvatarSkillMaterial_17_name"
+    "name": "Basic Lumiflux Chip"
   },
   "100120": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AvatarSkillPhys02.png",
@@ -5682,10 +5694,10 @@
     "name": "Advanced Windbite Chip"
   },
   "100127": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AvatarSkillLight02.png",
     "rank": 2,
     "class": 10,
-    "name": "Item_AvatarSkillMaterial_27_name"
+    "name": "Advanced Lumiflux Chip"
   },
   "100130": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RoleSkillExpPhysDmg01.png",
@@ -5724,10 +5736,10 @@
     "name": "Specialized Windbite Chip"
   },
   "100137": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RoleSkillExpLight01.png",
     "rank": 3,
     "class": 10,
-    "name": "Item_AvatarSkillMaterial_37_name"
+    "name": "Specialized Lumiflux Chip"
   },
   "100211": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AvatarRankDamage01.png",
@@ -9576,6 +9588,18 @@
     "class": 18,
     "name": "Gear Coins"
   },
+  "601551": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/ItemIcon/UnPacker/IconFund.png",
+    "rank": 2,
+    "class": 18,
+    "name": "Gear Coins"
+  },
+  "601561": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/ItemIcon/UnPacker/IconFund.png",
+    "rank": 2,
+    "class": 18,
+    "name": "Gear Coins"
+  },
   "610001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/ItemIcon/UnPacker/IconFund.png",
     "rank": 2,
@@ -10321,37 +10345,37 @@
     "name": "The Sky Ablaze"
   },
   "834120": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_B.png",
     "rank": 2,
     "class": 28,
     "name": "Feathered Fate"
   },
   "834130": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_A.png",
     "rank": 3,
     "class": 28,
     "name": "Feathered Fate"
   },
   "834140": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitFeatheredFate_S.png",
     "rank": 4,
     "class": 28,
     "name": "Feathered Fate"
   },
   "834220": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_B.png",
     "rank": 2,
     "class": 28,
     "name": "Thorned Rose"
   },
   "834230": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_A.png",
     "rank": 3,
     "class": 28,
     "name": "Thorned Rose"
   },
   "834240": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconSuit/UnPacker/ItemSuitThornedRose_S.png",
     "rank": 4,
     "class": 28,
     "name": "Thorned Rose"
@@ -11549,6 +11573,18 @@
     "rank": 4,
     "class": 31,
     "name": "Dawn's Elegy"
+  },
+  "1000999": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1581.png",
+    "rank": 4,
+    "class": 31,
+    "name": "..."
+  },
+  "1001000": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1591.png",
+    "rank": 4,
+    "class": 31,
+    "name": "..."
   },
   "1001001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard04.png",
@@ -13044,6 +13080,18 @@
     "class": 20,
     "name": "Dawn's Elegy"
   },
+  "1002999": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1571.png",
+    "rank": 4,
+    "class": 20,
+    "name": "..."
+  },
+  "1003000": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1551.png",
+    "rank": 4,
+    "class": 20,
+    "name": "..."
+  },
   "1005001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse32.png",
     "rank": 3,
@@ -13523,6 +13571,12 @@
     "rank": 4,
     "class": 31,
     "name": "[Deployed]Ultra Jake"
+  },
+  "1044023": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooAngelboo.png",
+    "rank": 4,
+    "class": 31,
+    "name": "[Deployed]Ariel"
   },
   "1053001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooPenguinboo.png",
@@ -17398,13 +17452,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1581.png",
     "rank": 4,
     "class": 83,
-    "name": "Choice_1341073_name"
+    "name": "Remielle"
   },
   "1341074": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1591.png",
     "rank": 4,
     "class": 83,
-    "name": "Choice_1341074_name"
+    "name": "Sigrid"
   },
   "1341075": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1621.png",
@@ -18521,6 +18575,42 @@
     "rank": 4,
     "class": 80,
     "name": "[Pyrois] Flame of Illumination"
+  },
+  "1350291": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic097.png",
+    "rank": 4,
+    "class": 80,
+    "name": "[Remielle] Empty Wing Pilgrimage"
+  },
+  "1350292": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic097.png",
+    "rank": 4,
+    "class": 80,
+    "name": "[Remielle] Tempered Edge Radiance"
+  },
+  "1350293": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic097.png",
+    "rank": 4,
+    "class": 80,
+    "name": "[Remielle] Feathered Flow of Silver"
+  },
+  "1350301": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic097.png",
+    "rank": 4,
+    "class": 80,
+    "name": "[Sigrid] Gear 1"
+  },
+  "1350302": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic097.png",
+    "rank": 4,
+    "class": 80,
+    "name": "[Sigrid] Gear 2"
+  },
+  "1350303": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic097.png",
+    "rank": 4,
+    "class": 80,
+    "name": "[Sigrid] Gear 3"
   },
   "1351001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver1_7/Flower/UnPacker/SLot1_1.png",
@@ -21439,8 +21529,8 @@
     "name": "Skin_3111510_name"
   },
   "3111511": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_LucyPrincessHoliday.png",
-    "rank": 4,
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_LucyPrincess.png",
+    "rank": 3,
     "class": 63,
     "name": "Skin_3111511_name"
   },
@@ -22126,7 +22216,7 @@
     "icon": "",
     "rank": 4,
     "class": 64,
-    "name": "Critical Front Hard Stage Reward Dynamic Avatar (Limited-Time)"
+    "name": "..."
   },
   "3203001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/ItemProfileActivityCollaboration01.png",
@@ -22510,13 +22600,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/ItemProfileGeneral.png",
     "rank": 4,
     "class": 64,
-    "name": "Profile_3231581_name"
+    "name": "..."
   },
   "3231591": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/ItemProfileGeneral.png",
     "rank": 4,
     "class": 64,
-    "name": "Profile_3231591_name"
+    "name": "..."
   },
   "3300001": {
     "icon": "",
@@ -22786,7 +22876,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Callingcard49.png",
     "rank": 3,
     "class": 65,
-    "name": "CallingCard_3301028_name"
+    "name": "..."
   },
   "3302001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Callingcard04.png",
@@ -22840,7 +22930,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Callingcard50.png",
     "rank": 4,
     "class": 65,
-    "name": "Critical Front Hard Stage Reward Namecard (Limited-Time)"
+    "name": "Rank-Forged Blade Ballad"
   },
   "3311011": {
     "icon": "",
@@ -23176,13 +23266,13 @@
     "icon": "",
     "rank": 3,
     "class": 65,
-    "name": "CallingCard_3311581_name"
+    "name": "..."
   },
   "3311591": {
     "icon": "",
     "rank": 3,
     "class": 65,
-    "name": "CallingCard_3311591_name"
+    "name": "..."
   },
   "3321011": {
     "icon": "",
@@ -23518,13 +23608,13 @@
     "icon": "",
     "rank": 3,
     "class": 65,
-    "name": "CallingCard_3321581_name"
+    "name": "..."
   },
   "3321591": {
     "icon": "",
     "rank": 3,
     "class": 65,
-    "name": "CallingCard_3321591_name"
+    "name": "..."
   },
   "3500000": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleTrust/UnPacker/LiveWallpaper01.png",
@@ -23869,7 +23959,7 @@
     "name": "Dynamic Wallpaper: {0}"
   },
   "3510055": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleTrust/UnPacker/LiveWallpaper59.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleTrust/UnPacker/LiveWallpaper61.png",
     "rank": 4,
     "class": 67,
     "name": "Dynamic Wallpaper: {0}"
@@ -24109,10 +24199,10 @@
     "name": "PhotoName_3690003"
   },
   "3700001": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/PhotowallDecoration1.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/PhotoSticker.png",
     "rank": 4,
     "class": 138,
-    "name": "Exclusive Sticker"
+    "name": "Carffiti Mark·「Final Curtain」"
   },
   "3700106": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Collection.png",
@@ -24307,25 +24397,25 @@
     "name": "Model: Starlight Rider Faceplate"
   },
   "3710001": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/PhotowallDecoration2.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/PhotoFrame.png",
     "rank": 4,
     "class": 139,
-    "name": "Exclusive Frame"
+    "name": "Focus Lens · \"One-Shot Kill\""
   },
   "3720001": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Snapshot.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Emoji02.png",
     "rank": 4,
     "class": 140,
-    "name": "Exclusive Emoji Pack 1"
+    "name": "Emote: \"K.O.\""
   },
   "3720002": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Snapshot.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Emoji01.png",
     "rank": 4,
     "class": 140,
-    "name": "Exclusive Emoji Pack 2"
+    "name": "Emoji · \"ACE!\""
   },
   "3730001": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Snapshot.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AvatarPose01.png",
     "rank": 4,
     "class": 141,
     "name": "..."
@@ -28714,13 +28804,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/ItemIcon/UnPacker/IconFund.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4300001_Name"
+    "name": "Material-Currency1"
   },
   "4300002": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/EquipTicketIcon.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4300002_Name"
+    "name": "Ticket"
   },
   "4300010": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconCurrency.png",
@@ -28738,1309 +28828,1471 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_001.png",
     "rank": 1,
     "class": 130,
-    "name": "ZKItem_4300101_Name"
+    "name": "Material-C-Parts Enrichment Zone 1"
   },
   "4300111": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_002.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4300111_Name"
+    "name": "Material-B-Parts Concentration Zone 1"
   },
   "4300112": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_003.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4300112_Name"
+    "name": "Material-B-Parts Concentration Zone 2"
   },
   "4300121": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_004.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4300121_Name"
+    "name": "Material-A-Parts Concentration Zone 1"
   },
   "4300122": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_005.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4300122_Name"
+    "name": "Material-A-Parts Enrichment Zone 2"
   },
   "4300151": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_006.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4300151_Name"
+    "name": "Material-S-Parts Rich Zone 1"
   },
   "4300152": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_007.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4300152_Name"
+    "name": "Material-S-Parts Rich Zone 1"
   },
   "4300201": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_018.png",
     "rank": 1,
     "class": 130,
-    "name": "ZKItem_4300201_Name"
+    "name": "Material-C-Can Material Rich Zone 1"
   },
   "4300211": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_019.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4300211_Name"
+    "name": "Material-B-Can Material Enrichment Zone 1"
   },
   "4300212": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_020.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4300212_Name"
+    "name": "Material-B-Can Material Enrichment Zone 2"
   },
   "4300221": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_021.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4300221_Name"
+    "name": "Material-A-Can Material Rich Zone 1"
   },
   "4300222": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_022.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4300222_Name"
+    "name": "Material-A-Can Material Enrichment Zone 2"
   },
   "4300223": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_023.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4300223_Name"
+    "name": "Material-A-Can Material Concentration Zone 3"
   },
   "4300224": {
     "icon": "",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4300224_Name"
+    "name": "Material-A-Can Material Enrichment Zone 4"
   },
   "4300251": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_024.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4300251_Name"
+    "name": "Material-S-Can Material Enrichment Zone 1"
   },
   "4300252": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_025.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4300252_Name"
+    "name": "Material-S-Can Material Enrichment Zone 2"
   },
   "4300253": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_026.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4300253_Name"
+    "name": "Material-S-Can Material Enrichment Zone 3"
   },
   "4300254": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_027.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4300254_Name"
+    "name": "Material-S-Can Material Enrichment Zone 4"
   },
   "4300301": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_008.png",
     "rank": 1,
     "class": 130,
-    "name": "ZKItem_4300301_Name"
+    "name": "Material-C-Cable Cluster Zone 1"
   },
   "4300311": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_009.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4300311_Name"
+    "name": "Material-B-Cable Concentration Zone 1"
   },
   "4300312": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_010.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4300312_Name"
+    "name": "Material-B-Cable Concentration Zone 2"
   },
   "4300321": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_011.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4300321_Name"
+    "name": "Material-A-Cable-Rich Zone 1"
   },
   "4300322": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_012.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4300322_Name"
+    "name": "Material-A-Cable Enrichment Zone 2"
   },
   "4300323": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_013.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4300323_Name"
+    "name": "Material-A-Cable Enrichment Zone 3"
   },
   "4300324": {
     "icon": "",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4300324_Name"
+    "name": "Material-A-Cable Cluster Zone 4"
   },
   "4300351": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_014.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4300351_Name"
+    "name": "Material-S-Cable Enrichment Zone 1"
   },
   "4300352": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_015.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4300352_Name"
+    "name": "Material-S-Cable-Rich Zone 2"
   },
   "4300353": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_016.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4300353_Name"
+    "name": "Material-S-Cable Enrichment Zone 3"
   },
   "4300354": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_017.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4300354_Name"
+    "name": "Material-S-Cable Enrichment Zone 4"
   },
   "4300401": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_028.png",
-    "rank": 1,
+    "rank": 2,
     "class": 130,
     "name": "Ether Dynamite C - Windworn Highway"
   },
   "4300402": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_031.png",
-    "rank": 1,
+    "rank": 2,
     "class": 130,
     "name": "High-Carbon Composite Fiber C - Withered Wildswood"
   },
   "4300403": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_034.png",
-    "rank": 1,
+    "rank": 2,
     "class": 130,
     "name": "Ether Sensor C - Fantasy Beach"
   },
   "4300404": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_037.png",
-    "rank": 1,
+    "rank": 2,
     "class": 130,
-    "name": "Compression Bearing C - Belobog Heavy Industries"
+    "name": "Thrust Bearing C - Dove Street Construction Site"
   },
   "4300405": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_040.png",
-    "rank": 1,
+    "rank": 2,
     "class": 130,
-    "name": "Ether Signal Stabilizer C - Sixth Street"
+    "name": "Ether Signal Stabilizer C - Six Dusk Street"
   },
   "4300406": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_043.png",
-    "rank": 1,
+    "rank": 2,
     "class": 130,
-    "name": "Microcontrol Circuit Board C - Lumina Square"
+    "name": "Microcontrol Circuit Board C - Lumina Central"
   },
   "4300421": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_029.png",
-    "rank": 2,
+    "rank": 3,
     "class": 130,
     "name": "Ether Explosive B-Windworn Highway"
   },
   "4300422": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_032.png",
-    "rank": 2,
+    "rank": 3,
     "class": 130,
     "name": "High-Carbon Composite Fiber B - Withered Wildswood"
   },
   "4300423": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_035.png",
-    "rank": 2,
+    "rank": 3,
     "class": 130,
     "name": "Ether Sensor B-Fantasy Beach"
   },
   "4300424": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_038.png",
-    "rank": 2,
+    "rank": 3,
     "class": 130,
-    "name": "Thrust Bearing B - Belobog Heavy Industries"
+    "name": "Thrust Bearing B - Dove Street Construction Site"
   },
   "4300425": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_041.png",
-    "rank": 2,
+    "rank": 3,
     "class": 130,
-    "name": "Ether Signal Stabilizer B - Sixth Street"
+    "name": "Ether Signal Stabilizer B - Six Dusk Street"
   },
   "4300426": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_044.png",
-    "rank": 2,
+    "rank": 3,
     "class": 130,
-    "name": "Microcontrol Circuit Board B - Lumina Square"
+    "name": "Microcontrol Circuit Board B - Lumina Central"
   },
   "4300451": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_030.png",
-    "rank": 3,
+    "rank": 4,
     "class": 130,
     "name": "Ether Explosive A-Windworn Highway"
   },
   "4300452": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_033.png",
-    "rank": 3,
+    "rank": 4,
     "class": 130,
     "name": "High-Carbon Composite Fiber A - Withered Wildswood"
   },
   "4300453": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_036.png",
-    "rank": 3,
+    "rank": 4,
     "class": 130,
     "name": "Ether Sensor A - Fantasy Beach"
   },
   "4300454": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_039.png",
-    "rank": 3,
+    "rank": 4,
     "class": 130,
-    "name": "Thrust Bearing A - Belobog Heavy Industries"
+    "name": "Thrust Bearing A - Dove Street Construction Site"
   },
   "4300455": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_042.png",
-    "rank": 3,
+    "rank": 4,
     "class": 130,
-    "name": "Ether Signal Stabilizer A - Sixth Street"
+    "name": "Ether Signal Stabilizer A - Six Dusk Street"
   },
   "4300456": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_045.png",
-    "rank": 3,
+    "rank": 4,
     "class": 130,
-    "name": "Micro Control Circuit Board A - Lumina Square"
+    "name": "Micro Control Circuit A - Lumina Central"
   },
   "4301301": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_1.png",
     "rank": 1,
     "class": 130,
-    "name": "ZKItem_4301301_Name"
+    "name": "Monster Common Material-C-Ethereal"
   },
   "4301302": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_4.png",
     "rank": 1,
     "class": 130,
-    "name": "ZKItem_4301302_Name"
+    "name": "Monster Common Material-C-Machine"
   },
   "4301303": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_7.png",
     "rank": 1,
     "class": 130,
-    "name": "ZKItem_4301303_Name"
+    "name": "Monster Common Material-C-Human"
   },
   "4301311": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_2.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4301311_Name"
+    "name": "Monster Common Material-B-Ethereal"
   },
   "4301312": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_5.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4301312_Name"
+    "name": "Monster Common Material-B-Machine"
   },
   "4301313": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_8.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4301313_Name"
+    "name": "Monster Common Material-B-Human"
   },
   "4301321": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_3.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4301321_Name"
+    "name": "Monster Common Material-A-Ethereal"
   },
   "4301322": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_6.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4301322_Name"
+    "name": "Monster Common Material-A-Machine"
   },
   "4301323": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_9.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4301323_Name"
+    "name": "Monster Common Material-A-Human"
   },
   "4301401": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_10.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4301401_Name"
+    "name": "Boss Exclusive Material-B"
   },
   "4301402": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_11.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4301402_Name"
+    "name": "Boss Exclusive Material-A"
   },
   "4301403": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_12.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4301403_Name"
+    "name": "Boss Exclusive Material-S"
   },
   "4301404": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_13.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4301404_Name"
+    "name": "Boss Exclusive Material-S+"
   },
   "4311000": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_001.png",
     "rank": 1,
     "class": 131,
-    "name": "ZKItem_4311000_Name"
+    "name": "Consumable-HP Potion-C"
   },
   "4311001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_002.png",
     "rank": 2,
     "class": 131,
-    "name": "ZKItem_4311001_Name"
+    "name": "Consumable-HP Potion-B"
   },
   "4311002": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_003.png",
     "rank": 3,
     "class": 131,
-    "name": "ZKItem_4311002_Name"
+    "name": "Consumable-HP Potion-A"
   },
   "4311003": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_004.png",
     "rank": 4,
     "class": 131,
-    "name": "ZKItem_4311003_Name"
+    "name": "Consumable-HP Potion-S"
   },
   "4311010": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_005.png",
     "rank": 1,
     "class": 131,
-    "name": "ZKItem_4311010_Name"
+    "name": "Consumable-Anti-Erosion Potion-C"
   },
   "4311011": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_006.png",
     "rank": 2,
     "class": 131,
-    "name": "ZKItem_4311011_Name"
+    "name": "Consumable-Anti-Erosion Potion-B"
   },
   "4311012": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_007.png",
     "rank": 3,
     "class": 131,
-    "name": "ZKItem_4311012_Name"
+    "name": "Consumable-Anti-Erosion Potion-A"
   },
   "4311013": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_008.png",
     "rank": 4,
     "class": 131,
-    "name": "ZKItem_4311013_Name"
+    "name": "Consumable-Anti-Erosion Potion-S"
   },
   "4311021": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_010.png",
     "rank": 4,
     "class": 131,
-    "name": "ZKItem_4311021_Name"
+    "name": "Consumable-Reward Flare-S"
   },
   "4311022": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_011.png",
     "rank": 4,
     "class": 131,
-    "name": "ZKItem_4311022_Name"
+    "name": "Consumable-Support Flare-S"
   },
   "4311033": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_009.png",
     "rank": 4,
     "class": 131,
-    "name": "ZKItem_4311033_Name"
+    "name": "Consumable-Berserk Serum-S"
   },
   "4311043": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Choice002.png",
     "rank": 4,
     "class": 131,
-    "name": "ZKItem_4311043_Name"
+    "name": "Consumable - Revival Serum - S"
   },
   "4320101": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponC_001.png",
     "rank": 1,
     "class": 132,
     "name": "Gear-General C-LV5"
   },
   "4320102": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponC_002.png",
     "rank": 1,
     "class": 132,
     "name": "Gear-General C-LV10"
   },
   "4320103": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_007.png",
     "rank": 1,
     "class": 132,
     "name": "Gear-General C-LV20"
   },
   "4320104": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_001.png",
     "rank": 2,
     "class": 132,
     "name": "Gear-AssaultB-LV20"
   },
   "4320105": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_004.png",
     "rank": 2,
     "class": 132,
     "name": "Gear-Stun B-LV20"
   },
   "4320106": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_002.png",
     "rank": 2,
     "class": 132,
     "name": "Gear-AnomalyB-LV20"
   },
   "4320107": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_005.png",
     "rank": 2,
     "class": 132,
     "name": "Gear-SupportB-LV20"
   },
   "4320108": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_003.png",
     "rank": 2,
     "class": 132,
     "name": "Gear-RuptureB-LV20"
   },
   "4320109": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006.png",
     "rank": 2,
     "class": 132,
     "name": "Gear-DefenseB-LV20"
   },
   "4320111": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_001.png",
     "rank": 2,
     "class": 132,
     "name": "Gear-AssaultB-LV30"
   },
   "4320112": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_004.png",
     "rank": 2,
     "class": 132,
     "name": "Gear-Stun B-LV30"
   },
   "4320113": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_002.png",
     "rank": 2,
     "class": 132,
     "name": "Gear-AnomalyB-LV30"
   },
   "4320114": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_005.png",
     "rank": 2,
     "class": 132,
     "name": "Gear-SupportB-LV30"
   },
   "4320115": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_003.png",
     "rank": 2,
     "class": 132,
     "name": "Gear-RuptureB-LV30"
   },
   "4320116": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006.png",
     "rank": 2,
     "class": 132,
     "name": "Gear-DefenseB-LV30"
   },
   "4320120": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_007.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4320120_Name"
+    "name": "Character Equipment - CommonB-LV30"
   },
   "4320121": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_001.png",
     "rank": 3,
     "class": 132,
     "name": "Gear-AssaultA-LV30"
   },
   "4320122": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_004.png",
     "rank": 3,
     "class": 132,
     "name": "Gear-Stun A-LV30"
   },
   "4320123": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_002.png",
     "rank": 3,
     "class": 132,
     "name": "Gear-AnomalyA-LV30"
   },
   "4320124": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_005.png",
     "rank": 3,
     "class": 132,
     "name": "Gear-Support A-LV30"
   },
   "4320125": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_003.png",
     "rank": 3,
     "class": 132,
     "name": "Gear-RuptureA-LV30"
   },
   "4320126": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_006.png",
     "rank": 3,
     "class": 132,
     "name": "Gear-DefenseA-LV30"
   },
-  "4320127": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
-    "rank": 3,
-    "class": 132,
-    "name": "ZKItem_4320127_Name"
-  },
-  "4320128": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
-    "rank": 3,
-    "class": 132,
-    "name": "ZKItem_4320128_Name"
-  },
-  "4320129": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
-    "rank": 3,
-    "class": 132,
-    "name": "ZKItem_4320129_Name"
-  },
   "4320131": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_001.png",
     "rank": 3,
     "class": 132,
     "name": "Gear-AssaultA-LV40"
   },
   "4320132": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_004.png",
     "rank": 3,
     "class": 132,
     "name": "Gear-Stun A-LV40"
   },
   "4320133": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_002.png",
     "rank": 3,
     "class": 132,
     "name": "Gear-Anomaly A-LV40"
   },
   "4320134": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_005.png",
     "rank": 3,
     "class": 132,
     "name": "Gear-Support A-LV40"
   },
   "4320135": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_003.png",
     "rank": 3,
     "class": 132,
     "name": "Gear-RuptureA-LV40"
   },
   "4320136": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_006.png",
     "rank": 3,
     "class": 132,
     "name": "Gear-DefenseA-LV40"
   },
-  "4320137": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
-    "rank": 3,
-    "class": 132,
-    "name": "Gear-AssaultA-2-LV40"
-  },
-  "4320138": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
-    "rank": 3,
-    "class": 132,
-    "name": "Gear-AnomalyA-2-LV40"
-  },
-  "4320139": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
-    "rank": 3,
-    "class": 132,
-    "name": "Gear-SupportA-2-LV40"
-  },
   "4320150": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_010.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4320150_Name"
+    "name": "Character Equipment - General A-LV40"
   },
   "4320151": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_001.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-Assault S-LV40"
   },
   "4320152": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_006.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-Stun S-LV40"
   },
   "4320153": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_003.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-AnomalyS-LV40"
   },
   "4320154": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_007.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-Support S-LV40"
   },
   "4320155": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_005.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-RuptureS-LV40"
   },
   "4320156": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-Defense S-LV40"
   },
   "4320157": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_002.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-AssaultS-2-LV40"
   },
   "4320158": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_004.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-AnomalyS-2-LV40"
   },
   "4320159": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_008.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-Support S-2-LV40"
   },
   "4320171": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_001.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-Assault S-LV50"
   },
   "4320172": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_006.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-Stun S-LV50"
   },
   "4320173": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_003.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-AnomalyS-LV50"
   },
   "4320174": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_007.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-Support S-LV50"
   },
   "4320175": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_005.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-RuptureS-LV50"
   },
   "4320176": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-Defense S-LV50"
   },
   "4320177": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_002.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-Assault S-2-LV50"
   },
   "4320178": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_004.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-AnomalyS-2-LV50"
   },
   "4320179": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_008.png",
     "rank": 4,
     "class": 132,
     "name": "Gear-Support S-2-LV50"
   },
-  "4320251": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
-    "rank": 4,
-    "class": 132,
-    "name": "ZKItem_4320251_Name"
-  },
-  "4320252": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
-    "rank": 4,
-    "class": 132,
-    "name": "ZKItem_4320252_Name"
-  },
-  "4320253": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
-    "rank": 4,
-    "class": 132,
-    "name": "ZKItem_4320253_Name"
-  },
-  "4320254": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
-    "rank": 4,
-    "class": 132,
-    "name": "ZKItem_4320254_Name"
-  },
-  "4320255": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
-    "rank": 4,
-    "class": 132,
-    "name": "ZKItem_4320255_Name"
-  },
-  "4320256": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
-    "rank": 4,
-    "class": 132,
-    "name": "ZKItem_4320256_Name"
-  },
-  "4320257": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
-    "rank": 4,
-    "class": 132,
-    "name": "ZKItem_4320257_Name"
-  },
-  "4320258": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
-    "rank": 4,
-    "class": 132,
-    "name": "ZKItem_4320258_Name"
-  },
-  "4320259": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
-    "rank": 4,
-    "class": 132,
-    "name": "ZKItem_4320259_Name"
-  },
   "4320271": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_001.png",
     "rank": 5,
     "class": 132,
     "name": "Gear-Attack S+ LV60"
   },
   "4320272": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_006.png",
     "rank": 5,
     "class": 132,
     "name": "Gear-Stun S+ LV60"
   },
   "4320273": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_003.png",
     "rank": 5,
     "class": 132,
     "name": "Gear-Anomaly S+ LV60"
   },
   "4320274": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_007.png",
     "rank": 5,
     "class": 132,
     "name": "Gear-Support S+ LV60"
   },
   "4320275": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_005.png",
     "rank": 5,
     "class": 132,
     "name": "Gear-Rupture S+ LV60"
   },
   "4320276": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_009.png",
     "rank": 5,
     "class": 132,
     "name": "Gear-Defense S+ LV60"
   },
   "4320277": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_002.png",
     "rank": 5,
     "class": 132,
     "name": "Gear-AssaultS+ 2-LV60"
   },
   "4320278": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_004.png",
     "rank": 5,
     "class": 132,
     "name": "Gear-Anomaly S+ 2-LV60"
   },
   "4320279": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_008.png",
     "rank": 5,
     "class": 132,
     "name": "Gear-Support S+ 2-LV60"
   },
   "4321001": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic063.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321001_Name"
+    "name": "Gear-Ye Shunguang Exclusive-S"
   },
   "4321002": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic014.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_001.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321002_Name"
+    "name": "Gear-Hoshimi Miyabi Exclusive-S"
   },
   "4321003": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic035.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_005.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321003_Name"
+    "name": "Gear-YixuanExclusive-S"
   },
   "4321004": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic083.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_012.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321004_Name"
+    "name": "Gear - Nangong Exclusive - S"
   },
   "4321005": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic056.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_022.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321005_Name"
+    "name": "Gear - Dialyn Exclusive - S"
   },
   "4321006": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic047.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_007.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321006_Name"
+    "name": "Gear - Lucia Exclusive - S"
   },
   "4321007": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic063.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_010.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321007_Name"
+    "name": "Gear - Sunna Exclusive - S"
   },
   "4321008": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic014.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_003.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321008_Name"
+    "name": "Gear - Astra Yao Exclusive - S"
   },
   "4321009": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic035.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_016.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321009_Name"
+    "name": "Gear - Velina Exclusive - S"
   },
   "4321010": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic097.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_018.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321010_Name"
+    "name": "Gear-Remie Exclusive-S"
   },
   "4321011": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic097.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_019.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321011_Name"
+    "name": "Gear-Sigrid Exclusive-S"
   },
   "4321012": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic094.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_017.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321012_Name"
+    "name": "Gear-Norma Exclusive-S"
   },
   "4321013": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic095.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_021.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321013_Name"
+    "name": "Gear-Pyrois Exclusive-S"
   },
   "4321014": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic086.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_014.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321014_Name"
+    "name": "Gear-Promeia Exclusive-S"
   },
   "4321015": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic082.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_013.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321015_Name"
+    "name": "Gear-Cissia Exclusive-S"
   },
   "4321016": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic076.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_011.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321016_Name"
+    "name": "Gear-Aria Exclusive-S"
   },
   "4321017": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic067.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_009.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321017_Name"
+    "name": "Gear-Yuzuha Exclusive-S"
   },
   "4321018": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic038.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_006.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321018_Name"
+    "name": "Gear-Ju Fufu Exclusive-S"
   },
   "4321019": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic025.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_004.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321019_Name"
+    "name": "Gear - Evelyn Exclusive - S"
   },
   "4321020": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic028.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_020.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321020_Name"
+    "name": "Gear - Jane Exclusive - S"
   },
   "4321021": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic001.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321021_Name"
+    "name": "Gear-Ellen Exclusive-S"
   },
   "4322001": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic083.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322001_Name"
+    "name": "Gear-Ye Shunguang Exclusive-S+"
   },
   "4322002": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic056.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_001.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322002_Name"
+    "name": "Gear-Hoshimi Miyabi Exclusive-S+"
   },
   "4322003": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic047.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_005.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322003_Name"
+    "name": "Gear-YixuanExclusive-S+"
   },
   "4322004": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic083.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_012.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322004_Name"
+    "name": "Gear - Nangong Exclusive - S+"
   },
   "4322005": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic056.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_022.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322005_Name"
+    "name": "Gear - Dialyn Exclusive - S+"
   },
   "4322006": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic047.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_007.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322006_Name"
+    "name": "Gear - Lucia Exclusive - S+"
   },
   "4322007": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic083.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_010.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322007_Name"
+    "name": "Gear - Chinatsu Exclusive - S+"
   },
   "4322008": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic056.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_003.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322008_Name"
+    "name": "Gear - Astra Yao Exclusive - S+"
   },
   "4322009": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic047.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_016.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322009_Name"
+    "name": "Gear - Verina Exclusive - S+"
   },
   "4322010": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic097.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_018.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322010_Name"
+    "name": "Gear-Remie Exclusive-S+"
   },
   "4322011": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic097.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_019.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322011_Name"
+    "name": "Gear-Sigrid Exclusive-S+"
   },
   "4322012": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic094.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_017.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322012_Name"
+    "name": "Gear-Norma Exclusive-S+"
   },
   "4322013": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic095.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_021.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322013_Name"
+    "name": "Gear-Pyrois Exclusive-S+"
   },
   "4322014": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic086.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_014.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322014_Name"
+    "name": "Gear-Promeia Exclusive-S+"
   },
   "4322015": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic082.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_013.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322015_Name"
+    "name": "Gear-Cissia Exclusive-S+"
   },
   "4322016": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic076.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_011.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322016_Name"
+    "name": "Gear-Aria Exclusive-S+"
   },
   "4322017": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic067.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_009.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322017_Name"
+    "name": "Gear-Yuzuha Exclusive-S+"
   },
   "4322018": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic038.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_006.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322018_Name"
+    "name": "Gear-Ju Fufu Exclusive-S+"
   },
   "4322019": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic025.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_004.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322019_Name"
+    "name": "Gear - Evelyn Exclusive - S+"
   },
   "4322020": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic028.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_020.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322020_Name"
+    "name": "Gear - Jane Exclusive - S+"
   },
   "4322021": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic001.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322021_Name"
+    "name": "Gear-Ellen Exclusive-S+"
   },
   "4323101": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponC_001.png",
     "rank": 1,
     "class": 132,
-    "name": "ZKItem_4323101_Name"
+    "name": "Character Equipment - General C-LV15"
   },
   "4323102": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponC_002.png",
     "rank": 1,
     "class": 132,
-    "name": "ZKItem_4323102_Name"
+    "name": "Character Equipment - General C-LV20"
   },
   "4323104": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_001.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4323104_Name"
+    "name": "Character Equipment - AssaultB-LV25"
   },
   "4323105": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_004.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4323105_Name"
+    "name": "Character Equipment - Stun B-LV25"
   },
   "4323106": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_002.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4323106_Name"
+    "name": "Character Equipment - AnomalyB-LV25"
   },
   "4323107": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_005.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4323107_Name"
+    "name": "Character Equipment - Support B - LV25"
   },
   "4323108": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_003.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4323108_Name"
+    "name": "Character Equipment - RuptureB-LV25"
   },
   "4323109": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4323109_Name"
+    "name": "Character Equipment - DefenseB-LV25"
   },
   "4323121": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_001.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4323121_Name"
+    "name": "Character Equipment - AssaultA-LV35"
   },
   "4323122": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_004.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4323122_Name"
+    "name": "Character Equipment - Stun A-LV35"
   },
   "4323123": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_002.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4323123_Name"
+    "name": "Character Equipment - Anomaly A-LV35"
   },
   "4323124": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_005.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4323124_Name"
+    "name": "Character Equipment - SupportA-LV35"
   },
   "4323125": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_003.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4323125_Name"
+    "name": "Character Equipment - RuptureA-LV35"
   },
   "4323126": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_006.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4323126_Name"
+    "name": "Character Equipment - DefenseA-LV35"
   },
   "4323151": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_001.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4323151_Name"
+    "name": "Character Equipment - AssaultS-1-LV45"
   },
   "4323152": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_006.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4323152_Name"
+    "name": "Character Equipment - BreakS-1-LV45"
   },
   "4323153": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_003.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4323153_Name"
+    "name": "Character Equipment - AnomalyS-1-LV45"
   },
   "4323154": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_007.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4323154_Name"
+    "name": "Character Equipment - Support S-1-LV45"
   },
   "4323155": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_005.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4323155_Name"
+    "name": "Character Equipment - RuptureS-1-LV45"
   },
   "4323156": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4323156_Name"
+    "name": "Character Equipment - DefenseS-1-LV45"
   },
   "4323157": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_002.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4323157_Name"
+    "name": "Character Equipment - AssaultS-2-LV45"
   },
   "4323158": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_004.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4323158_Name"
+    "name": "Character Equipment - AnomalyS-2-LV45"
   },
   "4323159": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_008.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4323159_Name"
+    "name": "Character Equipment - Support S-2-LV45"
+  },
+  "4325201": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_001.png",
+    "rank": 2,
+    "class": 132,
+    "name": "ZKItem_4325201_Name"
+  },
+  "4325202": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_004.png",
+    "rank": 2,
+    "class": 132,
+    "name": "ZKItem_4325202_Name"
+  },
+  "4325203": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_002.png",
+    "rank": 2,
+    "class": 132,
+    "name": "ZKItem_4325203_Name"
+  },
+  "4325204": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_005.png",
+    "rank": 2,
+    "class": 132,
+    "name": "ZKItem_4325204_Name"
+  },
+  "4325205": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_003.png",
+    "rank": 2,
+    "class": 132,
+    "name": "ZKItem_4325205_Name"
+  },
+  "4325206": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006.png",
+    "rank": 2,
+    "class": 132,
+    "name": "ZKItem_4325206_Name"
+  },
+  "4325301": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_001.png",
+    "rank": 3,
+    "class": 132,
+    "name": "ZKItem_4325301_Name"
+  },
+  "4325302": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_004.png",
+    "rank": 3,
+    "class": 132,
+    "name": "ZKItem_4325302_Name"
+  },
+  "4325303": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_002.png",
+    "rank": 3,
+    "class": 132,
+    "name": "ZKItem_4325303_Name"
+  },
+  "4325304": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_005.png",
+    "rank": 3,
+    "class": 132,
+    "name": "ZKItem_4325304_Name"
+  },
+  "4325305": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_003.png",
+    "rank": 3,
+    "class": 132,
+    "name": "ZKItem_4325305_Name"
+  },
+  "4325306": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_006.png",
+    "rank": 3,
+    "class": 132,
+    "name": "ZKItem_4325306_Name"
+  },
+  "4325401": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_001.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4325401_Name"
+  },
+  "4325402": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_006.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4325402_Name"
+  },
+  "4325403": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_003.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4325403_Name"
+  },
+  "4325404": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_007.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4325404_Name"
+  },
+  "4325405": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_005.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4325405_Name"
+  },
+  "4325406": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4325406_Name"
+  },
+  "4325407": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_002.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4325407_Name"
+  },
+  "4325408": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_004.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4325408_Name"
+  },
+  "4325409": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_008.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4325409_Name"
+  },
+  "4326001": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326001_Name"
+  },
+  "4326002": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_001.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326002_Name"
+  },
+  "4326003": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_005.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326003_Name"
+  },
+  "4326004": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_012.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326004_Name"
+  },
+  "4326005": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_022.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326005_Name"
+  },
+  "4326006": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_007.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326006_Name"
+  },
+  "4326007": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_010.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326007_Name"
+  },
+  "4326008": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_003.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326008_Name"
+  },
+  "4326009": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_016.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326009_Name"
+  },
+  "4326010": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_018.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326010_Name"
+  },
+  "4326011": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_019.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326011_Name"
+  },
+  "4326012": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_017.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326012_Name"
+  },
+  "4326013": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_021.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326013_Name"
+  },
+  "4326014": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_014.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326014_Name"
+  },
+  "4326015": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_013.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326015_Name"
+  },
+  "4326016": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_011.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326016_Name"
+  },
+  "4326017": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_009.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326017_Name"
+  },
+  "4326018": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_006.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326018_Name"
+  },
+  "4326019": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_004.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326019_Name"
+  },
+  "4326020": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_020.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326020_Name"
+  },
+  "4326021": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326021_Name"
   },
   "4331001": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_8/Bangkov/UnPacker/ItemIcon/BangkovArmorPlanting_1.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_001.png",
     "rank": 1,
     "class": 133,
-    "name": "ZKItem_4331001_Name"
+    "name": "Team Equipment - Anti-Erosion - C"
   },
   "4331002": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_8/Bangkov/UnPacker/ItemIcon/BangkovArmorRevive_1.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_002.png",
     "rank": 2,
     "class": 133,
-    "name": "ZKItem_4331002_Name"
+    "name": "Team Equipment - Anti-Erosion - B"
   },
   "4331003": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_8/Bangkov/UnPacker/ItemIcon/BangkovArmorHoly_1.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_003.png",
     "rank": 3,
     "class": 133,
-    "name": "ZKItem_4331003_Name"
+    "name": "Team Equipment - Anti-Erosion - A"
   },
   "4331004": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_8/Bangkov/UnPacker/ItemIcon/BangkovArmorResonance_1.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_004.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4331004_Name"
+    "name": "Team Equipment - Anti-Erosion - S"
   },
   "4332001": {
     "icon": "",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4332001_Name"
+    "name": "Team Equipment - Armor-1"
   },
   "4333001": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_8/Bangkov/UnPacker/ItemIcon/BangkovEquipBag_4.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipBag_001.png",
     "rank": 1,
     "class": 133,
-    "name": "ZKItem_4333001_Name"
+    "name": "Team Equipment - Backpack-C"
   },
   "4333002": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_8/Bangkov/UnPacker/ItemIcon/BangkovEquipBag_3.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipBag_002.png",
     "rank": 2,
     "class": 133,
-    "name": "ZKItem_4333002_Name"
+    "name": "Team Equipment - Backpack-B"
   },
   "4333003": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_8/Bangkov/UnPacker/ItemIcon/BangkovEquipBag_2.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipBag_003.png",
     "rank": 3,
     "class": 133,
-    "name": "ZKItem_4333003_Name"
+    "name": "Team Equipment - Backpack-A"
   },
   "4333004": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_8/Bangkov/UnPacker/ItemIcon/BangkovEquipHolyBag_1.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipBag_004.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4333004_Name"
+    "name": "Team Equipment - Backpack-S"
   },
   "4333011": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_4/ActivityBg/UnPacker/ActivityBangbooChess2Bg/BooSword1.png",
     "rank": 1,
     "class": 133,
-    "name": "ZKItem_4333011_Name"
+    "name": "Team Equipment - Variant Skill-C"
   },
   "4333012": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_4/ActivityBg/UnPacker/ActivityBangbooChess2Bg/BooSword1.png",
@@ -30064,235 +30316,235 @@
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_4/ActivityBg/UnPacker/ActivityBangbooChess2Bg/BooSword1.png",
     "rank": 2,
     "class": 133,
-    "name": "ZKItem_4333022_Name"
+    "name": "(Test1) Protagonist Execution Gear-B"
   },
   "4333023": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_4/ActivityBg/UnPacker/ActivityBangbooChess2Bg/BooSword1.png",
     "rank": 3,
     "class": 133,
-    "name": "ZKItem_4333023_Name"
+    "name": "(Test1) Execution Protagonist Gear-A"
   },
   "4333024": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_4/ActivityBg/UnPacker/ActivityBangbooChess2Bg/BooSword1.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4333024_Name"
+    "name": "(Test1) Protagonist Execution Gear-S"
   },
   "4333032": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_4/ActivityBg/UnPacker/ActivityBangbooChess2Bg/BooSword1.png",
     "rank": 2,
     "class": 133,
-    "name": "ZKItem_4333032_Name"
+    "name": "Grappling Hook Protagonist Gear-B"
   },
   "4333033": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_4/ActivityBg/UnPacker/ActivityBangbooChess2Bg/BooSword1.png",
     "rank": 3,
     "class": 133,
-    "name": "ZKItem_4333033_Name"
+    "name": "Grappling Hook Protagonist Gear-A"
   },
   "4333034": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_4/ActivityBg/UnPacker/ActivityBangbooChess2Bg/BooSword1.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4333034_Name"
+    "name": "Grappling Hook Protagonist Gear-S"
   },
   "4334001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_0/MechBoo/UnPacker/MechBooModuleIcon01.png",
     "rank": 4,
     "class": 133,
-    "name": "Team Equipment - Ether Resonance - 1"
+    "name": "Team Equipment-Shade-1"
   },
   "4334002": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_0/MechBoo/UnPacker/MechBooModuleIcon02.png",
     "rank": 4,
     "class": 133,
-    "name": "Team Equipment - Ether Resonance - 2"
+    "name": "Team Equipment-Wraith Shadow-2"
   },
   "4334101": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_003_B.png",
     "rank": 2,
     "class": 133,
-    "name": "ZKItem_4334101_Name"
+    "name": "Sacrifice - Covenant Guardian-Bone Shadow-B"
   },
   "4334102": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_004_B.png",
     "rank": 2,
     "class": 133,
-    "name": "ZKItem_4334102_Name"
+    "name": "Pseudo Crab-Skeletal Shadow-B"
   },
   "4334103": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_010_B.png",
     "rank": 2,
     "class": 133,
-    "name": "ZKItem_4334103_Name"
+    "name": "Graylock Centurion - Skeletal Shadow - B"
   },
   "4334104": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_012_B.png",
     "rank": 2,
     "class": 133,
-    "name": "ZKItem_4334104_Name"
+    "name": "Thracian-Bone Shadow-B"
   },
   "4334105": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_013_B.png",
     "rank": 2,
     "class": 133,
-    "name": "ZKItem_4334105_Name"
+    "name": "Golden Bangboo-Spectral Shadow-B"
   },
   "4334106": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_011_B.png",
     "rank": 2,
     "class": 133,
-    "name": "ZKItem_4334106_Name"
+    "name": "Rampant Brute-Skeletal Shadow-B"
   },
   "4334201": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_006_A.png",
     "rank": 3,
     "class": 133,
-    "name": "ZKItem_4334201_Name"
+    "name": "Haytor-Shade-A"
   },
   "4334202": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_003_A.png",
     "rank": 3,
     "class": 133,
-    "name": "ZKItem_4334202_Name"
+    "name": "Sacrifice - Covenant Guardian-Bone Shadow-A"
   },
   "4334203": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_004_A.png",
     "rank": 3,
     "class": 133,
-    "name": "ZKItem_4334203_Name"
+    "name": "Pseudo Crab-Skeletal Shadow-A"
   },
   "4334204": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_012_A.png",
     "rank": 3,
     "class": 133,
-    "name": "ZKItem_4334204_Name"
+    "name": "Thracian-Bone Shadow-A"
   },
   "4334205": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_009_A.png",
     "rank": 3,
     "class": 133,
-    "name": "ZKItem_4334205_Name"
+    "name": "Unfathomable-Specter-A"
   },
   "4334206": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_013_A.png",
     "rank": 3,
     "class": 133,
-    "name": "ZKItem_4334206_Name"
+    "name": "Golden Bangboo-Skeletal Shadow-A"
   },
   "4334207": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_010_A.png",
     "rank": 3,
     "class": 133,
-    "name": "ZKItem_4334207_Name"
+    "name": "Ashen-Mane Centurion-Wraith Shadow-A"
   },
   "4334208": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_011_A.png",
     "rank": 3,
     "class": 133,
-    "name": "ZKItem_4334208_Name"
+    "name": "Rampant Brute-Specter-A"
   },
   "4334301": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_002_S.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4334301_Name"
+    "name": "Heretic Jester-Skeletal Shadow-S"
   },
   "4334302": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_003_S.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4334302_Name"
+    "name": "Sacrifice - Covenant Guardian-Bone Shadow-S"
   },
   "4334303": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_004_S.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4334303_Name"
+    "name": "Pseudo Crab-Shade-S"
   },
   "4334304": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_012_S.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4334304_Name"
+    "name": "Thracian-Bone Shadow-S"
   },
   "4334305": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_001_S.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4334305_Name"
+    "name": "Hacker Treasure Mimic - Skeletal Shadow - S"
   },
   "4334306": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_013_S.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4334306_Name"
+    "name": "Golden Bangboo-Spectre-S"
   },
   "4334307": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_007_S.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4334307_Name"
+    "name": "Mutant Energy Construct - Skeletal Shadow - S"
   },
   "4334308": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_005_S.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4334308_Name"
+    "name": "Sobek-Skeletal Shadow-S"
   },
   "4334309": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_006_S.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4334309_Name"
+    "name": "Haytor-Skeletal Shadow-S"
   },
   "4334310": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_008_S.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4334310_Name"
+    "name": "Primordial Nightmare-Skeletal Shadow-S"
   },
   "4334311": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_009_S.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4334311_Name"
+    "name": "Unfathomable-Skeletal Shadow-S"
   },
   "4334312": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_010_S.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4334312_Name"
+    "name": "Graymane Centurion-Bone Shadow-S"
   },
   "4334313": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_011_S.png",
     "rank": 4,
     "class": 133,
-    "name": "ZKItem_4334313_Name"
+    "name": "Rampant Brute-Skeletal Shadow-S"
   },
   "4334401": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_002_Z.png",
     "rank": 5,
     "class": 133,
-    "name": "ZKItem_4334401_Name"
+    "name": "Heretic Jester-Bone Shadow-S+"
   },
   "4334402": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_005_Z.png",
     "rank": 5,
     "class": 133,
-    "name": "ZKItem_4334402_Name"
+    "name": "Sobek-Skeletal Shadow-S+2"
   },
   "4334403": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_007_Z.png",
     "rank": 5,
     "class": 133,
-    "name": "ZKItem_4334403_Name"
+    "name": "Mutant Energy Construct - Wraith - S+"
   },
   "4334404": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_008_Z.png",
     "rank": 5,
     "class": 133,
-    "name": "ZKItem_4334404_Name"
+    "name": "Primordial Nightmare-Bone Shadow-S+"
   },
   "4334405": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_0/MechBoo/UnPacker/MechBooModuleIcon02.png",
@@ -30304,145 +30556,145 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_001.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4340101_Name"
+    "name": "Wind-Eroded Highway - Motel First Floor"
   },
   "4340102": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_002.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4340102_Name"
+    "name": "Wind-Eroded Highway - Motel Second Floor"
   },
   "4340103": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_003.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4340103_Name"
+    "name": "Wind-Eroded Highway - Gas Station Storage Room"
   },
   "4340104": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_004.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_014.png",
     "rank": 3,
     "class": 130,
-    "name": "Sixth Street - Storage 1F Side Door"
+    "name": "Six Dusk Street - Depot Hub 1F Side Door"
   },
   "4340105": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardA.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_015.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4340105_Name"
+    "name": "Six Dusk Street - RandomPlay 2F Room 2"
   },
   "4340106": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardA.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_016.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4340106_Name"
+    "name": "Six Dusk Street - RandomPlay 2F Room 1"
   },
   "4340107": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardA.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_018.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4340107_Name"
+    "name": "Construction Site - Site No.1 Bottom - Door 2"
   },
   "4340108": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardA.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_020.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4340108_Name"
+    "name": "Lumina Central - Office Building Lounge 2"
   },
   "4340109": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardA.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_021.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4340109_Name"
+    "name": "Lumina Central - Office Building Lounge 3"
   },
   "4340201": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_010.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_005.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4340201_Name"
+    "name": "Feeble Wildman Town-Restaurant"
   },
   "4340202": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_004.png",
+    "rank": 4,
+    "class": 130,
+    "name": "Wind-Eroded Highway - Gas Station Office"
+  },
+  "4340203": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_006.png",
+    "rank": 4,
+    "class": 130,
+    "name": "Feeble Wildman Town-Residential Area"
+  },
+  "4340204": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_011.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4340202_Name"
-  },
-  "4340203": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_012.png",
-    "rank": 4,
-    "class": 130,
-    "name": "ZKItem_4340203_Name"
-  },
-  "4340204": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_013.png",
-    "rank": 4,
-    "class": 130,
-    "name": "ZKItem_4340204_Name"
+    "name": "Dreamweave Beach-Aquarium"
   },
   "4340205": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_014.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4340205_Name"
+    "name": "Withered Wildswood - Old Street Depot Hub"
   },
   "4340206": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardS.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_017.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4340206_Name"
+    "name": "Six Dusk Street - RandomPlay 1F Room"
   },
   "4340207": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardS.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_019.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4340207_Name"
+    "name": "Construction Site - Top of Site No. 2"
   },
   "4340208": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardS.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_022.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4340208_Name"
+    "name": "Lumina Central - Office Building Lounge 1"
   },
   "4340209": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardS.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_023.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4340209_Name"
+    "name": "Lumina Central - Public Security Office"
   },
   "4340301": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_019.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_008.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4340301_Name"
+    "name": "Bahamut Depot Hub - Second-Floor Control Room"
   },
   "4340302": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/JaneAccesscard.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_024.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4340302_Name"
+    "name": "Lumina Central - Office Building Top Floor"
   },
   "4350001": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350001_Name"
+    "name": "Blueprint-Team Equipment - Anti-Erosion-A"
   },
   "4350002": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350002_Name"
+    "name": "Blueprint-Team Equipment - Anti-Erosion-S"
   },
   "4350003": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350003_Name"
+    "name": "Blueprint-Team Equipment - Backpack-A"
   },
   "4350004": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350004_Name"
+    "name": "Blueprint-Team Equipment - Backpack-S"
   },
   "4350005": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
@@ -30460,277 +30712,277 @@
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350007_Name"
+    "name": "Blueprint-DodgeProtagonistGear-A"
   },
   "4350008": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350008_Name"
+    "name": "Blueprint-DodgeProtagonistGear-S"
   },
   "4350009": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350009_Name"
+    "name": "Blueprint-Grappling Hook Protagonist Gear-A"
   },
   "4350010": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350010_Name"
+    "name": "Blueprint-Grappling Hook Protagonist Gear-S"
   },
   "4350011": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350011_Name"
+    "name": "Blueprint-Block Protagonist Gear-B"
   },
   "4350012": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350012_Name"
+    "name": "Blueprint-DodgeProtagonistGear-B"
   },
   "4350013": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350013_Name"
+    "name": "Blueprint-Grappling Hook Protagonist Gear-B"
   },
   "4350014": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350014_Name"
+    "name": "Blueprint-Team Equipment - Anti-Erosion-B"
   },
   "4350015": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350015_Name"
+    "name": "Blueprint-Team Equipment - Backpack-B"
   },
   "4350101": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350101_Name"
+    "name": "Blueprint-Sacrifice: Covenant Guardian - Skeletal Shadow - B"
   },
   "4350102": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350102_Name"
+    "name": "Blueprint-Pseudo Crab-Skeletal Shadow-B"
   },
   "4350103": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350103_Name"
+    "name": "Blueprint-Gray-Mane Centurion-Bone Shadow-B"
   },
   "4350104": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350104_Name"
+    "name": "Blueprint-Thracian-Bone Shadow-B"
   },
   "4350105": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350105_Name"
+    "name": "Blueprint-Golden Bangboo-Skeletal Shadow-B"
   },
   "4350106": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350106_Name"
+    "name": "Blueprint-Rampant Brute-Skeletal Shadow-B"
   },
   "4350107": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350107_Name"
+    "name": "Blueprint-Haytor-Skeletal Shadow-A"
   },
   "4350108": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350108_Name"
+    "name": "Blueprint-Sacrifice: Covenant Guardian - Bone Shadow - A"
   },
   "4350109": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350109_Name"
+    "name": "Blueprint-Pseudo Crab-Skeletal Shadow-A"
   },
   "4350110": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350110_Name"
+    "name": "Blueprint-Thracian-Bone Shadow-A"
   },
   "4350111": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350111_Name"
+    "name": "Blueprint-Unfathomable-Bone Shadow-A"
   },
   "4350112": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350112_Name"
+    "name": "Blueprint-Golden Bangboo-Skelter-A"
   },
   "4350113": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350113_Name"
+    "name": "Blueprint-Gray-Mane Centurion-Bone Shadow-A"
   },
   "4350114": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350114_Name"
+    "name": "Blueprint-Rampant Brute-Skeletal Shadow-A"
   },
   "4350115": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350115_Name"
+    "name": "Blueprint-Heretic Jester-Bone Shadow-S"
   },
   "4350116": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350116_Name"
+    "name": "Blueprint-Shenggui: Weilu Envoy - Skeletal Shadow - S"
   },
   "4350117": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350117_Name"
+    "name": "Blueprint-Pseudo Crab-Skeletal Shadow-S"
   },
   "4350118": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350118_Name"
+    "name": "Blueprint-Thracian-Bone Shadow-S"
   },
   "4350119": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350119_Name"
+    "name": "Blueprint-Hacker Treasure Mimic - Bone Shadow - S"
   },
   "4350120": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350120_Name"
+    "name": "Blueprint-Golden Bangboo-Ghostshade-S"
   },
   "4350121": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350121_Name"
+    "name": "Blueprint - Mutant Energy Construct - Skeletal Shadow - S"
   },
   "4350122": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350122_Name"
+    "name": "Blueprint-Sobek-Bone Shadow-S"
   },
   "4350123": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350123_Name"
+    "name": "Blueprint-Haytor-Skeletal Shadow-S"
   },
   "4350124": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350124_Name"
+    "name": "Blueprint-Primordial Nightmare-Bone Shadow-S"
   },
   "4350125": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350125_Name"
+    "name": "Blueprint-Unfathomable-Skeletal Shadow-S"
   },
   "4350126": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350126_Name"
+    "name": "Blueprint - Greymantle Centurion - Bone Shadow - S"
   },
   "4350127": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350127_Name"
+    "name": "Blueprint-Rampant Brute-Skeletal Shadow-S"
   },
   "4350128": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350128_Name"
+    "name": "Blueprint-Heretic Jester-Bone Shadow-S+1"
   },
   "4350129": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350129_Name"
+    "name": "Blueprint-Sobek-Shade-S+1"
   },
   "4350130": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "Blueprint - Mutated Energy Entity - Ether Resonance - S+"
+    "name": "Blueprint - Mutant Energy Construct - Shade - S+"
   },
   "4350131": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "Blueprint-Primordial Nightmare - Ether Resonance - S+"
+    "name": "Blueprint-Primordial Nightmare-Skeletal Shadow-S+"
   },
   "4350181": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350181_Name"
+    "name": "Blueprint-LV30Gear-AssaultB1"
   },
   "4350182": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350182_Name"
+    "name": "Blueprint-LV30Gear-BreakB1"
   },
   "4350183": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350183_Name"
+    "name": "Blueprint-LV30Gear-AnomalyB1"
   },
   "4350184": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350184_Name"
+    "name": "Blueprint-LV30Gear-SupportB1"
   },
   "4350185": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350185_Name"
+    "name": "Blueprint-LV30Gear-RuptureB1"
   },
   "4350186": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4350186_Name"
+    "name": "Blueprint-LV30Gear-DefenseB1"
   },
   "4350201": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
@@ -30880,409 +31132,535 @@
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350301_Name"
+    "name": "Blueprint-Gear-Ye Shunguang Exclusive-S"
   },
   "4350302": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350302_Name"
+    "name": "Blueprint-Gear-Hoshimi Miyabi Exclusive-S"
   },
   "4350303": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350303_Name"
+    "name": "Blueprint-Gear-YixuanExclusive-S"
   },
   "4350304": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350304_Name"
+    "name": "Blueprint - Gear - Nangong Exclusive - S"
   },
   "4350305": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350305_Name"
+    "name": "Blueprint - Gear - Dialyn Exclusive - S"
   },
   "4350306": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350306_Name"
+    "name": "Blueprint - Gear - Lucia Exclusive - S"
   },
   "4350307": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350307_Name"
+    "name": "Blueprint - Gear - Chinatsu Exclusive - S"
   },
   "4350308": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350308_Name"
+    "name": "Blueprint - Gear - Astra Yao Exclusive - S"
   },
   "4350309": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350309_Name"
+    "name": "Blueprint - Gear - Verina Exclusive - S"
   },
   "4350310": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350310_Name"
+    "name": "Blueprint - Gear - Remie Exclusive - S"
   },
   "4350311": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350311_Name"
+    "name": "Blueprint-Gear-Sigrid Exclusive-S"
   },
   "4350312": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350312_Name"
+    "name": "Blueprint - Gear - Norma Exclusive - S"
   },
   "4350313": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350313_Name"
+    "name": "Blueprint-Gear-Pyrois Exclusive-S"
   },
   "4350314": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350314_Name"
+    "name": "Blueprint-Gear-Promeia Exclusive-S"
   },
   "4350315": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350315_Name"
+    "name": "Blueprint-Gear-Cissia Exclusive-S"
   },
   "4350316": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350316_Name"
+    "name": "Blueprint - Gear - Aria Exclusive - S"
   },
   "4350317": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350317_Name"
+    "name": "Blueprint-Gear-Yuzuha Exclusive-S"
   },
   "4350318": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350318_Name"
+    "name": "Blueprint-Gear-Ju Fufu Exclusive-S"
   },
   "4350319": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350319_Name"
+    "name": "Blueprint - Gear - Evelyn Exclusive - S"
   },
   "4350320": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350320_Name"
+    "name": "Blueprint - Gear - Jane Exclusive - S"
   },
   "4350321": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350321_Name"
+    "name": "Blueprint - Gear - Ellen Exclusive - S"
   },
   "4350501": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350501_Name"
+    "name": "Blueprint-Gear-Ye Shunguang Exclusive-S+"
   },
   "4350502": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350502_Name"
+    "name": "Blueprint-Gear-Hoshimi Miyabi Exclusive-S+"
   },
   "4350503": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350503_Name"
+    "name": "Blueprint-Gear-YixuanExclusive-S+"
   },
   "4350504": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350504_Name"
+    "name": "Blueprint - Gear - Nangong Exclusive - S+"
   },
   "4350505": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350505_Name"
+    "name": "Blueprint - Gear - Dialyn Exclusive - S+"
   },
   "4350506": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350506_Name"
+    "name": "Blueprint - Gear - Lucia Exclusive - S+"
   },
   "4350507": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350507_Name"
+    "name": "Blueprint - Gear - Chinatsu Exclusive - S+"
   },
   "4350508": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350508_Name"
+    "name": "Blueprint - Gear - Yaojiayin Exclusive - S+"
   },
   "4350509": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350509_Name"
+    "name": "Blueprint - Gear - Verina Exclusive - S+"
   },
   "4350510": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350510_Name"
+    "name": "Blueprint - Gear - Remie Exclusive - S+"
   },
   "4350511": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350511_Name"
+    "name": "Blueprint-Gear-Sigrid Exclusive-S+"
   },
   "4350512": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350512_Name"
+    "name": "Blueprint - Gear - Norma Exclusive - S+"
   },
   "4350513": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350513_Name"
+    "name": "Blueprint-Gear-Pyrois Exclusive-S+"
   },
   "4350514": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350514_Name"
+    "name": "Blueprint - Gear - Promeia Exclusive - S+"
   },
   "4350515": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350515_Name"
+    "name": "Blueprint - Gear - Cissia Exclusive - S+"
   },
   "4350516": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350516_Name"
+    "name": "Blueprint - Gear - Aria Exclusive - S+"
   },
   "4350517": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350517_Name"
+    "name": "Blueprint-Gear-Yuzuha Exclusive-S+"
   },
   "4350518": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350518_Name"
+    "name": "Blueprint - Gear - Ju Fufu Exclusive - S+"
   },
   "4350519": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350519_Name"
+    "name": "Blueprint - Gear - Evelyn Exclusive - S+"
   },
   "4350520": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350520_Name"
+    "name": "Blueprint - Gear - Jane Exclusive - S+"
   },
   "4350521": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350521_Name"
+    "name": "Blueprint - Gear - Ellen Exclusive - S+"
   },
   "4360001": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/SuibianTemple/UnPacker/SuibianProspectingMaterial04.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_001.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4360001_Name"
+    "name": "Soundfield Ether Crystal - Ochre"
   },
   "4360002": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_002.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4360002_Name"
+    "name": "Voltage Diverter"
   },
   "4360003": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_003.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4360003_Name"
+    "name": "Porcelume Rawstone Ring"
   },
   "4360004": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_004.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4360004_Name"
+    "name": "Custom Circuit Core"
   },
   "4360005": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_005.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4360005_Name"
+    "name": "Data Storage Card"
   },
   "4360006": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_006.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4360006_Name"
+    "name": "Signal Detector"
   },
   "4360007": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_007.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4360007_Name"
+    "name": "Boundary Gauge"
   },
   "4360008": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_008.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360008_Name"
+    "name": "Hollow Research Notes"
   },
   "4360009": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_009.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360009_Name"
+    "name": "Military Computer"
   },
   "4360010": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_010.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360010_Name"
+    "name": "Hollow Observation Data Sphere"
   },
   "4360011": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_011.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360011_Name"
+    "name": "Videotape - Bangboo Knows"
   },
   "4360012": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_012.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360012_Name"
+    "name": "Very Silly Painting"
   },
   "4360013": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_013.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360013_Name"
+    "name": "Record - Delusional Angel"
   },
   "4360014": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_014.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360014_Name"
+    "name": "Jewelry"
   },
   "4360015": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_015.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360015_Name"
+    "name": "TV"
   },
   "4360016": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_016.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360016_Name"
+    "name": "Game Console"
   },
   "4360017": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_017.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360017_Name"
+    "name": "Toilet Bangboo Figurine"
   },
   "4360018": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_018.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360018_Name"
+    "name": "Figurine - Officer Mewmew"
   },
   "4360019": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_019.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360019_Name"
+    "name": "Golden Ice Cream Figurine"
   },
   "4360020": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_023.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360020_Name"
+    "name": "Hunter Wolf Skull"
+  },
+  "4360022": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_008.png",
+    "rank": 5,
+    "class": 130,
+    "name": "Cabbooge Figurine"
+  },
+  "4360023": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_009.png",
+    "rank": 5,
+    "class": 130,
+    "name": "Auboogine Fabric Figurine"
+  },
+  "4360024": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_010.png",
+    "rank": 5,
+    "class": 130,
+    "name": "Boonip Figurine"
+  },
+  "4360025": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_011.png",
+    "rank": 5,
+    "class": 130,
+    "name": "Boonapple Figurine"
+  },
+  "4360026": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_012.png",
+    "rank": 5,
+    "class": 130,
+    "name": "Booboonut Figurine"
+  },
+  "4360027": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_013.png",
+    "rank": 5,
+    "class": 130,
+    "name": "Watermel-en Decorative Piece"
+  },
+  "4360028": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_014.png",
+    "rank": 5,
+    "class": 130,
+    "name": "Broccoli Figurine"
+  },
+  "4360029": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_015.png",
+    "rank": 5,
+    "class": 130,
+    "name": "Boomato Figurine"
+  },
+  "4360030": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_016.png",
+    "rank": 5,
+    "class": 130,
+    "name": "Corn Cobboo Figurine"
+  },
+  "4360031": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_017.png",
+    "rank": 5,
+    "class": 130,
+    "name": "Fuel Soda Figurine"
+  },
+  "4360032": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_018.png",
+    "rank": 5,
+    "class": 130,
+    "name": "Crispy Fried Dumplings Figurine"
+  },
+  "4360033": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_019.png",
+    "rank": 5,
+    "class": 130,
+    "name": "Cream Pudding Figurine"
+  },
+  "4360034": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_023.png",
+    "rank": 5,
+    "class": 130,
+    "name": "En O'Clock (Midnight Black)"
+  },
+  "4360035": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_023.png",
+    "rank": 5,
+    "class": 130,
+    "name": "En O'Clock (Day Orange)"
+  },
+  "4360036": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_008.png",
+    "rank": 5,
+    "class": 130,
+    "name": "Boo-rick Phone (Ebony Black)"
+  },
+  "4360037": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_009.png",
+    "rank": 5,
+    "class": 130,
+    "name": "Boo-rick Phone (Ivory White)"
+  },
+  "4360089": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_013.png",
+    "rank": 4,
+    "class": 130,
+    "name": "Bitter Slow Love Song Anniversary Edition"
+  },
+  "4360090": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_015.png",
+    "rank": 4,
+    "class": 130,
+    "name": "Phantasm TV"
+  },
+  "4360091": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_009.png",
+    "rank": 4,
+    "class": 130,
+    "name": "Tactics PC"
+  },
+  "4360092": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_006.png",
+    "rank": 2,
+    "class": 130,
+    "name": "Signal Detector"
   },
   "4360093": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_025.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4360093_Name"
+    "name": "Universal Key"
   },
   "4360094": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_021.png",
-    "rank": 5,
+    "rank": 4,
     "class": 130,
-    "name": "ZKItem_4360094_Name"
+    "name": "Labyrinth Carrot Shard"
   },
   "4360095": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_045.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4360095_Name"
+    "name": "Ether Signal Stabilizer"
   },
   "4360096": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/SuibianTemple/UnPacker/SuibianProspectingMaterial03.png",
     "rank": 2,
     "class": 130,
-    "name": "ZKItem_4360096_Name"
+    "name": "Hematite Crystal Shard"
+  },
+  "4360097": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_005.png",
+    "rank": 3,
+    "class": 130,
+    "name": "Data Storage Card"
   },
   "4360098": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/SuibianTemple/UnPacker/SuibianProspectingMaterial04.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_001.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4360098_Name"
+    "name": "Sienna Secret Key"
   },
   "4360099": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/BlindBoxJackPot_04.png",
-    "rank": 4,
+    "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360099_Name"
+    "name": "Blasting Electric Circuit Board"
   },
   "4361001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_8/Bangkov/UnPacker/ItemIconBig/BangkovCoinSpecialBig.png",
@@ -31366,61 +31744,61 @@
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4362001_Name"
+    "name": "Blueprint"
   },
   "4363501": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_020.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4363501_Name"
+    "name": "Fragile Carrot Shard"
   },
   "4363502": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_021.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4363502_Name"
+    "name": "Stable Carrot Shard"
   },
   "4364001": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardS.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_004.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4364001_Name"
+    "name": "Wind-Eroded Highway-Water Tower Key"
   },
   "4364002": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardS.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_009.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4364002_Name"
+    "name": "Feeble Wildman Town - Parking Lot Key"
   },
   "4364003": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardS.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_012.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4364003_Name"
+    "name": "Dreamweave Beach-Aquarium Key"
   },
   "4364004": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardS.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_013.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4364004_Name"
+    "name": "Dreamweave Beach - Pier Extraction Point Key"
   },
   "4364005": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardS.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_016.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4364005_Name"
+    "name": "Six Dusk Street Key"
   },
   "4364006": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardS.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_018.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4364006_Name"
+    "name": "Dove Street Construction Site Key"
   },
   "4364007": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/RABBangbooIDCardS.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_024.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4364007_Name"
+    "name": "Guangyin Plaza Key"
   },
   "4370001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver3_1/SummerTideTreasure/UnPacker/Drop/SummerTideTreasure_DroopItemIcon_03.png",
@@ -32154,6 +32532,42 @@
     "class": 95,
     "name": "Skyline Style"
   },
+  "311151113": {
+    "icon": "Assets/NapResources/UI/Sprite/A5DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Back_Pendant_Default.png",
+    "rank": 3,
+    "class": 95,
+    "name": "Skyline Style"
+  },
+  "311151114": {
+    "icon": "Assets/NapResources/UI/Sprite/A5DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Back_Pendant_Default.png",
+    "rank": 3,
+    "class": 95,
+    "name": "Skyline Style"
+  },
+  "311151115": {
+    "icon": "Assets/NapResources/UI/Sprite/A5DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Back_Pendant_Default.png",
+    "rank": 3,
+    "class": 95,
+    "name": "Skyline Style"
+  },
+  "311151116": {
+    "icon": "Assets/NapResources/UI/Sprite/A5DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Back_Pendant_Default.png",
+    "rank": 3,
+    "class": 95,
+    "name": "Skyline Style"
+  },
+  "311151117": {
+    "icon": "Assets/NapResources/UI/Sprite/A5DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Back_Pendant_Default.png",
+    "rank": 3,
+    "class": 95,
+    "name": "Skyline Style"
+  },
+  "311151118": {
+    "icon": "Assets/NapResources/UI/Sprite/A5DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Back_Pendant_Default.png",
+    "rank": 3,
+    "class": 95,
+    "name": "Skyline Style"
+  },
   "412001001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_EllenOnCampus.png",
     "rank": 3,
@@ -32447,6 +32861,12 @@
     "rank": 3,
     "class": 96,
     "name": "Accessoriy_412001312"
+  },
+  "412001317": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_EllenOnCampus.png",
+    "rank": 3,
+    "class": 96,
+    "name": "Accessoriy_412001317"
   },
   "412001381": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_EllenOnCampus.png",
@@ -32760,6 +33180,12 @@
     "class": 95,
     "name": "Afternoon at Three"
   },
+  "412011317": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Wise_Head_Glass_06.png",
+    "rank": 3,
+    "class": 95,
+    "name": "Accessoriy_412011317"
+  },
   "412011381": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Wise_Back_Pendant_Default.png",
     "rank": 3,
@@ -33071,6 +33497,12 @@
     "rank": 3,
     "class": 95,
     "name": "Afternoon at Three"
+  },
+  "412021317": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Head_Glass_06.png",
+    "rank": 3,
+    "class": 95,
+    "name": "Accessoriy_412021317"
   },
   "412021381": {
     "icon": "Assets/NapResources/UI/Sprite/A5DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Back_Pendant_Default.png",

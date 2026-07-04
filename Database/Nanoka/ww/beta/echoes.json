@@ -16185,7 +16185,7 @@
             ]
           },
           "5": {
-            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
             "param": [
               "5%",
               "4",
@@ -16271,7 +16271,7 @@
     },
     "monsterInfo": 310000910,
     "liveComparison": {
-      "currentHash": "5ae5c3e1099dc8d159f543f518f8ae603459b83d13d8e8befccb06aab15c2c64"
+      "currentHash": "98fa1fffd56e40416d56de0f50268b05897bb65a6467ebae8c9e630f0b63570a"
     }
   },
   {
@@ -16299,7 +16299,7 @@
             ]
           },
           "5": {
-            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
             "param": [
               "5%",
               "4",
@@ -16363,7 +16363,7 @@
     },
     "monsterInfo": 310000920,
     "liveComparison": {
-      "currentHash": "9fe931f408a590d138c5bda3d9c48ff1676beaf0497087cd44b48927e752a821"
+      "currentHash": "958b3946025561ee2ea544c15712431f95c791407f14fe9ee9d017037a54afb6"
     }
   },
   {
@@ -16889,7 +16889,7 @@
             ]
           },
           "5": {
-            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
             "param": [
               "5%",
               "4",
@@ -16953,7 +16953,7 @@
     },
     "monsterInfo": 310000980,
     "liveComparison": {
-      "currentHash": "537d06af74a3f70dd6be38a14aab439569f17cdf3f2347dd837fc07a04d651a8"
+      "currentHash": "3ee6fe394075e1d567b56b2e7798981ab8bff2f24089534b572f044df952e661"
     }
   },
   {
@@ -16981,7 +16981,7 @@
             ]
           },
           "5": {
-            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
             "param": [
               "5%",
               "4",
@@ -17067,7 +17067,7 @@
     },
     "monsterInfo": 310000990,
     "liveComparison": {
-      "currentHash": "05df748b9d1a349bd27c7d8d4e6b1e22989735f33decec3e93681e4fe558cb1c"
+      "currentHash": "f12b4a4ac83e221c030cd46c5722645df825bb5bc17783e3b6bc79239fc6a53e"
     }
   },
   {
@@ -17426,7 +17426,7 @@
             ]
           },
           "5": {
-            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
             "param": [
               "5%",
               "4",
@@ -17490,7 +17490,7 @@
     },
     "monsterInfo": 320000670,
     "liveComparison": {
-      "currentHash": "f1b60f050c688f28524e58719a5c8864fccd092a030ccccffa5fb6ee8875d733"
+      "currentHash": "3993c4d84b96340bf7e88a68c9d3cbbf05b7257945ffea0cb7a1a9a21ab2b530"
     }
   },
   {
@@ -17567,7 +17567,7 @@
             ]
           },
           "5": {
-            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
             "param": [
               "5%",
               "4",
@@ -17636,7 +17636,7 @@
     },
     "monsterInfo": 320000680,
     "liveComparison": {
-      "currentHash": "d06fc88e7b966a77ba829436bd3b756a73a02ee54a93b1f184d00b0e9d447390"
+      "currentHash": "fe7075c899e581bdfb5dfa1e04fcb8f2ec32756ac23c920d86384ec8df4dc6cc"
     }
   },
   {
@@ -17687,7 +17687,7 @@
             ]
           },
           "5": {
-            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
             "param": [
               "5%",
               "4",
@@ -17704,7 +17704,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "Use Echo Skill to summon Myriad Snare: Rustfire Chassis, dealing up to 3 stages of Fusion DMG equal to {0} of the Resonator's Max HP.\n\nResonators with this Echo equipped in the main slot gain {1} Fusion DMG Bonus and {2} Heavy Attack DMG Bonus.\n\nCD: {3}s",
+      "desc": "Summon Myriad Snare: Rustfire Chassis, dealing Fusion DMG equal to {0} of the Max HP on initial impact. During its duration, it repeatedly crushes enemies along its path up to {5} times, dealing Fusion DMG equal to {1} of the Max HP each time.\n\nResonators with this Echo equipped in the main slot gain {2} Fusion DMG Bonus and {3} Heavy Attack DMG Bonus.\n\nCD: {4}s",
       "simple_desc": "Summon Myriad Snare: Rustfire Chassis to attack enemies, dealing Fusion DMG.\nResonators with this Echo equipped in the main slot deal higher Fusion and Heavy Attack DMG.",
       "param": [
         [
@@ -17761,7 +17761,7 @@
     },
     "monsterInfo": 340000300,
     "liveComparison": {
-      "currentHash": "ea159343992ee3aad3c373c6a3124696f01019907497b33287a952fb29c31b72"
+      "currentHash": "3115bd3934f60af56f6c1a1f73c80cdf954a96c730071ed912595a92051f3b8a"
     }
   },
   {

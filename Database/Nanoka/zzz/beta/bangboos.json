@@ -22116,11 +22116,11 @@
         "level": {
           "1": {
             "name": "Flashflare",
-            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
             "property": [
-              "Bangboo_ActiveSkill_Property_Val_5402301",
-              "Bangboo_ActiveSkill_Property_Val_5402302",
-              "Bangboo_ActiveSkill_Property_Val_5402303",
+              "Buff 1: HP Recovery",
+              "Buff 2: Energy Restored",
+              "Buff 3: DMG Increase",
               "DMG Multiplier",
               "Daze Multiplier",
               "Cooldown",
@@ -22130,11 +22130,11 @@
           },
           "2": {
             "name": "Flashflare",
-            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
             "property": [
-              "Bangboo_ActiveSkill_Property_Val_5402301",
-              "Bangboo_ActiveSkill_Property_Val_5402302",
-              "Bangboo_ActiveSkill_Property_Val_5402303",
+              "Buff 1: HP Recovery",
+              "Buff 2: Energy Restored",
+              "Buff 3: DMG Increase",
               "DMG Multiplier",
               "Daze Multiplier",
               "Cooldown",
@@ -22144,11 +22144,11 @@
           },
           "3": {
             "name": "Flashflare",
-            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
             "property": [
-              "Bangboo_ActiveSkill_Property_Val_5402301",
-              "Bangboo_ActiveSkill_Property_Val_5402302",
-              "Bangboo_ActiveSkill_Property_Val_5402303",
+              "Buff 1: HP Recovery",
+              "Buff 2: Energy Restored",
+              "Buff 3: DMG Increase",
               "DMG Multiplier",
               "Daze Multiplier",
               "Cooldown",
@@ -22158,11 +22158,11 @@
           },
           "4": {
             "name": "Flashflare",
-            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
             "property": [
-              "Bangboo_ActiveSkill_Property_Val_5402301",
-              "Bangboo_ActiveSkill_Property_Val_5402302",
-              "Bangboo_ActiveSkill_Property_Val_5402303",
+              "Buff 1: HP Recovery",
+              "Buff 2: Energy Restored",
+              "Buff 3: DMG Increase",
               "DMG Multiplier",
               "Daze Multiplier",
               "Cooldown",
@@ -22172,11 +22172,11 @@
           },
           "5": {
             "name": "Flashflare",
-            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
             "property": [
-              "Bangboo_ActiveSkill_Property_Val_5402301",
-              "Bangboo_ActiveSkill_Property_Val_5402302",
-              "Bangboo_ActiveSkill_Property_Val_5402303",
+              "Buff 1: HP Recovery",
+              "Buff 2: Energy Restored",
+              "Buff 3: DMG Increase",
               "DMG Multiplier",
               "Daze Multiplier",
               "Cooldown",
@@ -22186,11 +22186,11 @@
           },
           "6": {
             "name": "Flashflare",
-            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
             "property": [
-              "Bangboo_ActiveSkill_Property_Val_5402301",
-              "Bangboo_ActiveSkill_Property_Val_5402302",
-              "Bangboo_ActiveSkill_Property_Val_5402303",
+              "Buff 1: HP Recovery",
+              "Buff 2: Energy Restored",
+              "Buff 3: DMG Increase",
               "DMG Multiplier",
               "Daze Multiplier",
               "Cooldown",
@@ -22200,11 +22200,11 @@
           },
           "7": {
             "name": "Flashflare",
-            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
             "property": [
-              "Bangboo_ActiveSkill_Property_Val_5402301",
-              "Bangboo_ActiveSkill_Property_Val_5402302",
-              "Bangboo_ActiveSkill_Property_Val_5402303",
+              "Buff 1: HP Recovery",
+              "Buff 2: Energy Restored",
+              "Buff 3: DMG Increase",
               "DMG Multiplier",
               "Daze Multiplier",
               "Cooldown",
@@ -22214,11 +22214,11 @@
           },
           "8": {
             "name": "Flashflare",
-            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
             "property": [
-              "Bangboo_ActiveSkill_Property_Val_5402301",
-              "Bangboo_ActiveSkill_Property_Val_5402302",
-              "Bangboo_ActiveSkill_Property_Val_5402303",
+              "Buff 1: HP Recovery",
+              "Buff 2: Energy Restored",
+              "Buff 3: DMG Increase",
               "DMG Multiplier",
               "Daze Multiplier",
               "Cooldown",
@@ -22228,11 +22228,11 @@
           },
           "9": {
             "name": "Flashflare",
-            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
             "property": [
-              "Bangboo_ActiveSkill_Property_Val_5402301",
-              "Bangboo_ActiveSkill_Property_Val_5402302",
-              "Bangboo_ActiveSkill_Property_Val_5402303",
+              "Buff 1: HP Recovery",
+              "Buff 2: Energy Restored",
+              "Buff 3: DMG Increase",
               "DMG Multiplier",
               "Daze Multiplier",
               "Cooldown",
@@ -22242,11 +22242,11 @@
           },
           "10": {
             "name": "Flashflare",
-            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+            "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
             "property": [
-              "Bangboo_ActiveSkill_Property_Val_5402301",
-              "Bangboo_ActiveSkill_Property_Val_5402302",
-              "Bangboo_ActiveSkill_Property_Val_5402303",
+              "Buff 1: HP Recovery",
+              "Buff 2: Energy Restored",
+              "Buff 3: DMG Increase",
               "DMG Multiplier",
               "Daze Multiplier",
               "Cooldown",
@@ -22414,7 +22414,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "30f780a77e050b19cbb4b925d367f708e3b20f52041d1f34cdd19a487c021ba3"
+      "currentHash": "2b648ad743a50d47ca29ddab75c92d006e9e1a52eee112f2bde79580d5dcb235"
     }
   },
   {

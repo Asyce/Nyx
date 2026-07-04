@@ -15,28 +15,28 @@
     "103": "Pierce"
   },
   "camp": {
-    "16": "Roscaelifer External Strategy Department"
+    "16": "Roscaelifer"
   },
   "gender": 2,
   "partner_info": {
-    "birthday": "Partner_Birthday_1591",
-    "full_name": "Partner_Name_1591",
+    "birthday": "...",
+    "full_name": "...",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle66.png",
-    "impression_f": "Partner_Impression_f_1591",
-    "impression_m": "Partner_Impression_m_1591",
-    "profile_desc": "Partner_ProfileDesc_1591",
+    "impression_f": "...",
+    "impression_m": "...",
+    "profile_desc": "...",
     "role_icon": "IconRole/UnPacker/IconRole66",
-    "stature": "Partner_Stature_1591",
+    "stature": "...",
     "unlock_condition": [
       "Obtain Agent",
       "Partner_Unlock_Condition_Chapter031",
       "Complete the \"Anby's Problem\" commission"
     ],
     "trust_lv": {
-      "1": "Partner_ProfileDesc_1591",
+      "1": "...",
       "2": "",
-      "3": "Partner_ProfileDesc_1591_1",
+      "3": "...",
       "4": ""
     }
   },
@@ -334,8 +334,8 @@
           "potential": []
         },
         {
-          "name": "Suppressed Stance",
-          "desc": "While in <color=#FFFFFF>[Roaming Stance]</color> with available <color=#FFFFFF>[Gun Retraction]</color> counts, hold <IconMap:Icon_Normal> to activate:\nActivates the corresponding <color=#FFFFFF>[Gun Retraction]</color> based on the current segment, dealing <color=#98EFF0>Ice DMG</color>;\n<color=#FFFFFF>[Gun Retraction]</color> has 3 segments in total, and each use advances the segment count;\nUsing Gun Retraction after a Basic Attack preserves the Basic Attack segment count;\nDMG taken is reduced by 40% during this skill;\nAnti-Interrupt level is increased while using this skill.",
+          "name": "Basic Attack: Gun-Draw Stance",
+          "desc": "While in <color=#FFFFFF>[Sky Patrol Gunstance]</color> with available <color=#FFFFFF>[Basic Attack: Retract]</color> charges, hold <IconMap:Icon_Normal> to activate:\nActivates the corresponding <color=#FFFFFF>[Basic Attack: Retract]</color> based on the current stage, dealing <color=#98EFF0>Ice DMG</color>;\n<color=#FFFFFF>[Basic Attack: Retract]</color> has three stages. Each activation advances the stage count. After activating Stage 3 of <color=#FFFFFF>[Basic Attack: Retract]</color>, the stage count resets;\nWhen Sigrid takes a hit from an enemy while charging her Stance during Stage 1 or 2 of <color=#FFFFFF>[Basic Attack: Retract]</color>, she blocks with her shield. A successful Block negates the incoming DMG, refreshes the <color=#FFFFFF>[Sky Patrol Gunstance]</color> state, and grants one <color=#FFFFFF>[Basic Attack: Retract]</color> charge. After a successful Block, press 【Basic Attack】 to activate <color=#FFFFFF>[Basic Attack: Retract]</color> at the corresponding stage;\n<color=#FFFFFF>[Basic Attack: Retract]</color> used after <color=#FFFFFF>[Basic Attack: Piercing Frost Tip]</color> retains the current stage count of <color=#FFFFFF>[Basic Attack: Piercing Frost Tip]</color>;\nDMG taken during this skill is reduced by 60%;\nAnti-Interrupt level is increased during this skill;\nSigrid is invulnerable during Stage 3 of <color=#FFFFFF>[Basic Attack: Retract]</color>.",
           "potential": []
         },
         {
@@ -553,7 +553,7 @@
           "potential": []
         },
         {
-          "name": "Concealed Firearm Stance Phase 1",
+          "name": "Basic Attack: Rifle Stance Phase 1",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -611,7 +611,7 @@
           "potential": []
         },
         {
-          "name": "Concealed Shot Phase 2",
+          "name": "Basic Attack: Furled Shot 2",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -669,7 +669,7 @@
           "potential": []
         },
         {
-          "name": "Gun Retraction Form - Stage 3",
+          "name": "Basic Attack: Reined Strike Phase 3",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -790,7 +790,7 @@
         },
         {
           "name": "Dodge Counter: Parting Shot",
-          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nCondenses ice at the gun's tip to deliver a powerful counter against enemies ahead, dealing <color=#98EFF0>Ice DMG</color>;\nTriggering a <color=#FFFFFF>Perfect Dodge</color> and launching a Dodge Counter during a Basic Attack preserves the current Basic Attack chain;\nThis skill is considered a <color=#FFFFFF>Draw Stance</color>;\nCharacter is invulnerable while using this skill.",
+          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nCondenses ice at the spear tip to unleash a powerful counter against enemies ahead, dealing <color=#98EFF0>Ice DMG</color>;\nA <color=#FFFFFF>Dodge Counter: Parting Shot</color> used after <color=#FFFFFF>Basic Attack: Frostbite Spearhead</color> retains the number of stages of <color=#FFFFFF>Basic Attack: Frostbite Spearhead</color>;\nThis skill is considered a <color=#FFFFFF>Draw Stance</color>;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
@@ -962,22 +962,22 @@
     "special": {
       "description": [
         {
-          "name": "Special Attack: Chaotic Jade",
+          "name": "Special Attack: Ice Blossom",
           "desc": "Press <IconMap:Icon_Special> to activate:\nLunge forward with three consecutive thrusts, dealing <color=#98EFF0>Ice DMG</color>.\nAnti-Interrupt level is increased while using this skill.",
           "potential": []
         },
         {
-          "name": "Enhance Special: Jade Shatter Technique Phase 1",
-          "desc": "When Energy is sufficient and not in the <color=#FFFFFF>[Patrol Gunform]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful rapid thrust attack forward, dealing massive <color=#98EFF0>Ice DMG</color>.\nThis skill is considered a <color=#FFFFFF>[Draw Stance]</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "Enhance Special: Chaotic Jade",
+          "desc": "When Energy is sufficient and not in the <color=#FFFFFF>[Sky-Sweeping Spear Stance]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful series of forward thrusts, dealing massive <color=#98EFF0>Ice DMG</color>;\nIf Sigrid is hit by an enemy attack during the thrusts, she will Block with her shield. A successful Block negates the incoming attack's DMG, refreshes the <color=#FFFFFF>[Sky-Sweeping Spear Stance]</color> state, and grants one opportunity to activate <color=#FFFFFF>[Basic Attack: Spear-Draw Stance]</color>. After a successful Block, press [Basic Attack] to activate the corresponding stage of <color=#FFFFFF>[Basic Attack: Spear-Draw Stance]</color>;\nThis skill is considered a <color=#FFFFFF>[Spear-Draw Stance]</color>;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Enhance Special: Jade Shatter Strike Phase 2",
-          "desc": "When Energy is sufficient and in the <color=#FFFFFF>[Sky-Piercing Stance]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful series of lunging thrusts forward, dealing massive <color=#98EFF0>Ice DMG</color>.\nThis skill is considered a <color=#FFFFFF>[Draw Stance]</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "Blasting Enhance Special: Jade Shatter",
+          "desc": "When Energy is sufficient and in the <color=#FFFFFF>[Sky-Patrol Stance]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful series of forward lunge thrusts, dealing massive <color=#98EFF0>Ice DMG</color>;\nWhen hit by an enemy attack during the lunge thrusts, Sigrid uses her shield to Block. If the Block is successful, the incoming attack DMG is negated, the <color=#FFFFFF>[Sky-Patrol Stance]</color> state is refreshed, and one opportunity to activate <color=#FFFFFF>[Basic Attack: Gunlock Form]</color> is granted. Press【Basic Attack】after a successful Block to activate the corresponding sequence of <color=#FFFFFF>[Basic Attack: Gunlock Form]</color>;\nThis skill is considered a <color=#FFFFFF>[Draw Form]</color>;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Special Attack: Chaotic Jade",
+          "name": "Special Attack: Ice Blossom",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1035,7 +1035,7 @@
           "potential": []
         },
         {
-          "name": "Enhance Special: Jade Shatter Technique Phase 1",
+          "name": "Enhance Special: Chaotic Jade",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1098,7 +1098,7 @@
           "potential": []
         },
         {
-          "name": "Enhance Special: Jade Shatter Strike Phase 2",
+          "name": "Blasting Enhance Special: Jade Shatter",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1214,7 +1214,7 @@
       "description": [
         {
           "name": "Chain Attack: Frost Ground Roll",
-          "desc": "When a <color=#FFFFFF>Chain Attack</color> is triggered, select the character to activate:\nLaunch a powerful Pierce against enemies ahead, dealing massive <color=#98EFF0>Ice DMG</color>;\nGain 1 stack of <color=#FFFFFF>[Temper]</color>. Each stack of <color=#FFFFFF>[Temper]</color> increases the DMG dealt by subsequent Retract Stance by 15%, stacking up to 2 times. <color=#FFFFFF>[Formation Break]</color> and <color=#FFFFFF>[Temper]</color> are removed after the 3rd Retract Stance ends;\nWhen this skill hits an elite or Boss-Rank enemy in Daze for the first time, the current <color=#FFFFFF>[Retract Stance]</color> stage is recorded and <color=#FFFFFF>[Formation Break]</color> is activated. This effect can trigger at most once per Daze;\nWhile in <color=#FFFFFF>[Formation Break]</color>, <color=#FFFFFF>[Aerial Gunstance]</color> duration does not decrease, and holding <IconMap:Icon_Normal> allows continuous use of Retract Stance from Stage 1 through Stage 3;\nAfter activating the 3rd stage of <color=#FFFFFF>[Retract Stance]</color>, <color=#FFFFFF>[Formation Break]</color> ends and the <color=#FFFFFF>[Retract Stance]</color> stage is restored;\nThis skill is considered a <color=#FFFFFF>[Draw Stance]</color>;\nCharacter is invulnerable while using this skill.",
+          "desc": "When a <color=#FFFFFF>Chain Attack</color> is triggered, select the character to activate:\nLaunch a powerful Pierce against enemies ahead, dealing massive <color=#98EFF0>Ice DMG</color>;\nGain 1 stack of <color=#FFFFFF>[Temper]</color>. Each stack of <color=#FFFFFF>[Temper]</color> increases the DMG dealt by subsequent <color=#FFFFFF>[Basic Attack: Retract Stance]</color> by 25%, lasting 50s;\nWhen this skill hits an Elite or Boss-Rank enemy in a Stunned state for the first time, the current <color=#FFFFFF>[Basic Attack: Retract Stance]</color> stage count is recorded and reset, entering <color=#FFFFFF>[Formation Break]</color> state. This effect can trigger at most once per Stun period;\nWhile in <color=#FFFFFF>[Formation Break]</color> state, <color=#FFFFFF>[Aerial Gun Stance]</color> duration does not decrease, and holding <IconMap:Icon_Normal> allows continuous use of <color=#FFFFFF>[Basic Attack: Retract Stance]</color> Stages 1 through 3;\nAfter using <color=#FFFFFF>[Basic Attack: Retract Stance]</color> Stage 3, <color=#FFFFFF>[Formation Break]</color> state ends and the <color=#FFFFFF>[Basic Attack: Retract Stance]</color> stage count is restored;\nThis skill is considered a <color=#FFFFFF>[Draw Stance]</color>;\nDuring <color=#FFFFFF>[Formation Break]</color> state, <color=#FFFFFF>[Basic Attack: Retract Stance]</color> hitting Stunned enemies will not open a Chain Attack window;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
@@ -1402,7 +1402,7 @@
         },
         {
           "name": "Assist Follow-Up: Ice Glutton",
-          "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nSwing the spear upward and follow up with a heavy downward smash, dealing massive <color=#98EFF0>Ice DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nSwing the spear upward, then slam it down with a heavy attack, dealing massive <color=#98EFF0>Ice DMG</color>;\nThis skill is considered a <color=#FFFFFF>Spear Draw Stance</color>;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
@@ -1658,85 +1658,78 @@
   },
   "skill_list": {
     "1591001": {
-      "name": "Basic Attack:",
+      "name": "Basic Attack: Glacial Spearhead",
       "desc": "<IconMap:Icon_Normal>",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591002": {
-      "name": "Basic Attack: Alt Attack",
+      "name": "Retract",
       "desc": "<IconMap:Icon_Normal>(On Entering or Refreshing [Knight's Focus]) (Hold)",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591003": {
-      "name": "Special Attack:",
+      "name": "Special Attack: Ice Blossom",
       "desc": "<IconMap:Icon_Special>",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591004": {
-      "name": "EX Special Attack: Extreme Chisel",
+      "name": "EX Special Attack: Chaotic Jade",
       "desc": "<IconMap:Icon_SpecialReady>",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591005": {
-      "name": "Dash Attack:",
+      "name": "Dash Attack: Wind Chase",
       "desc": "<IconMap:Icon_Evade> ; <IconMap:Icon_Normal>",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591006": {
-      "name": "Dodge Counter:",
+      "name": "Dodge Counter: Parting Shot",
       "desc": "<IconMap:Icon_Evade> (Perfect) ; <IconMap:Icon_Normal>",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591007": {
-      "name": "Chain Attack:",
+      "name": "Chain Attack: Ice Blizzard Sweep",
       "desc": "<IconMap:Icon_QTE>",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591008": {
-      "name": "Ultimate:",
+      "name": "Ultimate: Frost Sky",
       "desc": "<IconMap:Icon_UltimateReady>",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591009": {
-      "name": "Quick Assist:",
+      "name": "Quick Assist: Guardian Patrol",
       "desc": "<IconMap:Icon_Switch> (When Triggering Quick Assist)",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591010": {
-      "name": "Defensive Assist:",
+      "name": "Defensive Assist: Untouchable Lynn",
       "desc": "<IconMap:Icon_Switch> (When Triggering Defensive Assist)",
       "element_type": 0,
       "hit_type": 0,
       "potential": []
     },
     "1591011": {
-      "name": "Assist Follow-Up:",
+      "name": "Assist Follow-Up: Ice Glutton",
       "desc": "<IconMap:Icon_Normal> (After Defensive Assist)",
-      "element_type": 202,
-      "hit_type": 103,
-      "potential": []
-    },
-    "1591012": {
-      "name": "Quick Assist:",
-      "desc": "<IconMap:Icon_Switch>（Switch in when an ally uses [EX Special Attack]）",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
@@ -1752,8 +1745,8 @@
           "Additional Ability: Sky Alliance"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Stance]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Draw Stance]</color>, if not currently in <color=#FFFFFF>[Sky Patrol Gunform]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunform]</color> and the <color=#FFFFFF>[Draw Stance]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status, while gaining 1 <color=#FFFFFF>[Holster Stance]</color> activation opportunity, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Sky Patrol Gunform]</color>, when Sigrid uses any <color=#FFFFFF>[Draw Stance]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Sky Patrol Gunform]</color> and gain 1 <color=#FFFFFF>[Holster Stance]</color> activation opportunity, up to a maximum of 1; When <color=#FFFFFF>[Sky Patrol Gunform]</color> is refreshed, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly triggered <color=#FFFFFF>[Draw Stance]</color>;\nWhen <color=#FFFFFF>[Holster Stance]</color> hits an enemy, <color=#FFFFFF>[Inactive]</color> status is removed and the next <color=#FFFFFF>[Holster Stance]</color> advances by 1 stage, up to a maximum of 3 stages; After triggering the 3rd stage <color=#FFFFFF>[Holster Stance]</color>, <color=#FFFFFF>[Holster Stance]</color> stage is immediately reset to stage 1 and <color=#FFFFFF>[Sky Patrol Gunform]</color> ends;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunform]</color> decreases as <color=#FFFFFF>[Holster Stance]</color> stage increases: at stages 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunform]</color> ends, <color=#FFFFFF>[Holster Stance]</color> stage decreases by 1, down to a minimum of stage 1;\nWhen <color=#FFFFFF>[Sky Patrol Gunform]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>36%</color> for <color=#FFFFFF>8</color>s; repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Sky Patrol Gunform]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-          "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 45%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>15%</color>"
+          "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Drawn Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> in combat, if not currently in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color> and gains 1 charge of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, up to a maximum of 1 charge;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Stance]</color>, when Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color>, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 charge of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, up to a maximum of 1 charge;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Stance]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>33%</color> and her ATK increases by <color=#FFFFFF>150%</color> for <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit an enemy in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
+          "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
         ],
         "extra_property": {},
         "potential": []
@@ -1766,8 +1759,8 @@
           "Additional Ability: Sky Alliance"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Shot]</color>;\nWhen Sigrid lands a hit with any <color=#FFFFFF>[Draw Shot]</color>, if not already in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color>. The <color=#FFFFFF>[Draw Shot]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status, and she gains 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Sky Patrol Stance]</color>, if Sigrid uses any <color=#FFFFFF>[Draw Shot]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1; Upon refreshing <color=#FFFFFF>[Sky Patrol Stance]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Draw Shot]</color>;\nWhen <color=#FFFFFF>[Holster Shot]</color> lands a hit on an enemy, <color=#FFFFFF>[Inactive]</color> status is removed and the next <color=#FFFFFF>[Holster Shot]</color>'s hit count increases by 1, up to a maximum of 3 hits; After using the 3rd <color=#FFFFFF>[Holster Shot]</color>, its hit count immediately resets to 1 and <color=#FFFFFF>[Sky Patrol Stance]</color> ends;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as <color=#FFFFFF>[Holster Shot]</color>'s hit count increases: at 1/2/3 hits, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, <color=#FFFFFF>[Holster Shot]</color>'s hit count decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>42%</color> for <color=#FFFFFF>8</color>s; repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Sky Patrol Stance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-          "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 45%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>15%</color>"
+          "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Drawn Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> in combat, if she is not currently in <color=#FFFFFF>[Aerial Gunner Stance]</color>, she enters <color=#FFFFFF>[Aerial Gunner Stance]</color> and gains 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, stacking up to 1 time;\nIn combat, while in <color=#FFFFFF>[Aerial Gunner Stance]</color>, when Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color>, she can refresh <color=#FFFFFF>[Aerial Gunner Stance]</color> and gains 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, stacking up to 1 time;\nThe duration of <color=#FFFFFF>[Aerial Gunner Stance]</color> decreases as the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> stage increases: at stages 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Aerial Gunner Stance]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> stage decreases by 1, to a minimum of stage 1;\nWhen <color=#FFFFFF>[Aerial Gunner Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>39%</color> and her ATK increases by <color=#FFFFFF>180%</color> for <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
+          "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
         ],
         "extra_property": {},
         "potential": []
@@ -1780,8 +1773,8 @@
           "Additional Ability: Sky Alliance"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Shot]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Draw Shot]</color>, if not currently in <color=#FFFFFF>[Aerial Gunstance]</color>, she enters <color=#FFFFFF>[Aerial Gunstance]</color> and the <color=#FFFFFF>[Draw Shot]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status, while gaining 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Aerial Gunstance]</color>, if Sigrid activates any <color=#FFFFFF>[Draw Shot]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Aerial Gunstance]</color> and gain 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1; After <color=#FFFFFF>[Aerial Gunstance]</color> is refreshed, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly activated <color=#FFFFFF>[Draw Shot]</color>;\nWhen <color=#FFFFFF>[Holster Shot]</color> hits an enemy, it removes <color=#FFFFFF>[Inactive]</color> status and increases the next <color=#FFFFFF>[Holster Shot]</color>'s hit count by 1 stage, up to a maximum of 3 stages; After the 3rd stage <color=#FFFFFF>[Holster Shot]</color> is activated, <color=#FFFFFF>[Holster Shot]</color> stage count immediately resets to stage 1 and <color=#FFFFFF>[Aerial Gunstance]</color> ends;\nThe duration of <color=#FFFFFF>[Aerial Gunstance]</color> decreases as <color=#FFFFFF>[Holster Shot]</color> stage increases: at stages 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Aerial Gunstance]</color> ends, <color=#FFFFFF>[Holster Shot]</color> stage decreases by 1, down to a minimum of stage 1;\nWhen <color=#FFFFFF>[Aerial Gunstance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>48%</color> for <color=#FFFFFF>8</color>s; repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Aerial Gunstance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-          "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 45%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>15%</color>"
+          "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Drawn Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> in combat, if she is not already in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color> and gains 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, with a maximum of 1 stored;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> while in <color=#FFFFFF>[Sky Patrol Stance]</color> during combat, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, with a maximum of 1 stored;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as the number of <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase count decreases by 1, down to a minimum of Phase 1;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>44%</color> and her ATK increases by <color=#FFFFFF>210%</color> for <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in the Stunned state, the Stun DMG Multiplier for DMG dealt to the target increases by 20%.",
+          "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
         ],
         "extra_property": {},
         "potential": []
@@ -1794,8 +1787,8 @@
           "Additional Ability: Sky Alliance"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Shot]</color>;\nWhen Sigrid lands a hit with any <color=#FFFFFF>[Draw Shot]</color>, if not already in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color>. The <color=#FFFFFF>[Draw Shot]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status, and she gains 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Sky Patrol Stance]</color>, if Sigrid uses any <color=#FFFFFF>[Draw Shot]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1; Upon refreshing <color=#FFFFFF>[Sky Patrol Stance]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Draw Shot]</color>;\nWhen <color=#FFFFFF>[Holster Shot]</color> lands a hit on an enemy, <color=#FFFFFF>[Inactive]</color> status is removed and the next <color=#FFFFFF>[Holster Shot]</color>'s hit count increases by 1, up to a maximum of 3 hits; After using the 3rd <color=#FFFFFF>[Holster Shot]</color>, its hit count immediately resets to 1 and <color=#FFFFFF>[Sky Patrol Stance]</color> ends;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as <color=#FFFFFF>[Holster Shot]</color>'s hit count increases: at 1/2/3 hits, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, <color=#FFFFFF>[Holster Shot]</color>'s hit count decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>54%</color> for <color=#FFFFFF>8</color>s; repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Sky Patrol Stance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-          "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 45%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>15%</color>"
+          "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Drawn Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> in combat, if she is not already in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color> and gains 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, with a maximum of 1 stored;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> while in <color=#FFFFFF>[Sky Patrol Stance]</color> during combat, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, with a maximum of 1 stored;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as the number of <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase count decreases by 1, down to a minimum of Phase 1;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>50%</color> and her ATK increases by <color=#FFFFFF>240%</color> for <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in the Stunned state, the Stun DMG Multiplier for DMG dealt to the target increases by 20%.",
+          "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
         ],
         "extra_property": {},
         "potential": []
@@ -1808,8 +1801,8 @@
           "Additional Ability: Sky Alliance"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw]</color>;\nWhen Sigrid lands a hit with any <color=#FFFFFF>[Draw]</color>, if she is not already in the <color=#FFFFFF>[Aerial Patrol Stance]</color>, she enters <color=#FFFFFF>[Aerial Patrol Stance]</color>, and the <color=#FFFFFF>[Draw]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Holster]</color> trigger opportunity, storable up to 1;\nWhile in <color=#FFFFFF>[Aerial Patrol Stance]</color>, if Sigrid triggers any <color=#FFFFFF>[Draw]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Aerial Patrol Stance]</color> and gain 1 <color=#FFFFFF>[Holster]</color> trigger opportunity, storable up to 1. Upon refreshing <color=#FFFFFF>[Aerial Patrol Stance]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly triggered <color=#FFFFFF>[Draw]</color>;\nWhen <color=#FFFFFF>[Holster]</color> lands a hit on an enemy, <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Holster]</color>'s hit count is increased by 1 stage, up to a maximum of 3 stages. After triggering the 3rd stage <color=#FFFFFF>[Holster]</color>, <color=#FFFFFF>[Holster]</color> stage count is immediately reset to 1 and <color=#FFFFFF>[Aerial Patrol Stance]</color> ends;\nThe duration of <color=#FFFFFF>[Aerial Patrol Stance]</color> decreases as <color=#FFFFFF>[Holster]</color> stage increases: at stages 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Aerial Patrol Stance]</color> ends, <color=#FFFFFF>[Holster]</color> stage decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Aerial Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>60%</color> for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Aerial Patrol Stance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-          "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 45%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>15%</color>"
+          "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw Stance]</color> attack in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunform]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunform]</color> and gains 1 charge of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, up to a maximum of 1 charge;\nWhile in <color=#FFFFFF>[Sky Patrol Gunform]</color> in combat, when Sigrid uses any <color=#FFFFFF>[Draw Stance]</color> attack, she can refresh <color=#FFFFFF>[Sky Patrol Gunform]</color> and gain 1 charge of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, up to a maximum of 1 charge;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunform]</color> decreases as the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunform]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Gunform]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>55%</color> and her ATK increases by <color=#FFFFFF>270%</color> for <color=#FFFFFF>8</color>s; repeated triggers extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit a Stunned enemy, the Stun DMG Multiplier dealt to the target increases by 20%.",
+          "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
         ],
         "extra_property": {},
         "potential": []
@@ -1822,8 +1815,8 @@
           "Additional Ability: Sky Alliance"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Shot]</color>;\nWhen Sigrid's <color=#FFFFFF>[Draw Shot]</color> hits an enemy, if she is not in the <color=#FFFFFF>[Aerial Gunstance]</color> state, she enters <color=#FFFFFF>[Aerial Gunstance]</color>, and the <color=#FFFFFF>[Draw Shot]</color> that landed the hit enters the <color=#FFFFFF>[Inactive]</color> state. She also gains 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, with a maximum of 1 stored;\nWhile in <color=#FFFFFF>[Aerial Gunstance]</color>, if Sigrid activates any <color=#FFFFFF>[Draw Shot]</color> that is not in the <color=#FFFFFF>[Inactive]</color> state, she can refresh <color=#FFFFFF>[Aerial Gunstance]</color> and gain 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, with a maximum of 1 stored; upon refreshing <color=#FFFFFF>[Aerial Gunstance]</color>, the <color=#FFFFFF>[Inactive]</color> state transfers to the newly activated <color=#FFFFFF>[Draw Shot]</color>;\nWhen <color=#FFFFFF>[Holster Shot]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> state is removed, and the next <color=#FFFFFF>[Holster Shot]</color>'s stage increases by 1, up to a maximum of Stage 3; after activating <color=#FFFFFF>[Holster Shot]</color> Stage 3, <color=#FFFFFF>[Holster Shot]</color>'s stage is immediately reset to Stage 1, and <color=#FFFFFF>[Aerial Gunstance]</color> ends;\nThe duration of <color=#FFFFFF>[Aerial Gunstance]</color> decreases as <color=#FFFFFF>[Holster Shot]</color>'s stage increases: at Stage 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Aerial Gunstance]</color> ends, <color=#FFFFFF>[Holster Shot]</color>'s stage decreases by 1, down to a minimum of Stage 1;\nWhen <color=#FFFFFF>[Aerial Gunstance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>66%</color> for <color=#FFFFFF>8</color>s; repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Aerial Gunstance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-          "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 45%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>15%</color>"
+          "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw Stance]</color> attack in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunform]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunform]</color> and gains 1 charge of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, up to a maximum of 1 charge;\nWhile in <color=#FFFFFF>[Sky Patrol Gunform]</color> in combat, when Sigrid uses any <color=#FFFFFF>[Draw Stance]</color> attack, she can refresh <color=#FFFFFF>[Sky Patrol Gunform]</color> and gain 1 charge of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, up to a maximum of 1 charge;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunform]</color> decreases as the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunform]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Gunform]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>61%</color> and her ATK increases by <color=#FFFFFF>300%</color> for <color=#FFFFFF>8</color>s; repeated triggers extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit a Stunned enemy, the Stun DMG Multiplier dealt to the target increases by 20%.",
+          "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
         ],
         "extra_property": {},
         "potential": []
@@ -1836,8 +1829,8 @@
           "Additional Ability: Sky Alliance"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw]</color>;\nWhen Sigrid lands any <color=#FFFFFF>[Draw]</color> on an enemy, if not currently in <color=#FFFFFF>[Aerial Patrol Stance]</color>, she enters <color=#FFFFFF>[Aerial Patrol Stance]</color>, and the <color=#FFFFFF>[Draw]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Holster]</color> trigger opportunity, with a maximum of 1 stored;\nWhile in <color=#FFFFFF>[Aerial Patrol Stance]</color>, if Sigrid uses any <color=#FFFFFF>[Draw]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Aerial Patrol Stance]</color> and gain 1 <color=#FFFFFF>[Holster]</color> trigger opportunity, with a maximum of 1 stored; Upon refreshing <color=#FFFFFF>[Aerial Patrol Stance]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly triggered <color=#FFFFFF>[Draw]</color>;\nWhen <color=#FFFFFF>[Holster]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Holster]</color>'s hit count increases by 1, up to a maximum of 3 hits; After triggering the 3rd hit of <color=#FFFFFF>[Holster]</color>, the <color=#FFFFFF>[Holster]</color> hit count is immediately reset to 1 and <color=#FFFFFF>[Aerial Patrol Stance]</color> ends;\nThe duration of <color=#FFFFFF>[Aerial Patrol Stance]</color> decreases as <color=#FFFFFF>[Holster]</color> hit count increases: at hit 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Aerial Patrol Stance]</color> ends, the <color=#FFFFFF>[Holster]</color> hit count decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Aerial Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>72%</color> for <color=#FFFFFF>8</color>s; Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Aerial Patrol Stance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-          "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 45%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>15%</color>"
+          "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Drawn Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> in combat, if she is not already in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color> and gains 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, with a maximum of 1 stored;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> while in <color=#FFFFFF>[Sky Patrol Stance]</color> during combat, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, with a maximum of 1 stored;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as the number of <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase count decreases by 1, down to a minimum of Phase 1;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>66%</color> and her ATK increases by <color=#FFFFFF>330%</color> for <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in the Stunned state, the Stun DMG Multiplier for DMG dealt to the target increases by 20%.",
+          "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
         ],
         "extra_property": {},
         "potential": []
@@ -1876,13 +1869,13 @@
     "1": {
       "level": 1,
       "name": "A long, long time ago,",
-      "desc": "After triggering the 3rd hit of <color=#FFFFFF>[Weapon Retraction Stance]</color>, enters <color=#FFFFFF>[Aerial Patrol Gunstance]</color>; grants a <color=#FFFFFF>25%</color> ATK bonus.",
+      "desc": "When the 3rd hit of <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> is triggered, enter or refresh <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gain one opportunity to trigger <color=#FFFFFF>[Basic Attack: Gun Retraction]</color>; excess <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> opportunities cause the next <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> to deal an extra <color=#FFFFFF>150%</color> DMG; Sigrid's own ATK increases by <color=#FFFFFF>22%</color>.",
       "desc2": "Long, long ago, the great Sunbringer scooped up the very first handful of earth on the sky islands…\nHold on, hold on — the kids have heard the story of Lady Sunbringer building the first island of Roscaelifer so many times their ears have grown calluses.\nWhat we're here to talk about today is the story of the warrior who stood at Lady Sunbringer's side — clad in silver-white armor as radiant as a moonlit night, just like a Knight of old from a fairy tale…"
     },
     "2": {
       "level": 2,
       "name": "Act One of the Legendary",
-      "desc": "<color=#FFFFFF>[Draw Shot]</color> and <color=#FFFFFF>[Holster Shot]</color> deal <color=#98EFF0>Ice DMG</color> that ignores <color=#FFFFFF>24%</color> of the target's DEF; the duration of the <color=#FFFFFF>[Sky Patrol Stance]</color> effect is extended;",
+      "desc": "<color=#FFFFFF>[Draw Stance]</color> and <color=#FFFFFF>[Basic Attack: Holster Stance]</color> deal <color=#98EFF0>Ice DMG</color> that ignores <color=#FFFFFF>24%</color> of the target's <color=#FFFFFF>DEF</color>; the duration of the <color=#FFFFFF>[Sky Patrol Gunform]</color> effect is extended by 2s;",
       "desc2": "She was Roscaelifer's first Soldier, its first spear — standing at the first line of defense against the Hollow, leading the first charge.\nShe was the first wing to follow Lady Sunbringer, and with her own hands raised the first walls of Roscaelifer.\nShe was the first blade of Roscaelifer to be broken. Her name was de L'Azur.\nHer children, like her legend, burn eternal in the night sky over Roscaelifer."
     },
     "3": {
@@ -1894,7 +1887,7 @@
     "4": {
       "level": 4,
       "name": "Hero Upgrading",
-      "desc": "Each time <color=#FFFFFF>[Sky Patrol Gunstance]</color> refreshes, your DMG dealt increases by <color=#FFFFFF>30%</color> for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s.",
+      "desc": "Each time <color=#FFFFFF>[Aerial Gunstance]</color> refreshes, increase the DMG dealt by <color=#FFFFFF>20%</color> for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s.",
       "desc2": "Sigrid_Talent_04_Desc_02"
     },
     "5": {
@@ -1906,7 +1899,7 @@
     "6": {
       "level": 6,
       "name": "Knight of the Skies",
-      "desc": "<color=#FFFFFF>[Holster Stance]</color> 1st/2nd/3rd hit on an enemy deals an additional <color=#FFFFFF>400%</color>/<color=#FFFFFF>500%</color>/<color=#FFFFFF>600%</color> DMG.",
+      "desc": "<color=#FFFFFF>[Basic Attack: Gun Draw]</color> The first hit on an enemy in the 1st/2nd/3rd stage deals an additional <color=#FFFFFF>200%</color>/<color=#FFFFFF>300%</color>/<color=#FFFFFF>400%</color> DMG.",
       "desc2": "Sigrid_Talent_06_Desc_02"
     }
   },
@@ -1927,16 +1920,16 @@
       "icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconIce.png"
     },
     "part6": {
-      "prop": 20103,
-      "name": "CRIT Rate",
-      "format": "{0:0.#%}",
-      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
-    },
-    "part_sub": {
       "prop": 12102,
       "name": "ATK",
       "format": "{0:0.#%}",
       "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
+    },
+    "part_sub": {
+      "prop": 20103,
+      "name": "CRIT Rate",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
     }
   },
   "strategy": {},

@@ -18,8 +18,8 @@
     "detailPagesTotal": 0,
     "detailPagesScraped": 0,
     "staleDetailPagesRemoved": 0,
-    "entries": 164,
-    "assets": 175
+    "entries": 167,
+    "assets": 178
   },
   {
     "id": "relic-sets",
@@ -29,7 +29,7 @@
     "detailPagesTotal": 0,
     "detailPagesScraped": 0,
     "staleDetailPagesRemoved": 0,
-    "entries": 58,
-    "assets": 59
+    "entries": 60,
+    "assets": 61
   }
 ]

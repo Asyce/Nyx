@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T04:41:45.159Z",
+  "generatedAt": "2026-07-04T08:13:15.617Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-04T04:41:19.962Z",
+      "lastSuccessfulFetch": "2026-07-04T08:13:14.863Z",
       "codes": [
         {
           "code": "PFY1S40I88T9",
@@ -41,16 +41,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-06-22T20:55:49.647Z"
-        },
-        {
-          "code": "LCXGEA5SX65L",
-          "rewards": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "added": "2026-06-12",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-04T04:41:19.962Z"
         }
       ]
     },
@@ -61,7 +51,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-04T04:41:45.159Z",
+      "lastSuccessfulFetch": "2026-07-04T08:13:15.617Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -152,36 +142,6 @@
           "firstSeen": "2026-06-20T23:42:40.844Z"
         },
         {
-          "code": "HT3QMCJ9U4JB",
-          "rewards": "100 Stellar Jade and Five Traveler S Guides",
-          "added": "2026-07-03",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=HT3QMCJ9U4JB",
-          "premium": true,
-          "premium100": true,
-          "cwSeen": true,
-          "firstSeen": "2026-07-03T14:26:00.791Z"
-        },
-        {
-          "code": "WAK84U29VLYP",
-          "rewards": "100 Stellar Jade and 50k Credits",
-          "added": "2026-07-03",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=WAK84U29VLYP",
-          "premium": true,
-          "premium100": true,
-          "cwSeen": true,
-          "firstSeen": "2026-07-03T14:26:00.791Z"
-        },
-        {
-          "code": "XTJ9MV38DL3X",
-          "rewards": "100 Stellar Jade and Four Refined Aether",
-          "added": "2026-07-03",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=XTJ9MV38DL3X",
-          "premium": true,
-          "premium100": true,
-          "cwSeen": true,
-          "firstSeen": "2026-07-03T14:26:00.791Z"
-        },
-        {
           "code": "BladeFitCheck",
           "rewards": "Three Traveler S Guides and Two Cold Jokes",
           "added": "2026-06-08",
@@ -200,7 +160,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-04T04:41:20.053Z",
+      "lastSuccessfulFetch": "2026-07-04T08:13:05.565Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -272,7 +232,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-04T04:41:19.924Z",
+      "lastSuccessfulFetch": "2026-07-04T08:13:06.353Z",
       "codes": []
     },
     {
@@ -282,7 +242,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-04T04:41:19.949Z",
+      "lastSuccessfulFetch": "2026-07-04T08:13:07.952Z",
       "codes": [
         {
           "code": "ALLFIELD",

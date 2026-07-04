@@ -732,11 +732,11 @@
     "contentStatus": "beta",
     "name": "Feathered Fate",
     "type": "drive disc set",
-    "description": "ATK +10%",
+    "description": "Anomaly Proficiency +30",
     "setEffects": [
       {
         "pieces": 2,
-        "description": "ATK +10%"
+        "description": "Anomaly Proficiency +30"
       },
       {
         "pieces": 4,
@@ -744,9 +744,12 @@
       }
     ],
     "story": "EquipmentSuit_34100_story",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/drive-discs/SuitFeatheredFate.webp",
+      "icon2": "Nanoka/zzz/assets/drive-discs/SuitFeatheredFate.webp"
+    },
     "liveComparison": {
-      "currentHash": "b80497b6470e742af443b9087a7970395ba0a27b08292f51845d1b961dadd885"
+      "currentHash": "9114fa924ac11845da7dcc9ae514a5b40b8ac74b4eb20eee1c4223d1e6c21226"
     }
   },
   {
@@ -766,9 +769,12 @@
       }
     ],
     "story": "...",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/drive-discs/SuitThornedRose.webp",
+      "icon2": "Nanoka/zzz/assets/drive-discs/SuitThornedRose.webp"
+    },
     "liveComparison": {
-      "currentHash": "89bee7ceb82f58c0e12c071267882e5a6ea8a4e6b3bdf866955dd897afc13ec0"
+      "currentHash": "48362f613149202b84bb044519b82139d4c4bfb842b8b457f546514b75806fee"
     }
   }
 ]

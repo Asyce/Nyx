@@ -3,7 +3,7 @@
   "game": "hsr",
   "collection": "relic-sets",
   "sourcePath": "/star-rail/guides/relic-sets",
-  "scrapedAt": "2026-07-03T08:34:27.463Z",
+  "scrapedAt": "2026-07-04T08:11:11.087Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -172,6 +172,23 @@
       "text": "City of Converging Stars\nType: PLANETARY ORNAMENT SET\n(2) When the wearer uses Follow-Up ATK, increases ATK by 24% for 2 turn(s). When an enemy target gets defeated, increases CRIT DMG for all allies by 12% in the current battle. This effect cannot stack."
     },
     {
+      "id": "cosmic-life-sciences-institute",
+      "name": "Cosmic Life Sciences Institute",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/cosmic-life-sciences-institute-69d8f4f5d683.webp",
+      "assetId": "69d8f4f5d683",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Unknown",
+          "(4) Unknown"
+        ]
+      },
+      "text": "Cosmic Life Sciences Institute\nType: PLANETARY ORNAMENT SET\n(2) Unknown\n(4) Unknown"
+    },
+    {
       "id": "divine-querying-master-smith",
       "name": "Divine-Querying Master Smith",
       "kind": "relics",
@@ -254,6 +271,23 @@
         ]
       },
       "text": "Ever-Glorious Magical Girl\nType: RELIC SET\n(2) Increases CRIT DMG by 16% .\n(4) The Elation DMG dealt by the wearer and their memosprites ignores 10% of targets' DEF. For every 5 accumulated Punchline allies gain, the Elation DMG dealt additionally ignores 1% of targets' DEF, stacking up to 10 time(s)."
+    },
+    {
+      "id": "fallen-star-anchorage",
+      "name": "Fallen Star Anchorage",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/fallen-star-anchorage-3b53e14d9cf4.webp",
+      "assetId": "3b53e14d9cf4",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Unknown",
+          "(4) Unknown"
+        ]
+      },
+      "text": "Fallen Star Anchorage\nType: PLANETARY ORNAMENT SET\n(2) Unknown\n(4) Unknown"
     },
     {
       "id": "firesmith-of-lava-forging",

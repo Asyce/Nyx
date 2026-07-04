@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-07-03T08:34:27.463Z",
+  "generatedAt": "2026-07-04T08:11:11.087Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 2,
-      "unchanged": 61
+      "changed": 1,
+      "unchanged": 62
     }
   },
   "sections": {
@@ -16,19 +16,13 @@
       "removed": [],
       "changed": [
         {
-          "id": "characters:sigrika",
-          "name": "Sigrika",
-          "previousHash": "e4d7f183a8f2f1589f3ea87bdfd129fb1b363fdaea1d4baa63adffbbcfdbee75",
-          "currentHash": "c9397cfec3d42f6405fdec6b9354a97c724e09addaf0c4f0c709121ed71732c3"
-        },
-        {
-          "id": "characters:suisui",
-          "name": "Suisui",
-          "previousHash": "0f63cc89e64660d86928e92cd4aff0e2e3cf8a4e2d6965dafe8704b78922221c",
-          "currentHash": "688bf49b54bb13ecae9c4064c6c719ec85f20e9ba9d27f08df400911f62554f6"
+          "id": "characters:jianxin",
+          "name": "Jianxin",
+          "previousHash": "c1134b9c4b7d1b5d8463c28b1a55fecfd47ce51ea13ff068941e007691360fe3",
+          "currentHash": "3a48f0378d68547de52e7c4062703911593719603db16c7b6b9c24e833056710"
         }
       ],
-      "unchanged": 61,
+      "unchanged": 62,
       "totals": {
         "previous": 63,
         "current": 63

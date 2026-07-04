@@ -634,6 +634,62 @@ const ENDFIELD_SKILL_ICONS = (() => {
   }
   return map;
 })();
+// Real Endfield progression materials (name + icon + rarity) scraped from
+// endfield.wiki.gg by tools/scrape-endfield-materials.mjs. Endfield ships no
+// per-character ascension recipe we can source yet, so the roster attaches one
+// shared schedule built from these real items — identities/icons/rarities are
+// correct even though the quantities are a representative approximation. This
+// replaces the synthetic "Origin Crystal / Salvaged Part / ..." placeholders
+// that had no icons at all.
+const ENDFIELD_MATERIALS = (() => {
+  const rel = 'EndfieldWiki/endfield/material-icons/manifest.json';
+  const map = new Map();
+  if (!exists(rel)) return map;
+  for (const [key, m] of Object.entries(readJson(rel) || {})) {
+    if (m && m.name) map.set(key, { ...m, icon: m.icon ? dbAsset(m.icon) : null });
+  }
+  return map;
+})();
+
+function endfieldMaterial(name, qty, kind) {
+  const hit = ENDFIELD_MATERIALS.get(normKey(name));
+  return {
+    id: `ae:${normKey(name)}`,
+    name: hit?.name || name,
+    n: hit?.name || name,
+    qty,
+    rar: hit?.rar || 3,
+    kind,
+    icon: hit?.icon || null,
+    source: 'Endfield database',
+  };
+}
+
+// Endfield character breakthrough (level ascension) + skill-upgrade schedule,
+// built from the real scraped materials. Credits leads as the currency tile.
+function endfieldSharedReq() {
+  const ascension = [
+    endfieldMaterial('Credits', 500000, 'currency'),
+    endfieldMaterial('Protohedron', 46, 'gem'),
+    endfieldMaterial('Protoprism', 46, 'gem'),
+    endfieldMaterial('Heavy Cast Die', 36, 'mob'),
+    endfieldMaterial('Cast Die', 96, 'mob'),
+    endfieldMaterial('Arms Inspector', 168, 'mob'),
+    endfieldMaterial('Mark of Perseverance', 12, 'boss'),
+  ];
+  const talents = [
+    endfieldMaterial('Credits', 700000, 'currency'),
+    endfieldMaterial('Advanced Combat Record', 12, 'book'),
+    endfieldMaterial('Intermediate Combat Record', 21, 'book'),
+    endfieldMaterial('Elementary Combat Record', 9, 'book'),
+    endfieldMaterial('Elementary Cognitive Carrier', 18, 'specialty'),
+    endfieldMaterial('Heavy Cast Die', 24, 'mob'),
+    endfieldMaterial('Cast Die', 18, 'mob'),
+    endfieldMaterial('D96 Steel Sample 4', 12, 'weekly'),
+  ];
+  return { ascension, talents, ascCost: 0, talentCost: 0, currency: 0 };
+}
+
 // G37/ZZZ: the 5 skill-type icons are SHARED across all agents (Basic / Dodge /
 // Assist / Special Attack / Chain Attack), sourced from static.nanoka.cc.
 const ZZZ_SKILL_ICONS = [
@@ -1941,6 +1997,25 @@ function objectMaterialPairs(obj) {
   return Object.entries(obj || {}).map(([id, qty]) => [id, qty]);
 }
 
+// ZZZ agents have 6 upgradeable skills — 5 combat skills (Basic, Dodge, Assist,
+// Special, Chain) that level 1-12, plus the Core skill (raw.passive) with 6
+// upgrade tiers. This order matches ZZZ_SKILL_ICONS so the UI icons line up.
+const ZZZ_SKILL_ORDER = ['basic', 'dodge', 'assist', 'special', 'chain'];
+
+// Turn a { "<level>": {itemId: qty, ... } } map into Genshin-style incremental
+// stages. Each populated level is the cost to advance one level, sorted low->high
+// (the game's terminal max level carries no materials and is dropped by the
+// empty-object filter), so summing the first N stages gives the cost through N.
+function zzzStagesFromLevels(materialByLevel) {
+  return Object.entries(materialByLevel || {})
+    .filter(([, mats]) => mats && Object.keys(mats).length)
+    .sort((a, b) => Number(a[0]) - Number(b[0]))
+    .map(([, mats]) => {
+      const s = sumNanokaMaterialPairs('zzz', objectMaterialPairs(mats), zzzMaterialKind, '10');
+      return { cost: s.cost, items: s.items };
+    });
+}
+
 function zzzRequirements(raw) {
   if (!raw) return null;
   const ascPairs = [];
@@ -1954,9 +2029,14 @@ function zzzRequirements(raw) {
 
   const asc = sumNanokaMaterialPairs('zzz', ascPairs, zzzMaterialKind, '10');
   const talents = sumNanokaMaterialPairs('zzz', skillPairs, zzzMaterialKind, '10');
+  const talentStages = [
+    ...ZZZ_SKILL_ORDER.map((key) => zzzStagesFromLevels(raw.skill?.[key]?.material)),
+    zzzStagesFromLevels(raw.passive?.materials),
+  ];
   return {
     ascension: asc.items,
     talents: talents.items,
+    talentStages,
     ascCost: asc.cost,
     talentCost: talents.cost,
     currency: asc.cost + talents.cost,
@@ -2383,6 +2463,7 @@ function buildEndfieldRoster() {
       art: dbAsset(ch.art?.splash?.path || ch.art?.banner?.path || ch.art?.full || ch.art?.card || ch.art?.icon?.path),
       card: dbAsset(ch.art?.banner?.path || ch.art?.portrait?.path || ch.art?.splash?.path || ch.art?.card),
       skillIcons: ENDFIELD_SKILL_ICONS.get(normKey(ch.name)) || undefined,
+      req: endfieldSharedReq(),
       aePreferredItems: preferredWeapons,
       aeSkillItems: skillItems.length ? skillItems : preferredWeapons,
       aeStatItems: statItems,

@@ -20,9 +20,15 @@ const CM_GI_TALENT_LABELS = ['Normal Attack', 'Elemental Skill', 'Elemental Burs
 const CM_GI_TALENT_SHORT = ['NA', 'Skill', 'Burst'];
 // Per-game talent/trace input config: labels, short codes, and the max level of
 // each (GI talents max 10; HSR Basic ATK maxes at 6, Skill/Ultimate/Talent at 10).
+// `stageBase` is the level at which a skill's first material stage applies — 1
+// for skills whose level 1 is a free unlock (GI/HSR, and ZZZ's combat skills),
+// 0 for ZZZ's Core skill, whose 6 ranks each cost materials (so rank 6 = fully
+// maxed uses all 6 stages). Defaults to 1 when omitted.
 const CM_TALENT_CFG = {
   gi:  { labels:CM_GI_TALENT_LABELS, short:CM_GI_TALENT_SHORT, max:[10, 10, 10] },
   hsr: { labels:['Basic ATK', 'Skill', 'Ultimate', 'Talent'], short:['Basic', 'Skill', 'Ult', 'Talent'], max:[6, 10, 10, 10] },
+  zzz: { labels:['Basic Attack', 'Dodge', 'Assist', 'Special Attack', 'Chain Attack', 'Core Skill'],
+    short:['Basic', 'Dodge', 'Assist', 'Special', 'Chain', 'Core'], max:[12, 12, 12, 12, 12, 6], stageBase:[1, 1, 1, 1, 1, 0] },
 };
 const CM_IDENTITY_SETTINGS_KEY = 'nyx-pengo-settings';
 const CM_IDENTITY_DEFAULTS = { twin:'aether', receptacle:'caelus', sibling:'wise', rover:'male', endmin:'male' };
@@ -502,7 +508,7 @@ function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className }){
             <span className="cm-item-frame-eye-soft"></span>
           </span>
           <span className="cm-item-frame-icon">
-            {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph">{glyph}</span>}
+            {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph cm-missing" title="Missing item">?</span>}
           </span>
         </span>
         <span className="cm-item-frame-plate" aria-hidden="true"></span>
@@ -545,15 +551,19 @@ function cmMergeMat(map, mat){
   map.set(key, cur);
 }
 
-function cmTalentForTargets(ch, targets){
+function cmTalentForTargets(ch, targets, cfg){
   const groups = ch?.req?.talentStages || [];
   const by = new Map();
   // minor traces / always-on nodes (HSR) are included regardless of trace levels
   let cost = Number(ch?.req?.talentBaseCost || 0);
   (ch?.req?.talentBase || []).forEach((mat) => cmMergeMat(by, mat));
   groups.forEach((stages, i) => {
-    const target = Math.max(1, Math.min(10, Number(targets[i] || targets[targets.length - 1] || 10)));
-    const limit = Math.max(0, Math.min(stages.length, target - 1));
+    const maxLv = Number(cfg?.max?.[i]) || 10;
+    // reaching level L costs (L - stageBase) stages; stageBase is 1 when level 1
+    // is a free unlock, 0 for ZZZ's Core (where rank 6 = all 6 stages).
+    const base = cfg?.stageBase?.[i] ?? 1;
+    const target = Math.max(1, Math.min(maxLv, Number(targets[i] ?? targets[targets.length - 1] ?? maxLv)));
+    const limit = Math.max(0, Math.min(stages.length, target - base));
     for (let j = 0; j < limit; j += 1){
       const stage = stages[j];
       cost += Number(stage?.cost || 0);
@@ -565,8 +575,8 @@ function cmTalentForTargets(ch, targets){
 
 function cmRequirements(gameKey, ch, opts){
   if (ch && ch.req) {
-    const targeted = (gameKey === 'gi' || gameKey === 'hsr') && opts?.targets && ch.req.talentStages?.some((s) => s.length)
-      ? cmTalentForTargets(ch, opts.targets)
+    const targeted = (gameKey === 'gi' || gameKey === 'hsr' || gameKey === 'zzz') && opts?.targets && ch.req.talentStages?.some((s) => s.length)
+      ? cmTalentForTargets(ch, opts.targets, CM_TALENT_CFG[gameKey])
       : null;
     const ascCost = Number(ch.req.ascCost || 0);
     const weaponCost = Number(ch.req.weapon?.cost || 0);
@@ -2053,6 +2063,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const [giAscLevel, setGiAscLevel] = React.useState(90);
   const [hsrTargets, setHsrTargets] = React.useState([6, 10, 10, 10]);
   const [hsrMax, setHsrMax] = React.useState(true);
+  const [zzzTargets, setZzzTargets] = React.useState([12, 12, 12, 12, 12, 6]);
+  const [zzzMax, setZzzMax] = React.useState(true);
   const [activeVariant, setActiveVariant] = React.useState(null);
   const [activeGender, setActiveGender] = React.useState(null);
   const [activeArtIndex, setActiveArtIndex] = React.useState(0);
@@ -2444,7 +2456,9 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const formOptions = cmFormOptions(sel);
   const genderOptions = cmGenderOptions(sel);
   const hsrTalentTargets = hsrMax ? CM_TALENT_CFG.hsr.max : hsrTargets;
-  const talentTargets = gk === 'gi' ? giTargets : (gk === 'hsr' ? hsrTalentTargets : activePreset.targets);
+  const zzzTalentTargets = zzzMax ? CM_TALENT_CFG.zzz.max : zzzTargets;
+  const talentTargets = gk === 'gi' ? giTargets
+    : (gk === 'hsr' ? hsrTalentTargets : (gk === 'zzz' ? zzzTalentTargets : activePreset.targets));
   const req = view ? cmRequirements(gk, view, { targets:talentTargets }) : null;
   const giAsc = (gk === 'gi' && req && req.ascension) ? cmGiAscensionForLevel(req.ascension, req.ascCost, giAscLevel) : null;
   const ascItems = giAsc ? giAsc.items : (req?.ascension || []);
@@ -2901,6 +2915,12 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                               title="Max out all traces" onClick={() => { setHsrTargets(CM_TALENT_CFG.hsr.max.slice()); setHsrMax(true); }}>Max</button>
                     </div>
                   )}
+                  {gk === 'zzz' && view.req?.talentStages?.some?.((s) => s.length) && (
+                    <div className="cm-presets cm-presets-ledger cm-hsr-max-row">
+                      <button type="button" className={'cm-trace-max' + (zzzMax ? ' on' : '')} aria-pressed={zzzMax}
+                              title="Max out all skills" onClick={() => { setZzzTargets(CM_TALENT_CFG.zzz.max.slice()); setZzzMax(true); }}>Max</button>
+                    </div>
+                  )}
                 </div>
 
                 {customizeOpen ? (
@@ -3002,11 +3022,18 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                             }
                             return gk !== 'gi' ? <span className="cm-talent-summary">all to max</span> : null;
                           }
-                          const values = gk === 'gi' ? giTargets : hsrTalentTargets;
+                          const values = gk === 'gi' ? giTargets : (gk === 'hsr' ? hsrTalentTargets : zzzTalentTargets);
                           const setTalent = (index, raw) => {
                             const max = tcfg.max[index] || 10;
                             const v = Math.max(1, Math.min(max, Math.round(Number(raw)) || 1));
                             if (gk === 'gi') { setGiTalentTarget(index, v); return; }
+                            if (gk === 'zzz') {
+                              const next = (zzzMax ? CM_TALENT_CFG.zzz.max : zzzTargets).slice();
+                              next[index] = v;
+                              setZzzTargets(next);
+                              setZzzMax(false);
+                              return;
+                            }
                             const next = (hsrMax ? CM_TALENT_CFG.hsr.max : hsrTargets).slice();
                             next[index] = v;
                             setHsrTargets(next);

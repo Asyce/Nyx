@@ -98,6 +98,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Ardelia.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Ardelia.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:dreams-of-the-starry-beach",
@@ -157,6 +316,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Camille.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Camille.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:blessing-of-lustrous-carmine",
@@ -216,6 +534,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Ember.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Ember.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:thunderberge",
@@ -308,6 +785,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Endmin.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Endmin.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:grand-vision",
@@ -409,6 +1045,165 @@
             "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Endmin.png",
             "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Endmin.png"
           ],
+          "req": {
+            "ascension": [
+              {
+                "id": "ae:credits",
+                "name": "Credits",
+                "n": "Credits",
+                "qty": 500000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:protohedron",
+                "name": "Protohedron",
+                "n": "Protohedron",
+                "qty": 46,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:protoprism",
+                "name": "Protoprism",
+                "n": "Protoprism",
+                "qty": 46,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:heavycastdie",
+                "name": "Heavy Cast Die",
+                "n": "Heavy Cast Die",
+                "qty": 36,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:castdie",
+                "name": "Cast Die",
+                "n": "Cast Die",
+                "qty": 96,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:armsinspector",
+                "name": "Arms Inspector",
+                "n": "Arms Inspector",
+                "qty": 168,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:markofperseverance",
+                "name": "Mark of Perseverance",
+                "n": "Mark of Perseverance",
+                "qty": 12,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+                "source": "Endfield database"
+              }
+            ],
+            "talents": [
+              {
+                "id": "ae:credits",
+                "name": "Credits",
+                "n": "Credits",
+                "qty": 700000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:advancedcombatrecord",
+                "name": "Advanced Combat Record",
+                "n": "Advanced Combat Record",
+                "qty": 12,
+                "rar": 3,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:intermediatecombatrecord",
+                "name": "Intermediate Combat Record",
+                "n": "Intermediate Combat Record",
+                "qty": 21,
+                "rar": 2,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:elementarycombatrecord",
+                "name": "Elementary Combat Record",
+                "n": "Elementary Combat Record",
+                "qty": 9,
+                "rar": 1,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:elementarycognitivecarrier",
+                "name": "Elementary Cognitive Carrier",
+                "n": "Elementary Cognitive Carrier",
+                "qty": 18,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:heavycastdie",
+                "name": "Heavy Cast Die",
+                "n": "Heavy Cast Die",
+                "qty": 24,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:castdie",
+                "name": "Cast Die",
+                "n": "Cast Die",
+                "qty": 18,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:d96steelsample4",
+                "name": "D96 Steel Sample 4",
+                "n": "D96 Steel Sample 4",
+                "qty": 12,
+                "rar": 5,
+                "kind": "weekly",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+                "source": "Endfield database"
+              }
+            ],
+            "ascCost": 0,
+            "talentCost": 0,
+            "currency": 0
+          },
           "aePreferredItems": [
             {
               "id": "weapon:grand-vision",
@@ -509,6 +1304,165 @@
             "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Endmin.png",
             "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Endmin.png"
           ],
+          "req": {
+            "ascension": [
+              {
+                "id": "ae:credits",
+                "name": "Credits",
+                "n": "Credits",
+                "qty": 500000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:protohedron",
+                "name": "Protohedron",
+                "n": "Protohedron",
+                "qty": 46,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:protoprism",
+                "name": "Protoprism",
+                "n": "Protoprism",
+                "qty": 46,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:heavycastdie",
+                "name": "Heavy Cast Die",
+                "n": "Heavy Cast Die",
+                "qty": 36,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:castdie",
+                "name": "Cast Die",
+                "n": "Cast Die",
+                "qty": 96,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:armsinspector",
+                "name": "Arms Inspector",
+                "n": "Arms Inspector",
+                "qty": 168,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:markofperseverance",
+                "name": "Mark of Perseverance",
+                "n": "Mark of Perseverance",
+                "qty": 12,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+                "source": "Endfield database"
+              }
+            ],
+            "talents": [
+              {
+                "id": "ae:credits",
+                "name": "Credits",
+                "n": "Credits",
+                "qty": 700000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:advancedcombatrecord",
+                "name": "Advanced Combat Record",
+                "n": "Advanced Combat Record",
+                "qty": 12,
+                "rar": 3,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:intermediatecombatrecord",
+                "name": "Intermediate Combat Record",
+                "n": "Intermediate Combat Record",
+                "qty": 21,
+                "rar": 2,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:elementarycombatrecord",
+                "name": "Elementary Combat Record",
+                "n": "Elementary Combat Record",
+                "qty": 9,
+                "rar": 1,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:elementarycognitivecarrier",
+                "name": "Elementary Cognitive Carrier",
+                "n": "Elementary Cognitive Carrier",
+                "qty": 18,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:heavycastdie",
+                "name": "Heavy Cast Die",
+                "n": "Heavy Cast Die",
+                "qty": 24,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:castdie",
+                "name": "Cast Die",
+                "n": "Cast Die",
+                "qty": 18,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+                "source": "Endfield database"
+              },
+              {
+                "id": "ae:d96steelsample4",
+                "name": "D96 Steel Sample 4",
+                "n": "D96 Steel Sample 4",
+                "qty": 12,
+                "rar": 5,
+                "kind": "weekly",
+                "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+                "source": "Endfield database"
+              }
+            ],
+            "ascCost": 0,
+            "talentCost": 0,
+            "currency": 0
+          },
           "aePreferredItems": [
             {
               "id": "weapon:grand-vision",
@@ -611,6 +1565,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Gilberta.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Gilberta.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:delivery-guaranteed",
@@ -692,6 +1805,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Laevatain.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Laevatain.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:forgeborn-scathe",
@@ -773,6 +2045,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Lastrite.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Lastrite.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:khravengger",
@@ -865,6 +2296,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Lifeng.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Lifeng.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:mountain-bearer",
@@ -935,6 +2525,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Mifu.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Mifu.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:amaranthine-tassel",
@@ -1003,6 +2752,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Pogranichnik.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Pogranichnik.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:thermite-cutter",
@@ -1082,6 +2990,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Rossi.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Rossi.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:lupine-scarlet",
@@ -1172,6 +3239,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Tangtang.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Tangtang.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:brigands-calling",
@@ -1240,6 +3466,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Yvonne.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Yvonne.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:artzy-tyrannical",
@@ -1341,6 +3726,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Zhuangfangyi.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Zhuangfangyi.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:lone-barge",
@@ -1409,6 +3953,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Alesh.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Alesh.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:thermite-cutter",
@@ -1466,6 +4169,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Arclight.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Arclight.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:thermite-cutter",
@@ -1567,6 +4429,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Avywenna.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Avywenna.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:jet",
@@ -1635,6 +4656,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Chen.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Chen.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:sundering-steel",
@@ -1736,6 +4916,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Dapan.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Dapan.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:amaranthine-tassel",
@@ -1837,6 +5176,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Perlica.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Perlica.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:stanza-of-memorials",
@@ -1905,6 +5403,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Snowshine.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Snowshine.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:finishing-call",
@@ -1995,6 +5652,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Wulfgard.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Wulfgard.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:clannibal",
@@ -2107,6 +5923,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Xaihi.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Xaihi.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:detonation-unit",
@@ -2175,6 +6150,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Akekuri.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Akekuri.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:thermite-cutter",
@@ -2243,6 +6377,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Antal.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Antal.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:detonation-unit",
@@ -2311,6 +6604,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Catcher.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Catcher.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:obj-heavy-burden",
@@ -2401,6 +6853,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Estella.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Estella.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:jet",
@@ -2491,6 +7102,165 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Fluorite.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Fluorite.png"
       ],
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 500000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 46,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protohedron.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 46,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Protoprism.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 96,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:armsinspector",
+            "name": "Arms Inspector",
+            "n": "Arms Inspector",
+            "qty": 168,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:markofperseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 12,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+            "source": "Endfield database"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:credits",
+            "name": "Credits",
+            "n": "Credits",
+            "qty": 700000,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Credits.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:advancedcombatrecord",
+            "name": "Advanced Combat Record",
+            "n": "Advanced Combat Record",
+            "qty": 12,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:intermediatecombatrecord",
+            "name": "Intermediate Combat Record",
+            "n": "Intermediate Combat Record",
+            "qty": 21,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycombatrecord",
+            "name": "Elementary Combat Record",
+            "n": "Elementary Combat Record",
+            "qty": 9,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:elementarycognitivecarrier",
+            "name": "Elementary Cognitive Carrier",
+            "n": "Elementary Cognitive Carrier",
+            "qty": 18,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:heavycastdie",
+            "name": "Heavy Cast Die",
+            "n": "Heavy Cast Die",
+            "qty": 24,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:castdie",
+            "name": "Cast Die",
+            "n": "Cast Die",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Cast_Die.png",
+            "source": "Endfield database"
+          },
+          {
+            "id": "ae:d96steelsample4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+            "source": "Endfield database"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
       "aePreferredItems": [
         {
           "id": "weapon:obj-velocitous",

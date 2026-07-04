@@ -1,0 +1,181 @@
+{
+  "advancedcognitivecarrier": {
+    "name": "Advanced Cognitive Carrier",
+    "icon": "EndfieldWiki/endfield/material-icons/Advanced_Cognitive_Carrier.png",
+    "rar": 5
+  },
+  "advancedcombatrecord": {
+    "name": "Advanced Combat Record",
+    "icon": "EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png",
+    "rar": 3
+  },
+  "armsinspkit": {
+    "name": "Arms INSP Kit",
+    "icon": "EndfieldWiki/endfield/material-icons/Arms_INSP_Kit.png",
+    "rar": 3
+  },
+  "armsinspset": {
+    "name": "Arms INSP Set",
+    "icon": "EndfieldWiki/endfield/material-icons/Arms_INSP_Set.png",
+    "rar": 4
+  },
+  "armsinspector": {
+    "name": "Arms Inspector",
+    "icon": "EndfieldWiki/endfield/material-icons/Arms_Inspector.png",
+    "rar": 2
+  },
+  "castdie": {
+    "name": "Cast Die",
+    "icon": "EndfieldWiki/endfield/material-icons/Cast_Die.png",
+    "rar": 3
+  },
+  "d96steelsample4": {
+    "name": "D96 Steel Sample 4",
+    "icon": "EndfieldWiki/endfield/material-icons/D96_Steel_Sample_4.png",
+    "rar": 5
+  },
+  "elementarycognitivecarrier": {
+    "name": "Elementary Cognitive Carrier",
+    "icon": "EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png",
+    "rar": 4
+  },
+  "elementarycombatrecord": {
+    "name": "Elementary Combat Record",
+    "icon": "EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png",
+    "rar": 1
+  },
+  "heavycastdie": {
+    "name": "Heavy Cast Die",
+    "icon": "EndfieldWiki/endfield/material-icons/Heavy_Cast_Die.png",
+    "rar": 4
+  },
+  "intermediatecombatrecord": {
+    "name": "Intermediate Combat Record",
+    "icon": "EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png",
+    "rar": 2
+  },
+  "markofperseverance": {
+    "name": "Mark of Perseverance",
+    "icon": "EndfieldWiki/endfield/material-icons/Mark_of_Perseverance.png",
+    "rar": 5
+  },
+  "metadiastimaphotoemissiontube": {
+    "name": "Metadiastima Photoemission Tube",
+    "icon": "EndfieldWiki/endfield/material-icons/Metadiastima_Photoemission_Tube.png",
+    "rar": 5
+  },
+  "protodisk": {
+    "name": "Protodisk",
+    "icon": "EndfieldWiki/endfield/material-icons/Protodisk.png",
+    "rar": 3
+  },
+  "protohedron": {
+    "name": "Protohedron",
+    "icon": "EndfieldWiki/endfield/material-icons/Protohedron.png",
+    "rar": 4
+  },
+  "protoprism": {
+    "name": "Protoprism",
+    "icon": "EndfieldWiki/endfield/material-icons/Protoprism.png",
+    "rar": 3
+  },
+  "protoset": {
+    "name": "Protoset",
+    "icon": "EndfieldWiki/endfield/material-icons/Protoset.png",
+    "rar": 4
+  },
+  "quadrantfittingfluid": {
+    "name": "Quadrant Fitting Fluid",
+    "icon": "EndfieldWiki/endfield/material-icons/Quadrant_Fitting_Fluid.png",
+    "rar": 5
+  },
+  "tachyonscreeninglattice": {
+    "name": "Tachyon Screening Lattice",
+    "icon": "EndfieldWiki/endfield/material-icons/Tachyon_Screening_Lattice.png",
+    "rar": 5
+  },
+  "triphasicnanoflake": {
+    "name": "Triphasic Nanoflake",
+    "icon": "EndfieldWiki/endfield/material-icons/Triphasic_Nanoflake.png",
+    "rar": 5
+  },
+  "aicquota": {
+    "name": "AIC Quota",
+    "icon": "EndfieldWiki/endfield/material-icons/AIC_Quota.png",
+    "rar": 4
+  },
+  "arsenalticket": {
+    "name": "Arsenal Ticket",
+    "icon": "EndfieldWiki/endfield/material-icons/Arsenal_Ticket.png",
+    "rar": 6
+  },
+  "bondquota": {
+    "name": "Bond Quota",
+    "icon": "EndfieldWiki/endfield/material-icons/Bond_Quota.png",
+    "rar": 5
+  },
+  "coolantgel": {
+    "name": "Coolant Gel",
+    "icon": "EndfieldWiki/endfield/material-icons/Coolant_Gel.png",
+    "rar": 5
+  },
+  "credits": {
+    "name": "Credits",
+    "icon": "EndfieldWiki/endfield/material-icons/Credits.png",
+    "rar": 4
+  },
+  "endpointquota": {
+    "name": "Endpoint Quota",
+    "icon": "EndfieldWiki/endfield/material-icons/Endpoint_Quota.png",
+    "rar": 6
+  },
+  "origeometry": {
+    "name": "Origeometry",
+    "icon": "EndfieldWiki/endfield/material-icons/Origeometry.png",
+    "rar": 6
+  },
+  "oroberyl": {
+    "name": "Oroberyl",
+    "icon": "EndfieldWiki/endfield/material-icons/Oroberyl.png",
+    "rar": 6
+  },
+  "passexperience": {
+    "name": "Pass Experience",
+    "icon": "EndfieldWiki/endfield/material-icons/Pass_Experience.png"
+  },
+  "sanityusagepermit": {
+    "name": "Sanity Usage Permit",
+    "icon": "EndfieldWiki/endfield/material-icons/Sanity_Usage_Permit.png",
+    "rar": 4
+  },
+  "tcreds": {
+    "name": "T-Creds",
+    "icon": "EndfieldWiki/endfield/material-icons/T-Creds.png",
+    "rar": 4
+  },
+  "valleyconventioncertificate": {
+    "name": "Valley Convention Certificate",
+    "icon": "EndfieldWiki/endfield/material-icons/Valley_Convention_Certificate.png",
+    "rar": 4
+  },
+  "valleystockbill": {
+    "name": "Valley Stock Bill",
+    "icon": "EndfieldWiki/endfield/material-icons/Valley_Stock_Bill.png",
+    "rar": 5
+  },
+  "vitrifiedcoin": {
+    "name": "Vitrified Coin",
+    "icon": "EndfieldWiki/endfield/material-icons/Vitrified_Coin.png",
+    "rar": 5
+  },
+  "wulingartificingcatalyst": {
+    "name": "Wuling Artificing Catalyst",
+    "icon": "EndfieldWiki/endfield/material-icons/Wuling_Artificing_Catalyst.png",
+    "rar": 5
+  },
+  "wulingstockbill": {
+    "name": "Wuling Stock Bill",
+    "icon": "EndfieldWiki/endfield/material-icons/Wuling_Stock_Bill.png",
+    "rar": 5
+  }
+}

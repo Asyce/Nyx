@@ -4578,7 +4578,11 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
 /* G19: empty space, no outer box — each cell is just [skill icon][boxed number]. */
 .cm-talent-triplet{ width:max-content; max-width:100%; display:grid; grid-template-columns:repeat(3, auto); gap:14px;
   min-height:36px; padding:0; background:transparent; box-shadow:none; }
-.cm-talent-triplet.cols4{ width:max-content; grid-template-columns:repeat(4, auto); }
+/* HSR has 4 traces — lay them out 2x2 (last two on a second row) with a bit more
+   breathing room than the default triplet. */
+.cm-talent-triplet.cols4{ width:max-content; grid-template-columns:repeat(2, auto); gap:16px 26px; }
+/* ZZZ has 6 skills (5 combat skills + Core) — 3 per row = a 3x2 grid. */
+.cm-talent-triplet.cols6{ width:max-content; grid-template-columns:repeat(3, auto); gap:16px 22px; }
 /* HSR "Max" toggle — on by default (all traces maxed); turning it off / editing
    an input lets you set per-trace levels */
 .cm-trace-max{ flex:none; align-self:center; border:0; cursor:pointer; border-radius:7px; min-height:32px; padding:0 14px;

@@ -2600,6 +2600,431 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   color:#fff;
   background:rgba(124,53,255,.3);
 }
+
+/* ================= Serenitea Pot furnishings ================= */
+.pot-view{
+  min-width:0;
+  min-height:0;
+  display:flex;
+  flex-direction:column;
+}
+.pot-head{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+.pot-filter-block{
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  margin-top:12px;
+}
+.pot-filter-block > span{
+  color:#8f86b8;
+  font-family:'HSR','Segoe UI',sans-serif;
+  font-size:9px;
+  font-weight:900;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+}
+.pot-tabs{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:9px;
+}
+.pot-category-tabs{
+  max-height:80px;
+  overflow:auto;
+  padding-right:3px;
+}
+.pot-tabs button{
+  min-height:34px;
+  border:0;
+  border-radius:7px;
+  padding:0 12px;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  cursor:pointer;
+  color:#a99fd6;
+  background:rgba(20,15,42,.46);
+  box-shadow:inset 0 0 0 1px rgba(183,170,255,.12);
+  font-family:'HSR','Segoe UI',sans-serif;
+  font-size:10px;
+  font-weight:900;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.pot-tabs button.on,
+.pot-tabs button:hover{ color:#fff; background:rgba(124,53,255,.18); }
+.pot-tabs b{
+  min-width:22px;
+  height:20px;
+  display:grid;
+  place-items:center;
+  border-radius:999px;
+  color:#f5f1ff;
+  background:rgba(139,123,255,.18);
+  font-size:10px;
+}
+.pot-grid{
+  --pot-card-h:214px;
+  --pot-art-h:158px;
+  flex:1;
+  min-height:0;
+  overflow-y:auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-rows:var(--pot-card-h);
+  align-content:start;
+  gap:12px;
+  margin-top:14px;
+  padding:2px 8px 6px 2px;
+}
+.pot-card{
+  min-width:0;
+  height:var(--pot-card-h);
+  display:flex;
+  flex-direction:column;
+  border:0;
+  border-radius:8px;
+  overflow:hidden;
+  padding:0;
+  cursor:pointer;
+  background:rgba(12,9,28,.56);
+  box-shadow:inset 0 0 0 1px rgba(183,170,255,.13);
+  font-family:'GI',serif;
+  text-align:left;
+}
+.pot-card:hover{
+  background:rgba(25,18,54,.64);
+  box-shadow:inset 0 0 0 1px rgba(214,197,255,.28), 0 0 18px rgba(139,123,255,.16);
+}
+.pot-art{
+  position:relative;
+  height:var(--pot-art-h);
+  flex:0 0 var(--pot-art-h);
+  overflow:hidden;
+  display:grid;
+  place-items:center;
+  background:radial-gradient(circle at 50% 34%, rgba(139,123,255,.18), rgba(5,4,12,.86));
+}
+.pot-art img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  padding:10px;
+  display:block;
+}
+.pot-art span{
+  color:#f5f1ff;
+  font-family:'GI',serif;
+  font-size:26px;
+}
+.pot-rar{
+  position:absolute;
+  top:7px;
+  left:7px;
+  border-radius:999px;
+  padding:2px 7px;
+  color:#ffe6ad;
+  background:rgba(8,6,20,.72);
+  box-shadow:inset 0 0 0 1px rgba(255,210,120,.28);
+  font-family:'HSR','Segoe UI',sans-serif;
+  font-size:9px;
+  font-weight:900;
+  font-style:normal;
+  letter-spacing:.04em;
+}
+.pot-meta{
+  flex:1 1 auto;
+  min-width:0;
+  padding:9px 11px;
+  background:rgba(8,6,20,.78);
+  box-shadow:inset 0 1px 0 rgba(183,170,255,.1);
+}
+.pot-meta b{
+  display:block;
+  min-width:0;
+  color:#fff;
+  font-family:'GI',serif;
+  font-size:15px;
+  line-height:1.1;
+  font-weight:400;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.pot-meta span{
+  display:block;
+  margin-top:5px;
+  color:#9d92c5;
+  font-family:'HSR','Segoe UI',sans-serif;
+  font-size:8px;
+  font-weight:900;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.pot-detail-page{
+  gap:12px;
+}
+.pot-detail-toolbar{
+  flex:none;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  min-height:40px;
+}
+.pot-detail-toolbar > div{
+  min-width:0;
+  display:flex;
+  align-items:center;
+  gap:9px;
+  color:#8f84bd;
+  font-family:'HSR','Segoe UI',sans-serif;
+  font-size:10px;
+  font-weight:900;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+.pot-detail-toolbar > div b{
+  color:#f5f1ff;
+  font-size:11px;
+}
+.pot-back{
+  min-height:38px;
+  border:0;
+  border-radius:8px;
+  padding:0 13px 0 9px;
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  cursor:pointer;
+  color:#efe9ff;
+  background:rgba(124,53,255,.18);
+  box-shadow:inset 0 0 0 1px rgba(183,170,255,.18);
+  font-family:'HSR','Segoe UI',sans-serif;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+}
+.pot-back:hover{
+  color:#fff;
+  background:rgba(124,53,255,.28);
+}
+.pot-back span{
+  font-size:24px;
+  line-height:1;
+}
+.pot-back b{
+  font-size:10px;
+}
+.pot-detail-scroll{
+  flex:1;
+  min-height:0;
+  overflow-y:auto;
+  padding-right:8px;
+}
+.pot-detail-panel{
+  position:relative;
+  width:100%;
+  min-height:100%;
+  display:grid;
+  grid-template-columns:minmax(220px, .52fr) minmax(0, 1fr);
+  align-items:start;
+  gap:18px;
+  padding:4px 2px 12px 0;
+}
+.pot-detail-art{
+  position:sticky;
+  top:0;
+  min-height:300px;
+  display:grid;
+  place-items:center;
+  border-radius:8px;
+  padding:18px;
+  background:radial-gradient(circle at 50% 34%, rgba(139,123,255,.18), rgba(5,4,12,.86));
+  box-shadow:inset 0 0 0 1px rgba(183,170,255,.14);
+}
+.pot-detail-art img{
+  max-width:100%;
+  max-height:360px;
+  object-fit:contain;
+}
+.pot-detail-art span{
+  color:#f5f1ff;
+  font-family:'GI',serif;
+  font-size:34px;
+}
+.pot-detail-copy{
+  min-width:0;
+  padding:4px 8px 8px 0;
+  color:#dcd4f6;
+}
+.pot-detail-copy b{
+  display:block;
+  color:#fff;
+  font-family:'GI',serif;
+  font-size:28px;
+  line-height:1.05;
+  font-weight:400;
+}
+.pot-stat-grid{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0, 1fr));
+  gap:8px;
+  margin-top:16px;
+}
+.pot-stat-grid span{
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+  gap:3px;
+  border-radius:7px;
+  padding:8px 9px;
+  background:rgba(139,123,255,.12);
+  box-shadow:inset 0 0 0 1px rgba(183,170,255,.14);
+}
+.pot-stat-grid span b{
+  color:#9f95ca;
+  font-family:'HSR','Segoe UI',sans-serif;
+  font-size:8px;
+  line-height:1;
+  font-weight:900;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+}
+.pot-stat-grid span em{
+  min-width:0;
+  margin:0;
+  color:#f4efff;
+  font-size:12px;
+  line-height:1.25;
+  font-style:normal;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.pot-effect{
+  margin-top:16px;
+}
+.pot-effect > span{
+  display:block;
+  color:#9f95ca;
+  font-family:'HSR','Segoe UI',sans-serif;
+  font-size:9px;
+  font-weight:900;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+}
+.pot-effect p{
+  margin:10px 0 0;
+  color:#e5ddff;
+  font-size:14px;
+  line-height:1.55;
+  white-space:pre-wrap;
+}
+.pot-source p{
+  color:#dcd5ff;
+  font-size:13px;
+}
+.pot-source p + p{
+  margin-top:6px;
+}
+.pot-recipe{
+  margin-top:18px;
+}
+.pot-recipe > span{
+  display:block;
+  color:#9f95ca;
+  font-family:'HSR','Segoe UI',sans-serif;
+  font-size:9px;
+  font-weight:900;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+}
+.pot-recipe-list{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(180px, 1fr));
+  gap:8px;
+  margin-top:10px;
+}
+.pot-mat{
+  display:flex;
+  align-items:center;
+  gap:9px;
+  border-radius:8px;
+  padding:7px 10px 7px 7px;
+  background:rgba(18,12,42,.66);
+  box-shadow:inset 0 0 0 1px rgba(183,170,255,.13);
+}
+.pot-mat-icon{
+  flex:0 0 34px;
+  width:34px;
+  height:34px;
+  display:grid;
+  place-items:center;
+  border-radius:6px;
+  overflow:hidden;
+  background:radial-gradient(circle at 50% 40%, rgba(139,123,255,.24), rgba(5,4,12,.7));
+}
+.pot-mat-icon img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+.pot-mat-icon span{
+  color:#e8e1ff;
+  font-size:12px;
+}
+.pot-mat b{
+  flex:1 1 auto;
+  min-width:0;
+  color:#f4efff;
+  font-family:'GI',serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:1.15;
+  overflow:hidden;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+}
+.pot-mat i{
+  flex:none;
+  color:#cdb3ff;
+  font-family:'HSR','Segoe UI',sans-serif;
+  font-size:12px;
+  font-style:normal;
+  font-weight:900;
+}
+.pot-source-link{
+  width:max-content;
+  max-width:100%;
+  min-height:31px;
+  border-radius:7px;
+  padding:0 10px;
+  display:inline-flex;
+  align-items:center;
+  margin-top:18px;
+  color:#f1ebff;
+  background:rgba(124,53,255,.2);
+  box-shadow:inset 0 0 0 1px rgba(183,170,255,.16);
+  font-family:'HSR','Segoe UI',sans-serif;
+  font-size:10px;
+  font-weight:900;
+  letter-spacing:.1em;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+.pot-source-link:hover{
+  color:#fff;
+  background:rgba(124,53,255,.3);
+}
 .gp-side-nav,
 .gp-cardrow.scroll,
 .gp-current-banner-row,

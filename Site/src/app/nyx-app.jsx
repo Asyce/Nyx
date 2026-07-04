@@ -1314,20 +1314,21 @@ function codeCurrencyAmount(reward, currencyName){
 
 function CodeCardRow({ row, currency, onCopy, onToggleRedeemed }){
   const r = row;
-  const amount = codeCurrencyAmount(r.reward, currency.name);
+  const safeCurrency = currency || PREMIUM_CODE_META.nyx;
+  const amount = codeCurrencyAmount(r.reward, safeCurrency.name);
   const redeemed = r.st === 'redeemed';
   return (
     <div className={'gp-code-row st-' + r.st + (r.premium ? ' premium' : '')}>
       <label className="cc-check" title={redeemed ? 'Mark as not redeemed' : 'Mark as redeemed'}>
-        <input type="checkbox" checked={redeemed} onChange={() => onToggleRedeemed(r.code)} />
+        <input type="checkbox" checked={redeemed} onChange={() => { if (onToggleRedeemed) onToggleRedeemed(r.code); }} />
         <span className="box"></span>
       </label>
       {r.redeemUrl
         ? <a className="cc" href={r.redeemUrl} target="_blank" rel="noopener noreferrer" title="Open the redeem page">{r.code}</a>
         : <span className="cc no-link" title="No redeem link available">{r.code}</span>}
       <span className={'cc-reward' + (r.premium ? '' : ' plain')} tabIndex={0} aria-label="Show all rewards">
-        {r.premium && (currency.icon
-          ? <img src={currency.icon} alt={currency.name} draggable="false" />
+        {r.premium && (safeCurrency.icon
+          ? <img src={safeCurrency.icon} alt={safeCurrency.name} draggable="false" />
           : <span className="cur-glyph"></span>)}
         {r.premium && amount && <b>{amount}</b>}
         {!r.premium && <span className="reward-text">{rewardParts(r.reward)[0] || 'Reward'}</span>}
@@ -1437,7 +1438,7 @@ function simInitials(name){
   return ((p[0] && p[0][0] || 'N') + (p[1] ? p[1][0] : (p[0] && p[0][1] || ''))).toUpperCase();
 }
 
-function SimCodeCard({ code, reward, redeemUrl, isNew }){
+function SimCodeCard({ code, reward, redeemUrl, isNew, gameKey }){
   const [st, setSt] = React.useState(() => {
     try {
       const redeemed = new Set(JSON.parse(localStorage.getItem('nyx:redeemed-codes:v1') || '[]'));
@@ -1463,9 +1464,16 @@ function SimCodeCard({ code, reward, redeemUrl, isNew }){
     } catch (e) {}
     setSt('available');
   };
-  const canCopy = st === 'new' || st === 'available';
   const row = { code, reward, redeemUrl, st, premium:String(reward || '').toLowerCase().includes('primogem') || String(reward || '').toLowerCase().includes('stellar jade') || String(reward || '').toLowerCase().includes('polychrome') || String(reward || '').toLowerCase().includes('astrite') || String(reward || '').toLowerCase().includes('originium') };
-  return <CodeCardRow row={row} isNew={isNew && canCopy} onCopy={onCopy} onRowAction={(nextCode, action) => action === 'redeem' ? markRedeemed() : (st === 'redeemed' ? undoRedeemed() : markRedeemed())} />;
+  const currency = premiumCodeMeta(gameKey, [row]);
+  return (
+    <CodeCardRow
+      row={row}
+      currency={currency}
+      onCopy={onCopy}
+      onToggleRedeemed={() => (st === 'redeemed' ? undoRedeemed() : markRedeemed())}
+    />
+  );
 }
 
 function AllCodesView(){
@@ -1496,7 +1504,7 @@ function AllCodesView(){
             </div>
             <div className="sim-codegrid">
               {ALL_GAME_CODES[g.key].filter((c) => !filterActive || c.premium).map((c, i) => (
-                <SimCodeCard key={c.code} code={c.code} reward={c.reward} redeemUrl={c.redeemUrl} isNew={i === 0} />
+                <SimCodeCard key={c.code} code={c.code} reward={c.reward} redeemUrl={c.redeemUrl} isNew={i === 0} gameKey={g.key} />
               ))}
             </div>
           </div>
@@ -1956,13 +1964,199 @@ function GenshinTcgView(){
   );
 }
 
+function potFormatTime(seconds){
+  const s = Number(seconds);
+  if (!Number.isFinite(s) || s <= 0) return '';
+  const totalMinutes = Math.round(s / 60);
+  const days = Math.floor(totalMinutes / 1440);
+  const hours = Math.floor((totalMinutes % 1440) / 60);
+  const minutes = totalMinutes % 60;
+  const parts = [];
+  if (days) parts.push(days + 'd');
+  if (hours) parts.push(hours + 'h');
+  if (minutes && !days) parts.push(minutes + 'm');
+  return parts.join(' ') || '0m';
+}
+
+function GenshinPotView(){
+  const gameData = dbGame('gi') || {};
+  const pot = gameData.furniture || {};
+  const items = pot.items || [];
+  const [category, setCategory] = React.useState('all');
+  const [sub, setSub] = React.useState('all');
+  const [q, setQ] = React.useState('');
+  const [activeItem, setActiveItem] = React.useState(null);
+  const [restoreScroll, setRestoreScroll] = React.useState(0);
+  const gridRef = React.useRef(null);
+  const categories = React.useMemo(() => (
+    [['all', 'All', items.length], ...(pot.categories || []).map((c) => [c.key, c.key, c.count])]
+  ), [items.length]);
+  const subFilters = React.useMemo(() => {
+    const counts = new Map();
+    items.filter((item) => category === 'all' || item.category === category).forEach((item) => {
+      (item.subtypes || []).forEach((value) => counts.set(value, (counts.get(value) || 0) + 1));
+    });
+    return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  }, [items.length, category]);
+  React.useEffect(() => {
+    if (sub === 'all') return;
+    if (!subFilters.some(([value]) => value === sub)) setSub('all');
+  }, [sub, subFilters]);
+  const qq = q.trim().toLowerCase();
+  const visible = items.filter((item) => {
+    if (category !== 'all' && item.category !== category) return false;
+    if (sub !== 'all' && !(item.subtypes || []).includes(sub)) return false;
+    if (!qq) return true;
+    const hay = [item.name, item.description, item.category, ...(item.subtypes || []), ...(item.source || [])]
+      .filter(Boolean).join(' ').toLowerCase();
+    return hay.includes(qq);
+  });
+  const subTotal = subFilters.reduce((sum, [, count]) => sum + count, 0);
+  const openItem = (item) => {
+    setRestoreScroll(gridRef.current ? gridRef.current.scrollTop : 0);
+    setActiveItem(item);
+  };
+  const closeItem = () => {
+    setActiveItem(null);
+    setTimeout(() => {
+      if (gridRef.current) gridRef.current.scrollTop = restoreScroll;
+    }, 0);
+  };
+  if (!items.length) {
+    return (
+      <div className="pot-view">
+        <div className="pot-head">
+          <GPSec title="Serenitea Pot" style={{ flex:1, minWidth:0 }} />
+        </div>
+        <div className="db-empty">Furnishing data has not been generated yet.</div>
+      </div>
+    );
+  }
+  if (activeItem) {
+    const statRows = [];
+    statRows.push(['ID', String(activeItem.id)]);
+    statRows.push(['Category', activeItem.category]);
+    if (activeItem.subtypes && activeItem.subtypes.length) statRows.push(['Type', activeItem.subtypes.join(' / ')]);
+    if (Number.isFinite(Number(activeItem.rarity))) statRows.push(['Rarity', String(activeItem.rarity) + '★']);
+    if (Number.isFinite(Number(activeItem.comfort)) && activeItem.comfort > 0) statRows.push(['Adeptal Energy', String(activeItem.comfort)]);
+    if (Number.isFinite(Number(activeItem.cost)) && activeItem.cost > 0) statRows.push(['Load', String(activeItem.cost)]);
+    return (
+      <div className="pot-view pot-detail-page" data-screen-label="Serenitea Pot furnishing detail page">
+        <div className="pot-detail-toolbar">
+          <button type="button" className="pot-back" onClick={closeItem}>
+            <span>{'‹'}</span><b>Back to Furnishings</b>
+          </button>
+          <div>
+            <span>{activeItem.category}</span>
+            <b>{activeItem.id}</b>
+          </div>
+        </div>
+        <div className="pot-detail-scroll">
+          <article className="pot-detail-panel">
+            <div className="pot-detail-art">{activeItem.art ? <img src={activeItem.art} alt="" draggable="false" /> : <span>{simInitials(activeItem.name)}</span>}</div>
+            <div className="pot-detail-copy">
+              <b>{activeItem.name}</b>
+              <div className="pot-stat-grid">
+                {statRows.map(([label, value]) => (
+                  <span key={label}><b>{label}</b><em>{value}</em></span>
+                ))}
+              </div>
+              {activeItem.description && (
+                <div className="pot-effect">
+                  <span>Description</span>
+                  <p>{String(activeItem.description).replace(/\\n/g, '\n')}</p>
+                </div>
+              )}
+              {activeItem.recipe && activeItem.recipe.materials.length > 0 && (
+                <div className="pot-recipe">
+                  <span>Crafting Recipe{activeItem.recipe.time ? ' · ' + potFormatTime(activeItem.recipe.time) : ''}</span>
+                  <div className="pot-recipe-list">
+                    {activeItem.recipe.materials.map((mat) => (
+                      <div className="pot-mat" key={mat.id}>
+                        <div className="pot-mat-icon">
+                          {mat.icon ? <img src={mat.icon} alt="" draggable="false" /> : <span>{simInitials(mat.name)}</span>}
+                        </div>
+                        <b>{mat.name}</b>
+                        <i>{'×' + mat.count}</i>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {activeItem.source && activeItem.source.length > 0 && (
+                <div className="pot-effect pot-source">
+                  <span>Source</span>
+                  {activeItem.source.map((line, index) => <p key={index}>{line}</p>)}
+                </div>
+              )}
+              <a className="pot-source-link" href={pot.sourceUrl + '/' + activeItem.id} target="_blank" rel="noopener noreferrer">Open on Nanoka</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    );
+  }
+  return (
+    <div className="pot-view">
+      <div className="pot-head">
+        <GPSec title="Serenitea Pot" style={{ flex:1, minWidth:0 }} />
+        <div className="gp-search">
+          <span className="ic"></span>
+          <input value={q} placeholder="Search Furnishings" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+          {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'✕'}</button>}
+        </div>
+      </div>
+      <div className="pot-filter-block">
+        <span>CATEGORY</span>
+        <div className="pot-tabs pot-category-tabs">
+          {categories.map(([key, label, count]) => (
+            <button type="button" key={key} className={category === key ? 'on' : ''} onClick={() => setCategory(key)}>
+              <span>{label}</span><b>{count}</b>
+            </button>
+          ))}
+        </div>
+      </div>
+      {subFilters.length > 0 && (
+        <div className="pot-filter-block">
+          <span>TYPE</span>
+          <div className="pot-tabs pot-category-tabs" aria-label="Furnishing types">
+            <button type="button" className={sub === 'all' ? 'on' : ''} onClick={() => setSub('all')}>
+              <span>All</span><b>{subTotal}</b>
+            </button>
+            {subFilters.map(([value, count]) => (
+              <button type="button" key={value} className={sub === value ? 'on' : ''} onClick={() => setSub(value)}>
+                <span>{value}</span><b>{count}</b>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+      <div className="pot-grid" ref={gridRef}>
+        {visible.map((item) => (
+          <button type="button" className="pot-card" key={item.id} onClick={() => openItem(item)}>
+            <div className="pot-art">
+              {item.art ? <img src={item.art} alt="" draggable="false" loading="lazy" /> : <span>{simInitials(item.name)}</span>}
+              {Number.isFinite(Number(item.rarity)) && item.rarity > 0 && <i className="pot-rar">{item.rarity + '★'}</i>}
+            </div>
+            <div className="pot-meta">
+              <b>{item.name}</b>
+              <span>{(item.subtypes && item.subtypes[0]) || item.category}</span>
+            </div>
+          </button>
+        ))}
+      </div>
+      {visible.length === 0 && <div className="db-empty">No furnishings match your search.</div>}
+    </div>
+  );
+}
+
 /* ================= content panels ================= */
 // Keyboard activation for role="button" nav rows (Enter / Space).
 function navKeyDown(fn){
   return (e) => { if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); fn(); } };
 }
 
-function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, characterCustomize, setCharacterCustomize, materialSelection, setMaterialSelection }){
+function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, characterCustomize, setCharacterCustomize, materialSelection, setMaterialSelection, onSelectMaterialCharacter, onCloseMaterialCharacter }){
   const fns = cfg.fns || ['Character Materials','Artifact Sorter','Wish Tracker'];
   const hasTcg = cfg.key === 'gi';
   const openCharacterCustomize = (payload) => {
@@ -1979,7 +2173,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   };
   // G13: the section list the Character-Materials header icon-dropdown switches between.
   const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^character materials$/i.test(f) ? 'mats' : 'library';
-  const sections = [{ key:'overview', label:'Overview' }, ...fns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasTcg ? [{ key:'tcg', label:'TCG' }] : []), { key:'settings', label:'Settings' }];
+  const sections = [{ key:'overview', label:'Overview' }, ...fns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasTcg ? [{ key:'tcg', label:'TCG' }, { key:'pot', label:'Serenitea Pot' }] : []), { key:'settings', label:'Settings' }];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
       <nav className="gp-side-nav" aria-label="Tools">
@@ -2007,6 +2201,13 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
             <span className="dia" aria-hidden="true"></span><span>TCG</span><span className="go">{'\u203A'}</span>
           </div>
         )}
+        {hasTcg && (
+          <div className={'gp-fn-row click' + (tab === 'pot' ? ' on' : '')}
+               role="button" tabIndex={0} aria-current={tab === 'pot' ? 'page' : undefined}
+               onClick={() => setTab('pot')} onKeyDown={navKeyDown(() => setTab('pot'))}>
+            <span className="dia" aria-hidden="true"></span><span>Serenitea Pot</span><span className="go">{'\u203A'}</span>
+          </div>
+        )}
         <div className={'gp-fn-row click' + (tab === 'settings' ? ' on' : '')}
              role="button" tabIndex={0} aria-current={tab === 'settings' ? 'page' : undefined}
              onClick={() => setTab('settings')} onKeyDown={navKeyDown(() => setTab('settings'))}>
@@ -2030,7 +2231,11 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
             onPageTab={setTab}
             sections={sections}
             onCustomizeCharacter={openCharacterCustomize}
-            onSelectedClose={() => setMaterialSelection && setMaterialSelection(null)}
+            onSelectCharacter={(ch) => onSelectMaterialCharacter && onSelectMaterialCharacter(cfg.key, ch)}
+            onSelectedClose={() => {
+              if (setMaterialSelection) setMaterialSelection(null);
+              if (onCloseMaterialCharacter) onCloseMaterialCharacter(cfg.key);
+            }}
           />
         </main>
       )}
@@ -2058,6 +2263,11 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
       {tab === 'tcg' && (
         <main className="gp-main-pane fill">
           <GenshinTcgView />
+        </main>
+      )}
+      {tab === 'pot' && (
+        <main className="gp-main-pane fill">
+          <GenshinPotView />
         </main>
       )}
       {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
@@ -2104,16 +2314,131 @@ function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
 /* ================= root (tabbed SPA) ================= */
 const HREF_TO_KEY = {};
 Object.keys(GP_PAGE_HREF).forEach(k => { HREF_TO_KEY[GP_PAGE_HREF[k]] = k; });
+const ROUTE_SEGMENT_TO_KEY = {
+  nyx:'nyx',
+  genshin:'gi',
+  hsr:'hsr',
+  zzz:'zzz',
+  wuwa:'wuwa',
+  endfield:'ae',
+};
+const GAME_TAB_TO_ROUTE = {
+  overview:'',
+  mats:'materials',
+  library:'library',
+  tracker:'tracker',
+  tcg:'tcg',
+  pot:'serenitea-pot',
+  settings:'settings',
+};
+const NYX_TAB_TO_ROUTE = {
+  overview:'',
+  pulls:'pulls',
+  codes:'codes',
+  banners:'banners',
+  settings:'settings',
+};
+const ROUTE_TO_GAME_TAB = {
+  materials:'mats',
+  mats:'mats',
+  characters:'mats',
+  character:'mats',
+  library:'library',
+  tracker:'tracker',
+  tcg:'tcg',
+  'serenitea-pot':'pot',
+  pot:'pot',
+  furniture:'pot',
+  settings:'settings',
+};
+const ROUTE_TO_NYX_TAB = {
+  pulls:'pulls',
+  pull:'pulls',
+  codes:'codes',
+  banners:'banners',
+  settings:'settings',
+};
+
+function routeSlug(value){
+  return String(value || '')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function routeDisplayName(value){
+  const raw = String(value || '').trim();
+  if (!raw) return '';
+  if (raw === raw.toLowerCase()) {
+    return raw.split(/[-_]+/).filter(Boolean).map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
+  }
+  return raw;
+}
+
+function routeFromLocation(){
+  try {
+    const parts = location.pathname
+      .split('/')
+      .map((part) => decodeURIComponent(part))
+      .filter(Boolean);
+    const first = parts[0] || '';
+    const key = ROUTE_SEGMENT_TO_KEY[first] || HREF_TO_KEY['/' + first] || (first === '' ? 'nyx' : undefined);
+    if (!key) return {};
+    const sub = parts[1] || '';
+    if (key === 'nyx') {
+      return { key, tab:coerceTabForKey(key, ROUTE_TO_NYX_TAB[sub] || 'overview') };
+    }
+    const character = (sub === 'characters' || sub === 'character') ? parts.slice(2).join('-') : '';
+    const tab = character ? 'mats' : (ROUTE_TO_GAME_TAB[sub] || 'overview');
+    return { key, tab:coerceTabForKey(key, tab), character:character || null };
+  } catch (e) {
+    return {};
+  }
+}
+
+function routePathFor(key, tab, selection){
+  const base = GP_PAGE_HREF[key] || GP_PAGE_HREF.nyx;
+  if (!key || key === 'nyx') {
+    const slug = NYX_TAB_TO_ROUTE[coerceTabForKey('nyx', tab || 'overview')] || '';
+    return slug ? base + '/' + slug : base;
+  }
+  const selectedName = selection && selection.game === key ? (selection.name || selection.slug) : '';
+  const characterSlug = routeSlug(selectedName);
+  if (characterSlug) return base + '/characters/' + characterSlug;
+  const safeTab = coerceTabForKey(key, tab || 'overview');
+  const slug = GAME_TAB_TO_ROUTE[safeTab] || '';
+  return slug ? base + '/' + slug : base;
+}
+
+function routeStateFor(key, tab, selection){
+  return {
+    nyxKey:key,
+    nyxTab:coerceTabForKey(key, tab || 'overview'),
+    nyxCharacter:selection && selection.game === key ? (selection.name || selection.slug || null) : null,
+  };
+}
+
+function routeTitleFor(key, tab, selection){
+  const cfg = key === 'nyx' ? NYX_META : GAME_REGISTRY[key];
+  const name = cfg?.name || 'Nyx';
+  const selectedName = selection && selection.game === key ? routeDisplayName(selection.name) : '';
+  if (selectedName) return 'Nyx \u2014 ' + selectedName + ' \u2014 ' + name;
+  if (key === 'nyx') return tab && tab !== 'overview' ? 'Nyx \u2014 ' + tab.replace(/\b\w/g, (c) => c.toUpperCase()) : 'Nyx';
+  const label = { mats:'Character Materials', library:'Library', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', settings:'Settings' }[tab] || '';
+  return label ? 'Nyx \u2014 ' + label + ' \u2014 ' + name : 'Nyx \u2014 ' + name;
+}
 
 function keyFromLocation(){
   try {
-    const f = decodeURIComponent((location.pathname.split('/').pop() || ''));
-    return HREF_TO_KEY[f];
+    return routeFromLocation().key;
   } catch (e) { return undefined; }
 }
 
 function validTabsForKey(key){
-  if (key === 'gi') return ['overview','mats','char-customize','library','tracker','tcg','settings'];
+  if (key === 'gi') return ['overview','mats','char-customize','library','tracker','tcg','pot','settings'];
   return key === 'nyx' ? ['overview','pulls','codes','banners','settings'] : ['overview','mats','char-customize','library','tracker','settings'];
 }
 
@@ -2715,14 +3040,37 @@ function NyxChannelToggle({ gameKey }){
 }
 
 function NyxApp(){
-  const initialKey = (window.GP_PAGE && window.GP_PAGE.key) || keyFromLocation() || 'nyx';
+  const initialRoute = routeFromLocation();
+  const initialKey = (initialRoute.key || (window.GP_PAGE && window.GP_PAGE.key) || 'nyx');
   const [activeKey, setActiveKey] = React.useState(initialKey);
-  const [tab, setTab] = React.useState(DEFAULT_TAB(initialKey));
-  const [materialSelection, setMaterialSelection] = React.useState(null);
+  const [tab, setTab] = React.useState(() => coerceTabForKey(initialKey, initialRoute.tab || DEFAULT_TAB(initialKey)));
+  const [materialSelection, setMaterialSelection] = React.useState(() => (
+    initialRoute.character && initialKey !== 'nyx'
+      ? { game:initialKey, name:initialRoute.character, slug:initialRoute.character }
+      : null
+  ));
   const [characterCustomize, setCharacterCustomize] = React.useState(null);
   const [pengoSettings, setPengoSettings] = React.useState(loadPengoSettings);
   useCmGameVersion(activeKey);
   const previousAlwaysBetaRef = React.useRef(pengoSettings.alwaysBeta === true);
+
+  const commitRoute = React.useCallback((key, nextTab, selection, opts) => {
+    const safeKey = key || 'nyx';
+    const safeTab = coerceTabForKey(safeKey, nextTab || 'overview');
+    const href = routePathFor(safeKey, safeTab, selection);
+    try {
+      if (href && location.pathname !== href) {
+        const method = opts && opts.replace ? 'replaceState' : 'pushState';
+        window.history[method](routeStateFor(safeKey, safeTab, selection), '', href);
+      }
+      document.title = routeTitleFor(safeKey, safeTab, selection);
+    } catch (e) {}
+  }, []);
+
+  React.useEffect(() => {
+    const safeTab = coerceTabForKey(activeKey, tab === 'char-customize' ? 'mats' : tab);
+    commitRoute(activeKey, safeTab, safeTab === 'mats' ? materialSelection : null, { replace:true });
+  }, [activeKey, tab, materialSelection, commitRoute]);
 
   React.useEffect(() => {
     try { localStorage.setItem(NYX_PENGO_SETTINGS_KEY, JSON.stringify(pengoSettings)); } catch (e) {}
@@ -2806,6 +3154,8 @@ function NyxApp(){
       '.db-grid',
       '.tcg-grid',
       '.tcg-detail-scroll',
+      '.pot-grid',
+      '.pot-detail-scroll',
       '.gp-overview-main',
       '.gp-overview-aside',
       '.gp-codes-scroll',
@@ -2857,7 +3207,7 @@ function NyxApp(){
       const candidates = contentScrollTargets
         .flatMap((selector) => Array.from(document.querySelectorAll(selector)))
         .filter((el) => canScrollY(el, event.deltaY));
-      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-pop.ledger .cm-pop-layout,.cm-body,.gt-results,.db-grid,.tcg-grid,.tcg-detail-scroll,.gp-overview-main,.gp-overview-aside,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
+      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-pop.ledger .cm-pop-layout,.cm-body,.gt-results,.db-grid,.tcg-grid,.tcg-detail-scroll,.pot-grid,.pot-detail-scroll,.gp-overview-main,.gp-overview-aside,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
       if (!preferred) return;
       event.preventDefault();
       preferred.scrollBy({ top:event.deltaY, left:0, behavior:'auto' });
@@ -2885,29 +3235,35 @@ function NyxApp(){
   // browser back/forward
   React.useEffect(() => {
     const onPop = () => {
-      const k = (window.history.state && window.history.state.nyxKey) || keyFromLocation() || 'nyx';
+      const next = routeFromLocation();
+      const k = (next.key || (window.history.state && window.history.state.nyxKey) || 'nyx');
       setActiveKey(k);
-      setTab((prev) => coerceTabForKey(k, prev === 'char-customize' ? 'mats' : prev));
+      setTab(coerceTabForKey(k, next.tab || 'overview'));
       setCharacterCustomize(null);
-      setMaterialSelection(null);
+      setMaterialSelection(next.character && k !== 'nyx' ? { game:k, name:next.character, slug:next.character } : null);
     };
     window.addEventListener('popstate', onPop);
     return () => window.removeEventListener('popstate', onPop);
   }, []);
 
+  const routeTab = (nextTab) => {
+    const safeTab = coerceTabForKey(activeKey, nextTab === 'char-customize' ? 'mats' : nextTab);
+    const keepMaterialSelection = safeTab === 'mats' && (nextTab === 'char-customize' || tab === 'char-customize');
+    const nextSelection = keepMaterialSelection ? materialSelection : null;
+    setTab(nextTab);
+    if (nextTab !== 'char-customize') setCharacterCustomize(null);
+    if (!nextSelection) setMaterialSelection(null);
+    commitRoute(activeKey, safeTab, nextSelection);
+  };
+
   const switchGame = (key) => {
     if (key === activeKey) return;
+    const nextTab = coerceTabForKey(key, tab === 'char-customize' ? 'mats' : tab);
     setActiveKey(key);
-    setTab((prev) => coerceTabForKey(key, prev === 'char-customize' ? 'mats' : prev));
+    setTab(nextTab);
     setCharacterCustomize(null);
     setMaterialSelection(null);
-    try {
-      const href = GP_PAGE_HREF[key];
-      if (href) window.history.pushState({ nyxKey:key }, '', href);
-      const cfg = key === 'nyx' ? NYX_META : GAME_REGISTRY[key];
-      const cfgName = cfg ? cfg.name : 'Hub';
-      document.title = (cfgName && cfgName !== 'Nyx') ? 'Nyx \u2014 ' + cfgName : 'Nyx';
-    } catch (e) {}
+    commitRoute(key, nextTab, null);
   };
 
   const isNyx = activeKey === 'nyx';
@@ -2918,13 +3274,9 @@ function NyxApp(){
     setActiveKey(targetGame);
     setTab('mats');
     setCharacterCustomize(null);
-    setMaterialSelection({ game:targetGame, name });
-    try {
-      const href = GP_PAGE_HREF[targetGame];
-      if (href && keyFromLocation() !== targetGame) window.history.pushState({ nyxKey:targetGame }, '', href);
-      const nextCfg = GAME_REGISTRY[targetGame];
-      document.title = nextCfg?.name ? 'Nyx \u2014 ' + nextCfg.name : document.title;
-    } catch (e) {}
+    const selection = { game:targetGame, name };
+    setMaterialSelection(selection);
+    commitRoute(targetGame, 'mats', selection);
   };
   const openCharacterCustomize = (payload) => {
     const next = Object.assign({ game:activeKey, restoreScroll:0 }, payload || {});
@@ -2932,6 +3284,18 @@ function NyxApp(){
     setCharacterCustomize(next);
     setMaterialSelection(null);
     setTab('char-customize');
+  };
+  const selectMaterialCharacter = (game, ch) => {
+    const name = ch && (ch.rawName || ch.baseName || ch.n || ch.name);
+    if (!game || !name) return;
+    const selection = { game, name };
+    setMaterialSelection(selection);
+    commitRoute(game, 'mats', selection);
+  };
+  const closeMaterialCharacter = (game) => {
+    const targetGame = game || activeKey;
+    setMaterialSelection(null);
+    commitRoute(targetGame, 'mats', null);
   };
 
   return (
@@ -2963,8 +3327,8 @@ function NyxApp(){
       </div>
 
       {isNyx
-        ? <SimContent tab={tab} setTab={setTab} onOpenMaterial={openMaterialPage} settings={pengoSettings} setSettings={setPengoSettings} />
-        : <GameContent cfg={cfg} tab={tab} setTab={setTab} onOpenMaterial={openMaterialPage} settings={pengoSettings} setSettings={setPengoSettings} characterCustomize={characterCustomize} setCharacterCustomize={setCharacterCustomize} materialSelection={materialSelection} setMaterialSelection={setMaterialSelection} />}
+        ? <SimContent tab={tab} setTab={routeTab} onOpenMaterial={openMaterialPage} settings={pengoSettings} setSettings={setPengoSettings} />
+        : <GameContent cfg={cfg} tab={tab} setTab={routeTab} onOpenMaterial={openMaterialPage} settings={pengoSettings} setSettings={setPengoSettings} characterCustomize={characterCustomize} setCharacterCustomize={setCharacterCustomize} materialSelection={materialSelection} setMaterialSelection={setMaterialSelection} onSelectMaterialCharacter={selectMaterialCharacter} onCloseMaterialCharacter={closeMaterialCharacter} />}
     </div>
   );
 }

@@ -886,6 +886,66 @@ function buildGenshinTcgCards() {
   };
 }
 
+// Serenitea Pot furnishings scraped from https://gi.nanoka.cc/furniture (see
+// Site/tools/scrape-nanoka-furniture.mjs). Recipe material ids are resolved to
+// names/icons through the same Nanoka gi item list used by the material tools.
+function buildGenshinFurniture() {
+  const furnitureRel = 'Nanoka/gi/furniture/furniture.json';
+  const reportRel = 'Nanoka/gi/furniture/report.json';
+  const sourceUrl = 'https://gi.nanoka.cc/furniture';
+  if (!exists(furnitureRel)) {
+    return { source:'Nanoka', sourceUrl, updated:null, counts:{ items:0 }, categories:[], items:[] };
+  }
+  const itemLookup = nanokaItemLookup('gi');
+  const resolveMaterial = (mat) => {
+    const found = itemLookup.get(String(mat.id));
+    return {
+      id:String(mat.id),
+      name:found?.name || String(mat.id),
+      count:Number(mat.count) || 0,
+      icon:found?.assets?.icon ? dbAsset(found.assets.icon) : null,
+    };
+  };
+  const items = readJson(furnitureRel).filter((f) => f.name && f.name !== '???').map((f) => {
+    const recipe = f.recipe && Array.isArray(f.recipe.items) && f.recipe.items.length
+      ? {
+          time:Number.isFinite(Number(f.recipe.time)) ? Number(f.recipe.time) : null,
+          exp:Number.isFinite(Number(f.recipe.exp)) ? Number(f.recipe.exp) : null,
+          materials:f.recipe.items.map(resolveMaterial),
+        }
+      : null;
+    return {
+      id:String(f.id),
+      name:f.name || String(f.id),
+      description:f.description || null,
+      rarity:Number.isFinite(Number(f.rank)) ? Number(f.rank) : null,
+      category:(Array.isArray(f.type) && f.type[0]) || 'Other',
+      types:Array.isArray(f.type) ? f.type : [],
+      subtypes:Array.isArray(f.type2) ? f.type2 : [],
+      comfort:Number.isFinite(Number(f.comfort)) ? Number(f.comfort) : null,
+      cost:Number.isFinite(Number(f.cost)) ? Number(f.cost) : null,
+      source:Array.isArray(f.source) ? f.source : [],
+      recipe,
+      art:dbAsset(f.localAsset),
+    };
+  }).sort((a, b) => a.name.localeCompare(b.name));
+  const catCounts = new Map();
+  items.forEach((item) => catCounts.set(item.category, (catCounts.get(item.category) || 0) + 1));
+  const categories = [...catCounts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .map(([key, count]) => ({ key, count }));
+  const report = exists(reportRel) ? readJson(reportRel) : null;
+  return {
+    source:'Nanoka',
+    sourceUrl,
+    updated:report?.generatedAt || null,
+    version:report?.version || null,
+    counts:{ items:items.length, craftable:items.filter((i) => i.recipe).length },
+    categories,
+    items,
+  };
+}
+
 function markRecentBuckets(roster, keyFn, fallbackCount = 9) {
   roster.forEach((ch) => {
     delete ch.recent;
@@ -3167,6 +3227,7 @@ const collections = buildCollections();
 const codes = buildCodesData();
 const banners = buildBannersData(rosters);
 const genshinTcgCards = buildGenshinTcgCards();
+const genshinFurniture = buildGenshinFurniture();
 const meta = sourceMeta();
 
 fs.mkdirSync(generatedDataDir, { recursive: true });
@@ -3221,6 +3282,7 @@ const nyxData = {
       codes: codes.games[key] || [],
       banners: banners.games[key] || null,
       tcg: key === 'gi' ? genshinTcgCards : undefined,
+      furniture: key === 'gi' ? genshinFurniture : undefined,
       roster: cmCfg[key].roster.map((ch) => ({
         id: ch.id,
         name: ch.n,

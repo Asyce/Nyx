@@ -1774,6 +1774,8 @@ function GenshinTcgView(){
   const [tag, setTag] = React.useState('all');
   const [q, setQ] = React.useState('');
   const [activeCard, setActiveCard] = React.useState(null);
+  const [restoreScroll, setRestoreScroll] = React.useState(0);
+  const gridRef = React.useRef(null);
   const cards = [
     ...((tcg.characterCards || []).map((card) => ({ ...card, kind:'character' }))),
     ...((tcg.otherCards || []).map((card) => ({ ...card, kind:'action' }))),
@@ -1819,60 +1821,30 @@ function GenshinTcgView(){
     ['action', 'Action', (tcg.otherCards || []).length],
   ];
   const tagTotal = tagFilters.reduce((sum, [, count]) => sum + count, 0);
-  return (
-    <div className="tcg-view">
-      <div className="tcg-head">
-        <GPSec title="Genius Invokation TCG" style={{ flex:1, minWidth:0 }} />
-        <div className="gp-search">
-          <span className="ic"></span>
-          <input value={q} placeholder="Search TCG Cards" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
-          {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
-        </div>
-      </div>
-      <div className="tcg-filter-block">
-        <span>CARD TYPE</span>
-        <div className="tcg-tabs">
-          {filters.map(([key, label, count]) => (
-            <button type="button" key={key} className={kind === key ? 'on' : ''} onClick={() => setKind(key)}>
-              <span>{label}</span><b>{count}</b>
-            </button>
-          ))}
-        </div>
-      </div>
-      {tagFilters.length > 0 && (
-        <div className="tcg-filter-block">
-          <span>TAGS</span>
-          <div className="tcg-tabs tcg-category-tabs" aria-label="TCG card tags">
-            <button type="button" className={tag === 'all' ? 'on' : ''} onClick={() => setTag('all')}>
-              <span>All</span><b>{tagTotal}</b>
-            </button>
-            {tagFilters.map(([value, count]) => (
-              <button type="button" key={value} className={tag === value ? 'on' : ''} onClick={() => setTag(value)}>
-                <span>{value}</span><b>{count}</b>
-              </button>
-            ))}
+  const openCard = (card) => {
+    setRestoreScroll(gridRef.current ? gridRef.current.scrollTop : 0);
+    setActiveCard(card);
+  };
+  const closeCard = () => {
+    setActiveCard(null);
+    setTimeout(() => {
+      if (gridRef.current) gridRef.current.scrollTop = restoreScroll;
+    }, 0);
+  };
+  if (activeCard) {
+    return (
+      <div className="tcg-view tcg-detail-page" data-screen-label="TCG card detail page">
+        <div className="tcg-detail-toolbar">
+          <button type="button" className="tcg-back" onClick={closeCard}>
+            <span>{'\u2039'}</span><b>Back to TCG Cards</b>
+          </button>
+          <div>
+            <span>{activeCard.type || (activeCard.kind === 'character' ? 'Character' : 'Action')}</span>
+            <b>{activeCard.id}</b>
           </div>
         </div>
-      )}
-      <div className="tcg-grid">
-        {visible.map((card) => (
-          <button type="button" className={'tcg-card kind-' + card.kind} key={card.kind + '-' + card.id}
-                  onClick={() => setActiveCard(card)}>
-            <div className="tcg-art">
-              {card.art ? <img src={card.art} alt="" draggable="false" /> : <span>{simInitials(card.name)}</span>}
-            </div>
-            <div className="tcg-meta">
-              <b>{card.name}</b>
-              <span>{card.type}</span>
-            </div>
-          </button>
-        ))}
-      </div>
-      {visible.length === 0 && <div className="db-empty">No TCG cards match your search.</div>}
-      {activeCard && (
-        <div className="tcg-detail-pop" role="dialog" aria-modal="true" aria-label={activeCard.name + ' details'} onMouseDown={(e) => { if (e.target === e.currentTarget) setActiveCard(null); }}>
-          <article>
-            <button type="button" className="tcg-detail-close" aria-label="Close TCG details" onClick={() => setActiveCard(null)}>{'\u2715'}</button>
+        <div className="tcg-detail-scroll">
+          <article className="tcg-detail-panel">
             <div className="tcg-detail-art">{activeCard.art ? <img src={activeCard.art} alt="" draggable="false" /> : <span>{simInitials(activeCard.name)}</span>}</div>
             <div className="tcg-detail-copy">
               <b>{activeCard.name}</b>
@@ -1927,7 +1899,59 @@ function GenshinTcgView(){
             </div>
           </article>
         </div>
+      </div>
+    );
+  }
+  return (
+    <div className="tcg-view">
+      <div className="tcg-head">
+        <GPSec title="Genius Invokation TCG" style={{ flex:1, minWidth:0 }} />
+        <div className="gp-search">
+          <span className="ic"></span>
+          <input value={q} placeholder="Search TCG Cards" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+          {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
+        </div>
+      </div>
+      <div className="tcg-filter-block">
+        <span>CARD TYPE</span>
+        <div className="tcg-tabs">
+          {filters.map(([key, label, count]) => (
+            <button type="button" key={key} className={kind === key ? 'on' : ''} onClick={() => setKind(key)}>
+              <span>{label}</span><b>{count}</b>
+            </button>
+          ))}
+        </div>
+      </div>
+      {tagFilters.length > 0 && (
+        <div className="tcg-filter-block">
+          <span>TAGS</span>
+          <div className="tcg-tabs tcg-category-tabs" aria-label="TCG card tags">
+            <button type="button" className={tag === 'all' ? 'on' : ''} onClick={() => setTag('all')}>
+              <span>All</span><b>{tagTotal}</b>
+            </button>
+            {tagFilters.map(([value, count]) => (
+              <button type="button" key={value} className={tag === value ? 'on' : ''} onClick={() => setTag(value)}>
+                <span>{value}</span><b>{count}</b>
+              </button>
+            ))}
+          </div>
+        </div>
       )}
+      <div className="tcg-grid" ref={gridRef}>
+        {visible.map((card) => (
+          <button type="button" className={'tcg-card kind-' + card.kind} key={card.kind + '-' + card.id}
+                  onClick={() => openCard(card)}>
+            <div className="tcg-art">
+              {card.art ? <img src={card.art} alt="" draggable="false" /> : <span>{simInitials(card.name)}</span>}
+            </div>
+            <div className="tcg-meta">
+              <b>{card.name}</b>
+              <span>{card.type}</span>
+            </div>
+          </button>
+        ))}
+      </div>
+      {visible.length === 0 && <div className="db-empty">No TCG cards match your search.</div>}
     </div>
   );
 }
@@ -1938,7 +1962,7 @@ function navKeyDown(fn){
   return (e) => { if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); fn(); } };
 }
 
-function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, characterCustomize, setCharacterCustomize }){
+function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, characterCustomize, setCharacterCustomize, materialSelection, setMaterialSelection }){
   const fns = cfg.fns || ['Character Materials','Artifact Sorter','Wish Tracker'];
   const hasTcg = cfg.key === 'gi';
   const openCharacterCustomize = (payload) => {
@@ -1998,7 +2022,16 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
       )}
       {tab === 'mats' && (
         <main className="gp-main-pane fill">
-          <CharMaterials inline game={cfg.key} pageTab={tab} onPageTab={setTab} sections={sections} onCustomizeCharacter={openCharacterCustomize} />
+          <CharMaterials
+            inline
+            game={cfg.key}
+            selectedName={materialSelection?.game === cfg.key ? materialSelection.name : null}
+            pageTab={tab}
+            onPageTab={setTab}
+            sections={sections}
+            onCustomizeCharacter={openCharacterCustomize}
+            onSelectedClose={() => setMaterialSelection && setMaterialSelection(null)}
+          />
         </main>
       )}
       {tab === 'char-customize' && (
@@ -2357,6 +2390,7 @@ function PmSelect({ value, options, onChange, label }){
 
 function PengoMenu({ settings, setSettings, inline }){
   const [collabOpen, setCollabOpen] = React.useState({});
+  const [resetConfirm, setResetConfirm] = React.useState(null);
   const update = (patch) => setSettings((prev) => Object.assign({}, prev, patch));
   const identity = sanitizeNyxIdentity(settings.identity);
   const gameIcons = sanitizeGameIcons(settings.gameIcons);
@@ -2390,6 +2424,11 @@ function PengoMenu({ settings, setSettings, inline }){
       [gameKey]:Object.assign({}, specialUnits[gameKey] || {}, Object.fromEntries(specials.map(([unitKey]) => [unitKey, enabled]))),
     }),
   });
+  const askReset = (label, action) => setResetConfirm({ label, action });
+  const confirmReset = () => {
+    if (resetConfirm?.action) resetConfirm.action();
+    setResetConfirm(null);
+  };
   const resetAll = () => setSettings(Object.assign({}, NYX_PENGO_DEFAULTS, {
     displayGames:Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS),
     gameIcons:{},
@@ -2460,7 +2499,7 @@ function PengoMenu({ settings, setSettings, inline }){
               <button type="button" aria-label="Increase Pengo count" onClick={() => bumpOpusCount(1)}>+</button>
             </div>
           </div>
-          <button type="button" className="pm-reset" data-tip="Reset the Magnum Opus Pengonis to default" onClick={resetOpus}>Reset</button>
+          <button type="button" className="pm-reset" data-tip="Reset the Magnum Opus Pengonis to default" onClick={() => askReset('Magnum Opus Pengonis', resetOpus)}>Reset</button>
         </section>
         <section className="pm-section pm-interface">
           <h3>Interface</h3>
@@ -2481,11 +2520,11 @@ function PengoMenu({ settings, setSettings, inline }){
                   onClick={() => update({ alwaysBeta:!settings.alwaysBeta })}>
             <span>Always Show Beta Content</span><b className="pm-state">{settings.alwaysBeta ? 'On' : 'Off'}</b>
           </button>
-          <button type="button" className="pm-reset" data-tip="Reset the interface to default" onClick={resetInterface}>Reset</button>
+          <button type="button" className="pm-reset" data-tip="Reset the interface to default" onClick={() => askReset('Interface', resetInterface)}>Reset</button>
         </section>
         <section className="pm-section pm-reset-all">
           <h3>Reset</h3>
-          <button type="button" className="pm-reset danger" data-tip="Reset every Nyx and game setting to default" onClick={resetAll}>Reset All Settings</button>
+          <button type="button" className="pm-reset danger" data-tip="Reset every Nyx and game setting to default" onClick={() => askReset('all Nyx settings', resetAll)}>Reset All Settings</button>
         </section>
       </div>
       <div className="settings-games-col">
@@ -2571,11 +2610,24 @@ function PengoMenu({ settings, setSettings, inline }){
                   })}
                 </div>
               )}
-              <button type="button" className="pm-reset" data-tip={'Reset ' + game.name + ' settings'} onClick={() => resetGame(game.key, groupKey, specials)}>Reset {game.name}</button>
+              <button type="button" className="pm-reset" data-tip={'Reset ' + game.name + ' settings'} onClick={() => askReset(game.name + ' settings', () => resetGame(game.key, groupKey, specials))}>Reset {game.name}</button>
             </section>
           );
         })}
       </div>
+      {resetConfirm && (
+        <div className="pm-reset-confirm" role="dialog" aria-modal="true" aria-label={'Reset ' + resetConfirm.label}
+             onMouseDown={(e) => { if (e.target === e.currentTarget) setResetConfirm(null); }}>
+          <article>
+            <b>Reset {resetConfirm.label}?</b>
+            <p>This will restore this setting group to its default values.</p>
+            <div>
+              <button type="button" onClick={() => setResetConfirm(null)}>Cancel</button>
+              <button type="button" className="primary" onClick={confirmReset}>Reset</button>
+            </div>
+          </article>
+        </div>
+      )}
     </div>
   );
 }
@@ -2666,7 +2718,7 @@ function NyxApp(){
   const initialKey = (window.GP_PAGE && window.GP_PAGE.key) || keyFromLocation() || 'nyx';
   const [activeKey, setActiveKey] = React.useState(initialKey);
   const [tab, setTab] = React.useState(DEFAULT_TAB(initialKey));
-  const [materialModal, setMaterialModal] = React.useState(null);
+  const [materialSelection, setMaterialSelection] = React.useState(null);
   const [characterCustomize, setCharacterCustomize] = React.useState(null);
   const [pengoSettings, setPengoSettings] = React.useState(loadPengoSettings);
   useCmGameVersion(activeKey);
@@ -2753,6 +2805,7 @@ function NyxApp(){
       '.gt-results',
       '.db-grid',
       '.tcg-grid',
+      '.tcg-detail-scroll',
       '.gp-overview-main',
       '.gp-overview-aside',
       '.gp-codes-scroll',
@@ -2804,7 +2857,7 @@ function NyxApp(){
       const candidates = contentScrollTargets
         .flatMap((selector) => Array.from(document.querySelectorAll(selector)))
         .filter((el) => canScrollY(el, event.deltaY));
-      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-pop.ledger .cm-pop-layout,.cm-body,.gt-results,.db-grid,.tcg-grid,.gp-overview-main,.gp-overview-aside,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
+      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-pop.ledger .cm-pop-layout,.cm-body,.gt-results,.db-grid,.tcg-grid,.tcg-detail-scroll,.gp-overview-main,.gp-overview-aside,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
       if (!preferred) return;
       event.preventDefault();
       preferred.scrollBy({ top:event.deltaY, left:0, behavior:'auto' });
@@ -2836,6 +2889,7 @@ function NyxApp(){
       setActiveKey(k);
       setTab((prev) => coerceTabForKey(k, prev === 'char-customize' ? 'mats' : prev));
       setCharacterCustomize(null);
+      setMaterialSelection(null);
     };
     window.addEventListener('popstate', onPop);
     return () => window.removeEventListener('popstate', onPop);
@@ -2846,6 +2900,7 @@ function NyxApp(){
     setActiveKey(key);
     setTab((prev) => coerceTabForKey(key, prev === 'char-customize' ? 'mats' : prev));
     setCharacterCustomize(null);
+    setMaterialSelection(null);
     try {
       const href = GP_PAGE_HREF[key];
       if (href) window.history.pushState({ nyxKey:key }, '', href);
@@ -2857,12 +2912,25 @@ function NyxApp(){
 
   const isNyx = activeKey === 'nyx';
   const cfg = isNyx ? NYX_META : GAME_REGISTRY[activeKey];
-  const openMaterialModal = (game, name) => setMaterialModal({ game, name });
+  const openMaterialPage = (game, name) => {
+    const targetGame = (game && game !== 'nyx') ? game : activeKey;
+    if (!targetGame || targetGame === 'nyx' || !name) return;
+    setActiveKey(targetGame);
+    setTab('mats');
+    setCharacterCustomize(null);
+    setMaterialSelection({ game:targetGame, name });
+    try {
+      const href = GP_PAGE_HREF[targetGame];
+      if (href && keyFromLocation() !== targetGame) window.history.pushState({ nyxKey:targetGame }, '', href);
+      const nextCfg = GAME_REGISTRY[targetGame];
+      document.title = nextCfg?.name ? 'Nyx \u2014 ' + nextCfg.name : document.title;
+    } catch (e) {}
+  };
   const openCharacterCustomize = (payload) => {
     const next = Object.assign({ game:activeKey, restoreScroll:0 }, payload || {});
-    setMaterialModal(null);
     if (next.game && next.game !== activeKey) setActiveKey(next.game);
     setCharacterCustomize(next);
+    setMaterialSelection(null);
     setTab('char-customize');
   };
 
@@ -2895,18 +2963,8 @@ function NyxApp(){
       </div>
 
       {isNyx
-        ? <SimContent tab={tab} setTab={setTab} onOpenMaterial={openMaterialModal} settings={pengoSettings} setSettings={setPengoSettings} />
-        : <GameContent cfg={cfg} tab={tab} setTab={setTab} onOpenMaterial={openMaterialModal} settings={pengoSettings} setSettings={setPengoSettings} characterCustomize={characterCustomize} setCharacterCustomize={setCharacterCustomize} />}
-      {materialModal && (
-        <CharMaterials
-          inline
-          modalOnly
-          game={materialModal.game}
-          selectedName={materialModal.name}
-          onClose={() => setMaterialModal(null)}
-          onCustomizeCharacter={openCharacterCustomize}
-        />
-      )}
+        ? <SimContent tab={tab} setTab={setTab} onOpenMaterial={openMaterialPage} settings={pengoSettings} setSettings={setPengoSettings} />
+        : <GameContent cfg={cfg} tab={tab} setTab={setTab} onOpenMaterial={openMaterialPage} settings={pengoSettings} setSettings={setPengoSettings} characterCustomize={characterCustomize} setCharacterCustomize={setCharacterCustomize} materialSelection={materialSelection} setMaterialSelection={setMaterialSelection} />}
     </div>
   );
 }

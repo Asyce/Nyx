@@ -63,6 +63,27 @@ const CM_IDENTITY_ASSETS = {
   },
 };
 
+const CM_IDENTITY_ROLE_LABELS = {
+  gi:'Traveler',
+  hsr:'Trailblazer',
+  zzz:'Lord Phaethon',
+  wuwa:'Rover',
+  ae:'Endministrator',
+};
+
+const CM_IDENTITY_ROLE_NAME_CHOICES = {
+  gi:new Set(['paimon', 'little_one', 'arama']),
+  hsr:new Set(['pom_pom', 'gepard', 'trash']),
+  zzz:new Set(['eous', 'fairy', 'phaethon']),
+  wuwa:new Set(['abby']),
+  ae:new Set(['penguin']),
+};
+
+function cmIdentityDisplayLabel(gameKey, choice, fallback){
+  if (CM_IDENTITY_ROLE_NAME_CHOICES[gameKey]?.has(choice)) return CM_IDENTITY_ROLE_LABELS[gameKey] || fallback;
+  return fallback;
+}
+
 function cmSanitizeIdentityPrefs(raw){
   const src = (raw && typeof raw === 'object') ? raw : {};
   const next = Object.assign({}, CM_IDENTITY_DEFAULTS);
@@ -1730,7 +1751,7 @@ function cmApplyIdentityDisplay(gameKey, ch, prefs){
   if (gameKey === 'gi' && (id === 'gi-traveler' || name === 'traveler')) {
     const custom = CM_IDENTITY_ASSETS.gi[prefs.twin];
     if (custom) {
-      return cmWithIdentityDisplay(ch, custom.label, {
+      return cmWithIdentityDisplay(ch, cmIdentityDisplayLabel('gi', prefs.twin, custom.label), {
         icon:custom.icon,
         circle:custom.icon,
         iconZoom:custom.iconZoom,
@@ -1775,12 +1796,12 @@ function cmApplyIdentityDisplay(gameKey, ch, prefs){
       delete opts.formIcon;
       delete opts.formCircle;
     }
-    return cmWithIdentityDisplay(ch, asset.label, opts);
+    return cmWithIdentityDisplay(ch, cmIdentityDisplayLabel('hsr', choice, asset.label), opts);
   }
   if (gameKey === 'zzz' && (id === 'zzz-pyrois' || name === 'pyrois')) {
     const choice = CM_IDENTITY_ASSETS.zzz[prefs.sibling] ? prefs.sibling : 'wise';
     const asset = CM_IDENTITY_ASSETS.zzz[choice];
-    return cmWithIdentityDisplay(ch, asset.label, {
+    return cmWithIdentityDisplay(ch, cmIdentityDisplayLabel('zzz', choice, asset.label), {
       icon:asset.icon,
       circle:asset.icon,
       iconZoom:asset.iconZoom,
@@ -1795,7 +1816,7 @@ function cmApplyIdentityDisplay(gameKey, ch, prefs){
   if (gameKey === 'wuwa' && (id === 'wuwa-rover' || name === 'rover')) {
     const choice = CM_IDENTITY_ASSETS.wuwa[prefs.rover] ? prefs.rover : 'male';
     const asset = CM_IDENTITY_ASSETS.wuwa[choice];
-    return cmWithIdentityDisplay(ch, asset.label, {
+    return cmWithIdentityDisplay(ch, cmIdentityDisplayLabel('wuwa', choice, asset.label), {
       icon:asset.icon,
       circle:asset.icon,
       iconZoom:asset.iconZoom,
@@ -1812,7 +1833,7 @@ function cmApplyIdentityDisplay(gameKey, ch, prefs){
     if (choice === 'penguin') {
       const asset = CM_IDENTITY_ASSETS.ae.penguin;
       const forms = (Array.isArray(ch.forms) && ch.forms.length ? [ch.forms[0]] : ch.forms);
-      return cmWithIdentityDisplay(ch, asset.label, {
+      return cmWithIdentityDisplay(ch, cmIdentityDisplayLabel('ae', choice, asset.label), {
         forms,
         icon:asset.icon,
         circle:asset.icon,
@@ -1904,7 +1925,7 @@ function cmMergeBetaCfg(liveCfg, betaPack){
   return { ...liveCfg, roster: merged, __betaActive:true };
 }
 
-function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, pageTab, onPageTab, sections, customizeOnly, onCustomizeCharacter, onBackCustomize }){
+function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, pageTab, onPageTab, sections, customizeOnly, onCustomizeCharacter, onBackCustomize, onSelectedClose }){
   const [gk, setGk] = React.useState(game || 'gi');
   const [channel, setChannel] = React.useState(() => cmLoadChannel(game || 'gi'));
   const [dataTick, setDataTick] = React.useState(0);
@@ -1945,6 +1966,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const [unitPrefs, setUnitPrefs] = React.useState(cmLoadSpecialUnitPrefs);
   const [languagePrefs, setLanguagePrefs] = React.useState(cmLoadLanguagePrefs);
   const [characterImagePrefs, setCharacterImagePrefs] = useNyxCharacterImagePrefs();
+  const searchInputRef = React.useRef(null);
 
   const betaAvailable = cmHasBeta(gk);
   const liveCfg = CM_CFG[gk] || null;
@@ -2084,27 +2106,58 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     }
   }, [selectedName, game, gk, dataTick, identityPrefs, unitPrefs, languagePrefs, characterImagePrefs]);
   React.useEffect(() => {
+    if (!(open || inline) || customizeOnly || sel) return undefined;
+    const onKey = (event) => {
+      if (event.defaultPrevented || event.ctrlKey || event.metaKey || event.altKey) return;
+      const target = event.target;
+      const tagName = target?.tagName ? String(target.tagName).toLowerCase() : '';
+      if (target?.isContentEditable || ['input', 'textarea', 'select', 'button'].includes(tagName)) return;
+      if (event.key === 'Escape') {
+        if (!q) return;
+        event.preventDefault();
+        setQ('');
+        searchInputRef.current?.focus?.({ preventScroll:true });
+        return;
+      }
+      if (event.key === 'Backspace') {
+        if (!q) return;
+        event.preventDefault();
+        setQ((value) => value.slice(0, -1));
+        searchInputRef.current?.focus?.({ preventScroll:true });
+        return;
+      }
+      if (event.key && event.key.length === 1 && !event.repeat) {
+        event.preventDefault();
+        setQ((value) => value + event.key);
+        searchInputRef.current?.focus?.({ preventScroll:true });
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [open, inline, customizeOnly, sel, q]);
+  React.useEffect(() => {
     setWeaponPickerOpen(false);
     setWeaponSearch('');
   }, [gk, sel && cmHiddenKey(sel), activeVariant, activeGender]);
-  // Accessible modal dialog: focus the Close button on open, trap Tab within the
-  // dialog, close on Escape, and restore focus to the triggering card on close.
+  // Standalone modal keeps focus trapping; inline detail pages only use Escape
+  // as a back shortcut so they behave like normal page content.
   const cmPopRef = React.useRef(null);
   const cmCloseBtnRef = React.useRef(null);
   const cmLedgerMainRef = React.useRef(null);
   React.useEffect(() => {
     if (!sel) return undefined;
     const trigger = (typeof document !== 'undefined') ? document.activeElement : null;
-    const focusTimer = setTimeout(() => { if (cmCloseBtnRef.current) cmCloseBtnRef.current.focus(); }, 0);
+    const focusTimer = !inline ? setTimeout(() => { if (cmCloseBtnRef.current) cmCloseBtnRef.current.focus(); }, 0) : null;
     const onKey = (event) => {
       if (event.key === 'Escape') {
         event.preventDefault();
         setWeaponPickerOpen(false);
         setSel(null);
+        if (onSelectedClose) onSelectedClose();
         if (modalOnly && onClose) onClose();
         return;
       }
-      if (event.key === 'Tab' && cmPopRef.current) {
+      if (!inline && event.key === 'Tab' && cmPopRef.current) {
         const f = cmPopRef.current.querySelectorAll('a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex]:not([tabindex="-1"])');
         if (!f.length) return;
         const first = f[0], last = f[f.length - 1];
@@ -2114,11 +2167,11 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     };
     window.addEventListener('keydown', onKey);
     return () => {
-      clearTimeout(focusTimer);
+      if (focusTimer) clearTimeout(focusTimer);
       window.removeEventListener('keydown', onKey);
-      if (trigger && typeof trigger.focus === 'function') { try { trigger.focus(); } catch (e) {} }
+      if (!inline && trigger && typeof trigger.focus === 'function') { try { trigger.focus(); } catch (e) {} }
     };
-  }, [sel, modalOnly, onClose]);
+  }, [sel, inline, modalOnly, onClose, onSelectedClose]);
 
   if (!inline && !open) return null;
   if (!cfg) {
@@ -2387,6 +2440,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const closePop = () => {
     setCustomizeOpen(false);
     setSel(null);
+    if (onSelectedClose) onSelectedClose();
     if (modalOnly && onClose) onClose();
   };
   const openCustomize = () => {
@@ -2419,7 +2473,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const curTab = (tab === 'boss' && !hasBoss) ? 'roster' : tab;
 
   return (
-    <div className={inline ? 'cm-inline' : 'cm-overlay'}
+    <div className={inline ? 'cm-inline' + (sel ? ' has-detail-page' : '') : 'cm-overlay'}
          onMouseDown={inline ? undefined : (e) => { if (e.target === e.currentTarget) onClose(); }}>
       {!modalOnly && !(inline && sel) && <div className="cm-panel" data-screen-label="Character Materials">
 
@@ -2443,7 +2497,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
           <div className="cm-tools">
             <div className="cm-search">
               <span className="ic"></span>
-              <input value={q} placeholder="Search Characters" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+              <input ref={searchInputRef} value={q} placeholder="Search Characters" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
               {q !== '' && <button type="button" className="x" onClick={() => setQ('')}>{'\u2715'}</button>}
             </div>
             <div className="cm-tbtns">
@@ -2662,9 +2716,14 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
 
             <div className="cm-pop-layout">
               {inline && (
-                <button type="button" className="cm-detail-back" onClick={closePop}>
-                  <span>{'\u2039'}</span><b>Back to Character Materials</b>
-                </button>
+                <div className="cm-detail-nav">
+                  <button type="button" className="cm-detail-back" onClick={closePop}>
+                    <span>{'\u2039'}</span><b>Back to Character Materials</b>
+                  </button>
+                  <button type="button" className="cm-detail-custom" onClick={openCustomize}>
+                    <span>Customize Visuals</span><b>Icon / Background / Local Upload</b>
+                  </button>
+                </div>
               )}
               <div className="cm-pop-main cm-ledger-main" ref={cmLedgerMainRef}>
                 <div className="cm-ledger-top">
@@ -2685,12 +2744,11 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                           ))}
                         </span>
                       )}
-                    </div>
-                    {(releaseText || voiceRows.length > 0) && (
-                      <div className="cm-pop-extra-meta">
-                        {releaseText && <span><b>Release</b>{releaseText}</span>}
+                      {(releaseText || voiceRows.length > 0) && (
+                        <span className="cm-pop-meta-text">
+                          {releaseText && <span><b>Release:</b> {releaseText}</span>}
                         {voiceRows.length > 0 && (
-                          <span className="voice"><b>VA</b>{voiceRows.map((row) => (
+                            <span className="voice"><b>Voice Actor:</b>{voiceRows.map((row) => (
                             <em key={row.key}>
                               {row.label}: {row.url
                                 ? <a href={row.url} target="_blank" rel="noopener noreferrer">{row.value}</a>
@@ -2698,8 +2756,9 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                             </em>
                           ))}</span>
                         )}
-                      </div>
-                    )}
+                        </span>
+                      )}
+                    </div>
                   </div>
 
                   {gk === 'gi' && view.req?.talentStages?.length > 0 && (
@@ -2974,12 +3033,12 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                   {!hasAnyLedgerReq && (
                     <div className="cm-empty">No material data available for this unit yet.</div>
                   )}
-                  <div className="cm-ledger-customize-entry">
+                  {!inline && <div className="cm-ledger-customize-entry">
                     <button type="button" onClick={openCustomize}>
                       <span>Customize Visuals</span>
                       <b>Icon / Background / Local Upload</b>
                     </button>
-                  </div>
+                  </div>}
                 </div>
                   </React.Fragment>
                 )}

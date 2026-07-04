@@ -624,13 +624,16 @@ function cmInitials(name){
 }
 
 // Tidy scraped source blurbs for the hover tooltip: drop the useless
-// "Go to collect" CTA artifact, strip the "Recommendation:" prefix, and remove
-// the stray word "recommendation" (e.g. "Prydwen recommendation" -> "Prydwen").
+// "Go to collect" CTA artifact, strip the "Recommendation:" prefix, drop the
+// stray word "recommendation", and remove any external data-provider names so
+// no outside source is surfaced (e.g. "Prydwen recommendation" -> "").
 function cmCleanSourceName(name){
   let s = String(name || '').trim();
   if (/^go to collect$/i.test(s)) return '';
   s = s.replace(/^\s*recommendation\s*:\s*/i, '');
-  s = s.replace(/\brecommendations?\b/ig, '').replace(/\s{2,}/g, ' ').replace(/\s*[:·-]\s*$/, '').trim();
+  s = s.replace(/\brecommendations?\b/ig, '');
+  s = s.replace(/\b(prydwen|nanoka|hoyolab|hoyowiki|honey\s*impact|honeyhunter|ambr(?:\.top)?|paimon\.?moe|game8|fandom|wiki)\b/ig, '');
+  s = s.replace(/\s{2,}/g, ' ').replace(/^[\s:·\-\/]+|[\s:·\-\/]+$/g, '').trim();
   return s;
 }
 

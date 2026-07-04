@@ -1903,7 +1903,6 @@ function GenshinTcgView(){
                   })}
                 </div>
               )}
-              {activeCard.sourceUrl && <a className="tcg-source-link" href={activeCard.sourceUrl} target="_blank" rel="noopener noreferrer">Open on Nanoka</a>}
             </div>
           </article>
         </div>
@@ -2089,7 +2088,6 @@ function GenshinPotView(){
                   {activeItem.source.map((line, index) => <p key={index}>{line}</p>)}
                 </div>
               )}
-              <a className="pot-source-link" href={pot.sourceUrl + '/' + activeItem.id} target="_blank" rel="noopener noreferrer">Open on Nanoka</a>
             </div>
           </article>
         </div>

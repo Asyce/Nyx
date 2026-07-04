@@ -4,17 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-04T17:07:14.197Z",
-  "providers": {
-    "Prydwen": "2026-07-04T08:11:11.087Z",
-    "Nanoka": {
-      "gi": "6.7",
-      "hsr": "4.3",
-      "ww": "3.4",
-      "zzz": "3.0"
-    },
-    "EndfieldWiki": "2026-07-04T08:12:51.752Z"
-  },
+  "generatedAt": "2026-07-04T17:25:42.107Z",
   "codes": {
     "updated": "2026-07-04T16:10:48.350Z",
     "maxAgeDays": 28,
@@ -355,7 +345,7 @@ var NYX_DB = {
             {
               "name": "Cyrene",
               "icon": "../../Database/Nanoka/hsr/assets/characters/round/1415.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1415.webp",
+              "iconFallback": "../../Database/Nanoka/hsr/assets/avatarroundicon/1415.webp",
               "iconZoom": false,
               "art": "../../Database/Prydwen/hsr/assets/characters/cyrene-c68f58cf71c5.webp",
               "namecard": null,
@@ -364,7 +354,7 @@ var NYX_DB = {
             {
               "name": "Phainon",
               "icon": "../../Database/Nanoka/hsr/assets/characters/round/1408.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1408.webp",
+              "iconFallback": "../../Database/Nanoka/hsr/assets/avatarroundicon/1408.webp",
               "iconZoom": false,
               "art": "../../Database/Prydwen/hsr/assets/characters/phainon-99688b617211.webp",
               "namecard": null,
@@ -381,7 +371,7 @@ var NYX_DB = {
             {
               "name": "Sparxie",
               "icon": "../../Database/Nanoka/hsr/assets/characters/round/1501.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1501.webp",
+              "iconFallback": "../../Database/Nanoka/hsr/assets/avatarroundicon/1501.webp",
               "iconZoom": false,
               "art": "../../Database/Prydwen/hsr/assets/characters/sparxie-234f67152306.webp",
               "namecard": null,
@@ -389,10 +379,10 @@ var NYX_DB = {
             },
             {
               "name": "Evernight",
-              "icon": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1413.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1413.webp",
+              "icon": "../../Database/Nanoka/hsr/assets/avataricon/avatar/1413.webp",
+              "iconFallback": "../../Database/Nanoka/hsr/assets/avatarroundicon/1413.webp",
               "iconZoom": false,
-              "art": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1413.webp",
+              "art": "../../Database/Nanoka/hsr/assets/avataricon/avatar/1413.webp",
               "namecard": null,
               "rarity": null
             }
@@ -419,7 +409,7 @@ var NYX_DB = {
             {
               "name": "Sandrone",
               "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_MarionetteNew.webp",
+              "iconFallback": "../../Database/Nanoka/gi/assets/UI_AvatarIcon_MarionetteNew.webp",
               "iconZoom": true,
               "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
               "namecard": null,
@@ -428,7 +418,7 @@ var NYX_DB = {
             {
               "name": "Citlali",
               "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Citlali_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Citlali.webp",
+              "iconFallback": "../../Database/Nanoka/gi/assets/UI_AvatarIcon_Citlali.webp",
               "iconZoom": true,
               "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Citlali.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Citlali.png",
@@ -445,7 +435,7 @@ var NYX_DB = {
             {
               "name": "Columbina",
               "icon": "../../Database/Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Columbina.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Columbina.webp",
+              "iconFallback": "../../Database/Nanoka/gi/assets/UI_AvatarIcon_Columbina.webp",
               "iconZoom": true,
               "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Columbina.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Columbina.png",
@@ -663,7 +653,7 @@ var NYX_DB = {
             {
               "name": "Velina",
               "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle64.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect64.webp",
+              "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect64.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp",
               "namecard": null,
@@ -672,7 +662,7 @@ var NYX_DB = {
             {
               "name": "Ye Shunguang",
               "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle55.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect55.webp",
+              "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect55.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/ye-shunguang-bdd0b5faf96c.webp",
               "namecard": null,
@@ -689,7 +679,7 @@ var NYX_DB = {
             {
               "name": "Norma",
               "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect65.webp",
+              "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect65.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/norma-f4dbe2ca9e48.webp",
               "namecard": null,
@@ -698,7 +688,7 @@ var NYX_DB = {
             {
               "name": "Sunna",
               "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle58.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect58.webp",
+              "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect58.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/sunna-48eb55c7efc5.webp",
               "namecard": null,
@@ -4484,7 +4474,7 @@ var NYX_DB = {
             {
               "name": "Sandrone",
               "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_MarionetteNew.webp",
+              "iconFallback": "../../Database/Nanoka/gi/assets/UI_AvatarIcon_MarionetteNew.webp",
               "iconZoom": true,
               "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
               "namecard": null,
@@ -4493,7 +4483,7 @@ var NYX_DB = {
             {
               "name": "Citlali",
               "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Citlali_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Citlali.webp",
+              "iconFallback": "../../Database/Nanoka/gi/assets/UI_AvatarIcon_Citlali.webp",
               "iconZoom": true,
               "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Citlali.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Citlali.png",
@@ -4510,7 +4500,7 @@ var NYX_DB = {
             {
               "name": "Columbina",
               "icon": "../../Database/Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Columbina.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Columbina.webp",
+              "iconFallback": "../../Database/Nanoka/gi/assets/UI_AvatarIcon_Columbina.webp",
               "iconZoom": true,
               "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Columbina.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Columbina.png",
@@ -4522,8 +4512,6 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "source": "Nanoka",
-        "sourceUrl": "https://gi.nanoka.cc/gcg",
         "updated": "2026-07-04T08:13:24.617Z",
         "counts": {
           "characterCards": 106,
@@ -4536,7 +4524,6 @@ var NYX_DB = {
             "title": "\"Plenilune Gaze\" Ganyu",
             "description": "\"This press release is due tomorrow... I suppose I could work through the night and get it done.\"",
             "sourceText": "Reward for inviting Ganyu to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1101",
             "localizedNames": {
               "en": "Ganyu",
               "zh": "\u7518\u96e8",
@@ -4641,8 +4628,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Ganyu",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1101-Ganyu.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1101-Ganyu.webp"
           },
           {
             "id": "1102",
@@ -4650,7 +4636,6 @@ var NYX_DB = {
             "title": "\"K\u00e4tzlein Cocktail\" Diona",
             "description": "Dedicating 1% of her energy to mixing drinks, and 99% to... refusing to accept failure.",
             "sourceText": "Reward for inviting Diona to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1102",
             "localizedNames": {
               "en": "Diona",
               "zh": "\u8fea\u5965\u5a1c",
@@ -4731,8 +4716,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Diona",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1102-Diona.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1102-Diona.webp"
           },
           {
             "id": "1103",
@@ -4740,7 +4724,6 @@ var NYX_DB = {
             "title": "\"Frostwind Swordsman\" Kaeya",
             "description": "Specializes in awakening knightly virtues in others.",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1103",
             "localizedNames": {
               "en": "Kaeya",
               "zh": "\u51ef\u4e9a",
@@ -4811,8 +4794,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Kaeya",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1103-Kaeya.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1103-Kaeya.webp"
           },
           {
             "id": "1104",
@@ -4820,7 +4802,6 @@ var NYX_DB = {
             "title": "\"Frozen Ardor\" Chongyun",
             "description": "\"Ugh, summer... Please pass us by in peace...\"",
             "sourceText": "Reward for inviting Chongyun to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1104",
             "localizedNames": {
               "en": "Chongyun",
               "zh": "\u91cd\u4e91",
@@ -4895,8 +4876,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Chongyun",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1104-Chongyun.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1104-Chongyun.webp"
           },
           {
             "id": "1105",
@@ -4904,7 +4884,6 @@ var NYX_DB = {
             "title": "\"Frostflake Heron\" Kamisato Ayaka",
             "description": "As graceful as the frost drifting in the wind, as elegant as a heron perched in a courtyard.",
             "sourceText": "Reward for inviting Kamisato Ayaka to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1105",
             "localizedNames": {
               "en": "Kamisato Ayaka",
               "zh": "\u795e\u91cc\u7eeb\u534e",
@@ -5019,8 +4998,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Kamisato Ayaka",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1105-Kamisato Ayaka.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1105-Kamisato Ayaka.webp"
           },
           {
             "id": "1106",
@@ -5028,7 +5006,6 @@ var NYX_DB = {
             "title": "\"Dance of the Shimmering Wave\" Eula",
             "description": "It's but a game. I won't hold a grudge should luck happen to be on your side.",
             "sourceText": "Reward for inviting Eula to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1106",
             "localizedNames": {
               "en": "Eula",
               "zh": "\u4f18\u83c8",
@@ -5107,8 +5084,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Eula",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1106-Eula.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1106-Eula.webp"
           },
           {
             "id": "1107",
@@ -5116,7 +5092,6 @@ var NYX_DB = {
             "title": "\"Lonesome Transcendence\" Shenhe",
             "description": "The mortal realm briefly gracing, like a wisp of smoke vanishing.",
             "sourceText": "Reward for inviting Shenhe to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1107",
             "localizedNames": {
               "en": "Shenhe",
               "zh": "\u7533\u9e64",
@@ -5205,8 +5180,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Shenhe",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1107-Shenhe.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1107-Shenhe.webp"
           },
           {
             "id": "1108",
@@ -5214,7 +5188,6 @@ var NYX_DB = {
             "title": "\"Icy Resurrection\" Qiqi",
             "description": "Circulating endlessly, life goes on.",
             "sourceText": "Reward for inviting Qiqi to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1108",
             "localizedNames": {
               "en": "Qiqi",
               "zh": "\u4e03\u4e03",
@@ -5294,8 +5267,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Qiqi",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1108-Qiqi.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1108-Qiqi.webp"
           },
           {
             "id": "1109",
@@ -5303,7 +5275,6 @@ var NYX_DB = {
             "title": "\"Fantastical Evening Star\" Layla",
             "description": "As night falls, the stars swirl and the moon wanders amidst dreams.",
             "sourceText": "Reward for inviting Layla to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1109",
             "localizedNames": {
               "en": "Layla",
               "zh": "\u83b1\u4f9d\u62c9",
@@ -5402,8 +5373,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Layla",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1109-Layla.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1109-Layla.webp"
           },
           {
             "id": "1110",
@@ -5411,7 +5381,6 @@ var NYX_DB = {
             "title": "\"Lens of Verity\" Charlotte",
             "description": "\"Your credible source of the unbelievable truth!\"",
             "sourceText": "Reward for inviting Charlotte to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1110",
             "localizedNames": {
               "en": "Charlotte",
               "zh": "\u590f\u6d1b\u8482",
@@ -5497,8 +5466,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Charlotte",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1110-Charlotte.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1110-Charlotte.webp"
           },
           {
             "id": "1111",
@@ -5506,7 +5474,6 @@ var NYX_DB = {
             "title": "\"Emissary of Solitary Iniquity\" Wriothesley",
             "description": "Guilty waters run deep.",
             "sourceText": "Reward for inviting Wriothesley to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1111",
             "localizedNames": {
               "en": "Wriothesley",
               "zh": "\u83b1\u6b27\u65af\u5229",
@@ -5613,8 +5580,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Wriothesley",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1111-Wriothesley.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1111-Wriothesley.webp"
           },
           {
             "id": "1112",
@@ -5622,7 +5588,6 @@ var NYX_DB = {
             "title": "\"Yearning for Unseen Depths\" Freminet",
             "description": "Alone under the cold light of stars.",
             "sourceText": "Reward for inviting Freminet to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1112",
             "localizedNames": {
               "en": "Freminet",
               "zh": "\u83f2\u7c73\u5c3c",
@@ -5710,8 +5675,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Freminet",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1112-Freminet.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1112-Freminet.webp"
           },
           {
             "id": "1113",
@@ -5719,7 +5683,6 @@ var NYX_DB = {
             "title": "\"Thorny Benevolence\" Rosaria",
             "description": "\"Light creates shadow, but shadow will not be controlled by light.\"",
             "sourceText": "Reward for inviting Rosaria to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1113",
             "localizedNames": {
               "en": "Rosaria",
               "zh": "\u7f57\u838e\u8389\u4e9a",
@@ -5812,8 +5775,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Rosaria",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1113-Rosaria.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1113-Rosaria.webp"
           },
           {
             "id": "1114",
@@ -5821,7 +5783,6 @@ var NYX_DB = {
             "title": "\"Obsidian Opalstar\" Citlali",
             "description": "The vivid night-wind flows, obsidian reflects the heart.",
             "sourceText": "Reward for inviting Citlali to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1114",
             "localizedNames": {
               "en": "Citlali",
               "zh": "\u831c\u7279\u83c8\u8389",
@@ -5929,8 +5890,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Citlali",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1114-Citlali.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1114-Citlali.webp"
           },
           {
             "id": "1115",
@@ -5938,7 +5898,6 @@ var NYX_DB = {
             "title": "\"Tasteful Excellence\" Escoffier",
             "description": "Frosting and bake, the best taste to make.",
             "sourceText": "Reward for inviting Escoffier to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1115",
             "localizedNames": {
               "en": "Escoffier",
               "zh": "\u7231\u53ef\u83f2",
@@ -6058,8 +6017,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Escoffier",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1115-Escoffier.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1115-Escoffier.webp"
           },
           {
             "id": "1116",
@@ -6067,7 +6025,6 @@ var NYX_DB = {
             "title": "\"Void Star\" Skirk",
             "description": "The stars fade to black.",
             "sourceText": "Reward for inviting Skirk to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1116",
             "localizedNames": {
               "en": "Skirk",
               "zh": "\u4e1d\u67ef\u514b",
@@ -6194,8 +6151,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Skirk",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1116-Skirk.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1116-Skirk.webp"
           },
           {
             "id": "1117",
@@ -6203,7 +6159,6 @@ var NYX_DB = {
             "title": "\"Coordinates of Clear Frost\" Mika",
             "description": "With a feather plume as gold as maize, uncharted borders are depicted as clear as day.",
             "sourceText": "Reward for inviting Mika to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1117",
             "localizedNames": {
               "en": "Mika",
               "zh": "\u7c73\u5361",
@@ -6304,8 +6259,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Mika",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1117-Mika.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1117-Mika.webp"
           },
           {
             "id": "1201",
@@ -6313,7 +6267,6 @@ var NYX_DB = {
             "title": "\"Shining Idol\" Barbara",
             "description": "Ready to heal hearts and soothe souls at any time.",
             "sourceText": "Reward for inviting Barbara to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1201",
             "localizedNames": {
               "en": "Barbara",
               "zh": "\u82ad\u82ad\u62c9",
@@ -6381,8 +6334,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Barbara",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1201-Barbara.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1201-Barbara.webp"
           },
           {
             "id": "1202",
@@ -6390,7 +6342,6 @@ var NYX_DB = {
             "title": "\"Juvenile Galant\" Xingqiu",
             "description": "\"Is it just me, or are the protagonists in novels nowadays all students of some private school or another...\"",
             "sourceText": "Reward for inviting Xingqiu to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1202",
             "localizedNames": {
               "en": "Xingqiu",
               "zh": "\u884c\u79cb",
@@ -6479,8 +6430,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Xingqiu",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1202-Xingqiu.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1202-Xingqiu.webp"
           },
           {
             "id": "1203",
@@ -6488,7 +6438,6 @@ var NYX_DB = {
             "title": "\"Astral Reflection\" Mona",
             "description": "Victory or defeat \u2014 it has all been written in the stars.",
             "sourceText": "Reward for inviting Mona to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1203",
             "localizedNames": {
               "en": "Mona",
               "zh": "\u83ab\u5a1c",
@@ -6580,8 +6529,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Mona",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1203-Mona.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1203-Mona.webp"
           },
           {
             "id": "1204",
@@ -6589,7 +6537,6 @@ var NYX_DB = {
             "title": "\"Childe\" Tartaglia",
             "description": "Should this table be considered a battlefield, then may the strongest claim the win.",
             "sourceText": "Reward for inviting Tartaglia to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1204",
             "localizedNames": {
               "en": "Tartaglia",
               "zh": "\u8fbe\u8fbe\u5229\u4e9a",
@@ -6792,8 +6739,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Tartaglia",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1204-Tartaglia.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1204-Tartaglia.webp"
           },
           {
             "id": "1205",
@@ -6801,7 +6747,6 @@ var NYX_DB = {
             "title": "\"Pearl of Wisdom\" Sangonomiya Kokomi",
             "description": "To survive hardship, you must prepare for hardship.",
             "sourceText": "Reward for inviting Sangonomiya Kokomi to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1205",
             "localizedNames": {
               "en": "Sangonomiya Kokomi",
               "zh": "\u73ca\u745a\u5bab\u5fc3\u6d77",
@@ -6884,8 +6829,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Sangonomiya Kokomi",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1205-Sangonomiya Kokomi.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1205-Sangonomiya Kokomi.webp"
           },
           {
             "id": "1206",
@@ -6893,7 +6837,6 @@ var NYX_DB = {
             "title": "\"Pillar of Fortitude\" Kamisato Ayato",
             "description": "The divinely-blessed cypress sprouts new leaves.",
             "sourceText": "Reward for inviting Kamisato Ayato to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1206",
             "localizedNames": {
               "en": "Kamisato Ayato",
               "zh": "\u795e\u91cc\u7eeb\u4eba",
@@ -6982,8 +6925,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Kamisato Ayato",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1206-Kamisato Ayato.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1206-Kamisato Ayato.webp"
           },
           {
             "id": "1207",
@@ -6991,7 +6933,6 @@ var NYX_DB = {
             "title": "Golden Vow: Candace",
             "description": "The crimson sand flows, an oath to defend.",
             "sourceText": "Reward for inviting Candace to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1207",
             "localizedNames": {
               "en": "Candace",
               "zh": "\u574e\u8482\u4e1d",
@@ -7089,8 +7030,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Candace",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1207-Candace.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1207-Candace.webp"
           },
           {
             "id": "1208",
@@ -7098,7 +7038,6 @@ var NYX_DB = {
             "title": "\"Dance of Lotuslight\" Nilou",
             "description": "Steps floating like lotus petals, emerging from an intoxicating dream.",
             "sourceText": "Reward for inviting Nilou to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1208",
             "localizedNames": {
               "en": "Nilou",
               "zh": "\u59ae\u9732",
@@ -7197,8 +7136,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Nilou",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1208-Nilou.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1208-Nilou.webp"
           },
           {
             "id": "1209",
@@ -7206,7 +7144,6 @@ var NYX_DB = {
             "title": "\"Valley Orchid\" Yelan",
             "description": "The world is vast and infinite, the solitary one comes and goes as she pleases.",
             "sourceText": "Reward for inviting Yelan to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1209",
             "localizedNames": {
               "en": "Yelan",
               "zh": "\u591c\u5170",
@@ -7313,8 +7250,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Yelan",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1209-Yelan.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1209-Yelan.webp"
           },
           {
             "id": "1210",
@@ -7322,7 +7258,6 @@ var NYX_DB = {
             "title": "\"Ordainer of Inexorable Judgment\" Neuvillette",
             "description": "He who looks down on all that are haughty.",
             "sourceText": "Reward for inviting Neuvillette to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1210",
             "localizedNames": {
               "en": "Neuvillette",
               "zh": "\u90a3\u7ef4\u83b1\u7279",
@@ -7442,8 +7377,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Neuvillette",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1210-Neuvillette.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1210-Neuvillette.webp"
           },
           {
             "id": "1211",
@@ -7451,7 +7385,6 @@ var NYX_DB = {
             "title": "\"Endless Solo of Solitude\" Furina",
             "description": "Perpetual muse of chansons and rondeaux.",
             "sourceText": "Reward for inviting Furina to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1211",
             "localizedNames": {
               "en": "Furina",
               "zh": "\u8299\u5b81\u5a1c",
@@ -7595,8 +7528,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Furina",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1211-Furina.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1211-Furina.webp"
           },
           {
             "id": "1213",
@@ -7604,7 +7536,6 @@ var NYX_DB = {
             "title": "\"Wondrous Dragonheir\" Sigewinne",
             "description": "\"Pure spirit, heed my wish.\"",
             "sourceText": "Reward for inviting Sigewinne to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1213",
             "localizedNames": {
               "en": "Sigewinne",
               "zh": "\u5e0c\u683c\u96ef",
@@ -7806,8 +7737,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Sigewinne",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1213-Sigewinne.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1213-Sigewinne.webp"
           },
           {
             "id": "1214",
@@ -7815,7 +7745,6 @@ var NYX_DB = {
             "title": "\"Splish-Splash Wavechaser\" Mualani",
             "description": "Swellrider of Perennial Springs",
             "sourceText": "Reward for inviting Mualani to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1214",
             "localizedNames": {
               "en": "Mualani",
               "zh": "\u739b\u62c9\u59ae",
@@ -7906,8 +7835,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Mualani",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1214-Mualani.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1214-Mualani.webp"
           },
           {
             "id": "1215",
@@ -7915,7 +7843,6 @@ var NYX_DB = {
             "title": "\"Ode and Oblation\" Dahlia",
             "description": "Let hymns of praise cast the winds as my ode.",
             "sourceText": "Reward for inviting Dahlia to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1215",
             "localizedNames": {
               "en": "Dahlia",
               "zh": "\u5854\u5229\u96c5",
@@ -8002,8 +7929,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Dahlia",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1215-Dahlia.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1215-Dahlia.webp"
           },
           {
             "id": "1216",
@@ -8011,7 +7937,6 @@ var NYX_DB = {
             "title": "\"Clinky-Clank Gadgets-A-Gogo\" Aino",
             "description": "Dreams spring to life with a clink-clank-clatter.",
             "sourceText": "Reward for inviting Aino to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1216",
             "localizedNames": {
               "en": "Aino",
               "zh": "\u7231\u8bfa",
@@ -8131,8 +8056,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Aino",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1216-Aino.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1216-Aino.webp"
           },
           {
             "id": "1301",
@@ -8140,7 +8064,6 @@ var NYX_DB = {
             "title": "\"Dark Side of Dawn\" Diluc",
             "description": "His heart is his greatest foe.",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1301",
             "localizedNames": {
               "en": "Diluc",
               "zh": "\u8fea\u5362\u514b",
@@ -8215,8 +8138,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Diluc",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1301-Diluc.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1301-Diluc.webp"
           },
           {
             "id": "1302",
@@ -8224,7 +8146,6 @@ var NYX_DB = {
             "title": "\"Exquisite Delicacy\" Xiangling",
             "description": "As a chef, she is practically omnipotent.",
             "sourceText": "Reward for inviting Xiangling to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1302",
             "localizedNames": {
               "en": "Xiangling",
               "zh": "\u9999\u83f1",
@@ -8307,8 +8228,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Xiangling",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1302-Xiangling.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1302-Xiangling.webp"
           },
           {
             "id": "1303",
@@ -8316,7 +8236,6 @@ var NYX_DB = {
             "title": "\"Trial by Fire\" Bennett",
             "description": "Once you know that you will certainly lose, then you must certainly know the way to win.",
             "sourceText": "Reward for inviting Bennett to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1303",
             "localizedNames": {
               "en": "Bennett",
               "zh": "\u73ed\u5c3c\u7279",
@@ -8383,8 +8302,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Bennett",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1303-Bennett.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1303-Bennett.webp"
           },
           {
             "id": "1304",
@@ -8392,7 +8310,6 @@ var NYX_DB = {
             "title": "\"Outrider\" Amber",
             "description": "If you want to be a great player...\\nFirst, you have to have the courage to sit down and play.",
             "sourceText": "Reward for inviting Amber to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1304",
             "localizedNames": {
               "en": "Amber",
               "zh": "\u5b89\u67cf",
@@ -8465,8 +8382,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Amber",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1304-Amber.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1304-Amber.webp"
           },
           {
             "id": "1305",
@@ -8474,7 +8390,6 @@ var NYX_DB = {
             "title": "\"Frolicking Flames\" Yoimiya",
             "description": "Captain and Vanguard of Team Naganohara for the 11th Hanamizaka Street Invitational.",
             "sourceText": "Reward for inviting Yoimiya to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1305",
             "localizedNames": {
               "en": "Yoimiya",
               "zh": "\u5bb5\u5bab",
@@ -8562,8 +8477,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Yoimiya",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1305-Yoimiya.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1305-Yoimiya.webp"
           },
           {
             "id": "1306",
@@ -8571,7 +8485,6 @@ var NYX_DB = {
             "title": "\"Fleeing Sunlight\" Klee",
             "description": "Every card you draw may bring an \"explosive surprise.\"",
             "sourceText": "Reward for inviting Klee to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1306",
             "localizedNames": {
               "en": "Klee",
               "zh": "\u53ef\u8389",
@@ -8660,8 +8573,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Klee",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1306-Klee.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1306-Klee.webp"
           },
           {
             "id": "1307",
@@ -8669,7 +8581,6 @@ var NYX_DB = {
             "title": "\"Fragrance in Thaw\" Hu Tao",
             "description": "\"Send one, send 'em all!\"",
             "sourceText": "Reward for inviting Hu Tao to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1307",
             "localizedNames": {
               "en": "Hu Tao",
               "zh": "\u80e1\u6843",
@@ -8750,8 +8661,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Hu Tao",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1307-Hu Tao.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1307-Hu Tao.webp"
           },
           {
             "id": "1308",
@@ -8759,7 +8669,6 @@ var NYX_DB = {
             "title": "Wise Innocence: Yanfei",
             "description": "One who fails to revise the classics is liable to fall foul of the law.",
             "sourceText": "Reward for inviting Yanfei to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1308",
             "localizedNames": {
               "en": "Yanfei",
               "zh": "\u70df\u7eef",
@@ -8866,8 +8775,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Yanfei",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1308-Yanfei.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1308-Yanfei.webp"
           },
           {
             "id": "1309",
@@ -8875,7 +8783,6 @@ var NYX_DB = {
             "title": "\"Flame-Mane\" Dehya",
             "description": "The eyes of a vulture, the spirit of a lion, an unbridled daughter of the desert.",
             "sourceText": "Reward for inviting Dehya to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1309",
             "localizedNames": {
               "en": "Dehya",
               "zh": "\u8fea\u5e0c\u96c5",
@@ -8974,8 +8881,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Dehya",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1309-Dehya.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1309-Dehya.webp"
           },
           {
             "id": "1310",
@@ -8983,7 +8889,6 @@ var NYX_DB = {
             "title": "\"Spectacle of Phantasmagoria\" Lyney",
             "description": "Those flowers in the mirror... who are they for?",
             "sourceText": "Reward for inviting Lyney to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1310",
             "localizedNames": {
               "en": "Lyney",
               "zh": "\u6797\u5c3c",
@@ -9100,8 +9005,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Lyney",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1310-Lyney.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1310-Lyney.webp"
           },
           {
             "id": "1311",
@@ -9109,7 +9013,6 @@ var NYX_DB = {
             "title": "\"Protector From Afar\" Thoma",
             "description": "A protector from abroad, loyal to the end.",
             "sourceText": "Reward for inviting Thoma to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1311",
             "localizedNames": {
               "en": "Thoma",
               "zh": "\u6258\u9a6c",
@@ -9204,8 +9107,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Thoma",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1311-Thoma.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1311-Thoma.webp"
           },
           {
             "id": "1312",
@@ -9213,7 +9115,6 @@ var NYX_DB = {
             "title": "\"Blazing Riff\" Xinyan",
             "description": "Time to rock!",
             "sourceText": "Reward for inviting Xinyan to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1312",
             "localizedNames": {
               "en": "Xinyan",
               "zh": "\u8f9b\u7131",
@@ -9310,8 +9211,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Xinyan",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1312-Xinyan.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1312-Xinyan.webp"
           },
           {
             "id": "1313",
@@ -9319,7 +9219,6 @@ var NYX_DB = {
             "title": "Executor of Justice: Chevreuse",
             "description": "Righteous Enforcer of the Law.",
             "sourceText": "Reward for inviting Chevreuse to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1313",
             "localizedNames": {
               "en": "Chevreuse",
               "zh": "\u590f\u6c83\u857e",
@@ -9471,8 +9370,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Chevreuse",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1313-Chevreuse.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1313-Chevreuse.webp"
           },
           {
             "id": "1314",
@@ -9480,7 +9378,6 @@ var NYX_DB = {
             "title": "\"Dire Balemoon\" Arlecchino",
             "description": "Solitary Balemoon in a Sky of Fading Stars.",
             "sourceText": "Reward for inviting Arlecchino to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1314",
             "localizedNames": {
               "en": "Arlecchino",
               "zh": "\u963f\u857e\u5947\u8bfa",
@@ -9659,8 +9556,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Arlecchino",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1314-Arlecchino.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1314-Arlecchino.webp"
           },
           {
             "id": "1315",
@@ -9668,7 +9564,6 @@ var NYX_DB = {
             "title": "\"Night-Igniting Flame\" Mavuika",
             "description": "The brightest, most splendid, most resplendent flame reborn.",
             "sourceText": "Reward for inviting Mavuika to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1315",
             "localizedNames": {
               "en": "Mavuika",
               "zh": "\u739b\u8587\u5361",
@@ -9781,8 +9676,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Mavuika",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1315-Mavuika.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1315-Mavuika.webp"
           },
           {
             "id": "1316",
@@ -9790,7 +9684,6 @@ var NYX_DB = {
             "title": "\"Leonine Vanguard\" Gaming",
             "description": "\"Stalwart strider.\"",
             "sourceText": "Reward for inviting Gaming to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1316",
             "localizedNames": {
               "en": "Gaming",
               "zh": "\u5609\u660e",
@@ -9886,8 +9779,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Gaming",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1316-Gaming.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1316-Gaming.webp"
           },
           {
             "id": "1317",
@@ -9895,7 +9787,6 @@ var NYX_DB = {
             "title": "\"The Undying Fire\" Durin",
             "description": "Born from ink, he soars among the stars.",
             "sourceText": "Reward for inviting Durin to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1317",
             "localizedNames": {
               "en": "Durin",
               "zh": "\u675c\u6797",
@@ -9975,8 +9866,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Durin",
-            "art": null,
-            "source": "Nanoka"
+            "art": null
           },
           {
             "id": "1401",
@@ -9984,7 +9874,6 @@ var NYX_DB = {
             "title": "\"Fischl, Prinzessin der Verurteilung!\" Fischl",
             "description": "\"Oz, mine familiar, spread thine wings and weave for me a new fate in the gloom of this night!\"\\n\"Mein Fr\u00e4ulein, you cannot expect me to fetch you a replacement card...\"",
             "sourceText": "Reward for inviting Fischl to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1401",
             "localizedNames": {
               "en": "Fischl",
               "zh": "\u83f2\u8c22\u5c14",
@@ -10059,8 +9948,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Fischl",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1401-Fischl.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1401-Fischl.webp"
           },
           {
             "id": "1402",
@@ -10068,7 +9956,6 @@ var NYX_DB = {
             "title": "\"Wolf Boy\" Razor",
             "description": "\"Cards, hard.\"\\n\"But... friends...\"",
             "sourceText": "Reward for inviting Razor to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1402",
             "localizedNames": {
               "en": "Razor",
               "zh": "\u96f7\u6cfd",
@@ -10139,8 +10026,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Razor",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1402-Razor.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1402-Razor.webp"
           },
           {
             "id": "1403",
@@ -10148,7 +10034,6 @@ var NYX_DB = {
             "title": "\"Driving Thunder\" Keqing",
             "description": "She can build decks heretofore not conceived and win battles in which victory is unthinkable.",
             "sourceText": "Reward for inviting Keqing to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1403",
             "localizedNames": {
               "en": "Keqing",
               "zh": "\u523b\u6674",
@@ -10229,8 +10114,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Keqing",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1403-Keqing.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1403-Keqing.webp"
           },
           {
             "id": "1404",
@@ -10238,7 +10122,6 @@ var NYX_DB = {
             "title": "\"Judicator of Secrets\" Cyno",
             "description": "The card bears the General Mahamatra's ardent fondness, which reminds one of the scorching sun hanging above the desert.",
             "sourceText": "Reward for inviting Cyno to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1404",
             "localizedNames": {
               "en": "Cyno",
               "zh": "\u8d5b\u8bfa",
@@ -10345,8 +10228,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Cyno",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1404-Cyno.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1404-Cyno.webp"
           },
           {
             "id": "1405",
@@ -10354,7 +10236,6 @@ var NYX_DB = {
             "title": "\"Uncrowned Lord of the Ocean\" Beidou",
             "description": "\"Remember this day, you almost won money from the Captain of the Crux.\"",
             "sourceText": "Reward for inviting Beidou to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1405",
             "localizedNames": {
               "en": "Beidou",
               "zh": "\u5317\u6597",
@@ -10448,8 +10329,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Beidou",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1405-Beidou.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1405-Beidou.webp"
           },
           {
             "id": "1406",
@@ -10457,7 +10337,6 @@ var NYX_DB = {
             "title": "\"Crowfeather Kaburaya\" Kujou Sara",
             "description": "\"This is an act of righteousness.\"",
             "sourceText": "Reward for inviting Kujou Sara to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1406",
             "localizedNames": {
               "en": "Kujou Sara",
               "zh": "\u4e5d\u6761\u88df\u7f57",
@@ -10550,8 +10429,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Kujou Sara",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1406-Kujou Sara.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1406-Kujou Sara.webp"
           },
           {
             "id": "1407",
@@ -10559,7 +10437,6 @@ var NYX_DB = {
             "title": "\"Plane of Euthymia\" Raiden Shogun",
             "description": "The tranquil thunder shall scatter this world most ephemeral.",
             "sourceText": "Reward for inviting the Raiden Shogun to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1407",
             "localizedNames": {
               "en": "Raiden Shogun",
               "zh": "\u96f7\u7535\u5c06\u519b",
@@ -10647,8 +10524,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Raiden Shogun",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1407-Raiden Shogun.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1407-Raiden Shogun.webp"
           },
           {
             "id": "1408",
@@ -10656,7 +10532,6 @@ var NYX_DB = {
             "title": "\"Astute Amusement\" Yae Miko",
             "description": "\"The wise and beautiful Yae Miko.\"",
             "sourceText": "Reward for inviting Yae Miko to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1408",
             "localizedNames": {
               "en": "Yae Miko",
               "zh": "\u516b\u91cd\u795e\u5b50",
@@ -10753,8 +10628,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Yae Miko",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1408-Yae Miko.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1408-Yae Miko.webp"
           },
           {
             "id": "1409",
@@ -10762,7 +10636,6 @@ var NYX_DB = {
             "title": "\"Witch of Purple Rose\" Lisa",
             "description": "Pursuing the arcane mysteries of magic, and waiting quietly for an encounter with truth.",
             "sourceText": "Reward for inviting Lisa to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1409",
             "localizedNames": {
               "en": "Lisa",
               "zh": "\u4e3d\u838e",
@@ -10882,8 +10755,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Lisa",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1409-Lisa.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1409-Lisa.webp"
           },
           {
             "id": "1410",
@@ -10891,7 +10763,6 @@ var NYX_DB = {
             "title": "\"Treasure of Dream Garden\" Dori",
             "description": "The Mora, the merrier!",
             "sourceText": "Reward for inviting Dori to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1410",
             "localizedNames": {
               "en": "Dori",
               "zh": "\u591a\u8389",
@@ -10976,8 +10847,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Dori",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1410-Dori.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1410-Dori.webp"
           },
           {
             "id": "1411",
@@ -10985,7 +10855,6 @@ var NYX_DB = {
             "title": "\"Mender of Tribulations\" Kuki Shinobu",
             "description": "Master of all trades, deputy of the oni.",
             "sourceText": "Reward for inviting Kuki Shinobu to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1411",
             "localizedNames": {
               "en": "Kuki Shinobu",
               "zh": "\u4e45\u5c90\u5fcd",
@@ -11058,8 +10927,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Kuki Shinobu",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1411-Kuki Shinobu.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1411-Kuki Shinobu.webp"
           },
           {
             "id": "1412",
@@ -11067,7 +10935,6 @@ var NYX_DB = {
             "title": "\"Candlebearer, Shadowhunter\" Clorinde",
             "description": "Vanquisher of Phantoms, Vigil of the Long Night",
             "sourceText": "Reward for inviting Clorinde to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1412",
             "localizedNames": {
               "en": "Clorinde",
               "zh": "\u514b\u6d1b\u7433\u5fb7",
@@ -11196,8 +11063,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Clorinde",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1412-Clorinde.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1412-Clorinde.webp"
           },
           {
             "id": "1413",
@@ -11205,7 +11071,6 @@ var NYX_DB = {
             "title": "\"Wisdom's Measure\" Sethos",
             "description": "A visitor from the sea of sand, profound in providence.",
             "sourceText": "Reward for inviting Sethos to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1413",
             "localizedNames": {
               "en": "Sethos",
               "zh": "\u8d5b\u7d22\u65af",
@@ -11324,8 +11189,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Sethos",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1413-Sethos.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1413-Sethos.webp"
           },
           {
             "id": "1414",
@@ -11333,7 +11197,6 @@ var NYX_DB = {
             "title": "\"Tempered in Molten Stone\" Iansan",
             "description": "Early to bed, early to rise. Avoid anything high in sugar or sodium.",
             "sourceText": "Reward for inviting Iansan to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1414",
             "localizedNames": {
               "en": "Iansan",
               "zh": "\u4f0a\u5b89\u73ca",
@@ -11481,8 +11344,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Iansan",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1414-Iansan.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1414-Iansan.webp"
           },
           {
             "id": "1415",
@@ -11490,7 +11352,6 @@ var NYX_DB = {
             "title": "\"Strength in Serenity\" Varesa",
             "description": "Steadfast in defense, unshakeable in offense.",
             "sourceText": "Reward for inviting Varesa to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1415",
             "localizedNames": {
               "en": "Varesa",
               "zh": "\u74e6\u96f7\u838e",
@@ -11645,8 +11506,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Varesa",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1415-Varesa.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1415-Varesa.webp"
           },
           {
             "id": "1416",
@@ -11654,7 +11514,6 @@ var NYX_DB = {
             "title": "\"Shadow of the Night-Wind\" Ororon",
             "description": "Enigmatic Shadowwalker",
             "sourceText": "Reward for inviting Ororon to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1416",
             "localizedNames": {
               "en": "Ororon",
               "zh": "\u6b27\u6d1b\u4f26",
@@ -11781,8 +11640,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Ororon",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1416-Ororon.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1416-Ororon.webp"
           },
           {
             "id": "1417",
@@ -11790,7 +11648,6 @@ var NYX_DB = {
             "title": "\"Boom Boom Thunderwave\" Ineffa",
             "description": "White iron forged the body, crimson heart cast the soul.",
             "sourceText": "Reward for inviting Ineffa to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1417",
             "localizedNames": {
               "en": "Ineffa",
               "zh": "\u4f0a\u6d85\u8299",
@@ -11937,8 +11794,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Ineffa",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1417-Ineffa.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1417-Ineffa.webp"
           },
           {
             "id": "1418",
@@ -11946,7 +11802,6 @@ var NYX_DB = {
             "title": "\"Shadowy Lights, Stranger Wights\" Flins",
             "description": "The graven light leads into fathomless night.",
             "sourceText": "Reward for inviting Flins to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1418",
             "localizedNames": {
               "en": "Flins",
               "zh": "\u83f2\u6797\u65af",
@@ -12124,8 +11979,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Flins",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1418-Flins.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1418-Flins.webp"
           },
           {
             "id": "1501",
@@ -12133,7 +11987,6 @@ var NYX_DB = {
             "title": "\"Harmless Sweetie\" Sucrose",
             "description": "\"You can't rate the strength of an as-yet untested deck!\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1501",
             "localizedNames": {
               "en": "Sucrose",
               "zh": "\u7802\u7cd6",
@@ -12204,8 +12057,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Sucrose",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1501-Sucrose.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1501-Sucrose.webp"
           },
           {
             "id": "1502",
@@ -12213,7 +12065,6 @@ var NYX_DB = {
             "title": "\"Dandelion Knight\" Jean",
             "description": "Never believes that she has done well enough \u2014 not until final victory is hers, anyway.",
             "sourceText": "Reward for inviting Jean to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1502",
             "localizedNames": {
               "en": "Jean",
               "zh": "\u7434",
@@ -12282,8 +12133,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Jean",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1502-Jean.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1502-Jean.webp"
           },
           {
             "id": "1503",
@@ -12291,7 +12141,6 @@ var NYX_DB = {
             "title": "\"Windborne Bard\" Venti",
             "description": "\"As the four seasons in turn shall say their piece, so the four winds too shall never cease. \\n\"Of course, to look at it differently, I am the one who should be credited here, and not they.\"\\nCredits should be given where credits belong \u2014 if not for the bard who pens the song, then who shall ensure that these tales are passed on!?\"",
             "sourceText": "Reward for inviting Venti to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1503",
             "localizedNames": {
               "en": "Venti",
               "zh": "\u6e29\u8fea",
@@ -12376,8 +12225,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Venti",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1503-Venti.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1503-Venti.webp"
           },
           {
             "id": "1504",
@@ -12385,7 +12233,6 @@ var NYX_DB = {
             "title": "\"Vigilant Yaksha\" Xiao",
             "description": "The Vigilant Yaksha, the bane of all evil.",
             "sourceText": "Reward for inviting Xiao to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1504",
             "localizedNames": {
               "en": "Xiao",
               "zh": "\u9b48",
@@ -12464,8 +12311,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Xiao",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1504-Xiao.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1504-Xiao.webp"
           },
           {
             "id": "1505",
@@ -12473,7 +12319,6 @@ var NYX_DB = {
             "title": "Scarlet Leaves Pursue Wild Waves: Kaedehara Kazuha",
             "description": "Flowers and birds are a dear pleasure to one winding under the moonlight.",
             "sourceText": "Reward for inviting Kaedehara Kazuha to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1505",
             "localizedNames": {
               "en": "Kaedehara Kazuha",
               "zh": "\u67ab\u539f\u4e07\u53f6",
@@ -12573,8 +12418,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Kaedehara Kazuha",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1505-Kaedehara Kazuha.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1505-Kaedehara Kazuha.webp"
           },
           {
             "id": "1506",
@@ -12582,7 +12426,6 @@ var NYX_DB = {
             "title": "\"Eons Adrift\" Wanderer",
             "description": "Tribulations uncounted, trials unknowable.",
             "sourceText": "Reward for inviting the Wanderer to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1506",
             "localizedNames": {
               "en": "#{REALNAME[ID(1)|DELAYHANDLE(true)]}",
               "zh": "#{REALNAME[ID(1)|DELAYHANDLE(true)]}",
@@ -12658,8 +12501,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Wanderer",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1506-Wanderer.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1506-Wanderer.webp"
           },
           {
             "id": "1507",
@@ -12667,7 +12509,6 @@ var NYX_DB = {
             "title": "\"Mujina Ninja\" Sayu",
             "description": "By your side without a trace, like a character from a dream.",
             "sourceText": "Reward for inviting Sayu to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1507",
             "localizedNames": {
               "en": "Sayu",
               "zh": "\u65e9\u67da",
@@ -12753,8 +12594,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Sayu",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1507-Sayu.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1507-Sayu.webp"
           },
           {
             "id": "1508",
@@ -12762,7 +12602,6 @@ var NYX_DB = {
             "title": "\"Elegance in the Shadows\" Lynette",
             "description": "The firmament glimpsed in a reflected moon.",
             "sourceText": "Reward for inviting Lynette to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1508",
             "localizedNames": {
               "en": "Lynette",
               "zh": "\u7433\u59ae\u7279",
@@ -12849,8 +12688,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Lynette",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1508-Lynette.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1508-Lynette.webp"
           },
           {
             "id": "1509",
@@ -12858,7 +12696,6 @@ var NYX_DB = {
             "title": "\"Enigmatic Machinist\" Faruzan",
             "description": "Simple machines, mysterious world.",
             "sourceText": "Reward for inviting Faruzan to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1509",
             "localizedNames": {
               "en": "Faruzan",
               "zh": "\u73d0\u9732\u73ca",
@@ -12959,8 +12796,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Faruzan",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1509-Faruzan.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1509-Faruzan.webp"
           },
           {
             "id": "1510",
@@ -12968,7 +12804,6 @@ var NYX_DB = {
             "title": "\"Passerine Herald\" Xianyun",
             "description": "Chivalrous shadow, shrouded in cloud.",
             "sourceText": "Reward for inviting Xianyun to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1510",
             "localizedNames": {
               "en": "Xianyun",
               "zh": "\u95f2\u4e91",
@@ -13065,8 +12900,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Xianyun",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1510-Xianyun.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1510-Xianyun.webp"
           },
           {
             "id": "1511",
@@ -13074,7 +12908,6 @@ var NYX_DB = {
             "title": "\"Skyborne Arbiter\" Chasca",
             "description": "Grace and power resound, feathered wings skybound.",
             "sourceText": "Reward for inviting Chasca to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1511",
             "localizedNames": {
               "en": "Chasca",
               "zh": "\u6070\u65af\u5361",
@@ -13170,8 +13003,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Chasca",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1511-Chasca.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1511-Chasca.webp"
           },
           {
             "id": "1512",
@@ -13179,7 +13011,6 @@ var NYX_DB = {
             "title": "\"Spring Woven From Jade\" Lan Yan",
             "description": "The brilliant swallow bears branches of joy to fill the home.",
             "sourceText": "Reward for inviting Lan Yan to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1512",
             "localizedNames": {
               "en": "Lan Yan",
               "zh": "\u84dd\u781a",
@@ -13261,8 +13092,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Lan Yan",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1512-Lan Yan.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1512-Lan Yan.webp"
           },
           {
             "id": "1513",
@@ -13270,7 +13100,6 @@ var NYX_DB = {
             "title": "\"Analytical Harmony\" Shikanoin Heizou",
             "description": "The heavenly robes, though seamlessly sewn, still fear the winds that with coldness are blown.",
             "sourceText": "Reward for inviting Shikanoin Heizou to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1513",
             "localizedNames": {
               "en": "Shikanoin Heizou",
               "zh": "\u9e7f\u91ce\u9662\u5e73\u85cf",
@@ -13368,8 +13197,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Shikanoin Heizou",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1513-Shikanoin Heizou.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1513-Shikanoin Heizou.webp"
           },
           {
             "id": "1514",
@@ -13377,7 +13205,6 @@ var NYX_DB = {
             "title": "\"Embrace of Enchanting Dreams\" Yumemizuki Mizuki",
             "description": "Clouds of doubt depart, moonlight amidst dreams unveiled, to grace dreamers' hearts.",
             "sourceText": "Reward for inviting Yumemizuki Mizuki to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1514",
             "localizedNames": {
               "en": "Yumemizuki Mizuki",
               "zh": "\u68a6\u89c1\u6708\u745e\u5e0c",
@@ -13468,8 +13295,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Yumemizuki Mizuki",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1514-Yumemizuki Mizuki.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1514-Yumemizuki Mizuki.webp"
           },
           {
             "id": "1515",
@@ -13477,7 +13303,6 @@ var NYX_DB = {
             "title": "\"In the Wake of Wandering Winds\" Ifa",
             "description": "Rescue rapid as a raid.",
             "sourceText": "Reward for inviting Ifa to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1515",
             "localizedNames": {
               "en": "Ifa",
               "zh": "\u4f0a\u6cd5",
@@ -13559,8 +13384,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Ifa",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1515-Ifa.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1515-Ifa.webp"
           },
           {
             "id": "1516",
@@ -13568,7 +13392,6 @@ var NYX_DB = {
             "title": "\"Windthreading Shadow\" Jahoda",
             "description": "Persistent thought brings light to even the deepest secrets.",
             "sourceText": "Reward for inviting Jahoda to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1516",
             "localizedNames": {
               "en": "Jahoda",
               "zh": "\u96c5\u73c2\u8fbe",
@@ -13721,8 +13544,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Jahoda",
-            "art": null,
-            "source": "Nanoka"
+            "art": null
           },
           {
             "id": "1601",
@@ -13730,7 +13552,6 @@ var NYX_DB = {
             "title": "\"Eclipsing Star\" Ningguang",
             "description": "The greatest secret she keeps is that she keeps a great many of Liyue's secrets.",
             "sourceText": "Reward for inviting Ningguang to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1601",
             "localizedNames": {
               "en": "Ningguang",
               "zh": "\u51dd\u5149",
@@ -13807,8 +13628,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Ningguang",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1601-Ningguang.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1601-Ningguang.webp"
           },
           {
             "id": "1602",
@@ -13816,7 +13636,6 @@ var NYX_DB = {
             "title": "\"Chivalric Blossom\" Noelle",
             "description": "You can leave arranging the table to her \u2014 really, you can.",
             "sourceText": "Reward for inviting Noelle to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1602",
             "localizedNames": {
               "en": "Noelle",
               "zh": "\u8bfa\u827e\u5c14",
@@ -13905,8 +13724,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Noelle",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1602-Noelle.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1602-Noelle.webp"
           },
           {
             "id": "1603",
@@ -13914,7 +13732,6 @@ var NYX_DB = {
             "title": "\"Vago Mundo\" Zhongli",
             "description": "A hidden gemstone can illuminate the whole earth, bright and unrivaled as a star.",
             "sourceText": "Reward for inviting Zhongli to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1603",
             "localizedNames": {
               "en": "Zhongli",
               "zh": "\u949f\u79bb",
@@ -14026,8 +13843,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Zhongli",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1603-Zhongli.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1603-Zhongli.webp"
           },
           {
             "id": "1604",
@@ -14035,7 +13851,6 @@ var NYX_DB = {
             "title": "\"Kreideprinz\" Albedo",
             "description": "Nigredo and calx, rubedo and citrinitas.",
             "sourceText": "Reward for inviting Albedo to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1604",
             "localizedNames": {
               "en": "Albedo",
               "zh": "\u963f\u8d1d\u591a",
@@ -14134,8 +13949,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Albedo",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1604-Albedo.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1604-Albedo.webp"
           },
           {
             "id": "1605",
@@ -14143,7 +13957,6 @@ var NYX_DB = {
             "title": "\"Hanamizaka Heroics\" Arataki Itto",
             "description": "Arataki \"The Ultimate TCG Champion\" Itto",
             "sourceText": "Reward for inviting Arataki Itto to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1605",
             "localizedNames": {
               "en": "Arataki Itto",
               "zh": "\u8352\u6cf7\u4e00\u6597",
@@ -14259,8 +14072,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Arataki Itto",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1605-Arataki Itto.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1605-Arataki Itto.webp"
           },
           {
             "id": "1606",
@@ -14268,7 +14080,6 @@ var NYX_DB = {
             "title": "\"Canine Warrior\" Gorou",
             "description": "The leader of the pack, leading the soldiers onward!",
             "sourceText": "Reward for inviting Gorou to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1606",
             "localizedNames": {
               "en": "Gorou",
               "zh": "\u4e94\u90ce",
@@ -14377,8 +14188,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Gorou",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1606-Gorou.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1606-Gorou.webp"
           },
           {
             "id": "1607",
@@ -14386,7 +14196,6 @@ var NYX_DB = {
             "title": "\"Stage Lucida\" Yun Jin",
             "description": "Elegance on the stage, in decorous harmony.",
             "sourceText": "Reward for inviting Yun Jin to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1607",
             "localizedNames": {
               "en": "Yun Jin",
               "zh": "\u4e91\u5807",
@@ -14501,8 +14310,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Yun Jin",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1607-Yun Jin.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1607-Yun Jin.webp"
           },
           {
             "id": "1608",
@@ -14510,7 +14318,6 @@ var NYX_DB = {
             "title": "Helm of the Radiant Rose: Navia",
             "description": "\"The Soaring Yellow Rose.\"",
             "sourceText": "Reward for inviting Navia to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1608",
             "localizedNames": {
               "en": "Navia",
               "zh": "\u5a1c\u7ef4\u5a05",
@@ -14646,8 +14453,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Navia",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1608-Navia.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1608-Navia.webp"
           },
           {
             "id": "1609",
@@ -14655,7 +14461,6 @@ var NYX_DB = {
             "title": "\"The Thundering Seamstress\" Chiori",
             "description": "Couturiere of Countless Colors",
             "sourceText": "Reward for inviting Chiori to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1609",
             "localizedNames": {
               "en": "Chiori",
               "zh": "\u5343\u7ec7",
@@ -14719,8 +14524,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Chiori",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1609-Chiori.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1609-Chiori.webp"
           },
           {
             "id": "1610",
@@ -14728,7 +14532,6 @@ var NYX_DB = {
             "title": "\"Mottled Gold Yet Unsmelted\" Kachina",
             "description": "Wrought of tears and mettle.",
             "sourceText": "Reward for inviting Kachina to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1610",
             "localizedNames": {
               "en": "Kachina",
               "zh": "\u5361\u9f50\u5a1c",
@@ -14836,8 +14639,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Kachina",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1610-Kachina.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1610-Kachina.webp"
           },
           {
             "id": "1611",
@@ -14845,7 +14647,6 @@ var NYX_DB = {
             "title": "\"Ardent Flames Forge the Soul\" Xilonen",
             "description": "The peaks resound, their golden veins gleaming.",
             "sourceText": "Reward for inviting Xilonen to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1611",
             "localizedNames": {
               "en": "Xilonen",
               "zh": "\u5e0c\u8bfa\u5b81",
@@ -14978,8 +14779,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Xilonen",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1611-Xilonen.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1611-Xilonen.webp"
           },
           {
             "id": "1701",
@@ -14987,7 +14787,6 @@ var NYX_DB = {
             "title": "\"Sprout of Rebirth\" Collei",
             "description": "\"'Shouting the name of your card loudly will increase its power many-fold'... You've got to be kidding, right?\"",
             "sourceText": "Reward for inviting Collei to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1701",
             "localizedNames": {
               "en": "Collei",
               "zh": "\u67ef\u83b1",
@@ -15058,8 +14857,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Collei",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1701-Collei.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1701-Collei.webp"
           },
           {
             "id": "1702",
@@ -15067,7 +14865,6 @@ var NYX_DB = {
             "title": "\"Verdant Strider\" Tighnari",
             "description": "From a certain perspective, experience does not hold parity with wisdom.",
             "sourceText": "Reward for inviting Tighnari to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1702",
             "localizedNames": {
               "en": "Tighnari",
               "zh": "\u63d0\u7eb3\u91cc",
@@ -15154,8 +14951,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Tighnari",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1702-Tighnari.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1702-Tighnari.webp"
           },
           {
             "id": "1703",
@@ -15163,7 +14959,6 @@ var NYX_DB = {
             "title": "\"Physic of Purity\" Nahida",
             "description": "The panacea brings purity, and from the palace depths is spring renewed.",
             "sourceText": "Reward for inviting Nahida to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1703",
             "localizedNames": {
               "en": "Nahida",
               "zh": "\u7eb3\u897f\u59b2",
@@ -15270,8 +15065,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Nahida",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1703-Nahida.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1703-Nahida.webp"
           },
           {
             "id": "1704",
@@ -15279,7 +15073,6 @@ var NYX_DB = {
             "title": "\"Burgeoning Grace\" Yaoyao",
             "description": "An adeptal constitution.",
             "sourceText": "Reward for inviting Yaoyao to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1704",
             "localizedNames": {
               "en": "Yaoyao",
               "zh": "\u7476\u7476",
@@ -15362,8 +15155,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Yaoyao",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1704-Yaoyao.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1704-Yaoyao.webp"
           },
           {
             "id": "1705",
@@ -15371,7 +15163,6 @@ var NYX_DB = {
             "title": "\"Beyond Mortality\" Baizhu",
             "description": "Living with many maladies, where will one find a cure?",
             "sourceText": "Reward for inviting Baizhu to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1705",
             "localizedNames": {
               "en": "Baizhu",
               "zh": "\u767d\u672f",
@@ -15464,8 +15255,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Baizhu",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1705-Baizhu.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1705-Baizhu.webp"
           },
           {
             "id": "1706",
@@ -15473,7 +15263,6 @@ var NYX_DB = {
             "title": "\"Admonishing Instruction\" Alhaitham",
             "description": "Learning, thinking, and taking care of business.",
             "sourceText": "Reward for inviting Alhaitham to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1706",
             "localizedNames": {
               "en": "Alhaitham",
               "zh": "\u827e\u5c14\u6d77\u68ee",
@@ -15578,8 +15367,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Alhaitham",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1706-Alhaitham.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1706-Alhaitham.webp"
           },
           {
             "id": "1707",
@@ -15587,7 +15375,6 @@ var NYX_DB = {
             "title": "\"Cat Upon the Eaves\" Kirara",
             "description": "On tails twain and padded feet, to all doors shall she deliver.",
             "sourceText": "Reward for inviting Kirara to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1707",
             "localizedNames": {
               "en": "Kirara",
               "zh": "\u7eee\u826f\u826f",
@@ -15680,8 +15467,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Kirara",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1707-Kirara.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1707-Kirara.webp"
           },
           {
             "id": "1708",
@@ -15689,7 +15475,6 @@ var NYX_DB = {
             "title": "\"Empyrean Reflection\" Kaveh",
             "description": "Knowledge of comprehension, benevolence, and aesthetics.",
             "sourceText": "Reward for inviting Kaveh to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1708",
             "localizedNames": {
               "en": "Kaveh",
               "zh": "\u5361\u7ef4",
@@ -15876,8 +15661,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Kaveh",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1708-Kaveh.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1708-Kaveh.webp"
           },
           {
             "id": "1709",
@@ -15885,7 +15669,6 @@ var NYX_DB = {
             "title": "\"Turnfire Hunt\" Kinich",
             "description": "Fulfiller of Commissions, Flame Bearer of the Canopy.",
             "sourceText": "Reward for inviting Kinich to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1709",
             "localizedNames": {
               "en": "Kinich",
               "zh": "\u57fa\u5c3c\u5947",
@@ -15991,8 +15774,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Kinich",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1709-Kinich.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1709-Kinich.webp"
           },
           {
             "id": "1710",
@@ -16000,7 +15782,6 @@ var NYX_DB = {
             "title": "\"A Thousand Scents Traced\" Emilie",
             "description": "Like fragrance fading, like mist dissipating.",
             "sourceText": "Reward for inviting Emilie to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1710",
             "localizedNames": {
               "en": "Emilie",
               "zh": "\u827e\u6885\u8389\u57c3",
@@ -16142,8 +15923,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Emilie",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1710-Emilie.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1710-Emilie.webp"
           },
           {
             "id": "1711",
@@ -16151,7 +15931,6 @@ var NYX_DB = {
             "title": "\"Evermoon's Sacrament Song\" Lauma",
             "description": "The mirrored moon fractures in the water.",
             "sourceText": "Reward for inviting Lauma to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1711",
             "localizedNames": {
               "en": "Lauma",
               "zh": "\u83c8\u4e4c\u739b",
@@ -16274,8 +16053,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Lauma",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1711-Lauma.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1711-Lauma.webp"
           },
           {
             "id": "1712",
@@ -16283,7 +16061,6 @@ var NYX_DB = {
             "title": "\"Secret Beneath the Sands\" Nefer",
             "description": "Seeking hidden secrets, to know all hearts.",
             "sourceText": "Reward for inviting Nefer to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/1712",
             "localizedNames": {
               "en": "Nefer",
               "zh": "\u5948\u8299\u5c14",
@@ -16444,8 +16221,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": "Nefer",
-            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1712-Nefer.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/character cards/assets/1712-Nefer.webp"
           }
         ],
         "otherCards": [
@@ -16455,7 +16231,6 @@ var NYX_DB = {
             "title": "\"A Blessing From 'M'\"",
             "description": "\"Go forth and witness this world, my child... Make sure to be nice to everyone...\\nYou'll meet good friends one day, I'm sure of it... That is my wish for your future.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332054",
             "localizedNames": {
               "en": "\"A Blessing From 'M'\"",
               "zh": "\u300c\u9b54\u5973M\u7684\u795d\u798f\u300d",
@@ -16481,8 +16256,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332054-_A Blessing From 'M'_.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332054-_A Blessing From 'M'_.webp"
           },
           {
             "id": "332059",
@@ -16490,7 +16264,6 @@ var NYX_DB = {
             "title": "\"An Adventure Through the Morning Mist\"",
             "description": "\"...I won't let you get it! Because we're going to stop your plan, right here!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332059",
             "localizedNames": {
               "en": "\"An Adventure Through the Morning Mist\"",
               "zh": "\u300c\u7a7f\u8d8a\u6668\u972d\u7684\u5192\u9669\u300d",
@@ -16527,8 +16300,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332059-_An Adventure Through the Morning Mist_.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332059-_An Adventure Through the Morning Mist_.webp"
           },
           {
             "id": "321028",
@@ -16536,7 +16308,6 @@ var NYX_DB = {
             "title": "\"Collective of Plenty\"",
             "description": "A tribe that prizes strength and muscular physiques, it's said that nearly every member regularly works out.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321028",
             "localizedNames": {
               "en": "\"Collective of Plenty\"",
               "zh": "\u300c\u6c83\u9646\u4e4b\u90a6\u300d",
@@ -16569,8 +16340,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321028-_Collective of Plenty_.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321028-_Collective of Plenty_.webp"
           },
           {
             "id": "321026",
@@ -16578,7 +16348,6 @@ var NYX_DB = {
             "title": "\"Flower-Feather Clan\"",
             "description": "A tribe of Qucusaur Riders \u2014 swift and aloof \u2014 who venerate the Wayob who dictate the flow of heat and scorching winds...\\nEvery day, members of the tribe fly with the Qucusaurs, patrolling their territory from the air.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321026",
             "localizedNames": {
               "en": "\"Flower-Feather Clan\"",
               "zh": "\u300c\u82b1\u7fbd\u4f1a\u300d",
@@ -16609,8 +16378,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321026-_Flower-Feather Clan_.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321026-_Flower-Feather Clan_.webp"
           },
           {
             "id": "212111",
@@ -16618,7 +16386,6 @@ var NYX_DB = {
             "title": "Furina: Hear Me \u2014 Let Us Raise the Chalice of Love!",
             "description": "\"Let the world come alive, hehe!\"",
             "sourceText": "Reward for inviting Furina to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212111",
             "localizedNames": {
               "en": "\"Hear Me \u2014 Let Us Raise the Chalice of Love!\"",
               "zh": "\u300c\u8bf8\u541b\u542c\u6211\u9882\uff0c\u5171\u4e3e\u7231\u4e4b\u676f\uff01\u300d",
@@ -16658,8 +16425,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212111-_Hear Me \u2014 Let Us Raise the Chalice of Love!_.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212111-_Hear Me \u2014 Let Us Raise the Chalice of Love!_.webp"
           },
           {
             "id": "213151",
@@ -16667,7 +16433,6 @@ var NYX_DB = {
             "title": "Mavuika: \"Humanity's Name\" Unfettered",
             "description": "\"Light of the blazing sun!\"",
             "sourceText": "Reward for inviting Mavuika to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213151",
             "localizedNames": {
               "en": "\"Humanity's Name\" Unfettered",
               "zh": "\u300c\u4eba\u4e4b\u540d\u300d\u89e3\u653e",
@@ -16700,8 +16465,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213151-_Humanity's Name_ Unfettered.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213151-_Humanity's Name_ Unfettered.webp"
           },
           {
             "id": "332036",
@@ -16709,7 +16473,6 @@ var NYX_DB = {
             "title": "\"I'd Rather Lose Money Myself...\"",
             "description": "\"...than see that rascal make some!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332036",
             "localizedNames": {
               "en": "\"I'd Rather Lose Money Myself...\"",
               "zh": "\u300c\u770b\u5230\u90a3\u5c0f\u5b50\u6323\u94b1\u2026\u300d",
@@ -16752,8 +16515,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332036-_I'd Rather Lose Money Myself..._.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332036-_I'd Rather Lose Money Myself..._.webp"
           },
           {
             "id": "321027",
@@ -16761,7 +16523,6 @@ var NYX_DB = {
             "title": "\"Masters of the Night-Wind\"",
             "description": "A tribe renowned for its mastery of the arcane arts. It is said that in their domain, one can listen to the echoes of the silent kingdom of the night.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321027",
             "localizedNames": {
               "en": "\"Masters of the Night-Wind\"",
               "zh": "\u300c\u70df\u8c1c\u4e3b\u300d",
@@ -16792,8 +16553,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321027-_Masters of the Night-Wind_.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321027-_Masters of the Night-Wind_.webp"
           },
           {
             "id": "217111",
@@ -16801,7 +16561,6 @@ var NYX_DB = {
             "title": "Lauma: \"O Lips, Weave Me Songs and Psalms\"",
             "description": "\"With one heart, we pray.\"",
             "sourceText": "Reward for inviting Lauma to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/217111",
             "localizedNames": {
               "en": "\"O Lips, Weave Me Songs and Psalms\"",
               "zh": "\u300c\u5507\u554a\uff0c\u4e3a\u6211\u7eba\u51fa\u6b4c\u4e0e\u541f\u54e6\u300d",
@@ -16836,8 +16595,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217111-_O Lips, Weave Me Songs and Psalms_.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217111-_O Lips, Weave Me Songs and Psalms_.webp"
           },
           {
             "id": "226041",
@@ -16845,7 +16603,6 @@ var NYX_DB = {
             "title": "\"Once Stood Against the Tide of Dark Waters Like Bedrock...\"",
             "description": "\"And in the realm's darkest hour, those who had to protect their homeland had little room to be fussy anyway.\"",
             "sourceText": "Reward for accepting the Tavern Challenge against Black Serpent Knight: Rockbreaker Ax at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/226041",
             "localizedNames": {
               "en": "\"Once Stood Against the Tide of Dark Waters Like Bedrock...\"",
               "zh": "\u300c\u66fe\u5982\u78d0\u77f3\u62b5\u6321\u9ed1\u6c34\u5954\u6d41\u2026\u300d",
@@ -16883,8 +16640,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/226041-_Once Stood Against the Tide of Dark Waters Like Bedrock..._.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/226041-_Once Stood Against the Tide of Dark Waters Like Bedrock..._.webp"
           },
           {
             "id": "225041",
@@ -16892,7 +16648,6 @@ var NYX_DB = {
             "title": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
             "description": "\"When a kingdom's glory has all but faded, warriors who still hold honor in their hearts often find themselves led, by different roads, to the same choice...\"",
             "sourceText": "Reward for accepting the Tavern Challenge against Black Serpent Knight: Windcutter at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/225041",
             "localizedNames": {
               "en": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
               "zh": "\u300c\u66fe\u5982\u5b64\u98ce\u963b\u9694\u9ed1\u707e\u8513\u5ef6\u2026\u300d",
@@ -16932,8 +16687,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/225041-_Once, the Lone Wind That Kept the Dark Calamity at Bay..._.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/225041-_Once, the Lone Wind That Kept the Dark Calamity at Bay..._.webp"
           },
           {
             "id": "321025",
@@ -16941,7 +16695,6 @@ var NYX_DB = {
             "title": "\"People of the Springs\"",
             "description": "Natlan's best vacation destination, and a happy home for the Koholasaurus and hot spring enthusiasts!",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321025",
             "localizedNames": {
               "en": "\"People of the Springs\"",
               "zh": "\u300c\u6d41\u6cc9\u4e4b\u4f17\u300d",
@@ -16973,8 +16726,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321025-_People of the Springs_.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321025-_People of the Springs_.webp"
           },
           {
             "id": "332055",
@@ -16982,7 +16734,6 @@ var NYX_DB = {
             "title": "\"Revelrous Beats\"",
             "description": "\"Come on! Follow the beat!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332055",
             "localizedNames": {
               "en": "\"Revelrous Beats\"",
               "zh": "\u300c\u72c2\u6b22\u8282\u594f\u300d",
@@ -17012,8 +16763,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332055-_Revelrous Beats_.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332055-_Revelrous Beats_.webp"
           },
           {
             "id": "321024",
@@ -17021,7 +16771,6 @@ var NYX_DB = {
             "title": "\"Scions of the Canopy\"",
             "description": "\"Legend has it that the warriors of the Scions of the Canopy, along with one hundred Yumkasaurs, spent a hundred days and a hundred ropes moving the 'Obsidian Totem Pole,' the symbol of their faith, to its current location.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321024",
             "localizedNames": {
               "en": "\"Scions of the Canopy\"",
               "zh": "\u300c\u60ac\u6728\u4eba\u300d",
@@ -17052,8 +16801,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321024-_Scions of the Canopy_.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321024-_Scions of the Canopy_.webp"
           },
           {
             "id": "311308",
@@ -17061,7 +16809,6 @@ var NYX_DB = {
             "title": "Melussistance! \"Ultimate Overlord's Mega Magic Sword\"",
             "description": "\"... Uh, what? A cheap cardboard claymore? No, no, no, this is... Well, it's... the Ultimate Overlord's Mega Magic Sword, once used to triumph over the Crab Emperor!\"\\nAfter some discussion, the Melusines reached a consensus. This, the mightiest sword in Merusea Village, that had shone so illustriously in the shadowed mists of the past, should be given to an unparalleled hero, as a memorial to their friendship.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311308",
             "localizedNames": {
               "en": "\"Ultimate Overlord's Mega Magic Sword\"",
               "zh": "\u300c\u7a76\u6781\u9738\u738b\u8d85\u7ea7\u9b54\u5251\u300d",
@@ -17089,8 +16836,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311308-_Ultimate Overlord's Mega Magic Sword_.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311308-_Ultimate Overlord's Mega Magic Sword_.webp"
           },
           {
             "id": "332065",
@@ -17098,7 +16844,6 @@ var NYX_DB = {
             "title": "\"Witch's Homework\"",
             "description": "\"Rather than having a deus ex machina jump in at the very end of the story, it's much easier to accept if the foreshadowing is laid out early on...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332065",
             "localizedNames": {
               "en": "\"Witch's Homework\"",
               "zh": "\u300c\u9b54\u5973\u7684\u8bfe\u4e1a\u300d",
@@ -17131,8 +16876,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null,
-            "source": "Nanoka"
+            "art": null
           },
           {
             "id": "215081",
@@ -17140,7 +16884,6 @@ var NYX_DB = {
             "title": "Lynette: A Cold Blade Like a Shadow",
             "description": "\"Step on up!\"",
             "sourceText": "Reward for inviting Lynette to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215081",
             "localizedNames": {
               "en": "A Cold Blade Like a Shadow",
               "zh": "\u5982\u5f71\u6d41\u9732\u7684\u51b7\u5203",
@@ -17175,8 +16918,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215081-A Cold Blade Like a Shadow.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215081-A Cold Blade Like a Shadow.webp"
           },
           {
             "id": "214151",
@@ -17184,7 +16926,6 @@ var NYX_DB = {
             "title": "Varesa: A Hero of Justice's Triumph",
             "description": "\"Ultimate flying kick!\"",
             "sourceText": "Reward for inviting Varesa to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214151",
             "localizedNames": {
               "en": "A Hero of Justice's Triumph",
               "zh": "\u6b63\u4e49\u82f1\u96c4\u7684\u51ef\u65cb",
@@ -17222,8 +16963,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214151-A Hero of Justice's Triumph.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214151-A Hero of Justice's Triumph.webp"
           },
           {
             "id": "213111",
@@ -17231,7 +16971,6 @@ var NYX_DB = {
             "title": "Thoma: A Subordinate's Skills",
             "description": "\"It looks like I'm responsible for another smile.\"",
             "sourceText": "Reward for inviting Thoma to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213111",
             "localizedNames": {
               "en": "A Subordinate's Skills",
               "zh": "\u50da\u4f50\u7684\u624d\u5de7",
@@ -17289,8 +17028,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213111-A Subordinate's Skills.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213111-A Subordinate's Skills.webp"
           },
           {
             "id": "211101",
@@ -17298,7 +17036,6 @@ var NYX_DB = {
             "title": "Charlotte: A Summation of Interest",
             "description": "\"Breaking news!\"",
             "sourceText": "Reward for inviting Charlotte to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211101",
             "localizedNames": {
               "en": "A Summation of Interest",
               "zh": "\u4ee5\u6709\u8da3\u76f8\u5173\u4e3a\u8981\u4e49",
@@ -17347,8 +17084,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211101-A Summation of Interest.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211101-A Summation of Interest.webp"
           },
           {
             "id": "311104",
@@ -17356,7 +17092,6 @@ var NYX_DB = {
             "title": "A Thousand Nights' Dawnsong: A Thousand Floating Dreams",
             "description": "\"There is an appointed time for all things to live and die, just like the ceaseless cycles of night and dawn.\"\\n\"May the stories within this lamp grant you dreams worth looking forward to.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311104",
             "localizedNames": {
               "en": "A Thousand Floating Dreams",
               "zh": "\u5343\u591c\u6d6e\u68a6",
@@ -17384,8 +17119,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311104-A Thousand Floating Dreams.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311104-A Thousand Floating Dreams.webp"
           },
           {
             "id": "227021",
@@ -17393,7 +17127,6 @@ var NYX_DB = {
             "title": "Guardian of Apep's Oasis: A Thousand Young",
             "description": "Apep once walked through an ocean of fragrant grass, gigantic trees, and unimaginably long vines like a fish with its many offspring swimming through the sea. Finally, the grass, trees, and vines withered and turned to dust, while countless beings as minute as grains of gravel built a fragile kingdom upon Apep's land.\\nApep and its offspring made the sea of sand rage like boiling water and swept houses down as if they were falling leaves. Until the day when the new Lord of Sand reconciled with the king who lost their homeland, the dunes under the sun belonged to humanity, while the dragon's oasis remained in the hearts of the dragons.\\nApep shared the knowledge of evolution with its many offspring, because spreading knowledge ensures dissemination while the stagnation of hoarded wisdom courted only decay. Till the day the promise between it and the Lord of Sand was finally attained, with ultimate wisdom claimed. Henceforth, it reaped only sights of oblivion, of an endless calamity...",
             "sourceText": "Reward for accepting the Tavern Challenge against the Guardian of Apep's Oasis at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/227021",
             "localizedNames": {
               "en": "A Thousand Young",
               "zh": "\u4e07\u5343\u5b50\u55e3",
@@ -17446,8 +17179,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/227021-A Thousand Young.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/227021-A Thousand Young.webp"
           },
           {
             "id": "224011",
@@ -17455,7 +17187,6 @@ var NYX_DB = {
             "title": "Electro Hypostasis: Absorbing Prism",
             "description": "\"Here's our chance!\"\\n\"Hey, it's on our side!\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Electro Hypostasis at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/224011",
             "localizedNames": {
               "en": "Absorbing Prism",
               "zh": "\u6c72\u80fd\u68f1\u6676",
@@ -17500,8 +17231,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224011-Absorbing Prism.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224011-Absorbing Prism.webp"
           },
           {
             "id": "332042",
@@ -17509,7 +17239,6 @@ var NYX_DB = {
             "title": "Abundant Phlogiston",
             "description": "A special high-temperature thermal energy that can be found throughout Natlan. It comes in all shapes and sizes, and has many wondrous uses...\\nAfter Nightsoul points are fully depleted, warriors will switch to consuming Phlogiston to maintain their Nightsoul's Blessing.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332042",
             "localizedNames": {
               "en": "Abundant Phlogiston",
               "zh": "\u71c3\u7d20\u5145\u76c8",
@@ -17533,8 +17262,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332042-Abundant Phlogiston.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332042-Abundant Phlogiston.webp"
           },
           {
             "id": "2203",
@@ -17542,7 +17270,6 @@ var NYX_DB = {
             "title": "Abyss Herald: Wicked Torrents",
             "description": "The world shall be severed, and all shall be obliterated.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Abyss Herald: Wicked Torrents",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2203",
             "localizedNames": {
               "en": "Abyss Herald: Wicked Torrents",
               "zh": "\u6df1\u6e0a\u4f7f\u5f92\u00b7\u6fc0\u6d41",
@@ -17666,8 +17393,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2203-Abyss Herald_ Wicked Torrents.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2203-Abyss Herald_ Wicked Torrents.webp"
           },
           {
             "id": "2302",
@@ -17675,7 +17401,6 @@ var NYX_DB = {
             "title": "Abyss Lector: Fathomless Flames",
             "description": "From chapters of canon revealed come much heeded admonishments.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Abyss Lector: Fathomless Flames",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2302",
             "localizedNames": {
               "en": "Abyss Lector: Fathomless Flames",
               "zh": "\u6df1\u6e0a\u548f\u8005\u00b7\u6e0a\u706b",
@@ -17779,8 +17504,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2302-Abyss Lector_ Fathomless Flames.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2302-Abyss Lector_ Fathomless Flames.webp"
           },
           {
             "id": "2406",
@@ -17788,7 +17512,6 @@ var NYX_DB = {
             "title": "Abyss Lector: Violet Lightning",
             "description": "Praise be unto the Abyss, the Wisdom of Corrosion.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Abyss Lector: Violet Lightning",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2406",
             "localizedNames": {
               "en": "Abyss Lector: Violet Lightning",
               "zh": "\u6df1\u6e0a\u548f\u8005\u00b7\u7d2b\u7535",
@@ -17889,8 +17612,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2406-Abyss Lector_ Violet Lightning.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2406-Abyss Lector_ Violet Lightning.webp"
           },
           {
             "id": "212041",
@@ -17898,7 +17620,6 @@ var NYX_DB = {
             "title": "Tartaglia: Hydrospout",
             "description": "A reckless yet precise blow.",
             "sourceText": "Reward for inviting Tartaglia to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212041",
             "localizedNames": {
               "en": "Abyssal Mayhem: Hydrospout",
               "zh": "\u6df1\u6e0a\u4e4b\u707e\u00b7\u51dd\u6c34\u76db\u653e",
@@ -17974,8 +17695,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212041-Abyssal Mayhem_ Hydrospout.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212041-Abyssal Mayhem_ Hydrospout.webp"
           },
           {
             "id": "332015",
@@ -17983,7 +17703,6 @@ var NYX_DB = {
             "title": "Abyssal Summons",
             "description": "\"Yaya ika!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332015",
             "localizedNames": {
               "en": "Abyssal Summons",
               "zh": "\u6df1\u6e0a\u7684\u547c\u5524",
@@ -18013,8 +17732,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332015-Abyssal Summons.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332015-Abyssal Summons.webp"
           },
           {
             "id": "213171",
@@ -18022,7 +17740,6 @@ var NYX_DB = {
             "title": "Durin: Adamah's Redemption",
             "description": "A turning point in fate.",
             "sourceText": "Reward for inviting Durin to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213171",
             "localizedNames": {
               "en": "Adamah's Redemption",
               "zh": "\u7ea2\u571f\u4e4b\u9006",
@@ -18057,8 +17774,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null,
-            "source": "Nanoka"
+            "art": null
           },
           {
             "id": "333002",
@@ -18066,7 +17782,6 @@ var NYX_DB = {
             "title": "Adeptus' Temptation",
             "description": "It is said that this name was derived from this dish's ability to tempt an adeptus to return to the mortal realm. But that begs the question... Which adeptus was that?",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333002",
             "localizedNames": {
               "en": "Adeptus' Temptation",
               "zh": "\u4ed9\u8df3\u5899",
@@ -18093,8 +17808,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333002-Adeptus' Temptation.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333002-Adeptus' Temptation.webp"
           },
           {
             "id": "312001",
@@ -18102,7 +17816,6 @@ var NYX_DB = {
             "title": "Trail-Tramper: Adventurer's Bandana",
             "description": "\"All the secrets of the stars and the abyss await discovery by mere mortals.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312001",
             "localizedNames": {
               "en": "Adventurer's Bandana",
               "zh": "\u5192\u9669\u5bb6\u5934\u5e26",
@@ -18129,8 +17842,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312001-Adventurer's Bandana.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312001-Adventurer's Bandana.webp"
           },
           {
             "id": "321031",
@@ -18138,7 +17850,6 @@ var NYX_DB = {
             "title": "Adventurers' Guild",
             "description": "They boldly venture \"up to the stars, down to the abyss,\" or so their motto would have you believe. In truth, they take on jobs ranging from finding kittens to exploring domains. Well, you cannot afford to gaze at the stars or the abyss without an honest job.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321031",
             "localizedNames": {
               "en": "Adventurers' Guild",
               "zh": "\u5192\u9669\u5bb6\u534f\u4f1a",
@@ -18174,8 +17885,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321031-Adventurers' Guild.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321031-Adventurers' Guild.webp"
           },
           {
             "id": "213141",
@@ -18183,7 +17893,6 @@ var NYX_DB = {
             "title": "Arlecchino: All Reprisals and Arrears, Mine to Bear",
             "description": "\"Everlasting as the moon.\"",
             "sourceText": "Reward for inviting Arlecchino to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213141",
             "localizedNames": {
               "en": "All Reprisals and Arrears, Mine to Bear",
               "zh": "\u6240\u6709\u7684\u4ec7\u4e0e\u503a\u7686\u7531\u6211\u507f\u2026",
@@ -18227,8 +17936,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213141-All Reprisals and Arrears, Mine to Bear.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213141-All Reprisals and Arrears, Mine to Bear.webp"
           },
           {
             "id": "217051",
@@ -18236,7 +17944,6 @@ var NYX_DB = {
             "title": "\"All Things Are of the Earth\" Baizhu",
             "description": "\"If you can perceive the heavens and the earth, defend against malignant auras with the flow of qi, and keep your mind clear, surely nothing can hinder you.\"",
             "sourceText": "Reward for inviting Baizhu to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/217051",
             "localizedNames": {
               "en": "All Things Are of the Earth",
               "zh": "\u5728\u5730\u4e3a\u5316",
@@ -18286,8 +17993,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217051-All Things Are of the Earth.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217051-All Things Are of the Earth.webp"
           },
           {
             "id": "2204",
@@ -18295,7 +18001,6 @@ var NYX_DB = {
             "title": "Cryptic Creature: All-Devouring Narwhal",
             "description": "In the most fantastical of fables, or perhaps in the most rabid of ravings, the true stars in the depths of cosmos are just as full of life as on Teyvat, while the universe itself is akin to an ocean.\\nPerhaps the universe's infiltration of Teyvat has never ceased, and perhaps the drawing of borders around this world was the work of a higher will, meant to protect it.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the All-Devouring Narwhal",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2204",
             "localizedNames": {
               "en": "All-Devouring Narwhal",
               "zh": "\u541e\u661f\u4e4b\u9cb8",
@@ -18438,8 +18143,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2204-All-Devouring Narwhal.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2204-All-Devouring Narwhal.webp"
           },
           {
             "id": "212032",
@@ -18447,7 +18151,6 @@ var NYX_DB = {
             "title": "Mona: Celestial Fate",
             "description": "\"If the fortune teller in the story ever took on an apprentice, I doubt she'd subject them to such an absurd test. Yeah, probably not.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212032",
             "localizedNames": {
               "en": "Amaterasu's Step",
               "zh": "\u5929\u6b65\u771f\u539f",
@@ -18488,8 +18191,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null,
-            "source": "Nanoka"
+            "art": null
           },
           {
             "id": "312027",
@@ -18497,7 +18199,6 @@ var NYX_DB = {
             "title": "A Pact Deeply Felt: Amethyst Crown",
             "description": "\"In honor of the eternal oasis and the flourishing Padisarahs, the Lord of Flowers wore an amethyst crown.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312027",
             "localizedNames": {
               "en": "Amethyst Crown",
               "zh": "\u7d2b\u6676\u7684\u82b1\u51a0",
@@ -18532,8 +18233,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312027-Amethyst Crown.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312027-Amethyst Crown.webp"
           },
           {
             "id": "311204",
@@ -18541,7 +18241,6 @@ var NYX_DB = {
             "title": "Strong-Willed: Amos' Bow",
             "description": "\"I dreamt of ocean waves and sand, of lush forests and land.\"\\n\"I dreamt of boars playing in berry bushes, of a towering spire.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311204",
             "localizedNames": {
               "en": "Amos' Bow",
               "zh": "\u963f\u83ab\u65af\u4e4b\u5f13",
@@ -18569,8 +18268,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311204-Amos' Bow.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311204-Amos' Bow.webp"
           },
           {
             "id": "332056",
@@ -18578,7 +18276,6 @@ var NYX_DB = {
             "title": "An Ancient Sacrifice of Sacred Brocade",
             "description": "\"Have you noticed them, seen them? The children who wash their little feet in the streams, fishermen laughing beneath the light of the rainbow's arc, the moonlight trysts of lovebirds, their figures painted silver... Humans, too, are creatures of this land. Just how different is their innocence from ours?\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332056",
             "localizedNames": {
               "en": "An Ancient Sacrifice of Sacred Brocade",
               "zh": "\u7940\u73d1\u5728\u6614\uff0c\u7075\u9526\u6b46\u8bda",
@@ -18612,8 +18309,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332056-An Ancient Sacrifice of Sacred Brocade.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332056-An Ancient Sacrifice of Sacred Brocade.webp"
           },
           {
             "id": "330001",
@@ -18621,7 +18317,6 @@ var NYX_DB = {
             "title": "Ancient Courtyard",
             "description": "\"Is mortal life not an empty shell, as unto a dream?\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/330001",
             "localizedNames": {
               "en": "Ancient Courtyard",
               "zh": "\u65e7\u65f6\u5ead\u56ed",
@@ -18649,8 +18344,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330001-Ancient Courtyard.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330001-Ancient Courtyard.webp"
           },
           {
             "id": "311208",
@@ -18658,7 +18352,6 @@ var NYX_DB = {
             "title": "Wisdom of Mutability: Aqua Simulacra",
             "description": "\"It is in defense of the purity of the source that water's gentleness can also become as blade and bow.\\nConspiracy and coded language are interwoven with ease under the pale blue full moon \u2014 this is the wisdom of water's shape.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311208",
             "localizedNames": {
               "en": "Aqua Simulacra",
               "zh": "\u82e5\u6c34",
@@ -18686,8 +18379,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311208-Aqua Simulacra.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311208-Aqua Simulacra.webp"
           },
           {
             "id": "311503",
@@ -18695,7 +18387,6 @@ var NYX_DB = {
             "title": "Let the Wind Lead: Aquila Favonia",
             "description": "This sword was ever at the hip of the warrior from another land, and it bore witness to her achievement in spreading justice and freedom across Mondstadt.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311503",
             "localizedNames": {
               "en": "Aquila Favonia",
               "zh": "\u98ce\u9e70\u5251",
@@ -18723,8 +18414,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311503-Aquila Favonia.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311503-Aquila Favonia.webp"
           },
           {
             "id": "216051",
@@ -18732,7 +18422,6 @@ var NYX_DB = {
             "title": "Arataki Itto: Arataki Ichiban",
             "description": "Whatever you do, remember to ride the momentum.",
             "sourceText": "Reward for inviting Arataki Itto to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/216051",
             "localizedNames": {
               "en": "Arataki Ichiban",
               "zh": "\u8352\u6cf7\u7b2c\u4e00",
@@ -18772,8 +18461,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216051-Arataki Ichiban.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216051-Arataki Ichiban.webp"
           },
           {
             "id": "312602",
@@ -18781,7 +18469,6 @@ var NYX_DB = {
             "title": "Of Mountains Mighty: Archaic Petra",
             "description": "\"While the Millelith stands guard, evil shall never prevail!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312602",
             "localizedNames": {
               "en": "Archaic Petra",
               "zh": "\u60a0\u53e4\u7684\u78d0\u5ca9",
@@ -18808,8 +18495,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312602-Archaic Petra.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312602-Archaic Petra.webp"
           },
           {
             "id": "332045",
@@ -18817,7 +18503,6 @@ var NYX_DB = {
             "title": "Art of Sleepy Meditation",
             "description": "\"What is the nature of meditation... Hey! Whatever it is, it sure as heck isn't sleeping!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332045",
             "localizedNames": {
               "en": "Art of Sleepy Meditation",
               "zh": "\u56f0\u56f0\u51a5\u60f3\u672f",
@@ -18847,8 +18532,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332045-Art of Sleepy Meditation.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332045-Art of Sleepy Meditation.webp"
           },
           {
             "id": "322028",
@@ -18856,7 +18540,6 @@ var NYX_DB = {
             "title": "Atea",
             "description": "A tribal warrior known as the \"Candlekeeper,\" the pride of the People of the Springs.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322028",
             "localizedNames": {
               "en": "Atea",
               "zh": "\u963f\u4f3d\u5a05",
@@ -18883,8 +18566,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322028-Atea.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322028-Atea.webp"
           },
           {
             "id": "214021",
@@ -18892,7 +18574,6 @@ var NYX_DB = {
             "title": "Razor: Awakening",
             "description": "The hunt is about to begin.",
             "sourceText": "Reward for inviting Razor to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214021",
             "localizedNames": {
               "en": "Awakening",
               "zh": "\u89c9\u9192",
@@ -18927,8 +18608,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214021-Awakening.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214021-Awakening.webp"
           },
           {
             "id": "332050",
@@ -18936,7 +18616,6 @@ var NYX_DB = {
             "title": "Awesome, Bro",
             "description": "\"Alright, come here, sit still, open up, and say 'ah'!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332050",
             "localizedNames": {
               "en": "Awesome, Bro",
               "zh": "\u5f88\u68d2\uff0c\u54e5\u4eec\u3002",
@@ -18966,8 +18645,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332050-Awesome, Bro.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332050-Awesome, Bro.webp"
           },
           {
             "id": "2602",
@@ -18975,7 +18653,6 @@ var NYX_DB = {
             "title": "Ancient Geovishap Ancestor: Azhdaha",
             "description": "The faint rattling of this dragon lord's shackles and his deep, angry growl echo through the bowels of the mountains like memories of a bygone era.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Azhdaha",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2602",
             "localizedNames": {
               "en": "Azhdaha",
               "zh": "\u82e5\u9640\u9f99\u738b",
@@ -19064,8 +18741,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2602-Azhdaha.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2602-Azhdaha.webp"
           },
           {
             "id": "215161",
@@ -19073,7 +18749,6 @@ var NYX_DB = {
             "title": "Jahoda's Backstreet Guile",
             "description": "All mine!",
             "sourceText": "Reward for inviting Jahoda to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215161",
             "localizedNames": {
               "en": "Backstreet Guile",
               "zh": "\u6697\u5df7\u7684\u9ee0\u6167",
@@ -19107,8 +18782,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null,
-            "source": "Nanoka"
+            "art": null
           },
           {
             "id": "311306",
@@ -19116,7 +18790,6 @@ var NYX_DB = {
             "title": "Desert Watch: Beacon of the Reed Sea",
             "description": "\"On top of the ruins of the pool where the regalia of past executions of offenders was excavated, those who had lost the dream of the desert, yet were unwilling to give up their vast sea of sand, gathered.\\nIn the name of the Reed Sea that never existed, they connected with the dream that was promised to them...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311306",
             "localizedNames": {
               "en": "Beacon of the Reed Sea",
               "zh": "\u82c7\u6d77\u4fe1\u6807",
@@ -19144,8 +18817,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311306-Beacon of the Reed Sea.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311306-Beacon of the Reed Sea.webp"
           },
           {
             "id": "226031",
@@ -19153,7 +18825,6 @@ var NYX_DB = {
             "title": "Golden Wolflord: Beastly Corrosion",
             "description": "\"The Wolflord has no name, for it was but one of \"Gold\"'s unintentional creations, and that is precisely why it is obsessed with invading worlds that do not belong to it and making a name for itself.\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Golden Wolflord at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/226031",
             "localizedNames": {
               "en": "Beastly Corrosion",
               "zh": "\u5f02\u517d\u4fb5\u8680",
@@ -19202,8 +18873,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/226031-Beastly Corrosion.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/226031-Beastly Corrosion.webp"
           },
           {
             "id": "217041",
@@ -19211,7 +18881,6 @@ var NYX_DB = {
             "title": "Yaoyao: Beneficent",
             "description": "\"Pain, pain, go away!\"",
             "sourceText": "Reward for inviting Yaoyao to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/217041",
             "localizedNames": {
               "en": "Beneficent",
               "zh": "\u6148\u60e0\u4ec1\u5fc3",
@@ -19264,8 +18933,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217041-Beneficent.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217041-Beneficent.webp"
           },
           {
             "id": "2604",
@@ -19273,7 +18941,6 @@ var NYX_DB = {
             "title": "Black Serpent Knight: Rockbreaker Ax",
             "description": "A guard of some standing in the court, sundering the foes of the nation's rulers using a sword art known as \"Truthseeker.\"",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Black Serpent Knight: Rockbreaker Ax",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2604",
             "localizedNames": {
               "en": "Black Serpent Knight: Rockbreaker Ax",
               "zh": "\u9ed1\u86c7\u9a91\u58eb\u00b7\u6467\u5ca9\u4e4b\u94ba",
@@ -19391,8 +19058,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2604-Black Serpent Knight_ Rockbreaker Ax.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2604-Black Serpent Knight_ Rockbreaker Ax.webp"
           },
           {
             "id": "2504",
@@ -19400,7 +19066,6 @@ var NYX_DB = {
             "title": "Black Serpent Knight: Windcutter",
             "description": "\"A guard of some standing in the court. The Twilight Sword was once one of their number.\"",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Black Serpent Knight: Windcutter",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2504",
             "localizedNames": {
               "en": "Black Serpent Knight: Windcutter",
               "zh": "\u9ed1\u86c7\u9a91\u58eb\u00b7\u65a9\u98ce\u4e4b\u5251",
@@ -19509,8 +19174,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2504-Black Serpent Knight_ Windcutter.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2504-Black Serpent Knight_ Windcutter.webp"
           },
           {
             "id": "332011",
@@ -19518,7 +19182,6 @@ var NYX_DB = {
             "title": "Divine Relic's Installation",
             "description": "\"Hehe... Well now, isn't this finally getting interesting?\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332011",
             "localizedNames": {
               "en": "Blessing of the Divine Relic's Installation",
               "zh": "\u795e\u5b9d\u8fc1\u5bab\u795d\u8bcd",
@@ -19542,8 +19205,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332011-Blessing of the Divine Relic's Installation.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332011-Blessing of the Divine Relic's Installation.webp"
           },
           {
             "id": "312102",
@@ -19551,7 +19213,6 @@ var NYX_DB = {
             "title": "Wintry Wandering: Blizzard Strayer",
             "description": "\"...Then please, live on. Do not accompany us unto our doom \u2014 to languish forgotten in the snow.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312102",
             "localizedNames": {
               "en": "Blizzard Strayer",
               "zh": "\u51b0\u98ce\u8ff7\u9014\u7684\u52c7\u58eb",
@@ -19578,8 +19239,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312102-Blizzard Strayer.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312102-Blizzard Strayer.webp"
           },
           {
             "id": "313010",
@@ -19587,7 +19247,6 @@ var NYX_DB = {
             "title": "Blubberbeast",
             "description": "\"A type of mammal that resides in the watery regions of Fontaine. It communicates with its companions through melodious sounds.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/313010",
             "localizedNames": {
               "en": "Blubberbeast",
               "zh": "\u81a8\u81a8\u517d",
@@ -19624,8 +19283,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313010-Blubberbeast.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313010-Blubberbeast.webp"
           },
           {
             "id": "322032",
@@ -19633,7 +19291,6 @@ var NYX_DB = {
             "title": "Bona and Cocouik",
             "description": "\"For starters, one needs enough curiosity, a thirst for knowledge, and a sense of responsibility to help others.\\nBut most importantly, you need the courage to take that first step! Once you make the decision and start on a journey, you've become an adventurer.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322032",
             "localizedNames": {
               "en": "Bona and Cocouik",
               "zh": "\u73bb\u5a1c\u4e0e\u300c\u7eff\u677e\u77f3\u300d",
@@ -19665,8 +19322,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322032-Bona and Cocouik.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322032-Bona and Cocouik.webp"
           },
           {
             "id": "213161",
@@ -19674,7 +19330,6 @@ var NYX_DB = {
             "title": "Gaming: Bringer of Blessing",
             "description": "\"Hop to it, Man Chai!\"",
             "sourceText": "Reward for inviting Gaming to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213161",
             "localizedNames": {
               "en": "Bringer of Blessing",
               "zh": "\u901a\u660e\u5e87\u4f51",
@@ -19714,8 +19369,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213161-Bringer of Blessing.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213161-Bringer of Blessing.webp"
           },
           {
             "id": "312101",
@@ -19723,7 +19377,6 @@ var NYX_DB = {
             "title": "Icy Song, Distant Realm: Broken Rime's Echo",
             "description": "\"Past the ice-sealed door, walking down the corridors to the depths, he will break off a branch of silver-white, and bring hope to the snowy land.\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312101",
             "localizedNames": {
               "en": "Broken Rime's Echo",
               "zh": "\u7834\u51b0\u8e0f\u96ea\u7684\u56de\u97f3",
@@ -19750,8 +19403,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312101-Broken Rime's Echo.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312101-Broken Rime's Echo.webp"
           },
           {
             "id": "332053",
@@ -19759,7 +19411,6 @@ var NYX_DB = {
             "title": "Broken Sea",
             "description": "\"We surge through different bushes and shrubs like a gust of wind, like rivers passing through another lake... We encounter different things, and we, too, become different people.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332053",
             "localizedNames": {
               "en": "Broken Sea",
               "zh": "\u7834\u788e\u4e4b\u6d77",
@@ -19791,8 +19442,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332053-Broken Sea.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332053-Broken Sea.webp"
           },
           {
             "id": "215111",
@@ -19800,7 +19450,6 @@ var NYX_DB = {
             "title": "Chasca: Bullet Trick",
             "description": "\"Fire in the hole!\"",
             "sourceText": "Reward for inviting Chasca to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215111",
             "localizedNames": {
               "en": "Bullet Trick",
               "zh": "\u5b50\u5f39\u7684\u620f\u6cd5",
@@ -19848,8 +19497,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215111-Bullet Trick.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215111-Bullet Trick.webp"
           },
           {
             "id": "213041",
@@ -19857,7 +19505,6 @@ var NYX_DB = {
             "title": "Amber: Bunny Triggered",
             "description": "\"Go go Baron Bunny!\"",
             "sourceText": "Reward for inviting Amber to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213041",
             "localizedNames": {
               "en": "Bunny Triggered",
               "zh": "\u4e00\u89e6\u5373\u53d1",
@@ -19910,8 +19557,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213041-Bunny Triggered.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213041-Bunny Triggered.webp"
           },
           {
             "id": "333012",
@@ -19919,7 +19565,6 @@ var NYX_DB = {
             "title": "Butter Crab",
             "description": "The butter-infused crab legs have a rich aroma that washes over the taste buds so seductively that none can resist its allure.\\n\"Another helping, please!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333012",
             "localizedNames": {
               "en": "Butter Crab",
               "zh": "\u9ec4\u6cb9\u87f9\u87f9",
@@ -19946,8 +19591,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333012-Butter Crab.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333012-Butter Crab.webp"
           },
           {
             "id": "321029",
@@ -19955,7 +19599,6 @@ var NYX_DB = {
             "title": "Calligraphy Tavern",
             "description": "\"Well, if you're offering... Paimon will take a glass of Bulle Fruit Tonic! ...Um, but hold the Tonic, hehe!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321029",
             "localizedNames": {
               "en": "Calligraphy Tavern",
               "zh": "\u58a8\u8272\u9152\u9986",
@@ -20056,8 +19699,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321029-Calligraphy Tavern.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321029-Calligraphy Tavern.webp"
           },
           {
             "id": "332009",
@@ -20065,7 +19707,6 @@ var NYX_DB = {
             "title": "Alchemical Experiment",
             "description": "\"Not to worry. The experiment has been completed, and it is \u2014 if I may say so \u2014 a great success.\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332009",
             "localizedNames": {
               "en": "Calx's Arts",
               "zh": "\u767d\u57a9\u4e4b\u672f",
@@ -20095,8 +19736,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332009-Calx's Arts.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332009-Calx's Arts.webp"
           },
           {
             "id": "312013",
@@ -20104,7 +19744,6 @@ var NYX_DB = {
             "title": "Preponderant Recollection: Capricious Visage",
             "description": "Even a faint smile could not conceal her sorrow.\\nThough this is a festive day, it seems more like a farewell...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312013",
             "localizedNames": {
               "en": "Capricious Visage",
               "zh": "\u65e0\u5e38\u4e4b\u9762",
@@ -20131,8 +19770,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312013-Capricious Visage.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312013-Capricious Visage.webp"
           },
           {
             "id": "311109",
@@ -20140,7 +19778,6 @@ var NYX_DB = {
             "title": "Golden Blood-Tide: Cashflow Supervision",
             "description": "\"The overseer made of precision machinery rumbles as it observes the monetary flow of the tiny nation,\\nTirelessly recording the movement of every amount of money, the savings and spending of all,\\nThe changes in value, and the number of times each piece of currency is circulated over a specific period.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311109",
             "localizedNames": {
               "en": "Cashflow Supervision",
               "zh": "\u91d1\u6d41\u76d1\u7763",
@@ -20173,8 +19810,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311109-Cashflow Supervision.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311109-Cashflow Supervision.webp"
           },
           {
             "id": "321021",
@@ -20182,7 +19818,6 @@ var NYX_DB = {
             "title": "Fontaine Research Institute: Central Laboratory Ruins",
             "description": "...When excess intelligence and passion came together, research brought about results in a manner that surpassed everyone's expectations. Now, however, there remains no one to applaud that achievement.\\nWhen an ideal is destroyed, its most important responsibility is to hold its peace...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321021",
             "localizedNames": {
               "en": "Central Laboratory Ruins",
               "zh": "\u4e2d\u592e\u5b9e\u9a8c\u5ba4\u9057\u5740",
@@ -20222,8 +19857,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321021-Central Laboratory Ruins.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321021-Central Laboratory Ruins.webp"
           },
           {
             "id": "224061",
@@ -20231,7 +19865,6 @@ var NYX_DB = {
             "title": "Abyss Lector: Chain Lightning Cascade",
             "description": "\"Their violent lightning strikes the hearts of unbelievers with dark wisdom, warped by the shadowy depths of an eternal night, its violet glow proclaiming the existence of a great power that corrodes human intellect.\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Abyss Lector: Violet Lightning at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/224061",
             "localizedNames": {
               "en": "Chain Lightning Cascade",
               "zh": "\u4fb5\u96f7\u91cd\u95ea",
@@ -20278,8 +19911,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224061-Chain Lightning Cascade.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224061-Chain Lightning Cascade.webp"
           },
           {
             "id": "322009",
@@ -20287,7 +19919,6 @@ var NYX_DB = {
             "title": "Chang the Ninth, Listless Literati",
             "description": "\"He who has not known poverty has yet to become a true man, and at least this man has books to keep him company!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322009",
             "localizedNames": {
               "en": "Chang the Ninth",
               "zh": "\u5e38\u4e5d\u7237",
@@ -20322,8 +19953,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322009-Chang the Ninth.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322009-Chang the Ninth.webp"
           },
           {
             "id": "332002",
@@ -20331,7 +19961,6 @@ var NYX_DB = {
             "title": "Changing Shifts",
             "description": "\"It's time for the adults to get to work, and for the kids to get some sleep.\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332002",
             "localizedNames": {
               "en": "Changing Shifts",
               "zh": "\u6362\u73ed\u65f6\u95f4",
@@ -20355,8 +19984,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332002-Changing Shifts.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332002-Changing Shifts.webp"
           },
           {
             "id": "215011",
@@ -20364,7 +19992,6 @@ var NYX_DB = {
             "title": "Sucrose: Chaotic Entropy",
             "description": "The wild winds gather \u2014 and amidst the chaos, victory.",
             "sourceText": "Reward for inviting Sucrose to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215011",
             "localizedNames": {
               "en": "Chaotic Entropy",
               "zh": "\u6df7\u5143\u71b5\u589e\u8bba",
@@ -20414,8 +20041,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215011-Chaotic Entropy.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215011-Chaotic Entropy.webp"
           },
           {
             "id": "322005",
@@ -20423,7 +20049,6 @@ var NYX_DB = {
             "title": "Chef Mao, Ingenious Gourmet",
             "description": "\"We just concern ourselves with making the most delicious food imaginable using everyday ingredients, universally loved flavors, and truly excellent cooking.\"",
             "sourceText": "Reward for accepting Chef Mao's Adventure Challenge in the open world and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322005",
             "localizedNames": {
               "en": "Chef Mao",
               "zh": "\u536f\u5e08\u5085",
@@ -20450,8 +20075,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322005-Chef Mao.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322005-Chef Mao.webp"
           },
           {
             "id": "333029",
@@ -20459,7 +20083,6 @@ var NYX_DB = {
             "title": "Chenyu Brew",
             "description": "Your initial sip brings forth flavor on an elegant light breeze, the sweet fragrances of Chenyu Vale alighting upon your lips and tongue. Hark \u2014 is that the sweet tinkling of the mountain springs singing in your ear?",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333029",
             "localizedNames": {
               "en": "Chenyu Brew",
               "zh": "\u6c89\u7389\u8336\u9732",
@@ -20490,8 +20113,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333029-Chenyu Brew.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333029-Chenyu Brew.webp"
           },
           {
             "id": "321012",
@@ -20499,7 +20121,6 @@ var NYX_DB = {
             "title": "Abode of Dwelling Demons",
             "description": "Legend has it that this sacred forest was once home to many demons.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321012",
             "localizedNames": {
               "en": "Chinju Forest",
               "zh": "\u9547\u5b88\u4e4b\u68ee",
@@ -20535,8 +20156,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321012-Chinju Forest.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321012-Chinju Forest.webp"
           },
           {
             "id": "221011",
@@ -20544,7 +20164,6 @@ var NYX_DB = {
             "title": "Cryo Cicin Mage: Cicin's Cold Glare",
             "description": "More Mist Grass means more friendly Cryo Cicins.\\n...But what happens when the Mist Grass is used up?\\nPerhaps she never considered this.",
             "sourceText": "Reward for accepting the Tavern Challenge against the Cryo Cicin Mage at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/221011",
             "localizedNames": {
               "en": "Cicin's Cold Glare",
               "zh": "\u51b0\u8424\u5bd2\u5149",
@@ -20602,8 +20221,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/221011-Cicin's Cold Glare.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/221011-Cicin's Cold Glare.webp"
           },
           {
             "id": "332062",
@@ -20611,7 +20229,6 @@ var NYX_DB = {
             "title": "Cleaning Time",
             "description": "\"Cleanup sequence in progress... Based on data from past incidents, please avoid dropping small items such as: Mora, screws, gears, minerals, toys, gummies, snacks, hairbands, socks, and slippers.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332062",
             "localizedNames": {
               "en": "Cleaning Time",
               "zh": "\u6e05\u626b\u65f6\u95f4",
@@ -20635,8 +20252,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332062-Cleaning Time.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332062-Cleaning Time.webp"
           },
           {
             "id": "332061",
@@ -20644,7 +20260,6 @@ var NYX_DB = {
             "title": "Clink Clank Legion",
             "description": "\"Clink Clank Legion, move out!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332061",
             "localizedNames": {
               "en": "Clink Clank Legion",
               "zh": "\u53ee\u94c3\u54d0\u5577\u519b\u56e2",
@@ -20678,8 +20293,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332061-Clink Clank Legion.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332061-Clink Clank Legion.webp"
           },
           {
             "id": "211031",
@@ -20687,7 +20301,6 @@ var NYX_DB = {
             "title": "Kaeya: Cold-Blooded Strike",
             "description": "A slightly cold joke.",
             "sourceText": "Reward for inviting Kaeya to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211031",
             "localizedNames": {
               "en": "Cold-Blooded Strike",
               "zh": "\u51b7\u8840\u4e4b\u5251",
@@ -20722,8 +20335,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211031-Cold-Blooded Strike.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211031-Cold-Blooded Strike.webp"
           },
           {
             "id": "211171",
@@ -20731,7 +20343,6 @@ var NYX_DB = {
             "title": "Mika: Companion's Counsel",
             "description": "\"Let's keep going, team!\"",
             "sourceText": "Reward for inviting Mika to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211171",
             "localizedNames": {
               "en": "Companion's Counsel",
               "zh": "\u4f9d\u968f\u7684\u7b56\u63f4",
@@ -20784,8 +20395,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211171-Companion's Counsel.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211171-Companion's Counsel.webp"
           },
           {
             "id": "213101",
@@ -20793,7 +20403,6 @@ var NYX_DB = {
             "title": "Lyney: Conclusive Ovation",
             "description": "\"A round of applause!\"",
             "sourceText": "Reward for inviting Lyney to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213101",
             "localizedNames": {
               "en": "Conclusive Ovation",
               "zh": "\u5b8c\u573a\u559d\u5f69",
@@ -20842,8 +20451,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213101-Conclusive Ovation.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213101-Conclusive Ovation.webp"
           },
           {
             "id": "312030",
@@ -20851,7 +20459,6 @@ var NYX_DB = {
             "title": "The Sound of Ancient Music: Conductor's Top Hat",
             "description": "\"The members then turned the notes into words and recorded their journey in a book.\\nThis book, The Widsith as they called it, was still held tightly in the conductor's hands even after his death.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312030",
             "localizedNames": {
               "en": "Conductor's Top Hat",
               "zh": "\u6307\u6325\u7684\u793c\u5e3d",
@@ -20891,8 +20498,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312030-Conductor's Top Hat.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312030-Conductor's Top Hat.webp"
           },
           {
             "id": "215041",
@@ -20900,7 +20506,6 @@ var NYX_DB = {
             "title": "Xiao: Conqueror of Evil",
             "description": "Evil shall be dispersed, and the vile will be scattered.",
             "sourceText": "Reward for inviting Xiao to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215041",
             "localizedNames": {
               "en": "Conqueror of Evil: Guardian Yaksha",
               "zh": "\u964d\u9b54\u00b7\u62a4\u6cd5\u591c\u53c9",
@@ -20959,8 +20564,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215041-Conqueror of Evil_ Guardian Yaksha.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215041-Conqueror of Evil_ Guardian Yaksha.webp"
           },
           {
             "id": "2705",
@@ -20968,7 +20572,6 @@ var NYX_DB = {
             "title": "Remnant Weed: Consecrated Fanged Beast",
             "description": "A predator that has mutated after feeding from greater lifeforms. It now wields the power of frenzied vines.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Consecrated Fanged Beast",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2705",
             "localizedNames": {
               "en": "Consecrated Fanged Beast",
               "zh": "\u5723\u9ab8\u7259\u517d",
@@ -21113,8 +20716,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2705-Consecrated Fanged Beast.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2705-Consecrated Fanged Beast.webp"
           },
           {
             "id": "2503",
@@ -21122,7 +20724,6 @@ var NYX_DB = {
             "title": "Remnant Squall: Consecrated Flying Serpent",
             "description": "A flying serpent that became twisted and warped by eating some great being. Now, it commands the fearsome winds.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Consecrated Flying Serpent",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2503",
             "localizedNames": {
               "en": "Consecrated Flying Serpent",
               "zh": "\u5723\u9ab8\u98de\u86c7",
@@ -21220,8 +20821,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2503-Consecrated Flying Serpent.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2503-Consecrated Flying Serpent.webp"
           },
           {
             "id": "2207",
@@ -21229,7 +20829,6 @@ var NYX_DB = {
             "title": "Remnant Tide: Consecrated Horned Crocodile",
             "description": "A reptile that has mutated after feeding from greater lifeforms, controlling the ever-changing flow of water.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Consecrated Horned Crocodile",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2207",
             "localizedNames": {
               "en": "Consecrated Horned Crocodile",
               "zh": "\u5723\u9ab8\u89d2\u9cc4",
@@ -21349,8 +20948,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2207-Consecrated Horned Crocodile.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2207-Consecrated Horned Crocodile.webp"
           },
           {
             "id": "2405",
@@ -21358,7 +20956,6 @@ var NYX_DB = {
             "title": "Remnant Venom: Consecrated Scorpion",
             "description": "A poisonous scorpion that became twisted and warped by eating some great being. It now commands perilous lightning.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Consecrated Scorpion",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2405",
             "localizedNames": {
               "en": "Consecrated Scorpion",
               "zh": "\u5723\u9ab8\u6bd2\u874e",
@@ -21484,8 +21081,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2405-Consecrated Scorpion.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2405-Consecrated Scorpion.webp"
           },
           {
             "id": "321030",
@@ -21493,7 +21089,6 @@ var NYX_DB = {
             "title": "Constellation Metropole",
             "description": "\"The heroes gazed upon the skies of gray, and in carriages bright they went their way.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321030",
             "localizedNames": {
               "en": "Constellation Metropole",
               "zh": "\u661f\u8f68\u738b\u57ce",
@@ -21549,8 +21144,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321030-Constellation Metropole.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321030-Constellation Metropole.webp"
           },
           {
             "id": "332030",
@@ -21558,7 +21152,6 @@ var NYX_DB = {
             "title": "Controlled Directional Blast",
             "description": "\"...haven't hidden anything. All the Arkhium has been handled appropriately. This explosion was always a 'controllable hazard removal directional blast.'\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332030",
             "localizedNames": {
               "en": "Controlled Directional Blast",
               "zh": "\u53ef\u63a7\u6027\u53bb\u5371\u5bb3\u5316\u5f0f\u5b9a\u5411\u7206\u7834",
@@ -21583,8 +21176,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332030-Controlled Directional Blast.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332030-Controlled Directional Blast.webp"
           },
           {
             "id": "332032",
@@ -21592,7 +21184,6 @@ var NYX_DB = {
             "title": "Countdown to the Show",
             "description": "\"Would you like to see a magic trick? Now then, count down with me \u2014 three... two... one!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332032",
             "localizedNames": {
               "en": "Countdown to the Show: 3",
               "zh": "\u5e7b\u620f\u5012\u8ba1\u65f6\uff1a3",
@@ -21626,8 +21217,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332032-Countdown to the Show_ 3.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332032-Countdown to the Show_ 3.webp"
           },
           {
             "id": "217071",
@@ -21635,7 +21225,6 @@ var NYX_DB = {
             "title": "Kirara: Countless Sights to See",
             "description": "\"Service with a smile!\"",
             "sourceText": "Reward for inviting Kirara to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/217071",
             "localizedNames": {
               "en": "Countless Sights to See",
               "zh": "\u6cbf\u9014\u767e\u666f\u4f1a\u5fc3",
@@ -21670,8 +21259,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217071-Countless Sights to See.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217071-Countless Sights to See.webp"
           },
           {
             "id": "330002",
@@ -21679,7 +21267,6 @@ var NYX_DB = {
             "title": "Covenant of Rock",
             "description": "\"Rex Lapis bestowed him with a pair of eyes to see the world, and came to an agreement with him. The dragon then accompanied the Lord of Geo, fighting campaigns alongside him in the four corners of the world...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/330002",
             "localizedNames": {
               "en": "Covenant of Rock",
               "zh": "\u78d0\u5ca9\u76df\u5951",
@@ -21707,8 +21294,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330002-Covenant of Rock.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330002-Covenant of Rock.webp"
           },
           {
             "id": "312302",
@@ -21716,7 +21302,6 @@ var NYX_DB = {
             "title": "Blazing Dissipation: Crimson Witch of Flames",
             "description": "\"I will sing no elegies. I refuse laments. I shall not sigh. I have no use for pointless noise.\\nIf justice is long dead, then to whom can I offer redemption?\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312302",
             "localizedNames": {
               "en": "Crimson Witch of Flames",
               "zh": "\u70bd\u70c8\u7684\u708e\u4e4b\u9b54\u5973",
@@ -21743,8 +21328,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312302-Crimson Witch of Flames.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312302-Crimson Witch of Flames.webp"
           },
           {
             "id": "213021",
@@ -21752,7 +21336,6 @@ var NYX_DB = {
             "title": "Xiangling: Crossfire",
             "description": "This heat's just normal for a restaurant's standards!",
             "sourceText": "Reward for inviting Xiangling to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213021",
             "localizedNames": {
               "en": "Crossfire",
               "zh": "\u4ea4\u53c9\u706b\u529b",
@@ -21791,8 +21374,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213021-Crossfire.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213021-Crossfire.webp"
           },
           {
             "id": "312033",
@@ -21800,7 +21382,6 @@ var NYX_DB = {
             "title": "Testimony of Tribal Kings: Crown of the Saints",
             "description": "\"Under the sun's radiance did the tribes make a pact of armistice, and thus did the sacred ones of the night realm lay their arguments aside and offer him the crown.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312033",
             "localizedNames": {
               "en": "Crown of the Saints",
               "zh": "\u8bf8\u5723\u7684\u793c\u51a0",
@@ -21827,8 +21408,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312033-Crown of the Saints.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312033-Crown of the Saints.webp"
           },
           {
             "id": "312015",
@@ -21836,7 +21416,6 @@ var NYX_DB = {
             "title": "Pearl Crown \u2014 Crown of Watatsumi",
             "description": "\"The people of the sea sing that these crowns of pearls and coral will never be stained by any dirt.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312015",
             "localizedNames": {
               "en": "Crown of Watatsumi",
               "zh": "\u6d77\u7947\u4e4b\u51a0",
@@ -21863,8 +21442,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312015-Crown of Watatsumi.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312015-Crown of Watatsumi.webp"
           },
           {
             "id": "312035",
@@ -21872,7 +21450,6 @@ var NYX_DB = {
             "title": "Endless Wait: Crownless Crown",
             "description": "\"And with those things bearing his name, she walked into the dark night, never to return.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312035",
             "localizedNames": {
               "en": "Crownless Crown",
               "zh": "\u5931\u5195\u7684\u5b9d\u51a0",
@@ -21898,8 +21475,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312035-Crownless Crown.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312035-Crownless Crown.webp"
           },
           {
             "id": "2103",
@@ -21907,7 +21483,6 @@ var NYX_DB = {
             "title": "Cryo Hypostasis",
             "description": "Code name: Daleth. A high-purity Cryo entity.\\nIt doesn't seem all that good at ball sports...",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Cryo Hypostasis",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2103",
             "localizedNames": {
               "en": "Cryo Hypostasis",
               "zh": "\u65e0\u76f8\u4e4b\u51b0",
@@ -22018,8 +21593,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2103-Cryo Hypostasis.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2103-Cryo Hypostasis.webp"
           },
           {
             "id": "215131",
@@ -22027,7 +21601,6 @@ var NYX_DB = {
             "title": "Shikanoin Heizou: Curious Casefiles",
             "description": "\"Can't fool me!\"",
             "sourceText": "Reward for inviting Shikanoin Heizou to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215131",
             "localizedNames": {
               "en": "Curious Casefiles",
               "zh": "\u5947\u60f3\u5929\u5f00\u6355\u7269\u5e10",
@@ -22070,8 +21643,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215131-Curious Casefiles.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215131-Curious Casefiles.webp"
           },
           {
             "id": "215121",
@@ -22079,7 +21651,6 @@ var NYX_DB = {
             "title": "Lan Yan: Dance Vestments Billow Like Rainbow Jade",
             "description": "\"Ills, be gone!\"",
             "sourceText": "Reward for inviting Lan Yan to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215121",
             "localizedNames": {
               "en": "Dance Vestments Billow Like Rainbow Jade",
               "zh": "\u821e\u8882\u7fe9\u516e\u626c\u7389\u9713",
@@ -22124,8 +21695,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215121-Dance Vestments Billow Like Rainbow Jade.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215121-Dance Vestments Billow Like Rainbow Jade.webp"
           },
           {
             "id": "214121",
@@ -22133,7 +21703,6 @@ var NYX_DB = {
             "title": "Clorinde: Dark-Shattering Flame",
             "description": "\"Where evil lurks, shoot on sight!\"",
             "sourceText": "Reward for inviting Clorinde to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214121",
             "localizedNames": {
               "en": "Dark-Shattering Flame",
               "zh": "\u7834\u591c\u7684\u660e\u7130",
@@ -22172,8 +21741,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214121-Dark-Shattering Flame.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214121-Dark-Shattering Flame.webp"
           },
           {
             "id": "321004",
@@ -22181,7 +21749,6 @@ var NYX_DB = {
             "title": "Manor of Daybreak",
             "description": "\"The best wine will always be brewed next year.\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321004",
             "localizedNames": {
               "en": "Dawn Winery",
               "zh": "\u6668\u66e6\u9152\u5e84",
@@ -22208,8 +21775,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321004-Dawn Winery.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321004-Dawn Winery.webp"
           },
           {
             "id": "330007",
@@ -22217,7 +21783,6 @@ var NYX_DB = {
             "title": "Day of Resistance: Moment of Shattered Dreams",
             "description": "Victorious were we who fought to be free... Thus did the dream of eternal prosperity fall with this mighty capital...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/330007",
             "localizedNames": {
               "en": "Day of Resistance: Moment of Shattered Dreams",
               "zh": "\u6297\u4e89\u4e4b\u65e5\u00b7\u788e\u68a6\u4e4b\u65f6",
@@ -22245,8 +21810,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330007-Day of Resistance_ Moment of Shattered Dreams.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330007-Day of Resistance_ Moment of Shattered Dreams.webp"
           },
           {
             "id": "225031",
@@ -22254,7 +21818,6 @@ var NYX_DB = {
             "title": "Consecrated Flying Serpent: Deathly Cyclone",
             "description": "Though now imbued with the power of elemental manipulation, the Consecrated Beasts themselves still cannot fully digest the pieces of flesh they devoured from immortal carcasses. Instead, the pieces slowly fused with the beasts themselves, changing them...",
             "sourceText": "Reward for accepting the Tavern Challenge against the Consecrated Flying Serpent at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/225031",
             "localizedNames": {
               "en": "Deathly Cyclone",
               "zh": "\u4ea1\u98ce\u5578\u5377",
@@ -22297,8 +21860,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/225031-Deathly Cyclone.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/225031-Deathly Cyclone.webp"
           },
           {
             "id": "222071",
@@ -22306,7 +21868,6 @@ var NYX_DB = {
             "title": "Consecrated Horned Crocodile: Deathly Overflow",
             "description": "\"To devour, to merge, to seek yet another immortal carcass \u2014 the Consecrated Beasts enact this evolution in ceaseless repetition. Little do they know that the end of this cycle may never come...\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Consecrated Horned Crocodile at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/222071",
             "localizedNames": {
               "en": "Deathly Overflow",
               "zh": "\u4ea1\u6c34\u6ea2\u6d41",
@@ -22353,8 +21914,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222071-Deathly Overflow.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222071-Deathly Overflow.webp"
           },
           {
             "id": "216071",
@@ -22362,7 +21922,6 @@ var NYX_DB = {
             "title": "Yun Jin: Decorous Harmony",
             "description": "\"Strike as one!\"",
             "sourceText": "Reward for inviting Yun Jin to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/216071",
             "localizedNames": {
               "en": "Decorous Harmony",
               "zh": "\u5e84\u8c10\u5e76\u4e3e",
@@ -22408,8 +21967,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216071-Decorous Harmony.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216071-Decorous Harmony.webp"
           },
           {
             "id": "312702",
@@ -22417,7 +21975,6 @@ var NYX_DB = {
             "title": "Knowledge of the Vine: Deepwood Memories",
             "description": "\"For all those who follow nature must pass through the maze of the forest and reach that endless plain.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312702",
             "localizedNames": {
               "en": "Deepwood Memories",
               "zh": "\u6df1\u6797\u7684\u8bb0\u5fc6",
@@ -22444,8 +22001,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312702-Deepwood Memories.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312702-Deepwood Memories.webp"
           },
           {
             "id": "312032",
@@ -22453,7 +22009,6 @@ var NYX_DB = {
             "title": "Symbol of The Brave: Demon-Warrior's Feather Mask",
             "description": "\"...Nonetheless, someone had to shoulder the responsibility, and the strong naturally should bear a greater burden.\\nIt was only after witnessing true war that he first felt the weight of destiny.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312032",
             "localizedNames": {
               "en": "Demon-Warrior's Feather Mask",
               "zh": "\u9b54\u6218\u58eb\u7684\u7fbd\u9762",
@@ -22480,8 +22035,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312032-Demon-Warrior's Feather Mask.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312032-Demon-Warrior's Feather Mask.webp"
           },
           {
             "id": "216041",
@@ -22489,7 +22043,6 @@ var NYX_DB = {
             "title": "Albedo: Descent of Divinity",
             "description": "\"The process of confirming the strategy for a duel also requires meticulous calculations...\"",
             "sourceText": "Reward for inviting Albedo to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/216041",
             "localizedNames": {
               "en": "Descent of Divinity",
               "zh": "\u795e\u6027\u4e4b\u9668",
@@ -22554,8 +22107,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216041-Descent of Divinity.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216041-Descent of Divinity.webp"
           },
           {
             "id": "214101",
@@ -22563,7 +22115,6 @@ var NYX_DB = {
             "title": "\"Discretionary Supplement\" Dori",
             "description": "\"First raise the price by 30%, then sell at a 20% discount!\"",
             "sourceText": "Reward for inviting Dori to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214101",
             "localizedNames": {
               "en": "Discretionary Supplement",
               "zh": "\u914c\u76c8\u5242\u865a",
@@ -22617,8 +22168,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214101-Discretionary Supplement.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214101-Discretionary Supplement.webp"
           },
           {
             "id": "211131",
@@ -22626,7 +22176,6 @@ var NYX_DB = {
             "title": "Rosaria: Divine Retribution",
             "description": "\"Lights out...\"",
             "sourceText": "Reward for inviting Rosaria to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211131",
             "localizedNames": {
               "en": "Divine Retribution",
               "zh": "\u4ee3\u884c\u88c1\u5224",
@@ -22671,8 +22220,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211131-Divine Retribution.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211131-Divine Retribution.webp"
           },
           {
             "id": "216031",
@@ -22680,7 +22228,6 @@ var NYX_DB = {
             "title": "Zhongli: Dominance of Earth",
             "description": "The vastness of rivers flows endless, perpetual upon the tapestry of eons.",
             "sourceText": "Reward for inviting Zhongli to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/216031",
             "localizedNames": {
               "en": "Dominance of Earth",
               "zh": "\u708a\u91d1\u9994\u7389",
@@ -22719,8 +22266,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216031-Dominance of Earth.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216031-Dominance of Earth.webp"
           },
           {
             "id": "322016",
@@ -22728,7 +22274,6 @@ var NYX_DB = {
             "title": "Purity of Trust: Dunyarzad",
             "description": "\"The point of living is to not leave behind any regrets.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322016",
             "localizedNames": {
               "en": "Dunyarzad",
               "zh": "\u8fea\u5a1c\u6cfd\u9edb",
@@ -22755,8 +22300,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322016-Dunyarzad.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322016-Dunyarzad.webp"
           },
           {
             "id": "2502",
@@ -22764,7 +22308,6 @@ var NYX_DB = {
             "title": "\"Dragon of the East\" Dvalin",
             "description": "\"How wonderful it would have been if you were as I, witnessing your noble, beautiful form as you soared through the blue sky.\"\\n\"Then you would know that this sky and this earth are both things worth fighting for.\"",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Dvalin",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2502",
             "localizedNames": {
               "en": "Dvalin",
               "zh": "\u7279\u74e6\u6797",
@@ -22900,8 +22443,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2502-Dvalin.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2502-Dvalin.webp"
           },
           {
             "id": "312044",
@@ -22909,7 +22451,6 @@ var NYX_DB = {
             "title": "Warrior's Legacy: Dyed Tassel",
             "description": "\"That ghostly blue wildfire of which ancient legends spoke would burn brightly anew on fresh fields of battle...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312044",
             "localizedNames": {
               "en": "Dyed Tassel",
               "zh": "\u88ab\u6d78\u67d3\u7684\u7f28\u76d4",
@@ -22950,8 +22491,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312044-Dyed Tassel.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312044-Dyed Tassel.webp"
           },
           {
             "id": "312020",
@@ -22959,7 +22499,6 @@ var NYX_DB = {
             "title": "Everlasting Uncut Jade: Echoes of an Offering",
             "description": "\"The wide river of a legend will oft produce many tributaries. One of these goes like this: This gem was once jade from a sacred mountain, carved into its current shape only by the hand of Rex Lapis himself.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312020",
             "localizedNames": {
               "en": "Echoes of an Offering",
               "zh": "\u6765\u6b46\u4f59\u54cd",
@@ -22986,8 +22525,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312020-Echoes of an Offering.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312020-Echoes of an Offering.webp"
           },
           {
             "id": "330009",
@@ -22995,7 +22533,6 @@ var NYX_DB = {
             "title": "Edict of Absolution",
             "description": "\"Every last Fontainian is guilty, with judgment and doom certain to one day fall upon them \u2014 this is neither metaphor nor rhetoric.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/330009",
             "localizedNames": {
               "en": "Edict of Absolution",
               "zh": "\u8d66\u514d\u5ba3\u544a",
@@ -23024,8 +22561,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330009-Edict of Absolution.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330009-Edict of Absolution.webp"
           },
           {
             "id": "224041",
@@ -23033,7 +22569,6 @@ var NYX_DB = {
             "title": "Electro Cicin Mage: Electro Cicin's Gleam",
             "description": "\"Are you... here to play with me?\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Electro Cicin Mage at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/224041",
             "localizedNames": {
               "en": "Electro Cicin's Gleam",
               "zh": "\u96f7\u8424\u6d6e\u95ea",
@@ -23091,8 +22626,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224041-Electro Cicin's Gleam.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224041-Electro Cicin's Gleam.webp"
           },
           {
             "id": "2401",
@@ -23100,7 +22634,6 @@ var NYX_DB = {
             "title": "Electro Hypostasis",
             "description": "Code name: Aleph. A high-purity Electro entity.\\nEven if you win at rock-paper-scissors, Aleph is not one to admit defeat.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Electro Hypostasis",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2401",
             "localizedNames": {
               "en": "Electro Hypostasis",
               "zh": "\u65e0\u76f8\u4e4b\u96f7",
@@ -23220,8 +22753,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2401-Electro Hypostasis.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2401-Electro Hypostasis.webp"
           },
           {
             "id": "311205",
@@ -23229,7 +22761,6 @@ var NYX_DB = {
             "title": "The Parting Refrain: Elegy for the End",
             "description": "\"...But no wind in any season on earth\"\\n\"Shall have you gaze upon me again.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311205",
             "localizedNames": {
               "en": "Elegy for the End",
               "zh": "\u7ec8\u672b\u55df\u53f9\u4e4b\u8bd7",
@@ -23272,8 +22803,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311205-Elegy for the End.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311205-Elegy for the End.webp"
           },
           {
             "id": "331602",
@@ -23281,7 +22811,6 @@ var NYX_DB = {
             "title": "Elemental Resonance: Enduring Rock",
             "description": "Bedrock shall make the hills unshakable.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331602",
             "localizedNames": {
               "en": "Elemental Resonance: Enduring Rock",
               "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u575a\u5b9a\u4e4b\u5ca9",
@@ -23313,8 +22842,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331602-Elemental Resonance_ Enduring Rock.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331602-Elemental Resonance_ Enduring Rock.webp"
           },
           {
             "id": "331302",
@@ -23322,7 +22850,6 @@ var NYX_DB = {
             "title": "Elemental Resonance: Fervent Flames",
             "description": "A burning heart may match the sun and moon.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331302",
             "localizedNames": {
               "en": "Elemental Resonance: Fervent Flames",
               "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u70ed\u8bda\u4e4b\u706b",
@@ -23354,8 +22881,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331302-Elemental Resonance_ Fervent Flames.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331302-Elemental Resonance_ Fervent Flames.webp"
           },
           {
             "id": "331402",
@@ -23363,7 +22889,6 @@ var NYX_DB = {
             "title": "Elemental Resonance: High Voltage",
             "description": "The storm rises in majesty.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331402",
             "localizedNames": {
               "en": "Elemental Resonance: High Voltage",
               "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u5f3a\u80fd\u4e4b\u96f7",
@@ -23395,8 +22920,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331402-Elemental Resonance_ High Voltage.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331402-Elemental Resonance_ High Voltage.webp"
           },
           {
             "id": "331502",
@@ -23404,7 +22928,6 @@ var NYX_DB = {
             "title": "Elemental Resonance: Impetuous Winds",
             "description": "The gale gallops through the woods.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331502",
             "localizedNames": {
               "en": "Elemental Resonance: Impetuous Winds",
               "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u8fc5\u6377\u4e4b\u98ce",
@@ -23440,8 +22963,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331502-Elemental Resonance_ Impetuous Winds.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331502-Elemental Resonance_ Impetuous Winds.webp"
           },
           {
             "id": "331102",
@@ -23449,7 +22971,6 @@ var NYX_DB = {
             "title": "Elemental Resonance: Shattering Ice",
             "description": "The frost flower blooms as a heart undivided.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331102",
             "localizedNames": {
               "en": "Elemental Resonance: Shattering Ice",
               "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u7c89\u788e\u4e4b\u51b0",
@@ -23476,8 +22997,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331102-Elemental Resonance_ Shattering Ice.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331102-Elemental Resonance_ Shattering Ice.webp"
           },
           {
             "id": "331202",
@@ -23485,7 +23005,6 @@ var NYX_DB = {
             "title": "Elemental Resonance: Soothing Water",
             "description": "With purest water flows prosperity.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331202",
             "localizedNames": {
               "en": "Elemental Resonance: Soothing Water",
               "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u6108\u7597\u4e4b\u6c34",
@@ -23512,8 +23031,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331202-Elemental Resonance_ Soothing Water.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331202-Elemental Resonance_ Soothing Water.webp"
           },
           {
             "id": "331702",
@@ -23521,7 +23039,6 @@ var NYX_DB = {
             "title": "Elemental Resonance: Sprawling Greenery",
             "description": "New branches and sprouts grow into a forest.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331702",
             "localizedNames": {
               "en": "Elemental Resonance: Sprawling Greenery",
               "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u8513\u751f\u4e4b\u8349",
@@ -23625,8 +23142,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331702-Elemental Resonance_ Sprawling Greenery.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331702-Elemental Resonance_ Sprawling Greenery.webp"
           },
           {
             "id": "331301",
@@ -23634,7 +23150,6 @@ var NYX_DB = {
             "title": "Elemental Resonance: Woven Flames",
             "description": "The scarlet flame reduces the vanquished to dust.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331301",
             "localizedNames": {
               "en": "Elemental Resonance: Woven Flames",
               "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u4ea4\u7ec7\u4e4b\u706b",
@@ -23660,8 +23175,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331301-Elemental Resonance_ Woven Flames.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331301-Elemental Resonance_ Woven Flames.webp"
           },
           {
             "id": "331101",
@@ -23669,7 +23183,6 @@ var NYX_DB = {
             "title": "Elemental Resonance: Woven Ice",
             "description": "Even the sky shall shiver before the ice.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331101",
             "localizedNames": {
               "en": "Elemental Resonance: Woven Ice",
               "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u4ea4\u7ec7\u4e4b\u51b0",
@@ -23695,8 +23208,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331101-Elemental Resonance_ Woven Ice.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331101-Elemental Resonance_ Woven Ice.webp"
           },
           {
             "id": "331601",
@@ -23704,7 +23216,6 @@ var NYX_DB = {
             "title": "Elemental Resonance: Woven Stone",
             "description": "The jagged mountains sign a lasting pact.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331601",
             "localizedNames": {
               "en": "Elemental Resonance: Woven Stone",
               "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u4ea4\u7ec7\u4e4b\u5ca9",
@@ -23730,8 +23241,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331601-Elemental Resonance_ Woven Stone.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331601-Elemental Resonance_ Woven Stone.webp"
           },
           {
             "id": "331401",
@@ -23739,7 +23249,6 @@ var NYX_DB = {
             "title": "Elemental Resonance: Woven Thunder",
             "description": "Lightning falls on the land of eternity.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331401",
             "localizedNames": {
               "en": "Elemental Resonance: Woven Thunder",
               "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u4ea4\u7ec7\u4e4b\u96f7",
@@ -23765,8 +23274,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331401-Elemental Resonance_ Woven Thunder.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331401-Elemental Resonance_ Woven Thunder.webp"
           },
           {
             "id": "331201",
@@ -23774,7 +23282,6 @@ var NYX_DB = {
             "title": "Elemental Resonance: Woven Waters",
             "description": "The dance of water nourishes life.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331201",
             "localizedNames": {
               "en": "Elemental Resonance: Woven Waters",
               "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u4ea4\u7ec7\u4e4b\u6c34",
@@ -23800,8 +23307,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331201-Elemental Resonance_ Woven Waters.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331201-Elemental Resonance_ Woven Waters.webp"
           },
           {
             "id": "331701",
@@ -23809,7 +23315,6 @@ var NYX_DB = {
             "title": "Elemental Resonance: Woven Weeds",
             "description": "All shall dance in the dream forest.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331701",
             "localizedNames": {
               "en": "Elemental Resonance: Woven Weeds",
               "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u4ea4\u7ec7\u4e4b\u8349",
@@ -23835,8 +23340,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331701-Elemental Resonance_ Woven Weeds.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331701-Elemental Resonance_ Woven Weeds.webp"
           },
           {
             "id": "331501",
@@ -23844,7 +23348,6 @@ var NYX_DB = {
             "title": "Elemental Resonance: Woven Winds",
             "description": "The wind sings like a leisurely lyre.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331501",
             "localizedNames": {
               "en": "Elemental Resonance: Woven Winds",
               "zh": "\u5143\u7d20\u5171\u9e23\uff1a\u4ea4\u7ec7\u4e4b\u98ce",
@@ -23870,8 +23373,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331501-Elemental Resonance_ Woven Winds.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331501-Elemental Resonance_ Woven Winds.webp"
           },
           {
             "id": "331010",
@@ -23879,7 +23381,6 @@ var NYX_DB = {
             "title": "Elemental Transfiguration: Aquabreeze Blessing",
             "description": "Winds rage, waves surge, and the sea rises to meet the sky.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331010",
             "localizedNames": {
               "en": "Elemental Transfiguration: Aquabreeze Blessing",
               "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u6c34\u98ce\u795d\u4f51",
@@ -23922,8 +23423,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331010-Elemental Transfiguration_ Aquabreeze Blessing.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331010-Elemental Transfiguration_ Aquabreeze Blessing.webp"
           },
           {
             "id": "331006",
@@ -23931,7 +23431,6 @@ var NYX_DB = {
             "title": "Elemental Transfiguration: Bloom Blessing",
             "description": "Nurtured by rain and soil, life thrives in endless bloom.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331006",
             "localizedNames": {
               "en": "Elemental Transfiguration: Bloom Blessing",
               "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u7efd\u653e\u795d\u4f51",
@@ -23979,8 +23478,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331006-Elemental Transfiguration_ Bloom Blessing.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331006-Elemental Transfiguration_ Bloom Blessing.webp"
           },
           {
             "id": "331007",
@@ -23988,7 +23486,6 @@ var NYX_DB = {
             "title": "Elemental Transfiguration: Lava Blessing",
             "description": "Forged of fire and stone, might stands unyielding and eternal.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331007",
             "localizedNames": {
               "en": "Elemental Transfiguration: Lava Blessing",
               "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u706b\u5ca9\u795d\u4f51",
@@ -24063,8 +23560,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331007-Elemental Transfiguration_ Lava Blessing.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331007-Elemental Transfiguration_ Lava Blessing.webp"
           },
           {
             "id": "331008",
@@ -24072,7 +23568,6 @@ var NYX_DB = {
             "title": "Elemental Transfiguration: Rimegrass Blessing",
             "description": "As rime seals the land and the grasses fall still, all sounds are hushed.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331008",
             "localizedNames": {
               "en": "Elemental Transfiguration: Rimegrass Blessing",
               "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u51b0\u8349\u795d\u4f51",
@@ -24120,8 +23615,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331008-Elemental Transfiguration_ Rimegrass Blessing.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331008-Elemental Transfiguration_ Rimegrass Blessing.webp"
           },
           {
             "id": "331009",
@@ -24129,7 +23623,6 @@ var NYX_DB = {
             "title": "Elemental Transfiguration: Stormgale Blessing",
             "description": "Wind and thunder surge, swift and unrelenting.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331009",
             "localizedNames": {
               "en": "Elemental Transfiguration: Stormgale Blessing",
               "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u96f7\u98ce\u795d\u4f51",
@@ -24182,8 +23675,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331009-Elemental Transfiguration_ Stormgale Blessing.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331009-Elemental Transfiguration_ Stormgale Blessing.webp"
           },
           {
             "id": "331004",
@@ -24191,7 +23683,6 @@ var NYX_DB = {
             "title": "Elemental Transfiguration: Superconduct Blessing",
             "description": "The thunder borrows the might of ice, piercing clouds and splitting rocks.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331004",
             "localizedNames": {
               "en": "Elemental Transfiguration: Superconduct Blessing",
               "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u8d85\u5bfc\u795d\u4f51",
@@ -24256,8 +23747,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331004-Elemental Transfiguration_ Superconduct Blessing.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331004-Elemental Transfiguration_ Superconduct Blessing.webp"
           },
           {
             "id": "331011",
@@ -24265,7 +23755,6 @@ var NYX_DB = {
             "title": "Elemental Transfiguration: Thunderbloom Blessing",
             "description": "Thunder cracks, and creeping vines burst forth.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331011",
             "localizedNames": {
               "en": "Elemental Transfiguration: Thunderbloom Blessing",
               "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u96f7\u8349\u795d\u4f51",
@@ -24308,8 +23797,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331011-Elemental Transfiguration_ Thunderbloom Blessing.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331011-Elemental Transfiguration_ Thunderbloom Blessing.webp"
           },
           {
             "id": "331005",
@@ -24317,7 +23805,6 @@ var NYX_DB = {
             "title": "Elemental Transfiguration: Vaporize Blessing",
             "description": "When water and fire meet in concord, no venture shall fail.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331005",
             "localizedNames": {
               "en": "Elemental Transfiguration: Vaporize Blessing",
               "zh": "\u5143\u7d20\u5e7b\u53d8\uff1a\u84b8\u53d1\u795d\u4f51",
@@ -24360,8 +23847,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331005-Elemental Transfiguration_ Vaporize Blessing.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331005-Elemental Transfiguration_ Vaporize Blessing.webp"
           },
           {
             "id": "322010",
@@ -24369,7 +23855,6 @@ var NYX_DB = {
             "title": "\"Knightly Dream\" Ellin",
             "description": "\"I've got to hone my spirit and strength both if my sword arm is to be as steady as Master Jean's!\"",
             "sourceText": "Reward for accepting Ellin's Adventure Challenge in the open world and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322010",
             "localizedNames": {
               "en": "Ellin",
               "zh": "\u827e\u7433",
@@ -24396,8 +23881,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322010-Ellin.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322010-Ellin.webp"
           },
           {
             "id": "223021",
@@ -24405,7 +23889,6 @@ var NYX_DB = {
             "title": "Abyss Lector: Embers Rekindled",
             "description": "The path toward sowing grace is not assured to be one free of obstructions.",
             "sourceText": "Reward for accepting the Tavern Challenge against the Abyss Lector: Fathomless Flames at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/223021",
             "localizedNames": {
               "en": "Embers Rekindled",
               "zh": "\u70ec\u706b\u91cd\u71c3",
@@ -24452,8 +23935,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223021-Embers Rekindled.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223021-Embers Rekindled.webp"
           },
           {
             "id": "312008",
@@ -24461,7 +23943,6 @@ var NYX_DB = {
             "title": "Emblem of Severed Fate: Ornate Kabuto",
             "description": "Thirteen years went by like a dream.\\nThe scarlet snow flies through the shadowed pass like smoke.\\nYou have now gone afar.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312008",
             "localizedNames": {
               "en": "Emblem of Severed Fate",
               "zh": "\u7edd\u7f18\u4e4b\u65d7\u5370",
@@ -24493,8 +23974,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312008-Emblem of Severed Fate.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312008-Emblem of Severed Fate.webp"
           },
           {
             "id": "215031",
@@ -24502,7 +23982,6 @@ var NYX_DB = {
             "title": "Venti: Embrace of Winds",
             "description": "\"Watch your step.\"",
             "sourceText": "Reward for inviting Venti to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215031",
             "localizedNames": {
               "en": "Embrace of Winds",
               "zh": "\u7eea\u98ce\u4e4b\u62e5",
@@ -24551,8 +24030,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215031-Embrace of Winds.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215031-Embrace of Winds.webp"
           },
           {
             "id": "2304",
@@ -24560,7 +24038,6 @@ var NYX_DB = {
             "title": "Emperor of Fire and Iron",
             "description": "One of the two sovereigns who once stood at the apex of the aberrant species of the Fontemer. An Armored Crab that has avoided predation, and has constantly partaken in hunting and eating. Its imperial title is made half in awe, and half in jest.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Emperor of Fire and Iron",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2304",
             "localizedNames": {
               "en": "Emperor of Fire and Iron",
               "zh": "\u94c1\u7532\u7194\u706b\u5e1d\u7687",
@@ -24687,8 +24164,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2304-Emperor of Fire and Iron.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2304-Emperor of Fire and Iron.webp"
           },
           {
             "id": "311207",
@@ -24696,7 +24172,6 @@ var NYX_DB = {
             "title": "Net Snapper: End of the Line",
             "description": "\"...The fish that once shot forth like an arrow across a huge lake on the plateau,\\nThat would stretch out as straight as a spear, cruising back and forth between the sacred sites,\\nWould see its stream seep into the sand, its lake shrink into a puddle,\\nTill at last, it wound up curled in a little plash, at the mercy of passing pilgrims.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311207",
             "localizedNames": {
               "en": "End of the Line",
               "zh": "\u7aed\u6cfd",
@@ -24724,8 +24199,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311207-End of the Line.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311207-End of the Line.webp"
           },
           {
             "id": "311405",
@@ -24733,7 +24207,6 @@ var NYX_DB = {
             "title": "Timeless Dream: Engulfing Lightning",
             "description": "The naginata was a lethal weapon by which scattered dross might be cut away.\\nAnd the one who wielded that naginata was one who guarded the path to eternity.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311405",
             "localizedNames": {
               "en": "Engulfing Lightning",
               "zh": "\u8599\u8349\u4e4b\u7a3b\u5149",
@@ -24766,8 +24239,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311405-Engulfing Lightning.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311405-Engulfing Lightning.webp"
           },
           {
             "id": "2703",
@@ -24775,7 +24247,6 @@ var NYX_DB = {
             "title": "\"Whirling Memories\" Eremite Floral Ring-Dancer",
             "description": "\"The children of the desert have a rich tradition of song and dance. Originally used to praise and serve the gods, the crafts were later adapted for battle and the seduction of kings.\"",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Eremite Floral Ring-Dancer",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2703",
             "localizedNames": {
               "en": "Eremite Floral Ring-Dancer",
               "zh": "\u9540\u91d1\u65c5\u56e2\u00b7\u53f6\u8f6e\u821e\u8005",
@@ -24889,8 +24360,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2703-Eremite Floral Ring-Dancer.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2703-Eremite Floral Ring-Dancer.webp"
           },
           {
             "id": "2303",
@@ -24898,7 +24368,6 @@ var NYX_DB = {
             "title": "\"Poetry and Secret Histories\" Eremite Scorching Loremaster",
             "description": "Those who still remember will never betray the spirit of the sands yet flowing through their veins.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Eremite Scorching Loremaster",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2303",
             "localizedNames": {
               "en": "Eremite Scorching Loremaster",
               "zh": "\u9540\u91d1\u65c5\u56e2\u00b7\u70bd\u6c99\u53d9\u4e8b\u4eba",
@@ -25018,8 +24487,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2303-Eremite Scorching Loremaster.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2303-Eremite Scorching Loremaster.webp"
           },
           {
             "id": "332040",
@@ -25027,7 +24495,6 @@ var NYX_DB = {
             "title": "Eremite Teatime",
             "description": "\"Join the Eremites and Embrace a Wonderful New Life!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332040",
             "localizedNames": {
               "en": "Eremite Teatime",
               "zh": "\u9540\u91d1\u65c5\u56e2\u7684\u8336\u6b47",
@@ -25057,8 +24524,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332040-Eremite Teatime.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332040-Eremite Teatime.webp"
           },
           {
             "id": "311111",
@@ -25066,7 +24532,6 @@ var NYX_DB = {
             "title": "Emblem of Pearl and Waves: Everlasting Moonglow",
             "description": "\"Even if the storm clouds should gather, and even if the violet lightning's ferocity be perilous and unpredictable.\\nThe silver moon of Watatsumi shall still pierce through the clouds and scatter forth its light.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311111",
             "localizedNames": {
               "en": "Everlasting Moonglow",
               "zh": "\u4e0d\u706d\u6708\u534e",
@@ -25094,8 +24559,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311111-Everlasting Moonglow.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311111-Everlasting Moonglow.webp"
           },
           {
             "id": "312006",
@@ -25103,7 +24567,6 @@ var NYX_DB = {
             "title": "Noble Descent: Exile's Circlet",
             "description": "\"Woe to thee, oh great hall with silver piled high! Why is your crown drenched in blood?\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312006",
             "localizedNames": {
               "en": "Exile's Circlet",
               "zh": "\u6d41\u653e\u8005\u5934\u51a0",
@@ -25135,8 +24598,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312006-Exile's Circlet.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312006-Exile's Circlet.webp"
           },
           {
             "id": "2605",
@@ -25144,7 +24606,6 @@ var NYX_DB = {
             "title": "Unfinished Ideal: Experimental Field Generator",
             "description": "A product of the Fontaine Research Institute of Kinetic Energy Engineering that has gone out of control due to an accident. It has the ability to \"counteract\" the effects of gravity.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Experimental Field Generator",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2605",
             "localizedNames": {
               "en": "Experimental Field Generator",
               "zh": "\u5b9e\u9a8c\u6027\u573a\u529b\u53d1\u751f\u88c5\u7f6e",
@@ -25244,8 +24705,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2605-Experimental Field Generator.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2605-Experimental Field Generator.webp"
           },
           {
             "id": "332026",
@@ -25253,7 +24713,6 @@ var NYX_DB = {
             "title": "Falls and Fortune",
             "description": "The accident of falling into a pit can also be a chance to reveal the buried past beneath the dust.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332026",
             "localizedNames": {
               "en": "Falls and Fortune",
               "zh": "\u574d\u9677\u4e0e\u5951\u673a",
@@ -25277,8 +24736,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332026-Falls and Fortune.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332026-Falls and Fortune.webp"
           },
           {
             "id": "214012",
@@ -25286,7 +24744,6 @@ var NYX_DB = {
             "title": "Fischl: Nightraven",
             "description": "\"However, while all of these assignments were unexpected, some were far more unexpected than others. For instance, some little witches simply had to figure out how to use the primordial light to create their own material world, while others were tasked with breathing 'soul' into lifeforms that previously existed only in the imagination...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214012",
             "localizedNames": {
               "en": "Fantasia of the Evening World",
               "zh": "\u5bb5\u4e16\u5e7b\u594f",
@@ -25337,8 +24794,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null,
-            "source": "Nanoka"
+            "art": null
           },
           {
             "id": "211161",
@@ -25346,7 +24802,6 @@ var NYX_DB = {
             "title": "Skirk: Far to Fall",
             "description": "\"Another star goes out.\"",
             "sourceText": "Reward for inviting Skirk to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211161",
             "localizedNames": {
               "en": "Far to Fall",
               "zh": "\u6e6e\u8fdc",
@@ -25406,8 +24861,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211161-Far to Fall.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211161-Far to Fall.webp"
           },
           {
             "id": "224051",
@@ -25415,7 +24869,6 @@ var NYX_DB = {
             "title": "Consecrated Scorpion: Fatal Fulmination",
             "description": "Lifeforms are governed by the laws of evolution, Consecrated Beasts exploited these rules by being fortunate enough to discover a long-dead carcass of a greater being before any of their competition ever did.",
             "sourceText": "Reward for accepting the Tavern Challenge against the Consecrated Scorpion at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/224051",
             "localizedNames": {
               "en": "Fatal Fulmination",
               "zh": "\u4ea1\u96f7\u51dd\u84c4",
@@ -25458,8 +24911,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224051-Fatal Fulmination.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224051-Fatal Fulmination.webp"
           },
           {
             "id": "332016",
@@ -25467,7 +24919,6 @@ var NYX_DB = {
             "title": "A Conspiracy Under Winter's Resplendence",
             "description": "...But none know the intricacies of what they are plotting.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332016",
             "localizedNames": {
               "en": "Fatui Conspiracy",
               "zh": "\u611a\u4eba\u4f17\u7684\u9634\u8c0b",
@@ -25497,8 +24948,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332016-Fatui Conspiracy.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332016-Fatui Conspiracy.webp"
           },
           {
             "id": "2101",
@@ -25506,7 +24956,6 @@ var NYX_DB = {
             "title": "\"Cicin of the Hollow Mist\" Cryo Cicin Mage",
             "description": "And so long as the Mist Grass yet lingers, the Cryo Cicins will not abandon her.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Cryo Cicin Mage",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2101",
             "localizedNames": {
               "en": "Fatui Cryo Cicin Mage",
               "zh": "\u611a\u4eba\u4f17\u00b7\u51b0\u8424\u672f\u58eb",
@@ -25611,8 +25060,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2101-Fatui Cryo Cicin Mage.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2101-Fatui Cryo Cicin Mage.webp"
           },
           {
             "id": "2404",
@@ -25620,7 +25068,6 @@ var NYX_DB = {
             "title": "Thunder in the Mist: Electro Cicin Mage",
             "description": "...Just as the scent of Mist Grass intoxicates the Electro Cicins, so too does the sadistic mage hanker after the pleasure of toying with her foe...",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Electro Cicin Mage",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2404",
             "localizedNames": {
               "en": "Fatui Electro Cicin Mage",
               "zh": "\u611a\u4eba\u4f17\u00b7\u96f7\u8424\u672f\u58eb",
@@ -25734,8 +25181,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2404-Fatui Electro Cicin Mage.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2404-Fatui Electro Cicin Mage.webp"
           },
           {
             "id": "2301",
@@ -25743,7 +25189,6 @@ var NYX_DB = {
             "title": "\"Blade of Settlement\" Agent",
             "description": "\"There is no running from your debt, be you living or otherwise.\"",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Fatui Pyro Agent",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2301",
             "localizedNames": {
               "en": "Fatui Pyro Agent",
               "zh": "\u611a\u4eba\u4f17\u00b7\u706b\u4e4b\u503a\u52a1\u5904\u7406\u4eba",
@@ -25828,8 +25273,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2301-Fatui Pyro Agent.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2301-Fatui Pyro Agent.webp"
           },
           {
             "id": "321006",
@@ -25837,7 +25281,6 @@ var NYX_DB = {
             "title": "Gathering of the Devout",
             "description": "\"If you speak sincerely into the wind, your words will surely reach the archon's ear one day.\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321006",
             "localizedNames": {
               "en": "Favonius Cathedral",
               "zh": "\u897f\u98ce\u5927\u6559\u5802",
@@ -25869,8 +25312,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321006-Favonius Cathedral.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321006-Favonius Cathedral.webp"
           },
           {
             "id": "311505",
@@ -25878,7 +25320,6 @@ var NYX_DB = {
             "title": "Windfall: Favonius Sword",
             "description": "\"Legend has it that the knight that bore the title of Wolf Pup could cleave even raindrops with his blade, and the gales spurred by his blows were strong enough to snap roses.\\nThough none could match the heights of the Wolf Pup's prowess, the knights bear his oath of protection yet, his legacy lasting even to the present.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311505",
             "localizedNames": {
               "en": "Favonius Sword",
               "zh": "\u897f\u98ce\u5251",
@@ -25911,8 +25352,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311505-Favonius Sword.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311505-Favonius Sword.webp"
           },
           {
             "id": "214041",
@@ -25920,7 +25360,6 @@ var NYX_DB = {
             "title": "Cyno: Featherfall Judgment",
             "description": "\"This is my duel soul.\"",
             "sourceText": "Reward for inviting Cyno to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214041",
             "localizedNames": {
               "en": "Featherfall Judgment",
               "zh": "\u843d\u7fbd\u7684\u88c1\u62e9",
@@ -25969,8 +25408,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214041-Featherfall Judgment.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214041-Featherfall Judgment.webp"
           },
           {
             "id": "222051",
@@ -25978,7 +25416,6 @@ var NYX_DB = {
             "title": "Hydro Hilichurl Rogue: Hydrodart Slime",
             "description": "\"Slimo movo!\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Hydro Hilichurl Rogue at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/222051",
             "localizedNames": {
               "en": "Featherweight Foam",
               "zh": "\u8f7b\u76c8\u6c34\u6cab",
@@ -26013,8 +25450,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222051-Featherweight Foam.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222051-Featherweight Foam.webp"
           },
           {
             "id": "332051",
@@ -26022,7 +25458,6 @@ var NYX_DB = {
             "title": "Fell Dragon's Awakening",
             "description": "\"It came down from the skies in an ominous black mist and ravaged our homeland...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332051",
             "localizedNames": {
               "en": "Fell Dragon's Awakening",
               "zh": "\u300c\u90aa\u9f99\u300d\u7684\u82cf\u9192",
@@ -26072,8 +25507,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332051-Fell Dragon's Awakening.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332051-Fell Dragon's Awakening.webp"
           },
           {
             "id": "312040",
@@ -26081,7 +25515,6 @@ var NYX_DB = {
             "title": "The Future: Fell Dragon's Monocle",
             "description": "\"I will surely return to save all souls. Ten years, even a hundred years may pass, but I shall be reborn as a new universe.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312040",
             "localizedNames": {
               "en": "Fell Dragon's Monocle",
               "zh": "\u6076\u9f99\u7684\u5355\u7247\u955c",
@@ -26113,8 +25546,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312040-Fell Dragon's Monocle.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312040-Fell Dragon's Monocle.webp"
           },
           {
             "id": "330011",
@@ -26122,7 +25554,6 @@ var NYX_DB = {
             "title": "Fight for Death",
             "description": "\"No hero should have to wander alone.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/330011",
             "localizedNames": {
               "en": "Fight for Death",
               "zh": "\u4e3a\u300c\u6b7b\u300d\u800c\u6218",
@@ -26151,8 +25582,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330011-Fight for Death.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330011-Fight for Death.webp"
           },
           {
             "id": "331806",
@@ -26160,7 +25590,6 @@ var NYX_DB = {
             "title": "Fire and War",
             "description": "\"We are the inheritors of memory and legend. Those who grew alongside sun and wind. Those who forged our own destiny and future. That is Natlan's fire, the lifeblood of our nation.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331806",
             "localizedNames": {
               "en": "Fire and War",
               "zh": "\u706b\u4e0e\u6218\u4e89",
@@ -26200,8 +25629,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331806-Fire and War.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331806-Fire and War.webp"
           },
           {
             "id": "333013",
@@ -26209,7 +25637,6 @@ var NYX_DB = {
             "title": "Fish and Chips",
             "description": "Fish fried until golden and crispy, with chips and a smorgasbord of sauces. Every single bite is suffused with savory satisfaction...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333013",
             "localizedNames": {
               "en": "Fish and Chips",
               "zh": "\u70b8\u9c7c\u85af\u6761",
@@ -26236,8 +25663,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333013-Fish and Chips.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333013-Fish and Chips.webp"
           },
           {
             "id": "311310",
@@ -26245,7 +25671,6 @@ var NYX_DB = {
             "title": "Mind in Bloom: Flame-Forged Insight",
             "description": "\"Let the memories of the past accompany you on your journey, in place of forebears who now lack the strength to...\"\\n\"The past flows through the blood into each new generation, like an unquenchable fire passed down through rituals that never cease to burn.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311310",
             "localizedNames": {
               "en": "Flame-Forged Insight",
               "zh": "\u62fe\u6167\u94f8\u7194",
@@ -26278,8 +25703,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311310-Flame-Forged Insight.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311310-Flame-Forged Insight.webp"
           },
           {
             "id": "223061",
@@ -26287,7 +25711,6 @@ var NYX_DB = {
             "title": "Goldflame Qucusaur Tyrant: Flamelord's Blessing",
             "description": "\"However, judging from his current title of 'Tyrant,' that story did not have a happy ending...\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Goldflame Qucusaur Tyrant at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/223061",
             "localizedNames": {
               "en": "Flamelord's Blessing",
               "zh": "\u300c\u7130\u4e3b\u4e4b\u795d\u300d",
@@ -26349,8 +25772,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223061-Flamelord's Blessing.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223061-Flamelord's Blessing.webp"
           },
           {
             "id": "332027",
@@ -26358,7 +25780,6 @@ var NYX_DB = {
             "title": "Flickering Four-Leaf Sigil",
             "description": "A wondrous symbol shaped like a four-leaf clover, it is of great assistance to one who manipulates the elements.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332027",
             "localizedNames": {
               "en": "Flickering Four-Leaf Sigil",
               "zh": "\u6d6e\u70c1\u7684\u56db\u53f6\u5370",
@@ -26388,8 +25809,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332027-Flickering Four-Leaf Sigil.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332027-Flickering Four-Leaf Sigil.webp"
           },
           {
             "id": "217011",
@@ -26397,7 +25817,6 @@ var NYX_DB = {
             "title": "Collei: Floral Sidewinder",
             "description": "Never underestimate Collei, and never underestimate her cat.",
             "sourceText": "Reward for inviting Collei to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/217011",
             "localizedNames": {
               "en": "Floral Sidewinder",
               "zh": "\u98de\u53f6\u8ff4\u659c",
@@ -26440,8 +25859,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217011-Floral Sidewinder.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217011-Floral Sidewinder.webp"
           },
           {
             "id": "222061",
@@ -26449,7 +25867,6 @@ var NYX_DB = {
             "title": "Hydro Tulpa: Flow Convergence",
             "description": "\"Countless wills dissolved in the water, which, like the universe, was full of souls that wished to be born.\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Hydro Tulpa at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/222061",
             "localizedNames": {
               "en": "Flow Convergence",
               "zh": "\u6c47\u6d41",
@@ -26523,8 +25940,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222061-Flow Convergence.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222061-Flow Convergence.webp"
           },
           {
             "id": "221051",
@@ -26532,7 +25948,6 @@ var NYX_DB = {
             "title": "Wayward Hermetic Spiritspeaker: Flow of Forms",
             "description": "\"Night and day, in a place of exile far from worldly clamor, a hermit contemplates an ever-changing flow of forms and the metaphors they contain. Any warrior with the courage to step up and accept her challenge will face the colorful trials she has woven.\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Wayward Hermetic Spiritspeaker at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/221051",
             "localizedNames": {
               "en": "Flow of Forms",
               "zh": "\u6d41\u53d8\u7684\u7ed8\u5f62",
@@ -26585,8 +26000,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/221051-Flow of Forms.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/221051-Flow of Forms.webp"
           },
           {
             "id": "312028",
@@ -26594,7 +26008,6 @@ var NYX_DB = {
             "title": "Withered Dreamscape: Flower of Paradise Lost",
             "description": "\"But 'eternity' is ultimately a lie. Intoxication and love could only grind memories down to broken dreams.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312028",
             "localizedNames": {
               "en": "Flower of Paradise Lost",
               "zh": "\u4e50\u56ed\u9057\u843d\u4e4b\u82b1",
@@ -26634,8 +26047,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312028-Flower of Paradise Lost.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312028-Flower of Paradise Lost.webp"
           },
           {
             "id": "213011",
@@ -26643,7 +26055,6 @@ var NYX_DB = {
             "title": "Diluc: Flowing Flame",
             "description": "A simple way out of perilous situations.",
             "sourceText": "Reward for inviting Diluc to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213011",
             "localizedNames": {
               "en": "Flowing Flame",
               "zh": "\u6d41\u706b\u7126\u707c",
@@ -26678,8 +26089,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213011-Flowing Flame.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213011-Flowing Flame.webp"
           },
           {
             "id": "311110",
@@ -26687,7 +26097,6 @@ var NYX_DB = {
             "title": "Flowing Purity",
             "description": "\"...This heart of mine, which beats as though it were ensconced in a vessel of flesh and blood, has already been stained with the same sin on this journey. This heart of mine, so tortured by the pain of regret \u2014 where could it ever hope to find peace?\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311110",
             "localizedNames": {
               "en": "Flowing Purity",
               "zh": "\u7eaf\u6c34\u6d41\u534e",
@@ -26726,8 +26135,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311110-Flowing Purity.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311110-Flowing Purity.webp"
           },
           {
             "id": "312019",
@@ -26735,7 +26143,6 @@ var NYX_DB = {
             "title": "Enthralling Tales Passed On: Flowing Rings",
             "description": "\"...And the stone that had been lost to the waters may have been a lesser jade, or perhaps just a simple cup. Some even say that the \"jade\" in the tale is in fact an analogy for a beautiful person.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312019",
             "localizedNames": {
               "en": "Flowing Rings",
               "zh": "\u6d6e\u6eaf\u4e4b\u73cf",
@@ -26761,8 +26168,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312019-Flowing Rings.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312019-Flowing Rings.webp"
           },
           {
             "id": "332046",
@@ -26770,7 +26176,6 @@ var NYX_DB = {
             "title": "Flying Squad, Attack!",
             "description": "\"Back when the Flower-Feather Clan was responsible for patrolling and defending all of Natlan, the flying squad was the best of the best \u2014 the fiercest warriors in the nation.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332046",
             "localizedNames": {
               "en": "Flying Squad, Attack!",
               "zh": "\u98de\u884c\u961f\u51fa\u51fb\uff01",
@@ -26804,8 +26209,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332046-Flying Squad, Attack!.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332046-Flying Squad, Attack!.webp"
           },
           {
             "id": "322029",
@@ -26813,7 +26217,6 @@ var NYX_DB = {
             "title": "Forest Blessing",
             "description": "\"I bestow upon you the blessings of the forest, and offer you a home in this land...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322029",
             "localizedNames": {
               "en": "Forest Blessing",
               "zh": "\u68ee\u6797\u7684\u795d\u798f",
@@ -26906,8 +26309,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322029-Forest Blessing.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322029-Forest Blessing.webp"
           },
           {
             "id": "311307",
@@ -26915,7 +26317,6 @@ var NYX_DB = {
             "title": "Forest Sanctuary: Forest Regalia",
             "description": "\"...Then the current changed and the moon's reflection was scattered. Much has changed, and yet, much will now remain unchanged forevermore.\\nBut even if you, like me, have never met a king, you would still get the impression that Tiger was a noble and powerful king of the forest.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311307",
             "localizedNames": {
               "en": "Forest Regalia",
               "zh": "\u68ee\u6797\u738b\u5668",
@@ -26943,8 +26344,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311307-Forest Regalia.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311307-Forest Regalia.webp"
           },
           {
             "id": "321018",
@@ -26952,7 +26352,6 @@ var NYX_DB = {
             "title": "Fortress of Meropide",
             "description": "\"A fastness of bronze and iron will collapse one day, but a city of law and justice will never fall.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321018",
             "localizedNames": {
               "en": "Fortress of Meropide",
               "zh": "\u6885\u6d1b\u5f7c\u5f97\u5821",
@@ -26984,8 +26383,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321018-Fortress of Meropide.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321018-Fortress of Meropide.webp"
           },
           {
             "id": "312039",
@@ -26993,7 +26391,6 @@ var NYX_DB = {
             "title": "Whimsical Waltz: Fragment of Harmonic Whimsy",
             "description": "\"If I truly did have a chance to choose, then I would be able to change the unchangeable end of which you spoke.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312039",
             "localizedNames": {
               "en": "Fragment of Harmonic Whimsy",
               "zh": "\u8c10\u5f8b\u5f02\u60f3\u65ad\u7ae0",
@@ -27031,8 +26428,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312039-Fragment of Harmonic Whimsy.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312039-Fragment of Harmonic Whimsy.webp"
           },
           {
             "id": "330004",
@@ -27040,7 +26436,6 @@ var NYX_DB = {
             "title": "Fresh Wind of Freedom",
             "description": "\"The heavenly bard brushed the strings of the lyre, summoning forth the gale, dispersing the ice and snow, cleaving the peaks, and making the new Mondstadt the home of freedom.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/330004",
             "localizedNames": {
               "en": "Fresh Wind of Freedom",
               "zh": "\u81ea\u7531\u7684\u65b0\u98ce",
@@ -27073,8 +26468,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330004-Fresh Wind of Freedom.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330004-Fresh Wind of Freedom.webp"
           },
           {
             "id": "332020",
@@ -27082,7 +26476,6 @@ var NYX_DB = {
             "title": "Bosom Friends",
             "description": "Good friends never truly leave. They stay with us in another form.",
             "sourceText": "Claim from the \"Duel! The Summoners' Summit!\" event",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332020",
             "localizedNames": {
               "en": "Friendship Eternal",
               "zh": "\u6c38\u8fdc\u7684\u53cb\u8c0a",
@@ -27107,8 +26500,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332020-Friendship Eternal.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332020-Friendship Eternal.webp"
           },
           {
             "id": "2104",
@@ -27116,7 +26508,6 @@ var NYX_DB = {
             "title": "Filtered in Liquidation: Frost Operative",
             "description": "Selected while still children, they can only become an \"Operative\" after many long years of training and teaching, after countless rounds have winnowed the field.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Frost Operative",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2104",
             "localizedNames": {
               "en": "Frost Operative",
               "zh": "\u611a\u4eba\u4f17\u00b7\u971c\u5f79\u4eba",
@@ -27219,8 +26610,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2104-Frost Operative.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2104-Frost Operative.webp"
           },
           {
             "id": "321037",
@@ -27228,7 +26618,6 @@ var NYX_DB = {
             "title": "Frostmoon Enclave",
             "description": "Here, the Frostmoon Scions gather, listening to the teachings of moonlight.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321037",
             "localizedNames": {
               "en": "Frostmoon Enclave",
               "zh": "\u971c\u6708\u4e4b\u574a",
@@ -27264,8 +26653,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321037-Frostmoon Enclave.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321037-Frostmoon Enclave.webp"
           },
           {
             "id": "311105",
@@ -27273,7 +26661,6 @@ var NYX_DB = {
             "title": "Moon's Fullness: Fruit of Fulfillment",
             "description": "\"Even the most bitter of stories contain courage and strength... The story of the good Golden Nara's adventures with us will help good Nara defend the forest.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311105",
             "localizedNames": {
               "en": "Fruit of Fulfillment",
               "zh": "\u76c8\u6ee1\u4e4b\u5b9e",
@@ -27301,8 +26688,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311105-Fruit of Fulfillment.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311105-Fruit of Fulfillment.webp"
           },
           {
             "id": "332048",
@@ -27310,7 +26696,6 @@ var NYX_DB = {
             "title": "Fruits of Training",
             "description": "\"I keep telling them it's down to the training... Why doesn't anybody listen?\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332048",
             "localizedNames": {
               "en": "Fruits of Training",
               "zh": "\u5065\u8eab\u7684\u6210\u679c",
@@ -27334,8 +26719,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332048-Fruits of Training.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332048-Fruits of Training.webp"
           },
           {
             "id": "215061",
@@ -27343,7 +26727,6 @@ var NYX_DB = {
             "title": "Wanderer: Gales of Reverie",
             "description": "\"Squall and fury!\"",
             "sourceText": "Reward for inviting the Wanderer to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215061",
             "localizedNames": {
               "en": "Gales of Reverie",
               "zh": "\u68a6\u8ff9\u4e00\u98ce",
@@ -27396,8 +26779,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215061-Gales of Reverie.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215061-Gales of Reverie.webp"
           },
           {
             "id": "312004",
@@ -27405,7 +26787,6 @@ var NYX_DB = {
             "title": "Wager: Gambler's Earrings",
             "description": "\"In games where one gambles with life and death, remaining calm and composed is key to increasing one's odds of victory.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312004",
             "localizedNames": {
               "en": "Gambler's Earrings",
               "zh": "\u8d4c\u5f92\u7684\u8033\u73af",
@@ -27437,8 +26818,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312004-Gambler's Earrings.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312004-Gambler's Earrings.webp"
           },
           {
             "id": "321014",
@@ -27446,7 +26826,6 @@ var NYX_DB = {
             "title": "Gandharva Ville",
             "description": "The place where travelers and Forest Rangers meet in joy \u2014 the village that listens to the heartbeat of the rainforest.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321014",
             "localizedNames": {
               "en": "Gandharva Ville",
               "zh": "\u5316\u57ce\u90ed",
@@ -27482,8 +26861,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321014-Gandharva Ville.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321014-Gandharva Ville.webp"
           },
           {
             "id": "332066",
@@ -27491,7 +26869,6 @@ var NYX_DB = {
             "title": "Gather and drink together",
             "description": "\"You again? You're always the last one here. Sit down already, we've been waiting for you!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332066",
             "localizedNames": {
               "en": "Gathering Gourmet",
               "zh": "\u9f50\u805a\u5171\u996e"
@@ -27513,8 +26890,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": null,
-            "source": "Nanoka"
+            "art": null
           },
           {
             "id": "312009",
@@ -27522,7 +26898,6 @@ var NYX_DB = {
             "title": "Ironclad Promise: General's Ancient Helm",
             "description": "\"The last drop of blood had soaked into the battlefield, and the glazed sands shone gloriously once more.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312009",
             "localizedNames": {
               "en": "General's Ancient Helm",
               "zh": "\u5c06\u5e05\u515c\u936a",
@@ -27564,8 +26939,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312009-General's Ancient Helm.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312009-General's Ancient Helm.webp"
           },
           {
             "id": "332060",
@@ -27573,7 +26947,6 @@ var NYX_DB = {
             "title": "Genius's Upgrade Technique",
             "description": "\"Alright, upgrade complete! Time to treat myself to a tasty snack.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332060",
             "localizedNames": {
               "en": "Genius's Upgrade Technique",
               "zh": "\u5929\u624d\u7684\u6539\u9020\u6cd5",
@@ -27606,8 +26979,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332060-Genius's Upgrade Technique.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332060-Genius's Upgrade Technique.webp"
           },
           {
             "id": "322030",
@@ -27615,7 +26987,6 @@ var NYX_DB = {
             "title": "Gift of the Goddess of Prophecy",
             "description": "\"When that time comes, I shall dance, and return the tracks beneath my people's feet back to the stars in the sky...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322030",
             "localizedNames": {
               "en": "Gift of the Goddess of Prophecy",
               "zh": "\u9884\u8a00\u5973\u795e\u7684\u793c\u7269",
@@ -27679,8 +27050,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322030-Gift of the Goddess of Prophecy.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322030-Gift of the Goddess of Prophecy.webp"
           },
           {
             "id": "312018",
@@ -27688,7 +27058,6 @@ var NYX_DB = {
             "title": "Golden Vision: Gilded Dreams",
             "description": "\"Some time later, absurd decisions would be issued alongside illusory madness, using lovely expectations as bait to lead the people towards a bitter end.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312018",
             "localizedNames": {
               "en": "Gilded Dreams",
               "zh": "\u9970\u91d1\u4e4b\u68a6",
@@ -27715,8 +27084,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312018-Gilded Dreams.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312018-Gilded Dreams.webp"
           },
           {
             "id": "312045",
@@ -27724,7 +27092,6 @@ var NYX_DB = {
             "title": "Unbound Dream: Gladiator's Finale",
             "description": "\"The gladiator's healing wounds were covered with invisible feathers.\\nHe eventually set off on a journey, finally as free as a bird. His destination was the place where flowers bloom and birds soar.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312045",
             "localizedNames": {
               "en": "Gladiator's Finale",
               "zh": "\u89d2\u6597\u58eb\u7684\u7ec8\u5e55\u793c",
@@ -27760,8 +27127,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312045-Gladiator's Finale.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312045-Gladiator's Finale.webp"
           },
           {
             "id": "312029",
@@ -27769,7 +27135,6 @@ var NYX_DB = {
             "title": "Unbeaten: Gladiator's Triumphus",
             "description": "\"Only in moments of victory could the slave have a taste of what it felt like to be a master. But the cost of this vain aspiration was for the faint glow of freedom to be shrouded by darkness.\\nOn the day of his triumph, the gladiator finally caught a glimpse of the world outside his cell. He was a step closer to freedom.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312029",
             "localizedNames": {
               "en": "Gladiator's Triumphus",
               "zh": "\u89d2\u6597\u58eb\u7684\u51ef\u65cb",
@@ -27795,8 +27160,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312029-Gladiator's Triumphus.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312029-Gladiator's Triumphus.webp"
           },
           {
             "id": "333017",
@@ -27804,7 +27168,6 @@ var NYX_DB = {
             "title": "Glittering Gemstones",
             "description": "Multicolored biscuits. The sour and sweet jam gives off the clear luster of crystalline form, adding a shine to the crunchy treats. Such radiance! Such tastiness! What could this be but equal even to the most precious jewels?",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333017",
             "localizedNames": {
               "en": "Glittering Gemstones",
               "zh": "\u5b9d\u77f3\u95ea\u95ea",
@@ -27831,8 +27194,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333017-Glittering Gemstones.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333017-Glittering Gemstones.webp"
           },
           {
             "id": "212011",
@@ -27840,7 +27202,6 @@ var NYX_DB = {
             "title": "Barbara: Glorious Season",
             "description": "Here's a song for you~",
             "sourceText": "Reward for inviting Barbara to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212011",
             "localizedNames": {
               "en": "Glorious Season",
               "zh": "\u5149\u8f89\u7684\u5b63\u8282",
@@ -27889,8 +27250,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212011-Glorious Season.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212011-Glorious Season.webp"
           },
           {
             "id": "2704",
@@ -27898,7 +27258,6 @@ var NYX_DB = {
             "title": "Lord of the Mountain: Gluttonous Yumkasaur Mountain King",
             "description": "A mighty Yumkasaurus that has survived since ancient times and seen countless battles.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Gluttonous Yumkasaur Mountain King",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2704",
             "localizedNames": {
               "en": "Gluttonous Yumkasaur Mountain King",
               "zh": "\u8d2a\u98df\u533f\u53f6\u9f99\u5c71\u738b",
@@ -27991,8 +27350,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2704-Gluttonous Yumkasaur Mountain King.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2704-Gluttonous Yumkasaur Mountain King.webp"
           },
           {
             "id": "321013",
@@ -28000,7 +27358,6 @@ var NYX_DB = {
             "title": "Golden House",
             "description": "All the contracts that circulate throughout the land are forged here.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321013",
             "localizedNames": {
               "en": "Golden House",
               "zh": "\u9ec4\u91d1\u5c4b",
@@ -28035,8 +27392,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321013-Golden House.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321013-Golden House.webp"
           },
           {
             "id": "312026",
@@ -28044,7 +27400,6 @@ var NYX_DB = {
             "title": "Surpassing the Ancient Dream: Golden Troupe",
             "description": "\"Abide until that day... Abide until that day...\\nWhen every member of the Golden Troupe shall win the whole future as their prize.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312026",
             "localizedNames": {
               "en": "Golden Troupe",
               "zh": "\u9ec4\u91d1\u5267\u56e2",
@@ -28071,8 +27426,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312026-Golden Troupe.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312026-Golden Troupe.webp"
           },
           {
             "id": "312025",
@@ -28080,7 +27434,6 @@ var NYX_DB = {
             "title": "Song of Harmony: Golden Troupe's Reward",
             "description": "\"When the great golden symphony plays once more, the Golden Troupe will receive the rightful rewards owed to the true and loyal.\"\\n\"When the perfect order separates humanity into master and servant, prosperity and beauty shall make the kingdom glorious once more...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312025",
             "localizedNames": {
               "en": "Golden Troupe's Reward",
               "zh": "\u9ec4\u91d1\u5267\u56e2\u7684\u5956\u8d4f",
@@ -28106,8 +27459,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312025-Golden Troupe's Reward.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312025-Golden Troupe's Reward.webp"
           },
           {
             "id": "2603",
@@ -28115,7 +27467,6 @@ var NYX_DB = {
             "title": "\"King of the Riftwolves\" Golden Wolflord",
             "description": "A twisted beast from another world. This creature is the ruler of the Riftwolves, and wields the power to command them to dissolve space itself.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Golden Wolflord",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2603",
             "localizedNames": {
               "en": "Golden Wolflord",
               "zh": "\u9ec4\u91d1\u738b\u517d",
@@ -28218,8 +27569,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2603-Golden Wolflord.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2603-Golden Wolflord.webp"
           },
           {
             "id": "2306",
@@ -28227,7 +27577,6 @@ var NYX_DB = {
             "title": "\"Feather of Proclamation\" Goldflame Qucusaur Tyrant",
             "description": "A Qucusaurus whose body has attained a supernatural form due to enduring forces that the bodies of modern Saurians cannot control.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Goldflame Qucusaur Tyrant",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2306",
             "localizedNames": {
               "en": "Goldflame Qucusaur Tyrant",
               "zh": "\u91d1\u7130\u7ed2\u7ffc\u9f99\u66b4\u541b",
@@ -28342,8 +27691,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2306-Goldflame Qucusaur Tyrant.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2306-Goldflame Qucusaur Tyrant.webp"
           },
           {
             "id": "213031",
@@ -28351,7 +27699,6 @@ var NYX_DB = {
             "title": "Bennett: Grand Expectation",
             "description": "The best adventure is always yet to be.",
             "sourceText": "Reward for inviting Bennett to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213031",
             "localizedNames": {
               "en": "Grand Expectation",
               "zh": "\u5192\u9669\u61a7\u61ac",
@@ -28397,8 +27744,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213031-Grand Expectation.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213031-Grand Expectation.webp"
           },
           {
             "id": "321008",
@@ -28406,7 +27752,6 @@ var NYX_DB = {
             "title": "Distant Red Dreams Forlorn",
             "description": "\"May Mt. Yougou flourish eternal, and may its glory be everlasting.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321008",
             "localizedNames": {
               "en": "Grand Narukami Shrine",
               "zh": "\u9e23\u795e\u5927\u793e",
@@ -28438,8 +27783,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321008-Grand Narukami Shrine.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321008-Grand Narukami Shrine.webp"
           },
           {
             "id": "226051",
@@ -28447,7 +27791,6 @@ var NYX_DB = {
             "title": "Experimental Field Generator: Gravity Field",
             "description": "According to the original design intentions, this was the first step in a plan to turn Fontaine into a city in the sky, so never again would the people have to worry about the waves that once swept over the land. Even if all seven nations were to be swallowed by the deeps, the elegant Court of Fontaine would float above it all, just like Celestia. Even the secrets of the universe would no longer seem so distant.",
             "sourceText": "Reward for accepting the Tavern Challenge against Experimental Field Generator at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/226051",
             "localizedNames": {
               "en": "Gravity Field",
               "zh": "\u91cd\u529b\u573a\u57df",
@@ -28484,8 +27827,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/226051-Gravity Field.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/226051-Gravity Field.webp"
           },
           {
             "id": "224021",
@@ -28493,7 +27835,6 @@ var NYX_DB = {
             "title": "Thunder Manifestation: Grieving Echo",
             "description": "That which drives the Thunder Manifestation is a much more primal fury...",
             "sourceText": "Reward for accepting the Tavern Challenge against the Thunder Manifestation at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/224021",
             "localizedNames": {
               "en": "Grieving Echo",
               "zh": "\u60b2\u53f7\u56de\u5531",
@@ -28535,8 +27876,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224021-Grieving Echo.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224021-Grieving Echo.webp"
           },
           {
             "id": "2702",
@@ -28544,7 +27884,6 @@ var NYX_DB = {
             "title": "Wisdom's End: Guardian of Apep's Oasis",
             "description": "Apep found itself swallowed alone amidst the scenery of the catastrophe. All the people, gods, dragons, beasts, birds, and fish. All memories, wisdom, words, and hatred were ground into colorless dust, and the last of the moonlight burned away into a rain of pale fire, falling on the barren land.\\n...\\nApep once deemed the bottom of the sea of sand to be its grave, not the palace of a dispossessed king. The poison of \"wisdom\" would soon free Apep from the hatred and anger festering within it over countless moons. Apep had grown weary of the colorless apocalypse. Then, finally, the young god and the golden Traveler let it recall once again, even though the verdant land it once ruled had been reduced to this gilded wasteland, even though Apep and its many offspring had grown twisted and wretched to secure their continued survival therein, Apep still treasured the sight and scenes of the oasis sparkling in its heart.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Guardian of Apep's Oasis",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2702",
             "localizedNames": {
               "en": "Guardian of Apep's Oasis",
               "zh": "\u963f\u4f69\u666e\u7684\u7eff\u6d32\u5b88\u671b\u8005",
@@ -28721,8 +28060,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2702-Guardian of Apep's Oasis.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2702-Guardian of Apep's Oasis.webp"
           },
           {
             "id": "332014",
@@ -28730,7 +28068,6 @@ var NYX_DB = {
             "title": "Evil Is Banished",
             "description": "\"Adeptus Xiao. I will be here when you call.\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332014",
             "localizedNames": {
               "en": "Guardian's Oath",
               "zh": "\u62a4\u6cd5\u4e4b\u8a93",
@@ -28755,8 +28092,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332014-Guardian's Oath.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332014-Guardian's Oath.webp"
           },
           {
             "id": "322013",
@@ -28764,7 +28100,6 @@ var NYX_DB = {
             "title": "Persistence of Pain: Hanachirusato",
             "description": "\"When shall we meet again after this parting? For life is like the morning dew.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322013",
             "localizedNames": {
               "en": "Hanachirusato",
               "zh": "\u82b1\u6563\u91cc",
@@ -28790,8 +28125,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322013-Hanachirusato.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322013-Hanachirusato.webp"
           },
           {
             "id": "332049",
@@ -28799,7 +28133,6 @@ var NYX_DB = {
             "title": "Harvest Time",
             "description": "\"Very good. Exactly like that. Keep it up.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332049",
             "localizedNames": {
               "en": "Harvest Time",
               "zh": "\u6536\u83b7\u65f6\u95f4",
@@ -28839,8 +28172,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332049-Harvest Time.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332049-Harvest Time.webp"
           },
           {
             "id": "333028",
@@ -28848,7 +28180,6 @@ var NYX_DB = {
             "title": "Harvest's Boon",
             "description": "A rich and comforting meal held together by the humble Grainfruit. Minced meat is stir-fried and placed in a baking pan with larger chunks of meat and eggs. The whole thing is then covered with a layer of mashed Grainfruit and baked until a tantalizing golden brown. This hearty dish can often be found on the tables of the Collective of Plenty during harvest festivals.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333028",
             "localizedNames": {
               "en": "Harvest's Boon",
               "zh": "\u4e30\u7a14\u4e4b\u8d50",
@@ -28880,8 +28211,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333028-Harvest's Boon.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333028-Harvest's Boon.webp"
           },
           {
             "id": "312202",
@@ -28889,7 +28219,6 @@ var NYX_DB = {
             "title": "Shipborne Afterthought: Heart of Depth",
             "description": "\"For all deaths are in vain. There is no saving those who indulge in the past.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312202",
             "localizedNames": {
               "en": "Heart of Depth",
               "zh": "\u6c89\u6ca6\u4e4b\u5fc3",
@@ -28916,8 +28245,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312202-Heart of Depth.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312202-Heart of Depth.webp"
           },
           {
             "id": "312021",
@@ -28925,7 +28253,6 @@ var NYX_DB = {
             "title": "Cleansing of Filth: Heart of Khvarena's Brilliance",
             "description": "\"If the darkness of death did not threaten it, no life would have any importance.\\nIf the waves of forgetfulness did not surge against them, there would be no histories worth recording...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312021",
             "localizedNames": {
               "en": "Heart of Khvarena's Brilliance",
               "zh": "\u7075\u5149\u660e\u70c1\u4e4b\u5fc3",
@@ -28951,8 +28278,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312021-Heart of Khvarena's Brilliance.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312021-Heart of Khvarena's Brilliance.webp"
           },
           {
             "id": "332018",
@@ -28960,7 +28286,6 @@ var NYX_DB = {
             "title": "The Shatterstone Method",
             "description": "For those that aren't so strong...\\nIt's best to regard the \"The Shatterstone Method\" as just a \"metaphor.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332018",
             "localizedNames": {
               "en": "Heavy Strike",
               "zh": "\u91cd\u653b\u51fb",
@@ -28990,8 +28315,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332018-Heavy Strike.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332018-Heavy Strike.webp"
           },
           {
             "id": "212101",
@@ -28999,7 +28323,6 @@ var NYX_DB = {
             "title": "Neuvillette: Heir to the Ancient Sea's Authority",
             "description": "\"The tides beckon.\"",
             "sourceText": "Reward for inviting Neuvillette to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212101",
             "localizedNames": {
               "en": "Heir to the Ancient Sea's Authority",
               "zh": "\u53e4\u6d77\u5b51\u9057\u7684\u6743\u67c4",
@@ -29039,8 +28362,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212101-Heir to the Ancient Sea's Authority.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212101-Heir to the Ancient Sea's Authority.webp"
           },
           {
             "id": "333019",
@@ -29048,7 +28370,6 @@ var NYX_DB = {
             "title": "Hot Spring O'Clock",
             "description": "A pizza made using Grainfruit. Grainfruit is scattered across the crust before a thick layer of cheese is poured on top, and the whole thing is delivered into the oven. The final touch is to then draw a little Koholasaurus picture on it. Eat it while it's hot \u2014 the warmth will remind you of a serene time spent enjoying a soothing soak in a hot spring.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333019",
             "localizedNames": {
               "en": "Hot Spring O'Clock",
               "zh": "\u6e29\u6cc9\u65f6\u5149",
@@ -29075,8 +28396,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333019-Hot Spring O'Clock.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333019-Hot Spring O'Clock.webp"
           },
           {
             "id": "2205",
@@ -29084,7 +28404,6 @@ var NYX_DB = {
             "title": "\"Razorwave Roamer\" Hydro Hilichurl Rogue",
             "description": "Hilichurl wanderers unaffiliated with any specific tribe. They can often be found roving the wilds as if in voluntary exile.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Hydro Hilichurl Rogue",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2205",
             "localizedNames": {
               "en": "Hydro Hilichurl Rogue",
               "zh": "\u4e18\u4e18\u6c34\u884c\u6e38\u4fa0",
@@ -29187,8 +28506,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2205-Hydro Hilichurl Rogue.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2205-Hydro Hilichurl Rogue.webp"
           },
           {
             "id": "2208",
@@ -29196,7 +28514,6 @@ var NYX_DB = {
             "title": "He - Hydro Hypostasis",
             "description": "A powerful high-level Hydro Elemental Lifeform code-named \"He,\" it possesses a strong instinct for exclusion and will mercilessly drive away anyone who dares to probe it.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Hydro Hypostasis",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2208",
             "localizedNames": {
               "en": "Hydro Hypostasis",
               "zh": "\u65e0\u76f8\u4e4b\u6c34",
@@ -29358,8 +28675,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null,
-            "source": "Nanoka"
+            "art": null
           },
           {
             "id": "2206",
@@ -29367,7 +28683,6 @@ var NYX_DB = {
             "title": "\"Awakened Egregore\" Hydro Tulpa",
             "description": "A human-shaped monster formed from the agglomeration of countless drops of water.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Hydro Tulpa",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2206",
             "localizedNames": {
               "en": "Hydro Tulpa",
               "zh": "\u6c34\u5f62\u5e7b\u4eba",
@@ -29498,8 +28813,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2206-Hydro Tulpa.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2206-Hydro Tulpa.webp"
           },
           {
             "id": "216021",
@@ -29507,7 +28821,6 @@ var NYX_DB = {
             "title": "Noelle: I Got Your Back",
             "description": "A stout heart is the sternest armor.",
             "sourceText": "Reward for inviting Noelle to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/216021",
             "localizedNames": {
               "en": "I Got Your Back",
               "zh": "\u652f\u63f4\u5c31\u4ea4\u7ed9\u6211\u5427",
@@ -29556,8 +28869,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216021-I Got Your Back.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216021-I Got Your Back.webp"
           },
           {
             "id": "332005",
@@ -29565,7 +28877,6 @@ var NYX_DB = {
             "title": "I Haven't Lost Yet!",
             "description": "Arataki \"He Might Lose but He'll Never Admit Defeatto\" is always game for another round!",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332005",
             "localizedNames": {
               "en": "I Haven't Lost Yet!",
               "zh": "\u672c\u5927\u7237\u8fd8\u6ca1\u6709\u8f93\uff01",
@@ -29598,8 +28909,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332005-I Haven't Lost Yet!.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332005-I Haven't Lost Yet!.webp"
           },
           {
             "id": "313005",
@@ -29607,7 +28917,6 @@ var NYX_DB = {
             "title": "Iktomisaurus: Spiritual Support",
             "description": "\"According to legend, their ancestors did not have a physical form, and instead could drift like spirits between reality and the spiritual realm...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/313005",
             "localizedNames": {
               "en": "Iktomisaurus",
               "zh": "\u669d\u89c6\u9f99",
@@ -29644,8 +28953,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313005-Iktomisaurus.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313005-Iktomisaurus.webp"
           },
           {
             "id": "330005",
@@ -29653,7 +28961,6 @@ var NYX_DB = {
             "title": "In Every House a Stove",
             "description": "\"The Stove God cared for the people, turning himself into minions who went into every home, fostering food and solidarity alike.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/330005",
             "localizedNames": {
               "en": "In Every House a Stove",
               "zh": "\u4e07\u5bb6\u7076\u706b",
@@ -29681,8 +28988,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330005-In Every House a Stove.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330005-In Every House a Stove.webp"
           },
           {
             "id": "216091",
@@ -29690,7 +28996,6 @@ var NYX_DB = {
             "title": "Chiori: In Five Colors Dyed",
             "description": "\"Scraps of color, scatter!\"",
             "sourceText": "Reward for inviting Chiori to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/216091",
             "localizedNames": {
               "en": "In Five Colors Dyed",
               "zh": "\u843d\u67d3\u4e94\u8272",
@@ -29748,8 +29053,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216091-In Five Colors Dyed.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216091-In Five Colors Dyed.webp"
           },
           {
             "id": "332044",
@@ -29757,7 +29061,6 @@ var NYX_DB = {
             "title": "In the Name of the Extreme",
             "description": "\"Relax your body and embrace the storm! Together with your companions, chase the tailwinds of extremity.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332044",
             "localizedNames": {
               "en": "In the Name of the Extreme",
               "zh": "\u4ee5\u6781\u9650\u4e4b\u540d",
@@ -29782,8 +29085,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332044-In the Name of the Extreme.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332044-In the Name of the Extreme.webp"
           },
           {
             "id": "312005",
@@ -29791,7 +29093,6 @@ var NYX_DB = {
             "title": "Pre-Prepared: Instructor's Cap",
             "description": "\"I don't have the talent to command an army as its general, nor am I qualified for anything beyond being a soldier.\"\\n\"All I can do is to be a strict instructor to these children, so that they might survive on the battlefield a bit longer.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312005",
             "localizedNames": {
               "en": "Instructor's Cap",
               "zh": "\u6559\u5b98\u7684\u5e3d\u5b50",
@@ -29818,8 +29119,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312005-Instructor's Cap.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312005-Instructor's Cap.webp"
           },
           {
             "id": "322011",
@@ -29827,7 +29127,6 @@ var NYX_DB = {
             "title": "\"Where We Last Left Off\" Iron Tongue Tian",
             "description": "\"Listen, I'll tell you how is it... Let me show you real storytelling tradition!\"",
             "sourceText": "Reward for accepting Iron Tongue Tian's Adventure Challenge in the open world and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322011",
             "localizedNames": {
               "en": "Iron Tongue Tian",
               "zh": "\u7530\u94c1\u5634",
@@ -29863,8 +29162,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322011-Iron Tongue Tian.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322011-Iron Tongue Tian.webp"
           },
           {
             "id": "321003",
@@ -29872,7 +29170,6 @@ var NYX_DB = {
             "title": "Stargazing Amidst Clouds",
             "description": "\"They say that it contains a thousand dazzling jewels.\"",
             "sourceText": "Reward for accepting Bu'yun's Adventure Challenge in the open world and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321003",
             "localizedNames": {
               "en": "Jade Chamber",
               "zh": "\u7fa4\u7389\u9601",
@@ -29903,8 +29200,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321003-Jade Chamber.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321003-Jade Chamber.webp"
           },
           {
             "id": "2701",
@@ -29912,7 +29208,6 @@ var NYX_DB = {
             "title": "\"Lord of Fungi\" Jadeplume Terrorshroom",
             "description": "If you keep silent and listen closely, you can hear the sound of the ruler of the Shroom-Kin inspecting its territory...",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Jadeplume Terrorshroom",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2701",
             "localizedNames": {
               "en": "Jadeplume Terrorshroom",
               "zh": "\u7fe0\u7fce\u6050\u8548",
@@ -29987,8 +29282,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2701-Jadeplume Terrorshroom.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2701-Jadeplume Terrorshroom.webp"
           },
           {
             "id": "322022",
@@ -29996,7 +29290,6 @@ var NYX_DB = {
             "title": "Drifting Sand, Drifting Dreams: Jeht",
             "description": "\"Here's a thousand hugs! We will meet again!\"\\n\"May we meet again under a lovelier sun.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322022",
             "localizedNames": {
               "en": "Jeht",
               "zh": "\u5a55\u5fb7",
@@ -30028,8 +29321,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322022-Jeht.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322022-Jeht.webp"
           },
           {
             "id": "330003",
@@ -30037,7 +29329,6 @@ var NYX_DB = {
             "title": "Joyous Celebration",
             "description": "\"Celebration should be shared with everyone.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/330003",
             "localizedNames": {
               "en": "Joyous Celebration",
               "zh": "\u6109\u821e\u6b22\u6e38",
@@ -30065,8 +29356,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330003-Joyous Celebration.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330003-Joyous Celebration.webp"
           },
           {
             "id": "333001",
@@ -30074,7 +29364,6 @@ var NYX_DB = {
             "title": "Jueyun Guoba",
             "description": "Flavorful and crispy Jueyun Guoba \u2014 with Guoba's stamp of approval.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333001",
             "localizedNames": {
               "en": "Jueyun Guoba",
               "zh": "\u7edd\u4e91\u9505\u5df4",
@@ -30100,8 +29389,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333001-Jueyun Guoba.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333001-Jueyun Guoba.webp"
           },
           {
             "id": "211051",
@@ -30109,7 +29397,6 @@ var NYX_DB = {
             "title": "Kamisato Ayaka: Kanten Senmyou Blessing",
             "description": "The heron holds upon the ice on elegant wing.",
             "sourceText": "Reward for inviting Kamisato Ayaka to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211051",
             "localizedNames": {
               "en": "Kanten Senmyou Blessing",
               "zh": "\u5bd2\u5929\u5ba3\u547d\u795d\u8bcd",
@@ -30156,8 +29443,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211051-Kanten Senmyou Blessing.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211051-Kanten Senmyou Blessing.webp"
           },
           {
             "id": "322002",
@@ -30165,7 +29451,6 @@ var NYX_DB = {
             "title": "Katheryne, Guild Receptionist",
             "description": "\"Ad astra abyssosque! Welcome to the Adventurers' Guild.\"",
             "sourceText": "Reward for accepting Lan's Adventure Challenge in the open world and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322002",
             "localizedNames": {
               "en": "Katheryne",
               "zh": "\u51ef\u745f\u7433",
@@ -30201,8 +29486,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322002-Katheryne.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322002-Katheryne.webp"
           },
           {
             "id": "217021",
@@ -30210,7 +29494,6 @@ var NYX_DB = {
             "title": "Tighnari: Keen Sight",
             "description": "Mistakes are part of learning... However, these mistakes should be corrected upon being discovered.",
             "sourceText": "Reward for inviting Tighnari to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/217021",
             "localizedNames": {
               "en": "Keen Sight",
               "zh": "\u773c\u8bc6\u6b8a\u660e",
@@ -30279,8 +29562,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217021-Keen Sight.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217021-Keen Sight.webp"
           },
           {
             "id": "322014",
@@ -30288,7 +29570,6 @@ var NYX_DB = {
             "title": "Temari-Hiding Intentions: Kid Kujirai",
             "description": "\"When you hide a Temari, you have to hide it within the time of a Temari song. The person who is looking for it will also find it within a song's time. That will make the game fair!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322014",
             "localizedNames": {
               "en": "Kid Kujirai",
               "zh": "\u9cb8\u4e95\u5c0f\u5f1f",
@@ -30319,8 +29600,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322014-Kid Kujirai.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322014-Kid Kujirai.webp"
           },
           {
             "id": "311206",
@@ -30328,7 +29608,6 @@ var NYX_DB = {
             "title": "Teachings of the Forest: King's Squire",
             "description": "A weapon you obtained from an Aranara tale. It has taken on the shape of a bow.\\n\"Remember, this whole world is but a dream of the forest... Please pass on the forest's language and the responsibility of protecting the King's land to future successors.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311206",
             "localizedNames": {
               "en": "King's Squire",
               "zh": "\u738b\u4e0b\u8fd1\u4f8d",
@@ -30356,8 +29635,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311206-King's Squire.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311206-King's Squire.webp"
           },
           {
             "id": "321002",
@@ -30365,7 +29643,6 @@ var NYX_DB = {
             "title": "Athenaeum of the North",
             "description": "\"Most of the books here can be lent out, but do bear in mind that you will have to return them... on time.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321002",
             "localizedNames": {
               "en": "Knights of Favonius Library",
               "zh": "\u9a91\u58eb\u56e2\u56fe\u4e66\u9986",
@@ -30391,8 +29668,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321002-Knights of Favonius Library.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321002-Knights of Favonius Library.webp"
           },
           {
             "id": "313003",
@@ -30400,7 +29676,6 @@ var NYX_DB = {
             "title": "Koholasaurus: Spiritway",
             "description": "Only the Koholasaurs \u2014 and some adults from the People of the Springs who have mastered a variety of different skills \u2014 are able to use the Spiritways with unfettered facility, swiftly traversing these pathways of constantly flowing phlogiston...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/313003",
             "localizedNames": {
               "en": "Koholasaurus",
               "zh": "\u9ccd\u6e38\u9f99",
@@ -30437,8 +29712,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313003-Koholasaurus.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313003-Koholasaurus.webp"
           },
           {
             "id": "323008",
@@ -30446,7 +29720,6 @@ var NYX_DB = {
             "title": "Kusava",
             "description": "Kusava, Kusava~\u266a\\nMemories and dreams are full of power.\\nIt is the fruit of flowering plants, and also the seed of new life.\\nThey are the temporary dwelling place of Aranara memories, and they give Aranara strength.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/323008",
             "localizedNames": {
               "en": "Kusava",
               "zh": "\u82e6\u820d\u6853",
@@ -30482,8 +29755,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323008-Kusava.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323008-Kusava.webp"
           },
           {
             "id": "321039",
@@ -30491,7 +29763,6 @@ var NYX_DB = {
             "title": "Kuuvahki Experimental Design Bureau",
             "description": "This leviathan forged of white iron and black steel hungrily devours all in its sight \u2013 energy, blood, and tears alike. Yet what it seeks is not plunder, but power enough to withstand the looming calamity.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321039",
             "localizedNames": {
               "en": "Kuuvahki Experimental Design Bureau",
               "zh": "\u6708\u77e9\u529b\u8bd5\u9a8c\u8bbe\u8ba1\u5c40",
@@ -30531,8 +29802,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321039-Kuuvahki Experimental Design Bureau.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321039-Kuuvahki Experimental Design Bureau.webp"
           },
           {
             "id": "212061",
@@ -30540,7 +29810,6 @@ var NYX_DB = {
             "title": "Kamisato Ayato: Kyouka Fuushi",
             "description": "The courtyard remains fragrant even in the bitterest winter.",
             "sourceText": "Reward for inviting Kamisato Ayato to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212061",
             "localizedNames": {
               "en": "Kyouka Fuushi",
               "zh": "\u955c\u534e\u98ce\u59ff",
@@ -30597,8 +29866,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212061-Kyouka Fuushi.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212061-Kyouka Fuushi.webp"
           },
           {
             "id": "2102",
@@ -30606,7 +29874,6 @@ var NYX_DB = {
             "title": "\"The Eighth Harbinger\" La Signora",
             "description": "The crimson dawn was reflected in her pupils, and at last, she unfolded her flaming wings and flew towards the light.\\n\"But that light is not the dawn, dear Rosalyne. That is a sea of flame that will consume everything.\"\\nYet it mattered not, for she knew in her heart that the flames had devoured her long ago.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with La Signora",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2102",
             "localizedNames": {
               "en": "La Signora",
               "zh": "\u300c\u5973\u58eb\u300d",
@@ -30737,8 +30004,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2102-La Signora.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2102-La Signora.webp"
           },
           {
             "id": "333031",
@@ -30746,7 +30012,6 @@ var NYX_DB = {
             "title": "Lakkaberry Pie",
             "description": "A sweet treat from the borderlands. Once made using nothing but Lakkaberries, the recipe was later enhanced by adding Midsommar Berries to the mix. The two fruits complement each other perfectly, giving this sweet pie a rich, enticing flavor. The original name, however, remains unchanged.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333031",
             "localizedNames": {
               "en": "Lakkaberry Pie",
               "zh": "\u767d\u7075\u679c\u6d3e",
@@ -30773,8 +30038,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333031-Lakkaberry Pie.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333031-Lakkaberry Pie.webp"
           },
           {
             "id": "215021",
@@ -30782,7 +30046,6 @@ var NYX_DB = {
             "title": "Jean: Lands of Dandelion",
             "description": "\"Wind, hear me!\"",
             "sourceText": "Reward for inviting Jean to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215021",
             "localizedNames": {
               "en": "Lands of Dandelion",
               "zh": "\u84b2\u516c\u82f1\u7684\u56fd\u571f",
@@ -30836,8 +30099,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215021-Lands of Dandelion.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215021-Lands of Dandelion.webp"
           },
           {
             "id": "312701",
@@ -30845,7 +30107,6 @@ var NYX_DB = {
             "title": "Raincaller's Emblem: Laurel Coronet",
             "description": "\"There is a time appointed for all things to live and die, and the cycle continues on forever.\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312701",
             "localizedNames": {
               "en": "Laurel Coronet",
               "zh": "\u6708\u6842\u7684\u5b9d\u51a0",
@@ -30872,8 +30133,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312701-Laurel Coronet.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312701-Laurel Coronet.webp"
           },
           {
             "id": "332006",
@@ -30881,7 +30141,6 @@ var NYX_DB = {
             "title": "Leave it to Me!",
             "description": "\"It's fine, leave everything to me!\" \u2014 This ranks first among \"lines to put Mondstadter hearts at ease.\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332006",
             "localizedNames": {
               "en": "Leave it to Me!",
               "zh": "\u4ea4\u7ed9\u6211\u5427\uff01",
@@ -30914,8 +30173,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332006-Leave it to Me!.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332006-Leave it to Me!.webp"
           },
           {
             "id": "322033",
@@ -30923,7 +30181,6 @@ var NYX_DB = {
             "title": "Lepine-Pauline",
             "description": "\"I'm begging you! Begging you like the beggiest beggar in all of begdom!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322033",
             "localizedNames": {
               "en": "Lepine-Pauline",
               "zh": "\u4e50\u5e73\u6ce2\u7433",
@@ -30959,8 +30216,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322033-Lepine-Pauline.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322033-Lepine-Pauline.webp"
           },
           {
             "id": "322008",
@@ -30968,7 +30224,6 @@ var NYX_DB = {
             "title": "\"Marvelous Merchandise\" Liben",
             "description": "Big things are about to happen, big things! Oh, and I have an excellent business proposition for you, so, if I could just have a moment of your time?",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322008",
             "localizedNames": {
               "en": "Liben",
               "zh": "\u7acb\u672c",
@@ -30999,8 +30254,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322008-Liben.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322008-Liben.webp"
           },
           {
             "id": "311506",
@@ -31008,7 +30262,6 @@ var NYX_DB = {
             "title": "Whitemoon Bristle: Light of Foliar Incision",
             "description": "\"If you believe that he yet has the potential to reclaim his honor in the maze, then guide him to break off the pale branch...\\nOnly then can the bright moon and the newborn stars grant him pure wisdom and help him shed his bitter memories and desires.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311506",
             "localizedNames": {
               "en": "Light of Foliar Incision",
               "zh": "\u88c1\u53f6\u8403\u5149",
@@ -31036,8 +30289,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311506-Light of Foliar Incision.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311506-Light of Foliar Incision.webp"
           },
           {
             "id": "211091",
@@ -31045,7 +30297,6 @@ var NYX_DB = {
             "title": "Layla: Light's Remit",
             "description": "\"My guiding stars.\"",
             "sourceText": "Reward for inviting Layla to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211091",
             "localizedNames": {
               "en": "Light's Remit",
               "zh": "\u5f52\u8292\u643a\u4fe1",
@@ -31090,8 +30341,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211091-Light's Remit.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211091-Light's Remit.webp"
           },
           {
             "id": "222041",
@@ -31099,7 +30349,6 @@ var NYX_DB = {
             "title": "All-Devouring Narwhal: Lightless Feeding",
             "description": "Phosphorescent creatures float all about the dark, moonless seas of dreams \u2014 perhaps they are as food for some titanic leviathan.",
             "sourceText": "Reward for accepting the Tavern Challenge against the All-Devouring Narwhal at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/222041",
             "localizedNames": {
               "en": "Lightless Feeding",
               "zh": "\u65e0\u5149\u9cb8\u566c",
@@ -31142,8 +30391,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222041-Lightless Feeding.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222041-Lightless Feeding.webp"
           },
           {
             "id": "214051",
@@ -31151,7 +30399,6 @@ var NYX_DB = {
             "title": "Beidou: Lightning Storm",
             "description": "Rumbling thunder goes well with lightning storms!",
             "sourceText": "Reward for inviting Beidou to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214051",
             "localizedNames": {
               "en": "Lightning Storm",
               "zh": "\u9739\u96f3\u8fde\u9704",
@@ -31191,8 +30438,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214051-Lightning Storm.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214051-Lightning Storm.webp"
           },
           {
             "id": "332063",
@@ -31200,7 +30446,6 @@ var NYX_DB = {
             "title": "Lil' Fungi's Fun-Tastic Fiesta",
             "description": "\"Lil' Fungi, Loads of Fun!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332063",
             "localizedNames": {
               "en": "Lil' Fungi's Fun-Tastic Fiesta",
               "zh": "\u5c0f\u5c0f\u7075\u8548\u5927\u5e7b\u620f",
@@ -31234,8 +30479,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332063-Lil' Fungi's Fun-Tastic Fiesta.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332063-Lil' Fungi's Fun-Tastic Fiesta.webp"
           },
           {
             "id": "311402",
@@ -31243,7 +30487,6 @@ var NYX_DB = {
             "title": "Evil Shall Never Prevail: Lithic Spear",
             "description": "These spears were forged from the rocks of the Guyun Stone Forest, and were favored by the Millelith of old. Their hardness knows no equal.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311402",
             "localizedNames": {
               "en": "Lithic Spear",
               "zh": "\u5343\u5ca9\u957f\u67aa",
@@ -31276,8 +30519,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311402-Lithic Spear.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311402-Lithic Spear.webp"
           },
           {
             "id": "332043",
@@ -31285,7 +30527,6 @@ var NYX_DB = {
             "title": "Little Tepetlisaur \u2014 Treasure Hunter at Large",
             "description": "\"Shiny stones that gleam like gold!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332043",
             "localizedNames": {
               "en": "Little Tepetlisaur \u2014 Treasure Hunter at Large",
               "zh": "\u5c0f\u5d74\u950b\u9f99\uff01\u53d1\u73b0\u5b9d\u85cf\uff01",
@@ -31316,8 +30557,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332043-Little Tepetlisaur \u2014 Treasure Hunter at Large.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332043-Little Tepetlisaur \u2014 Treasure Hunter at Large.webp"
           },
           {
             "id": "322012",
@@ -31325,7 +30565,6 @@ var NYX_DB = {
             "title": "\"In the Next Volume\" Liu Su",
             "description": "\"Well then, dear guests, what would you all like to hear next?\"",
             "sourceText": "Reward for accepting Liu Su's Adventure Challenge in the open world and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322012",
             "localizedNames": {
               "en": "Liu Su",
               "zh": "\u5218\u82cf",
@@ -31361,8 +30600,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322012-Liu Su.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322012-Liu Su.webp"
           },
           {
             "id": "321001",
@@ -31370,7 +30608,6 @@ var NYX_DB = {
             "title": "Where All Ships Dock",
             "description": "\"Nature provides, the mountains rejoice, we are blessed by heaven's good grace.\"",
             "sourceText": "Reward for accepting Uncle Tian's Adventure Challenge in the open world and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321001",
             "localizedNames": {
               "en": "Liyue Harbor Wharf",
               "zh": "\u7483\u6708\u6e2f\u53e3",
@@ -31402,8 +30639,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321001-Liyue Harbor Wharf.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321001-Liyue Harbor Wharf.webp"
           },
           {
             "id": "2305",
@@ -31411,7 +30647,6 @@ var NYX_DB = {
             "title": "\"The Slain Dragon Molded\" Lord of Eroded Primal Fire",
             "description": "A monster of the void, known as both the Reaper of the Abyss and \"Gosoythoth.\" It is able to corrupt memories contained within the Ley Lines, congealing them into tangible forces of catastrophic portent.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Lord of Eroded Primal Fire",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2305",
             "localizedNames": {
               "en": "Lord of Eroded Primal Fire",
               "zh": "\u8680\u706d\u7684\u6e90\u7130\u4e4b\u4e3b",
@@ -31531,8 +30766,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2305-Lord of Eroded Primal Fire.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2305-Lord of Eroded Primal Fire.webp"
           },
           {
             "id": "330012",
@@ -31540,7 +30774,6 @@ var NYX_DB = {
             "title": "Lost Legacies in the Sand",
             "description": "\"Children of the desert, cling no longer to past grievances. But hold tight to the memory of this act of benevolence...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/330012",
             "localizedNames": {
               "en": "Lost Legacies in the Sand",
               "zh": "\u300c\u6c99\u4e2d\u9057\u4e8b\u300d",
@@ -31577,8 +30810,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330012-Lost Legacies in the Sand.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330012-Lost Legacies in the Sand.webp"
           },
           {
             "id": "311106",
@@ -31586,7 +30818,6 @@ var NYX_DB = {
             "title": "Boundless Blessing: Lost Prayer to the Sacred Winds",
             "description": "\"When flowers bloom, when leaves sway, that is me who sings the songs of freedom, of the winds.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311106",
             "localizedNames": {
               "en": "Lost Prayer to the Sacred Winds",
               "zh": "\u56db\u98ce\u539f\u5178",
@@ -31614,8 +30845,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311106-Lost Prayer to the Sacred Winds.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311106-Lost Prayer to the Sacred Winds.webp"
           },
           {
             "id": "333003",
@@ -31623,7 +30853,6 @@ var NYX_DB = {
             "title": "Lotus Flower Crisp",
             "description": "Dough is formed into bud-like shapes and placed into a pot of oil as if upon the surface of a lake, causing them to slowly bloom layer by layer... A pleasing sight indeed.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333003",
             "localizedNames": {
               "en": "Lotus Flower Crisp",
               "zh": "\u83b2\u82b1\u9165",
@@ -31650,8 +30879,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333003-Lotus Flower Crisp.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333003-Lotus Flower Crisp.webp"
           },
           {
             "id": "312002",
@@ -31659,7 +30887,6 @@ var NYX_DB = {
             "title": "Unworried Crown: Lucky Dog's Silver Circlet",
             "description": "\"One who is favored by fortune can even find priceless treasures in the most deadly of traps.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312002",
             "localizedNames": {
               "en": "Lucky Dog's Silver Circlet",
               "zh": "\u5e78\u8fd0\u513f\u94f6\u51a0",
@@ -31686,8 +30913,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312002-Lucky Dog's Silver Circlet.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312002-Lucky Dog's Silver Circlet.webp"
           },
           {
             "id": "323007",
@@ -31695,7 +30921,6 @@ var NYX_DB = {
             "title": "Lumenstone Adjuvant",
             "description": "\"May it be as a sun in your palm, lighting the way through the lightless tunnels and bringing comfort where all is dark.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/323007",
             "localizedNames": {
               "en": "Lumenstone Adjuvant",
               "zh": "\u6d41\u660e\u77f3\u89e6\u5a92",
@@ -31731,8 +30956,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323007-Lumenstone Adjuvant.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323007-Lumenstone Adjuvant.webp"
           },
           {
             "id": "226022",
@@ -31740,7 +30964,6 @@ var NYX_DB = {
             "title": "Azhdaha: Lunar Cycles Unending",
             "description": "\"Today is the day... We settle this now!\"",
             "sourceText": "Reward for accepting the Tavern Challenge against Azhdaha at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/226022",
             "localizedNames": {
               "en": "Lunar Cycles Unending",
               "zh": "\u6666\u6714\u5343\u5f15",
@@ -31785,8 +31008,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/226022-Lunar Cycles Unending.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/226022-Lunar Cycles Unending.webp"
           },
           {
             "id": "332024",
@@ -31794,7 +31016,6 @@ var NYX_DB = {
             "title": "Lyresong",
             "description": "\"The traditions of song and poetry, flowing onward in clear, moving melodies.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332024",
             "localizedNames": {
               "en": "Lyresong",
               "zh": "\u7434\u97f3\u4e4b\u8bd7",
@@ -31818,8 +31039,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332024-Lyresong.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332024-Lyresong.webp"
           },
           {
             "id": "332028",
@@ -31827,7 +31047,6 @@ var NYX_DB = {
             "title": "Machine Assembly Line",
             "description": "Countless widgets, heated and forged, eventually go into making these exceptional machines, and to the inmates of the Fortress of Meropide, they mean valuable Credit Coupons...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332028",
             "localizedNames": {
               "en": "Machine Assembly Line",
               "zh": "\u673a\u5173\u94f8\u6210\u4e4b\u94fe",
@@ -31857,8 +31076,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332028-Machine Assembly Line.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332028-Machine Assembly Line.webp"
           },
           {
             "id": "311101",
@@ -31866,7 +31084,6 @@ var NYX_DB = {
             "title": "Bane of Storm and Tide: Magic Guide",
             "description": "The 12th edition of the Magic Guide.\\nIt contains a great detail of errors, but nonetheless remains the most authoritative guide to magic in existence.",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311101",
             "localizedNames": {
               "en": "Magic Guide",
               "zh": "\u9b54\u5bfc\u7eea\u8bba",
@@ -31894,8 +31111,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311101-Magic Guide.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311101-Magic Guide.webp"
           },
           {
             "id": "2501",
@@ -31903,7 +31119,6 @@ var NYX_DB = {
             "title": "\"Ingenious Machine\" Maguu Kenki",
             "description": "Even today, it still patrols the place where fate was severed.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Maguu Kenki",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2501",
             "localizedNames": {
               "en": "Maguu Kenki",
               "zh": "\u9b54\u5076\u5251\u9b3c",
@@ -31996,8 +31211,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2501-Maguu Kenki.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2501-Maguu Kenki.webp"
           },
           {
             "id": "312031",
@@ -32005,7 +31219,6 @@ var NYX_DB = {
             "title": "Crowd of Bouquets: Maiden's Fading Beauty",
             "description": "\"...As time passed, fewer and fewer courters visited her with flowers. What did it matter? For her, time had already stopped long ago on that fateful day.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312031",
             "localizedNames": {
               "en": "Maiden's Fading Beauty",
               "zh": "\u5c11\u5973\u6613\u901d\u7684\u82b3\u989c",
@@ -32032,8 +31245,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312031-Maiden's Fading Beauty.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312031-Maiden's Fading Beauty.webp"
           },
           {
             "id": "211141",
@@ -32041,7 +31253,6 @@ var NYX_DB = {
             "title": "Citlali: Mamaloaco's Frigid Rain",
             "description": "\"Citlalin, Itzpapa, get 'em!\"",
             "sourceText": "Reward for inviting Citlali to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211141",
             "localizedNames": {
               "en": "Mamaloaco's Frigid Rain",
               "zh": "\u4e94\u91cd\u5929\u7684\u5bd2\u96e8",
@@ -32078,8 +31289,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211141-Mamaloaco's Frigid Rain.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211141-Mamaloaco's Frigid Rain.webp"
           },
           {
             "id": "322021",
@@ -32087,7 +31297,6 @@ var NYX_DB = {
             "title": "Mamere",
             "description": "A Melusine that paints every day. \\n\"Because painting the things that I want to brings me happiness!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322021",
             "localizedNames": {
               "en": "Mamere",
               "zh": "\u739b\u6885\u8d6b",
@@ -32118,8 +31327,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322021-Mamere.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322021-Mamere.webp"
           },
           {
             "id": "217101",
@@ -32127,7 +31335,6 @@ var NYX_DB = {
             "title": "Emilie: Marcotte Sillage",
             "description": "\"A little ambience.\"",
             "sourceText": "Reward for inviting Emilie to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/217101",
             "localizedNames": {
               "en": "Marcotte Sillage",
               "zh": "\u8309\u6d01\u9999\u8ff9",
@@ -32164,8 +31371,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217101-Marcotte Sillage.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217101-Marcotte Sillage.webp"
           },
           {
             "id": "312024",
@@ -32173,7 +31379,6 @@ var NYX_DB = {
             "title": "Glorious Hunter: Marechaussee Hunter",
             "description": "\"'Pursue the phantoms in the dark, expel them all, and hunt them down.'\\nSuch is the origin of the name 'Marechaussee Hunter,'\\nCredited to one Cassiodor, who would be elevated to the revered title of 'Golden Hunter,'\\nBut who saw the name as a humiliation.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312024",
             "localizedNames": {
               "en": "Marechaussee Hunter",
               "zh": "\u9010\u5f71\u730e\u4eba",
@@ -32200,8 +31405,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312024-Marechaussee Hunter.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312024-Marechaussee Hunter.webp"
           },
           {
             "id": "312601",
@@ -32209,7 +31413,6 @@ var NYX_DB = {
             "title": "Jagged Stone: Mask of Solitude Basalt",
             "description": "\"He knew right from wrong, and he never missed his mark.\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312601",
             "localizedNames": {
               "en": "Mask of Solitude Basalt",
               "zh": "\u4e0d\u52a8\u7384\u77f3\u4e4b\u76f8",
@@ -32236,8 +31439,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312601-Mask of Solitude Basalt.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312601-Mask of Solitude Basalt.webp"
           },
           {
             "id": "332010",
@@ -32245,7 +31447,6 @@ var NYX_DB = {
             "title": "Master of Weaponry",
             "description": "\"Watch and learn, comrade! A real warrior isn't picky about their weapons!\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332010",
             "localizedNames": {
               "en": "Master of Weaponry",
               "zh": "\u8bf8\u6b66\u7cbe\u901a",
@@ -32269,8 +31470,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332010-Master of Weaponry.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332010-Master of Weaponry.webp"
           },
           {
             "id": "322018",
@@ -32278,7 +31478,6 @@ var NYX_DB = {
             "title": "Arsenal Forge: Master Zhang",
             "description": "Much burning frustration must transpire before a hunk of metal may become a keen blade.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322018",
             "localizedNames": {
               "en": "Master Zhang",
               "zh": "\u8001\u7ae0",
@@ -32305,8 +31504,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322018-Master Zhang.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322018-Master Zhang.webp"
           },
           {
             "id": "333014",
@@ -32314,7 +31512,6 @@ var NYX_DB = {
             "title": "Matsutake Meat Rolls",
             "description": "Ground meat is put on the Matsutake and gently pan-fried on low heat so the Matsutake can fully take in the aromatic juice of the meat. It's a mouthwatering delicacy in all of its glory.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333014",
             "localizedNames": {
               "en": "Matsutake Meat Rolls",
               "zh": "\u677e\u8338\u917f\u8089\u5377",
@@ -32341,8 +31538,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333014-Matsutake Meat Rolls.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333014-Matsutake Meat Rolls.webp"
           },
           {
             "id": "323006",
@@ -32350,7 +31546,6 @@ var NYX_DB = {
             "title": "Memento Lens",
             "description": "They say that in the distant past, the legendary Kitsune Saiguu left a catalyst for the then-Hiiragi Clan head, Hiroshi, as a tool to be used in exorcisms.\\nThe Hiiragis would have a special Kamera made to order from overseas with that catalyst mounted on its lens assembly, before giving it back to the Grand Narukami Shrine as a symbol of their friendship.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/323006",
             "localizedNames": {
               "en": "Memento Lens",
               "zh": "\u7559\u5ff5\u955c",
@@ -32382,8 +31577,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323006-Memento Lens.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323006-Memento Lens.webp"
           },
           {
             "id": "2403",
@@ -32391,7 +31585,6 @@ var NYX_DB = {
             "title": "Millennial Pearl Seahorse",
             "description": "One of the two sovereigns standing at the apex of the Fontemer Aberrants. Poets and authors view it as a proud and noble creature, thus bestowing it with its high-flown title.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Millennial Pearl Seahorse",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2403",
             "localizedNames": {
               "en": "Millennial Pearl Seahorse",
               "zh": "\u5343\u5e74\u73cd\u73e0\u9a8f\u9e9f",
@@ -32511,8 +31704,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2403-Millennial Pearl Seahorse.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2403-Millennial Pearl Seahorse.webp"
           },
           {
             "id": "333008",
@@ -32520,7 +31712,6 @@ var NYX_DB = {
             "title": "Minty Meat Rolls",
             "description": "Though this might be its current form, think about it for a moment: did this dish first start as mint rolled around meat, or meat rolled around mint?",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333008",
             "localizedNames": {
               "en": "Minty Meat Rolls",
               "zh": "\u517d\u8089\u8584\u8377\u5377",
@@ -32552,8 +31743,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333008-Minty Meat Rolls.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333008-Minty Meat Rolls.webp"
           },
           {
             "id": "222021",
@@ -32561,7 +31751,6 @@ var NYX_DB = {
             "title": "The Mirror's Secret",
             "description": "\"Mirror, mirror, in my hand, where do our foes lurk in this land?\"",
             "sourceText": "Reward for accepting the Tavern Challenge against Mirror Maiden at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/222021",
             "localizedNames": {
               "en": "Mirror Cage",
               "zh": "\u955c\u9522\u4e4b\u7b3c",
@@ -32614,8 +31803,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222021-Mirror Cage.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222021-Mirror Cage.webp"
           },
           {
             "id": "2202",
@@ -32623,7 +31811,6 @@ var NYX_DB = {
             "title": "\"Snezhnayan Maiden\" Mirror Envoy",
             "description": "All secrets shall be concealed within the mirror of glaring brightness...",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Fatui Mirror Maiden",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2202",
             "localizedNames": {
               "en": "Mirror Maiden",
               "zh": "\u611a\u4eba\u4f17\u00b7\u85cf\u955c\u4ed5\u5973",
@@ -32690,8 +31877,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2202-Mirror Maiden.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2202-Mirror Maiden.webp"
           },
           {
             "id": "223041",
@@ -32699,7 +31885,6 @@ var NYX_DB = {
             "title": "Emperor of Fire and Iron: Molten Mail",
             "description": "\"Imagine this world: All of humanity has been purged from Teyvat, and the ever-growing Emperor of Fire and Iron eventually wears the Palais Mermonia upon its body like a luxurious coat of white stone.\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Emperor of Fire and Iron at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/223041",
             "localizedNames": {
               "en": "Molten Mail",
               "zh": "\u7194\u706b\u94c1\u7532",
@@ -32740,8 +31925,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223041-Molten Mail.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223041-Molten Mail.webp"
           },
           {
             "id": "211121",
@@ -32749,7 +31933,6 @@ var NYX_DB = {
             "title": "Freminet: Moment of Waking and Resolve",
             "description": "\"Going under.\"",
             "sourceText": "Reward for inviting Freminet to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211121",
             "localizedNames": {
               "en": "Moment of Waking and Resolve",
               "zh": "\u68a6\u6653\u4e0e\u51b3\u610f\u4e4b\u523b",
@@ -32784,8 +31967,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211121-Moment of Waking and Resolve.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211121-Moment of Waking and Resolve.webp"
           },
           {
             "id": "333006",
@@ -32793,7 +31975,6 @@ var NYX_DB = {
             "title": "Mondstadt Hash Brown",
             "description": "The sweet taste verifies the famous words of a certain famous gourmet known throughout Teyvat \u2014 a dish that may be called a regional specialty cannot taste bad.",
             "sourceText": "Reward for meeting the Player Manual's requirements",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333006",
             "localizedNames": {
               "en": "Mondstadt Hash Brown",
               "zh": "\u8499\u5fb7\u571f\u8c46\u997c",
@@ -32820,8 +32001,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333006-Mondstadt Hash Brown.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333006-Mondstadt Hash Brown.webp"
           },
           {
             "id": "331807",
@@ -32829,7 +32009,6 @@ var NYX_DB = {
             "title": "Moon and Homeland",
             "description": "\"My moon, my beloved song,\\nabandon me not in this dark night.\\nMy little doves, bring from that golden city\\nthe song of my homeland.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331807",
             "localizedNames": {
               "en": "Moon and Homeland",
               "zh": "\u6708\u4e0e\u6545\u4e61",
@@ -32853,8 +32032,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331807-Moon and Homeland.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331807-Moon and Homeland.webp"
           },
           {
             "id": "311406",
@@ -32862,7 +32040,6 @@ var NYX_DB = {
             "title": "Stillwood Moonshadow: Moonpiercer",
             "description": "\"Children fascinated by the moon will weep when they gaze upon it, for the moon has turned into fine sand and entered their eyes. In many stories, no tears are shed in vain.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311406",
             "localizedNames": {
               "en": "Moonpiercer",
               "zh": "\u8d2f\u6708\u77e2",
@@ -32890,8 +32067,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311406-Moonpiercer.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311406-Moonpiercer.webp"
           },
           {
             "id": "331721",
@@ -32899,7 +32075,6 @@ var NYX_DB = {
             "title": "Moonsign: Ascendant Gleam",
             "description": "\"Come night or day, may the moonlight connect us.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331721",
             "localizedNames": {
               "en": "Moonsign: Ascendant Gleam",
               "zh": "\u6708\u5146\u00b7\u6ee1\u8f89",
@@ -32930,8 +32105,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331721-Moonsign_ Ascendant Gleam.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331721-Moonsign_ Ascendant Gleam.webp"
           },
           {
             "id": "333007",
@@ -32939,7 +32113,6 @@ var NYX_DB = {
             "title": "Mushroom Pizza",
             "description": "They say that a researcher once used very precise calculations to uncover the \"fairest way to cut pizza,\" but as the process is far too bothersome, basically no one uses it...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333007",
             "localizedNames": {
               "en": "Mushroom Pizza",
               "zh": "\u70e4\u8611\u83c7\u62ab\u8428",
@@ -32966,8 +32139,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333007-Mushroom Pizza.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333007-Mushroom Pizza.webp"
           },
           {
             "id": "211071",
@@ -32975,7 +32147,6 @@ var NYX_DB = {
             "title": "Shenhe: Mystical Abandon",
             "description": "Transfigure, and let my will be embodied!",
             "sourceText": "Reward for inviting Shenhe to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211071",
             "localizedNames": {
               "en": "Mystical Abandon",
               "zh": "\u5fd8\u7384",
@@ -33024,8 +32195,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211071-Mystical Abandon.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211071-Mystical Abandon.webp"
           },
           {
             "id": "333020",
@@ -33033,7 +32203,6 @@ var NYX_DB = {
             "title": "Mystique Soup",
             "description": "A drink made from Grainfruit. Originally invented as a type of medicine by a certain shaman of the Masters of the Night-Wind, the recipe has been altered with the passage of time and is now a common drink at social gatherings.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333020",
             "localizedNames": {
               "en": "Mystique Soup",
               "zh": "\u5947\u7470\u4e4b\u6c64",
@@ -33065,8 +32234,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333020-Mystique Soup.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333020-Mystique Soup.webp"
           },
           {
             "id": "213051",
@@ -33074,7 +32242,6 @@ var NYX_DB = {
             "title": "Yoimiya: Naganohara Meteor Swarm",
             "description": "Naganohara Ideal Firework Reserve Theory.",
             "sourceText": "Reward for inviting Yoimiya to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213051",
             "localizedNames": {
               "en": "Naganohara Meteor Swarm",
               "zh": "\u957f\u91ce\u539f\u9f99\u52bf\u6d41\u661f\u7fa4",
@@ -33131,8 +32298,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213051-Naganohara Meteor Swarm.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213051-Naganohara Meteor Swarm.webp"
           },
           {
             "id": "332052",
@@ -33140,7 +32306,6 @@ var NYX_DB = {
             "title": "Narration Footnotes",
             "description": "\"Suspect, try and look more serious. Heroes, more natural please, happy smiles! ...But no smiling from the victim or their friends and family, thank you. No, no, don't get up! Stay on the ground, we need to capture the crime scene as-is!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332052",
             "localizedNames": {
               "en": "Narration Footnotes",
               "zh": "\u65c1\u767d\u7684\u6ce8\u811a",
@@ -33189,8 +32354,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332052-Narration Footnotes.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332052-Narration Footnotes.webp"
           },
           {
             "id": "321038",
@@ -33198,7 +32362,6 @@ var NYX_DB = {
             "title": "Nasha Town",
             "description": "This town sits like a ship run aground on the world's edge \u2014 a place where drifters gather to scavenge fragments of elysium from the wreckage of history and fabricated pasts.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321038",
             "localizedNames": {
               "en": "Nasha Town",
               "zh": "\u90a3\u590f\u9547",
@@ -33242,8 +32405,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321038-Nasha Town.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321038-Nasha Town.webp"
           },
           {
             "id": "331804",
@@ -33251,7 +32413,6 @@ var NYX_DB = {
             "title": "Wisdom of the Joyous Spirits",
             "description": "\"That dancing circle embodied everything about the universe. Life has always been the end, while it is wisdom that shall be the means.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331804",
             "localizedNames": {
               "en": "Nature and Wisdom",
               "zh": "\u8349\u4e0e\u667a\u6167",
@@ -33276,8 +32437,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331804-Nature and Wisdom.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331804-Nature and Wisdom.webp"
           },
           {
             "id": "322034",
@@ -33285,7 +32445,6 @@ var NYX_DB = {
             "title": "Netochka",
             "description": "\"Just as the oppressive, greedy governor here stole treasures from the Frostmoon Scions all those years ago, the Fatui now have seized things that don't belong to them.\\nI must retrieve the Proof of the Cognoscenti from them and find Reed Miller's Great Treasure, so that his name, now forgotten, will be held in esteem once more throughout the world!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322034",
             "localizedNames": {
               "en": "Netochka",
               "zh": "\u6d85\u6735\u5947\u5361",
@@ -33317,8 +32476,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322034-Netochka.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322034-Netochka.webp"
           },
           {
             "id": "212141",
@@ -33326,7 +32484,6 @@ var NYX_DB = {
             "title": "Mualani: Crests and Troughs",
             "description": "\"Catch an epic wave! Woosh~!\"",
             "sourceText": "Reward for inviting Mualani to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212141",
             "localizedNames": {
               "en": "Night Realm's Gift: Crests and Troughs",
               "zh": "\u591c\u57df\u8d50\u793c\u00b7\u6ce2\u6d9b\u9876\u5e95",
@@ -33355,8 +32512,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212141-Night Realm's Gift_ Crests and Troughs.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212141-Night Realm's Gift_ Crests and Troughs.webp"
           },
           {
             "id": "216101",
@@ -33364,7 +32520,6 @@ var NYX_DB = {
             "title": "Kachina: Heart of Unity",
             "description": "\"Clear the area!\"",
             "sourceText": "Reward for inviting Kachina to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/216101",
             "localizedNames": {
               "en": "Night Realm's Gift: Heart of Unity",
               "zh": "\u591c\u57df\u8d50\u793c\u00b7\u56e2\u7ed3\u7089\u5fc3",
@@ -33427,8 +32582,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216101-Night Realm's Gift_ Heart of Unity.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216101-Night Realm's Gift_ Heart of Unity.webp"
           },
           {
             "id": "217091",
@@ -33436,7 +32590,6 @@ var NYX_DB = {
             "title": "Kinich: Repaid in Full",
             "description": "\"For the Lord of the Night.\"",
             "sourceText": "Reward for inviting Kinich to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/217091",
             "localizedNames": {
               "en": "Night Realm's Gift: Repaid in Full",
               "zh": "\u591c\u57df\u8d50\u793c\u00b7\u7d22\u62a5\u7686\u507f",
@@ -33470,8 +32623,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217091-Night Realm's Gift_ Repaid in Full.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217091-Night Realm's Gift_ Repaid in Full.webp"
           },
           {
             "id": "321041",
@@ -33479,7 +32631,6 @@ var NYX_DB = {
             "title": "Nightmare Omen",
             "description": "\"A colossal, lidless eye it was, its gaze unflinching, piercing through the clouds, the mist, the land, and the mountains alike. It was a vision both omniscient and omnipresent.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321041",
             "localizedNames": {
               "en": "Nightmare Omen",
               "zh": "\u5669\u68a6\u7684\u9884\u5146",
@@ -33514,8 +32665,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321041-Nightmare Omen.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321041-Nightmare Omen.webp"
           },
           {
             "id": "312041",
@@ -33523,7 +32673,6 @@ var NYX_DB = {
             "title": "The Past: Noblesse Oblige",
             "description": "\"They were noble not only in lineage, but also in their commitment to virtues and principles.\\nThe longevity of the nobles was cut short by their endless self-indulgence. Ostentation gave way to devolution.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312041",
             "localizedNames": {
               "en": "Noblesse Oblige",
               "zh": "\u6614\u65e5\u5b97\u5ba4\u4e4b\u4eea",
@@ -33555,8 +32704,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312041-Noblesse Oblige.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312041-Noblesse Oblige.webp"
           },
           {
             "id": "333004",
@@ -33564,7 +32712,6 @@ var NYX_DB = {
             "title": "Northern Smoked Chicken",
             "description": "This dish makes for a warm welcome for guests who come to the northern regions. Now, what manner of guests shall be \"treated\" to this hospitality this time?",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333004",
             "localizedNames": {
               "en": "Northern Smoked Chicken",
               "zh": "\u5317\u5730\u70df\u718f\u9e21",
@@ -33595,8 +32742,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333004-Northern Smoked Chicken.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333004-Northern Smoked Chicken.webp"
           },
           {
             "id": "323002",
@@ -33604,7 +32750,6 @@ var NYX_DB = {
             "title": "Emergency Intake: Portable Dish",
             "description": "\"Regular nutrition helps in case of physical exertion.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/323002",
             "localizedNames": {
               "en": "NRE",
               "zh": "\u4fbf\u643a\u8425\u517b\u888b",
@@ -33631,8 +32776,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323002-NRE.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323002-NRE.webp"
           },
           {
             "id": "312043",
@@ -33640,7 +32784,6 @@ var NYX_DB = {
             "title": "Nymph's Dream",
             "description": "\"And just as how some people treasure withered flowers, some still reminisce endlessly over the afternoon adventures that have yet to continue...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312043",
             "localizedNames": {
               "en": "Nymph's Dream",
               "zh": "\u6c34\u4ed9\u4e4b\u68a6",
@@ -33672,8 +32815,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312043-Nymph's Dream.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312043-Nymph's Dream.webp"
           },
           {
             "id": "312016",
@@ -33681,7 +32823,6 @@ var NYX_DB = {
             "title": "Memories of the Deep: Ocean-Hued Clam",
             "description": "\"Bringing hopes and memories from the depths, permeating long-lost civilizations and history, these graceful and exquisite crowns slide into the forgotten rifts with their owners.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312016",
             "localizedNames": {
               "en": "Ocean-Hued Clam",
               "zh": "\u6d77\u67d3\u7817\u78f2",
@@ -33708,8 +32849,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312016-Ocean-Hued Clam.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312016-Ocean-Hued Clam.webp"
           },
           {
             "id": "321017",
@@ -33717,7 +32857,6 @@ var NYX_DB = {
             "title": "Opera Epiclese",
             "description": "The true and the fantastical, the comedic and tragic find a stage here equally. Perhaps it truly is as an ancient Fontainian playwright once said \u2014 \"All the world's a stage, and all of us merely players.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321017",
             "localizedNames": {
               "en": "Opera Epiclese",
               "zh": "\u6b27\u5e87\u514b\u83b1\u6b4c\u5267\u9662",
@@ -33749,8 +32888,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321017-Opera Epiclese.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321017-Opera Epiclese.webp"
           },
           {
             "id": "312007",
@@ -33758,7 +32896,6 @@ var NYX_DB = {
             "title": "Bygone Lightning: Ornate Kabuto",
             "description": "\"Thirteen years went by like a dream. The scarlet snow flies through the shadowed pass like smoke. You have now gone afar.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312007",
             "localizedNames": {
               "en": "Ornate Kabuto",
               "zh": "\u534e\u9970\u4e4b\u515c",
@@ -33790,8 +32927,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312007-Ornate Kabuto.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312007-Ornate Kabuto.webp"
           },
           {
             "id": "223011",
@@ -33799,7 +32935,6 @@ var NYX_DB = {
             "title": "Stealthy Extraction",
             "description": "Remember this for so long as you live: You know who it is you owe, and you know when you must pay.",
             "sourceText": "Reward for accepting the Tavern Challenge against Fatui Pyro Agent at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/223011",
             "localizedNames": {
               "en": "Paid in Full",
               "zh": "\u6089\u6570\u8ba8\u56de",
@@ -33864,8 +32999,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223011-Paid in Full.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223011-Paid in Full.webp"
           },
           {
             "id": "322001",
@@ -33873,7 +33007,6 @@ var NYX_DB = {
             "title": "Paimon, the Best Guide",
             "description": "\"That's right! Your fortune is Paimon's fortune! And vice versa, Paimon's fortune is also your fortune.\"",
             "sourceText": "Reward for meeting the Player Manual's requirements",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322001",
             "localizedNames": {
               "en": "Paimon",
               "zh": "\u6d3e\u8499",
@@ -33909,8 +33042,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322001-Paimon.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322001-Paimon.webp"
           },
           {
             "id": "221021",
@@ -33918,7 +33050,6 @@ var NYX_DB = {
             "title": "La Signora: Pain for Pain",
             "description": "\"You too will experience this suffering.\"",
             "sourceText": "Reward for accepting the Tavern Challenge against La Signora at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/221021",
             "localizedNames": {
               "en": "Pain for Pain",
               "zh": "\u82e6\u75db\u5949\u8fd8",
@@ -33955,8 +33086,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/221021-Pain for Pain.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/221021-Pain for Pain.webp"
           },
           {
             "id": "332023",
@@ -33964,7 +33094,6 @@ var NYX_DB = {
             "title": "Pankration!",
             "description": "\"For victory, Credit Coupons, and the hottest goods in the Rag and Bone Shop... and the freedom that may come someday, strike!\"",
             "sourceText": "Rag and Bone Shop Credit Coupon Exchange",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332023",
             "localizedNames": {
               "en": "Pankration!",
               "zh": "\u62f3\u529b\u6597\u6280\uff01",
@@ -33988,8 +33117,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332023-Pankration!.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332023-Pankration!.webp"
           },
           {
             "id": "323001",
@@ -33997,7 +33125,6 @@ var NYX_DB = {
             "title": "Perpetual Rotation: Parametric Transformation",
             "description": "\"Simply put, everything on this earth and below it has cycles. Memories and elements surge throughout the Ley Lines.\"\\n\"Perhaps the ancient civilizations were attempting to uncover the cycle that governs the conversion of dust to treasure.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/323001",
             "localizedNames": {
               "en": "Parametric Transformer",
               "zh": "\u53c2\u91cf\u8d28\u53d8\u4eea",
@@ -34024,8 +33151,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323001-Parametric Transformer.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323001-Parametric Transformer.webp"
           },
           {
             "id": "214181",
@@ -34033,7 +33159,6 @@ var NYX_DB = {
             "title": "Flins: Part the Veil of Snow",
             "description": "\"The long sleep beckons.\"",
             "sourceText": "Reward for inviting Flins to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214181",
             "localizedNames": {
               "en": "Part the Veil of Snow",
               "zh": "\u62e8\u5f00\u96ea\u7ff3\u4e4b\u5e55",
@@ -34070,8 +33195,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214181-Part the Veil of Snow.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214181-Part the Veil of Snow.webp"
           },
           {
             "id": "330006",
@@ -34079,7 +33203,6 @@ var NYX_DB = {
             "title": "Passing of Judgment",
             "description": "\"It is time to make the final decision on this case.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/330006",
             "localizedNames": {
               "en": "Passing of Judgment",
               "zh": "\u88c1\u5b9a\u4e4b\u65f6",
@@ -34120,8 +33243,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330006-Passing of Judgment.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330006-Passing of Judgment.webp"
           },
           {
             "id": "224031",
@@ -34129,7 +33251,6 @@ var NYX_DB = {
             "title": "Millennial Pearl Seahorse: Pearl Solidification",
             "description": "Xenomare Pearl, Fontemer Hoarthunder... The seahorse-shaped phantasmal beast, though a solitary king, has neither an opulent court nor the ruins of one. What it does have, however, is the majesty and might to send other Fontemer Aberrants skittering away from it in terror...",
             "sourceText": "Reward for accepting the Tavern Challenge against Millennial Pearl Seahorse at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/224031",
             "localizedNames": {
               "en": "Pearl Solidification",
               "zh": "\u660e\u73e0\u56fa\u5316",
@@ -34171,8 +33292,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224031-Pearl Solidification.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224031-Pearl Solidification.webp"
           },
           {
             "id": "330010",
@@ -34180,7 +33300,6 @@ var NYX_DB = {
             "title": "Pilgrimage of the Return of the Sacred Flame",
             "description": "\"Every participant, whether they win or lose, contributes to the defense of our nation. That's what makes it such an honor to take part.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/330010",
             "localizedNames": {
               "en": "Pilgrimage of the Return of the Sacred Flame",
               "zh": "\u5f52\u706b\u5723\u591c\u5de1\u793c",
@@ -34214,8 +33333,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330010-Pilgrimage of the Return of the Sacred Flame.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330010-Pilgrimage of the Return of the Sacred Flame.webp"
           },
           {
             "id": "332058",
@@ -34223,7 +33341,6 @@ var NYX_DB = {
             "title": "Plan to Save the World",
             "description": "\"I refuse. The world is not as weak as you think.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332058",
             "localizedNames": {
               "en": "Plan to Save the World",
               "zh": "\u62ef\u6551\u4e16\u754c\u7684\u8ba1\u5212",
@@ -34248,8 +33365,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332058-Plan to Save the World.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332058-Plan to Save the World.webp"
           },
           {
             "id": "332017",
@@ -34257,7 +33373,6 @@ var NYX_DB = {
             "title": "Fallraid",
             "description": "\"...Don't deploy your Wind Glider halfway down! You'll get discovered!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332017",
             "localizedNames": {
               "en": "Plunging Strike",
               "zh": "\u4e0b\u843d\u65a9",
@@ -34289,8 +33404,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332017-Plunging Strike.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332017-Plunging Strike.webp"
           },
           {
             "id": "215051",
@@ -34298,7 +33412,6 @@ var NYX_DB = {
             "title": "Kaedehara Kazuha: Poetics of Fuubutsu",
             "description": "There is something elegant about this match.\\nIf nothing else, both sides may concede defeat without regrets.",
             "sourceText": "Reward for inviting Kaedehara Kazuha to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215051",
             "localizedNames": {
               "en": "Poetics of Fuubutsu",
               "zh": "\u98ce\u7269\u4e4b\u8bd7\u548f",
@@ -34333,8 +33446,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215051-Poetics of Fuubutsu.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215051-Poetics of Fuubutsu.webp"
           },
           {
             "id": "311309",
@@ -34342,7 +33454,6 @@ var NYX_DB = {
             "title": "Sea Shanty: Portable Power Saw",
             "description": "\"A chainsaw favored by workers of the past to cut through keels and pipes... Grab the handle tightly with both hands, and even hard steel shall split before you.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311309",
             "localizedNames": {
               "en": "Portable Power Saw",
               "zh": "\u4fbf\u643a\u52a8\u529b\u952f",
@@ -34380,8 +33491,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311309-Portable Power Saw.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311309-Portable Power Saw.webp"
           },
           {
             "id": "213061",
@@ -34389,7 +33499,6 @@ var NYX_DB = {
             "title": "Klee: Pounding Surprise",
             "description": "Let out a good laugh when you draw this card!",
             "sourceText": "Reward for inviting Klee to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213061",
             "localizedNames": {
               "en": "Pounding Surprise",
               "zh": "\u7830\u7830\u793c\u7269",
@@ -34446,8 +33555,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213061-Pounding Surprise.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213061-Pounding Surprise.webp"
           },
           {
             "id": "311407",
@@ -34455,7 +33563,6 @@ var NYX_DB = {
             "title": "Eagle Spear of Justice: Primordial Jade Winged-Spear",
             "description": "\"The stone bird took to the unbound skies once forged. Into the heart of the ocean it dove, into the battlefield with the behemoth and the whale. Into the depths of the sea the behemoth sank, there to stay forever. Released from its thundering roars were the people of Liyue.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311407",
             "localizedNames": {
               "en": "Primordial Jade Winged-Spear",
               "zh": "\u548c\u749e\u9e22",
@@ -34483,8 +33590,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311407-Primordial Jade Winged-Spear.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311407-Primordial Jade Winged-Spear.webp"
           },
           {
             "id": "227011",
@@ -34492,7 +33598,6 @@ var NYX_DB = {
             "title": "Spore Dust Cloud",
             "description": "Few can safely traverse the traps laid by the Fungus with intelligence above that of the average living being.",
             "sourceText": "Reward for accepting the Tavern Challenge against Jadeplume Terrorshroom at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/227011",
             "localizedNames": {
               "en": "Proliferating Spores",
               "zh": "\u5b62\u5b50\u589e\u6b96",
@@ -34527,8 +33632,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/227011-Proliferating Spores.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/227011-Proliferating Spores.webp"
           },
           {
             "id": "212031",
@@ -34536,7 +33640,6 @@ var NYX_DB = {
             "title": "Mona: Prophecy of Submersion",
             "description": "\"Hey! You should be playing that card!\"\\n\"...Well, alright then, do what you want.\"",
             "sourceText": "Reward for inviting Mona to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212031",
             "localizedNames": {
               "en": "Prophecy of Submersion",
               "zh": "\u6c89\u6ca1\u7684\u9884\u8a00",
@@ -34576,8 +33679,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212031-Prophecy of Submersion.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212031-Prophecy of Submersion.webp"
           },
           {
             "id": "311409",
@@ -34585,7 +33687,6 @@ var NYX_DB = {
             "title": "Masons' Ditty: Prospector's Drill",
             "description": "\"The tool's piercing and cutting power were unmatched.\\nSince it could pierce through even rocks like a hot knife through butter,\\nit made quick work out of penetrating through even softer materials.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311409",
             "localizedNames": {
               "en": "Prospector's Drill",
               "zh": "\u52d8\u63a2\u94bb\u673a",
@@ -34623,8 +33724,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311409-Prospector's Drill.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311409-Prospector's Drill.webp"
           },
           {
             "id": "333018",
@@ -34632,7 +33732,6 @@ var NYX_DB = {
             "title": "Puff Pops",
             "description": "A snack with lots of different flavors. If you close your eyes, you won't be able to guess what flavor you'll get next, and eating them is sure to increase your heart rate. The \"pop\" part of the name comes from the sound of Grainfruit kernels bursting open under high temperatures.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333018",
             "localizedNames": {
               "en": "Puff Pops",
               "zh": "\u549a\u549a\u562d\u562d",
@@ -34659,8 +33758,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333018-Puff Pops.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333018-Puff Pops.webp"
           },
           {
             "id": "214091",
@@ -34668,7 +33766,6 @@ var NYX_DB = {
             "title": "Lisa: Pulsating Witch",
             "description": "As a Librarian who has read through tens of thousands of volumes, of course it's trivial for me to remember how to win...",
             "sourceText": "Reward for inviting Lisa to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214091",
             "localizedNames": {
               "en": "Pulsating Witch",
               "zh": "\u8109\u51b2\u7684\u9b54\u5973",
@@ -34718,8 +33815,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214091-Pulsating Witch.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214091-Pulsating Witch.webp"
           },
           {
             "id": "214131",
@@ -34727,7 +33823,6 @@ var NYX_DB = {
             "title": "Sethos: Pylon of the Sojourning Sun Temple",
             "description": "\"Glory to Al-Ahmar!\"",
             "sourceText": "Reward for inviting Sethos to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214131",
             "localizedNames": {
               "en": "Pylon of the Sojourning Sun Temple",
               "zh": "\u5de1\u65e5\u5854\u95e8\u4e66",
@@ -34761,8 +33856,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214131-Pylon of the Sojourning Sun Temple.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214131-Pylon of the Sojourning Sun Temple.webp"
           },
           {
             "id": "213062",
@@ -34770,7 +33864,6 @@ var NYX_DB = {
             "title": "Klee's Pyro Magic",
             "description": "\"And just like that, the cutest little Dodo-Sorcerer passed her qualification exam with the help of her friends. Now she's a real, full-fledged Dodo-Sorcerer! Congratulations!\"\\n\"Wait, weren't we supposed to be writing commentary? What does any of this have to do with the little witch!?\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213062",
             "localizedNames": {
               "en": "Pyro Magic",
               "zh": "\u706b\u82b1\u9b54\u6cd5",
@@ -34829,8 +33922,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null,
-            "source": "Nanoka"
+            "art": null
           },
           {
             "id": "313006",
@@ -34838,7 +33930,6 @@ var NYX_DB = {
             "title": "Qucusaurus: Swift Glide",
             "description": "It is said that the ancestors of the Qucusaurs were the closest in form to the mighty winged dragons, and that they could soar through the sky like clouds.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/313006",
             "localizedNames": {
               "en": "Qucusaurus",
               "zh": "\u7ed2\u7ffc\u9f99",
@@ -34912,8 +34003,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313006-Qucusaurus.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313006-Qucusaurus.webp"
           },
           {
             "id": "332012",
@@ -34921,7 +34011,6 @@ var NYX_DB = {
             "title": "Patched-Up Bunny",
             "description": "'Tis the secret to Baron Bunny the 893rd's longevity.",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332012",
             "localizedNames": {
               "en": "Quick Knit",
               "zh": "\u5feb\u5feb\u7f1d\u8865\u672f",
@@ -34951,8 +34040,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332012-Quick Knit.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332012-Quick Knit.webp"
           },
           {
             "id": "333015",
@@ -34960,7 +34048,6 @@ var NYX_DB = {
             "title": "Rainbow Macarons",
             "description": "Small, multicolored little pastries. Their crispy outer shell packages a sweet, soft center, each refined to perfection.\\nThere is a saying in Fontaine that \"a dessert spread without macarons is like having the many waters bereft of their source.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333015",
             "localizedNames": {
               "en": "Rainbow Macarons",
               "zh": "\u7f24\u7eb7\u9a6c\u5361\u9f99",
@@ -34987,8 +34074,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333015-Rainbow Macarons.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333015-Rainbow Macarons.webp"
           },
           {
             "id": "322017",
@@ -34996,7 +34082,6 @@ var NYX_DB = {
             "title": "Gem of Remembrance: Rana",
             "description": "\"We still have a lot of time with each other. We can explore the vastness of the forest, the world, and the future together.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322017",
             "localizedNames": {
               "en": "Rana",
               "zh": "\u62c9\u5a1c",
@@ -35023,8 +34108,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322017-Rana.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322017-Rana.webp"
           },
           {
             "id": "311201",
@@ -35032,7 +34116,6 @@ var NYX_DB = {
             "title": "Bane of Flame and Water: Raven Bow",
             "description": "Ravens are known to be the ferrymen of the dead. As such, hunters would decorate their bows' limbs with feathers which forebode the imminent death of their targets.",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311201",
             "localizedNames": {
               "en": "Raven Bow",
               "zh": "\u9e26\u7fbd\u5f13",
@@ -35060,8 +34143,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311201-Raven Bow.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311201-Raven Bow.webp"
           },
           {
             "id": "313009",
@@ -35069,7 +34151,6 @@ var NYX_DB = {
             "title": "Rawr! Rawr!",
             "description": "\"Get ready to meet your best travel companion in Natlan! Ahem, make that second best...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/313009",
             "localizedNames": {
               "en": "Rawr! Rawr!",
               "zh": "\u5440\uff01\u5440\uff01",
@@ -35128,8 +34209,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313009-Rawr! Rawr!.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313009-Rawr! Rawr!.webp"
           },
           {
             "id": "214171",
@@ -35137,7 +34217,6 @@ var NYX_DB = {
             "title": "Ineffa: Rectifying Processor",
             "description": "\"Ultimatum protocol.\"",
             "sourceText": "Reward for inviting Ineffa to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214171",
             "localizedNames": {
               "en": "Rectifying Processor",
               "zh": "\u5faa\u73af\u6574\u6d41\u5f15\u64ce",
@@ -35178,8 +34257,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214171-Rectifying Processor.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214171-Rectifying Processor.webp"
           },
           {
             "id": "323003",
@@ -35187,7 +34265,6 @@ var NYX_DB = {
             "title": "Ineffable Breeze: Red Feather Fan",
             "description": "Legend has it that this fan is capable of unleashing various effects in the hands of a tengu warrior.\\nBut in the hands of an ordinary person, it only possesses the power to \"make one's body lighter.\"\\nEven so, this degree of power is more than useful for the average individual.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/323003",
             "localizedNames": {
               "en": "Red Feather Fan",
               "zh": "\u7ea2\u7fbd\u56e2\u6247",
@@ -35223,8 +34300,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323003-Red Feather Fan.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323003-Red Feather Fan.webp"
           },
           {
             "id": "225021",
@@ -35232,7 +34308,6 @@ var NYX_DB = {
             "title": "Dvalin: Rending Vortex",
             "description": "But never forget that dust can be wiped away, and the power of doubt and poison can be shattered.",
             "sourceText": "Reward for accepting the Tavern Challenge against Dvalin at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/225021",
             "localizedNames": {
               "en": "Rending Vortex",
               "zh": "\u6bc1\u88c2\u98ce\u6da1",
@@ -35285,8 +34360,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/225021-Rending Vortex.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/225021-Rending Vortex.webp"
           },
           {
             "id": "212131",
@@ -35294,7 +34368,6 @@ var NYX_DB = {
             "title": "Sigewinne: Requires Appropriate Rest",
             "description": "\"Don't be nervous! Just relax.\"",
             "sourceText": "Reward for inviting Sigewinne to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212131",
             "localizedNames": {
               "en": "Requires Appropriate Rest",
               "zh": "\u5e94\u6709\u9002\u5f53\u7684\u4f11\u61a9",
@@ -35329,8 +34402,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212131-Requires Appropriate Rest.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212131-Requires Appropriate Rest.webp"
           },
           {
             "id": "2201",
@@ -35338,7 +34410,6 @@ var NYX_DB = {
             "title": "\"Lady of Clear Waters\" Rhodeia",
             "description": "\"As long as rain falls and rivers flow... water will exist forever... \"",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Rhodeia of Loch",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2201",
             "localizedNames": {
               "en": "Rhodeia of Loch",
               "zh": "\u7eaf\u6c34\u7cbe\u7075\u00b7\u6d1b\u8482\u5a05",
@@ -35423,8 +34494,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2201-Rhodeia of Loch.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2201-Rhodeia of Loch.webp"
           },
           {
             "id": "332021",
@@ -35432,7 +34502,6 @@ var NYX_DB = {
             "title": "Rhythm of the Great Dream",
             "description": "\"Enter our dreams, our world.\"\\n\"Write of deeds good, brave, and honest.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332021",
             "localizedNames": {
               "en": "Rhythm of the Great Dream",
               "zh": "\u5927\u68a6\u7684\u66f2\u8c03",
@@ -35456,8 +34525,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332021-Rhythm of the Great Dream.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332021-Rhythm of the Great Dream.webp"
           },
           {
             "id": "213081",
@@ -35465,7 +34533,6 @@ var NYX_DB = {
             "title": "Yanfei: Right of Final Interpretation",
             "description": "\"When it comes to cards... Well, anything is permissible, so long as the rules don't forbid it.\"",
             "sourceText": "Reward for inviting Yanfei to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213081",
             "localizedNames": {
               "en": "Right of Final Interpretation",
               "zh": "\u6700\u7ec8\u89e3\u91ca\u6743",
@@ -35509,8 +34576,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213081-Right of Final Interpretation.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213081-Right of Final Interpretation.webp"
           },
           {
             "id": "311408",
@@ -35518,7 +34584,6 @@ var NYX_DB = {
             "title": "Tip of the Spear: Rightful Reward",
             "description": "\"That is how the world ought to operate, and how righteousness should be.\"\\n\"But when it comes to \"how things ought to be,\" it is always fiendishly difficult to get ideal results.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311408",
             "localizedNames": {
               "en": "Rightful Reward",
               "zh": "\u516c\u4e49\u7684\u916c\u62a5",
@@ -35551,8 +34616,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311408-Rightful Reward.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311408-Rightful Reward.webp"
           },
           {
             "id": "221041",
@@ -35560,7 +34624,6 @@ var NYX_DB = {
             "title": "Frost Operative: Rimeflow Rapier",
             "description": "\"Forgive my prior inconsideration.\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Frost Operative at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/221041",
             "localizedNames": {
               "en": "Rimeflow Rapier",
               "zh": "\u51b0\u96c5\u523a\u5251",
@@ -35606,8 +34669,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/221041-Rimeflow Rapier.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/221041-Rimeflow Rapier.webp"
           },
           {
             "id": "211081",
@@ -35615,7 +34677,6 @@ var NYX_DB = {
             "title": "Qiqi: Rite of Resurrection",
             "description": "\"I must... live on...\"",
             "sourceText": "Reward for inviting Qiqi to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211081",
             "localizedNames": {
               "en": "Rite of Resurrection",
               "zh": "\u8d77\u6b7b\u56de\u9ab8",
@@ -35651,8 +34712,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211081-Rite of Resurrection.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211081-Rite of Resurrection.webp"
           },
           {
             "id": "213121",
@@ -35660,7 +34720,6 @@ var NYX_DB = {
             "title": "Xinyan: Rockin' in a Flaming World",
             "description": "\"Amp it up!\"",
             "sourceText": "Reward for inviting Xinyan to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213121",
             "localizedNames": {
               "en": "Rockin' in a Flaming World",
               "zh": "\u5730\u72f1\u91cc\u6447\u6446",
@@ -35696,8 +34755,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213121-Rockin' in a Flaming World.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213121-Rockin' in a Flaming World.webp"
           },
           {
             "id": "333030",
@@ -35705,7 +34763,6 @@ var NYX_DB = {
             "title": "Roulette Special",
             "description": "Colorful drinks. It might be more accurate to call this a table game than nourishment of any sort, one where the rules are to drink whatever drink the pointer falls on.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333030",
             "localizedNames": {
               "en": "Roulette Special",
               "zh": "\u8f6c\u76d8\u7279\u8c03",
@@ -35732,8 +34789,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333030-Roulette Special.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333030-Roulette Special.webp"
           },
           {
             "id": "312037",
@@ -35741,7 +34797,6 @@ var NYX_DB = {
             "title": "Past Splendor: Royal Masque",
             "description": "\"In that golden age, the nobles shared with the people their knowledge and profits.\\nBut the later nobles were seduced by power. Their banquets were exclusively for their own pleasure.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312037",
             "localizedNames": {
               "en": "Royal Masque",
               "zh": "\u5b97\u5ba4\u9762\u5177",
@@ -35767,8 +34822,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312037-Royal Masque.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312037-Royal Masque.webp"
           },
           {
             "id": "216061",
@@ -35776,7 +34830,6 @@ var NYX_DB = {
             "title": "Gorou: Rushing Hound: Swift as the Wind",
             "description": "\"Rally!\"",
             "sourceText": "Reward for inviting Gorou to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/216061",
             "localizedNames": {
               "en": "Rushing Hound: Swift as the Wind",
               "zh": "\u72ac\u5954\u00b7\u75be\u5982\u98ce",
@@ -35829,8 +34882,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216061-Rushing Hound_ Swift as the Wind.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216061-Rushing Hound_ Swift as the Wind.webp"
           },
           {
             "id": "311202",
@@ -35838,7 +34890,6 @@ var NYX_DB = {
             "title": "Composed: Sacrificial Bow",
             "description": "A ceremonial hunting bow that has seen the passage of many years. The trinkets on it are still visible.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311202",
             "localizedNames": {
               "en": "Sacrificial Bow",
               "zh": "\u796d\u793c\u5f13",
@@ -35866,8 +34917,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311202-Sacrificial Bow.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311202-Sacrificial Bow.webp"
           },
           {
             "id": "311102",
@@ -35875,7 +34925,6 @@ var NYX_DB = {
             "title": "Composed: Sacrificial Fragments",
             "description": "A weathered musical score, the content of which is no longer legible.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311102",
             "localizedNames": {
               "en": "Sacrificial Fragments",
               "zh": "\u796d\u793c\u6b8b\u7ae0",
@@ -35903,8 +34952,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311102-Sacrificial Fragments.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311102-Sacrificial Fragments.webp"
           },
           {
             "id": "311302",
@@ -35912,7 +34960,6 @@ var NYX_DB = {
             "title": "Composed: Sacrificial Greatsword",
             "description": "This greatsword has seen the passage of many years, and was once owned by a clan of brave and gifted warriors who fought hard and died young.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311302",
             "localizedNames": {
               "en": "Sacrificial Greatsword",
               "zh": "\u796d\u793c\u5927\u5251",
@@ -35940,8 +34987,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311302-Sacrificial Greatsword.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311302-Sacrificial Greatsword.webp"
           },
           {
             "id": "311502",
@@ -35949,7 +34995,6 @@ var NYX_DB = {
             "title": "Composed: Sacrificial Sword",
             "description": "This blade was just a prop before its blade was sharpened by the passage of time.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311502",
             "localizedNames": {
               "en": "Sacrificial Sword",
               "zh": "\u796d\u793c\u5251",
@@ -35977,8 +35022,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311502-Sacrificial Sword.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311502-Sacrificial Sword.webp"
           },
           {
             "id": "321009",
@@ -35986,7 +35030,6 @@ var NYX_DB = {
             "title": "The Pearlescent Palace",
             "description": "\"Sangonomiya was once an ocean abyss, until the Great Serpent came, forming a vortex with its spiral movements, and fashioning the coral into an island.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321009",
             "localizedNames": {
               "en": "Sangonomiya Shrine",
               "zh": "\u73ca\u745a\u5bab",
@@ -36018,8 +35061,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321009-Sangonomiya Shrine.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321009-Sangonomiya Shrine.webp"
           },
           {
             "id": "213071",
@@ -36027,7 +35069,6 @@ var NYX_DB = {
             "title": "Hu Tao: Sanguine Rouge",
             "description": "Director Hu needs a bit more firepower to settle certain unique affairs.",
             "sourceText": "Reward for inviting Hu Tao to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213071",
             "localizedNames": {
               "en": "Sanguine Rouge",
               "zh": "\u8840\u4e4b\u7076\u706b",
@@ -36066,8 +35107,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213071-Sanguine Rouge.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213071-Sanguine Rouge.webp"
           },
           {
             "id": "311507",
@@ -36075,7 +35115,6 @@ var NYX_DB = {
             "title": "Forest Sanctuary: Sapwood Blade",
             "description": "\"...Even so, your stories and mine will leave their traces in the depths of the desert, like the footprints of the Forest Kind.\"\\n\"So shall past friendships peacefully sleep, like an Aranara transformed into a seed.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311507",
             "localizedNames": {
               "en": "Sapwood Blade",
               "zh": "\u539f\u6728\u5200",
@@ -36103,8 +35142,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311507-Sapwood Blade.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311507-Sapwood Blade.webp"
           },
           {
             "id": "333010",
@@ -36112,7 +35150,6 @@ var NYX_DB = {
             "title": "Sashimi Platter",
             "description": "Under the blade of a master chef, the texture of the ingredients remains pristine. Upon consumption, it is as if something living is leaping inside your mouth...\\nHold on, could these ingredients still be...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333010",
             "localizedNames": {
               "en": "Sashimi Platter",
               "zh": "\u523a\u8eab\u62fc\u76d8",
@@ -36139,8 +35176,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333010-Sashimi Platter.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333010-Sashimi Platter.webp"
           },
           {
             "id": "332039",
@@ -36148,7 +35184,6 @@ var NYX_DB = {
             "title": "Saurian Dining Buddies",
             "description": "\"...Last but not least: Get 'em some good grub! The way to a Saurian's heart is through the stomach, after all!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332039",
             "localizedNames": {
               "en": "Saurian Dining Buddies",
               "zh": "\u9f99\u4f19\u4f34\u7684\u805a\u9910",
@@ -36177,8 +35212,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332039-Saurian Dining Buddies.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332039-Saurian Dining Buddies.webp"
           },
           {
             "id": "333016",
@@ -36186,7 +35220,6 @@ var NYX_DB = {
             "title": "Saurus Crackers",
             "description": "Crackers shaped like little Saurians. Light, crispy, sweet, and fragrant, with adorable patterns on top to boot \u2014 how could the people of Natlan not be won over by such delectable snacks?",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333016",
             "localizedNames": {
               "en": "Saurus Crackers",
               "zh": "\u9f99\u9f99\u997c\u5e72",
@@ -36212,8 +35245,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333016-Saurus Crackers.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333016-Saurus Crackers.webp"
           },
           {
             "id": "223031",
@@ -36221,7 +35253,6 @@ var NYX_DB = {
             "title": "Eremite Scorching Loremaster: Scorpocalypse",
             "description": "\"For the Eternal Oasis!\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Eremite Scorching Loremaster at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/223031",
             "localizedNames": {
               "en": "Scorpocalypse",
               "zh": "\u9b54\u874e\u70c8\u7978",
@@ -36282,8 +35313,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223031-Scorpocalypse.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223031-Scorpocalypse.webp"
           },
           {
             "id": "312034",
@@ -36291,7 +35321,6 @@ var NYX_DB = {
             "title": "A Journey with No Return: Scroll of the Hero of Cinder City",
             "description": "\"The gates of hell are stained red by the flowing blood of the brave. Let me offer my blood, and leave the key to those gates with my child.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312034",
             "localizedNames": {
               "en": "Scroll of the Hero of Cinder City",
               "zh": "\u70ec\u57ce\u52c7\u8005\u7ed8\u5377",
@@ -36323,8 +35352,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312034-Scroll of the Hero of Cinder City.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312034-Scroll of the Hero of Cinder City.webp"
           },
           {
             "id": "323005",
@@ -36332,7 +35360,6 @@ var NYX_DB = {
             "title": "Seed Dispensary",
             "description": "A special container obtained from Madame Ping. According to her, this dispensary has the power to \"generate seeds\"...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/323005",
             "localizedNames": {
               "en": "Seed Dispensary",
               "zh": "\u5316\u79cd\u5323",
@@ -36367,8 +35394,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323005-Seed Dispensary.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323005-Seed Dispensary.webp"
           },
           {
             "id": "321019",
@@ -36376,7 +35402,6 @@ var NYX_DB = {
             "title": "Seirai Island",
             "description": "\"The great battle where the sea and sky changed color have become lost to time, but the vast storms that were called upon at this time still remain.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321019",
             "localizedNames": {
               "en": "Seirai Island",
               "zh": "\u6e05\u7c41\u5c9b",
@@ -36412,8 +35437,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321019-Seirai Island.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321019-Seirai Island.webp"
           },
           {
             "id": "332013",
@@ -36421,7 +35445,6 @@ var NYX_DB = {
             "title": "Send Off",
             "description": "\"Here at Wangsheng Funeral Parlor, you can count on us to go full send! Satisfaction guaranteed!\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332013",
             "localizedNames": {
               "en": "Send Off",
               "zh": "\u9001\u4f60\u4e00\u7a0b",
@@ -36451,8 +35474,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332013-Send Off.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332013-Send Off.webp"
           },
           {
             "id": "322027",
@@ -36460,7 +35482,6 @@ var NYX_DB = {
             "title": "Serene",
             "description": "\"We're going to solve everyone's troubles today, too!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322027",
             "localizedNames": {
               "en": "Serene",
               "zh": "\u745f\u7433",
@@ -36497,8 +35518,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322027-Serene.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322027-Serene.webp"
           },
           {
             "id": "322019",
@@ -36506,7 +35526,6 @@ var NYX_DB = {
             "title": "Crossing the Wall: Setaria",
             "description": "A genius from the desert, deep within the rainforest's temple...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322019",
             "localizedNames": {
               "en": "Setaria",
               "zh": "\u585e\u5854\u857e",
@@ -36538,8 +35557,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322019-Setaria.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322019-Setaria.webp"
           },
           {
             "id": "322031",
@@ -36547,7 +35565,6 @@ var NYX_DB = {
             "title": "Seymour",
             "description": "\"Welcome back, milady. You are as gentle, lovely, and radiant as ever.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322031",
             "localizedNames": {
               "en": "Seymour",
               "zh": "\u897f\u6469\u5c14",
@@ -36579,8 +35596,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322031-Seymour.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322031-Seymour.webp"
           },
           {
             "id": "312017",
@@ -36588,7 +35604,6 @@ var NYX_DB = {
             "title": "Proxy Generations: Shadow of the Sand King",
             "description": "\"Once, the wise mortal king and the clergy received divine oracles personally, and they were the masters of the land.\"\\n\"Today, those who rule as proxies in the oases are the shadows of the gods.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312017",
             "localizedNames": {
               "en": "Shadow of the Sand King",
               "zh": "\u6c99\u738b\u7684\u6295\u5f71",
@@ -36615,8 +35630,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312017-Shadow of the Sand King.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312017-Shadow of the Sand King.webp"
           },
           {
             "id": "211021",
@@ -36624,7 +35638,6 @@ var NYX_DB = {
             "title": "Diona: Shaken, Not Purred",
             "description": "Shake and stir till its all evenly mixed... and there! Your refill's ready!",
             "sourceText": "Reward for inviting Diona to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211021",
             "localizedNames": {
               "en": "Shaken, Not Purred",
               "zh": "\u732b\u722a\u51b0\u6447",
@@ -36673,8 +35686,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211021-Shaken, Not Purred.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211021-Shaken, Not Purred.webp"
           },
           {
             "id": "312014",
@@ -36682,7 +35694,6 @@ var NYX_DB = {
             "title": "Fleeting Iridescence: Shimenawa's Reminiscence",
             "description": "\"...Losing one's memory is no different from losing one's life. It is like death amidst darkness eternal.\"\\n\"Life is full of uncertainty. Love is fleeting, and even lasting memories may be lost...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312014",
             "localizedNames": {
               "en": "Shimenawa's Reminiscence",
               "zh": "\u8ffd\u5fc6\u4e4b\u6ce8\u8fde",
@@ -36714,8 +35725,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312014-Shimenawa's Reminiscence.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312014-Shimenawa's Reminiscence.webp"
           },
           {
             "id": "322023",
@@ -36723,7 +35733,6 @@ var NYX_DB = {
             "title": "The Best Attendants: Silver and Melus",
             "description": "\"Don't be afraid. We will protect you to the very end.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322023",
             "localizedNames": {
               "en": "Silver and Melus",
               "zh": "\u897f\u5c14\u5f17\u548c\u8fc8\u52d2\u65af",
@@ -36750,8 +35759,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322023-Silver and Melus.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322023-Silver and Melus.webp"
           },
           {
             "id": "321035",
@@ -36759,7 +35767,6 @@ var NYX_DB = {
             "title": "Silvermoon Hall",
             "description": "And still the moonlight flows as ever.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321035",
             "localizedNames": {
               "en": "Silvermoon Hall",
               "zh": "\u94f6\u6708\u4e4b\u5ead",
@@ -36794,8 +35801,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321035-Silvermoon Hall.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321035-Silvermoon Hall.webp"
           },
           {
             "id": "214061",
@@ -36803,7 +35809,6 @@ var NYX_DB = {
             "title": "Kujou Sara: Sin of Pride",
             "description": "\"With this unity between my mind, arrow, and bow, any enemy will be struck down!\"",
             "sourceText": "Reward for inviting Kujou Sara to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214061",
             "localizedNames": {
               "en": "Sin of Pride",
               "zh": "\u6211\u754c",
@@ -36848,8 +35853,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214061-Sin of Pride.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214061-Sin of Pride.webp"
           },
           {
             "id": "333027",
@@ -36857,7 +35861,6 @@ var NYX_DB = {
             "title": "Sing Your Heart Out",
             "description": "A cool-flavored throat lozenge. Said to be the Flower-Feather Clan's secret weapon for soothing their throats and protecting their vocal cords \u2014 so eat one and go sing your heart out! Just make sure you don't go overboard, as too much sugar can leave your throat feeling hoarse.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333027",
             "localizedNames": {
               "en": "Sing Your Heart Out",
               "zh": "\u7eb5\u58f0\u6b22\u5531",
@@ -36890,8 +35893,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333027-Sing Your Heart Out.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333027-Sing Your Heart Out.webp"
           },
           {
             "id": "322026",
@@ -36899,7 +35901,6 @@ var NYX_DB = {
             "title": "Sir Arthur",
             "description": "\"Hello! Hello!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322026",
             "localizedNames": {
               "en": "Sir Arthur",
               "zh": "\u4e9a\u745f\u5148\u751f",
@@ -36934,8 +35935,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322026-Sir Arthur.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322026-Sir Arthur.webp"
           },
           {
             "id": "215071",
@@ -36943,7 +35943,6 @@ var NYX_DB = {
             "title": "Sayu: Skiving: New and Improved",
             "description": "\"I should have just stayed in bed today.\"",
             "sourceText": "Reward for inviting Sayu to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215071",
             "localizedNames": {
               "en": "Skiving: New and Improved",
               "zh": "\u5077\u61d2\u7684\u65b0\u65b9\u6cd5",
@@ -36978,8 +35977,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215071-Skiving_ New and Improved.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215071-Skiving_ New and Improved.webp"
           },
           {
             "id": "311103",
@@ -36987,7 +35985,6 @@ var NYX_DB = {
             "title": "Cloud Atlas: Skyward Atlas",
             "description": "Its full name is the \"An atlas of the winds and clouds.\"\\nThis text records the winds and clouds of the northern lands' skies in poetic and archival forms.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311103",
             "localizedNames": {
               "en": "Skyward Atlas",
               "zh": "\u5929\u7a7a\u4e4b\u5377",
@@ -37015,8 +36012,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311103-Skyward Atlas.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311103-Skyward Atlas.webp"
           },
           {
             "id": "311504",
@@ -37024,7 +36020,6 @@ var NYX_DB = {
             "title": "Sky-Piercing: Skyward Blade",
             "description": "The sky-piercing fang. With nemesis vanquished, the wind dragon fell into a deep slumber.\\nCenturies passed, and Dvalin's sacrifice was all but forgotten by Mondstadt.\\nA prayer, this sword is. May Dvalin's name be restored.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311504",
             "localizedNames": {
               "en": "Skyward Blade",
               "zh": "\u5929\u7a7a\u4e4b\u5203",
@@ -37052,8 +36047,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311504-Skyward Blade.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311504-Skyward Blade.webp"
           },
           {
             "id": "311203",
@@ -37061,7 +36055,6 @@ var NYX_DB = {
             "title": "Echoing Ballad: Skyward Harp",
             "description": "The sound of this sky-piercing lyre firing is music to the Anemo Archon's ears.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311203",
             "localizedNames": {
               "en": "Skyward Harp",
               "zh": "\u5929\u7a7a\u4e4b\u7ffc",
@@ -37089,8 +36082,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311203-Skyward Harp.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311203-Skyward Harp.webp"
           },
           {
             "id": "311304",
@@ -37098,7 +36090,6 @@ var NYX_DB = {
             "title": "Sky-Rippin: Skyward Pride",
             "description": "This is a tale of sky-shaking valor. Bearing the will to defend all, let the wind dragon bestow wrath upon its vile nemesis.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311304",
             "localizedNames": {
               "en": "Skyward Pride",
               "zh": "\u5929\u7a7a\u4e4b\u50b2",
@@ -37126,8 +36117,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311304-Skyward Pride.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311304-Skyward Pride.webp"
           },
           {
             "id": "311403",
@@ -37135,7 +36125,6 @@ var NYX_DB = {
             "title": "Carving Black Wings: Skyward Spine",
             "description": "A spear that can hold up the skies. It was this unshakable resolve that sustained the wind dragon through its mortal battle against its vile nemesis.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311403",
             "localizedNames": {
               "en": "Skyward Spine",
               "zh": "\u5929\u7a7a\u4e4b\u810a",
@@ -37163,8 +36152,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311403-Skyward Spine.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311403-Skyward Spine.webp"
           },
           {
             "id": "311209",
@@ -37172,7 +36160,6 @@ var NYX_DB = {
             "title": "Phantom Flash: Snare Hook",
             "description": "\"There are few truly inescapable traps in this world, for even the densest web can be threaded with a needle.\\nGlimmers of hope can be found between the hooks and cages of even a trap set to kill.\\nJust as no one can fully lock away their heart, even the most cautious defenses must eventually falter.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311209",
             "localizedNames": {
               "en": "Snare Hook",
               "zh": "\u7f57\u7f51\u52fe\u9488",
@@ -37205,8 +36192,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311209-Snare Hook.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311209-Snare Hook.webp"
           },
           {
             "id": "227031",
@@ -37214,7 +36200,6 @@ var NYX_DB = {
             "title": "Floral Ring-Dancer: Spirit Serpent's Swirl",
             "description": "\"...Even though all such gods and kings have now faded into the flowing sands, the memory of dance yet persists in the desert-dwellers' veins.\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Eremite Floral Ring-Dancer at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/227031",
             "localizedNames": {
               "en": "Spirit Serpent's Swirl",
               "zh": "\u7075\u86c7\u65cb\u5636",
@@ -37268,8 +36253,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/227031-Spirit Serpent's Swirl.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/227031-Spirit Serpent's Swirl.webp"
           },
           {
             "id": "311508",
@@ -37277,7 +36261,6 @@ var NYX_DB = {
             "title": "Dawn and Dusk by the Lake: Splendor of Tranquil Waters",
             "description": "\"...On a morning clear as the light reflected on the lake, the Mistress of Many Waters was moved by that pained plea.\\nAnd so the kindly goddess granted her wish and gave her blessing to the journey ahead.\\nFor the Mistress of Many Waters knew that a fair judgment was the greatest leniency one could give a selfless soul.\\nAnd perhaps that is why that noble verdict dyed fate in its colors.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311508",
             "localizedNames": {
               "en": "Splendor of Tranquil Waters",
               "zh": "\u9759\u6c34\u6d41\u6d8c\u4e4b\u8f89",
@@ -37310,8 +36293,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311508-Splendor of Tranquil Waters.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311508-Splendor of Tranquil Waters.webp"
           },
           {
             "id": "321022",
@@ -37319,7 +36301,6 @@ var NYX_DB = {
             "title": "Stadium of the Sacred Flame",
             "description": "\"Seize victory and glory for Natlan!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321022",
             "localizedNames": {
               "en": "Stadium of the Sacred Flame",
               "zh": "\u5723\u706b\u7ade\u6280\u573a",
@@ -37346,8 +36327,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321022-Stadium of the Sacred Flame.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321022-Stadium of the Sacred Flame.webp"
           },
           {
             "id": "321023",
@@ -37355,7 +36335,6 @@ var NYX_DB = {
             "title": "Stage Tepetl",
             "description": "\"Get up on stage, and dance, dance, dance! Become a member of the Drillbit Dance! Show us your courage and resolve, and you can also become a legend of the stage!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321023",
             "localizedNames": {
               "en": "Stage Tepetl",
               "zh": "\u7279\u4f69\u5229\u821e\u53f0",
@@ -37386,8 +36365,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321023-Stage Tepetl.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321023-Stage Tepetl.webp"
           },
           {
             "id": "213091",
@@ -37395,7 +36373,6 @@ var NYX_DB = {
             "title": "Dehya: Stalwart and True",
             "description": "\"Don't hold back, let's go!\"",
             "sourceText": "Reward for inviting Dehya to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213091",
             "localizedNames": {
               "en": "Stalwart and True",
               "zh": "\u5d07\u8bda\u4e4b\u771f",
@@ -37430,8 +36407,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213091-Stalwart and True.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213091-Stalwart and True.webp"
           },
           {
             "id": "311112",
@@ -37439,7 +36415,6 @@ var NYX_DB = {
             "title": "Offering Unto Wind and Sun: Starcaller's Watch",
             "description": "\"I shall watch over you always, O hero solely mine, bound to your shoulder always, like a silken string...\"\\n\"Until our souls are entwined eternally in profoundest peace, where even death shall not do us part.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311112",
             "localizedNames": {
               "en": "Starcaller's Watch",
               "zh": "\u796d\u661f\u8005\u4e4b\u671b",
@@ -37467,8 +36442,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311112-Starcaller's Watch.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311112-Starcaller's Watch.webp"
           },
           {
             "id": "332008",
@@ -37476,7 +36450,6 @@ var NYX_DB = {
             "title": "Destined Path",
             "description": "\"This is destiny, and it cannot be defied.\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332008",
             "localizedNames": {
               "en": "Starsigns",
               "zh": "\u661f\u5929\u4e4b\u5146",
@@ -37506,8 +36479,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332008-Starsigns.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332008-Starsigns.webp"
           },
           {
             "id": "211041",
@@ -37515,7 +36487,6 @@ var NYX_DB = {
             "title": "Chongyun: Steady Breathing",
             "description": "Steady breathing makes a steady heart.",
             "sourceText": "Reward for inviting Chongyun to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211041",
             "localizedNames": {
               "en": "Steady Breathing",
               "zh": "\u5410\u7eb3\u771f\u5b9a",
@@ -37568,8 +36539,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211041-Steady Breathing.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211041-Steady Breathing.webp"
           },
           {
             "id": "214011",
@@ -37577,7 +36547,6 @@ var NYX_DB = {
             "title": "Fischl: Stellar Predator",
             "description": "\"The instant in which Ozvaldo Hrafnavins shows his great might.\"",
             "sourceText": "Reward for inviting Fischl to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214011",
             "localizedNames": {
               "en": "Stellar Predator",
               "zh": "\u566c\u661f\u9b54\u9e26",
@@ -37634,8 +36603,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214011-Stellar Predator.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214011-Stellar Predator.webp"
           },
           {
             "id": "221031",
@@ -37643,7 +36611,6 @@ var NYX_DB = {
             "title": "Cryo Hypostasis: Sternfrost Prism",
             "description": "Despite its highly stable form and almost machine-like movements, it must still meticulously defend its weak spot...",
             "sourceText": "Reward for accepting the Tavern Challenge against the Cryo Hypostasis at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/221031",
             "localizedNames": {
               "en": "Sternfrost Prism",
               "zh": "\u4e25\u971c\u68f1\u6676",
@@ -37686,8 +36653,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/221031-Sternfrost Prism.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/221031-Sternfrost Prism.webp"
           },
           {
             "id": "331802",
@@ -37695,7 +36661,6 @@ var NYX_DB = {
             "title": "Contract of Eons Unshaken",
             "description": "\"This is the trust I have placed in them. Betray it, and you taint my blood.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331802",
             "localizedNames": {
               "en": "Stone and Contracts",
               "zh": "\u5ca9\u4e0e\u5951\u7ea6",
@@ -37725,8 +36690,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331802-Stone and Contracts.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331802-Stone and Contracts.webp"
           },
           {
             "id": "2601",
@@ -37734,7 +36698,6 @@ var NYX_DB = {
             "title": "\"Vale-Crosser\" Stonehide Lawachurl",
             "description": "Go around \u2014 the way ahead is the realm of the \"king.\"",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Stonehide Lawachurl",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2601",
             "localizedNames": {
               "en": "Stonehide Lawachurl",
               "zh": "\u4e18\u4e18\u5ca9\u76d4\u738b",
@@ -37828,8 +36791,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2601-Stonehide Lawachurl.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2601-Stonehide Lawachurl.webp"
           },
           {
             "id": "226011",
@@ -37837,7 +36799,6 @@ var NYX_DB = {
             "title": "Forged From Rock",
             "description": "An enduring force flows through that craggy form.",
             "sourceText": "Reward for accepting the Tavern Challenge against Stonehide Lawachurl at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/226011",
             "localizedNames": {
               "en": "Stonehide Reforged",
               "zh": "\u91cd\u94f8\uff1a\u5ca9\u76d4",
@@ -37901,8 +36862,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/226011-Stonehide Reforged.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/226011-Stonehide Reforged.webp"
           },
           {
             "id": "321015",
@@ -37910,7 +36870,6 @@ var NYX_DB = {
             "title": "Stormterror's Lair",
             "description": "The ambitious dream was built proudly upon the capital of the God of Storms, and collapsed to ruin under the lofty song of freedom.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321015",
             "localizedNames": {
               "en": "Stormterror's Lair",
               "zh": "\u98ce\u9f99\u5e9f\u589f",
@@ -37942,8 +36901,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321015-Stormterror's Lair.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321015-Stormterror's Lair.webp"
           },
           {
             "id": "216011",
@@ -37951,7 +36909,6 @@ var NYX_DB = {
             "title": "Ningguang: Strategic Reserve",
             "description": "Abundance is synonymous with confidence.",
             "sourceText": "Reward for inviting Ningguang to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/216011",
             "localizedNames": {
               "en": "Strategic Reserve",
               "zh": "\u50a8\u4e4b\u5343\u65e5\uff0c\u7528\u4e4b\u4e00\u523b",
@@ -38000,8 +36957,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216011-Strategic Reserve.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216011-Strategic Reserve.webp"
           },
           {
             "id": "332004",
@@ -38009,7 +36965,6 @@ var NYX_DB = {
             "title": "Strategize",
             "description": "\"This might look quite complicated, but in truth, the possible scenarios do not exceed 187 in number.\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332004",
             "localizedNames": {
               "en": "Strategize",
               "zh": "\u8fd0\u7b79\u5e37\u5e44",
@@ -38034,8 +36989,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332004-Strategize.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332004-Strategize.webp"
           },
           {
             "id": "222011",
@@ -38043,7 +36997,6 @@ var NYX_DB = {
             "title": "Flowing",
             "description": "The racing waters are a display of love toward a deceased deity.",
             "sourceText": "Reward for accepting the Tavern Challenge against Rhodeia of Loch at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/222011",
             "localizedNames": {
               "en": "Streaming Surge",
               "zh": "\u767e\u5ddd\u5954\u6d41",
@@ -38083,8 +37036,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222011-Streaming Surge.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222011-Streaming Surge.webp"
           },
           {
             "id": "217061",
@@ -38092,7 +37044,6 @@ var NYX_DB = {
             "title": "Alhaitham: Structuration",
             "description": "\"A process of elimination.\"",
             "sourceText": "Reward for inviting Alhaitham to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/217061",
             "localizedNames": {
               "en": "Structuration",
               "zh": "\u6b63\u7406",
@@ -38154,8 +37105,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217061-Structuration.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217061-Structuration.webp"
           },
           {
             "id": "321010",
@@ -38163,7 +37113,6 @@ var NYX_DB = {
             "title": "The City Where All Wisdom Resides",
             "description": "Under the luxuriant Divine Tree, the sages of the academy city have accumulated all the knowledge there is to be gathered.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321010",
             "localizedNames": {
               "en": "Sumeru City",
               "zh": "\u987b\u5f25\u57ce",
@@ -38190,8 +37139,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321010-Sumeru City.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321010-Sumeru City.webp"
           },
           {
             "id": "332029",
@@ -38199,7 +37147,6 @@ var NYX_DB = {
             "title": "Sunyata Flower",
             "description": "\"This vibrant color is the miracle of life's flowing springs.\"\\n\"Abide with me, sing and caper with me, and let us weave eternal joy\"...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332029",
             "localizedNames": {
               "en": "Sunyata Flower",
               "zh": "\u51c0\u89c9\u82b1",
@@ -38223,8 +37170,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332029-Sunyata Flower.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332029-Sunyata Flower.webp"
           },
           {
             "id": "222031",
@@ -38232,7 +37178,6 @@ var NYX_DB = {
             "title": "Abyss Herald: Surging Undercurrent",
             "description": "\"Destruction inexorable!\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Abyss Herald: Wicked Torrents at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/222031",
             "localizedNames": {
               "en": "Surging Undercurrent",
               "zh": "\u6697\u6d41\u6d8c\u52a8",
@@ -38283,8 +37228,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222031-Surging Undercurrent.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222031-Surging Undercurrent.webp"
           },
           {
             "id": "333005",
@@ -38292,7 +37236,6 @@ var NYX_DB = {
             "title": "Sweet Madame",
             "description": "Perhaps some have never seen a chicken run... But there's no one who hasn't tried a Sweet Madame!",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333005",
             "localizedNames": {
               "en": "Sweet Madame",
               "zh": "\u751c\u751c\u82b1\u917f\u9e21",
@@ -38318,8 +37261,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333005-Sweet Madame.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333005-Sweet Madame.webp"
           },
           {
             "id": "215151",
@@ -38327,7 +37269,6 @@ var NYX_DB = {
             "title": "Ifa: Tactical Warm Compress Bandaging",
             "description": "\"Mind your step!\"",
             "sourceText": "Reward for inviting Ifa to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215151",
             "localizedNames": {
               "en": "Tactical Warm Compress Bandaging",
               "zh": "\u6e29\u6577\u6218\u672f\u5305\u624e",
@@ -38364,8 +37305,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215151-Tactical Warm Compress Bandaging.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215151-Tactical Warm Compress Bandaging.webp"
           },
           {
             "id": "332037",
@@ -38373,7 +37313,6 @@ var NYX_DB = {
             "title": "Tada!",
             "description": "\"Surprise.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332037",
             "localizedNames": {
               "en": "Tada!",
               "zh": "\u5654\u5654\uff01",
@@ -38402,8 +37341,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332037-Tada!.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332037-Tada!.webp"
           },
           {
             "id": "212051",
@@ -38411,7 +37349,6 @@ var NYX_DB = {
             "title": "Sangonomiya Kokomi: Tamakushi Casket",
             "description": "Wisdom yet revealed from the casket parallels tides yet unfolded by the sea.",
             "sourceText": "Reward for inviting Sangonomiya Kokomi to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212051",
             "localizedNames": {
               "en": "Tamakushi Casket",
               "zh": "\u5323\u4e2d\u7389\u6809",
@@ -38475,8 +37412,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212051-Tamakushi Casket.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212051-Tamakushi Casket.webp"
           },
           {
             "id": "333011",
@@ -38484,7 +37420,6 @@ var NYX_DB = {
             "title": "Tandoori Roast Chicken",
             "description": "The chicken and spices are capable of performing a mysterious Sumeru dance on the tip of your tongue, evoking the image of a festive banquet...\\nBut even a dish so delicious has its last bite, and every feast has its end.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333011",
             "localizedNames": {
               "en": "Tandoori Roast Chicken",
               "zh": "\u5510\u675c\u5c14\u70e4\u9e21",
@@ -38511,8 +37446,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333011-Tandoori Roast Chicken.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333011-Tandoori Roast Chicken.webp"
           },
           {
             "id": "322024",
@@ -38520,7 +37454,6 @@ var NYX_DB = {
             "title": "Taroumaru",
             "description": "The boss of Komore Teahouse, with whom all staff members are said to have signed a \"contract\"...\\nFew people know that back in the day, Taroumaru would accompany powerful ninja of the Shuumatsuban, striving in service of the Yashiro Commission...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322024",
             "localizedNames": {
               "en": "Taroumaru",
               "zh": "\u592a\u90ce\u4e38",
@@ -38556,8 +37489,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322024-Taroumaru.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322024-Taroumaru.webp"
           },
           {
             "id": "313008",
@@ -38565,7 +37497,6 @@ var NYX_DB = {
             "title": "Tatankasaurus: Spirited Charge",
             "description": "To a charging Tatankasaurus, solid Pulverite is no more imposing an obstacle than gently wafting steam, while the surfaces of water and liquid Phlogiston alike are as stable and supportive as a road.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/313008",
             "localizedNames": {
               "en": "Tatankasaurus",
               "zh": "\u7a81\u89d2\u9f99",
@@ -38602,8 +37533,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313008-Tatankasaurus.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313008-Tatankasaurus.webp"
           },
           {
             "id": "211151",
@@ -38611,7 +37541,6 @@ var NYX_DB = {
             "title": "\"Tea Parties Bursting With Color\" Escoffier",
             "description": "The pinnacle of excellence!",
             "sourceText": "Reward for inviting Escoffier to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211151",
             "localizedNames": {
               "en": "Tea Parties Bursting With Color",
               "zh": "\u8679\u5f69\u7f24\u7eb7\u7684\u751c\u70b9\u8336\u8bdd",
@@ -38660,8 +37589,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211151-Tea Parties Bursting With Color.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211151-Tea Parties Bursting With Color.webp"
           },
           {
             "id": "214141",
@@ -38669,7 +37597,6 @@ var NYX_DB = {
             "title": "Iansan: Teachings of the Collective of Plenty",
             "description": "\"On my mark!\"",
             "sourceText": "Reward for inviting Iansan to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214141",
             "localizedNames": {
               "en": "Teachings of the Collective of Plenty",
               "zh": "\u300c\u6c83\u9646\u4e4b\u90a6\u300d\u7684\u8bad\u6559",
@@ -38725,8 +37652,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214141-Teachings of the Collective of Plenty.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214141-Teachings of the Collective of Plenty.webp"
           },
           {
             "id": "312010",
@@ -38734,7 +37660,6 @@ var NYX_DB = {
             "title": "Tenacity of the Millelith: General's Ancient Helm",
             "description": "\"...To ensure that the afflicted civilians could safely escape, and to maintain their honor in the eyes of the Lord of Geo,\\nThe helmet-clad troops of the front line took the lead, pointing their spears towards the Abyss and charging into battle.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312010",
             "localizedNames": {
               "en": "Tenacity of the Millelith",
               "zh": "\u5343\u5ca9\u7262\u56fa",
@@ -38776,8 +37701,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312010-Tenacity of the Millelith.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312010-Tenacity of the Millelith.webp"
           },
           {
             "id": "321007",
@@ -38785,7 +37709,6 @@ var NYX_DB = {
             "title": "Omnipresence Over Mortals",
             "description": "\"What matters is that I tread the path of eternity on my people's behalf.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321007",
             "localizedNames": {
               "en": "Tenshukaku",
               "zh": "\u5929\u5b88\u9601",
@@ -38817,8 +37740,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321007-Tenshukaku.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321007-Tenshukaku.webp"
           },
           {
             "id": "313004",
@@ -38826,7 +37748,6 @@ var NYX_DB = {
             "title": "Tepetlisaurus: Burrowing Assault",
             "description": "\"Tepetlisaurs are skilled diggers, and as they tunnel through the earth, they occasionally uncover buried treasures...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/313004",
             "localizedNames": {
               "en": "Tepetlisaurus",
               "zh": "\u5d74\u950b\u9f99",
@@ -38863,8 +37784,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313004-Tepetlisaurus.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313004-Tepetlisaurus.webp"
           },
           {
             "id": "211111",
@@ -38872,7 +37792,6 @@ var NYX_DB = {
             "title": "Wriothesley: Terror for the Evildoers",
             "description": "\"Stay cool and face your guilt!\"",
             "sourceText": "Reward for inviting Wriothesley to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211111",
             "localizedNames": {
               "en": "Terror for the Evildoers",
               "zh": "\u4e88\u884c\u6076\u8005\u4ee5\u60e9\u60e7",
@@ -38908,8 +37827,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211111-Terror for the Evildoers.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211111-Terror for the Evildoers.webp"
           },
           {
             "id": "333009",
@@ -38917,7 +37835,6 @@ var NYX_DB = {
             "title": "Teyvat Fried Egg",
             "description": "With a taste of the summer sun, it invigorates you from the first bite.\\nTake care to eat this meal slowly, and avoid choking the throat of destiny when impelled by the fullness of life's vitality.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/333009",
             "localizedNames": {
               "en": "Teyvat Fried Egg",
               "zh": "\u63d0\u74e6\u7279\u714e\u86cb",
@@ -38944,8 +37861,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333009-Teyvat Fried Egg.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/333009-Teyvat Fried Egg.webp"
           },
           {
             "id": "227041",
@@ -38953,7 +37869,6 @@ var NYX_DB = {
             "title": "\"The All-Devourer\" Gluttonous Yumkasaur Mountain King",
             "description": "\"Some tribe members believe that it has its current body shape because it has a unique physique, like the Qucusaur Tyrant... Though in fact, this is simply because it's lived for so long, and eaten way, WAY too much.\"",
             "sourceText": "Reward for accepting the Tavern Challenge against Gluttonous Yumkasaur Mountain King at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/227041",
             "localizedNames": {
               "en": "The All-Devourer",
               "zh": "\u9955\u566c\u5c3d\u541e",
@@ -38991,8 +37906,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/227041-The All-Devourer.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/227041-The All-Devourer.webp"
           },
           {
             "id": "217081",
@@ -39000,7 +37914,6 @@ var NYX_DB = {
             "title": "Kaveh: The Art of Budgeting",
             "description": "\"Feast your eyes!\"",
             "sourceText": "Reward for inviting Kaveh to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/217081",
             "localizedNames": {
               "en": "The Art of Budgeting",
               "zh": "\u9884\u7b97\u5e08\u7684\u6280\u827a",
@@ -39093,8 +38006,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217081-The Art of Budgeting.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217081-The Art of Budgeting.webp"
           },
           {
             "id": "311305",
@@ -39102,7 +38014,6 @@ var NYX_DB = {
             "title": "Rebellious Guardian: The Bell",
             "description": "There once was a traitor who brandished a blade against his fallen clan.\\nThough this individual was eventually cast out from his clan, rumor has it that his organization continued their chosen duties.\\nLegend claims that even the Wolf Pup Rostam might have been involved...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311305",
             "localizedNames": {
               "en": "The Bell",
               "zh": "\u949f\u5251",
@@ -39135,8 +38046,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311305-The Bell.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311305-The Bell.webp"
           },
           {
             "id": "332001",
@@ -39144,7 +38054,6 @@ var NYX_DB = {
             "title": "The Bestest Travel Companion!",
             "description": "\"You might be only one of countless stars, but you're Paimon's whole world!\"",
             "sourceText": "Reward for meeting the Player Manual's requirements",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332001",
             "localizedNames": {
               "en": "The Bestest Travel Companion!",
               "zh": "\u6700\u597d\u7684\u4f19\u4f34\uff01",
@@ -39174,8 +38083,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
           },
           {
             "id": "332025",
@@ -39183,7 +38091,6 @@ var NYX_DB = {
             "title": "The Boar Princess",
             "description": "In ancient legends, the Boar Kingdom was prosperous and filled with joy. The young princess of the Kingdom took the wise Fox and long-lived Tortoise, and set out on the road to the north, hoping to turn the little wolf back into that good child...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332025",
             "localizedNames": {
               "en": "The Boar Princess",
               "zh": "\u91ce\u732a\u516c\u4e3b",
@@ -39212,8 +38119,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332025-The Boar Princess.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332025-The Boar Princess.webp"
           },
           {
             "id": "212161",
@@ -39221,7 +38127,6 @@ var NYX_DB = {
             "title": "Aino: The Burden of Creative Genius",
             "description": "\"Look, a rainbow!\"",
             "sourceText": "Reward for inviting Aino to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212161",
             "localizedNames": {
               "en": "The Burden of Creative Genius",
               "zh": "\u5929\u624d\u4e4b\u4e3a\u6784\u9020\u4e4b\u8d23\u4efb",
@@ -39265,8 +38170,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212161-The Burden of Creative Genius.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212161-The Burden of Creative Genius.webp"
           },
           {
             "id": "311509",
@@ -39274,7 +38178,6 @@ var NYX_DB = {
             "title": "Sea Shanty: The Dockhand's Assistant",
             "description": "\"Although such blades were not owned by their wielders, those who depended on them saw them as extensions of their limbs, and so they often inscribed their names onto the hilts and blades to avoid losing them. The name inscribed on this blade belongs to one of Poisson's former mayors.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311509",
             "localizedNames": {
               "en": "The Dockhand's Assistant",
               "zh": "\u8239\u575e\u957f\u5251",
@@ -39312,8 +38215,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311509-The Dockhand's Assistant.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311509-The Dockhand's Assistant.webp"
           },
           {
             "id": "332019",
@@ -39321,7 +38223,6 @@ var NYX_DB = {
             "title": "Dream of Freedom Unrelinquished",
             "description": "\"Lonely forest breezes converged, jointly they overthrew the tyrant's tower from the sky.\"\\n\"Broken free from shackles at last, the young lioness stood firm in the winds with her head held high.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332019",
             "localizedNames": {
               "en": "The Legend of Vennessa",
               "zh": "\u6e29\u59ae\u838e\u4f20\u5947",
@@ -39346,8 +38247,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332019-The Legend of Vennessa.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332019-The Legend of Vennessa.webp"
           },
           {
             "id": "321020",
@@ -39355,7 +38255,6 @@ var NYX_DB = {
             "title": "The Mausoleum of King Deshret",
             "description": "\"The huge cone is like a supporting pillar between the high sky and the yellow sands that has stood in the middle of the desert since time immemorial. Standing in front of it, be you a commoner, a wealthy man, or a well-informed researcher, you shall feel that you are but a few grains of sand all the same.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321020",
             "localizedNames": {
               "en": "The Mausoleum of King Deshret",
               "zh": "\u8d64\u738b\u9675",
@@ -39387,8 +38286,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321020-The Mausoleum of King Deshret.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321020-The Mausoleum of King Deshret.webp"
           },
           {
             "id": "332057",
@@ -39396,7 +38294,6 @@ var NYX_DB = {
             "title": "The Narzissenkreuz Adventure",
             "description": "\"Before you arrived, I had a dream. I dreamed that I was a small, brave Oceanid, and we set out to save the Princess...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332057",
             "localizedNames": {
               "en": "The Narzissenkreuz Adventure",
               "zh": "\u6c34\u4ed9\u5341\u5b57\u5927\u5192\u9669",
@@ -39426,8 +38323,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332057-The Narzissenkreuz Adventure.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332057-The Narzissenkreuz Adventure.webp"
           },
           {
             "id": "330013",
@@ -39435,7 +38331,6 @@ var NYX_DB = {
             "title": "The Other Side of the Frostmoon",
             "description": "\"We are all tainted by sin... How could we ever hope to behold the moonlight in its purest form?\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/330013",
             "localizedNames": {
               "en": "The Other Side of the Frostmoon",
               "zh": "\u53e6\u4e00\u4fa7\u7684\u971c\u6708",
@@ -39468,8 +38363,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330013-The Other Side of the Frostmoon.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330013-The Other Side of the Frostmoon.webp"
           },
           {
             "id": "212071",
@@ -39477,7 +38371,6 @@ var NYX_DB = {
             "title": "Candace: The Overflow",
             "description": "Those who do not respect the regulations at cards...\\nAre the enemy of all who love the game.",
             "sourceText": "Reward for inviting Candace to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212071",
             "localizedNames": {
               "en": "The Overflow",
               "zh": "\u884d\u6ea2\u7684\u6c50\u6f6e",
@@ -39535,8 +38428,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212071-The Overflow.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212071-The Overflow.webp"
           },
           {
             "id": "332064",
@@ -39544,7 +38436,6 @@ var NYX_DB = {
             "title": "The Power of Research",
             "description": "\"Science, of course! That's the only way!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332064",
             "localizedNames": {
               "en": "The Power of Research",
               "zh": "\u79d1\u7814\u7684\u52a8\u529b",
@@ -39574,8 +38465,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332064-The Power of Research.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332064-The Power of Research.webp"
           },
           {
             "id": "212021",
@@ -39583,7 +38473,6 @@ var NYX_DB = {
             "title": "Xingqiu: The Scent Remained",
             "description": "His penmanship leaves quite the impression.",
             "sourceText": "Reward for inviting Xingqiu to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212021",
             "localizedNames": {
               "en": "The Scent Remained",
               "zh": "\u91cd\u5e18\u7559\u9999",
@@ -39632,8 +38521,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212021-The Scent Remained.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212021-The Scent Remained.webp"
           },
           {
             "id": "217031",
@@ -39641,7 +38529,6 @@ var NYX_DB = {
             "title": "Nahida: The Seed of Stored Knowledge",
             "description": "\"Share in my knowledge.\"",
             "sourceText": "Reward for inviting Nahida to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/217031",
             "localizedNames": {
               "en": "The Seed of Stored Knowledge",
               "zh": "\u5fc3\u8bc6\u8574\u85cf\u4e4b\u79cd",
@@ -39717,8 +38604,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217031-The Seed of Stored Knowledge.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217031-The Seed of Stored Knowledge.webp"
           },
           {
             "id": "214081",
@@ -39726,7 +38612,6 @@ var NYX_DB = {
             "title": "Yae Miko: The Shrine's Sacred Shade",
             "description": "\"Ah... A sight to behold...\"",
             "sourceText": "Reward for inviting Yae Miko to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214081",
             "localizedNames": {
               "en": "The Shrine's Sacred Shade",
               "zh": "\u795e\u7bf1\u4e4b\u5fa1\u836b",
@@ -39777,8 +38662,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214081-The Shrine's Sacred Shade.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214081-The Shrine's Sacred Shade.webp"
           },
           {
             "id": "212081",
@@ -39786,7 +38670,6 @@ var NYX_DB = {
             "title": "\"The Starry Skies Their Flowers Rain\" Nilou",
             "description": "Seven heavens, passing like a radiant stream, as though a dream drawn into being.",
             "sourceText": "Reward for inviting Nilou to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212081",
             "localizedNames": {
               "en": "The Starry Skies Their Flowers Rain",
               "zh": "\u661f\u5929\u7684\u82b1\u96e8",
@@ -39835,8 +38718,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212081-The Starry Skies Their Flowers Rain.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212081-The Starry Skies Their Flowers Rain.webp"
           },
           {
             "id": "322025",
@@ -39844,7 +38726,6 @@ var NYX_DB = {
             "title": "The White Glove and the Fisherman",
             "description": "\"Amongst us, there is our own justice.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322025",
             "localizedNames": {
               "en": "The White Glove and the Fisherman",
               "zh": "\u767d\u624b\u5957\u548c\u6e14\u592b",
@@ -39880,8 +38761,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322025-The White Glove and the Fisherman.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322025-The White Glove and the Fisherman.webp"
           },
           {
             "id": "215091",
@@ -39889,7 +38769,6 @@ var NYX_DB = {
             "title": "Faruzan: The Wondrous Path of Truth",
             "description": "\"Truth repeats its course.\"",
             "sourceText": "Reward for inviting Faruzan to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215091",
             "localizedNames": {
               "en": "The Wondrous Path of Truth",
               "zh": "\u5999\u9053\u5408\u771f",
@@ -39943,8 +38822,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215091-The Wondrous Path of Truth.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215091-The Wondrous Path of Truth.webp"
           },
           {
             "id": "215101",
@@ -39952,7 +38830,6 @@ var NYX_DB = {
             "title": "Xianyun: They Call Her Cloud Retainer",
             "description": "\"Stray clouds, converge.\"",
             "sourceText": "Reward for inviting Xianyun to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215101",
             "localizedNames": {
               "en": "They Call Her Cloud Retainer",
               "zh": "\u77e5\u662f\u7559\u4e91\u50ca",
@@ -39988,8 +38865,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215101-They Call Her Cloud Retainer.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215101-They Call Her Cloud Retainer.webp"
           },
           {
             "id": "331803",
@@ -39997,7 +38873,6 @@ var NYX_DB = {
             "title": "Dream of Evanescent Eternity",
             "description": "\"It once promised its people a dream: the never-changing 'eternity.'\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331803",
             "localizedNames": {
               "en": "Thunder and Eternity",
               "zh": "\u96f7\u4e0e\u6c38\u6052",
@@ -40026,8 +38901,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331803-Thunder and Eternity.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331803-Thunder and Eternity.webp"
           },
           {
             "id": "2402",
@@ -40035,7 +38909,6 @@ var NYX_DB = {
             "title": "\"Lingering Hatred\" Thunder Manifestation",
             "description": "As long as the grudges of the land do not fade, so will the roaring thunder persist.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Thunder Manifestation",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2402",
             "localizedNames": {
               "en": "Thunder Manifestation",
               "zh": "\u96f7\u97f3\u6743\u73b0",
@@ -40141,8 +39014,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2402-Thunder Manifestation.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2402-Thunder Manifestation.webp"
           },
           {
             "id": "312401",
@@ -40150,7 +39022,6 @@ var NYX_DB = {
             "title": "Lightning and Rain: Thunder Summoner's Crown",
             "description": "\"The song pierced the storm's low hum, ripped through the clouds, and bestowed upon it, light.\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312401",
             "localizedNames": {
               "en": "Thunder Summoner's Crown",
               "zh": "\u5524\u96f7\u7684\u5934\u51a0",
@@ -40177,8 +39048,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312401-Thunder Summoner's Crown.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312401-Thunder Summoner's Crown.webp"
           },
           {
             "id": "312402",
@@ -40186,7 +39056,6 @@ var NYX_DB = {
             "title": "Plume of the Stormy Skies: Thundering Fury",
             "description": "\"Then I shall sing you another tune \u2014 when you come again with thunder and rain!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312402",
             "localizedNames": {
               "en": "Thundering Fury",
               "zh": "\u5982\u96f7\u7684\u76db\u6012",
@@ -40213,8 +39082,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312402-Thundering Fury.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312402-Thundering Fury.webp"
           },
           {
             "id": "214031",
@@ -40222,7 +39090,6 @@ var NYX_DB = {
             "title": "Keqing: Thundering Penance",
             "description": "As long as you're not actually cheating, this is just the name of a card.",
             "sourceText": "Reward for inviting Keqing to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214031",
             "localizedNames": {
               "en": "Thundering Penance",
               "zh": "\u62b5\u5929\u96f7\u7f5a",
@@ -40283,8 +39150,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214031-Thundering Penance.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214031-Thundering Penance.webp"
           },
           {
             "id": "312011",
@@ -40292,7 +39158,6 @@ var NYX_DB = {
             "title": "Stilling Calamity: Thundering Poise",
             "description": "\"...Tianqiu once played host to a Yaksha, four-armed and mighty.\"\\n\"He came to The Chasm from afar, to the praises of the tribes.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312011",
             "localizedNames": {
               "en": "Thundering Poise",
               "zh": "\u867a\u96f7\u4e4b\u59ff",
@@ -40319,8 +39184,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312011-Thundering Poise.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312011-Thundering Poise.webp"
           },
           {
             "id": "321036",
@@ -40328,7 +39192,6 @@ var NYX_DB = {
             "title": "Tideseal Stone",
             "description": "\"The night sky has been devoured by deathly silence. We knead blood and bone for fuel, and so proclaim: The Long Night flows dark and deep. With these lanterns we wield, no specter shall stir from their sleep. By the lunar spirits, this pact is sealed.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321036",
             "localizedNames": {
               "en": "Tideseal Stone",
               "zh": "\u6c50\u5370\u77f3",
@@ -40367,8 +39230,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321036-Tideseal Stone.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321036-Tideseal Stone.webp"
           },
           {
             "id": "322003",
@@ -40376,7 +39238,6 @@ var NYX_DB = {
             "title": "Timaeus, Scholar of Alchemy",
             "description": "\"Hello there... Oh, you'd like to use the Crafting Bench? Sure, be my guest.\"",
             "sourceText": "Reward for accepting Timaeus' Adventure Challenge in the open world and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322003",
             "localizedNames": {
               "en": "Timaeus",
               "zh": "\u8482\u739b\u4e4c\u65af",
@@ -40403,8 +39264,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322003-Timaeus.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322003-Timaeus.webp"
           },
           {
             "id": "322007",
@@ -40412,7 +39272,6 @@ var NYX_DB = {
             "title": "\"Pure Patience\" Timmie",
             "description": "\"Will pigeons that have flown away come back?\"",
             "sourceText": "Reward for accepting Timmie's Adventure Challenge in the open world and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322007",
             "localizedNames": {
               "en": "Timmie",
               "zh": "\u63d0\u7c73",
@@ -40443,8 +39302,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322007-Timmie.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322007-Timmie.webp"
           },
           {
             "id": "214111",
@@ -40452,7 +39310,6 @@ var NYX_DB = {
             "title": "Kuki Shinobu: To Ward Weakness",
             "description": "\"Lightning... purifies!\"",
             "sourceText": "Reward for inviting Kuki Shinobu to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214111",
             "localizedNames": {
               "en": "To Ward Weakness",
               "zh": "\u5272\u820d\u8f6f\u5f31\u4e4b\u5fc3",
@@ -40488,8 +39345,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214111-To Ward Weakness.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214111-To Ward Weakness.webp"
           },
           {
             "id": "311108",
@@ -40497,7 +39353,6 @@ var NYX_DB = {
             "title": "Aeon Wave: Tome of the Eternal Flow",
             "description": "\"...For if the harbinger of the apocalypse would indeed one day arrive, the flood would wash everything away.\"\\n\"And we would fight with both duty and joy in our hearts, just as the goddess had found empathy for us in hers.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311108",
             "localizedNames": {
               "en": "Tome of the Eternal Flow",
               "zh": "\u4e07\u4e16\u6d41\u6d8c\u5927\u5178",
@@ -40525,8 +39380,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311108-Tome of the Eternal Flow.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311108-Tome of the Eternal Flow.webp"
           },
           {
             "id": "332003",
@@ -40534,7 +39388,6 @@ var NYX_DB = {
             "title": "Toss-Up",
             "description": "Before the dice are thrown, none can know their own destiny.",
             "sourceText": "Reward for meeting the Player Manual's requirements",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332003",
             "localizedNames": {
               "en": "Toss-Up",
               "zh": "\u4e00\u63b7\u4e7e\u5764",
@@ -40558,8 +39411,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332003-Toss-Up.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332003-Toss-Up.webp"
           },
           {
             "id": "216111",
@@ -40567,7 +39419,6 @@ var NYX_DB = {
             "title": "Xilonen: Tour of Tepeilhuitl",
             "description": "\"Let the mountain's veins boil!\"",
             "sourceText": "Reward for inviting Xilonen to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/216111",
             "localizedNames": {
               "en": "Tour of Tepeilhuitl",
               "zh": "\u4e1b\u5c71\u953b\u706b\u9a70\u884c",
@@ -40602,8 +39453,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216111-Tour of Tepeilhuitl.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216111-Tour of Tepeilhuitl.webp"
           },
           {
             "id": "214161",
@@ -40611,7 +39461,6 @@ var NYX_DB = {
             "title": "Ororon: Trails Amidst the Forest Fog",
             "description": "\"Go, you're free now.\"",
             "sourceText": "Reward for inviting Ororon to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214161",
             "localizedNames": {
               "en": "Trails Amidst the Forest Fog",
               "zh": "\u6797\u96fe\u95f4\u7684\u884c\u8ff9",
@@ -40644,8 +39493,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214161-Trails Amidst the Forest Fog.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214161-Trails Amidst the Forest Fog.webp"
           },
           {
             "id": "225011",
@@ -40653,7 +39501,6 @@ var NYX_DB = {
             "title": "Marionette Swordmaster",
             "description": "That unerring strike has been delivered countless times.",
             "sourceText": "Reward for accepting the Tavern Challenge against Maguu Kenki at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/225011",
             "localizedNames": {
               "en": "Transcendent Automaton",
               "zh": "\u673a\u5de7\u795e\u901a",
@@ -40689,8 +39536,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/225011-Transcendent Automaton.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/225011-Transcendent Automaton.webp"
           },
           {
             "id": "311501",
@@ -40698,7 +39544,6 @@ var NYX_DB = {
             "title": "Traveler's Companion: Traveler's Handy Sword",
             "description": "A handy steel sword that contains all manner of useful items in its sheath.",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311501",
             "localizedNames": {
               "en": "Traveler's Handy Sword",
               "zh": "\u65c5\u884c\u5251",
@@ -40726,8 +39571,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311501-Traveler's Handy Sword.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311501-Traveler's Handy Sword.webp"
           },
           {
             "id": "312003",
@@ -40735,7 +39579,6 @@ var NYX_DB = {
             "title": "Medical Practice: Traveling Doctor's Handkerchief",
             "description": "\"Come sun or rain, nothing could stay the traveling doctor's steps.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312003",
             "localizedNames": {
               "en": "Traveling Doctor's Handkerchief",
               "zh": "\u6e38\u533b\u7684\u65b9\u5dfe",
@@ -40762,8 +39605,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312003-Traveling Doctor's Handkerchief.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312003-Traveling Doctor's Handkerchief.webp"
           },
           {
             "id": "222081",
@@ -40771,7 +39613,6 @@ var NYX_DB = {
             "title": "Hydro Hypostasis: Treacherous Waves",
             "description": "Beneath the treacherous waves of the silent gathering, a calamity of vicious tides gathers in silence...",
             "sourceText": "Reward for accepting the Tavern Challenge against the Hydro Hypostasis at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/222081",
             "localizedNames": {
               "en": "Treacherous Tides",
               "zh": "\u8be1\u8c32\u6076\u6d6a"
@@ -40827,8 +39668,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null,
-            "source": "Nanoka"
+            "art": null
           },
           {
             "id": "323004",
@@ -40836,7 +39676,6 @@ var NYX_DB = {
             "title": "Revelation's Potential: Treasure-Seeking Seelie",
             "description": "Strange Seelie capable of guiding people toward treasure. Legend has it that some individuals know how to communicate with these Seelie...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/323004",
             "localizedNames": {
               "en": "Treasure-Seeking Seelie",
               "zh": "\u5bfb\u5b9d\u4ed9\u7075",
@@ -40863,8 +39702,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323004-Treasure-Seeking Seelie.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/323004-Treasure-Seeking Seelie.webp"
           },
           {
             "id": "322006",
@@ -40872,7 +39710,6 @@ var NYX_DB = {
             "title": "\"Rain Calmer\" Tubby",
             "description": "\"Steeping a pot of tea, watching over the abode, accompanying the Traveler and Paimon to await the arrival of Ping and the others, watching the cloud-filled sky. These days of not having to concern myself with matters of adeptal import truly are ones of leisure...\"\\n\"Oh! Oh dear, I must have fallen asleep again. It's a good thing that no one noticed...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322006",
             "localizedNames": {
               "en": "Tubby",
               "zh": "\u963f\u5706",
@@ -40899,8 +39736,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322006-Tubby.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322006-Tubby.webp"
           },
           {
             "id": "311107",
@@ -40908,7 +39744,6 @@ var NYX_DB = {
             "title": "Bygone Azure Teardrop: Tulaytullah's Remembrance",
             "description": "\"In the end, all people, good or evil, will find themselves ground beneath the wheels of fate, and the sapphire city would fade, dissipating like tears beneath the scorching sun.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311107",
             "localizedNames": {
               "en": "Tulaytullah's Remembrance",
               "zh": "\u56fe\u83b1\u675c\u62c9\u7684\u56de\u5fc6",
@@ -40945,8 +39780,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311107-Tulaytullah's Remembrance.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311107-Tulaytullah's Remembrance.webp"
           },
           {
             "id": "212091",
@@ -40954,7 +39788,6 @@ var NYX_DB = {
             "title": "Yelan: Turn Control",
             "description": "\"Things are about to get dicey.\"",
             "sourceText": "Reward for inviting Yelan to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212091",
             "localizedNames": {
               "en": "Turn Control",
               "zh": "\u731c\u5148\u6709\u65b9",
@@ -40993,8 +39826,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212091-Turn Control.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212091-Turn Control.webp"
           },
           {
             "id": "332041",
@@ -41002,7 +39834,6 @@ var NYX_DB = {
             "title": "Ultimate Surfing Buddy!",
             "description": "\"Just find yourself a good swell, pick up a suitable surfboard, and you too can experience the joys of surfing whenever you want!\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332041",
             "localizedNames": {
               "en": "Ultimate Surfing Buddy!",
               "zh": "\u5f3a\u52b2\u51b2\u6d6a\u62cd\u6863\uff01",
@@ -41033,8 +39864,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332041-Ultimate Surfing Buddy!.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332041-Ultimate Surfing Buddy!.webp"
           },
           {
             "id": "332031",
@@ -41042,7 +39872,6 @@ var NYX_DB = {
             "title": "Underwater Treasure Hunt",
             "description": "Beryl Conches, Lumitoiles, and the occasional treasure chest hidden within a shell...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332031",
             "localizedNames": {
               "en": "Underwater Treasure Hunt",
               "zh": "\u6d77\u4e2d\u5bfb\u5b9d",
@@ -41072,8 +39901,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332031-Underwater Treasure Hunt.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332031-Underwater Treasure Hunt.webp"
           },
           {
             "id": "216081",
@@ -41081,7 +39909,6 @@ var NYX_DB = {
             "title": "Navia: Undisclosed Distribution Channels",
             "description": "\"Where'd that come from!?\"",
             "sourceText": "Reward for inviting Navia to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/216081",
             "localizedNames": {
               "en": "Undisclosed Distribution Channels",
               "zh": "\u4e0d\u660e\u6d41\u901a\u6e20\u9053",
@@ -41126,8 +39953,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216081-Undisclosed Distribution Channels.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/216081-Undisclosed Distribution Channels.webp"
           },
           {
             "id": "211011",
@@ -41135,7 +39961,6 @@ var NYX_DB = {
             "title": "Ganyu: Undivided Heart",
             "description": "First the arrow strikes, and then it turns to frost.",
             "sourceText": "Reward for inviting Ganyu to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211011",
             "localizedNames": {
               "en": "Undivided Heart",
               "zh": "\u552f\u6b64\u4e00\u5fc3",
@@ -41174,8 +39999,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211011-Undivided Heart.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211011-Undivided Heart.webp"
           },
           {
             "id": "223051",
@@ -41183,7 +40007,6 @@ var NYX_DB = {
             "title": "Lord of Eroded Primal Fire: Undying Fury",
             "description": "\"Trapped perpetually in the final day of its existence by this pitch-black gospel, its boundless fury has consumed all reason. Now, what remains is its unrelenting lust for battle, burning on without end.\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Lord of Eroded Primal Fire at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/223051",
             "localizedNames": {
               "en": "Undying Fury",
               "zh": "\u7f54\u6781\u76db\u6012",
@@ -41220,8 +40043,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223051-Undying Fury.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/223051-Undying Fury.webp"
           },
           {
             "id": "312038",
@@ -41229,7 +40051,6 @@ var NYX_DB = {
             "title": "Heroes' Afterglow: Unfinished Reverie",
             "description": "\"Do not break faith with the eyes of those still willing to gaze upon the burning flames.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312038",
             "localizedNames": {
               "en": "Unfinished Reverie",
               "zh": "\u672a\u7adf\u7684\u9050\u601d",
@@ -41271,8 +40092,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312038-Unfinished Reverie.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312038-Unfinished Reverie.webp"
           },
           {
             "id": "321011",
@@ -41280,7 +40100,6 @@ var NYX_DB = {
             "title": "Abidance of the Forested Path",
             "description": "\"Enter the memories of the trees in the forest, descend into seedbeds sprouting the dreams of slumbering leaves, and dive into a world free of woes.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321011",
             "localizedNames": {
               "en": "Vanarana",
               "zh": "\u6853\u90a3\u5170\u90a3",
@@ -41306,8 +40125,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321011-Vanarana.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321011-Vanarana.webp"
           },
           {
             "id": "213131",
@@ -41315,7 +40133,6 @@ var NYX_DB = {
             "title": "Chevreuse: Vanguard's Coordinated Tactics",
             "description": "\"The Special Security and Surveillance Patrol deals with a whole host of heinous crimes and dangerous criminals. As such, the methods we employ to enforce the law can be a bit on the... harsher side.\"",
             "sourceText": "Reward for inviting Chevreuse to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/213131",
             "localizedNames": {
               "en": "Vanguard's Coordinated Tactics",
               "zh": "\u5c16\u5175\u534f\u540c\u6218\u6cd5",
@@ -41352,8 +40169,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213131-Vanguard's Coordinated Tactics.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213131-Vanguard's Coordinated Tactics.webp"
           },
           {
             "id": "312012",
@@ -41361,7 +40177,6 @@ var NYX_DB = {
             "title": "Masked Twilight: Vermillion Hereafter",
             "description": "\"Do you not hear? The drums die in the north wind, the hero sinks into the vortex.\"\\n\"Have you not seen? The Yaksha's battle for the dawn \u2014 alas for a life so spent.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312012",
             "localizedNames": {
               "en": "Vermillion Hereafter",
               "zh": "\u8fb0\u7802\u5f80\u751f\u5f55",
@@ -41388,8 +40203,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312012-Vermillion Hereafter.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312012-Vermillion Hereafter.webp"
           },
           {
             "id": "312023",
@@ -41397,7 +40211,6 @@ var NYX_DB = {
             "title": "Face of Glory: Veteran's Visage",
             "description": "\"Yet even though the scars can be covered, the wounds laid on one's heart will not disappear.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312023",
             "localizedNames": {
               "en": "Veteran's Visage",
               "zh": "\u8001\u5175\u7684\u5bb9\u989c",
@@ -41424,8 +40237,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312023-Veteran's Visage.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312023-Veteran's Visage.webp"
           },
           {
             "id": "330008",
@@ -41433,7 +40245,6 @@ var NYX_DB = {
             "title": "Vicious Ancient Battle",
             "description": "The god whom the people of Watatsumi Island once trusted fought a bitter battle against the ruler of Narukami...\\nMusoujin Gorge, that yawning chasm in Yashiori Island, is the lasting scar of that conflict...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/330008",
             "localizedNames": {
               "en": "Vicious Ancient Battle",
               "zh": "\u65e7\u65e5\u93d6\u6218",
@@ -41466,8 +40277,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330008-Vicious Ancient Battle.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/330008-Vicious Ancient Battle.webp"
           },
           {
             "id": "217121",
@@ -41475,7 +40285,6 @@ var NYX_DB = {
             "title": "Nefer: Victory Flows from the Turning of Tides",
             "description": "\"The mystery unravels.\"",
             "sourceText": "Reward for inviting Nefer to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/217121",
             "localizedNames": {
               "en": "Victory Flows from the Turning of Tides",
               "zh": "\u51b3\u80dc\u4e8e\u9006\u8f6c\u4e4b\u65f6",
@@ -41520,8 +40329,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217121-Victory Flows from the Turning of Tides.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/217121-Victory Flows from the Turning of Tides.webp"
           },
           {
             "id": "312502",
@@ -41529,7 +40337,6 @@ var NYX_DB = {
             "title": "Dream of Broken Leaves: Viridescent Venerer",
             "description": "\"One day, in those boundless hunting grounds... we will meet again.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312502",
             "localizedNames": {
               "en": "Viridescent Venerer",
               "zh": "\u7fe0\u7eff\u4e4b\u5f71",
@@ -41556,8 +40363,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312502-Viridescent Venerer.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312502-Viridescent Venerer.webp"
           },
           {
             "id": "312501",
@@ -41565,7 +40371,6 @@ var NYX_DB = {
             "title": "Verdant Winds: Viridescent Venerer's Diadem",
             "description": "\"None could ever bestow a crown upon the queen of hunters, for only earth and heaven were higher than she.\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312501",
             "localizedNames": {
               "en": "Viridescent Venerer's Diadem",
               "zh": "\u7fe0\u7eff\u7684\u730e\u4eba\u4e4b\u51a0",
@@ -41592,8 +40397,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312501-Viridescent Venerer's Diadem.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312501-Viridescent Venerer's Diadem.webp"
           },
           {
             "id": "311404",
@@ -41601,7 +40405,6 @@ var NYX_DB = {
             "title": "Golden Majesty: Vortex Vanquisher",
             "description": "Folklore spoke of a vast shadow entrenched in the depths of the ocean capable of swallowing passing warships...\\nAt tale's end, they believe that Rex Lapis once wielded a spear that pierced the rainbow, pinning the churning vortex that had once terrorized the oceans in the center of the deep sea.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311404",
             "localizedNames": {
               "en": "Vortex Vanquisher",
               "zh": "\u8d2f\u8679\u4e4b\u69ca",
@@ -41634,8 +40437,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311404-Vortex Vanquisher.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311404-Vortex Vanquisher.webp"
           },
           {
             "id": "312022",
@@ -41643,7 +40445,6 @@ var NYX_DB = {
             "title": "Scions of the Khvarena: Vourukasha's Glow",
             "description": "\"Many spirits dwell in the sea, and they carry the wishes of grass, tree, and dew, cleansing all filth.\\nMany spirits dwell in the sea, and they sing of the three mothers \u2014 of verdure, of sweet dew, and of fresh flowers.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312022",
             "localizedNames": {
               "en": "Vourukasha's Glow",
               "zh": "\u82b1\u6d77\u7518\u9732\u4e4b\u5149",
@@ -41670,8 +40471,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312022-Vourukasha's Glow.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312022-Vourukasha's Glow.webp"
           },
           {
             "id": "322004",
@@ -41679,7 +40479,6 @@ var NYX_DB = {
             "title": "Wagner, Blacksmith",
             "description": "\"Smithing is not dependent on brute strength. You need the sweat on your brow from constant hard work, and perseverance stronger than the metals we forge!\"",
             "sourceText": "Reward for accepting Wagner's Adventure Challenge in the open world and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322004",
             "localizedNames": {
               "en": "Wagner",
               "zh": "\u74e6\u683c\u7eb3",
@@ -41706,8 +40505,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322004-Wagner.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322004-Wagner.webp"
           },
           {
             "id": "321005",
@@ -41715,7 +40513,6 @@ var NYX_DB = {
             "title": "Dihua Vantage Point",
             "description": "\"Folk stories also have it that even ones as august as the adepti sometimes bask in the moonlight here.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321005",
             "localizedNames": {
               "en": "Wangshu Inn",
               "zh": "\u671b\u8212\u5ba2\u6808",
@@ -41747,8 +40544,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321005-Wangshu Inn.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321005-Wangshu Inn.webp"
           },
           {
             "id": "331805",
@@ -41756,7 +40552,6 @@ var NYX_DB = {
             "title": "Dance of Justice",
             "description": "\"'Existence' was Egeria's justice... and to me, justice is the 'continuation' of that existence.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331805",
             "localizedNames": {
               "en": "Water and Justice",
               "zh": "\u6c34\u4e0e\u6b63\u4e49",
@@ -41781,8 +40576,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331805-Water and Justice.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331805-Water and Justice.webp"
           },
           {
             "id": "313007",
@@ -41790,7 +40584,6 @@ var NYX_DB = {
             "title": "Waverider",
             "description": "A mysterious waterborne vehicle equipped with a magical weapon. With its deck beneath your feet, there is no waterway you cannot effortlessly traverse.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/313007",
             "localizedNames": {
               "en": "Waverider",
               "zh": "\u6d6a\u8239",
@@ -41831,8 +40624,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313007-Waverider.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313007-Waverider.webp"
           },
           {
             "id": "2105",
@@ -41840,7 +40632,6 @@ var NYX_DB = {
             "title": "Solitary Seclusion: Wayward Hermetic Spiritspeaker",
             "description": "A priestess of the Masters of the Night-Wind who has lived apart from her tribe, honing her abilities in utter solitude. It is said that her Spiritspeaking powers surpass those of ordinary priests and shamans, a result of having had the protection of the Masters of the Night-Wind's Wayob bestowed upon her.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Wayward Hermetic Spiritspeaker",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/2105",
             "localizedNames": {
               "en": "Wayward Hermetic Spiritspeaker",
               "zh": "\u7075\u89c9\u9690\u4fee\u7684\u8ff7\u8005",
@@ -41969,8 +40760,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2105-Wayward Hermetic Spiritspeaker.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2105-Wayward Hermetic Spiritspeaker.webp"
           },
           {
             "id": "321016",
@@ -41978,7 +40768,6 @@ var NYX_DB = {
             "title": "Weeping Willow of the Lake",
             "description": "In ancient times, the weeping willow of the lake was an object of reverence. All the water veins converge upon Erinnyes and the weeping willow flourishes or withers when the waters are sweet or bitter.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/321016",
             "localizedNames": {
               "en": "Weeping Willow of the Lake",
               "zh": "\u6e56\u4e2d\u5782\u67f3",
@@ -42010,8 +40799,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321016-Weeping Willow of the Lake.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321016-Weeping Willow of the Lake.webp"
           },
           {
             "id": "211061",
@@ -42019,7 +40807,6 @@ var NYX_DB = {
             "title": "Eula: Wellspring of War-Lust",
             "description": "Flood of frost will ensure that vengeance is mine.",
             "sourceText": "Reward for inviting Eula to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/211061",
             "localizedNames": {
               "en": "Wellspring of War-Lust",
               "zh": "\u6218\u6b32\u6d8c\u73b0",
@@ -42071,8 +40858,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211061-Wellspring of War-Lust.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/211061-Wellspring of War-Lust.webp"
           },
           {
             "id": "332007",
@@ -42080,7 +40866,6 @@ var NYX_DB = {
             "title": "When the Crane Returned",
             "description": "\"The crane once returned, and once, she was spurned, she turned, and left alone; now, she might be found, with friends all around, to whom she is bound \u2014 a home.\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332007",
             "localizedNames": {
               "en": "When the Crane Returned",
               "zh": "\u9e64\u5f52\u4e4b\u65f6",
@@ -42105,8 +40890,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332007-When the Crane Returned.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332007-When the Crane Returned.webp"
           },
           {
             "id": "332022",
@@ -42114,7 +40898,6 @@ var NYX_DB = {
             "title": "Where Is the Unseen Razor?",
             "description": "The origins of this Branch Master of the Adventurers' Guild are shrouded in mystery, yet she keeps looking for clues about the sword, constantly challenging powerful enemies along the way...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/332022",
             "localizedNames": {
               "en": "Where Is the Unseen Razor?",
               "zh": "\u85cf\u950b\u4f55\u5904",
@@ -42138,8 +40921,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332022-Where Is the Unseen Razor_.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332022-Where Is the Unseen Razor_.webp"
           },
           {
             "id": "312036",
@@ -42147,7 +40929,6 @@ var NYX_DB = {
             "title": "Commander's Mask: Whimsical Dance of the Withered",
             "description": "\"In the end, all dreams shall merge into one, bringing ultimate salvation to all the people of the world.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312036",
             "localizedNames": {
               "en": "Whimsical Dance of the Withered",
               "zh": "\u5f02\u60f3\u96f6\u843d\u7684\u5706\u821e",
@@ -42184,8 +40965,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312036-Whimsical Dance of the Withered.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312036-Whimsical Dance of the Withered.webp"
           },
           {
             "id": "311301",
@@ -42193,7 +40973,6 @@ var NYX_DB = {
             "title": "Mourning Silver Snow: White Iron Greatsword",
             "description": "A lightweight greatsword made of white iron with a silver sheen.",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311301",
             "localizedNames": {
               "en": "White Iron Greatsword",
               "zh": "\u767d\u94c1\u5927\u5251",
@@ -42221,8 +41000,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311301-White Iron Greatsword.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311301-White Iron Greatsword.webp"
           },
           {
             "id": "311401",
@@ -42230,7 +41008,6 @@ var NYX_DB = {
             "title": "Ardent Argent: White Tassel",
             "description": "A standard-issue weapon of the Millelith soldiers. It has a sturdy shaft and sharp spearhead. It's a reliable weapon.",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311401",
             "localizedNames": {
               "en": "White Tassel",
               "zh": "\u767d\u7f28\u67aa",
@@ -42258,8 +41035,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311401-White Tassel.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311401-White Tassel.webp"
           },
           {
             "id": "331801",
@@ -42267,7 +41043,6 @@ var NYX_DB = {
             "title": "Verse of Unchained Happenings",
             "description": "\"Someday, the winds will blow towards a brighter future.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/331801",
             "localizedNames": {
               "en": "Wind and Freedom",
               "zh": "\u98ce\u4e0e\u81ea\u7531",
@@ -42291,8 +41066,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331801-Wind and Freedom.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331801-Wind and Freedom.webp"
           },
           {
             "id": "215032",
@@ -42300,7 +41074,6 @@ var NYX_DB = {
             "title": "Venti, Song of the Wind",
             "description": "\"Therefore, in principle, there are only two types of 'unrevealed' things: the Mirai of those who are not anchored by the stars, and the Mirai of those who proactively interfere with divination for some purpose. The latter is truly infuriating; I hope the little witch in the story never becomes that kind of person.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215032",
             "localizedNames": {
               "en": "Wind-Swept Verse",
               "zh": "\u9882\u65f6\u98ce\u82e5",
@@ -42359,8 +41132,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": null,
-            "source": "Nanoka"
+            "art": null
           },
           {
             "id": "312201",
@@ -42368,7 +41140,6 @@ var NYX_DB = {
             "title": "Sunken Dreams of Yore: Wine-Stained Tricorne",
             "description": "\"The wine-sodden sea hat was thrust by a storm into the sky, and then carried away on the roiling waves, while those fated to lose their homelands engaged in battles bereft of hope and want.\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312201",
             "localizedNames": {
               "en": "Wine-Stained Tricorne",
               "zh": "\u9152\u6e0d\u8239\u5e3d",
@@ -42395,8 +41166,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312201-Wine-Stained Tricorne.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312201-Wine-Stained Tricorne.webp"
           },
           {
             "id": "214071",
@@ -42404,7 +41174,6 @@ var NYX_DB = {
             "title": "Raiden Shogun: Wishes Unnumbered",
             "description": "Shine down, baleful omen!",
             "sourceText": "Reward for inviting the Raiden Shogun to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/214071",
             "localizedNames": {
               "en": "Wishes Unnumbered",
               "zh": "\u4e07\u5343\u7684\u613f\u671b",
@@ -42440,8 +41209,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214071-Wishes Unnumbered.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214071-Wishes Unnumbered.webp"
           },
           {
             "id": "312301",
@@ -42449,7 +41217,6 @@ var NYX_DB = {
             "title": "Ashen Lament: Witch's Scorching Hat",
             "description": "\"...You ashes who dance so wildly, answer me \u2014 why have you taken all that I love?\"",
             "sourceText": "Obtained from the initial deck",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/312301",
             "localizedNames": {
               "en": "Witch's Scorching Hat",
               "zh": "\u7126\u707c\u7684\u9b54\u5973\u5e3d",
@@ -42476,8 +41243,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312301-Witch's Scorching Hat.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312301-Witch's Scorching Hat.webp"
           },
           {
             "id": "227051",
@@ -42485,7 +41251,6 @@ var NYX_DB = {
             "title": "Consecrated Fanged Beast: Withered Reeds Eclipse the Sun",
             "description": "\"Human beings' baits and the remains of immortal beings are essentially deliberate or unintentional traps. The price of coveting the gift of the strongest is much more painful than being locked in a cage.\"",
             "sourceText": "Reward for accepting the Tavern Challenge against the Consecrated Fanged Beast at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/227051",
             "localizedNames": {
               "en": "Withered Reeds Eclipse the Sun",
               "zh": "\u4ea1\u8349\u853d\u65e5",
@@ -42536,8 +41301,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/227051-Withered Reeds Eclipse the Sun.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/227051-Withered Reeds Eclipse the Sun.webp"
           },
           {
             "id": "311303",
@@ -42545,7 +41309,6 @@ var NYX_DB = {
             "title": "Mountain Trail: Wolf's Gravestone",
             "description": "A longsword said to have been used by the knight of the north wind. It became endowed with legendary power owing to his friendship with the wolves.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/311303",
             "localizedNames": {
               "en": "Wolf's Gravestone",
               "zh": "\u72fc\u7684\u672b\u8def",
@@ -42573,8 +41336,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311303-Wolf's Gravestone.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311303-Wolf's Gravestone.webp"
           },
           {
             "id": "313001",
@@ -42582,7 +41344,6 @@ var NYX_DB = {
             "title": "Xenochromatic Hunter's Ray: Fontemer Water Blades",
             "description": "Among the Fontemer Aberrants, there are certain strange \"Xenochromatic\" lifeforms. It is said that these are not actually living creatures, but rather spirits from the ocean that have neither taken physical form nor swallowed bait. They are said to bestow blessings upon those accepted by the Fontemer as well as those that are able to control it.\\nThe Xenochromatic Hunter's Ray's Ability allows the wielder to release Fontemer Water Blades that are long and sharp.",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/313001",
             "localizedNames": {
               "en": "Xenochromatic Hunter's Ray",
               "zh": "\u5f02\u8272\u730e\u5200\u9cd0",
@@ -42618,8 +41379,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313001-Xenochromatic Hunter's Ray.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313001-Xenochromatic Hunter's Ray.webp"
           },
           {
             "id": "322015",
@@ -42627,7 +41387,6 @@ var NYX_DB = {
             "title": "Fulfillment First: Xudong",
             "description": "\"Hmm? A problem. Agh. We can deal with it after we finish eating.\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322015",
             "localizedNames": {
               "en": "Xudong",
               "zh": "\u65ed\u4e1c",
@@ -42654,8 +41413,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322015-Xudong.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322015-Xudong.webp"
           },
           {
             "id": "322020",
@@ -42663,7 +41421,6 @@ var NYX_DB = {
             "title": "Art of Lacquerwater: Yayoi Nanatsuki",
             "description": "\"If my skill can reach that apex, I am sure that my lacquerware will bear out the pattern of the truth...\"",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/322020",
             "localizedNames": {
               "en": "Yayoi Nanatsuki",
               "zh": "\u5f25\u751f\u4e03\u6708",
@@ -42690,8 +41447,7 @@ var NYX_DB = {
               "child": {}
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322020-Yayoi Nanatsuki.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/322020-Yayoi Nanatsuki.webp"
           },
           {
             "id": "212151",
@@ -42699,7 +41455,6 @@ var NYX_DB = {
             "title": "Dahlia: You Shall Go Out With Joy",
             "description": "\"May the Archon protect you!\"",
             "sourceText": "Reward for inviting Dahlia to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/212151",
             "localizedNames": {
               "en": "You Shall Go Out With Joy",
               "zh": "\u613f\u4e00\u5207\u6b22\u7766\u966a\u4f34\u4f60",
@@ -42759,8 +41514,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212151-You Shall Go Out With Joy.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212151-You Shall Go Out With Joy.webp"
           },
           {
             "id": "215141",
@@ -42768,7 +41522,6 @@ var NYX_DB = {
             "title": "Yumemizuki Mizuki: Your Echo I Meet in Dreams",
             "description": "\"Cast your worries to the wind.\"",
             "sourceText": "Reward for inviting Yumemizuki Mizuki to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-            "sourceUrl": "https://gi.nanoka.cc/gcg/215141",
             "localizedNames": {
               "en": "Your Echo I Meet in Dreams",
               "zh": "\u7f20\u5fc6\u541b\u5f71\u68a6\u76f8\u89c1",
@@ -42819,8 +41572,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215141-Your Echo I Meet in Dreams.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215141-Your Echo I Meet in Dreams.webp"
           },
           {
             "id": "313002",
@@ -42828,7 +41580,6 @@ var NYX_DB = {
             "title": "Yumkasaurus: Artful Grapple",
             "description": "Yumkasaurs are extremely skilled at latching onto heavy objects, then pulling themselves forward to move with great rapidity. They're also a great way to retrieve items from afar...",
             "sourceText": null,
-            "sourceUrl": "https://gi.nanoka.cc/gcg/313002",
             "localizedNames": {
               "en": "Yumkasaurus",
               "zh": "\u533f\u53f6\u9f99",
@@ -42865,14 +41616,11 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313002-Yumkasaurus.webp",
-            "source": "Nanoka"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/313002-Yumkasaurus.webp"
           }
         ]
       },
       "furniture": {
-        "source": "Nanoka",
-        "sourceUrl": "https://gi.nanoka.cc/furniture",
         "updated": "2026-07-04T11:32:01.024Z",
         "version": "6.7.50",
         "counts": {
@@ -116061,7 +114809,7 @@ var NYX_DB = {
             {
               "name": "Cyrene",
               "icon": "../../Database/Nanoka/hsr/assets/characters/round/1415.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1415.webp",
+              "iconFallback": "../../Database/Nanoka/hsr/assets/avatarroundicon/1415.webp",
               "iconZoom": false,
               "art": "../../Database/Prydwen/hsr/assets/characters/cyrene-c68f58cf71c5.webp",
               "namecard": null,
@@ -116070,7 +114818,7 @@ var NYX_DB = {
             {
               "name": "Phainon",
               "icon": "../../Database/Nanoka/hsr/assets/characters/round/1408.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1408.webp",
+              "iconFallback": "../../Database/Nanoka/hsr/assets/avatarroundicon/1408.webp",
               "iconZoom": false,
               "art": "../../Database/Prydwen/hsr/assets/characters/phainon-99688b617211.webp",
               "namecard": null,
@@ -116087,7 +114835,7 @@ var NYX_DB = {
             {
               "name": "Sparxie",
               "icon": "../../Database/Nanoka/hsr/assets/characters/round/1501.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1501.webp",
+              "iconFallback": "../../Database/Nanoka/hsr/assets/avatarroundicon/1501.webp",
               "iconZoom": false,
               "art": "../../Database/Prydwen/hsr/assets/characters/sparxie-234f67152306.webp",
               "namecard": null,
@@ -116095,10 +114843,10 @@ var NYX_DB = {
             },
             {
               "name": "Evernight",
-              "icon": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1413.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1413.webp",
+              "icon": "../../Database/Nanoka/hsr/assets/avataricon/avatar/1413.webp",
+              "iconFallback": "../../Database/Nanoka/hsr/assets/avatarroundicon/1413.webp",
               "iconZoom": false,
-              "art": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1413.webp",
+              "art": "../../Database/Nanoka/hsr/assets/avataricon/avatar/1413.webp",
               "namecard": null,
               "rarity": null
             }
@@ -119735,7 +118483,7 @@ var NYX_DB = {
             {
               "name": "Velina",
               "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle64.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect64.webp",
+              "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect64.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp",
               "namecard": null,
@@ -119744,7 +118492,7 @@ var NYX_DB = {
             {
               "name": "Ye Shunguang",
               "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle55.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect55.webp",
+              "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect55.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/ye-shunguang-bdd0b5faf96c.webp",
               "namecard": null,
@@ -119761,7 +118509,7 @@ var NYX_DB = {
             {
               "name": "Norma",
               "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect65.webp",
+              "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect65.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/norma-f4dbe2ca9e48.webp",
               "namecard": null,
@@ -119770,7 +118518,7 @@ var NYX_DB = {
             {
               "name": "Sunna",
               "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle58.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect58.webp",
+              "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect58.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/sunna-48eb55c7efc5.webp",
               "namecard": null,

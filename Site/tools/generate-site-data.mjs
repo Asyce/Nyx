@@ -820,7 +820,6 @@ function buildGenshinTcgCards() {
   const characterRel = 'Nanoka/gi/gcg/character cards/cards.json';
   const otherRel = 'Nanoka/gi/gcg/other cards/cards.json';
   const reportRel = 'Nanoka/gi/gcg/report.json';
-  const sourceUrl = 'https://gi.nanoka.cc/gcg';
   const ambrRel = 'Ambr/gi/gcg/cards-en.json';
   const ambrById = new Map((exists(ambrRel) ? readJson(ambrRel) : []).map((card) => [String(card.id), card]));
   const mapTcgCard = (card, fallbackType, playableCharacter) => {
@@ -833,7 +832,6 @@ function buildGenshinTcgCards() {
       title:card.title || null,
       description:card.description || ambr?.description || null,
       sourceText:card.source || null,
-      sourceUrl:card.sourceUrl || `${sourceUrl}/${id}`,
       localizedNames:card.localizedNames || undefined,
       type:card.type || fallbackType,
       cost:card.cost ?? undefined,
@@ -843,7 +841,6 @@ function buildGenshinTcgCards() {
       talent:detailTalent || undefined,
       playableCharacter,
       art:dbAsset(card.localAsset),
-      source:'Nanoka',
     };
   };
   const characterCards = exists(characterRel)
@@ -870,15 +867,12 @@ function buildGenshinTcgCards() {
           tags:[],
           playableCharacter:null,
           art:dbAsset(`Nanoka/gi/gcg/other cards/assets/${entry.name}`),
-          source:'Nanoka',
         };
         })
         .sort((a, b) => a.name.localeCompare(b.name))
       : [];
   const report = exists(reportRel) ? readJson(reportRel) : null;
   return {
-    source:'Nanoka',
-    sourceUrl,
     updated: report?.generatedAt || null,
     counts:{ characterCards:characterCards.length, otherCards:otherCards.length },
     characterCards,
@@ -892,9 +886,8 @@ function buildGenshinTcgCards() {
 function buildGenshinFurniture() {
   const furnitureRel = 'Nanoka/gi/furniture/furniture.json';
   const reportRel = 'Nanoka/gi/furniture/report.json';
-  const sourceUrl = 'https://gi.nanoka.cc/furniture';
   if (!exists(furnitureRel)) {
-    return { source:'Nanoka', sourceUrl, updated:null, counts:{ items:0 }, categories:[], items:[] };
+    return { updated:null, counts:{ items:0 }, categories:[], items:[] };
   }
   const itemLookup = nanokaItemLookup('gi');
   const resolveMaterial = (mat) => {
@@ -936,8 +929,6 @@ function buildGenshinFurniture() {
     .map(([key, count]) => ({ key, count }));
   const report = exists(reportRel) ? readJson(reportRel) : null;
   return {
-    source:'Nanoka',
-    sourceUrl,
     updated:report?.generatedAt || null,
     version:report?.version || null,
     counts:{ items:items.length, craftable:items.filter((i) => i.recipe).length },
@@ -2974,16 +2965,29 @@ function rosterHit(rosters, key, name) {
   }) || null;
 }
 
+// Rewrite a Nanoka CDN URL to its local Database-mirror path so nothing loads
+// from an external host at runtime. localize-nanoka-icons.mjs downloads the
+// referenced files into the mirror; non-matching values pass through unchanged.
+function localImageRef(url) {
+  if (typeof url !== 'string') return url;
+  const local = url.replace(/^https:\/\/static\.nanoka\.cc\/assets\/([^/]+)\//, '../../Database/Nanoka/$1/assets/');
+  // Drop the ref if the mirrored file isn't present (e.g. a variant that 404s
+  // upstream) so the payload never points at a missing or external asset.
+  if (local.startsWith('../../Database/') && !exists(local.slice('../../Database/'.length))) return null;
+  return local;
+}
+
 function normalizeBannerCharacter(rosters, key, entry) {
   const name = typeof entry === 'string' ? entry : entry?.name;
   if (!name) return null;
   const local = rosterHit(rosters, key, name);
-  // The banner scraper already enriched each character with a nanoka CDN icon
-  // (`image` / `imageFallback`). Fall back to those when the local roster has no
-  // hit — otherwise the icon goes null and the renderer shows one shared game
-  // art for every card (the "all banners show the same face" bug).
-  const entryImage = typeof entry === 'object' ? (entry.image || entry.icon || null) : null;
-  const entryFallback = typeof entry === 'object' ? (entry.imageFallback || null) : null;
+  // The banner scraper enriches each character with a Nanoka icon
+  // (`image` / `imageFallback`); localImageRef points those at the local mirror.
+  // Fall back to them when the local roster has no hit — otherwise the icon goes
+  // null and the renderer shows one shared game art for every card (the "all
+  // banners show the same face" bug).
+  const entryImage = typeof entry === 'object' ? (localImageRef(entry.image || entry.icon || null)) : null;
+  const entryFallback = typeof entry === 'object' ? (localImageRef(entry.imageFallback || null)) : null;
   return {
     name,
     icon: local?.icon || entryImage || null,
@@ -3039,16 +3043,10 @@ function buildBannersData(rosters) {
 }
 
 function sourceMeta() {
-  const prydwen = readJson('Prydwen/manifest.json');
-  const nanoka = readJson('Nanoka/manifest.json');
-  const endfield = exists('EndfieldWiki/endfield/overview.json') ? readJson('EndfieldWiki/endfield/overview.json') : null;
+  // Only ship the build timestamp to the client. Upstream data-provider version
+  // info is intentionally not surfaced in the shipped payload.
   return {
     generatedAt: new Date().toISOString(),
-    providers: {
-      Prydwen: prydwen.generatedAt,
-      Nanoka: { gi: nanoka.gi?.live, hsr: nanoka.hsr?.live, ww: nanoka.ww?.live, zzz: nanoka.zzz?.live },
-      EndfieldWiki: endfield?.scrapedAt || null,
-    },
   };
 }
 

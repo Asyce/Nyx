@@ -63,6 +63,27 @@ const CM_IDENTITY_ASSETS = {
   },
 };
 
+const CM_IDENTITY_ROLE_LABELS = {
+  gi:'Traveler',
+  hsr:'Trailblazer',
+  zzz:'Lord Phaethon',
+  wuwa:'Rover',
+  ae:'Endministrator',
+};
+
+const CM_IDENTITY_ROLE_NAME_CHOICES = {
+  gi:new Set(['paimon', 'little_one', 'arama']),
+  hsr:new Set(['pom_pom', 'gepard', 'trash']),
+  zzz:new Set(['eous', 'fairy', 'phaethon']),
+  wuwa:new Set(['abby']),
+  ae:new Set(['penguin']),
+};
+
+function cmIdentityDisplayLabel(gameKey, choice, fallback){
+  if (CM_IDENTITY_ROLE_NAME_CHOICES[gameKey]?.has(choice)) return CM_IDENTITY_ROLE_LABELS[gameKey] || fallback;
+  return fallback;
+}
+
 function cmSanitizeIdentityPrefs(raw){
   const src = (raw && typeof raw === 'object') ? raw : {};
   const next = Object.assign({}, CM_IDENTITY_DEFAULTS);
@@ -87,6 +108,105 @@ function cmLoadIdentityPrefs(){
   } catch (e) {
     return Object.assign({}, CM_IDENTITY_DEFAULTS);
   }
+}
+
+const CM_LANGUAGE_DEFAULTS = { gi:'en', hsr:'en', zzz:'en', wuwa:'en', ae:'en' };
+const CM_LANGUAGE_ALLOWED = ['en', 'zh', 'ja', 'ko'];
+
+function cmSanitizeLanguagePrefs(raw){
+  const src = (raw && typeof raw === 'object') ? raw : {};
+  const next = Object.assign({}, CM_LANGUAGE_DEFAULTS);
+  Object.keys(CM_LANGUAGE_DEFAULTS).forEach((key) => {
+    if (CM_LANGUAGE_ALLOWED.includes(src[key])) next[key] = src[key];
+  });
+  return next;
+}
+
+function cmLanguagePrefsKey(prefs){
+  const safe = cmSanitizeLanguagePrefs(prefs);
+  return Object.keys(CM_LANGUAGE_DEFAULTS).map((key) => safe[key]).join('|');
+}
+
+function cmLoadLanguagePrefs(){
+  try {
+    if (typeof window !== 'undefined' && window.NYX_LANGUAGE_PREFS) {
+      return cmSanitizeLanguagePrefs(window.NYX_LANGUAGE_PREFS);
+    }
+    const raw = JSON.parse(localStorage.getItem(CM_IDENTITY_SETTINGS_KEY) || '{}');
+    return cmSanitizeLanguagePrefs(raw.language);
+  } catch (e) {
+    return Object.assign({}, CM_LANGUAGE_DEFAULTS);
+  }
+}
+
+function cmAlwaysBetaEnabled(){
+  try {
+    if (typeof window !== 'undefined' && window.NYX_ALWAYS_BETA === true) return true;
+    const raw = JSON.parse(localStorage.getItem(CM_IDENTITY_SETTINGS_KEY) || '{}');
+    return raw.alwaysBeta === true;
+  } catch (e) {
+    return false;
+  }
+}
+
+const CM_SPECIAL_UNIT_DEFAULTS = {
+  gi: { aloy:true },
+  hsr: { archer:true, saber:true, rin_tohsaka:true, gilgamesh:true },
+  wuwa: { lucy:true, rebecca:true },
+};
+const CM_SPECIAL_UNIT_NAMES = {
+  gi: { aloy:['aloy'] },
+  hsr: {
+    archer:['archer'],
+    saber:['saber'],
+    rin_tohsaka:['rin tohsaka', 'rin'],
+    gilgamesh:['gilgamesh'],
+  },
+  wuwa: {
+    lucy:['lucy'],
+    rebecca:['rebecca'],
+  },
+};
+
+function cmNormalizeUnitName(name){
+  return String(name || '').trim().toLowerCase().replace(/\s+/g, ' ');
+}
+
+function cmSanitizeSpecialUnitPrefs(raw){
+  const src = (raw && typeof raw === 'object') ? raw : {};
+  const next = {};
+  Object.keys(CM_SPECIAL_UNIT_DEFAULTS).forEach((gameKey) => {
+    next[gameKey] = Object.assign({}, CM_SPECIAL_UNIT_DEFAULTS[gameKey], src[gameKey] || {});
+    Object.keys(CM_SPECIAL_UNIT_DEFAULTS[gameKey]).forEach((unitKey) => {
+      next[gameKey][unitKey] = next[gameKey][unitKey] !== false;
+    });
+  });
+  return next;
+}
+
+function cmLoadSpecialUnitPrefs(){
+  try {
+    if (typeof window !== 'undefined' && window.NYX_SPECIAL_UNIT_PREFS) {
+      return cmSanitizeSpecialUnitPrefs(window.NYX_SPECIAL_UNIT_PREFS);
+    }
+    const raw = JSON.parse(localStorage.getItem(CM_IDENTITY_SETTINGS_KEY) || '{}');
+    return cmSanitizeSpecialUnitPrefs(raw.specialUnits);
+  } catch (e) {
+    return cmSanitizeSpecialUnitPrefs();
+  }
+}
+
+function cmSpecialUnitKey(gameKey, name){
+  const map = CM_SPECIAL_UNIT_NAMES[gameKey] || {};
+  const n = cmNormalizeUnitName(name);
+  return Object.keys(map).find((key) => (map[key] || []).some((alias) => n === cmNormalizeUnitName(alias))) || null;
+}
+
+function cmSpecialUnitVisible(gameKey, ch, prefs){
+  const unitKey = cmSpecialUnitKey(gameKey, ch && (ch.n || ch.rawName || ch.baseName));
+  if (!unitKey) return true;
+  const safe = cmSanitizeSpecialUnitPrefs(prefs);
+  return !safe[gameKey] || safe[gameKey][unitKey] !== false;
 }
 
 // Genshin ascension is 6 phases unlocked at Lv 20/40/50/60/70/80, each capping
@@ -232,6 +352,166 @@ function cmRarityValue(value, fallback = 1){
   const n = Number(value);
   if (Number.isFinite(n) && n >= 0) return n;
   return { S:5, A:4, B:3, Normal:1, NotNormal:2, Rare:3, SuperRare:4, VeryRare:5 }[String(value || '')] || fallback;
+}
+
+const CM_ITEM_FRAME_DEFS = {
+  white:{ h:90, c:0.006, L:[0.93, 0.88, 0.83], irid:true, tier:0 },
+  grey:{ h:250, c:0.02, L:[0.44, 0.55, 0.66], tier:1 },
+  green:{ h:158, c:0.10, L:[0.45, 0.57, 0.69], tier:2 },
+  blue:{ h:257, c:0.10, L:[0.45, 0.57, 0.69], tier:3 },
+  purple:{ h:288, c:0.10, L:[0.45, 0.57, 0.69], tier:4 },
+  gold:{ h:68, c:0.10, L:[0.58, 0.70, 0.82], tier:5 },
+  red:{ h:18, c:0.115, L:[0.41, 0.52, 0.62], tier:6 },
+};
+
+function cmFrameHexToRgb(hex){
+  const h = String(hex || '#000000').replace('#', '');
+  return [parseInt(h.slice(0, 2), 16) || 0, parseInt(h.slice(2, 4), 16) || 0, parseInt(h.slice(4, 6), 16) || 0];
+}
+
+function cmFrameMix(a, b, t){
+  const A = cmFrameHexToRgb(a);
+  const B = cmFrameHexToRgb(b);
+  const f = (i) => Math.round(A[i] + (B[i] - A[i]) * t).toString(16).padStart(2, '0');
+  return '#' + f(0) + f(1) + f(2);
+}
+
+function cmFrameRgba(hex, alpha){
+  const rgb = cmFrameHexToRgb(hex);
+  return `rgba(${rgb[0]},${rgb[1]},${rgb[2]},${alpha})`;
+}
+
+function cmFrameOklch(L, C, H){
+  const rad = H * Math.PI / 180;
+  const a = C * Math.cos(rad);
+  const b = C * Math.sin(rad);
+  const l = Math.pow(L + 0.3963377774 * a + 0.2158037573 * b, 3);
+  const m = Math.pow(L - 0.1055613458 * a - 0.0638541728 * b, 3);
+  const s = Math.pow(L - 0.0894841775 * a - 1.2914855480 * b, 3);
+  const R = 4.0767416621 * l - 3.3077115913 * m + 0.2309699292 * s;
+  const G = -1.2684380046 * l + 2.6097574011 * m - 0.3413193965 * s;
+  const B = -0.0041960863 * l - 0.7034186147 * m + 1.7076147010 * s;
+  const t = (v) => {
+    const clamped = Math.min(1, Math.max(0, v));
+    return clamped <= 0.0031308 ? 12.92 * clamped : 1.055 * Math.pow(clamped, 1 / 2.4) - 0.055;
+  };
+  const q = (v) => Math.round(t(v) * 255).toString(16).padStart(2, '0');
+  return '#' + q(R) + q(G) + q(B);
+}
+
+function cmFrameGlowGradient(base, peak){
+  if (!(peak > 0)) return 'transparent';
+  const rgb = cmFrameHexToRgb(base);
+  const c = (alpha) => `rgba(${rgb[0]},${rgb[1]},${rgb[2]},${alpha})`;
+  return `radial-gradient(circle at center, ${c(peak)} 0%, ${c(peak * 0.9)} 11%, ${c(peak * 0.74)} 22%, ${c(peak * 0.55)} 33%, ${c(peak * 0.38)} 43%, ${c(peak * 0.24)} 53%, ${c(peak * 0.14)} 62%, ${c(peak * 0.07)} 71%, ${c(peak * 0.03)} 80%, ${c(peak * 0.009)} 89%, ${c(0)} 100%)`;
+}
+
+function cmBuildItemFrameStyle(def){
+  const o = (L, c) => cmFrameOklch(L, c === undefined ? def.c : c, def.h);
+  const top = o(def.L[0]);
+  const mid = o(def.L[1]);
+  const bot = o(def.L[2]);
+  const base = def.irid ? cmFrameOklch(0.89, 0.032, 265) : mid;
+  const plate = cmFrameMix(base, '#1b1f27', 0.88);
+  const P = cmFrameHexToRgb(plate);
+  const Bs = cmFrameHexToRgb(base);
+  const eyeAt = (pos) => {
+    const alpha = 0.10 + 0.25 * pos;
+    const f = (i) => Math.round(P[i] * (1 - alpha) + Bs[i] * 0.10 * (1 - pos)).toString(16).padStart(2, '0');
+    return '#' + f(0) + f(1) + f(2);
+  };
+  const line = def.irid
+    ? cmFrameOklch(0.75, 0.038, 305)
+    : o(def.lineL === undefined ? 0.74 : def.lineL, def.lineC === undefined ? Math.min(def.c, 0.085) : def.lineC);
+  const fill = def.irid
+    ? `linear-gradient(180deg, ${cmFrameOklch(0.935, 0.03, 350)} 0%, ${cmFrameOklch(0.90, 0.036, 295)} 40%, ${cmFrameOklch(0.865, 0.038, 245)} 75%, ${cmFrameOklch(0.845, 0.034, 195)} 100%)`
+    : `linear-gradient(${def.angle || 180}deg, ${top} 0%, ${mid} 52%, ${bot} 100%)`;
+  return {
+    '--cmf-fill': fill,
+    '--cmf-line': line,
+    '--cmf-plate': plate,
+    '--cmf-eye-color': def.irid ? cmFrameOklch(0.86, 0.035, 280) : o(def.eyeL === undefined ? 0.75 : def.eyeL),
+    '--cmf-eye-fill': `linear-gradient(180deg, ${eyeAt(0)} 0%, ${eyeAt(0)} 52%, ${plate} 52%, ${plate} 100%)`,
+    '--cmf-band': `linear-gradient(180deg, ${cmFrameRgba(base, 0.10)} 0%, rgba(0,0,0,0.35) 100%)`,
+    '--cmf-glow': cmFrameRgba(base, 0.55),
+    '--cmf-glow-wide': `radial-gradient(closest-side, ${cmFrameRgba(base, 0.3)} 0%, ${cmFrameRgba(base, 0)} 75%)`,
+    '--cmf-glow-grad': cmFrameGlowGradient(base, 0.45),
+  };
+}
+
+const CM_ITEM_FRAME_STYLES = {
+  0: cmBuildItemFrameStyle(CM_ITEM_FRAME_DEFS.white),
+  1: cmBuildItemFrameStyle(CM_ITEM_FRAME_DEFS.grey),
+  2: cmBuildItemFrameStyle(CM_ITEM_FRAME_DEFS.green),
+  3: cmBuildItemFrameStyle(CM_ITEM_FRAME_DEFS.blue),
+  4: cmBuildItemFrameStyle(CM_ITEM_FRAME_DEFS.purple),
+  5: cmBuildItemFrameStyle(CM_ITEM_FRAME_DEFS.gold),
+  6: cmBuildItemFrameStyle(CM_ITEM_FRAME_DEFS.red),
+};
+
+function cmItemFrameRarity(value, fallback = 4){
+  return Math.max(0, Math.min(6, cmRarityValue(value, fallback)));
+}
+
+function cmFrameQuantityText(value){
+  if (value === undefined || value === null || value === '') return '';
+  const raw = typeof value === 'string' ? value.trim() : value;
+  if (raw === '') return '';
+  const n = Number(raw);
+  if (!Number.isFinite(n)) return String(raw);
+  if (n <= 0) return '';
+  return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+}
+
+/* Design formula: shrink the count so it always fits the 208px-wide frame canvas
+   (GI digits ≈ 0.64em, dots ≈ 0.30em). The canvas is scaled as a whole, so this
+   size is in design px — no per-frame-width correction. */
+function cmFrameQuantitySize(text){
+  const raw = String(text || '');
+  if (!raw) return null;
+  const dots = (raw.match(/\./g) || []).length;
+  const digits = raw.length - dots;
+  return Math.min(35, Math.floor(194 / (0.64 * digits + 0.30 * dots))) + 'px';
+}
+
+function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className }){
+  const r = cmItemFrameRarity(rarity, 4);
+  const qty = cmFrameQuantityText(quantity);
+  const style = {
+    ...(CM_ITEM_FRAME_STYLES[r] || CM_ITEM_FRAME_STYLES[4]),
+    '--cmf-qty-size': cmFrameQuantitySize(qty) || '35px',
+  };
+  /* DOM order mirrors the design template exactly — art, plate, seam glows,
+     band (z2), rim strokes, eye emblem — so the paint order matches 1:1. */
+  return (
+    <span className={'cm-item-frame' + (qty ? ' has-qty' : '') + (className ? ' ' + className : '')} style={style} aria-hidden={!icon && !glyph}>
+      <span className="cm-item-frame-canvas">
+        <span className="cm-item-frame-art">
+          <span className="cm-item-frame-fill">
+            <span className="cm-item-frame-glow"></span>
+            <span className="cm-item-frame-eye-soft"></span>
+          </span>
+          <span className="cm-item-frame-icon">
+            {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph">{glyph}</span>}
+          </span>
+        </span>
+        <span className="cm-item-frame-plate" aria-hidden="true"></span>
+        <span className="cm-item-frame-seam" aria-hidden="true">
+          <span></span><i></i>
+        </span>
+        <span className="cm-item-frame-band">{qty && <b>{qty}</b>}</span>
+        <svg className="cm-item-frame-rim" viewBox="0 0 208 260" aria-hidden="true">
+          <path d="M14,1 L194,1 A13,13 0 0 1 207,14 L207,259 L1,259 L1,14 A13,13 0 0 1 14,1 Z" fill="none" stroke="var(--cmf-line)" strokeWidth="2"></path>
+          <path d="M14,4 L194,4 A10,10 0 0 1 204,14 L204,208 M4,208 L4,14 A10,10 0 0 1 14,4" fill="none" stroke="var(--cmf-line)" strokeWidth="0.75" strokeOpacity="0.55"></path>
+          <path d="M1,208 L207,208" fill="none" stroke="var(--cmf-line)" strokeWidth="1.5"></path>
+        </svg>
+        <span className="cm-item-frame-emblem" aria-hidden="true">
+          <span className="fill"></span>
+          <span className="line"></span>
+        </span>
+      </span>
+    </span>
+  );
 }
 
 function cmMergeMat(map, mat){
@@ -442,10 +722,7 @@ function MatTile({ m }){
   return (
     <div className={'cm-mat' + (m.kind === 'currency' ? ' cur' : '')} title={(m.name || 'Material') + (qty ? ' x' + qty.toLocaleString('en-US') : '') + (source ? '\n' + source : '')}
          style={{ '--rA':pal.a, '--rB':pal.b, '--rarBg':'url("../../assets/mats/rarity' + rarity + '.png")' }}>
-      <div className="ic">
-        {m.sprite ? <ZzzSpriteIcon icon={icon} sprite={m.sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph">{g}</span>}
-      </div>
-      <b className="qt">{qty ? qty.toLocaleString('en-US') : '-'}</b>
+      <CMItemFrame icon={icon} sprite={m.sprite} glyph={g} rarity={rarity} quantity={qty} />
       <span className="nm">{m.name}</span>
       <span className="src-tip" role="tooltip">
         <b>{m.name}</b>
@@ -533,14 +810,13 @@ function ZzzSpriteIcon({ icon, sprite, alt }){
   );
 }
 
-function CMToken({ name, color, glyph, icon, sprite, meta }){
+function CMToken({ name, glyph, icon, sprite, rarity, meta }){
+  const quantity = /^\s*\d[\d.,]*\s*$/.test(String(meta || '')) ? meta : null;
   return (
     <div className="cm-mtoken">
-      <span className="tk" style={{ '--tc':color || '#9a89ea' }}>
-        {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : glyph}
-      </span>
+      <CMItemFrame icon={icon} sprite={sprite} glyph={glyph} rarity={rarity} quantity={quantity} />
       <span className="lbl">{name}</span>
-      {meta && <span className="mt">{meta}</span>}
+      {meta && !quantity && <span className="mt">{meta}</span>}
     </div>
   );
 }
@@ -559,6 +835,7 @@ function cmTokens(mats, fallback){
     n:cmMatName(m),
     icon:typeof m === 'object' && m ? (m.icon || m.art) : null,
     sprite:typeof m === 'object' && m ? m.sprite : null,
+    rar:typeof m === 'object' && m ? (m.rar || m.rarity || m.rank) : null,
   })).filter((m) => cmUsefulName(m.n));
   if (list.length) return list;
   const fb = cmMatName(fallback);
@@ -797,8 +1074,90 @@ function cmMetaChips(gameKey, ch){
     const id = key + ':' + text.toLowerCase();
     if (seen.has(id)) return null;
     seen.add(id);
-    return { key, label, value:text };
+  return { key, label, value:text };
   }).filter(Boolean);
+}
+
+function cmFormatReleaseDate(value){
+  const raw = Number(value || 0);
+  if (!Number.isFinite(raw) || raw <= 0) return '';
+  const d = new Date(raw);
+  if (!Number.isFinite(d.getTime())) return '';
+  return d.toLocaleDateString(undefined, { year:'numeric', month:'short', day:'numeric' });
+}
+
+function cmCharacterReleaseText(ch){
+  const date = cmFormatReleaseDate(ch?.release || ch?.releaseDate || ch?.updated);
+  const patch = ch?.releasePatch || ch?.patch || ch?.version;
+  if (date && patch) return date + ' - Patch ' + patch;
+  return date || (patch ? 'Patch ' + patch : '');
+}
+
+function cmVoiceRows(ch, gameKey){
+  const va = ch?.voiceActors || ch?.va;
+  if (!va || typeof va !== 'object') return [];
+  const labels = [
+    ['english', 'EN'], ['en', 'EN'],
+    ['japanese', 'JP'], ['ja', 'JP'], ['jp', 'JP'],
+    ['chinese', 'CN'], ['zh', 'CN'], ['cn', 'CN'],
+    ['korean', 'KR'], ['ko', 'KR'], ['kr', 'KR'],
+  ];
+  const seen = new Set();
+  return labels.map(([key, label]) => {
+    const voice = cmVoiceEntry(va[key], gameKey || ch?.gameKey || ch?.game || '');
+    if (!voice || seen.has(label)) return null;
+    seen.add(label);
+    return { key:label, label, value:voice.text, url:voice.url };
+  }).filter(Boolean);
+}
+
+function cleanVaText(value){
+  const text = String(value || '').replace(/\s+/g, ' ').trim();
+  return text && text !== '-' ? text : '';
+}
+
+const CM_VOICE_WIKI_BASE = {
+  gi:'https://genshin-impact.fandom.com/wiki/',
+  hsr:'https://honkai-star-rail.fandom.com/wiki/',
+  zzz:'https://zenless-zone-zero.fandom.com/wiki/',
+  wuwa:'https://wutheringwaves.fandom.com/wiki/',
+  ae:'https://arknights-endfield.fandom.com/wiki/',
+};
+
+function cmVoiceWikiUrl(gameKey, target){
+  const clean = cleanVaText(target);
+  if (!clean) return '';
+  if (/^https?:\/\//i.test(clean)) return clean;
+  if (/:/.test(clean)) return '';
+  const base = CM_VOICE_WIKI_BASE[gameKey] || '';
+  if (!base) return '';
+  return base + encodeURIComponent(clean.replace(/\s+/g, '_')).replace(/%2F/gi, '/');
+}
+
+function cmVoiceEntry(value, gameKey){
+  const raw = cleanVaText(value);
+  if (!raw) return null;
+  let target = '';
+  let label = raw;
+  const pipe = raw.indexOf('|');
+  if (pipe !== -1) {
+    target = raw.slice(0, pipe).trim();
+    label = raw.slice(pipe + 1).trim();
+  }
+  label = label
+    .replace(/^(?:ko|zh|ja|cn|jp|kr):/i, '')
+    .replace(/\((?:ko|zh|ja|cn|jp|kr)=([^)]+)\)/gi, '($1)')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const cleanTarget = target.replace(/^(?:ko|zh|ja|cn|jp|kr):/i, '').trim();
+  if (target && cleanTarget && /[A-Za-z]/.test(cleanTarget) && !/[A-Za-z]/.test(label)) {
+    label = cleanTarget + ' (' + label + ')';
+  }
+  if (!target) {
+    const simpleTarget = label.replace(/\s*\([^)]*\)\s*/g, '').trim();
+    if (/^[A-Za-z][A-Za-z .'-]{1,80}$/.test(simpleTarget)) target = simpleTarget;
+  }
+  return { text:label || raw, url:cmVoiceWikiUrl(gameKey, target) };
 }
 
 function cmRoleLabel(ch){
@@ -818,6 +1177,429 @@ function cmBlockArtStyle(artOrChars){
     ? artOrChars
     : cmArtFor(cmNewestChar(artOrChars || []) || {});
   return art ? { '--cm-block-art': cmCssUrl(art) } : undefined;
+}
+
+const NYX_CHARACTER_IMAGES_KEY = 'nyx:character-images:v1';
+const NYX_LOCAL_IMAGE_LIBRARY_KEY = 'nyx:local-image-library:v1';
+const NYX_LOCAL_IMAGE_ACCEPT = 'image/png,image/jpeg,image/webp,image/gif';
+const NYX_SAFE_DATA_IMAGE_RE = /^data:image\/(?:png|jpeg|jpg|webp|gif);base64,[a-z0-9+/=\s]+$/i;
+const NYX_SAFE_FILE_IMAGE_RE = /^image\/(?:png|jpeg|webp|gif)$/i;
+
+function nyxSafeImageSrc(src){
+  const text = String(src || '').trim();
+  if (!text) return null;
+  if (/^javascript:/i.test(text)) return null;
+  if (/^data:/i.test(text) && !NYX_SAFE_DATA_IMAGE_RE.test(text)) return null;
+  return text;
+}
+
+function nyxLoadLocalImageLibrary(){
+  try {
+    const rows = JSON.parse(localStorage.getItem(NYX_LOCAL_IMAGE_LIBRARY_KEY) || '[]');
+    return Array.isArray(rows)
+      ? rows.map((row) => ({
+        id:String(row?.id || ''),
+        name:String(row?.name || 'Local image').slice(0, 80),
+        src:nyxSafeImageSrc(row?.src),
+        savedAt:Number(row?.savedAt || 0),
+      })).filter((row) => row.id && row.src).slice(0, 18)
+      : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function nyxSaveLocalImageLibrary(rows){
+  const clean = (rows || [])
+    .map((row) => ({
+      id:String(row?.id || ''),
+      name:String(row?.name || 'Local image').slice(0, 80),
+      src:nyxSafeImageSrc(row?.src),
+      savedAt:Number(row?.savedAt || Date.now()),
+    }))
+    .filter((row) => row.id && row.src)
+    .slice(0, 18);
+  try { localStorage.setItem(NYX_LOCAL_IMAGE_LIBRARY_KEY, JSON.stringify(clean)); } catch (e) {}
+  try { window.dispatchEvent(new CustomEvent('nyx:local-image-library-changed', { detail:clean })); } catch (e) {}
+  return clean;
+}
+
+function nyxRememberLocalImage(name, src){
+  const safe = nyxSafeImageSrc(src);
+  if (!safe) return nyxLoadLocalImageLibrary();
+  const current = nyxLoadLocalImageLibrary().filter((row) => row.src !== safe);
+  return nyxSaveLocalImageLibrary([
+    { id:String(Date.now()) + '-' + Math.random().toString(16).slice(2), name:name || 'Local image', src:safe, savedAt:Date.now() },
+    ...current,
+  ]);
+}
+
+function useNyxLocalImageLibrary(){
+  const [rows, setRows] = React.useState(nyxLoadLocalImageLibrary);
+  React.useEffect(() => {
+    const onChanged = (event) => setRows(Array.isArray(event.detail) ? event.detail : nyxLoadLocalImageLibrary());
+    window.addEventListener('nyx:local-image-library-changed', onChanged);
+    return () => window.removeEventListener('nyx:local-image-library-changed', onChanged);
+  }, []);
+  return [rows, setRows];
+}
+
+function nyxSanitizeCharacterImages(raw){
+  const src = raw && typeof raw === 'object' ? raw : {};
+  const next = {};
+  Object.keys(src).forEach((key) => {
+    const row = src[key] && typeof src[key] === 'object' ? src[key] : {};
+    const icon = nyxSafeImageSrc(row.icon);
+    const background = nyxSafeImageSrc(row.background);
+    if (icon || background) next[key] = { ...(icon ? { icon } : {}), ...(background ? { background } : {}) };
+  });
+  return next;
+}
+
+function nyxLoadCharacterImages(){
+  try { return nyxSanitizeCharacterImages(JSON.parse(localStorage.getItem(NYX_CHARACTER_IMAGES_KEY) || '{}')); }
+  catch (e) { return {}; }
+}
+
+function nyxSaveCharacterImages(next){
+  const clean = nyxSanitizeCharacterImages(next);
+  try { localStorage.setItem(NYX_CHARACTER_IMAGES_KEY, JSON.stringify(clean)); } catch (e) {}
+  try { window.dispatchEvent(new CustomEvent('nyx:character-images-changed', { detail:clean })); } catch (e) {}
+  return clean;
+}
+
+function nyxCharacterImageKey(gameKey, ch){
+  const id = String(ch?.id || ch?.rawName || ch?.n || ch?.name || '').trim();
+  return (gameKey || 'game') + ':' + id;
+}
+
+function nyxSetCharacterImage(gameKey, ch, patch){
+  const key = nyxCharacterImageKey(gameKey, ch);
+  if (!key || /:$/.test(key)) return nyxLoadCharacterImages();
+  const current = nyxLoadCharacterImages();
+  const row = { ...(current[key] || {}) };
+  Object.keys(patch || {}).forEach((field) => {
+    const safe = nyxSafeImageSrc(patch[field]);
+    if (safe) row[field] = safe;
+    else delete row[field];
+  });
+  if (row.icon || row.background) current[key] = row;
+  else delete current[key];
+  return nyxSaveCharacterImages(current);
+}
+
+function useNyxCharacterImagePrefs(){
+  const [prefs, setPrefs] = React.useState(nyxLoadCharacterImages);
+  React.useEffect(() => {
+    const onChanged = (event) => setPrefs(nyxSanitizeCharacterImages(event.detail || nyxLoadCharacterImages()));
+    window.addEventListener('nyx:character-images-changed', onChanged);
+    return () => window.removeEventListener('nyx:character-images-changed', onChanged);
+  }, []);
+  return [prefs, setPrefs];
+}
+
+function nyxApplyCharacterCustomImages(gameKey, ch, prefs){
+  const key = nyxCharacterImageKey(gameKey, ch);
+  const row = (prefs || nyxLoadCharacterImages())[key];
+  if (!row) return ch;
+  const icon = nyxSafeImageSrc(row.icon);
+  const background = nyxSafeImageSrc(row.background);
+  if (!icon && !background) return ch;
+  return {
+    ...ch,
+    originalIcon: ch.originalIcon || ch.icon || ch.circle,
+    originalArt: ch.originalArt || ch.art || ch.card,
+    ...(icon ? { icon, circle:icon, customIcon:icon } : {}),
+    ...(background ? { art:background, card:background, customBackground:background } : {}),
+  };
+}
+
+function nyxDedupeImageChoices(rows){
+  const seen = new Set();
+  return (rows || []).map((row) => {
+    const src = nyxSafeImageSrc(row && row.src);
+    return src ? { ...row, src } : null;
+  }).filter(Boolean).filter((row) => {
+    if (seen.has(row.src)) return false;
+    seen.add(row.src);
+    return true;
+  });
+}
+
+function nyxCharacterImageChoices(base, view, kind){
+  const rows = [];
+  const add = (label, src, group) => rows.push({ label, src, group });
+  const addMany = (label, list, group) => (list || []).forEach((src, i) => add(list.length > 1 ? label + ' ' + (i + 1) : label, src, group));
+  if (kind === 'icon') {
+    add('Current icon', view?.icon || view?.circle, 'Current');
+    add('Base icon', base?.originalIcon || base?.icon || base?.circle, 'Character');
+    (base?.forms || []).forEach((form) => add(form.formLabel || form.rawName || form.n || 'Form', form.icon || form.circle, 'Forms'));
+  } else {
+    add('Current art', view?.art || view?.card, 'Current');
+    add('Base art', base?.originalArt || base?.art || base?.card, 'Character');
+    add('Namecard', base?.namecard || view?.namecard, 'Character');
+    add('Overview art', base?.overviewArt || view?.overviewArt, 'Overview');
+    addMany('Overview', base?.overviewArtPool || view?.overviewArtPool, 'Overview');
+    addMany('Birthday', base?.birthdayArtPool || view?.birthdayArtPool, 'Special');
+    addMany('Holiday', base?.holidayArtPool || view?.holidayArtPool, 'Special');
+    (base?.forms || []).forEach((form) => add(form.formLabel || form.rawName || form.n || 'Form', form.art || form.card, 'Forms'));
+  }
+  return nyxDedupeImageChoices(rows);
+}
+
+function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 512, shape = 'square', onSave, onCancel }){
+  const [sourceUrl, setSourceUrl] = React.useState('');
+  const [fileName, setFileName] = React.useState('');
+  const [zoom, setZoom] = React.useState(1);
+  const [rotate, setRotate] = React.useState(0);
+  const [panX, setPanX] = React.useState(0);
+  const [panY, setPanY] = React.useState(0);
+  const [flipX, setFlipX] = React.useState(false);
+  const [flipY, setFlipY] = React.useState(false);
+  const [ready, setReady] = React.useState(false);
+  const [error, setError] = React.useState('');
+  const [library, setLibrary] = useNyxLocalImageLibrary();
+  const imgRef = React.useRef(null);
+  const previewRef = React.useRef(null);
+  const dragRef = React.useRef(null);
+
+  const clamp = (value, min, max) => Math.max(min, Math.min(max, Number(value) || 0));
+  const setSource = (src, name = 'Local image', remember = false) => {
+    const safe = nyxSafeImageSrc(src);
+    if (!safe) {
+      setError('Use PNG, JPEG, WebP, or GIF.');
+      return;
+    }
+    setSourceUrl(safe);
+    setFileName(name || 'Local image');
+    setZoom(1);
+    setRotate(0);
+    setPanX(0);
+    setPanY(0);
+    setFlipX(false);
+    setFlipY(false);
+    setReady(false);
+    if (remember) setLibrary(nyxRememberLocalImage(name, safe));
+  };
+
+  const pickFile = (event) => {
+    const file = event.target.files && event.target.files[0];
+    event.target.value = '';
+    setError('');
+    if (!file) return;
+    if (!NYX_SAFE_FILE_IMAGE_RE.test(file.type)) {
+      setError('Use PNG, JPEG, WebP, or GIF.');
+      return;
+    }
+    const reader = new FileReader();
+    reader.onerror = () => setError('This image could not be read locally.');
+    reader.onload = () => setSource(reader.result, file.name || 'Local image', true);
+    reader.readAsDataURL(file);
+  };
+
+  const commit = () => {
+    const img = imgRef.current;
+    if (!img || !ready) return;
+    try {
+      const canvas = document.createElement('canvas');
+      canvas.width = outputWidth;
+      canvas.height = outputHeight;
+      const ctx = canvas.getContext('2d');
+      ctx.clearRect(0, 0, outputWidth, outputHeight);
+      ctx.save();
+      ctx.translate(outputWidth / 2 + (panX / 100) * outputWidth * .45, outputHeight / 2 + (panY / 100) * outputHeight * .45);
+      ctx.rotate((rotate * Math.PI) / 180);
+      ctx.scale(flipX ? -1 : 1, flipY ? -1 : 1);
+      const baseScale = Math.min(outputWidth / img.naturalWidth, outputHeight / img.naturalHeight);
+      const scale = baseScale * zoom;
+      const drawW = img.naturalWidth * scale;
+      const drawH = img.naturalHeight * scale;
+      ctx.drawImage(img, -drawW / 2, -drawH / 2, drawW, drawH);
+      ctx.restore();
+      onSave(canvas.toDataURL('image/png'));
+    } catch (e) {
+      setError('This image could not be saved locally.');
+    }
+  };
+
+  const useOriginal = () => {
+    const safe = nyxSafeImageSrc(sourceUrl);
+    if (!safe) return;
+    onSave(safe);
+  };
+
+  const control = (name, value, min, max, step, setter, suffix = '') => (
+    <label>
+      <span>{name}</span>
+      <input type="range" min={min} max={max} step={step} value={value} onChange={(e) => setter(clamp(e.target.value, min, max))} />
+      <input type="number" min={min} max={max} step={step} value={value} onChange={(e) => setter(clamp(e.target.value, min, max))} aria-label={name + ' value'} />
+      <em>{suffix}</em>
+    </label>
+  );
+
+  React.useEffect(() => {
+    const node = previewRef.current;
+    if (!node || !sourceUrl) return undefined;
+    const onWheel = (event) => {
+      event.preventDefault();
+      const factor = event.deltaY < 0 ? 1.08 : 1 / 1.08;
+      setZoom((value) => clamp(Number(value) * factor, .1, 10));
+    };
+    node.addEventListener('wheel', onWheel, { passive:false });
+    return () => node.removeEventListener('wheel', onWheel);
+  }, [sourceUrl]);
+
+
+  const onPreviewPointerDown = (event) => {
+    if (!sourceUrl || event.button !== 0) return;
+    event.preventDefault();
+    dragRef.current = { x:event.clientX, y:event.clientY, panX, panY };
+    event.currentTarget.setPointerCapture?.(event.pointerId);
+  };
+
+  const onPreviewPointerMove = (event) => {
+    const drag = dragRef.current;
+    if (!drag) return;
+    const rect = event.currentTarget.getBoundingClientRect();
+    const dx = ((event.clientX - drag.x) / Math.max(1, rect.width)) * 220;
+    const dy = ((event.clientY - drag.y) / Math.max(1, rect.height)) * 220;
+    setPanX(clamp(drag.panX + dx, -500, 500));
+    setPanY(clamp(drag.panY + dy, -500, 500));
+  };
+
+  const onPreviewPointerUp = (event) => {
+    dragRef.current = null;
+    event.currentTarget.releasePointerCapture?.(event.pointerId);
+  };
+
+  return (
+    <div className={'nyx-img-editor shape-' + shape}>
+      <div className="nyx-img-editor-head">
+        <b>{label}</b>
+        <label>
+          <input type="file" accept={NYX_LOCAL_IMAGE_ACCEPT} onChange={pickFile} />
+          <span>Choose File</span>
+        </label>
+      </div>
+      {sourceUrl && (
+        <div className="nyx-img-preview" ref={previewRef} style={{ aspectRatio:String(aspect) }}
+             onPointerDown={onPreviewPointerDown}
+             onPointerMove={onPreviewPointerMove}
+             onPointerUp={onPreviewPointerUp}
+             onPointerCancel={onPreviewPointerUp}>
+          <img
+            ref={imgRef}
+            src={sourceUrl}
+            alt=""
+            draggable="false"
+            onLoad={() => setReady(true)}
+            style={{ transform:`translate(${panX * .45}%, ${panY * .45}%) rotate(${rotate}deg) scale(${flipX ? -zoom : zoom}, ${flipY ? -zoom : zoom})` }}
+          />
+        </div>
+      )}
+      {library.length > 0 && (
+        <div className="nyx-img-library-block">
+          <div className="nyx-img-library-head">
+            <span>Local image memory</span>
+            <button type="button" onClick={() => { nyxSaveLocalImageLibrary([]); setLibrary([]); }}>Clear</button>
+          </div>
+          <div className="nyx-img-library" aria-label="Previously uploaded local images">
+            {library.map((row) => (
+              <button type="button" key={row.id} title={row.name} onClick={() => setSource(row.src, row.name, false)}>
+                <img src={row.src} alt="" draggable="false" />
+                <span>{row.name}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+      <div className="nyx-img-fields">
+        {control('Zoom', zoom, .1, 10, .01, setZoom, 'x')}
+        {control('X Offset', panX, -500, 500, 1, setPanX)}
+        {control('Y Offset', panY, -500, 500, 1, setPanY)}
+        {control('Rotate', rotate, -360, 360, 1, setRotate, 'deg')}
+      </div>
+      <div className="nyx-img-flips" role="group" aria-label="Mirror image">
+        <button type="button" className={flipX ? 'on' : ''} aria-pressed={flipX} onClick={() => setFlipX((v) => !v)} disabled={!sourceUrl}>Mirror Horizontal</button>
+        <button type="button" className={flipY ? 'on' : ''} aria-pressed={flipY} onClick={() => setFlipY((v) => !v)} disabled={!sourceUrl}>Mirror Vertical</button>
+      </div>
+      <div className="nyx-img-actions">
+        <span>{fileName || 'PNG, JPEG, WebP, or GIF. Stored only in this browser.'}</span>
+        <button type="button" onClick={() => setRotate((r) => r - 90)} disabled={!sourceUrl}>Rotate Left</button>
+        <button type="button" onClick={() => setRotate((r) => r + 90)} disabled={!sourceUrl}>Rotate Right</button>
+        <button type="button" onClick={useOriginal} disabled={!sourceUrl}>Use Original</button>
+        <button type="button" onClick={onCancel}>Cancel</button>
+        <button type="button" className="primary" onClick={commit} disabled={!ready}>Save</button>
+      </div>
+      {error && <div className="nyx-img-error">{error}</div>}
+    </div>
+  );
+}
+
+function NyxImageChoiceControl({ label, active, choices, aspect, outputWidth, outputHeight, shape, onPick }){
+  const [editing, setEditing] = React.useState(false);
+  const visible = nyxDedupeImageChoices(choices).slice(0, 48);
+  return (
+    <div className="nyx-img-choice">
+      <div className="nyx-img-choice-head">
+        <b>{label}</b>
+        <button type="button" onClick={() => setEditing((v) => !v)}>{editing ? 'Close Upload' : 'Upload Local'}</button>
+        <button type="button" onClick={() => onPick(null)}>Reset</button>
+      </div>
+      {visible.length > 0 && (
+        <div className="nyx-img-choice-row">
+          {visible.map((row) => (
+            <button type="button" key={row.src} className={active === row.src ? 'on' : ''} title={(row.group ? row.group + ': ' : '') + row.label} onClick={() => onPick(row.src)}>
+              <img src={row.src} alt="" draggable="false" />
+              <span>{row.label}</span>
+            </button>
+          ))}
+        </div>
+      )}
+      {editing && (
+        <NyxImageEditor
+          label={'Upload ' + label}
+          aspect={aspect}
+          outputWidth={outputWidth}
+          outputHeight={outputHeight}
+          shape={shape}
+          onSave={(src) => { onPick(src); setEditing(false); }}
+          onCancel={() => setEditing(false)}
+        />
+      )}
+    </div>
+  );
+}
+
+function CharacterImageControls({ gameKey, base, view, prefs, onPrefs }){
+  if (!base || !view) return null;
+  const key = nyxCharacterImageKey(gameKey, base);
+  const custom = prefs[key] || {};
+  const save = (patch) => onPrefs(nyxSetCharacterImage(gameKey, base, patch));
+  return (
+    <div className="cm-custom-art-panel">
+      <NyxImageChoiceControl
+        label="Character Icon"
+        active={custom.icon || ''}
+        choices={nyxCharacterImageChoices(base, view, 'icon')}
+        aspect={1}
+        outputWidth={512}
+        outputHeight={512}
+        shape="circle"
+        onPick={(src) => save({ icon:src })}
+      />
+      <NyxImageChoiceControl
+        label="Character Background"
+        active={custom.background || ''}
+        choices={nyxCharacterImageChoices(base, view, 'background')}
+        aspect={16 / 9}
+        outputWidth={1600}
+        outputHeight={900}
+        shape="wide"
+        onPick={(src) => save({ background:src })}
+      />
+    </div>
+  );
 }
 
 // G29/G30: newest-released character in a list (by release / updated / sourceOrder).
@@ -937,6 +1719,25 @@ function cmWithIdentityDisplay(ch, label, opts = {}){
   };
 }
 
+function cmApplyLanguageDisplay(gameKey, ch, prefs){
+  if (!ch) return ch;
+  const lang = cmSanitizeLanguagePrefs(prefs)[gameKey] || 'en';
+  if (lang === 'en') return ch;
+  const localized = ch.localizedNames && ch.localizedNames[lang];
+  if (!localized) return ch;
+  const forms = Array.isArray(ch.forms) ? ch.forms.map((form) => ({
+    ...form,
+    englishName: form.englishName || form.n,
+    n: form.localizedNames?.[lang] || localized,
+  })) : ch.forms;
+  return {
+    ...ch,
+    englishName: ch.englishName || ch.n,
+    n: localized,
+    forms,
+  };
+}
+
 function cmFormsForGender(ch, gender){
   const forms = Array.isArray(ch?.forms) ? ch.forms : [];
   const filtered = forms.filter((form) => form.gender === gender);
@@ -950,7 +1751,7 @@ function cmApplyIdentityDisplay(gameKey, ch, prefs){
   if (gameKey === 'gi' && (id === 'gi-traveler' || name === 'traveler')) {
     const custom = CM_IDENTITY_ASSETS.gi[prefs.twin];
     if (custom) {
-      return cmWithIdentityDisplay(ch, custom.label, {
+      return cmWithIdentityDisplay(ch, cmIdentityDisplayLabel('gi', prefs.twin, custom.label), {
         icon:custom.icon,
         circle:custom.icon,
         iconZoom:custom.iconZoom,
@@ -995,12 +1796,12 @@ function cmApplyIdentityDisplay(gameKey, ch, prefs){
       delete opts.formIcon;
       delete opts.formCircle;
     }
-    return cmWithIdentityDisplay(ch, asset.label, opts);
+    return cmWithIdentityDisplay(ch, cmIdentityDisplayLabel('hsr', choice, asset.label), opts);
   }
   if (gameKey === 'zzz' && (id === 'zzz-pyrois' || name === 'pyrois')) {
     const choice = CM_IDENTITY_ASSETS.zzz[prefs.sibling] ? prefs.sibling : 'wise';
     const asset = CM_IDENTITY_ASSETS.zzz[choice];
-    return cmWithIdentityDisplay(ch, asset.label, {
+    return cmWithIdentityDisplay(ch, cmIdentityDisplayLabel('zzz', choice, asset.label), {
       icon:asset.icon,
       circle:asset.icon,
       iconZoom:asset.iconZoom,
@@ -1015,7 +1816,7 @@ function cmApplyIdentityDisplay(gameKey, ch, prefs){
   if (gameKey === 'wuwa' && (id === 'wuwa-rover' || name === 'rover')) {
     const choice = CM_IDENTITY_ASSETS.wuwa[prefs.rover] ? prefs.rover : 'male';
     const asset = CM_IDENTITY_ASSETS.wuwa[choice];
-    return cmWithIdentityDisplay(ch, asset.label, {
+    return cmWithIdentityDisplay(ch, cmIdentityDisplayLabel('wuwa', choice, asset.label), {
       icon:asset.icon,
       circle:asset.icon,
       iconZoom:asset.iconZoom,
@@ -1032,7 +1833,7 @@ function cmApplyIdentityDisplay(gameKey, ch, prefs){
     if (choice === 'penguin') {
       const asset = CM_IDENTITY_ASSETS.ae.penguin;
       const forms = (Array.isArray(ch.forms) && ch.forms.length ? [ch.forms[0]] : ch.forms);
-      return cmWithIdentityDisplay(ch, asset.label, {
+      return cmWithIdentityDisplay(ch, cmIdentityDisplayLabel('ae', choice, asset.label), {
         forms,
         icon:asset.icon,
         circle:asset.icon,
@@ -1101,7 +1902,10 @@ function cmHasBeta(gk){
   return !!(typeof window !== 'undefined' && window.CM_BETA_FILES && window.CM_BETA_FILES[gk]);
 }
 function cmLoadChannel(gk){
-  try { return localStorage.getItem('nyx:cm-channel:' + gk) === 'beta' ? 'beta' : 'live'; }
+  try {
+    if (cmAlwaysBetaEnabled() && cmHasBeta(gk)) return 'beta';
+    return localStorage.getItem('nyx:cm-channel:' + gk) === 'beta' ? 'beta' : 'live';
+  }
   catch (e) { return 'live'; }
 }
 function cmSaveChannel(gk, ch){
@@ -1121,7 +1925,7 @@ function cmMergeBetaCfg(liveCfg, betaPack){
   return { ...liveCfg, roster: merged, __betaActive:true };
 }
 
-function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, pageTab, onPageTab, sections }){
+function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, pageTab, onPageTab, sections, customizeOnly, onCustomizeCharacter, onBackCustomize, onSelectedClose }){
   const [gk, setGk] = React.useState(game || 'gi');
   const [channel, setChannel] = React.useState(() => cmLoadChannel(game || 'gi'));
   const [dataTick, setDataTick] = React.useState(0);
@@ -1156,7 +1960,13 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const [weaponPickerOpen, setWeaponPickerOpen] = React.useState(false);
   const [weaponSearch, setWeaponSearch] = React.useState('');
   const [totalIncludeByChar, setTotalIncludeByChar] = React.useState(cmLoadTotalIncludePrefs);
+  const [customizeOpen, setCustomizeOpen] = React.useState(false);
+  const [ledgerRestoreScroll, setLedgerRestoreScroll] = React.useState(0);
   const [identityPrefs, setIdentityPrefs] = React.useState(cmLoadIdentityPrefs);
+  const [unitPrefs, setUnitPrefs] = React.useState(cmLoadSpecialUnitPrefs);
+  const [languagePrefs, setLanguagePrefs] = React.useState(cmLoadLanguagePrefs);
+  const [characterImagePrefs, setCharacterImagePrefs] = useNyxCharacterImagePrefs();
+  const searchInputRef = React.useRef(null);
 
   const betaAvailable = cmHasBeta(gk);
   const liveCfg = CM_CFG[gk] || null;
@@ -1191,7 +2001,21 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     return () => window.removeEventListener('nyx:identity-changed', onIdentity);
   }, []);
 
-  React.useEffect(() => { setSel(null); }, [identityPrefs, gk]);
+  React.useEffect(() => {
+    const onSettings = (event) => {
+      const detail = event.detail || {};
+      const next = cmSanitizeSpecialUnitPrefs(detail.specialUnits || cmLoadSpecialUnitPrefs());
+      const nextLang = cmSanitizeLanguagePrefs(detail.language || cmLoadLanguagePrefs());
+      setUnitPrefs(next);
+      setLanguagePrefs((prev) => (cmLanguagePrefsKey(prev) === cmLanguagePrefsKey(nextLang) ? prev : nextLang));
+      window.NYX_ALWAYS_BETA = detail.alwaysBeta === true;
+      setChannel(cmLoadChannel(gk));
+    };
+    window.addEventListener('nyx:settings-changed', onSettings);
+    return () => window.removeEventListener('nyx:settings-changed', onSettings);
+  }, [gk]);
+
+  React.useEffect(() => { setSel(null); }, [identityPrefs, unitPrefs, languagePrefs, gk]);
 
   React.useEffect(() => {
     let live = true;
@@ -1199,7 +2023,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
       if (!event.detail || event.detail.key === gk) setDataTick((v) => v + 1);
     };
     window.addEventListener('nyx:cm-game-loaded', onLoaded);
-    if ((open || inline || modalOnly) && !CM_CFG[gk] && window.loadNyxCmGame) {
+    if ((open || inline || modalOnly || customizeOnly) && !CM_CFG[gk] && window.loadNyxCmGame) {
       window.loadNyxCmGame(gk).then(() => { if (live) setDataTick((v) => v + 1); }).catch(() => {
         if (live) setDataTick((v) => v + 1);
       });
@@ -1208,7 +2032,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
       live = false;
       window.removeEventListener('nyx:cm-game-loaded', onLoaded);
     };
-  }, [gk, open, inline, modalOnly]);
+  }, [gk, open, inline, modalOnly, customizeOnly]);
 
   React.useEffect(() => {
     if (channel !== 'beta' || !betaAvailable) return undefined;
@@ -1235,7 +2059,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     return () => window.removeEventListener('nyx:cm-channel-changed', onChan);
   }, [gk]);
 
-  React.useEffect(() => { if (open || inline) { setGk(game || 'gi'); if (!selectedName) setSel(null); } }, [open, inline, game, selectedName]);
+  React.useEffect(() => { if (open || inline || customizeOnly) { setGk(game || 'gi'); if (!selectedName) setSel(null); } }, [open, inline, customizeOnly, game, selectedName]);
   React.useEffect(() => { setSel(null); setQ(''); setFilt({}); setShowFilt(false); setHideMenu(false); setSectionMenuOpen(false); setChannel(cmLoadChannel(gk)); }, [gk]);
   React.useEffect(() => {
     if (!sectionMenuOpen) return undefined;
@@ -1247,6 +2071,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     if (!sel) {
       setActiveVariant(null);
       setActiveGender(null);
+      setCustomizeOpen(false);
       return;
     }
     const wanted = String(selectedName || '').toLowerCase();
@@ -1261,7 +2086,11 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     if (!selectedName) return;
     const activeGame = game || gk;
     const nextCfg = CM_CFG[activeGame] || cfg || { roster:[] };
-    const nextRoster = (nextCfg.roster || []).map((ch) => cmApplyIdentityDisplay(activeGame, ch, identityPrefs));
+    const nextRoster = (nextCfg.roster || [])
+      .map((ch) => cmApplyIdentityDisplay(activeGame, ch, identityPrefs))
+      .filter((ch) => cmSpecialUnitVisible(activeGame, ch, unitPrefs))
+      .map((ch) => cmApplyLanguageDisplay(activeGame, ch, languagePrefs))
+      .map((ch) => nyxApplyCharacterCustomImages(activeGame, ch, characterImagePrefs));
     const wanted = String(selectedName).toLowerCase();
     const found = nextRoster.find((ch) => (
       String(ch.n || '').toLowerCase() === wanted
@@ -1275,28 +2104,60 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
         setActiveGender(form.gender || null);
       }
     }
-  }, [selectedName, game, gk, dataTick, identityPrefs]);
+  }, [selectedName, game, gk, dataTick, identityPrefs, unitPrefs, languagePrefs, characterImagePrefs]);
+  React.useEffect(() => {
+    if (!(open || inline) || customizeOnly || sel) return undefined;
+    const onKey = (event) => {
+      if (event.defaultPrevented || event.ctrlKey || event.metaKey || event.altKey) return;
+      const target = event.target;
+      const tagName = target?.tagName ? String(target.tagName).toLowerCase() : '';
+      if (target?.isContentEditable || ['input', 'textarea', 'select', 'button'].includes(tagName)) return;
+      if (event.key === 'Escape') {
+        if (!q) return;
+        event.preventDefault();
+        setQ('');
+        searchInputRef.current?.focus?.({ preventScroll:true });
+        return;
+      }
+      if (event.key === 'Backspace') {
+        if (!q) return;
+        event.preventDefault();
+        setQ((value) => value.slice(0, -1));
+        searchInputRef.current?.focus?.({ preventScroll:true });
+        return;
+      }
+      if (event.key && event.key.length === 1 && !event.repeat) {
+        event.preventDefault();
+        setQ((value) => value + event.key);
+        searchInputRef.current?.focus?.({ preventScroll:true });
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [open, inline, customizeOnly, sel, q]);
   React.useEffect(() => {
     setWeaponPickerOpen(false);
     setWeaponSearch('');
   }, [gk, sel && cmHiddenKey(sel), activeVariant, activeGender]);
-  // Accessible modal dialog: focus the Close button on open, trap Tab within the
-  // dialog, close on Escape, and restore focus to the triggering card on close.
+  // Standalone modal keeps focus trapping; inline detail pages only use Escape
+  // as a back shortcut so they behave like normal page content.
   const cmPopRef = React.useRef(null);
   const cmCloseBtnRef = React.useRef(null);
+  const cmLedgerMainRef = React.useRef(null);
   React.useEffect(() => {
     if (!sel) return undefined;
     const trigger = (typeof document !== 'undefined') ? document.activeElement : null;
-    const focusTimer = setTimeout(() => { if (cmCloseBtnRef.current) cmCloseBtnRef.current.focus(); }, 0);
+    const focusTimer = !inline ? setTimeout(() => { if (cmCloseBtnRef.current) cmCloseBtnRef.current.focus(); }, 0) : null;
     const onKey = (event) => {
       if (event.key === 'Escape') {
         event.preventDefault();
         setWeaponPickerOpen(false);
         setSel(null);
+        if (onSelectedClose) onSelectedClose();
         if (modalOnly && onClose) onClose();
         return;
       }
-      if (event.key === 'Tab' && cmPopRef.current) {
+      if (!inline && event.key === 'Tab' && cmPopRef.current) {
         const f = cmPopRef.current.querySelectorAll('a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex]:not([tabindex="-1"])');
         if (!f.length) return;
         const first = f[0], last = f[f.length - 1];
@@ -1306,11 +2167,11 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     };
     window.addEventListener('keydown', onKey);
     return () => {
-      clearTimeout(focusTimer);
+      if (focusTimer) clearTimeout(focusTimer);
       window.removeEventListener('keydown', onKey);
-      if (trigger && typeof trigger.focus === 'function') { try { trigger.focus(); } catch (e) {} }
+      if (!inline && trigger && typeof trigger.focus === 'function') { try { trigger.focus(); } catch (e) {} }
     };
-  }, [sel, modalOnly, onClose]);
+  }, [sel, inline, modalOnly, onClose, onSelectedClose]);
 
   if (!inline && !open) return null;
   if (!cfg) {
@@ -1333,7 +2194,11 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   }
 
   const gMeta = cfg;
-  const displayRoster = (cfg.roster || []).map((ch) => cmApplyIdentityDisplay(gk, ch, identityPrefs));
+  const displayRoster = (cfg.roster || [])
+    .map((ch) => cmApplyIdentityDisplay(gk, ch, identityPrefs))
+    .filter((ch) => cmSpecialUnitVisible(gk, ch, unitPrefs))
+    .map((ch) => cmApplyLanguageDisplay(gk, ch, languagePrefs))
+    .map((ch) => nyxApplyCharacterCustomImages(gk, ch, characterImagePrefs));
   const byName = {};
   displayRoster.forEach(ch => {
     [ch.n, ch.rawName, ch.baseName, ...(ch.aliases || [])].filter(Boolean).forEach((key) => {
@@ -1455,7 +2320,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const activePreset = CM_GI_PRESETS.find((p) => p.targets.every((v, i) => v === giTargets[i]))
     || { key:'custom', label:giTargets.join('/'), targets:giTargets };
 
-  const view = sel ? cmActiveForm(sel, activeVariant, activeGender) : null;
+  const viewBase = sel ? cmActiveForm(sel, activeVariant, activeGender) : null;
+  const view = viewBase ? nyxApplyCharacterCustomImages(gk, viewBase, characterImagePrefs) : null;
   const formOptions = cmFormOptions(sel);
   const genderOptions = cmGenderOptions(sel);
   const hsrTalentTargets = hsrMax ? CM_TALENT_CFG.hsr.max : hsrTargets;
@@ -1505,9 +2371,37 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const hasAscData = !!(req && Array.isArray(req.ascension) && req.ascension.length > 0);
   const hasTalentData = !!(req && ((Array.isArray(req.talents) && req.talents.length > 0)
     || (Array.isArray(req.talentStages) && req.talentStages.some((s) => s.length))));
-  const selArt = view ? cmPopupArtFor(gk, sel, view, activeArtIndex) : null;
-  const specialArtClass = view ? cmSpecialArtClass(gk, sel, view) : '';
+  const selArt = view ? (view.customBackground || cmPopupArtFor(gk, sel, view, activeArtIndex)) : null;
+  const specialArtClass = view && !view.customBackground ? cmSpecialArtClass(gk, sel, view) : '';
   const metaChips = view ? cmMetaChips(gk, view) : [];
+  const releaseText = view ? cmCharacterReleaseText(view) : '';
+  const voiceRows = view ? cmVoiceRows(view, gk) : [];
+  if (customizeOnly) {
+    return (
+      <div className="cm-inline cm-custom-page">
+        <div className="cm-custom-page-head">
+          <button type="button" className="cm-custom-back" onClick={onBackCustomize}>
+            <span>{'\u2039'}</span><b>Back to Materials</b>
+          </button>
+          <div>
+            <b>{view?.n || selectedName || 'Character'} Visuals</b>
+            <em>Icon and background choices are stored locally in this browser.</em>
+          </div>
+        </div>
+        {view && sel ? (
+          <CharacterImageControls
+            gameKey={gk}
+            base={sel}
+            view={view}
+            prefs={characterImagePrefs}
+            onPrefs={setCharacterImagePrefs}
+          />
+        ) : (
+          <div className="cm-empty">Select a character before opening visual customization.</div>
+        )}
+      </div>
+    );
+  }
   const setGiTalentTarget = (index, value) => {
     const next = giTargets.slice(0, 3);
     next[index] = Math.max(1, Math.min(10, Number(value) || 1));
@@ -1544,8 +2438,33 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     });
   };
   const closePop = () => {
+    setCustomizeOpen(false);
     setSel(null);
+    if (onSelectedClose) onSelectedClose();
     if (modalOnly && onClose) onClose();
+  };
+  const openCustomize = () => {
+    if (typeof onCustomizeCharacter === 'function' && sel) {
+      const body = (typeof document !== 'undefined') ? document.querySelector('.cm-body') : null;
+      onCustomizeCharacter({
+        game:gk,
+        name:sel.rawName || sel.n || selectedName,
+        restoreScroll:body ? body.scrollTop : 0,
+      });
+      setCustomizeOpen(false);
+      setSel(null);
+      if (modalOnly && onClose) onClose();
+      return;
+    }
+    const node = cmLedgerMainRef.current;
+    setLedgerRestoreScroll(node ? node.scrollTop : 0);
+    setCustomizeOpen(true);
+    setTimeout(() => { if (cmLedgerMainRef.current) cmLedgerMainRef.current.scrollTop = 0; }, 0);
+  };
+  const backFromCustomize = () => {
+    setCustomizeOpen(false);
+    const top = ledgerRestoreScroll;
+    setTimeout(() => { if (cmLedgerMainRef.current) cmLedgerMainRef.current.scrollTop = top; }, 0);
   };
 
   const hasBoss = !!cfg.tabs.boss;
@@ -1554,9 +2473,9 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const curTab = (tab === 'boss' && !hasBoss) ? 'roster' : tab;
 
   return (
-    <div className={inline ? 'cm-inline' : 'cm-overlay'}
+    <div className={inline ? 'cm-inline' + (sel ? ' has-detail-page' : '') : 'cm-overlay'}
          onMouseDown={inline ? undefined : (e) => { if (e.target === e.currentTarget) onClose(); }}>
-      {!modalOnly && <div className="cm-panel" data-screen-label="Character Materials">
+      {!modalOnly && !(inline && sel) && <div className="cm-panel" data-screen-label="Character Materials">
 
         {/* The "Character Materials" header box is removed on the game page (sections
             are switched from the left nav); the standalone panel keeps a plain title. */}
@@ -1578,7 +2497,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
           <div className="cm-tools">
             <div className="cm-search">
               <span className="ic"></span>
-              <input value={q} placeholder="Search Characters" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+              <input ref={searchInputRef} value={q} placeholder="Search Characters" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
               {q !== '' && <button type="button" className="x" onClick={() => setQ('')}>{'\u2715'}</button>}
             </div>
             <div className="cm-tbtns">
@@ -1689,6 +2608,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                               color="#e3b269"
                               glyph={'\u25A4'}
                               icon={row.trio.material?.icon}
+                              rarity={row.trio.material?.rar}
                             />
                           </div>
                           <div className="cm-grid">{row.chars.map((c, i) => renderCell('talent-' + row.key, c, i))}</div>
@@ -1724,7 +2644,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                     <div className={'cm-mrow' + (cmBlockArtStyle(chars) ? ' has-bg' : '')} style={cmBlockArtStyle(chars)}>
                       <div className="cm-mtokens">
                         {mats.map((m, mi) => (
-                          <CMToken key={mi} name={m.n} color={tokenColor(g.region)} glyph={CM_GLYPHS[(gi + mi) % CM_GLYPHS.length]} icon={m.icon} sprite={m.sprite} />
+                          <CMToken key={mi} name={m.n} color={tokenColor(g.region)} glyph={CM_GLYPHS[(gi + mi) % CM_GLYPHS.length]} icon={m.icon} sprite={m.sprite} rarity={m.rar} />
                         ))}
                       </div>
                       <div className="cm-grid">{chars.map((c, i) => renderCell('mid-' + gi, c, i))}</div>
@@ -1748,7 +2668,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                       {block.drops.map((row) => (
                         <div className="cm-brow cm-weekly-row" key={row.key}>
                           <div className="cm-bmats">
-                            <CMToken name={row.drop.name} color="#e3b269" glyph={'\u2726'} icon={row.drop.icon} sprite={row.drop.sprite} />
+                            <CMToken name={row.drop.name} color="#e3b269" glyph={'\u2726'} icon={row.drop.icon} sprite={row.drop.sprite} rarity={row.drop.rar} />
                           </div>
                           <div className="cm-grid">{row.chars.map((c, i) => renderCell('weekly-' + row.key, c, i))}</div>
                         </div>
@@ -1769,7 +2689,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                     <div className="cm-bgroup-hd">{title}</div>
                     <div className="cm-brow">
                       <div className="cm-bmats">
-                        {mats.map((m, mi) => <CMToken key={mi} name={m.n} color="#e3b269" glyph={CM_GLYPHS[(gi + mi) % CM_GLYPHS.length]} icon={m.icon} sprite={m.sprite} />)}
+                        {mats.map((m, mi) => <CMToken key={mi} name={m.n} color="#e3b269" glyph={CM_GLYPHS[(gi + mi) % CM_GLYPHS.length]} icon={m.icon} sprite={m.sprite} rarity={m.rar} />)}
                       </div>
                       <div className="cm-grid">{chars.map((c, i) => renderCell('boss-' + gi, c, i))}</div>
                     </div>
@@ -1783,17 +2703,29 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
 
       {sel && (() => {
         const pop = (
-        <div className={'cm-pop-wrap' + (inline ? ' float' : '')} onMouseDown={(e) => { if (e.target === e.currentTarget) closePop(); }}>
-          <div className="cm-pop ledger" data-screen-label="Material popup" ref={cmPopRef}
-               role="dialog" aria-modal="true" aria-label={(sel.n || 'Character') + ' materials'}
+        <div className={'cm-pop-wrap' + (inline ? ' float page' : '')} onMouseDown={inline ? undefined : (e) => { if (e.target === e.currentTarget) closePop(); }}>
+          <div className="cm-pop ledger" data-screen-label={inline ? 'Material detail page' : 'Material popup'} ref={cmPopRef}
+               role={inline ? undefined : 'dialog'} aria-modal={inline ? undefined : 'true'} aria-label={(sel.n || 'Character') + ' materials'}
                style={{ '--el':CM_ELEM[view.el] || '#b7aaff' }}>
             <div className="cm-pop-ambient"></div>
             <div className="cm-pop-scrim"></div>
-            <button type="button" className="cm-x sm cm-pop-close" title="Close" aria-label="Close"
-                    ref={cmCloseBtnRef} onClick={closePop}>{'\u2715'}</button>
+            {!inline && (
+              <button type="button" className="cm-x sm cm-pop-close" title="Close" aria-label="Close"
+                      ref={cmCloseBtnRef} onClick={closePop}>{'\u2715'}</button>
+            )}
 
             <div className="cm-pop-layout">
-              <div className="cm-pop-main cm-ledger-main">
+              {inline && (
+                <div className="cm-detail-nav">
+                  <button type="button" className="cm-detail-back" onClick={closePop}>
+                    <span>{'\u2039'}</span><b>Back to Character Materials</b>
+                  </button>
+                  <button type="button" className="cm-detail-custom" onClick={openCustomize}>
+                    <span>Customize Visuals</span><b>Icon / Background / Local Upload</b>
+                  </button>
+                </div>
+              )}
+              <div className="cm-pop-main cm-ledger-main" ref={cmLedgerMainRef}>
                 <div className="cm-ledger-top">
                   <div className="cm-ledger-title">
                     <div className="cm-pop-name-row">
@@ -1810,6 +2742,20 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                               <CMMetaIcon gameKey={gk} chip={chip} />
                             </span>
                           ))}
+                        </span>
+                      )}
+                      {(releaseText || voiceRows.length > 0) && (
+                        <span className="cm-pop-meta-text">
+                          {releaseText && <span><b>Release:</b> {releaseText}</span>}
+                        {voiceRows.length > 0 && (
+                            <span className="voice"><b>Voice Actor:</b>{voiceRows.map((row) => (
+                            <em key={row.key}>
+                              {row.label}: {row.url
+                                ? <a href={row.url} target="_blank" rel="noopener noreferrer">{row.value}</a>
+                                : row.value}
+                            </em>
+                          ))}</span>
+                        )}
                         </span>
                       )}
                     </div>
@@ -1838,6 +2784,21 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                   )}
                 </div>
 
+                {customizeOpen ? (
+                  <div className="cm-customize-view">
+                    <button type="button" className="cm-custom-back" onClick={backFromCustomize}>
+                      <span>{'\u2039'}</span><b>Back to Materials</b>
+                    </button>
+                    <CharacterImageControls
+                      gameKey={gk}
+                      base={sel}
+                      view={view}
+                      prefs={characterImagePrefs}
+                      onPrefs={setCharacterImagePrefs}
+                    />
+                  </div>
+                ) : (
+                  <React.Fragment>
                 {(formOptions.length > 1 || genderOptions.length > 1) && (
                   <div className="cm-form-switches compact">
                     {formOptions.length > 1 && (
@@ -2072,13 +3033,21 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                   {!hasAnyLedgerReq && (
                     <div className="cm-empty">No material data available for this unit yet.</div>
                   )}
+                  {!inline && <div className="cm-ledger-customize-entry">
+                    <button type="button" onClick={openCustomize}>
+                      <span>Customize Visuals</span>
+                      <b>Icon / Background / Local Upload</b>
+                    </button>
+                  </div>}
                 </div>
+                  </React.Fragment>
+                )}
               </div>
             </div>
           </div>
         </div>
         );
-        return inline && ReactDOM.createPortal ? ReactDOM.createPortal(pop, document.body) : pop;
+        return pop;
       })()}
     </div>
   );

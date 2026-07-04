@@ -1,7 +1,7 @@
 // ============================================================
 // Nyx — Game Page shared components (Genshin placeholder)
 // Exports to window: GPRoot, GPSec, GPHex, GPBack, GPMedallion,
-// GPSwitcher, GPFnRows, GPFav, GPBanner, GPCodes, GP_GAMES, GP_FNS
+// GPSwitcher, GPFnRows, GPFav, GPCodes, GP_GAMES, GP_FNS
 // ============================================================
 
 const GP_GAMES = [
@@ -83,12 +83,12 @@ function gpNav(e, onSwitch, key){
   onSwitch(key);
 }
 
-function GPMedallion({ game, size, on, dim, title, href, onSwitch }){
+function GPMedallion({ game, size, on, dim, title, href, onSwitch, railRival }){
   const cls = 'gp-med' + (size === 'sm' ? ' sz-sm' : '') + (on ? ' on' : '') + (dim ? ' dim' : '');
   const inner = <img className={game.glyph ? 'glyph' : ''} src={game.icon} alt={game.name} />;
-  if (href) return <a className={cls} href={href} title={title || game.name} onClick={(e) => gpNav(e, onSwitch, game.key)}>{inner}</a>;
+  if (href) return <a className={cls} href={href} title={title || game.name} data-nyx-rail-rival={railRival ? 'true' : undefined} onClick={(e) => gpNav(e, onSwitch, game.key)}>{inner}</a>;
   return (
-    <div className={cls} title={title || game.name}>{inner}</div>
+    <div className={cls} title={title || game.name} data-nyx-rail-rival={railRival ? 'true' : undefined}>{inner}</div>
   );
 }
 
@@ -106,12 +106,14 @@ function GPLogoBack({ size }){
 function GPMedSim({ on, href, onSwitch }){
   const ref = React.useRef(null);
   const ballRef = React.useRef(null);
+  const sadRef = React.useRef(false);
   React.useEffect(() => {
     const eye = ref.current, ball = ballRef.current;
     if (!eye || !ball) return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     let raf = null;
     const onMove = (e) => {
+      if (sadRef.current) return;
       if (raf) return;
       const mx = e.clientX, my = e.clientY;
       raf = requestAnimationFrame(() => {
@@ -128,8 +130,59 @@ function GPMedSim({ on, href, onSwitch }){
     document.addEventListener('mousemove', onMove);
     return () => { document.removeEventListener('mousemove', onMove); if (raf) cancelAnimationFrame(raf); };
   }, []);
+  React.useEffect(() => {
+    const eye = ref.current, ball = ballRef.current;
+    const rail = eye && eye.closest('.gp-game-rail');
+    if (!eye || !ball || !rail) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    let sad = false;
+    let sadTimer = null;
+    let droopTimer = null;
+    const clearSad = () => {
+      clearTimeout(sadTimer);
+      clearTimeout(droopTimer);
+      sadRef.current = false;
+      if (sad) {
+        sad = false;
+        eye.classList.remove('sad');
+        ball.style.transition = '';
+      }
+    };
+    const onOver = (event) => {
+      const target = event.target instanceof Element ? event.target : null;
+      if (!target || !target.closest('[data-nyx-rail-rival]')) return;
+      clearTimeout(sadTimer);
+      clearTimeout(droopTimer);
+      sadTimer = setTimeout(() => {
+        sad = true;
+        sadRef.current = true;
+        eye.classList.add('sad');
+        ball.style.transition = 'transform 1.1s cubic-bezier(.4,.1,.3,1)';
+        ball.style.transform = 'translate(0px, 0px)';
+        droopTimer = setTimeout(() => {
+          if (!sad) return;
+          ball.style.transition = 'transform 1.9s cubic-bezier(.45,.05,.3,1)';
+          ball.style.transform = 'translate(0px, 5px)';
+        }, 1150);
+      }, 500);
+    };
+    const onOut = (event) => {
+      const target = event.target instanceof Element ? event.target : null;
+      const rival = target && target.closest('[data-nyx-rail-rival]');
+      const related = event.relatedTarget instanceof Node ? event.relatedTarget : null;
+      if (!rival || (related && rival.contains(related))) return;
+      clearSad();
+    };
+    rail.addEventListener('mouseover', onOver);
+    rail.addEventListener('mouseout', onOut);
+    return () => {
+      rail.removeEventListener('mouseover', onOver);
+      rail.removeEventListener('mouseout', onOut);
+      clearSad();
+    };
+  }, []);
   return (
-    <a ref={ref} href={href || GP_PAGE_HREF.nyx} className={'gp-med sim' + (on ? ' on' : ' sz-sm')} title="Nyx" onClick={(e) => gpNav(e, onSwitch, 'nyx')}>
+    <a ref={ref} href={href || GP_PAGE_HREF.nyx} className={'gp-med sim' + (on ? ' on' : ' sz-sm dim')} title="Nyx" onClick={(e) => gpNav(e, onSwitch, 'nyx')}>
       <span className="ballvibe"><span className="ballscale"><span ref={ballRef} className="slayer ball"></span></span></span>
       <span className="slayer lid"></span>
       <span className="slayer drips"></span>
@@ -141,18 +194,22 @@ function GPMedSim({ on, href, onSwitch }){
    When Nyx itself is active, the eye IS the highlighted medallion. */
 /* fixed game order on every page — the current page's icon is highlighted
    in place (never reordered to the front) so positions stay stable. */
-function GPGameRail({ active, onSwitch, displayGames }){
+function GPGameRail({ active, onSwitch, displayGames, gameIcons }){
   const isNyx = active === 'nyx';
   const visible = (g) => !displayGames || displayGames[g.key] !== false;
   return (
-    <div style={{ display:'flex', alignItems:'center', gap:'16px' }}>
+    <div className="gp-game-rail">
       <GPMedSim on={isNyx} href={GP_PAGE_HREF.nyx} onSwitch={onSwitch} />
-      <div style={{ display:'flex', alignItems:'center', gap:'10px' }}>
-        {GP_GAMES.filter(g => g.key !== 'nyx' && visible(g)).map(g => (
-          <GPMedallion key={g.key} game={g} size="sm"
-                       on={g.key === active} dim={g.key !== active}
-                       href={GP_PAGE_HREF[g.key]} onSwitch={onSwitch} />
-        ))}
+      <div className="gp-game-rail-icons">
+        {GP_GAMES.filter(g => g.key !== 'nyx' && visible(g)).map(g => {
+          const icon = gameIcons && gameIcons[g.key] ? gameIcons[g.key] : g.icon;
+          const view = icon === g.icon ? g : Object.assign({}, g, { icon });
+          return (
+            <GPMedallion key={g.key} game={view} size="sm"
+                         on={g.key === active} dim={g.key !== active}
+                         href={GP_PAGE_HREF[g.key]} onSwitch={onSwitch} railRival />
+          );
+        })}
       </div>
     </div>
   );
@@ -238,42 +295,6 @@ function GPFav({ w, h, land, name, art, pos }){
   );
 }
 
-// Layout F (art-forward): the 5-star art fills the card; 4-stars are shown as
-// icons on the art; no "5\u2605"/element/weapon text; the duration sits directly
-// below each banner, large and prominent.
-function GPBanner({ w, h, next, compact, ph, title, five, fiveIcon, status, fourStars, chips, time, pct, art }){
-  const usePh = ph !== undefined ? ph : next;
-  const stripRarity = (s) => String(s || '').replace(/^\s*\d+\u2605\s*/, '').trim();
-  const fiveName = stripRarity(five) || (next ? '???' : 'Skirk');
-  const stars = chips || (fourStars || ['Bennett', 'Xiangling', 'Fischl']).map((s) => ({ key:s, text:s }));
-  // G39: plain square card (no hex .rim). G32: name top-left, 4★ icons bottom-left,
-  // end date bottom-right, and no "Ongoing" label (only a small "Up next" flag).
-  return (
-    <div className={'gp-ban f' + (compact ? ' compact' : '') + (next ? ' isnext' : '')} style={{ width: w ? w + 'px' : undefined }}>
-      <div className="ban-art-card" style={{ height: h ? h + 'px' : undefined }}>
-        {usePh
-          ? <div className="art ph"><span className="phnote">banner art</span></div>
-          : <div className="art" style={{ backgroundImage:'url(' + (art || '../assets/banner/skirk_namecard.png') + ')' }}></div>}
-        <div className="shade"></div>
-        <div className="ban-name">{fiveName}</div>
-        {next && <span className="ban-flag">Up next</span>}
-        <div className="ban-bottom">
-          {stars.length > 0
-            ? <div className="four-icons">
-                {stars.map((s) => (
-                  s.icon
-                    ? <img key={s.key || s.text} src={s.icon} alt={stripRarity(s.text)} title={stripRarity(s.text)} draggable="false" />
-                    : <span key={s.key || s.text} className="four-init" title={stripRarity(s.text)}>{(stripRarity(s.text) || '?').slice(0, 1)}</span>
-                ))}
-              </div>
-            : <span className="four-icons" />}
-          <div className="ban-date">{time || (next ? 'Date pending' : 'Ends soon')}</div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 function GPCodeRow({ code, reward }){
   const [ok, setOk] = React.useState(false);
   const copy = () => {
@@ -305,6 +326,6 @@ function GPCodes({ gap }){
 
 Object.assign(window, {
   GPRoot, GPSec, GPHex, GPBack, GPMedallion, GPSwitcher, GPWorldRows,
-  GPFnRows, GPFnTabs, GPFav, GPBanner, GPCodes, GP_GAMES, GP_FNS, GP_CODES,
+  GPFnRows, GPFnTabs, GPFav, GPCodes, GP_GAMES, GP_FNS, GP_CODES,
   GPLogoBack, GPGameRail, GPMoreFavs, GPMedSim,
 });

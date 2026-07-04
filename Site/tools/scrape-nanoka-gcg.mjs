@@ -8,6 +8,7 @@ const dbDir = path.resolve(root, 'Database');
 const outDir = path.resolve(dbDir, 'Nanoka', 'gi', 'gcg');
 const sourceUrl = 'https://gi.nanoka.cc/gcg';
 const fetchTimeoutMs = 20_000;
+const detailConcurrency = 16;
 
 function readJson(rel) {
   return JSON.parse(fs.readFileSync(path.resolve(dbDir, rel), 'utf8'));
@@ -140,6 +141,40 @@ function writeCards(folderName, cards) {
   return rows;
 }
 
+async function fetchJson(url, retries = 3) {
+  let lastError = null;
+  for (let attempt = 1; attempt <= retries; attempt += 1) {
+    try {
+      const response = await fetch(url, {
+        redirect: 'follow',
+        headers: { 'user-agent': 'Mozilla/5.0 Nyx scraper' },
+        signal: AbortSignal.timeout(fetchTimeoutMs),
+      });
+      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+      return await response.json();
+    } catch (error) {
+      lastError = error;
+      if (attempt < retries) await new Promise((resolve) => setTimeout(resolve, 350 * attempt));
+    }
+  }
+  throw new Error(`Failed to fetch ${url}: ${lastError?.message || lastError}`);
+}
+
+async function mapLimit(entries, limit, mapper) {
+  const out = new Array(entries.length);
+  let index = 0;
+  const workers = Array.from({ length:Math.min(limit, entries.length) }, async () => {
+    for (;;) {
+      const current = index;
+      index += 1;
+      if (current >= entries.length) return;
+      out[current] = await mapper(entries[current], current);
+    }
+  });
+  await Promise.all(workers);
+  return out;
+}
+
 const response = await fetch(sourceUrl, {
   redirect: 'follow',
   headers: { 'user-agent': 'Mozilla/5.0 Nyx scraper' },
@@ -152,18 +187,40 @@ ensureDir(path.resolve(outDir, 'raw'));
 fs.writeFileSync(path.resolve(outDir, 'raw', 'page.html'), html, 'utf8');
 
 const payloads = {};
+let staticGcgBase = null;
 const scriptRe = /<script[^>]*type="application\/json"[^>]*data-sveltekit-fetched[^>]*data-url="([^"]+)"[^>]*>([\s\S]*?)<\/script>/g;
 for (const match of html.matchAll(scriptRe)) {
   const dataUrl = decodeHtmlEntities(match[1]);
   const wrapper = JSON.parse(decodeHtmlEntities(match[2]));
   const body = JSON.parse(wrapper.body);
-  if (/\/gcg\.json$/i.test(dataUrl)) payloads.gcg = body;
+  if (/\/gcg\.json$/i.test(dataUrl)) {
+    payloads.gcg = body;
+    staticGcgBase = dataUrl.replace(/\/gcg\.json$/i, '');
+  }
   if (/\/gcg\/card\.json$/i.test(dataUrl)) payloads.card = body;
 }
 
 if (!payloads.gcg) throw new Error('Could not find Nanoka GCG card payload in page HTML.');
+if (!staticGcgBase) throw new Error('Could not determine Nanoka GCG static API base URL.');
 fs.writeFileSync(path.resolve(outDir, 'raw', 'gcg.json'), JSON.stringify(payloads.gcg, null, 2), 'utf8');
 if (payloads.card) fs.writeFileSync(path.resolve(outDir, 'raw', 'card.json'), JSON.stringify(payloads.card, null, 2), 'utf8');
+
+const detailEntries = Object.keys(payloads.gcg).map((id) => [id, `${staticGcgBase}/en/gcg/${id}.json`]);
+const detailResults = await mapLimit(detailEntries, detailConcurrency, async ([id, url]) => {
+  try {
+    return [id, await fetchJson(url)];
+  } catch (error) {
+    console.warn(`Warning: ${error.message}`);
+    return [id, null];
+  }
+});
+payloads.details = Object.fromEntries(detailResults.filter(([, detail]) => detail));
+payloads.skill = await fetchJson(`${staticGcgBase}/en/gcg/skill.json`).catch((error) => {
+  console.warn(`Warning: ${error.message}`);
+  return null;
+});
+fs.writeFileSync(path.resolve(outDir, 'raw', 'details.json'), JSON.stringify(payloads.details, null, 2), 'utf8');
+if (payloads.skill) fs.writeFileSync(path.resolve(outDir, 'raw', 'skill.json'), JSON.stringify(payloads.skill, null, 2), 'utf8');
 
 const playable = readJson('Nanoka/gi/live/characters.json')
   .filter((ch) => ch?.name && (ch.rarity === 4 || ch.rarity === 5));
@@ -172,16 +229,33 @@ const aliases = playableAliases(playable);
 const characterCards = [];
 const otherCards = [];
 for (const [id, raw] of Object.entries(payloads.gcg)) {
-  const rawName = raw.en || raw.name || raw.title || id;
+  const detail = payloads.details[id] || null;
+  const rawName = detail?.name || raw.en || raw.name || raw.title || id;
   const playableName = raw.type === 'Character' ? matchPlayable([rawName, raw.title, raw.icon], aliases) : null;
   const name = String(rawName).startsWith('#{') && playableName ? playableName : rawName;
   const card = {
     id,
     name,
-    title: raw.title || null,
-    type: raw.type || null,
-    icon: raw.icon || null,
-    tags: raw.tag || [],
+    title: detail?.title || raw.title || null,
+    description: detail?.desc || raw.desc || null,
+    source: detail?.source || null,
+    sourceUrl: `${sourceUrl}/${id}`,
+    localizedNames: {
+      ...(raw.en ? { en: raw.en } : {}),
+      ...(raw.zh ? { zh: raw.zh } : {}),
+      ...(raw.ja ? { ja: raw.ja } : {}),
+      ...(raw.ko ? { ko: raw.ko } : {}),
+    },
+    type: detail?.type || raw.type || null,
+    cost: detail && Object.prototype.hasOwnProperty.call(detail, 'cost') ? detail.cost : (raw.cost ?? null),
+    hp: Number.isFinite(Number(detail?.hp ?? raw.hp)) ? Number(detail?.hp ?? raw.hp) : null,
+    relatedCardId: detail?.related ? String(detail.related) : (raw.relate ? String(raw.relate) : null),
+    icon: detail?.icon || raw.icon || null,
+    tags: detail?.tag || raw.tag || [],
+    details: detail ? {
+      talent: detail.talent || null,
+      related: detail.related ? String(detail.related) : null,
+    } : null,
     playableCharacter: playableName,
   };
   if (playableName) characterCards.push(card);
@@ -203,6 +277,8 @@ const report = {
   payloads: {
     gcg: Object.keys(payloads.gcg).length,
     card: payloads.card ? Object.keys(payloads.card).length : 0,
+    details: payloads.details ? Object.keys(payloads.details).length : 0,
+    skill: payloads.skill ? Object.keys(payloads.skill).length : 0,
   },
   counts: {
     characterCards: writtenCharacterCards.length,

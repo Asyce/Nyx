@@ -50210,12 +50210,21 @@
     {
       "id": "gi-10000133",
       "n": "Sandrone",
+      "localizedNames": {
+        "en": "Sandrone"
+      },
       "title": "Mirrored Analysis",
       "r": 5,
       "el": "Cryo",
       "w": "Claymore",
       "tag": "SNEZHNAYA STAR",
       "release": 1782770400000,
+      "voiceActors": {
+        "english": "imdb:nm3069800|Deneen Melody",
+        "japanese": "Mariko Honda|Honda Mariko (\u672c\u591a\u771f\u68a8\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u6d2a\u6d77\u5929|Hong Haitian (\u6d2a\u6d77\u5929)",
+        "korean": "ko:\uac15\uc740\uc560|Kang Eun-ae (\uac15\uc740\uc560)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
       "skillIcons": [
@@ -52316,12 +52325,21 @@
     {
       "id": "gi-10000129",
       "n": "Lohen",
+      "localizedNames": {
+        "en": "Lohen"
+      },
       "title": "Sharpened Arrowhead",
       "r": 5,
       "el": "Cryo",
       "w": "Polearm",
       "tag": "MONDSTADT",
       "release": 1781020800000,
+      "voiceActors": {
+        "english": "imdb:nm6016510|Nick Wolfhard",
+        "japanese": "K\u014dhei Amasaki|Amasaki K\u014dhei (\u5929\ufa11 \u6ec9\u5e73)",
+        "chinese": "https://zh.moegirl.org.cn/\u6797\u5a67\u5357|Lin Jingnan (\u6797\u5a67\u5357)",
+        "korean": "https://namu.wiki/w/\uc774\uc0c1\ud638(\uc131\uc6b0)|Lee Sang-ho (\uc774\uc0c1\ud638)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Lohen_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Lohen.webp",
       "namecard": "../../Database/GenshinWiki/namecards/Lohen.png",
@@ -54159,12 +54177,21 @@
     {
       "id": "gi-10000131",
       "n": "Nicole",
+      "localizedNames": {
+        "en": "Nicole"
+      },
       "title": "Clamor Within",
       "r": 5,
       "el": "Pyro",
       "w": "Catalyst",
       "tag": "HVISION",
       "release": 1779141600000,
+      "voiceActors": {
+        "english": "imdb:nm0787155|Sophie Shad",
+        "japanese": "Megumi Toyoguchi|Toyoguchi Megumi (\u8c4a\u53e3\u3081\u3050\u307f)",
+        "chinese": "https://zh.moegirl.org.cn/\u4e91\u9e64\u8ffd|Yun He Zhui (\u4e91\u9e64\u8ffd)",
+        "korean": "ko:\uc774\uc18c\uc740_(\uc131\uc6b0)|Lee So-eun (\uc774\uc18c\uc740)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Nicole_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nicole.webp",
       "namecard": "../../Database/GenshinWiki/namecards/Nicole.png",
@@ -56253,12 +56280,21 @@
     {
       "id": "gi-10000132",
       "n": "Prune",
+      "localizedNames": {
+        "en": "Prune"
+      },
       "title": "Childlike Dreams Cherished",
       "r": 4,
       "el": "Anemo",
       "w": "Catalyst",
       "tag": "MONDSTADT",
       "release": 1779141600000,
+      "voiceActors": {
+        "english": "imdb:nm12363730|Alice Himora",
+        "japanese": "ja:\u9577\u6708\u3042\u304a\u3044|Nagatsuki Aoi (\u9577\u6708 \u3042\u304a\u3044)",
+        "chinese": "https://zh.moegirl.org.cn/\u5bb4\u5b81|Yanning (\u5bb4\u5b81)",
+        "korean": "https://namu.wiki/w/\uc7a5\uc608\ub098|Jang Ye-na (\uc7a5\uc608\ub098)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Prune_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Prune.webp",
       "namecard": "../../Database/GenshinWiki/namecards/Prune.png",
@@ -58360,12 +58396,21 @@
     {
       "id": "gi-10000130",
       "n": "Linnea",
+      "localizedNames": {
+        "en": "Linnea"
+      },
       "title": "Augur of Wonders",
       "r": 5,
       "el": "Geo",
       "w": "Bow",
       "tag": "NODKRAI",
       "release": 1775512800000,
+      "voiceActors": {
+        "english": "imdb:nm10476229|Savanna Menzel",
+        "japanese": "Haruka Shiraishi|Shiraishi Haruka (\u767d\u77f3 \u6674\u9999)",
+        "chinese": "https://zh.moegirl.org.cn/\u5468\u4f97|Zhou Tong (\u5468\u4f97)",
+        "korean": "https://namu.wiki/w/\uae40\uc724\ucc44|Kim Yun-chae (\uae40\uc724\ucc44)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Linnea_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Linnea.webp",
       "birthdayArtPool": [
@@ -60469,12 +60514,21 @@
     {
       "id": "gi-10000128",
       "n": "Varka",
+      "localizedNames": {
+        "en": "Varka"
+      },
       "title": "Knight of Boreas",
       "r": 5,
       "el": "Anemo",
       "w": "Claymore",
       "tag": "MONDSTADT",
       "release": 1771887600000,
+      "voiceActors": {
+        "english": "Joseph May",
+        "japanese": "Tomokazu Sugita|Sugita Tomokazu (\u6749\u7530\u667a\u548c)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u90dd\u7965\u6d77|Hao Xianghai (\u90dd\u7965\u6d77)",
+        "korean": "https://namu.wiki/w/\ubc15\uc0c1\ud6c8(1982)|Park Sang-hoon (\ubc15\uc0c1\ud6c8)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Varka_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Varka.webp",
       "namecard": "../../Database/GenshinWiki/namecards/Varka.png",
@@ -62575,12 +62629,21 @@
     {
       "id": "gi-10000126",
       "n": "Zibai",
+      "localizedNames": {
+        "en": "Zibai"
+      },
       "title": "White Horse's Fleeting Spring",
       "r": 5,
       "el": "Geo",
       "w": "Sword",
       "tag": "NODKRAI ZIBAI",
       "release": 1770138000000,
+      "voiceActors": {
+        "english": "imdb:nm11533466|Laura Welsh",
+        "japanese": "Misato Fukuen|Fukuen Misato (\u798f\u5713 \u7f8e\u91cc)",
+        "chinese": "https://zh.moegirl.org.cn/Mace|Mace",
+        "korean": "https://namu.wiki/w/\ucc9c\uc1a1\uc774(\uc131\uc6b0)|Chun Song-e (\ucc9c\uc1a1\uc774)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Zibai.webp",
       "iconZoom": 1.18,
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Zibai.webp",
@@ -64685,12 +64748,21 @@
     {
       "id": "gi-10000127",
       "n": "Illuga",
+      "localizedNames": {
+        "en": "Illuga"
+      },
       "title": "Nightmare's Burning Heart",
       "r": 4,
       "el": "Geo",
       "w": "Polearm",
       "tag": "NODKRAI",
       "release": 1770138000000,
+      "voiceActors": {
+        "english": "imdb:nm15807516|Jonathon Ha",
+        "japanese": "Sh\u016bichir\u014d Umeda|Umeda Shuuichirou (\u6885\u7530 \u4fee\u4e00\u6717)",
+        "chinese": "https://zh.moegirl.org.cn/\u6631\u5934|Yu Tou (\u6631\u5934)",
+        "korean": "https://namu.wiki/w/\ud669\ub3d9\ud604(\uc131\uc6b0)|Hwang Dong-hyeon (\ud669\ub3d9\ud604)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Illuga.webp",
       "iconZoom": 1.18,
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Illuga.webp",
@@ -66792,12 +66864,21 @@
     {
       "id": "gi-10000125",
       "n": "Columbina",
+      "localizedNames": {
+        "en": "Columbina"
+      },
       "title": "Welkin Moon's Homecoming",
       "r": 5,
       "el": "Hydro",
       "w": "Catalyst",
       "tag": "NODKRAI",
       "release": 1768258800000,
+      "voiceActors": {
+        "english": "Emi Lo",
+        "japanese": "Lynn (voice actress)|Lynn (\u308a\u3093)",
+        "chinese": "https://zh.moegirl.org.cn/\u6768\u68a6\u9732|Yang Menglu (\u6768\u68a6\u9732)",
+        "korean": "ko:\uc720\uc601 (\uc131\uc6b0)|Yu Yeong (\uc720\uc601)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Columbina.webp",
       "iconZoom": 1.32,
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Columbina.webp",
@@ -68905,12 +68986,21 @@
     {
       "id": "gi-10000123",
       "n": "Durin",
+      "localizedNames": {
+        "en": "Durin"
+      },
       "title": "\"The Undying Fire\"",
       "r": 5,
       "el": "Pyro",
       "w": "Sword",
       "tag": "MONDSTADT",
       "release": 1764630000000,
+      "voiceActors": {
+        "english": "Laurie Kynaston (Human)",
+        "japanese": "Chiaki Kobayashi|Kobayashi Chiaki (\u5c0f\u6797 \u5343\u6643) (Human)",
+        "chinese": "zh:\u9676\u5178|Tao Dian (\u9676\u5178) (Human)",
+        "korean": "https://namu.wiki/w/\uae40\uc9c0\uc728|Kim Ji-yul (\uae40\uc9c0\uc728) (Human)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Durin.webp",
       "iconZoom": 1.34,
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Durin.webp",
@@ -71020,12 +71110,21 @@
     {
       "id": "gi-10000124",
       "n": "Jahoda",
+      "localizedNames": {
+        "en": "Jahoda"
+      },
       "title": "Windthreading Shadow",
       "r": 4,
       "el": "Anemo",
       "w": "Bow",
       "tag": "NODKRAI",
       "release": 1764630000000,
+      "voiceActors": {
+        "english": "imdb:nm5015345|Sonya Krueger",
+        "japanese": "Konomi Inagaki|Inagaki Konomi (\u7a32\u57a3\u597d)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u4e8c\u5a07|Han Jiaojiao (\u97e9\u5a07\u5a07)",
+        "korean": "https://namu.wiki/w/\uc624\ub85c\uc544|Oh Ro-ah (\uc624\ub85c\uc544)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Jahoda_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Jahoda.webp",
       "birthdayArtPool": [
@@ -73129,12 +73228,21 @@
     {
       "id": "gi-10000122",
       "n": "Nefer",
+      "localizedNames": {
+        "en": "Nefer"
+      },
       "title": "Secret Beneath the Sands",
       "r": 5,
       "el": "Dendro",
       "w": "Catalyst",
       "tag": "NODKRAI",
       "release": 1760997600000,
+      "voiceActors": {
+        "english": "imdb:nm7514824|Ashleigh Haddad",
+        "japanese": "Nana Mizuki|Mizuki Nana (\u6c34\u6a39 \u5948\u3005)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u66fe\u5f64|Zeng Tong (\u66fe\u5f64)",
+        "korean": "https://namu.wiki/w/\uc6d0\uc5d0\uc2a4\ub354|Won Esther (\uc6d0\uc5d0\uc2a4\ub354)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Nefer.webp",
       "iconZoom": 1.32,
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nefer.webp",
@@ -75212,12 +75320,21 @@
     {
       "id": "gi-10000120",
       "n": "Flins",
+      "localizedNames": {
+        "en": "Flins"
+      },
       "title": "Shadowy Lights, Stranger Wights",
       "r": 5,
       "el": "Electro",
       "w": "Polearm",
       "tag": "NODKRAI",
       "release": 1759248000000,
+      "voiceActors": {
+        "english": "imdb:nm7837046|Nic Olsen",
+        "japanese": "Yuichi Nakamura|Nakamura Yuuichi (\u4e2d\u6751\u60a0\u4e00)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u9a6c\u6b63\u9633|Ma Zhengyang (\u9a6c\u6b63\u9633)",
+        "korean": "https://namu.wiki/w/\uc2e0\uc6a9\uc6b0|Shin Yong-woo (\uc2e0\uc6a9\uc6b0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
       "birthdayArtPool": [
@@ -77325,12 +77442,21 @@
     {
       "id": "gi-10000119",
       "n": "Lauma",
+      "localizedNames": {
+        "en": "Lauma"
+      },
       "title": "Evermoon's Sacrament Song",
       "r": 5,
       "el": "Dendro",
       "w": "Catalyst",
       "tag": "NODKRAI",
       "release": 1757368800000,
+      "voiceActors": {
+        "english": "imdb:nm5498692| Alexandra Guelff",
+        "japanese": "Houko Kuwashima|Kuwashima Houko (\u6851\u5cf6\u6cd5\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5f20\u5b89\u742a|Zhang Anqi (\u5f20\u5b89\u742a)",
+        "korean": "https://namu.wiki/w/\uc7a5\ucc44\uc5f0|Jang Chae-yeon (\uc7a5\ucc44\uc5f0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Lauma_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Lauma.webp",
       "birthdayArtPool": [
@@ -79406,12 +79532,21 @@
     {
       "id": "gi-10000121",
       "n": "Aino",
+      "localizedNames": {
+        "en": "Aino"
+      },
       "title": "Clinky-Clank Gadgets-A-Gogo",
       "r": 4,
       "el": "Hydro",
       "w": "Claymore",
       "tag": "NODKRAI",
       "release": 1757368800000,
+      "voiceActors": {
+        "english": "imdb:nm9971173|Annabel Brook",
+        "japanese": "Natsumi Takamori|Takamori Natsumi (\u9ad8\u68ee\u5948\u6d25\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u845b\u5b50\u745e|Ge Zirui (\u845b\u5b50\u745e)",
+        "korean": "ko:\uc870\uacbd\uc774|Jo Kyeong-i (ko=\uc870\uacbd\uc774)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Aino_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Aino.webp",
       "namecard": "../../Database/GenshinWiki/namecards/Aino.png",
@@ -81517,12 +81652,22 @@
     {
       "id": "gi-10000116",
       "n": "Ineffa",
+      "localizedNames": {
+        "en": "Ineffa"
+      },
       "title": "Boom Boom Thunderwave",
       "r": 5,
       "el": "Electro",
       "w": "Polearm",
       "tag": "NODKRAI",
       "release": 1753740000000,
+      "releasePatch": "5.8",
+      "voiceActors": {
+        "english": "imdb:nm7349310|Angelina Danielle Cama",
+        "japanese": "Megumi Nakajima|Nakajima Megumi (\u4e2d\u5cf6\u611b)",
+        "chinese": "https://zh.moegirl.org.cn/\u7f8e\u52a0|Meijia (\u7f8e\u52a0)",
+        "korean": "https://en.namu.wiki/w/\uc131\uc608\uc6d0|Sung Ye-won (\uc131\uc608\uc6d0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
       "birthdayArtPool": [
@@ -83631,12 +83776,22 @@
     {
       "id": "gi-10000114",
       "n": "Skirk",
+      "localizedNames": {
+        "en": "Skirk"
+      },
       "title": "Void Star",
       "r": 5,
       "el": "Cryo",
       "w": "Sword",
       "tag": "OMNI SCOURGE",
       "release": 1750111200000,
+      "releasePatch": "5.7",
+      "voiceActors": {
+        "english": "imdb:nm11767862|Cat Protano",
+        "japanese": "Mamiko Noto|Noto Mamiko (\u80fd\u767b\u9ebb\u7f8e\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u8c22\u83b9|Xie Ying (\u8c22\u83b9)",
+        "korean": "ko:\uc11c\ub2e4\ud61c|Seo Da-hye (\uc11c\ub2e4\ud61c)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_SkirkNew_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_SkirkNew.webp",
       "birthdayArtPool": [
@@ -85084,12 +85239,22 @@
     {
       "id": "gi-10000115",
       "n": "Dahlia",
+      "localizedNames": {
+        "en": "Dahlia"
+      },
       "title": "Ode and Oblation",
       "r": 4,
       "el": "Hydro",
       "w": "Sword",
       "tag": "MONDSTADT",
       "release": 1750111200000,
+      "releasePatch": "5.7",
+      "voiceActors": {
+        "english": "imdb:nm2300801|Aileen Mythen",
+        "japanese": "Kazutomi Yamamoto|Yamamoto Kazutomi (\u5c71\u672c\u548c\u81e3)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u98ce\u8896|Feng Xiu (\u98ce\u8896)",
+        "korean": "https://en.namu.wiki/w/\uc11d\uc2b9\ud6c8|Seok Seung-hoon (\uc11d\uc2b9\ud6c8)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Dahlia_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Dahlia.webp",
       "birthdayArtPool": [
@@ -86933,12 +87098,22 @@
     {
       "id": "gi-10000112",
       "n": "Escoffier",
+      "localizedNames": {
+        "en": "Escoffier"
+      },
       "title": "Tasteful Excellence",
       "r": 5,
       "el": "Cryo",
       "w": "Polearm",
       "tag": "FONTAINE",
       "release": 1746482400000,
+      "releasePatch": "5.6",
+      "voiceActors": {
+        "english": "imdb:nm12853763|Emily Cass",
+        "japanese": "Satomi Sat\u014d|Satou Satomi (\u4f50\u85e4\u8061\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hant/\u8521\u6d77\u5a77|Cai Haiting (\u8521\u6d77\u5a77)",
+        "korean": "https://namu.wiki/w/\uc190\uc815\ubbfc(\uc131\uc6b0)|Son Jeong-min (\uc190\uc815\ubbfc)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Escoffier_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Escoffier.webp",
       "birthdayArtPool": [
@@ -88387,12 +88562,22 @@
     {
       "id": "gi-10000113",
       "n": "Ifa",
+      "localizedNames": {
+        "en": "Ifa"
+      },
       "title": "In the Wake of Wandering Winds",
       "r": 4,
       "el": "Anemo",
       "w": "Catalyst",
       "tag": "NATLAN",
       "release": 1746482400000,
+      "releasePatch": "5.6",
+      "voiceActors": {
+        "english": "imdb:nm3637167|Jonny Loquasto",
+        "japanese": "Junta Terashima|Terashima Junta (\u5bfa\u5cf6\u60c7\u592a)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5415\u4e66\u541b|Lu Shujun (\u5415\u4e66\u541b)",
+        "korean": "https://en.namu.wiki/w/\ubc15\uae30\uc6b1|Park Ki-wook (\ubc15\uae30\uc6b1)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Ifa_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ifa.webp",
       "birthdayArtPool": [
@@ -90502,12 +90687,22 @@
     {
       "id": "gi-10000111",
       "n": "Varesa",
+      "localizedNames": {
+        "en": "Varesa"
+      },
       "title": "Strength in Serenity",
       "r": 5,
       "el": "Electro",
       "w": "Catalyst",
       "tag": "NATLAN",
       "release": 1742857200000,
+      "releasePatch": "5.5",
+      "voiceActors": {
+        "english": "imdb:nm10145347|Jane Jackson",
+        "japanese": "Ichimichi Mao (M\u30fbA\u30fbO)",
+        "chinese": "https://zh.moegirl.org.cn/\u4e54\u82cf|Qiao Su (\u4e54\u82cf)",
+        "korean": "https://en.namu.wiki/w/\uae40\uc608\ub9bc(\uc131\uc6b0)|Kim Yea-lim (\uae40\uc608\ub9bc)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Varesa_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Varesa.webp",
       "birthdayArtPool": [
@@ -92615,12 +92810,22 @@
     {
       "id": "gi-10000110",
       "n": "Iansan",
+      "localizedNames": {
+        "en": "Iansan"
+      },
       "title": "Tempered in Molten Stone",
       "r": 4,
       "el": "Electro",
       "w": "Polearm",
       "tag": "NATLAN",
       "release": 1742857200000,
+      "releasePatch": "5.5",
+      "voiceActors": {
+        "english": "imdb:nm8632962|Katrina Salisbury",
+        "japanese": "Ayaka Ohashi|Ohashi Ayaka (\u5927\u6a4b\u5f69\u9999)",
+        "chinese": "https://zh.moegirl.org.cn/\u9b54\u6cd5\u5c11\u5973\u771f\u7406\u9171|Zhen Li (\u771f\u7406)",
+        "korean": "https://en.namu.wiki/w/\uc774\uc7ac\ud604(\uc131\uc6b0)|Lee Jae-hyun (\uc774\uc7ac\ud604)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Iansan_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Iansan.webp",
       "birthdayArtPool": [
@@ -94729,12 +94934,22 @@
     {
       "id": "gi-10000109",
       "n": "Yumemizuki Mizuki",
+      "localizedNames": {
+        "en": "Yumemizuki Mizuki"
+      },
       "title": "Embrace of Enchanting Dreams",
       "r": 5,
       "el": "Anemo",
       "w": "Catalyst",
       "tag": "INAZUMA",
       "release": 1739228400000,
+      "releasePatch": "5.4",
+      "voiceActors": {
+        "english": "imdb:nm1696370|Naomi McDonald",
+        "japanese": "Saya Aizawa|Aizawa Saya (\u4f1a\u6ca2\u7d17\u5f25)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u6d6e\u68a6\u82e5\u8587|Fumeng Ruowei (\u6d6e\u68a6\u82e5\u8587)",
+        "korean": "https://en.namu.wiki/w/\uae40\uc11c\ud604(\uc131\uc6b0)|Kim Seo-hyun (\uae40\uc11c\ud604)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Mizuki_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mizuki.webp",
       "birthdayArtPool": [
@@ -96711,12 +96926,22 @@
     {
       "id": "gi-10000108",
       "n": "Lan Yan",
+      "localizedNames": {
+        "en": "Lan Yan"
+      },
       "title": "Spring Woven From Jade",
       "r": 4,
       "el": "Anemo",
       "w": "Catalyst",
       "tag": "LIYUE",
       "release": 1737478800000,
+      "releasePatch": "5.3",
+      "voiceActors": {
+        "english": "imdb:nm1683988|Anna Devlin",
+        "japanese": "Shion Wakayama|Wakayama Shion (\u82e5\u5c71\u8a69\u97f3)",
+        "chinese": "https://zh.moegirl.org.cn/\u5218\u5341\u56db|Liu Shisi (\u5218\u5341\u56db)",
+        "korean": "https://en.namu.wiki/w/\uae40\uc21c\ubbf8|Kim Soon-mi (\uae40\uc21c\ubbf8)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Lanyan_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Lanyan.webp",
       "birthdayArtPool": [
@@ -98428,12 +98653,22 @@
     {
       "id": "gi-10000107",
       "n": "Citlali",
+      "localizedNames": {
+        "en": "Citlali"
+      },
       "title": "Obsidian Opalstar",
       "r": 5,
       "el": "Cryo",
       "w": "Catalyst",
       "tag": "NATLAN",
       "release": 1735599600000,
+      "releasePatch": "5.3",
+      "voiceActors": {
+        "english": "Skyler Davenport",
+        "japanese": "Asami Tano|Tano Asami (\u7530\u91ce\u30a2\u30b5\u30df)",
+        "chinese": "https://zh.moegirl.org.cn/\u67f3\u77e5\u8427|Liu Zhixiao (\u67f3\u77e5\u8427)",
+        "korean": "https://en.namu.wiki/w/\uc774\uc740\uc870(\uc131\uc6b0)|Lee Eun-jo (\uc774\uc740\uc870)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Citlali_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Citlali.webp",
       "birthdayArtPool": [
@@ -100543,12 +100778,22 @@
     {
       "id": "gi-10000106",
       "n": "Mavuika",
+      "localizedNames": {
+        "en": "Mavuika"
+      },
       "title": "Night-Igniting Flame",
       "r": 5,
       "el": "Pyro",
       "w": "Claymore",
       "tag": "NATLAN",
       "release": 1735599600000,
+      "releasePatch": "5.3",
+      "voiceActors": {
+        "english": "imdb:nm12283630|Katiana Sarkissian",
+        "japanese": "Mikako Komatsu|Komatsu Mikako (\u5c0f\u677e\u672a\u53ef\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u674e\u6654|Li Ye (\u674e\u6654)",
+        "korean": "ko:\uae40\ub098\uc728|Kim Na-yul (\uae40\ub098\uc728)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Mavuika_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mavuika.webp",
       "birthdayArtPool": [
@@ -102658,12 +102903,22 @@
     {
       "id": "gi-10000104",
       "n": "Chasca",
+      "localizedNames": {
+        "en": "Chasca"
+      },
       "title": "Skyborne Arbiter",
       "r": 5,
       "el": "Anemo",
       "w": "Bow",
       "tag": "NATLAN",
       "release": 1731970800000,
+      "releasePatch": "5.2",
+      "voiceActors": {
+        "english": "imdb:nm12129007|Lauren Amante",
+        "japanese": "Y\u016bko Kaida|Kaida Yuuko (\u7532\u6590\u7530\u88d5\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u82e5\u745c|Zhang Ruoyu (\u5f20\u82e5\u745c)",
+        "korean": "https://en.namu.wiki/w/\uc218\ud604(\uc131\uc6b0)|Soo-hyun (\uc218\ud604)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Chasca_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Chasca.webp",
       "birthdayArtPool": [
@@ -104773,12 +105028,22 @@
     {
       "id": "gi-10000105",
       "n": "Ororon",
+      "localizedNames": {
+        "en": "Ororon"
+      },
       "title": "Shadow of the Night-Wind",
       "r": 4,
       "el": "Electro",
       "w": "Bow",
       "tag": "NATLAN",
       "release": 1731970800000,
+      "releasePatch": "5.2",
+      "voiceActors": {
+        "english": "imdb:nm12322393|Nathan Nokes",
+        "japanese": "Takashi Kond\u014d|Kondo Takashi (\u8fd1\u85e4\u9686)",
+        "chinese": "https://zh.moegirl.org.cn/\u6881\u8fbe\u4f1f|Liang Dawei (\u6881\u8fbe\u4f1f)",
+        "korean": "https://en.namu.wiki/w/\uc11c\uc815\uc775|Seo Joung-ik (\uc11c\uc815\uc775)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Olorun_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Olorun.webp",
       "birthdayArtPool": [
@@ -106887,12 +107152,22 @@
     {
       "id": "gi-10000103",
       "n": "Xilonen",
+      "localizedNames": {
+        "en": "Xilonen"
+      },
       "title": "Ardent Flames Forge the Soul",
       "r": 5,
       "el": "Geo",
       "w": "Sword",
       "tag": "NATLAN",
       "release": 1728338400000,
+      "releasePatch": "5.1",
+      "voiceActors": {
+        "english": "imdb:nm0193048|Elizabeth Dean",
+        "japanese": "Fairouz Ai|Fairouz Ai (\u30d5\u30a1\u30a4\u30eb\u30fc\u30ba\u3042\u3044)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f2d\u6d0b|Mi Yang (\u5f2d\u6d0b)",
+        "korean": "https://en.namu.wiki/w/\uae40\uc774\uc548(\uc131\uc6b0)|Kim I-an (\uae40\uc774\uc548)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Xilonen_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xilonen.webp",
       "birthdayArtPool": [
@@ -108989,12 +109264,22 @@
     {
       "id": "gi-10000101",
       "n": "Kinich",
+      "localizedNames": {
+        "en": "Kinich"
+      },
       "title": "Turnfire Hunt",
       "r": 5,
       "el": "Dendro",
       "w": "Claymore",
       "tag": "NATLAN",
       "release": 1726588800000,
+      "releasePatch": "5.0",
+      "voiceActors": {
+        "english": "imdb:nm12417568|Jacob Takanashi",
+        "japanese": "Noriaki Sugiyama|Sugiyama Noriaki (\u6749\u5c71\u7d00\u5f70)",
+        "chinese": "https://zh.moegirl.org.cn/\u9a6c\u6591\u9a6c|Banma (\u6591\u9a6c)",
+        "korean": "https://namu.wiki/w/\uac15\uc131\uc6b0(\uc131\uc6b0)|Kang Seong-woo (\uac15\uc131\uc6b0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Kinich_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kinich.webp",
       "birthdayArtPool": [
@@ -111072,12 +111357,22 @@
     {
       "id": "gi-10000102",
       "n": "Mualani",
+      "localizedNames": {
+        "en": "Mualani"
+      },
       "title": "Splish-Splash Wavechaser",
       "r": 5,
       "el": "Hydro",
       "w": "Catalyst",
       "tag": "NATLAN",
       "release": 1724709600000,
+      "releasePatch": "5.0",
+      "voiceActors": {
+        "english": "Cassandra Lee Morris",
+        "japanese": "Nao T\u014dyama|Toyama Nao (\u6771\u5c71\u5948\u592e)",
+        "chinese": "https://zh.moegirl.org.cn/\u738b\u6653\u5f64|Wang Xiaotong (\u738b\u6653\u5f64)",
+        "korean": "ko:\uae40\ub3c4\ud76c_(\uc131\uc6b0)|Kim Do-hee (\uae40\ub3c4\ud76c)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Mualani_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mualani.webp",
       "birthdayArtPool": [
@@ -113186,12 +113481,22 @@
     {
       "id": "gi-10000100",
       "n": "Kachina",
+      "localizedNames": {
+        "en": "Kachina"
+      },
       "title": "Mottled Gold Yet Unsmelted",
       "r": 4,
       "el": "Geo",
       "w": "Polearm",
       "tag": "NATLAN",
       "release": 1724709600000,
+      "releasePatch": "5.0",
+      "voiceActors": {
+        "english": "Kristen McGuire",
+        "japanese": "Yurika Kubo|Kubo Yurika (\u4e45\u4fdd\u30e6\u30ea\u30ab)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u9759\u5bb8|Jing Chen (\u9759\u5bb8)",
+        "korean": "https://en.namu.wiki/w/\uc190\uc120\uc601|Son Sun-young (\uc190\uc120\uc601)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Kachina_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kachina.webp",
       "birthdayArtPool": [
@@ -115293,19 +115598,30 @@
         "currency": 5377500
       },
       "overviewArtPool": [
-        "../../Database/Nanoka/gi/gcg/character cards/assets/1610-Kachina.webp"
+        "../../Database/Nanoka/gi/gcg/character cards/assets/1610-Kachina.webp",
+        "../../Database/Nanoka/gi/gcg/other cards/assets/332043-Little Tepetlisaur \u2014 Treasure Hunter at Large.webp"
       ],
       "overviewArt": "../../Database/Nanoka/gi/gcg/character cards/assets/1610-Kachina.webp"
     },
     {
       "id": "gi-10000099",
       "n": "Emilie",
+      "localizedNames": {
+        "en": "Emilie"
+      },
       "title": "A Thousand Scents Traced",
       "r": 5,
       "el": "Dendro",
       "w": "Polearm",
       "tag": "FONTAINE",
       "release": 1722960000000,
+      "releasePatch": "4.8",
+      "voiceActors": {
+        "english": "imdb:nm5710428|Amber Aviles",
+        "japanese": "Yoko Hikasa|Hikasa Yoko (\u65e5\u7b20\u967d\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u6728\u5b50\u6a59|Muzi Cheng (\u6728\u5b50\u6a59)",
+        "korean": "https://namu.wiki/w/\uad8c\ub2e4\uc608|Kwon Da-ye (\uad8c\ub2e4\uc608)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Emilie_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Emilie.webp",
       "birthdayArtPool": [
@@ -116722,12 +117038,22 @@
     {
       "id": "gi-10000095",
       "n": "Sigewinne",
+      "localizedNames": {
+        "en": "Sigewinne"
+      },
       "title": "Wondrous Dragonheir",
       "r": 5,
       "el": "Hydro",
       "w": "Bow",
       "tag": "FONTAINE",
       "release": 1719417600000,
+      "releasePatch": "4.7",
+      "voiceActors": {
+        "english": "Sarah Williams",
+        "japanese": "Hina Kino|Kino Hina (\u6728\u91ce\u65e5\u83dc)",
+        "chinese": "https://baike.baidu.com/item/\u8d75\u723d/53245853|Zhao Shuang (\u8d75\u723d)",
+        "korean": "https://namu.wiki/w/\uae40\ucc44\ub9b0|Kim Chae-rin (\uae40\ucc44\ub9b0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Sigewinne_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sigewinne.webp",
       "birthdayArtPool": [
@@ -118836,12 +119162,22 @@
     {
       "id": "gi-10000098",
       "n": "Clorinde",
+      "localizedNames": {
+        "en": "Clorinde"
+      },
       "title": "Candlebearer, Shadowhunter",
       "r": 5,
       "el": "Electro",
       "w": "Sword",
       "tag": "FONTAINE",
       "release": 1717452000000,
+      "releasePatch": "4.7",
+      "voiceActors": {
+        "japanese": "Yui Ishikawa|Ishikawa Yui (\u77f3\u5ddd\u7531\u4f9d)",
+        "chinese": "https://zh.moegirl.org.cn/\u8d75\u6db5\u96e8|Zhao Hanyu (\u8d75\u6db5\u96e8)",
+        "korean": "https://namu.wiki/w/\uc2e0\ub098\ub9ac(\uc131\uc6b0)|Shin Na-ri (\uc2e0\ub098\ub9ac)",
+        "english": "Crystal Lee"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Clorinde_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Clorinde.webp",
       "birthdayArtPool": [
@@ -120950,12 +121286,22 @@
     {
       "id": "gi-10000097",
       "n": "Sethos",
+      "localizedNames": {
+        "en": "Sethos"
+      },
       "title": "Wisdom's Measure",
       "r": 4,
       "el": "Electro",
       "w": "Bow",
       "tag": "SUMERU",
       "release": 1717452000000,
+      "releasePatch": "4.7",
+      "voiceActors": {
+        "english": "https://www.imdb.com/name/nm0954900/|Zeno Robinson",
+        "japanese": "Shoya Chiba|Chiba Shoya (\u5343\u8449\u7fd4\u4e5f)",
+        "chinese": "https://zh.moegirl.org.cn/\u674e\u5170\u9675|Li Lanling (\u674e\u5170\u9675)",
+        "korean": "ko:\uae40\ub3d9\ud604 (CJ ENM \uc131\uc6b0)|Kim Dong-hyun (\uae40\ub3d9\ud604)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Sethos_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sethos.webp",
       "birthdayArtPool": [
@@ -123051,12 +123397,22 @@
     {
       "id": "gi-10000096",
       "n": "Arlecchino",
+      "localizedNames": {
+        "en": "Arlecchino"
+      },
       "title": "Dire Balemoon",
       "r": 5,
       "el": "Pyro",
       "w": "Polearm",
       "tag": "FATUI",
       "release": 1713823200000,
+      "releasePatch": "4.6",
+      "voiceActors": {
+        "english": "Erin Yvette",
+        "japanese": "Nanako Mori|Mori Nanako (\u68ee\u306a\u306a\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u9ec4\u83ba|Huang Ying (\u9ec4\u83ba)",
+        "korean": "ko:\uc774\uba85\ud76c (\uc131\uc6b0)|Lee Myung-hi (\uc774\uba85\ud76c)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
       "birthdayArtPool": [
@@ -125165,12 +125521,22 @@
     {
       "id": "gi-10000094",
       "n": "Chiori",
+      "localizedNames": {
+        "en": "Chiori"
+      },
       "title": "The Thundering Seamstress",
       "r": 5,
       "el": "Geo",
       "w": "Sword",
       "tag": "INAZUMA",
       "release": 1710198000000,
+      "releasePatch": "4.5",
+      "voiceActors": {
+        "english": "Brittany Lauda",
+        "japanese": "Ayana Taketatsu|Taketatsu Ayana (\u7af9\u9054\u5f69\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/\u9648\u9633|Chen Yang (\u9648\u9633)",
+        "korean": "ko:\uc774\ub2e4\uc740|Lee Da-eun (\uc774\ub2e4\uc740)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Chiori_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Chiori.webp",
       "birthdayArtPool": [
@@ -127009,12 +127375,22 @@
     {
       "id": "gi-10000093",
       "n": "Xianyun",
+      "localizedNames": {
+        "en": "Xianyun"
+      },
       "title": "Passerine Herald",
       "r": 5,
       "el": "Anemo",
       "w": "Catalyst",
       "tag": "LIYUE",
       "release": 1706569200000,
+      "releasePatch": "4.4",
+      "voiceActors": {
+        "english": "imdb:nm6234098|Stephanie Panisello",
+        "japanese": "http://amuleto.jp/talents/nakatomimana.html|Nakatomi Mana (\u4e2d\u81e3\u771f\u83dc)",
+        "chinese": "https://zh.moegirl.org.cn/\u79e6\u7d2b\u7ffc|Qin Ziyi (\u79e6\u7d2b\u7ffc)",
+        "korean": "ko:\uac15\uc2dc\ud604|Kang Si-hyun (\uac15\uc2dc\ud604)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Liuyun_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Liuyun.webp",
       "birthdayArtPool": [
@@ -129124,12 +129500,22 @@
     {
       "id": "gi-10000092",
       "n": "Gaming",
+      "localizedNames": {
+        "en": "Gaming"
+      },
       "title": "Leonine Vanguard",
       "r": 4,
       "el": "Pyro",
       "w": "Claymore",
       "tag": "LIYUE",
       "release": 1706569200000,
+      "releasePatch": "4.4",
+      "voiceActors": {
+        "english": "imdb:nm9242088|Caleb Yen",
+        "japanese": "ja:\u5c0f\u677e\u660c\u5e73|Komatsu Shouhei (\u5c0f\u677e\u660c\u5e73)",
+        "chinese": "https://zh.moegirl.org.cn/\u8c22\u83b9|Xie Ying (\u8c22\u83b9)",
+        "korean": "https://namu.wiki/w/\uae40\uc724\uae30(\uc131\uc6b0)|Kim Yoon-gi (\uae40\uc724\uae30)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Gaming_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Gaming.webp",
       "birthdayArtPool": [
@@ -131232,12 +131618,22 @@
     {
       "id": "gi-10000090",
       "n": "Chevreuse",
+      "localizedNames": {
+        "en": "Chevreuse"
+      },
       "title": "Executor of Justice",
       "r": 4,
       "el": "Pyro",
       "w": "Polearm",
       "tag": "FONTAINE",
       "release": 1704819600000,
+      "releasePatch": "4.3",
+      "voiceActors": {
+        "english": "https://www.imdb.com/name/nm6949652/|Erica Lindbeck",
+        "japanese": "Shino Shimoji|Shimoji Shino (\u4e0b\u5730\u7d2b\u91ce)",
+        "chinese": "https://zh.moegirl.org.cn/\u6f58\u4e39\u59ae|Pan Danni (\u6f58\u4e39\u59ae )",
+        "korean": "https://namu.wiki/w/\ucc44\ubbfc\uc9c0|Chae Min-ji (\ucc44\ubbfc\uc9c0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Chevreuse_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Chevreuse.webp",
       "birthdayArtPool": [
@@ -132689,12 +133085,22 @@
     {
       "id": "gi-10000091",
       "n": "Navia",
+      "localizedNames": {
+        "en": "Navia"
+      },
       "title": "Helm of the Radiant Rose",
       "r": 5,
       "el": "Geo",
       "w": "Claymore",
       "tag": "FONTAINE",
       "release": 1702940400000,
+      "releasePatch": "4.3",
+      "voiceActors": {
+        "english": "imdb:nm7446036|Brenna Larsen",
+        "japanese": "Aki Toyosaki|Toyosaki Aki (\u8c4a\u5d0e\u611b\u751f)",
+        "chinese": "https://zh.moegirl.org.cn/\u5c0f\u6562|Xiaogan (\u5c0f\u6562)",
+        "korean": "https://namu.wiki/w/\uc815\ud574\uc740(\uc131\uc6b0)|Jeong Hae-eun (\uc815\ud574\uc740)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Navia_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Navia.webp",
       "birthdayArtPool": [
@@ -134797,12 +135203,22 @@
     {
       "id": "gi-10000089",
       "n": "Furina",
+      "localizedNames": {
+        "en": "Furina"
+      },
       "title": "Endless Solo of Solitude",
       "r": 5,
       "el": "Hydro",
       "w": "Sword",
       "tag": "FONTAINE",
       "release": 1699311600000,
+      "releasePatch": "4.2",
+      "voiceActors": {
+        "english": "https://www.amberleeconnors.com/|Amber Lee Connors",
+        "japanese": "Inori Minase|Minase Inori (\u6c34\u702c\u3044\u306e\u308a)",
+        "chinese": "https://baike.baidu.com/item/\u94b1\u741b/50023226|Qian Chen (\u94b1\u741b)",
+        "korean": "https://namu.wiki/w/\uae40\ud558\uc601|Kim Ha-young (\uae40\ud558\uc601)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Furina_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Furina.webp",
       "birthdayArtPool": [
@@ -136517,12 +136933,22 @@
     {
       "id": "gi-10000088",
       "n": "Charlotte",
+      "localizedNames": {
+        "en": "Charlotte"
+      },
       "title": "Lens of Verity",
       "r": 4,
       "el": "Cryo",
       "w": "Catalyst",
       "tag": "FONTAINE",
       "release": 1699311600000,
+      "releasePatch": "4.2",
+      "voiceActors": {
+        "english": "imdb:nm9702939|Rebecca Wang (Luna IV onwards) & imdb:nm3622625|Maya Aoki Tuttle (Pre-Luna IV)",
+        "japanese": "Azumi Waki|Waki Azumi (\u548c\u6c23\u3042\u305a\u672a)",
+        "chinese": "https://zh.moegirl.org.cn/\u962e\u4ece\u9752|Ruan Congqing (\u962e\u4ece\u9752 )",
+        "korean": "https://namu.wiki/w/\uc2e0\uc628\uc720|Shin On-yu (\uc2e0\uc628\uc720)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Charlotte_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Charlotte.webp",
       "birthdayArtPool": [
@@ -137972,12 +138398,22 @@
     {
       "id": "gi-10000086",
       "n": "Wriothesley",
+      "localizedNames": {
+        "en": "Wriothesley"
+      },
       "title": "Emissary of Solitary Iniquity",
       "r": 5,
       "el": "Cryo",
       "w": "Catalyst",
       "tag": "FONTAINE",
       "release": 1697558400000,
+      "releasePatch": "4.1",
+      "voiceActors": {
+        "english": "Joe Zieja",
+        "japanese": "Daisuke Ono|Ono Daisuke (\u5c0f\u91ce\u5927\u8f14)",
+        "chinese": "zh:\u5218\u5317\u8fb0 (\u914d\u97f3\u5458)|Liu Beichen (\u5218\u5317\u8fb0)",
+        "korean": "https://namu.wiki/w/\uad8c\ucc3d\uc6b1|Kwon Chang-wook (\uad8c\ucc3d\uc6b1)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Wriothesley_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Wriothesley.webp",
       "birthdayArtPool": [
@@ -139429,12 +139865,22 @@
     {
       "id": "gi-10000087",
       "n": "Neuvillette",
+      "localizedNames": {
+        "en": "Neuvillette"
+      },
       "title": "Ordainer of Inexorable Judgment",
       "r": 5,
       "el": "Hydro",
       "w": "Catalyst",
       "tag": "FONTAINE",
       "release": 1695679200000,
+      "releasePatch": "4.1",
+      "voiceActors": {
+        "english": "Ray Chase",
+        "japanese": "Hiroshi Kamiya|Kamiya Hiroshi (\u795e\u8c37\u6d69\u53f2)",
+        "chinese": "https://baike.baidu.com/item/\u6851\u6bd3\u6cfd?timestamp=1688362873971&fromModule=search_box|Sang Yuze (\u6851\u6bd3\u6cfd)",
+        "korean": "https://namu.wiki/w/\uacfd\uc724\uc0c1|Kwak Yoon-sang (\uacfd\uc724\uc0c1)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Neuvillette_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Neuvillette.webp",
       "birthdayArtPool": [
@@ -141547,12 +141993,22 @@
     {
       "id": "gi-10000085",
       "n": "Freminet",
+      "localizedNames": {
+        "en": "Freminet"
+      },
       "title": "Yearning for Unseen Depths",
       "r": 4,
       "el": "Cryo",
       "w": "Claymore",
       "tag": "FONTAINE",
       "release": 1693929600000,
+      "releasePatch": "4.0",
+      "voiceActors": {
+        "english": "https://www.paulcastrojr.com|Paul Castro Jr.",
+        "japanese": "Shun'ichi Toki|Toki Shunichi (\u571f\u5c90\u96bc\u4e00)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u9526\u9ca4|Jinli (\u9526\u9ca4)",
+        "korean": "ko:\uc774\uc8fc\uc2b9_(\uc131\uc6b0)|Lee Ju-seung (\uc774\uc8fc\uc2b9)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Freminet_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Freminet.webp",
       "birthdayArtPool": [
@@ -143659,12 +144115,22 @@
     {
       "id": "gi-10000084",
       "n": "Lyney",
+      "localizedNames": {
+        "en": "Lyney"
+      },
       "title": "Spectacle of Phantasmagoria",
       "r": 5,
       "el": "Pyro",
       "w": "Bow",
       "tag": "FONTAINE",
       "release": 1692050400000,
+      "releasePatch": "4.0",
+      "voiceActors": {
+        "english": "imdb:nm5410860|Daman Mills",
+        "japanese": "Hiro Shimono|Shimono Hiro (\u4e0b\u91ce\u7d18)",
+        "chinese": "https://zh.moegirl.org.cn/\u9526\u9ca4|Jinli (\u9526\u9ca4)",
+        "korean": "https://namu.wiki/w/\ubc15\uc131\uc601|Park Seong-yeong (\ubc15\uc131\uc601)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Liney_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Liney.webp",
       "birthdayArtPool": [
@@ -145771,12 +146237,22 @@
     {
       "id": "gi-10000083",
       "n": "Lynette",
+      "localizedNames": {
+        "en": "Lynette"
+      },
       "title": "Elegance in the Shadows",
       "r": 4,
       "el": "Anemo",
       "w": "Sword",
       "tag": "FONTAINE",
       "release": 1692050400000,
+      "releasePatch": "4.0",
+      "voiceActors": {
+        "english": "Anairis Qui\u00f1ones",
+        "japanese": "Y\u016b Sasahara|Sasahara Yu (\u7be0\u539f\u4f91)",
+        "chinese": "https://zh.moegirl.org.cn/\u53ef\u53ef\u5473|Kekewei (\u53ef\u53ef\u5473)",
+        "korean": "https://namu.wiki/w/\uc774\uc138\ub808\ub098|Lee Serena (\uc774\uc138\ub808\ub098)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Linette_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Linette.webp",
       "birthdayArtPool": [
@@ -147223,12 +147699,22 @@
     {
       "id": "gi-10000061",
       "n": "Kirara",
+      "localizedNames": {
+        "en": "Kirara"
+      },
       "title": "Cat Upon the Eaves",
       "r": 4,
       "el": "Dendro",
       "w": "Sword",
       "tag": "INAZUMA",
       "release": 1684792800000,
+      "releasePatch": "3.7",
+      "voiceActors": {
+        "english": "imdb:nm12824498|Julia Gu",
+        "japanese": "Sayumi Suzushiro| Suzushiro Sayumi (\u9234\u4ee3\u7d17\u5f13)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5b59\u8273\u7426|Sun Yanqi (\u5b59\u8273\u7426)",
+        "korean": "ko:\uac15\uc740\uc560|Kang Eun-ae (\uac15\uc740\uc560)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Momoka_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Momoka.webp",
       "birthdayArtPool": [
@@ -149038,12 +149524,22 @@
     {
       "id": "gi-10000082",
       "n": "Baizhu",
+      "localizedNames": {
+        "en": "Baizhu"
+      },
       "title": "Beyond Mortality",
       "r": 5,
       "el": "Dendro",
       "w": "Catalyst",
       "tag": "LIYUE",
       "release": 1683043200000,
+      "releasePatch": "3.6",
+      "voiceActors": {
+        "english": "imdb:nm2257743|Sean Durrie",
+        "japanese": "K\u014dji Yusa|Yusa Koji (\u904a\u4f50\u6d69\u4e8c)",
+        "chinese": "https://zh.moegirl.org.cn/\u79e6\u4e14\u6b4c|Qin Qiege (\u79e6\u4e14\u6b4c)",
+        "korean": "ko:\uc774\ud638\uc0b0|Yi Ho-san (\uc774\ud638\uc0b0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Baizhuer_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Baizhuer.webp",
       "birthdayArtPool": [
@@ -151116,12 +151612,22 @@
     {
       "id": "gi-10000081",
       "n": "Kaveh",
+      "localizedNames": {
+        "en": "Kaveh"
+      },
       "title": "Empyrean Reflection",
       "r": 4,
       "el": "Dendro",
       "w": "Claymore",
       "tag": "SUMERU",
       "release": 1683043200000,
+      "releasePatch": "3.6",
+      "voiceActors": {
+        "english": "https://www.benbevoicing.com/|Ben Balmaceda",
+        "japanese": "Yuma Uchida|Uchida Yuma (\u5185\u7530\u96c4\u99ac)",
+        "chinese": "https://zh.moegirl.org.cn/\u5218\u4e09\u6728|Liu Sanmu (\u5218\u4e09\u6728)",
+        "korean": "https://namu.wiki/w/\uc774\uc815\ubbfc(\uc131\uc6b0)|Lee Jeong-min (\uc774\uc815\ubbfc)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Kaveh_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kaveh.webp",
       "birthdayArtPool": [
@@ -153201,12 +153707,22 @@
     {
       "id": "gi-10000080",
       "n": "Mika",
+      "localizedNames": {
+        "en": "Mika"
+      },
       "title": "Coordinates of Clear Frost",
       "r": 4,
       "el": "Cryo",
       "w": "Polearm",
       "tag": "MONDSTADT",
       "release": 1679418000000,
+      "releasePatch": "3.5",
+      "voiceActors": {
+        "english": "imdb:nm11454647|Robb Moreira",
+        "japanese": "Y\u016bko Sanpei|Sanpei Yuuko (\u4e09\u74f6\u7531\u5e03\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u9093\u5ba5\u5e0c|Deng Youxi (\u9093\u5ba5\u5e0c)",
+        "korean": "ko:\uc724\uc740\uc11c|Yoon Eun-seo (\uc724\uc740\uc11c)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Mika_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mika.webp",
       "birthdayArtPool": [
@@ -155305,12 +155821,22 @@
     {
       "id": "gi-10000079",
       "n": "Dehya",
+      "localizedNames": {
+        "en": "Dehya"
+      },
       "title": "Flame-Mane",
       "r": 5,
       "el": "Pyro",
       "w": "Claymore",
       "tag": "SUMERU",
       "release": 1677538800000,
+      "releasePatch": "3.5",
+      "voiceActors": {
+        "english": "imdb:nm6442558|Amber May",
+        "japanese": "Ayaka Fukuhara|Fukuhara Ayaka (\u798f\u539f\u7dbe\u9999)",
+        "chinese": "https://mzh.moegirl.org.cn/zh-hans/%E9%99%88%E9%9B%A8|Chen Yu (\u9648\u96e8)",
+        "korean": "ko:\uae40\ud604\uc2ec|Kim Hyeon-sim (\uae40\ud604\uc2ec)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Dehya_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Dehya.webp",
       "birthdayArtPool": [
@@ -157411,12 +157937,22 @@
     {
       "id": "gi-10000078",
       "n": "Alhaitham",
+      "localizedNames": {
+        "en": "Alhaitham"
+      },
       "title": "Admonishing Instruction",
       "r": 5,
       "el": "Dendro",
       "w": "Sword",
       "tag": "SUMERU",
       "release": 1673910000000,
+      "releasePatch": "3.4",
+      "voiceActors": {
+        "english": "imdb:nm5941822|Nazeeh Tarsha",
+        "japanese": "Y\u016bichir\u014d Umehara|Umehara Yuuichirou (\u6885\u539f\u88d5\u4e00\u90ce)",
+        "chinese": "https://zh.moegirl.org.cn/\u6768\u8d85\u7136|Yang Chaoran (\u6768\u8d85\u7136)",
+        "korean": "ko:\uc804\uc2b9\ud654|Jun Seung-hwa (\uc804\uc2b9\ud654)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Alhatham_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alhatham.webp",
       "birthdayArtPool": [
@@ -159486,12 +160022,22 @@
     {
       "id": "gi-10000077",
       "n": "Yaoyao",
+      "localizedNames": {
+        "en": "Yaoyao"
+      },
       "title": "Burgeoning Grace",
       "r": 4,
       "el": "Dendro",
       "w": "Polearm",
       "tag": "LIYUE",
       "release": 1673910000000,
+      "releasePatch": "3.4",
+      "voiceActors": {
+        "english": "https://www.kelseyjaffer.com/|Kelsey Jaffer",
+        "japanese": "Mai Kadowaki|Kadowaki Mai (\u9580\u8107\u821e\u4ee5)",
+        "chinese": "https://zh.moegirl.org.cn/\u5218\u6674|Liu Yinuo (\u5218\u9890\u8bfa)",
+        "korean": "https://namu.wiki/w/\uc720\ud61c\uc9c0|Yu Hye-ji (\uc720\ud61c\uc9c0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Yaoyao_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Yaoyao.webp",
       "birthdayArtPool": [
@@ -161559,12 +162105,22 @@
     {
       "id": "gi-10000075",
       "n": "Wanderer",
+      "localizedNames": {
+        "en": "Wanderer"
+      },
       "title": "Eons Adrift",
       "r": 5,
       "el": "Anemo",
       "w": "Catalyst",
       "tag": "SUMERU",
       "release": 1670281200000,
+      "releasePatch": "3.3",
+      "voiceActors": {
+        "english": "imdb:nm2533639|Patrick Pedraza",
+        "japanese": "Tetsuya Kakihara|Kakihara Tetsuya (\u67ff\u539f\u5fb9\u4e5f)",
+        "chinese": "https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+        "korean": "ko:\ubbfc\uc2b9\uc6b0|Min Seung-woo (\ubbfc\uc2b9\uc6b0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Wanderer_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Wanderer.webp",
       "birthdayArtPool": [
@@ -163535,12 +164091,22 @@
     {
       "id": "gi-10000076",
       "n": "Faruzan",
+      "localizedNames": {
+        "en": "Faruzan"
+      },
       "title": "Enigmatic Machinist",
       "r": 4,
       "el": "Anemo",
       "w": "Bow",
       "tag": "SUMERU",
       "release": 1670281200000,
+      "releasePatch": "3.3",
+      "voiceActors": {
+        "english": "imdb:nm9548844|Chandni Parekh",
+        "japanese": "Yui Horie|Horie Yui (\u5800\u6c5f\u7531\u8863)",
+        "chinese": "https://zh.moegirl.org.cn/zh-tw/%E9%98%8E%E8%90%8C%E8%90%8C|Yan Mengmeng (\u960e\u840c\u840c)",
+        "korean": "ko:\uae40\uc720\ub9bc_(\uc131\uc6b0)|Kim Yu-rim (\uae40\uc720\ub9bc)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Faruzan_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Faruzan.webp",
       "birthdayArtPool": [
@@ -165639,12 +166205,22 @@
     {
       "id": "gi-10000074",
       "n": "Layla",
+      "localizedNames": {
+        "en": "Layla"
+      },
       "title": "Fantastical Evening Star",
       "r": 4,
       "el": "Cryo",
       "w": "Sword",
       "tag": "SUMERU",
       "release": 1668790800000,
+      "releasePatch": "3.2",
+      "voiceActors": {
+        "english": "imdb:nm4945801|Ashely Biski",
+        "japanese": "Miyu Tomita|Tomita Miyu (\u5bcc\u7530\u7f8e\u6182)",
+        "chinese": "https://baike.baidu.com/item/\u4faf\u5c0f\u83f2|Hou Xiaofei (\u4faf\u5c0f\u83f2)",
+        "korean": "https://namu.wiki/w/\uac15\uc0c8\ubd04|Kang Sae-bom (\uac15\uc0c8\ubd04)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Layla_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Layla.webp",
       "birthdayArtPool": [
@@ -167746,12 +168322,22 @@
     {
       "id": "gi-10000073",
       "n": "Nahida",
+      "localizedNames": {
+        "en": "Nahida"
+      },
       "title": "Physic of Purity",
       "r": 5,
       "el": "Dendro",
       "w": "Catalyst",
       "tag": "SUMERU",
       "release": 1667257200000,
+      "releasePatch": "3.2",
+      "voiceActors": {
+        "english": "imdb:nm5280239|Kimberley Anne Campbell",
+        "japanese": "Yukari Tamura|Tamura Yukari (\u7530\u6751\u3086\u304b\u308a)",
+        "chinese": "zh:\u82b1\u73b2|Hualing (\u82b1\u73b2)",
+        "korean": "ko:\ubc15\uc2dc\uc724_(\uc131\uc6b0)|Park Shi-yoon (\ubc15\uc2dc\uc724)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Nahida_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nahida.webp",
       "birthdayArtPool": [
@@ -169820,12 +170406,22 @@
     {
       "id": "gi-10000070",
       "n": "Nilou",
+      "localizedNames": {
+        "en": "Nilou"
+      },
       "title": "Dance of Lotuslight",
       "r": 5,
       "el": "Hydro",
       "w": "Sword",
       "tag": "SUMERU",
       "release": 1665763200000,
+      "releasePatch": "3.1",
+      "voiceActors": {
+        "english": "Dani Chambers",
+        "japanese": "Hisako Kanemoto|Kanemoto Hisako (\u91d1\u5143\u5bff\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/zh-tw/%E7%B4%AB%E8%8B%8F%E4%B9%9D%E6%9C%88|Zisu Jiuyue (\u7d2b\u82cf\u4e5d\u6708)",
+        "korean": "https://namu.wiki/w/\ucc44\ub9bc(\uc131\uc6b0)|Chae Rim (\ucc44\ub9bc)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Nilou_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nilou.webp",
       "birthdayArtPool": [
@@ -171940,12 +172536,22 @@
     {
       "id": "gi-10000071",
       "n": "Cyno",
+      "localizedNames": {
+        "en": "Cyno"
+      },
       "title": "Judicator of Secrets",
       "r": 5,
       "el": "Electro",
       "w": "Polearm",
       "tag": "SUMERU",
       "release": 1664229600000,
+      "releasePatch": "3.1",
+      "voiceActors": {
+        "english": "Alejandro Saab",
+        "japanese": "Miyu Irino|Irino Miyu (\u5165\u91ce\u81ea\u7531)",
+        "chinese": "https://zh.moegirl.org.cn/\u674e\u8f7b\u626c|Li Qingyang (\u674e\u8f7b\u626c)",
+        "korean": "ko:\uc815\uc758\uc9c4|Jung Eui-jin (\uc815\uc758\uc9c4) & https://namu.wiki/w/\uc774\uc6b0\ub9ac|Lee Woo-ri (\uc774\uc6b0\ub9ac)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Cyno_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Cyno.webp",
       "birthdayArtPool": [
@@ -174058,12 +174664,22 @@
     {
       "id": "gi-10000072",
       "n": "Candace",
+      "localizedNames": {
+        "en": "Candace"
+      },
       "title": "Golden Vow",
       "r": 4,
       "el": "Hydro",
       "w": "Polearm",
       "tag": "SUMERU",
       "release": 1664229600000,
+      "releasePatch": "3.1",
+      "voiceActors": {
+        "english": "imdb:nm5338039|Heather Gonzalez",
+        "japanese": "Ryoka Yuzuki|Yuzuki Ryoka (\u67da\u6728\u6dbc\u9999)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u7426|Zhang Qi (\u5f20\u7426)",
+        "korean": "ko:\uc804\uc601\uc218|Jun Young-soo (\uc804\uc601\uc218)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Candace_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Candace.webp",
       "birthdayArtPool": [
@@ -176177,12 +176793,22 @@
     {
       "id": "gi-10000068",
       "n": "Dori",
+      "localizedNames": {
+        "en": "Dori"
+      },
       "title": "Treasure of Dream Garden",
       "r": 4,
       "el": "Electro",
       "w": "Claymore",
       "tag": "SUMERU",
       "release": 1662739200000,
+      "releasePatch": "3.0",
+      "voiceActors": {
+        "english": "imdb:nm10698863|Anjali Kunapaneni",
+        "japanese": "https://across-ent.com/talent/women/tomoko_kaneda.html|Kaneda Tomoko (\u91d1\u7530\u670b\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u738b\u6653\u5f64|Wang Xiaotong (\u738b\u6653\u5f64)",
+        "korean": "https://namu.wiki/w/\uc774\uba85\ud638(KBS%20\uc131\uc6b0)|Lee Myeong-ho (\uc774\uba85\ud638)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Dori_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Dori.webp",
       "birthdayArtPool": [
@@ -178298,12 +178924,22 @@
     {
       "id": "gi-10000069",
       "n": "Tighnari",
+      "localizedNames": {
+        "en": "Tighnari"
+      },
       "title": "Verdant Strider",
       "r": 5,
       "el": "Dendro",
       "w": "Bow",
       "tag": "SUMERU",
       "release": 1661292000000,
+      "releasePatch": "3.0",
+      "voiceActors": {
+        "english": "imdb:nm2325393|Zachary Gordon",
+        "japanese": "Sanae Kobayashi|Kobayashi Sanae (\u5c0f\u6797\u6c99\u82d7)",
+        "chinese": "https://zh.moegirl.org.cn/zh-tw/\u83ab\u7136|Moran (\u83ab\u7136)",
+        "korean": "https://namu.wiki/w/\uc815\uc758\ud0dd|Jung Ui-taek (\uc815\uc758\ud0dd)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Tighnari_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Tighnari.webp",
       "birthdayArtPool": [
@@ -180386,12 +181022,22 @@
     {
       "id": "gi-10000067",
       "n": "Collei",
+      "localizedNames": {
+        "en": "Collei"
+      },
       "title": "Sprout of Rebirth",
       "r": 4,
       "el": "Dendro",
       "w": "Bow",
       "tag": "SUMERU",
       "release": 1661292000000,
+      "releasePatch": "3.0",
+      "voiceActors": {
+        "english": "https://www.christinacostello.net|Christina Costello",
+        "japanese": "https://www.atomicmonkey.jp/jp/archives/talent/maekawaryoko|Maekawa Ryoko (\u524d\u5ddd\u6dbc\u5b50)",
+        "chinese": "https://mzh.moegirl.org.cn/zh-hans/%E7%A7%A6%E6%96%87%E9%9D%99|Qin Wenjing (\u79e6\u6587\u9759)",
+        "korean": "https://namu.wiki/w/\ubc29\uc2dc\uc6b0|Bang Siu (\ubc29\uc2dc\uc6b0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Collei_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Collei.webp",
       "birthdayArtPool": [
@@ -182209,12 +182855,22 @@
     {
       "id": "gi-10000059",
       "n": "Shikanoin Heizou",
+      "localizedNames": {
+        "en": "Shikanoin Heizou"
+      },
       "title": "Analytical Harmony",
       "r": 4,
       "el": "Anemo",
       "w": "Catalyst",
       "tag": "INAZUMA",
       "release": 1657663200000,
+      "releasePatch": "2.8",
+      "voiceActors": {
+        "english": "https://www.kieranregan.com/|Kieran Regan",
+        "japanese": "Y\u016bichi Iguchi|Iguchi Yuuichi (\u4e95\u53e3\u7950\u4e00)",
+        "chinese": "https://mzh.moegirl.org.cn/zh-hans/%E6%9E%97%E6%99%AF|Lin Jing (\u6797\u666f)",
+        "korean": "ko:\uc815\uc758\uc9c4|Jung Eui-jin (\uc815\uc758\uc9c4)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Heizo_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Heizo.webp",
       "birthdayArtPool": [
@@ -184329,12 +184985,22 @@
     {
       "id": "gi-10000065",
       "n": "Kuki Shinobu",
+      "localizedNames": {
+        "en": "Kuki Shinobu"
+      },
       "title": "Mender of Tribulations",
       "r": 4,
       "el": "Electro",
       "w": "Sword",
       "tag": "INAZUMA",
       "release": 1655827200000,
+      "releasePatch": "2.7",
+      "voiceActors": {
+        "english": "Kira Buckland",
+        "japanese": "Kaori Mizuhashi|Mizuhashi Kaori (\u6c34\u6a4b\u304b\u304a\u308a)",
+        "chinese": "https://baike.baidu.com/item/\u6768\u51dd/20394525|Yang Ning (\u6768\u51dd)",
+        "korean": "ko:\uae40\uc728|Kim Yool (\uae40\uc728)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Shinobu_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Shinobu.webp",
       "birthdayArtPool": [
@@ -186185,12 +186851,22 @@
     {
       "id": "gi-10000060",
       "n": "Yelan",
+      "localizedNames": {
+        "en": "Yelan"
+      },
       "title": "Valley Orchid",
       "r": 5,
       "el": "Hydro",
       "w": "Bow",
       "tag": "LIYUE",
       "release": 1653948000000,
+      "releasePatch": "2.7",
+      "voiceActors": {
+        "english": "Laura Post",
+        "japanese": "Aya End\u014d|Endou Aya (\u9060\u85e4\u7dbe)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f90\u6167|Xu Hui (\u5f90\u6167)",
+        "korean": "ko:\ubbfc\uc544 (\uc131\uc6b0)|Min Ah (\ubbfc\uc544)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Yelan_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Yelan.webp",
       "birthdayArtPool": [
@@ -188304,12 +188980,22 @@
     {
       "id": "gi-10000066",
       "n": "Kamisato Ayato",
+      "localizedNames": {
+        "en": "Kamisato Ayato"
+      },
       "title": "Pillar of Fortitude",
       "r": 5,
       "el": "Hydro",
       "w": "Sword",
       "tag": "INAZUMA",
       "release": 1648591200000,
+      "releasePatch": "2.6",
+      "voiceActors": {
+        "english": "imdb:nm5804925|Chris Hackney",
+        "japanese": "Akira Ishida|Ishida Akira (\u77f3\u7530\u5f70)",
+        "chinese": "https://zh.moegirl.org.cn/\u8d75\u8def|Zhao Lu (\u8d75\u8def)",
+        "korean": "Jang Min-hyeok|Jang Min-hyeok (\uc7a5\ubbfc\ud601)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Ayato_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ayato.webp",
       "birthdayArtPool": [
@@ -190291,12 +190977,22 @@
     {
       "id": "gi-10000058",
       "n": "Yae Miko",
+      "localizedNames": {
+        "en": "Yae Miko"
+      },
       "title": "Astute Amusement",
       "r": 5,
       "el": "Electro",
       "w": "Catalyst",
       "tag": "INAZUMA",
       "release": 1644966000000,
+      "releasePatch": "2.5",
+      "voiceActors": {
+        "english": "imdb:nm4861536|Ratana",
+        "japanese": "Ayane Sakura|Sakura Ayane (ja=\u4f50\u5009\u7dbe\u97f3)",
+        "chinese": "https://zh.moegirl.org.cn/\u675c\u51a5\u9e26|Du Mingya (zh=\u675c\u51a5\u9e26)",
+        "korean": "ko:\ubb38\uc720\uc815|Moon Yoo-jung (ko=\ubb38\uc720\uc815)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Yae_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Yae.webp",
       "birthdayArtPool": [
@@ -192280,12 +192976,22 @@
     {
       "id": "gi-10000063",
       "n": "Shenhe",
+      "localizedNames": {
+        "en": "Shenhe"
+      },
       "title": "Lonesome Transcendence",
       "r": 5,
       "el": "Cryo",
       "w": "Polearm",
       "tag": "LIYUE",
       "release": 1641337200000,
+      "releasePatch": "2.4",
+      "voiceActors": {
+        "english": "https://www.chelseakwoka.com/|Chelsea Kwoka",
+        "japanese": "Ayako Kawasumi|Kawasumi Ayako (\u5ddd\u6f84\u7dbe\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u79e6\u7d2b\u7ffc|Qin Ziyi (\u79e6\u7d2b\u7ffc)",
+        "korean": "ko:\uc774\ud604\uc9c4 (\uc131\uc6b0)|Lee Hyeon-jin (\uc774\ud604\uc9c4)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Shenhe_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Shenhe.webp",
       "birthdayArtPool": [
@@ -194007,12 +194713,22 @@
     {
       "id": "gi-10000064",
       "n": "Yun Jin",
+      "localizedNames": {
+        "en": "Yun Jin"
+      },
       "title": "Stage Lucida",
       "r": 4,
       "el": "Geo",
       "w": "Polearm",
       "tag": "LIYUE",
       "release": 1641337200000,
+      "releasePatch": "2.4",
+      "voiceActors": {
+        "english": "https://www.judyalicelee.com/|Judy Alice Lee",
+        "japanese": "Kotori Koiwai|Koiwai Kotori (\u5c0f\u5ca9\u4e95\u3053\u3068\u308a)",
+        "chinese": "https://zh.moegirl.org.cn/\u8d3a\u6587\u6f47|He Wenxiao (\u8d3a\u6587\u6f47)",
+        "korean": "ko:\uc0ac\ubb38\uc601|Sah Moon-young (\uc0ac\ubb38\uc601)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Yunjin_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Yunjin.webp",
       "birthdayArtPool": [
@@ -196129,12 +196845,22 @@
     {
       "id": "gi-10000057",
       "n": "Arataki Itto",
+      "localizedNames": {
+        "en": "Arataki Itto"
+      },
       "title": "Hanamizaka Heroics",
       "r": 5,
       "el": "Geo",
       "w": "Claymore",
       "tag": "INAZUMA",
       "release": 1639501200000,
+      "releasePatch": "2.3",
+      "voiceActors": {
+        "english": "Max Mittelman",
+        "japanese": "Takanori Nishikawa|Nishikawa Takanori (\u897f\u5ddd\u8cb4\u6559)",
+        "chinese": "https://zh.moegirl.org.cn/\u5218\u7167\u5764|Liu Zhaokun (\u5218\u7167\u5764)",
+        "korean": "Song Joon-seok|Song Jun-seok (\uc1a1\uc900\uc11d)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Itto_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Itto.webp",
       "birthdayArtPool": [
@@ -198252,12 +198978,22 @@
     {
       "id": "gi-10000055",
       "n": "Gorou",
+      "localizedNames": {
+        "en": "Gorou"
+      },
       "title": "Canine Warrior",
       "r": 4,
       "el": "Geo",
       "w": "Bow",
       "tag": "INAZUMA",
       "release": 1639501200000,
+      "releasePatch": "2.3",
+      "voiceActors": {
+        "english": "https://www.coryyee.com/|Cory Yee",
+        "japanese": "Tasuku Hatanaka|Hatanaka Tasuku (\u7560\u4e2d\u7950)",
+        "chinese": "https://zh.moegirl.org.cn/\u6768\u6615\u71c3|Yang Xinran (\u6768\u6615\u71c3)",
+        "korean": "ko:\uc774\uc0c8\ubcbd|Lee Sae-byeok (\uc774\uc0c8\ubcbd)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Gorou_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Gorou.webp",
       "birthdayArtPool": [
@@ -200110,12 +200846,22 @@
     {
       "id": "gi-10000050",
       "n": "Thoma",
+      "localizedNames": {
+        "en": "Thoma"
+      },
       "title": "Protector From Afar",
       "r": 4,
       "el": "Pyro",
       "w": "Polearm",
       "tag": "INAZUMA",
       "release": 1635872400000,
+      "releasePatch": "2.2",
+      "voiceActors": {
+        "english": "imdb:nm10744245|Christian Banas",
+        "japanese": "Masakazu Morita|Morita Masakazu (ja=\u68ee\u7530\u6210\u4e00)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u6c9b|Zhang Pei (zh=\u5f20\u6c9b)",
+        "korean": "ko:\ub958\uc2b9\uace4|Ryu Seung-kon (ko=\ub958\uc2b9\uace4)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Tohma_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Tohma.webp",
       "birthdayArtPool": [
@@ -202232,12 +202978,22 @@
     {
       "id": "gi-10000054",
       "n": "Sangonomiya Kokomi",
+      "localizedNames": {
+        "en": "Sangonomiya Kokomi"
+      },
       "title": "Pearl of Wisdom",
       "r": 5,
       "el": "Hydro",
       "w": "Catalyst",
       "tag": "INAZUMA",
       "release": 1632240000000,
+      "releasePatch": "2.1",
+      "voiceActors": {
+        "english": "imdb:nm10862160|Risa Mei",
+        "japanese": "Suzuko Mimori|Mimori Suzuko (\u4e09\u68ee\u3059\u305a\u3053)",
+        "chinese": "https://zh.moegirl.org.cn/\u9f9f\u5a18|Guiniang (\u9f9f\u5a18)",
+        "korean": "ko:\uc5ec\uc724\ubbf8|Yeo Yoon-mi (\uc5ec\uc724\ubbf8)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Kokomi_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kokomi.webp",
       "birthdayArtPool": [
@@ -204090,12 +204846,22 @@
     {
       "id": "gi-10000052",
       "n": "Raiden Shogun",
+      "localizedNames": {
+        "en": "Raiden Shogun"
+      },
       "title": "Plane of Euthymia",
       "r": 5,
       "el": "Electro",
       "w": "Polearm",
       "tag": "INAZUMA",
       "release": 1630447200000,
+      "releasePatch": "2.1",
+      "voiceActors": {
+        "english": "imdb:nm3304361|Anne Yatco",
+        "japanese": "Miyuki Sawashiro|Sawashiro Miyuki (\u6ca2\u57ce\u307f\u3086\u304d)",
+        "chinese": "https://zh.moegirl.org.cn/\u83ca\u82b1\u82b1|Juhuahua (\u83ca\u82b1\u82b1)",
+        "korean": "ko:\ubc15\uc9c0\uc724_(\uc131\uc6b0)|Park Ji-yoon (\ubc15\uc9c0\uc724)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Shougun_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Shougun.webp",
       "birthdayArtPool": [
@@ -206082,12 +206848,22 @@
     {
       "id": "gi-10000056",
       "n": "Kujou Sara",
+      "localizedNames": {
+        "en": "Kujou Sara"
+      },
       "title": "Crowfeather Kaburaya",
       "r": 4,
       "el": "Electro",
       "w": "Bow",
       "tag": "INAZUMA",
       "release": 1630447200000,
+      "releasePatch": "2.1",
+      "voiceActors": {
+        "english": "imdb:nm7429639|Jeannie Tirado",
+        "japanese": "Asami Seto|Seto Asami (\u702c\u6238\u9ebb\u6c99\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/\u6768\u68a6\u9732|Yang Menglu (\u6768\u68a6\u9732)",
+        "korean": "ko:\ubb38\uc9c0\uc601|Moon Ji-young (\ubb38\uc9c0\uc601)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Sara_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sara.webp",
       "birthdayArtPool": [
@@ -208202,12 +208978,22 @@
     {
       "id": "gi-10000049",
       "n": "Yoimiya",
+      "localizedNames": {
+        "en": "Yoimiya"
+      },
       "title": "Frolicking Flames",
       "r": 5,
       "el": "Pyro",
       "w": "Bow",
       "tag": "INAZUMA",
       "release": 1628611200000,
+      "releasePatch": "2.0",
+      "voiceActors": {
+        "english": "imdb:nm7095498|Jenny Yokobori",
+        "japanese": "Kana Ueda|Ueda Kana (\u690d\u7530\u4f73\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hant/%E9%87%91%E5%A8%9C|Jin Na (\u91d1\u5a1c)",
+        "korean": "Bak Sin-hee|Park Shin-hee (\ubc15\uc2e0\ud76c)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Yoimiya_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Yoimiya.webp",
       "birthdayArtPool": [
@@ -210324,12 +211110,22 @@
     {
       "id": "gi-10000053",
       "n": "Sayu",
+      "localizedNames": {
+        "en": "Sayu"
+      },
       "title": "Mujina Ninja",
       "r": 4,
       "el": "Anemo",
       "w": "Claymore",
       "tag": "INAZUMA",
       "release": 1628611200000,
+      "releasePatch": "2.0",
+      "voiceActors": {
+        "english": "Lilypichu (Lily Ki)",
+        "japanese": "Aya Suzaki|Suzaki Aya (\u6d32\u5d0e\u7dbe)",
+        "chinese": "https://mzh.moegirl.org.cn/zh-hans/Sakula%E5%B0%8F%E8%88%9E|Sakula\u5c0f\u821e",
+        "korean": "ko:\uc774\uc9c0\ud604 (\uc131\uc6b0)|Lee Ji-hyeon (\uc774\uc9c0\ud604)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Sayu_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sayu.webp",
       "birthdayArtPool": [
@@ -212049,12 +212845,22 @@
     {
       "id": "gi-10000002",
       "n": "Kamisato Ayaka",
+      "localizedNames": {
+        "en": "Kamisato Ayaka"
+      },
       "title": "Frostflake Heron",
       "r": 5,
       "el": "Cryo",
       "w": "Sword",
       "tag": "INAZUMA",
       "release": 1626818400000,
+      "releasePatch": "2.0",
+      "voiceActors": {
+        "english": "Erica Mendez",
+        "japanese": "Saori Hayami|Hayami Saori (\u65e9\u898b\u6c99\u7e54)",
+        "chinese": "https://zh.moegirl.org.cn/\u5c0fN|Xiao N (\u5c0fN)",
+        "korean": "ko:\uc774\uc720\ub9ac_(\uc131\uc6b0)|Lee Yoo-ri (\uc774\uc720\ub9ac)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Ayaka_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ayaka.webp",
       "birthdayArtPool": [
@@ -214040,12 +214846,22 @@
     {
       "id": "gi-10000047",
       "n": "Kaedehara Kazuha",
+      "localizedNames": {
+        "en": "Kaedehara Kazuha"
+      },
       "title": "Scarlet Leaves Pursue Wild Waves",
       "r": 5,
       "el": "Anemo",
       "w": "Sword",
       "tag": "INAZUMA",
       "release": 1624982400000,
+      "releasePatch": "1.6",
+      "voiceActors": {
+        "english": "imdb:nm4008536|Mark Whitten",
+        "japanese": "Nobunaga Shimazaki|Shimazaki Nobunaga (\u5cf6\ufa11\u4fe1\u9577)",
+        "chinese": "https://zh.moegirl.org.cn/\u9a6c\u6591\u9a6c|Banma (\u6591\u9a6c)",
+        "korean": "ko:\uae40\uc2e0\uc6b0 (\uc131\uc6b0)|Kim Shin-woo (\uae40\uc2e0\uc6b0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Kazuha_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kazuha.webp",
       "birthdayArtPool": [
@@ -216161,12 +216977,22 @@
     {
       "id": "gi-10000051",
       "n": "Eula",
+      "localizedNames": {
+        "en": "Eula"
+      },
       "title": "Dance of the Shimmering Wave",
       "r": 5,
       "el": "Cryo",
       "w": "Claymore",
       "tag": "MONDSTADT",
       "release": 1621353600000,
+      "releasePatch": "1.5",
+      "voiceActors": {
+        "english": "imdb:nm10931637|Suzie Yeung",
+        "japanese": "Rina Sat\u014d|Satou Rina (\u4f50\u85e4\u5229\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/\u5b50\u97f3|Ziyin (\u5b50\u97f3)",
+        "korean": "ko:\uae40\ud604\uc9c0 (\uc131\uc6b0)|Kim Hyeon-ji (\uae40\ud604\uc9c0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Eula_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Eula.webp",
       "birthdayArtPool": [
@@ -218282,12 +219108,22 @@
     {
       "id": "gi-10000048",
       "n": "Yanfei",
+      "localizedNames": {
+        "en": "Yanfei"
+      },
       "title": "Wise Innocence",
       "r": 4,
       "el": "Pyro",
       "w": "Catalyst",
       "tag": "LIYUE",
       "release": 1619474400000,
+      "releasePatch": "1.5",
+      "voiceActors": {
+        "english": "imdb:nm5213242|Lizzie Freeman",
+        "japanese": "Yumiri Hanamori|Hanamori Yumiri (ja=\u82b1\u5b88\u3086\u307f\u308a)",
+        "chinese": "https://zh.moegirl.org.cn/zh-tw/%E5%90%B4%E7%A7%8B%E9%9F%B5|Su Ziwu (zh=\u82cf\u5b50\u829c)",
+        "korean": "ko:\uc870\uacbd\uc774|Jo Kyeong-i (ko=\uc870\uacbd\uc774)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Feiyan_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Feiyan.webp",
       "birthdayArtPool": [
@@ -220403,12 +221239,22 @@
     {
       "id": "gi-10000045",
       "n": "Rosaria",
+      "localizedNames": {
+        "en": "Rosaria"
+      },
       "title": "Thorny Benevolence",
       "r": 4,
       "el": "Cryo",
       "w": "Polearm",
       "tag": "MONDSTADT",
       "release": 1617724800000,
+      "releasePatch": "1.4",
+      "voiceActors": {
+        "english": "imdb:nm1752885|Elizabeth Maxwell",
+        "japanese": "Ai Kakuma|Kakuma Ai (\u52a0\u9688\u4e9c\u8863)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u5b89\u742a|Zhang Anqi (\u5f20\u5b89\u742a)",
+        "korean": "ko:\uae40\ubcf4\ub098|Kim Bo-na (\uae40\ubcf4\ub098)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Rosaria_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Rosaria.webp",
       "birthdayArtPool": [
@@ -222525,12 +223371,22 @@
     {
       "id": "gi-10000046",
       "n": "Hu Tao",
+      "localizedNames": {
+        "en": "Hu Tao"
+      },
       "title": "Fragrance in Thaw",
       "r": 5,
       "el": "Pyro",
       "w": "Polearm",
       "tag": "LIYUE",
       "release": 1614704400000,
+      "releasePatch": "1.3",
+      "voiceActors": {
+        "english": "imdb:nm3729637|Brianna Knickerbocker",
+        "japanese": "Rie Takahashi|Takahashi Rie (\u9ad8\u6a4b\u674e\u4f9d)",
+        "chinese": "zh:\u9676\u5178|Tao Dian (\u9676\u5178)",
+        "korean": "ko:\uae40\ud558\ub8e8|Kim Ha-ru (\uae40\ud558\ub8e8)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Hutao_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Hutao.webp",
       "birthdayArtPool": [
@@ -224252,12 +225108,22 @@
     {
       "id": "gi-10000026",
       "n": "Xiao",
+      "localizedNames": {
+        "en": "Xiao"
+      },
       "title": "Vigilant Yaksha",
       "r": 5,
       "el": "Anemo",
       "w": "Polearm",
       "tag": "LIYUE",
       "release": 1612220400000,
+      "releasePatch": "1.3",
+      "voiceActors": {
+        "english": "imdb:nm5389637|Laila Berzins",
+        "japanese": "Yoshitsugu Matsuoka|Matsuoka Yoshitsugu (\u677e\u5ca1\u798e\u4e1e)",
+        "chinese": "https://zh.moegirl.org.cn/zh-cn/Kinsen|kinsen",
+        "korean": "ko:\uc2ec\uaddc\ud601|Shim Kyu-hyeok (\uc2ec\uaddc\ud601)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Xiao_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xiao.webp",
       "birthdayArtPool": [
@@ -226377,12 +227243,22 @@
     {
       "id": "gi-10000037",
       "n": "Ganyu",
+      "localizedNames": {
+        "en": "Ganyu"
+      },
       "title": "Plenilune Gaze",
       "r": 5,
       "el": "Cryo",
       "w": "Bow",
       "tag": "LIYUE",
       "release": 1610470800000,
+      "releasePatch": "1.2",
+      "voiceActors": {
+        "english": "imdb:nm15054695|Rachel Lepore (Luna IV onwards) & imdb:nm1545196|Jennifer Losi (Pre-Luna IV)",
+        "japanese": "Reina Ueda|Ueda Reina (\u4e0a\u7530\u9e97\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/\u6797\u7c0c|Lin Su (\u6797\u7c0c)",
+        "korean": "ko:\uae40\uc120\ud61c (\uc131\uc6b0)|Kim Seon-hye (\uae40\uc120\ud61c)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Ganyu_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ganyu.webp",
       "birthdayArtPool": [
@@ -228103,12 +228979,22 @@
     {
       "id": "gi-10000038",
       "n": "Albedo",
+      "localizedNames": {
+        "en": "Albedo"
+      },
       "title": "Kreideprinz",
       "r": 5,
       "el": "Geo",
       "w": "Sword",
       "tag": "MONDSTADT",
       "release": 1608591600000,
+      "releasePatch": "1.2",
+      "voiceActors": {
+        "english": "imdb:nm6004732|Khoi Dao",
+        "japanese": "Kenji Nojima|Nojima Kenji (\u91ce\u5cf6\u5065\u5150)",
+        "chinese": "https://zh.moegirl.org.cn/Mace|Mace",
+        "korean": "ko:\uae40\uba85\uc900 (\uc131\uc6b0)|Kim Myeong-joon (\uae40\uba85\uc900)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Albedo_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Albedo.webp",
       "birthdayArtPool": [
@@ -230224,12 +231110,22 @@
     {
       "id": "gi-10000030",
       "n": "Zhongli",
+      "localizedNames": {
+        "en": "Zhongli"
+      },
       "title": "Vago Mundo",
       "r": 5,
       "el": "Geo",
       "w": "Polearm",
       "tag": "LIYUE",
       "release": 1606878000000,
+      "releasePatch": "1.1",
+      "voiceActors": {
+        "english": "Keith Silverstein",
+        "japanese": "Tomoaki Maeno|Maeno Tomoaki (\u524d\u91ce\u667a\u662d)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f6d\u535a|Peng Bo (\u5f6d\u535a)",
+        "korean": "Pyo Yeong-jae|Pyo Young-jae (\ud45c\uc601\uc7ac)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Zhongli_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Zhongli.webp",
       "birthdayArtPool": [
@@ -232348,12 +233244,22 @@
     {
       "id": "gi-10000044",
       "n": "Xinyan",
+      "localizedNames": {
+        "en": "Xinyan"
+      },
       "title": "Blazing Riff",
       "r": 4,
       "el": "Pyro",
       "w": "Claymore",
       "tag": "LIYUE",
       "release": 1606878000000,
+      "releasePatch": "1.1",
+      "voiceActors": {
+        "english": "imdb:nm3338130|Laura Stahl",
+        "japanese": "Chiaki Takahashi (actress)|Takahashi Chiaki (ja=\u305f\u304b\u306f\u3057\u667a\u79cb)",
+        "chinese": "https://zh.moegirl.org.cn/\u738b\u96c5\u6b23|Wang Yaxin (zh=\u738b\u96c5\u6b23)",
+        "korean": "ko:\uae40\ucc44\ud558|Kim Chae-ha (ko=\uae40\ucc44\ud558)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Xinyan_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xinyan.webp",
       "birthdayArtPool": [
@@ -234469,12 +235375,22 @@
     {
       "id": "gi-10000033",
       "n": "Tartaglia",
+      "localizedNames": {
+        "en": "Tartaglia"
+      },
       "title": "Childe",
       "r": 5,
       "el": "Hydro",
       "w": "Bow",
       "tag": "FATUI",
       "release": 1605063600000,
+      "releasePatch": "1.1",
+      "voiceActors": {
+        "english": "imdb:nm4232585|Griffin Burns",
+        "japanese": "Ry\u014dhei Kimura|Kimura Ryohei (\u6728\u6751\u826f\u5e73)",
+        "chinese": "https://zh.moegirl.org.cn/\u9c7c\u51bb|Yudong (\u9c7c\u51bb)",
+        "korean": "Nam Doh-hyeong|Nam Do-hyeong (\ub0a8\ub3c4\ud615)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Tartaglia_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Tartaglia.webp",
       "birthdayArtPool": [
@@ -236591,12 +237507,22 @@
     {
       "id": "gi-10000039",
       "n": "Diona",
+      "localizedNames": {
+        "en": "Diona"
+      },
       "title": "K\u00e4tzlein Cocktail",
       "r": 4,
       "el": "Cryo",
       "w": "Bow",
       "tag": "MONDSTADT",
       "release": 1605063600000,
+      "releasePatch": "1.1",
+      "voiceActors": {
+        "english": "imdb:nm0088650|Dina Sherman",
+        "japanese": "Shiori Izawa|Izawa Shiori (\u4e95\u6fa4\u8a69\u7e54)",
+        "chinese": "https://zh.moegirl.org.cn/\u8bfa\u4e9a(\u914d\u97f3\u6f14\u5458)|Nuoya (\u8bfa\u4e9a)",
+        "korean": "ko:\uc6b0\uc815\uc2e0|Woo Jeong-shin (\uc6b0\uc815\uc2e0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Diona_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Diona.webp",
       "birthdayArtPool": [
@@ -238450,12 +239376,22 @@
     {
       "id": "gi-10000016",
       "n": "Diluc",
+      "localizedNames": {
+        "en": "Diluc"
+      },
       "title": "Dark Side of Dawn",
       "r": 5,
       "el": "Pyro",
       "w": "Claymore",
       "tag": "MONDSTADT",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "Sean Chiplock",
+        "japanese": "Kensho Ono|Ono Kensho (\u5c0f\u91ce\u8ce2\u7ae0)",
+        "chinese": "https://zh.moegirl.org.cn/\u9a6c\u6d0b|Ma Yang (\u9a6c\u6d0b)",
+        "korean": "ko:\ucd5c\uc2b9\ud6c8|Choi Seung-hoon (\ucd5c\uc2b9\ud6c8)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Diluc_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Diluc.webp",
       "birthdayArtPool": [
@@ -240574,12 +241510,22 @@
     {
       "id": "gi-10000003",
       "n": "Jean",
+      "localizedNames": {
+        "en": "Jean"
+      },
       "title": "Dandelion Knight",
       "r": 5,
       "el": "Anemo",
       "w": "Sword",
       "tag": "MONDSTADT",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "imdb:nm7604056|Stephanie Southerland",
+        "japanese": "Chiwa Sait\u014d|Saitou Chiwa (\u658e\u85e4\u5343\u548c)",
+        "chinese": "https://zh.moegirl.org.cn/\u6797\u7c0c|Lin Su (\u6797\u7c0c)",
+        "korean": "ko:\uc548\uc601\ubbf8 (\uc131\uc6b0)|Ahn Young-mi (\uc548\uc601\ubbf8)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Qin_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Qin.webp",
       "birthdayArtPool": [
@@ -242697,12 +243643,22 @@
     {
       "id": "gi-10000042",
       "n": "Keqing",
+      "localizedNames": {
+        "en": "Keqing"
+      },
       "title": "Driving Thunder",
       "r": 5,
       "el": "Electro",
       "w": "Sword",
       "tag": "LIYUE",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "imdb:nm1133857|Rosie Day",
+        "japanese": "Eri Kitamura|Kitamura Eri (\u559c\u591a\u6751\u82f1\u68a8)",
+        "chinese": "https://zh.moegirl.org.cn/\u8c22\u83b9|Xie Ying (\u8c22\u83b9)",
+        "korean": "ko:\uc774\ubcf4\ud76c (\uc131\uc6b0)|Lee Bo-hee (\uc774\ubcf4\ud76c)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Keqing_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Keqing.webp",
       "birthdayArtPool": [
@@ -244411,12 +245367,22 @@
     {
       "id": "gi-10000029",
       "n": "Klee",
+      "localizedNames": {
+        "en": "Klee"
+      },
       "title": "Fleeing Sunlight",
       "r": 5,
       "el": "Pyro",
       "w": "Catalyst",
       "tag": "MONDSTADT",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "imdb:nm4810398|Poonam Basu",
+        "japanese": "Misaki Kuno|Kuno Misaki (\u4e45\u91ce\u7f8e\u54b2)",
+        "chinese": "zh:\u82b1\u73b2|Hualing (\u82b1\u73b2)",
+        "korean": "ko:\ubc29\uc5f0\uc9c0|Bang Yeon-ji (\ubc29\uc5f0\uc9c0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Klee_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Klee.webp",
       "birthdayArtPool": [
@@ -246521,12 +247487,22 @@
     {
       "id": "gi-10000041",
       "n": "Mona",
+      "localizedNames": {
+        "en": "Mona"
+      },
       "title": "Astral Reflection",
       "r": 5,
       "el": "Hydro",
       "w": "Catalyst",
       "tag": "MONDSTADT",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "Felecia Angelle",
+        "japanese": "Konomi Kohara|Kohara Konomi (\u5c0f\u539f\u597d\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/\u9648\u5a77\u5a77|Chen Tingting (\u9648\u5a77\u5a77)",
+        "korean": "ko:\uc6b0\uc815\uc2e0|Woo Jeong-shin (\uc6b0\uc815\uc2e0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Mona_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mona.webp",
       "birthdayArtPool": [
@@ -248236,12 +249212,22 @@
     {
       "id": "gi-10000035",
       "n": "Qiqi",
+      "localizedNames": {
+        "en": "Qiqi"
+      },
       "title": "Icy Resurrection",
       "r": 5,
       "el": "Cryo",
       "w": "Sword",
       "tag": "LIYUE",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "imdb:nm7116087|Christie Cate",
+        "japanese": "Yukari Tamura|Tamura Yukari (\u7530\u6751\u3086\u304b\u308a)",
+        "chinese": "https://zh.moegirl.org.cn/\u5bb4\u5b81|Yanning (\u5bb4\u5b81)",
+        "korean": "ko:\uc774\uc2ac (\uc131\uc6b0)|Lee Seul (\uc774\uc2ac)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Qiqi_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Qiqi.webp",
       "birthdayArtPool": [
@@ -250346,12 +251332,22 @@
     {
       "id": "gi-10000022",
       "n": "Venti",
+      "localizedNames": {
+        "en": "Venti"
+      },
       "title": "Windborne Bard",
       "r": 5,
       "el": "Anemo",
       "w": "Bow",
       "tag": "MONDSTADT",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "Erika Harlacher",
+        "japanese": "Ayumu Murase|Murase Ayumu (\u6751\u702c\u6b69)",
+        "chinese": "https://zh.moegirl.org.cn/\u55b5\u9171(\u914d\u97f3\u6f14\u5458)#|Miaojiang (\u55b5\u9171)",
+        "korean": "ko:\uc815\uc720\uc815 (\uc131\uc6b0)|Jung Yoo-jung (\uc815\uc720\uc815)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Venti_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Venti.webp",
       "birthdayArtPool": [
@@ -252459,12 +253455,22 @@
     {
       "id": "gi-10000021",
       "n": "Amber",
+      "localizedNames": {
+        "en": "Amber"
+      },
       "title": "Gliding Champion",
       "r": 4,
       "el": "Pyro",
       "w": "Bow",
       "tag": "MONDSTADT",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "imdb:nm5726463|Kelly Baskin",
+        "japanese": "Manaka Iwami|Iwami Manaka (\u77f3\u898b\u821e\u83dc\u9999)",
+        "chinese": "https://mzh.moegirl.org.cn/zh-hans/%E8%94%A1%E4%B9%A6%E7%91%BE|Cai Shujin (\u8521\u4e66\u747e)",
+        "korean": "ko:\uae40\uc5f0\uc6b0 (\uc131\uc6b0)|Kim Yeon-woo (\uae40\uc5f0\uc6b0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Ambor_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ambor.webp",
       "birthdayArtPool": [
@@ -254319,12 +255325,22 @@
     {
       "id": "gi-10000014",
       "n": "Barbara",
+      "localizedNames": {
+        "en": "Barbara"
+      },
       "title": "Shining Idol",
       "r": 4,
       "el": "Hydro",
       "w": "Catalyst",
       "tag": "MONDSTADT",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "imdb:nm3338130|Laura Stahl",
+        "japanese": "Akari Kit\u014d|Kitou Akari (\u9b3c\u982d\u660e\u91cc)",
+        "chinese": "https://zh.moegirl.org.cn/\u5b8b\u5a9b\u5a9b|Song Yuanyuan (\u5b8b\u5a9b\u5a9b)",
+        "korean": "ko:\uc724\uc544\uc601|Yoon Ah-young (\uc724\uc544\uc601)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Barbara_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Barbara.webp",
       "birthdayArtPool": [
@@ -256428,12 +257444,22 @@
     {
       "id": "gi-10000024",
       "n": "Beidou",
+      "localizedNames": {
+        "en": "Beidou"
+      },
       "title": "Uncrowned Lord of the Ocean",
       "r": 4,
       "el": "Electro",
       "w": "Claymore",
       "tag": "LIYUE",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "imdb:nm3265752|Allegra Clark",
+        "japanese": "Ami Koshimizu|Koshimizu Ami (\u5c0f\u6e05\u6c34\u4e9c\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/\u5510\u96c5\u83c1|Tang Yajing (\u5510\u96c5\u83c1)",
+        "korean": "ko:\uc815\uc720\ubbf8 (\uc131\uc6b0)|Jung Yoo-mi (\uc815\uc720\ubbf8)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Beidou_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Beidou.webp",
       "birthdayArtPool": [
@@ -258550,12 +259576,22 @@
     {
       "id": "gi-10000032",
       "n": "Bennett",
+      "localizedNames": {
+        "en": "Bennett"
+      },
       "title": "Trial by Fire",
       "r": 4,
       "el": "Pyro",
       "w": "Sword",
       "tag": "MONDSTADT",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "Cristina Vee Valenzuela",
+        "japanese": "Ry\u014dta \u014csaka|Ousaka Ryouta (\u9022\u5742\u826f\u592a)",
+        "chinese": "https://zh.moegirl.org.cn/\u7a46\u96ea\u5a77|Mu Xueting (\u7a46\u96ea\u5a77)",
+        "korean": "ko:\uc1a1\ud558\ub9bc|Song Ha-rim (\uc1a1\ud558\ub9bc)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Bennett_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Bennett.webp",
       "birthdayArtPool": [
@@ -260672,12 +261708,22 @@
     {
       "id": "gi-10000036",
       "n": "Chongyun",
+      "localizedNames": {
+        "en": "Chongyun"
+      },
       "title": "Frozen Ardor",
       "r": 4,
       "el": "Cryo",
       "w": "Claymore",
       "tag": "LIYUE",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "imdb:nm6940026|Beau Bridgland",
+        "japanese": "Soma Saito|Saito Soma (\u6589\u85e4\u58ee\u99ac)",
+        "chinese": "https://zh.moegirl.org.cn/zh-cn/Kinsen|kinsen",
+        "korean": "ko:\uc591\uc815\ud654 (\uc131\uc6b0)|Yang Jeong-hwa (\uc591\uc815\ud654)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Chongyun_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Chongyun.webp",
       "birthdayArtPool": [
@@ -262794,12 +263840,22 @@
     {
       "id": "gi-10000031",
       "n": "Fischl",
+      "localizedNames": {
+        "en": "Fischl"
+      },
       "title": "Prinzessin der Verurteilung!",
       "r": 4,
       "el": "Electro",
       "w": "Bow",
       "tag": "MONDSTADT",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "imdb:nm3743705|Brittany Cox",
+        "japanese": "Maaya Uchida|Uchida Maaya (\u5185\u7530\u771f\u793c)",
+        "chinese": "https://zh.moegirl.org.cn/Mace|Mace",
+        "korean": "ko:\ubc15\uace0\uc6b4|Park Go-woon (\ubc15\uace0\uc6b4)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Fischl_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Fischl.webp",
       "birthdayArtPool": [
@@ -264641,12 +265697,22 @@
     {
       "id": "gi-10000015",
       "n": "Kaeya",
+      "localizedNames": {
+        "en": "Kaeya"
+      },
       "title": "Frostwind Swordsman",
       "r": 4,
       "el": "Cryo",
       "w": "Sword",
       "tag": "MONDSTADT",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "Josey Montana McCoy",
+        "japanese": "Kohsuke Toriumi|Toriumi Kousuke (\u9ce5\u6d77\u6d69\u8f14)",
+        "chinese": "https://baike.baidu.com/item/\u5b59\u6654/6639799|Sun Ye (\u5b59\u6654)",
+        "korean": "ko:\uc815\uc8fc\uc6d0|Jung Joo-won (\uc815\uc8fc\uc6d0)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Kaeya_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kaeya.webp",
       "birthdayArtPool": [
@@ -266750,12 +267816,22 @@
     {
       "id": "gi-10000006",
       "n": "Lisa",
+      "localizedNames": {
+        "en": "Lisa"
+      },
       "title": "Witch of Purple Rose",
       "r": 4,
       "el": "Electro",
       "w": "Catalyst",
       "tag": "MONDSTADT",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "https://www.marajunot.com/home|Mara Junot",
+        "japanese": "Rie Tanaka|Tanaka Rie (\u7530\u4e2d\u7406\u6075)",
+        "chinese": "https://zh.moegirl.org.cn/\u949f\u53ef|Zhong Ke (\u949f\u53ef)",
+        "korean": "ko:\ubc15\uace0\uc6b4|Park Go-woon (\ubc15\uace0\uc6b4)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Lisa_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Lisa.webp",
       "birthdayArtPool": [
@@ -268874,12 +269950,22 @@
     {
       "id": "gi-10000027",
       "n": "Ningguang",
+      "localizedNames": {
+        "en": "Ningguang"
+      },
       "title": "Eclipsing Star",
       "r": 4,
       "el": "Geo",
       "w": "Catalyst",
       "tag": "LIYUE",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "imdb:nm2731614|Erin Ebers",
+        "japanese": "Sayaka Ohara|Ohara Sayaka (\u5927\u539f\u3055\u3084\u304b)",
+        "chinese": "https://zh.moegirl.org.cn/\u675c\u51a5\u9e26|Du Mingya (\u675c\u51a5\u9e26)",
+        "korean": "ko:\uacfd\uaddc\ubbf8|Kwak Kyu-mi (\uacfd\uaddc\ubbf8)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Ningguang_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ningguang.webp",
       "birthdayArtPool": [
@@ -270985,12 +272071,22 @@
     {
       "id": "gi-10000034",
       "n": "Noelle",
+      "localizedNames": {
+        "en": "Noelle"
+      },
       "title": "Chivalric Blossom",
       "r": 4,
       "el": "Geo",
       "w": "Claymore",
       "tag": "MONDSTADT",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "imdb:nm2269470|Laura Faye Smith",
+        "japanese": "Kanon Takao|Takao Kanon (\u9ad8\u5c3e\u594f\u97f3)",
+        "chinese": "https://zh.moegirl.org.cn/\u5bb4\u5b81|Yanning (\u5bb4\u5b81)",
+        "korean": "ko:\uc774\ubcf4\ud76c (\uc131\uc6b0)|Lee Bo-hee (\uc774\ubcf4\ud76c)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Noel_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Noel.webp",
       "birthdayArtPool": [
@@ -273110,12 +274206,22 @@
     {
       "id": "gi-10000020",
       "n": "Razor",
+      "localizedNames": {
+        "en": "Razor"
+      },
       "title": "Wolf Boy",
       "r": 4,
       "el": "Electro",
       "w": "Claymore",
       "tag": "MONDSTADT",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "Todd Haberkorn",
+        "japanese": "K\u014dki Uchiyama|Uchiyama Kouki (\u5185\u5c71\u6602\u8f1d)",
+        "chinese": "https://zh.moegirl.org.cn/\u5468\u5e05|Zhou Shuai (\u5468\u5e05)",
+        "korean": "Kim Seo-yeong|Kim Seo-young (\uae40\uc11c\uc601)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Razor_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Razor.webp",
       "birthdayArtPool": [
@@ -275232,12 +276338,22 @@
     {
       "id": "gi-10000043",
       "n": "Sucrose",
+      "localizedNames": {
+        "en": "Sucrose"
+      },
       "title": "Harmless Sweetie",
       "r": 4,
       "el": "Anemo",
       "w": "Catalyst",
       "tag": "MONDSTADT",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "imdb:nm14897455|Maya Graydon",
+        "japanese": "Akane Fujita|Fujita Akane (\u85e4\u7530\u831c)",
+        "chinese": "https://zh.moegirl.org.cn/\u5c0f\u6562|Xiaogan (\u5c0f\u6562)",
+        "korean": "ko:\uae40\ud558\uc601 (\uc131\uc6b0)|Kim Ha-young (\uae40\ud558\uc601)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Sucrose_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sucrose.webp",
       "birthdayArtPool": [
@@ -276945,12 +278061,22 @@
     {
       "id": "gi-10000023",
       "n": "Xiangling",
+      "localizedNames": {
+        "en": "Xiangling"
+      },
       "title": "Exquisite Delicacy",
       "r": 4,
       "el": "Pyro",
       "w": "Polearm",
       "tag": "LIYUE",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "imdb:nm4588329|Jackie Lastra",
+        "japanese": "Ari Ozawa|Ozawa Ari (\u5c0f\u6fa4\u4e9c\u674e)",
+        "chinese": "https://zh.moegirl.org.cn/\u5c0fN|Xiao N (\u5c0fN)",
+        "korean": "ko:\uc724\uc544\uc601|Yoon Ah-young (\uc724\uc544\uc601)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Xiangling_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xiangling.webp",
       "birthdayArtPool": [
@@ -279068,12 +280194,22 @@
     {
       "id": "gi-10000025",
       "n": "Xingqiu",
+      "localizedNames": {
+        "en": "Xingqiu"
+      },
       "title": "Juvenile Galant",
       "r": 4,
       "el": "Hydro",
       "w": "Sword",
       "tag": "LIYUE",
       "release": 1600135200000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "Cristina Vee Valenzuela",
+        "japanese": "Junko Minagawa|Minagawa Junko (\u7686\u5ddd\u7d14\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u5510\u96c5\u83c1|Tang Yajing (\u5510\u96c5\u83c1)",
+        "korean": "ko:\uacfd\uaddc\ubbf8|Kwak Kyu-mi (\uacfd\uaddc\ubbf8)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Xingqiu_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xingqiu.webp",
       "birthdayArtPool": [
@@ -281177,12 +282313,22 @@
     {
       "id": "gi-traveler",
       "n": "Traveler",
+      "localizedNames": {
+        "en": "Traveler"
+      },
       "title": "Descender",
       "r": 5,
       "el": "Anemo",
       "w": "Sword",
       "tag": "MAINACTOR",
       "release": -3600000,
+      "releasePatch": "1.0",
+      "voiceActors": {
+        "english": "Aether: imdb:nm6450743|Zach Aguilar",
+        "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+        "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+        "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
+      },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
       "skillIcons": [
@@ -283187,12 +284333,22 @@
         {
           "id": "gi-10000005-4",
           "n": "Traveler",
+          "localizedNames": {
+            "en": "Traveler"
+          },
           "title": "Descender",
           "r": 5,
           "el": "Anemo",
           "w": "Sword",
           "tag": "MAINACTOR",
           "release": -3600000,
+          "releasePatch": "1.0",
+          "voiceActors": {
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
+          },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
           "skillIcons": [
@@ -285193,12 +286349,22 @@
         {
           "id": "gi-10000007-4",
           "n": "Traveler",
+          "localizedNames": {
+            "en": "Traveler"
+          },
           "title": "Descender",
           "r": 5,
           "el": "Anemo",
           "w": "Sword",
           "tag": "MAINACTOR",
           "release": -3600000,
+          "releasePatch": "1.0",
+          "voiceActors": {
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
+          },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
           "skillIcons": [
@@ -287199,12 +288365,22 @@
         {
           "id": "gi-10000005-6",
           "n": "Traveler",
+          "localizedNames": {
+            "en": "Traveler"
+          },
           "title": "Descender",
           "r": 5,
           "el": "Geo",
           "w": "Sword",
           "tag": "MAINACTOR",
           "release": -3600000,
+          "releasePatch": "1.0",
+          "voiceActors": {
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
+          },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
           "skillIcons": [
@@ -289089,12 +290265,22 @@
         {
           "id": "gi-10000007-6",
           "n": "Traveler",
+          "localizedNames": {
+            "en": "Traveler"
+          },
           "title": "Descender",
           "r": 5,
           "el": "Geo",
           "w": "Sword",
           "tag": "MAINACTOR",
           "release": -3600000,
+          "releasePatch": "1.0",
+          "voiceActors": {
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
+          },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
           "skillIcons": [
@@ -290979,12 +292165,22 @@
         {
           "id": "gi-10000005-7",
           "n": "Traveler",
+          "localizedNames": {
+            "en": "Traveler"
+          },
           "title": "Descender",
           "r": 5,
           "el": "Electro",
           "w": "Sword",
           "tag": "MAINACTOR",
           "release": -3600000,
+          "releasePatch": "1.0",
+          "voiceActors": {
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
+          },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
           "skillIcons": [
@@ -292865,12 +294061,22 @@
         {
           "id": "gi-10000007-7",
           "n": "Traveler",
+          "localizedNames": {
+            "en": "Traveler"
+          },
           "title": "Descender",
           "r": 5,
           "el": "Electro",
           "w": "Sword",
           "tag": "MAINACTOR",
           "release": -3600000,
+          "releasePatch": "1.0",
+          "voiceActors": {
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
+          },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
           "skillIcons": [
@@ -294751,12 +295957,22 @@
         {
           "id": "gi-10000005-8",
           "n": "Traveler",
+          "localizedNames": {
+            "en": "Traveler"
+          },
           "title": "Descender",
           "r": 5,
           "el": "Dendro",
           "w": "Sword",
           "tag": "MAINACTOR",
           "release": -3600000,
+          "releasePatch": "1.0",
+          "voiceActors": {
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
+          },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
           "skillIcons": [
@@ -296757,12 +297973,22 @@
         {
           "id": "gi-10000007-8",
           "n": "Traveler",
+          "localizedNames": {
+            "en": "Traveler"
+          },
           "title": "Descender",
           "r": 5,
           "el": "Dendro",
           "w": "Sword",
           "tag": "MAINACTOR",
           "release": -3600000,
+          "releasePatch": "1.0",
+          "voiceActors": {
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
+          },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
           "skillIcons": [
@@ -298763,12 +299989,22 @@
         {
           "id": "gi-10000005-3",
           "n": "Traveler",
+          "localizedNames": {
+            "en": "Traveler"
+          },
           "title": "Descender",
           "r": 5,
           "el": "Hydro",
           "w": "Sword",
           "tag": "MAINACTOR",
           "release": -3600000,
+          "releasePatch": "1.0",
+          "voiceActors": {
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
+          },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
           "skillIcons": [
@@ -300769,12 +302005,22 @@
         {
           "id": "gi-10000007-3",
           "n": "Traveler",
+          "localizedNames": {
+            "en": "Traveler"
+          },
           "title": "Descender",
           "r": 5,
           "el": "Hydro",
           "w": "Sword",
           "tag": "MAINACTOR",
           "release": -3600000,
+          "releasePatch": "1.0",
+          "voiceActors": {
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
+          },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
           "skillIcons": [
@@ -302775,12 +304021,22 @@
         {
           "id": "gi-10000005-2",
           "n": "Traveler",
+          "localizedNames": {
+            "en": "Traveler"
+          },
           "title": "Descender",
           "r": 5,
           "el": "Pyro",
           "w": "Sword",
           "tag": "MAINACTOR",
           "release": -3600000,
+          "releasePatch": "1.0",
+          "voiceActors": {
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
+          },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
           "skillIcons": [
@@ -304697,12 +305953,22 @@
         {
           "id": "gi-10000007-2",
           "n": "Traveler",
+          "localizedNames": {
+            "en": "Traveler"
+          },
           "title": "Descender",
           "r": 5,
           "el": "Pyro",
           "w": "Sword",
           "tag": "MAINACTOR",
           "release": -3600000,
+          "releasePatch": "1.0",
+          "voiceActors": {
+            "english": "Aether: imdb:nm6450743|Zach Aguilar",
+            "japanese": "Aether: Shun Horie|Horie Shun (\u5800\u6c5f\u77ac)",
+            "chinese": "Aether: https://zh.moegirl.org.cn/\u9e7f\u5591|Luyin (\u9e7f\u5591)",
+            "korean": "Aether: ko:\uc774\uacbd\ud0dc (\uc131\uc6b0)|Lee Kyeong-tae (\uc774\uacbd\ud0dc)"
+          },
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
           "skillIcons": [

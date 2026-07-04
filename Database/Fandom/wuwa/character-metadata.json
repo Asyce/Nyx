@@ -1,0 +1,1020 @@
+[
+  {
+    "name": "Aalto",
+    "pageTitle": "Aalto",
+    "aliases": [
+      "Aalto",
+      "1403"
+    ],
+    "releaseDate": "2024-05-23",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "imdb:nm8112834|James Day",
+      "chinese": "https://zh.moegirl.org.cn/zh/梁达伟|Liang Dawei (zh=梁达伟)",
+      "japanese": "Ryota Iwasaki|Iwasaki Ryōta (ja=岩崎諒太)",
+      "korean": "https://namu.wiki/w/임채빈|Lim Chae-bin (ko=임채빈)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Aemeath",
+    "pageTitle": "Aemeath",
+    "aliases": [
+      "Aemeath",
+      "1210"
+    ],
+    "releaseDate": "2026-02-05",
+    "releasePatch": "3.1",
+    "voiceActors": {
+      "english": "imdb:nm4925834|Cara Theobold",
+      "chinese": "https://zh.moegirl.org.cn/王雅欣|Wang Yaxin (zh=王雅欣)",
+      "japanese": "Satomi Sato|Satō Satomi (ja=佐藤聡美)",
+      "korean": "https://namu.wiki/w/김하루|Kim Ha-ru (ko=김하루)"
+    },
+    "categories": [
+      "Category:Introduced in Version 3.0",
+      "Category:Released in Version 3.1",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Augusta",
+    "pageTitle": "Augusta",
+    "aliases": [
+      "Augusta",
+      "1306"
+    ],
+    "releaseDate": "2025-08-28",
+    "releasePatch": "2.6",
+    "voiceActors": {
+      "english": "imdb:nm2542896|Alix Wilton Regan",
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/穆雪婷|Mu Xueting (zh=穆雪婷)",
+      "japanese": "Yoko Hikasa|Hikasa Yōko (ja=日笠陽子)",
+      "korean": "https://namu.wiki/w/이지현(성우)|Lee Ji-hyun (ko=이지현)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.4",
+      "Category:Released in Version 2.6",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Baizhi",
+    "pageTitle": "Baizhi",
+    "aliases": [
+      "Baizhi",
+      "1103"
+    ],
+    "releaseDate": "2024-05-23",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "imdb:nm4476858|Samantha Dakin",
+      "chinese": "https://zh.moegirl.org.cn/陈婷婷|Chen Tingting (zh=陈婷婷)",
+      "japanese": "Asami Seto|Seto Asami (ja=瀬戸麻沙美)",
+      "korean": "ko:성예원|Seong Ye-won (ko=성예원)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Brant",
+    "pageTitle": "Brant",
+    "aliases": [
+      "Brant",
+      "1206"
+    ],
+    "releaseDate": "2025-03-06",
+    "releasePatch": "2.1",
+    "voiceActors": {
+      "english": "imdb:nm11144144|Hyoie O'Grady",
+      "chinese": "https://zh.moegirl.org.cn/zh-tw/莫然|Moran (zh=莫然)",
+      "japanese": "Daisuke Kishio|Kishio Daisuke (ja=岸尾だいすけ)",
+      "korean": "https://namu.wiki/w/이주승(성우)|Lee Ju-seung (ko=이주승)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.0",
+      "Category:Released in Version 2.1",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Buling",
+    "pageTitle": "Buling",
+    "aliases": [
+      "Buling",
+      "1307"
+    ],
+    "releaseDate": "2025-12-11",
+    "releasePatch": "2.8",
+    "voiceActors": {
+      "english": "imdb:nm13298431|Elizabeth Chu",
+      "chinese": "https://zh.moegirl.org.cn/张晔|Zhang Ye (zh=张晔)",
+      "japanese": "Sayaka Senbongi|Senbongi Sayaka (ja=千本木彩花)",
+      "korean": "https://namu.wiki/w/이이로|Lee I-ro (ko=이이로)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.4",
+      "Category:Released in Version 2.8",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Calcharo",
+    "pageTitle": "Calcharo",
+    "aliases": [
+      "Calcharo",
+      "1301"
+    ],
+    "releaseDate": "2024-05-23",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Ben Cura",
+      "chinese": "https://zh.moegirl.org.cn/徐翔(配音演员)|Xu Xiang (zh=徐翔)",
+      "japanese": "Toshiyuki Morikawa|Toshiyuki Morikawa (ja=森川智之)",
+      "korean": "https://namu.wiki/w/박민기%28성우%29|Park Min-gi (ko=박민기)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Camellya",
+    "pageTitle": "Camellya",
+    "aliases": [
+      "Camellya",
+      "1603"
+    ],
+    "releaseDate": "2024-11-14",
+    "releasePatch": "1.4",
+    "voiceActors": {
+      "english": "Meaghan Martin",
+      "chinese": "https://zh.moegirl.org.cn/柳知萧|Liu Zhixiao (zh=柳知萧)",
+      "japanese": "Mariya Ise|Ise Mariya (ja=伊瀬茉莉也)",
+      "korean": "https://namu.wiki/w/유혜지|Yu Hye-ji (ko=유혜지)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.4",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Cantarella",
+    "pageTitle": "Cantarella",
+    "aliases": [
+      "Cantarella",
+      "1607"
+    ],
+    "releaseDate": "2025-03-27",
+    "releasePatch": "2.2",
+    "voiceActors": {
+      "english": "imdb:nm5498692|Alexandra Guelff",
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/小米(配音演员|Xiao Mi (zh=小米)",
+      "japanese": "Mai Nakahara|Nakahara Mai (ja=中原麻衣)",
+      "korean": "https://namu.wiki/w/김율|Kim Yul (ko=김율)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.0",
+      "Category:Released in Version 2.2",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Carlotta",
+    "pageTitle": "Carlotta",
+    "aliases": [
+      "Carlotta",
+      "1107"
+    ],
+    "releaseDate": "2025-01-02",
+    "releasePatch": "2.0",
+    "voiceActors": {
+      "english": "imdb:nm10804818|Jennifer English",
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/闫夜桥|Yan Yeqiao (zh=闫夜桥)",
+      "japanese": "Kana Ueda|Ueda Kana (ja=植田佳奈)",
+      "korean": "https://namu.wiki/w/김순미|Kim Soon-mi (ko=김순미)"
+    },
+    "categories": [
+      "Category:Released in Version 2.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Cartethyia",
+    "pageTitle": "Cartethyia",
+    "aliases": [
+      "Cartethyia",
+      "1409"
+    ],
+    "releaseDate": "2025-06-12",
+    "releasePatch": "2.4",
+    "voiceActors": {
+      "english": "imdb:nm1764274|Amanda Elizabeth Rischel",
+      "chinese": "https://zh.moegirl.org.cn/云鹤追|Yun He Zhui (zh=云鹤追)",
+      "japanese": "Yū Asakawa|Asakawa Yū (ja=浅川悠)",
+      "korean": "https://namu.wiki/w/배하경|Bae Ha-gyoung (ko=배하경)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.0",
+      "Category:Released in Version 2.4",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Changli",
+    "pageTitle": "Changli",
+    "aliases": [
+      "Changli",
+      "1205"
+    ],
+    "releaseDate": "2024-07-22",
+    "releasePatch": "1.1",
+    "voiceActors": {
+      "english": "imdb:nm7514824|Ashleigh Haddad",
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/沐霏|Mufei (zh=沐霏)",
+      "japanese": "Chiwa Saitō|Saitō Chiwa (ja=斎藤千和)",
+      "korean": "https://namu.wiki/w/신나리(성우)|Shin Nari (ko=신나리)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.1",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Chisa",
+    "pageTitle": "Chisa",
+    "aliases": [
+      "Chisa",
+      "1508"
+    ],
+    "releaseDate": "2025-11-20",
+    "releasePatch": "2.8",
+    "voiceActors": {
+      "chinese": "Zhao Lingze (zh=赵灵泽)",
+      "japanese": "Hisako Kanemoto|Kanemoto Hisako (ja=金元寿子)",
+      "korean": "ko:이주은_(성우)|Lee Joo-eun (ko=이주은)"
+    },
+    "categories": [
+      "Category:Released in Version 2.8",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Chixia",
+    "pageTitle": "Chixia",
+    "aliases": [
+      "Chixia",
+      "1202"
+    ],
+    "releaseDate": "2024-05-23",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "imdb:nm1689502|Harriet Carmichael",
+      "chinese": "https://zh.moegirl.org.cn/zh-hant/蔡娜|Cai Na (zh=蔡娜)",
+      "japanese": "Anna Nagase|Nagase Anna (ja=永瀬アンナ)",
+      "korean": "https://namu.wiki/w/강은애|Kang Eun-ae (ko=강은애)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Ciaccona",
+    "pageTitle": "Ciaccona",
+    "aliases": [
+      "Ciaccona",
+      "1407"
+    ],
+    "releaseDate": "2025-05-22",
+    "releasePatch": "2.3",
+    "voiceActors": {
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/叶知秋|Ye Zhiqiu (zh=叶知秋)",
+      "japanese": "Ikumi Hasegawa|Hasegawa Ikumi (ja=長谷川育美)",
+      "korean": "https://namu.wiki/w/김예림(성우)|Kim Ye-rim (ko=김예림)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.2",
+      "Category:Released in Version 2.3",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Danjin",
+    "pageTitle": "Danjin",
+    "aliases": [
+      "Danjin",
+      "1602"
+    ],
+    "releaseDate": "2024-05-23",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Sophie Colquhoun",
+      "chinese": "https://zh.moegirl.org.cn/一口井|Yi Kou Jing (zh=一口井)",
+      "japanese": "Miho Okasaki|Okasaki Miho (ja=岡咲美保)",
+      "korean": "https://namu.wiki/w/이현진(성우)|Lee Hyunjin (ko=이현진)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Denia",
+    "pageTitle": "Denia",
+    "aliases": [
+      "Denia",
+      "1211"
+    ],
+    "releaseDate": "2026-05-21",
+    "releasePatch": "3.3",
+    "voiceActors": {
+      "chinese": "https://zh.moegirl.org.cn/戈昕宇|Ge Zinyu (zh=戈昕宇)",
+      "japanese": "Miku Itō|Itō Miku (ja=伊藤 美来)",
+      "korean": "https://namu.wiki/w/박시윤(성우)|Park Si-yoon (ko=박시윤)"
+    },
+    "categories": [
+      "Category:Introduced in Version 3.0",
+      "Category:Released in Version 3.3",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Encore",
+    "pageTitle": "Encore",
+    "aliases": [
+      "Encore",
+      "1203"
+    ],
+    "releaseDate": "2024-05-23",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "imdb:nm1544577|Carina Reeves",
+      "chinese": "https://zh.moegirl.org.cn/皛四白|Xiao Sibai (zh=皛四白)",
+      "japanese": "imdb:nm14509096|Ibuki Chikano (ja=伊吹誓乃)",
+      "korean": "https://namu.wiki/w/이세레나|Serena Lee (ko=이세레나)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Galbrena",
+    "pageTitle": "Galbrena",
+    "aliases": [
+      "Galbrena",
+      "1208"
+    ],
+    "releaseDate": "2025-10-09",
+    "releasePatch": "2.7",
+    "voiceActors": {
+      "chinese": "Zhang Wenjie (zh=张文婕)",
+      "japanese": "Umeka Shōji|Shōji Umeka (ja=庄司宇芽香)",
+      "korean": "https://namu.wiki/w/이다슬|Lee Da-seul (ko=이다슬)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.6",
+      "Category:Released in Version 2.7",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Hiyuki",
+    "pageTitle": "Hiyuki",
+    "aliases": [
+      "Hiyuki",
+      "1108"
+    ],
+    "releaseDate": "2026-04-30",
+    "releasePatch": "3.3",
+    "voiceActors": {
+      "english": "imdb:nm7965844|Mei Mac",
+      "chinese": "https://zh.moegirl.org.cn/李蝉妃|Li Chanfei (zh=李蝉妃)",
+      "japanese": "Haruka Tomatsu|Tomatsu Haruka (ja=戸松 遥)",
+      "korean": "https://namu.wiki/w/정혜원|Jung Hye-won (ko=정혜원)"
+    },
+    "categories": [
+      "Category:Introduced in Version 3.2",
+      "Category:Released in Version 3.3",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Iuno",
+    "pageTitle": "Iuno",
+    "aliases": [
+      "Iuno",
+      "1410"
+    ],
+    "releaseDate": "2025-09-17",
+    "releasePatch": "2.6",
+    "voiceActors": {
+      "english": "imdb:nm16596030|Ella Boyes",
+      "chinese": "https://zh.moegirl.org.cn/姜英俊|Jiang Yingjun (zh=姜英俊)",
+      "japanese": "Lynn (voice actress)|Lynn (ja=りん)",
+      "korean": "ko:윤은서|Yoon Eun-seo (ko=윤은서)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.4",
+      "Category:Released in Version 2.6",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Jianxin",
+    "pageTitle": "Jianxin",
+    "aliases": [
+      "Jianxin",
+      "1405"
+    ],
+    "releaseDate": "2024-05-23",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Ioanna Kimbook",
+      "chinese": "https://zh.moegirl.org.cn/%E5%BC%A0%E6%98%B1|Yu Tou (zh=昱头)",
+      "japanese": "Chika Anzai|Anzai Chika (ja=安済知佳)",
+      "korean": "https://namu.wiki/w/%EC%9D%B4%EC%9D%80%EC%A1%B0(%EC%84%B1%EC%9A%B0)|Lee Eunjo (ko=이은조)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Jinhsi",
+    "pageTitle": "Jinhsi",
+    "aliases": [
+      "Jinhsi",
+      "1304"
+    ],
+    "releaseDate": "2024-06-28",
+    "releasePatch": "1.1",
+    "voiceActors": {
+      "english": "imdb:m1683988|Anna Devlin",
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/江月|Jiang Yue (zh=江月)",
+      "japanese": "Yoshino Aoyama|Aoyama Yoshino (ja=青山吉能)",
+      "korean": "https://namu.wiki/w/박하진(성우)|Park Ha-jin (ko=박하진))"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.1",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Jiyan",
+    "pageTitle": "Jiyan",
+    "aliases": [
+      "Jiyan",
+      "1404"
+    ],
+    "releaseDate": "2024-05-23",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "imdb:nm7074735|Alex Jordan",
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/孙晔|Sun Ye (zh=孙晔)",
+      "japanese": "Yūki Ono|Ono Yūki (ja=小野友樹)",
+      "korean": "Nam Doh-hyeong|Nam Doh-hyeong (ko=남도형)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Lingyang",
+    "pageTitle": "Lingyang",
+    "aliases": [
+      "Lingyang",
+      "1104"
+    ],
+    "releaseDate": "2024-05-23",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "imdb:nm9358871|Aleksander Varadian",
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/锦鲤|Jinli (zh=锦鲤)",
+      "japanese": "Natsuki Hanae|Hanae Natsuki (ja=花江夏樹)",
+      "korean": "https://namu.wiki/w/이상호(성우)|Lee Sangho (ko=이상호)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Lucilla",
+    "pageTitle": "Lucilla",
+    "aliases": [
+      "Lucilla",
+      "1109"
+    ],
+    "releaseDate": "2026-06-13",
+    "releasePatch": "3.4",
+    "voiceActors": {
+      "english": "imdb:nm6427815|Luci Fish",
+      "chinese": "https://zh.moegirl.org.cn/刘颐诺|Liu Yinuo (zh=刘颐诺)",
+      "japanese": "Shizuka Itō|Itō Shizuka (ja=伊藤静)",
+      "korean": "https://namu.wiki/w/민아(성우)|Min-ah (ko=민아)"
+    },
+    "categories": [
+      "Category:Released in Version 3.4",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Lucy",
+    "pageTitle": "Lucy",
+    "aliases": [
+      "Lucy",
+      "1511"
+    ],
+    "releaseDate": "2026-06-08",
+    "releasePatch": "3.4",
+    "voiceActors": {
+      "english": "Emi Lo",
+      "chinese": "https://zh.moegirl.org.cn/宋政楠|Song Zhengnan (zh=宋政楠)",
+      "japanese": "Aoi Yūki|Yūki Aoi (ja=悠木 碧)",
+      "korean": "https://namu.wiki/w/김가령|Kim Ga-ryeong (ko=김가령)"
+    },
+    "categories": [
+      "Category:Released in Version 3.4",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Lumi",
+    "pageTitle": "Lumi",
+    "aliases": [
+      "Lumi",
+      "1504"
+    ],
+    "releaseDate": "2024-12-12",
+    "releasePatch": "1.4",
+    "voiceActors": {
+      "english": "imdb:nm12853763|Emily Cass",
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/静宸|Jing Chen (zh=静宸)",
+      "japanese": "Minori Suzuki|Suzuki Minori (ja=鈴木みのり)",
+      "korean": "https://namu.wiki/w/정해은(성우)|Jeong Ha-eun (ko=정해은)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.4",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Lupa",
+    "pageTitle": "Lupa",
+    "aliases": [
+      "Lupa",
+      "1207"
+    ],
+    "releaseDate": "2025-07-03",
+    "releasePatch": "2.4",
+    "voiceActors": {
+      "chinese": "https://zh.moegirl.org.cn/朔小兔|Shuo Xiaotu (zh=朔小兔)",
+      "japanese": "Minami Takahashi (voice actress)|Takahashi Minami (ja=髙橋ミナミ)",
+      "korean": "https://namu.wiki/w/김예령(성우)|Kim Ye-ryeong (ko=김예령)"
+    },
+    "categories": [
+      "Category:Released in Version 2.4",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Luuk Herssen",
+    "pageTitle": "Luuk Herssen",
+    "aliases": [
+      "Luuk Herssen",
+      "1510"
+    ],
+    "releaseDate": "2026-02-26",
+    "releasePatch": "3.1",
+    "voiceActors": {
+      "english": "imdb:nm10304447|Griffyn Bellah",
+      "chinese": "https://zh.moegirl.org.cn/马正阳|Ma Zhengyang (zh=马正阳)",
+      "japanese": "Shinnosuke Tachibana|Tachibana Shinnosuke (ja=立花慎之介)",
+      "korean": "https://namu.wiki/w/민승우|Min Seung-woo (ko=민승우)"
+    },
+    "categories": [
+      "Category:Introduced in Version 3.0",
+      "Category:Released in Version 3.1",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Lynae",
+    "pageTitle": "Lynae",
+    "aliases": [
+      "Lynae",
+      "1509"
+    ],
+    "releaseDate": "2025-12-25",
+    "releasePatch": "3.0",
+    "voiceActors": {
+      "english": "imdb:nm4716053|Elsie Lovelock",
+      "chinese": "https://zh.moegirl.org.cn/朱婧|Zhu Jing (zh=朱婧)",
+      "japanese": "Marina Inoue|Inoue Marina (ja=井上麻里奈)",
+      "korean": "https://namu.wiki/w/최현지(성우)|Choi Hyeon-ji (ko=최현지)"
+    },
+    "categories": [
+      "Category:Released in Version 3.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Mornye",
+    "pageTitle": "Mornye",
+    "aliases": [
+      "Mornye",
+      "1209"
+    ],
+    "releaseDate": "2026-01-15",
+    "releasePatch": "3.0",
+    "voiceActors": {
+      "english": "imdb:nm7303431|Michelle Fox",
+      "chinese": "https://zh.moegirl.org.cn/佟心竹|Tong Xinzhu (zh=佟心竹)",
+      "japanese": "Manaka Iwami|Iwami Manaka (ja=石見舞菜香)",
+      "korean": "https://namu.wiki/w/오로아|Oh Ro-ah (ko=오로아)"
+    },
+    "categories": [
+      "Category:Released in Version 3.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Mortefi",
+    "pageTitle": "Mortefi",
+    "aliases": [
+      "Mortefi",
+      "1204"
+    ],
+    "releaseDate": "2024-05-23",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Joseph May",
+      "chinese": "https://zh.moegirl.org.cn/zh/刘以嘉|Liu Yijia (zh=刘以嘉)",
+      "japanese": "imdb:nm13656686|Miura Katsuyuki (ja=三浦勝之)",
+      "korean": "https://namu.wiki/w/김다올|Kim Da-ol (ko=김다올)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Phoebe",
+    "pageTitle": "Phoebe",
+    "aliases": [
+      "Phoebe",
+      "1506"
+    ],
+    "releaseDate": "2025-02-13",
+    "releasePatch": "2.1",
+    "voiceActors": {
+      "english": "imdb:nm11072091|Rebecca LaChance",
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/傅婷云|Fu Tingyun (zh=傅婷云)",
+      "japanese": "Kaede Hondo|Hondo Kaede (ja=本渡楓)",
+      "korean": "https://namu.wiki/w/이보용|Lee Bo-yong (ko=이보용)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.0",
+      "Category:Released in Version 2.1",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Phrolova",
+    "pageTitle": "Phrolova",
+    "aliases": [
+      "Phrolova",
+      "1608"
+    ],
+    "releaseDate": "2025-07-24",
+    "releasePatch": "2.5",
+    "voiceActors": {
+      "english": "imdb:nm5893797|Rae Lim",
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/%张琦|Zhang Qi (zh=张琦)",
+      "japanese": "Saki Fujita|Fujita Saki (ja=藤田咲)",
+      "korean": "https://namu.wiki/w/최하리|Choi Hari (ko=최하리)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 2.5",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Qiuyuan",
+    "pageTitle": "Qiuyuan",
+    "aliases": [
+      "Qiuyuan",
+      "1411"
+    ],
+    "releaseDate": "2025-10-30",
+    "releasePatch": "2.7",
+    "voiceActors": {
+      "english": "imdb:nm9356204|Jeremy Ang Jones",
+      "chinese": "https://zh.moegirl.org.cn/淦子齐|Gan Ziqi (zh=淦子齐)",
+      "japanese": "Shin-ichiro Miki|Miki Shinichirō (ja=三木眞一郎)",
+      "korean": "ko:김민주 (성우)|Kim Min-ju (ko=김민주)"
+    },
+    "categories": [
+      "Category:Released in Version 2.7",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Rebecca",
+    "pageTitle": "Rebecca",
+    "aliases": [
+      "Rebecca",
+      "1308"
+    ],
+    "releaseDate": "2026-06-08",
+    "releasePatch": "3.4",
+    "voiceActors": {
+      "english": "imdb:nm7858309|Alex Cazares",
+      "chinese": "https://zh.moegirl.org.cn/陈章|Chen Zhang (zh=陈章)",
+      "japanese": "Tomoyo Kurosawa|Kurosawa Tomoyo (ja=黒沢ともよ)",
+      "korean": "https://namu.wiki/w/박시윤(성우)|Park Si-yoon (ko=박시윤)"
+    },
+    "categories": [
+      "Category:Released in Version 3.4",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Roccia",
+    "pageTitle": "Roccia",
+    "aliases": [
+      "Roccia",
+      "1606"
+    ],
+    "releaseDate": "2025-01-23",
+    "releasePatch": "2.0",
+    "voiceActors": {
+      "english": "Holly Earl",
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/沈话桑|Shen Huasang (zh=沈话桑)",
+      "japanese": "Konomi Kohara|Kohara Konomi (ja=小原好美)",
+      "korean": "https://namu.wiki/w/장미(성우)|Jang Mi (ko=장미)"
+    },
+    "categories": [
+      "Category:Released in Version 2.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Sanhua",
+    "pageTitle": "Sanhua",
+    "aliases": [
+      "Sanhua",
+      "1102"
+    ],
+    "releaseDate": "2024-05-23",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "Jennifer Armour",
+      "chinese": "https://zh.moegirl.org.cn/宋媛媛|Song Yuanyuan (zh=宋媛媛)",
+      "japanese": "Risae Matsuda|Matsuda Risae (ja=松田利冴)",
+      "korean": "https://namu.wiki/w/유영(성우)|Yooyoung (ko=유영)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Shorekeeper",
+    "pageTitle": "Shorekeeper",
+    "aliases": [
+      "Shorekeeper",
+      "1505"
+    ],
+    "releaseDate": "2024-09-29",
+    "releasePatch": "1.3",
+    "voiceActors": {
+      "english": "imdb:nm2267289|Stephanie McKeon",
+      "chinese": "https://zh.moegirl.org.cn/%E5%94%90%E9%9B%85%E8%8F%81|Tang Yajing (zh=唐雅菁)",
+      "japanese": "Ayaka Suwa|Suwa Ayaka (ja=諏訪彩花)",
+      "korean": "https://namu.wiki/w/김보나|Kim Bo-na (ko=김보나)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.3",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Sigrika",
+    "pageTitle": "Sigrika",
+    "aliases": [
+      "Sigrika",
+      "1412"
+    ],
+    "releaseDate": "2026-03-19",
+    "releasePatch": "3.2",
+    "voiceActors": {
+      "english": "imdb:nm5628754|Maya Lindh",
+      "chinese": "https://zh.moegirl.org.cn/钱琛|Qian Chen (zh=钱琛)",
+      "japanese": "Chinatsu Akasaki|Akasaki Chinatsu (ja=赤﨑 千夏)",
+      "korean": "https://namu.wiki/w/장예나|Jang Ye-na (ko=장예나)"
+    },
+    "categories": [
+      "Category:Introduced in Version 3.1",
+      "Category:Released in Version 3.2",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Taoqi",
+    "pageTitle": "Taoqi",
+    "aliases": [
+      "Taoqi",
+      "1601"
+    ],
+    "releaseDate": "2024-05-23",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "imdb:nm2463762|Clare Louise Connolly",
+      "chinese": "https://zh.moegirl.org.cn/KIYO|KIYO",
+      "japanese": "Hina Yōmiya|Yōmiya Hina (ja=羊宮妃那)",
+      "korean": "https://namu.wiki/w/이새아|Yi Sae-ah (ko=이새아)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Verina",
+    "pageTitle": "Verina",
+    "aliases": [
+      "Verina",
+      "1503"
+    ],
+    "releaseDate": "2024-05-23",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "imdb:nm2744476|Heather Nicol",
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/赵爽|Zhao Shuang (zh=赵爽)",
+      "japanese": "Yū Sasahara|Sasahara Yū (ja=篠原侑)",
+      "korean": "https://namu.wiki/w/강새봄|Kang Saebom (ko=강새봄)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Xiangli Yao",
+    "pageTitle": "Xiangli Yao",
+    "aliases": [
+      "Xiangli Yao",
+      "1305"
+    ],
+    "releaseDate": "2024-09-07",
+    "releasePatch": "1.2",
+    "voiceActors": {
+      "english": "imdb:nm7471114|Shaun Mendum",
+      "chinese": "https://zh.moegirl.org.cn/斑马|Banma (zh=斑马)",
+      "japanese": "Chiaki Kobayashi|Kobayashi Chiaki (ja=小林千晃)",
+      "korean": "ko:정의진|Jung Eui-jin (ko=정의진)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.2",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Yangyang",
+    "pageTitle": "Yangyang",
+    "aliases": [
+      "Yangyang",
+      "1402"
+    ],
+    "releaseDate": "2024-05-23",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "imdb:nm5476333|Rebecca Yeo",
+      "chinese": "https://zh.moegirl.org.cn/虫虫|Chongchong (zh=虫虫)",
+      "japanese": "Yui Ishikawa|Ishikawa Yui (ja=石川由依)",
+      "korean": "https://namu.wiki/w/이유리(성우)|Lee Yu-ri (ko=이유리)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Yinlin",
+    "pageTitle": "Yinlin",
+    "aliases": [
+      "Yinlin",
+      "1302"
+    ],
+    "releaseDate": "2024-06-06",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "imdb:nm1696370|Naomi McDonald",
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/小连杀|Xiao Liansha (zh=小连杀)",
+      "japanese": "Ami Koshimizu|Koshimizu Ami (ja=小清水亜美)",
+      "korean": "https://namu.wiki/w/강새봄|Kang Sae-bom (ko=강새봄)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Youhu",
+    "pageTitle": "Youhu",
+    "aliases": [
+      "Youhu",
+      "1106"
+    ],
+    "releaseDate": "2024-10-24",
+    "releasePatch": "1.3",
+    "voiceActors": {
+      "english": "imdb:nm7230050|Leonora Haig",
+      "chinese": "https://zh.moegirl.org.cn/刘一蕾|Liu Yilei (zh=刘一蕾)",
+      "japanese": "Miyu Tomita|Tomita Miyu (ja=富田美憂)",
+      "korean": "https://namu.wiki/w/박시윤(성우)|Park Si-yoon (ko=박시윤)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 1.3",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Yuanwu",
+    "pageTitle": "Yuanwu",
+    "aliases": [
+      "Yuanwu",
+      "1303"
+    ],
+    "releaseDate": "2024-05-23",
+    "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "imdb:nm7832254|Adam Diggle",
+      "chinese": "https://zh.moegirl.org.cn/zh-hant/刘北辰|Liu Beichen (zh=刘北辰)",
+      "japanese": "Hiroshi Shirokuma|Shirokuma Hiroshi (ja=白熊寬嗣)",
+      "korean": "https://namu.wiki/w/박성태|Park Seong-tae (ko=박성태)"
+    },
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Zani",
+    "pageTitle": "Zani",
+    "aliases": [
+      "Zani",
+      "1507"
+    ],
+    "releaseDate": "2025-04-29",
+    "releasePatch": "2.3",
+    "voiceActors": {
+      "english": "imdb:nm3229078|Alexandra Metaxa",
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/聂曦映|Nie Xiying (zh=聂曦映)",
+      "japanese": "Hitomi Ueda|Ueda Hitomi (ja=上田瞳)",
+      "korean": "https://namu.wiki/w/원에스더|Won Esther (ko=원에스더)}}"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.0",
+      "Category:Released in Version 2.3",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Zhezhi",
+    "pageTitle": "Zhezhi",
+    "aliases": [
+      "Zhezhi",
+      "1105"
+    ],
+    "releaseDate": "2024-08-15",
+    "releasePatch": "1.2",
+    "voiceActors": {
+      "english": "imdb:nm665661|Shin-Fei Chen",
+      "chinese": "https://zh.moegirl.org.cn/苗子|Miao Zi (zh=苗子)",
+      "japanese": "Yui Makino|Makino Yui (ja=牧野由依)",
+      "korean": "https://namu.wiki/w/김하루|Kim Ha-ru (ko=김하루)"
+    },
+    "categories": [
+      "Category:Released in Version 1.2",
+      "Category:Version"
+    ]
+  }
+]

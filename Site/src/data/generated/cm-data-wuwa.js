@@ -69,10 +69,24 @@
     {
       "id": "ww-phrolova",
       "n": "Phrolova",
+      "localizedNames": {
+        "en": "Phrolova",
+        "zh": "\u5f17\u6d1b\u6d1b",
+        "ja": "\u30d5\u30ed\u30fc\u30f4\u30a1",
+        "ko": "\ud50c\ub85c\ub85c"
+      },
       "title": "Symphony of Beyond",
       "slug": "phrolova",
+      "release": 1753315200000,
+      "releasePatch": "2.5",
       "updated": 1780956000000,
       "sourceOrder": 1608,
+      "voiceActors": {
+        "english": "imdb:nm5893797|Rae Lim",
+        "japanese": "Saki Fujita|Fujita Saki (ja=\u85e4\u7530\u54b2)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/%\u5f20\u7426|Zhang Qi (zh=\u5f20\u7426)",
+        "korean": "https://namu.wiki/w/\ucd5c\ud558\ub9ac|Choi Hari (ko=\ucd5c\ud558\ub9ac)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_41_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/phrolova-f93c4b04e040.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/phrolova-8e2483db1896.webp",
@@ -361,10 +375,24 @@
     {
       "id": "ww-cantarella",
       "n": "Cantarella",
+      "localizedNames": {
+        "en": "Cantarella",
+        "zh": "\u574e\u7279\u857e\u62c9",
+        "ja": "\u30ab\u30f3\u30bf\u30ec\u30e9",
+        "ko": "\uce78\ud0c0\ub810\ub77c"
+      },
       "title": "Sea of Dreams",
       "slug": "cantarella",
+      "release": 1743033600000,
+      "releasePatch": "2.2",
       "updated": 1780956000000,
       "sourceOrder": 1607,
+      "voiceActors": {
+        "english": "imdb:nm5498692|Alexandra Guelff",
+        "japanese": "Mai Nakahara|Nakahara Mai (ja=\u4e2d\u539f\u9ebb\u8863)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5c0f\u7c73(\u914d\u97f3\u6f14\u5458|Xiao Mi (zh=\u5c0f\u7c73)",
+        "korean": "https://namu.wiki/w/\uae40\uc728|Kim Yul (ko=\uae40\uc728)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_34_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/cantarella-838306f4f7be.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/cantarella-838306f4f7be.webp",
@@ -650,10 +678,24 @@
     {
       "id": "ww-roccia",
       "n": "Roccia",
+      "localizedNames": {
+        "en": "Roccia",
+        "zh": "\u6d1b\u53ef\u53ef",
+        "ja": "\u30ed\u30b3\u30b3",
+        "ko": "\ub85c\ucf54\ucf54"
+      },
       "title": "Stage in the Box",
       "slug": "roccia",
+      "release": 1737590400000,
+      "releasePatch": "2.0",
       "updated": 1780956000000,
       "sourceOrder": 1606,
+      "voiceActors": {
+        "english": "Holly Earl",
+        "japanese": "Konomi Kohara|Kohara Konomi (ja=\u5c0f\u539f\u597d\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u6c88\u8bdd\u6851|Shen Huasang (zh=\u6c88\u8bdd\u6851)",
+        "korean": "https://namu.wiki/w/\uc7a5\ubbf8(\uc131\uc6b0)|Jang Mi (ko=\uc7a5\ubbf8)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_33_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/roccia-79dea044afc4.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/roccia-79dea044afc4.webp",
@@ -939,9 +981,21 @@
     {
       "id": "wuwa-rover",
       "n": "Rover",
+      "localizedNames": {
+        "en": "Rover: Spectro",
+        "zh": "\u6f02\u6cca\u8005\u00b7\u884d\u5c04",
+        "ja": "\u6f02\u6cca\u8005\u30fb\u56de\u6298",
+        "ko": "\ubc29\ub791\uc790"
+      },
       "slug": "rover-spectro",
       "updated": 1780956000000,
       "sourceOrder": 1502,
+      "voiceActors": {
+        "english": "Jane Jackson / Chase Brown",
+        "japanese": "Tanaka Minami / Toshiki Masuda",
+        "chinese": "Du QingQing / Ma Yang",
+        "korean": "Song Ha Rim / Kim Sin Woo"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/rover-spectro-62be77f1ce9f.webp",
       "card": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujue_UI.webp",
@@ -1231,9 +1285,21 @@
         {
           "id": "ww-rover-spectro",
           "n": "Rover",
+          "localizedNames": {
+            "en": "Rover: Spectro",
+            "zh": "\u6f02\u6cca\u8005\u00b7\u884d\u5c04",
+            "ja": "\u6f02\u6cca\u8005\u30fb\u56de\u6298",
+            "ko": "\ubc29\ub791\uc790"
+          },
           "slug": "rover-spectro",
           "updated": 1780956000000,
           "sourceOrder": 1502,
+          "voiceActors": {
+            "english": "Jane Jackson / Chase Brown",
+            "japanese": "Tanaka Minami / Toshiki Masuda",
+            "chinese": "Du QingQing / Ma Yang",
+            "korean": "Song Ha Rim / Kim Sin Woo"
+          },
           "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/rover-spectro-62be77f1ce9f.webp",
           "card": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujue_UI.webp",
@@ -1522,9 +1588,21 @@
         {
           "id": "ww-rover-havoc",
           "n": "Rover",
+          "localizedNames": {
+            "en": "Rover: Havoc",
+            "zh": "\u6f02\u6cca\u8005\u00b7\u6e6e\u706d",
+            "ja": "\u6f02\u6cca\u8005\u30fb\u6d88\u6ec5",
+            "ko": "\ubc29\ub791\uc790 \u00b7 \uc778\uba78"
+          },
           "slug": "rover-havoc",
           "updated": 1780956000000,
           "sourceOrder": 1605,
+          "voiceActors": {
+            "english": "Jane Jackson / Chase Brown",
+            "japanese": "Tanaka Minami / Toshiki Masuda",
+            "chinese": "Du QingQing / Ma Yang",
+            "korean": "Song Ha Rim / Kim Sin Woo"
+          },
           "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/rover-havoc-cc7df9718613.webp",
           "card": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.webp",
@@ -1810,9 +1888,21 @@
         {
           "id": "ww-rover-aero",
           "n": "Rover",
+          "localizedNames": {
+            "en": "Rover: Aero",
+            "zh": "\u6f02\u6cca\u8005\u00b7\u6c14\u52a8",
+            "ja": "\u6f02\u6cca\u8005\u30fb\u6c17\u52d5",
+            "ko": "\ubc29\ub791\uc790 \u00b7 \uae30\ub958"
+          },
           "slug": "rover-aero",
           "updated": 1780956000000,
           "sourceOrder": 1408,
+          "voiceActors": {
+            "english": "Jane Jackson / Chase Brown",
+            "japanese": "Tanaka Minami / Toshiki Masuda",
+            "chinese": "Du QingQing / Ma Yang",
+            "korean": "Song Ha Rim / Kim Sin Woo"
+          },
           "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/rover-aero-e18045d46d04.webp",
           "card": "../../Database/Prydwen/ww/assets/characters/rover-aero-578c4299a93d.webp",
@@ -2124,10 +2214,24 @@
     {
       "id": "ww-camellya",
       "n": "Camellya",
+      "localizedNames": {
+        "en": "Camellya",
+        "zh": "\u693f",
+        "ja": "\u30c4\u30d0\u30ad",
+        "ko": "\uce74\uba5c\ub9ac\uc544"
+      },
       "title": "Sanguine Blossom",
       "slug": "camellya",
+      "release": 1731542400000,
+      "releasePatch": "1.4",
       "updated": 1781820000000,
       "sourceOrder": 1603,
+      "voiceActors": {
+        "english": "Meaghan Martin",
+        "japanese": "Mariya Ise|Ise Mariya (ja=\u4f0a\u702c\u8309\u8389\u4e5f)",
+        "chinese": "https://zh.moegirl.org.cn/\u67f3\u77e5\u8427|Liu Zhixiao (zh=\u67f3\u77e5\u8427)",
+        "korean": "https://namu.wiki/w/\uc720\ud61c\uc9c0|Yu Hye-ji (ko=\uc720\ud61c\uc9c0)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_29_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/camellya-b68cebb29e98.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/camellya-b68cebb29e98.webp",
@@ -2399,10 +2503,24 @@
     {
       "id": "ww-danjin",
       "n": "Danjin",
+      "localizedNames": {
+        "en": "Danjin",
+        "zh": "\u4e39\u747e",
+        "ja": "\u4e39\u747e",
+        "ko": "\ub2e8\uadfc"
+      },
       "title": "Scarlet Shade",
       "slug": "danjin",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1602,
+      "voiceActors": {
+        "english": "Sophie Colquhoun",
+        "japanese": "Miho Okasaki|Okasaki Miho (ja=\u5ca1\u54b2\u7f8e\u4fdd)",
+        "chinese": "https://zh.moegirl.org.cn/\u4e00\u53e3\u4e95|Yi Kou Jing (zh=\u4e00\u53e3\u4e95)",
+        "korean": "https://namu.wiki/w/\uc774\ud604\uc9c4(\uc131\uc6b0)|Lee Hyunjin (ko=\uc774\ud604\uc9c4)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_10_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/danjin-f5c38f132cf5.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/danjin-f2f25e3c04cd.webp",
@@ -2687,10 +2805,24 @@
     {
       "id": "ww-taoqi",
       "n": "Taoqi",
+      "localizedNames": {
+        "en": "Taoqi",
+        "zh": "\u6843\u7948",
+        "ja": "\u6843\u7948",
+        "ko": "\ub3c4\uae30"
+      },
       "title": "Blossom of Slashes",
       "slug": "taoqi",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1601,
+      "voiceActors": {
+        "english": "imdb:nm2463762|Clare Louise Connolly",
+        "japanese": "Hina Y\u014dmiya|Y\u014dmiya Hina (ja=\u7f8a\u5bae\u5983\u90a3)",
+        "chinese": "https://zh.moegirl.org.cn/KIYO|KIYO",
+        "korean": "https://namu.wiki/w/\uc774\uc0c8\uc544|Yi Sae-ah (ko=\uc774\uc0c8\uc544)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_9_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/taoqi-a3bb4a186b33.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/taoqi-a247d98b0cb7.webp",
@@ -2967,10 +3099,24 @@
     {
       "id": "ww-lucy",
       "n": "Lucy",
+      "localizedNames": {
+        "en": "Lucy",
+        "zh": "\u9732\u897f",
+        "ja": "\u30eb\u30fc\u30b7\u30fc",
+        "ko": "\ub8e8\uc2dc"
+      },
       "title": "Xeno-Domain Hacking",
       "slug": "lucy",
+      "release": 1780876800000,
+      "releasePatch": "3.4",
       "updated": 1781820000000,
       "sourceOrder": 1511,
+      "voiceActors": {
+        "english": "Emi Lo",
+        "japanese": "Aoi Y\u016bki|Y\u016bki Aoi (ja=\u60a0\u6728 \u78a7)",
+        "chinese": "https://zh.moegirl.org.cn/\u5b8b\u653f\u6960|Song Zhengnan (zh=\u5b8b\u653f\u6960)",
+        "korean": "https://namu.wiki/w/\uae40\uac00\ub839|Kim Ga-ryeong (ko=\uae40\uac00\ub839)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_68_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/lucy-9479ec44b129.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/lucy-af75001a9717.webp",
@@ -3232,10 +3378,24 @@
     {
       "id": "ww-luuk-herssen",
       "n": "Luuk Herssen",
+      "localizedNames": {
+        "en": "Luuk Herssen",
+        "zh": "\u9646\u00b7\u8d6b\u65af",
+        "ja": "\u30ea\u30e5\u30fc\u30af\u30fb\u30d8\u30eb\u30bb\u30f3",
+        "ko": "\ub8e8\ud06c \u00b7 \ud5e4\ub974\uc13c"
+      },
       "title": "Phase Transition",
       "slug": "luuk-herssen",
+      "release": 1772064000000,
+      "releasePatch": "3.1",
       "updated": 1781820000000,
       "sourceOrder": 1510,
+      "voiceActors": {
+        "english": "imdb:nm10304447|Griffyn Bellah",
+        "japanese": "Shinnosuke Tachibana|Tachibana Shinnosuke (ja=\u7acb\u82b1\u614e\u4e4b\u4ecb)",
+        "chinese": "https://zh.moegirl.org.cn/\u9a6c\u6b63\u9633|Ma Zhengyang (zh=\u9a6c\u6b63\u9633)",
+        "korean": "https://namu.wiki/w/\ubbfc\uc2b9\uc6b0|Min Seung-woo (ko=\ubbfc\uc2b9\uc6b0)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_54_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/luuk-herssen-5652dfe8996d.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/luuk-herssen-f1d67bfe71d8.webp",
@@ -3495,10 +3655,24 @@
     {
       "id": "ww-lynae",
       "n": "Lynae",
+      "localizedNames": {
+        "en": "Lynae",
+        "zh": "\u7433\u5948",
+        "ja": "\u30ea\u30f3\u30cd\u30fc",
+        "ko": "\ub9b0\ub124"
+      },
       "title": "Radiant Spectrum",
       "slug": "lynae",
+      "release": 1766620800000,
+      "releasePatch": "3.0",
       "updated": 1781820000000,
       "sourceOrder": 1509,
+      "voiceActors": {
+        "english": "imdb:nm4716053|Elsie Lovelock",
+        "japanese": "Marina Inoue|Inoue Marina (ja=\u4e95\u4e0a\u9ebb\u91cc\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/\u6731\u5a67|Zhu Jing (zh=\u6731\u5a67)",
+        "korean": "https://namu.wiki/w/\ucd5c\ud604\uc9c0(\uc131\uc6b0)|Choi Hyeon-ji (ko=\ucd5c\ud604\uc9c0)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_60_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/lynae-2900407f5a79.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/lynae-6c7571198e39.webp",
@@ -3758,10 +3932,23 @@
     {
       "id": "ww-chisa",
       "n": "Chisa",
+      "localizedNames": {
+        "en": "Chisa",
+        "zh": "\u5343\u54b2",
+        "ja": "\u5343\u54b2",
+        "ko": "\uce58\uc0ac"
+      },
       "title": "Eye of Unravelling",
       "slug": "chisa",
+      "release": 1763596800000,
+      "releasePatch": "2.8",
       "updated": 1781820000000,
       "sourceOrder": 1508,
+      "voiceActors": {
+        "japanese": "Hisako Kanemoto|Kanemoto Hisako (ja=\u91d1\u5143\u5bff\u5b50)",
+        "chinese": "Zhao Lingze (zh=\u8d75\u7075\u6cfd)",
+        "korean": "ko:\uc774\uc8fc\uc740_(\uc131\uc6b0)|Lee Joo-eun (ko=\uc774\uc8fc\uc740)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_57_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/chisa-4f80c7455c43.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/chisa-c9f908c02435.webp",
@@ -4045,10 +4232,24 @@
     {
       "id": "ww-zani",
       "n": "Zani",
+      "localizedNames": {
+        "en": "Zani",
+        "zh": "\u8d5e\u59ae",
+        "ja": "\u30b6\u30f3\u30cb\u30fc",
+        "ko": "\uc820\ub2c8"
+      },
       "title": "Scorched Radiance",
       "slug": "zani",
+      "release": 1745884800000,
+      "releasePatch": "2.3",
       "updated": 1780956000000,
       "sourceOrder": 1507,
+      "voiceActors": {
+        "english": "imdb:nm3229078|Alexandra Metaxa",
+        "japanese": "Hitomi Ueda|Ueda Hitomi (ja=\u4e0a\u7530\u77b3)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u8042\u66e6\u6620|Nie Xiying (zh=\u8042\u66e6\u6620)",
+        "korean": "https://namu.wiki/w/\uc6d0\uc5d0\uc2a4\ub354|Won Esther (ko=\uc6d0\uc5d0\uc2a4\ub354)}}"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_38_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/zani-3b924faaa0f7.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/zani-3b924faaa0f7.webp",
@@ -4334,10 +4535,24 @@
     {
       "id": "ww-phoebe",
       "n": "Phoebe",
+      "localizedNames": {
+        "en": "Phoebe",
+        "zh": "\u83f2\u6bd4",
+        "ja": "\u30d5\u30a3\u30fc\u30d3\u30fc",
+        "ko": "\ud398\ube44"
+      },
       "title": "Graceful Luminescence",
       "slug": "phoebe",
+      "release": 1739404800000,
+      "releasePatch": "2.1",
       "updated": 1780956000000,
       "sourceOrder": 1506,
+      "voiceActors": {
+        "english": "imdb:nm11072091|Rebecca LaChance",
+        "japanese": "Kaede Hondo|Hondo Kaede (ja=\u672c\u6e21\u6953)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5085\u5a77\u4e91|Fu Tingyun (zh=\u5085\u5a77\u4e91)",
+        "korean": "https://namu.wiki/w/\uc774\ubcf4\uc6a9|Lee Bo-yong (ko=\uc774\ubcf4\uc6a9)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_45_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/phoebe-3d4306d78712.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/phoebe-3d4306d78712.webp",
@@ -4611,10 +4826,24 @@
     {
       "id": "ww-lumi",
       "n": "Lumi",
+      "localizedNames": {
+        "en": "Lumi",
+        "zh": "\u706f\u706f",
+        "ja": "\u706f\u706f",
+        "ko": "\ub8e8\ubbf8"
+      },
       "title": "Kaleido Refraction",
       "slug": "lumi",
+      "release": 1733961600000,
+      "releasePatch": "1.4",
       "updated": 1780956000000,
       "sourceOrder": 1504,
+      "voiceActors": {
+        "english": "imdb:nm12853763|Emily Cass",
+        "japanese": "Minori Suzuki|Suzuki Minori (ja=\u9234\u6728\u307f\u306e\u308a)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u9759\u5bb8|Jing Chen (zh=\u9759\u5bb8)",
+        "korean": "https://namu.wiki/w/\uc815\ud574\uc740(\uc131\uc6b0)|Jeong Ha-eun (ko=\uc815\ud574\uc740)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_30_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/lumi-da7336a0c26e.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/lumi-da7336a0c26e.webp",
@@ -4894,10 +5123,24 @@
     {
       "id": "ww-verina",
       "n": "Verina",
+      "localizedNames": {
+        "en": "Verina",
+        "zh": "\u7ef4\u91cc\u5948",
+        "ja": "\u30f4\u30a7\u30ea\u30fc\u30ca",
+        "ko": "\ubca8\ub9ac\ub098"
+      },
       "title": "Nature Calling",
       "slug": "verina",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1503,
+      "voiceActors": {
+        "english": "imdb:nm2744476|Heather Nicol",
+        "japanese": "Y\u016b Sasahara|Sasahara Y\u016b (ja=\u7be0\u539f\u4f91)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u8d75\u723d|Zhao Shuang (zh=\u8d75\u723d)",
+        "korean": "https://namu.wiki/w/\uac15\uc0c8\ubd04|Kang Saebom (ko=\uac15\uc0c8\ubd04)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_3_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/verina-4bfead3b632c.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/verina-97b026bd1974.webp",
@@ -5174,10 +5417,24 @@
     {
       "id": "ww-sigrika",
       "n": "Sigrika",
+      "localizedNames": {
+        "en": "Sigrika",
+        "zh": "\u897f\u683c\u8389\u5361",
+        "ja": "\u30b7\u30b0\u30ea\u30ab",
+        "ko": "\uc2dc\uadf8\ub9ac\uce74"
+      },
       "title": "True Name Manifestation",
       "slug": "sigrika",
+      "release": 1773878400000,
+      "releasePatch": "3.2",
       "updated": 1781820000000,
       "sourceOrder": 1412,
+      "voiceActors": {
+        "english": "imdb:nm5628754|Maya Lindh",
+        "japanese": "Chinatsu Akasaki|Akasaki Chinatsu (ja=\u8d64\ufa11 \u5343\u590f)",
+        "chinese": "https://zh.moegirl.org.cn/\u94b1\u741b|Qian Chen (zh=\u94b1\u741b)",
+        "korean": "https://namu.wiki/w/\uc7a5\uc608\ub098|Jang Ye-na (ko=\uc7a5\uc608\ub098)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_65_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/sigrika-feaeb4a6e35f.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/sigrika-dac26839b843.webp",
@@ -5437,10 +5694,24 @@
     {
       "id": "ww-qiuyuan",
       "n": "Qiuyuan",
+      "localizedNames": {
+        "en": "Qiuyuan",
+        "zh": "\u4ec7\u8fdc",
+        "ja": "\u4ec7\u9060",
+        "ko": "\uad6c\uc6d0"
+      },
       "title": "Bambooscape",
       "slug": "qiuyuan",
+      "release": 1761782400000,
+      "releasePatch": "2.7",
       "updated": 1781820000000,
       "sourceOrder": 1411,
+      "voiceActors": {
+        "english": "imdb:nm9356204|Jeremy Ang Jones",
+        "japanese": "Shin-ichiro Miki|Miki Shinichir\u014d (ja=\u4e09\u6728\u771e\u4e00\u90ce)",
+        "chinese": "https://zh.moegirl.org.cn/\u6de6\u5b50\u9f50|Gan Ziqi (zh=\u6de6\u5b50\u9f50)",
+        "korean": "ko:\uae40\ubbfc\uc8fc (\uc131\uc6b0)|Kim Min-ju (ko=\uae40\ubbfc\uc8fc)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_56_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/qiuyuan-9101898bdf10.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/qiuyuan-b816ed5533f2.webp",
@@ -5718,10 +5989,24 @@
     {
       "id": "ww-iuno",
       "n": "Iuno",
+      "localizedNames": {
+        "en": "Iuno",
+        "zh": "\u5c24\u8bfa",
+        "ja": "\u30e6\u30fc\u30ce",
+        "ko": "\uc720\ub178"
+      },
       "title": "Stasis, Cycle, Renewal",
       "slug": "iuno",
+      "release": 1758067200000,
+      "releasePatch": "2.6",
       "updated": 1780956000000,
       "sourceOrder": 1410,
+      "voiceActors": {
+        "english": "imdb:nm16596030|Ella Boyes",
+        "japanese": "Lynn (voice actress)|Lynn (ja=\u308a\u3093)",
+        "chinese": "https://zh.moegirl.org.cn/\u59dc\u82f1\u4fca|Jiang Yingjun (zh=\u59dc\u82f1\u4fca)",
+        "korean": "ko:\uc724\uc740\uc11c|Yoon Eun-seo (ko=\uc724\uc740\uc11c)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_48_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/iuno-b7578fecf82e.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/iuno-565fb00e415b.webp",
@@ -6007,10 +6292,24 @@
     {
       "id": "ww-cartethyia",
       "n": "Cartethyia",
+      "localizedNames": {
+        "en": "Cartethyia",
+        "zh": "\u5361\u63d0\u5e0c\u5a05",
+        "ja": "\u30ab\u30eb\u30c6\u30b8\u30a2",
+        "ko": "\uce74\ub974\ud2f0\uc2dc\uc544"
+      },
       "title": "Feathered Tempest",
       "slug": "cartethyia",
+      "release": 1749686400000,
+      "releasePatch": "2.4",
       "updated": 1780956000000,
       "sourceOrder": 1409,
+      "voiceActors": {
+        "english": "imdb:nm1764274|Amanda Elizabeth Rischel",
+        "japanese": "Y\u016b Asakawa|Asakawa Y\u016b (ja=\u6d45\u5ddd\u60a0)",
+        "chinese": "https://zh.moegirl.org.cn/\u4e91\u9e64\u8ffd|Yun He Zhui (zh=\u4e91\u9e64\u8ffd)",
+        "korean": "https://namu.wiki/w/\ubc30\ud558\uacbd|Bae Ha-gyoung (ko=\ubc30\ud558\uacbd)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_40_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/cartethyia-0aab3b75d895.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/cartethyia-ed6aecb666f8.webp",
@@ -6296,10 +6595,23 @@
     {
       "id": "ww-ciaccona",
       "n": "Ciaccona",
+      "localizedNames": {
+        "en": "Ciaccona",
+        "zh": "\u590f\u7a7a",
+        "ja": "\u30b7\u30e3\u30b3\u30f3\u30cc",
+        "ko": "\uc0e4\ucf58"
+      },
       "title": "Woven Melodies",
       "slug": "ciaccona",
+      "release": 1747872000000,
+      "releasePatch": "2.3",
       "updated": 1780956000000,
       "sourceOrder": 1407,
+      "voiceActors": {
+        "japanese": "Ikumi Hasegawa|Hasegawa Ikumi (ja=\u9577\u8c37\u5ddd\u80b2\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u53f6\u77e5\u79cb|Ye Zhiqiu (zh=\u53f6\u77e5\u79cb)",
+        "korean": "https://namu.wiki/w/\uae40\uc608\ub9bc(\uc131\uc6b0)|Kim Ye-rim (ko=\uae40\uc608\ub9bc)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_37_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/ciaccona-b29f2ae0ca0d.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/ciaccona-f94394577c2e.webp",
@@ -6585,10 +6897,24 @@
     {
       "id": "ww-jianxin",
       "n": "Jianxin",
+      "localizedNames": {
+        "en": "Jianxin",
+        "zh": "\u9274\u5fc3",
+        "ja": "\u9451\u5fc3",
+        "ko": "\uac10\uc2ec"
+      },
       "title": "Guiding Starlance",
       "slug": "jianxin",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1405,
+      "voiceActors": {
+        "english": "Ioanna Kimbook",
+        "japanese": "Chika Anzai|Anzai Chika (ja=\u5b89\u6e08\u77e5\u4f73)",
+        "chinese": "https://zh.moegirl.org.cn/%E5%BC%A0%E6%98%B1|Yu Tou (zh=\u6631\u5934)",
+        "korean": "https://namu.wiki/w/%EC%9D%B4%EC%9D%80%EC%A1%B0(%EC%84%B1%EC%9A%B0)|Lee Eunjo (ko=\uc774\uc740\uc870)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_23_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/jianxin-e05b5541fac3.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/jianxin-0c0181a96d16.webp",
@@ -6868,10 +7194,24 @@
     {
       "id": "ww-jiyan",
       "n": "Jiyan",
+      "localizedNames": {
+        "en": "Jiyan",
+        "zh": "\u5fcc\u708e",
+        "ja": "\u5fcc\u708e",
+        "ko": "\uae30\uc5fc"
+      },
       "title": "Windborne Rider",
       "slug": "jiyan",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1404,
+      "voiceActors": {
+        "english": "imdb:nm7074735|Alex Jordan",
+        "japanese": "Y\u016bki Ono|Ono Y\u016bki (ja=\u5c0f\u91ce\u53cb\u6a39)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5b59\u6654|Sun Ye (zh=\u5b59\u6654)",
+        "korean": "Nam Doh-hyeong|Nam Doh-hyeong (ko=\ub0a8\ub3c4\ud615)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_11_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/jiyan-f77f8a07880e.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/jiyan-526f427140dc.webp",
@@ -7148,10 +7488,24 @@
     {
       "id": "ww-aalto",
       "n": "Aalto",
+      "localizedNames": {
+        "en": "Aalto",
+        "zh": "\u79cb\u6c34",
+        "ja": "\u30a2\u30fc\u30eb\u30c8",
+        "ko": "\uc54c\ud1a0"
+      },
       "title": "Mistcloak Strike",
       "slug": "aalto",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1403,
+      "voiceActors": {
+        "english": "imdb:nm8112834|James Day",
+        "japanese": "Ryota Iwasaki|Iwasaki Ry\u014dta (ja=\u5ca9\u5d0e\u8ad2\u592a)",
+        "chinese": "https://zh.moegirl.org.cn/zh/\u6881\u8fbe\u4f1f|Liang Dawei (zh=\u6881\u8fbe\u4f1f)",
+        "korean": "https://namu.wiki/w/\uc784\ucc44\ube48|Lim Chae-bin (ko=\uc784\ucc44\ube48)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_12_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/aalto-05efecf613fe.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/aalto-539d2edc55d7.webp",
@@ -7428,10 +7782,24 @@
     {
       "id": "ww-yangyang",
       "n": "Yangyang",
+      "localizedNames": {
+        "en": "Yangyang",
+        "zh": "\u79e7\u79e7",
+        "ja": "\u79e7\u79e7",
+        "ko": "\uc591\uc591"
+      },
       "title": "Breath of Winds",
       "slug": "yangyang",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1402,
+      "voiceActors": {
+        "english": "imdb:nm5476333|Rebecca Yeo",
+        "japanese": "Yui Ishikawa|Ishikawa Yui (ja=\u77f3\u5ddd\u7531\u4f9d)",
+        "chinese": "https://zh.moegirl.org.cn/\u866b\u866b|Chongchong (zh=\u866b\u866b)",
+        "korean": "https://namu.wiki/w/\uc774\uc720\ub9ac(\uc131\uc6b0)|Lee Yu-ri (ko=\uc774\uc720\ub9ac)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_1_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/yangyang-340f9b1e8495.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/yangyang-a29c4de025eb.webp",
@@ -7719,10 +8087,24 @@
     {
       "id": "ww-rebecca",
       "n": "Rebecca",
+      "localizedNames": {
+        "en": "Rebecca",
+        "zh": "\u4e3d\u8d1d\u5361",
+        "ja": "\u30ec\u30d9\u30c3\u30ab",
+        "ko": "\ub808\ubca0\uce74"
+      },
       "title": "Fury-Type Arsenal",
       "slug": "rebecca",
+      "release": 1780876800000,
+      "releasePatch": "3.4",
       "updated": 1781820000000,
       "sourceOrder": 1308,
+      "voiceActors": {
+        "english": "imdb:nm7858309|Alex Cazares",
+        "japanese": "Tomoyo Kurosawa|Kurosawa Tomoyo (ja=\u9ed2\u6ca2\u3068\u3082\u3088)",
+        "chinese": "https://zh.moegirl.org.cn/\u9648\u7ae0|Chen Zhang (zh=\u9648\u7ae0)",
+        "korean": "https://namu.wiki/w/\ubc15\uc2dc\uc724(\uc131\uc6b0)|Park Si-yoon (ko=\ubc15\uc2dc\uc724)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_69_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/rebecca-7d52d26dbc84.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/rebecca-9e9cb9043a78.webp",
@@ -7984,10 +8366,24 @@
     {
       "id": "ww-buling",
       "n": "Buling",
+      "localizedNames": {
+        "en": "Buling",
+        "zh": "\u535c\u7075",
+        "ja": "\u535c\u970a",
+        "ko": "\ubcf5\ub9c1"
+      },
       "title": "Divine Hearing",
       "slug": "buling",
+      "release": 1765411200000,
+      "releasePatch": "2.8",
       "updated": 1781820000000,
       "sourceOrder": 1307,
+      "voiceActors": {
+        "english": "imdb:nm13298431|Elizabeth Chu",
+        "japanese": "Sayaka Senbongi|Senbongi Sayaka (ja=\u5343\u672c\u6728\u5f69\u82b1)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u6654|Zhang Ye (zh=\u5f20\u6654)",
+        "korean": "https://namu.wiki/w/\uc774\uc774\ub85c|Lee I-ro (ko=\uc774\uc774\ub85c)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_58_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/buling-f9d6c0f3deac.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/buling-7d7829257f62.webp",
@@ -8265,10 +8661,24 @@
     {
       "id": "ww-augusta",
       "n": "Augusta",
+      "localizedNames": {
+        "en": "Augusta",
+        "zh": "\u5965\u53e4\u65af\u5854",
+        "ja": "\u30aa\u30fc\u30ac\u30b9\u30bf",
+        "ko": "\uc544\uc6b0\uad6c\uc2a4\ud0c0"
+      },
       "title": "Magnetism Before Light",
       "slug": "augusta",
+      "release": 1756339200000,
+      "releasePatch": "2.6",
       "updated": 1780956000000,
       "sourceOrder": 1306,
+      "voiceActors": {
+        "english": "imdb:nm2542896|Alix Wilton Regan",
+        "japanese": "Yoko Hikasa|Hikasa Y\u014dko (ja=\u65e5\u7b20\u967d\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u7a46\u96ea\u5a77|Mu Xueting (zh=\u7a46\u96ea\u5a77)",
+        "korean": "https://namu.wiki/w/\uc774\uc9c0\ud604(\uc131\uc6b0)|Lee Ji-hyun (ko=\uc774\uc9c0\ud604)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_51_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/augusta-218057f11bbd.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/augusta-596c5cc53cbb.webp",
@@ -8554,10 +8964,24 @@
     {
       "id": "ww-xiangli-yao",
       "n": "Xiangli Yao",
+      "localizedNames": {
+        "en": "Xiangli Yao",
+        "zh": "\u76f8\u91cc\u8981",
+        "ja": "\u76f8\u91cc\u8981",
+        "ko": "\uc0c1\ub9ac\uc694"
+      },
       "title": "Matter Weaver",
       "slug": "xiangli-yao",
+      "release": 1725667200000,
+      "releasePatch": "1.2",
       "updated": 1780956000000,
       "sourceOrder": 1305,
+      "voiceActors": {
+        "english": "imdb:nm7471114|Shaun Mendum",
+        "japanese": "Chiaki Kobayashi|Kobayashi Chiaki (ja=\u5c0f\u6797\u5343\u6643)",
+        "chinese": "https://zh.moegirl.org.cn/\u6591\u9a6c|Banma (zh=\u6591\u9a6c)",
+        "korean": "ko:\uc815\uc758\uc9c4|Jung Eui-jin (ko=\uc815\uc758\uc9c4)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_25_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/xiangli-yao-de2311c30de7.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/xiangli-yao-de2311c30de7.webp",
@@ -8840,10 +9264,24 @@
     {
       "id": "ww-jinhsi",
       "n": "Jinhsi",
+      "localizedNames": {
+        "en": "Jinhsi",
+        "zh": "\u4eca\u6c50",
+        "ja": "\u4eca\u6c50",
+        "ko": "\uae08\ud76c"
+      },
       "title": "Thawborn Renewal",
       "slug": "jinhsi",
+      "release": 1719532800000,
+      "releasePatch": "1.1",
       "updated": 1781906400000,
       "sourceOrder": 1304,
+      "voiceActors": {
+        "english": "imdb:m1683988|Anna Devlin",
+        "japanese": "Yoshino Aoyama|Aoyama Yoshino (ja=\u9752\u5c71\u5409\u80fd)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u6c5f\u6708|Jiang Yue (zh=\u6c5f\u6708)",
+        "korean": "https://namu.wiki/w/\ubc15\ud558\uc9c4(\uc131\uc6b0)|Park Ha-jin (ko=\ubc15\ud558\uc9c4))"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_24_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/jinhsi-5b27fbfe30f2.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/jinhsi-4e46d433a28a.webp",
@@ -9121,10 +9559,24 @@
     {
       "id": "ww-yuanwu",
       "n": "Yuanwu",
+      "localizedNames": {
+        "en": "Yuanwu",
+        "zh": "\u6e0a\u6b66",
+        "ja": "\u6df5\u6b66",
+        "ko": "\uc5f0\ubb34"
+      },
       "title": "Fist of Thunder",
       "slug": "yuanwu",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1303,
+      "voiceActors": {
+        "english": "imdb:nm7832254|Adam Diggle",
+        "japanese": "Hiroshi Shirokuma|Shirokuma Hiroshi (ja=\u767d\u718a\u5bec\u55e3)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hant/\u5218\u5317\u8fb0|Liu Beichen (zh=\u5218\u5317\u8fb0)",
+        "korean": "https://namu.wiki/w/\ubc15\uc131\ud0dc|Park Seong-tae (ko=\ubc15\uc131\ud0dc)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_15_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/yuanwu-d5ca96af6402.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/yuanwu-b4bc2a6d49f2.webp",
@@ -9415,10 +9867,24 @@
     {
       "id": "ww-yinlin",
       "n": "Yinlin",
+      "localizedNames": {
+        "en": "Yinlin",
+        "zh": "\u541f\u9716",
+        "ja": "\u541f\u9716",
+        "ko": "\uc74c\ub9bc"
+      },
       "title": "Lightning of Execution",
       "slug": "yinlin",
+      "release": 1717632000000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1302,
+      "voiceActors": {
+        "english": "imdb:nm1696370|Naomi McDonald",
+        "japanese": "Ami Koshimizu|Koshimizu Ami (ja=\u5c0f\u6e05\u6c34\u4e9c\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5c0f\u8fde\u6740|Xiao Liansha (zh=\u5c0f\u8fde\u6740)",
+        "korean": "https://namu.wiki/w/\uac15\uc0c8\ubd04|Kang Sae-bom (ko=\uac15\uc0c8\ubd04)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_17_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/yinlin-c9f7f0f5bff7.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/yinlin-8885c8997e38.webp",
@@ -9698,10 +10164,24 @@
     {
       "id": "ww-calcharo",
       "n": "Calcharo",
+      "localizedNames": {
+        "en": "Calcharo",
+        "zh": "\u5361\u5361\u7f57",
+        "ja": "\u30ab\u30ab\u30ed",
+        "ko": "\uce74\uce74\ub8e8"
+      },
       "title": "Phantom Hunters",
       "slug": "calcharo",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1301,
+      "voiceActors": {
+        "english": "Ben Cura",
+        "japanese": "Toshiyuki Morikawa|Toshiyuki Morikawa (ja=\u68ee\u5ddd\u667a\u4e4b)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f90\u7fd4(\u914d\u97f3\u6f14\u5458)|Xu Xiang (zh=\u5f90\u7fd4)",
+        "korean": "https://namu.wiki/w/\ubc15\ubbfc\uae30%28\uc131\uc6b0%29|Park Min-gi (ko=\ubc15\ubbfc\uae30)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_18_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/calcharo-c7dbcf640fae.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/calcharo-f3467aaf6a4e.webp",
@@ -9986,10 +10466,23 @@
     {
       "id": "ww-denia",
       "n": "Denia",
+      "localizedNames": {
+        "en": "Denia",
+        "zh": "\u8fbe\u59ae\u5a05",
+        "ja": "\u30c0\u30fc\u30cb\u30e3",
+        "ko": "\ub370\ub2c8\uc544"
+      },
       "title": "Bubbles of Nihility",
       "slug": "denia",
+      "release": 1779321600000,
+      "releasePatch": "3.3",
       "updated": 1781906400000,
       "sourceOrder": 1211,
+      "voiceActors": {
+        "japanese": "Miku It\u014d|It\u014d Miku (ja=\u4f0a\u85e4 \u7f8e\u6765)",
+        "chinese": "https://zh.moegirl.org.cn/\u6208\u6615\u5b87|Ge Zinyu (zh=\u6208\u6615\u5b87)",
+        "korean": "https://namu.wiki/w/\ubc15\uc2dc\uc724(\uc131\uc6b0)|Park Si-yoon (ko=\ubc15\uc2dc\uc724)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_64_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/denia-ad67928de9d2.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/denia-cd066b7db391.webp",
@@ -10249,10 +10742,24 @@
     {
       "id": "ww-aemeath",
       "n": "Aemeath",
+      "localizedNames": {
+        "en": "Aemeath",
+        "zh": "\u7231\u5f25\u65af",
+        "ja": "\u30a8\u30a4\u30e1\u30b9",
+        "ko": "\uc5d0\uc774\uba54\uc2a4"
+      },
       "title": "Guiding Starlance",
       "slug": "aemeath",
+      "release": 1770249600000,
+      "releasePatch": "3.1",
       "updated": 1781906400000,
       "sourceOrder": 1210,
+      "voiceActors": {
+        "english": "imdb:nm4925834|Cara Theobold",
+        "japanese": "Satomi Sato|Sat\u014d Satomi (ja=\u4f50\u85e4\u8061\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/\u738b\u96c5\u6b23|Wang Yaxin (zh=\u738b\u96c5\u6b23)",
+        "korean": "https://namu.wiki/w/\uae40\ud558\ub8e8|Kim Ha-ru (ko=\uae40\ud558\ub8e8)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_53_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/aemeath-c3afbd3131bd.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/aemeath-e8051cbd92ef.webp",
@@ -10512,10 +11019,24 @@
     {
       "id": "ww-mornye",
       "n": "Mornye",
+      "localizedNames": {
+        "en": "Mornye",
+        "zh": "\u83ab\u5b81",
+        "ja": "\u30e2\u30fc\u30cb\u30a8",
+        "ko": "\ubaa8\ub2c8\uc5d0"
+      },
       "title": "Astral Mapping",
       "slug": "mornye",
+      "release": 1768435200000,
+      "releasePatch": "3.0",
       "updated": 1781820000000,
       "sourceOrder": 1209,
+      "voiceActors": {
+        "english": "imdb:nm7303431|Michelle Fox",
+        "japanese": "Manaka Iwami|Iwami Manaka (ja=\u77f3\u898b\u821e\u83dc\u9999)",
+        "chinese": "https://zh.moegirl.org.cn/\u4f5f\u5fc3\u7af9|Tong Xinzhu (zh=\u4f5f\u5fc3\u7af9)",
+        "korean": "https://namu.wiki/w/\uc624\ub85c\uc544|Oh Ro-ah (ko=\uc624\ub85c\uc544)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/mornye-4ea899250861.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/mornye-a1fc5522783e.webp",
@@ -10775,10 +11296,23 @@
     {
       "id": "ww-galbrena",
       "n": "Galbrena",
+      "localizedNames": {
+        "en": "Galbrena",
+        "zh": "\u5609\u8d1d\u8389\u5a1c",
+        "ja": "\u30ac\u30eb\u30d6\u30ec\u30fc\u30ca",
+        "ko": "\uac08\ube0c\ub808\ub098"
+      },
       "title": "Infernal Descent",
       "slug": "galbrena",
+      "release": 1759968000000,
+      "releasePatch": "2.7",
       "updated": 1780956000000,
       "sourceOrder": 1208,
+      "voiceActors": {
+        "japanese": "Umeka Sh\u014dji|Sh\u014dji Umeka (ja=\u5e84\u53f8\u5b87\u82bd\u9999)",
+        "chinese": "Zhang Wenjie (zh=\u5f20\u6587\u5a55)",
+        "korean": "https://namu.wiki/w/\uc774\ub2e4\uc2ac|Lee Da-seul (ko=\uc774\ub2e4\uc2ac)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_55_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/galbrena-6ddbd81df834.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/galbrena-fe2988f30e1d.webp",
@@ -11064,10 +11598,23 @@
     {
       "id": "ww-lupa",
       "n": "Lupa",
+      "localizedNames": {
+        "en": "Lupa",
+        "zh": "\u9732\u5e15",
+        "ja": "\u30eb\u30d1",
+        "ko": "\ub8e8\ud30c"
+      },
       "title": "Howling Flame",
       "slug": "lupa",
+      "release": 1751500800000,
+      "releasePatch": "2.4",
       "updated": 1780956000000,
       "sourceOrder": 1207,
+      "voiceActors": {
+        "japanese": "Minami Takahashi (voice actress)|Takahashi Minami (ja=\u9ad9\u6a4b\u30df\u30ca\u30df)",
+        "chinese": "https://zh.moegirl.org.cn/\u6714\u5c0f\u5154|Shuo Xiaotu (zh=\u6714\u5c0f\u5154)",
+        "korean": "https://namu.wiki/w/\uae40\uc608\ub839(\uc131\uc6b0)|Kim Ye-ryeong (ko=\uae40\uc608\ub839)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_46_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/lupa-7b0baf50aa8d.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/lupa-8ba3ee431e4e.webp",
@@ -11341,10 +11888,24 @@
     {
       "id": "ww-brant",
       "n": "Brant",
+      "localizedNames": {
+        "en": "Brant",
+        "zh": "\u5e03\u5170\u7279",
+        "ja": "\u30d6\u30e9\u30f3\u30c8",
+        "ko": "\ube0c\ub80c\ud2b8"
+      },
       "title": "Flamebound Compass",
       "slug": "brant",
+      "release": 1741219200000,
+      "releasePatch": "2.1",
       "updated": 1780956000000,
       "sourceOrder": 1206,
+      "voiceActors": {
+        "english": "imdb:nm11144144|Hyoie O'Grady",
+        "japanese": "Daisuke Kishio|Kishio Daisuke (ja=\u5cb8\u5c3e\u3060\u3044\u3059\u3051)",
+        "chinese": "https://zh.moegirl.org.cn/zh-tw/\u83ab\u7136|Moran (zh=\u83ab\u7136)",
+        "korean": "https://namu.wiki/w/\uc774\uc8fc\uc2b9(\uc131\uc6b0)|Lee Ju-seung (ko=\uc774\uc8fc\uc2b9)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_44_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/brant-37f3d77543f6.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/brant-37f3d77543f6.webp",
@@ -11630,10 +12191,24 @@
     {
       "id": "ww-changli",
       "n": "Changli",
+      "localizedNames": {
+        "en": "Changli",
+        "zh": "\u957f\u79bb",
+        "ja": "\u9577\u96e2",
+        "ko": "\uc7a5\ub9ac"
+      },
       "title": "Eternal Blaze",
       "slug": "changli",
+      "release": 1721606400000,
+      "releasePatch": "1.1",
       "updated": 1781820000000,
       "sourceOrder": 1205,
+      "voiceActors": {
+        "english": "imdb:nm7514824|Ashleigh Haddad",
+        "japanese": "Chiwa Sait\u014d|Sait\u014d Chiwa (ja=\u658e\u85e4\u5343\u548c)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u6c90\u970f|Mufei (zh=\u6c90\u970f)",
+        "korean": "https://namu.wiki/w/\uc2e0\ub098\ub9ac(\uc131\uc6b0)|Shin Nari (ko=\uc2e0\ub098\ub9ac)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_26_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/changli-dc0ce1974c67.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/changli-dc0ce1974c67.webp",
@@ -11919,10 +12494,24 @@
     {
       "id": "ww-mortefi",
       "n": "Mortefi",
+      "localizedNames": {
+        "en": "Mortefi",
+        "zh": "\u83ab\u7279\u6590",
+        "ja": "\u30e2\u30eb\u30c8\u30d5\u30a3\u30fc",
+        "ko": "\ubaa8\ub974\ud14c\ud53c"
+      },
       "title": "Dragon's Breath",
       "slug": "mortefi",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1204,
+      "voiceActors": {
+        "english": "Joseph May",
+        "japanese": "imdb:nm13656686|Miura Katsuyuki (ja=\u4e09\u6d66\u52dd\u4e4b)",
+        "chinese": "https://zh.moegirl.org.cn/zh/\u5218\u4ee5\u5609|Liu Yijia (zh=\u5218\u4ee5\u5609)",
+        "korean": "https://namu.wiki/w/\uae40\ub2e4\uc62c|Kim Da-ol (ko=\uae40\ub2e4\uc62c)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_13_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/mortefi-d5d907185fab.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/mortefi-0600d7b7604b.webp",
@@ -12202,10 +12791,24 @@
     {
       "id": "ww-encore",
       "n": "Encore",
+      "localizedNames": {
+        "en": "Encore",
+        "zh": "\u5b89\u53ef",
+        "ja": "\u30a2\u30f3\u30b3",
+        "ko": "\uc559\ucf54"
+      },
       "title": "Wooly\u2013counting Game",
       "slug": "encore",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1203,
+      "voiceActors": {
+        "english": "imdb:nm1544577|Carina Reeves",
+        "japanese": "imdb:nm14509096|Ibuki Chikano (ja=\u4f0a\u5439\u8a93\u4e43)",
+        "chinese": "https://zh.moegirl.org.cn/\u769b\u56db\u767d|Xiao Sibai (zh=\u769b\u56db\u767d)",
+        "korean": "https://namu.wiki/w/\uc774\uc138\ub808\ub098|Serena Lee (ko=\uc774\uc138\ub808\ub098)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_8_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/encore-de906cd66fb0.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/encore-c448f1c9cc94.webp",
@@ -12485,10 +13088,24 @@
     {
       "id": "ww-chixia",
       "n": "Chixia",
+      "localizedNames": {
+        "en": "Chixia",
+        "zh": "\u70bd\u971e",
+        "ja": "\u71be\u971e",
+        "ko": "\uce58\uc0e4"
+      },
       "title": "Gallant Blaze",
       "slug": "chixia",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1202,
+      "voiceActors": {
+        "english": "imdb:nm1689502|Harriet Carmichael",
+        "japanese": "Anna Nagase|Nagase Anna (ja=\u6c38\u702c\u30a2\u30f3\u30ca)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hant/\u8521\u5a1c|Cai Na (zh=\u8521\u5a1c)",
+        "korean": "https://namu.wiki/w/\uac15\uc740\uc560|Kang Eun-ae (ko=\uac15\uc740\uc560)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_2_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/chixia-0bcf88495bb8.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/chixia-c0793791b62e.webp",
@@ -12765,10 +13382,24 @@
     {
       "id": "ww-lucilla",
       "n": "Lucilla",
+      "localizedNames": {
+        "en": "Lucilla",
+        "zh": "\u6d1b\u745f\u83c8",
+        "ja": "\u30eb\u30b7\u30e9\u30fc",
+        "ko": "\ub8e8\uc2e4\ub77c"
+      },
       "title": "Memory Palace",
       "slug": "lucilla",
+      "release": 1781308800000,
+      "releasePatch": "3.4",
       "updated": 1781906400000,
       "sourceOrder": 1109,
+      "voiceActors": {
+        "english": "imdb:nm6427815|Luci Fish",
+        "japanese": "Shizuka It\u014d|It\u014d Shizuka (ja=\u4f0a\u85e4\u9759)",
+        "chinese": "https://zh.moegirl.org.cn/\u5218\u9890\u8bfa|Liu Yinuo (zh=\u5218\u9890\u8bfa)",
+        "korean": "https://namu.wiki/w/\ubbfc\uc544(\uc131\uc6b0)|Min-ah (ko=\ubbfc\uc544)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_66_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/lucilla-645cef8d92d9.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/lucilla-3cde2eba4714.webp",
@@ -13030,10 +13661,24 @@
     {
       "id": "ww-hiyuki",
       "n": "Hiyuki",
+      "localizedNames": {
+        "en": "Hiyuki",
+        "zh": "\u7eef\u96ea",
+        "ja": "\u7dcb\u96ea",
+        "ko": "\ud788\uc720\ud0a4"
+      },
       "title": "Futures' Tithe",
       "slug": "hiyuki",
+      "release": 1777507200000,
+      "releasePatch": "3.3",
       "updated": 1781820000000,
       "sourceOrder": 1108,
+      "voiceActors": {
+        "english": "imdb:nm7965844|Mei Mac",
+        "japanese": "Haruka Tomatsu|Tomatsu Haruka (ja=\u6238\u677e \u9065)",
+        "chinese": "https://zh.moegirl.org.cn/\u674e\u8749\u5983|Li Chanfei (zh=\u674e\u8749\u5983)",
+        "korean": "https://namu.wiki/w/\uc815\ud61c\uc6d0|Jung Hye-won (ko=\uc815\ud61c\uc6d0)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/hiyuki-099635d10d97.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/hiyuki-6dff9c6a84da.webp",
@@ -13293,10 +13938,24 @@
     {
       "id": "ww-carlotta",
       "n": "Carlotta",
+      "localizedNames": {
+        "en": "Carlotta",
+        "zh": "\u73c2\u83b1\u5854",
+        "ja": "\u30ab\u30eb\u30ed\u30c3\u30bf",
+        "ko": "\uce74\ub97c\ub85c\ud0c0"
+      },
       "title": "Crystal Remorph",
       "slug": "carlotta",
+      "release": 1735776000000,
+      "releasePatch": "2.0",
       "updated": 1780956000000,
       "sourceOrder": 1107,
+      "voiceActors": {
+        "english": "imdb:nm10804818|Jennifer English",
+        "japanese": "Kana Ueda|Ueda Kana (ja=\u690d\u7530\u4f73\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u95eb\u591c\u6865|Yan Yeqiao (zh=\u95eb\u591c\u6865)",
+        "korean": "https://namu.wiki/w/\uae40\uc21c\ubbf8|Kim Soon-mi (ko=\uae40\uc21c\ubbf8)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_32_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/carlotta-1bf19bae6c94.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/carlotta-1bf19bae6c94.webp",
@@ -13582,10 +14241,24 @@
     {
       "id": "ww-youhu",
       "n": "Youhu",
+      "localizedNames": {
+        "en": "Youhu",
+        "zh": "\u91c9\u745a",
+        "ja": "\u91c9\u745a",
+        "ko": "\uc720\ud638"
+      },
       "title": "Cryogenic Wonders",
       "slug": "youhu",
+      "release": 1729728000000,
+      "releasePatch": "1.3",
       "updated": 1780956000000,
       "sourceOrder": 1106,
+      "voiceActors": {
+        "english": "imdb:nm7230050|Leonora Haig",
+        "japanese": "Miyu Tomita|Tomita Miyu (ja=\u5bcc\u7530\u7f8e\u6182)",
+        "chinese": "https://zh.moegirl.org.cn/\u5218\u4e00\u857e|Liu Yilei (zh=\u5218\u4e00\u857e)",
+        "korean": "https://namu.wiki/w/\ubc15\uc2dc\uc724(\uc131\uc6b0)|Park Si-yoon (ko=\ubc15\uc2dc\uc724)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_31_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/youhu-27c8d6a72e6f.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/youhu-27c8d6a72e6f.webp",
@@ -13873,10 +14546,24 @@
     {
       "id": "ww-zhezhi",
       "n": "Zhezhi",
+      "localizedNames": {
+        "en": "Zhezhi",
+        "zh": "\u6298\u679d",
+        "ja": "\u6298\u679d",
+        "ko": "\uc808\uc9c0"
+      },
       "title": "Enchanted Brush",
       "slug": "zhezhi",
+      "release": 1723680000000,
+      "releasePatch": "1.2",
       "updated": 1781820000000,
       "sourceOrder": 1105,
+      "voiceActors": {
+        "english": "imdb:nm665661|Shin-Fei Chen",
+        "japanese": "Yui Makino|Makino Yui (ja=\u7267\u91ce\u7531\u4f9d)",
+        "chinese": "https://zh.moegirl.org.cn/\u82d7\u5b50|Miao Zi (zh=\u82d7\u5b50)",
+        "korean": "https://namu.wiki/w/\uae40\ud558\ub8e8|Kim Ha-ru (ko=\uae40\ud558\ub8e8)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_27_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/zhezhi-1c6bb925a9a4.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/zhezhi-1c6bb925a9a4.webp",
@@ -14154,10 +14841,24 @@
     {
       "id": "ww-lingyang",
       "n": "Lingyang",
+      "localizedNames": {
+        "en": "Lingyang",
+        "zh": "\u51cc\u9633",
+        "ja": "\u51cc\u967d",
+        "ko": "\ub2a5\uc591"
+      },
       "title": "Frosty Gusto",
       "slug": "lingyang",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1104,
+      "voiceActors": {
+        "english": "imdb:nm9358871|Aleksander Varadian",
+        "japanese": "Natsuki Hanae|Hanae Natsuki (ja=\u82b1\u6c5f\u590f\u6a39)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u9526\u9ca4|Jinli (zh=\u9526\u9ca4)",
+        "korean": "https://namu.wiki/w/\uc774\uc0c1\ud638(\uc131\uc6b0)|Lee Sangho (ko=\uc774\uc0c1\ud638)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_14_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/lingyang-12be3e3b8011.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/lingyang-b85e18b088e5.webp",
@@ -14440,10 +15141,24 @@
     {
       "id": "ww-baizhi",
       "n": "Baizhi",
+      "localizedNames": {
+        "en": "Baizhi",
+        "zh": "\u767d\u82b7",
+        "ja": "\u767d\u82b7",
+        "ko": "\uc124\uc9c0"
+      },
       "title": "Healing You'tan",
       "slug": "baizhi",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1103,
+      "voiceActors": {
+        "english": "imdb:nm4476858|Samantha Dakin",
+        "japanese": "Asami Seto|Seto Asami (ja=\u702c\u6238\u9ebb\u6c99\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/\u9648\u5a77\u5a77|Chen Tingting (zh=\u9648\u5a77\u5a77)",
+        "korean": "ko:\uc131\uc608\uc6d0|Seong Ye-won (ko=\uc131\uc608\uc6d0)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_6_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/baizhi-f96d468376de.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/baizhi-acde6f786624.webp",
@@ -14720,10 +15435,24 @@
     {
       "id": "ww-sanhua",
       "n": "Sanhua",
+      "localizedNames": {
+        "en": "Sanhua",
+        "zh": "\u6563\u534e",
+        "ja": "\u6563\u83ef",
+        "ko": "\uc0b0\ud654"
+      },
       "title": "Snow Waltz",
       "slug": "sanhua",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
       "updated": 1780956000000,
       "sourceOrder": 1102,
+      "voiceActors": {
+        "english": "Jennifer Armour",
+        "japanese": "Risae Matsuda|Matsuda Risae (ja=\u677e\u7530\u5229\u51b4)",
+        "chinese": "https://zh.moegirl.org.cn/\u5b8b\u5a9b\u5a9b|Song Yuanyuan (zh=\u5b8b\u5a9b\u5a9b)",
+        "korean": "https://namu.wiki/w/\uc720\uc601(\uc131\uc6b0)|Yooyoung (ko=\uc720\uc601)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/sanhua-5209c9b1dd45.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/sanhua-57e51bfbb2dc.webp",

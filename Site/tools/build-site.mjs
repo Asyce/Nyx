@@ -68,6 +68,7 @@ async function compileJsxBundle(files, outFile, prelude = '') {
 
 await ensureDir(distDir);
 await fs.rm(vendorDir, { recursive: true, force: true });
+await fs.rm(path.resolve(distDir, 'artwork-webp-manifest.js'), { force: true });
 
 await copyFile(path.resolve(generatedDataDir, 'cm-data.js'), path.resolve(distDir, 'cm-data.js'));
 for (const entry of await fs.readdir(generatedDataDir)) {

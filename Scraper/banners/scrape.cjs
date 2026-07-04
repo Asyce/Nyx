@@ -5,6 +5,7 @@ const fs   = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
 const { bannerFreshnessStatus } = require('./normalize.cjs');
+const { headingCharCandidates } = require('./heading.cjs');
 
 const OUTPUT = path.join(__dirname, '..', '..', 'Database', 'Banners', 'banners.json');
 
@@ -166,7 +167,7 @@ function extractWuwaAvailableRows($, hourUtc, now) {
   return rows;
 }
 
-const JUNK_PATTERN = /banner|phase|version|event|wish|warp|convene|recruit|rerun|limited|★|element|weapon|rarity|rate|guaranteed|pull|roll|reward|item|material|promo|invocation|\brank\b|\bengine\b|\bduration\b|\bfeatured\b|\binformation\b|\bresonator\b|\bstandard\b|\bcharacters\b|\bcone\b|\bcones\b|\bindelible\b/i;
+const JUNK_PATTERN = /banner|phase|version|event|wish|warp|convene|recruit|rerun|limited|★|element|weapon|rarity|rate|guaranteed|pull|roll|reward|item|material|promo|invocation|\brank\b|\bengine\b|\bduration\b|\bfeatured\b|\binformation\b|\bresonator\b|\bstandard\b|\bcharacters\b|\bcone\b|\bcones\b|\bindelible\b|\bissue\b/i;
 const DATE_LIKE = /\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i;
 
 // Known game-name prefixes used in game8 img[alt] attributes.
@@ -489,6 +490,10 @@ async function resolveCharacterIcon(gameId, name) {
   const out = { name, image: found.image };
   if (found.imageFallback) out.imageFallback = found.imageFallback;
   if (found.imageFallbackZoom) out.imageFallbackZoom = true;
+  // Forward the roster rarity so the site can badge characters that aren't in
+  // its local roster yet (site-side roster hits still take precedence).
+  const rarity = found.rarity ?? found.rank;
+  if (rarity != null) out.rarity = rarity;
   return out;
 }
 
@@ -571,6 +576,10 @@ function prefixedAlts($, td) {
   return $(td).find('img[alt]')
     .map((_, img) => {
       const alt = normalizeText($(img).attr('alt') || '');
+      // NOTE: do NOT strip a trailing "... Banner" here — game8 schedule
+      // sections embed banner-ART thumbnails ("Sparxie Banner") for phases
+      // that aren't current; letting those through pollutes the current list.
+      // Character headshots never carry the suffix.
       const stripped = alt
         .replace(GAME_PREFIX_RE, '')
         .replace(/\s+icon\s*$/i, '')
@@ -632,20 +641,15 @@ function extractFromElements($, els) {
   const COL_CHAR_LABEL = /featured\s*characters?|characters?\s+featured/i;
 
   // ── Case 0: Character name embedded in section sub-heading text ─────────────
-  // Endfield: "Rossi in Phase 2 of Version 1.1" / "Zhuang Fangyi for Phase 1 of Version 1.2"
+  // Endfield: "Rossi in Phase 2 of Version 1.1" / "Camille Banner on 1.3 Phase 2"
   // ZZZ:      "Promeia and Starlight Billy to Release in Version 2.8"
-  // The character name is everything before the schedule clause.
-  const SUBHEADING_CHAR_RE = /^(.+?)\s+(?:(?:in|for)\s+(?:phase|both\s+phase|version)|to\s+(?:release|debut|arrive|launch))\s+/i;
+  // Recognized heading shapes live in heading.cjs (unit-tested); candidates
+  // still pass through isLikelyCharName + roster enrichment downstream.
   for (const el of els) {
     if (el.is('h2,h3,h4,h5')) {
-      const m = normalizeText(el.text()).match(SUBHEADING_CHAR_RE);
-      if (m) {
-        // Split on "and" / "&" / "," to handle multi-character subheadings
-        m[1].split(/\s*(?:,|&|\band\b)\s*/i).forEach(name => {
-          const t = name.trim();
-          if (isLikelyCharName(t)) chars.push(t);
-        });
-      }
+      headingCharCandidates(normalizeText(el.text())).forEach(name => {
+        if (isLikelyCharName(name)) chars.push(name);
+      });
     }
   }
 
@@ -661,6 +665,15 @@ function extractFromElements($, els) {
       headerTds.forEach((cell, idx) => {
         if (COL_CHAR_LABEL.test(normalizeText($(cell).text()))) charColIdx = idx;
       });
+
+      // Schedule tables that label one row "(Current)" also carry (Next)/
+      // (Upcoming) rows whose cells can contain month-name dates (e.g. a
+      // "Collab - (Jul. 24 - TBA)" note). The date-cell fallback (Case 4)
+      // must not harvest characters from those rows — only the marked row
+      // speaks for the current phase (HSR regression: 4.4/collab characters
+      // leaked into the 4.3 current list).
+      const hasCurrentMarker = rows.some((tr) =>
+        /\(current\)/i.test(normalizeText($(tr).find('td, th').first().text())));
 
       rows.forEach((tr, rowIdx) => {
         const tds = $(tr).find('td, th').toArray();
@@ -720,7 +733,10 @@ function extractFromElements($, els) {
         }
 
         // ── Case 4: Date-cell + character img alts ─────────────────────────────
-        // Endfield / HSR next: a cell has date text AND game-prefixed character img alts
+        // Endfield / HSR next: a cell has date text AND game-prefixed character img alts.
+        // Skipped entirely in tables that carry a "(Current)" marker row — there the
+        // marked row (Case 1) is authoritative and every other row is another phase.
+        if (hasCurrentMarker) return;
         tds.forEach(td => {
           const t = normalizeText($(td).text());
           if (DATE_LIKE.test(t)) {
@@ -1138,13 +1154,13 @@ async function main() {
     // Enrich each character name with a nanoka icon URL (when available).
     const currentChars = await enrichCharactersWithIcons(game.id, result.current.characters);
     let nextChars      = await enrichCharactersWithIcons(game.id, result.next.characters);
-    let upcomingEnriched = await Promise.all(
+    let upcomingEnriched = (await Promise.all(
       (result.upcoming ?? []).map(async (u) => ({
         characters: await enrichCharactersWithIcons(game.id, u.characters),
         start: u.start,
         end:   u.end,
       }))
-    );
+    )).filter((u) => u.characters.length > 0);
     // Endfield: enrich each sub-banner the same way + drop any that
     // ended up with zero matched characters after enrichment (heuristic
     // false positives upstream of the nanoka filter).

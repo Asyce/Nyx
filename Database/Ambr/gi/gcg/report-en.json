@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-07-03T15:58:59.508Z",
+  "source": "AMBR",
+  "language": "en",
+  "sourceUrl": null,
+  "attempts": [
+    {
+      "endpoint": "https://api.ambr.top/v2/en/gcg",
+      "ok": false,
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "endpoint": "https://api.ambr.top/v2/en/gcg/card",
+      "ok": false,
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "endpoint": "https://api.ambr.top/v2/en/gcg/cards",
+      "ok": false,
+      "status": null,
+      "error": "fetch failed"
+    }
+  ],
+  "count": 0,
+  "note": "AMBR endpoint was unavailable or did not return a recognized GCG card payload. This scraper is optional and safe to rerun."
+}

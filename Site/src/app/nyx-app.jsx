@@ -118,6 +118,55 @@ function appGameIcon(key){
   return ((window.CM_CFG || {})[key] || {}).icon || null;
 }
 
+const NYX_SPECIAL_UNIT_DEFAULTS = {
+  gi: { aloy:true },
+  hsr: { archer:true, saber:true, rin_tohsaka:true, gilgamesh:true },
+  wuwa: { lucy:true, rebecca:true },
+};
+
+const NYX_SPECIAL_UNIT_NAMES = {
+  gi: { aloy:['aloy'] },
+  hsr: {
+    archer:['archer'],
+    saber:['saber'],
+    rin_tohsaka:['rin tohsaka', 'rin'],
+    gilgamesh:['gilgamesh'],
+  },
+  wuwa: {
+    lucy:['lucy'],
+    rebecca:['rebecca'],
+  },
+};
+
+function normalizeUnitName(name){
+  return String(name || '').trim().toLowerCase().replace(/\s+/g, ' ');
+}
+
+function sanitizeSpecialUnits(raw){
+  const src = (raw && typeof raw === 'object') ? raw : {};
+  const next = {};
+  Object.keys(NYX_SPECIAL_UNIT_DEFAULTS).forEach((gameKey) => {
+    next[gameKey] = Object.assign({}, NYX_SPECIAL_UNIT_DEFAULTS[gameKey], src[gameKey] || {});
+    Object.keys(NYX_SPECIAL_UNIT_DEFAULTS[gameKey]).forEach((unitKey) => {
+      next[gameKey][unitKey] = next[gameKey][unitKey] !== false;
+    });
+  });
+  return next;
+}
+
+function specialUnitKey(gameKey, name){
+  const map = NYX_SPECIAL_UNIT_NAMES[gameKey] || {};
+  const n = normalizeUnitName(name);
+  return Object.keys(map).find((key) => (map[key] || []).some((alias) => n === normalizeUnitName(alias))) || null;
+}
+
+function isSpecialUnitVisible(gameKey, name, settings){
+  const unitKey = specialUnitKey(gameKey, name);
+  if (!unitKey) return true;
+  const prefs = sanitizeSpecialUnits(settings && settings.specialUnits);
+  return !prefs[gameKey] || prefs[gameKey][unitKey] !== false;
+}
+
 function overviewCardArt(cfg, ch, offset = 0){
   const pool = Array.isArray(ch.overviewArtPool)
     ? ch.overviewArtPool.filter(Boolean)
@@ -126,22 +175,23 @@ function overviewCardArt(cfg, ch, offset = 0){
   return pool[Math.abs(Number(offset) || 0) % pool.length];
 }
 
-function makeRoster(cfg){
+function makeRoster(cfg, settings, characterImagePrefs){
   const source = cfg.roster || getCmRoster(cfg.key);
   if (!source || !source.length) return [{ id:cfg.key + '-main', name:cfg.charName, tag:'', art:cfg.art, icon:cfg.benchIcon }];
   const seen = new Set();
   const out = [];
   source.forEach((ch, i) => {
     const name = ch.n || ch.name;
+    if (!isSpecialUnitVisible(cfg.key, name, settings)) return;
     const key = String(name || '').toLowerCase();
     if (key && seen.has(key)) return;
     if (key) seen.add(key);
-    out.push({
+    const row = {
       id:ch.id || (cfg.key + '-' + i),
       name,
       rawName:ch.rawName,
-      gameKey:cfg.key,
-      gameName:cfg.name,
+      gameKey:ch.gameKey || cfg.key,
+      gameName:ch.gameName || cfg.name,
       aliases:ch.aliases || [],
       tag:rosterTag(ch),
       art:overviewCardArt(cfg, ch, i),
@@ -150,7 +200,11 @@ function makeRoster(cfg){
       icon:ch.icon || ch.circle || ch.card || cfg.benchIcon,
       rarity:ch.r,
       forms:ch.forms || [],
-    });
+    };
+    const customGameKey = row.gameKey && row.gameKey !== 'nyx' ? row.gameKey : cfg.key;
+    out.push(typeof nyxApplyCharacterCustomImages === 'function'
+      ? nyxApplyCharacterCustomImages(customGameKey, row, characterImagePrefs)
+      : row);
   });
   return out;
 }
@@ -313,7 +367,6 @@ const GAME_REGISTRY = {
     art:'../assets/char/skirk.jpg', benchIcon:'../assets/char/skirk_icon.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'42% 38%', bgSize:'138% auto', bgTransform:'scale(1.04) rotate(-2deg)',
     fns:['Character Materials','Artifact Sorter','Wish Tracker'],
-    banner:{ title:'Lone Shadow', five:'Skirk', fours:['Bennett','Xiangling','Fischl'], time:'Ends in 11d 22h 14m', pct:42 },
     track:{ pull:'Wish', pulls:'Wishes', title:'Wish Tracker', currency:'Primogems', cost:160,
       fives:['Skirk','Mavuika','Neuvillette','Arlecchino','Furina'], fours:['Bennett','Xiangling','Fischl','Sucrose','Rosaria'] },
     codes:[
@@ -330,7 +383,6 @@ const GAME_REGISTRY = {
     art:'../assets/bg/hsrbg.png', benchIcon:'../assets/bg/hsrbg.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'63% 31%', bgSize:'152% auto', bgTransform:'scaleX(-1) scale(1.07) rotate(2.5deg)',
     fns:['Character Materials','Relic Sorter','Warp Tracker'],
-    banner:{ title:'Reverie of Ash', five:'Castorice', fours:['Asta','March 7th','Herta'], time:'Ends in 6d 4h', pct:55 },
     track:{ pull:'Warp', pulls:'Warps', title:'Warp Tracker', currency:'Stellar Jade', cost:160,
       fives:['Castorice','Firefly','Acheron','Robin','Aglaea'], fours:['Asta','March 7th','Herta','Tingyun','Pela'] },
     codes:[
@@ -345,7 +397,6 @@ const GAME_REGISTRY = {
     art:'../assets/bg/zzzbg3.png', benchIcon:'../assets/bg/zzzbg3.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'30% 55%', bgSize:'165% auto', bgTransform:'scale(1.08) rotate(4deg)',
     fns:['Character Materials','Drive Disc Sorter','Signal Tracker'],
-    banner:{ title:'Astral Drive', five:'Yixuan', fours:['Nicole','Anby','Billy'], time:'Ends in 9d 13h', pct:40 },
     track:{ pull:'Signal', pulls:'Signals', title:'Signal Tracker', currency:'Polychrome', cost:160,
       fives:['Yixuan','Miyabi','Zhu Yuan','Evelyn','Astra Yao'], fours:['Nicole','Anby','Billy','Corin','Ben'] },
     codes:[
@@ -359,7 +410,6 @@ const GAME_REGISTRY = {
     art:'../assets/bg/wuwabg2.png', benchIcon:'../assets/bg/wuwabg2.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'74% 45%', bgSize:'148% auto', bgTransform:'scaleX(-1) scale(1.06) rotate(-3deg)',
     fns:['Character Materials','Echo Sorter','Convene Tracker'],
-    banner:{ title:'Tides of Echo', five:'Carlotta', fours:['Yangyang','Baizhi','Chixia'], time:'Ends in 4d 7h', pct:70 },
     track:{ pull:'Convene', pulls:'Convenes', title:'Convene Tracker', currency:'Astrite', cost:160,
       fives:['Carlotta','Jinhsi','Changli','Camellya','Zani'], fours:['Yangyang','Baizhi','Chixia','Sanhua','Taoqi'] },
     codes:[
@@ -373,7 +423,6 @@ const GAME_REGISTRY = {
     art:'../assets/bg/aebg.png', benchIcon:'../assets/bg/aebg.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'52% 68%', bgSize:'158% auto', bgTransform:'scale(1.08) rotate(1.5deg)',
     fns:['Character Materials','Gear Sorter','Headhunting Tracker'],
-    banner:{ title:'First Light', five:'Perlica', fours:['Wulfgard','Xaihi','Endmin'], time:'Ends in 15d 2h', pct:30 },
     track:{ pull:'Headhunt', pulls:'Headhunts', title:'Headhunting Tracker', currency:'Originium', cost:120,
       fives:['Perlica','Laevatain','Chen Qianyu','Ember','Wulfgard'], fours:['Xaihi','Endmin','Da Pan','Gilberta','Snowshine'] },
     codes:[
@@ -385,7 +434,7 @@ const GAME_REGISTRY = {
 };
 const NYX_META = { key:'nyx', name:'Nyx', charName:'Nyx', art:'../assets/bg/noxbg.png',
   benchIcon:'../assets/bg/noxbg.png', pageBg:'../assets/bg/backgroundnyx.png', bgPos:'50% 48%', bgSize:'132% auto', bgTransform:'scaleX(-1) scale(1.03) rotate(-1deg)',
-  codes:GAME_REGISTRY.gi.codes, banner:GAME_REGISTRY.gi.banner };
+  codes:GAME_REGISTRY.gi.codes };
 
 function dbGame(key){
   return (window.NYX_DB && window.NYX_DB.games && window.NYX_DB.games[key]) || null;
@@ -454,73 +503,516 @@ function shortDuration(ms){
   return Math.max(0, m) + 'm';
 }
 
-function phaseTimeLabel(phase, opts){
-  const end = phase && phase.end ? new Date(phase.end).getTime() : NaN;
-  const start = phase && phase.start ? new Date(phase.start).getTime() : NaN;
-  const now = Date.now();
-  const endLabel = Number.isFinite(end) ? (end >= now ? 'Ends in ' : 'Ended ') + shortDuration(end - now) : null;
-  const startLabel = Number.isFinite(start) ? (start >= now ? 'Starts in ' : 'Started ') + shortDuration(start - now) : null;
-  // Banners that aren't up yet show their START time; live banners show the end.
-  if (opts && opts.preferStart) return startLabel || endLabel;
-  return endLabel || startLabel;
+// Shared 1s clock so every banner countdown ticks live instead of freezing at
+// whatever Date.now() was when the page rendered.
+function useNowTick(intervalMs){
+  const [now, setNow] = React.useState(Date.now());
+  React.useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), intervalMs || 1000);
+    return () => clearInterval(id);
+  }, [intervalMs]);
+  return now;
 }
 
-function phasePct(phase, fallback){
-  const start = phase && phase.start ? new Date(phase.start).getTime() : NaN;
-  const end = phase && phase.end ? new Date(phase.end).getTime() : NaN;
-  const now = Date.now();
-  if (!Number.isFinite(start) || !Number.isFinite(end) || end <= start) return fallback;
-  const done = (now - start) / (end - start);
-  return Math.max(8, Math.min(96, Math.round(done * 100)));
+// Absolute times are always shown in the viewer's local timezone.
+function bannerAbsTime(ts){
+  const d = new Date(ts);
+  if (!Number.isFinite(d.getTime())) return null;
+  return d.toLocaleDateString(undefined, { month:'short', day:'numeric' }) + ', ' +
+    d.toLocaleTimeString(undefined, { hour:'2-digit', minute:'2-digit' });
 }
 
-function bannerFromDb(key, fallback){
-  const group = dbBannerGroup(key);
-  const phase = group && group.current;
-  const chars = phase && phase.characters && phase.characters.length ? phase.characters : null;
-  if (!chars) return fallback;
-  const first = chars[0];
-  return Object.assign({}, fallback, {
-    title:phase.phase || fallback.title || 'Current Banner',
-    five:first.name || fallback.five,
-    fours:chars.slice(1, 4).map(c => c.name).filter(Boolean),
-    time:phaseTimeLabel(phase) || fallback.time,
-    pct:phasePct(phase, fallback.pct || 42),
-    art:first.art || first.icon || fallback.art,
+const BANNER_STATUS_META = {
+  live:{ label:'Live now', cls:'live' },
+  next:{ label:'Up next', cls:'next' },
+  upcoming:{ label:'Upcoming', cls:'upcoming' },
+  ended:{ label:'Ended', cls:'ended' },
+};
+
+// Timing block for a phase card. Only claims what the data supports: no
+// progress bar without a real start AND end, no invented "42%" placeholders.
+function bannerWhen(card, now){
+  const hasStart = Number.isFinite(card.start);
+  const hasEnd = Number.isFinite(card.end);
+  if (card.status === 'live') {
+    if (hasEnd && card.end <= now) {
+      return { state:'ended', headline:'Ended ' + shortDuration(now - card.end) + ' ago', sub:bannerAbsTime(card.end), pct:null };
+    }
+    return {
+      state:'live',
+      headline:hasEnd ? durationParts(card.end - now) + ' left' : 'End date unconfirmed',
+      sub:hasEnd ? 'Ends ' + bannerAbsTime(card.end) : null,
+      pct:hasStart && hasEnd && card.end > card.start
+        ? Math.max(0, Math.min(100, Math.round((now - card.start) / (card.end - card.start) * 100)))
+        : null,
+    };
+  }
+  if (hasStart && card.start > now) {
+    return {
+      state:card.status,
+      headline:'Starts in ' + durationParts(card.start - now),
+      sub:bannerAbsTime(card.start) + (hasEnd ? ' \u2192 ' + bannerAbsTime(card.end) : ''),
+      pct:null,
+    };
+  }
+  if (hasStart || hasEnd) {
+    const ref = hasEnd ? card.end : card.start;
+    if (ref <= now) return { state:'ended', headline:'Ended ' + shortDuration(now - ref) + ' ago', sub:bannerAbsTime(ref), pct:null };
+    return { state:card.status, headline:durationParts(ref - now) + ' left', sub:'Ends ' + bannerAbsTime(ref), pct:null };
+  }
+  return { state:card.status, headline:'Dates not confirmed yet', sub:null, pct:null };
+}
+
+const BANNER_WEAPON_COLLECTIONS = {
+  gi:['weapons'],
+  hsr:['light-cones'],
+  zzz:['w-engines'],
+  wuwa:['weapons'],
+  ae:['weapons'],
+};
+
+function bannerFeaturedRank(gameKey){
+  if (gameKey === 'zzz') return 4;
+  if (gameKey === 'ae') return 6;
+  return 5;
+}
+
+function bannerRarityValue(value){
+  if (value === undefined || value === null || value === '') return 0;
+  if (typeof value === 'number') return value;
+  const text = String(value).trim();
+  if (/^s\b/i.test(text)) return 4;
+  if (/^a\b/i.test(text)) return 3;
+  if (/^b\b/i.test(text)) return 2;
+  const n = text.match(/[0-9]+/);
+  return n ? Number(n[0]) : 0;
+}
+
+function bannerRarityLabel(gameKey, rarity){
+  const r = bannerRarityValue(rarity);
+  if (!r) return '';
+  if (gameKey === 'zzz') return r >= 4 ? 'S' : (r === 3 ? 'A' : 'B');
+  if (gameKey === 'ae') return r + '\u2726';
+  return r + '\u2605';
+}
+
+function dedupeByName(list){
+  const seen = new Set();
+  return (list || []).filter((item) => {
+    const key = normalizeUnitName(item && item.name);
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
   });
 }
 
-function bannerPhaseCards(cfg){
-  const group = dbBannerGroup(cfg.key);
+function dbCollectionItems(gameKey, keys){
+  const collections = (dbGame(gameKey) && dbGame(gameKey).collections) || [];
+  const wanted = new Set(keys || []);
+  return collections
+    .filter((col) => wanted.has(col.key))
+    .flatMap((col) => (col.items || []).map((item) => Object.assign({ collectionKey:col.key }, item)));
+}
+
+function weaponItemsFor(gameKey){
+  const generated = window.NYX_WEAPONS && window.NYX_WEAPONS[gameKey]
+    ? Object.values(window.NYX_WEAPONS[gameKey]).map((item) => Object.assign({ kind:'weapon' }, item))
+    : [];
+  const collection = dbCollectionItems(gameKey, BANNER_WEAPON_COLLECTIONS[gameKey] || ['weapons']);
+  return dedupeByName([...generated, ...collection]).map((item) => {
+    const rarity = bannerRarityValue(item.rarity || item.fields?.rarity);
+    return {
+      name:item.name,
+      icon:item.icon || item.art,
+      art:item.art || item.icon,
+      rarity,
+      badge:bannerRarityLabel(gameKey, rarity),
+    };
+  }).filter((item) => item.name && (item.icon || item.art));
+}
+
+function rosterUnitMap(gameCfg){
+  const map = new Map();
+  makeRoster(gameCfg).forEach((ch) => {
+    [ch.name, ch.rawName, ...(ch.aliases || [])].filter(Boolean).forEach((name) => {
+      const key = normalizeUnitName(name);
+      if (key && !map.has(key)) map.set(key, ch);
+    });
+  });
+  return map;
+}
+
+function phaseUnit(gameCfg, ch, rosterMap, index){
+  const name = ch.name || ch.n || '';
+  const match = rosterMap.get(normalizeUnitName(name));
+  const rarity = bannerRarityValue(ch.rarity || ch.r || match?.rarity);
+  const art = ch.namecard || ch.art || match?.art || ch.imageFallback || ch.image || match?.icon || gameCfg.art;
+  const icon = ch.icon || ch.image || ch.imageFallback || match?.icon || art;
+  return {
+    name,
+    icon,
+    art,
+    rarity,
+    // Badge only reflects a rarity we actually know (scrape or roster match) —
+    // an unknown unit renders without one instead of a guessed "5★".
+    badge:bannerRarityLabel(gameCfg.key, rarity),
+    order:index,
+  };
+}
+
+// One card per scraped phase (current / next / upcoming) \u2014 nothing invented.
+// Every banner surface on the site renders these same cards.
+function gameBannerCards(gameCfg, source){
+  const group = dbBannerGroup(gameCfg.key);
   if (!group) return [];
+  const rosterMap = rosterUnitMap(gameCfg);
+  const rank = bannerFeaturedRank(gameCfg.key);
   const cards = [];
-  const is5 = (ch) => { const r = ch && ch.rarity; return r === 5 || r === '5' || r === 'S'; };
-  const add = (phase, status, splitFives) => {
-    const chars = phase?.characters || [];
-    if (!chars.length) return;
-    const fives = chars.filter(is5);
-    const fours = chars.filter((ch) => !is5(ch));
-    const fourChips = fours.map((ch, i) => ({ key:(ch.name || 'char') + '-' + i, text:ch.name, icon:ch.icon || null }));
-    // G32: every featured 5\u2605 gets its OWN card (e.g. Lohen AND Mavuika); 4\u2605s are shared chips.
-    const leads = (splitFives && fives.length > 1) ? fives : [fives[0] || chars[0]];
-    leads.forEach((first) => {
-      cards.push({
-        title:phase.phase || cfg.banner?.title || status,
-        status,
-        next:status !== 'Ongoing',
-        five:(first.rarity || 5) + '\u2605 ' + first.name,
-        fiveIcon:first.icon || null,
-        chips:fourChips,
-        time:phaseTimeLabel(phase, { preferStart:status !== 'Ongoing' }) || 'Date pending',
-        pct:phasePct(phase, cfg.banner?.pct || 42),
-        art:first.namecard || first.art || first.icon || cfg.art, // G31: GI prefers namecard, else splash
-      });
+  const push = (phase, status) => {
+    if (!phase) return;
+    const units = dedupeByName(((phase.characters) || []).map((ch, i) => phaseUnit(gameCfg, ch, rosterMap, i))).filter((u) => u.name);
+    if (!units.length) return;
+    cards.push({
+      key:gameCfg.key + '-' + status + '-' + cards.length,
+      game:source || gameCfg,
+      status,
+      phase:phase.phase || null,
+      start:phase.start ? new Date(phase.start).getTime() : NaN,
+      end:phase.end ? new Date(phase.end).getTime() : NaN,
+      // Featured = top rank (or unknown rarity, which the scrape lists first);
+      // anything confirmed lower-rank rides along in the "Also featured" row.
+      featured:units.filter((u) => !u.rarity || u.rarity >= rank),
+      others:units.filter((u) => u.rarity && u.rarity < rank),
+      artPool:units.filter((u) => !u.rarity || u.rarity >= rank).map((u) => u.art).filter(Boolean),
     });
   };
-  add(group.current, 'Ongoing', true);
-  add(group.next, 'Next', false);
-  (group.upcoming || []).slice(0, 2).forEach((phase) => add(phase, 'Upcoming', false));
+  push(group.current, 'live');
+  push(group.next, 'next');
+  (group.upcoming || []).slice(0, 2).forEach((phase) => push(phase, 'upcoming'));
   return cards;
+}
+
+function BannerPhaseCard({ card, now, showGame }){
+  const artPool = card.artPool || [];
+  const [artIndex, setArtIndex] = React.useState(0);
+  React.useEffect(() => {
+    setArtIndex(0);
+    if (artPool.length < 2) return undefined;
+    const id = setInterval(() => setArtIndex((idx) => (idx + 1) % artPool.length), 4200);
+    return () => clearInterval(id);
+  }, [artPool.join('|')]);
+  const art = artPool.length ? artPool[artIndex % artPool.length] : (card.game?.bg || card.game?.art);
+  const when = bannerWhen(card, now);
+  const meta = BANNER_STATUS_META[when.state] || BANNER_STATUS_META[card.status] || BANNER_STATUS_META.live;
+  const gameIcon = card.game?.icon || GAME_REGISTRY[card.game?.key]?.benchIcon;
+  return (
+    <article className={'gp-oban st-' + meta.cls}>
+      <div className="gp-oban-art" style={{ backgroundImage:bgUrl(art) }}></div>
+      <div className="gp-oban-shade"></div>
+      <div className="gp-oban-body">
+        <div className="gp-oban-top">
+          <span className={'gp-oban-status st-' + meta.cls}>{meta.label}</span>
+          {card.phase && <span className="gp-oban-phase">{card.phase}</span>}
+          {showGame && card.game && (
+            <span className="gp-oban-game">
+              {gameIcon && <img src={gameIcon} alt="" draggable="false" />}
+              <span>{card.game.name}</span>
+            </span>
+          )}
+        </div>
+        <div className="gp-oban-featured" aria-label="Featured units">
+          {card.featured.map((unit) => (
+            <span key={unit.name} className="gp-oban-unit" title={unit.name}>
+              {unit.icon && <img src={unit.icon} alt="" draggable="false" />}
+              <b>{unit.name}</b>
+              {unit.badge && <em>{unit.badge}</em>}
+            </span>
+          ))}
+        </div>
+        {!!card.others.length && (
+          <div className="gp-oban-supports">
+            <span>Also featured</span>
+            <div>
+              {card.others.map((unit) => (
+                <i key={unit.name} title={unit.name}>
+                  {unit.icon && <img src={unit.icon} alt="" draggable="false" />}
+                  <b>{unit.name}</b>
+                </i>
+              ))}
+            </div>
+          </div>
+        )}
+        <div className="gp-oban-foot">
+          <b>{when.headline}</b>
+          {when.sub && <span>{when.sub}</span>}
+          {when.pct !== null && <i style={{ '--pct':when.pct + '%' }}></i>}
+        </div>
+      </div>
+    </article>
+  );
+}
+
+function CurrentBannerStrip({ cfg }){
+  const now = useNowTick(1000);
+  const isNyx = cfg.key === 'nyx';
+  // Game pages show the full phase flow; the Nyx overview shows what's live
+  // in each game right now (the All Banners tab has the rest). Memoized: the
+  // card data is static, only the countdowns tick.
+  const cards = React.useMemo(() => (
+    isNyx
+      ? SIM_GAMES.flatMap((game) => gameBannerCards(GAME_REGISTRY[game.key], game).filter((c) => c.status === 'live').slice(0, 1))
+      : gameBannerCards(cfg)
+  ), [cfg.key]);
+  const fresh = isNyx ? null : bannerFreshness(cfg.key);
+  const updated = window.NYX_DB && window.NYX_DB.banners && window.NYX_DB.banners.updated;
+  if (!cards.length && !fresh) return null;
+  return (
+    <section className="gp-current-banners" aria-label="Current banners">
+      <div className="gp-current-banners-head">
+        <GPSec title="Current Banners" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
+        {updated && <span>Updated {formatUpdated(updated)}</span>}
+      </div>
+      <BannerFreshnessNote fresh={fresh} />
+      {cards.length
+        ? <div className="gp-current-banner-row">
+            {cards.map((card) => (
+              <div className="gp-current-banner-cell" key={card.key}>
+                <BannerPhaseCard card={card} now={now} showGame={isNyx} />
+              </div>
+            ))}
+          </div>
+        : <div className="gp-oban-empty">No confirmed banners right now.</div>}
+    </section>
+  );
+}
+
+const RESET_MS = {
+  day:24 * 60 * 60 * 1000,
+  week:7 * 24 * 60 * 60 * 1000,
+};
+
+const RESET_REGIONS = {
+  local:{ key:'local', label:'Local', short:'Local', offset:null },
+  eu:{ key:'eu', label:'Europe', short:'EU', offset:1 },
+  na:{ key:'na', label:'America', short:'NA', offset:-5 },
+  asia:{ key:'asia', label:'Asia', short:'Asia', offset:8 },
+};
+
+function nextLocalResetAt(now, year, month, day, hour){
+  return new Date(year, month, day, hour, 0, 0, 0).getTime();
+}
+
+function serverParts(now, offset){
+  const d = new Date(now + offset * 60 * 60 * 1000);
+  return { year:d.getUTCFullYear(), month:d.getUTCMonth(), date:d.getUTCDate(), day:d.getUTCDay() };
+}
+
+function serverResetAt(year, month, day, hour, offset){
+  return Date.UTC(year, month, day, hour - offset, 0, 0, 0);
+}
+
+function nextDailyReset(now, region){
+  if (region && Number.isFinite(region.offset)) {
+    const p = serverParts(now, region.offset);
+    let next = serverResetAt(p.year, p.month, p.date, 4, region.offset);
+    if (next <= now) next = serverResetAt(p.year, p.month, p.date + 1, 4, region.offset);
+    return next;
+  }
+  const d = new Date(now);
+  let next = nextLocalResetAt(d, d.getFullYear(), d.getMonth(), d.getDate(), 4);
+  if (next <= now) next += RESET_MS.day;
+  return next;
+}
+
+function nextWeeklyReset(now, region){
+  if (region && Number.isFinite(region.offset)) {
+    const p = serverParts(now, region.offset);
+    const daysUntilMonday = (8 - p.day) % 7;
+    let next = serverResetAt(p.year, p.month, p.date + daysUntilMonday, 4, region.offset);
+    if (next <= now) next = serverResetAt(p.year, p.month, p.date + daysUntilMonday + 7, 4, region.offset);
+    return next;
+  }
+  const d = new Date(now);
+  const day = d.getDay();
+  const daysUntilMonday = (8 - day) % 7;
+  let next = nextLocalResetAt(d, d.getFullYear(), d.getMonth(), d.getDate() + daysUntilMonday, 4);
+  if (next <= now) next += RESET_MS.week;
+  return next;
+}
+
+function nextMonthlyReset(now, region){
+  if (region && Number.isFinite(region.offset)) {
+    const p = serverParts(now, region.offset);
+    let next = serverResetAt(p.year, p.month, 1, 4, region.offset);
+    if (next <= now) next = serverResetAt(p.year, p.month + 1, 1, 4, region.offset);
+    return next;
+  }
+  const d = new Date(now);
+  let next = nextLocalResetAt(d, d.getFullYear(), d.getMonth(), 1, 4);
+  if (next <= now) next = nextLocalResetAt(d, d.getFullYear(), d.getMonth() + 1, 1, 4);
+  return next;
+}
+
+function nextSemiMonthlyReset(now, region){
+  if (region && Number.isFinite(region.offset)) {
+    const p = serverParts(now, region.offset);
+    const candidates = [
+      serverResetAt(p.year, p.month, 1, 4, region.offset),
+      serverResetAt(p.year, p.month, 16, 4, region.offset),
+      serverResetAt(p.year, p.month + 1, 1, 4, region.offset),
+    ];
+    return candidates.find((ts) => ts > now) || candidates[candidates.length - 1];
+  }
+  const d = new Date(now);
+  const candidates = [
+    nextLocalResetAt(d, d.getFullYear(), d.getMonth(), 1, 4),
+    nextLocalResetAt(d, d.getFullYear(), d.getMonth(), 16, 4),
+    nextLocalResetAt(d, d.getFullYear(), d.getMonth() + 1, 1, 4),
+  ];
+  return candidates.find((ts) => ts > now) || candidates[candidates.length - 1];
+}
+
+function resetTimerRows(now, regionKey){
+  const region = RESET_REGIONS[regionKey] || RESET_REGIONS.local;
+  return [
+    { key:'abyss', label:'Abyss', target:nextSemiMonthlyReset(now, region) },
+    { key:'theater', label:'Imaginarium', target:nextMonthlyReset(now, region) },
+    { key:'weekly', label:'Weekly', target:nextWeeklyReset(now, region) },
+    { key:'daily', label:'Daily', target:nextDailyReset(now, region) },
+  ];
+}
+
+function durationParts(ms){
+  const safe = Math.max(0, Math.floor(ms / 1000));
+  const d = Math.floor(safe / 86400);
+  const h = Math.floor(safe % 86400 / 3600);
+  const m = Math.floor(safe % 3600 / 60);
+  const s = safe % 60;
+  const pad = (n) => String(n).padStart(2, '0');
+  return d > 0 ? d + 'd ' + pad(h) + 'h ' + pad(m) + 'm' : pad(h) + 'h ' + pad(m) + 'm ' + pad(s) + 's';
+}
+
+function customTimerKey(gameKey){
+  return 'nyx:custom-reset-timers:' + (gameKey || 'nyx') + ':v1';
+}
+
+function loadCustomTimers(gameKey){
+  try {
+    const rows = JSON.parse(localStorage.getItem(customTimerKey(gameKey)) || '[]');
+    return Array.isArray(rows)
+      ? rows.filter((row) => row && row.label && Number.isFinite(Number(row.target))).map((row) => ({
+        id:String(row.id || row.label + '-' + row.target),
+        label:String(row.label).slice(0, 42),
+        target:Number(row.target),
+      }))
+      : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function saveCustomTimers(gameKey, rows){
+  try { localStorage.setItem(customTimerKey(gameKey), JSON.stringify(rows)); } catch (e) {}
+}
+
+function resetRegionStorageKey(gameKey){
+  return 'nyx:reset-region:' + (gameKey || 'nyx') + ':v1';
+}
+
+function loadResetRegion(gameKey){
+  try {
+    const key = localStorage.getItem(resetRegionStorageKey(gameKey));
+    return RESET_REGIONS[key] ? key : 'local';
+  } catch (e) {
+    return 'local';
+  }
+}
+
+function datetimeLocalValue(ts){
+  const d = new Date(ts);
+  if (!Number.isFinite(d.getTime())) return '';
+  const pad = (n) => String(n).padStart(2, '0');
+  return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()) + 'T' + pad(d.getHours()) + ':' + pad(d.getMinutes());
+}
+
+function ResetTimersPanel({ gameKey }){
+  const [now, setNow] = React.useState(Date.now());
+  const [regionKey, setRegionKey] = React.useState(() => loadResetRegion(gameKey));
+  const [custom, setCustom] = React.useState(() => loadCustomTimers(gameKey));
+  const [label, setLabel] = React.useState('');
+  const [target, setTarget] = React.useState(() => datetimeLocalValue(Date.now() + RESET_MS.day));
+  React.useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(id);
+  }, [gameKey]);
+  React.useEffect(() => {
+    setRegionKey(loadResetRegion(gameKey));
+    setCustom(loadCustomTimers(gameKey));
+    setLabel('');
+    setTarget(datetimeLocalValue(Date.now() + RESET_MS.day));
+  }, [gameKey]);
+  const pickRegion = (key) => {
+    if (!RESET_REGIONS[key]) return;
+    setRegionKey(key);
+    try { localStorage.setItem(resetRegionStorageKey(gameKey), key); } catch (e) {}
+  };
+  const commitCustom = (fn) => {
+    setCustom((prev) => {
+      const next = fn(prev).slice(0, 12);
+      saveCustomTimers(gameKey, next);
+      return next;
+    });
+  };
+  const addTimer = () => {
+    const clean = label.trim();
+    const ts = new Date(target).getTime();
+    if (!clean || !Number.isFinite(ts)) return;
+    commitCustom((prev) => [...prev, { id:String(Date.now()) + '-' + Math.random().toString(16).slice(2), label:clean, target:ts }]);
+    setLabel('');
+    setTarget(datetimeLocalValue(Date.now() + RESET_MS.day));
+  };
+  const removeTimer = (id) => commitCustom((prev) => prev.filter((row) => row.id !== id));
+  const rows = resetTimerRows(now, regionKey);
+  const activeRegion = RESET_REGIONS[regionKey] || RESET_REGIONS.local;
+  return (
+    <section className="gp-reset-panel" aria-label="Reset timers">
+      <div className="gp-reset-head">
+        <span>Reset Timers</span>
+        <b>{activeRegion.short}</b>
+      </div>
+      <div className="gp-reset-regions" role="group" aria-label="Timer region">
+        {Object.values(RESET_REGIONS).map((region) => (
+          <button type="button" key={region.key} className={regionKey === region.key ? 'on' : ''} aria-pressed={regionKey === region.key} onClick={() => pickRegion(region.key)}>
+            {region.short}
+          </button>
+        ))}
+      </div>
+      <div className="gp-reset-grid">
+        {rows.map((row) => (
+          <div className={'gp-reset-tile rt-' + row.key} key={row.key}>
+            <span className="k">{row.label}</span>
+            <span className="v">{durationParts(row.target - now)}</span>
+          </div>
+        ))}
+      </div>
+      {custom.length > 0 && (
+        <div className="gp-reset-custom">
+          {custom.map((row) => (
+            <div className="gp-reset-tile custom" key={row.id}>
+              <span className="k">{row.label}</span>
+              <span className="v">{row.target > now ? durationParts(row.target - now) : 'Expired'}</span>
+              <button type="button" aria-label={'Remove ' + row.label} title="Remove custom timer" onClick={() => removeTimer(row.id)}>x</button>
+            </div>
+          ))}
+        </div>
+      )}
+      <div className="gp-reset-form" aria-label="Add custom timer">
+        <input value={label} placeholder="Custom timer" maxLength="42" onChange={(e) => setLabel(e.target.value)} />
+        <input type="datetime-local" value={target} onChange={(e) => setTarget(e.target.value)} />
+        <button type="button" onClick={addTimer} disabled={!label.trim()}>Add</button>
+      </div>
+    </section>
+  );
 }
 
 function formatUpdated(iso){
@@ -542,15 +1034,7 @@ Object.keys(GAME_REGISTRY).forEach((key) => {
   cfg.charName = top.n;
   cfg.art = top.art || top.card || cfg.art;
   cfg.benchIcon = top.icon || top.card || cfg.benchIcon;
-  cfg.banner = Object.assign({}, cfg.banner, {
-    title:'Database Highlights',
-    five:high[0] || top.n,
-    fours:(low.length ? low : roster.slice(1, 4).map(ch => ch.n)).slice(0, 3),
-    time:roster.length + ' units indexed',
-    pct:Math.max(24, Math.min(88, Math.round((high.length / Math.max(1, roster.length)) * 100))),
-  });
   cfg.codes = dbCodes(key, cfg.codes);
-  cfg.banner = bannerFromDb(key, cfg.banner);
   cfg.track = Object.assign({}, cfg.track, {
     fives:high.length ? high : roster.slice(0, 8).map(ch => ch.n),
     fours:low.length ? low : roster.slice(8, 16).map(ch => ch.n),
@@ -559,13 +1043,6 @@ Object.keys(GAME_REGISTRY).forEach((key) => {
 
 NYX_META.roster = Object.keys(GAME_REGISTRY).flatMap(key => makeRoster(GAME_REGISTRY[key]));
 NYX_META.codes = Object.keys(GAME_REGISTRY).flatMap(key => GAME_REGISTRY[key].codes.slice(0, 2)).slice(0, 8);
-NYX_META.banner = Object.assign({}, NYX_META.banner, {
-  title:'Indexed Worlds',
-  five:'Database',
-  fours:Object.keys(GAME_REGISTRY).map(key => GAME_REGISTRY[key].name).slice(0, 3),
-  time:'Prydwen + Nanoka + EndfieldWiki',
-  pct:72,
-});
 
 const buildTrack = (cfg) => Object.assign({ pull:'Wish', pulls:'Wishes', currency:'Primogems', cost:160, fives:[], fours:[] }, cfg.track || {}, { key:cfg.key });
 
@@ -645,6 +1122,10 @@ function pinnedStorageKey(key){
   return 'nyx:pinned-favourites:' + key + ':v1';
 }
 
+function favsCollapsedStorageKey(key){
+  return 'nyx:pinned-favourites-collapsed:' + key + ':v1';
+}
+
 function pinnedSeed(cfg, roster){
   const names = PINNED_DEFAULTS[cfg.key] || [];
   const byName = new Map(roster.map((ch) => [String(ch.name || '').toLowerCase(), ch]));
@@ -666,12 +1147,18 @@ function savePinnedCards(cfg, cards){
   try { localStorage.setItem(pinnedStorageKey(cfg.key), JSON.stringify(cards.map((ch) => ch.id))); } catch (e) {}
 }
 
-function Favourites({ cfg, onOpenMaterial }){
+function Favourites({ cfg, onOpenMaterial, settings }){
   const cmVersion = useCmGameVersion(cfg.key);
-  const roster = React.useMemo(() => makeRoster(cfg), [cfg.key, cmVersion]);
+  const [characterImagePrefs] = useNyxCharacterImagePrefs();
+  const specialKey = JSON.stringify(settings?.specialUnits || {});
+  const customKey = JSON.stringify(characterImagePrefs || {});
+  const roster = React.useMemo(() => makeRoster(cfg, settings, characterImagePrefs), [cfg.key, cmVersion, specialKey, customKey]);
   const [cards, setCards] = React.useState(() => loadPinnedCards(cfg, roster));
   const [hov, setHov] = React.useState(null);
   const [manage, setManage] = React.useState(false);
+  const [collapsed, setCollapsed] = React.useState(() => {
+    try { return localStorage.getItem(favsCollapsedStorageKey(cfg.key)) === '1'; } catch (e) { return false; }
+  });
   const [q, setQ] = React.useState('');
   const [w, setW] = React.useState(900);
   const ref = React.useRef(null);
@@ -681,6 +1168,7 @@ function Favourites({ cfg, onOpenMaterial }){
     setHov(null);
     setManage(false);
     setQ('');
+    try { setCollapsed(localStorage.getItem(favsCollapsedStorageKey(cfg.key)) === '1'); } catch (e) { setCollapsed(false); }
   }, [cfg.key, roster]);
 
   React.useEffect(() => {
@@ -697,6 +1185,14 @@ function Favourites({ cfg, onOpenMaterial }){
       return next;
     });
   };
+  const toggleCollapsed = () => {
+    setCollapsed((prev) => {
+      const next = !prev;
+      try { localStorage.setItem(favsCollapsedStorageKey(cfg.key), next ? '1' : '0'); } catch (e) {}
+      if (next) setManage(false);
+      return next;
+    });
+  };
 
   const GAP = 16, ADDW = 72;
   const n = cards.length;
@@ -705,7 +1201,7 @@ function Favourites({ cfg, onOpenMaterial }){
   const pinnedIds = new Set(cards.map((ch) => ch.id));
   const candidates = roster.filter((ch) => !pinnedIds.has(ch.id) && match(ch)).slice(0, qq ? 24 : 12);
   const isFull = cards.length >= 5;
-  const hasAdd = manage && candidates.length > 0 && !isFull;
+  const hasAdd = manage && !collapsed && candidates.length > 0 && !isFull;
   const fixed = (hasAdd ? ADDW + GAP : 0) + (n > 1 ? (n - 1) * GAP : 0);
   let cardW = n > 0 ? Math.floor((w - fixed) / n) : 0;
   cardW = Math.max(152, Math.min(200, cardW));
@@ -748,10 +1244,10 @@ function Favourites({ cfg, onOpenMaterial }){
   });
 
   return (
-    <div ref={ref} className={'gp-favs game-' + cfg.key + (manage ? ' manage' : '')} style={{ width:'100%' }}>
+    <div ref={ref} className={'gp-favs game-' + cfg.key + (manage ? ' manage' : '') + (collapsed ? ' collapsed' : '')} style={{ width:'100%' }}>
       <div style={{ display:'flex', alignItems:'center', gap:'16px' }}>
         <GPSec title="Pinned Favourites" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
-        {manage && <div className="gp-search-wrap">
+        {manage && !collapsed && <div className="gp-search-wrap">
           <div className="gp-search">
             <span className="ic"></span>
             <input value={q} placeholder="Search Characters" spellCheck="false"
@@ -759,18 +1255,23 @@ function Favourites({ cfg, onOpenMaterial }){
             {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
           </div>
         </div>}
-        <GPHex small fixw on={manage} onClick={() => setManage(m => !m)}>
+        <GPHex small fixw on={!collapsed} onClick={toggleCollapsed}>
+          <span>{collapsed ? 'Show' : 'Hide'}</span>
+        </GPHex>
+        <GPHex small fixw on={manage} onClick={() => { if (collapsed) toggleCollapsed(); setManage(m => !m); }}>
           <span>{manage ? 'Done' : 'Edit'}</span>
         </GPHex>
       </div>
-      <div className={'gp-cardrow' + (scroll ? ' scroll' : '')}
-           style={{ justifyContent: scroll ? 'flex-start' : 'center' }}>
-        {cards.map((c, i) => (
-          <FavCardI key={c.id} ch={c} idx={i} w={cardW} hgt={cardH} dt={isDt('card', i)} faded={!match(c)} h={h} art={cfg.art} manage={manage} count={cards.length} />
-        ))}
-        {hasAdd && <AddSlot hgt={cardH} dt={isDt('add', 0)} h={h} />}
-      </div>
-      {manage && (
+      {!collapsed && (
+        <div className={'gp-cardrow' + (scroll ? ' scroll' : '')}
+             style={{ justifyContent: scroll ? 'flex-start' : 'center' }}>
+          {cards.map((c, i) => (
+            <FavCardI key={c.id} ch={c} idx={i} w={cardW} hgt={cardH} dt={isDt('card', i)} faded={!match(c)} h={h} art={cfg.art} manage={manage} count={cards.length} />
+          ))}
+          {hasAdd && <AddSlot hgt={cardH} dt={isDt('add', 0)} h={h} />}
+        </div>
+      )}
+      {manage && !collapsed && (
         <div className="gp-fav-picker">
           {candidates.map((ch) => (
             <button
@@ -872,23 +1373,6 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
   };
   const premiumRows = rows.filter(r => r.premium).sort(sortRedeemedLast);
   const plainRows = rows.filter(r => !r.premium).sort(sortRedeemedLast);
-  // G5: the "N more below" hint reflects how many code rows are still below the
-  // scroll fold, recomputed live on scroll/resize (not a static count).
-  const scrollRef = React.useRef(null);
-  const [belowCount, setBelowCount] = React.useState(0);
-  const recountBelow = React.useCallback(() => {
-    const el = scrollRef.current;
-    if (!el) return;
-    const fold = el.getBoundingClientRect().bottom;
-    let n = 0;
-    el.querySelectorAll('.gp-code-row').forEach((r) => { if (r.getBoundingClientRect().top > fold - 6) n += 1; });
-    setBelowCount(n);
-  }, []);
-  React.useEffect(() => {
-    recountBelow();
-    window.addEventListener('resize', recountBelow);
-    return () => window.removeEventListener('resize', recountBelow);
-  }, [recountBelow, rows.length]);
 
   const renderGroup = (kind, list) => (
     list.length === 0 ? null : (
@@ -911,49 +1395,22 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
 
   return (
     <React.Fragment>
-      <div className="overview-codes-scroll" ref={scrollRef} onScroll={recountBelow}>
+      <div className="overview-codes-scroll">
         {renderGroup('premium', premiumRows)}
         {renderGroup('other', plainRows)}
         {rows.length === 0 && <div className="code-empty">No redemption codes found.</div>}
       </div>
-      {belowCount > 0 && (
-        <div className="codes-more-hint" aria-hidden="true">
-          <span className="chev">{'⌄'}</span>{belowCount} more below
-        </div>
-      )}
     </React.Fragment>
   );
 }
 
 /* shared overview right rail */
 function OverviewAside({ cfg }){
-  const b = cfg.banner;
-  const phaseCards = bannerPhaseCards(cfg);
-  const ongoing = phaseCards.filter((c) => c.status === 'Ongoing');
-  const upcoming = phaseCards.filter((c) => c.status !== 'Ongoing');
   return (
-    <aside style={{ display:'flex', flexDirection:'column', gap:'12px', minWidth:0, minHeight:0 }}>
+    <aside className="gp-overview-aside">
+      <ResetTimersPanel gameKey={cfg.key} />
       <GPSec title="Redemption Codes" />
       <CodesPanel codes={cfg.codes} gameKey={cfg.key} />
-      <BannerFreshnessNote fresh={bannerFreshness(cfg.key)} />
-      {ongoing.length > 0 ? ongoing.map((card, i) => (
-        <GPBanner key={'on-' + card.five + '-' + i} compact h={150}
-          art={card.art || cfg.art} title={card.title} status={card.status}
-          five={card.five} fiveIcon={card.fiveIcon} chips={card.chips} time={card.time} pct={card.pct} />
-      )) : (
-        <GPBanner compact h={158} art={b.art || cfg.art} title={b.title}
-          status="Database fallback" five={'5\u2605 ' + b.five}
-          chips={(b.fours || []).map((name) => ({ key:name, text:name }))} time={b.time} pct={b.pct} />
-      )}
-      {upcoming.length > 0 && (
-        <React.Fragment>
-          {upcoming.map((card, i) => (
-            <GPBanner key={'up-' + card.five + '-' + i} compact next h={84}
-              art={card.art || cfg.art} title={card.title} status={card.status}
-              five={card.five} fiveIcon={card.fiveIcon} chips={card.chips} time={card.time} pct={card.pct} />
-          ))}
-        </React.Fragment>
-      )}
     </aside>
   );
 }
@@ -1049,122 +1506,60 @@ function AllCodesView(){
   );
 }
 
-const SIM_RESETS = { daily:'13h 10m 48s', weekly:'1d 13h 10m 48s' };
-
-function phaseNames(phase){
-  return ((phase && phase.characters) || []).map(ch => ch.name).filter(Boolean);
-}
-
-function phaseChars(phase){
-  return ((phase && phase.characters) || []).filter(ch => ch && ch.name);
-}
-
-function phaseSeconds(phase, fallback){
-  const end = phase && phase.end ? new Date(phase.end).getTime() : NaN;
-  if (!Number.isFinite(end)) return fallback;
-  return Math.max(0, Math.floor((end - Date.now()) / 1000));
-}
-
-function bannerFlowFor(g, i){
-  const group = dbBannerGroup(g.key);
-  if (group && group.current && phaseNames(group.current).length) {
-    const upcoming = (group.upcoming || []).flatMap(phaseChars);
-    const next = phaseChars(group.next).slice(0, 4);
-    const upcomingShort = upcoming.slice(0, 8);
-    return {
-      status:group.current.end && new Date(group.current.end).getTime() < Date.now() ? 'ended' : 'now',
-      secs:phaseSeconds(group.current, 824448 + i * 129600),
-      now:phaseChars(group.current).slice(0, 4),
-      next:next.length ? next : null,
-      upcoming:upcomingShort.length ? upcomingShort : null,
-    };
-  }
-  const names = makeRoster(GAME_REGISTRY[g.key]).map(ch => ({ name:ch.name, icon:ch.icon }));
-  const next = names.slice(2, 4);
-  const upcoming = names.slice(4, 8);
-  return {
-    status:'now',
-    secs:824448 + i * 129600,
-    now:names.slice(0, 2),
-    next:next.length ? next : null,
-    upcoming:upcoming.length ? upcoming : null,
-  };
-}
-
-const BANNER_FLOW = {};
-SIM_GAMES.forEach((g, i) => {
-  BANNER_FLOW[g.key] = bannerFlowFor(g, i);
-});
-const SIM_CC_COLORS = ['#dd0044','#635bff','#c08fe6','#e3b552','#b8b3ff','#d8b86a','#8f7fd6','#e07fb0'];
-
-function SimChar({ name }){
-  const ch = typeof name === 'string' ? { name } : name;
-  const col = SIM_CC_COLORS[ch.name.length % SIM_CC_COLORS.length];
-  return (
-    <div className="sim-cc" title={ch.name}>
-      <div className="d" style={{ '--c':col }}>
-        {ch.icon ? <img src={ch.icon} alt="" draggable="false" /> : <span>{simInitials(ch.name)}</span>}
-      </div>
-      <span className="n">{ch.name}</span>
-    </div>
-  );
-}
-
-function Countdown({ secs }){
-  const [t, setT] = React.useState(secs);
-  React.useEffect(() => { const id = setInterval(() => setT(x => x > 0 ? x - 1 : 0), 1000); return () => clearInterval(id); }, []);
-  const d = Math.floor(t / 86400), h = Math.floor(t % 86400 / 3600), m = Math.floor(t % 3600 / 60), s = t % 60;
-  const pad = (n) => String(n).padStart(2, '0');
-  return <span>{(d > 0 ? d + 'd ' : '') + pad(h) + 'h ' + pad(m) + 'm ' + pad(s) + 's'}</span>;
-}
-
-function SimGameBanner({ g }){
-  const f = BANNER_FLOW[g.key];
-  const ended = f.status === 'ended';
-  return (
-    <div className="sim-gbanner">
-      <div className="art" style={{ backgroundImage:'url(' + g.bg + ')', backgroundPosition:g.pos }}></div>
-      <div className="shade"></div>
-      <div className="inner">
-        <div className="ghd">{g.name}</div>
-        <div className={'phase' + (ended ? ' end' : '')}>{ended ? 'Ended' : 'Now'}</div>
-        <div className="ccrow">{f.now.map(n => <SimChar key={typeof n === 'string' ? n : n.name} name={n} />)}</div>
-        {ended ? <div className="timer ended">Ended</div> : <div className="timer"><Countdown secs={f.secs} /></div>}
-        {f.next && (
-          <React.Fragment>
-            <div className="phase">Next</div>
-            <div className="ccrow">{f.next.map(n => <SimChar key={typeof n === 'string' ? n : n.name} name={n} />)}</div>
-            {f.nextStart && <div className="substart">{f.nextStart}</div>}
-          </React.Fragment>
-        )}
-        {f.upcoming && (
-          <React.Fragment>
-            <div className="phase">Upcoming</div>
-            <div className="ccrow wrap">{f.upcoming.map(n => <SimChar key={typeof n === 'string' ? n : n.name} name={n} />)}</div>
-          </React.Fragment>
-        )}
-      </div>
-    </div>
-  );
-}
-
 function AllBannersView(){
-  const [region, setRegion] = React.useState('EU');
+  const now = useNowTick(1000);
+  // Shares the persisted region with the overview reset panel, so picking a
+  // server here and there stays consistent.
+  const [regionKey, setRegionKey] = React.useState(() => loadResetRegion('nyx'));
+  const pickRegion = (key) => {
+    if (!RESET_REGIONS[key]) return;
+    setRegionKey(key);
+    try { localStorage.setItem(resetRegionStorageKey('nyx'), key); } catch (e) {}
+  };
+  const region = RESET_REGIONS[regionKey] || RESET_REGIONS.local;
+  const updated = window.NYX_DB && window.NYX_DB.banners && window.NYX_DB.banners.updated;
+  const groups = React.useMemo(() => SIM_GAMES.map((g) => ({
+    game:g,
+    cards:gameBannerCards(GAME_REGISTRY[g.key], g),
+    fresh:bannerFreshness(g.key),
+  })), []);
   return (
     <div style={{ minWidth:0, minHeight:0, display:'flex', flexDirection:'column' }}>
       <div className="sim-banhd">
+        <GPSec title="All Banners" style={{ flex:1, minWidth:0 }} />
         <div className="sim-regions">
-          {['EU','NA','Asia'].map(r => (
-            <button type="button" key={r} className={region === r ? 'on' : ''} onClick={() => setRegion(r)}>{r}</button>
+          {['local','eu','na','asia'].map((key) => (
+            <button type="button" key={key} className={regionKey === key ? 'on' : ''} onClick={() => pickRegion(key)}>
+              {RESET_REGIONS[key].short}
+            </button>
           ))}
         </div>
         <div className="sim-resets">
-          <div className="rs"><span className="k">Daily</span><span className="v">{SIM_RESETS.daily}</span></div>
-          <div className="rs"><span className="k">Weekly</span><span className="v">{SIM_RESETS.weekly}</span></div>
+          <div className="rs"><span className="k">Daily reset</span><span className="v">{durationParts(nextDailyReset(now, region) - now)}</span></div>
+          <div className="rs"><span className="k">Weekly reset</span><span className="v">{durationParts(nextWeeklyReset(now, region) - now)}</span></div>
         </div>
       </div>
-      <div className="sim-gbangrid">
-        {SIM_GAMES.map(g => <SimGameBanner key={g.key} g={g} />)}
+      {updated && <span className="sim-updated" style={{ marginTop:'-8px', marginBottom:'10px' }}>Banner data updated {formatUpdated(updated)}</span>}
+      <div className="gp-codes-scroll" style={{ flex:1, minHeight:0, gap:'26px' }}>
+        {groups.map(({ game:g, cards, fresh }) => (
+          <section key={g.key} className="sim-bangroup" aria-label={g.name + ' banners'}>
+            <div className="sim-grouphd">
+              <img src={g.icon} alt="" />
+              <span className="gn">{g.name}</span>
+              <span className="rule"></span>
+            </div>
+            <BannerFreshnessNote fresh={fresh} />
+            {cards.length
+              ? <div className="gp-current-banner-row">
+                  {cards.map((card) => (
+                    <div className="gp-current-banner-cell" key={card.key}>
+                      <BannerPhaseCard card={card} now={now} />
+                    </div>
+                  ))}
+                </div>
+              : <div className="gp-oban-empty">No confirmed banners right now.</div>}
+          </section>
+        ))}
       </div>
     </div>
   );
@@ -1245,17 +1640,346 @@ function CollectionCard({ item }){
   );
 }
 
+const TCG_COST_LABELS = {
+  GCG_COST_DICE_CRYO:'Cryo',
+  GCG_COST_DICE_HYDRO:'Hydro',
+  GCG_COST_DICE_PYRO:'Pyro',
+  GCG_COST_DICE_ELECTRO:'Electro',
+  GCG_COST_DICE_ANEMO:'Anemo',
+  GCG_COST_DICE_GEO:'Geo',
+  GCG_COST_DICE_DENDRO:'Dendro',
+  GCG_COST_DICE_VOID:'Unaligned',
+  GCG_COST_DICE_SAME:'Matching Element',
+  GCG_COST_DICE_LEGEND:'Arcane Legend',
+  GCG_COST_ENERGY:'Energy',
+  GCG_COST_LEGEND:'Arcane Legend',
+  GCG_COST_SKIRK_SPECIAL_ENERGY:"Serpent's Subtlety",
+};
+
+const TCG_ELEMENT_LABELS = {
+  GCG_ELEMENT_VOID:'Physical DMG',
+  GCG_ELEMENT_CRYO:'Cryo DMG',
+  GCG_ELEMENT_HYDRO:'Hydro DMG',
+  GCG_ELEMENT_PYRO:'Pyro DMG',
+  GCG_ELEMENT_ELECTRO:'Electro DMG',
+  GCG_ELEMENT_ANEMO:'Anemo DMG',
+  GCG_ELEMENT_GEO:'Geo DMG',
+  GCG_ELEMENT_DENDRO:'Dendro DMG',
+};
+
+const TCG_SKILL_TAG_LABELS = {
+  GCG_SKILL_TAG_A:'Normal Attack',
+  GCG_SKILL_TAG_E:'Elemental Skill',
+  GCG_SKILL_TAG_Q:'Elemental Burst',
+  GCG_SKILL_TAG_PASSIVE:'Passive',
+};
+
+function tcgCleanText(value){
+  return String(value ?? '')
+    .replace(/\\n/g, '\n')
+    .replace(/<color=[^>]+>/gi, '')
+    .replace(/<\/color>/gi, '')
+    .replace(/\{SPRITE_PRESET#\d+\}/g, '')
+    .replace(/[ \t]+\n/g, '\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
+function tcgCleanInline(value){
+  return tcgCleanText(value).replace(/\s+/g, ' ').trim();
+}
+
+function tcgCostTypeLabel(value){
+  const key = String(value || '').toUpperCase();
+  return TCG_COST_LABELS[key] || key.replace(/^GCG_COST_/, '').replace(/^DICE_/, '').replace(/_/g, ' ').toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function tcgFormatCost(cost){
+  if (cost === undefined || cost === null || cost === '') return '';
+  if (Number.isFinite(Number(cost))) return String(Number(cost));
+  if (Array.isArray(cost)) {
+    return cost
+      .filter((row) => row && row.cost_type !== 'GCG_COST_INVALID')
+      .map((row) => `${Number(row.count) || 0} ${tcgCostTypeLabel(row.cost_type)}`)
+      .join(' / ');
+  }
+  if (typeof cost === 'object') {
+    return Object.entries(cost)
+      .filter(([, value]) => Number.isFinite(Number(value)) && Number(value) > 0)
+      .map(([key, value]) => `${Number(value)} ${tcgCostTypeLabel(key)}`)
+      .join(' / ');
+  }
+  return String(cost);
+}
+
+function tcgReferenceLabel(raw, child, resolver){
+  const key = String(raw || '');
+  const normalized = key.toLowerCase().replace(/[^a-z0-9_]/g, '');
+  if (normalized === 'd__key__damage') return child?.d_key_damage ?? key;
+  if (normalized === 'd__key__element') return TCG_ELEMENT_LABELS[child?.d_key_element] || child?.d_key_element || key;
+  const value = child?.[normalized];
+  if (value && typeof value === 'object') return tcgCleanInline(value.name || value.desc || key);
+  if (typeof value === 'string') return resolver?.[value] || resolver?.[key] || resolver?.[value.replace(/^[ACKS]/, '')] || value;
+  return resolver?.[key] || resolver?.[key.replace(/^[ACKS]/, '')] || key;
+}
+
+function tcgRenderText(value, child, resolver){
+  return tcgCleanText(value)
+    .replace(/\$\[([^\]]+)\]/g, (_, key) => tcgReferenceLabel(key, child || {}, resolver || {}))
+    .replace(/\s+\./g, '.')
+    .replace(/\s+,/g, ',');
+}
+
+function tcgReferenceRows(child, resolver){
+  if (!child || typeof child !== 'object') return [];
+  return Object.entries(child)
+    .filter(([, value]) => value && typeof value === 'object' && (value.name || value.desc))
+    .map(([key, value]) => ({
+      key,
+      name:tcgRenderText(value.name || key, value.child, resolver),
+      desc:tcgRenderText(value.desc || '', value.child, resolver),
+    }))
+    .filter((row) => row.name || row.desc);
+}
+
+function tcgTalentRows(card){
+  const talent = card?.talent;
+  if (!talent) return [];
+  if (Array.isArray(talent)) return talent;
+  if (card.type === 'Character' && typeof talent === 'object') {
+    return Object.entries(talent).map(([id, row]) => ({ id, ...row }));
+  }
+  if (typeof talent === 'object') return [{ id:card.id, ...talent }];
+  return [];
+}
+
+function tcgStatRows(card){
+  if (!card) return [];
+  const rows = [];
+  rows.push(['ID', String(card.id || '')]);
+  rows.push(['Type', card.type || (card.kind === 'character' ? 'Character' : 'Action')]);
+  const costText = tcgFormatCost(card.cost);
+  if (costText) rows.push([card.type === 'Character' ? 'Energy' : 'Cost', costText]);
+  if (Number.isFinite(Number(card.hp))) rows.push(['HP', String(card.hp)]);
+  if (card.playableCharacter) rows.push(['Character', card.playableCharacter]);
+  if (Array.isArray(card.tags) && card.tags.length) rows.push(['Tags', card.tags.join(' / ')]);
+  if (card.relatedCardId) rows.push(['Related', card.relatedCardId]);
+  return rows;
+}
+
+function GenshinTcgView(){
+  const gameData = dbGame('gi') || {};
+  const tcg = gameData.tcg || {};
+  const [kind, setKind] = React.useState('all');
+  const [tag, setTag] = React.useState('all');
+  const [q, setQ] = React.useState('');
+  const [activeCard, setActiveCard] = React.useState(null);
+  const [restoreScroll, setRestoreScroll] = React.useState(0);
+  const gridRef = React.useRef(null);
+  const cards = [
+    ...((tcg.characterCards || []).map((card) => ({ ...card, kind:'character' }))),
+    ...((tcg.otherCards || []).map((card) => ({ ...card, kind:'action' }))),
+  ];
+  const resolver = React.useMemo(() => {
+    const out = {};
+    cards.forEach((card) => {
+      if (card.type === 'Character') {
+        out[String(card.id)] = card.name;
+        out['A' + card.id] = card.name;
+      }
+      tcgTalentRows(card).forEach((row) => {
+        if (!row.id || !row.name) return;
+        out[String(row.id)] = row.name;
+        out['S' + row.id] = row.name;
+      });
+    });
+    return out;
+  }, [cards.length]);
+  const tagFilters = React.useMemo(() => {
+    const counts = new Map();
+    cards.filter((card) => kind === 'all' || card.kind === kind).forEach((card) => {
+      (card.tags || []).forEach((value) => counts.set(value, (counts.get(value) || 0) + 1));
+    });
+    return [...counts.entries()]
+      .sort((a, b) => a[0].localeCompare(b[0]));
+  }, [cards.length, kind]);
+  React.useEffect(() => {
+    if (tag === 'all') return;
+    if (!tagFilters.some(([value]) => value === tag)) setTag('all');
+  }, [tag, tagFilters]);
+  const qq = q.trim().toLowerCase();
+  const visible = cards.filter((card) => {
+    if (kind !== 'all' && card.kind !== kind) return false;
+    if (tag !== 'all' && !(card.tags || []).includes(tag)) return false;
+    const talentText = tcgTalentRows(card).map((row) => [row.name, row.desc, tcgFormatCost(row.cost)].join(' ')).join(' ');
+    const hay = [card.name, card.title, card.type, card.description, card.sourceText, card.playableCharacter, tcgFormatCost(card.cost), card.hp, talentText, ...(card.tags || [])].filter(Boolean).join(' ').toLowerCase();
+    return !qq || hay.includes(qq);
+  });
+  const filters = [
+    ['all', 'All Cards', cards.length],
+    ['character', 'Character', (tcg.characterCards || []).length],
+    ['action', 'Action', (tcg.otherCards || []).length],
+  ];
+  const tagTotal = tagFilters.reduce((sum, [, count]) => sum + count, 0);
+  const openCard = (card) => {
+    setRestoreScroll(gridRef.current ? gridRef.current.scrollTop : 0);
+    setActiveCard(card);
+  };
+  const closeCard = () => {
+    setActiveCard(null);
+    setTimeout(() => {
+      if (gridRef.current) gridRef.current.scrollTop = restoreScroll;
+    }, 0);
+  };
+  if (activeCard) {
+    return (
+      <div className="tcg-view tcg-detail-page" data-screen-label="TCG card detail page">
+        <div className="tcg-detail-toolbar">
+          <button type="button" className="tcg-back" onClick={closeCard}>
+            <span>{'\u2039'}</span><b>Back to TCG Cards</b>
+          </button>
+          <div>
+            <span>{activeCard.type || (activeCard.kind === 'character' ? 'Character' : 'Action')}</span>
+            <b>{activeCard.id}</b>
+          </div>
+        </div>
+        <div className="tcg-detail-scroll">
+          <article className="tcg-detail-panel">
+            <div className="tcg-detail-art">{activeCard.art ? <img src={activeCard.art} alt="" draggable="false" /> : <span>{simInitials(activeCard.name)}</span>}</div>
+            <div className="tcg-detail-copy">
+              <b>{activeCard.name}</b>
+              {activeCard.title && <em>{activeCard.title}</em>}
+              <div className="tcg-stat-grid">
+                {tcgStatRows(activeCard).map(([label, value]) => (
+                  <span key={label}><b>{label}</b><em>{value}</em></span>
+                ))}
+              </div>
+              {activeCard.description && (
+                <div className="tcg-effect">
+                  <span>Description</span>
+                  <p>{tcgRenderText(activeCard.description, null, resolver)}</p>
+                </div>
+              )}
+              {activeCard.sourceText && (
+                <div className="tcg-effect tcg-source">
+                  <span>Source</span>
+                  <p>{activeCard.sourceText}</p>
+                </div>
+              )}
+              {tcgTalentRows(activeCard).length > 0 && (
+                <div className="tcg-skill-list">
+                  <span>Skills / Effects</span>
+                  {tcgTalentRows(activeCard).map((row, index) => {
+                    const refs = tcgReferenceRows(row.child, resolver);
+                    return (
+                      <article className="tcg-skill-card" key={(row.id || activeCard.id) + '-' + index}>
+                        <div className="tcg-skill-head">
+                          <b>{row.name || activeCard.name}</b>
+                          {row.tag && <em>{TCG_SKILL_TAG_LABELS[row.tag] || row.tag}</em>}
+                          {tcgFormatCost(row.cost) && <i>{tcgFormatCost(row.cost)}</i>}
+                        </div>
+                        {row.desc && <p>{tcgRenderText(row.desc, row.child, resolver)}</p>}
+                        {refs.length > 0 && (
+                          <div className="tcg-reference-list">
+                            <span>References</span>
+                            {refs.map((ref) => (
+                              <div key={ref.key}>
+                                <b>{ref.name}</b>
+                                {ref.desc && <p>{ref.desc}</p>}
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </article>
+                    );
+                  })}
+                </div>
+              )}
+              {activeCard.sourceUrl && <a className="tcg-source-link" href={activeCard.sourceUrl} target="_blank" rel="noopener noreferrer">Open on Nanoka</a>}
+            </div>
+          </article>
+        </div>
+      </div>
+    );
+  }
+  return (
+    <div className="tcg-view">
+      <div className="tcg-head">
+        <GPSec title="Genius Invokation TCG" style={{ flex:1, minWidth:0 }} />
+        <div className="gp-search">
+          <span className="ic"></span>
+          <input value={q} placeholder="Search TCG Cards" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+          {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
+        </div>
+      </div>
+      <div className="tcg-filter-block">
+        <span>CARD TYPE</span>
+        <div className="tcg-tabs">
+          {filters.map(([key, label, count]) => (
+            <button type="button" key={key} className={kind === key ? 'on' : ''} onClick={() => setKind(key)}>
+              <span>{label}</span><b>{count}</b>
+            </button>
+          ))}
+        </div>
+      </div>
+      {tagFilters.length > 0 && (
+        <div className="tcg-filter-block">
+          <span>TAGS</span>
+          <div className="tcg-tabs tcg-category-tabs" aria-label="TCG card tags">
+            <button type="button" className={tag === 'all' ? 'on' : ''} onClick={() => setTag('all')}>
+              <span>All</span><b>{tagTotal}</b>
+            </button>
+            {tagFilters.map(([value, count]) => (
+              <button type="button" key={value} className={tag === value ? 'on' : ''} onClick={() => setTag(value)}>
+                <span>{value}</span><b>{count}</b>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+      <div className="tcg-grid" ref={gridRef}>
+        {visible.map((card) => (
+          <button type="button" className={'tcg-card kind-' + card.kind} key={card.kind + '-' + card.id}
+                  onClick={() => openCard(card)}>
+            <div className="tcg-art">
+              {card.art ? <img src={card.art} alt="" draggable="false" /> : <span>{simInitials(card.name)}</span>}
+            </div>
+            <div className="tcg-meta">
+              <b>{card.name}</b>
+              <span>{card.type}</span>
+            </div>
+          </button>
+        ))}
+      </div>
+      {visible.length === 0 && <div className="db-empty">No TCG cards match your search.</div>}
+    </div>
+  );
+}
+
 /* ================= content panels ================= */
 // Keyboard activation for role="button" nav rows (Enter / Space).
 function navKeyDown(fn){
   return (e) => { if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); fn(); } };
 }
 
-function GameContent({ cfg, tab, setTab, onOpenMaterial }){
+function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, characterCustomize, setCharacterCustomize, materialSelection, setMaterialSelection }){
   const fns = cfg.fns || ['Character Materials','Artifact Sorter','Wish Tracker'];
+  const hasTcg = cfg.key === 'gi';
+  const openCharacterCustomize = (payload) => {
+    setCharacterCustomize(Object.assign({ game:cfg.key, restoreScroll:0 }, payload || {}));
+    setTab('char-customize');
+  };
+  const backFromCharacterCustomize = () => {
+    const restore = Number(characterCustomize?.restoreScroll || 0);
+    setTab('mats');
+    setTimeout(() => {
+      const scroller = document.querySelector('.cm-body');
+      if (scroller) scroller.scrollTop = restore;
+    }, 40);
+  };
   // G13: the section list the Character-Materials header icon-dropdown switches between.
   const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^character materials$/i.test(f) ? 'mats' : 'library';
-  const sections = [{ key:'overview', label:'Overview' }, ...fns.map((f) => ({ key:sectionKey(f), label:f }))];
+  const sections = [{ key:'overview', label:'Overview' }, ...fns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasTcg ? [{ key:'tcg', label:'TCG' }] : []), { key:'settings', label:'Settings' }];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
       <nav className="gp-side-nav" aria-label="Tools">
@@ -1276,16 +2000,49 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial }){
             </div>
           );
         })}
+        {hasTcg && (
+          <div className={'gp-fn-row click' + (tab === 'tcg' ? ' on' : '')}
+               role="button" tabIndex={0} aria-current={tab === 'tcg' ? 'page' : undefined}
+               onClick={() => setTab('tcg')} onKeyDown={navKeyDown(() => setTab('tcg'))}>
+            <span className="dia" aria-hidden="true"></span><span>TCG</span><span className="go">{'\u203A'}</span>
+          </div>
+        )}
+        <div className={'gp-fn-row click' + (tab === 'settings' ? ' on' : '')}
+             role="button" tabIndex={0} aria-current={tab === 'settings' ? 'page' : undefined}
+             onClick={() => setTab('settings')} onKeyDown={navKeyDown(() => setTab('settings'))}>
+          <span className="dia" aria-hidden="true"></span><span>Settings</span><span className="go">{'\u203A'}</span>
+        </div>
       </nav>
 
       {tab === 'overview' && (
-        <main className="gp-main-pane">
-          <Favourites key={cfg.key} cfg={cfg} onOpenMaterial={onOpenMaterial} />
+        <main className="gp-main-pane gp-overview-main">
+          <Favourites key={cfg.key} cfg={cfg} onOpenMaterial={onOpenMaterial} settings={settings} />
+          <CurrentBannerStrip cfg={cfg} />
         </main>
       )}
       {tab === 'mats' && (
         <main className="gp-main-pane fill">
-          <CharMaterials inline game={cfg.key} pageTab={tab} onPageTab={setTab} sections={sections} />
+          <CharMaterials
+            inline
+            game={cfg.key}
+            selectedName={materialSelection?.game === cfg.key ? materialSelection.name : null}
+            pageTab={tab}
+            onPageTab={setTab}
+            sections={sections}
+            onCustomizeCharacter={openCharacterCustomize}
+            onSelectedClose={() => setMaterialSelection && setMaterialSelection(null)}
+          />
+        </main>
+      )}
+      {tab === 'char-customize' && (
+        <main className="gp-main-pane fill">
+          <CharMaterials
+            inline
+            customizeOnly
+            game={cfg.key}
+            selectedName={characterCustomize?.name}
+            onBackCustomize={backFromCharacterCustomize}
+          />
         </main>
       )}
       {tab === 'tracker' && (
@@ -1298,18 +2055,25 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial }){
           <CollectionLibrary key={cfg.key} game={cfg.key} />
         </main>
       )}
+      {tab === 'tcg' && (
+        <main className="gp-main-pane fill">
+          <GenshinTcgView />
+        </main>
+      )}
+      {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
 
       {tab === 'overview' && <OverviewAside cfg={cfg} />}
     </div>
   );
 }
 
-function SimContent({ tab, setTab, onOpenMaterial }){
+function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
   const NAV = [
     { key:'overview', label:'Overview' },
     { key:'pulls',    label:'Pull Overview' },
     { key:'codes',    label:'All Redemption Codes' },
     { key:'banners',  label:'All Banners' },
+    { key:'settings', label:'Settings' },
   ];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
@@ -1323,13 +2087,15 @@ function SimContent({ tab, setTab, onOpenMaterial }){
         ))}
       </nav>
       {tab === 'overview' && (
-        <main className="gp-main-pane">
-          <Favourites key="nyx" cfg={NYX_META} onOpenMaterial={onOpenMaterial} />
+        <main className="gp-main-pane gp-overview-main">
+          <Favourites key="nyx" cfg={NYX_META} onOpenMaterial={onOpenMaterial} settings={settings} />
+          <CurrentBannerStrip cfg={NYX_META} />
         </main>
       )}
       {tab === 'pulls' && <main className="gp-main-pane fill"><PullsOverview /></main>}
       {tab === 'codes' && <main className="gp-main-pane fill"><AllCodesView /></main>}
       {tab === 'banners' && <main className="gp-main-pane fill"><AllBannersView /></main>}
+      {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
       {tab === 'overview' && <OverviewAside cfg={NYX_META} />}
     </div>
   );
@@ -1347,7 +2113,8 @@ function keyFromLocation(){
 }
 
 function validTabsForKey(key){
-  return key === 'nyx' ? ['overview','pulls','codes','banners'] : ['overview','mats','library','tracker'];
+  if (key === 'gi') return ['overview','mats','char-customize','library','tracker','tcg','settings'];
+  return key === 'nyx' ? ['overview','pulls','codes','banners','settings'] : ['overview','mats','char-customize','library','tracker','settings'];
 }
 
 function coerceTabForKey(key, wanted){
@@ -1363,6 +2130,13 @@ const DEFAULT_TAB = () => 'overview';
 const NYX_PENGO_SETTINGS_KEY = 'nyx-pengo-settings';
 const NYX_PENGO_DISPLAY_DEFAULTS = { gi:true, hsr:true, zzz:true, wuwa:true, ae:true };
 const NYX_IDENTITY_DEFAULTS = { twin:'aether', receptacle:'caelus', sibling:'wise', rover:'male', endmin:'male' };
+const NYX_LANGUAGE_DEFAULTS = { gi:'en', hsr:'en', zzz:'en', wuwa:'en', ae:'en' };
+const NYX_LANGUAGE_OPTIONS = [
+  ['en', 'English'],
+  ['zh', 'Chinese'],
+  ['ja', 'Japanese'],
+  ['ko', 'Korean'],
+];
 const NYX_IDENTITY_GROUPS = [
   { key:'twin', label:'Traveler', tip:'Who went with Columbina to the moon?', options:[['aether', 'Aether'], ['lumine', 'Lumine'], ['paimon', 'Paimon'], ['little_one', 'Little One'], ['arama', 'Arama']] },
   { key:'receptacle', label:'Trailblazer', tip:'Who is digging into the Trashcan?', options:[['caelus', 'Caelus'], ['stelle', 'Stelle'], ['pom_pom', 'Pom-Pom'], ['gepard', 'Gepard?'], ['trash', 'I am Trash']] },
@@ -1375,7 +2149,11 @@ const NYX_PENGO_DEFAULTS = {
   animation: 'play',
   khaenriah: false,
   displayGames: NYX_PENGO_DISPLAY_DEFAULTS,
+  gameIcons: {},
   identity: NYX_IDENTITY_DEFAULTS,
+  language: NYX_LANGUAGE_DEFAULTS,
+  specialUnits: NYX_SPECIAL_UNIT_DEFAULTS,
+  alwaysBeta: false,
   lapis: false,
   energy: 35,
   spawn: 1,
@@ -1398,13 +2176,37 @@ function sanitizeNyxIdentity(raw){
   return next;
 }
 
+function sanitizeGameIcons(raw){
+  const src = (raw && typeof raw === 'object') ? raw : {};
+  const next = {};
+  SIM_GAMES.forEach((game) => {
+    const safe = typeof nyxSafeImageSrc === 'function' ? nyxSafeImageSrc(src[game.key]) : String(src[game.key] || '');
+    if (safe) next[game.key] = safe;
+  });
+  return next;
+}
+
+function sanitizeNyxLanguage(raw){
+  const src = (raw && typeof raw === 'object') ? raw : {};
+  const next = Object.assign({}, NYX_LANGUAGE_DEFAULTS);
+  const allowed = NYX_LANGUAGE_OPTIONS.map(([key]) => key);
+  Object.keys(NYX_LANGUAGE_DEFAULTS).forEach((key) => {
+    if (allowed.includes(src[key])) next[key] = src[key];
+  });
+  return next;
+}
+
 function loadPengoSettings(){
   try {
     const raw = JSON.parse(localStorage.getItem(NYX_PENGO_SETTINGS_KEY) || '{}');
     return Object.assign({}, NYX_PENGO_DEFAULTS, raw, {
       animation: ['play', 'pause', 'stop'].includes(raw.animation) ? raw.animation : NYX_PENGO_DEFAULTS.animation,
       displayGames: Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS, raw.displayGames || {}),
+      gameIcons: sanitizeGameIcons(raw.gameIcons),
       identity: sanitizeNyxIdentity(raw.identity),
+      language: sanitizeNyxLanguage(raw.language),
+      specialUnits: sanitizeSpecialUnits(raw.specialUnits),
+      alwaysBeta: raw.alwaysBeta === true,
       energy: clampPengoNumber(raw.energy ?? NYX_PENGO_DEFAULTS.energy, 1, 69),
       spawn: clampPengoNumber(raw.spawn ?? NYX_PENGO_DEFAULTS.spawn, 0, 9999),
       sacrifice: clampPengoNumber(raw.sacrifice ?? NYX_PENGO_DEFAULTS.sacrifice, 0, 9999),
@@ -1414,10 +2216,189 @@ function loadPengoSettings(){
   }
 }
 
-function PengoMenu({ settings, setSettings }){
+const SETTINGS_IDENTITY_BY_GAME = { gi:'twin', hsr:'receptacle', zzz:'sibling', wuwa:'rover', ae:'endmin' };
+const SETTINGS_SPECIAL_TOGGLES = {
+  gi:[['aloy', 'Display Aloy']],
+  hsr:[['archer', 'Display Archer'], ['saber', 'Display Saber'], ['rin_tohsaka', 'Display Rin Tohsaka'], ['gilgamesh', 'Display Gilgamesh']],
+  wuwa:[['lucy', 'Display Lucy'], ['rebecca', 'Display Rebecca']],
+};
+
+function gameIconOptions(gameKey){
+  const sim = SIM_GAMES.find((game) => game.key === gameKey);
+  const cfg = GAME_REGISTRY[gameKey];
+  const out = [];
+  if (sim) out.push({ id:'default', name:'Default', icon:sim.icon, group:'Game', defaultIcon:true });
+  if (cfg) {
+    makeRoster(cfg).forEach((ch) => {
+      if (ch.icon) out.push({ id:'char-' + ch.id, name:ch.name, icon:ch.icon, group:'Characters' });
+      (ch.forms || []).forEach((form, i) => {
+        if (form.icon) out.push({ id:'form-' + ch.id + '-' + i, name:form.label || form.name || ch.name, icon:form.icon, group:'Characters' });
+      });
+    });
+  }
+  const identityAssets = (typeof CM_IDENTITY_ASSETS !== 'undefined' && CM_IDENTITY_ASSETS[gameKey]) ? CM_IDENTITY_ASSETS[gameKey] : {};
+  Object.keys(identityAssets).forEach((key) => {
+    const row = identityAssets[key];
+    if (row.icon) out.push({ id:'avatar-' + key, name:row.label || key, icon:row.icon, group:'Avatars' });
+  });
+  weaponItemsFor(gameKey).forEach((item) => {
+    if (item.icon || item.art) out.push({ id:'weapon-' + item.name, name:item.name, icon:item.icon || item.art, group:'Equipment' });
+  });
+  const collections = (dbGame(gameKey)?.collections || []);
+  collections.forEach((col) => {
+    (col.items || []).forEach((item) => {
+      const icon = item.icon || item.art;
+      if (icon) out.push({ id:'db-' + col.key + '-' + (item.id || item.name), name:item.name, icon, group:col.title || col.key });
+    });
+  });
+  const seen = new Set();
+  return out.filter((item) => {
+    const key = normalizeUnitName(item.name) + '|' + item.icon;
+    if (!item.icon || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function GameIconPicker({ game, selected, onPick }){
+  const [open, setOpen] = React.useState(false);
+  const [q, setQ] = React.useState('');
+  const [editing, setEditing] = React.useState(false);
+  const [pos, setPos] = React.useState(null);
+  const triggerRef = React.useRef(null);
+  const popRef = React.useRef(null);
+  const options = React.useMemo(() => gameIconOptions(game.key), [game.key]);
+  const activeIcon = (typeof nyxSafeImageSrc === 'function' ? nyxSafeImageSrc(selected) : selected) || game.icon;
+  const query = q.trim().toLowerCase();
+  const visible = options.filter((item) => !query || [item.name, item.group].join(' ').toLowerCase().includes(query));
+  const updatePos = React.useCallback(() => {
+    const node = triggerRef.current;
+    if (!node) return;
+    const rect = node.getBoundingClientRect();
+    const width = Math.min(560, Math.max(320, window.innerWidth - 32));
+    const left = Math.max(16, Math.min(window.innerWidth - width - 16, rect.right - width));
+    const desired = Math.min(720, window.innerHeight - 32);
+    const belowTop = rect.bottom + 8;
+    const aboveTop = rect.top - desired - 8;
+    const top = belowTop + 320 <= window.innerHeight
+      ? Math.max(16, belowTop)
+      : Math.max(16, Math.min(rect.top - 16, aboveTop > 16 ? aboveTop : window.innerHeight - desired - 16));
+    const maxHeight = Math.max(280, window.innerHeight - top - 16);
+    setPos({ left, top, width, maxHeight });
+  }, []);
+  React.useEffect(() => {
+    if (!open) return undefined;
+    const onDoc = (event) => {
+      const target = event.target instanceof Node ? event.target : null;
+      if (!target) return;
+      if (triggerRef.current && triggerRef.current.contains(target)) return;
+      if (popRef.current && popRef.current.contains(target)) return;
+      setOpen(false);
+      setEditing(false);
+    };
+    updatePos();
+    document.addEventListener('mousedown', onDoc);
+    window.addEventListener('resize', updatePos);
+    window.addEventListener('scroll', updatePos, true);
+    return () => {
+      document.removeEventListener('mousedown', onDoc);
+      window.removeEventListener('resize', updatePos);
+      window.removeEventListener('scroll', updatePos, true);
+    };
+  }, [open, updatePos]);
+  const pop = open ? (
+    <div className="pm-icon-pop fixed" ref={popRef} style={pos ? { left:pos.left + 'px', top:pos.top + 'px', width:pos.width + 'px', maxHeight:pos.maxHeight + 'px' } : undefined}>
+      <div className="pm-icon-search">
+        <input value={q} placeholder="Search icons" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+        <button type="button" onClick={() => setEditing((v) => !v)}>{editing ? 'Close Upload' : 'Upload Local'}</button>
+      </div>
+      {editing && (
+        <NyxImageEditor
+          label={'Upload ' + game.name + ' Icon'}
+          aspect={1}
+          outputWidth={512}
+          outputHeight={512}
+          shape="circle"
+          onSave={(src) => { onPick(src); setEditing(false); setOpen(false); }}
+          onCancel={() => setEditing(false)}
+        />
+      )}
+      <div className="pm-icon-grid">
+        {visible.map((item) => (
+          <button type="button" key={item.id} title={item.group + ': ' + item.name}
+                  className={item.icon === activeIcon ? 'on' : ''}
+                  onClick={() => { onPick(item.defaultIcon ? null : item.icon); setOpen(false); setEditing(false); }}>
+            <img src={item.icon} alt="" draggable="false" />
+            <span>{item.name}</span>
+          </button>
+        ))}
+        {visible.length === 0 && <div className="pm-icon-empty">No icons found.</div>}
+      </div>
+    </div>
+  ) : null;
+  return (
+    <div className="pm-icon-picker">
+      <button type="button" ref={triggerRef} className="pm-icon-trigger" onClick={() => setOpen((v) => !v)}
+              aria-expanded={open} aria-label={'Select ' + game.name + ' icon'}>
+        <img src={activeIcon} alt="" draggable="false" />
+        <span>Select Game Icon</span>
+      </button>
+      {pop && ReactDOM.createPortal ? ReactDOM.createPortal(pop, document.body) : pop}
+    </div>
+  );
+}
+
+function PmSelect({ value, options, onChange, label }){
+  const [open, setOpen] = React.useState(false);
+  const ref = React.useRef(null);
+  const active = options.find(([key]) => key === value) || options[0];
+  React.useEffect(() => {
+    if (!open) return undefined;
+    const onDoc = (event) => {
+      if (!ref.current || !ref.current.contains(event.target)) setOpen(false);
+    };
+    const onKey = (event) => {
+      if (event.key === 'Escape') setOpen(false);
+    };
+    document.addEventListener('mousedown', onDoc);
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.removeEventListener('mousedown', onDoc);
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [open]);
+  return (
+    <div className="pm-select" ref={ref}>
+      <button type="button" className="pm-select-trigger" aria-haspopup="listbox" aria-expanded={open}
+              aria-label={label} onClick={() => setOpen((v) => !v)}>
+        <span>{active?.[1] || value}</span><i>{'\u25BE'}</i>
+      </button>
+      {open && (
+        <div className="pm-select-menu" role="listbox" aria-label={label}>
+          {options.map(([key, optionLabel]) => (
+            <button type="button" key={key} role="option" aria-selected={value === key}
+                    className={value === key ? 'on' : ''}
+                    onClick={() => { onChange(key); setOpen(false); }}>
+              {optionLabel}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function PengoMenu({ settings, setSettings, inline }){
+  const [collabOpen, setCollabOpen] = React.useState({});
+  const [resetConfirm, setResetConfirm] = React.useState(null);
   const update = (patch) => setSettings((prev) => Object.assign({}, prev, patch));
   const identity = sanitizeNyxIdentity(settings.identity);
+  const gameIcons = sanitizeGameIcons(settings.gameIcons);
+  const specialUnits = sanitizeSpecialUnits(settings.specialUnits);
+  const displayGames = Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS, settings.displayGames || {});
+  const language = sanitizeNyxLanguage(settings.language);
   const setIdentity = (group, value) => update({ identity:Object.assign({}, identity, { [group]:value }) });
+  const setLanguage = (gameKey, value) => update({ language:Object.assign({}, language, { [gameKey]:value }) });
   const opusCount = clampPengoNumber(settings.spawn ?? settings.sacrifice ?? NYX_PENGO_DEFAULTS.spawn, 0, 9999);
   const setOpusCount = (value) => {
     const next = clampPengoNumber(value, 0, 9999);
@@ -1425,15 +2406,41 @@ function PengoMenu({ settings, setSettings }){
   };
   const bumpOpusCount = (delta) => setOpusCount(opusCount + delta);
   const toggleDisplayGame = (key) => update({
-    displayGames: Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS, settings.displayGames || {}, {
-      [key]: !((settings.displayGames || {})[key] !== false),
+    displayGames:Object.assign({}, displayGames, { [key]:displayGames[key] === false }),
+  });
+  const setGameIcon = (key, icon) => {
+    const next = Object.assign({}, gameIcons);
+    if (icon) next[key] = icon;
+    else delete next[key];
+    update({ gameIcons:next });
+  };
+  const toggleSpecial = (gameKey, unitKey) => update({
+    specialUnits:Object.assign({}, specialUnits, {
+      [gameKey]:Object.assign({}, specialUnits[gameKey] || {}, { [unitKey]:(specialUnits[gameKey] || {})[unitKey] === false }),
     }),
   });
+  const setCollabAll = (gameKey, specials, enabled) => update({
+    specialUnits:Object.assign({}, specialUnits, {
+      [gameKey]:Object.assign({}, specialUnits[gameKey] || {}, Object.fromEntries(specials.map(([unitKey]) => [unitKey, enabled]))),
+    }),
+  });
+  const askReset = (label, action) => setResetConfirm({ label, action });
+  const confirmReset = () => {
+    if (resetConfirm?.action) resetConfirm.action();
+    setResetConfirm(null);
+  };
+  const resetAll = () => setSettings(Object.assign({}, NYX_PENGO_DEFAULTS, {
+    displayGames:Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS),
+    gameIcons:{},
+    identity:Object.assign({}, NYX_IDENTITY_DEFAULTS),
+    language:Object.assign({}, NYX_LANGUAGE_DEFAULTS),
+    specialUnits:sanitizeSpecialUnits(NYX_SPECIAL_UNIT_DEFAULTS),
+  }));
   const resetInterface = () => update({
     whispers: NYX_PENGO_DEFAULTS.whispers,
     animation: NYX_PENGO_DEFAULTS.animation,
     khaenriah: NYX_PENGO_DEFAULTS.khaenriah,
-    displayGames: Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS),
+    alwaysBeta: NYX_PENGO_DEFAULTS.alwaysBeta,
   });
   const resetOpus = () => update({
     lapis: NYX_PENGO_DEFAULTS.lapis,
@@ -1441,113 +2448,269 @@ function PengoMenu({ settings, setSettings }){
     spawn: NYX_PENGO_DEFAULTS.spawn,
     sacrifice: NYX_PENGO_DEFAULTS.sacrifice,
   });
+  const resetGame = (gameKey, groupKey, specials) => update({
+    displayGames:Object.assign({}, displayGames, { [gameKey]:NYX_PENGO_DISPLAY_DEFAULTS[gameKey] }),
+    gameIcons:Object.fromEntries(Object.entries(gameIcons).filter(([key]) => key !== gameKey)),
+    identity:Object.assign({}, identity, { [groupKey]:NYX_IDENTITY_DEFAULTS[groupKey] }),
+    language:Object.assign({}, language, { [gameKey]:NYX_LANGUAGE_DEFAULTS[gameKey] }),
+    specialUnits:Object.assign({}, specialUnits, specials.length ? { [gameKey]:Object.assign({}, NYX_SPECIAL_UNIT_DEFAULTS[gameKey] || {}) } : {}),
+  });
+  const identityPreview = (gameKey, group, value) => {
+    const assets = (typeof CM_IDENTITY_ASSETS !== 'undefined' && CM_IDENTITY_ASSETS[gameKey]) ? CM_IDENTITY_ASSETS[gameKey] : {};
+    if (assets[value]?.icon) return assets[value].icon;
+    const cfg = GAME_REGISTRY[gameKey];
+    if (!cfg) return null;
+    const protagonist = makeRoster(cfg).find((ch) => String(ch.id || '').includes(group.key) || String(ch.n || ch.name || '').toLowerCase() === String(group.label || '').toLowerCase());
+    const forms = protagonist?.forms || [];
+    const gender = (value === 'lumine' || value === 'stelle' || value === 'female' || value === 'belle') ? 'female' : (value === 'aether' || value === 'caelus' || value === 'male' || value === 'wise') ? 'male' : null;
+    const form = forms.find((row) => row.gender === gender) || forms[0] || protagonist;
+    return form?.icon || form?.circle || protagonist?.icon || protagonist?.circle || null;
+  };
   const nextAnim = settings.animation === 'play' ? 'pause' : (settings.animation === 'pause' ? 'stop' : 'play');
   const animIcon = settings.animation === 'play' ? '\u25b6' : (settings.animation === 'pause' ? '\u23f8' : '\u25a0');
   return (
-    <div className="nyx-pengo-menu" role="dialog" aria-label="Pengo settings" onClick={(e) => e.stopPropagation()}>
-      <section>
-        <h3>Magnum Opus Pengonis</h3>
-        <button type="button" className="pm-row" data-tip="Power assistant Pengo On/Off"
-                onClick={() => update({ lapis:!settings.lapis })}>
-          <span>Lapis Philosophorum</span><b className="pm-state">{settings.lapis ? 'On' : 'Off'}</b>
-        </button>
-        <label className="pm-slider" data-tip="Change how much energy is being poured into Pengo. Size change.">
-          <span>Energy</span>
-          <input type="range" min="1" max="69" value={settings.energy}
-                 onChange={(e) => update({ energy:clampPengoNumber(e.target.value, 1, 69) })} />
-        </label>
-        <div className="pm-opus-actions">
-          <button type="button" className="pm-action" data-tip="Summon more Pengo assistants to keep you company!">Summon</button>
-          <button type="button" className="pm-action" data-tip="Every Pengo returns to the Void. There, they await your inevitable arrival, ready to serve once more.">Sacrifice</button>
-          <div className="pm-stepper" aria-label="Pengo count">
-            <button type="button" aria-label="Decrease Pengo count" onClick={() => bumpOpusCount(-1)}>-</button>
-            <input type="text" inputMode="numeric" pattern="[0-9]*" value={opusCount}
-                   aria-label="Pengo count" onChange={(e) => setOpusCount(e.target.value)} />
-            <button type="button" aria-label="Increase Pengo count" onClick={() => bumpOpusCount(1)}>+</button>
-          </div>
-        </div>
-        <button type="button" className="pm-reset" data-tip="Reset the Magnum Opus Pengonis to default" onClick={resetOpus}>Reset</button>
-      </section>
-      <section>
-        <h3>Interface</h3>
-        <button type="button" className={'pm-row media ' + settings.animation}
-                data-tip="Turns On/Freezes/Off the rotating background"
-                onClick={() => update({ animation:nextAnim })}>
-          <span>Background Animation</span><b className="pm-state">{animIcon}</b>
-        </button>
-        <button type="button" className="pm-row" data-tip="Turns floating background on/off"
-                onClick={() => update({ whispers:!settings.whispers })}>
-          <span>Nyx Whispers</span><b className="pm-state">{settings.whispers ? 'On' : 'Off'}</b>
-        </button>
-        <button type="button" className="pm-row" data-tip="Change all fonts to the Ancient(Khaenri'ahn) Script"
-                onClick={() => update({ khaenriah:!settings.khaenriah })}>
-          <span>Welcome to Khaenri'ah</span><b className="pm-state">{settings.khaenriah ? 'On' : 'Off'}</b>
-        </button>
-        <div className="pm-display-games">
-          <span>Display Games</span>
-          <div className="pm-game-icons" aria-label="Display games">
-            {SIM_GAMES.map((game) => {
-              const on = (settings.displayGames || {})[game.key] !== false;
-              return (
-                <button key={game.key} type="button" className={on ? 'on' : ''} title={game.name}
-                        aria-label={'Display ' + game.name} aria-pressed={on}
-                        onClick={() => toggleDisplayGame(game.key)}>
-                  <img src={game.icon} alt="" draggable="false" />
-                </button>
-              );
-            })}
-          </div>
-        </div>
-        <button type="button" className="pm-reset" data-tip="Reset the interface to default" onClick={resetInterface}>Reset</button>
-      </section>
-      <section>
-        <h3>Who are you?</h3>
-        <div className="pm-identity-list">
-          {NYX_IDENTITY_GROUPS.map((group) => (
-            <div key={group.key} className="pm-identity-row" data-tip={group.tip}>
-              <span>{group.label}</span>
-              <div className="pm-choice-set" role="group" aria-label={group.label}>
-                {group.options.map(([key, label]) => (
-                  <button key={key} type="button" className={identity[group.key] === key ? 'on' : ''}
-                          aria-pressed={identity[group.key] === key}
-                          onClick={() => setIdentity(group.key, key)}>
-                    {label}
-                  </button>
-                ))}
-              </div>
+    <div className={'nyx-pengo-menu settings-board' + (inline ? ' as-tab' : '')}
+         role={inline ? 'region' : 'dialog'}
+         aria-label="Pengo settings"
+         onClick={(e) => e.stopPropagation()}>
+      <div className="settings-nyx-col">
+        <section className="pm-section pm-opus">
+          <h3>Magnum Opus Pengonis</h3>
+          <button type="button" className="pm-row" data-tip="Power assistant Pengo On/Off"
+                  onClick={() => update({ lapis:!settings.lapis })}>
+            <span>Lapis Philosophorum</span><b className="pm-state">{settings.lapis ? 'On' : 'Off'}</b>
+          </button>
+          <label className="pm-slider" data-tip="Change how much energy is being poured into Pengo. Size change.">
+            <span>Energy</span>
+            <input type="range" min="1" max="69" value={settings.energy}
+                   onChange={(e) => update({ energy:clampPengoNumber(e.target.value, 1, 69) })} />
+            <input type="number" min="1" max="69" inputMode="numeric" value={settings.energy}
+                   aria-label="Energy value"
+                   onChange={(e) => update({ energy:clampPengoNumber(e.target.value, 1, 69) })}
+                   onFocus={(e) => e.target.select()} />
+          </label>
+          <div className="pm-opus-actions">
+            <button type="button" className="pm-action" data-tip="Summon more Pengo assistants to keep you company!">Summon</button>
+            <button type="button" className="pm-action" data-tip="Every Pengo returns to the Void. There, they await your inevitable arrival, ready to serve once more.">Sacrifice</button>
+            <div className="pm-stepper" aria-label="Pengo count">
+              <button type="button" aria-label="Decrease Pengo count" onClick={() => bumpOpusCount(-1)}>-</button>
+              <input type="text" inputMode="numeric" pattern="[0-9]*" value={opusCount}
+                     aria-label="Pengo count" onChange={(e) => setOpusCount(e.target.value)} />
+              <button type="button" aria-label="Increase Pengo count" onClick={() => bumpOpusCount(1)}>+</button>
             </div>
-          ))}
+          </div>
+          <button type="button" className="pm-reset" data-tip="Reset the Magnum Opus Pengonis to default" onClick={() => askReset('Magnum Opus Pengonis', resetOpus)}>Reset</button>
+        </section>
+        <section className="pm-section pm-interface">
+          <h3>Interface</h3>
+          <button type="button" className={'pm-row media ' + settings.animation}
+                  data-tip="Turns On/Freezes/Off the rotating background"
+                  onClick={() => update({ animation:nextAnim })}>
+            <span>Background Animation</span><b className="pm-state">{animIcon}</b>
+          </button>
+          <button type="button" className="pm-row" data-tip="Turns floating background on/off"
+                  onClick={() => update({ whispers:!settings.whispers })}>
+            <span>Nyx Whispers</span><b className="pm-state">{settings.whispers ? 'On' : 'Off'}</b>
+          </button>
+          <button type="button" className="pm-row" data-tip="Change all fonts to the Ancient(Khaenri'ahn) Script"
+                  onClick={() => update({ khaenriah:!settings.khaenriah })}>
+            <span>Welcome to Khaenri'ah</span><b className="pm-state">{settings.khaenriah ? 'On' : 'Off'}</b>
+          </button>
+          <button type="button" className="pm-row" data-tip="Always show beta data where a beta channel exists"
+                  onClick={() => update({ alwaysBeta:!settings.alwaysBeta })}>
+            <span>Always Show Beta Content</span><b className="pm-state">{settings.alwaysBeta ? 'On' : 'Off'}</b>
+          </button>
+          <button type="button" className="pm-reset" data-tip="Reset the interface to default" onClick={() => askReset('Interface', resetInterface)}>Reset</button>
+        </section>
+        <section className="pm-section pm-reset-all">
+          <h3>Reset</h3>
+          <button type="button" className="pm-reset danger" data-tip="Reset every Nyx and game setting to default" onClick={() => askReset('all Nyx settings', resetAll)}>Reset All Settings</button>
+        </section>
+      </div>
+      <div className="settings-games-col">
+        {SIM_GAMES.map((game) => {
+          const groupKey = SETTINGS_IDENTITY_BY_GAME[game.key];
+          const group = NYX_IDENTITY_GROUPS.find((row) => row.key === groupKey);
+          const specials = SETTINGS_SPECIAL_TOGGLES[game.key] || [];
+          const gameOn = displayGames[game.key] !== false;
+          const identityPreviewIcon = group ? identityPreview(game.key, group, identity[group.key]) : null;
+          return (
+            <section className="pm-section pm-game-section" key={game.key}>
+              <div className="pm-game-head">
+                <img src={gameIcons[game.key] || game.icon} alt="" draggable="false" />
+                <h3>{game.name}</h3>
+              </div>
+              <button type="button" className="pm-row" onClick={() => toggleDisplayGame(game.key)}>
+                <span>Display Game</span><b className="pm-state">{gameOn ? 'On' : 'Off'}</b>
+              </button>
+              <div className="pm-identity-row pm-icon-row">
+                <span>Select Game Icon</span>
+                <GameIconPicker game={game} selected={gameIcons[game.key]} onPick={(icon) => setGameIcon(game.key, icon)} />
+              </div>
+              {group && (
+                <div className="pm-identity-row" data-tip={group.tip}>
+                  <span className="pm-identity-label">
+                    <b>{group.label}</b>
+                    {identityPreviewIcon && (
+                      <span className="pm-identity-preview" aria-label={group.label + ' icon preview'}>
+                        <img src={identityPreviewIcon} alt="" draggable="false" />
+                      </span>
+                    )}
+                  </span>
+                  <div className="pm-identity-control">
+                    <div className="pm-choice-set" role="group" aria-label={group.label}>
+                      {group.options.map(([key, label]) => (
+                        <button key={key} type="button" className={identity[group.key] === key ? 'on' : ''}
+                                aria-pressed={identity[group.key] === key}
+                                onClick={() => setIdentity(group.key, key)}>
+                          {label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              )}
+              <div className="pm-identity-row pm-language-row">
+                <span>Language</span>
+                <PmSelect
+                  label={`${game.name} language`}
+                  value={language[game.key]}
+                  options={NYX_LANGUAGE_OPTIONS}
+                  onChange={(value) => setLanguage(game.key, value)}
+                />
+              </div>
+              {specials.length > 0 && (
+                <div className={'pm-special-list' + (collabOpen[game.key] ? ' open' : '')}>
+                  {(() => {
+                    const enabledCount = specials.filter(([unitKey]) => (specialUnits[game.key] || {})[unitKey] !== false).length;
+                    const allOn = enabledCount === specials.length;
+                    return (
+                      <div className="pm-collab-control">
+                        <button type="button" className={'pm-row pm-collab-master' + (allOn ? ' on' : '')}
+                                aria-pressed={allOn}
+                                onClick={() => setCollabAll(game.key, specials, !allOn)}>
+                          <span>Collab Characters</span><b className="pm-state">{allOn ? 'On' : 'Off'}</b>
+                        </button>
+                        <button type="button" className="pm-collab-expand"
+                                aria-expanded={!!collabOpen[game.key]}
+                                onClick={() => setCollabOpen((prev) => Object.assign({}, prev, { [game.key]:!prev[game.key] }))}>
+                          {collabOpen[game.key] ? 'Collapse' : 'Expand'}
+                        </button>
+                      </div>
+                    );
+                  })()}
+                  {collabOpen[game.key] && specials.map(([unitKey, label]) => {
+                    const on = (specialUnits[game.key] || {})[unitKey] !== false;
+                    return (
+                      <button type="button" key={unitKey} className={'pm-row pm-collab-unit' + (on ? ' on' : '')}
+                              aria-pressed={on} onClick={() => toggleSpecial(game.key, unitKey)}>
+                        <span>{label.replace(/^Display\s+/i, '')}</span><b className="pm-state">{on ? 'On' : 'Off'}</b>
+                      </button>
+                    );
+                  })}
+                </div>
+              )}
+              <button type="button" className="pm-reset" data-tip={'Reset ' + game.name + ' settings'} onClick={() => askReset(game.name + ' settings', () => resetGame(game.key, groupKey, specials))}>Reset {game.name}</button>
+            </section>
+          );
+        })}
+      </div>
+      {resetConfirm && (
+        <div className="pm-reset-confirm" role="dialog" aria-modal="true" aria-label={'Reset ' + resetConfirm.label}
+             onMouseDown={(e) => { if (e.target === e.currentTarget) setResetConfirm(null); }}>
+          <article>
+            <b>Reset {resetConfirm.label}?</b>
+            <p>This will restore this setting group to its default values.</p>
+            <div>
+              <button type="button" onClick={() => setResetConfirm(null)}>Cancel</button>
+              <button type="button" className="primary" onClick={confirmReset}>Reset</button>
+            </div>
+          </article>
         </div>
-      </section>
+      )}
     </div>
+  );
+}
+
+function SettingsPane({ settings, setSettings }){
+  return (
+    <main className="gp-main-pane fill settings-pane">
+      <PengoMenu settings={settings} setSettings={setSettings} inline />
+    </main>
   );
 }
 
 function NyxChannelToggle({ gameKey }){
   const [channel, setChannel] = React.useState(() => cmLoadChannel(gameKey));
+  const [confirmBeta, setConfirmBeta] = React.useState(false);
   React.useEffect(() => { setChannel(cmLoadChannel(gameKey)); }, [gameKey]);
+  React.useEffect(() => {
+    const onChannel = (event) => {
+      const detail = event.detail || {};
+      if (detail.key === gameKey && (detail.channel === 'live' || detail.channel === 'beta')) setChannel(detail.channel);
+    };
+    window.addEventListener('nyx:cm-channel-changed', onChannel);
+    return () => window.removeEventListener('nyx:cm-channel-changed', onChannel);
+  }, [gameKey]);
   const betaAvailable = cmHasBeta(gameKey);
-  const pick = (ch) => {
+  const alwaysBeta = (() => { try { return window.NYX_ALWAYS_BETA === true; } catch (e) { return false; } })();
+  const betaSessionKey = 'nyx:beta-disclaimer:' + gameKey + ':v1';
+  const commitPick = (ch) => {
     const next = ch === 'beta' && !betaAvailable ? 'live' : ch;
     setChannel(next);
     cmSaveChannel(gameKey, next);
     try { window.dispatchEvent(new CustomEvent('nyx:cm-channel-changed', { detail:{ key:gameKey, channel:next } })); } catch (e) {}
   };
-  const isBeta = betaAvailable && channel === 'beta';
+  const pick = (ch) => {
+    if (ch === 'live' && alwaysBeta) {
+      try { window.dispatchEvent(new CustomEvent('nyx:set-always-beta', { detail:{ value:false, source:'channel-toggle' } })); } catch (e) {}
+      commitPick('live');
+      return;
+    }
+    if (ch === 'beta' && betaAvailable) {
+      let accepted = false;
+      try { accepted = sessionStorage.getItem(betaSessionKey) === '1'; } catch (e) {}
+      if (!accepted) {
+        setConfirmBeta(true);
+        return;
+      }
+    }
+    commitPick(ch);
+  };
+  const acceptBeta = () => {
+    try { sessionStorage.setItem(betaSessionKey, '1'); } catch (e) {}
+    setConfirmBeta(false);
+    commitPick('beta');
+  };
+  const isBeta = betaAvailable && (channel === 'beta' || alwaysBeta);
   const toggle = () => pick(isBeta ? 'live' : 'beta');
   return (
-    <div className={'cm-chan-switch' + (isBeta ? ' beta' : ' live') + (betaAvailable ? '' : ' no-beta')}
-         role="group" aria-label="Data channel: Live or Beta" onClick={toggle}
-         title={betaAvailable ? undefined : 'Beta data is not available for this game yet'}>
-      <button type="button" className={'cm-chan-option live-option' + (!isBeta ? ' on' : '')} aria-pressed={!isBeta}
-              title="Released, live-server data" onClick={(e) => { e.stopPropagation(); pick('live'); }}>Live</button>
-      <span className="cm-chan-medallion" aria-hidden="true">
-        <img src="../assets/icon/pengoemote.png" alt="" draggable="false" />
-      </span>
-      <button type="button" className={'cm-chan-option beta-option' + (isBeta ? ' on' : '')} aria-pressed={isBeta}
-              aria-disabled={!betaAvailable} onClick={(e) => { e.stopPropagation(); pick('beta'); }}
-              title={betaAvailable ? 'Beta (latest) data - upcoming, subject to change' : 'No beta data available yet'}>Beta</button>
-    </div>
+    <React.Fragment>
+      <div className={'cm-chan-switch' + (isBeta ? ' beta' : ' live') + (betaAvailable ? '' : ' no-beta')}
+           role="group" aria-label="Data channel: Live or Beta" onClick={toggle}
+           title={betaAvailable ? undefined : 'Beta data is not available for this game yet'}>
+        <button type="button" className={'cm-chan-option live-option' + (!isBeta ? ' on' : '')} aria-pressed={!isBeta}
+                title="Released, live-server data" onClick={(e) => { e.stopPropagation(); toggle(); }}>Live</button>
+        <span className="cm-chan-medallion" aria-hidden="true">
+          <img src="../assets/icon/pengoemote.png" alt="" draggable="false" />
+        </span>
+        <button type="button" className={'cm-chan-option beta-option' + (isBeta ? ' on' : '')} aria-pressed={isBeta}
+                aria-disabled={!betaAvailable} onClick={(e) => { e.stopPropagation(); toggle(); }}
+                title={betaAvailable ? 'Beta content may contain spoilers' : 'No beta data available yet'}>Beta</button>
+      </div>
+      {confirmBeta && (
+        <div className="nyx-beta-confirm" role="dialog" aria-modal="true" aria-label="View Beta content">
+          <div className="nyx-beta-card">
+            <b>View Beta content?</b>
+            <p>Are you sure you wish to view Beta content?<br />Please be aware there could be spoilers.</p>
+            <div>
+              <button type="button" onClick={() => setConfirmBeta(false)}>Cancel</button>
+              <button type="button" className="primary" onClick={acceptBeta}>View Beta</button>
+            </div>
+          </div>
+        </div>
+      )}
+    </React.Fragment>
   );
 }
 
@@ -1555,17 +2718,39 @@ function NyxApp(){
   const initialKey = (window.GP_PAGE && window.GP_PAGE.key) || keyFromLocation() || 'nyx';
   const [activeKey, setActiveKey] = React.useState(initialKey);
   const [tab, setTab] = React.useState(DEFAULT_TAB(initialKey));
-  const [materialModal, setMaterialModal] = React.useState(null);
-  const [pengoMenuOpen, setPengoMenuOpen] = React.useState(false);
+  const [materialSelection, setMaterialSelection] = React.useState(null);
+  const [characterCustomize, setCharacterCustomize] = React.useState(null);
   const [pengoSettings, setPengoSettings] = React.useState(loadPengoSettings);
-  const cornerRef = React.useRef(null);
   useCmGameVersion(activeKey);
+  const previousAlwaysBetaRef = React.useRef(pengoSettings.alwaysBeta === true);
 
   React.useEffect(() => {
     try { localStorage.setItem(NYX_PENGO_SETTINGS_KEY, JSON.stringify(pengoSettings)); } catch (e) {}
     const identity = sanitizeNyxIdentity(pengoSettings.identity);
+    const language = sanitizeNyxLanguage(pengoSettings.language);
+    const alwaysBeta = pengoSettings.alwaysBeta === true;
+    const wasAlwaysBeta = previousAlwaysBetaRef.current === true;
     window.NYX_IDENTITY_PREFS = identity;
+    window.NYX_LANGUAGE_PREFS = language;
+    window.NYX_ALWAYS_BETA = alwaysBeta;
+    window.NYX_SPECIAL_UNIT_PREFS = sanitizeSpecialUnits(pengoSettings.specialUnits);
     try { window.dispatchEvent(new CustomEvent('nyx:identity-changed', { detail:identity })); } catch (e) {}
+    try { window.dispatchEvent(new CustomEvent('nyx:settings-changed', { detail:pengoSettings })); } catch (e) {}
+    if (alwaysBeta) {
+      SIM_GAMES.forEach((game) => {
+        if (typeof cmHasBeta === 'function' && cmHasBeta(game.key)) {
+          try { window.dispatchEvent(new CustomEvent('nyx:cm-channel-changed', { detail:{ key:game.key, channel:'beta' } })); } catch (e) {}
+        }
+      });
+    } else if (wasAlwaysBeta) {
+      SIM_GAMES.forEach((game) => {
+        if (typeof cmHasBeta === 'function' && cmHasBeta(game.key)) {
+          try { cmSaveChannel(game.key, 'live'); } catch (e) {}
+          try { window.dispatchEvent(new CustomEvent('nyx:cm-channel-changed', { detail:{ key:game.key, channel:'live' } })); } catch (e) {}
+        }
+      });
+    }
+    previousAlwaysBetaRef.current = alwaysBeta;
     const root = document.documentElement;
     root.classList.toggle('nyx-whispers-off', !pengoSettings.whispers);
     root.classList.toggle('nyx-pattern-paused', pengoSettings.animation === 'pause');
@@ -1574,20 +2759,13 @@ function NyxApp(){
   }, [pengoSettings]);
 
   React.useEffect(() => {
-    if (!pengoMenuOpen) return;
-    const onPointer = (event) => {
-      if (cornerRef.current && !cornerRef.current.contains(event.target)) setPengoMenuOpen(false);
+    const onAlwaysBeta = (event) => {
+      const value = event?.detail?.value === true;
+      setPengoSettings((prev) => prev.alwaysBeta === value ? prev : Object.assign({}, prev, { alwaysBeta:value }));
     };
-    const onKey = (event) => {
-      if (event.key === 'Escape') setPengoMenuOpen(false);
-    };
-    window.addEventListener('pointerdown', onPointer);
-    window.addEventListener('keydown', onKey);
-    return () => {
-      window.removeEventListener('pointerdown', onPointer);
-      window.removeEventListener('keydown', onKey);
-    };
-  }, [pengoMenuOpen]);
+    window.addEventListener('nyx:set-always-beta', onAlwaysBeta);
+    return () => window.removeEventListener('nyx:set-always-beta', onAlwaysBeta);
+  }, []);
 
   // reveal the page once the app has actually mounted. The page-level
   // background paints the instant the HTML is parsed (well before this bundle
@@ -1619,6 +2797,75 @@ function NyxApp(){
 
   React.useEffect(() => mountNyxAmbientText(), []);
 
+  React.useEffect(() => {
+    const contentScrollTargets = [
+      '.cm-pop-main',
+      '.cm-pop.ledger .cm-pop-layout',
+      '.cm-body',
+      '.gt-results',
+      '.db-grid',
+      '.tcg-grid',
+      '.tcg-detail-scroll',
+      '.gp-overview-main',
+      '.gp-overview-aside',
+      '.gp-codes-scroll',
+      '.overview-codes-scroll',
+      '.gp-current-banner-row',
+      '.settings-pane',
+      '.nyx-pengo-menu.as-tab',
+      '.gp-layout',
+    ];
+    const passiveScrollTargets = [
+      '.gt-panel',
+      '.gp-side-nav',
+      '.gp-main-pane',
+      '.pm-icon-grid',
+      '.cm-weapon-options',
+    ];
+    const isVisible = (el) => {
+      if (!el) return false;
+      const rect = el.getBoundingClientRect();
+      const styles = window.getComputedStyle(el);
+      return rect.width > 0 && rect.height > 0 && styles.display !== 'none' && styles.visibility !== 'hidden';
+    };
+    const canScrollY = (el, deltaY) => {
+      if (!el || !isVisible(el) || el.scrollHeight <= el.clientHeight + 1) return false;
+      const overflowY = window.getComputedStyle(el).overflowY;
+      if (overflowY === 'hidden' || overflowY === 'clip' || overflowY === 'visible') return false;
+      if (deltaY > 0) return el.scrollTop + el.clientHeight < el.scrollHeight - 1;
+      if (deltaY < 0) return el.scrollTop > 1;
+      return false;
+    };
+    const onWheel = (event) => {
+      if (event.defaultPrevented || event.ctrlKey || event.metaKey) return;
+      if (Math.abs(event.deltaY) < 1 || Math.abs(event.deltaX) > Math.abs(event.deltaY) * 1.2) return;
+      const target = event.target instanceof Element ? event.target : null;
+      const closestContent = target && contentScrollTargets
+        .map((selector) => target.closest(selector))
+        .find((el) => canScrollY(el, event.deltaY));
+      if (closestContent) {
+        event.preventDefault();
+        closestContent.scrollBy({ top:event.deltaY, left:0, behavior:'auto' });
+        return;
+      }
+      if (target) {
+        const passive = passiveScrollTargets
+          .map((selector) => target.closest(selector))
+          .find((el) => canScrollY(el, event.deltaY));
+        if (passive && !passive.matches('.gp-side-nav')) return;
+      }
+      const candidates = contentScrollTargets
+        .flatMap((selector) => Array.from(document.querySelectorAll(selector)))
+        .filter((el) => canScrollY(el, event.deltaY));
+      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-pop.ledger .cm-pop-layout,.cm-body,.gt-results,.db-grid,.tcg-grid,.tcg-detail-scroll,.gp-overview-main,.gp-overview-aside,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
+      if (!preferred) return;
+      event.preventDefault();
+      preferred.scrollBy({ top:event.deltaY, left:0, behavior:'auto' });
+    };
+    window.addEventListener('wheel', onWheel, { passive:false, capture:true });
+    return () => window.removeEventListener('wheel', onWheel, { capture:true });
+  }, []);
+
   // background art crossfade between games (two viewport-level layers)
   const bgToggle = React.useRef(0);
   React.useEffect(() => {
@@ -1640,7 +2887,9 @@ function NyxApp(){
     const onPop = () => {
       const k = (window.history.state && window.history.state.nyxKey) || keyFromLocation() || 'nyx';
       setActiveKey(k);
-      setTab((prev) => coerceTabForKey(k, prev));
+      setTab((prev) => coerceTabForKey(k, prev === 'char-customize' ? 'mats' : prev));
+      setCharacterCustomize(null);
+      setMaterialSelection(null);
     };
     window.addEventListener('popstate', onPop);
     return () => window.removeEventListener('popstate', onPop);
@@ -1649,7 +2898,9 @@ function NyxApp(){
   const switchGame = (key) => {
     if (key === activeKey) return;
     setActiveKey(key);
-    setTab((prev) => coerceTabForKey(key, prev));
+    setTab((prev) => coerceTabForKey(key, prev === 'char-customize' ? 'mats' : prev));
+    setCharacterCustomize(null);
+    setMaterialSelection(null);
     try {
       const href = GP_PAGE_HREF[key];
       if (href) window.history.pushState({ nyxKey:key }, '', href);
@@ -1661,7 +2912,27 @@ function NyxApp(){
 
   const isNyx = activeKey === 'nyx';
   const cfg = isNyx ? NYX_META : GAME_REGISTRY[activeKey];
-  const openMaterialModal = (game, name) => setMaterialModal({ game, name });
+  const openMaterialPage = (game, name) => {
+    const targetGame = (game && game !== 'nyx') ? game : activeKey;
+    if (!targetGame || targetGame === 'nyx' || !name) return;
+    setActiveKey(targetGame);
+    setTab('mats');
+    setCharacterCustomize(null);
+    setMaterialSelection({ game:targetGame, name });
+    try {
+      const href = GP_PAGE_HREF[targetGame];
+      if (href && keyFromLocation() !== targetGame) window.history.pushState({ nyxKey:targetGame }, '', href);
+      const nextCfg = GAME_REGISTRY[targetGame];
+      document.title = nextCfg?.name ? 'Nyx \u2014 ' + nextCfg.name : document.title;
+    } catch (e) {}
+  };
+  const openCharacterCustomize = (payload) => {
+    const next = Object.assign({ game:activeKey, restoreScroll:0 }, payload || {});
+    if (next.game && next.game !== activeKey) setActiveKey(next.game);
+    setCharacterCustomize(next);
+    setMaterialSelection(null);
+    setTab('char-customize');
+  };
 
   return (
     <div style={{ position:'absolute', inset:0, display:'flex', flexDirection:'column' }} data-screen-label={cfg.name + ' page'}>
@@ -1678,37 +2949,22 @@ function NyxApp(){
           </span>
         </a>
         <div className="tb-center">
-          <GPGameRail active={activeKey} onSwitch={switchGame} displayGames={pengoSettings.displayGames} />
+          <GPGameRail active={activeKey} onSwitch={switchGame} displayGames={pengoSettings.displayGames} gameIcons={pengoSettings.gameIcons} />
         </div>
       </header>
 
-      <div className="gp-corner" ref={cornerRef}>
+      <div className="gp-corner">
         <div className="gp-corner-actions">
           <a className="gp-kofi" href="https://ko-fi.com/asyce" target="_blank" rel="noopener noreferrer" title="Ko-fi" aria-label="Ko-fi">
             <img src="../assets/icon/kofi-logo.png" alt="" draggable="false" />
           </a>
-          <button type="button" className={'tb-pengo corner menu-trigger' + (pengoMenuOpen ? ' on' : '')}
-                  title="Pengo menu" aria-label="Pengo menu" aria-expanded={pengoMenuOpen}
-                  onClick={() => setPengoMenuOpen((open) => !open)}>
-            <img src="../assets/icon/pengo.png" alt="" draggable="false" />
-          </button>
         </div>
-        {pengoMenuOpen && <PengoMenu settings={pengoSettings} setSettings={setPengoSettings} />}
         {!isNyx && <NyxChannelToggle gameKey={activeKey} />}
       </div>
 
       {isNyx
-        ? <SimContent tab={tab} setTab={setTab} onOpenMaterial={openMaterialModal} />
-        : <GameContent cfg={cfg} tab={tab} setTab={setTab} onOpenMaterial={openMaterialModal} />}
-      {materialModal && (
-        <CharMaterials
-          inline
-          modalOnly
-          game={materialModal.game}
-          selectedName={materialModal.name}
-          onClose={() => setMaterialModal(null)}
-        />
-      )}
+        ? <SimContent tab={tab} setTab={setTab} onOpenMaterial={openMaterialPage} settings={pengoSettings} setSettings={setPengoSettings} />
+        : <GameContent cfg={cfg} tab={tab} setTab={setTab} onOpenMaterial={openMaterialPage} settings={pengoSettings} setSettings={setPengoSettings} characterCustomize={characterCustomize} setCharacterCustomize={setCharacterCustomize} materialSelection={materialSelection} setMaterialSelection={setMaterialSelection} />}
     </div>
   );
 }

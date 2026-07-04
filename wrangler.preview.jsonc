@@ -1,0 +1,41 @@
+// Branch-preview deploy config for the ui-redesign worker.
+// Deliberately has NO production routes (pengo.gg stays on the "nyx" worker);
+// serves only at nyx-ui-redesign.<subdomain>.workers.dev.
+// Deploy from the repo root with:
+//   npx wrangler deploy --config wrangler.preview.jsonc
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nyx-ui-redesign",
+  "account_id": "84fb7e02642dd00a09839f38eb4d7e83",
+  "main": "worker/worker.js",
+  "compatibility_date": "2026-06-20",
+  "workers_dev": true,
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": ".deploy/pengo",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": [
+      "/api/*"
+    ]
+  },
+  "kv_namespaces": [
+    {
+      "binding": "PULL_SYNC",
+      "id": "2d402e374e184e0c9f0dc96a989de5ea"
+    }
+  ],
+  "unsafe": {
+    "bindings": [
+      {
+        "name": "GACHA_RL",
+        "type": "ratelimit",
+        "namespace_id": "1001",
+        "simple": { "limit": 60, "period": 60 }
+      }
+    ]
+  }
+}

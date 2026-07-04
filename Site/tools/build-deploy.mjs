@@ -64,7 +64,10 @@ function databaseRefsFromText(text) {
   const refs = new Set();
   const re = /(?:\.\.\/)*Database\/[^"`),\]\s]+(?: [^"`),\]\s]+)*/g;
   for (const match of text.matchAll(re)) {
-    const value = match[0].replace(/^(?:\.\.\/)*/, '');
+    const value = match[0]
+      .replace(/^(?:\.\.\/)*/, '')
+      .replace(/\\u\{([0-9a-fA-F]+)\}/g, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+      .replace(/\\u([0-9a-fA-F]{4})/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)));
     if (/\.(?:png|jpe?g|webp|gif|svg|ico|ttf|woff2?)$/i.test(value)) refs.add(value);
   }
   return refs;

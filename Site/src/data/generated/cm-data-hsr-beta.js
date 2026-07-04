@@ -15,10 +15,24 @@
     {
       "id": "hsr-evanescia",
       "n": "Evanescia",
+      "localizedNames": {
+        "en": "Evanescia",
+        "zh": "\u7eef\u82f1",
+        "ja": "\u7dcb\u82f1",
+        "ko": "\uc5d0\ubc14\ub124\uc2dc\uc544"
+      },
       "title": "The Demoiselle in Charge",
       "slug": "evanescia",
+      "release": 1778662800000,
+      "releasePatch": "4.2",
       "updated": 1782252000000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm11116720|Nathalie Ferare",
+        "japanese": "Ayane Sakura|Sakura Ayane (\u4f50\u5009 \u7dbe\u97f3)",
+        "chinese": "https://zh.moegirl.org.cn/\u6eaf\u6d54|Suxun (\u6eaf\u6d54)",
+        "korean": "https://namu.wiki/w/\ubb38\uc720\uc815|Moon Yoo-jeong (\ubb38\uc720\uc815)"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1505.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/evanescia-67e58c4745c7.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/evanescia-7567d1297c5d.webp",
@@ -1017,6 +1031,12 @@
     {
       "id": "hsr-himeko-nova",
       "n": "Himeko Nova",
+      "localizedNames": {
+        "en": "Himeko \u2022 Nova",
+        "zh": "\u59ec\u5b50\u2022\u542f\u884c",
+        "ja": "\u59eb\u5b50\u30fb\u65c5\u7acb\u3061",
+        "ko": "\ud788\uba54\ucf54\u2022\ub178\ubc14"
+      },
       "slug": "himeko-nova",
       "updated": 1782252000000,
       "sourceOrder": 0,
@@ -1944,10 +1964,24 @@
     {
       "id": "hsr-yao-guang",
       "n": "Yao Guang",
+      "localizedNames": {
+        "en": "Yao Guang",
+        "zh": "\u723b\u5149",
+        "ja": "\u723b\u5149",
+        "ko": "\ud6a8\uad11"
+      },
       "title": "Gleam of a Thousand Plumes",
       "slug": "yao-guang",
+      "release": 1770976800000,
+      "releasePatch": "4.0",
       "updated": 1781474400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm14887295|Ari Thrash",
+        "japanese": "Kana Hanazawa|Hanazawa Kana (\u82b1\u6fa4 \u9999\u83dc)",
+        "chinese": "https://zh.moegirl.org.cn/\u79e6\u7d2b\u7ffc|Qin Ziyi (\u79e6\u7d2b\u7ffc)",
+        "korean": "https://namu.wiki/w/\uc774\uc2ac(\uc131\uc6b0)|Lee Seul (\uc774\uc2ac)"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1502.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/yao-guang-116e442805a2.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/yao-guang-84b9f69c7269.webp",
@@ -2951,10 +2985,24 @@
     {
       "id": "hsr-blade-mortenax",
       "n": "Mortenax Blade",
+      "localizedNames": {
+        "en": "Mortenax Blade",
+        "zh": "\u5343\u51b6\u2022\u5203",
+        "ja": "\u5343\u51b6\u30fb\u5203",
+        "ko": "\ucc9c\uc57c\u2022\ube14\ub808\uc774\ub4dc"
+      },
       "title": "Now I Am Become Blade",
       "slug": "blade-mortenax",
+      "release": 1780304400000,
+      "releasePatch": "4.3",
       "updated": 1781042400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm5410860|Daman Mills",
+        "japanese": "Shin-ichiro Miki|Miki Shin-ichiro (\u4e09\u6728\u771e\u4e00\u90ce)",
+        "chinese": "https://zh.moegirl.org.cn/\u5218\u4ee5\u5609|Liu Yijia (\u5218\u4ee5\u5609)",
+        "korean": "https://namu.wiki/w/\uacfd\uc724\uc0c1|Kwak Yoon-sang (\uacfd\uc724\uc0c1)"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1507.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/mortenax-blade-def9f0bdd69e.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/mortenax-blade-95aef83c18a0.webp",
@@ -3953,15 +4001,28 @@
           "cost": 385000
         }
       },
-      "recent": 1,
       "betaStatus": "changed"
     },
     {
       "id": "hsr-gilgamesh",
       "n": "Gilgamesh",
+      "localizedNames": {
+        "en": "Gilgamesh",
+        "zh": "\u5409\u5c14\u4f3d\u7f8e\u4ec0",
+        "ja": "\u30ae\u30eb\u30ac\u30e1\u30c3\u30b7\u30e5",
+        "ko": "\uae38\uac00\uba54\uc2dc"
+      },
       "slug": "gilgamesh",
+      "release": 1784851200000,
+      "releasePatch": "4.2",
       "updated": 1780783200000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "|vaCN = https://zh.moegirl.org.cn/\u85e4\u65b0|Teng Xin (\u85e4\u65b0)",
+        "japanese": "Tomokazu Seki|Seki Tomokazu (\u95a2 \u667a\u4e00)",
+        "chinese": "https://zh.moegirl.org.cn/\u85e4\u65b0|Teng Xin (\u85e4\u65b0)",
+        "korean": "https://namu.wiki/w/\uae40\uc885\uc5fd|Kim Jong-yeop (\uae40\uc885\uc5fd)"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1509.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-7eb51f1144e6.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-8b85b84d2d9d.webp",
@@ -4885,10 +4946,24 @@
     {
       "id": "hsr-cerydra",
       "n": "Cerydra",
+      "localizedNames": {
+        "en": "Cerydra",
+        "zh": "\u523b\u5f8b\u5fb7\u83c8",
+        "ja": "\u30b1\u30ea\u30e5\u30c9\u30e9",
+        "ko": "\ucf00\ub9ac\ub4dc\ub77c"
+      },
       "title": "The Iron Tamer of Tides",
       "slug": "cerydra",
+      "release": 1756803600000,
+      "releasePatch": "3.5",
       "updated": 1780524000000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm5966262|Rhiannon Moushall",
+        "japanese": "Kanon Takao|Takao Kanon (\u9ad8\u5c3e \u594f\u97f3)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u591a\u591apoi|Shi Xinlei (\u65f6\u6b23\u857e)",
+        "korean": "https://namu.wiki/w/\uae40\uc724\ucc44|Kim Yun-chae (\uae40\uc724\ucc44)"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1412.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/cerydra-d76dfbe116b9.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/cerydra-a700141d7887.webp",
@@ -5886,10 +5961,24 @@
     {
       "id": "hsr-ashveil",
       "n": "Ashveil",
+      "localizedNames": {
+        "en": "Ashveil",
+        "zh": "\u4e0d\u6b7b\u9014",
+        "ja": "\u4e0d\u6b7b\u9014",
+        "ko": "\uc560\uc26c\ubca0\uc77c"
+      },
       "title": "A Hunt Through Night",
       "slug": "ashveil",
+      "release": 1774432800000,
+      "releasePatch": "4.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm10853569|Blythe Melin",
+        "japanese": "Takehito Koyasu|Koyasu Takehito (\u5b50\u5b89 \u6b66\u4eba)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u6c9b|Zhang Pei (\u5f20\u6c9b)",
+        "korean": "https://namu.wiki/w/\uac15\uc218\uc9c4(KBS%20\uc131\uc6b0)|Kang Soo-jin (\uac15\uc218\uc9c4)"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1504.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/ashveil-b9f510eb9e49.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/ashveil-052ce1666926.webp",
@@ -6891,10 +6980,24 @@
     {
       "id": "hsr-cipher",
       "n": "Cipher",
+      "localizedNames": {
+        "en": "Cipher",
+        "zh": "\u8d5b\u98de\u513f",
+        "ja": "\u30b5\u30d5\u30a7\u30eb",
+        "ko": "\uc0ac\uc774\ud37c"
+      },
       "title": "Slick and Speedy Steals the Sky",
       "slug": "cipher",
+      "release": 1749632400000,
+      "releasePatch": "3.3",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm14096354|Shea Fairaday",
+        "japanese": "Ayasa It\u014d|Ito Ayasa (\u4f0a\u85e4 \u5f69\u6c99)",
+        "chinese": "https://zh.moegirl.org.cn/\u738b\u96c5\u6b23|Wang Yaxin (zh=\u738b\u96c5\u6b23)",
+        "korean": "https://namu.wiki/w/\ubbf8\uc18c(\uc131\uc6b0)|Mi So (\ubbf8\uc18c)"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1406.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/cipher-015686a982c5.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/cipher-c7debfb39bc2.webp",
@@ -7895,10 +7998,24 @@
     {
       "id": "hsr-cyrene",
       "n": "Cyrene",
+      "localizedNames": {
+        "en": "Cyrene",
+        "zh": "\u6614\u6d9f",
+        "ja": "\u30ad\u30e5\u30ec\u30cd",
+        "ko": "\ud0a4\ub808\ub124"
+      },
       "title": "Ripples Rejoined",
       "slug": "cyrene",
+      "release": 1762336800000,
+      "releasePatch": "3.7",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm12899945|Aiden Dawn",
+        "japanese": "Marina Inoue|Inoue Marina (\u4e95\u4e0a \u9ebb\u91cc\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/zh/\u5bb4\u5b81|Yanning (\u5bb4\u5b81)",
+        "korean": "https://namu.wiki/w/\uc870\uacbd\uc774|Jo Kyoung-i (\uc870\uacbd\uc774)"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1415.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/cyrene-c68f58cf71c5.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/cyrene-6d443544111a.webp",
@@ -8906,10 +9023,24 @@
     {
       "id": "hsr-dan-heng-permansor-terrae",
       "n": "Dan Heng \u2022 Permansor Terrae",
+      "localizedNames": {
+        "en": "Dan Heng \u2022 Permansor Terrae",
+        "zh": "\u4e39\u6052\u2022\u817e\u8352",
+        "ja": "\u4e39\u6052\u30fb\u9a30\u8352",
+        "ko": "\ub2e8\ud56d\u2022\ub4f1\ud669"
+      },
       "title": "Slay Until Evil Ends",
       "slug": "dan-heng-permansor-terrae",
+      "release": 1760173200000,
+      "releasePatch": "3.6",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm8855652|Nicholas Leung",
+        "japanese": "Kent It\u014d|Ito Kent (\u4f0a\u6771\u5065\u4eba)",
+        "chinese": "https://zh.moegirl.org.cn/\u9c7c\u51bb|Li Chunyin (\u674e\u6625\u80e4)",
+        "korean": "https://namu.wiki/w/\uae40\ud61c\uc131(\uc131\uc6b0)|Kim Hye-sung (\uae40\ud61c\uc131)"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1414.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-5d790d1ba159.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-5a8994b046b4.webp",
@@ -9911,10 +10042,24 @@
     {
       "id": "hsr-hysilens",
       "n": "Hysilens",
+      "localizedNames": {
+        "en": "Hysilens",
+        "zh": "\u6d77\u745f\u97f3",
+        "ja": "\u30bb\u30a4\u30ec\u30f3\u30b9",
+        "ko": "\ud788\uc2e4\ub80c\uc2a4"
+      },
       "title": "Winedark Swansong",
       "slug": "hysilens",
+      "release": 1755075600000,
+      "releasePatch": "3.5",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm1133857|Rosie Day",
+        "japanese": "Manaka Iwami|Iwami Manaka (\u77f3\u898b \u821e\u83dc\u9999)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u6d6e\u68a6\u82e5\u8587|Fumeng Ruowei (\u6d6e\u68a6\u82e5\u8587)",
+        "korean": "https://namu.wiki/w/\uc624\uc740\uc218(\uc131\uc6b0)|Oh Eun-soo (\uc624\uc740\uc218)"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1410.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/hysilens-5df2504c5560.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/hysilens-cb2fae560eae.webp",
@@ -10912,10 +11057,24 @@
     {
       "id": "hsr-phainon",
       "n": "Phainon",
+      "localizedNames": {
+        "en": "Phainon",
+        "zh": "\u767d\u5384",
+        "ja": "\u30d5\u30a1\u30a4\u30ce\u30f3",
+        "ko": "\ud30c\uc774\ub17c"
+      },
       "title": "To Evermore Burn as the Sun",
       "slug": "phainon",
+      "release": 1751446800000,
+      "releasePatch": "3.4",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm10853574|Joshua Waters",
+        "japanese": "Satoshi Hino|Hino Satoshi (\u65e5\u91ce \u8061)",
+        "chinese": "https://zh.moegirl.org.cn/\u79e6\u4e14\u6b4c|Qin Qiege (\u79e6\u4e14\u6b4c)",
+        "korean": "ko:\uc724\uc6a9\uc2dd|Yoon Yong-sik (\uc724\uc6a9\uc2dd)"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1408.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/phainon-99688b617211.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/phainon-3341050db154.webp",
@@ -11917,9 +12076,23 @@
     {
       "id": "hsr-rin-tohsaka",
       "n": "Rin Tohsaka",
+      "localizedNames": {
+        "en": "Rin Tohsaka",
+        "zh": "\u8fdc\u5742\u51db",
+        "ja": "\u9060\u5742\u51db",
+        "ko": "\ud1a0\uc624\uc0ac\uce74 \ub9b0"
+      },
       "slug": "rin-tohsaka",
+      "release": 1784851200000,
+      "releasePatch": "4.2",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "|vaCN = https://zh.moegirl.org.cn/\u6714\u5c0f\u5154|Shuo Xiaotu (\u6714\u5c0f\u5154)",
+        "japanese": "Kana Ueda|Ueda Kana (\u690d\u7530 \u4f73\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/\u6714\u5c0f\u5154|Shuo Xiaotu (\u6714\u5c0f\u5154)",
+        "korean": "https://namu.wiki/w/\uae40\ubcf4\ubbfc(\uc131\uc6b0)|Kim Bo-min (\uae40\ubcf4\ubbfc)"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1508.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/rin-tohsaka-ac78bcd23e3e.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
@@ -12843,10 +13016,24 @@
     {
       "id": "hsr-sparxie",
       "n": "Sparxie",
+      "localizedNames": {
+        "en": "Sparxie",
+        "zh": "\u706b\u82b1",
+        "ja": "\u706b\u82b1",
+        "ko": "\uc2a4\ud30c\ud0a4"
+      },
       "title": "Project: Party Time",
       "slug": "sparxie",
+      "release": 1770976800000,
+      "releasePatch": "4.0",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm5213242|Lizzie Freeman",
+        "japanese": "Reina Ueda|Ueda Reina (\u4e0a\u7530 \u9e97\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u8d75\u723d|Zhao Shuang (\u8d75\u723d)",
+        "korean": "https://namu.wiki/w/\uc131\uc608\uc6d0|Sung Ye-won (\uc131\uc608\uc6d0)"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1501.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/sparxie-234f67152306.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/sparxie-67b870bc5ac4.webp",
@@ -13844,10 +14031,24 @@
     {
       "id": "hsr-the-dahlia",
       "n": "The Dahlia",
+      "localizedNames": {
+        "en": "The Dahlia",
+        "zh": "\u5927\u4e3d\u82b1",
+        "ja": "\u30c0\u30ea\u30a2",
+        "ko": "\ub2ec\ub9ac\uc544"
+      },
       "title": "Dance in Flame",
       "slug": "the-dahlia",
+      "release": 1765101600000,
+      "releasePatch": "3.8",
       "updated": 1780178400000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm2583829|Cristina Vee",
+        "japanese": "Mikoi Sasaki|Sasaki Mikoi (\u4f50\u3005\u6728\u672a\u6765)",
+        "chinese": "https://zh.moegirl.org.cn/\u962e\u4ece\u9752|Ruan Congqing (\u962e\u4ece\u9752)",
+        "korean": "ko:\uae40\ub3c4\ud76c_(\uc131\uc6b0)|Kim Do-hee (\uae40\ub3c4\ud76c)"
+      },
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1321.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/the-dahlia-04dcb5188322.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/the-dahlia-de1d9d08efeb.webp",

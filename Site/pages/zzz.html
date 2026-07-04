@@ -4,8 +4,8 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link rel="icon" type="image/png" href="../assets/icon/nyx_logo.png"/>
-<title>Nyx — Zenless Zone Zero</title>
-<link rel="stylesheet" href="../src/styles/game-page-shared.css?v=20260630-wish01"/>
+<title>Nyx â€” Zenless Zone Zero</title>
+<link rel="stylesheet" href="../src/styles/game-page-shared.css?v=20260704-gcg-full01"/>
 <style>
   html, body{ margin:0; height:100%; background:#05040b; overflow:hidden; }
   .gp-vsep{ width:1px; height:34px; background:linear-gradient(180deg, rgba(183,170,255,0), rgba(183,170,255,.45), rgba(183,170,255,0)); }
@@ -27,7 +27,7 @@
       linear-gradient(180deg, rgba(5,4,11,.6) 0%, rgba(5,4,11,.06) 24%, rgba(5,4,11,.06) 60%, rgba(5,4,11,.8) 100%); }
   /* the .gp root inside the stage is transparent; backdrop is page-level */
   .gp.bare .gp-bg, .gp.bare .gp-pattern, .gp.bare .gp-vignette{ display:none; }
-  /* boot splash — covers the bare background until the app mounts, then fades out
+  /* boot splash â€” covers the bare background until the app mounts, then fades out
      (reuses the existing html.nyx-app-ready flip; 8s failsafe if the bundle never mounts) */
   .nyx-boot{ position:fixed; inset:0; z-index:50; display:grid; place-items:center;
     background:radial-gradient(120% 95% at 50% 30%, #0b0820 0%, #05040b 70%);
@@ -76,7 +76,7 @@
   // Fluid stage: height-fit scaling; stage width grows with aspect ratio
   // (1600 design units at 16:9 up to 2150 at ultrawide), anchored to the top
   // so the header band always sits flush with the window top. Windows text
-  // scaling / browser zoom shrink the CSS viewport — this absorbs both.
+  // scaling / browser zoom shrink the CSS viewport â€” this absorbs both.
   (function(){
     var stage = document.getElementById('stage');
     function fit(){
@@ -113,15 +113,15 @@
     banner:{ title:'Astral Drive', five:'Yixuan', fours:['Nicole','Anby','Billy'], time:'Ends in 9d 13h', pct:40 },
     track:{ pull:'Signal', pulls:'Signals', title:'Signal Tracker', currency:'Polychrome', cost:160, fives:['Yixuan','Miyabi','Zhu Yuan','Evelyn','Astra'], fours:['Nicole','Anby','Billy','Corin','Ben'] },
     codes:[
-      { code:'ZENLESSGIFT', reward:'100 Polychrome · 10,000 Dennies' },
-      { code:'ZZZNEWELLY',  reward:'50 Polychrome · 2 Senior Investigator Log' }
+      { code:'ZENLESSGIFT', reward:'100 Polychrome Â· 10,000 Dennies' },
+      { code:'ZZZNEWELLY',  reward:'50 Polychrome Â· 2 Senior Investigator Log' }
     ]
   };
 </script>
 
-<script src="../dist/cm-data.js?v=20260630-wish01"></script>
-<script src="../dist/cm-data-zzz.js?v=20260630-wish01"></script>
-<script src="../dist/nyx-data.js?v=20260630-wish01"></script>
-<script src="../dist/game-page.bundle.js?v=20260630-wish01"></script>
+<script src="../dist/cm-data.js?v=20260704-gcg-full01"></script>
+<script src="../dist/cm-data-zzz.js?v=20260704-gcg-full01"></script>
+<script src="../dist/nyx-data.js?v=20260704-gcg-full01"></script>
+<script src="../dist/game-page.bundle.js?v=20260704-gcg-full01"></script>
 </body>
 </html>

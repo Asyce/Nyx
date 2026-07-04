@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-07-03T23:11:59.129Z",
+  "sourceUrl": "https://gi.nanoka.cc/gcg",
+  "payloads": {
+    "gcg": 619,
+    "card": 1991,
+    "details": 619,
+    "skill": 3489
+  },
+  "counts": {
+    "characterCards": 106,
+    "otherCards": 513,
+    "missingPlayableCharacters": 10
+  },
+  "missingPlayableCharacters": [
+    "Columbina",
+    "Illuga",
+    "Linnea",
+    "Lohen",
+    "Nicole",
+    "Prune",
+    "Sandrone",
+    "Traveler",
+    "Varka",
+    "Zibai"
+  ]
+}

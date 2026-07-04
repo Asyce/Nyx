@@ -151,6 +151,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/camille/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/camille/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/camille/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Polearm.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Camille.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Camille.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Camille.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:blessing-of-lustrous-carmine",

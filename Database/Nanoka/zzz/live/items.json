@@ -13756,9 +13756,7 @@
       "11": "BATTLE RESOURCE"
     },
     "description": "Restores 1% of Max Energy.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201005",
@@ -13769,9 +13767,7 @@
       "11": "BATTLE RESOURCE"
     },
     "description": "Restores 5% of Max Energy.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201010",
@@ -13782,9 +13778,7 @@
       "11": "BATTLE RESOURCE"
     },
     "description": "Restores 10% of Max Energy.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201050",
@@ -13795,9 +13789,7 @@
       "11": "BATTLE RESOURCE"
     },
     "description": "Restores 50% of Max Energy.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201101",
@@ -13807,9 +13799,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201102",
@@ -13819,9 +13809,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201103",
@@ -13831,9 +13819,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201200",
@@ -13857,9 +13843,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201202",
@@ -13869,9 +13853,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201203",
@@ -13881,9 +13863,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201204",
@@ -13893,9 +13873,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201205",
@@ -13905,9 +13883,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201206",
@@ -13917,9 +13893,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201207",
@@ -13929,9 +13903,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201208",
@@ -13941,9 +13913,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201209",
@@ -13953,9 +13923,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201301",
@@ -13965,9 +13933,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201302",
@@ -13977,9 +13943,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201303",
@@ -13989,9 +13953,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201304",
@@ -14013,9 +13975,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201306",
@@ -14025,9 +13985,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201307",
@@ -14037,9 +13995,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201308",
@@ -14049,9 +14005,7 @@
     "type": {
       "11": "BATTLE RESOURCE"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "201401",
@@ -14409,9 +14363,7 @@
       "11": "BATTLE RESOURCE"
     },
     "description": "\"A trap left by the Hollow government army.\" <color=#2BAD00>All squad members lose 10% of their current HP.</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/TrapTest.webp"
-    }
+    "assets": {}
   },
   {
     "id": "202052",
@@ -14422,9 +14374,7 @@
       "11": "BATTLE RESOURCE"
     },
     "description": "\"A deadly trap left by the Hollow government army.\" <color=#2BAD00>All squad members lose 15% of their current HP.</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/TrapTest.webp"
-    }
+    "assets": {}
   },
   {
     "id": "203001",
@@ -14435,9 +14385,7 @@
       "11": "BATTLE RESOURCE"
     },
     "description": "Restore all squad member's Energy by 5%.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "203005",
@@ -14448,9 +14396,7 @@
       "11": "BATTLE RESOURCE"
     },
     "description": "Restore all squad member's Energy by 10%.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "203010",
@@ -14461,9 +14407,7 @@
       "11": "BATTLE RESOURCE"
     },
     "description": "Restore all squad member's Energy by 20%.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "203050",
@@ -14474,9 +14418,7 @@
       "11": "BATTLE RESOURCE"
     },
     "description": "Restore all squad member's Energy by 50%.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/Analeptic.webp"
-    }
+    "assets": {}
   },
   {
     "id": "204005",
@@ -14539,9 +14481,7 @@
       "11": "BATTLE RESOURCE"
     },
     "description": "\"An accidental glimpse into the memory of the Shelled.\" <color=#FF79F6>Increases Pressure by 10.</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/TrapTest.webp"
-    }
+    "assets": {}
   },
   {
     "id": "204052",
@@ -14552,9 +14492,7 @@
       "11": "BATTLE RESOURCE"
     },
     "description": "\"An accidental glimpse into the dreadful memory of the Shelled.\" <color=#FF79F6>Increases Pressure by 20.</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/TrapTest.webp"
-    }
+    "assets": {}
   },
   {
     "id": "204053",
@@ -14896,9 +14834,7 @@
     },
     "description": "Item_RL_CurseClear_des",
     "secondaryDescription": "Item_RL_CurseClear_story",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/TrapTest.webp"
-    }
+    "assets": {}
   },
   {
     "id": "207014",
@@ -22672,9 +22608,7 @@
     "type": {
       "29": "INFO"
     },
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/BuffRandom.webp"
-    }
+    "assets": {}
   },
   {
     "id": "900102",
@@ -22685,9 +22619,7 @@
       "29": "INFO"
     },
     "description": "EquipmentSuit_01_4_des",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/SuitFool01.webp"
-    }
+    "assets": {}
   },
   {
     "id": "900202",
@@ -22698,9 +22630,7 @@
       "29": "INFO"
     },
     "description": "EquipmentSuit_02_4_des",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/SuitMagician01.webp"
-    }
+    "assets": {}
   },
   {
     "id": "900303",
@@ -22711,9 +22641,7 @@
       "29": "INFO"
     },
     "description": "EquipmentSuit_03_4_des",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/SuitHighPriestess01.webp"
-    }
+    "assets": {}
   },
   {
     "id": "900403",
@@ -22724,9 +22652,7 @@
       "29": "INFO"
     },
     "description": "EquipmentSuit_04_4_des",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/SuitEmpress01.webp"
-    }
+    "assets": {}
   },
   {
     "id": "900504",
@@ -22737,9 +22663,7 @@
       "29": "INFO"
     },
     "description": "EquipmentSuit_05_4_des",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/SuitEmperor01.webp"
-    }
+    "assets": {}
   },
   {
     "id": "900604",
@@ -22750,9 +22674,7 @@
       "29": "INFO"
     },
     "description": "EquipmentSuit_06_4_des",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/SuitPope01.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1000000",
@@ -30463,9 +30385,7 @@
     },
     "description": "Traps become more deadly.",
     "secondaryDescription": "Your body and mind are weakened, as fragile as wreckage in the Hollow.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100003",
@@ -30477,9 +30397,7 @@
     },
     "description": "When selecting Resonium, you have fewer choices.",
     "secondaryDescription": "This stuff makes me feel sick... It smells like Ethereal... it's not an embryo, is it?",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100004",
@@ -30491,9 +30409,7 @@
     },
     "description": "When Pressure overloads, all squad members lose HP.",
     "secondaryDescription": "\"Oh nooooo... We're done for!\" \"I just sneezed. Am I going to die?\"",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100006",
@@ -30505,9 +30421,7 @@
     },
     "description": "Enemy Daze diminishes over time, but the Stun DMG Multiplier is increased.",
     "secondaryDescription": "Squad members are shrouded in a mist of special Ether. It seems to be provoking the Ethereals.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100007",
@@ -30519,9 +30433,7 @@
     },
     "description": "Off-field characters gradually lose Energy.",
     "secondaryDescription": "Your raging battlelust has dried out. You fight only to survive.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100010",
@@ -30547,9 +30459,7 @@
     },
     "description": "When Pressure increases, there is a chance your Pressure either does not increase or increases by a lot.",
     "secondaryDescription": "The intensifying uneasiness in your soul is taking its toll.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100012",
@@ -30561,9 +30471,7 @@
     },
     "description": "The Bangboo merchant offers discounts, but also fewer items.",
     "secondaryDescription": "For some reason, everyone has become tough and fierce, and not even the resourceful Bangboo merchant can handle these difficult customers.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100013",
@@ -30575,9 +30483,7 @@
     },
     "description": "You receive Gear Coins when Pressure increases, but can only possess up to 3,333 Coins.",
     "secondaryDescription": "\"Calm down... Yeah... I will survive as long as I have Gear Coins...\"",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100014",
@@ -30589,9 +30495,7 @@
     },
     "description": "Agents gain less Pressure, but lose HP when obtaining Resonia.",
     "secondaryDescription": "You grow accustomed to the burning pain of the restless Ether as you gradually become one with the Hollow... This is the path to total collapse.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100017",
@@ -30603,9 +30507,7 @@
     },
     "description": "HP is restored at the conclusion of combat, but Pressure is increased.",
     "secondaryDescription": "The enemy explodes in a puff of Ether, and bathing in it you feel a sense of soothing like never before. Who cares about the price. More! More enemies!",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100018",
@@ -30617,9 +30519,7 @@
     },
     "description": "<color=#FFFFFF>Dodge</color> has a longer cooldown.",
     "secondaryDescription": "The old signature fighting moves and combos... It's a struggle now just to recall how they went.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100019",
@@ -30631,9 +30531,7 @@
     },
     "description": "Decreases HP when exploring through the monitor. In combat, on-field characters will lose HP gradually.",
     "secondaryDescription": "Like air, the corruption of the Ether seeps into every being, humans or robots alike.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100020",
@@ -30645,9 +30543,7 @@
     },
     "description": "The Dead End Butcher deals <color=#CF4029>20%</color> more DMG. He <color=#CF4029>restores Daze and a small amount of HP</color> when he hits squad members.",
     "secondaryDescription": "Fear slumbers within the recesses of memory, stirring awake with each uncontrolled, pounding heartbeat.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100021",
@@ -30659,9 +30555,7 @@
     },
     "description": "Corruption Complex deals <color=#CF4029>30% more DMG</color>. Attacks from allies <color=#CF4029>no longer accumulate Daze</color>, but breaking weak spots <color=#2BAD00>inflicts a substantial amount of Daze</color>.",
     "secondaryDescription": "Upon realizing their insignificance, their attempts to evade falter, and endeavors to attack appear futile.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100022",
@@ -30673,9 +30567,7 @@
     },
     "description": "Twin Marionettes deal <color=#CF4029>50% more DMG</color> and revive <color=#CF4029>much faster</color>.",
     "secondaryDescription": "Hesitation emerges from semblance and shatters under the weight of disparities.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100023",
@@ -30687,9 +30579,7 @@
     },
     "description": "Bangboo merchants only sell S-Rank items.",
     "secondaryDescription": "The concept of \"tolerance\" has been stripped from the mind, leading to a critical outlook on everything.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100024",
@@ -30701,9 +30591,7 @@
     },
     "description": "Gear Coin events generate more Gear Coins but also inflict more Pressure.",
     "secondaryDescription": "Unleash yourself from all restraints and moderation, releasing the overwhelming burden by plundering everything in your path.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100025",
@@ -30715,9 +30603,7 @@
     },
     "description": "Upon entering the next floor and starting the final battle, lose 300 Gear Coins and recover 10% of Max HP for all squad members. However, failure to pay will immediately deduct 15% Max HP from all squad members.",
     "secondaryDescription": "Caution becomes a feeble pretext for the fear of moving forward, urging one to pursue an illusory path of safety amid the Hollow's malevolence.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100026",
@@ -30729,9 +30615,7 @@
     },
     "description": "Rest Areas and Swift Supplies no longer recover HP. Instead, after each battle, all squad members recover 3% of Max HP. Before the next floor and final battle, recover 10% of Max HP.",
     "secondaryDescription": "The insatiable craving for destruction overrides reason, providing momentary respite only when completely sated.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100027",
@@ -30743,9 +30627,7 @@
     },
     "description": "Purchasing items from Bangboo merchants costs HP instead of Gear Coins.",
     "secondaryDescription": "An appetite for all that lies within sight, regardless of the cost.\nSeize them, and take them away.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100029",
@@ -30757,9 +30639,7 @@
     },
     "description": "Typhon Slugger deals <color=#CF4029>30% more DMG</color> and has <color=#CF4029>Immunity to all Attribute Anomalies</color>.",
     "secondaryDescription": "Just like a gorilla mimicking a human with a weapon, the beast, devoid of reason, skillfully pulls the trigger. This evokes thoughts of the primal malice encountered only in barbaric lands.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100030",
@@ -30771,9 +30651,7 @@
     },
     "description": "When an Agent's HP is above 50%, HP recovery speed is significantly reduced. When an Agent's HP is below 50%, HP recovery speed is significantly increased.",
     "secondaryDescription": "Greedy when you are strong, merciful when you are weak...",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1100101",
@@ -31989,9 +31867,7 @@
     },
     "description": "Both enemies and allies gain a CRIT Rate bonus.",
     "secondaryDescription": "Time seems to stretch out, everyone's actions slow down, and weak points appear more obvious.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1101006",
@@ -32003,9 +31879,7 @@
     },
     "description": "Both enemies and allies gain a CRIT DMG bonus.",
     "secondaryDescription": "The senses grow sharper until they exceed the limits of human endurance. Everything in the world grows brittle, including yourself.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1101007",
@@ -32017,9 +31891,7 @@
     },
     "description": "Both enemies and allies deal more DMG.",
     "secondaryDescription": "You're so absorbed in attacking that no thought is given to any consequence.\nIt's not that you don't want to — it's just that you can't.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1101008",
@@ -32031,9 +31903,7 @@
     },
     "description": "Enemies gain Anomaly Buildup RES but lose Daze RES.",
     "secondaryDescription": "A highly contagious Corruption that has little to no effect on Agents, but can cause Ether on the skin to multiply and scab over. This strengthens resistance while destroying overall stability.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1101009",
@@ -32045,9 +31915,7 @@
     },
     "description": "Enemies gain Daze RES but have their DEF reduced.",
     "secondaryDescription": "A highly contagious Corruption that has little to no effect on Agents, but can cause rapid stiffening and excess rigidity in the limbs. This strengthens resistance to Impact damage but also increases the risk of fractures.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1101010",
@@ -32059,9 +31927,7 @@
     },
     "description": "Enemy Stun duration is reduced, and Max HP is decreased.",
     "secondaryDescription": "A highly contagious Corruption that has little to no effect on Agents, but greatly boosts motor coordination and reactive functions at a cost to active energy reserves.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1101011",
@@ -32073,9 +31939,7 @@
     },
     "description": "Enemy Stun DMG Multiplier and Anomaly Buildup RES is reduced.",
     "secondaryDescription": "A highly-contagious Corruption that has little to no effect on Agents, but causes Ether to crystallize into hard plating. This strengthens resistance to strikes and is also more conductive to elements.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1101101",
@@ -32703,9 +32567,7 @@
     },
     "description": "No more path ahead. You have to leave the Hollow.",
     "secondaryDescription": "I wanna, I wanna go home... I don't wanna try anymore!",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1102101",
@@ -33067,9 +32929,7 @@
     },
     "description": "Curse_1105001_des",
     "secondaryDescription": "Curse_1105001_story",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1105002",
@@ -33081,9 +32941,7 @@
     },
     "description": "Curse_1105002_des",
     "secondaryDescription": "Curse_1105002_story",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1106001",
@@ -33095,9 +32953,7 @@
     },
     "description": "You can no longer recover HP.",
     "secondaryDescription": "Upon touching the crystal, a peculiar Ether matter corrodes your body, hindering its internal mechanisms and destroying its recovery processes. No amount of potions or medicine has any effect.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1106002",
@@ -33109,9 +32965,7 @@
     },
     "description": "You can no longer obtain Gear Coins.",
     "secondaryDescription": "Upon touching the crystal, your body reacts strongly to certain metal components, and unfortunately, Gear Coins also trigger this allergic reaction.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1106003",
@@ -33123,9 +32977,7 @@
     },
     "description": "Significantly increases gained Pressure.",
     "secondaryDescription": "Due to the influence of the active crystal, you start to experience symptoms that affect your mental state, such as hallucinations and disorientation. Having to explore the Hollow under such circumstances puts you under even more pressure...",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1106004",
@@ -33137,9 +32989,7 @@
     },
     "description": "Curse_1106004_des",
     "secondaryDescription": "Curse_1106004_story",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110001",
@@ -33150,9 +33000,7 @@
       "32": "BLESS"
     },
     "description": "Protagonist HP <color=#2BAD00>+20</color>, ATK <color=#2BAD00>+2</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110002",
@@ -33163,9 +33011,7 @@
       "32": "BLESS"
     },
     "description": "HP <color=#2BAD00>+2</color> when the protagonist defeats an enemy with an attack",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110003",
@@ -33176,9 +33022,7 @@
       "32": "BLESS"
     },
     "description": "Protagonist HP <color=#2BAD00>+20</color>, ATK <color=#2BAD00>+2</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110004",
@@ -33189,9 +33033,7 @@
       "32": "BLESS"
     },
     "description": "When the Protagonist attacks enemies, there's a <color=#2BAD00>25%</color> chance to trigger a critical hit, dealing double DMG",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110005",
@@ -33202,9 +33044,7 @@
       "32": "BLESS"
     },
     "description": "Protagonist ATK <color=#2BAD00>+7</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110006",
@@ -33215,9 +33055,7 @@
       "32": "BLESS"
     },
     "description": "Immediately obtain <color=#2BAD00>8</color> bombs",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110007",
@@ -33228,9 +33066,7 @@
       "32": "BLESS"
     },
     "description": "Bombs deal <color=#2BAD00>+10</color> DMG to enemies, explosion length <color=#2BAD00>+2</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110008",
@@ -33241,9 +33077,7 @@
       "32": "BLESS"
     },
     "description": "Protagonist gains <color=#2BAD00>+50</color> HP.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110009",
@@ -33254,9 +33088,7 @@
       "32": "BLESS"
     },
     "description": "Bombs will <color=#FFAF2C>explode immediately</color>. Protagonist ATK <color=#2BAD00>+1</color> when detonating a bomb",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110010",
@@ -33267,9 +33099,7 @@
       "32": "BLESS"
     },
     "description": "<color=#2BAD00>Take no DMG from detonations, instead recovering 5 HP</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110011",
@@ -33280,9 +33110,7 @@
       "32": "BLESS"
     },
     "description": "When taking DMG, generate 1 – 2 <color=#2BAD00>Gear Coin Tiles of 50 coins</color>.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110012",
@@ -33293,9 +33121,7 @@
       "32": "BLESS"
     },
     "description": "Shopkeeper ATK <color=#FFAF2C>+20</color>, <color=#FFAF2C>number of items for sale is doubled</color> in the shop",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110013",
@@ -33306,9 +33132,7 @@
       "32": "BLESS"
     },
     "description": "Automatically <color=#FFAF2C>spend HP to purchase</color> items upon running out of coins, for <color=#CF4029>1</color> HP per 50 coins",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110014",
@@ -33319,9 +33143,7 @@
       "32": "BLESS"
     },
     "description": "Immediately generates a large number of <color=#2BAD00>items for sale</color> and <color=#2BAD00>coins</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110015",
@@ -33332,9 +33154,7 @@
       "32": "BLESS"
     },
     "description": "20% chance when picking up Gear Coins: Protagonist ATK <color=#2BAD00>+1</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110016",
@@ -33345,9 +33165,7 @@
       "32": "BLESS"
     },
     "description": "Upon stepping on a blank tile for the first time, 40% chance to <color=#2BAD00>+1</color> HP",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110017",
@@ -33358,9 +33176,7 @@
       "32": "BLESS"
     },
     "description": "EXP <color=#2BAD00>+5</color> when the protagonist attacks, but starting from the next level, enemy HP <color=#CF4029>+10</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110018",
@@ -33371,9 +33187,7 @@
       "32": "BLESS"
     },
     "description": "EXP <color=#2BAD00>+20</color> when exchanging supplies with autonomous robot, but starting from the next level, enemy ATK <color=#CF4029>+8</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110019",
@@ -33384,9 +33198,7 @@
       "32": "BLESS"
     },
     "description": "EXP <color=#2BAD00>+40</color> upon killing a monster, but starting from the next level, enemy HP <color=#CF4029>+20</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110020",
@@ -33397,9 +33209,7 @@
       "32": "BLESS"
     },
     "description": "<color=#2BAD00>+400%</color> EXP gained",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110021",
@@ -33410,9 +33220,7 @@
       "32": "BLESS"
     },
     "description": "Immediately obtain a <color=#2BAD00>random Bangboo</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110022",
@@ -33423,9 +33231,7 @@
       "32": "BLESS"
     },
     "description": "<color=#FFAF2C>Mysterious equipment</color> marked in yellow and surrounded by enemies appears on the floor",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110023",
@@ -33436,9 +33242,7 @@
       "32": "BLESS"
     },
     "description": "<color=#FFAF2C>Mysterious equipment</color> marked in yellow and surrounded by thorns appears on the floor",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110024",
@@ -33449,9 +33253,7 @@
       "32": "BLESS"
     },
     "description": "<color=#FFAF2C>Mysterious equipment</color> marked in yellow and waiting to be pulled out appears on the floor",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1110025",
@@ -33462,9 +33264,7 @@
       "32": "BLESS"
     },
     "description": "Immediately obtain <color=#FF0000>Bagboo</color>",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1200001",
@@ -38103,9 +37903,7 @@
     "rarity": 4,
     "type": {},
     "description": "Choice_1341073_des",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardDailyUse1601.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1341074",
@@ -38114,9 +37912,7 @@
     "rarity": 4,
     "type": {},
     "description": "Choice_1341074_des",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardDailyUse1611.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1341075",
@@ -38125,9 +37921,7 @@
     "rarity": 4,
     "type": {},
     "description": "Choice_1341075_des",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardDailyUse1621.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1341076",
@@ -38136,9 +37930,7 @@
     "rarity": 4,
     "type": {},
     "description": "Choice_1341076_des",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardDailyUse1631.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1341077",
@@ -38147,9 +37939,7 @@
     "rarity": 4,
     "type": {},
     "description": "Choice_1341077_des",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardDailyUse1641.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1341078",
@@ -38158,9 +37948,7 @@
     "rarity": 4,
     "type": {},
     "description": "Choice_1341078_des",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardDailyUse1651.webp"
-    }
+    "assets": {}
   },
   {
     "id": "1342011",
@@ -62318,9 +62106,7 @@
     },
     "description": "Dead End Butcher deals <color=#CF4029>20% more DMG</color>.",
     "secondaryDescription": "Fear slumbers within the recesses of memory, stirring awake with each uncontrolled, pounding heartbeat.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000202",
@@ -62332,9 +62118,7 @@
     },
     "description": "Dead End Butcher deals <color=#CF4029>30% more DMG</color>.",
     "secondaryDescription": "Fear slumbers within the recesses of memory, stirring awake with each uncontrolled, pounding heartbeat.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000203",
@@ -62346,9 +62130,7 @@
     },
     "description": "The Dead End Butcher deals <color=#CF4029>40% more DMG</color>. He restores a <color=#CF4029>small amount of HP</color> when he hits squad members.",
     "secondaryDescription": "Fear slumbers within the recesses of memory, stirring awake with each uncontrolled, pounding heartbeat.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000204",
@@ -62360,9 +62142,7 @@
     },
     "description": "The Dead End Butcher deals <color=#CF4029>50%</color> more DMG. He <color=#CF4029>restores Daze and a small amount of HP</color> when he hits squad members.",
     "secondaryDescription": "Fear slumbers within the recesses of memory, stirring awake with each uncontrolled, pounding heartbeat.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000205",
@@ -62374,9 +62154,7 @@
     },
     "description": "The Dead End Butcher deals <color=#CF4029>50%</color> more DMG. He <color=#CF4029>restores Daze and a small amount of HP</color> when he hits squad members.",
     "secondaryDescription": "Fear slumbers within the recesses of memory, stirring awake with each uncontrolled, pounding heartbeat.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000211",
@@ -62388,9 +62166,7 @@
     },
     "description": "Corruption Complex deals <color=#CF4029>30% more DMG</color>.",
     "secondaryDescription": "Upon realizing their insignificance, their attempts to evade falter, and endeavors to attack appear futile.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000212",
@@ -62402,9 +62178,7 @@
     },
     "description": "Corruption Complex deals <color=#CF4029>40% more DMG</color>. Attacks from allies <color=#CF4029>no longer accumulate Daze</color>, but breaking weak spots <color=#2BAD00>inflicts a substantial amount of Daze</color>.",
     "secondaryDescription": "Upon realizing their insignificance, their attempts to evade falter, and endeavors to attack appear futile.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000213",
@@ -62416,9 +62190,7 @@
     },
     "description": "Corruption Complex deals <color=#CF4029>50% more DMG</color>. Attacks from allies <color=#CF4029>no longer accumulate Daze</color>, but breaking weak spots <color=#2BAD00>inflicts a substantial amount of Daze</color>.",
     "secondaryDescription": "Upon realizing their insignificance, their attempts to evade falter, and endeavors to attack appear futile.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000214",
@@ -62430,9 +62202,7 @@
     },
     "description": "Corruption Complex deals <color=#CF4029>50% more DMG</color>. Attacks from allies <color=#CF4029>no longer accumulate Daze</color>, but breaking weak spots <color=#2BAD00>inflicts a substantial amount of Daze</color>.",
     "secondaryDescription": "Upon realizing their insignificance, their attempts to evade falter, and endeavors to attack appear futile.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000221",
@@ -62444,9 +62214,7 @@
     },
     "description": "Twin Marionettes deal <color=#CF4029>40% more DMG</color>.",
     "secondaryDescription": "Hesitation emerges from semblance and shatters under the weight of disparities.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000222",
@@ -62458,9 +62226,7 @@
     },
     "description": "Twin Marionettes deal <color=#CF4029>50% more DMG</color> and revive <color=#CF4029>much faster</color>.",
     "secondaryDescription": "Hesitation emerges from semblance and shatters under the weight of disparities.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000223",
@@ -62472,9 +62238,7 @@
     },
     "description": "Twin Marionettes deal <color=#CF4029>50% more DMG</color> and revive <color=#CF4029>much faster</color>.",
     "secondaryDescription": "Hesitation emerges from semblance and shatters under the weight of disparities.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000281",
@@ -62486,9 +62250,7 @@
     },
     "description": "Nineveh's DMG <color=#CF4029>increases by 40%</color> and she <color=#CF4029>summons Hornets more frequently</color>.\nA certain amount of HP is lost when exploring new areas. In combat, on-field characters will lose HP gradually.",
     "secondaryDescription": "This is a \"blooming\" that can't be seen with the naked eye, a strange structure vibrating its dazzling \"petals.\" Caught in a blur, you find yourself dancing in the air with that mesmerizing, deadly flower — who's that person on the ground, frozen in astonishment?",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000282",
@@ -62500,9 +62262,7 @@
     },
     "description": "Nineveh's DMG <color=#CF4029>increases by 50%</color>, she <color=#CF4029>summons Hornets more frequently</color> and activates \"Blooming.\"\nA certain amount of HP is lost when exploring new areas. In combat, on-field characters will lose HP gradually.",
     "secondaryDescription": "This is a \"blooming\" that can't be seen with the naked eye, a strange structure vibrating its dazzling \"petals.\" Caught in a blur, you find yourself dancing in the air with that mesmerizing, deadly flower — who's that person on the ground, frozen in astonishment?",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000291",
@@ -62514,9 +62274,7 @@
     },
     "description": "Typhon Slugger deals <color=#CF4029>30% more DMG</color>.",
     "secondaryDescription": "Just like a gorilla mimicking a human with a weapon, the beast, devoid of reason, skillfully pulls the trigger. This evokes thoughts of the primal malice encountered only in barbaric lands.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000292",
@@ -62528,9 +62286,7 @@
     },
     "description": "Typhon Slugger deals <color=#CF4029>40% more DMG</color> and has <color=#CF4029>Immunity to all Attribute Anomalies</color>.",
     "secondaryDescription": "Just like a gorilla mimicking a human with a weapon, the beast, devoid of reason, skillfully pulls the trigger. This evokes thoughts of the primal malice encountered only in barbaric lands.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11000293",
@@ -62542,9 +62298,7 @@
     },
     "description": "Typhon Slugger deals <color=#CF4029>50% more DMG</color> and has <color=#CF4029>Immunity to all Attribute Anomalies</color>.",
     "secondaryDescription": "Just like a gorilla mimicking a human with a weapon, the beast, devoid of reason, skillfully pulls the trigger. This evokes thoughts of the primal malice encountered only in barbaric lands.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/HallowBuff02.webp"
-    }
+    "assets": {}
   },
   {
     "id": "11007030",
@@ -64078,9 +63832,7 @@
     },
     "description": "A Proxy accessory that can be worn with some of Wise's Proxy outfits.",
     "secondaryDescription": "Accessoriy_Desc_412011302",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/icon_Wise_Back_WaistOrnament_Default.webp"
-    }
+    "assets": {}
   },
   {
     "id": "412011303",

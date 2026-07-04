@@ -29986,253 +29986,253 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_001.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4325201_Name"
+    "name": "Gear-AssaultB-LV20"
   },
   "4325202": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_004.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4325202_Name"
+    "name": "Gear-Stun B-LV20"
   },
   "4325203": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_002.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4325203_Name"
+    "name": "Gear-AnomalyB-LV20"
   },
   "4325204": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_005.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4325204_Name"
+    "name": "Gear-SupportB-LV20"
   },
   "4325205": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_003.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4325205_Name"
+    "name": "Gear-RuptureB-LV20"
   },
   "4325206": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4325206_Name"
+    "name": "Gear-DefenseB-LV20"
   },
   "4325301": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_001.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4325301_Name"
+    "name": "Gear-AssaultA-LV30"
   },
   "4325302": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_004.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4325302_Name"
+    "name": "Gear-Stun A-LV30"
   },
   "4325303": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_002.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4325303_Name"
+    "name": "Gear-AnomalyA-LV30"
   },
   "4325304": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_005.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4325304_Name"
+    "name": "Gear-Support A-LV30"
   },
   "4325305": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_003.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4325305_Name"
+    "name": "Gear-RuptureA-LV30"
   },
   "4325306": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_006.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4325306_Name"
+    "name": "Gear-DefenseA-LV30"
   },
   "4325401": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_001.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4325401_Name"
+    "name": "Gear-Assault S-LV40"
   },
   "4325402": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_006.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4325402_Name"
+    "name": "Gear-Stun S-LV40"
   },
   "4325403": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_003.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4325403_Name"
+    "name": "Gear-AnomalyS-LV40"
   },
   "4325404": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_007.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4325404_Name"
+    "name": "Gear-Support S-LV40"
   },
   "4325405": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_005.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4325405_Name"
+    "name": "Gear-RuptureS-LV40"
   },
   "4325406": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4325406_Name"
+    "name": "Gear-Defense S-LV40"
   },
   "4325407": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_002.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4325407_Name"
+    "name": "Gear-AssaultS-2-LV40"
   },
   "4325408": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_004.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4325408_Name"
+    "name": "Gear-AnomalyS-2-LV40"
   },
   "4325409": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_008.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4325409_Name"
+    "name": "Gear-Support S-2-LV40"
   },
   "4326001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326001_Name"
+    "name": "Gear-Ye Shunguang Exclusive-S"
   },
   "4326002": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_001.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326002_Name"
+    "name": "Gear-Hoshimi Miyabi Exclusive-S"
   },
   "4326003": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_005.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326003_Name"
+    "name": "Gear-YixuanExclusive-S"
   },
   "4326004": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_012.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326004_Name"
+    "name": "Gear - Nangong Exclusive - S"
   },
   "4326005": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_022.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326005_Name"
+    "name": "Gear - Dialyn Exclusive - S"
   },
   "4326006": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_007.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326006_Name"
+    "name": "Gear - Lucia Exclusive - S"
   },
   "4326007": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_010.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326007_Name"
+    "name": "Gear - Sunna Exclusive - S"
   },
   "4326008": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_003.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326008_Name"
+    "name": "Gear - Astra Yao Exclusive - S"
   },
   "4326009": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_016.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326009_Name"
+    "name": "Gear - Velina Exclusive - S"
   },
   "4326010": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_018.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326010_Name"
+    "name": "Gear-Remie Exclusive-S"
   },
   "4326011": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_019.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326011_Name"
+    "name": "Gear-Sigrid Exclusive-S"
   },
   "4326012": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_017.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326012_Name"
+    "name": "Gear-Norma Exclusive-S"
   },
   "4326013": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_021.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326013_Name"
+    "name": "Gear-Pyrois Exclusive-S"
   },
   "4326014": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_014.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326014_Name"
+    "name": "Gear-Promeia Exclusive-S"
   },
   "4326015": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_013.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326015_Name"
+    "name": "Gear-Cissia Exclusive-S"
   },
   "4326016": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_011.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326016_Name"
+    "name": "Gear-Aria Exclusive-S"
   },
   "4326017": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_009.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326017_Name"
+    "name": "Gear-Yuzuha Exclusive-S"
   },
   "4326018": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_006.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326018_Name"
+    "name": "Gear-Ju Fufu Exclusive-S"
   },
   "4326019": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_004.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326019_Name"
+    "name": "Gear - Evelyn Exclusive - S"
   },
   "4326020": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_020.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326020_Name"
+    "name": "Gear - Jane Exclusive - S"
   },
   "4326021": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326021_Name"
+    "name": "Gear-Ellen Exclusive-S"
   },
   "4331001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_001.png",

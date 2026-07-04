@@ -24,7 +24,7 @@ DEFAULT_USER_AGENT = (
 
 
 def emit(payload: dict) -> None:
-    sys.stdout.write(json.dumps(payload, ensure_ascii=False))
+    sys.stdout.write(json.dumps(payload, ensure_ascii=True))
 
 
 def urllib_fetch(url: str, timeout: float, user_agent: str) -> dict:

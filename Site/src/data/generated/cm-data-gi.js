@@ -50227,6 +50227,7 @@
       },
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
+      "namecard": "../../Database/GenshinWiki/namecards/MarionetteNew.png",
       "skillIcons": [
         "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
         "../../Database/Nanoka/gi/assets/skills/Skill_S_MarionetteNew_01.webp",
@@ -172562,8 +172563,9 @@
         "../../Database/GenshinWiki/birthday-art/cyno/02-Cyno Birthday 2023 2.png",
         "../../Database/GenshinWiki/birthday-art/cyno/03-Cyno Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/cyno/04-Cyno Birthday 2025.png",
-        "../../Database/GenshinWiki/birthday-art/cyno/05-Cyno TPRGT 2023 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/cyno/06-Cyno TPRGT 2023 - Lumine.png"
+        "../../Database/GenshinWiki/birthday-art/cyno/05-Cyno Birthday 2026.png",
+        "../../Database/GenshinWiki/birthday-art/cyno/06-Cyno TPRGT 2023 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/cyno/07-Cyno TPRGT 2023 - Lumine.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Cyno.png",
       "skillIcons": [
@@ -191004,10 +191006,11 @@
         "../../Database/GenshinWiki/birthday-art/yaemiko/03-Yae Miko Birthday 2023 2.jpg",
         "../../Database/GenshinWiki/birthday-art/yaemiko/04-Yae Miko Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/yaemiko/05-Yae Miko Birthday 2025.png",
-        "../../Database/GenshinWiki/birthday-art/yaemiko/06-Yae Miko TPRGT 2022 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/yaemiko/07-Yae Miko TPRGT 2022 - Lumine.png",
-        "../../Database/GenshinWiki/birthday-art/yaemiko/08-Yae Miko TPRGT 2023 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/yaemiko/09-Yae Miko TPRGT 2023 - Lumine.png"
+        "../../Database/GenshinWiki/birthday-art/yaemiko/06-Yae Miko Birthday 2026.png",
+        "../../Database/GenshinWiki/birthday-art/yaemiko/07-Yae Miko TPRGT 2022 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/yaemiko/08-Yae Miko TPRGT 2022 - Lumine.png",
+        "../../Database/GenshinWiki/birthday-art/yaemiko/09-Yae Miko TPRGT 2023 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/yaemiko/10-Yae Miko TPRGT 2023 - Lumine.png"
       ],
       "skillIcons": [
         "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
@@ -204873,10 +204876,11 @@
         "../../Database/GenshinWiki/birthday-art/raidenshogun/03-Raiden Shogun Birthday 2023 2.png",
         "../../Database/GenshinWiki/birthday-art/raidenshogun/04-Raiden Shogun Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/raidenshogun/05-Raiden Shogun Birthday 2025.png",
-        "../../Database/GenshinWiki/birthday-art/raidenshogun/06-Raiden Shogun TPRGT 2022 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/raidenshogun/07-Raiden Shogun TPRGT 2022 - Lumine.png",
-        "../../Database/GenshinWiki/birthday-art/raidenshogun/08-Raiden Shogun TPRGT 2023 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/raidenshogun/09-Raiden Shogun TPRGT 2023 - Lumine.png"
+        "../../Database/GenshinWiki/birthday-art/raidenshogun/06-Raiden Shogun Birthday 2026.jpg",
+        "../../Database/GenshinWiki/birthday-art/raidenshogun/07-Raiden Shogun TPRGT 2022 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/raidenshogun/08-Raiden Shogun TPRGT 2022 - Lumine.png",
+        "../../Database/GenshinWiki/birthday-art/raidenshogun/09-Raiden Shogun TPRGT 2023 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/raidenshogun/10-Raiden Shogun TPRGT 2023 - Lumine.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Shougun.png",
       "skillIcons": [

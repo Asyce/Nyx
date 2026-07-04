@@ -1,1 +1,226 @@
-[]
+[
+  {
+    "path": "Nanoka/zzz/assets/agents/icons/IconRole67.webp",
+    "nanokaAssetPath": "IconRole67.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/agents/role-icons/IconRole67.webp",
+    "nanokaAssetPath": "IconRole67.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/agents/icons/IconRole66.webp",
+    "nanokaAssetPath": "IconRole66.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle66.webp",
+    "nanokaAssetPath": "IconRoleCircle66.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/agents/role-icons/IconRole66.webp",
+    "nanokaAssetPath": "IconRole66.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/bangboos/BangbooGarageRole48.webp",
+    "nanokaAssetPath": "BangbooGarageRole48.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/monsters/Monster_UVARaven.webp",
+    "nanokaAssetPath": "Monster_UVARaven.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/monsters/Monster_EvolvedBee.webp",
+    "nanokaAssetPath": "Monster_EvolvedBee.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/monsters/Monster_MazingerGoldenBomb.webp",
+    "nanokaAssetPath": "Monster_MazingerGoldenBomb.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/monsters/Monster_GirReborn.webp",
+    "nanokaAssetPath": "Monster_GirReborn.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/monsters/Monster_HeavySoldierPro.webp",
+    "nanokaAssetPath": "Monster_HeavySoldierPro.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/monsters/Monster_MeleeSoldierPro.webp",
+    "nanokaAssetPath": "Monster_MeleeSoldierPro.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/monsters/Monster_RangeSoldierPro.webp",
+    "nanokaAssetPath": "Monster_RangeSoldierPro.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/monsters/Monster_UVARavenPro.webp",
+    "nanokaAssetPath": "Monster_UVARavenPro.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/Activity_SummerTideTreasure_SalesIcon.webp",
+    "nanokaAssetPath": "Activity_SummerTideTreasure_SalesIcon.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/AvatarSkillLight01.webp",
+    "nanokaAssetPath": "AvatarSkillLight01.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/AvatarSkillLight02.webp",
+    "nanokaAssetPath": "AvatarSkillLight02.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/Analeptic.webp",
+    "nanokaAssetPath": "Analeptic.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/TrapTest.webp",
+    "nanokaAssetPath": "TrapTest.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/BuffRandom.webp",
+    "nanokaAssetPath": "BuffRandom.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SuitFool01.webp",
+    "nanokaAssetPath": "SuitFool01.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SuitMagician01.webp",
+    "nanokaAssetPath": "SuitMagician01.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SuitHighPriestess01.webp",
+    "nanokaAssetPath": "SuitHighPriestess01.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SuitEmpress01.webp",
+    "nanokaAssetPath": "SuitEmpress01.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SuitEmperor01.webp",
+    "nanokaAssetPath": "SuitEmperor01.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SuitPope01.webp",
+    "nanokaAssetPath": "SuitPope01.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/HallowBuff02.webp",
+    "nanokaAssetPath": "HallowBuff02.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/CardDailyUse1621.webp",
+    "nanokaAssetPath": "CardDailyUse1621.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/CardDailyUse1631.webp",
+    "nanokaAssetPath": "CardDailyUse1631.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/CardDailyUse1641.webp",
+    "nanokaAssetPath": "CardDailyUse1641.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/CardDailyUse1651.webp",
+    "nanokaAssetPath": "CardDailyUse1651.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/Skin_LucyPrincess.webp",
+    "nanokaAssetPath": "Skin_LucyPrincess.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/Skin_RemielleMoonlightWhispers.webp",
+    "nanokaAssetPath": "Skin_RemielleMoonlightWhispers.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/Skin_SigridTraversing.webp",
+    "nanokaAssetPath": "Skin_SigridTraversing.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/Callingcard49.webp",
+    "nanokaAssetPath": "Callingcard49.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/Callingcard50.webp",
+    "nanokaAssetPath": "Callingcard50.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/LiveWallpaper61.webp",
+    "nanokaAssetPath": "LiveWallpaper61.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/PhotowallDecoration5.webp",
+    "nanokaAssetPath": "PhotowallDecoration5.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/AvatarPose01.webp",
+    "nanokaAssetPath": "AvatarPose01.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/Card02.webp",
+    "nanokaAssetPath": "Card02.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_03.webp",
+    "nanokaAssetPath": "SummerTideTreasure_DroopItemIcon_03.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_01.webp",
+    "nanokaAssetPath": "SummerTideTreasure_DroopItemIcon_01.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_04.webp",
+    "nanokaAssetPath": "SummerTideTreasure_DroopItemIcon_04.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_05.webp",
+    "nanokaAssetPath": "SummerTideTreasure_DroopItemIcon_05.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp",
+    "nanokaAssetPath": "SummerTideTreasure_DroopItemIcon_11.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_08.webp",
+    "nanokaAssetPath": "SummerTideTreasure_DroopItemIcon_08.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_13.webp",
+    "nanokaAssetPath": "SummerTideTreasure_DroopItemIcon_13.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_06.webp",
+    "nanokaAssetPath": "SummerTideTreasure_DroopItemIcon_06.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_02.webp",
+    "nanokaAssetPath": "SummerTideTreasure_DroopItemIcon_02.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_09.webp",
+    "nanokaAssetPath": "SummerTideTreasure_DroopItemIcon_09.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_12.webp",
+    "nanokaAssetPath": "SummerTideTreasure_DroopItemIcon_12.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_10.webp",
+    "nanokaAssetPath": "SummerTideTreasure_DroopItemIcon_10.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_07.webp",
+    "nanokaAssetPath": "SummerTideTreasure_DroopItemIcon_07.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/icon_Wise_Back_WaistOrnament_Default.webp",
+    "nanokaAssetPath": "icon_Wise_Back_WaistOrnament_Default.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/icon_Wise_Head_Glass_06.webp",
+    "nanokaAssetPath": "icon_Wise_Head_Glass_06.webp"
+  },
+  {
+    "path": "Nanoka/zzz/assets/items/icon_Belle_Head_Glass_06.webp",
+    "nanokaAssetPath": "icon_Belle_Head_Glass_06.webp"
+  }
+]

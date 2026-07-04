@@ -88880,9 +88880,7 @@
     "echo": 6000202,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31090_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -89756,7 +89754,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "50ae56fbaaf62266937d8da0c3ff051a1d7a79af20015830e098ab86fcb531a6"
+      "currentHash": "73c8ea49d1e64c6fca1318b4ccaaef1313761e4bb079d5467a6ca26d1e80e286"
     }
   },
   {
@@ -89768,9 +89766,7 @@
     "echo": 6000203,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31091_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -90644,7 +90640,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "dbfc75a3421da0d4345928c9ab4f6e0306b50f9b15cb24193fde2ec79e19147c"
+      "currentHash": "ee8c7b08dba4442962a6e990bfd7a0df29ad772fda56ab6e9418b6a3bf9a11cb"
     }
   },
   {
@@ -90656,9 +90652,7 @@
     "echo": 6000204,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31092_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -91532,7 +91526,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "1b00de2f9fed6f3873a37f9e1fd1160426452209d8753ba195c63b7d531b0be9"
+      "currentHash": "3bd79d5d326147811566ddca90be74c273ee1425351c3f236c630ef04176491e"
     }
   },
   {
@@ -91544,9 +91538,7 @@
     "echo": 6000205,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31093_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -92420,7 +92412,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "e21e27dfa7c30e96323fc5bdc2471d55c07a465bc8a24d5b662a872fafe1df40"
+      "currentHash": "13aaed053b91317dafc1c397c8744ff1c30788cce701a142798e6b652685b73e"
     }
   },
   {
@@ -92432,9 +92424,7 @@
     "echo": 6000206,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31094_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -93308,7 +93298,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "2ef7abd5c0a986d86a2cced4a97976aaed1ca2f2849b4cecc25d19d1425cb2d2"
+      "currentHash": "c766ab8e9d5ef16a29068ef93d4e4c6c4aae1b32b8ba7a856563cea98a501e11"
     }
   },
   {
@@ -93320,9 +93310,7 @@
     "echo": 6000207,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31095_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -94196,7 +94184,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "48b48eed68790400a3698459623ee26877e374da342bf5182fb569a0082a0181"
+      "currentHash": "85197e12d3dfc29039366755e86ce0deb4e66b5daf867e559faeb34d43582748"
     }
   },
   {
@@ -94208,9 +94196,7 @@
     "echo": 6000208,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31096_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -95084,7 +95070,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "56543ac01996758b6bfec82864a56322d2a884e84223f3a2d7f3c7ef014161d8"
+      "currentHash": "f86572f884eb3c27a43ba3196e0c6d351ee7d7d4852913c3f436e89bf8ca13bb"
     }
   },
   {
@@ -95096,9 +95082,7 @@
     "echo": 6000209,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31097_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -95972,7 +95956,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "774fbde5a6ac534839b5583d529bd34af170dc66396b445d655ef52d425aea2d"
+      "currentHash": "f509ce96ba9d412ee62c11e24ff2541570cd917e0de879b2fb2d8ffb7297f517"
     }
   },
   {
@@ -95984,9 +95968,7 @@
     "echo": 6000210,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31098_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -96860,7 +96842,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "4eddce3e6cb9bd4f4bfa705b60618e7c2cdb43197541299aacb41bf48a0360cc"
+      "currentHash": "eebf3144383b271172dd17bb392413addee70720a787ae4984e193b78ed41ac8"
     }
   },
   {
@@ -96872,9 +96854,7 @@
     "echo": 6000211,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31099_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -97748,7 +97728,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "432e899a1aa58da1ef8490fd8e5570d128de5e434d31e2bf9c6014176dd01a5c"
+      "currentHash": "9342237743827432cfdf651f8094acb6cc606de09ea2e2a14f662303d1e4b2b5"
     }
   },
   {
@@ -97760,9 +97740,7 @@
     "echo": 6000212,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31100_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -98636,7 +98614,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "7ca103eee05796f5ac6bbd84494b815a5c03896d7b9c2602a2b7914a758041f5"
+      "currentHash": "5c3c4f3774f4f723020258b6d9f4ea218e641a6cd8cac71e29a5464af98b9c7a"
     }
   },
   {
@@ -98648,9 +98626,7 @@
     "echo": 6000213,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31101_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -99524,7 +99500,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "160f783abe9d27188ecae90f139b0832545d0972f5d98ecbd1f84211d1b16bac"
+      "currentHash": "3bb30bc5a064f9c7bfdf89c04f69fb9613c906abb90657b5621f6d48d4f37485"
     }
   },
   {
@@ -99536,9 +99512,7 @@
     "echo": 6000214,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31102_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -100412,7 +100386,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "e1aad524256a1f752789ae0568f521fa737e7d4081273880a0058fb4ff235eff"
+      "currentHash": "83f4cfeaf1e8eff95c07ae7eee9a219563d902ddfa7ced7b6332c40384a6d4fa"
     }
   },
   {
@@ -160859,9 +160833,7 @@
     "echo": 6000215,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32067_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -161735,7 +161707,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "0bc1752359dd06e6a0ad348dbb81ec7d3562ea0770a5fc33d5ec83b3f4ca4421"
+      "currentHash": "5aeab000d0fd1f3c2f63c8cd7b6fc1b98380dd5d75cc24c532accc9570547435"
     }
   },
   {
@@ -161747,9 +161719,7 @@
     "echo": 6000216,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32068_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -162623,7 +162593,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "728249c3cb648aabf273a2565d0248d58d5bff0e913f52372257b2f85cc8e1ab"
+      "currentHash": "a723c6de80ac1527cb24fe8e7291c9d3aa1b09a1a95476185e22d0cb96d146d1"
     }
   },
   {
@@ -217740,9 +217710,7 @@
     "echo": 6000217,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -218616,7 +218584,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "90549731da382e17d4ac78965f7faa156544ce43f1a468d5a1654fcb42b3def7"
+      "currentHash": "d20763e289589269a63673d20a511958d28717eb114d3880794de38341a0d50a"
     }
   },
   {
@@ -218628,9 +218596,7 @@
     "echo": 6000218,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34031_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {
         "damage_resistance_phys": 1000,
@@ -219504,7 +219470,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "503a6e1411a89a7b828a2b49db11ec465ba99838ca9141c2aa4ab9e1eea5f196"
+      "currentHash": "2f596324b7b1d6dff4f3a087b8ca8a8a4b23775eff4518ceaa80d800c842f87a"
     }
   },
   {
@@ -232254,16 +232220,14 @@
     "element": 2,
     "description": "The guardian of Septimont, dwelling within the ancient arena. A lioness of battle, forged from stone and echoing roar.",
     "openDescription": "This enemy has a <color=HighlightB>higher RES</color> to <color=Fire>Fusion DMG</color>.\n\nShe guards the City of Glory, a valiant lioness of the arena.\n\nBuilt with the pristine white stones that Gryphons are carved out of and tempered in the echoes of battle cries and the laughter of heroes.\n\nThis is Arsinosa, ever steadfast, watching over Septimont’s glory for all time.",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_33022_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {},
       "stats": {}
     },
     "liveComparison": {
-      "liveHash": "f3a161c08ec5d6b615ed7c9e13980e9fe628f2bf1c64697cde90925cbf7ef586",
-      "currentHash": "f3a161c08ec5d6b615ed7c9e13980e9fe628f2bf1c64697cde90925cbf7ef586"
+      "liveHash": "34a47193aa138fc7e5815de393eff8b8b138d1c1bd140d5d9313d06530896ab1",
+      "currentHash": "34a47193aa138fc7e5815de393eff8b8b138d1c1bd140d5d9313d06530896ab1"
     }
   },
   {
@@ -232485,15 +232449,13 @@
     "echo": 6010216,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_32068_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {},
       "stats": {}
     },
     "liveComparison": {
-      "currentHash": "203177ec935079bb86c0b90fd18cee631ddf985ab6fec47c9ee0aa49feb14368"
+      "currentHash": "70d63d4cb108bb74abb4c2f51360690ee0f76b0b739c844b10a5c94b372bae5b"
     }
   },
   {
@@ -232505,15 +232467,13 @@
     "echo": 6010202,
     "description": "Stay tuned",
     "openDescription": "Stay tuned",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_31093_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {},
       "stats": {}
     },
     "liveComparison": {
-      "currentHash": "a4bdf16b2a37597f7847ffb74228d1f07bcef0ff3d825ce7aa51a0ccc549f60e"
+      "currentHash": "e968d706e315008661d33264830c6d6938dc06a8d07e452377bb80b76bde888f"
     }
   }
 ]

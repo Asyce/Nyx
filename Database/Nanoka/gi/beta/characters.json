@@ -210800,8 +210800,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "97628ab7f6366ef571708e9f7cb522fa8df49fcbc415615b26246f90691ac23a",
-      "currentHash": "383f8d3386bb3cbfe9a2fced5d1c71836f2ec13d4c2ce793cfd354a31e2b3e91"
+      "liveHash": "eb656ef674e7c944906e29ff9bd5ff72e5a0be268da212cdf36bbf612a1519ff",
+      "currentHash": "87477cc7f86d82a4d53415006324d63f9218eb0d68ba6d5c4e5766d9a34f0449"
     }
   },
   {
@@ -455624,9 +455624,7 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinBoy.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinBoy_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinBoy_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -458594,8 +458592,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "05f22559f93593e0e7ca195bad439c38c33c3a017a6f42b81bdd7b8523b5d512",
-      "currentHash": "005d5ef83f761c9babe5a3fe91069a604299a73499d57e677e2b221c90503e96"
+      "liveHash": "1cee2d0c1ec04e1a8bda0c7f880e8f7f0112b897ec58c76601ba8c2bc261c572",
+      "currentHash": "a64e77629af1a6fb7d7e87cf4ed9911f0946abb8db3bf3174fe3c3111ead4f83"
     }
   },
   {
@@ -458611,9 +458609,7 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinBoy.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinBoy_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinBoy_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -461581,8 +461577,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "b785657ccd718c4832651cc9d2bfed8e03ee10e4e6ada0a031d516953ec8dd54",
-      "currentHash": "1f8bea912d4976881f9a1d9f6838cad5711b9e16062bb2b00d7343516c9d17fe"
+      "liveHash": "03ea3329cc108be9e66bb64685643e723d72ae37a39657315670e48fd5ee2b99",
+      "currentHash": "2186f01b66155de21ce995044aebf8e3fb64710f6b392f3226c76a1c1a983fd6"
     }
   },
   {
@@ -461598,9 +461594,7 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinBoy.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinBoy_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinBoy_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -464568,8 +464562,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "cdf0a08f58d02cf8b20f11808256b118cce1ae8bdd6b7b4d215bab07058f5f4b",
-      "currentHash": "c538277367f5f606fea40ce90edc573247a53cf477e9631a37c8f83402222f35"
+      "liveHash": "8421d26da4c8af0ff7f99b9592bdd7e825ab327cb6b9e3ac3b5f7da2e4212bfa",
+      "currentHash": "2ab5291d25a34189bc7f3f6295709fb1e2dd823c0ef88d4a4a49032d8bc596a1"
     }
   },
   {
@@ -464585,9 +464579,7 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinBoy.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinBoy_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinBoy_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -467555,7 +467547,7 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "0e1e1d272e8a8b1a49e3195229ac2c0dfc6d2b5f63bcd89f3976bfe548a356c3"
+      "currentHash": "1bbb8fbf149f37b5faae43c92f6f9081a4d709867441c9bd626809a67a3333d9"
     }
   },
   {
@@ -467571,9 +467563,7 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinBoy.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinBoy_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinBoy_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -470541,8 +470531,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "176fb81580fa77a067ccfe8d30023e33145a835a4a9ff0658ca9fec4bdb2dc20",
-      "currentHash": "451ef1b75d1c0dd0688c1b7fb09990f7ec71304aec5d1bbfcdec2b5681a9a115"
+      "liveHash": "b1618e831b938d7e00f3857d4063592fec8ecd4964999848d45e39aa008d29a1",
+      "currentHash": "21927651857487ade7f2153e155539cc991a0f80127ad4b836071111e8201626"
     }
   },
   {
@@ -470558,9 +470548,7 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinBoy.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinBoy_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinBoy_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -473528,8 +473516,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "f88e6bef34788aff96ac0be1cc35af03306760e041d9fdee62a1c530067f2c6a",
-      "currentHash": "119981612151defcc5db69f0daf878dfad08f4534c77f7dcd7399cd27cdeb84d"
+      "liveHash": "1a3eb6376ac1237e66202218fdc300764c080cbadc8bc1386abf037da91c9f8d",
+      "currentHash": "f9b86ecbf2bbf173533e9d34987d27facdc0257f0f383abf49368422555d881e"
     }
   },
   {
@@ -473545,9 +473533,7 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinBoy.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinBoy_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinBoy_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -476515,8 +476501,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "105ef6ca4ec5b3ee039d29e5f37aa388d50b48c8ec1dd1b39c160ae06f533464",
-      "currentHash": "c2a90bbc532a7f54c23271b2e74890f7403fdf7ae33892499d5daad07ee3dfbc"
+      "liveHash": "819666e004f3a6c65c7047d93e25e431f7c7133071486de423d1f9be8bc849a3",
+      "currentHash": "269c89ce538ffac05465609077f40e43236841ddf7a7181b3b96b6bea49ccd5a"
     }
   },
   {
@@ -476532,9 +476518,7 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinGirl.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinGirl_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinGirl_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -479502,8 +479486,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "541897ea339463a83d3373bb8e3ad650512e87d4d386d592c650c12b3eb00e9f",
-      "currentHash": "32e168fe72145e1717f8f16fa4b381796cb3e456ebd8a475c595eb3bf5a6dcd1"
+      "liveHash": "346371d3eecb2a45685404f4f4dbfa06982fbe7350bd57e6c7a2471f5a3c877f",
+      "currentHash": "d1825ac487b175c184393f1c456510a9646b8df6393f4e51f673bcf4d6a4eb35"
     }
   },
   {
@@ -479519,9 +479503,7 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinGirl.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinGirl_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinGirl_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -482489,8 +482471,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "bf743f3559aa3262e589257936e386fb14dd159408868748746e3217a21d05af",
-      "currentHash": "6076ae3dccace59c268b11e33d3916b1147ff359d3845634a5e6929bcb9cdb05"
+      "liveHash": "1fba1ebcdd2344cec6ccb9228b6ba6f513899d9910f97f035af93b513fbb47ba",
+      "currentHash": "1ff302a3b4c28ad6e9fb07a46e92d32d3ec2001eaa448736b89922edf87d1e06"
     }
   },
   {
@@ -482506,9 +482488,7 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinGirl.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinGirl_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinGirl_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -485476,8 +485456,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "980686c9e86e2a8846b5ce2992197a17b99988314dcceb8c1259341a39105f6a",
-      "currentHash": "594feac35353889fc5b7044d9e67ce52c9fe0de455546c71a1aad4128903fee9"
+      "liveHash": "f61d18aa37670d5ccdec5c7c220984e3162043086e1fffc5896760f3e7eef395",
+      "currentHash": "43e91aa9634c86f70ea813f7a201b7a0e92b9ae79c78720f2a06a00b8b9ad406"
     }
   },
   {
@@ -485493,9 +485473,7 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinGirl.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinGirl_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinGirl_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -488463,7 +488441,7 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "ba7d369ee163a5f4b350b46774f61c3e001bdf968080dcb52a76aa2601a5d395"
+      "currentHash": "eeea57d0a55a4ae880f57e1ee9898431ea8a897872f0a5a2be29fa7a69aae5dd"
     }
   },
   {
@@ -488479,9 +488457,7 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinGirl.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinGirl_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinGirl_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -491449,8 +491425,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "4c7ec89b814b4bf90ddb5ed157773af8e767b09db0bce80ad9ace5f79b33c76c",
-      "currentHash": "e654ec1514148f1fa9a3d64016893480021bd028835ba48315ce09e3b69a91f3"
+      "liveHash": "6656b3360396c8ab17653e7e8dec28980cff5b882f63a8aae42379607e326f39",
+      "currentHash": "9dce5366e9929a818a277a7d63d38ad0af4e066c4400c9261431eb18524f55df"
     }
   },
   {
@@ -491466,9 +491442,7 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinGirl.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinGirl_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinGirl_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -494436,8 +494410,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "bc5e66d465964f528707186beebafd883d6a3439ab26108002a70f63f78cc3d4",
-      "currentHash": "c57758c88288f8a3314b0ee51e2045ad2a488d73a81b78cc5a4c3d95d275d260"
+      "liveHash": "5ade235e7e674ae8f6edc0988ea413dad6bdec9c2066824435814cbf7888aa0b",
+      "currentHash": "49ed9b4538567b91cde819eb1854d76395289dfc8d23c68218e841d1c85bfd89"
     }
   },
   {
@@ -494453,9 +494427,7 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinGirl.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinGirl_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinGirl_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -497423,8 +497395,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "03f63dcd246f6df753b7e074bbc2cd65c37173104af1fc92f310fa2a739d68a2",
-      "currentHash": "31399e488d2078e192fbd31151da358f6780a8542d5eb65086e990f2d53b7347"
+      "liveHash": "03f08139c5aad85c23f016f813c1ed462e5ddd097d078875ea625bda6f2e0bc9",
+      "currentHash": "ee3d665e900d888054de4b5cb82b46daab3981e4047ec8535aa1e15b09b61931"
     }
   },
   {
@@ -508970,9 +508942,7 @@
     ],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Nefer.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nefer.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_Nefer_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Nefer_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nefer.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -512818,8 +512788,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "b11f47db17f003c729f7d166b1e450cdfebf5a3b10ec012725ba9e7141a9e7dc",
-      "currentHash": "4d280ce8dd30ace0817dd08c97df331817a6d6c1d3f8712741dcbf45d6139556"
+      "liveHash": "7eb34180b2d6ae40b88de0624376e8dc101f3e06f0670d640337a94b8a77299d",
+      "currentHash": "b02a10876c091bbdb67ecf84c8e078718f60dce592b46ba8dc9f24ae66e35b16"
     }
   },
   {
@@ -512838,9 +512808,7 @@
     ],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Durin.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Durin.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_Durin_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Durin_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Durin.webp"
     },
     "profile": {
       "release_date": "2025-12-02 00:00:00",
@@ -516740,8 +516708,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "ce390c556e0198a6c3560ff859669c905d4839d722fedc766a5893e949e45734",
-      "currentHash": "32b317297901d46b5b2152d12ee38044b2f1f73b9c278e828555d36234415099"
+      "liveHash": "8477951c67f8d38e687080a49b8ca8d00c1b62ed34202e33ae2a496458ad6ee5",
+      "currentHash": "3905721930162ef00772ffcc3d72f511d874133b27a63ed5032d3efe33be87ce"
     }
   },
   {
@@ -516761,7 +516729,6 @@
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Jahoda.webp",
       "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Jahoda.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_Jahoda_Card.webp",
       "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Jahoda_Circle.webp"
     },
     "profile": {
@@ -520545,8 +520512,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "348912a0cf52cb11feb7a52f2be10e32290b861b08c34e5bb02b18b2efa01db1",
-      "currentHash": "902d07f30cee109bee88b91a9835fe49eda1f0806b5953e83e33ef47ba0afb31"
+      "liveHash": "ce43353b965203d0f8eeb059918ce2f507f10fd1bfef2ad52dba4b3efc5d39fd",
+      "currentHash": "9a7fa65b5a9d5e56920a6fa39d2aba3c909c9f613db9be37a067e6cd3ae298d5"
     }
   },
   {
@@ -520565,9 +520532,7 @@
     ],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Columbina.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Columbina.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_Columbina_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Columbina_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Columbina.webp"
     },
     "profile": {
       "release_date": "2026-01-13 00:00:00",
@@ -524452,8 +524417,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "3eb8509bd4af047b5ab6698e673d0332daa2feefda439b1f6884d0c58eddd2d7",
-      "currentHash": "0fec823fc87de9bfe825f68fe3918a2b65be8645666eec16737059bb670cdec0"
+      "liveHash": "58abee0483f8dce601a45ffec900e37b444918f5a89815054570c57b576eac25",
+      "currentHash": "7860d4c90cacd2f6577e7d83659182e194cb1cddc48b187df95d5e8e3b86424d"
     }
   },
   {
@@ -524472,9 +524437,7 @@
     ],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Zibai.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Zibai.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_Zibai_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Zibai_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Zibai.webp"
     },
     "profile": {
       "release_date": "2026-02-03 18:00:00",
@@ -528307,8 +528270,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "4542c6dc1094801fecae31fc6ff863a1bd676f3f6a3adb7c46a9802e4fa0dae8",
-      "currentHash": "f5e37a9e8dcb7530cfbc3b507afd216c624b42723b7be0bec8549e56c465de86"
+      "liveHash": "e8e2535c460823c93c0a2af8d554202a53aeb78fad46efec14913d96aa02f196",
+      "currentHash": "e8d27be9a63dc4d9d51705d58b2ef4bb74a17e9a6738831f204a59e9a25dcbf6"
     }
   },
   {
@@ -528327,9 +528290,7 @@
     ],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Illuga.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Illuga.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_Illuga_Card.webp",
-      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Illuga_Circle.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Illuga.webp"
     },
     "profile": {
       "release_date": "2026-02-03 18:00:00",
@@ -532152,8 +532113,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "66166963a94cf950422fe3da684a6c9e4f5d1a484ca9e513013eb95e10784aa1",
-      "currentHash": "141d8c1c760211a85611a8b4a16b1be3f6bd9789d923de72614f5ee795a44cb4"
+      "liveHash": "24aaefa3ae3b1e8a66e41aab3e5c1ac09e0ee990c9f89b25e17c33f9ed304bfe",
+      "currentHash": "9c3182807d3139175b2d0fe4de27d4c457b5a338107c468068ceb53477772a3e"
     }
   },
   {
@@ -532173,7 +532134,6 @@
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Varka.webp",
       "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Varka.webp",
-      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_Varka_Card.webp",
       "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Varka_Circle.webp"
     },
     "profile": {
@@ -536130,8 +536090,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "13316b5751a1a3b2a38f7ed90dd920434635905085bf1eca0f6de576853418f7",
-      "currentHash": "5d3113afed6a7a4223f0bbe259f19e006cf452cd7a48e5d289940b8988418bc8"
+      "liveHash": "1616ff054533d2b130e09321c8df2bafc4f8ac80a9b7b1439a53ed2adf0e774d",
+      "currentHash": "b9c153ee6b7972c748637a0ed4bf7df09139d57131f6f414d9c6039d747775e5"
     }
   },
   {
@@ -556004,7 +555964,7 @@
       "talents": []
     },
     "liveComparison": {
-      "currentHash": "c8e79efd2de02a72cf7c3194b929c108d10e6632d32dc564eefd0455c18d4b86"
+      "currentHash": "396a29f8d4a065c9ab985a144c7c675ad9bd0143dc7570560b8bc64b24681336"
     }
   },
   {
@@ -556555,7 +556515,7 @@
       "talents": []
     },
     "liveComparison": {
-      "currentHash": "e794a9ad4d3df6354b2779d7c7678c20add2a8125cad428c5dd8ec4f968bc2b6"
+      "currentHash": "95bc9b04c6edb947977a83c4479b41c1c20861e0db2ca2647e0d82980c09f482"
     }
   },
   {
@@ -560078,9 +560038,7 @@
               "name": "Phantasmagorical Dust",
               "rarity": 1,
               "type": "Character and Weapon Enhancement Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
-              }
+              "assets": {}
             }
           ]
         },
@@ -560104,9 +560062,7 @@
               "name": "Broken Tail of the Aether-Drifter",
               "rarity": 4,
               "type": "Character Level-Up Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_113091.webp"
-              }
+              "assets": {}
             },
             {
               "itemId": "101276",
@@ -560124,9 +560080,7 @@
               "name": "Phantasmagorical Dust",
               "rarity": 1,
               "type": "Character and Weapon Enhancement Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
-              }
+              "assets": {}
             }
           ]
         },
@@ -560150,9 +560104,7 @@
               "name": "Broken Tail of the Aether-Drifter",
               "rarity": 4,
               "type": "Character Level-Up Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_113091.webp"
-              }
+              "assets": {}
             },
             {
               "itemId": "101276",
@@ -560170,9 +560122,7 @@
               "name": "Phantasm Crystal",
               "rarity": 2,
               "type": "Character and Weapon Enhancement Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
-              }
+              "assets": {}
             }
           ]
         },
@@ -560196,9 +560146,7 @@
               "name": "Broken Tail of the Aether-Drifter",
               "rarity": 4,
               "type": "Character Level-Up Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_113091.webp"
-              }
+              "assets": {}
             },
             {
               "itemId": "101276",
@@ -560216,9 +560164,7 @@
               "name": "Phantasm Crystal",
               "rarity": 2,
               "type": "Character and Weapon Enhancement Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
-              }
+              "assets": {}
             }
           ]
         },
@@ -560242,9 +560188,7 @@
               "name": "Broken Tail of the Aether-Drifter",
               "rarity": 4,
               "type": "Character Level-Up Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_113091.webp"
-              }
+              "assets": {}
             },
             {
               "itemId": "101276",
@@ -560262,9 +560206,7 @@
               "name": "Dreamy Crystal Koku",
               "rarity": 3,
               "type": "Character and Weapon Enhancement Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
-              }
+              "assets": {}
             }
           ]
         },
@@ -560288,9 +560230,7 @@
               "name": "Broken Tail of the Aether-Drifter",
               "rarity": 4,
               "type": "Character Level-Up Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_113091.webp"
-              }
+              "assets": {}
             },
             {
               "itemId": "101276",
@@ -560308,9 +560248,7 @@
               "name": "Dreamy Crystal Koku",
               "rarity": 3,
               "type": "Character and Weapon Enhancement Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
-              }
+              "assets": {}
             }
           ]
         }
@@ -560331,7 +560269,7 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "9956f34222876071b7934a16d31dcc5dcea85b58f489ddf4a185a74182affe51"
+      "currentHash": "0e89f7c3d8b77fbef2d9899782578f8dc99ec37bbbc77ecab291b767d702ea8c"
     }
   },
   {
@@ -563884,9 +563822,7 @@
               "name": "Chimera",
               "rarity": 1,
               "type": "Character and Weapon Enhancement Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
-              }
+              "assets": {}
             }
           ]
         },
@@ -563910,9 +563846,7 @@
               "name": "Ever-Flame Seed",
               "rarity": 4,
               "type": "Character Level-Up Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_113090.webp"
-              }
+              "assets": {}
             },
             {
               "itemId": "101275",
@@ -563930,9 +563864,7 @@
               "name": "Chimera",
               "rarity": 1,
               "type": "Character and Weapon Enhancement Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
-              }
+              "assets": {}
             }
           ]
         },
@@ -563956,9 +563888,7 @@
               "name": "Ever-Flame Seed",
               "rarity": 4,
               "type": "Character Level-Up Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_113090.webp"
-              }
+              "assets": {}
             },
             {
               "itemId": "101275",
@@ -563976,9 +563906,7 @@
               "name": "Symbiotic Chimera Cell",
               "rarity": 2,
               "type": "Character and Weapon Enhancement Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
-              }
+              "assets": {}
             }
           ]
         },
@@ -564002,9 +563930,7 @@
               "name": "Ever-Flame Seed",
               "rarity": 4,
               "type": "Character Level-Up Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_113090.webp"
-              }
+              "assets": {}
             },
             {
               "itemId": "101275",
@@ -564022,9 +563948,7 @@
               "name": "Symbiotic Chimera Cell",
               "rarity": 2,
               "type": "Character and Weapon Enhancement Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
-              }
+              "assets": {}
             }
           ]
         },
@@ -564048,9 +563972,7 @@
               "name": "Ever-Flame Seed",
               "rarity": 4,
               "type": "Character Level-Up Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_113090.webp"
-              }
+              "assets": {}
             },
             {
               "itemId": "101275",
@@ -564068,9 +563990,7 @@
               "name": "Primordial Chimera",
               "rarity": 3,
               "type": "Character and Weapon Enhancement Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
-              }
+              "assets": {}
             }
           ]
         },
@@ -564094,9 +564014,7 @@
               "name": "Ever-Flame Seed",
               "rarity": 4,
               "type": "Character Level-Up Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_113090.webp"
-              }
+              "assets": {}
             },
             {
               "itemId": "101275",
@@ -564114,9 +564032,7 @@
               "name": "Primordial Chimera",
               "rarity": 3,
               "type": "Character and Weapon Enhancement Material",
-              "assets": {
-                "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
-              }
+              "assets": {}
             }
           ]
         }
@@ -564137,7 +564053,7 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "abf3bd882135485ab6e69e1584a866bcb8f3dcd50ff474bfe47ca8429f449fd8"
+      "currentHash": "024c9bb9e9dd092872c18a97d93e2e1121e6450901e23acdfc4b3c66e10b7c21"
     }
   }
 ]

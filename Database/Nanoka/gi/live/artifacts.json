@@ -3171,9 +3171,7 @@
       5
     ],
     "type": "artifact set",
-    "assets": {
-      "icon": "Nanoka/gi/assets/artifacts/sets/UI_RelicIcon_15004_4.webp"
-    },
+    "assets": {},
     "setEffects": [
       {
         "id": "2150040",
@@ -3249,9 +3247,7 @@
             "ko": "ART/UI/Readable/KR/Relic15004_4_KR"
           }
         },
-        "assets": {
-          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15004_4.webp"
-        }
+        "assets": {}
       },
       {
         "slot": "equip_dress",
@@ -3265,9 +3261,7 @@
             "ko": "ART/UI/Readable/KR/Relic15004_3_KR"
           }
         },
-        "assets": {
-          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15004_3.webp"
-        }
+        "assets": {}
       },
       {
         "slot": "equip_necklace",
@@ -3281,9 +3275,7 @@
             "ko": "ART/UI/Readable/KR/Relic15004_2_KR"
           }
         },
-        "assets": {
-          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15004_2.webp"
-        }
+        "assets": {}
       },
       {
         "slot": "equip_ring",
@@ -3297,9 +3289,7 @@
             "ko": "ART/UI/Readable/KR/Relic15004_1_KR"
           }
         },
-        "assets": {
-          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15004_1.webp"
-        }
+        "assets": {}
       },
       {
         "slot": "equip_shoes",
@@ -3313,9 +3303,7 @@
             "ko": "ART/UI/Readable/KR/Relic15004_5_KR"
           }
         },
-        "assets": {
-          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15004_5.webp"
-        }
+        "assets": {}
       }
     ]
   },
@@ -4133,9 +4121,7 @@
       5
     ],
     "type": "artifact set",
-    "assets": {
-      "icon": "Nanoka/gi/assets/artifacts/sets/UI_RelicIcon_15012_3.webp"
-    },
+    "assets": {},
     "setEffects": [
       {
         "id": "2150120",
@@ -4181,9 +4167,7 @@
             "ko": "ART/UI/Readable/KR/Relic15012_3_KR"
           }
         },
-        "assets": {
-          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15012_3.webp"
-        }
+        "assets": {}
       }
     ]
   },

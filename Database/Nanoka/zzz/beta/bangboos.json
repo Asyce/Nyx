@@ -21835,9 +21835,7 @@
     "codeName": "Ariel",
     "rarity": 4,
     "description": "Never walk alone in the land of None.",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/bangboos/BangbooGarageRole48.webp"
-    },
+    "assets": {},
     "stats": {
       "endurance": 180,
       "hp_max": 396,
@@ -22414,7 +22412,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "2b648ad743a50d47ca29ddab75c92d006e9e1a52eee112f2bde79580d5dcb235"
+      "currentHash": "9b09b22eb2451dbcf254752634bb33b12de69474137d1d122192c384e24d17be"
     }
   },
   {
@@ -22451,7 +22449,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "be449a572ea7696f14a3f33a52733706bd4ff1cf521532f0130814a2effb9166"
+      "currentHash": "5c82e73c6249d526ad8bef928c51a97e573989c8527a0704eadd7a5f24eb5b31"
     }
   },
   {
@@ -22836,7 +22834,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "ca2e522a520f90c985e79f540617bed00620248b6a87e77290749a39f06e9825"
+      "currentHash": "0a8da241cddfe0ba925f5e9b25b056c3a1017c4c19398606fcd87bf9d7d2eb1f"
     }
   }
 ]

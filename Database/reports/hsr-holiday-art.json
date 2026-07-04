@@ -1,8 +1,8 @@
 {
-  "startedAt": "2026-06-22T21:05:29.448Z",
-  "generatedAt": "2026-06-22T21:06:37.049Z",
-  "total": 90,
-  "withHolidayArt": 72,
+  "startedAt": "2026-07-04T18:08:43.565Z",
+  "generatedAt": "2026-07-04T18:09:40.175Z",
+  "total": 92,
+  "withHolidayArt": 73,
   "fallbackToSplash": [
     {
       "name": "Archer",
@@ -13,6 +13,12 @@
       "name": "Arlan",
       "status": "fallback",
       "page": "Arlan/Media"
+    },
+    {
+      "name": "Aventurine Waveflair",
+      "status": "error",
+      "page": "Aventurine Waveflair/Media",
+      "error": "Aventurine Waveflair/Media: missingtitle"
     },
     {
       "name": "Cerydra",
@@ -66,6 +72,12 @@
       "page": "Rin Tohsaka/Media"
     },
     {
+      "name": "Robin Summeretto",
+      "status": "error",
+      "page": "Robin Summeretto/Media",
+      "error": "Robin Summeretto/Media: missingtitle"
+    },
+    {
       "name": "Saber",
       "status": "fallback",
       "page": "Saber/Media"
@@ -75,11 +87,6 @@
       "status": "error",
       "page": "Silver Wolf • Lv. 999/Media",
       "error": "Silver Wolf • Lv. 999/Media: missingtitle"
-    },
-    {
-      "name": "Sparxie",
-      "status": "fallback",
-      "page": "Sparxie/Media"
     },
     {
       "name": "Tingyun",

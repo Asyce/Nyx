@@ -1,11 +1,30 @@
 {
-  "generatedAt": "2026-06-22T21:06:37.798Z",
-  "startedAt": "2026-06-22T21:06:37.583Z",
+  "generatedAt": "2026-07-04T18:08:43.509Z",
+  "startedAt": "2026-07-04T18:08:37.892Z",
   "dryRun": false,
   "source": "GameWith character build pages",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
   "existingSignatures": 115,
-  "targetCharacters": [],
+  "targetCharacters": [
+    {
+      "name": "Alyosha",
+      "rarity": 4,
+      "weaponType": "Polearm",
+      "channel": "beta"
+    },
+    {
+      "name": "Odette",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "channel": "beta"
+    },
+    {
+      "name": "TPS Traveler",
+      "rarity": 5,
+      "weaponType": "WEAPON_CROSSBOW",
+      "channel": "beta"
+    }
+  ],
   "skipped": [
     {
       "name": "Traveler",
@@ -13,12 +32,27 @@
       "weaponType": "Sword"
     }
   ],
-  "results": [],
+  "results": [
+    {
+      "character": "Alyosha",
+      "status": "no-explicit-signature-phrase",
+      "characterPage": "https://gamewith.net/genshin-impact/article/show/76471"
+    },
+    {
+      "character": "Odette",
+      "status": "no-explicit-signature-phrase",
+      "characterPage": "https://gamewith.net/genshin-impact/article/show/76476"
+    },
+    {
+      "character": "TPS Traveler",
+      "status": "no-character-page"
+    }
+  ],
   "summary": {
-    "targets": 0,
+    "targets": 3,
     "found": 0,
     "added": 0,
     "skipped": 1,
-    "unresolved": 0
+    "unresolved": 3
   }
 }

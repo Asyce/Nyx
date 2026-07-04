@@ -58044,6 +58044,9 @@
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1501.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/sparxie-234f67152306.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/sparxie-67b870bc5ac4.webp",
+      "holidayArtPool": [
+        "../../Database/HsrWiki/holiday-art/sparxie/01-Scarlet Sails 2026.png"
+      ],
       "signatureLightCone": {
         "id": "23053",
         "name": "Dazzled by a Flowery World",

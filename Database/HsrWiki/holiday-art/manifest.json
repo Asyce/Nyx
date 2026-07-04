@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T21:06:37.049Z",
+  "generatedAt": "2026-07-04T18:09:40.175Z",
   "source": "Honkai: Star Rail Wiki / Fandom MediaWiki API",
   "sourceExample": "https://honkai-star-rail.fandom.com/wiki/Kafka/Media",
   "requestedWidth": 1600,
@@ -218,6 +218,14 @@
           "mime": "image/png"
         }
       ]
+    },
+    {
+      "name": "Aventurine Waveflair",
+      "key": "aventurinewaveflair",
+      "page": "Aventurine Waveflair/Media",
+      "status": "error",
+      "error": "Aventurine Waveflair/Media: missingtitle",
+      "artworks": []
     },
     {
       "name": "Bailu",
@@ -2027,6 +2035,14 @@
       ]
     },
     {
+      "name": "Robin Summeretto",
+      "key": "robinsummeretto",
+      "page": "Robin Summeretto/Media",
+      "status": "error",
+      "error": "Robin Summeretto/Media: missingtitle",
+      "artworks": []
+    },
+    {
       "name": "Ruan Mei",
       "key": "ruanmei",
       "page": "Ruan Mei/Media",
@@ -2213,8 +2229,21 @@
       "name": "Sparxie",
       "key": "sparxie",
       "page": "Sparxie/Media",
-      "status": "fallback",
-      "artworks": []
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Scarlet Sails 2026.png",
+          "title": "Scarlet Sails 2026.png (4.8 MB)",
+          "localAsset": "HsrWiki/holiday-art/sparxie/01-Scarlet Sails 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Sparxie/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Scarlet_Sails_2026.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
     },
     {
       "name": "Sunday",

@@ -3148,9 +3148,7 @@
       5
     ],
     "type": "artifact set",
-    "assets": {
-      "icon": "Nanoka/gi/assets/artifacts/sets/UI_RelicIcon_15004_4.webp"
-    },
+    "assets": {},
     "setEffects": [
       {
         "id": "2150040",
@@ -3221,9 +3219,7 @@
             "ko": "ART/UI/Readable/KR/Relic15004_4_KR"
           }
         },
-        "assets": {
-          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15004_4.webp"
-        }
+        "assets": {}
       },
       {
         "slot": "equip_dress",
@@ -3237,9 +3233,7 @@
             "ko": "ART/UI/Readable/KR/Relic15004_3_KR"
           }
         },
-        "assets": {
-          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15004_3.webp"
-        }
+        "assets": {}
       },
       {
         "slot": "equip_necklace",
@@ -3253,9 +3247,7 @@
             "ko": "ART/UI/Readable/KR/Relic15004_2_KR"
           }
         },
-        "assets": {
-          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15004_2.webp"
-        }
+        "assets": {}
       },
       {
         "slot": "equip_ring",
@@ -3269,9 +3261,7 @@
             "ko": "ART/UI/Readable/KR/Relic15004_1_KR"
           }
         },
-        "assets": {
-          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15004_1.webp"
-        }
+        "assets": {}
       },
       {
         "slot": "equip_shoes",
@@ -3285,14 +3275,12 @@
             "ko": "ART/UI/Readable/KR/Relic15004_5_KR"
           }
         },
-        "assets": {
-          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15004_5.webp"
-        }
+        "assets": {}
       }
     ],
     "liveComparison": {
-      "liveHash": "f90a3d7e439a6faee290fe3c16739ae43bd5bbbb67c2a3e0398a15389c0e9993",
-      "currentHash": "4c50ea070b5bb594250a98f0b4ad5e6b6580b8d504e57cfa28303c9dff7c4e6e"
+      "liveHash": "f404e64326a9da7d1b8fa782ff3c2fdaa9f157a714bbfd80b5acd97bf3bd3d67",
+      "currentHash": "e19f3d07313f25ade4c5e81887c6d0371c245f92de86d65444b2b54a6c70bd98"
     }
   },
   {
@@ -4107,9 +4095,7 @@
       5
     ],
     "type": "artifact set",
-    "assets": {
-      "icon": "Nanoka/gi/assets/artifacts/sets/UI_RelicIcon_15012_3.webp"
-    },
+    "assets": {},
     "setEffects": [
       {
         "id": "2150120",
@@ -4152,14 +4138,12 @@
             "ko": "ART/UI/Readable/KR/Relic15012_3_KR"
           }
         },
-        "assets": {
-          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15012_3.webp"
-        }
+        "assets": {}
       }
     ],
     "liveComparison": {
-      "liveHash": "94d0b1e10aedb9a6ffe719d20ad07b3d39e33c25bd6231ffdfea52e945de4424",
-      "currentHash": "482cf2023c9a6ff4b9152cc38af659a9bb738f2ff5dda4412f8b225d9160d758"
+      "liveHash": "259c3f03e93e4ed527422e44b2c30d1f3b049921dca20b3927ef06ca93642011",
+      "currentHash": "a71df1325cde1dbe515a694e1b57e29ff22c21ff78e80f1cfac1644f0fe63c4b"
     }
   },
   {

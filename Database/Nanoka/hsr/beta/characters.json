@@ -353896,7 +353896,6 @@
     "description": "Body like spring wood, heart like dead ash. Yet embers of a craftsman's spark still linger at his fingertips.\\nAs ancient grudges are ignited once more, he promises to send both himself and the gods to the other side...\\nTorn flesh, tempered a thousand times into a blade... What answer will it create?",
     "release": 1780304400,
     "assets": {
-      "avatar": "Nanoka/hsr/assets/characters/avatar/1507.webp",
       "roundIcon": "Nanoka/hsr/assets/characters/round/1507.webp",
       "shopIcon": "Nanoka/hsr/assets/characters/shop/1507.webp",
       "drawCard": "Nanoka/hsr/assets/characters/draw-card/1507.webp"
@@ -358327,8 +358326,8 @@
       "spNeed": 160
     },
     "liveComparison": {
-      "liveHash": "e7d66c22a333f65503c9714f2314b88c28f3ebb49608ee17a305838cb6f59378",
-      "currentHash": "4f743722914b162ed793eb888d4a87e05f88c5156ae3a513724490d6df5aee96"
+      "liveHash": "4b22fa28567341cd2d10ddd25d66fd4ad8208ed4d242d4ea7e672e35b26ba5bb",
+      "currentHash": "e1fb625371427b14f2212b5d8f0549559fddeb546c79e4e95e53efb4aa9c3a27"
     }
   },
   {

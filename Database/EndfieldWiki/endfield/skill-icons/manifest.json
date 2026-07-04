@@ -160,5 +160,11 @@
     "EndfieldWiki/endfield/skill-icons/Skill-Fluorite.png",
     "EndfieldWiki/endfield/skill-icons/Combo-Fluorite.png",
     "EndfieldWiki/endfield/skill-icons/Ult-Fluorite.png"
+  ],
+  "camille": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Polearm.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Camille.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Camille.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Camille.png"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T21:05:28.896Z",
+  "generatedAt": "2026-07-04T18:08:24.898Z",
   "source": "Genshin Impact Wiki / Fandom MediaWiki API",
   "sourceExample": "https://genshin-impact.fandom.com/wiki/Ifa/Gallery",
   "requestedWidth": 1800,
@@ -1586,9 +1586,21 @@
           "mime": "image/png"
         },
         {
+          "file": "Cyno Birthday 2026.png",
+          "title": "Cyno Birthday 2026.png (4.76 MB)",
+          "localAsset": "GenshinWiki/birthday-art/cyno/05-Cyno Birthday 2026.png",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Cyno/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Cyno_Birthday_2026.png",
+          "width": 1800,
+          "height": 1799,
+          "originalWidth": 3270,
+          "originalHeight": 3268,
+          "mime": "image/png"
+        },
+        {
           "file": "Cyno TPRGT 2023 - Aether.png",
           "title": "Cyno TPRGT 2023 - Aether.png (2.62 MB)",
-          "localAsset": "GenshinWiki/birthday-art/cyno/05-Cyno TPRGT 2023 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/cyno/06-Cyno TPRGT 2023 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Cyno/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Cyno_TPRGT_2023_-_Aether.png",
           "width": 1800,
@@ -1600,7 +1612,7 @@
         {
           "file": "Cyno TPRGT 2023 - Lumine.png",
           "title": "Cyno TPRGT 2023 - Lumine.png (2.61 MB)",
-          "localAsset": "GenshinWiki/birthday-art/cyno/06-Cyno TPRGT 2023 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/cyno/07-Cyno TPRGT 2023 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Cyno/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Cyno_TPRGT_2023_-_Lumine.png",
           "width": 1800,
@@ -3946,7 +3958,7 @@
         },
         {
           "file": "Keqing Birthday 2025.png",
-          "title": "Keqing Birthday 2025.png (8.86 MB)",
+          "title": "Keqing Birthday 2025.png (9.73 MB)",
           "localAsset": "GenshinWiki/birthday-art/keqing/06-Keqing Birthday 2025.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Keqing/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Keqing_Birthday_2025.png",
@@ -5974,9 +5986,21 @@
           "mime": "image/png"
         },
         {
+          "file": "Raiden Shogun Birthday 2026.jpg",
+          "title": "Raiden Shogun Birthday 2026.jpg (2.24 MB)",
+          "localAsset": "GenshinWiki/birthday-art/raidenshogun/06-Raiden Shogun Birthday 2026.jpg",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Raiden%20Shogun/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Raiden_Shogun_Birthday_2026.jpg",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 3000,
+          "originalHeight": 3000,
+          "mime": "image/jpeg"
+        },
+        {
           "file": "Raiden Shogun TPRGT 2022 - Aether.png",
           "title": "Raiden Shogun TPRGT 2022 - Aether.png (2.27 MB)",
-          "localAsset": "GenshinWiki/birthday-art/raidenshogun/06-Raiden Shogun TPRGT 2022 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/raidenshogun/07-Raiden Shogun TPRGT 2022 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Raiden%20Shogun/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Raiden_Shogun_TPRGT_2022_-_Aether.png",
           "width": 1800,
@@ -5988,7 +6012,7 @@
         {
           "file": "Raiden Shogun TPRGT 2022 - Lumine.png",
           "title": "Raiden Shogun TPRGT 2022 - Lumine.png (2.26 MB)",
-          "localAsset": "GenshinWiki/birthday-art/raidenshogun/07-Raiden Shogun TPRGT 2022 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/raidenshogun/08-Raiden Shogun TPRGT 2022 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Raiden%20Shogun/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Raiden_Shogun_TPRGT_2022_-_Lumine.png",
           "width": 1800,
@@ -6000,7 +6024,7 @@
         {
           "file": "Raiden Shogun TPRGT 2023 - Aether.png",
           "title": "Raiden Shogun TPRGT 2023 - Aether.png (1.84 MB)",
-          "localAsset": "GenshinWiki/birthday-art/raidenshogun/08-Raiden Shogun TPRGT 2023 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/raidenshogun/09-Raiden Shogun TPRGT 2023 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Raiden%20Shogun/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Raiden_Shogun_TPRGT_2023_-_Aether.png",
           "width": 1800,
@@ -6012,7 +6036,7 @@
         {
           "file": "Raiden Shogun TPRGT 2023 - Lumine.png",
           "title": "Raiden Shogun TPRGT 2023 - Lumine.png (1.83 MB)",
-          "localAsset": "GenshinWiki/birthday-art/raidenshogun/09-Raiden Shogun TPRGT 2023 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/raidenshogun/10-Raiden Shogun TPRGT 2023 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Raiden%20Shogun/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Raiden_Shogun_TPRGT_2023_-_Lumine.png",
           "width": 1800,
@@ -6266,6 +6290,13 @@
           "mime": "image/png"
         }
       ]
+    },
+    {
+      "name": "Sandrone",
+      "key": "sandrone",
+      "page": "Sandrone/Gallery",
+      "status": "fallback",
+      "artworks": []
     },
     {
       "name": "Sangonomiya Kokomi",
@@ -8305,20 +8336,32 @@
         },
         {
           "file": "Yae Miko Birthday 2025.png",
-          "title": "Yae Miko Birthday 2025.png (5.24 MB)",
+          "title": "Yae Miko Birthday 2025.png (7.24 MB)",
           "localAsset": "GenshinWiki/birthday-art/yaemiko/05-Yae Miko Birthday 2025.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Yae%20Miko/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Yae_Miko_Birthday_2025.png",
           "width": 1800,
           "height": 1800,
-          "originalWidth": 2048,
-          "originalHeight": 2048,
+          "originalWidth": 3000,
+          "originalHeight": 3000,
+          "mime": "image/png"
+        },
+        {
+          "file": "Yae Miko Birthday 2026.png",
+          "title": "Yae Miko Birthday 2026.png (8.99 MB)",
+          "localAsset": "GenshinWiki/birthday-art/yaemiko/06-Yae Miko Birthday 2026.png",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Yae%20Miko/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Yae_Miko_Birthday_2026.png",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 3000,
+          "originalHeight": 3000,
           "mime": "image/png"
         },
         {
           "file": "Yae Miko TPRGT 2022 - Aether.png",
           "title": "Yae Miko TPRGT 2022 - Aether.png (2.05 MB)",
-          "localAsset": "GenshinWiki/birthday-art/yaemiko/06-Yae Miko TPRGT 2022 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/yaemiko/07-Yae Miko TPRGT 2022 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Yae%20Miko/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Yae_Miko_TPRGT_2022_-_Aether.png",
           "width": 1800,
@@ -8330,7 +8373,7 @@
         {
           "file": "Yae Miko TPRGT 2022 - Lumine.png",
           "title": "Yae Miko TPRGT 2022 - Lumine.png (2.07 MB)",
-          "localAsset": "GenshinWiki/birthday-art/yaemiko/07-Yae Miko TPRGT 2022 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/yaemiko/08-Yae Miko TPRGT 2022 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Yae%20Miko/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Yae_Miko_TPRGT_2022_-_Lumine.png",
           "width": 1800,
@@ -8342,7 +8385,7 @@
         {
           "file": "Yae Miko TPRGT 2023 - Aether.png",
           "title": "Yae Miko TPRGT 2023 - Aether.png (3.27 MB)",
-          "localAsset": "GenshinWiki/birthday-art/yaemiko/08-Yae Miko TPRGT 2023 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/yaemiko/09-Yae Miko TPRGT 2023 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Yae%20Miko/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Yae_Miko_TPRGT_2023_-_Aether.png",
           "width": 1800,
@@ -8354,7 +8397,7 @@
         {
           "file": "Yae Miko TPRGT 2023 - Lumine.png",
           "title": "Yae Miko TPRGT 2023 - Lumine.png (3.24 MB)",
-          "localAsset": "GenshinWiki/birthday-art/yaemiko/09-Yae Miko TPRGT 2023 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/yaemiko/10-Yae Miko TPRGT 2023 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Yae%20Miko/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Yae_Miko_TPRGT_2023_-_Lumine.png",
           "width": 1800,

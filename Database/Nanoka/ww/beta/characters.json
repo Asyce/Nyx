@@ -10,8 +10,7 @@
     "description": "The <te href=850124>bodyguard</te> of <te href=850091>Jinzhou</te>'s <te href=850084>Magistrate</te>, known for having an icy personality.\nOnce regarded as the Asura of Calamity, Sanhua is now a taciturn guardian. She has learned to maintain inner calmness amidst the chaotic frequencies, and the things that once frightened her now fuel her determination.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shanhua_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodySanhua.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shanhua_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -3105,8 +3104,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "30d5e8c88286ab39ccab2884237290e9292bc5453101e5373f3e5d5ece12f282",
-      "currentHash": "30d5e8c88286ab39ccab2884237290e9292bc5453101e5373f3e5d5ece12f282"
+      "liveHash": "f75cc93f66f975a6b1b3b6233ed2dcba7c1b811c0a3d9df20d46f76c4cfe3698",
+      "currentHash": "f75cc93f66f975a6b1b3b6233ed2dcba7c1b811c0a3d9df20d46f76c4cfe3698"
     }
   },
   {
@@ -3120,8 +3119,7 @@
     "description": "Baizhi is a researcher in <te href=850076>Remnant</te> Ecoacoustics.\nBaizhi's once unfulfilled wish has now manifested as her loyal companion. The Remnant Creature You'tan is her source of healing powers, and a lifelong research focus.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_6_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_bailian_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyBaizhi.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_bailian_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -6119,8 +6117,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "84f39569e61fc644ff42710af1d270fb862e803a15a74d7de8a171d932083bbf",
-      "currentHash": "84f39569e61fc644ff42710af1d270fb862e803a15a74d7de8a171d932083bbf"
+      "liveHash": "f137bc9289151d009cae2570400184dc1852229a846eb824249e6836705a06ff",
+      "currentHash": "f137bc9289151d009cae2570400184dc1852229a846eb824249e6836705a06ff"
     }
   },
   {
@@ -9285,8 +9283,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "ac8c0bcc0f29898d437053e7f4ba03586b08724c2dbf8a37e8116652c43ec60b",
-      "currentHash": "ac8c0bcc0f29898d437053e7f4ba03586b08724c2dbf8a37e8116652c43ec60b"
+      "liveHash": "c4d86d0ff86b4baf7056ac30f25ada72ae6a235c70d1a3231ad6650b2d04cafc",
+      "currentHash": "c4d86d0ff86b4baf7056ac30f25ada72ae6a235c70d1a3231ad6650b2d04cafc"
     }
   },
   {
@@ -9300,8 +9298,7 @@
     "description": "An artist for hire trying to make a living. Reserved and timid, she is not good with words but speaks volumes through her art, where her creations come to life with impossible authenticity.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_27_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhezhi_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZhezhi.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhezhi_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -12299,8 +12296,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "db3db78f50b0d669c8df9f1e357f3c3ffc4e406d00a9b1d4b97e0dd019f58948",
-      "currentHash": "db3db78f50b0d669c8df9f1e357f3c3ffc4e406d00a9b1d4b97e0dd019f58948"
+      "liveHash": "1e1ba84e3fbd432e92147ef1ecdc3c807171c81aa01ce6c603ccad956f440186",
+      "currentHash": "1e1ba84e3fbd432e92147ef1ecdc3c807171c81aa01ce6c603ccad956f440186"
     }
   },
   {
@@ -12314,8 +12311,7 @@
     "description": "A voluble and whimsical antique appraiser.\nKnown for creating limericks on the spot, she presents her appraisals with flair and precision. She sets up a stall on the street, ensuring antiques find their way to those who truly cherish them.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_31_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_youhu_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyYouhu.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_youhu_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -15419,8 +15415,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "ce624d83185c8e6d955325c89f2a6f27a63fd3d2f7987525d92cf211bcb40afd",
-      "currentHash": "ce624d83185c8e6d955325c89f2a6f27a63fd3d2f7987525d92cf211bcb40afd"
+      "liveHash": "3b662c8af92831fed1f0e7986be0aeaab0d9cceaa2991b2fdce7664fe1d4f44b",
+      "currentHash": "3b662c8af92831fed1f0e7986be0aeaab0d9cceaa2991b2fdce7664fe1d4f44b"
     }
   },
   {
@@ -15434,8 +15430,7 @@
     "description": "The second daughter of <te href=850101>Montelli</te> and an art investor unbound by convention, Carlotta moves seamlessly through social circles and business transactions while quietly handling the family's unspeakable \"troubles\" in secret.\nThe blooming of a \"gem,\" the taking of a life—In her own name, she reshapes reality, giving it a new dimension.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_32_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kelaita_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyKelaita.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kelaita_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -18754,8 +18749,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "4a25ab3b7fde486b098af48f3c74a066b6cdfe9fbd945dec5370f74d10a9c969",
-      "currentHash": "4a25ab3b7fde486b098af48f3c74a066b6cdfe9fbd945dec5370f74d10a9c969"
+      "liveHash": "6f4072a35a9b9a8abed2c35a0bed0b6840e17e1391e2b60f7bea72629981e399",
+      "currentHash": "6f4072a35a9b9a8abed2c35a0bed0b6840e17e1391e2b60f7bea72629981e399"
     }
   },
   {
@@ -18769,8 +18764,7 @@
     "description": "Hailing from Ashinohara, the Miko of Flaming Sakura now remains in Lahai-Roi as the last and only member of the Special Response Force.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Feixue_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyFeiXue.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Feixue_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -22422,8 +22416,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "ee464e1dcfefe119a7c483fbdcc9690d891e9cb982c9632567f66a2b6dd5b4d1",
-      "currentHash": "ee464e1dcfefe119a7c483fbdcc9690d891e9cb982c9632567f66a2b6dd5b4d1"
+      "liveHash": "a8eb2d387a98ec45944de0a16da691d211baf85944df452f6f67338939f67bae",
+      "currentHash": "a8eb2d387a98ec45944de0a16da691d211baf85944df452f6f67338939f67bae"
     }
   },
   {
@@ -22436,8 +22430,7 @@
     "description": "Lucilla, President of Startorch Academy and idealist with both feet on the ground. She holds quiet vigil over her students as they rise to challenge the very sky.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_66_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Luosela_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLuoSeLa.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Luosela_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -25569,8 +25562,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "8f42f8615e88a12b575f1e0936eea0b15c5f56e6fa62c0065d642b6c853a8a3d",
-      "currentHash": "37fc9da92690170510967647708a78281aa462ab17228d0a454756e28f40c1a8"
+      "liveHash": "d1f1cc2d73ffa2ac4bf2f648ff84a12de0fc5f5a707572ebc62a969d3d544d4b",
+      "currentHash": "32ed4ba454134455e1b81398912097fd41a8bf1a6b833018e7ac8c3c1b46be6e"
     }
   },
   {
@@ -25582,8 +25575,7 @@
     "weapon": 5,
     "element": 1,
     "assets": {
-      "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Suisui_UI.webp"
+      "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -27118,9 +27110,7 @@
             "100",
             "102"
           ],
-          "assets": {
-            "icon": "Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiY.webp"
-          },
+          "assets": {},
           "levels": [
             {
               "key": "1",
@@ -27957,9 +27947,7 @@
           "30",
           "100%"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_SuisuiM1_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "2",
@@ -27968,9 +27956,7 @@
         "params": [
           "50%"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_SuisuiM2_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "3",
@@ -27981,9 +27967,7 @@
           "350",
           "25"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_SuisuiM3_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "4",
@@ -27992,9 +27976,7 @@
         "params": [
           "50%"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_SuisuiM4_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "5",
@@ -28003,9 +27985,7 @@
         "params": [
           "100%"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_SuisuiM5_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "6",
@@ -28014,9 +27994,7 @@
         "params": [
           "500%"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_SuisuiM6_UI.webp"
-        }
+        "assets": {}
       }
     ],
     "ascensions": {
@@ -28307,7 +28285,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "aa03d0ca1df2a767fc53446de7b029d2061a6da1bcca1301ea77905b70150906"
+      "currentHash": "b67c459648044c0e2776dd798ec7382fac5c980be1a06f2826aa36e0e92b8a17"
     }
   },
   {
@@ -28321,8 +28299,7 @@
     "description": "Chixia is a spirited young Jinzhou Patroller who lights up the streets of Jinzhou. She's always ready to be the hero someone needs.\nShe fuses such passion into the bullets that blast out of her fingertips.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_2_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_maxiaofang_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZhixia.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_maxiaofang_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -31228,8 +31205,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "f7c594f1d5a5dca6fb6356236aa1cec093cd3ff1e486bbcc48bf4b38e9316504",
-      "currentHash": "f7c594f1d5a5dca6fb6356236aa1cec093cd3ff1e486bbcc48bf4b38e9316504"
+      "liveHash": "843fe406de2e4dd29d3240020e8e54d5006721321fa96da870004a7233db8582",
+      "currentHash": "843fe406de2e4dd29d3240020e8e54d5006721321fa96da870004a7233db8582"
     }
   },
   {
@@ -34501,8 +34478,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "fbab60d73ba3c21fe7ed67b7cefd2431d5b444a996a11887ebb702a61e9f5b11",
-      "currentHash": "fbab60d73ba3c21fe7ed67b7cefd2431d5b444a996a11887ebb702a61e9f5b11"
+      "liveHash": "a887ec5ce2afd3cc456b84fc3b2a8fd607e5d2e21493162cd21bba2c1f66d73a",
+      "currentHash": "a887ec5ce2afd3cc456b84fc3b2a8fd607e5d2e21493162cd21bba2c1f66d73a"
     }
   },
   {
@@ -34516,8 +34493,7 @@
     "description": "Mortefi, a skilled expert in Applied Tacetite Study and a member of the Academy’s Department of Safety, possesses the unique ability to transform his accumulated frustration into fiery flames.\nFrom a burning wrath that consumes all, the red dragon shall descend.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_13_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_baer_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyMofeite.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_baer_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -37422,8 +37398,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "5c016ebdd7bc233b31ca4a062f4de4e083b3638f88507db3c91b3b1bbe4cb710",
-      "currentHash": "5c016ebdd7bc233b31ca4a062f4de4e083b3638f88507db3c91b3b1bbe4cb710"
+      "liveHash": "467af33af45d0452d627e6358a3283a21d76227adeecc9d0b2af0e696a06d45c",
+      "currentHash": "467af33af45d0452d627e6358a3283a21d76227adeecc9d0b2af0e696a06d45c"
     }
   },
   {
@@ -37437,8 +37413,7 @@
     "description": "Changli is a counselor serving the <te href=850091>Jinzhou</te> <te href=850084>Magistrate</te>, and former Secretary-General in the capital. \nShrouded in flames, she's fated to burn brightly until her final embers.\nWith her fiery determination and strategic mindset, she rises to power, always thinking ahead to reach her ultimate goal.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_26_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_changli_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyChangli.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_changli_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -40521,8 +40496,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "4ec8ca0263ba09289390924f96f89d62cf802677aad0c796ddd26ee1a04c4bbc",
-      "currentHash": "4ec8ca0263ba09289390924f96f89d62cf802677aad0c796ddd26ee1a04c4bbc"
+      "liveHash": "f21007669ed8b43445964b4215cc5f1c5cd552e3e0f808270482590ca8702599",
+      "currentHash": "f21007669ed8b43445964b4215cc5f1c5cd552e3e0f808270482590ca8702599"
     }
   },
   {
@@ -40536,8 +40511,7 @@
     "description": "Brant, the captain of <te href=850096>Rinascita</te>'s <te href=850108>Troupe of Fools</te>, is a free spirit and romantic. Unpredictable and full of life, he is the beating heart of the troupe.\n\nOn stage, he slips into countless roles, donning new masks to breathe life into every story. Yet beyond the spotlight, he is unwaveringly genuine, offering nothing but true sincerity to those around him.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_44_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Bulante_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyBulante.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Bulante_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -43926,8 +43900,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "a4d8a805dea62ce27e4767994f85699cd696efd91d9b3f08903c77ffcc4949ca",
-      "currentHash": "a4d8a805dea62ce27e4767994f85699cd696efd91d9b3f08903c77ffcc4949ca"
+      "liveHash": "b3b3d13a1a08b97433b1f9e60590084da3b629d48596bb6daf988d6685f79119",
+      "currentHash": "b3b3d13a1a08b97433b1f9e60590084da3b629d48596bb6daf988d6685f79119"
     }
   },
   {
@@ -43941,8 +43915,7 @@
     "description": "A Gladiator of Septimont, a radiant star of the arena.\nFiery and straightforward, Lupa lives like a wild lone wolf. As long as she can savor the adrenaline rush of battle, she doesn't mind if that same fire ends up consuming her whole.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_46_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_lupa_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLupa.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_lupa_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -47346,8 +47319,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "b8e8b622ebd9c6f97c4e907a9ab788a620660513c59ad794ba32e8fd9cdbe782",
-      "currentHash": "b8e8b622ebd9c6f97c4e907a9ab788a620660513c59ad794ba32e8fd9cdbe782"
+      "liveHash": "c5faac0ebc17cebeda10a92f9851cb7a3cf67527c666923ce3d318c422aa8888",
+      "currentHash": "c5faac0ebc17cebeda10a92f9851cb7a3cf67527c666923ce3d318c422aa8888"
     }
   },
   {
@@ -47361,8 +47334,7 @@
     "description": "Cold and decisive, she is the \"Discord Slayer\" who hunts across Solaris and the same \"Fiend of Ever-burning Flame\" spoken of in whispers. Now, she serves as a Black Shores Consultant, active across the world.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_55_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Jiabeilina_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyJiabeilina.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Jiabeilina_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -51003,8 +50975,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "5c34bd3880a77d0b8543d6b26785fd5c26c1259f030d2f4d29946f0759a673e2",
-      "currentHash": "5c34bd3880a77d0b8543d6b26785fd5c26c1259f030d2f4d29946f0759a673e2"
+      "liveHash": "c37cd268acf02873531bd74019d6ea01a1448b72ab68f2acec62ccbc780ece1a",
+      "currentHash": "c37cd268acf02873531bd74019d6ea01a1448b72ab68f2acec62ccbc780ece1a"
     }
   },
   {
@@ -51017,8 +50989,7 @@
     "description": "Mornye, a Spacetrek Collective Research Institute engineer and a Department of Exostrider Engineering professor at Startorch Academy.\nEach step on her prosthetic legs carries her toward the stars of her dreams.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Moning_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyMoning.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Moning_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -54371,8 +54342,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "54884872409fe9ca51e5ee865a70078d71b58031b380753ff39646e0bd12aaf4",
-      "currentHash": "54884872409fe9ca51e5ee865a70078d71b58031b380753ff39646e0bd12aaf4"
+      "liveHash": "405b5b7f3e9ec103d4d61142265ad0381dfeaea57a87d34bb9c453891db5357b",
+      "currentHash": "405b5b7f3e9ec103d4d61142265ad0381dfeaea57a87d34bb9c453891db5357b"
     }
   },
   {
@@ -54386,8 +54357,7 @@
     "description": "Once an Exostrider Synchronist of Rabelle College, she is now a digital ghost who sings quietly amongst stars.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_53_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Aimisi_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyAimisi.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Aimisi_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -58200,8 +58170,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "177e6bc2080858cd3ef13c50af2255f24f3670bead59dc3daf8d6de1d17af240",
-      "currentHash": "177e6bc2080858cd3ef13c50af2255f24f3670bead59dc3daf8d6de1d17af240"
+      "liveHash": "e8f06f85acff6c4d0a7429504260b3f8d8948f98bd9518e94e8f26fae54c072b",
+      "currentHash": "e8f06f85acff6c4d0a7429504260b3f8d8948f98bd9518e94e8f26fae54c072b"
     }
   },
   {
@@ -58214,8 +58184,7 @@
     "description": "Denia, a Department of Voidmatters student at Startorch Academy. Also, a professional slacker who has mastered the art of dozing through courses.\nStill, she hardly misses any campus event, always there to flash her \"gentle\" smile to one and all.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_64_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_daniya_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDaNiYa.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_daniya_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -61985,8 +61954,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "bd5314f0b47d183aadd257588a9a737c96508fe85b5145ed8772b37be69b41a1",
-      "currentHash": "bd5314f0b47d183aadd257588a9a737c96508fe85b5145ed8772b37be69b41a1"
+      "liveHash": "6c7d7fd92e9b112142e6090e3563c14e6e6506b0fdcbdff43fe5375c64c45d0d",
+      "currentHash": "6c7d7fd92e9b112142e6090e3563c14e6e6506b0fdcbdff43fe5375c64c45d0d"
     }
   },
   {
@@ -65290,8 +65259,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "8bdb4f3e958ae183e675763acc03514dcece9d5e608ff0d2b701d5f2fac077c0",
-      "currentHash": "8bdb4f3e958ae183e675763acc03514dcece9d5e608ff0d2b701d5f2fac077c0"
+      "liveHash": "010c72853b482f4383839f9a5ff2e5a6750d57617a2d670414f73b86914200b9",
+      "currentHash": "010c72853b482f4383839f9a5ff2e5a6750d57617a2d670414f73b86914200b9"
     }
   },
   {
@@ -65305,8 +65274,7 @@
     "description": "Yinlin is a skilled <te href=850087>Patroller</te> and powerful Natural Resonator. After being suspended from her duties at the Public Security Bureau, she must now pursue hidden evils in secrecy.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_17_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yinlin_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYinlin.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yinlin_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -68289,8 +68257,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "b81f660e8884d5e42866dee62d138a7f6e7374199aef848bdac05013401d87e3",
-      "currentHash": "b81f660e8884d5e42866dee62d138a7f6e7374199aef848bdac05013401d87e3"
+      "liveHash": "e4ca6c4e89386e6e4b5af49e1ed2907ff9a1d302760524a2b50c33e3e6b5cd96",
+      "currentHash": "e4ca6c4e89386e6e4b5af49e1ed2907ff9a1d302760524a2b50c33e3e6b5cd96"
     }
   },
   {
@@ -68304,8 +68272,7 @@
     "description": "Yuanwu owns a boxing gym where he teaches <te href=850114>Leihuangquan</te> and health management. He is well-respected in the community for his cordial demeanor and pleasant temperament.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_15_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yuanwu_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYuanwu.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yuanwu_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -71534,8 +71501,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "0028cf4e1e870772e99b4ced6014bb7afde5afbe03534588b4d337141e2bf858",
-      "currentHash": "0028cf4e1e870772e99b4ced6014bb7afde5afbe03534588b4d337141e2bf858"
+      "liveHash": "e14f04728631100761e763d836661b73067b59a45640118e33a07e814f212db2",
+      "currentHash": "e14f04728631100761e763d836661b73067b59a45640118e33a07e814f212db2"
     }
   },
   {
@@ -71549,8 +71516,7 @@
     "description": "Jinhsi, <te href=850118>Magistrate of Jinzhou</te>, gently brightens the hopes of her people, like rays of winter sunlight. \nAs the revered Sentinel's Appointed Resonator, she displays humility and wholeheartedly commits herself to guiding her people towards a brilliant future.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_24_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jinxi_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyJinxi.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jinxi_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -74936,8 +74902,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "58ed9b453c26e0ea0c12e06e7ce5de52eaf0882e7f211dce725a498cac174799",
-      "currentHash": "58ed9b453c26e0ea0c12e06e7ce5de52eaf0882e7f211dce725a498cac174799"
+      "liveHash": "0a69492c0d9c5c88b6a6cb69e5b3e52f2883167ef0c86d1dc44dd9d8966e8d63",
+      "currentHash": "0a69492c0d9c5c88b6a6cb69e5b3e52f2883167ef0c86d1dc44dd9d8966e8d63"
     }
   },
   {
@@ -74951,8 +74917,7 @@
     "description": "Principal Investigator at <te href=850091>Jinzhou</te> <te href=850092>Huaxu Academy</te>, and the Academy's youngest multi-disciplinary scientist. \nA gentle soul with a sharp mind, whose relentless passion for Automata Mechanics always translates into constructive findings and insights.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_25_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xiangliyao_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyXiangliyao.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xiangliyao_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -78153,8 +78118,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "c001245dd24eb6b18f9fb751844e788587db40f5a6625e0e9a5d770c8068e6da",
-      "currentHash": "c001245dd24eb6b18f9fb751844e788587db40f5a6625e0e9a5d770c8068e6da"
+      "liveHash": "4828d28132f67ef909efdd7809bfc6174394b1e1e2c60a6c602f50c8c917f556",
+      "currentHash": "4828d28132f67ef909efdd7809bfc6174394b1e1e2c60a6c602f50c8c917f556"
     }
   },
   {
@@ -78168,8 +78133,7 @@
     "description": "Ephor of Septimont. The undying sun eternally ablaze, and a banner under which defeat does not exist.\nShe comes. She sees. She conquers.\nWith blade held high, she awaits the next challenger or the fate that claims it cannot be defied.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_51_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_aogusita_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyAogusita.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_aogusita_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -81577,8 +81541,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "d0792eb28a498cae2d47d4d0168d7a5aed8051d1ae63d3747ac5831cd2d51626",
-      "currentHash": "d0792eb28a498cae2d47d4d0168d7a5aed8051d1ae63d3747ac5831cd2d51626"
+      "liveHash": "bc9ed892e9203197855a9db2a87d7e5b48c3d0cf9c8873fed54117c2c8e7319a",
+      "currentHash": "bc9ed892e9203197855a9db2a87d7e5b48c3d0cf9c8873fed54117c2c8e7319a"
     }
   },
   {
@@ -81592,8 +81556,7 @@
     "description": "Taoist of Mengzhou, Black Shores Consultant, feng shui master, and veteran forum dweller. \nEasygoing and well-traveled, Buling will \"bling\" whatever you seek.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_58_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Buling_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyBuling.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Buling_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -84904,8 +84867,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "cfdcb3b08e1f00f4817e297961574c2089db506af2cc9c7c53cf97c8f9922c3e",
-      "currentHash": "cfdcb3b08e1f00f4817e297961574c2089db506af2cc9c7c53cf97c8f9922c3e"
+      "liveHash": "40851ff7d70d66c9b90079972fce83e173169bae09f28b42d8921ceab14313d9",
+      "currentHash": "40851ff7d70d66c9b90079972fce83e173169bae09f28b42d8921ceab14313d9"
     }
   },
   {
@@ -84918,8 +84881,7 @@
     "description": "An Edgerunner like Lucy, though completely different in her M.O.\nA whimsical fireball who's always ready to raze out your troubles with her shotgun.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_69_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Libeika_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLiBeiKa.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Libeika_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -88506,8 +88468,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "713a0e23429a55e665e19185ad90517aeee979cbea134ba196d7e69d84625dcf",
-      "currentHash": "b13b754552f6da04f76fc333ad0f7ad822bb6e899406864c0dec7f568f6268bc"
+      "liveHash": "8424c9279bb7738e2f29cfae083b28a37fb3c5c7dbd906ff1089a585573cf0be",
+      "currentHash": "24ed8c765cce34711a5e6b7611b2c0fe3f362d26fe660df77123a7801dade3a4"
     }
   },
   {
@@ -91231,9 +91193,7 @@
         "params": [
           "0.5"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM1_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "2",
@@ -91242,9 +91202,7 @@
         "params": [
           "5"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM2_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "3",
@@ -91253,9 +91211,7 @@
         "params": [
           "20%"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM3_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "4",
@@ -91264,9 +91220,7 @@
         "params": [
           "20%"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM4_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "5",
@@ -91275,9 +91229,7 @@
         "params": [
           "20%"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM5_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "6",
@@ -91286,9 +91238,7 @@
         "params": [
           "20%"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM6_UI.webp"
-        }
+        "assets": {}
       }
     ],
     "ascensions": {
@@ -91618,7 +91568,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "768af2f72767d6a23c68818d7042d2795ac6b6fe54c833bf479a4acf05f899f5"
+      "currentHash": "75ca660fe012c0a844a7d09d1e19c448ffa128b8f9095973d18aca56e03b421d"
     }
   },
   {
@@ -94342,9 +94292,7 @@
         "params": [
           "0.5"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM1_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "2",
@@ -94353,9 +94301,7 @@
         "params": [
           "5"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM2_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "3",
@@ -94364,9 +94310,7 @@
         "params": [
           "20%"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM3_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "4",
@@ -94375,9 +94319,7 @@
         "params": [
           "20%"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM4_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "5",
@@ -94386,9 +94328,7 @@
         "params": [
           "20%"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM5_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "6",
@@ -94397,9 +94337,7 @@
         "params": [
           "20%"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM6_UI.webp"
-        }
+        "assets": {}
       }
     ],
     "ascensions": {
@@ -94729,7 +94667,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "7d924718aa52c79d3b1ec43d32663c6806bb67ba1806cfc32d31c6edf3a75dd8"
+      "currentHash": "230940d2f621f00abc1b74356be7945226d07f96874420afdd0951c7114cc5ca"
     }
   },
   {
@@ -94743,8 +94681,7 @@
     "description": "Yangyang is an Outrider of the <te href=850086>Midnight Rangers</te>.\nOnce sheltered, now a fighter. She soars with the wind to protect others, like a skylark in flight.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_1_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yangyang_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYangyang.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yangyang_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -97617,8 +97554,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "3deae78677a648b7c1c8700e027af651bbd8f36103bcee63b6c2120354d1a97b",
-      "currentHash": "3deae78677a648b7c1c8700e027af651bbd8f36103bcee63b6c2120354d1a97b"
+      "liveHash": "0096cc874e162c49556ada6af6222f59f238088ba08d3dedca48bf9d2bc471bf",
+      "currentHash": "0096cc874e162c49556ada6af6222f59f238088ba08d3dedca48bf9d2bc471bf"
     }
   },
   {
@@ -97632,8 +97569,7 @@
     "description": "Aalto is an enigmatic Information Broker, known for his elusive nature and welcoming smile. Underneath the facade, he is closely affiliated with <te href=850109>the Black Shores</te>.\nRumor has it he'll provide any information at the right price.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_12_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_qiushui_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQiushui.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_qiushui_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -100580,8 +100516,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "a72d2c6c4ab8732ccf0ccd2c07efbcabb25e7d6b62435d185a6762d87f489e17",
-      "currentHash": "a72d2c6c4ab8732ccf0ccd2c07efbcabb25e7d6b62435d185a6762d87f489e17"
+      "liveHash": "9458a3955351062380b3a36d776557449824c61a2f26673d57a9ab48ecd2baf6",
+      "currentHash": "9458a3955351062380b3a36d776557449824c61a2f26673d57a9ab48ecd2baf6"
     }
   },
   {
@@ -100595,8 +100531,7 @@
     "description": "Jiyan, leader of the <te href=850086>Midnight Rangers</te>, acts with swift and resolute righteousness. He possesses the formidable ability to conjure a powerful Qingloong from the winds, making him invincible on the battlefield.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_11_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jiyan_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyJiyan.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jiyan_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -103660,8 +103595,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "71d590aebe7315abd9754cd9c03fca6d57f48ed554e81250d4159208e0d23609",
-      "currentHash": "71d590aebe7315abd9754cd9c03fca6d57f48ed554e81250d4159208e0d23609"
+      "liveHash": "21dfc43a09ac2699653f9e0886333d5086a849a406c958e2152fe4d3fad70938",
+      "currentHash": "21dfc43a09ac2699653f9e0886333d5086a849a406c958e2152fe4d3fad70938"
     }
   },
   {
@@ -107017,8 +106952,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "6a82678b8a4e2f88515adb2118785439371dac6c848d6ab0f6b9c9e13c0467bb",
-      "currentHash": "6a82678b8a4e2f88515adb2118785439371dac6c848d6ab0f6b9c9e13c0467bb"
+      "liveHash": "5888595fea795a0c8249f384317414d99afdc5f6b96e604a287fb2eeef110004",
+      "currentHash": "5888595fea795a0c8249f384317414d99afdc5f6b96e604a287fb2eeef110004"
     }
   },
   {
@@ -110006,8 +109941,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "dc5ab4f31c4c88c67530fa3113b432b4a97d52315657b36c0106522552c0e408",
-      "currentHash": "dc5ab4f31c4c88c67530fa3113b432b4a97d52315657b36c0106522552c0e408"
+      "liveHash": "bf9c69bd8f07e9be5586b8a50fc3c7321d8c511a3361b7bcf01f6d44ad95f2e7",
+      "currentHash": "bf9c69bd8f07e9be5586b8a50fc3c7321d8c511a3361b7bcf01f6d44ad95f2e7"
     }
   },
   {
@@ -110021,8 +109956,7 @@
     "description": "A wandering bard from <te href=850096>Rinascita</te>, Ciaccona. She sings not only for the Divinity, but also for the common folk.\nShe records stories along her journeys, turning them into songs that evoke laughter, emotion, and tears in both the storytellers and the audience.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_37_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xiakong_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyXiakong.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xiakong_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -113011,8 +112945,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "0dbc40a50d8d2466c626f3bebcfca249aeccb12bf049ed263cc3b26d70089564",
-      "currentHash": "0dbc40a50d8d2466c626f3bebcfca249aeccb12bf049ed263cc3b26d70089564"
+      "liveHash": "ef8f9514ae7c4309e508abd5474c5b2424d63c7e14696e21c9a5acec4d15997f",
+      "currentHash": "ef8f9514ae7c4309e508abd5474c5b2424d63c7e14696e21c9a5acec4d15997f"
     }
   },
   {
@@ -116000,8 +115934,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "b9e659a6ef9ec61b16e5ae70f988cf4116072f0c456383eeecd196018ec18922",
-      "currentHash": "b9e659a6ef9ec61b16e5ae70f988cf4116072f0c456383eeecd196018ec18922"
+      "liveHash": "a634f7caf239fdea13736b8417a09e6356fcd063dd6f086f61b7a71c25f60972",
+      "currentHash": "a634f7caf239fdea13736b8417a09e6356fcd063dd6f086f61b7a71c25f60972"
     }
   },
   {
@@ -116015,8 +115949,7 @@
     "description": "Cartethyia, the wandering knight who travels across <te href=850096>Rinascita</te>. Formerly known as the Blessed Maiden, the vessel of Divinity, and the Queen of Gale and Tide, she went by the name Fleurdelys. Now, she is simply a free and unfettered wandering knight.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_40_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_katixiya_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyKatixiya.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_katixiya_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -119876,8 +119809,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "0b57c921e39c759dae498ba7ffd0a535b097759216ee9870e8925054fd0ab093",
-      "currentHash": "0b57c921e39c759dae498ba7ffd0a535b097759216ee9870e8925054fd0ab093"
+      "liveHash": "4d2dc943f0ef77015c571cb88b64c3f4e368ab420e7b7df92883ae4861545bdf",
+      "currentHash": "4d2dc943f0ef77015c571cb88b64c3f4e368ab420e7b7df92883ae4861545bdf"
     }
   },
   {
@@ -119891,8 +119824,7 @@
     "description": "She is favored by fate under one name, and swept away by it in another. Yet never once has she been defeated, nor has she ever yielded.\nNow, witness the defiant Priestess. Witness what keeps her striding forward, never to look back. Witness how she walks the intricate web of destiny and becomes the only answer.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_48_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_younuo_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYounuo.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_younuo_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -123768,8 +123700,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "8b76ce8eecf2b65d6586b500ced9f21b7af5bdfeb2103d38e180de398e3a3c2a",
-      "currentHash": "8b76ce8eecf2b65d6586b500ced9f21b7af5bdfeb2103d38e180de398e3a3c2a"
+      "liveHash": "f9bb1effc8583b13a724a72cc3c427d0051e83bfc91703fd72b6a8fe48d07118",
+      "currentHash": "f9bb1effc8583b13a724a72cc3c427d0051e83bfc91703fd72b6a8fe48d07118"
     }
   },
   {
@@ -123783,8 +123715,7 @@
     "description": "Former senior agent of Mingting's Internal Security Agency. \n\nThough enmity filled his younger days, loyalty defined his later years. However, scapegoated for a murder, he is now but a blind swordsman wandering the world alone.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_56_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qiuyuan_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQiuyuan.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qiuyuan_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -126882,8 +126813,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "79630b80d344862a5c1c673591ac5b47344d223f46376152be2b7c2c62f4ef1b",
-      "currentHash": "79630b80d344862a5c1c673591ac5b47344d223f46376152be2b7c2c62f4ef1b"
+      "liveHash": "9b76b0792fafc11ee2f33c6eb271fd83dea813740dd74dbd2425e7d9c8ec45e7",
+      "currentHash": "9b76b0792fafc11ee2f33c6eb271fd83dea813740dd74dbd2425e7d9c8ec45e7"
     }
   },
   {
@@ -126897,8 +126828,7 @@
     "description": "Sigrika, a student of Startorch Academy and a Resonator of Royan Runes.\nDetermined to live up to others' expectations and become a true Solsworn, she devotes herself fully to every challenge.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_65_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Xigelika_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyXigelika.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Xigelika_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -130167,8 +130097,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "8c516c5d4f48ac8211222305ec7dfca484510dac836482a25c3781f54f25a478",
-      "currentHash": "8c516c5d4f48ac8211222305ec7dfca484510dac836482a25c3781f54f25a478"
+      "liveHash": "e1f7e2afac958e4c983674ff694fbd26ce2efa477bf275df59b2db369bbcc496",
+      "currentHash": "e1f7e2afac958e4c983674ff694fbd26ce2efa477bf275df59b2db369bbcc496"
     }
   },
   {
@@ -133107,8 +133037,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "2cf088db4c155913c4d8b086a64d7e883047f4cdb986bc59aa5f8cb094df7f9e",
-      "currentHash": "2cf088db4c155913c4d8b086a64d7e883047f4cdb986bc59aa5f8cb094df7f9e"
+      "liveHash": "d46550679529df93609fab7a3ceeb669672580fc29c3ebfa281f50576742f468",
+      "currentHash": "d46550679529df93609fab7a3ceeb669672580fc29c3ebfa281f50576742f468"
     }
   },
   {
@@ -136047,8 +135977,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "253e5d49688d463890dc7d7362feecf47d5d7aa65eff175f178ec7a887c882e5",
-      "currentHash": "253e5d49688d463890dc7d7362feecf47d5d7aa65eff175f178ec7a887c882e5"
+      "liveHash": "e3274dccb5d43290ffe443c4c33c70d26f6da7b33ead5a92ad1d9f77370c4759",
+      "currentHash": "e3274dccb5d43290ffe443c4c33c70d26f6da7b33ead5a92ad1d9f77370c4759"
     }
   },
   {
@@ -139244,8 +139174,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "cac2dad3d9a5035c38d32b6079369e97a6b96c8b21cb6dfa5df40ed4b73c8773",
-      "currentHash": "cac2dad3d9a5035c38d32b6079369e97a6b96c8b21cb6dfa5df40ed4b73c8773"
+      "liveHash": "feb53aff891f9822c9a90251c59eb559f3ce6198f1f9bb9a97af17e37e0e6ab9",
+      "currentHash": "feb53aff891f9822c9a90251c59eb559f3ce6198f1f9bb9a97af17e37e0e6ab9"
     }
   },
   {
@@ -139259,8 +139189,7 @@
     "description": "Navigator at <te href=850090>Lollo Logistics</te> and leader of a transport squad.\nBorn in a mountain village in Yuezhou, Lumi's sincere and caring nature brings warmth to everyone around her.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_30_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_dengdeng_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDengdeng.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_dengdeng_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -142359,8 +142288,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "9b71ddbe1cae28fd7b416adee52b96837c0b41a5eafd29ea7f141fff03b4610d",
-      "currentHash": "9b71ddbe1cae28fd7b416adee52b96837c0b41a5eafd29ea7f141fff03b4610d"
+      "liveHash": "2fb5078d35a04e040a3a3d0317fc46193aaf0a64bb6fc16580ff5ad274520789",
+      "currentHash": "2fb5078d35a04e040a3a3d0317fc46193aaf0a64bb6fc16580ff5ad274520789"
     }
   },
   {
@@ -142374,8 +142303,7 @@
     "description": "The Shorekeeper, guardian of <te href=850109>the Black Shores</te>—this title alone once defined her. \nBut desires, bonds, and emotions… She only began to understand these things after meeting you.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_28_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shouanren_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyShouanren.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shouanren_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -145527,8 +145455,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "62a01f8dbbc1372d1e517d435ce838758cf3ce98b31b93c080ab338890af155b",
-      "currentHash": "62a01f8dbbc1372d1e517d435ce838758cf3ce98b31b93c080ab338890af155b"
+      "liveHash": "81af8ed4cfc61ed2a706336b418c65f7c75729b932dddc7cf8e00d570f5ecaf4",
+      "currentHash": "81af8ed4cfc61ed2a706336b418c65f7c75729b932dddc7cf8e00d570f5ecaf4"
     }
   },
   {
@@ -145542,8 +145470,7 @@
     "description": "Phoebe, <te href=850100>Acolyte</te> of the <te href=850099>Order of the Deep</te>, is a young woman of quiet devotion. With a kind heart, she fulfills her duties with unwavering diligence. Her prayers, like the light she carries, offer comfort and peace to all.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_45_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Feibi_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyFeibi.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Feibi_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -148607,8 +148534,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "d48f85fd20565129ca0438fb198aa7ac01933a6249b46b431aca4041e7b9438c",
-      "currentHash": "d48f85fd20565129ca0438fb198aa7ac01933a6249b46b431aca4041e7b9438c"
+      "liveHash": "65857db134c25163c8797295fb9dd9cae45736af37a2e8057c12b4eb98348779",
+      "currentHash": "65857db134c25163c8797295fb9dd9cae45736af37a2e8057c12b4eb98348779"
     }
   },
   {
@@ -148622,8 +148549,7 @@
     "description": "A member of Averardo Vault's security team and holder of \"Best Employee\" for longer than she cares to count.\n \nShe has made plenty of plans for her free time, but for now, her biggest mission is simple: clocking out on time.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_38_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zanni_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZanni.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zanni_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -152106,8 +152032,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "d132611d90a5d7539f686936e082d2fe373d828a6ba816d62463bccb55bc3c52",
-      "currentHash": "d132611d90a5d7539f686936e082d2fe373d828a6ba816d62463bccb55bc3c52"
+      "liveHash": "15ffa55bac56cd76aef2e658428815cc462dc65ccc243456bb52aad444a34d73",
+      "currentHash": "15ffa55bac56cd76aef2e658428815cc462dc65ccc243456bb52aad444a34d73"
     }
   },
   {
@@ -152121,8 +152047,7 @@
     "description": "\"Just an ordinary student.\"\n\nCalmly, she introduces herself, a faint iridescent shimmer flickering in her eyes. Again, the structures of the world reveal themselves in her vision. Narrowing her eyes, she singles out the very thread that tugs at life itself.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_57_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qianxiao_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQianxiao.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qianxiao_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -155684,8 +155609,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "ca5efa8c1d302ff44cf030ecd8178345b85231c8723946157fdcde60448dd56e",
-      "currentHash": "98bbc33ad60332f57725e11d4bb6dc76e30ede49ca95ca9cb70d781f542851ca"
+      "liveHash": "96f32020eaed835a158de23a191f8f2e72d9cba3b330c62f80177595c22ecbbd",
+      "currentHash": "86d636c6277de022fb196b981ca9d3544077b96ae81e08c70ea1006a8f5a2c4f"
     }
   },
   {
@@ -155698,8 +155623,7 @@
     "description": "A Startorch Academy prep student whose head-turning, electric style hides an inner focus as explosive as a coiled spring.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_60_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Linnai_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLinnai.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Linnai_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -159302,8 +159226,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "766360f6ad6e244d40707710991c204703ca5c176ab53bda6454556fba8dbba3",
-      "currentHash": "cb8a91d6e34a872df060e6f6be6ec54d351b0ebe99e2e501bd7b608f27324cca"
+      "liveHash": "45ccdc9567787c868f272bcf518d5f16b4b95443b477df0230ab758c8dc68a73",
+      "currentHash": "15df0a38bcfe683fdb7574609fc97df61364a66c11ac87781b8c0eea51a4f734"
     }
   },
   {
@@ -159317,8 +159241,7 @@
     "description": "The attending physician of Startorch Academy's Resonator Nursing Unit, renowned for his keen intellect and unshakable composure. Rumor has it nobody has ever seen him lose control.\n \nHe is a keen listener adept at dissecting the shadows in a person's heart. From the unhealing wound on his hand, golden blood seeps, a substance he can summon to become a blade of utmost precision.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_54_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Luhesi_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyLuhesi.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Luhesi_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -162694,8 +162617,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "5410a0f51df017499512943412d643ce8625ef22ae5432af16682be6ab682837",
-      "currentHash": "5410a0f51df017499512943412d643ce8625ef22ae5432af16682be6ab682837"
+      "liveHash": "a326358e516aa89df888a988dd54592574be6e4901a01de955c6e8aac30e8276",
+      "currentHash": "a326358e516aa89df888a988dd54592574be6e4901a01de955c6e8aac30e8276"
     }
   },
   {
@@ -162708,8 +162631,7 @@
     "description": "An Edgerunner from the Night City. The Netrunner of her crew.\nWith a heavy debt in her heart, she deliberately keeps a distance from people. Even those who are closest to her know little of her past.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_68_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Luxi_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLuXi.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Luxi_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -166588,8 +166510,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "68c5aad9474fcb1139ba45bee9f01066ca6f9281269bb1587a513e3e4163078f",
-      "currentHash": "68c5aad9474fcb1139ba45bee9f01066ca6f9281269bb1587a513e3e4163078f"
+      "liveHash": "68f1ca163fb8af484fcdfee1972b70f8c59ddeb143a624b091c97be810bbbd8d",
+      "currentHash": "68f1ca163fb8af484fcdfee1972b70f8c59ddeb143a624b091c97be810bbbd8d"
     }
   },
   {
@@ -166603,8 +166525,7 @@
     "description": "Taoqi is the director of border defense at the <te href=850085>Ministry of Development</te>. Despite her seemingly laid-back demeanor, she consistently proves to be a dependable and supportive individual, always lending her hand to those in need. Taoqi is not only a reliable colleague, but also a trustworthy friend that people can confide in.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_9_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_taohua_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyTaoqi.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_taohua_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -169662,8 +169583,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "19c94bb36cbb0532002040c61d5d1d7db3e6afb9362699c743a4a33f83feca35",
-      "currentHash": "19c94bb36cbb0532002040c61d5d1d7db3e6afb9362699c743a4a33f83feca35"
+      "liveHash": "4e0c4cdb0835f1a02b934deb3c33b536b07bcb6e1c9ea4727d9967fafd2674fa",
+      "currentHash": "4e0c4cdb0835f1a02b934deb3c33b536b07bcb6e1c9ea4727d9967fafd2674fa"
     }
   },
   {
@@ -169677,8 +169598,7 @@
     "description": "With a vengeful blade of condensed blood in hand, Ranger Danjin hunts down thieves and bandits for retribution. \nShe journeys to distant lands in pursuit of justice.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_10_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_micai_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDanjin.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_micai_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -172755,8 +172675,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "eda79b7720c8cb782ec1a280805e234e08d521a2dc488725a6d491bc36292ff3",
-      "currentHash": "eda79b7720c8cb782ec1a280805e234e08d521a2dc488725a6d491bc36292ff3"
+      "liveHash": "a32f4bc43a29049eb9b9299e827d8e934a718b84e45960088f2380d97d22755f",
+      "currentHash": "a32f4bc43a29049eb9b9299e827d8e934a718b84e45960088f2380d97d22755f"
     }
   },
   {
@@ -172770,8 +172690,7 @@
     "description": "A Bloom Bearer of <te href=850109>the Black Shores</te>, Camellya is free-spirited and dangerously charming.\nShe roams <te href=850079>Solaris</te> in search of talent, immersing herself in the present and relishing its pleasures, all while remaining true to herself, unburdened by thoughts of the past or future.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_29_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_chun_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyChun.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_chun_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -176132,8 +176051,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "dfb8da0407fb8e41520641312bdb8662aa120ac2c556f602128e33d19bb84928",
-      "currentHash": "dfb8da0407fb8e41520641312bdb8662aa120ac2c556f602128e33d19bb84928"
+      "liveHash": "e475c34699722b6a7bb83cf1cb231a287d6c23d52374152e950e871ad1b0976c",
+      "currentHash": "e475c34699722b6a7bb83cf1cb231a287d6c23d52374152e950e871ad1b0976c"
     }
   },
   {
@@ -179242,8 +179161,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "12f50bddb01bfbeb98c6b1f280748d3f54001d299027a2a135482401b97ea002",
-      "currentHash": "12f50bddb01bfbeb98c6b1f280748d3f54001d299027a2a135482401b97ea002"
+      "liveHash": "e57fb79a2a09206d4d8eda9909c924ff1eea2a21e1f83ea91953fba2afa6b4ec",
+      "currentHash": "e57fb79a2a09206d4d8eda9909c924ff1eea2a21e1f83ea91953fba2afa6b4ec"
     }
   },
   {
@@ -182352,8 +182271,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "6d51c1cb4c0f3fa844ef7283911e80731ecfcf5f0eb7cd261130b0efce6f15bd",
-      "currentHash": "6d51c1cb4c0f3fa844ef7283911e80731ecfcf5f0eb7cd261130b0efce6f15bd"
+      "liveHash": "3508f4e221da227c6447cdbb30c75a8b5d5ddfcb1355a6a240c22e18bfe241a3",
+      "currentHash": "3508f4e221da227c6447cdbb30c75a8b5d5ddfcb1355a6a240c22e18bfe241a3"
     }
   },
   {
@@ -182367,8 +182286,7 @@
     "description": "Assistant, prop master, and improv comedian, Roccia is always there to make sure the <te href=850108>Troupe of Fools</te> is at the ready.\n\nThe Magic Box she carries appears to hold the world, or perhaps she had recreated a world inside the box.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_33_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_luokeke_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLuokeke.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_luokeke_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -185341,8 +185259,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "23630d3a0c9363b2d2f7c38735ae0da9191133d8b26a7c09d2e86f922494a700",
-      "currentHash": "23630d3a0c9363b2d2f7c38735ae0da9191133d8b26a7c09d2e86f922494a700"
+      "liveHash": "1dc96ad6b8717e1482d4ac962c3153eab0f40786f731f7afce5fe6231ba1dfbc",
+      "currentHash": "1dc96ad6b8717e1482d4ac962c3153eab0f40786f731f7afce5fe6231ba1dfbc"
     }
   },
   {
@@ -185356,8 +185274,7 @@
     "description": "The current head of <te href=850094>Fisalia</te>, Cantarella, the Bane.\nA mysterious noblewoman, her beauty as captivating as it is perilous. She resides in a crown-like castle perched atop the mountain, where illusory dreams flow like streams, meticulously spun by her own hands.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_34_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kanteleila_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyKanteleila.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kanteleila_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -188754,8 +188671,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "89e91601d93894211301a06e0ec13b93216cbb18e0a5aefff636b36164cb249a",
-      "currentHash": "89e91601d93894211301a06e0ec13b93216cbb18e0a5aefff636b36164cb249a"
+      "liveHash": "38919e5a33068ed006f9c862854aa29782f7ef9082cab35c33bfe769e5c3e08f",
+      "currentHash": "38919e5a33068ed006f9c862854aa29782f7ef9082cab35c33bfe769e5c3e08f"
     }
   },
   {
@@ -188769,8 +188686,7 @@
     "description": "Phrolova, a Fractsidus Overseer walking the fine line between life and death, an uncanny, deadly conductor.\nA silent wave of her baton is enough to attune the very frequencies of being and conduct the symphonies of \"souls.\" The music of hers can sculpt a better world or, just as easily, summon a legion to wreak havoc.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_41_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_fuluoluo_UI.webp",
-      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyFuluoluo.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_fuluoluo_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -191936,8 +191852,8 @@
       "param": []
     },
     "liveComparison": {
-      "liveHash": "eb35869405f3005ea8ce11ec8eda71289602a034437dbd2e8124307c261c5126",
-      "currentHash": "eb35869405f3005ea8ce11ec8eda71289602a034437dbd2e8124307c261c5126"
+      "liveHash": "60124c716bf8f0a4b8757df65e5af65e2e89cbff7140468ea5bed1fd5fae13a7",
+      "currentHash": "60124c716bf8f0a4b8757df65e5af65e2e89cbff7140468ea5bed1fd5fae13a7"
     }
   },
   {
@@ -191949,8 +191865,7 @@
     "weapon": 2,
     "element": 6,
     "assets": {
-      "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_70_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Xuanling_UI.webp"
+      "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_70_UI.webp"
     },
     "profile": {
       "charaInfo": {
@@ -194569,9 +194484,7 @@
           "337.98%",
           "30"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_XuanLingM1_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "2",
@@ -194581,9 +194494,7 @@
           "100%",
           "337.98%"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_XuanLingM2_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "3",
@@ -194594,9 +194505,7 @@
           "3",
           "20"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_XuanLingM3_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "4",
@@ -194606,9 +194515,7 @@
           "20%",
           "20"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_XuanLingM4_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "5",
@@ -194619,9 +194526,7 @@
           "3",
           "10"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_XuanLingM5_UI.webp"
-        }
+        "assets": {}
       },
       {
         "key": "6",
@@ -194636,9 +194541,7 @@
           "5",
           "25"
         ],
-        "assets": {
-          "icon": "Nanoka/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_XuanLingM6_UI.webp"
-        }
+        "assets": {}
       }
     ],
     "ascensions": {
@@ -194964,7 +194867,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "b09ef777d8026b6a78cceab0a8a2ba20d0692d6e5570c405ea0cc93d1e1c41dc"
+      "currentHash": "884f7c12b5e9e49d9d7c9b4a0f4bea2c4c9aa26997912fcd378367572c59bbb8"
     }
   }
 ]

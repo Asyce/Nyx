@@ -216126,9 +216126,7 @@
     "element": 2,
     "description": "The guardian of Septimont, dwelling within the ancient arena. A lioness of battle, forged from stone and echoing roar.",
     "openDescription": "This enemy has a <color=HighlightB>higher RES</color> to <color=Fire>Fusion DMG</color>.\n\nShe guards the City of Glory, a valiant lioness of the arena.\n\nBuilt with the pristine white stones that Gryphons are carved out of and tempered in the echoes of battle cries and the laughter of heroes.\n\nThis is Arsinosa, ever steadfast, watching over Septimont’s glory for all time.",
-    "assets": {
-      "icon": "Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_33022_UI.webp"
-    },
+    "assets": {},
     "stats": {
       "base": {},
       "stats": {}

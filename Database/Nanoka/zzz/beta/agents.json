@@ -77792,8 +77792,8 @@
       }
     },
     "liveComparison": {
-      "liveHash": "4cf5473c1a9a359c20c7b95d227869f1090232d21f7f9176cae9b84073251aea",
-      "currentHash": "4cf5473c1a9a359c20c7b95d227869f1090232d21f7f9176cae9b84073251aea"
+      "liveHash": "410e49360fd6061085bc56b66928ab6e5b22cbcf61fd301d5354010e4f5ba1ae",
+      "currentHash": "410e49360fd6061085bc56b66928ab6e5b22cbcf61fd301d5354010e4f5ba1ae"
     }
   },
   {
@@ -109126,8 +109126,8 @@
       "detail": {}
     },
     "liveComparison": {
-      "liveHash": "d237e66c6d12f7a21438a9f08ec09d7494d8cd5d2661f2df93aebe727a48e774",
-      "currentHash": "d237e66c6d12f7a21438a9f08ec09d7494d8cd5d2661f2df93aebe727a48e774"
+      "liveHash": "7970209d4868749393497dd5d2dccf986523b6b7fb2d3abd933777de0d4e24b5",
+      "currentHash": "7970209d4868749393497dd5d2dccf986523b6b7fb2d3abd933777de0d4e24b5"
     }
   },
   {
@@ -113207,8 +113207,8 @@
       "detail": {}
     },
     "liveComparison": {
-      "liveHash": "3afdf018291ed7d2db37a4bae47bcf281c42995e14fc95377552a3cb04ccf2b2",
-      "currentHash": "f5d29ad97be358e60e07c2096ca9019d5b53105b1fe41cf7235f3c38bc038fcd"
+      "liveHash": "d2cac2f43483f464e8bedb13f4a90164a2395fae2730f73adce947c655d1070e",
+      "currentHash": "9587f1a057490de165520ea428b446f804f731de8de1ec01989b78583c322aed"
     }
   },
   {
@@ -117256,9 +117256,7 @@
     "gender": 2,
     "description": "Partner_ProfileDesc_1581",
     "assets": {
-      "icon": "Nanoka/zzz/assets/agents/icons/IconRole67.webp",
-      "partnerIcon": "Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
-      "roleIcon": "Nanoka/zzz/assets/agents/role-icons/IconRole67.webp"
+      "partnerIcon": "Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle67.webp"
     },
     "profile": {
       "birthday": "Partner_Birthday_1581",
@@ -119217,8 +119215,8 @@
       "detail": {}
     },
     "liveComparison": {
-      "liveHash": "d6061c4aefd7cacb7ea8fd772591aa6d670961d9da57ac2b53ebe2d54cf613dd",
-      "currentHash": "183aca1864b842a8c231dc3a11d825f7070776e50d870c00845d4c46146fde77"
+      "liveHash": "6dbd95c6e06957343ba1e3a04c0bd2bd750dd5a39deaa77e5dc67aabd04558da",
+      "currentHash": "78931004288b7a55ea4bf0d059a890ac88768d64567ae9100f330a952f2c1ed7"
     }
   },
   {
@@ -119241,11 +119239,7 @@
     },
     "gender": 2,
     "description": "...",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/agents/icons/IconRole66.webp",
-      "partnerIcon": "Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle66.webp",
-      "roleIcon": "Nanoka/zzz/assets/agents/role-icons/IconRole66.webp"
-    },
+    "assets": {},
     "profile": {
       "birthday": "...",
       "full_name": "...",
@@ -121052,7 +121046,7 @@
       "detail": {}
     },
     "liveComparison": {
-      "currentHash": "0328a1c043ae5f85a79c8e64e6822f09e49e335ffc94d8b3a332fc2f7a752dba"
+      "currentHash": "c540d7ffe0f2c05da49dc233d5d2a1d99bd7165a0d92ead31402467c41e7cb33"
     }
   }
 ]

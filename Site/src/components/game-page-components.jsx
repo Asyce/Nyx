@@ -13,7 +13,7 @@ const GP_GAMES = [
   { key:'ae',   name:'Arknights: Endfield', icon:'../assets/icon/aeicon.png' },
 ];
 
-const GP_FNS = ['Character Materials', 'Artifact Sorter', 'Wish Tracker'];
+const GP_FNS = ['Character Materials', 'Database', 'Wish Tracker'];
 
 /* each game key → its page, so the top rail icons navigate to the page they
    represent. Extensionless clean URLs (Cloudflare serves /hsr from hsr.html). */

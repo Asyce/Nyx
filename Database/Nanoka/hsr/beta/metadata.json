@@ -15,7 +15,7 @@
     "4.3.55",
     "4.3.56"
   ],
-  "scrapedAt": "2026-07-04T08:09:08.595Z",
+  "scrapedAt": "2026-07-04T17:59:07.304Z",
   "counts": {
     "characters": 95,
     "lightcones": 165,
@@ -115,11 +115,16 @@
   "assetsPlanned": 2642,
   "contentStatus": "Beta records are compared to Live and marked live, beta, or beta_changed.",
   "assets": {
-    "skipped": 2642,
+    "requested": 2642,
     "downloaded": 0,
-    "cached": 0,
-    "missing": 0,
-    "missingAssets": []
+    "cached": 2641,
+    "missing": 1,
+    "missingAssets": [
+      {
+        "path": "Nanoka/hsr/assets/characters/avatar/1507.webp",
+        "nanokaAssetPath": "avataricon/avatar/1507.webp"
+      }
+    ]
   },
   "changeReport": "Nanoka/changes/hsr-beta-latest.json",
   "missingAssetReport": "Nanoka/hsr/beta/missing-assets.json"

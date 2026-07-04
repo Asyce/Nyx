@@ -148592,10 +148592,7 @@
     "rarity": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "description": "A glorious, illusory sword that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this sword once held the name \"Logseims\" when it was wielded by a golden sinner in an ancient land.",
-    "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Sword_MorphVinces_{0}.webp",
-      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_MorphVinces_{0}.webp"
-    },
+    "assets": {},
     "properties": []
   },
   {
@@ -148605,10 +148602,7 @@
     "rarity": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
     "description": "A glorious, illusory sword glimmering with the power of \"Life\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this sword once held the name \"Logseims\" when it was wielded by a transcendent sinner in an ancient land.",
-    "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Sword_MorphVinces_Great_{0}.webp",
-      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_MorphVinces_Great_{0}.webp"
-    },
+    "assets": {},
     "properties": []
   },
   {
@@ -148618,10 +148612,7 @@
     "rarity": 4,
     "type": "WEAPON_CLAYMORE",
     "description": "A glorious, illusory claymore that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this claymore once held the name \"Starkuthr\" when it was wielded by an wise sinner in an ancient land.",
-    "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Claymore_MorphGravitas_{0}.webp",
-      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Claymore_MorphGravitas_{0}.webp"
-    },
+    "assets": {},
     "properties": []
   },
   {
@@ -148631,10 +148622,7 @@
     "rarity": 5,
     "type": "WEAPON_CLAYMORE",
     "description": "A glorious, illusory claymore glimmering with the power of \"Reason\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this claymore once held the name \"Starkuthr\" when it was wielded by a transcendent sinner in an ancient land.",
-    "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Claymore_MorphGravitas_Great_{0}.webp",
-      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Claymore_MorphGravitas_Great_{0}.webp"
-    },
+    "assets": {},
     "properties": []
   },
   {
@@ -148644,10 +148632,7 @@
     "rarity": 4,
     "type": "WEAPON_POLE",
     "description": "A glorious, illusory polearm that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this polearm once held the name \"Barnstokkr\" when it was wielded by a moon-hunting sinner in an ancient land.",
-    "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Pole_MorphSpinifer_{0}.webp",
-      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Pole_MorphSpinifer_{0}.webp"
-    },
+    "assets": {},
     "properties": []
   },
   {
@@ -148657,10 +148642,7 @@
     "rarity": 5,
     "type": "WEAPON_POLE",
     "description": "A glorious, illusory polearm glimmering with the power of \"Death\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this polearm once held the name \"Barnstokkr\" when it was wielded by a transcendent sinner in an ancient land.",
-    "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Pole_MorphSpinifer_Great_{0}.webp",
-      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Pole_MorphSpinifer_Great_{0}.webp"
-    },
+    "assets": {},
     "properties": []
   },
   {
@@ -148670,10 +148652,7 @@
     "rarity": 4,
     "type": "WEAPON_CATALYST",
     "description": "A glorious, illusory catalyst that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its user. Legend has it that this catalyst once held the name \"Gleipnir\" when it was used by an oracle-issuing sinner in an ancient land.",
-    "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Catalyst_MorphIlia_{0}.webp",
-      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Catalyst_MorphIlia_{0}.webp"
-    },
+    "assets": {},
     "properties": []
   },
   {
@@ -148683,10 +148662,7 @@
     "rarity": 5,
     "type": "WEAPON_CATALYST",
     "description": "A glorious, illusory catalyst glimmering with the power of \"Time\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its user. Legend has it that this catalyst once held the name \"Gleipnir\" when it was used by a transcendent sinner in an ancient land.",
-    "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Catalyst_MorphIlia_Great_{0}.webp",
-      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Catalyst_MorphIlia_Great_{0}.webp"
-    },
+    "assets": {},
     "properties": []
   },
   {
@@ -148696,10 +148672,7 @@
     "rarity": 4,
     "type": "WEAPON_BOW",
     "description": "A glorious, illusory bow that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this bow once held the name \"Gusisnautar\" when it was wielded by a foul sinner in an ancient land.",
-    "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Bow_MorphChrod_{0}.webp",
-      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Bow_MorphChrod_{0}.webp"
-    },
+    "assets": {},
     "properties": []
   },
   {
@@ -148709,10 +148682,7 @@
     "rarity": 5,
     "type": "WEAPON_BOW",
     "description": "A glorious, illusory bow glimmering with the power of \"Void\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this bow once held the name \"Gusisnautar\" when it was wielded by a transcendent sinner in an ancient land.",
-    "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Bow_MorphChrod_Great_{0}.webp",
-      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Bow_MorphChrod_Great_{0}.webp"
-    },
+    "assets": {},
     "properties": []
   },
   {
@@ -148735,10 +148705,7 @@
     "rarity": 4,
     "type": "WEAPON_CLAYMORE",
     "description": "A gift from the Little Hexenzirkel to a good friend. Due to insufficient available materials, the design has been based on a magical item from the Fontainian text, \"Tales of a Snow-Winged Goose.\"\\nYou won't be able to open doors to different realms as one can in fairy tales, but this item is more than durable enough to accompany friends through countless such realms.",
-    "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Claymore_LoliFriend.webp",
-      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Claymore_LoliFriend.webp"
-    },
+    "assets": {},
     "properties": []
   },
   {

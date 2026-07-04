@@ -2191,9 +2191,7 @@
     ],
     "description": "Obtain to receive the items inside.",
     "source": [],
-    "assets": {
-      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_27_UI.webp"
-    }
+    "assets": {}
   },
   {
     "id": "51011",
@@ -2206,9 +2204,7 @@
     ],
     "description": "Obtain to receive the items inside.",
     "source": [],
-    "assets": {
-      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_28_UI.webp"
-    }
+    "assets": {}
   },
   {
     "id": "51012",

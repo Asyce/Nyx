@@ -366,7 +366,7 @@ const GAME_REGISTRY = {
     key:'gi', name:'Genshin Impact', charName:'Skirk',
     art:'../assets/char/skirk.jpg', benchIcon:'../assets/char/skirk_icon.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'42% 38%', bgSize:'138% auto', bgTransform:'scale(1.04) rotate(-2deg)',
-    fns:['Character Materials','Artifact Sorter','Wish Tracker'],
+    fns:['Character Materials','Database','Wish Tracker'],
     track:{ pull:'Wish', pulls:'Wishes', title:'Wish Tracker', currency:'Primogems', cost:160,
       fives:['Skirk','Mavuika','Neuvillette','Arlecchino','Furina'], fours:['Bennett','Xiangling','Fischl','Sucrose','Rosaria'] },
     codes:[
@@ -382,7 +382,7 @@ const GAME_REGISTRY = {
     key:'hsr', name:'Honkai: Star Rail', charName:'Castorice',
     art:'../assets/bg/hsrbg.png', benchIcon:'../assets/bg/hsrbg.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'63% 31%', bgSize:'152% auto', bgTransform:'scaleX(-1) scale(1.07) rotate(2.5deg)',
-    fns:['Character Materials','Relic Sorter','Warp Tracker'],
+    fns:['Character Materials','Database','Warp Tracker'],
     track:{ pull:'Warp', pulls:'Warps', title:'Warp Tracker', currency:'Stellar Jade', cost:160,
       fives:['Castorice','Firefly','Acheron','Robin','Aglaea'], fours:['Asta','March 7th','Herta','Tingyun','Pela'] },
     codes:[
@@ -396,7 +396,7 @@ const GAME_REGISTRY = {
     key:'zzz', name:'Zenless Zone Zero', charName:'Yixuan',
     art:'../assets/bg/zzzbg3.png', benchIcon:'../assets/bg/zzzbg3.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'30% 55%', bgSize:'165% auto', bgTransform:'scale(1.08) rotate(4deg)',
-    fns:['Character Materials','Drive Disc Sorter','Signal Tracker'],
+    fns:['Character Materials','Database','Signal Tracker'],
     track:{ pull:'Signal', pulls:'Signals', title:'Signal Tracker', currency:'Polychrome', cost:160,
       fives:['Yixuan','Miyabi','Zhu Yuan','Evelyn','Astra Yao'], fours:['Nicole','Anby','Billy','Corin','Ben'] },
     codes:[
@@ -409,7 +409,7 @@ const GAME_REGISTRY = {
     key:'wuwa', name:'Wuthering Waves', charName:'Carlotta',
     art:'../assets/bg/wuwabg2.png', benchIcon:'../assets/bg/wuwabg2.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'74% 45%', bgSize:'148% auto', bgTransform:'scaleX(-1) scale(1.06) rotate(-3deg)',
-    fns:['Character Materials','Echo Sorter','Convene Tracker'],
+    fns:['Character Materials','Database','Convene Tracker'],
     track:{ pull:'Convene', pulls:'Convenes', title:'Convene Tracker', currency:'Astrite', cost:160,
       fives:['Carlotta','Jinhsi','Changli','Camellya','Zani'], fours:['Yangyang','Baizhi','Chixia','Sanhua','Taoqi'] },
     codes:[
@@ -422,7 +422,7 @@ const GAME_REGISTRY = {
     key:'ae', name:'Arknights: Endfield', charName:'Perlica',
     art:'../assets/bg/aebg.png', benchIcon:'../assets/bg/aebg.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'52% 68%', bgSize:'158% auto', bgTransform:'scale(1.08) rotate(1.5deg)',
-    fns:['Character Materials','Gear Sorter','Headhunting Tracker'],
+    fns:['Character Materials','Database','Headhunting Tracker'],
     track:{ pull:'Headhunt', pulls:'Headhunts', title:'Headhunting Tracker', currency:'Originium', cost:120,
       fives:['Perlica','Laevatain','Chen Qianyu','Ember','Wulfgard'], fours:['Xaihi','Endmin','Da Pan','Gilberta','Snowshine'] },
     codes:[
@@ -2239,7 +2239,7 @@ function navKeyDown(fn){
 }
 
 function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, characterCustomize, setCharacterCustomize, materialSelection, setMaterialSelection, onSelectMaterialCharacter, onCloseMaterialCharacter }){
-  const fns = cfg.fns || ['Character Materials','Artifact Sorter','Wish Tracker'];
+  const fns = cfg.fns || ['Character Materials','Database','Wish Tracker'];
   const hasTcg = cfg.key === 'gi';
   const openCharacterCustomize = (payload) => {
     setCharacterCustomize(Object.assign({ game:cfg.key, restoreScroll:0 }, payload || {}));

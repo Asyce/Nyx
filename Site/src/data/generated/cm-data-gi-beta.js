@@ -30,10 +30,12 @@
         "chinese": "???",
         "korean": "???"
       },
-      "icon": null,
-      "art": null,
+      "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
+      "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
       "skillIcons": [
-        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp"
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Odette_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Odette_01.webp"
       ],
       "book": "\"Mercy\"",
       "req": {
@@ -180,7 +182,7 @@
             "qty": 168,
             "rar": 1,
             "kind": "specialty",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101275.webp"
           },
           {
             "id": "112149",
@@ -246,7 +248,7 @@
             "qty": 9,
             "rar": 2,
             "kind": "book",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104365.webp"
           },
           {
             "id": "104366",
@@ -254,7 +256,7 @@
             "qty": 63,
             "rar": 3,
             "kind": "book",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104366.webp"
           },
           {
             "id": "104367",
@@ -262,7 +264,7 @@
             "qty": 114,
             "rar": 4,
             "kind": "book",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104367.webp"
           },
           {
             "id": "113088",
@@ -305,7 +307,7 @@
                   "qty": 3,
                   "rar": 2,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104365.webp"
                 }
               ],
               "cost": 12500
@@ -326,7 +328,7 @@
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104366.webp"
                 }
               ],
               "cost": 17500
@@ -347,7 +349,7 @@
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104366.webp"
                 }
               ],
               "cost": 25000
@@ -368,7 +370,7 @@
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104366.webp"
                 }
               ],
               "cost": 30000
@@ -389,7 +391,7 @@
                   "qty": 9,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104366.webp"
                 }
               ],
               "cost": 37500
@@ -410,7 +412,7 @@
                   "qty": 4,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104367.webp"
                 },
                 {
                   "id": "113088",
@@ -445,7 +447,7 @@
                   "qty": 6,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104367.webp"
                 },
                 {
                   "id": "113088",
@@ -480,7 +482,7 @@
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104367.webp"
                 },
                 {
                   "id": "113088",
@@ -515,7 +517,7 @@
                   "qty": 16,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104367.webp"
                 },
                 {
                   "id": "113088",
@@ -560,7 +562,7 @@
                   "qty": 3,
                   "rar": 2,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104365.webp"
                 }
               ],
               "cost": 12500
@@ -581,7 +583,7 @@
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104366.webp"
                 }
               ],
               "cost": 17500
@@ -602,7 +604,7 @@
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104366.webp"
                 }
               ],
               "cost": 25000
@@ -623,7 +625,7 @@
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104366.webp"
                 }
               ],
               "cost": 30000
@@ -644,7 +646,7 @@
                   "qty": 9,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104366.webp"
                 }
               ],
               "cost": 37500
@@ -665,7 +667,7 @@
                   "qty": 4,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104367.webp"
                 },
                 {
                   "id": "113088",
@@ -700,7 +702,7 @@
                   "qty": 6,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104367.webp"
                 },
                 {
                   "id": "113088",
@@ -735,7 +737,7 @@
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104367.webp"
                 },
                 {
                   "id": "113088",
@@ -770,7 +772,7 @@
                   "qty": 16,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104367.webp"
                 },
                 {
                   "id": "113088",
@@ -815,7 +817,7 @@
                   "qty": 3,
                   "rar": 2,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104365.webp"
                 }
               ],
               "cost": 12500
@@ -836,7 +838,7 @@
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104366.webp"
                 }
               ],
               "cost": 17500
@@ -857,7 +859,7 @@
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104366.webp"
                 }
               ],
               "cost": 25000
@@ -878,7 +880,7 @@
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104366.webp"
                 }
               ],
               "cost": 30000
@@ -899,7 +901,7 @@
                   "qty": 9,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104366.webp"
                 }
               ],
               "cost": 37500
@@ -920,7 +922,7 @@
                   "qty": 4,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104367.webp"
                 },
                 {
                   "id": "113088",
@@ -955,7 +957,7 @@
                   "qty": 6,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104367.webp"
                 },
                 {
                   "id": "113088",
@@ -990,7 +992,7 @@
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104367.webp"
                 },
                 {
                   "id": "113088",
@@ -1025,7 +1027,7 @@
                   "qty": 16,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104367.webp"
                 },
                 {
                   "id": "113088",
@@ -1124,10 +1126,12 @@
         "chinese": "???",
         "korean": "???"
       },
-      "icon": null,
-      "art": null,
+      "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Alyosha_Circle.webp",
+      "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alyosha.webp",
       "skillIcons": [
-        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp"
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Alyosha_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Alyosha_01.webp"
       ],
       "book": "Glory",
       "req": {
@@ -1274,7 +1278,7 @@
             "qty": 168,
             "rar": 1,
             "kind": "specialty",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101276.webp"
           },
           {
             "id": "112146",
@@ -1340,7 +1344,7 @@
             "qty": 9,
             "rar": 2,
             "kind": "book",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104371.webp"
           },
           {
             "id": "104372",
@@ -1348,7 +1352,7 @@
             "qty": 63,
             "rar": 3,
             "kind": "book",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
           },
           {
             "id": "104373",
@@ -1356,7 +1360,7 @@
             "qty": 114,
             "rar": 4,
             "kind": "book",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
           },
           {
             "id": "113083",
@@ -1400,7 +1404,7 @@
                   "qty": 3,
                   "rar": 2,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104371.webp"
                 }
               ],
               "cost": 12500
@@ -1421,7 +1425,7 @@
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
                 }
               ],
               "cost": 17500
@@ -1442,7 +1446,7 @@
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
                 }
               ],
               "cost": 25000
@@ -1463,7 +1467,7 @@
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
                 }
               ],
               "cost": 30000
@@ -1484,7 +1488,7 @@
                   "qty": 9,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
                 }
               ],
               "cost": 37500
@@ -1505,7 +1509,7 @@
                   "qty": 4,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
                 },
                 {
                   "id": "113083",
@@ -1541,7 +1545,7 @@
                   "qty": 6,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
                 },
                 {
                   "id": "113083",
@@ -1577,7 +1581,7 @@
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
                 },
                 {
                   "id": "113083",
@@ -1613,7 +1617,7 @@
                   "qty": 16,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
                 },
                 {
                   "id": "113083",
@@ -1659,7 +1663,7 @@
                   "qty": 3,
                   "rar": 2,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104371.webp"
                 }
               ],
               "cost": 12500
@@ -1680,7 +1684,7 @@
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
                 }
               ],
               "cost": 17500
@@ -1701,7 +1705,7 @@
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
                 }
               ],
               "cost": 25000
@@ -1722,7 +1726,7 @@
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
                 }
               ],
               "cost": 30000
@@ -1743,7 +1747,7 @@
                   "qty": 9,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
                 }
               ],
               "cost": 37500
@@ -1764,7 +1768,7 @@
                   "qty": 4,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
                 },
                 {
                   "id": "113083",
@@ -1800,7 +1804,7 @@
                   "qty": 6,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
                 },
                 {
                   "id": "113083",
@@ -1836,7 +1840,7 @@
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
                 },
                 {
                   "id": "113083",
@@ -1872,7 +1876,7 @@
                   "qty": 16,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
                 },
                 {
                   "id": "113083",
@@ -1918,7 +1922,7 @@
                   "qty": 3,
                   "rar": 2,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104371.webp"
                 }
               ],
               "cost": 12500
@@ -1939,7 +1943,7 @@
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
                 }
               ],
               "cost": 17500
@@ -1960,7 +1964,7 @@
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
                 }
               ],
               "cost": 25000
@@ -1981,7 +1985,7 @@
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
                 }
               ],
               "cost": 30000
@@ -2002,7 +2006,7 @@
                   "qty": 9,
                   "rar": 3,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
                 }
               ],
               "cost": 37500
@@ -2023,7 +2027,7 @@
                   "qty": 4,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
                 },
                 {
                   "id": "113083",
@@ -2059,7 +2063,7 @@
                   "qty": 6,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
                 },
                 {
                   "id": "113083",
@@ -2095,7 +2099,7 @@
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
                 },
                 {
                   "id": "113083",
@@ -2131,7 +2135,7 @@
                   "qty": 16,
                   "rar": 4,
                   "kind": "book",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
                 },
                 {
                   "id": "113083",

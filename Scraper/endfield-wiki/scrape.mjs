@@ -12,6 +12,7 @@ import {
   extFromUrl,
   fetchJson,
   mapLimit,
+  parseAttrs,
   readJson,
   safeSlug,
   stripTags,
@@ -22,7 +23,11 @@ const PROVIDER = 'EndfieldWiki';
 const GAME_ID = 'endfield';
 const GAME_NAME = 'Arknights: Endfield';
 const WIKI_API = 'https://endfield.wiki.gg/api.php';
+const WIKI_BASE = 'https://endfield.wiki.gg';
 const WIKI_PAGE_BASE = 'https://endfield.wiki.gg/wiki/';
+
+const CHAR_PROMOTION_HEADINGS = ['Promotion'];
+const ITEM_BOX_RE = /<div class="item-bg item-bg-t(\d+)">[\s\S]*?<div class="item-tooltip"([^>]*)>[\s\S]*?<a href="\/wiki\/([^"#]+)"[\s\S]*?<img[^>]*src="([^"]+)"[\s\S]*?<div class="item-count">\s*([0-9.,KkMm]+)\s*<\/div>/g;
 
 const CARGO_FIELDS = [
   '_pageName',
@@ -150,6 +155,9 @@ async function main() {
 
   const assets = [];
   const missingAssets = [];
+  const itemAssetsQueued = new Set();
+  const itemsById = new Map();
+  const materialReports = [];
   const characters = cargoRows.map((row) => normalizeOperator({
     row,
     page: pagesById[operatorId(row)],
@@ -157,14 +165,68 @@ async function main() {
     assetRoot,
     databaseDir,
     assets,
-    missingAssets
+    missingAssets,
+    itemAssetsQueued,
+    itemsById,
+    materialReports
   }));
+
+  console.log(`[endfield-wiki] scraping weapon tuning materials...`);
+  const weapons = await fetchWeapons({
+    databaseDir,
+    assets,
+    itemAssetsQueued,
+    itemsById,
+    concurrency: options.concurrency,
+    sample: options.sample
+  });
+  const items = [...itemsById.values()]
+    .map(({ _assetQueued, ...item }) => item)
+    .sort((a, b) => a.name.localeCompare(b.name));
 
   const assetSummary = options.skipAssets
     ? { requested: assets.length, skipped: assets.length, downloaded: 0, cached: 0, missing: 0 }
     : await downloadAssets(assets, options);
 
   await writeJson(path.join(outputDir, 'characters.json'), characters);
+  await writeJson(path.join(outputDir, 'weapons.json'), {
+    provider: PROVIDER,
+    game: GAME_ID,
+    gameName: GAME_NAME,
+    scrapedAt,
+    source: {
+      site: 'endfield.wiki.gg',
+      api: 'MediaWiki API rendered Weapon pages',
+      index: wikiPageUrl('Weapon')
+    },
+    sample: options.sample || null,
+    weapons
+  });
+  await writeJson(path.join(outputDir, 'items.json'), {
+    provider: PROVIDER,
+    game: GAME_ID,
+    gameName: GAME_NAME,
+    scrapedAt,
+    source: {
+      site: 'endfield.wiki.gg',
+      api: 'MediaWiki API rendered item boxes'
+    },
+    sample: options.sample || null,
+    items: Object.fromEntries(items.map((item) => [item.id, item]))
+  });
+  await writeJson(path.join(outputDir, 'material-report.json'), {
+    provider: PROVIDER,
+    game: GAME_ID,
+    generatedAt: scrapedAt,
+    counts: {
+      characters: characters.length,
+      charactersWithMaterials: characters.filter((ch) => ch.materials?.ascension?.length || ch.materials?.skill?.length).length,
+      charactersMissingMaterials: materialReports.filter((row) => row.status !== 'ok').length,
+      weapons: weapons.length,
+      items: items.length
+    },
+    characters: materialReports.sort((a, b) => a.name.localeCompare(b.name))
+  });
   await writeJson(path.join(outputDir, 'missing-assets.json'), missingAssets);
 
   const overview = {
@@ -180,11 +242,17 @@ async function main() {
     sample: options.sample || null,
     counts: {
       characters: characters.length,
+      charactersWithMaterials: characters.filter((ch) => ch.materials?.ascension?.length || ch.materials?.skill?.length).length,
+      weapons: weapons.length,
+      materialItems: items.length,
       assetsPlanned: assets.length,
       missingAssets: missingAssets.length
     },
     files: {
       characters: databasePath(PROVIDER, GAME_ID, 'characters.json'),
+      weapons: databasePath(PROVIDER, GAME_ID, 'weapons.json'),
+      items: databasePath(PROVIDER, GAME_ID, 'items.json'),
+      materialReport: databasePath(PROVIDER, GAME_ID, 'material-report.json'),
       raw: databasePath(PROVIDER, GAME_ID, 'raw'),
       assets: databasePath(PROVIDER, GAME_ID, 'assets'),
       missingAssets: databasePath(PROVIDER, GAME_ID, 'missing-assets.json')
@@ -192,6 +260,7 @@ async function main() {
     assets: assetSummary,
     notes: [
       'Banner and portrait art are optional on upstream wiki pages; missing files are reported without removing the operator.',
+      'Operator Promotion, Skill upgrades, Talent upgrades, Base Skill upgrades, and weapon Tuning material counts are parsed from rendered wiki item boxes.',
       'Normalized data stores only local database-relative asset paths, not remote image URLs.'
     ]
   };
@@ -200,6 +269,8 @@ async function main() {
   const previousStateFile = path.join(databaseDir, PROVIDER, '_state', `${GAME_ID}-hashes.json`);
   const previousState = await readJson(previousStateFile, {});
   const { hashes, report } = diffRecords(previousState.hashes?.characters || {}, characters);
+  const { hashes: weaponHashes, report: weaponReport } = diffRecords(previousState.hashes?.weapons || {}, weapons);
+  const { hashes: itemHashes, report: itemReport } = diffRecords(previousState.hashes?.items || {}, items);
   const changes = {
     provider: PROVIDER,
     game: GAME_ID,
@@ -210,15 +281,27 @@ async function main() {
         removed: report.removed.length,
         changed: report.changed.length,
         unchanged: report.unchanged
+      },
+      weapons: {
+        added: weaponReport.added.length,
+        removed: weaponReport.removed.length,
+        changed: weaponReport.changed.length,
+        unchanged: weaponReport.unchanged
+      },
+      items: {
+        added: itemReport.added.length,
+        removed: itemReport.removed.length,
+        changed: itemReport.changed.length,
+        unchanged: itemReport.unchanged
       }
     },
-    sections: { characters: report }
+    sections: { characters: report, weapons: weaponReport, items: itemReport }
   };
 
   await writeJson(previousStateFile, {
     game: GAME_ID,
     updatedAt: scrapedAt,
-    hashes: { characters: hashes }
+    hashes: { characters: hashes, weapons: weaponHashes, items: itemHashes }
   });
   await writeJson(path.join(databaseDir, PROVIDER, 'changes', `${GAME_ID}-latest.json`), changes);
   await writeJson(path.join(outputDir, 'metadata.json'), {
@@ -245,12 +328,14 @@ async function fetchCargoOperators() {
 }
 
 async function fetchOperatorPage(pageName) {
-  const url = `${WIKI_API}?action=parse&page=${encodeURIComponent(pageName)}&prop=wikitext|displaytitle&format=json&disableeditsection=1`;
+  const url = `${WIKI_API}?action=parse&page=${encodeURIComponent(pageName)}&prop=wikitext|displaytitle|text&format=json&disableeditsection=1`;
   const json = await fetchJson(url, { optional: true });
   if (!json || json.error) return null;
   const wikitext = json.parse?.wikitext?.['*'] || '';
   return {
     title: stripTags(json.parse?.displaytitle || pageName),
+    pageName,
+    html: json.parse?.text?.['*'] || '',
     infobox: parseInfobox(wikitext),
     sections: parseWikiSections(wikitext)
   };
@@ -286,7 +371,7 @@ async function fetchImageInfo(rows) {
   return lookup;
 }
 
-function normalizeOperator({ row, page, imageLookup, assetRoot, databaseDir, assets, missingAssets }) {
+function normalizeOperator({ row, page, imageLookup, assetRoot, databaseDir, assets, missingAssets, itemAssetsQueued, itemsById, materialReports }) {
   const id = operatorId(row);
   const name = cleanText(row.Operator);
   const art = {};
@@ -320,6 +405,16 @@ function normalizeOperator({ row, page, imageLookup, assetRoot, databaseDir, ass
     };
   }
 
+  const materialResult = parseOperatorMaterials(page, {
+    characterId: id,
+    characterName: name,
+    databaseDir,
+    assets,
+    itemAssetsQueued,
+    itemsById
+  });
+  materialReports.push(materialResult.report);
+
   return {
     id,
     contentStatus: 'live',
@@ -343,10 +438,375 @@ function normalizeOperator({ row, page, imageLookup, assetRoot, databaseDir, ass
     expertise: [cleanText(row.Expertise1), cleanText(row.Expertise2)].filter(Boolean),
     hobbies: [cleanText(row.Hobby1), cleanText(row.Hobby2)].filter(Boolean),
     preferredWeapons: splitList(row.Prefer),
+    materials: materialResult.materials,
     art,
     infobox: page?.infobox || {},
     sections: page?.sections || []
   };
+}
+
+function parseOperatorMaterials(page, context) {
+  const html = page?.html || '';
+  const report = {
+    id: context.characterId,
+    name: context.characterName,
+    pageName: page?.pageName || page?.title || null,
+    sourceUrl: page?.pageName ? wikiPageUrl(page.pageName) : null,
+    status: 'missing-page',
+    sections: {}
+  };
+
+  if (!html) return { materials: null, report };
+
+  const promotionStagesRaw = [];
+  for (const heading of CHAR_PROMOTION_HEADINGS) {
+    const stages = parsePerStageTable(sectionSlice(html, heading), 4);
+    report.sections[heading] = { stages: stages.length, items: stages.flat().length };
+    promotionStagesRaw.push(...stages);
+  }
+  const promotionStages = promotionStagesRaw.map((stage) => materialEntriesFromItems(stage, 'promotion', context));
+  const ascension = sumEntries(promotionStages.flat());
+
+  const skillSlice = sectionSlice(html, 'Skill_upgrades');
+  const skillRows = tableRows(skillSlice).filter((row) => row.includes('item-box-wrapper'));
+  const skillLevelStages = [];
+  const skillMasteryStages = [];
+  const skillMasterySkillStages = [];
+  for (let i = 0; i < Math.min(8, skillRows.length); i += 1) {
+    skillLevelStages.push(materialEntriesFromItems(parseItemBoxes(skillRows[i]), 'skill', context));
+  }
+  for (let i = 8; i < Math.min(11, skillRows.length); i += 1) {
+    const allItems = parseItemBoxes(skillRows[i]);
+    const cells = tableCells(skillRows[i]).filter((cell) => cell.includes('item-box-wrapper'));
+    skillMasteryStages.push(sumEntries(materialEntriesFromItems(allItems, 'skill', context)));
+    skillMasterySkillStages.push(cells.map((cell) => sumEntries(materialEntriesFromItems(parseItemBoxes(cell), 'skill', context))));
+  }
+  report.sections.Skill_upgrades = {
+    rows: skillRows.length,
+    skillLevelStages: skillLevelStages.length,
+    skillMasteryStages: skillMasteryStages.length,
+    items: skillRows.reduce((sum, row) => sum + parseItemBoxes(row).length, 0)
+  };
+
+  const extrasEntries = [];
+  for (const heading of ['Talent_upgrades', 'Base_Skill_upgrades']) {
+    const items = parseItemBoxes(sectionSlice(html, heading));
+    const entries = materialEntriesFromItems(items, 'skill', context);
+    extrasEntries.push(...entries);
+    report.sections[heading] = { items: entries.length };
+  }
+  const extras = sumEntries(extrasEntries);
+
+  const skillFlat = [];
+  const combatSkillCount = Math.max(1, skillMasterySkillStages[0]?.length || 4);
+  for (const stage of skillLevelStages) {
+    for (const entry of stage) skillFlat.push({ ...entry, count: entry.count * combatSkillCount });
+  }
+  for (const stage of skillMasteryStages) skillFlat.push(...stage);
+  skillFlat.push(...extrasEntries);
+  const skill = sumEntries(skillFlat);
+
+  const materials = ascension.length || skill.length
+    ? {
+        ascension,
+        skill,
+        promotionStages,
+        skillLevelStages,
+        skillMasteryStages,
+        skillMasterySkillStages,
+        extras,
+        combatSkillCount
+      }
+    : null;
+
+  report.status = materials ? 'ok' : 'missing-materials';
+  report.counts = {
+    ascension: ascension.length,
+    skill: skill.length,
+    extras: extras.length
+  };
+
+  return { materials, report };
+}
+
+async function fetchWeapons({ databaseDir, assets, itemAssetsQueued, itemsById, concurrency, sample }) {
+  const slugs = await fetchWikiSlugList('Weapon');
+  const skipExact = new Set([
+    'Operator', 'Gear', 'Attribute', 'Stagger', 'Arsenal_Exchange',
+    'Stock_Redistribution', 'T-Creds', 'Arms_Inspector', 'Arms_INSP_Kit',
+    'Arms_INSP_Set', 'Cast_Die', 'Kalkonyx', 'Auronyx', 'Heavy_Cast_Die',
+    'Umbronyx', 'Protocolized_Weapon_Pattern', 'Essence'
+  ]);
+  const candidates = slugs.filter((slug) => !skipExact.has(slug));
+  const limited = sample ? candidates.slice(0, sample) : candidates;
+  const parsed = await mapLimit(limited, concurrency, async (slug) => parseWeapon(slug, {
+    databaseDir,
+    assets,
+    itemAssetsQueued,
+    itemsById
+  }));
+  return parsed
+    .filter(Boolean)
+    .sort((a, b) => raritySort(b.rarity) - raritySort(a.rarity) || a.name.localeCompare(b.name));
+}
+
+async function fetchWikiSlugList(indexPage) {
+  const html = await fetchWikiHtml(indexPage);
+  if (!html) return [];
+  const slugs = new Set();
+  const re = /href="\/wiki\/([^"#:?]+)"/g;
+  let match;
+  while ((match = re.exec(html)) !== null) {
+    const slug = decodeURIComponent(match[1]);
+    if (slug.includes('/')) continue;
+    if (/^[a-z]/.test(slug)) continue;
+    slugs.add(slug);
+  }
+  return [...slugs];
+}
+
+async function fetchWikiHtml(pageTitle) {
+  const url = `${WIKI_API}?action=parse&page=${encodeURIComponent(pageTitle)}&prop=text&format=json&disableeditsection=1`;
+  const json = await fetchJson(url, { optional: true });
+  if (!json || json.error) return null;
+  return json.parse?.text?.['*'] || '';
+}
+
+async function parseWeapon(slug, context) {
+  const url = `${WIKI_API}?action=parse&page=${encodeURIComponent(slug)}&prop=text|wikitext|displaytitle&format=json&disableeditsection=1`;
+  const json = await fetchJson(url, { optional: true });
+  if (!json || json.error) return null;
+  const html = json.parse?.text?.['*'] || '';
+  const tuningSlice = sectionSlice(html, 'Tuning');
+  if (!tuningSlice) return null;
+  const tuningStagesRaw = parsePerStageTable(tuningSlice, 4);
+  if (!tuningStagesRaw.length) return null;
+
+  const wikitext = json.parse?.wikitext?.['*'] || '';
+  const infobox = parseTemplateInfobox(wikitext, 'Weapon infobox');
+  const name = cleanText(stripTags(json.parse?.displaytitle || '')) || cleanText(infobox.name) || slug.replace(/_/g, ' ');
+  const iconUrl = firstWeaponIconUrl(html, slug);
+  const icon = iconUrl ? queueLocalAsset({
+    url: iconUrl,
+    databaseDir: context.databaseDir,
+    assets: context.assets,
+    relParts: [PROVIDER, GAME_ID, 'assets', 'weapons', safeSlug(slug), `icon${extFromUrl(iconUrl, '.png')}`],
+    id: slug,
+    name,
+    kind: 'weapon'
+  }) : null;
+
+  const tuningStages = tuningStagesRaw.map((stage) => materialEntriesFromItems(stage, 'weapon', context));
+  const materials = sumEntries(tuningStages.flat());
+  return {
+    id: slug,
+    name,
+    pageName: slug,
+    sourceUrl: wikiPageUrl(slug),
+    rarity: numeric(infobox.rarity) || extractWeaponRarity(html),
+    weaponType: cleanText(infobox.type) || null,
+    source: cleanText(infobox.source) || null,
+    icon,
+    materials,
+    tuningStages
+  };
+}
+
+function materialEntriesFromItems(items, fallbackKind, context) {
+  return (items || []).map((item) => {
+    const registered = registerItem(context.itemsById, item, { ...context, fallbackKind });
+    return { id: registered.id, count: item.count };
+  });
+}
+
+function registerItem(itemsById, item, context) {
+  const id = item.slug || item.id || safeSlug(item.name || 'item');
+  const name = cleanText(item.name || id.replace(/_/g, ' '));
+  const iconUrl = item.iconUrl ? wikiImageOriginalUrl(item.iconUrl) : null;
+  const existing = itemsById.get(id);
+  const source = cleanText(item.source) || null;
+  const kind = inferItemKind({ ...item, source }, context.fallbackKind);
+  const next = existing || {
+    id,
+    name,
+    pageName: id,
+    sourceUrl: wikiPageUrl(id),
+    rarity: item.rarity || item.tier || null,
+    kind,
+    source,
+    icon: null
+  };
+
+  if (!next.source && source) next.source = source;
+  if (!next.kind || next.kind === 'item') next.kind = kind;
+  if (!next.rarity && (item.rarity || item.tier)) next.rarity = item.rarity || item.tier;
+  if (!next.icon && iconUrl) {
+    next.icon = queueLocalAsset({
+      url: iconUrl,
+      databaseDir: context.databaseDir,
+      assets: context.assets,
+      queued: context.itemAssetsQueued,
+      relParts: [PROVIDER, GAME_ID, 'assets', 'items', `${safeSlug(id)}${extFromUrl(iconUrl, '.png')}`],
+      id,
+      name,
+      kind: 'item'
+    });
+  }
+
+  itemsById.set(id, next);
+  return next;
+}
+
+function queueLocalAsset({ url, databaseDir, assets, queued = null, relParts, id, name, kind }) {
+  const rel = path.join(...relParts);
+  const localPath = databasePath(rel);
+  const key = `${kind}:${localPath}`;
+  if (!queued || !queued.has(key)) {
+    assets.push({ url, targetFile: path.join(databaseDir, rel), id, name, kind, localPath });
+    if (queued) queued.add(key);
+  }
+  return { path: localPath, url };
+}
+
+function sectionSlice(html, headingId) {
+  if (!html) return null;
+  const re = new RegExp(`<h[23][^>]*><span[^>]*id="${escapeRegExp(headingId)}"`, 'i');
+  const match = html.match(re);
+  if (!match) return null;
+  const start = match.index;
+  const after = html.slice(start + match[0].length);
+  const next = after.match(/<h[23][^>]*><span[^>]*id="/i);
+  const end = next ? start + match[0].length + next.index : html.length;
+  return html.slice(start, end);
+}
+
+function parsePerStageTable(sliceHtml, expectedStages = 4) {
+  const table = firstTable(sliceHtml);
+  if (!table) return [];
+  return tableRows(table)
+    .filter((row) => row.includes('item-box-wrapper'))
+    .slice(0, expectedStages)
+    .map((row) => parseItemBoxes(row));
+}
+
+function parseItemBoxes(sliceHtml) {
+  const out = [];
+  if (!sliceHtml) return out;
+  let match;
+  ITEM_BOX_RE.lastIndex = 0;
+  while ((match = ITEM_BOX_RE.exec(sliceHtml)) !== null) {
+    const attrs = parseAttrs(`<div${match[2]}>`);
+    const count = parseCount(match[5]);
+    if (!Number.isFinite(count) || count <= 0) continue;
+    const slug = decodeURIComponent(match[3]);
+    out.push({
+      slug,
+      name: cleanText(attrs['data-name'] || slug.replace(/_/g, ' ')),
+      rarity: numeric(attrs['data-tier']) || Number(match[1]) || null,
+      source: cleanText(attrs['data-obtain'] || ''),
+      iconUrl: normalizeWikiUrl(match[4]),
+      count
+    });
+  }
+  return out;
+}
+
+function tableRows(html = '') {
+  return [...String(html || '').matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)].map((row) => row[1]);
+}
+
+function tableCells(html = '') {
+  return [...String(html || '').matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map((cell) => cell[1]);
+}
+
+function firstTable(html = '') {
+  return String(html || '').match(/<table[\s\S]*?<\/table>/)?.[0] || null;
+}
+
+function sumEntries(entries) {
+  const totals = new Map();
+  for (const entry of entries || []) {
+    if (!entry?.id) continue;
+    totals.set(entry.id, (totals.get(entry.id) || 0) + Number(entry.count || 0));
+  }
+  return [...totals.entries()]
+    .filter(([, count]) => count > 0)
+    .map(([id, count]) => ({ id, count }));
+}
+
+function parseCount(raw) {
+  const match = String(raw || '').replace(/,/g, '').trim().match(/^([\d.]+)([KkMm]?)$/);
+  if (!match) return null;
+  let count = Number.parseFloat(match[1]);
+  if (!Number.isFinite(count)) return null;
+  const suffix = match[2].toLowerCase();
+  if (suffix === 'k') count *= 1_000;
+  if (suffix === 'm') count *= 1_000_000;
+  return Math.round(count);
+}
+
+function inferItemKind(item, fallback = 'item') {
+  const name = cleanText(item.name || item.slug);
+  const source = cleanText(item.source || '');
+  if (/^T-Creds$/i.test(name) || /\bT-Creds\b/i.test(source)) return 'currency';
+  if (/Area found|Rare (Gathering|Mining) Sites|Growth Chamber|Production/i.test(source)) return 'specialty';
+  if (/Weapon Tune/i.test(source) || fallback === 'weapon') return 'weapon';
+  if (/Skill Up/i.test(source)) return 'book';
+  if (/Promotions/i.test(source) || fallback === 'promotion') return 'gem';
+  return fallback || 'item';
+}
+
+function firstWeaponIconUrl(html, slug) {
+  const expectedAlt = `${slug.replace(/_/g, ' ')} icon.png`.toLowerCase();
+  const imgRe = /<img\b[^>]*>/gi;
+  let match;
+  while ((match = imgRe.exec(String(html || ''))) !== null) {
+    const attrs = parseAttrs(match[0]);
+    const src = attrs.src || '';
+    const alt = cleanText(attrs.alt || '').toLowerCase();
+    if (src && alt === expectedAlt) return wikiImageOriginalUrl(src);
+  }
+  imgRe.lastIndex = 0;
+  while ((match = imgRe.exec(String(html || ''))) !== null) {
+    const attrs = parseAttrs(match[0]);
+    const src = attrs.src || '';
+    const alt = cleanText(attrs.alt || '');
+    if (src && /_icon\.png/i.test(src) && / icon\.png$/i.test(alt)) return wikiImageOriginalUrl(src);
+  }
+  return null;
+}
+
+function extractWeaponRarity(html) {
+  const match = String(html || '').match(/Rarity_(\d)\.png/i) || String(html || '').match(/Rarity[\s\S]{0,80}?(\d)\s*★/i);
+  return match ? Number(match[1]) : null;
+}
+
+function wikiImageOriginalUrl(raw) {
+  const url = normalizeWikiUrl(raw);
+  return url
+    .replace('/images/thumb/', '/images/')
+    .replace(/\/\d+px-[^/?#]+(?=([?#]|$))/, '');
+}
+
+function normalizeWikiUrl(raw) {
+  if (!raw) return null;
+  try {
+    return new URL(decodeEntities(raw), WIKI_BASE).href;
+  } catch {
+    return null;
+  }
+}
+
+function wikiPageUrl(title) {
+  return WIKI_PAGE_BASE + encodeURIComponent(String(title || '').replace(/ /g, '_')).replace(/%2F/g, '/');
+}
+
+function raritySort(value) {
+  return Number(value) || 0;
+}
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 async function downloadAssets(assets, options) {
@@ -405,9 +865,13 @@ function resolveImage(raw, lookup) {
 }
 
 function parseInfobox(wikitext) {
-  const start = wikitext.indexOf('{{Operator infobox');
+  return parseTemplateInfobox(wikitext, 'Operator infobox');
+}
+
+function parseTemplateInfobox(wikitext, templateName) {
+  const start = wikitext.indexOf(`{{${templateName}`);
   if (start < 0) return {};
-  const end = wikitext.indexOf('\n}}', start);
+  const end = findTemplateEnd(wikitext, start);
   const body = wikitext.slice(start, end > start ? end : start + 8000);
   const out = {};
   let currentKey = null;
@@ -416,13 +880,29 @@ function parseInfobox(wikitext) {
     const match = line.match(/^\|([^=]+?)\s*=\s*(.*)$/);
     if (match) {
       currentKey = safeKey(match[1]);
-      out[currentKey] = wikiToText(match[2]);
+      out[currentKey] = wikiToText(match[2].replace(/\}\}\s*$/, ''));
     } else if (currentKey && line.trim()) {
       out[currentKey] = [out[currentKey], wikiToText(line)].filter(Boolean).join('\n').trim();
     }
   }
 
   return out;
+}
+
+function findTemplateEnd(wikitext, start) {
+  let depth = 0;
+  for (let i = start; i < wikitext.length - 1; i += 1) {
+    const pair = wikitext.slice(i, i + 2);
+    if (pair === '{{') {
+      depth += 1;
+      i += 1;
+    } else if (pair === '}}') {
+      depth -= 1;
+      i += 1;
+      if (depth <= 0) return i + 1;
+    }
+  }
+  return -1;
 }
 
 function parseWikiSections(wikitext) {

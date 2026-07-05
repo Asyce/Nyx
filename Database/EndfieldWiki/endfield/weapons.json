@@ -1,0 +1,7644 @@
+{
+  "provider": "EndfieldWiki",
+  "game": "endfield",
+  "gameName": "Arknights: Endfield",
+  "scrapedAt": "2026-07-05T00:15:15.053Z",
+  "source": {
+    "site": "endfield.wiki.gg",
+    "api": "MediaWiki API rendered Weapon pages",
+    "index": "https://endfield.wiki.gg/wiki/Weapon"
+  },
+  "sample": null,
+  "weapons": [
+    {
+      "id": "Amaranthine_Tassel",
+      "name": "Amaranthine Tassel",
+      "pageName": "Amaranthine_Tassel",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Amaranthine_Tassel",
+      "rarity": 6,
+      "weaponType": "Great Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/amaranthine-tassel/icon.png",
+        "url": "https://endfield.wiki.gg/images/Amaranthine_Tassel_icon.png?b4721f"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Quadrant_Fitting_Fluid",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Quadrant_Fitting_Fluid",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Artzy_Tyrannical",
+      "name": "Artzy Tyrannical",
+      "pageName": "Artzy_Tyrannical",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Artzy_Tyrannical",
+      "rarity": 6,
+      "weaponType": "Handcannon",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/artzy-tyrannical/icon.png",
+        "url": "https://endfield.wiki.gg/images/Artzy_Tyrannical_icon.png?f3de61"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Tachyon_Screening_Lattice",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Tachyon_Screening_Lattice",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Beacon_of_Duty",
+      "name": "Beacon of Duty",
+      "pageName": "Beacon_of_Duty",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Beacon_of_Duty",
+      "rarity": 6,
+      "weaponType": "Polearm",
+      "source": "Reward: Protocol Pass",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/beacon-of-duty/icon.png",
+        "url": "https://endfield.wiki.gg/images/Beacon_of_Duty_icon.png?44fdc7"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Triphasic_Nanoflake",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Triphasic_Nanoflake",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Blessing_of_Lustrous_Carmine",
+      "name": "Blessing of Lustrous Carmine",
+      "pageName": "Blessing_of_Lustrous_Carmine",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Blessing_of_Lustrous_Carmine",
+      "rarity": 6,
+      "weaponType": "Polearm",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/blessing-of-lustrous-carmine/icon.png",
+        "url": "https://endfield.wiki.gg/images/Blessing_of_Lustrous_Carmine_icon.png?6a1484"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "D96_Steel_Sample_4",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "D96_Steel_Sample_4",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Brigand's_Calling",
+      "name": "Brigand's Calling",
+      "pageName": "Brigand's_Calling",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Brigand's_Calling",
+      "rarity": 6,
+      "weaponType": "Handcannon",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/brigands-calling/icon.png",
+        "url": "https://endfield.wiki.gg/images/Brigand%27s_Calling_icon.png?93146c"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Quadrant_Fitting_Fluid",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Quadrant_Fitting_Fluid",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Chivalric_Virtues",
+      "name": "Chivalric Virtues",
+      "pageName": "Chivalric_Virtues",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Chivalric_Virtues",
+      "rarity": 6,
+      "weaponType": "Arts Unit",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/chivalric-virtues/icon.png",
+        "url": "https://endfield.wiki.gg/images/Chivalric_Virtues_icon.png?97d981"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "D96_Steel_Sample_4",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "D96_Steel_Sample_4",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Clannibal",
+      "name": "Clannibal",
+      "pageName": "Clannibal",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Clannibal",
+      "rarity": 6,
+      "weaponType": "Handcannon",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/clannibal/icon.png",
+        "url": "https://endfield.wiki.gg/images/Clannibal_icon.png?cc0dcd"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Quadrant_Fitting_Fluid",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Quadrant_Fitting_Fluid",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Delivery_Guaranteed",
+      "name": "Delivery Guaranteed",
+      "pageName": "Delivery_Guaranteed",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Delivery_Guaranteed",
+      "rarity": 6,
+      "weaponType": "Arts Unit",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/delivery-guaranteed/icon.png",
+        "url": "https://endfield.wiki.gg/images/Delivery_Guaranteed_icon.png?f54227"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Tachyon_Screening_Lattice",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Tachyon_Screening_Lattice",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Detonation_Unit",
+      "name": "Detonation Unit",
+      "pageName": "Detonation_Unit",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Detonation_Unit",
+      "rarity": 6,
+      "weaponType": "Arts Unit",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/detonation-unit/icon.png",
+        "url": "https://endfield.wiki.gg/images/Detonation_Unit_icon.png?63e061"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Triphasic_Nanoflake",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Triphasic_Nanoflake",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Dreams_of_the_Starry_Beach",
+      "name": "Dreams of the Starry Beach",
+      "pageName": "Dreams_of_the_Starry_Beach",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Dreams_of_the_Starry_Beach",
+      "rarity": 6,
+      "weaponType": "Arts Unit",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/dreams-of-the-starry-beach/icon.png",
+        "url": "https://endfield.wiki.gg/images/Dreams_of_the_Starry_Beach_icon.png?875f3e"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Quadrant_Fitting_Fluid",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Quadrant_Fitting_Fluid",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Eminent_Repute",
+      "name": "Eminent Repute",
+      "pageName": "Eminent_Repute",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Eminent_Repute",
+      "rarity": 6,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/eminent-repute/icon.png",
+        "url": "https://endfield.wiki.gg/images/Eminent_Repute_icon.png?4a08f8"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Tachyon_Screening_Lattice",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Tachyon_Screening_Lattice",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Exemplar",
+      "name": "Exemplar",
+      "pageName": "Exemplar",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Exemplar",
+      "rarity": 6,
+      "weaponType": "Great Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/exemplar/icon.png",
+        "url": "https://endfield.wiki.gg/images/Exemplar_icon.png?df5afb"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Triphasic_Nanoflake",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Triphasic_Nanoflake",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Flickers_in_the_Mist",
+      "name": "Flickers in the Mist",
+      "pageName": "Flickers_in_the_Mist",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Flickers_in_the_Mist",
+      "rarity": 6,
+      "weaponType": "Arts Unit",
+      "source": "Reward: Protocol Pass",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/flickers-in-the-mist/icon.png",
+        "url": "https://endfield.wiki.gg/images/Flickers_in_the_Mist_icon.png?d35450"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Triphasic_Nanoflake",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Triphasic_Nanoflake",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Forgeborn_Scathe",
+      "name": "Forgeborn Scathe",
+      "pageName": "Forgeborn_Scathe",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Forgeborn_Scathe",
+      "rarity": 6,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/forgeborn-scathe/icon.png",
+        "url": "https://endfield.wiki.gg/images/Forgeborn_Scathe_icon.png?41780f"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "D96_Steel_Sample_4",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "D96_Steel_Sample_4",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Former_Finery",
+      "name": "Former Finery",
+      "pageName": "Former_Finery",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Former_Finery",
+      "rarity": 6,
+      "weaponType": "Great Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/former-finery/icon.png",
+        "url": "https://endfield.wiki.gg/images/Former_Finery_icon.png?50626d"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Glorious_Memory",
+      "name": "Glorious Memory",
+      "pageName": "Glorious_Memory",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Glorious_Memory",
+      "rarity": 6,
+      "weaponType": "Sword",
+      "source": "Reward: Protocol Pass",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/glorious-memory/icon.png",
+        "url": "https://endfield.wiki.gg/images/Glorious_Memory_icon.png?75be07"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "D96_Steel_Sample_4",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "D96_Steel_Sample_4",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Grand_Vision",
+      "name": "Grand Vision",
+      "pageName": "Grand_Vision",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Grand_Vision",
+      "rarity": 6,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/grand-vision/icon.png",
+        "url": "https://endfield.wiki.gg/images/Grand_Vision_icon.png?cacb79"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Home_Longing",
+      "name": "Home Longing",
+      "pageName": "Home_Longing",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Home_Longing",
+      "rarity": 6,
+      "weaponType": "Handcannon",
+      "source": "Reward: Protocol Pass",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/home-longing/icon.png",
+        "url": "https://endfield.wiki.gg/images/Home_Longing_icon.png?b2b21a"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Tachyon_Screening_Lattice",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Tachyon_Screening_Lattice",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "JET",
+      "name": "JET",
+      "pageName": "JET",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/JET",
+      "rarity": 6,
+      "weaponType": "Polearm",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/jet/icon.png",
+        "url": "https://endfield.wiki.gg/images/JET_icon.png?64b087"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Quadrant_Fitting_Fluid",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Quadrant_Fitting_Fluid",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Khravengger",
+      "name": "Khravengger",
+      "pageName": "Khravengger",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Khravengger",
+      "rarity": 6,
+      "weaponType": "Great Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/khravengger/icon.png",
+        "url": "https://endfield.wiki.gg/images/Khravengger_icon.png?21bc4b"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Triphasic_Nanoflake",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Triphasic_Nanoflake",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Lone_Barge",
+      "name": "Lone Barge",
+      "pageName": "Lone_Barge",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Lone_Barge",
+      "rarity": 6,
+      "weaponType": "Arts Unit",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/lone-barge/icon.png",
+        "url": "https://endfield.wiki.gg/images/Lone_Barge_icon.png?f77ac7"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Lupine_Scarlet",
+      "name": "Lupine Scarlet",
+      "pageName": "Lupine_Scarlet",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Lupine_Scarlet",
+      "rarity": 6,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/lupine-scarlet/icon.png",
+        "url": "https://endfield.wiki.gg/images/Lupine_Scarlet_icon.png?6044a1"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Triphasic_Nanoflake",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Triphasic_Nanoflake",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Mountain_Bearer",
+      "name": "Mountain Bearer",
+      "pageName": "Mountain_Bearer",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Mountain_Bearer",
+      "rarity": 6,
+      "weaponType": "Polearm",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/mountain-bearer/icon.png",
+        "url": "https://endfield.wiki.gg/images/Mountain_Bearer_icon.png?9fbcad"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Navigator",
+      "name": "Navigator",
+      "pageName": "Navigator",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Navigator",
+      "rarity": 6,
+      "weaponType": "Handcannon",
+      "source": "Reward: Protocol Pass",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/navigator/icon.png",
+        "url": "https://endfield.wiki.gg/images/Navigator_icon.png?f41b8a"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Never_Rest",
+      "name": "Never Rest",
+      "pageName": "Never_Rest",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Never_Rest",
+      "rarity": 6,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/never-rest/icon.png",
+        "url": "https://endfield.wiki.gg/images/Never_Rest_icon.png?867c76"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Oblivion",
+      "name": "Oblivion",
+      "pageName": "Oblivion",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Oblivion",
+      "rarity": 6,
+      "weaponType": "Arts Unit",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/oblivion/icon.png",
+        "url": "https://endfield.wiki.gg/images/Oblivion_icon.png?359c90"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Phantom_Pain",
+      "name": "Phantom Pain",
+      "pageName": "Phantom_Pain",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Phantom_Pain",
+      "rarity": 6,
+      "weaponType": "Great Sword",
+      "source": "Reward: Protocol Pass",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/phantom-pain/icon.png",
+        "url": "https://endfield.wiki.gg/images/Phantom_Pain_icon.png?cdb89d"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Tachyon_Screening_Lattice",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Tachyon_Screening_Lattice",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Rapid_Ascent",
+      "name": "Rapid Ascent",
+      "pageName": "Rapid_Ascent",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Rapid_Ascent",
+      "rarity": 6,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/rapid-ascent/icon.png",
+        "url": "https://endfield.wiki.gg/images/Rapid_Ascent_icon.png?9c40b7"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Sundered_Prince",
+      "name": "Sundered Prince",
+      "pageName": "Sundered_Prince",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Sundered_Prince",
+      "rarity": 6,
+      "weaponType": "Great Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/sundered-prince/icon.png",
+        "url": "https://endfield.wiki.gg/images/Sundered_Prince_icon.png?a6f1f6"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "D96_Steel_Sample_4",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "D96_Steel_Sample_4",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Thermite_Cutter",
+      "name": "Thermite Cutter",
+      "pageName": "Thermite_Cutter",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Thermite_Cutter",
+      "rarity": 6,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/thermite-cutter/icon.png",
+        "url": "https://endfield.wiki.gg/images/Thermite_Cutter_icon.png?1fd4ff"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "D96_Steel_Sample_4",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "D96_Steel_Sample_4",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Thunderberge",
+      "name": "Thunderberge",
+      "pageName": "Thunderberge",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Thunderberge",
+      "rarity": 6,
+      "weaponType": "Great Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/thunderberge/icon.png",
+        "url": "https://endfield.wiki.gg/images/Thunderberge_icon.png?a5bbd9"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "D96_Steel_Sample_4",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "D96_Steel_Sample_4",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Umbral_Torch",
+      "name": "Umbral Torch",
+      "pageName": "Umbral_Torch",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Umbral_Torch",
+      "rarity": 6,
+      "weaponType": "Sword",
+      "source": "Reward: Protocol Pass",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/umbral-torch/icon.png",
+        "url": "https://endfield.wiki.gg/images/Umbral_Torch_icon.png?8f6cbb"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Valiant",
+      "name": "Valiant",
+      "pageName": "Valiant",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Valiant",
+      "rarity": 6,
+      "weaponType": "Polearm",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/valiant/icon.png",
+        "url": "https://endfield.wiki.gg/images/Valiant_icon.png?74def8"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Tachyon_Screening_Lattice",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Tachyon_Screening_Lattice",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Wedge",
+      "name": "Wedge",
+      "pageName": "Wedge",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Wedge",
+      "rarity": 6,
+      "weaponType": "Handcannon",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/wedge/icon.png",
+        "url": "https://endfield.wiki.gg/images/Wedge_icon.png?1f3068"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Tachyon_Screening_Lattice",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Tachyon_Screening_Lattice",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "White_Night_Nova",
+      "name": "White Night Nova",
+      "pageName": "White_Night_Nova",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/White_Night_Nova",
+      "rarity": 6,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/white-night-nova/icon.png",
+        "url": "https://endfield.wiki.gg/images/White_Night_Nova_icon.png?c67e4d"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Quadrant_Fitting_Fluid",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Quadrant_Fitting_Fluid",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Ancient_Canal",
+      "name": "Ancient Canal",
+      "pageName": "Ancient_Canal",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Ancient_Canal",
+      "rarity": 5,
+      "weaponType": "Great Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/ancient-canal/icon.png",
+        "url": "https://endfield.wiki.gg/images/Ancient_Canal_icon.png?7407c6"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Triphasic_Nanoflake",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Triphasic_Nanoflake",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Aspirant",
+      "name": "Aspirant",
+      "pageName": "Aspirant",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Aspirant",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/aspirant/icon.png",
+        "url": "https://endfield.wiki.gg/images/Aspirant_icon.png?9d6460"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Quadrant_Fitting_Fluid",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Quadrant_Fitting_Fluid",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Chimeric_Justice",
+      "name": "Chimeric Justice",
+      "pageName": "Chimeric_Justice",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Chimeric_Justice",
+      "rarity": 5,
+      "weaponType": "Polearm",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/chimeric-justice/icon.png",
+        "url": "https://endfield.wiki.gg/images/Chimeric_Justice_icon.png?6ac63a"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Cohesive_Traction",
+      "name": "Cohesive Traction",
+      "pageName": "Cohesive_Traction",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Cohesive_Traction",
+      "rarity": 5,
+      "weaponType": "Polearm",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/cohesive-traction/icon.png",
+        "url": "https://endfield.wiki.gg/images/Cohesive_Traction_icon.png?1cec26"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Tachyon_Screening_Lattice",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Tachyon_Screening_Lattice",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Finchaser_3.0",
+      "name": "Finchaser 3.0",
+      "pageName": "Finchaser_3.0",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Finchaser_3.0",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/finchaser-3-0/icon.png",
+        "url": "https://endfield.wiki.gg/images/Finchaser_3.0_icon.png?7e505c"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Finishing_Call",
+      "name": "Finishing Call",
+      "pageName": "Finishing_Call",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Finishing_Call",
+      "rarity": 5,
+      "weaponType": "Great Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/finishing-call/icon.png",
+        "url": "https://endfield.wiki.gg/images/Finishing_Call_icon.png?229638"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Quadrant_Fitting_Fluid",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Quadrant_Fitting_Fluid",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Fortmaker",
+      "name": "Fortmaker",
+      "pageName": "Fortmaker",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Fortmaker",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/fortmaker/icon.png",
+        "url": "https://endfield.wiki.gg/images/Fortmaker_icon.png?3d1551"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Tachyon_Screening_Lattice",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Tachyon_Screening_Lattice",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Freedom_to_Proselytize",
+      "name": "Freedom to Proselytize",
+      "pageName": "Freedom_to_Proselytize",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Freedom_to_Proselytize",
+      "rarity": 5,
+      "weaponType": "Arts Unit",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/freedom-to-proselytize/icon.png",
+        "url": "https://endfield.wiki.gg/images/Freedom_to_Proselytize_icon.png?db61fc"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "D96_Steel_Sample_4",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "D96_Steel_Sample_4",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Monaihe",
+      "name": "Monaihe",
+      "pageName": "Monaihe",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Monaihe",
+      "rarity": 5,
+      "weaponType": "Arts Unit",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/monaihe/icon.png",
+        "url": "https://endfield.wiki.gg/images/Monaihe_icon.png?8cebe1"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Triphasic_Nanoflake",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Triphasic_Nanoflake",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "OBJ_Arts_Identifier",
+      "name": "OBJ Arts Identifier",
+      "pageName": "OBJ_Arts_Identifier",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/OBJ_Arts_Identifier",
+      "rarity": 5,
+      "weaponType": "Arts Unit",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/obj-arts-identifier/icon.png",
+        "url": "https://endfield.wiki.gg/images/OBJ_Arts_Identifier_icon.png?dde51c"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "OBJ_Edge_of_Lightness",
+      "name": "OBJ Edge of Lightness",
+      "pageName": "OBJ_Edge_of_Lightness",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/OBJ_Edge_of_Lightness",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/obj-edge-of-lightness/icon.png",
+        "url": "https://endfield.wiki.gg/images/OBJ_Edge_of_Lightness_icon.png?8ff914"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "D96_Steel_Sample_4",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "D96_Steel_Sample_4",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "OBJ_Heavy_Burden",
+      "name": "OBJ Heavy Burden",
+      "pageName": "OBJ_Heavy_Burden",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/OBJ_Heavy_Burden",
+      "rarity": 5,
+      "weaponType": "Great Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/obj-heavy-burden/icon.png",
+        "url": "https://endfield.wiki.gg/images/OBJ_Heavy_Burden_icon.png?f28453"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Tachyon_Screening_Lattice",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Tachyon_Screening_Lattice",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "OBJ_Razorhorn",
+      "name": "OBJ Razorhorn",
+      "pageName": "OBJ_Razorhorn",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/OBJ_Razorhorn",
+      "rarity": 5,
+      "weaponType": "Polearm",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/obj-razorhorn/icon.png",
+        "url": "https://endfield.wiki.gg/images/OBJ_Razorhorn_icon.png?fa04e9"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Quadrant_Fitting_Fluid",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Quadrant_Fitting_Fluid",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "OBJ_Velocitous",
+      "name": "OBJ Velocitous",
+      "pageName": "OBJ_Velocitous",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/OBJ_Velocitous",
+      "rarity": 5,
+      "weaponType": "Handcannon",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/obj-velocitous/icon.png",
+        "url": "https://endfield.wiki.gg/images/OBJ_Velocitous_icon.png?559309"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Triphasic_Nanoflake",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Triphasic_Nanoflake",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Rational_Farewell",
+      "name": "Rational Farewell",
+      "pageName": "Rational_Farewell",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Rational_Farewell",
+      "rarity": 5,
+      "weaponType": "Handcannon",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/rational-farewell/icon.png",
+        "url": "https://endfield.wiki.gg/images/Rational_Farewell_icon.png?89cedb"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Triphasic_Nanoflake",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Triphasic_Nanoflake",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Seeker_of_Dark_Lung",
+      "name": "Seeker of Dark Lung",
+      "pageName": "Seeker_of_Dark_Lung",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Seeker_of_Dark_Lung",
+      "rarity": 5,
+      "weaponType": "Great Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/seeker-of-dark-lung/icon.png",
+        "url": "https://endfield.wiki.gg/images/Seeker_of_Dark_Lung_icon.png?e6ff80"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "D96_Steel_Sample_4",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "D96_Steel_Sample_4",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Stanza_of_Memorials",
+      "name": "Stanza of Memorials",
+      "pageName": "Stanza_of_Memorials",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Stanza_of_Memorials",
+      "rarity": 5,
+      "weaponType": "Arts Unit",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/stanza-of-memorials/icon.png",
+        "url": "https://endfield.wiki.gg/images/Stanza_of_Memorials_icon.png?e54a96"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Quadrant_Fitting_Fluid",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Quadrant_Fitting_Fluid",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Sundering_Steel",
+      "name": "Sundering Steel",
+      "pageName": "Sundering_Steel",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Sundering_Steel",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/sundering-steel/icon.png",
+        "url": "https://endfield.wiki.gg/images/Sundering_Steel_icon.png?e39fb8"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "D96_Steel_Sample_4",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "D96_Steel_Sample_4",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Twelve_Questions",
+      "name": "Twelve Questions",
+      "pageName": "Twelve_Questions",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Twelve_Questions",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/twelve-questions/icon.png",
+        "url": "https://endfield.wiki.gg/images/Twelve_Questions_icon.png?1ebdc8"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Wild_Wanderer",
+      "name": "Wild Wanderer",
+      "pageName": "Wild_Wanderer",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Wild_Wanderer",
+      "rarity": 5,
+      "weaponType": "Arts Unit",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/wild-wanderer/icon.png",
+        "url": "https://endfield.wiki.gg/images/Wild_Wanderer_icon.png?baf527"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Tachyon_Screening_Lattice",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Tachyon_Screening_Lattice",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Aggeloslayer",
+      "name": "Aggeloslayer",
+      "pageName": "Aggeloslayer",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Aggeloslayer",
+      "rarity": 4,
+      "weaponType": "Polearm",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/aggeloslayer/icon.png",
+        "url": "https://endfield.wiki.gg/images/Aggeloslayer_icon.png?ea9444"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "D96_Steel_Sample_4",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "D96_Steel_Sample_4",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Fluorescent_Roc",
+      "name": "Fluorescent Roc",
+      "pageName": "Fluorescent_Roc",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Fluorescent_Roc",
+      "rarity": 4,
+      "weaponType": "Arts Unit",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/fluorescent-roc/icon.png",
+        "url": "https://endfield.wiki.gg/images/Fluorescent_Roc_icon.png?deecb1"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Howling_Guard",
+      "name": "Howling Guard",
+      "pageName": "Howling_Guard",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Howling_Guard",
+      "rarity": 4,
+      "weaponType": "Handcannon",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/howling-guard/icon.png",
+        "url": "https://endfield.wiki.gg/images/Howling_Guard_icon.png?2a3ac9"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "D96_Steel_Sample_4",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "D96_Steel_Sample_4",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Hypernova_Auto",
+      "name": "Hypernova Auto",
+      "pageName": "Hypernova_Auto",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Hypernova_Auto",
+      "rarity": 4,
+      "weaponType": "Arts Unit",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/hypernova-auto/icon.png",
+        "url": "https://endfield.wiki.gg/images/Hypernova_Auto_icon.png?6b375e"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Triphasic_Nanoflake",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Triphasic_Nanoflake",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Industry_0.1",
+      "name": "Industry 0.1",
+      "pageName": "Industry_0.1",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Industry_0.1",
+      "rarity": 4,
+      "weaponType": "Great Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/industry-0-1/icon.png",
+        "url": "https://endfield.wiki.gg/images/Industry_0.1_icon.png?d843dc"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Quadrant_Fitting_Fluid",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Quadrant_Fitting_Fluid",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Long_Road",
+      "name": "Long Road",
+      "pageName": "Long_Road",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Long_Road",
+      "rarity": 4,
+      "weaponType": "Handcannon",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/long-road/icon.png",
+        "url": "https://endfield.wiki.gg/images/Long_Road_icon.png?8fcb32"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Tachyon_Screening_Lattice",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Tachyon_Screening_Lattice",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Pathfinder's_Beacon",
+      "name": "Pathfinder's Beacon",
+      "pageName": "Pathfinder's_Beacon",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Pathfinder's_Beacon",
+      "rarity": 4,
+      "weaponType": "Polearm",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/pathfinders-beacon/icon.png",
+        "url": "https://endfield.wiki.gg/images/Pathfinder%27s_Beacon_icon.png?1615c4"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Prominent_Edge",
+      "name": "Prominent Edge",
+      "pageName": "Prominent_Edge",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Prominent_Edge",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/prominent-edge/icon.png",
+        "url": "https://endfield.wiki.gg/images/Prominent_Edge_icon.png?c92bf6"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Tachyon_Screening_Lattice",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Tachyon_Screening_Lattice",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Quencher",
+      "name": "Quencher",
+      "pageName": "Quencher",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Quencher",
+      "rarity": 4,
+      "weaponType": "Great Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/quencher/icon.png",
+        "url": "https://endfield.wiki.gg/images/Quencher_icon.png?c0c61a"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Triphasic_Nanoflake",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Triphasic_Nanoflake",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Wave_Tide",
+      "name": "Wave Tide",
+      "pageName": "Wave_Tide",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Wave_Tide",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/wave-tide/icon.png",
+        "url": "https://endfield.wiki.gg/images/Wave_Tide_icon.png?c364d9"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Quadrant_Fitting_Fluid",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Quadrant_Fitting_Fluid",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Darhoff_7",
+      "name": "Darhoff 7",
+      "pageName": "Darhoff_7",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Darhoff_7",
+      "rarity": 3,
+      "weaponType": "Great Sword",
+      "source": "Exploring and Gathering",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/darhoff-7/icon.png",
+        "url": "https://endfield.wiki.gg/images/Darhoff_7_icon.png?127bd2"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Triphasic_Nanoflake",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Triphasic_Nanoflake",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Jiminy_12",
+      "name": "Jiminy 12",
+      "pageName": "Jiminy_12",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Jiminy_12",
+      "rarity": 3,
+      "weaponType": "Arts Unit",
+      "source": "Exploring and Gathering",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/jiminy-12/icon.png",
+        "url": "https://endfield.wiki.gg/images/Jiminy_12_icon.png?de5f87"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Tachyon_Screening_Lattice",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Tachyon_Screening_Lattice",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Opero_77",
+      "name": "Opero 77",
+      "pageName": "Opero_77",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Opero_77",
+      "rarity": 3,
+      "weaponType": "Polearm",
+      "source": "Exploring and Gathering",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/opero-77/icon.png",
+        "url": "https://endfield.wiki.gg/images/Opero_77_icon.png?8556bb"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Peco_5",
+      "name": "Peco 5",
+      "pageName": "Peco_5",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Peco_5",
+      "rarity": 3,
+      "weaponType": "Handcannon",
+      "source": "Exploring and Gathering",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/peco-5/icon.png",
+        "url": "https://endfield.wiki.gg/images/Peco_5_icon.png?f3739e"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Quadrant_Fitting_Fluid",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Quadrant_Fitting_Fluid",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Tarr_11",
+      "name": "Tarr 11",
+      "pageName": "Tarr_11",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Tarr_11",
+      "rarity": 3,
+      "weaponType": "Sword",
+      "source": "Exploring and Gathering",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/tarr-11/icon.png",
+        "url": "https://endfield.wiki.gg/images/Tarr_11_icon.png?a870ed"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "D96_Steel_Sample_4",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "D96_Steel_Sample_4",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    }
+  ]
+}

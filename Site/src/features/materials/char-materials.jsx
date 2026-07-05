@@ -996,6 +996,7 @@ function cmWeaponCompatible(gameKey, ch, weapon){
   if (gameKey === 'gi') return !ch.w || !weapon.weaponType || weapon.weaponType === ch.w || weapon.type === ch.w;
   if (gameKey === 'hsr') return !ch.path || !weapon.path || weapon.path === ch.path || weapon.type === ch.path;
   if (gameKey === 'wuwa') return !ch.w || !weapon.weaponType || weapon.weaponType === ch.w || weapon.type === ch.w;
+  if (gameKey === 'ae') return !ch.w || !weapon.weaponType || weapon.weaponType === ch.w || weapon.type === ch.w;
   if (gameKey === 'zzz') {
     const normSpec = (value) => String(value || '').toLowerCase().replace('defense', 'defence');
     return !ch.spec || !weapon.weaponType || normSpec(weapon.weaponType) === normSpec(ch.spec) || normSpec(weapon.type) === normSpec(ch.spec);

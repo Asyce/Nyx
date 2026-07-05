@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-04T18:12:24.933Z",
-  "note": "Endfield character upgrade material tables are not fully available in the local scrape yet. These rows are recommendation/material records that still lack a local icon.",
+  "generatedAt": "2026-07-05T00:16:18.242Z",
+  "note": "Endfield recommendation records that still lack a local icon. Character upgrade requirements are sourced from EndfieldWiki material tables when available.",
   "count": 0,
   "missing": []
 }

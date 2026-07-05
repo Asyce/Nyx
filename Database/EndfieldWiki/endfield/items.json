@@ -1,0 +1,377 @@
+{
+  "provider": "EndfieldWiki",
+  "game": "endfield",
+  "gameName": "Arknights: Endfield",
+  "scrapedAt": "2026-07-05T00:15:15.053Z",
+  "source": {
+    "site": "endfield.wiki.gg",
+    "api": "MediaWiki API rendered item boxes"
+  },
+  "sample": null,
+  "items": {
+    "Auronyx": {
+      "id": "Auronyx",
+      "name": "Auronyx",
+      "pageName": "Auronyx",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx",
+      "rarity": 4,
+      "kind": "specialty",
+      "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/auronyx.png",
+        "url": "https://endfield.wiki.gg/images/Auronyx.png?f8cdcb"
+      }
+    },
+    "Blighted_Jadeleaf": {
+      "id": "Blighted_Jadeleaf",
+      "name": "Blighted Jadeleaf",
+      "pageName": "Blighted_Jadeleaf",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Blighted_Jadeleaf",
+      "rarity": 5,
+      "kind": "specialty",
+      "source": "Area found: Wuling Outskirts, Rare Gathering Sites, Dijiang Production: Growth Chamber, Wuling City",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/blighted-jadeleaf.png",
+        "url": "https://endfield.wiki.gg/images/Blighted_Jadeleaf.png?3fcbaa"
+      }
+    },
+    "Bloodcap": {
+      "id": "Bloodcap",
+      "name": "Bloodcap",
+      "pageName": "Bloodcap",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Bloodcap",
+      "rarity": 5,
+      "kind": "specialty",
+      "source": "Area found: Wuling Outskirts, Rare Gathering Sites, Dijiang Production: Growth Chamber, Wuling City",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/bloodcap.png",
+        "url": "https://endfield.wiki.gg/images/Bloodcap.png?3ea77f"
+      }
+    },
+    "Cast_Die": {
+      "id": "Cast_Die",
+      "name": "Cast Die",
+      "pageName": "Cast_Die",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die",
+      "rarity": 3,
+      "kind": "weapon",
+      "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/cast-die.png",
+        "url": "https://endfield.wiki.gg/images/Cast_Die.png?fee2aa"
+      }
+    },
+    "Chrysodendra": {
+      "id": "Chrysodendra",
+      "name": "Chrysodendra",
+      "pageName": "Chrysodendra",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Chrysodendra",
+      "rarity": 4,
+      "kind": "specialty",
+      "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/chrysodendra.png",
+        "url": "https://endfield.wiki.gg/images/Chrysodendra.png?41f386"
+      }
+    },
+    "Cosmagaric": {
+      "id": "Cosmagaric",
+      "name": "Cosmagaric",
+      "pageName": "Cosmagaric",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Cosmagaric",
+      "rarity": 5,
+      "kind": "specialty",
+      "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, Wuling City",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/cosmagaric.png",
+        "url": "https://endfield.wiki.gg/images/Cosmagaric.png?59f89c"
+      }
+    },
+    "D96_Steel_Sample_4": {
+      "id": "D96_Steel_Sample_4",
+      "name": "D96 Steel Sample 4",
+      "pageName": "D96_Steel_Sample_4",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4",
+      "rarity": 5,
+      "kind": "skill",
+      "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
+        "url": "https://endfield.wiki.gg/images/D96_Steel_Sample_4.png?bfa364"
+      }
+    },
+    "False_Aggela": {
+      "id": "False_Aggela",
+      "name": "False Aggela",
+      "pageName": "False_Aggela",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/False_Aggela",
+      "rarity": 5,
+      "kind": "specialty",
+      "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, Wuling City",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/false-aggela.png",
+        "url": "https://endfield.wiki.gg/images/False_Aggela.png?911ebc"
+      }
+    },
+    "Heavy_Cast_Die": {
+      "id": "Heavy_Cast_Die",
+      "name": "Heavy Cast Die",
+      "pageName": "Heavy_Cast_Die",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die",
+      "rarity": 4,
+      "kind": "weapon",
+      "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+        "url": "https://endfield.wiki.gg/images/Heavy_Cast_Die.png?992557"
+      }
+    },
+    "Igneosite": {
+      "id": "Igneosite",
+      "name": "Igneosite",
+      "pageName": "Igneosite",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite",
+      "rarity": 5,
+      "kind": "specialty",
+      "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/igneosite.png",
+        "url": "https://endfield.wiki.gg/images/Igneosite.png?48cf3e"
+      }
+    },
+    "Kalkodendra": {
+      "id": "Kalkodendra",
+      "name": "Kalkodendra",
+      "pageName": "Kalkodendra",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkodendra",
+      "rarity": 4,
+      "kind": "specialty",
+      "source": "Area found: Hub Base, Rare Gathering Sites, Dijiang Production: Growth Chamber, The Hub",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/kalkodendra.png",
+        "url": "https://endfield.wiki.gg/images/Kalkodendra.png?f351aa"
+      }
+    },
+    "Kalkonyx": {
+      "id": "Kalkonyx",
+      "name": "Kalkonyx",
+      "pageName": "Kalkonyx",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx",
+      "rarity": 4,
+      "kind": "specialty",
+      "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/kalkonyx.png",
+        "url": "https://endfield.wiki.gg/images/Kalkonyx.png?61b6fe"
+      }
+    },
+    "Mark_of_Perseverance": {
+      "id": "Mark_of_Perseverance",
+      "name": "Mark of Perseverance",
+      "pageName": "Mark_of_Perseverance",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Mark_of_Perseverance",
+      "rarity": 5,
+      "kind": "skill",
+      "source": "Reward: Protocol Pass, Acquisition Center: Bond Quota Exchange, Reward: Events",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/mark-of-perseverance.png",
+        "url": "https://endfield.wiki.gg/images/Mark_of_Perseverance.png?8d9ca7"
+      }
+    },
+    "Metadiastima_Photoemission_Tube": {
+      "id": "Metadiastima_Photoemission_Tube",
+      "name": "Metadiastima Photoemission Tube",
+      "pageName": "Metadiastima_Photoemission_Tube",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube",
+      "rarity": 5,
+      "kind": "gem",
+      "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
+        "url": "https://endfield.wiki.gg/images/Metadiastima_Photoemission_Tube.png?719adb"
+      }
+    },
+    "Pink_Bolete": {
+      "id": "Pink_Bolete",
+      "name": "Pink Bolete",
+      "pageName": "Pink_Bolete",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Pink_Bolete",
+      "rarity": 4,
+      "kind": "specialty",
+      "source": "Area found: Hub Base, Rare Gathering Sites, Dijiang Production: Growth Chamber, The Hub",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/pink-bolete.png",
+        "url": "https://endfield.wiki.gg/images/Pink_Bolete.png?f108ca"
+      }
+    },
+    "Protodisk": {
+      "id": "Protodisk",
+      "name": "Protodisk",
+      "pageName": "Protodisk",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Protodisk",
+      "rarity": 3,
+      "kind": "gem",
+      "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/protodisk.png",
+        "url": "https://endfield.wiki.gg/images/Protodisk.png?915aff"
+      }
+    },
+    "Protohedron": {
+      "id": "Protohedron",
+      "name": "Protohedron",
+      "pageName": "Protohedron",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron",
+      "rarity": 4,
+      "kind": "book",
+      "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/protohedron.png",
+        "url": "https://endfield.wiki.gg/images/Protohedron.png?147e1d"
+      }
+    },
+    "Protoprism": {
+      "id": "Protoprism",
+      "name": "Protoprism",
+      "pageName": "Protoprism",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism",
+      "rarity": 3,
+      "kind": "book",
+      "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/protoprism.png",
+        "url": "https://endfield.wiki.gg/images/Protoprism.png?62eb2f"
+      }
+    },
+    "Protoset": {
+      "id": "Protoset",
+      "name": "Protoset",
+      "pageName": "Protoset",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset",
+      "rarity": 4,
+      "kind": "gem",
+      "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/protoset.png",
+        "url": "https://endfield.wiki.gg/images/Protoset.png?3556a4"
+      }
+    },
+    "Quadrant_Fitting_Fluid": {
+      "id": "Quadrant_Fitting_Fluid",
+      "name": "Quadrant Fitting Fluid",
+      "pageName": "Quadrant_Fitting_Fluid",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid",
+      "rarity": 5,
+      "kind": "gem",
+      "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
+        "url": "https://endfield.wiki.gg/images/Quadrant_Fitting_Fluid.png?21d4e9"
+      }
+    },
+    "Red_Bolete": {
+      "id": "Red_Bolete",
+      "name": "Red Bolete",
+      "pageName": "Red_Bolete",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Red_Bolete",
+      "rarity": 4,
+      "kind": "specialty",
+      "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/red-bolete.png",
+        "url": "https://endfield.wiki.gg/images/Red_Bolete.png?98b0df"
+      }
+    },
+    "Ruby_Bolete": {
+      "id": "Ruby_Bolete",
+      "name": "Ruby Bolete",
+      "pageName": "Ruby_Bolete",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Ruby_Bolete",
+      "rarity": 4,
+      "kind": "specialty",
+      "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/ruby-bolete.png",
+        "url": "https://endfield.wiki.gg/images/Ruby_Bolete.png?91d78a"
+      }
+    },
+    "T-Creds": {
+      "id": "T-Creds",
+      "name": "T-Creds",
+      "pageName": "T-Creds",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds",
+      "rarity": 4,
+      "kind": "currency",
+      "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/t-creds.png",
+        "url": "https://endfield.wiki.gg/images/T-Creds.png?eb72d2"
+      }
+    },
+    "Tachyon_Screening_Lattice": {
+      "id": "Tachyon_Screening_Lattice",
+      "name": "Tachyon Screening Lattice",
+      "pageName": "Tachyon_Screening_Lattice",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Tachyon_Screening_Lattice",
+      "rarity": 5,
+      "kind": "skill",
+      "source": "Protocol Space: Hazardous Material Management Room, Crisis Calamity: Marble Aggelomoirai (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/tachyon-screening-lattice.png",
+        "url": "https://endfield.wiki.gg/images/Tachyon_Screening_Lattice.png?8da567"
+      }
+    },
+    "Triphasic_Nanoflake": {
+      "id": "Triphasic_Nanoflake",
+      "name": "Triphasic Nanoflake",
+      "pageName": "Triphasic_Nanoflake",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake",
+      "rarity": 5,
+      "kind": "skill",
+      "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+        "url": "https://endfield.wiki.gg/images/Triphasic_Nanoflake.png?416228"
+      }
+    },
+    "Umbronyx": {
+      "id": "Umbronyx",
+      "name": "Umbronyx",
+      "pageName": "Umbronyx",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx",
+      "rarity": 4,
+      "kind": "specialty",
+      "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/umbronyx.png",
+        "url": "https://endfield.wiki.gg/images/Umbronyx.png?9879a4"
+      }
+    },
+    "Vitrodendra": {
+      "id": "Vitrodendra",
+      "name": "Vitrodendra",
+      "pageName": "Vitrodendra",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Vitrodendra",
+      "rarity": 4,
+      "kind": "specialty",
+      "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/vitrodendra.png",
+        "url": "https://endfield.wiki.gg/images/Vitrodendra.png?6e281c"
+      }
+    },
+    "Wulingstone": {
+      "id": "Wulingstone",
+      "name": "Wulingstone",
+      "pageName": "Wulingstone",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone",
+      "rarity": 5,
+      "kind": "specialty",
+      "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/wulingstone.png",
+        "url": "https://endfield.wiki.gg/images/Wulingstone.png?936c61"
+      }
+    }
+  }
+}

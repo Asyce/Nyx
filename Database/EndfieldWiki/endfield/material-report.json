@@ -1,0 +1,884 @@
+{
+  "provider": "EndfieldWiki",
+  "game": "endfield",
+  "generatedAt": "2026-07-05T00:15:15.053Z",
+  "counts": {
+    "characters": 29,
+    "charactersWithMaterials": 29,
+    "charactersMissingMaterials": 0,
+    "weapons": 70,
+    "items": 28
+  },
+  "characters": [
+    {
+      "id": "akekuri",
+      "name": "Akekuri",
+      "pageName": "Akekuri",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Akekuri",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 17
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "alesh",
+      "name": "Alesh",
+      "pageName": "Alesh",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Alesh",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "antal",
+      "name": "Antal",
+      "pageName": "Antal",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Antal",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "arclight",
+      "name": "Arclight",
+      "pageName": "Arclight",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Arclight",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "ardelia",
+      "name": "Ardelia",
+      "pageName": "Ardelia",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Ardelia",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 17
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "avywenna",
+      "name": "Avywenna",
+      "pageName": "Avywenna",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Avywenna",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "camille",
+      "name": "Camille",
+      "pageName": "Camille",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Camille",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "catcher",
+      "name": "Catcher",
+      "pageName": "Catcher",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Catcher",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "chen-qianyu",
+      "name": "Chen Qianyu",
+      "pageName": "Chen Qianyu",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Chen_Qianyu",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "da-pan",
+      "name": "Da Pan",
+      "pageName": "Da Pan",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Da_Pan",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "ember",
+      "name": "Ember",
+      "pageName": "Ember",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Ember",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "endministrator-male",
+      "name": "Endministrator",
+      "pageName": "Endministrator",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Endministrator",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 0
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "endministrator-female",
+      "name": "Endministrator",
+      "pageName": "Endministrator",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Endministrator",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 0
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "estella",
+      "name": "Estella",
+      "pageName": "Estella",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Estella",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "fluorite",
+      "name": "Fluorite",
+      "pageName": "Fluorite",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Fluorite",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "gilberta",
+      "name": "Gilberta",
+      "pageName": "Gilberta",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Gilberta",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "laevatain",
+      "name": "Laevatain",
+      "pageName": "Laevatain",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Laevatain",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "last-rite",
+      "name": "Last Rite",
+      "pageName": "Last Rite",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Last_Rite",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "lifeng",
+      "name": "Lifeng",
+      "pageName": "Lifeng",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Lifeng",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "mi-fu",
+      "name": "Mi Fu",
+      "pageName": "Mi Fu",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Mi_Fu",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "perlica",
+      "name": "Perlica",
+      "pageName": "Perlica",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Perlica",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 17
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "pogranichnik",
+      "name": "Pogranichnik",
+      "pageName": "Pogranichnik",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Pogranichnik",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "rossi",
+      "name": "Rossi",
+      "pageName": "Rossi",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Rossi",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "snowshine",
+      "name": "Snowshine",
+      "pageName": "Snowshine",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Snowshine",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "tangtang",
+      "name": "Tangtang",
+      "pageName": "Tangtang",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Tangtang",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "wulfgard",
+      "name": "Wulfgard",
+      "pageName": "Wulfgard",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Wulfgard",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "xaihi",
+      "name": "Xaihi",
+      "pageName": "Xaihi",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Xaihi",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 17
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "yvonne",
+      "name": "Yvonne",
+      "pageName": "Yvonne",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Yvonne",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "zhuang-fangyi",
+      "name": "Zhuang Fangyi",
+      "pageName": "Zhuang Fangyi",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Zhuang_Fangyi",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 13
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
+        },
+        "Talent_upgrades": {
+          "items": 19
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
+      }
+    }
+  ]
+}

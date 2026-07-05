@@ -641,7 +641,31 @@ const ENDFIELD_SKILL_ICONS = (() => {
 // correct even though the quantities are a representative approximation. This
 // replaces the synthetic "Origin Crystal / Salvaged Part / ..." placeholders
 // that had no icons at all.
-const ENDFIELD_MATERIALS = (() => {
+const ENDFIELD_WIKI_ITEMS = (() => {
+  const map = new Map();
+  const rel = 'EndfieldWiki/endfield/items.json';
+  if (!exists(rel)) return map;
+  const raw = readJson(rel);
+  const items = raw.items || raw;
+  for (const item of Object.values(items || {})) {
+    if (!item?.id && !item?.name) continue;
+    const iconPath = item.icon?.path || item.iconPath || item.iconLocal || item.icon;
+    const entry = {
+      id: item.id || item.pageName || item.name,
+      name: cleanText(item.name || item.id || '', 90),
+      rar: Number(item.rarity || item.rar || 0) || undefined,
+      kind: item.kind || undefined,
+      icon: dbAsset(iconPath),
+      source: cleanText(item.source || '', 220) || undefined,
+      sourceUrl: item.sourceUrl || undefined,
+    };
+    for (const key of [entry.id, item.pageName, item.name, normKey(entry.name)]) {
+      if (key) map.set(String(key), entry);
+    }
+  }
+  return map;
+})();
+const ENDFIELD_LEGACY_MATERIALS = (() => {
   const rel = 'EndfieldWiki/endfield/material-icons/manifest.json';
   const map = new Map();
   if (!exists(rel)) return map;
@@ -652,21 +676,78 @@ const ENDFIELD_MATERIALS = (() => {
 })();
 
 function endfieldMaterial(name, qty, kind) {
-  const hit = ENDFIELD_MATERIALS.get(normKey(name));
+  const hit = lookupEndfieldItem(name);
   return {
-    id: `ae:${normKey(name)}`,
+    id: `ae:${hit?.id || normKey(name)}`,
     name: hit?.name || name,
     n: hit?.name || name,
     qty,
     rar: hit?.rar || 3,
     kind,
     icon: hit?.icon || null,
-    source: 'Endfield database',
+    source: hit?.source || 'Endfield database',
+    sourceUrl: hit?.sourceUrl,
   };
 }
 
-// Endfield character breakthrough (level ascension) + skill-upgrade schedule,
-// built from the real scraped materials. Credits leads as the currency tile.
+function lookupEndfieldItem(idOrName) {
+  if (!idOrName) return null;
+  return ENDFIELD_WIKI_ITEMS.get(String(idOrName))
+    || ENDFIELD_WIKI_ITEMS.get(normKey(idOrName))
+    || ENDFIELD_LEGACY_MATERIALS.get(normKey(idOrName))
+    || null;
+}
+
+function endfieldRequirementMaterial(entry, fallbackKind = 'item') {
+  if (!entry?.id || !Number(entry.count || 0)) return null;
+  const hit = lookupEndfieldItem(entry.id);
+  const name = hit?.name || String(entry.id).replace(/_/g, ' ');
+  return {
+    id: `ae:${hit?.id || entry.id}`,
+    name,
+    n: name,
+    qty: Number(entry.count || 0),
+    rar: hit?.rar || 3,
+    kind: hit?.kind || fallbackKind,
+    icon: hit?.icon || null,
+    source: hit?.source || 'Endfield Wiki',
+    sourceUrl: hit?.sourceUrl,
+  };
+}
+
+function endfieldRequirementList(entries, fallbackKind) {
+  return (entries || [])
+    .map((entry) => endfieldRequirementMaterial(entry, fallbackKind))
+    .filter(Boolean)
+    .sort((a, b) => kindRank(a.kind) - kindRank(b.kind) || a.name.localeCompare(b.name));
+}
+
+function endfieldReqFromMaterials(materials) {
+  if (!materials || (!materials.ascension?.length && !materials.skill?.length)) return null;
+  return {
+    ascension: endfieldRequirementList(materials.ascension || [], 'gem'),
+    talents: endfieldRequirementList(materials.skill || [], 'book'),
+    promotionStages: (materials.promotionStages || []).map((stage) => ({
+      items: endfieldRequirementList(stage, 'gem'),
+      cost: 0,
+    })),
+    skillLevelStages: (materials.skillLevelStages || []).map((stage) => ({
+      items: endfieldRequirementList(stage, 'book'),
+      cost: 0,
+    })),
+    skillMasteryStages: (materials.skillMasteryStages || []).map((stage) => ({
+      items: endfieldRequirementList(stage, 'book'),
+      cost: 0,
+    })),
+    extras: endfieldRequirementList(materials.extras || [], 'book'),
+    ascCost: 0,
+    talentCost: 0,
+    currency: 0,
+  };
+}
+
+// Fallback only. Current EndfieldWiki scraper runs emit exact per-character
+// material tables; this shared schedule is used only for older or partial data.
 function endfieldSharedReq() {
   const ascension = [
     endfieldMaterial('Credits', 500000, 'currency'),
@@ -2440,6 +2521,66 @@ function buildEndfieldItemGroups(roster, fields, fallbackTitle) {
     .sort((a, b) => String(a.region || '').localeCompare(String(b.region || '')) || String(a.title || '').localeCompare(String(b.title || '')));
 }
 
+function endfieldMaterialGroupLabel(mat, fallbackTitle) {
+  if (mat?.kind === 'currency') return 'Currency';
+  if (mat?.kind === 'gem') return 'Promotion Materials';
+  if (mat?.kind === 'specialty') return 'Field Materials';
+  if (mat?.kind === 'book') return 'Skill Materials';
+  if (mat?.kind === 'weapon') return 'Weapon Tuning';
+  return fallbackTitle;
+}
+
+function buildEndfieldRequirementGroups(roster, reqField, fallbackTitle) {
+  const source = cmRosterSource(roster);
+  const groups = new Map();
+  for (const ch of source) {
+    for (const mat of ch.req?.[reqField] || []) {
+      if (!mat?.icon || mat.kind === 'currency') continue;
+      const key = mat.id || mat.name || mat.n;
+      if (!key) continue;
+      if (!groups.has(key)) {
+        groups.set(key, {
+          region: endfieldMaterialGroupLabel(mat, fallbackTitle),
+          title: mat.name || mat.n,
+          mats: [{ ...mat }],
+          chars: [],
+        });
+      }
+      pushUnique(groups.get(key).chars, ch.n);
+    }
+  }
+  return [...groups.values()]
+    .map((group) => ({
+      ...group,
+      chars: group.chars.sort((a, b) => a.localeCompare(b)),
+    }))
+    .sort((a, b) => String(a.region || '').localeCompare(String(b.region || '')) || String(a.title || '').localeCompare(String(b.title || '')));
+}
+
+function buildEndfieldWeaponRoster() {
+  if (!exists('EndfieldWiki/endfield/weapons.json')) return [];
+  const raw = readJson('EndfieldWiki/endfield/weapons.json');
+  return (raw.weapons || [])
+    .map((weapon) => ({
+      id: weapon.id || normKey(weapon.name),
+      name: cleanText(weapon.name || weapon.id || '', 90),
+      rarity: Number(weapon.rarity || 0) || 4,
+      weaponType: cleanText(weapon.weaponType || '', 40) || undefined,
+      type: cleanText(weapon.weaponType || '', 40) || undefined,
+      source: cleanText(weapon.source || '', 120) || undefined,
+      icon: dbAsset(weapon.icon?.path || weapon.icon),
+      art: dbAsset(weapon.icon?.path || weapon.icon),
+      items: endfieldRequirementList(weapon.materials || [], 'weapon'),
+      tuningStages: (weapon.tuningStages || []).map((stage) => ({
+        items: endfieldRequirementList(stage, 'weapon'),
+        cost: 0,
+      })),
+      cost: 0,
+    }))
+    .filter((weapon) => weapon.name && weapon.items.length)
+    .sort((a, b) => b.rarity - a.rarity || String(a.weaponType || '').localeCompare(String(b.weaponType || '')) || a.name.localeCompare(b.name));
+}
+
 function buildEndfieldRoster() {
   const src = exists('EndfieldWiki/endfield/characters.json')
     ? readJson('EndfieldWiki/endfield/characters.json')
@@ -2450,6 +2591,7 @@ function buildEndfieldRoster() {
     const preferredWeapons = recommendedWeapons.length ? recommendedWeapons : endfieldItemsFromCharacter(ch, 'preferredWeapons', 'weapon');
     const skillItems = recommendedGear.length ? recommendedGear : endfieldItemsFromCharacter(ch, 'matskill', 'gear');
     const statItems = endfieldItemsFromCharacter(ch, 'matstats', 'gear');
+    const req = endfieldReqFromMaterials(ch.materials) || endfieldSharedReq();
     return {
       id: 'ae-' + (ch.id || ch.slug || ch.name.toLowerCase().replace(/\W+/g, '-')),
       n: ch.name,
@@ -2463,7 +2605,7 @@ function buildEndfieldRoster() {
       art: dbAsset(ch.art?.splash?.path || ch.art?.banner?.path || ch.art?.full || ch.art?.card || ch.art?.icon?.path),
       card: dbAsset(ch.art?.banner?.path || ch.art?.portrait?.path || ch.art?.splash?.path || ch.art?.card),
       skillIcons: ENDFIELD_SKILL_ICONS.get(normKey(ch.name)) || undefined,
-      req: endfieldSharedReq(),
+      req,
       aePreferredItems: preferredWeapons,
       aeSkillItems: skillItems.length ? skillItems : preferredWeapons,
       aeStatItems: statItems,
@@ -3019,10 +3161,11 @@ function buildCmCfg(rosters) {
         { key: 'w', label: 'Weapon', opts: ordered(rosters.ae.map((ch) => ch.w), preferred.aeWeapons) },
         { key: 'r', label: 'Rarity', opts: [['6-star', 6], ['5-star', 5], ['4-star', 4]] },
       ],
+      weapons: buildEndfieldWeaponRoster(),
       roster: rosters.ae,
-      midGroups: buildEndfieldItemGroups(rosters.ae, ['aeSkillItems', 'aeStatItems'], 'Recommended Gear'),
+      midGroups: buildEndfieldRequirementGroups(rosters.ae, 'talents', 'Skill Materials'),
       boss: { title: 'Field Operations', count: rosters.ae.length },
-      bossGroups: buildEndfieldItemGroups(rosters.ae, ['aePreferredItems'], 'Recommended Weapons'),
+      bossGroups: buildEndfieldRequirementGroups(rosters.ae, 'ascension', 'Promotion Materials'),
     },
   };
 }
@@ -3365,7 +3508,7 @@ function collectEndfieldIconGaps(roster) {
   }
   return {
     generatedAt: new Date().toISOString(),
-    note: 'Endfield character upgrade material tables are not fully available in the local scrape yet. These rows are recommendation/material records that still lack a local icon.',
+    note: 'Endfield recommendation records that still lack a local icon. Character upgrade requirements are sourced from EndfieldWiki material tables when available.',
     count: rows.length,
     missing: rows.map(({ key, ...row }) => row).sort((a, b) => a.name.localeCompare(b.name)),
   };

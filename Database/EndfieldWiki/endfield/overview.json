@@ -2,7 +2,7 @@
   "provider": "EndfieldWiki",
   "game": "endfield",
   "gameName": "Arknights: Endfield",
-  "scrapedAt": "2026-07-04T18:04:39.846Z",
+  "scrapedAt": "2026-07-05T00:15:15.053Z",
   "source": {
     "site": "endfield.wiki.gg",
     "api": "MediaWiki API + Cargo Operators table",
@@ -11,23 +11,30 @@
   "sample": null,
   "counts": {
     "characters": 29,
-    "assetsPlanned": 114,
+    "charactersWithMaterials": 29,
+    "weapons": 70,
+    "materialItems": 28,
+    "assetsPlanned": 212,
     "missingAssets": 2
   },
   "files": {
     "characters": "EndfieldWiki/endfield/characters.json",
+    "weapons": "EndfieldWiki/endfield/weapons.json",
+    "items": "EndfieldWiki/endfield/items.json",
+    "materialReport": "EndfieldWiki/endfield/material-report.json",
     "raw": "EndfieldWiki/endfield/raw",
     "assets": "EndfieldWiki/endfield/assets",
     "missingAssets": "EndfieldWiki/endfield/missing-assets.json"
   },
   "assets": {
-    "requested": 114,
+    "requested": 212,
     "downloaded": 0,
-    "cached": 114,
+    "cached": 212,
     "missing": 0
   },
   "notes": [
     "Banner and portrait art are optional on upstream wiki pages; missing files are reported without removing the operator.",
+    "Operator Promotion, Skill upgrades, Talent upgrades, Base Skill upgrades, and weapon Tuning material counts are parsed from rendered wiki item boxes.",
     "Normalized data stores only local database-relative asset paths, not remote image URLs."
   ]
 }

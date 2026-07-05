@@ -73,6 +73,47 @@ if (codes) {
   }
 }
 
+// ---- EndfieldWiki operator/weapon materials ----
+const endfieldCharacters = load('EndfieldWiki/endfield/characters.json');
+const endfieldItemsPayload = load('EndfieldWiki/endfield/items.json');
+const endfieldWeaponsPayload = load('EndfieldWiki/endfield/weapons.json');
+if (endfieldCharacters) {
+  if (!Array.isArray(endfieldCharacters) || !endfieldCharacters.length) {
+    errors.push('EndfieldWiki/endfield/characters.json has zero operators');
+  } else {
+    const missingMats = endfieldCharacters.filter((ch) => !ch?.materials?.ascension?.length || !ch?.materials?.skill?.length);
+    if (missingMats.length) {
+      errors.push(`endfield materials: ${missingMats.length} operator(s) missing ascension or skill materials: ${missingMats.slice(0, 8).map((ch) => ch.name || ch.id).join(', ')}`);
+    }
+    diagnostics.push(`endfld operators ${endfieldCharacters.length} (${endfieldCharacters.length - missingMats.length} with material tables)`);
+  }
+}
+if (endfieldItemsPayload && endfieldCharacters) {
+  const items = endfieldItemsPayload.items || {};
+  const missingItems = [];
+  const referenced = new Set();
+  for (const ch of endfieldCharacters || []) {
+    for (const mat of [...(ch.materials?.ascension || []), ...(ch.materials?.skill || [])]) {
+      if (!mat?.id) continue;
+      referenced.add(mat.id);
+      if (!items[mat.id]) missingItems.push(`${ch.name || ch.id}:${mat.id}`);
+    }
+  }
+  const missingIcons = [...referenced]
+    .map((id) => items[id])
+    .filter((item) => item && !item.icon?.path);
+  if (missingItems.length) errors.push(`endfield items: ${missingItems.length} referenced material id(s) missing metadata, first: ${missingItems.slice(0, 8).join(', ')}`);
+  if (missingIcons.length) errors.push(`endfield items: ${missingIcons.length} referenced material item(s) missing local icon paths`);
+  diagnostics.push(`endfld items     ${Object.keys(items).length} item(s), ${referenced.size} referenced by operators`);
+}
+if (endfieldWeaponsPayload) {
+  const weapons = endfieldWeaponsPayload.weapons || [];
+  const missingTuning = weapons.filter((weapon) => !weapon?.materials?.length || !weapon?.tuningStages?.length);
+  if (!weapons.length) errors.push('EndfieldWiki/endfield/weapons.json has zero weapons');
+  if (missingTuning.length) errors.push(`endfield weapons: ${missingTuning.length} weapon(s) missing tuning materials`);
+  diagnostics.push(`endfld weapons   ${weapons.length} (${weapons.length - missingTuning.length} with tuning tables)`);
+}
+
 console.log('--- data validation diagnostics ---');
 for (const d of diagnostics) console.log('  ' + d);
 

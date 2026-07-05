@@ -2043,6 +2043,46 @@ function CharacterKitPanel({ kit, emptyText }){
                         ))}
                       </div>
                     )}
+                    {Array.isArray(entry.levels) && entry.levels.length > 0 && (
+                      <details className="cm-kit-levels">
+                        <summary>Level changes</summary>
+                        <div className="cm-kit-level-list">
+                          {entry.levels.map((level, i) => (
+                            <div className="cm-kit-level-row" key={(level.label || 'level') + i}>
+                              <b>{level.label}</b>
+                              <p>{level.text}</p>
+                            </div>
+                          ))}
+                        </div>
+                      </details>
+                    )}
+                    {Array.isArray(entry.scaling) && entry.scaling.length > 0 && (
+                      <div className="cm-kit-scaling">
+                        {entry.scaling.map((group, gsi) => (
+                          <details className="cm-kit-scale-table" key={(group.title || 'scaling') + gsi}>
+                            <summary>{group.title || 'Scaling'}</summary>
+                            <div className="cm-kit-scale-scroll">
+                              <table>
+                                <thead>
+                                  <tr>
+                                    <th>Stat</th>
+                                    {(group.columns || []).map((column, ci) => <th key={(column || 'lv') + ci}>{column}</th>)}
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  {(group.rows || []).map((row, ri) => (
+                                    <tr key={(row.label || 'row') + ri}>
+                                      <th>{row.label}</th>
+                                      {(row.values || []).map((value, vi) => <td key={vi}>{value}</td>)}
+                                    </tr>
+                                  ))}
+                                </tbody>
+                              </table>
+                            </div>
+                          </details>
+                        ))}
+                      </div>
+                    )}
                   </article>
                 ))}
               </div>

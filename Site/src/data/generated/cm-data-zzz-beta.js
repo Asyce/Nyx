@@ -17,9 +17,9 @@
       "n": "Sigrid",
       "updated": 9007199254740991,
       "sourceOrder": 0,
-      "icon": null,
-      "art": null,
-      "card": null,
+      "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1591.webp",
+      "art": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1591.webp",
+      "card": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1591.webp",
       "r": "A",
       "el": "Ice",
       "spec": "Attack",
@@ -35,12 +35,346 @@
               {
                 "name": "Basic Attack: Glacial Spearpoint",
                 "type": "Basic",
-                "desc": "Press to activate:\nLaunch up to 4 Slashes forward, dealing Ice DMG;\nThe 4th hit of [Basic Attack: Frosty Spearhead] is considered a [Draw Stance];"
+                "desc": "Press to activate:\nLaunch up to 4 Slashes forward, dealing Ice DMG;\nThe 4th hit of [Basic Attack: Frosty Spearhead] is considered a [Draw Stance];",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "77%",
+                          "84%",
+                          "91%",
+                          "98%",
+                          "105%",
+                          "112%",
+                          "119%",
+                          "126%",
+                          "133%",
+                          "140%",
+                          "147%",
+                          "154%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "143.8%",
+                          "156.9%",
+                          "170%",
+                          "183.1%",
+                          "196.2%",
+                          "209.3%",
+                          "222.4%",
+                          "235.5%",
+                          "248.6%",
+                          "261.7%",
+                          "274.8%",
+                          "287.9%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "101.4%",
+                          "110.7%",
+                          "120%",
+                          "129.3%",
+                          "138.6%",
+                          "147.9%",
+                          "157.2%",
+                          "166.5%",
+                          "175.8%",
+                          "185.1%",
+                          "194.4%",
+                          "203.7%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "254.4%",
+                          "277.6%",
+                          "300.8%",
+                          "324%",
+                          "347.2%",
+                          "370.4%",
+                          "393.6%",
+                          "416.8%",
+                          "440%",
+                          "463.2%",
+                          "486.4%",
+                          "509.6%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "45.4%",
+                          "47.5%",
+                          "49.6%",
+                          "51.7%",
+                          "53.8%",
+                          "55.9%",
+                          "58%",
+                          "60.1%",
+                          "62.2%",
+                          "64.3%",
+                          "66.4%",
+                          "68.5%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "88.7%",
+                          "92.8%",
+                          "96.9%",
+                          "101%",
+                          "105.1%",
+                          "109.2%",
+                          "113.3%",
+                          "117.4%",
+                          "121.5%",
+                          "125.6%",
+                          "129.7%",
+                          "133.8%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "55.8%",
+                          "58.4%",
+                          "61%",
+                          "63.6%",
+                          "66.2%",
+                          "68.8%",
+                          "71.4%",
+                          "74%",
+                          "76.6%",
+                          "79.2%",
+                          "81.8%",
+                          "84.4%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "158.6%",
+                          "165.9%",
+                          "173.2%",
+                          "180.5%",
+                          "187.8%",
+                          "195.1%",
+                          "202.4%",
+                          "209.7%",
+                          "217%",
+                          "224.3%",
+                          "231.6%",
+                          "238.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Basic Attack: Gun-Draw Stance",
                 "type": "Basic",
                 "desc": "While in [Sky Patrol Gunstance] with available [Basic Attack: Gun Retraction] charges, hold to activate:\nActivates the corresponding [Basic Attack: Gun Retraction] based on the current branch stage, dealing Ice DMG;\n[Basic Attack: Gun Retraction] has three stages. Each use advances the stage count. After activating Stage 3 of [Basic Attack: Gun Retraction], the stage count resets;\nIf Sigrid is attacked during the charge Stance of Stages 1 or 2 of [Basic Attack: Gun Retraction], she will Block with her shield. Upon a successful Block, the incoming attack DMG is negated, the [Sky Patrol Gunstance] state is refreshed, and one [Basic Attack: Gun Retraction] charge is granted. After a successful Block, press to activate [Basic Attack: Gun Retraction] at the corresponding stage;\n[Basic Attack: Gun Retraction] used after [Basic Attack: Piercing Frost Tip] retains the current stage count of [Basic Attack: Piercing Frost Tip];\nDMG received during this skill is reduced by 60%;\nAnti-Interrupt level is increased during this skill;\nCharacter is invulnerable during Stage 3 of [Basic Attack: Gun Retraction]."
+              },
+              {
+                "name": "Basic Attack: Rifle Stance Phase 1",
+                "type": "Basic",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "350.8%",
+                          "382.7%",
+                          "414.6%",
+                          "446.5%",
+                          "478.4%",
+                          "510.3%",
+                          "542.2%",
+                          "574.1%",
+                          "606%",
+                          "637.9%",
+                          "669.8%",
+                          "701.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "93.6%",
+                          "97.9%",
+                          "102.2%",
+                          "106.5%",
+                          "110.8%",
+                          "115.1%",
+                          "119.4%",
+                          "123.7%",
+                          "128%",
+                          "132.3%",
+                          "136.6%",
+                          "140.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Furled Shot 2",
+                "type": "Basic",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "551.9%",
+                          "602.1%",
+                          "652.3%",
+                          "702.5%",
+                          "752.7%",
+                          "802.9%",
+                          "853.1%",
+                          "903.3%",
+                          "953.5%",
+                          "1003.7%",
+                          "1053.9%",
+                          "1104.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "155.9%",
+                          "163%",
+                          "170.1%",
+                          "177.2%",
+                          "184.3%",
+                          "191.4%",
+                          "198.5%",
+                          "205.6%",
+                          "212.7%",
+                          "219.8%",
+                          "226.9%",
+                          "234%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Reined Strike Phase 3",
+                "type": "Basic",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "710.6%",
+                          "775.2%",
+                          "839.8%",
+                          "904.4%",
+                          "969%",
+                          "1033.6%",
+                          "1098.2%",
+                          "1162.8%",
+                          "1227.4%",
+                          "1292%",
+                          "1356.6%",
+                          "1421.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "192.6%",
+                          "201.4%",
+                          "210.2%",
+                          "219%",
+                          "227.8%",
+                          "236.6%",
+                          "245.4%",
+                          "254.2%",
+                          "263%",
+                          "271.8%",
+                          "280.6%",
+                          "289.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge: Cloud Step",
@@ -50,52 +384,619 @@
               {
                 "name": "Dash Attack: Wind Chase",
                 "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nPerform a forward slash, dealing Physical DMG."
+                "desc": "Press during a dodge to activate:\nPerform a forward slash, dealing Physical DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "119%",
+                          "129.9%",
+                          "140.8%",
+                          "151.7%",
+                          "162.6%",
+                          "173.5%",
+                          "184.4%",
+                          "195.3%",
+                          "206.2%",
+                          "217.1%",
+                          "228%",
+                          "238.9%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "46.8%",
+                          "49%",
+                          "51.2%",
+                          "53.4%",
+                          "55.6%",
+                          "57.8%",
+                          "60%",
+                          "62.2%",
+                          "64.4%",
+                          "66.6%",
+                          "68.8%",
+                          "71%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge Counter: Parting Shot",
                 "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nCondenses ice at the spear tip to unleash a powerful counter against enemies ahead, dealing Ice DMG;\nA Dodge Counter: Parting Shot used after Basic Attack: Frostbite Spearhead retains the number of stages of Basic Attack: Frostbite Spearhead;\nThis skill is considered a Draw Stance;\nCharacter is invulnerable while using this skill."
+                "desc": "Press during a Perfect Dodge to activate:\nCondenses ice at the spear tip to unleash a powerful counter against enemies ahead, dealing Ice DMG;\nA Dodge Counter: Parting Shot used after Basic Attack: Frostbite Spearhead retains the number of stages of Basic Attack: Frostbite Spearhead;\nThis skill is considered a Draw Stance;\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "243.1%",
+                          "265.2%",
+                          "287.3%",
+                          "309.4%",
+                          "331.5%",
+                          "353.6%",
+                          "375.7%",
+                          "397.8%",
+                          "419.9%",
+                          "442%",
+                          "464.1%",
+                          "486.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "172.3%",
+                          "180.2%",
+                          "188.1%",
+                          "196%",
+                          "203.9%",
+                          "211.8%",
+                          "219.7%",
+                          "227.6%",
+                          "235.5%",
+                          "243.4%",
+                          "251.3%",
+                          "259.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Quick Assist: Guardian",
                 "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nDash forward with freezing force, dealing Ice DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "When the active character is launched, press to activate:\nDash forward with freezing force, dealing Ice DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "39.7%",
+                          "43.4%",
+                          "47.1%",
+                          "50.8%",
+                          "54.5%",
+                          "58.2%",
+                          "61.9%",
+                          "65.6%",
+                          "69.3%",
+                          "73%",
+                          "76.7%",
+                          "80.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "31.2%",
+                          "32.7%",
+                          "34.2%",
+                          "35.7%",
+                          "37.2%",
+                          "38.7%",
+                          "40.2%",
+                          "41.7%",
+                          "43.2%",
+                          "44.7%",
+                          "46.2%",
+                          "47.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Defensive Assist: Unyielding Frost",
                 "type": "Assist",
-                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "271.3%",
+                          "283.7%",
+                          "296.1%",
+                          "308.5%",
+                          "320.9%",
+                          "333.3%",
+                          "345.7%",
+                          "358.1%",
+                          "370.5%",
+                          "382.9%",
+                          "395.3%",
+                          "407.7%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "166.8%",
+                          "174.4%",
+                          "182%",
+                          "189.6%",
+                          "197.2%",
+                          "204.8%",
+                          "212.4%",
+                          "220%",
+                          "227.6%",
+                          "235.2%",
+                          "242.8%",
+                          "250.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Assist Follow-Up: Ice Glutton",
                 "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nSwing the spear upward, then slam it down with a heavy attack, dealing massive Ice DMG;\nThis skill is considered a Spear Draw Stance;\nCharacter is invulnerable while using this skill."
+                "desc": "Press after a Defensive Assist to activate:\nSwing the spear upward, then slam it down with a heavy attack, dealing massive Ice DMG;\nThis skill is considered a Spear Draw Stance;\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "514.9%",
+                          "561.8%",
+                          "608.7%",
+                          "655.6%",
+                          "702.5%",
+                          "749.4%",
+                          "796.3%",
+                          "843.2%",
+                          "890.1%",
+                          "937%",
+                          "983.9%",
+                          "1030.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "353.8%",
+                          "369.9%",
+                          "386%",
+                          "402.1%",
+                          "418.2%",
+                          "434.3%",
+                          "450.4%",
+                          "466.5%",
+                          "482.6%",
+                          "498.7%",
+                          "514.8%",
+                          "530.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Special Attack: Ice Blossom",
                 "type": "Special",
-                "desc": "Press to activate:\nLunge forward with three consecutive thrusts, dealing Ice DMG.\nAnti-Interrupt level is increased while using this skill."
+                "desc": "Press to activate:\nLunge forward with three consecutive thrusts, dealing Ice DMG.\nAnti-Interrupt level is increased while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "53.7%",
+                          "58.6%",
+                          "63.5%",
+                          "68.4%",
+                          "73.3%",
+                          "78.2%",
+                          "83.1%",
+                          "88%",
+                          "92.9%",
+                          "97.8%",
+                          "102.7%",
+                          "107.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "27.5%",
+                          "28.8%",
+                          "30.1%",
+                          "31.4%",
+                          "32.7%",
+                          "34%",
+                          "35.3%",
+                          "36.6%",
+                          "37.9%",
+                          "39.2%",
+                          "40.5%",
+                          "41.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Enhance Special: Chaotic Jade",
                 "type": "Special",
-                "desc": "When Energy is sufficient and not in the [Sky-Patrol Spearstance] state, press to activate:\nLaunch a powerful series of forward thrusts, dealing massive Ice DMG;\nWhen hit by an enemy attack during the skill's thrusts, Sigrid uses her shield to Block. A successful Block negates the attack's DMG, refreshes the [Sky-Patrol Spearstance] state, and grants one opportunity to activate [Basic Attack: Spear-Draw Stance]; press after a successful Block to activate the corresponding hit of [Basic Attack: Spear-Draw Stance];\nThis skill is considered a [Spear-Draw Stance];\nCharacter is invulnerable while using this skill."
+                "desc": "When Energy is sufficient and not in the [Sky-Patrol Spearstance] state, press to activate:\nLaunch a powerful series of forward thrusts, dealing massive Ice DMG;\nWhen hit by an enemy attack during the skill's thrusts, Sigrid uses her shield to Block. A successful Block negates the attack's DMG, refreshes the [Sky-Patrol Spearstance] state, and grants one opportunity to activate [Basic Attack: Spear-Draw Stance]; press after a successful Block to activate the corresponding hit of [Basic Attack: Spear-Draw Stance];\nThis skill is considered a [Spear-Draw Stance];\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "438.8%",
+                          "478.7%",
+                          "518.6%",
+                          "558.5%",
+                          "598.4%",
+                          "638.3%",
+                          "678.2%",
+                          "718.1%",
+                          "758%",
+                          "797.9%",
+                          "837.8%",
+                          "877.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "274.3%",
+                          "286.8%",
+                          "299.3%",
+                          "311.8%",
+                          "324.3%",
+                          "336.8%",
+                          "349.3%",
+                          "361.8%",
+                          "374.3%",
+                          "386.8%",
+                          "399.3%",
+                          "411.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Blasting Enhance Special: Jade Shatter",
                 "type": "Special",
-                "desc": "When Energy is sufficient and in the [Sky-Patrol Stance] state, press to activate:\nLaunch a powerful series of forward thrusting strikes, dealing massive Ice DMG;\nIf Sigrid is struck by an enemy attack during the thrusting strikes, she will Block with her shield. Upon a successful Block, the incoming attack DMG is negated, the [Sky-Patrol Stance] state is refreshed, and an opportunity to use [Basic Attack: Rifle-Retract Form] is granted. Press after a successful Block to use the corresponding sequence of [Basic Attack: Rifle-Retract Form];\nThis skill is considered a [Rifle-Draw Form];\nCharacter is invulnerable while using this skill."
+                "desc": "When Energy is sufficient and in the [Sky-Patrol Stance] state, press to activate:\nLaunch a powerful series of forward thrusting strikes, dealing massive Ice DMG;\nIf Sigrid is struck by an enemy attack during the thrusting strikes, she will Block with her shield. Upon a successful Block, the incoming attack DMG is negated, the [Sky-Patrol Stance] state is refreshed, and an opportunity to use [Basic Attack: Rifle-Retract Form] is granted. Press after a successful Block to use the corresponding sequence of [Basic Attack: Rifle-Retract Form];\nThis skill is considered a [Rifle-Draw Form];\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "823.8%",
+                          "898.7%",
+                          "973.6%",
+                          "1048.5%",
+                          "1123.4%",
+                          "1198.3%",
+                          "1273.2%",
+                          "1348.1%",
+                          "1423%",
+                          "1497.9%",
+                          "1572.8%",
+                          "1647.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "362.6%",
+                          "379.1%",
+                          "395.6%",
+                          "412.1%",
+                          "428.6%",
+                          "445.1%",
+                          "461.6%",
+                          "478.1%",
+                          "494.6%",
+                          "511.1%",
+                          "527.6%",
+                          "544.1%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Chain Attack: Frost Ground Roll",
                 "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunch a powerful Pierce at enemies ahead, dealing massive Ice DMG;\nGain the [Tempered] effect, increasing DMG dealt by subsequent [Basic Attack: Gun Stow] by 25%, lasting 50s;\nWhen this skill hits an Elite or Boss-Rank enemy in a Stunned state for the first time, the current [Basic Attack: Gun Stow] stage count is recorded and reset, entering [Formation Break] state. This effect can trigger at most once per Stun;\nDuring [Formation Break] state, the duration of [Sky Patrol Stance] does not decrease, and holding allows continuous use of [Basic Attack: Gun Stow] Stages 1 through 3;\nAfter using [Basic Attack: Gun Stow] Stage 3, [Formation Break] state ends and the [Basic Attack: Gun Stow] stage count is restored;\nThis skill is treated as [Gun Draw];\nDuring [Formation Break] state, [Basic Attack: Gun Stow] hitting Stunned enemies will not open the Chain Attack window;\nCharacter is invulnerable while using this skill."
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunch a powerful Pierce at enemies ahead, dealing massive Ice DMG;\nGain the [Tempered] effect, increasing DMG dealt by subsequent [Basic Attack: Gun Stow] by 25%, lasting 50s;\nWhen this skill hits an Elite or Boss-Rank enemy in a Stunned state for the first time, the current [Basic Attack: Gun Stow] stage count is recorded and reset, entering [Formation Break] state. This effect can trigger at most once per Stun;\nDuring [Formation Break] state, the duration of [Sky Patrol Stance] does not decrease, and holding allows continuous use of [Basic Attack: Gun Stow] Stages 1 through 3;\nAfter using [Basic Attack: Gun Stow] Stage 3, [Formation Break] state ends and the [Basic Attack: Gun Stow] stage count is restored;\nThis skill is treated as [Gun Draw];\nDuring [Formation Break] state, [Basic Attack: Gun Stow] hitting Stunned enemies will not open the Chain Attack window;\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "838.7%",
+                          "915%",
+                          "991.3%",
+                          "1067.6%",
+                          "1143.9%",
+                          "1220.2%",
+                          "1296.5%",
+                          "1372.8%",
+                          "1449.1%",
+                          "1525.4%",
+                          "1601.7%",
+                          "1678%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "137.6%",
+                          "143.9%",
+                          "150.2%",
+                          "156.5%",
+                          "162.8%",
+                          "169.1%",
+                          "175.4%",
+                          "181.7%",
+                          "188%",
+                          "194.3%",
+                          "200.6%",
+                          "206.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Ultimate: Frost Sky",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nChannels the power of extreme cold to unleash a devastating series of dashes forward, dealing massive Ice DMG;\nThis skill is considered a Draw;\nCharacter is invulnerable while using this skill."
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nChannels the power of extreme cold to unleash a devastating series of dashes forward, dealing massive Ice DMG;\nThis skill is considered a Draw;\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "2539.8%",
+                          "2770.7%",
+                          "3001.6%",
+                          "3232.5%",
+                          "3463.4%",
+                          "3694.3%",
+                          "3925.2%",
+                          "4156.1%",
+                          "4387%",
+                          "4617.9%",
+                          "4848.8%",
+                          "5079.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "265.8%",
+                          "277.9%",
+                          "290%",
+                          "302.1%",
+                          "314.2%",
+                          "326.3%",
+                          "338.4%",
+                          "350.5%",
+                          "362.6%",
+                          "374.7%",
+                          "386.8%",
+                          "398.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -105,12 +1006,43 @@
               {
                 "name": "Core Passive: Sky Knight",
                 "type": "Core Passive",
-                "desc": "[Basic Attack] Phase 4, [EX Special Attack], [Assist Follow-Up], [Chain Attack], [Ultimate], and [Dodge Counter] are considered [Draw-Fire Stance];\nWhen Sigrid uses any [Draw-Fire Stance] in combat, if not currently in [Sky Patrol Gunstance], she enters [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nIn combat, while in [Sky Patrol Gunstance], when Sigrid uses any [Draw-Fire Stance], she can refresh [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nThe duration of [Sky Patrol Gunstance] decreases as [Basic Attack: Holster Stance] phases increase: at Phase 1/2/3, the duration is 8/7/6s respectively;\nWhen [Sky Patrol Gunstance] ends, [Basic Attack: Holster Stance] phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing [Sky Patrol Gunstance], Sigrid's CRIT Rate increases by 66% and her ATK increases by 330, lasting 8s; on repeated triggers, the duration is extended by 8s, up to a maximum of 40s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%."
+                "desc": "[Basic Attack] Phase 4, [EX Special Attack], [Assist Follow-Up], [Chain Attack], [Ultimate], and [Dodge Counter] are considered [Draw-Fire Stance];\nWhen Sigrid uses any [Draw-Fire Stance] in combat, if not currently in [Sky Patrol Gunstance], she enters [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nIn combat, while in [Sky Patrol Gunstance], when Sigrid uses any [Draw-Fire Stance], she can refresh [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nThe duration of [Sky Patrol Gunstance] decreases as [Basic Attack: Holster Stance] phases increase: at Phase 1/2/3, the duration is 8/7/6s respectively;\nWhen [Sky Patrol Gunstance] ends, [Basic Attack: Holster Stance] phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing [Sky Patrol Gunstance], Sigrid's CRIT Rate increases by 66% and her ATK increases by 330, lasting 8s; on repeated triggers, the duration is extended by 8s, up to a maximum of 40s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "[Basic Attack] Phase 4, [EX Special Attack], [Assist Follow-Up], [Chain Attack], [Ultimate], and [Dodge Counter] are considered [Draw-Fire Stance];\nWhen Sigrid uses any [Draw-Fire Stance] in combat, if not currently in [Sky Patrol Gunstance], she enters [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nIn combat, while in [Sky Patrol Gunstance], when Sigrid uses any [Draw-Fire Stance], she can refresh [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nThe duration of [Sky Patrol Gunstance] decreases as [Basic Attack: Holster Stance] phases increase: at Phase 1/2/3, the duration is 8/7/6s respectively;\nWhen [Sky Patrol Gunstance] ends, [Basic Attack: Holster Stance] phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing [Sky Patrol Gunstance], Sigrid's CRIT Rate increases by 33% and her ATK increases by 150, lasting 8s; on repeated triggers, the duration is extended by 8s, up to a maximum of 40s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "[Basic Attack] Phase 4, [EX Special Attack], [Assist Follow-Up], [Chain Attack], [Ultimate], and [Dodge Counter] are considered [Draw-Fire Stance];\nWhen Sigrid uses any [Draw-Fire Stance] in combat, if not currently in [Sky Patrol Gunstance], she enters [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nIn combat, while in [Sky Patrol Gunstance], when Sigrid uses any [Draw-Fire Stance], she can refresh [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nThe duration of [Sky Patrol Gunstance] decreases as [Basic Attack: Holster Stance] phases increase: at Phase 1/2/3, the duration is 8/7/6s respectively;\nWhen [Sky Patrol Gunstance] ends, [Basic Attack: Holster Stance] phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing [Sky Patrol Gunstance], Sigrid's CRIT Rate increases by 39% and her ATK increases by 180, lasting 8s; on repeated triggers, the duration is extended by 8s, up to a maximum of 40s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "[Basic Attack] Phase 4, [EX Special Attack], [Assist Follow-Up], [Chain Attack], [Ultimate], and [Dodge Counter] are considered [Draw-Fire Stance];\nWhen Sigrid uses any [Draw-Fire Stance] in combat, if not currently in [Sky Patrol Gunstance], she enters [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nIn combat, while in [Sky Patrol Gunstance], when Sigrid uses any [Draw-Fire Stance], she can refresh [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nThe duration of [Sky Patrol Gunstance] decreases as [Basic Attack: Holster Stance] phases increase: at Phase 1/2/3, the duration is 8/7/6s respectively;\nWhen [Sky Patrol Gunstance] ends, [Basic Attack: Holster Stance] phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing [Sky Patrol Gunstance], Sigrid's CRIT Rate increases by 44% and her ATK increases by 210, lasting 8s; on repeated triggers, the duration is extended by 8s, up to a maximum of 40s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "[Basic Attack] Phase 4, [EX Special Attack], [Assist Follow-Up], [Chain Attack], [Ultimate], and [Dodge Counter] are considered [Draw-Fire Stance];\nWhen Sigrid uses any [Draw-Fire Stance] in combat, if not currently in [Sky Patrol Gunstance], she enters [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nIn combat, while in [Sky Patrol Gunstance], when Sigrid uses any [Draw-Fire Stance], she can refresh [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nThe duration of [Sky Patrol Gunstance] decreases as [Basic Attack: Holster Stance] phases increase: at Phase 1/2/3, the duration is 8/7/6s respectively;\nWhen [Sky Patrol Gunstance] ends, [Basic Attack: Holster Stance] phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing [Sky Patrol Gunstance], Sigrid's CRIT Rate increases by 50% and her ATK increases by 240, lasting 8s; on repeated triggers, the duration is extended by 8s, up to a maximum of 40s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "[Basic Attack] Phase 4, [EX Special Attack], [Assist Follow-Up], [Chain Attack], [Ultimate], and [Dodge Counter] are considered [Draw Mode];\nWhen Sigrid uses any [Draw Mode] attack in combat, if not currently in [Sky Patrol Stance], she enters [Sky Patrol Stance] and gains 1 charge of [Basic Attack: Holster Mode], up to a maximum of 1 charge;\nIn combat, while in [Sky Patrol Stance], when Sigrid uses any [Draw Mode] attack, she can refresh [Sky Patrol Stance] and gain 1 charge of [Basic Attack: Holster Mode], up to a maximum of 1 charge;\nThe duration of [Sky Patrol Stance] decreases as the [Basic Attack: Holster Mode] phase increases: at Phase 1/2/3, the duration is 8/7/6s respectively;\nWhen [Sky Patrol Stance] ends, the [Basic Attack: Holster Mode] phase decreases by 1, to a minimum of Phase 1;\nWhen activating or refreshing [Sky Patrol Stance], Sigrid's CRIT Rate increases by 55% and her ATK increases by 270 for 8s; repeated triggers extend the duration by 8s, up to a maximum of 40s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "[Basic Attack] Phase 4, [EX Special Attack], [Assist Follow-Up], [Chain Attack], [Ultimate], and [Dodge Counter] are considered [Gun-Draw Stance];\nWhen Sigrid uses any [Gun-Draw Stance] in combat, if not currently in [Sky Patrol Gunform], she enters [Sky Patrol Gunform] and gains 1 use of [Basic Attack: Gun-Stow Stance], stackable up to 1 time;\nIn combat, while in [Sky Patrol Gunform], when Sigrid uses any [Gun-Draw Stance], she can refresh [Sky Patrol Gunform] and gain 1 use of [Basic Attack: Gun-Stow Stance], stackable up to 1 time;\nThe duration of [Sky Patrol Gunform] decreases as the [Basic Attack: Gun-Stow Stance] phase advances: at Phase 1/2/3, the duration is 8/7/6s respectively;\nWhen [Sky Patrol Gunform] ends, the [Basic Attack: Gun-Stow Stance] phase decreases by 1, to a minimum of Phase 1;\nWhen [Sky Patrol Gunform] is activated or refreshed, Sigrid's CRIT Rate increases by 61% and her ATK increases by 300, lasting 8s; on repeated triggers, the duration is extended by 8s, up to a maximum of 40s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "[Basic Attack] Phase 4, [EX Special Attack], [Assist Follow-Up], [Chain Attack], [Ultimate], and [Dodge Counter] are considered [Draw-Fire Stance];\nWhen Sigrid uses any [Draw-Fire Stance] in combat, if not currently in [Sky Patrol Gunstance], she enters [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nIn combat, while in [Sky Patrol Gunstance], when Sigrid uses any [Draw-Fire Stance], she can refresh [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nThe duration of [Sky Patrol Gunstance] decreases as [Basic Attack: Holster Stance] phases increase: at Phase 1/2/3, the duration is 8/7/6s respectively;\nWhen [Sky Patrol Gunstance] ends, [Basic Attack: Holster Stance] phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing [Sky Patrol Gunstance], Sigrid's CRIT Rate increases by 66% and her ATK increases by 330, lasting 8s; on repeated triggers, the duration is extended by 8s, up to a maximum of 40s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%."
+                  }
+                ]
               },
               {
                 "name": "Additional Ability: Sky Alliance",
                 "type": "Additional Ability",
-                "desc": "Triggers when your squad has an [Assist] or [Stun] character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by 15%"
+                "desc": "Triggers when your squad has an [Assist] or [Stun] character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by 15%",
+                "levels": []
               }
             ]
           },
@@ -1618,7 +2550,7 @@
         "chinese": "https://zh.moegirl.org.cn/\u9759\u5bb8|Jingchen (\u9759\u5bb8)",
         "korean": "ko:\ucc28\uc601\ud76c|Cha Young-hee (\ucc28\uc601\ud76c)"
       },
-      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
+      "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1501.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/aria-746e633109ad.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/aria-85e6eab1e21b.webp",
       "signatureWeapon": {
@@ -1653,12 +2585,394 @@
               {
                 "name": "Basic Attack: Sweet Melody",
                 "type": "Basic",
-                "desc": "Press to activate:\nLaunches up to four consecutive attacks forward, dealing Ether DMG.\nAfter hitting an enemy with the fourth hit, 1 Fandom Power is generated on the field after the attack ends."
+                "desc": "Press to activate:\nLaunches up to four consecutive attacks forward, dealing Ether DMG.\nAfter hitting an enemy with the fourth hit, 1 Fandom Power is generated on the field after the attack ends.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "33.2%",
+                          "36.3%",
+                          "39.4%",
+                          "42.5%",
+                          "45.6%",
+                          "48.7%",
+                          "51.8%",
+                          "54.9%",
+                          "58%",
+                          "61.1%",
+                          "64.2%",
+                          "67.3%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "71.6%",
+                          "78.2%",
+                          "84.8%",
+                          "91.4%",
+                          "98%",
+                          "104.6%",
+                          "111.2%",
+                          "117.8%",
+                          "124.4%",
+                          "131%",
+                          "137.6%",
+                          "144.2%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "93.8%",
+                          "102.4%",
+                          "111%",
+                          "119.6%",
+                          "128.2%",
+                          "136.8%",
+                          "145.4%",
+                          "154%",
+                          "162.6%",
+                          "171.2%",
+                          "179.8%",
+                          "188.4%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "194.2%",
+                          "211.9%",
+                          "229.6%",
+                          "247.3%",
+                          "265%",
+                          "282.7%",
+                          "300.4%",
+                          "318.1%",
+                          "335.8%",
+                          "353.5%",
+                          "371.2%",
+                          "388.9%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "34.4%",
+                          "36%",
+                          "37.6%",
+                          "39.2%",
+                          "40.8%",
+                          "42.4%",
+                          "44%",
+                          "45.6%",
+                          "47.2%",
+                          "48.8%",
+                          "50.4%",
+                          "52%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "68%",
+                          "71.1%",
+                          "74.2%",
+                          "77.3%",
+                          "80.4%",
+                          "83.5%",
+                          "86.6%",
+                          "89.7%",
+                          "92.8%",
+                          "95.9%",
+                          "99%",
+                          "102.1%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "82.3%",
+                          "86.1%",
+                          "89.9%",
+                          "93.7%",
+                          "97.5%",
+                          "101.3%",
+                          "105.1%",
+                          "108.9%",
+                          "112.7%",
+                          "116.5%",
+                          "120.3%",
+                          "124.1%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "165.6%",
+                          "173.2%",
+                          "180.8%",
+                          "188.4%",
+                          "196%",
+                          "203.6%",
+                          "211.2%",
+                          "218.8%",
+                          "226.4%",
+                          "234%",
+                          "241.6%",
+                          "249.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Basic Attack: Perfect Pitch",
                 "type": "Basic",
-                "desc": "Hold to activate:\nAria enters a charging state and can reach three levels of charge. Releasing or reaching the maximum charge time causes Aria to unleash a powerful downward attack forward based on the current charge level, dealing massive Ether DMG.\nIf there is Fandom Power nearby while Aria is charging, she will absorb the Fandom Power, with each absorbed Fandom Power instantly increasing charge level by 1 and granting 1 stack of a buff that increases the next Basic Attack: Perfect Pitch's Ether Anomaly Buildup by 10%. This buff can stack up to 2 times and is removed after the attack ends.\nAfter the 4th hit of Basic Attack: Sweet Melody, Special Attack: Full-Sugar Electronica - No Ice, an EX Special Attack, a level three charged Basic Attack: Perfect Pitch, a Quick Assist, a Chain Attack, or an Ultimate, if there are at least 2 Fandom Power nearby, hold to consume 2 Fandom Power and quickly activate a level three charged Basic Attack: Perfect Pitch. After a level three charged Basic Attack: Perfect Pitch, a Chain Attack, or an Ultimate, if there are at least 2 Fandom Power nearby, a level three charged Basic Attack: Perfect Pitch can also be quickly activated by pressing within a short window, consuming 2 Fandom Power.\nAnti-Interrupt Level is increased while charging, and received DMG is reduced by 40%. Character is invulnerable while using this attack."
+                "desc": "Hold to activate:\nAria enters a charging state and can reach three levels of charge. Releasing or reaching the maximum charge time causes Aria to unleash a powerful downward attack forward based on the current charge level, dealing massive Ether DMG.\nIf there is Fandom Power nearby while Aria is charging, she will absorb the Fandom Power, with each absorbed Fandom Power instantly increasing charge level by 1 and granting 1 stack of a buff that increases the next Basic Attack: Perfect Pitch's Ether Anomaly Buildup by 10%. This buff can stack up to 2 times and is removed after the attack ends.\nAfter the 4th hit of Basic Attack: Sweet Melody, Special Attack: Full-Sugar Electronica - No Ice, an EX Special Attack, a level three charged Basic Attack: Perfect Pitch, a Quick Assist, a Chain Attack, or an Ultimate, if there are at least 2 Fandom Power nearby, hold to consume 2 Fandom Power and quickly activate a level three charged Basic Attack: Perfect Pitch. After a level three charged Basic Attack: Perfect Pitch, a Chain Attack, or an Ultimate, if there are at least 2 Fandom Power nearby, a level three charged Basic Attack: Perfect Pitch can also be quickly activated by pressing within a short window, consuming 2 Fandom Power.\nAnti-Interrupt Level is increased while charging, and received DMG is reduced by 40%. Character is invulnerable while using this attack.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Charge Level One Attack DMG Multiplier",
+                        "values": [
+                          "181.5%",
+                          "198%",
+                          "214.5%",
+                          "231%",
+                          "247.5%",
+                          "264%",
+                          "280.5%",
+                          "297%",
+                          "313.5%",
+                          "330%",
+                          "346.5%",
+                          "363%"
+                        ]
+                      },
+                      {
+                        "label": "Charge Level Two Attack DMG Multiplier",
+                        "values": [
+                          "207.2%",
+                          "226.1%",
+                          "245%",
+                          "263.9%",
+                          "282.8%",
+                          "301.7%",
+                          "320.6%",
+                          "339.5%",
+                          "358.4%",
+                          "377.3%",
+                          "396.2%",
+                          "415.1%"
+                        ]
+                      },
+                      {
+                        "label": "Charge Level Three Attack DMG Multiplier",
+                        "values": [
+                          "275%",
+                          "300%",
+                          "325%",
+                          "350%",
+                          "375%",
+                          "400%",
+                          "425%",
+                          "450%",
+                          "475%",
+                          "500%",
+                          "525%",
+                          "550%"
+                        ]
+                      },
+                      {
+                        "label": "Charge Level Three Attack DMG Multiplier (Coordinated)",
+                        "values": [
+                          "275%",
+                          "300%",
+                          "325%",
+                          "350%",
+                          "375%",
+                          "400%",
+                          "425%",
+                          "450%",
+                          "475%",
+                          "500%",
+                          "525%",
+                          "550%"
+                        ]
+                      },
+                      {
+                        "label": "Enhanced Charge Attack DMG Multiplier",
+                        "values": [
+                          "320.9%",
+                          "350.1%",
+                          "379.3%",
+                          "408.5%",
+                          "437.7%",
+                          "466.9%",
+                          "496.1%",
+                          "525.3%",
+                          "554.5%",
+                          "583.7%",
+                          "612.9%",
+                          "642.1%"
+                        ]
+                      },
+                      {
+                        "label": "Enhanced Charge Attack DMG Multiplier (Coordinated)",
+                        "values": [
+                          "320.9%",
+                          "350.1%",
+                          "379.3%",
+                          "408.5%",
+                          "437.7%",
+                          "466.9%",
+                          "496.1%",
+                          "525.3%",
+                          "554.5%",
+                          "583.7%",
+                          "612.9%",
+                          "642.1%"
+                        ]
+                      },
+                      {
+                        "label": "Charge Level One Attack Daze Multiplier",
+                        "values": [
+                          "154.3%",
+                          "161.4%",
+                          "168.5%",
+                          "175.6%",
+                          "182.7%",
+                          "189.8%",
+                          "196.9%",
+                          "204%",
+                          "211.1%",
+                          "218.2%",
+                          "225.3%",
+                          "232.4%"
+                        ]
+                      },
+                      {
+                        "label": "Charge Level Two Attack Daze Multiplier",
+                        "values": [
+                          "176.1%",
+                          "184.2%",
+                          "192.3%",
+                          "200.4%",
+                          "208.5%",
+                          "216.6%",
+                          "224.7%",
+                          "232.8%",
+                          "240.9%",
+                          "249%",
+                          "257.1%",
+                          "265.2%"
+                        ]
+                      },
+                      {
+                        "label": "Charge Level Three Attack Daze Multiplier",
+                        "values": [
+                          "110%",
+                          "115%",
+                          "120%",
+                          "125%",
+                          "130%",
+                          "135%",
+                          "140%",
+                          "145%",
+                          "150%",
+                          "155%",
+                          "160%",
+                          "165%"
+                        ]
+                      },
+                      {
+                        "label": "Charge Level Three Attack Daze Multiplier (Coordinated)",
+                        "values": [
+                          "110%",
+                          "115%",
+                          "120%",
+                          "125%",
+                          "130%",
+                          "135%",
+                          "140%",
+                          "145%",
+                          "150%",
+                          "155%",
+                          "160%",
+                          "165%"
+                        ]
+                      },
+                      {
+                        "label": "Enhanced Charge Attack Daze Multiplier",
+                        "values": [
+                          "110%",
+                          "115%",
+                          "120%",
+                          "125%",
+                          "130%",
+                          "135%",
+                          "140%",
+                          "145%",
+                          "150%",
+                          "155%",
+                          "160%",
+                          "165%"
+                        ]
+                      },
+                      {
+                        "label": "Enhanced Charge Attack Daze Multiplier (Coordinated)",
+                        "values": [
+                          "110%",
+                          "115%",
+                          "120%",
+                          "125%",
+                          "130%",
+                          "135%",
+                          "140%",
+                          "145%",
+                          "150%",
+                          "155%",
+                          "160%",
+                          "165%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge: On-Beat Precision",
@@ -1668,57 +2982,679 @@
               {
                 "name": "Dash Attack: Silky-Smooth Combo",
                 "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nLaunches a swift slashing attack forward, dealing Ether DMG.\nIf activated during a Basic Attack: Sweet Melody chain, this action does not reset the Basic Attack count."
+                "desc": "Press during a dodge to activate:\nLaunches a swift slashing attack forward, dealing Ether DMG.\nIf activated during a Basic Attack: Sweet Melody chain, this action does not reset the Basic Attack count.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "45.8%",
+                          "50%",
+                          "54.2%",
+                          "58.4%",
+                          "62.6%",
+                          "66.8%",
+                          "71%",
+                          "75.2%",
+                          "79.4%",
+                          "83.6%",
+                          "87.8%",
+                          "92%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "22.9%",
+                          "24%",
+                          "25.1%",
+                          "26.2%",
+                          "27.3%",
+                          "28.4%",
+                          "29.5%",
+                          "30.6%",
+                          "31.7%",
+                          "32.8%",
+                          "33.9%",
+                          "35%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge Counter: Slide-Shift Variation",
                 "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nUnleashes a powerful slash against the target, dealing Ether DMG.\nAfter using this skill, it can be immediately followed up with the 3rd hit of Basic Attack: Sweet Melody.\nCharacter is invulnerable while using this skill."
+                "desc": "Press during a Perfect Dodge to activate:\nUnleashes a powerful slash against the target, dealing Ether DMG.\nAfter using this skill, it can be immediately followed up with the 3rd hit of Basic Attack: Sweet Melody.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "241.2%",
+                          "263.2%",
+                          "285.2%",
+                          "307.2%",
+                          "329.2%",
+                          "351.2%",
+                          "373.2%",
+                          "395.2%",
+                          "417.2%",
+                          "439.2%",
+                          "461.2%",
+                          "483.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "210.9%",
+                          "220.5%",
+                          "230.1%",
+                          "239.7%",
+                          "249.3%",
+                          "258.9%",
+                          "268.5%",
+                          "278.1%",
+                          "287.7%",
+                          "297.3%",
+                          "306.9%",
+                          "316.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Quick Assist: Shatter Fantasy",
                 "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nDelivers a powerful slash to the target, dealing Ether DMG.\nAfter using this skill, it can be immediately followed up with the 3rd hit of Basic Attack: Sweet Melody.\nCharacter is invulnerable while using this skill."
+                "desc": "When the active character is launched, press to activate:\nDelivers a powerful slash to the target, dealing Ether DMG.\nAfter using this skill, it can be immediately followed up with the 3rd hit of Basic Attack: Sweet Melody.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "49.6%",
+                          "54.2%",
+                          "58.8%",
+                          "63.4%",
+                          "68%",
+                          "72.6%",
+                          "77.2%",
+                          "81.8%",
+                          "86.4%",
+                          "91%",
+                          "95.6%",
+                          "100.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "49.6%",
+                          "51.9%",
+                          "54.2%",
+                          "56.5%",
+                          "58.8%",
+                          "61.1%",
+                          "63.4%",
+                          "65.7%",
+                          "68%",
+                          "70.3%",
+                          "72.6%",
+                          "74.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Defensive Assist: Clutch Save",
                 "type": "Assist",
-                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "271.3%",
+                          "283.7%",
+                          "296.1%",
+                          "308.5%",
+                          "320.9%",
+                          "333.3%",
+                          "345.7%",
+                          "358.1%",
+                          "370.5%",
+                          "382.9%",
+                          "395.3%",
+                          "407.7%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "166.8%",
+                          "174.4%",
+                          "182%",
+                          "189.6%",
+                          "197.2%",
+                          "204.8%",
+                          "212.4%",
+                          "220%",
+                          "227.6%",
+                          "235.2%",
+                          "242.8%",
+                          "250.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Assist Follow-Up: Encore Song",
                 "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nUnleashes a powerful series of slashes on the target, dealing massive Ether DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "Press after a Defensive Assist to activate:\nUnleashes a powerful series of slashes on the target, dealing massive Ether DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "363.5%",
+                          "396.6%",
+                          "429.7%",
+                          "462.8%",
+                          "495.9%",
+                          "529%",
+                          "562.1%",
+                          "595.2%",
+                          "628.3%",
+                          "661.4%",
+                          "694.5%",
+                          "727.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "315.7%",
+                          "330.1%",
+                          "344.5%",
+                          "358.9%",
+                          "373.3%",
+                          "387.7%",
+                          "402.1%",
+                          "416.5%",
+                          "430.9%",
+                          "445.3%",
+                          "459.7%",
+                          "474.1%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Special Attack: Full-Sugar Electronica",
                 "type": "Special",
-                "desc": "Press to activate:\nDelivers a forward kick, dealing Ether DMG.\nAnti-Interrupt level is increased while using this skill."
+                "desc": "Press to activate:\nDelivers a forward kick, dealing Ether DMG.\nAnti-Interrupt level is increased while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "54.3%",
+                          "59.3%",
+                          "64.3%",
+                          "69.3%",
+                          "74.3%",
+                          "79.3%",
+                          "84.3%",
+                          "89.3%",
+                          "94.3%",
+                          "99.3%",
+                          "104.3%",
+                          "109.3%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "67.9%",
+                          "71%",
+                          "74.1%",
+                          "77.2%",
+                          "80.3%",
+                          "83.4%",
+                          "86.5%",
+                          "89.6%",
+                          "92.7%",
+                          "95.8%",
+                          "98.9%",
+                          "102%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Special Attack: Full-Sugar Electronica - No Ice",
                 "type": "Special",
-                "desc": "After the 4th hit of Basic Attack: Sweet Melody, an Assist Follow-Up, a Chain Attack, or an Ultimate, press to activate:\nDelivers a quicker forward kick, dealing Ether DMG. If the attack hits an enemy, 1 Fandom Power is generated on the field after the attack ends.\nCharacter is invulnerable while using this skill."
+                "desc": "After the 4th hit of Basic Attack: Sweet Melody, an Assist Follow-Up, a Chain Attack, or an Ultimate, press to activate:\nDelivers a quicker forward kick, dealing Ether DMG. If the attack hits an enemy, 1 Fandom Power is generated on the field after the attack ends.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "64.8%",
+                          "70.7%",
+                          "76.6%",
+                          "82.5%",
+                          "88.4%",
+                          "94.3%",
+                          "100.2%",
+                          "106.1%",
+                          "112%",
+                          "117.9%",
+                          "123.8%",
+                          "129.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "67.1%",
+                          "70.2%",
+                          "73.3%",
+                          "76.4%",
+                          "79.5%",
+                          "82.6%",
+                          "85.7%",
+                          "88.8%",
+                          "91.9%",
+                          "95%",
+                          "98.1%",
+                          "101.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "EX Special Attack: Fall Into Delusion",
                 "type": "Special",
-                "desc": "With enough energy, press to activate:\nDelivers a powerful forward kick followed by a sonic wave attack, dealing Ether DMG. If the attack hits an enemy, 3 Fandom Power are generated on the field after the attack ends.\nCharacter is invulnerable while using this skill."
+                "desc": "With enough energy, press to activate:\nDelivers a powerful forward kick followed by a sonic wave attack, dealing Ether DMG. If the attack hits an enemy, 3 Fandom Power are generated on the field after the attack ends.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "511.2%",
+                          "557.7%",
+                          "604.2%",
+                          "650.7%",
+                          "697.2%",
+                          "743.7%",
+                          "790.2%",
+                          "836.7%",
+                          "883.2%",
+                          "929.7%",
+                          "976.2%",
+                          "1022.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "402.7%",
+                          "421.1%",
+                          "439.5%",
+                          "457.9%",
+                          "476.3%",
+                          "494.7%",
+                          "513.1%",
+                          "531.5%",
+                          "549.9%",
+                          "568.3%",
+                          "586.7%",
+                          "605.1%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "EX Special Attack: Instantly Hooked",
                 "type": "Special",
-                "desc": "After launching EX Special Attack: Fall Into Delusion, and with enough Energy, press to activate:\nPerforms a powerful downward attack in front, dealing Ether DMG. If the attack hits an enemy, 3 Fandom Power are generated on the field after the attack ends.\nCharacter is invulnerable while using this skill."
+                "desc": "After launching EX Special Attack: Fall Into Delusion, and with enough Energy, press to activate:\nPerforms a powerful downward attack in front, dealing Ether DMG. If the attack hits an enemy, 3 Fandom Power are generated on the field after the attack ends.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "544.5%",
+                          "594%",
+                          "643.5%",
+                          "693%",
+                          "742.5%",
+                          "792%",
+                          "841.5%",
+                          "891%",
+                          "940.5%",
+                          "990%",
+                          "1039.5%",
+                          "1089%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "433.6%",
+                          "453.4%",
+                          "473.2%",
+                          "493%",
+                          "512.8%",
+                          "532.6%",
+                          "552.4%",
+                          "572.2%",
+                          "592%",
+                          "611.8%",
+                          "631.6%",
+                          "651.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Chain Attack: Dream Collab",
                 "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunches a series of attacks forward, dealing massive Ether DMG. 4 Fandom Power are generated on the field on skill activation.\nCharacter is invulnerable while using this skill."
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunches a series of attacks forward, dealing massive Ether DMG. 4 Fandom Power are generated on the field on skill activation.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "816.2%",
+                          "890.4%",
+                          "964.6%",
+                          "1038.8%",
+                          "1113%",
+                          "1187.2%",
+                          "1261.4%",
+                          "1335.6%",
+                          "1409.8%",
+                          "1484%",
+                          "1558.2%",
+                          "1632.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "231%",
+                          "241.5%",
+                          "252%",
+                          "262.5%",
+                          "273%",
+                          "283.5%",
+                          "294%",
+                          "304.5%",
+                          "315%",
+                          "325.5%",
+                          "336%",
+                          "346.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Ultimate: 100% Energy",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nReleases all her power, entering Moment of Delusion, and fires multiple powerful shots at the target, dealing massive Ether DMG.\nUpon entering Moment of Delusion, Aria gains 3 stacks of All-Out Cheering and activates Ether Veil: Delusion Reprise. While Ether Veil: Delusion Reprise is active, all squad members gain an additional 50 ATK for 30s. Re-activating Ether Veil: Delusion Reprise will first cancel any existing instance of Ether Veil: Delusion Reprise.\nWhile Aria is charging, if she has All-Out Cheering, stacks of All-Out Cheering are consumed first to charge. Each stack of All-Out Cheering consumed increases the charge level by 2.\nUpon entering Moment of Delusion, if Aria already has All-Out Cheering, all remaining stacks of All-Out Cheering are first converted into Fandom Power and generated on the field. Each stack of All-Out Cheering is converted into 2 Fandom Power.\nMoment of Delusion lasts for up to 15s. During Moment of Delusion, Aria's Basic Attack: Perfect Pitch 3rd attack is upgraded to an enhanced version.\nWhen exiting Moment of Delusion, if Aria has All-Out Cheering, all remaining stacks of All-Out Cheering are converted into Fandom Power and generated on the field. Each stack of All-Out Cheering is converted into 2 Fandom Power.\nCharacter is invulnerable while using this skill."
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nReleases all her power, entering Moment of Delusion, and fires multiple powerful shots at the target, dealing massive Ether DMG.\nUpon entering Moment of Delusion, Aria gains 3 stacks of All-Out Cheering and activates Ether Veil: Delusion Reprise. While Ether Veil: Delusion Reprise is active, all squad members gain an additional 50 ATK for 30s. Re-activating Ether Veil: Delusion Reprise will first cancel any existing instance of Ether Veil: Delusion Reprise.\nWhile Aria is charging, if she has All-Out Cheering, stacks of All-Out Cheering are consumed first to charge. Each stack of All-Out Cheering consumed increases the charge level by 2.\nUpon entering Moment of Delusion, if Aria already has All-Out Cheering, all remaining stacks of All-Out Cheering are first converted into Fandom Power and generated on the field. Each stack of All-Out Cheering is converted into 2 Fandom Power.\nMoment of Delusion lasts for up to 15s. During Moment of Delusion, Aria's Basic Attack: Perfect Pitch 3rd attack is upgraded to an enhanced version.\nWhen exiting Moment of Delusion, if Aria has All-Out Cheering, all remaining stacks of All-Out Cheering are converted into Fandom Power and generated on the field. Each stack of All-Out Cheering is converted into 2 Fandom Power.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "1622.5%",
+                          "1770%",
+                          "1917.5%",
+                          "2065%",
+                          "2212.5%",
+                          "2360%",
+                          "2507.5%",
+                          "2655%",
+                          "2802.5%",
+                          "2950%",
+                          "3097.5%",
+                          "3245%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "198%",
+                          "207%",
+                          "216%",
+                          "225%",
+                          "234%",
+                          "243%",
+                          "252%",
+                          "261%",
+                          "270%",
+                          "279%",
+                          "288%",
+                          "297%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1728,12 +3664,43 @@
               {
                 "name": "Core Passive: Innate Stage Presence",
                 "type": "Core Passive",
-                "desc": "Aria's Anomaly Proficiency increases by 90.\nIf Aria's 3rd hit of Basic Attack: Perfect Pitch lands a heavy attack on an enemy suffering an Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it will trigger Abloom, which resolves an additional instance of Attribute Anomaly DMG equal to 27.5%/14.3%/35.7%/2.5%/3.6%/1.4% per 10 points of initial Anomaly Mastery of the original Anomaly DMG. If the target is Stunned, the DMG ratio is further increased by 50%."
+                "desc": "Aria's Anomaly Proficiency increases by 90.\nIf Aria's 3rd hit of Basic Attack: Perfect Pitch lands a heavy attack on an enemy suffering an Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it will trigger Abloom, which resolves an additional instance of Attribute Anomaly DMG equal to 27.5%/14.3%/35.7%/2.5%/3.6%/1.4% per 10 points of initial Anomaly Mastery of the original Anomaly DMG. If the target is Stunned, the DMG ratio is further increased by 50%.",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Aria's Anomaly Proficiency increases by 45.\nIf Aria's 3rd hit of Basic Attack: Perfect Pitch lands a heavy attack on an enemy suffering an Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it will trigger Abloom, which resolves an additional instance of Attribute Anomaly DMG equal to 13.8%/7.2%/17.9%/1.25%/1.8%/0.7% per 10 points of initial Anomaly Mastery of the original Anomaly DMG. If the target is Stunned, the DMG ratio is further increased by 50%."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Aria's Anomaly Proficiency increases by 52.\nIf Aria's 3rd hit of Basic Attack: Perfect Pitch lands a heavy attack on an enemy suffering an Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it will trigger Abloom, which resolves an additional instance of Attribute Anomaly DMG equal to 16%/8.3%/20.8%/1.46%/2.1%/0.8% per 10 points of initial Anomaly Mastery of the original Anomaly DMG. If the target is Stunned, the DMG ratio is further increased by 50%."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Aria's Anomaly Proficiency increases by 60.\nIf Aria's 3rd hit of Basic Attack: Perfect Pitch lands a heavy attack on an enemy suffering an Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it will trigger Abloom, which resolves an additional instance of Attribute Anomaly DMG equal to 18.3%/9.5%/23.8%/1.67%/2.4%/0.9% per 10 points of initial Anomaly Mastery of the original Anomaly DMG. If the target is Stunned, the DMG ratio is further increased by 50%."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Aria's Anomaly Proficiency increases by 67.\nIf Aria's 3rd hit of Basic Attack: Perfect Pitch lands a heavy attack on an enemy suffering an Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it will trigger Abloom, which resolves an additional instance of Attribute Anomaly DMG equal to 20.6%/10.7%/26.8%/1.88%/2.7%/1.1% per 10 points of initial Anomaly Mastery of the original Anomaly DMG. If the target is Stunned, the DMG ratio is further increased by 50%."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Aria's Anomaly Proficiency increases by 75.\nIf Aria's 3rd hit of Basic Attack: Perfect Pitch lands a heavy attack on an enemy suffering an Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it will trigger Abloom, which resolves an additional instance of Attribute Anomaly DMG equal to 22.9%/11.9%/29.8%/2.08%/3%/1.2% per 10 points of initial Anomaly Mastery of the original Anomaly DMG. If the target is Stunned, the DMG ratio is further increased by 50%."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Aria's Anomaly Proficiency increases by 82.\nIf Aria's 3rd hit of Basic Attack: Perfect Pitch lands a heavy attack on an enemy suffering an Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it will trigger Abloom, which resolves an additional instance of Attribute Anomaly DMG equal to 25.2%/13.1%/32.7%/2.29%/3.3%/1.3% per 10 points of initial Anomaly Mastery of the original Anomaly DMG. If the target is Stunned, the DMG ratio is further increased by 50%."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Aria's Anomaly Proficiency increases by 90.\nIf Aria's 3rd hit of Basic Attack: Perfect Pitch lands a heavy attack on an enemy suffering an Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it will trigger Abloom, which resolves an additional instance of Attribute Anomaly DMG equal to 27.5%/14.3%/35.7%/2.5%/3.6%/1.4% per 10 points of initial Anomaly Mastery of the original Anomaly DMG. If the target is Stunned, the DMG ratio is further increased by 50%."
+                  }
+                ]
               },
               {
                 "name": "Additional Ability: Collaborative Stage",
                 "type": "Additional Ability",
-                "desc": "When another character in your squad is a Stun, Support, or Anomaly character, or shares the same Faction:\nWhen Ether Veil is activated, 4 Fandom Power are generated on the field. This can trigger once every 1s.\nWhen any squad member applies Corruption to an enemy, its duration is extended by 3s."
+                "desc": "When another character in your squad is a Stun, Support, or Anomaly character, or shares the same Faction:\nWhen Ether Veil is activated, 4 Fandom Power are generated on the field. This can trigger once every 1s.\nWhen any squad member applies Corruption to an enemy, its duration is extended by 3s.",
+                "levels": []
               }
             ]
           },
@@ -3262,7 +5229,7 @@
       "releasePatch": "3.0",
       "updated": 1781647200000,
       "sourceOrder": 0,
-      "icon": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole63.webp",
+      "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1551.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/pyrois-4c5bdf76ba79.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
       "signatureWeapon": {
@@ -3299,12 +5266,292 @@
               {
                 "name": "Basic Attack: Emberglow",
                 "type": "Basic",
-                "desc": "Press to activate:\nPerforms up to three attacks forward, dealing Ether DMG."
+                "desc": "Press to activate:\nPerforms up to three attacks forward, dealing Ether DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "45.6%",
+                          "49.8%",
+                          "54%",
+                          "58.2%",
+                          "62.4%",
+                          "66.6%",
+                          "70.8%",
+                          "75%",
+                          "79.2%",
+                          "83.4%",
+                          "87.6%",
+                          "91.8%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "64.1%",
+                          "70%",
+                          "75.9%",
+                          "81.8%",
+                          "87.7%",
+                          "93.6%",
+                          "99.5%",
+                          "105.4%",
+                          "111.3%",
+                          "117.2%",
+                          "123.1%",
+                          "129%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "276.3%",
+                          "301.5%",
+                          "326.7%",
+                          "351.9%",
+                          "377.1%",
+                          "402.3%",
+                          "427.5%",
+                          "452.7%",
+                          "477.9%",
+                          "503.1%",
+                          "528.3%",
+                          "553.5%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "30.9%",
+                          "32.4%",
+                          "33.9%",
+                          "35.4%",
+                          "36.9%",
+                          "38.4%",
+                          "39.9%",
+                          "41.4%",
+                          "42.9%",
+                          "44.4%",
+                          "45.9%",
+                          "47.4%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "41.8%",
+                          "43.7%",
+                          "45.6%",
+                          "47.5%",
+                          "49.4%",
+                          "51.3%",
+                          "53.2%",
+                          "55.1%",
+                          "57%",
+                          "58.9%",
+                          "60.8%",
+                          "62.7%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "178.6%",
+                          "186.8%",
+                          "195%",
+                          "203.2%",
+                          "211.4%",
+                          "219.6%",
+                          "227.8%",
+                          "236%",
+                          "244.2%",
+                          "252.4%",
+                          "260.6%",
+                          "268.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Basic Attack: Celestial Light",
                 "type": "Basic",
-                "desc": "With 30 or more , hold to activate:\nUnleashes up to four attacks forward, dealing massive Ether DMG.\nIf another character is switched in during the 3rd hit, Pyrois automatically performs the 4th hit off-field.\nEach hit consumes a certain amount of Solar Prominence.\nCharacter is invulnerable during the 3rd and 4th hits."
+                "desc": "With 30 or more , hold to activate:\nUnleashes up to four attacks forward, dealing massive Ether DMG.\nIf another character is switched in during the 3rd hit, Pyrois automatically performs the 4th hit off-field.\nEach hit consumes a certain amount of Solar Prominence.\nCharacter is invulnerable during the 3rd and 4th hits.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "107%",
+                          "116.8%",
+                          "126.6%",
+                          "136.4%",
+                          "146.2%",
+                          "156%",
+                          "165.8%",
+                          "175.6%",
+                          "185.4%",
+                          "195.2%",
+                          "205%",
+                          "214.8%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "143.8%",
+                          "156.9%",
+                          "170%",
+                          "183.1%",
+                          "196.2%",
+                          "209.3%",
+                          "222.4%",
+                          "235.5%",
+                          "248.6%",
+                          "261.7%",
+                          "274.8%",
+                          "287.9%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "549%",
+                          "599%",
+                          "649%",
+                          "699%",
+                          "749%",
+                          "799%",
+                          "849%",
+                          "899%",
+                          "949%",
+                          "999%",
+                          "1049%",
+                          "1099%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "641%",
+                          "699.3%",
+                          "757.6%",
+                          "815.9%",
+                          "874.2%",
+                          "932.5%",
+                          "990.8%",
+                          "1049.1%",
+                          "1107.4%",
+                          "1165.7%",
+                          "1224%",
+                          "1282.3%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "52.3%",
+                          "54.7%",
+                          "57.1%",
+                          "59.5%",
+                          "61.9%",
+                          "64.3%",
+                          "66.7%",
+                          "69.1%",
+                          "71.5%",
+                          "73.9%",
+                          "76.3%",
+                          "78.7%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "86.5%",
+                          "90.5%",
+                          "94.5%",
+                          "98.5%",
+                          "102.5%",
+                          "106.5%",
+                          "110.5%",
+                          "114.5%",
+                          "118.5%",
+                          "122.5%",
+                          "126.5%",
+                          "130.5%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "187%",
+                          "195.5%",
+                          "204%",
+                          "212.5%",
+                          "221%",
+                          "229.5%",
+                          "238%",
+                          "246.5%",
+                          "255%",
+                          "263.5%",
+                          "272%",
+                          "280.5%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "138.2%",
+                          "144.5%",
+                          "150.8%",
+                          "157.1%",
+                          "163.4%",
+                          "169.7%",
+                          "176%",
+                          "182.3%",
+                          "188.6%",
+                          "194.9%",
+                          "201.2%",
+                          "207.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge: Twilight",
@@ -3314,67 +5561,782 @@
               {
                 "name": "Dash Attack: Sunrise",
                 "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nDelivers a quick slash forward, dealing Ether DMG."
+                "desc": "Press during a dodge to activate:\nDelivers a quick slash forward, dealing Ether DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "95.3%",
+                          "104%",
+                          "112.7%",
+                          "121.4%",
+                          "130.1%",
+                          "138.8%",
+                          "147.5%",
+                          "156.2%",
+                          "164.9%",
+                          "173.6%",
+                          "182.3%",
+                          "191%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "40.4%",
+                          "42.3%",
+                          "44.2%",
+                          "46.1%",
+                          "48%",
+                          "49.9%",
+                          "51.8%",
+                          "53.7%",
+                          "55.6%",
+                          "57.5%",
+                          "59.4%",
+                          "61.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge Counter: First Light",
                 "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nPerforms a forward spinning slash, dealing Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+                "desc": "Press during a Perfect Dodge to activate:\nPerforms a forward spinning slash, dealing Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "228.7%",
+                          "249.5%",
+                          "270.3%",
+                          "291.1%",
+                          "311.9%",
+                          "332.7%",
+                          "353.5%",
+                          "374.3%",
+                          "395.1%",
+                          "415.9%",
+                          "436.7%",
+                          "457.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "174.3%",
+                          "182.3%",
+                          "190.3%",
+                          "198.3%",
+                          "206.3%",
+                          "214.3%",
+                          "222.3%",
+                          "230.3%",
+                          "238.3%",
+                          "246.3%",
+                          "254.3%",
+                          "262.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Quick Assist: Duskguard",
                 "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nLaunches a series of attacks against the target, dealing Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+                "desc": "When the active character is launched, press to activate:\nLaunches a series of attacks against the target, dealing Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "41.2%",
+                          "45%",
+                          "48.8%",
+                          "52.6%",
+                          "56.4%",
+                          "60.2%",
+                          "64%",
+                          "67.8%",
+                          "71.6%",
+                          "75.4%",
+                          "79.2%",
+                          "83%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "34.9%",
+                          "36.5%",
+                          "38.1%",
+                          "39.7%",
+                          "41.3%",
+                          "42.9%",
+                          "44.5%",
+                          "46.1%",
+                          "47.7%",
+                          "49.3%",
+                          "50.9%",
+                          "52.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Defensive Assist: Ironhide Behemoth",
                 "type": "Assist",
-                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "271.3%",
+                          "283.7%",
+                          "296.1%",
+                          "308.5%",
+                          "320.9%",
+                          "333.3%",
+                          "345.7%",
+                          "358.1%",
+                          "370.5%",
+                          "382.9%",
+                          "395.3%",
+                          "407.7%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "166.8%",
+                          "174.4%",
+                          "182%",
+                          "189.6%",
+                          "197.2%",
+                          "204.8%",
+                          "212.4%",
+                          "220%",
+                          "227.6%",
+                          "235.2%",
+                          "242.8%",
+                          "250.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Assist Follow-Up: Return to Daylight",
                 "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nPerforms a forward thrust attack, dealing Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+                "desc": "Press after a Defensive Assist to activate:\nPerforms a forward thrust attack, dealing Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "338.6%",
+                          "369.4%",
+                          "400.2%",
+                          "431%",
+                          "461.8%",
+                          "492.6%",
+                          "523.4%",
+                          "554.2%",
+                          "585%",
+                          "615.8%",
+                          "646.6%",
+                          "677.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "244.2%",
+                          "255.3%",
+                          "266.4%",
+                          "277.5%",
+                          "288.6%",
+                          "299.7%",
+                          "310.8%",
+                          "321.9%",
+                          "333%",
+                          "344.1%",
+                          "355.2%",
+                          "366.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Special Attack: Fading Rays",
                 "type": "Special",
-                "desc": "Press to activate:\nPerforms a rush attack, dealing Ether DMG."
+                "desc": "Press to activate:\nPerforms a rush attack, dealing Ether DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "52.1%",
+                          "56.9%",
+                          "61.7%",
+                          "66.5%",
+                          "71.3%",
+                          "76.1%",
+                          "80.9%",
+                          "85.7%",
+                          "90.5%",
+                          "95.3%",
+                          "100.1%",
+                          "104.9%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "44.1%",
+                          "46.2%",
+                          "48.3%",
+                          "50.4%",
+                          "52.5%",
+                          "54.6%",
+                          "56.7%",
+                          "58.8%",
+                          "60.9%",
+                          "63%",
+                          "65.1%",
+                          "67.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "EX Special Attack: Sun's Halo",
                 "type": "Special",
-                "desc": "With enough Energy, press to activate:\nQuickly charges forward and performs a series of consecutive attacks, dealing massive Ether DMG.\nIf hit by an enemy attack during the charge, triggers a Perfect Block effect, nullifying the damage and increasing the move's Interrupt Level to that of a Heavy Defensive Assist.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+                "desc": "With enough Energy, press to activate:\nQuickly charges forward and performs a series of consecutive attacks, dealing massive Ether DMG.\nIf hit by an enemy attack during the charge, triggers a Perfect Block effect, nullifying the damage and increasing the move's Interrupt Level to that of a Heavy Defensive Assist.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "737.4%",
+                          "804.5%",
+                          "871.6%",
+                          "938.7%",
+                          "1005.8%",
+                          "1072.9%",
+                          "1140%",
+                          "1207.1%",
+                          "1274.2%",
+                          "1341.3%",
+                          "1408.4%",
+                          "1475.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "433.6%",
+                          "453.4%",
+                          "473.2%",
+                          "493%",
+                          "512.8%",
+                          "532.6%",
+                          "552.4%",
+                          "572.2%",
+                          "592%",
+                          "611.8%",
+                          "631.6%",
+                          "651.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Special Attack: Assault Directive",
                 "type": "Special",
-                "desc": "When an Ultimate or EX Special Attack: Sun's Halo is used, Phaethon performs an assist attack, dealing Ether DMG. This effect can trigger once every 2.5s, and is guaranteed to trigger when using an Ultimate."
+                "desc": "When an Ultimate or EX Special Attack: Sun's Halo is used, Phaethon performs an assist attack, dealing Ether DMG. This effect can trigger once every 2.5s, and is guaranteed to trigger when using an Ultimate.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "82.8%",
+                          "90.4%",
+                          "98%",
+                          "105.6%",
+                          "113.2%",
+                          "120.8%",
+                          "128.4%",
+                          "136%",
+                          "143.6%",
+                          "151.2%",
+                          "158.8%",
+                          "166.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Chain Attack: Ceremonial March",
                 "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nPerforms a coordinated attack with Phaethon, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nPerforms a coordinated attack with Phaethon, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "1058.3%",
+                          "1154.6%",
+                          "1250.9%",
+                          "1347.2%",
+                          "1443.5%",
+                          "1539.8%",
+                          "1636.1%",
+                          "1732.4%",
+                          "1828.7%",
+                          "1925%",
+                          "2021.3%",
+                          "2117.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "291.6%",
+                          "304.9%",
+                          "318.2%",
+                          "331.5%",
+                          "344.8%",
+                          "358.1%",
+                          "371.4%",
+                          "384.7%",
+                          "398%",
+                          "411.3%",
+                          "424.6%",
+                          "437.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Ultimate: Total Annihilation",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at or above Blasting, press and select the upper branch to activate:\nAfter charging, performs a downward slash, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+                "desc": "When Decibel Rating is at or above Blasting, press and select the upper branch to activate:\nAfter charging, performs a downward slash, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "866.2%",
+                          "945%",
+                          "1023.8%",
+                          "1102.6%",
+                          "1181.4%",
+                          "1260.2%",
+                          "1339%",
+                          "1417.8%",
+                          "1496.6%",
+                          "1575.4%",
+                          "1654.2%",
+                          "1733%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "267.7%",
+                          "279.9%",
+                          "292.1%",
+                          "304.3%",
+                          "316.5%",
+                          "328.7%",
+                          "340.9%",
+                          "353.1%",
+                          "365.3%",
+                          "377.5%",
+                          "389.7%",
+                          "401.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Ultimate: Triumphant Return",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at or above Blasting, press and select the lower branch to activate:\nReleases an energy burst in the surrounding area, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+                "desc": "When Decibel Rating is at or above Blasting, press and select the lower branch to activate:\nReleases an energy burst in the surrounding area, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "535.7%",
+                          "584.4%",
+                          "633.1%",
+                          "681.8%",
+                          "730.5%",
+                          "779.2%",
+                          "827.9%",
+                          "876.6%",
+                          "925.3%",
+                          "974%",
+                          "1022.7%",
+                          "1071.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "126.6%",
+                          "132.4%",
+                          "138.2%",
+                          "144%",
+                          "149.8%",
+                          "155.6%",
+                          "161.4%",
+                          "167.2%",
+                          "173%",
+                          "178.8%",
+                          "184.6%",
+                          "190.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Ultimate: Unbound Swordstorm",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at or above Blasting, press and select the left branch to activate:\nUnleashes consecutive attacks forward, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+                "desc": "When Decibel Rating is at or above Blasting, press and select the left branch to activate:\nUnleashes consecutive attacks forward, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "973.3%",
+                          "1061.8%",
+                          "1150.3%",
+                          "1238.8%",
+                          "1327.3%",
+                          "1415.8%",
+                          "1504.3%",
+                          "1592.8%",
+                          "1681.3%",
+                          "1769.8%",
+                          "1858.3%",
+                          "1946.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "337.3%",
+                          "352.7%",
+                          "368.1%",
+                          "383.5%",
+                          "398.9%",
+                          "414.3%",
+                          "429.7%",
+                          "445.1%",
+                          "460.5%",
+                          "475.9%",
+                          "491.3%",
+                          "506.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Ultimate: Eternal Imprisonment",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at or above Blasting, press and select the right branch to activate:\nGathers energy ahead before unleashing a Finishing Move, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+                "desc": "When Decibel Rating is at or above Blasting, press and select the right branch to activate:\nGathers energy ahead before unleashing a Finishing Move, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "997%",
+                          "1087.7%",
+                          "1178.4%",
+                          "1269.1%",
+                          "1359.8%",
+                          "1450.5%",
+                          "1541.2%",
+                          "1631.9%",
+                          "1722.6%",
+                          "1813.3%",
+                          "1904%",
+                          "1994.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "251.3%",
+                          "262.8%",
+                          "274.3%",
+                          "285.8%",
+                          "297.3%",
+                          "308.8%",
+                          "320.3%",
+                          "331.8%",
+                          "343.3%",
+                          "354.8%",
+                          "366.3%",
+                          "377.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -3383,12 +6345,14 @@
             "entries": [
               {
                 "name": "Core Passive: Radiant Chariot",
-                "type": "Core Passive"
+                "type": "Core Passive",
+                "levels": []
               },
               {
                 "name": "Additional Ability: Glorious Legion",
                 "type": "Additional Ability",
-                "desc": "When another character in your squad is a Stun or Support character:\nPyrois' CRIT DMG increases by 40%.\nUsing a Chain Attack grants 300 Decibels."
+                "desc": "When another character in your squad is a Stun or Support character:\nPyrois' CRIT DMG increases by 40%.\nUsing a Chain Attack grants 300 Decibels.",
+                "levels": []
               }
             ]
           },
@@ -4928,7 +7892,7 @@
         "chinese": "https://zh.moegirl.org.cn/\u5f20\u5b89\u742a|Zhang Anqi (\u5f20\u5b89\u742a)",
         "korean": "ko:\uc2e0\uc628\uc720|Shin On-yu (\uc2e0\uc628\uc720)"
       },
-      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle64.webp",
+      "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1561.webp",
       "iconZoom": 1.24,
       "art": "../../Database/Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
@@ -4966,7 +7930,198 @@
               {
                 "name": "Basic Attack: Dancing Fans",
                 "type": "Basic",
-                "desc": "Press to activate:\nLaunches up to five attacks against enemies ahead, dealing Wind DMG.\nDuring the 5th attack, Velina's Anti-Interrupt Level increases, and DMG taken is reduced by 40%."
+                "desc": "Press to activate:\nLaunches up to five attacks against enemies ahead, dealing Wind DMG.\nDuring the 5th attack, Velina's Anti-Interrupt Level increases, and DMG taken is reduced by 40%.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "51.7%",
+                          "56.4%",
+                          "61.1%",
+                          "65.8%",
+                          "70.5%",
+                          "75.2%",
+                          "79.9%",
+                          "84.6%",
+                          "89.3%",
+                          "94%",
+                          "98.7%",
+                          "103.4%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "48.9%",
+                          "53.4%",
+                          "57.9%",
+                          "62.4%",
+                          "66.9%",
+                          "71.4%",
+                          "75.9%",
+                          "80.4%",
+                          "84.9%",
+                          "89.4%",
+                          "93.9%",
+                          "98.4%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "169.1%",
+                          "184.5%",
+                          "199.9%",
+                          "215.3%",
+                          "230.7%",
+                          "246.1%",
+                          "261.5%",
+                          "276.9%",
+                          "292.3%",
+                          "307.7%",
+                          "323.1%",
+                          "338.5%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "125.6%",
+                          "137.1%",
+                          "148.6%",
+                          "160.1%",
+                          "171.6%",
+                          "183.1%",
+                          "194.6%",
+                          "206.1%",
+                          "217.6%",
+                          "229.1%",
+                          "240.6%",
+                          "252.1%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit DMG Multiplier",
+                        "values": [
+                          "229.6%",
+                          "250.5%",
+                          "271.4%",
+                          "292.3%",
+                          "313.2%",
+                          "334.1%",
+                          "355%",
+                          "375.9%",
+                          "396.8%",
+                          "417.7%",
+                          "438.6%",
+                          "459.5%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "23.6%",
+                          "24.7%",
+                          "25.8%",
+                          "26.9%",
+                          "28%",
+                          "29.1%",
+                          "30.2%",
+                          "31.3%",
+                          "32.4%",
+                          "33.5%",
+                          "34.6%",
+                          "35.7%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "23.5%",
+                          "24.6%",
+                          "25.7%",
+                          "26.8%",
+                          "27.9%",
+                          "29%",
+                          "30.1%",
+                          "31.2%",
+                          "32.3%",
+                          "33.4%",
+                          "34.5%",
+                          "35.6%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "80.5%",
+                          "84.2%",
+                          "87.9%",
+                          "91.6%",
+                          "95.3%",
+                          "99%",
+                          "102.7%",
+                          "106.4%",
+                          "110.1%",
+                          "113.8%",
+                          "117.5%",
+                          "121.2%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "62.9%",
+                          "65.8%",
+                          "68.7%",
+                          "71.6%",
+                          "74.5%",
+                          "77.4%",
+                          "80.3%",
+                          "83.2%",
+                          "86.1%",
+                          "89%",
+                          "91.9%",
+                          "94.8%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit Daze Multiplier",
+                        "values": [
+                          "112.7%",
+                          "117.9%",
+                          "123.1%",
+                          "128.3%",
+                          "133.5%",
+                          "138.7%",
+                          "143.9%",
+                          "149.1%",
+                          "154.3%",
+                          "159.5%",
+                          "164.7%",
+                          "169.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge: Windward Sweep",
@@ -4976,57 +8131,814 @@
               {
                 "name": "Dash Attack: Gale Step",
                 "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nDelivers a quick attack forward, dealing Wind DMG."
+                "desc": "Press during a dodge to activate:\nDelivers a quick attack forward, dealing Wind DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "99.7%",
+                          "108.8%",
+                          "117.9%",
+                          "127%",
+                          "136.1%",
+                          "145.2%",
+                          "154.3%",
+                          "163.4%",
+                          "172.5%",
+                          "181.6%",
+                          "190.7%",
+                          "199.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "42.2%",
+                          "44.2%",
+                          "46.2%",
+                          "48.2%",
+                          "50.2%",
+                          "52.2%",
+                          "54.2%",
+                          "56.2%",
+                          "58.2%",
+                          "60.2%",
+                          "62.2%",
+                          "64.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge Counter: Cloudrend",
                 "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nLaunches a series of attacks on the target, dealing Wind DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "Press during a Perfect Dodge to activate:\nLaunches a series of attacks on the target, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "394.9%",
+                          "430.8%",
+                          "466.7%",
+                          "502.6%",
+                          "538.5%",
+                          "574.4%",
+                          "610.3%",
+                          "646.2%",
+                          "682.1%",
+                          "718%",
+                          "753.9%",
+                          "789.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "282.4%",
+                          "295.3%",
+                          "308.2%",
+                          "321.1%",
+                          "334%",
+                          "346.9%",
+                          "359.8%",
+                          "372.7%",
+                          "385.6%",
+                          "398.5%",
+                          "411.4%",
+                          "424.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Quick Assist: Emergency Protocol",
                 "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nUnleashes consecutive attacks against the target, dealing Wind DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "When the active character is launched, press to activate:\nUnleashes consecutive attacks against the target, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "203.8%",
+                          "222.4%",
+                          "241%",
+                          "259.6%",
+                          "278.2%",
+                          "296.8%",
+                          "315.4%",
+                          "334%",
+                          "352.6%",
+                          "371.2%",
+                          "389.8%",
+                          "408.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "86.2%",
+                          "90.2%",
+                          "94.2%",
+                          "98.2%",
+                          "102.2%",
+                          "106.2%",
+                          "110.2%",
+                          "114.2%",
+                          "118.2%",
+                          "122.2%",
+                          "126.2%",
+                          "130.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Defensive Assist: Judicious Intervention",
                 "type": "Assist",
-                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "271.3%",
+                          "283.7%",
+                          "296.1%",
+                          "308.5%",
+                          "320.9%",
+                          "333.3%",
+                          "345.7%",
+                          "358.1%",
+                          "370.5%",
+                          "382.9%",
+                          "395.3%",
+                          "407.7%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "166.8%",
+                          "174.4%",
+                          "182%",
+                          "189.6%",
+                          "197.2%",
+                          "204.8%",
+                          "212.4%",
+                          "220%",
+                          "227.6%",
+                          "235.2%",
+                          "242.8%",
+                          "250.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Assist Follow-Up: Negotiation Techniques",
                 "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nUnleashes a series of attacks, dealing Wind DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "Press after a Defensive Assist to activate:\nUnleashes a series of attacks, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "532.7%",
+                          "581.2%",
+                          "629.7%",
+                          "678.2%",
+                          "726.7%",
+                          "775.2%",
+                          "823.7%",
+                          "872.2%",
+                          "920.7%",
+                          "969.2%",
+                          "1017.7%",
+                          "1066.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "396.7%",
+                          "414.8%",
+                          "432.9%",
+                          "451%",
+                          "469.1%",
+                          "487.2%",
+                          "505.3%",
+                          "523.4%",
+                          "541.5%",
+                          "559.6%",
+                          "577.7%",
+                          "595.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Special Attack: Wind Shear - Purging Surge",
                 "type": "Special",
-                "desc": "Press to activate:\nUnleashes a sweeping gust forward, dealing Wind DMG."
+                "desc": "Press to activate:\nUnleashes a sweeping gust forward, dealing Wind DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "58.6%",
+                          "64%",
+                          "69.4%",
+                          "74.8%",
+                          "80.2%",
+                          "85.6%",
+                          "91%",
+                          "96.4%",
+                          "101.8%",
+                          "107.2%",
+                          "112.6%",
+                          "118%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "49.6%",
+                          "51.9%",
+                          "54.2%",
+                          "56.5%",
+                          "58.8%",
+                          "61.1%",
+                          "63.4%",
+                          "65.7%",
+                          "68%",
+                          "70.3%",
+                          "72.6%",
+                          "74.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "EX Special Attack: Wind Shear - Purifying Rise",
                 "type": "Special",
-                "desc": "With enough Energy, press to activate:\nDodges backward, then unleashes a massive wind blast to attack enemies, dealing Wind DMG.\nDuring the backward dodge, a dodge effect is active. Successfully dodging an enemy attack triggers Vital View.\nAfter using this skill, press to chain into the 5th hit of the Basic Attack.\nCharacter is invulnerable while using this skill."
+                "desc": "With enough Energy, press to activate:\nDodges backward, then unleashes a massive wind blast to attack enemies, dealing Wind DMG.\nDuring the backward dodge, a dodge effect is active. Successfully dodging an enemy attack triggers Vital View.\nAfter using this skill, press to chain into the 5th hit of the Basic Attack.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "440.5%",
+                          "480.6%",
+                          "520.7%",
+                          "560.8%",
+                          "600.9%",
+                          "641%",
+                          "681.1%",
+                          "721.2%",
+                          "761.3%",
+                          "801.4%",
+                          "841.5%",
+                          "881.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "302.5%",
+                          "316.3%",
+                          "330.1%",
+                          "343.9%",
+                          "357.7%",
+                          "371.5%",
+                          "385.3%",
+                          "399.1%",
+                          "412.9%",
+                          "426.7%",
+                          "440.5%",
+                          "454.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "EX Special Attack: Wind Shear - Triple Deathblow",
                 "type": "Special",
-                "desc": "With enough energy and after using EX Special Attack: Wind Shear - Purifying Rise, press or hold to activate:\nContinuously swings the fan, dealing Wind DMG.\nAfter using this skill, press to chain into the 5th hit of the Basic Attack.\nCharacter is invulnerable while using this skill."
+                "desc": "With enough energy and after using EX Special Attack: Wind Shear - Purifying Rise, press or hold to activate:\nContinuously swings the fan, dealing Wind DMG.\nAfter using this skill, press to chain into the 5th hit of the Basic Attack.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "725.2%",
+                          "791.2%",
+                          "857.2%",
+                          "923.2%",
+                          "989.2%",
+                          "1055.2%",
+                          "1121.2%",
+                          "1187.2%",
+                          "1253.2%",
+                          "1319.2%",
+                          "1385.2%",
+                          "1451.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "515.2%",
+                          "538.7%",
+                          "562.2%",
+                          "585.7%",
+                          "609.2%",
+                          "632.7%",
+                          "656.2%",
+                          "679.7%",
+                          "703.2%",
+                          "726.7%",
+                          "750.2%",
+                          "773.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "EX Special Attack: Wind Shear - Eye of the Storm",
                 "type": "Special",
-                "desc": "With 90 or more , hold or to activate:\nVelina channels a whirlwind and summons a to continuously attack enemies and triggers the previous character's Quick Assist.\nSweeping Cyclone lasts for 5s and deals Wind DMG to nearby enemies once every 0.5s."
+                "desc": "With 90 or more , hold or to activate:\nVelina channels a whirlwind and summons a to continuously attack enemies and triggers the previous character's Quick Assist.\nSweeping Cyclone lasts for 5s and deals Wind DMG to nearby enemies once every 0.5s.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "216.7%",
+                          "236.4%",
+                          "256.1%",
+                          "275.8%",
+                          "295.5%",
+                          "315.2%",
+                          "334.9%",
+                          "354.6%",
+                          "374.3%",
+                          "394%",
+                          "413.7%",
+                          "433.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "183.4%",
+                          "191.8%",
+                          "200.2%",
+                          "208.6%",
+                          "217%",
+                          "225.4%",
+                          "233.8%",
+                          "242.2%",
+                          "250.6%",
+                          "259%",
+                          "267.4%",
+                          "275.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sweeping Cyclone",
+                "type": "Special",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Sweeping Cyclone Wind Attribute Single-Hit DMG Multiplier",
+                        "values": [
+                          "39%",
+                          "42.6%",
+                          "46.2%",
+                          "49.8%",
+                          "53.4%",
+                          "57%",
+                          "60.6%",
+                          "64.2%",
+                          "67.8%",
+                          "71.4%",
+                          "75%",
+                          "78.6%"
+                        ]
+                      },
+                      {
+                        "label": "Sweeping Cyclone Wind Attribute Single-Hit Daze Multiplier",
+                        "values": [
+                          "82.5%",
+                          "86.3%",
+                          "90.1%",
+                          "93.9%",
+                          "97.7%",
+                          "101.5%",
+                          "105.3%",
+                          "109.1%",
+                          "112.9%",
+                          "116.7%",
+                          "120.5%",
+                          "124.3%"
+                        ]
+                      },
+                      {
+                        "label": "Sweeping Cyclone Attribute-Converted Single-Hit DMG Multiplier",
+                        "values": [
+                          "97.5%",
+                          "106.4%",
+                          "115.3%",
+                          "124.2%",
+                          "133.1%",
+                          "142%",
+                          "150.9%",
+                          "159.8%",
+                          "168.7%",
+                          "177.6%",
+                          "186.5%",
+                          "195.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Condensed Cyclone",
+                "type": "Special",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "32.5%",
+                          "35.5%",
+                          "38.5%",
+                          "41.5%",
+                          "44.5%",
+                          "47.5%",
+                          "50.5%",
+                          "53.5%",
+                          "56.5%",
+                          "59.5%",
+                          "62.5%",
+                          "65.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "137.5%",
+                          "143.8%",
+                          "150.1%",
+                          "156.4%",
+                          "162.7%",
+                          "169%",
+                          "175.3%",
+                          "181.6%",
+                          "187.9%",
+                          "194.2%",
+                          "200.5%",
+                          "206.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Chain Attack: Thousandfold Spiral",
                 "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nTransforms into a hurricane to unleash multiple attacks against enemies, followed by a Finishing Move, dealing massive Wind DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nTransforms into a hurricane to unleash multiple attacks against enemies, followed by a Finishing Move, dealing massive Wind DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "800.4%",
+                          "873.2%",
+                          "946%",
+                          "1018.8%",
+                          "1091.6%",
+                          "1164.4%",
+                          "1237.2%",
+                          "1310%",
+                          "1382.8%",
+                          "1455.6%",
+                          "1528.4%",
+                          "1601.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "238.4%",
+                          "249.3%",
+                          "260.2%",
+                          "271.1%",
+                          "282%",
+                          "292.9%",
+                          "303.8%",
+                          "314.7%",
+                          "325.6%",
+                          "336.5%",
+                          "347.4%",
+                          "358.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Ultimate: Heed the Tempest",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes multiple attacks against enemies ahead, dealing massive Wind DMG.\nAfter using this skill, the previous character's Quick Assist is triggered.\nCharacter is invulnerable while using this skill."
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes multiple attacks against enemies ahead, dealing massive Wind DMG.\nAfter using this skill, the previous character's Quick Assist is triggered.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "2188.3%",
+                          "2387.3%",
+                          "2586.3%",
+                          "2785.3%",
+                          "2984.3%",
+                          "3183.3%",
+                          "3382.3%",
+                          "3581.3%",
+                          "3780.3%",
+                          "3979.3%",
+                          "4178.3%",
+                          "4377.3%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "381.3%",
+                          "398.7%",
+                          "416.1%",
+                          "433.5%",
+                          "450.9%",
+                          "468.3%",
+                          "485.7%",
+                          "503.1%",
+                          "520.5%",
+                          "537.9%",
+                          "555.3%",
+                          "572.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -5035,11 +8947,13 @@
             "entries": [
               {
                 "name": "Core Passive: Breeze in Bloom",
-                "type": "Core Passive"
+                "type": "Core Passive",
+                "levels": []
               },
               {
                 "name": "Additional Ability: Tea Party Etiquette",
-                "type": "Additional Ability"
+                "type": "Additional Ability",
+                "levels": []
               }
             ]
           },
@@ -6578,7 +10492,7 @@
         "chinese": "https://zh.moegirl.org.cn/\u962e\u4ece\u9752|Ruan Congqing (\u962e\u4ece\u9752)",
         "korean": "https://namu.wiki/w/\uae40\ub3c4\ud76c(\uc131\uc6b0)|Kim Do-hee (\uae40\ub3c4\ud76c)"
       },
-      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle13.webp",
+      "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1091.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/miyabi-77dced7400d3.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/miyabi-6ec442dcf805.webp",
       "signatureWeapon": {
@@ -6613,12 +10527,326 @@
               {
                 "name": "Basic Attack: Kazahana",
                 "type": "Basic",
-                "desc": "Press to activate:\nUnleashes up to five slashes ahead, the first two deal Physical DMG, and the last three deal Frost DMG.\nBlock enemy attacks during the 5th hit of the Basic Attack."
+                "desc": "Press to activate:\nUnleashes up to five slashes ahead, the first two deal Physical DMG, and the last three deal Frost DMG.\nBlock enemy attacks during the 5th hit of the Basic Attack.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "26.9%",
+                          "29.4%",
+                          "31.9%",
+                          "34.4%",
+                          "36.9%",
+                          "39.4%",
+                          "41.9%",
+                          "44.4%",
+                          "46.9%",
+                          "49.4%",
+                          "51.9%",
+                          "54.4%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "29.6%",
+                          "32.3%",
+                          "35%",
+                          "37.7%",
+                          "40.4%",
+                          "43.1%",
+                          "45.8%",
+                          "48.5%",
+                          "51.2%",
+                          "53.9%",
+                          "56.6%",
+                          "59.3%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "62.8%",
+                          "68.6%",
+                          "74.4%",
+                          "80.2%",
+                          "86%",
+                          "91.8%",
+                          "97.6%",
+                          "103.4%",
+                          "109.2%",
+                          "115%",
+                          "120.8%",
+                          "126.6%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "96.5%",
+                          "105.3%",
+                          "114.1%",
+                          "122.9%",
+                          "131.7%",
+                          "140.5%",
+                          "149.3%",
+                          "158.1%",
+                          "166.9%",
+                          "175.7%",
+                          "184.5%",
+                          "193.3%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit DMG Multiplier",
+                        "values": [
+                          "129%",
+                          "140.8%",
+                          "152.6%",
+                          "164.4%",
+                          "176.2%",
+                          "188%",
+                          "199.8%",
+                          "211.6%",
+                          "223.4%",
+                          "235.2%",
+                          "247%",
+                          "258.8%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "13.5%",
+                          "14.2%",
+                          "14.9%",
+                          "15.6%",
+                          "16.3%",
+                          "17%",
+                          "17.7%",
+                          "18.4%",
+                          "19.1%",
+                          "19.8%",
+                          "20.5%",
+                          "21.2%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "26.9%",
+                          "28.2%",
+                          "29.5%",
+                          "30.8%",
+                          "32.1%",
+                          "33.4%",
+                          "34.7%",
+                          "36%",
+                          "37.3%",
+                          "38.6%",
+                          "39.9%",
+                          "41.2%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "46.4%",
+                          "48.6%",
+                          "50.8%",
+                          "53%",
+                          "55.2%",
+                          "57.4%",
+                          "59.6%",
+                          "61.8%",
+                          "64%",
+                          "66.2%",
+                          "68.4%",
+                          "70.6%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "82.1%",
+                          "85.9%",
+                          "89.7%",
+                          "93.5%",
+                          "97.3%",
+                          "101.1%",
+                          "104.9%",
+                          "108.7%",
+                          "112.5%",
+                          "116.3%",
+                          "120.1%",
+                          "123.9%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit Daze Multiplier",
+                        "values": [
+                          "131%",
+                          "137%",
+                          "143%",
+                          "149%",
+                          "155%",
+                          "161%",
+                          "167%",
+                          "173%",
+                          "179%",
+                          "185%",
+                          "191%",
+                          "197%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Basic Attack: Shimotsuki",
                 "type": "Basic",
-                "desc": "With at least 2 points of Fallen Frost, hold to activate:\nHoshimi Miyabi sheaths her blade, enters Shimotsuki Stance and starts to charge up. Every level of charge will consume 2 points of Fallen Frost, up to a maximum of three levels of charge.\nWhen releasing , or when Fallen Frost is completely depleted, Hoshimi Miyabi will draw her blade and unleash a powerful slash ahead based on the current charge level, dealing massive Frost DMG. She then exits Shimotsuki Stance.\nCharacter is invulnerable during Shimotsuki Stance.\nHoshimi Miyabi can have up to 6 points of Fallen Frost. Upon entering the battlefield, Hoshimi Miyabi immediately obtains 3 points of Fallen Frost."
+                "desc": "With at least 2 points of Fallen Frost, hold to activate:\nHoshimi Miyabi sheaths her blade, enters Shimotsuki Stance and starts to charge up. Every level of charge will consume 2 points of Fallen Frost, up to a maximum of three levels of charge.\nWhen releasing , or when Fallen Frost is completely depleted, Hoshimi Miyabi will draw her blade and unleash a powerful slash ahead based on the current charge level, dealing massive Frost DMG. She then exits Shimotsuki Stance.\nCharacter is invulnerable during Shimotsuki Stance.\nHoshimi Miyabi can have up to 6 points of Fallen Frost. Upon entering the battlefield, Hoshimi Miyabi immediately obtains 3 points of Fallen Frost.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Charge Level One Slash DMG Multiplier",
+                        "values": [
+                          "454.7%",
+                          "496.1%",
+                          "537.5%",
+                          "578.9%",
+                          "620.3%",
+                          "661.7%",
+                          "703.1%",
+                          "744.5%",
+                          "785.9%",
+                          "827.3%",
+                          "868.7%",
+                          "910.1%"
+                        ]
+                      },
+                      {
+                        "label": "Charge Level Two Slash DMG Multiplier",
+                        "values": [
+                          "858.1%",
+                          "936.2%",
+                          "1014.3%",
+                          "1092.4%",
+                          "1170.5%",
+                          "1248.6%",
+                          "1326.7%",
+                          "1404.8%",
+                          "1482.9%",
+                          "1561%",
+                          "1639.1%",
+                          "1717.2%"
+                        ]
+                      },
+                      {
+                        "label": "Charge Level Three Slash DMG Multiplier",
+                        "values": [
+                          "2141.1%",
+                          "2335.8%",
+                          "2530.5%",
+                          "2725.2%",
+                          "2919.9%",
+                          "3114.6%",
+                          "3309.3%",
+                          "3504%",
+                          "3698.7%",
+                          "3893.4%",
+                          "4088.1%",
+                          "4282.8%"
+                        ]
+                      },
+                      {
+                        "label": "Charge Level One Slash Daze Multiplier",
+                        "values": [
+                          "44%",
+                          "46%",
+                          "48%",
+                          "50%",
+                          "52%",
+                          "54%",
+                          "56%",
+                          "58%",
+                          "60%",
+                          "62%",
+                          "64%",
+                          "66%"
+                        ]
+                      },
+                      {
+                        "label": "Charge Level Two Slash Daze Multiplier",
+                        "values": [
+                          "62.4%",
+                          "65.3%",
+                          "68.2%",
+                          "71.1%",
+                          "74%",
+                          "76.9%",
+                          "79.8%",
+                          "82.7%",
+                          "85.6%",
+                          "88.5%",
+                          "91.4%",
+                          "94.3%"
+                        ]
+                      },
+                      {
+                        "label": "Charge Level Three Slash Daze Multiplier",
+                        "values": [
+                          "377.8%",
+                          "395%",
+                          "412.2%",
+                          "429.4%",
+                          "446.6%",
+                          "463.8%",
+                          "481%",
+                          "498.2%",
+                          "515.4%",
+                          "532.6%",
+                          "549.8%",
+                          "567%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge: Mizutori",
@@ -6628,47 +10856,593 @@
               {
                 "name": "Dash Attack: Fuyubachi",
                 "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG."
+                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "25.8%",
+                          "28.2%",
+                          "30.6%",
+                          "33%",
+                          "35.4%",
+                          "37.8%",
+                          "40.2%",
+                          "42.6%",
+                          "45%",
+                          "47.4%",
+                          "49.8%",
+                          "52.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "12.9%",
+                          "13.5%",
+                          "14.1%",
+                          "14.7%",
+                          "15.3%",
+                          "15.9%",
+                          "16.5%",
+                          "17.1%",
+                          "17.7%",
+                          "18.3%",
+                          "18.9%",
+                          "19.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge Counter: Kan Suzume",
                 "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nSlashes enemies in front, dealing Frost DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "Press during a Perfect Dodge to activate:\nSlashes enemies in front, dealing Frost DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "245.9%",
+                          "268.3%",
+                          "290.7%",
+                          "313.1%",
+                          "335.5%",
+                          "357.9%",
+                          "380.3%",
+                          "402.7%",
+                          "425.1%",
+                          "447.5%",
+                          "469.9%",
+                          "492.3%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "214.5%",
+                          "224.3%",
+                          "234.1%",
+                          "243.9%",
+                          "253.7%",
+                          "263.5%",
+                          "273.3%",
+                          "283.1%",
+                          "292.9%",
+                          "302.7%",
+                          "312.5%",
+                          "322.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Quick Assist: Dancing Petals",
                 "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nSlashes enemies in front, dealing Frost DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "When the active character is launched, press to activate:\nSlashes enemies in front, dealing Frost DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "104.5%",
+                          "114%",
+                          "123.5%",
+                          "133%",
+                          "142.5%",
+                          "152%",
+                          "161.5%",
+                          "171%",
+                          "180.5%",
+                          "190%",
+                          "199.5%",
+                          "209%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "104.5%",
+                          "109.3%",
+                          "114.1%",
+                          "118.9%",
+                          "123.7%",
+                          "128.5%",
+                          "133.3%",
+                          "138.1%",
+                          "142.9%",
+                          "147.7%",
+                          "152.5%",
+                          "157.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Defensive Assist: Drifting Petals",
                 "type": "Assist",
-                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "271.3%",
+                          "283.7%",
+                          "296.1%",
+                          "308.5%",
+                          "320.9%",
+                          "333.3%",
+                          "345.7%",
+                          "358.1%",
+                          "370.5%",
+                          "382.9%",
+                          "395.3%",
+                          "407.7%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "128.3%",
+                          "134.2%",
+                          "140.1%",
+                          "146%",
+                          "151.9%",
+                          "157.8%",
+                          "163.7%",
+                          "169.6%",
+                          "175.5%",
+                          "181.4%",
+                          "187.3%",
+                          "193.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Assist Follow-Up: Falling Petals",
                 "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nCharges and slashes enemies in front, dealing Frost DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "Press after a Defensive Assist to activate:\nCharges and slashes enemies in front, dealing Frost DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "337.8%",
+                          "368.6%",
+                          "399.4%",
+                          "430.2%",
+                          "461%",
+                          "491.8%",
+                          "522.6%",
+                          "553.4%",
+                          "584.2%",
+                          "615%",
+                          "645.8%",
+                          "676.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "291.9%",
+                          "305.2%",
+                          "318.5%",
+                          "331.8%",
+                          "345.1%",
+                          "358.4%",
+                          "371.7%",
+                          "385%",
+                          "398.3%",
+                          "411.6%",
+                          "424.9%",
+                          "438.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Special Attack: Miyuki",
                 "type": "Special",
-                "desc": "Press to activate:\nQuickly draws her blade and slashes ahead, dealing Frost DMG.\nAnti-Interrupt level is increased while using this skill."
+                "desc": "Press to activate:\nQuickly draws her blade and slashes ahead, dealing Frost DMG.\nAnti-Interrupt level is increased while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "35.8%",
+                          "39.1%",
+                          "42.4%",
+                          "45.7%",
+                          "49%",
+                          "52.3%",
+                          "55.6%",
+                          "58.9%",
+                          "62.2%",
+                          "65.5%",
+                          "68.8%",
+                          "72.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "35.8%",
+                          "37.5%",
+                          "39.2%",
+                          "40.9%",
+                          "42.6%",
+                          "44.3%",
+                          "46%",
+                          "47.7%",
+                          "49.4%",
+                          "51.1%",
+                          "52.8%",
+                          "54.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "EX Special Attack: Hisetsu",
                 "type": "Special",
-                "desc": "With enough Energy, press to activate:\nRush forward, unleashing powerful slashes against enemies along the way, dealing massive Frost DMG.\nUpon activating this skill, gain 2 points of Fallen Frost.\nCharacter is invulnerable while using this skill.\nAfter using this skill, with enough Energy, press again to activate:\nConsume extra Energy and unleash a powerful follow-up attack against enemies in front, dealing massive Frost DMG.\nUpon activating this skill, gain 2 points of Fallen Frost.\nCharacter is invulnerable while using this skill."
+                "desc": "With enough Energy, press to activate:\nRush forward, unleashing powerful slashes against enemies along the way, dealing massive Frost DMG.\nUpon activating this skill, gain 2 points of Fallen Frost.\nCharacter is invulnerable while using this skill.\nAfter using this skill, with enough Energy, press again to activate:\nConsume extra Energy and unleash a powerful follow-up attack against enemies in front, dealing massive Frost DMG.\nUpon activating this skill, gain 2 points of Fallen Frost.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Slash DMG Multiplier",
+                        "values": [
+                          "157.4%",
+                          "171.8%",
+                          "186.2%",
+                          "200.6%",
+                          "215%",
+                          "229.4%",
+                          "243.8%",
+                          "258.2%",
+                          "272.6%",
+                          "287%",
+                          "301.4%",
+                          "315.8%"
+                        ]
+                      },
+                      {
+                        "label": "Follow-Up DMG Multiplier",
+                        "values": [
+                          "193.3%",
+                          "210.9%",
+                          "228.5%",
+                          "246.1%",
+                          "263.7%",
+                          "281.3%",
+                          "298.9%",
+                          "316.5%",
+                          "334.1%",
+                          "351.7%",
+                          "369.3%",
+                          "386.9%"
+                        ]
+                      },
+                      {
+                        "label": "Slash Daze Multiplier",
+                        "values": [
+                          "128.7%",
+                          "134.6%",
+                          "140.5%",
+                          "146.4%",
+                          "152.3%",
+                          "158.2%",
+                          "164.1%",
+                          "170%",
+                          "175.9%",
+                          "181.8%",
+                          "187.7%",
+                          "193.6%"
+                        ]
+                      },
+                      {
+                        "label": "Follow-Up Daze Multiplier",
+                        "values": [
+                          "162%",
+                          "169.4%",
+                          "176.8%",
+                          "184.2%",
+                          "191.6%",
+                          "199%",
+                          "206.4%",
+                          "213.8%",
+                          "221.2%",
+                          "228.6%",
+                          "236%",
+                          "243.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Chain Attack: Spring's Call",
                 "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful slash at enemies in front in a large area, dealing massive Frost DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful slash at enemies in front in a large area, dealing massive Frost DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "188.4%",
+                          "205.6%",
+                          "222.8%",
+                          "240%",
+                          "257.2%",
+                          "274.4%",
+                          "291.6%",
+                          "308.8%",
+                          "326%",
+                          "343.2%",
+                          "360.4%",
+                          "377.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "56.7%",
+                          "59.3%",
+                          "61.9%",
+                          "64.5%",
+                          "67.1%",
+                          "69.7%",
+                          "72.3%",
+                          "74.9%",
+                          "77.5%",
+                          "80.1%",
+                          "82.7%",
+                          "85.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Ultimate: Lingering Snow",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes powerful slashes at enemies ahead in a large area then pauses, before unleashing a Finishing Move, dealing massive Frost DMG.\nUpon activating this skill, gain 3 points of Fallen Frost and increase Ice DMG by 30% for 12s.\nCharacter is invulnerable while using this skill."
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes powerful slashes at enemies ahead in a large area then pauses, before unleashing a Finishing Move, dealing massive Frost DMG.\nUpon activating this skill, gain 3 points of Fallen Frost and increase Ice DMG by 30% for 12s.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "2388%",
+                          "2605.1%",
+                          "2822.2%",
+                          "3039.3%",
+                          "3256.4%",
+                          "3473.5%",
+                          "3690.6%",
+                          "3907.7%",
+                          "4124.8%",
+                          "4341.9%",
+                          "4559%",
+                          "4776.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "370.4%",
+                          "387.3%",
+                          "404.2%",
+                          "421.1%",
+                          "438%",
+                          "454.9%",
+                          "471.8%",
+                          "488.7%",
+                          "505.6%",
+                          "522.5%",
+                          "539.4%",
+                          "556.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -6678,12 +11452,43 @@
               {
                 "name": "Core Passive: Searing Cold",
                 "type": "Core Passive",
-                "desc": "When Hoshimi Miyabi deals Frost DMG, she applies Icefire to the target, lasting 30s. When accumulating Frost Anomaly Buildup against targets with Icefire, increases Frost Anomaly Buildup Rate by 100% of Hoshimi Miyabi's CRIT Rate, up to a maximum increase of 80%. As Hoshimi Miyabi accumulates Frost Anomaly Buildup, it has its own independent Attribute Anomaly Buildup gauge and triggers Freeze, Shatter, and Frostbite that can react with other Attribute Anomalies, including Ice Attribute Anomaly, to trigger Disorder.\nWhen Hoshimi Miyabi applies Frostbite to enemies with Icefire, it will consume the Icefire to trigger Frostburn - Break, dealing Frost DMG equal to 1,500% of Hoshimi Miyabi's ATK and causing the target to enter the Frostburn state. All units accumulate 20% more Anomaly Buildup against enemies under the Frostburn state, but Hoshimi Miyabi cannot reapply Icefire to these enemies. The Frostburn state ends when Frostbite expires. While this state remains active, triggering another Attribute Anomaly will overwrite Frostbite and remove Frostburn.\nUpon triggering Frostburn - Break, Hoshimi Miyabi obtains 1 point of Fallen Frost. This effect can trigger once every 10s."
+                "desc": "When Hoshimi Miyabi deals Frost DMG, she applies Icefire to the target, lasting 30s. When accumulating Frost Anomaly Buildup against targets with Icefire, increases Frost Anomaly Buildup Rate by 100% of Hoshimi Miyabi's CRIT Rate, up to a maximum increase of 80%. As Hoshimi Miyabi accumulates Frost Anomaly Buildup, it has its own independent Attribute Anomaly Buildup gauge and triggers Freeze, Shatter, and Frostbite that can react with other Attribute Anomalies, including Ice Attribute Anomaly, to trigger Disorder.\nWhen Hoshimi Miyabi applies Frostbite to enemies with Icefire, it will consume the Icefire to trigger Frostburn - Break, dealing Frost DMG equal to 1,500% of Hoshimi Miyabi's ATK and causing the target to enter the Frostburn state. All units accumulate 20% more Anomaly Buildup against enemies under the Frostburn state, but Hoshimi Miyabi cannot reapply Icefire to these enemies. The Frostburn state ends when Frostbite expires. While this state remains active, triggering another Attribute Anomaly will overwrite Frostbite and remove Frostburn.\nUpon triggering Frostburn - Break, Hoshimi Miyabi obtains 1 point of Fallen Frost. This effect can trigger once every 10s.",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When Hoshimi Miyabi deals Frost DMG, she applies Icefire to the target, lasting 30s. When accumulating Frost Anomaly Buildup against targets with Icefire, increases Frost Anomaly Buildup Rate by 100% of Hoshimi Miyabi's CRIT Rate, up to a maximum increase of 80%. As Hoshimi Miyabi accumulates Frost Anomaly Buildup, it has its own independent Attribute Anomaly Buildup gauge and triggers Freeze, Shatter, and Frostbite that can react with other Attribute Anomalies, including Ice Attribute Anomaly, to trigger Disorder.\nWhen Hoshimi Miyabi applies Frostbite to enemies with Icefire, it will consume the Icefire to trigger Frostburn - Break, dealing Frost DMG equal to 750% of Hoshimi Miyabi's ATK and causing the target to enter the Frostburn state. All units accumulate 14% more Anomaly Buildup against enemies under the Frostburn state, but Hoshimi Miyabi cannot reapply Icefire to these enemies. The Frostburn state ends when Frostbite expires. While this state remains active, triggering another Attribute Anomaly will overwrite Frostbite and remove Frostburn.\nUpon triggering Frostburn - Break, Hoshimi Miyabi obtains 1 point of Fallen Frost. This effect can trigger once every 10s."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When Hoshimi Miyabi deals Frost DMG, she applies Icefire to the target, lasting 30s. When accumulating Frost Anomaly Buildup against targets with Icefire, increases Frost Anomaly Buildup Rate by 100% of Hoshimi Miyabi's CRIT Rate, up to a maximum increase of 80%. As Hoshimi Miyabi accumulates Frost Anomaly Buildup, it has its own independent Attribute Anomaly Buildup gauge and triggers Freeze, Shatter, and Frostbite that can react with other Attribute Anomalies, including Ice Attribute Anomaly, to trigger Disorder.\nWhen Hoshimi Miyabi applies Frostbite to enemies with Icefire, it will consume the Icefire to trigger Frostburn - Break, dealing Frost DMG equal to 875% of Hoshimi Miyabi's ATK and causing the target to enter the Frostburn state. All units accumulate 15% more Anomaly Buildup against enemies under the Frostburn state, but Hoshimi Miyabi cannot reapply Icefire to these enemies. The Frostburn state ends when Frostbite expires. While this state remains active, triggering another Attribute Anomaly will overwrite Frostbite and remove Frostburn.\nUpon triggering Frostburn - Break, Hoshimi Miyabi obtains 1 point of Fallen Frost. This effect can trigger once every 10s."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When Hoshimi Miyabi deals Frost DMG, she applies Icefire to the target, lasting 30s. When accumulating Frost Anomaly Buildup against targets with Icefire, increases Frost Anomaly Buildup Rate by 100% of Hoshimi Miyabi's CRIT Rate, up to a maximum increase of 80%. As Hoshimi Miyabi accumulates Frost Anomaly Buildup, it has its own independent Attribute Anomaly Buildup gauge and triggers Freeze, Shatter, and Frostbite that can react with other Attribute Anomalies, including Ice Attribute Anomaly, to trigger Disorder.\nWhen Hoshimi Miyabi applies Frostbite to enemies with Icefire, it will consume the Icefire to trigger Frostburn - Break, dealing Frost DMG equal to 1,000% of Hoshimi Miyabi's ATK and causing the target to enter the Frostburn state. All units accumulate 16% more Anomaly Buildup against enemies under the Frostburn state, but Hoshimi Miyabi cannot reapply Icefire to these enemies. The Frostburn state ends when Frostbite expires. While this state remains active, triggering another Attribute Anomaly will overwrite Frostbite and remove Frostburn.\nUpon triggering Frostburn - Break, Hoshimi Miyabi obtains 1 point of Fallen Frost. This effect can trigger once every 10s."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When Hoshimi Miyabi deals Frost DMG, she applies Icefire to the target, lasting 30s. When accumulating Frost Anomaly Buildup against targets with Icefire, increases Frost Anomaly Buildup Rate by 100% of Hoshimi Miyabi's CRIT Rate, up to a maximum increase of 80%. As Hoshimi Miyabi accumulates Frost Anomaly Buildup, it has its own independent Attribute Anomaly Buildup gauge and triggers Freeze, Shatter, and Frostbite that can react with other Attribute Anomalies, including Ice Attribute Anomaly, to trigger Disorder.\nWhen Hoshimi Miyabi applies Frostbite to enemies with Icefire, it will consume the Icefire to trigger Frostburn - Break, dealing Frost DMG equal to 1,125% of Hoshimi Miyabi's ATK and causing the target to enter the Frostburn state. All units accumulate 17% more Anomaly Buildup against enemies under the Frostburn state, but Hoshimi Miyabi cannot reapply Icefire to these enemies. The Frostburn state ends when Frostbite expires. While this state remains active, triggering another Attribute Anomaly will overwrite Frostbite and remove Frostburn.\nUpon triggering Frostburn - Break, Hoshimi Miyabi obtains 1 point of Fallen Frost. This effect can trigger once every 10s."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When Hoshimi Miyabi deals Frost DMG, she applies Icefire to the target, lasting 30s. When accumulating Frost Anomaly Buildup against targets with Icefire, increases Frost Anomaly Buildup Rate by 100% of Hoshimi Miyabi's CRIT Rate, up to a maximum increase of 80%. As Hoshimi Miyabi accumulates Frost Anomaly Buildup, it has its own independent Attribute Anomaly Buildup gauge and triggers Freeze, Shatter, and Frostbite that can react with other Attribute Anomalies, including Ice Attribute Anomaly, to trigger Disorder.\nWhen Hoshimi Miyabi applies Frostbite to enemies with Icefire, it will consume the Icefire to trigger Frostburn - Break, dealing Frost DMG equal to 1,250% of Hoshimi Miyabi's ATK and causing the target to enter the Frostburn state. All units accumulate 18% more Anomaly Buildup against enemies under the Frostburn state, but Hoshimi Miyabi cannot reapply Icefire to these enemies. The Frostburn state ends when Frostbite expires. While this state remains active, triggering another Attribute Anomaly will overwrite Frostbite and remove Frostburn.\nUpon triggering Frostburn - Break, Hoshimi Miyabi obtains 1 point of Fallen Frost. This effect can trigger once every 10s."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When Hoshimi Miyabi deals Frost DMG, she applies Icefire to the target, lasting 30s. When accumulating Frost Anomaly Buildup against targets with Icefire, increases Frost Anomaly Buildup Rate by 100% of Hoshimi Miyabi's CRIT Rate, up to a maximum increase of 80%. As Hoshimi Miyabi accumulates Frost Anomaly Buildup, it has its own independent Attribute Anomaly Buildup gauge and triggers Freeze, Shatter, and Frostbite that can react with other Attribute Anomalies, including Ice Attribute Anomaly, to trigger Disorder.\nWhen Hoshimi Miyabi applies Frostbite to enemies with Icefire, it will consume the Icefire to trigger Frostburn - Break, dealing Frost DMG equal to 1,375% of Hoshimi Miyabi's ATK and causing the target to enter the Frostburn state. All units accumulate 19% more Anomaly Buildup against enemies under the Frostburn state, but Hoshimi Miyabi cannot reapply Icefire to these enemies. The Frostburn state ends when Frostbite expires. While this state remains active, triggering another Attribute Anomaly will overwrite Frostbite and remove Frostburn.\nUpon triggering Frostburn - Break, Hoshimi Miyabi obtains 1 point of Fallen Frost. This effect can trigger once every 10s."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When Hoshimi Miyabi deals Frost DMG, she applies Icefire to the target, lasting 30s. When accumulating Frost Anomaly Buildup against targets with Icefire, increases Frost Anomaly Buildup Rate by 100% of Hoshimi Miyabi's CRIT Rate, up to a maximum increase of 80%. As Hoshimi Miyabi accumulates Frost Anomaly Buildup, it has its own independent Attribute Anomaly Buildup gauge and triggers Freeze, Shatter, and Frostbite that can react with other Attribute Anomalies, including Ice Attribute Anomaly, to trigger Disorder.\nWhen Hoshimi Miyabi applies Frostbite to enemies with Icefire, it will consume the Icefire to trigger Frostburn - Break, dealing Frost DMG equal to 1,500% of Hoshimi Miyabi's ATK and causing the target to enter the Frostburn state. All units accumulate 20% more Anomaly Buildup against enemies under the Frostburn state, but Hoshimi Miyabi cannot reapply Icefire to these enemies. The Frostburn state ends when Frostbite expires. While this state remains active, triggering another Attribute Anomaly will overwrite Frostbite and remove Frostburn.\nUpon triggering Frostburn - Break, Hoshimi Miyabi obtains 1 point of Fallen Frost. This effect can trigger once every 10s."
+                  }
+                ]
               },
               {
                 "name": "Additional Ability: Bask in Frost",
                 "type": "Additional Ability",
-                "desc": "When another character in your squad is a Support or Anomaly character, or shares the same Faction:\nBasic Attack: Shimotsuki DMG increases by 60%. When any squad member triggers Disorder, Hoshimi Miyabi obtains 2 points of Fallen Frost and Basic Attack: Shimotsuki during the next Shimotsuki Stance will ignore 30% of the target's Ice RES."
+                "desc": "When another character in your squad is a Support or Anomaly character, or shares the same Faction:\nBasic Attack: Shimotsuki DMG increases by 60%. When any squad member triggers Disorder, Hoshimi Miyabi obtains 2 points of Fallen Frost and Basic Attack: Shimotsuki during the next Shimotsuki Stance will ignore 30% of the target's Ice RES.",
+                "levels": []
               }
             ]
           },
@@ -8219,7 +13024,7 @@
         "japanese": "Hara Sayuri (\u539f \u7d17\u53cb\u91cc)",
         "chinese": "Hu\u0101 l\u00edng (\u82b1\u94c3)"
       },
-      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle11.webp",
+      "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1021.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/nekomata-c03741fa6151.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/nekomata-b9bdae637f03.webp",
       "signatureWeapon": {
@@ -8254,12 +13059,258 @@
               {
                 "name": "Basic Attack: Kitty Slash",
                 "type": "Basic",
-                "desc": "Press to activate:\nUnleashes up to 5 slashes, dealing Physical DMG.\nOn the last hit, there is a 33.33% chance to repeat this hit 3 times.\n\nPress to activate:\nUnleashes up to 5 slashes, dealing Physical DMG.\nOn the last hit, if it strikes a Stunned enemy, this hit repeats 3 times."
+                "desc": "Press to activate:\nUnleashes up to 5 slashes, dealing Physical DMG.\nOn the last hit, there is a 33.33% chance to repeat this hit 3 times.\n\nPress to activate:\nUnleashes up to 5 slashes, dealing Physical DMG.\nOn the last hit, if it strikes a Stunned enemy, this hit repeats 3 times.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "55.2%",
+                          "60.3%",
+                          "65.4%",
+                          "70.5%",
+                          "75.6%",
+                          "80.7%",
+                          "85.8%",
+                          "90.9%",
+                          "96%",
+                          "101.1%",
+                          "106.2%",
+                          "111.3%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "62.6%",
+                          "68.3%",
+                          "74%",
+                          "79.7%",
+                          "85.4%",
+                          "91.1%",
+                          "96.8%",
+                          "102.5%",
+                          "108.2%",
+                          "113.9%",
+                          "119.6%",
+                          "125.3%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "72.7%",
+                          "79.4%",
+                          "86.1%",
+                          "92.8%",
+                          "99.5%",
+                          "106.2%",
+                          "112.9%",
+                          "119.6%",
+                          "126.3%",
+                          "133%",
+                          "139.7%",
+                          "146.4%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "170.2%",
+                          "185.7%",
+                          "201.2%",
+                          "216.7%",
+                          "232.2%",
+                          "247.7%",
+                          "263.2%",
+                          "278.7%",
+                          "294.2%",
+                          "309.7%",
+                          "325.2%",
+                          "340.7%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit DMG Multiplier",
+                        "values": [
+                          "123.6%",
+                          "134.9%",
+                          "146.2%",
+                          "157.5%",
+                          "168.8%",
+                          "180.1%",
+                          "191.4%",
+                          "202.7%",
+                          "214%",
+                          "225.3%",
+                          "236.6%",
+                          "247.9%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "18%",
+                          "18.9%",
+                          "19.8%",
+                          "20.7%",
+                          "21.6%",
+                          "22.5%",
+                          "23.4%",
+                          "24.3%",
+                          "25.2%",
+                          "26.1%",
+                          "27%",
+                          "27.9%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "37.1%",
+                          "38.8%",
+                          "40.5%",
+                          "42.2%",
+                          "43.9%",
+                          "45.6%",
+                          "47.3%",
+                          "49%",
+                          "50.7%",
+                          "52.4%",
+                          "54.1%",
+                          "55.8%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "46.7%",
+                          "48.9%",
+                          "51.1%",
+                          "53.3%",
+                          "55.5%",
+                          "57.7%",
+                          "59.9%",
+                          "62.1%",
+                          "64.3%",
+                          "66.5%",
+                          "68.7%",
+                          "70.9%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "103.7%",
+                          "108.5%",
+                          "113.3%",
+                          "118.1%",
+                          "122.9%",
+                          "127.7%",
+                          "132.5%",
+                          "137.3%",
+                          "142.1%",
+                          "146.9%",
+                          "151.7%",
+                          "156.5%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit Daze Multiplier",
+                        "values": [
+                          "58.9%",
+                          "61.6%",
+                          "64.3%",
+                          "67%",
+                          "69.7%",
+                          "72.4%",
+                          "75.1%",
+                          "77.8%",
+                          "80.5%",
+                          "83.2%",
+                          "85.9%",
+                          "88.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Basic Attack: Crimson Blade",
                 "type": "Basic",
-                "desc": "Hold during the first 3 hits of Nekomata's Basic Attack to activate:\nSlashes enemies in front and passes through them, dealing Physical DMG.\nUpon activation, there is a 33.33% chance to repeat this attack 3 times.\n\nHold during the first 3 hits of [Basic Attack] to activate:\nSlashes enemies in front and passes through them, dealing Physical DMG.\nUpon activating this skill, if it hits an enemy in a Stunned state, this attack repeats 3 times."
+                "desc": "Hold during the first 3 hits of Nekomata's Basic Attack to activate:\nSlashes enemies in front and passes through them, dealing Physical DMG.\nUpon activation, there is a 33.33% chance to repeat this attack 3 times.\n\nHold during the first 3 hits of [Basic Attack] to activate:\nSlashes enemies in front and passes through them, dealing Physical DMG.\nUpon activating this skill, if it hits an enemy in a Stunned state, this attack repeats 3 times.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "71.8%",
+                          "78.4%",
+                          "85%",
+                          "91.6%",
+                          "98.2%",
+                          "104.8%",
+                          "111.4%",
+                          "118%",
+                          "124.6%",
+                          "131.2%",
+                          "137.8%",
+                          "144.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "58.9%",
+                          "61.6%",
+                          "64.3%",
+                          "67%",
+                          "69.7%",
+                          "72.4%",
+                          "75.1%",
+                          "77.8%",
+                          "80.5%",
+                          "83.2%",
+                          "85.9%",
+                          "88.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge: Can't Touch Me-ow~",
@@ -8274,52 +13325,619 @@
               {
                 "name": "Dash Attack: Over Here!",
                 "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG."
+                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "35.1%",
+                          "38.3%",
+                          "41.5%",
+                          "44.7%",
+                          "47.9%",
+                          "51.1%",
+                          "54.3%",
+                          "57.5%",
+                          "60.7%",
+                          "63.9%",
+                          "67.1%",
+                          "70.3%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "17.6%",
+                          "18.4%",
+                          "19.2%",
+                          "20%",
+                          "20.8%",
+                          "21.6%",
+                          "22.4%",
+                          "23.2%",
+                          "24%",
+                          "24.8%",
+                          "25.6%",
+                          "26.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge Counter: Phantom Claws",
                 "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nSlashes enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "Press during a Perfect Dodge to activate:\nSlashes enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "227.9%",
+                          "248.7%",
+                          "269.5%",
+                          "290.3%",
+                          "311.1%",
+                          "331.9%",
+                          "352.7%",
+                          "373.5%",
+                          "394.3%",
+                          "415.1%",
+                          "435.9%",
+                          "456.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "199.5%",
+                          "208.6%",
+                          "217.7%",
+                          "226.8%",
+                          "235.9%",
+                          "245%",
+                          "254.1%",
+                          "263.2%",
+                          "272.3%",
+                          "281.4%",
+                          "290.5%",
+                          "299.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge Counter: Velvet Claw Pierce",
                 "type": "Dodge",
-                "desc": "After using [Dodge: Vanishing Tail Technique], press or hold when having 40 or more [Purr Energy] to activate:\nLaunch a powerful Slash against enemies in a large area ahead, dealing massive Physical DMG;\nCharacter is invulnerable while using this skill."
+                "desc": "After using [Dodge: Vanishing Tail Technique], press or hold when having 40 or more [Purr Energy] to activate:\nLaunch a powerful Slash against enemies in a large area ahead, dealing massive Physical DMG;\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "1263.9%",
+                          "1378.8%",
+                          "1493.7%",
+                          "1608.6%",
+                          "1723.5%",
+                          "1838.4%",
+                          "1953.3%",
+                          "2068.2%",
+                          "2183.1%",
+                          "2298%",
+                          "2412.9%",
+                          "2527.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "164.6%",
+                          "172.1%",
+                          "179.6%",
+                          "187.1%",
+                          "194.6%",
+                          "202.1%",
+                          "209.6%",
+                          "217.1%",
+                          "224.6%",
+                          "232.1%",
+                          "239.6%",
+                          "247.1%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Quick Assist: Cat's Paw",
                 "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nSlashes enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "When the active character is launched, press to activate:\nSlashes enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "94.5%",
+                          "103.1%",
+                          "111.7%",
+                          "120.3%",
+                          "128.9%",
+                          "137.5%",
+                          "146.1%",
+                          "154.7%",
+                          "163.3%",
+                          "171.9%",
+                          "180.5%",
+                          "189.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "94.5%",
+                          "98.8%",
+                          "103.1%",
+                          "107.4%",
+                          "111.7%",
+                          "116%",
+                          "120.3%",
+                          "124.6%",
+                          "128.9%",
+                          "133.2%",
+                          "137.5%",
+                          "141.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Defensive Assist: Desperate Defense",
                 "type": "Assist",
-                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "259%",
+                          "270.8%",
+                          "282.6%",
+                          "294.4%",
+                          "306.2%",
+                          "318%",
+                          "329.8%",
+                          "341.6%",
+                          "353.4%",
+                          "365.2%",
+                          "377%",
+                          "388.8%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "327.3%",
+                          "342.2%",
+                          "357.1%",
+                          "372%",
+                          "386.9%",
+                          "401.8%",
+                          "416.7%",
+                          "431.6%",
+                          "446.5%",
+                          "461.4%",
+                          "476.3%",
+                          "491.2%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "159.3%",
+                          "166.6%",
+                          "173.9%",
+                          "181.2%",
+                          "188.5%",
+                          "195.8%",
+                          "203.1%",
+                          "210.4%",
+                          "217.7%",
+                          "225%",
+                          "232.3%",
+                          "239.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Assist Follow-Up: Shadow Strike",
                 "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nCharge and slash enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "Press after a Defensive Assist to activate:\nCharge and slash enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "300.4%",
+                          "327.8%",
+                          "355.2%",
+                          "382.6%",
+                          "410%",
+                          "437.4%",
+                          "464.8%",
+                          "492.2%",
+                          "519.6%",
+                          "547%",
+                          "574.4%",
+                          "601.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "258.1%",
+                          "269.9%",
+                          "281.7%",
+                          "293.5%",
+                          "305.3%",
+                          "317.1%",
+                          "328.9%",
+                          "340.7%",
+                          "352.5%",
+                          "364.3%",
+                          "376.1%",
+                          "387.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Special Attack: Surprise Attack",
                 "type": "Special",
-                "desc": "Press to activate:\nUnleashes a downward strike, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill."
+                "desc": "Press to activate:\nUnleashes a downward strike, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "47.3%",
+                          "51.6%",
+                          "55.9%",
+                          "60.2%",
+                          "64.5%",
+                          "68.8%",
+                          "73.1%",
+                          "77.4%",
+                          "81.7%",
+                          "86%",
+                          "90.3%",
+                          "94.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "47.3%",
+                          "49.5%",
+                          "51.7%",
+                          "53.9%",
+                          "56.1%",
+                          "58.3%",
+                          "60.5%",
+                          "62.7%",
+                          "64.9%",
+                          "67.1%",
+                          "69.3%",
+                          "71.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "EX Special Attack: Super Surprise Attack!",
                 "type": "Special",
-                "desc": "With enough Energy, press to activate:\nUnleashes a powerful falling slash that deals massive Physical DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "With enough Energy, press to activate:\nUnleashes a powerful falling slash that deals massive Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "539.7%",
+                          "588.8%",
+                          "637.9%",
+                          "687%",
+                          "736.1%",
+                          "785.2%",
+                          "834.3%",
+                          "883.4%",
+                          "932.5%",
+                          "981.6%",
+                          "1030.7%",
+                          "1079.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "455.4%",
+                          "476.1%",
+                          "496.8%",
+                          "517.5%",
+                          "538.2%",
+                          "558.9%",
+                          "579.6%",
+                          "600.3%",
+                          "621%",
+                          "641.7%",
+                          "662.4%",
+                          "683.1%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Chain Attack: Claw Swipe",
                 "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful slash at enemies ahead in a large area, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful slash at enemies ahead in a large area, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "536.2%",
+                          "585%",
+                          "633.8%",
+                          "682.6%",
+                          "731.4%",
+                          "780.2%",
+                          "829%",
+                          "877.8%",
+                          "926.6%",
+                          "975.4%",
+                          "1024.2%",
+                          "1073%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "159.2%",
+                          "166.5%",
+                          "173.8%",
+                          "181.1%",
+                          "188.4%",
+                          "195.7%",
+                          "203%",
+                          "210.3%",
+                          "217.6%",
+                          "224.9%",
+                          "232.2%",
+                          "239.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Ultimate: Claw Smash",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes powerful slashes at enemies ahead in a large area, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes powerful slashes at enemies ahead in a large area, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "1571.1%",
+                          "1714%",
+                          "1856.9%",
+                          "1999.8%",
+                          "2142.7%",
+                          "2285.6%",
+                          "2428.5%",
+                          "2571.4%",
+                          "2714.3%",
+                          "2857.2%",
+                          "3000.1%",
+                          "3143%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "118.1%",
+                          "123.5%",
+                          "128.9%",
+                          "134.3%",
+                          "139.7%",
+                          "145.1%",
+                          "150.5%",
+                          "155.9%",
+                          "161.3%",
+                          "166.7%",
+                          "172.1%",
+                          "177.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -8329,12 +13947,128 @@
               {
                 "name": "Core Passive: Stealthy Paws",
                 "type": "Core Passive",
-                "desc": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 60% for 6s."
+                "desc": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 60% for 6s.",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 30% for 6s."
+                  },
+                  {
+                    "label": "Lv. 1",
+                    "text": "When Nekomata's [Dodge Counter] or [Quick Assist] hits an enemy, her DMG increases by 30% for 40s. Repeated triggers refresh the duration.\nNekomata gains 40 Purr Energy upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 Purr Energy every second, up to a maximum of 60. Nekomata's Different Moves Hit the Enemy to restore different amounts of Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, after triggering a [Perfect Dodge], press to consume 30 Purr Energy and activate [Dodge: Vanishing Tail Technique], then press to perform [Dodge Counter: Velvet Claw Pierce] without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold to consume 40 Purr Energy and activate [Dodge Counter: Velvet Claw Pierce].\nUsing [Dodge Counter: Velvet Claw Pierce] grants [Paw Pad Ambush] for 40s. Repeated triggers refresh the duration. While in [Paw Pad Ambush], all of Nekomata's DMG is treated as hitting enemies from behind.\nWhile [Paw Pad Ambush] is active, Nekomata's attacks trigger [Savage Pawprint], dealing an additional instance of Physical DMG equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata additionally restores 20 Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 35% for 6s."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When Nekomata's [Dodge Counter] or [Quick Assist] hits an enemy, her DMG increases by 35% for 40s. Repeated triggers refresh the duration.\nNekomata gains 40 Purr Energy upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 Purr Energy every second, up to a maximum of 60. Nekomata's Different Moves Hit the Enemy to restore different amounts of Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, after triggering a [Perfect Dodge], press to consume 30 Purr Energy and activate [Dodge: Vanishing Tail Technique], then press to perform [Dodge Counter: Velvet Claw Pierce] without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold to consume 40 Purr Energy and activate [Dodge Counter: Velvet Claw Pierce].\nUsing [Dodge Counter: Velvet Claw Pierce] grants [Paw Pad Ambush] for 40s. Repeated triggers refresh the duration. While in [Paw Pad Ambush], all of Nekomata's DMG is treated as hitting enemies from behind.\nWhile [Paw Pad Ambush] is active, Nekomata's attacks trigger [Savage Pawprint], dealing an additional instance of Physical DMG equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata additionally restores 20 Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 40% for 6s."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When Nekomata's [Dodge Counter] or [Quick Assist] hits an enemy, her DMG increases by 40% for 40s. Repeated triggers refresh the duration.\nNekomata gains 40 Purr Energy upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 Purr Energy every second, up to a maximum of 60. Nekomata's Different Moves Hit the Enemy to restore different amounts of Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, after triggering a [Perfect Dodge], press to consume 30 Purr Energy and activate [Dodge: Vanishing Tail Technique], then press to perform [Dodge Counter: Velvet Claw Pierce] without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold to consume 40 Purr Energy and activate [Dodge Counter: Velvet Claw Pierce].\nUsing [Dodge Counter: Velvet Claw Pierce] grants [Paw Pad Ambush] for 40s. Repeated triggers refresh the duration. While in [Paw Pad Ambush], all of Nekomata's DMG is treated as hitting enemies from behind.\nWhile [Paw Pad Ambush] is active, Nekomata's attacks trigger [Savage Pawprint], dealing an additional instance of Physical DMG equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata additionally restores 20 Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 45% for 6s."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When Nekomata's [Dodge Counter] or [Quick Assist] hits an enemy, her DMG increases by 45% for 40s. Repeated triggers refresh the duration.\nNekomata gains 40 Purr Energy upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 Purr Energy every second, up to a maximum of 60. Nekomata's Different Moves Hit the Enemy to restore different amounts of [Purr Energy].\nWhen Nekomata has at least 40 [Purr Energy], after triggering a [Perfect Dodge], press to consume 30 [Purr Energy] and activate [Dodge: Vanishing Tail Technique], then press to perform a [Dodge Counter: Velvet Claw Pierce] without consuming [Purr Energy].\nWhen Nekomata has at least 40 [Purr Energy], hold to consume 40 [Purr Energy] and activate [Dodge Counter: Velvet Claw Pierce].\nUsing [Dodge Counter: Velvet Claw Pierce] grants [Paw Pad Ambush] for 40s. Repeated triggers refresh the duration. While in [Paw Pad Ambush], all DMG dealt by Nekomata is treated as hitting enemies from behind.\nWhile [Paw Pad Ambush] is active, Nekomata's attacks trigger the [Savage Pawprint] effect, dealing an instance of Physical DMG equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata additionally restores 20 [Purr Energy] when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 50% for 6s."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When Nekomata's [Dodge Counter] or [Quick Assist] hits an enemy, her DMG increases by 50% for 40s. Repeated triggers refresh the duration.\nNekomata gains 40 Purr Energy upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 Purr Energy every second, up to a maximum of 60. Nekomata's Different Moves Hit the Enemy to restore different amounts of Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, after triggering a [Perfect Dodge], press to consume 30 Purr Energy and activate [Dodge: Vanishing Tail Technique], then press to perform [Dodge Counter: Velvet Claw Pierce] without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold to consume 40 Purr Energy and activate [Dodge Counter: Velvet Claw Pierce].\nUsing [Dodge Counter: Velvet Claw Pierce] grants [Paw Pad Ambush] for 40s. Repeated triggers refresh the duration. While in [Paw Pad Ambush], all of Nekomata's DMG is treated as hitting enemies from behind.\nWhile [Paw Pad Ambush] is active, Nekomata's attacks trigger [Savage Pawprint], dealing an additional instance of Physical DMG equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata additionally restores 20 Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 55% for 6s."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When Nekomata's [Dodge Counter] or [Quick Assist] hits an enemy, her DMG increases by 55% for 40s. Repeated triggers refresh the duration.\nNekomata gains 40 Purr Energy upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 Purr Energy every second, up to a maximum of 60. Nekomata's Different Moves Hit the Enemy to restore different amounts of Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, after triggering a [Perfect Dodge], press to consume 30 Purr Energy and activate [Dodge: Vanishing Tail Technique], then press to perform [Dodge Counter: Velvet Claw Pierce] without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold to consume 40 Purr Energy and activate [Dodge Counter: Velvet Claw Pierce].\nUsing [Dodge Counter: Velvet Claw Pierce] grants [Paw Pad Ambush] for 40s. Repeated triggers refresh the duration. While in [Paw Pad Ambush], all of Nekomata's DMG is treated as hitting enemies from behind.\nWhile [Paw Pad Ambush] is active, Nekomata's attacks trigger [Savage Pawprint], dealing an additional instance of Physical DMG equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata additionally restores 20 Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 60% for 6s."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When Nekomata's [Dodge Counter] or [Quick Assist] hits an enemy, her DMG increases by 60% for 40s. Repeated triggers refresh the duration.\nNekomata gains 40 Purr Energy upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 Purr Energy every second, up to a maximum of 60. Nekomata's Different Moves Hit the Enemy to restore different amounts of [Purr Energy].\nWhen Nekomata has at least 40 [Purr Energy], after triggering a [Perfect Dodge], press to consume 30 [Purr Energy] and activate [Dodge: Vanishing Tail Technique], then press to perform a [Dodge Counter: Velvet Claw Pierce] without consuming [Purr Energy].\nWhen Nekomata has at least 40 [Purr Energy], hold to consume 40 [Purr Energy] and activate [Dodge Counter: Velvet Claw Pierce].\nUsing [Dodge Counter: Velvet Claw Pierce] grants [Paw Pad Ambush] for 40s. Repeated triggers refresh the duration. While in [Paw Pad Ambush], all DMG dealt by Nekomata is treated as hitting enemies from behind.\nWhile [Paw Pad Ambush] is active, Nekomata's attacks trigger the [Savage Pawprint] effect, dealing an instance of Physical DMG equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata additionally restores 20 [Purr Energy] when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack."
+                  }
+                ]
               },
               {
                 "name": "Additional Ability: Catwalk",
                 "type": "Additional Ability",
-                "desc": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times.",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+                  },
+                  {
+                    "label": "Lv. 1",
+                    "text": "When another character in your squad is a [Assist] character, or shares the same attribute or Faction:\nAfter Nekomata uses [Dodge: Disappearing Tail], or after any squad member inflicts [Assault] on an enemy, Nekomata's [EX Special Attack] and [Dodge Counter] deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When another character in your squad is a [Assist] character, or shares the same attribute or Faction:\nAfter Nekomata uses [Dodge: Disappearing Tail], or after any squad member inflicts [Assault] on an enemy, Nekomata's [EX Special Attack] and [Dodge Counter] deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When another character in your squad is a [Assist] character, or shares the same attribute or Faction:\nAfter Nekomata uses [Dodge: Disappearing Tail], or after any squad member inflicts [Assault] on an enemy, Nekomata's [EX Special Attack] and [Dodge Counter] deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When another character in your squad is a [Assist] character, or shares the same attribute or Faction:\nAfter Nekomata uses [Dodge: Disappearing Tail], or after any squad member inflicts [Assault] on an enemy, Nekomata's [EX Special Attack] and [Dodge Counter] deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When another character in your squad is a [Assist] character, or shares the same attribute or Faction:\nAfter Nekomata uses [Dodge: Disappearing Tail], or after any squad member inflicts [Assault] on an enemy, Nekomata's [EX Special Attack] and [Dodge Counter] deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When another character in your squad is a [Assist] character, or shares the same attribute or Faction:\nAfter Nekomata uses [Dodge: Disappearing Tail], or after any squad member inflicts [Assault] on an enemy, Nekomata's [EX Special Attack] and [Dodge Counter] deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When another character in your squad is a [Assist] character, or shares the same attribute or Faction:\nAfter Nekomata uses [Dodge: Disappearing Tail], or after any squad member inflicts [Assault] on an enemy, Nekomata's [EX Special Attack] and [Dodge Counter] deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+                  }
+                ]
               }
             ]
           },
@@ -9873,7 +15607,7 @@
         "chinese": "https://zh.moegirl.org.cn/\u5f20\u82e5\u745c|Zhang Ruoyu (\u5f20\u82e5\u745c)",
         "korean": "ko:\uc774\uc740\uc870|Lee Eun-jo (\uc774\uc740\uc870)"
       },
-      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle22.webp",
+      "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1211.webp",
       "art": "../../Database/Prydwen/zzz/assets/characters/rina-e34c2ce33c6c.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/rina-c1e5e69afdcd.webp",
       "signatureWeapon": {
@@ -9908,22 +15642,412 @@
               {
                 "name": "Basic Attack: Whack the Dimwit",
                 "type": "Basic",
-                "desc": "Press to activate:\nOrder Drusilla and Anastella to attack up to 4 times, dealing Physical DMG and Electric DMG.\nPerforming other actions with Rina during Drusilla and Anastella's attacks will not interrupt Rina's Basic Attack combo count."
+                "desc": "Press to activate:\nOrder Drusilla and Anastella to attack up to 4 times, dealing Physical DMG and Electric DMG.\nPerforming other actions with Rina during Drusilla and Anastella's attacks will not interrupt Rina's Basic Attack combo count.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "44%",
+                          "48%",
+                          "52%",
+                          "56%",
+                          "60%",
+                          "64%",
+                          "68%",
+                          "72%",
+                          "76%",
+                          "80%",
+                          "84%",
+                          "88%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "111.4%",
+                          "121.6%",
+                          "131.8%",
+                          "142%",
+                          "152.2%",
+                          "162.4%",
+                          "172.6%",
+                          "182.8%",
+                          "193%",
+                          "203.2%",
+                          "213.4%",
+                          "223.6%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "117.1%",
+                          "127.8%",
+                          "138.5%",
+                          "149.2%",
+                          "159.9%",
+                          "170.6%",
+                          "181.3%",
+                          "192%",
+                          "202.7%",
+                          "213.4%",
+                          "224.1%",
+                          "234.8%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "183.9%",
+                          "200.7%",
+                          "217.5%",
+                          "234.3%",
+                          "251.1%",
+                          "267.9%",
+                          "284.7%",
+                          "301.5%",
+                          "318.3%",
+                          "335.1%",
+                          "351.9%",
+                          "368.7%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "24.5%",
+                          "25.7%",
+                          "26.9%",
+                          "28.1%",
+                          "29.3%",
+                          "30.5%",
+                          "31.7%",
+                          "32.9%",
+                          "34.1%",
+                          "35.3%",
+                          "36.5%",
+                          "37.7%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "88.4%",
+                          "92.5%",
+                          "96.6%",
+                          "100.7%",
+                          "104.8%",
+                          "108.9%",
+                          "113%",
+                          "117.1%",
+                          "121.2%",
+                          "125.3%",
+                          "129.4%",
+                          "133.5%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "96.6%",
+                          "101%",
+                          "105.4%",
+                          "109.8%",
+                          "114.2%",
+                          "118.6%",
+                          "123%",
+                          "127.4%",
+                          "131.8%",
+                          "136.2%",
+                          "140.6%",
+                          "145%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "146.8%",
+                          "153.5%",
+                          "160.2%",
+                          "166.9%",
+                          "173.6%",
+                          "180.3%",
+                          "187%",
+                          "193.7%",
+                          "200.4%",
+                          "207.1%",
+                          "213.8%",
+                          "220.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Basic Attack: Shoo the Fool",
                 "type": "Basic",
-                "desc": "Hold or to activate:\nCalls back Drusilla and Anastella to swing them around for a ranged attack, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill."
+                "desc": "Hold or to activate:\nCalls back Drusilla and Anastella to swing them around for a ranged attack, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "315.1%",
+                          "343.8%",
+                          "372.5%",
+                          "401.2%",
+                          "429.9%",
+                          "458.6%",
+                          "487.3%",
+                          "516%",
+                          "544.7%",
+                          "573.4%",
+                          "602.1%",
+                          "630.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "315.1%",
+                          "329.5%",
+                          "343.9%",
+                          "358.3%",
+                          "372.7%",
+                          "387.1%",
+                          "401.5%",
+                          "415.9%",
+                          "430.3%",
+                          "444.7%",
+                          "459.1%",
+                          "473.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Morning Cleanup",
                 "type": "Basic",
-                "desc": "After Rina uses her [EX Special Attack], [Chain Attack], or [Ultimate], within 13s, Drusilla or Anastella attacks enemies once every 2.5s, dealing Electric DMG and gaining 1 [Fright], up to 6 [Fright] max. After using this skill, Drusilla and Anastella's exit countdown resets."
+                "desc": "After Rina uses her [EX Special Attack], [Chain Attack], or [Ultimate], within 13s, Drusilla or Anastella attacks enemies once every 2.5s, dealing Electric DMG and gaining 1 [Fright], up to 6 [Fright] max. After using this skill, Drusilla and Anastella's exit countdown resets.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "52.5%",
+                          "57.3%",
+                          "62.1%",
+                          "66.9%",
+                          "71.7%",
+                          "76.5%",
+                          "81.3%",
+                          "86.1%",
+                          "90.9%",
+                          "95.7%",
+                          "100.5%",
+                          "105.3%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "52.5%",
+                          "57.3%",
+                          "62.1%",
+                          "66.9%",
+                          "71.7%",
+                          "76.5%",
+                          "81.3%",
+                          "86.1%",
+                          "90.9%",
+                          "95.7%",
+                          "100.5%",
+                          "105.3%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "52.5%",
+                          "57.3%",
+                          "62.1%",
+                          "66.9%",
+                          "71.7%",
+                          "76.5%",
+                          "81.3%",
+                          "86.1%",
+                          "90.9%",
+                          "95.7%",
+                          "100.5%",
+                          "105.3%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Midnight Cleanup",
                 "type": "Basic",
-                "desc": "When [Fright] reaches 6, the next time Drusilla or Anastella uses [Morning Cleanup], it will consume all [Fright] and trigger [Midnight Cleanup] instead; after using this skill, reset Drusilla and Anastella's exit countdown."
+                "desc": "When [Fright] reaches 6, the next time Drusilla or Anastella uses [Morning Cleanup], it will consume all [Fright] and trigger [Midnight Cleanup] instead; after using this skill, reset Drusilla and Anastella's exit countdown.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "210%",
+                          "229.1%",
+                          "248.2%",
+                          "267.3%",
+                          "286.4%",
+                          "305.5%",
+                          "324.6%",
+                          "343.7%",
+                          "362.8%",
+                          "381.9%",
+                          "401%",
+                          "420.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge: Dress Adjustment",
@@ -9933,17 +16057,182 @@
               {
                 "name": "Dash Attack: Sudden Surprise",
                 "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nOrder Drusilla and Anastella to execute a piercing attack, dealing Physical DMG."
+                "desc": "Press during a dodge to activate:\nOrder Drusilla and Anastella to execute a piercing attack, dealing Physical DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "105%",
+                          "114.6%",
+                          "124.2%",
+                          "133.8%",
+                          "143.4%",
+                          "153%",
+                          "162.6%",
+                          "172.2%",
+                          "181.8%",
+                          "191.4%",
+                          "201%",
+                          "210.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "52.5%",
+                          "54.9%",
+                          "57.3%",
+                          "59.7%",
+                          "62.1%",
+                          "64.5%",
+                          "66.9%",
+                          "69.3%",
+                          "71.7%",
+                          "74.1%",
+                          "76.5%",
+                          "78.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge Counter: Bangboo Callback",
                 "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nOrder Drusilla and Anastella to spin forward and trigger an explosion, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "Press during a Perfect Dodge to activate:\nOrder Drusilla and Anastella to spin forward and trigger an explosion, dealing Electric DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "227.6%",
+                          "248.3%",
+                          "269%",
+                          "289.7%",
+                          "310.4%",
+                          "331.1%",
+                          "351.8%",
+                          "372.5%",
+                          "393.2%",
+                          "413.9%",
+                          "434.6%",
+                          "455.3%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "227.6%",
+                          "238%",
+                          "248.4%",
+                          "258.8%",
+                          "269.2%",
+                          "279.6%",
+                          "290%",
+                          "300.4%",
+                          "310.8%",
+                          "321.2%",
+                          "331.6%",
+                          "342%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Quick Assist: Duple Meter Allemande",
                 "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nOrder Drusilla and Anastella to spin forward and trigger an explosion, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "When the active character is launched, press to activate:\nOrder Drusilla and Anastella to spin forward and trigger an explosion, dealing Electric DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "122.6%",
+                          "133.8%",
+                          "145%",
+                          "156.2%",
+                          "167.4%",
+                          "178.6%",
+                          "189.8%",
+                          "201%",
+                          "212.2%",
+                          "223.4%",
+                          "234.6%",
+                          "245.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "122.6%",
+                          "128.2%",
+                          "133.8%",
+                          "139.4%",
+                          "145%",
+                          "150.6%",
+                          "156.2%",
+                          "161.8%",
+                          "167.4%",
+                          "173%",
+                          "178.6%",
+                          "184.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Evasive Assist: Triple Meter Courante",
@@ -9953,27 +16242,302 @@
               {
                 "name": "Assist Follow-Up: Quadruple Meter Gavotte",
                 "type": "Assist",
-                "desc": "Press after an Evasive Assist to activate:\nOrder Drusilla and Anastella to push forward and generate an electrical vortex, dealing Electric DMG;\nCan quickly chain into [Enhanced Special: Fool Vanishing Magic] during this skill;\nCharacter is invulnerable while using this skill."
+                "desc": "Press after an Evasive Assist to activate:\nOrder Drusilla and Anastella to push forward and generate an electrical vortex, dealing Electric DMG;\nCan quickly chain into [Enhanced Special: Fool Vanishing Magic] during this skill;\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "349.4%",
+                          "381.2%",
+                          "413%",
+                          "444.8%",
+                          "476.6%",
+                          "508.4%",
+                          "540.2%",
+                          "572%",
+                          "603.8%",
+                          "635.6%",
+                          "667.4%",
+                          "699.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "303.6%",
+                          "317.4%",
+                          "331.2%",
+                          "345%",
+                          "358.8%",
+                          "372.6%",
+                          "386.4%",
+                          "400.2%",
+                          "414%",
+                          "427.8%",
+                          "441.6%",
+                          "455.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Special Attack: Beat the Blockhead",
                 "type": "Special",
-                "desc": "Press to activate:\nOrder Anastella to execute a downward smash, dealing Electric DMG\nAnti-Interrupt level is increased while using this skill."
+                "desc": "Press to activate:\nOrder Anastella to execute a downward smash, dealing Electric DMG\nAnti-Interrupt level is increased while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "61.3%",
+                          "66.9%",
+                          "72.5%",
+                          "78.1%",
+                          "83.7%",
+                          "89.3%",
+                          "94.9%",
+                          "100.5%",
+                          "106.1%",
+                          "111.7%",
+                          "117.3%",
+                          "122.9%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "61.3%",
+                          "64.1%",
+                          "66.9%",
+                          "69.7%",
+                          "72.5%",
+                          "75.3%",
+                          "78.1%",
+                          "80.9%",
+                          "83.7%",
+                          "86.5%",
+                          "89.3%",
+                          "92.1%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "EX Special Attack: Dimwit Disappearing Trick",
                 "type": "Special",
-                "desc": "With enough Energy, press to activate:\nOrder Drusilla and Anastella to execute multiple downward smashes, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\nA [Quick Assist] is triggered after using this skill."
+                "desc": "With enough Energy, press to activate:\nOrder Drusilla and Anastella to execute multiple downward smashes, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\nA [Quick Assist] is triggered after using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "546%",
+                          "595.7%",
+                          "645.4%",
+                          "695.1%",
+                          "744.8%",
+                          "794.5%",
+                          "844.2%",
+                          "893.9%",
+                          "943.6%",
+                          "993.3%",
+                          "1043%",
+                          "1092.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "444.5%",
+                          "464.8%",
+                          "485.1%",
+                          "505.4%",
+                          "525.7%",
+                          "546%",
+                          "566.3%",
+                          "586.6%",
+                          "606.9%",
+                          "627.2%",
+                          "647.5%",
+                          "667.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Chain Attack: Code of Conduct",
                 "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nOrder Drusilla and Anastella to push forward and generate a ball-shaped electrical field that deals massive Electric DMG.\nDuring this skill, Drusilla and Anastella are unable to perform Basic Attacks, Dash Attacks, Special Attacks, and EX Special Attacks, but can be recalled to Rina's side through Basic Attack: Shoo the Fool.\nCharacter is invulnerable while using this skill.\nA Quick Assist is triggered when this skill hits an enemy."
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nOrder Drusilla and Anastella to push forward and generate a ball-shaped electrical field that deals massive Electric DMG.\nDuring this skill, Drusilla and Anastella are unable to perform Basic Attacks, Dash Attacks, Special Attacks, and EX Special Attacks, but can be recalled to Rina's side through Basic Attack: Shoo the Fool.\nCharacter is invulnerable while using this skill.\nA Quick Assist is triggered when this skill hits an enemy.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "1013%",
+                          "1105.1%",
+                          "1197.2%",
+                          "1289.3%",
+                          "1381.4%",
+                          "1473.5%",
+                          "1565.6%",
+                          "1657.7%",
+                          "1749.8%",
+                          "1841.9%",
+                          "1934%",
+                          "2026.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "175.1%",
+                          "183.1%",
+                          "191.1%",
+                          "199.1%",
+                          "207.1%",
+                          "215.1%",
+                          "223.1%",
+                          "231.1%",
+                          "239.1%",
+                          "247.1%",
+                          "255.1%",
+                          "263.1%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Ultimate: The Queen's Attendants",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nOrder Drusilla and Anastella to spin forward, dealing massive Electric DMG.\nDuring this skill, Drusilla and Anastella are unable to respond to [Basic Attack], [Dash Attack], [Special Attack], or [EX Special Attack] commands, but can be recalled to Rina's side through [Basic Attack: Shoo, Fool!].\nUpon activating this skill, the other squad members recover 10 Energy. The next character to switch in recovers an additional 20 Energy.\nCharacter is invulnerable while using this skill.\nAfter using this skill, a [Quick Assist] is triggered."
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nOrder Drusilla and Anastella to spin forward, dealing massive Electric DMG.\nDuring this skill, Drusilla and Anastella are unable to respond to [Basic Attack], [Dash Attack], [Special Attack], or [EX Special Attack] commands, but can be recalled to Rina's side through [Basic Attack: Shoo, Fool!].\nUpon activating this skill, the other squad members recover 10 Energy. The next character to switch in recovers an additional 20 Energy.\nCharacter is invulnerable while using this skill.\nAfter using this skill, a [Quick Assist] is triggered.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "2116.7%",
+                          "2309.2%",
+                          "2501.7%",
+                          "2694.2%",
+                          "2886.7%",
+                          "3079.2%",
+                          "3271.7%",
+                          "3464.2%",
+                          "3656.7%",
+                          "3849.2%",
+                          "4041.7%",
+                          "4234.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "113.8%",
+                          "119%",
+                          "124.2%",
+                          "129.4%",
+                          "134.6%",
+                          "139.8%",
+                          "145%",
+                          "150.2%",
+                          "155.4%",
+                          "160.6%",
+                          "165.8%",
+                          "171%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -9983,12 +16547,43 @@
               {
                 "name": "Core Passive: Mini Destruction Partner",
                 "type": "Core Passive",
-                "desc": "When ordering Drusilla or Anastella to attack, other squad members' PEN Ratio increases together with Rina's, by 25% of Rina's PEN Ratio + 12%, up to 30%. The effect ends when both Drusilla and Anastella return to Rina."
+                "desc": "When ordering Drusilla or Anastella to attack, other squad members' PEN Ratio increases together with Rina's, by 25% of Rina's PEN Ratio + 12%, up to 30%. The effect ends when both Drusilla and Anastella return to Rina.",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When ordering Drusilla or Anastella to attack, other squad members' PEN Ratio increases together with Rina's, by 25% of Rina's PEN Ratio + 6%, up to 30%. The effect ends when both Drusilla and Anastella return to Rina."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When ordering Drusilla or Anastella to attack, other squad members' PEN Ratio increases together with Rina's, by 25% of Rina's PEN Ratio + 7.5%, up to 30%. The effect ends when both Drusilla and Anastella return to Rina."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When ordering Drusilla or Anastella to attack, other squad members' PEN Ratio increases together with Rina's, by 25% of Rina's PEN Ratio + 9%, up to 30%. The effect ends when both Drusilla and Anastella return to Rina."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When ordering Drusilla or Anastella to attack, other squad members' PEN Ratio increases together with Rina's, by 25% of Rina's PEN Ratio + 10.2%, up to 30%. The effect ends when both Drusilla and Anastella return to Rina."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When ordering Drusilla or Anastella to attack, other squad members' PEN Ratio increases together with Rina's, by 25% of Rina's PEN Ratio + 10.8%, up to 30%. The effect ends when both Drusilla and Anastella return to Rina."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When ordering Drusilla or Anastella to attack, other squad members' PEN Ratio increases together with Rina's, by 25% of Rina's PEN Ratio + 11.4%, up to 30%. The effect ends when both Drusilla and Anastella return to Rina."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When ordering Drusilla or Anastella to attack, other squad members' PEN Ratio increases together with Rina's, by 25% of Rina's PEN Ratio + 12%, up to 30%. The effect ends when both Drusilla and Anastella return to Rina."
+                  }
+                ]
               },
               {
                 "name": "Additional Ability: Banquet of Perfection",
                 "type": "Additional Ability",
-                "desc": "When another character in your squad shares the same Attribute or Faction:\nIncreases the duration of Shock inflicted on enemies by any character by 3s. When Shocked enemies are on the field, all squad members' Electric DMG increases by 10%."
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nIncreases the duration of Shock inflicted on enemies by any character by 3s. When Shocked enemies are on the field, all squad members' Electric DMG increases by 10%.",
+                "levels": []
               }
             ]
           },
@@ -11525,7 +18120,7 @@
         "chinese": "https://zh.moegirl.org.cn/\u738b\u6653\u5f64|Wang Xiaotong (\u738b\u6653\u5f64)",
         "korean": "ko:\uae40\uc724\ucc44|Kim Yun-chae (\uae40\uc724\ucc44)"
       },
-      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
+      "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1571.webp",
       "iconZoom": 1.24,
       "art": "../../Database/Prydwen/zzz/assets/characters/norma-f4dbe2ca9e48.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
@@ -11555,7 +18150,223 @@
               {
                 "name": "Basic Attack: Engineering Insurance",
                 "type": "Basic",
-                "desc": "Press to activate:\nPerforms up to four attacks forward, dealing Fire DMG."
+                "desc": "Press to activate:\nPerforms up to four attacks forward, dealing Fire DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "26.1%",
+                          "28.5%",
+                          "30.9%",
+                          "33.3%",
+                          "35.7%",
+                          "38.1%",
+                          "40.5%",
+                          "42.9%",
+                          "45.3%",
+                          "47.7%",
+                          "50.1%",
+                          "52.5%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "37.8%",
+                          "41.3%",
+                          "44.8%",
+                          "48.3%",
+                          "51.8%",
+                          "55.3%",
+                          "58.8%",
+                          "62.3%",
+                          "65.8%",
+                          "69.3%",
+                          "72.8%",
+                          "76.3%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "73.3%",
+                          "80%",
+                          "86.7%",
+                          "93.4%",
+                          "100.1%",
+                          "106.8%",
+                          "113.5%",
+                          "120.2%",
+                          "126.9%",
+                          "133.6%",
+                          "140.3%",
+                          "147%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "140.9%",
+                          "153.8%",
+                          "166.7%",
+                          "179.6%",
+                          "192.5%",
+                          "205.4%",
+                          "218.3%",
+                          "231.2%",
+                          "244.1%",
+                          "257%",
+                          "269.9%",
+                          "282.8%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "15.6%",
+                          "16.4%",
+                          "17.2%",
+                          "18%",
+                          "18.8%",
+                          "19.6%",
+                          "20.4%",
+                          "21.2%",
+                          "22%",
+                          "22.8%",
+                          "23.6%",
+                          "24.4%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "20.3%",
+                          "21.3%",
+                          "22.3%",
+                          "23.3%",
+                          "24.3%",
+                          "25.3%",
+                          "26.3%",
+                          "27.3%",
+                          "28.3%",
+                          "29.3%",
+                          "30.3%",
+                          "31.3%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "37.8%",
+                          "39.6%",
+                          "41.4%",
+                          "43.2%",
+                          "45%",
+                          "46.8%",
+                          "48.6%",
+                          "50.4%",
+                          "52.2%",
+                          "54%",
+                          "55.8%",
+                          "57.6%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "88.3%",
+                          "92.4%",
+                          "96.5%",
+                          "100.6%",
+                          "104.7%",
+                          "108.8%",
+                          "112.9%",
+                          "117%",
+                          "121.1%",
+                          "125.2%",
+                          "129.3%",
+                          "133.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Hat Trick",
+                "type": "Basic",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "56.9%",
+                          "62.1%",
+                          "67.3%",
+                          "72.5%",
+                          "77.7%",
+                          "82.9%",
+                          "88.1%",
+                          "93.3%",
+                          "98.5%",
+                          "103.7%",
+                          "108.9%",
+                          "114.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "34%",
+                          "35.6%",
+                          "37.2%",
+                          "38.8%",
+                          "40.4%",
+                          "42%",
+                          "43.6%",
+                          "45.2%",
+                          "46.8%",
+                          "48.4%",
+                          "50%",
+                          "51.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge: Development Protocols",
@@ -11565,37 +18376,879 @@
               {
                 "name": "Dash Attack: Deadline Rush",
                 "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nSpins while firing at nearby enemies, dealing Fire DMG."
+                "desc": "Press during a dodge to activate:\nSpins while firing at nearby enemies, dealing Fire DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "82.3%",
+                          "89.8%",
+                          "97.3%",
+                          "104.8%",
+                          "112.3%",
+                          "119.8%",
+                          "127.3%",
+                          "134.8%",
+                          "142.3%",
+                          "149.8%",
+                          "157.3%",
+                          "164.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "34.9%",
+                          "36.5%",
+                          "38.1%",
+                          "39.7%",
+                          "41.3%",
+                          "42.9%",
+                          "44.5%",
+                          "46.1%",
+                          "47.7%",
+                          "49.3%",
+                          "50.9%",
+                          "52.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Dodge Counter: Compliance Testing",
                 "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nCommands the Rumble Drill to continuously drill the target, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "Press during a Perfect Dodge to activate:\nCommands the Rumble Drill to continuously drill the target, dealing Fire DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "313.1%",
+                          "341.6%",
+                          "370.1%",
+                          "398.6%",
+                          "427.1%",
+                          "455.6%",
+                          "484.1%",
+                          "512.6%",
+                          "541.1%",
+                          "569.6%",
+                          "598.1%",
+                          "626.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "229.2%",
+                          "239.7%",
+                          "250.2%",
+                          "260.7%",
+                          "271.2%",
+                          "281.7%",
+                          "292.2%",
+                          "302.7%",
+                          "313.2%",
+                          "323.7%",
+                          "334.2%",
+                          "344.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Quick Assist: Roaring Backup",
                 "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nCommands the Rumble Drill to continuously attack the target, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "When the active character is launched, press to activate:\nCommands the Rumble Drill to continuously attack the target, dealing Fire DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "70.5%",
+                          "77%",
+                          "83.5%",
+                          "90%",
+                          "96.5%",
+                          "103%",
+                          "109.5%",
+                          "116%",
+                          "122.5%",
+                          "129%",
+                          "135.5%",
+                          "142%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "59.6%",
+                          "62.4%",
+                          "65.2%",
+                          "68%",
+                          "70.8%",
+                          "73.6%",
+                          "76.4%",
+                          "79.2%",
+                          "82%",
+                          "84.8%",
+                          "87.6%",
+                          "90.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Defensive Assist: Technological Bastion",
                 "type": "Assist",
-                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "271.3%",
+                          "283.7%",
+                          "296.1%",
+                          "308.5%",
+                          "320.9%",
+                          "333.3%",
+                          "345.7%",
+                          "358.1%",
+                          "370.5%",
+                          "382.9%",
+                          "395.3%",
+                          "407.7%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "166.8%",
+                          "174.4%",
+                          "182%",
+                          "189.6%",
+                          "197.2%",
+                          "204.8%",
+                          "212.4%",
+                          "220%",
+                          "227.6%",
+                          "235.2%",
+                          "242.8%",
+                          "250.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Assist Follow-Up: Technological Suppression",
                 "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nUnleashes a series of attacks, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "Press after a Defensive Assist to activate:\nUnleashes a series of attacks, dealing Fire DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "450.8%",
+                          "491.8%",
+                          "532.8%",
+                          "573.8%",
+                          "614.8%",
+                          "655.8%",
+                          "696.8%",
+                          "737.8%",
+                          "778.8%",
+                          "819.8%",
+                          "860.8%",
+                          "901.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "332.4%",
+                          "347.6%",
+                          "362.8%",
+                          "378%",
+                          "393.2%",
+                          "408.4%",
+                          "423.6%",
+                          "438.8%",
+                          "454%",
+                          "469.2%",
+                          "484.4%",
+                          "499.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Special Attack: Thermal Shutdown",
                 "type": "Special",
-                "desc": "Press to activate:\nBombards enemies, dealing Fire DMG."
+                "desc": "Press to activate:\nBombards enemies, dealing Fire DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "15%",
+                          "16.4%",
+                          "17.8%",
+                          "19.2%",
+                          "20.6%",
+                          "22%",
+                          "23.4%",
+                          "24.8%",
+                          "26.2%",
+                          "27.6%",
+                          "29%",
+                          "30.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "16.9%",
+                          "17.7%",
+                          "18.5%",
+                          "19.3%",
+                          "20.1%",
+                          "20.9%",
+                          "21.7%",
+                          "22.5%",
+                          "23.3%",
+                          "24.1%",
+                          "24.9%",
+                          "25.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: En-Nah Barrage",
+                "type": "Special",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Shot DMG Multiplier",
+                        "values": [
+                          "205.4%",
+                          "224.1%",
+                          "242.8%",
+                          "261.5%",
+                          "280.2%",
+                          "298.9%",
+                          "317.6%",
+                          "336.3%",
+                          "355%",
+                          "373.7%",
+                          "392.4%",
+                          "411.1%"
+                        ]
+                      },
+                      {
+                        "label": "Shot Daze Multiplier",
+                        "values": [
+                          "143.9%",
+                          "150.5%",
+                          "157.1%",
+                          "163.7%",
+                          "170.3%",
+                          "176.9%",
+                          "183.5%",
+                          "190.1%",
+                          "196.7%",
+                          "203.3%",
+                          "209.9%",
+                          "216.5%"
+                        ]
+                      },
+                      {
+                        "label": "Armor-Piercing Warhead DMG Multiplier",
+                        "values": [
+                          "308%",
+                          "336%",
+                          "364%",
+                          "392%",
+                          "420%",
+                          "448%",
+                          "476%",
+                          "504%",
+                          "532%",
+                          "560%",
+                          "588%",
+                          "616%"
+                        ]
+                      },
+                      {
+                        "label": "Armor-Piercing Warhead Daze Multiplier",
+                        "values": [
+                          "215.8%",
+                          "225.7%",
+                          "235.6%",
+                          "245.5%",
+                          "255.4%",
+                          "265.3%",
+                          "275.2%",
+                          "285.1%",
+                          "295%",
+                          "304.9%",
+                          "314.8%",
+                          "324.7%"
+                        ]
+                      },
+                      {
+                        "label": "High-Explosive Warhead DMG Multiplier",
+                        "values": [
+                          "341.4%",
+                          "372.5%",
+                          "403.6%",
+                          "434.7%",
+                          "465.8%",
+                          "496.9%",
+                          "528%",
+                          "559.1%",
+                          "590.2%",
+                          "621.3%",
+                          "652.4%",
+                          "683.5%"
+                        ]
+                      },
+                      {
+                        "label": "High-Explosive Warhead Daze Multiplier",
+                        "values": [
+                          "172.7%",
+                          "180.6%",
+                          "188.5%",
+                          "196.4%",
+                          "204.3%",
+                          "212.2%",
+                          "220.1%",
+                          "228%",
+                          "235.9%",
+                          "243.8%",
+                          "251.7%",
+                          "259.6%"
+                        ]
+                      },
+                      {
+                        "label": "Extended Shot DMG Multiplier Per Sec",
+                        "values": [
+                          "130.6%",
+                          "142.5%",
+                          "154.4%",
+                          "166.3%",
+                          "178.2%",
+                          "190.1%",
+                          "202%",
+                          "213.9%",
+                          "225.8%",
+                          "237.7%",
+                          "249.6%",
+                          "261.5%"
+                        ]
+                      },
+                      {
+                        "label": "Extended Shot Daze Multiplier Per Sec",
+                        "values": [
+                          "93.9%",
+                          "98.2%",
+                          "102.5%",
+                          "106.8%",
+                          "111.1%",
+                          "115.4%",
+                          "119.7%",
+                          "124%",
+                          "128.3%",
+                          "132.6%",
+                          "136.9%",
+                          "141.2%"
+                        ]
+                      },
+                      {
+                        "label": "Extended Shot Armor-Piercing Warhead DMG Multiplier Per Sec",
+                        "values": [
+                          "195.9%",
+                          "213.8%",
+                          "231.7%",
+                          "249.6%",
+                          "267.5%",
+                          "285.4%",
+                          "303.3%",
+                          "321.2%",
+                          "339.1%",
+                          "357%",
+                          "374.9%",
+                          "392.8%"
+                        ]
+                      },
+                      {
+                        "label": "Extended Shot Armor-Piercing Warhead Daze Multiplier Per Sec",
+                        "values": [
+                          "140.9%",
+                          "147.4%",
+                          "153.9%",
+                          "160.4%",
+                          "166.9%",
+                          "173.4%",
+                          "179.9%",
+                          "186.4%",
+                          "192.9%",
+                          "199.4%",
+                          "205.9%",
+                          "212.4%"
+                        ]
+                      },
+                      {
+                        "label": "Extended Shot High-Explosive Warhead DMG Multiplier Per Sec",
+                        "values": [
+                          "216.7%",
+                          "236.4%",
+                          "256.1%",
+                          "275.8%",
+                          "295.5%",
+                          "315.2%",
+                          "334.9%",
+                          "354.6%",
+                          "374.3%",
+                          "394%",
+                          "413.7%",
+                          "433.4%"
+                        ]
+                      },
+                      {
+                        "label": "Extended Shot High-Explosive Warhead Daze Multiplier Per Sec",
+                        "values": [
+                          "112.7%",
+                          "117.9%",
+                          "123.1%",
+                          "128.3%",
+                          "133.5%",
+                          "138.7%",
+                          "143.9%",
+                          "149.1%",
+                          "154.3%",
+                          "159.5%",
+                          "164.7%",
+                          "169.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Target Practice",
+                "type": "Special",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "195%",
+                          "212.8%",
+                          "230.6%",
+                          "248.4%",
+                          "266.2%",
+                          "284%",
+                          "301.8%",
+                          "319.6%",
+                          "337.4%",
+                          "355.2%",
+                          "373%",
+                          "390.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "151.3%",
+                          "158.2%",
+                          "165.1%",
+                          "172%",
+                          "178.9%",
+                          "185.8%",
+                          "192.7%",
+                          "199.6%",
+                          "206.5%",
+                          "213.4%",
+                          "220.3%",
+                          "227.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Explosive Experiment",
+                "type": "Special",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Additional Armor-Piercing Warhead DMG Multiplier",
+                        "values": [
+                          "82.8%",
+                          "90.4%",
+                          "98%",
+                          "105.6%",
+                          "113.2%",
+                          "120.8%",
+                          "128.4%",
+                          "136%",
+                          "143.6%",
+                          "151.2%",
+                          "158.8%",
+                          "166.4%"
+                        ]
+                      },
+                      {
+                        "label": "Additional Armor-Piercing Warhead Daze Multiplier",
+                        "values": [
+                          "35%",
+                          "36.6%",
+                          "38.2%",
+                          "39.8%",
+                          "41.4%",
+                          "43%",
+                          "44.6%",
+                          "46.2%",
+                          "47.8%",
+                          "49.4%",
+                          "51%",
+                          "52.6%"
+                        ]
+                      },
+                      {
+                        "label": "Additional High-Explosive Warhead DMG Multiplier",
+                        "values": [
+                          "92.3%",
+                          "100.7%",
+                          "109.1%",
+                          "117.5%",
+                          "125.9%",
+                          "134.3%",
+                          "142.7%",
+                          "151.1%",
+                          "159.5%",
+                          "167.9%",
+                          "176.3%",
+                          "184.7%"
+                        ]
+                      },
+                      {
+                        "label": "Additional High-Explosive Warhead Daze Multiplier",
+                        "values": [
+                          "28%",
+                          "29.3%",
+                          "30.6%",
+                          "31.9%",
+                          "33.2%",
+                          "34.5%",
+                          "35.8%",
+                          "37.1%",
+                          "38.4%",
+                          "39.7%",
+                          "41%",
+                          "42.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Chain Attack: Impact Drill",
                 "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nCommands a swarm of Rumble Drills to deal multiple hits, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nCommands a swarm of Rumble Drills to deal multiple hits, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "752.7%",
+                          "821.2%",
+                          "889.7%",
+                          "958.2%",
+                          "1026.7%",
+                          "1095.2%",
+                          "1163.7%",
+                          "1232.2%",
+                          "1300.7%",
+                          "1369.2%",
+                          "1437.7%",
+                          "1506.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "198%",
+                          "207%",
+                          "216%",
+                          "225%",
+                          "234%",
+                          "243%",
+                          "252%",
+                          "261%",
+                          "270%",
+                          "279%",
+                          "288%",
+                          "297%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ultimate: Doctrine of Superior Firepower",
+                "type": "Chain",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "1936.5%",
+                          "2112.6%",
+                          "2288.7%",
+                          "2464.8%",
+                          "2640.9%",
+                          "2817%",
+                          "2993.1%",
+                          "3169.2%",
+                          "3345.3%",
+                          "3521.4%",
+                          "3697.5%",
+                          "3873.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "792.5%",
+                          "828.6%",
+                          "864.7%",
+                          "900.8%",
+                          "936.9%",
+                          "973%",
+                          "1009.1%",
+                          "1045.2%",
+                          "1081.3%",
+                          "1117.4%",
+                          "1153.5%",
+                          "1189.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -11604,11 +19257,13 @@
             "entries": [
               {
                 "name": "Core Passive: Precise Guidance",
-                "type": "Core Passive"
+                "type": "Core Passive",
+                "levels": []
               },
               {
                 "name": "Additional Ability: Advantage in Numbers",
-                "type": "Additional Ability"
+                "type": "Additional Ability",
+                "levels": []
               }
             ]
           },

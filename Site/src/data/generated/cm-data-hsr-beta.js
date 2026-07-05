@@ -78,19 +78,185 @@
                 "name": "Syllabus: Pop Quiz",
                 "type": "Basic ATK",
                 "desc": "Deals Physical DMG equal to 140% of Evanescia's ATK to one designated enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Physical DMG equal to 50% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Physical DMG equal to 60% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Physical DMG equal to 70% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Physical DMG equal to 80% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Physical DMG equal to 90% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Physical DMG equal to 100% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Physical DMG equal to 110% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Physical DMG equal to 120% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Physical DMG equal to 130% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Physical DMG equal to 140% of Evanescia's ATK to one designated enemy."
+                  }
+                ]
               },
               {
                 "name": "Discipline: Final Verdict",
                 "type": "Skill",
                 "desc": "Deals Physical DMG equal to 375% of Evanescia's ATK to one designated enemy and Physical DMG equal to 188% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Physical DMG equal to 150% of Evanescia's ATK to one designated enemy and Physical DMG equal to 75% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Physical DMG equal to 165% of Evanescia's ATK to one designated enemy and Physical DMG equal to 82.5% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Physical DMG equal to 180% of Evanescia's ATK to one designated enemy and Physical DMG equal to 90% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Physical DMG equal to 195% of Evanescia's ATK to one designated enemy and Physical DMG equal to 97.5% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Physical DMG equal to 210% of Evanescia's ATK to one designated enemy and Physical DMG equal to 105% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Physical DMG equal to 225% of Evanescia's ATK to one designated enemy and Physical DMG equal to 113% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Physical DMG equal to 244% of Evanescia's ATK to one designated enemy and Physical DMG equal to 122% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Physical DMG equal to 263% of Evanescia's ATK to one designated enemy and Physical DMG equal to 131% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Physical DMG equal to 281% of Evanescia's ATK to one designated enemy and Physical DMG equal to 141% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Physical DMG equal to 300% of Evanescia's ATK to one designated enemy and Physical DMG equal to 150% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Physical DMG equal to 315% of Evanescia's ATK to one designated enemy and Physical DMG equal to 158% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Physical DMG equal to 330% of Evanescia's ATK to one designated enemy and Physical DMG equal to 165% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Physical DMG equal to 345% of Evanescia's ATK to one designated enemy and Physical DMG equal to 173% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Physical DMG equal to 360% of Evanescia's ATK to one designated enemy and Physical DMG equal to 180% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Physical DMG equal to 375% of Evanescia's ATK to one designated enemy and Physical DMG equal to 188% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  }
+                ]
               },
               {
                 "name": "Swordsong: Absolution Denied",
                 "type": "Ultimate",
                 "desc": "Deals Physical DMG equal to 200% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 144% of Evanescia's ATK to one random enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Physical DMG equal to 80% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 72% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Physical DMG equal to 88% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 76.8% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Physical DMG equal to 96% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 81.6% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Physical DMG equal to 104% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 86.4% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Physical DMG equal to 112% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 91.2% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Physical DMG equal to 120% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 96% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Physical DMG equal to 130% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 102% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Physical DMG equal to 140% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 108% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Physical DMG equal to 150% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 114% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Physical DMG equal to 160% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 120% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Physical DMG equal to 168% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 125% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Physical DMG equal to 176% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 130% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Physical DMG equal to 184% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 134% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Physical DMG equal to 192% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 139% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Physical DMG equal to 200% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 144% of Evanescia's ATK to one random enemy."
+                  }
+                ]
               },
               {
                 "name": "Petalfall: Floral Reminiscence",
@@ -107,13 +273,137 @@
                 "name": "Youth: Halcyon Evermore",
                 "type": "Talent",
                 "desc": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 125% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 20% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 30% Physical Elation DMG to all enemies and also deals 35% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 31.3% Physical Elation DMG to all enemies.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 50% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 8% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 12% Physical Elation DMG to all enemies and also deals 14% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 12.5% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 55% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 8.8% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 13.2% Physical Elation DMG to all enemies and also deals 15.4% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 13.8% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 60% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 9.6% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 14.4% Physical Elation DMG to all enemies and also deals 16.8% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 15% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 65% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 10.4% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 15.6% Physical Elation DMG to all enemies and also deals 18.2% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 16.3% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 70% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 11.2% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 16.8% Physical Elation DMG to all enemies and also deals 19.6% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 17.5% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 75% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 12% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 18% Physical Elation DMG to all enemies and also deals 21% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 18.8% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 81.3% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 13% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 19.5% Physical Elation DMG to all enemies and also deals 22.8% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 20.3% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 87.5% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 14% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 21% Physical Elation DMG to all enemies and also deals 24.5% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 21.9% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 93.8% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 15% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 22.5% Physical Elation DMG to all enemies and also deals 26.3% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 23.4% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 100% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 16% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 24% Physical Elation DMG to all enemies and also deals 28% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 25% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 105% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 16.8% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 25.2% Physical Elation DMG to all enemies and also deals 29.4% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 26.3% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 110% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 17.6% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 26.4% Physical Elation DMG to all enemies and also deals 30.8% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 27.5% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 115% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 18.4% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 27.6% Physical Elation DMG to all enemies and also deals 32.2% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 28.7% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 120% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 19.2% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 28.8% Physical Elation DMG to all enemies and also deals 33.6% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 30% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 125% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 20% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 30% Physical Elation DMG to all enemies and also deals 35% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 31.3% Physical Elation DMG to all enemies."
+                  }
+                ]
               },
               {
                 "name": "Scarlet: Elation or Execution",
                 "type": "Elation Skill",
                 "desc": "Deals 138% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\".",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Elation.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Elation.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals 55% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals 60.5% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals 66% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals 71.5% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals 77% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals 82.5% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals 89.4% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals 96.3% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals 103% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals 110% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals 116% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals 121% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals 126% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals 132% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals 138% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  }
+                ]
               }
             ]
           },
@@ -1206,31 +1496,321 @@
                 "name": "Enkindle the First Lodestar",
                 "type": "Basic ATK",
                 "desc": "Deals Fire DMG equal to 140% of Himeko \u2022 Nova's ATK to one enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 50% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 60% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 70% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 80% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 90% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 100% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 110% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 120% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 130% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 140% of Himeko \u2022 Nova's ATK to one enemy."
+                  }
+                ]
               },
               {
                 "name": "Upraise the Vanward Cresset",
                 "type": "Skill",
                 "desc": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 25%. At the start of every turn, immediately regains 1 use of Assist Skill.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 10%. At the start of every turn, immediately regains 1 use of Assist Skill."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 11%. At the start of every turn, immediately regains 1 use of Assist Skill."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 12%. At the start of every turn, immediately regains 1 use of Assist Skill."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 13%. At the start of every turn, immediately regains 1 use of Assist Skill."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 14%. At the start of every turn, immediately regains 1 use of Assist Skill."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 15%. At the start of every turn, immediately regains 1 use of Assist Skill."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 16.3%. At the start of every turn, immediately regains 1 use of Assist Skill."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 17.5%. At the start of every turn, immediately regains 1 use of Assist Skill."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 18.8%. At the start of every turn, immediately regains 1 use of Assist Skill."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 20%. At the start of every turn, immediately regains 1 use of Assist Skill."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 21%. At the start of every turn, immediately regains 1 use of Assist Skill."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 22%. At the start of every turn, immediately regains 1 use of Assist Skill."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 23%. At the start of every turn, immediately regains 1 use of Assist Skill."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 24%. At the start of every turn, immediately regains 1 use of Assist Skill."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "After using Skill, immediately regains all uses of Assist Skill and Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). At the start of each of Himeko \u2022 Nova's turn, the duration is reduced by 1. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 25%. At the start of every turn, immediately regains 1 use of Assist Skill."
+                  }
+                ]
               },
               {
                 "name": "We, Too, Stride the Stars",
                 "type": "Ultimate",
                 "desc": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 953% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 315% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 100% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit.\n\nDeals 1 instance(s) of DMG, each dealing Fire DMG to one random enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 381% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 126% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 40% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 419% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 139% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 44% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 457% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 151% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 48% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 495% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 164% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 52% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 533% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 176% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 56% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 572% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 189% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 60% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 619% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 205% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 65% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 667% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 221% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 70% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 714% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 236% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 75% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 762% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 252% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 80% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 800% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 265% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 84% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 838% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 277% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 88% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 876% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 290% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 92% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 914% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 302% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 96% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 953% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 315% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 100% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  }
+                ]
               },
               {
                 "name": "Hyperluminal Particle Beam",
                 "type": "Ultimate",
                 "desc": "Deals Fire DMG equal to 40% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 16% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 17.6% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 19.2% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 20.8% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 22.4% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 24% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 26% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 28% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 30% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 32% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Fire DMG equal to 33.6% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Fire DMG equal to 35.2% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Fire DMG equal to 36.8% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Fire DMG equal to 38.4% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Fire DMG equal to 40% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy\". A maximum of 3 \"Source Energy\" can be held."
+                  }
+                ]
               },
               {
                 "name": "Orbital Annihilation Pulse",
                 "type": "Ultimate",
                 "desc": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 25% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 37.5% of Himeko \u2022 Nova's ATK to one random enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 10% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 15% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 11% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 16.5% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 12% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 18% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 13% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 19.5% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 14% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 21% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 15% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 22.5% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 16.3% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 24.4% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 17.5% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 26.3% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 18.8% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 28.1% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 20% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 30% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 21% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 31.5% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 22% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 33% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 23% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 34.5% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 24% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 36% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 25% of Himeko \u2022 Nova's ATK to all enemies. When current \"Source Energy\" is more than 1 point, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 37.5% of Himeko \u2022 Nova's ATK to one random enemy."
+                  }
+                ]
               },
               {
                 "name": "Starcharter Cruise",
@@ -1247,25 +1827,273 @@
                 "name": "Of Fire and Far Faring",
                 "type": "Talent",
                 "desc": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 25% and CRIT DMG increases by 100%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 10% and CRIT DMG increases by 40%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 11% and CRIT DMG increases by 44%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 12% and CRIT DMG increases by 48%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 13% and CRIT DMG increases by 52%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 14% and CRIT DMG increases by 56%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 15% and CRIT DMG increases by 60%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 16.3% and CRIT DMG increases by 65%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 17.5% and CRIT DMG increases by 70%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 18.8% and CRIT DMG increases by 75%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 20% and CRIT DMG increases by 80%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 21% and CRIT DMG increases by 84%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 22% and CRIT DMG increases by 88%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 23% and CRIT DMG increases by 92%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 24% and CRIT DMG increases by 96%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the \"Starblazer\" to attack enemies.\\nUsing the Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova's All-Type RES PEN increases by 25% and CRIT DMG increases by 100%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko \u2022 Nova uses the Assist Skill, they regenerate 4 Energy."
+                  }
+                ]
               },
               {
                 "name": "Trailblaze, By Your Side",
                 "type": "Assist Skill",
                 "desc": "Deals Fire DMG equal to 200% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 30% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 250% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 39% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 80% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 12% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 100% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 18% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 88% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 13.2% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 110% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 19.4% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 96% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 14.4% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 120% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 20.8% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 104% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 15.6% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 130% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 22.2% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 112% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 16.8% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 140% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 23.6% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 120% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 18% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 150% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 25% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 130% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 19.5% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 163% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 26.8% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 140% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 21% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 175% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 28.5% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 150% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 22.5% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 188% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 30.3% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 160% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 24% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 200% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 32% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Fire DMG equal to 168% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 25.2% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 210% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 33.4% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Fire DMG equal to 176% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 26.4% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 220% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 34.8% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Fire DMG equal to 184% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 27.6% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 230% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 36.2% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Fire DMG equal to 192% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 28.8% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 240% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 37.6% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Fire DMG equal to 200% of Himeko \u2022 Nova's ATK to all enemies, and deals 3 extra instances of DMG, with each instance dealing Fire DMG equal to 30% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 250% of Himeko \u2022 Nova's ATK to all enemies, and deals 4 extra instances of DMG, with each instance dealing Fire DMG equal to 39% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf used by a Trailblaze Companions character other than Himeko \u2022 Nova, Himeko \u2022 Nova will additionally gain 1 of the Special Effects depending on the user.\\nThe extra Assist Skill triggered by all Special Effects can be triggered up to 2 time(s) per battle, and the trigger count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  }
+                ]
               },
               {
                 "name": "Companion Protocol: Verdict",
                 "type": "Assist Skill",
                 "desc": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 125%, and additionally increases her Ultimate DMG dealt by 125%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 50%, and additionally increases her Ultimate DMG dealt by 50%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 55%, and additionally increases her Ultimate DMG dealt by 55%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 60%, and additionally increases her Ultimate DMG dealt by 60%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 65%, and additionally increases her Ultimate DMG dealt by 65%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 70%, and additionally increases her Ultimate DMG dealt by 70%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 75%, and additionally increases her Ultimate DMG dealt by 75%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 81.3%, and additionally increases her Ultimate DMG dealt by 81.3%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 87.5%, and additionally increases her Ultimate DMG dealt by 87.5%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 93.8%, and additionally increases her Ultimate DMG dealt by 93.8%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 100%, and additionally increases her Ultimate DMG dealt by 100%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 105%, and additionally increases her Ultimate DMG dealt by 105%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 110%, and additionally increases her Ultimate DMG dealt by 110%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 115%, and additionally increases her Ultimate DMG dealt by 115%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 120%, and additionally increases her Ultimate DMG dealt by 120%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 125%, and additionally increases her Ultimate DMG dealt by 125%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost."
+                  }
+                ]
               },
               {
                 "name": "Companion Protocol: Decimation",
                 "type": "Assist Skill",
                 "desc": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 125%, and additionally increases the CRIT DMG dealt by Skills by 125%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 50%, and additionally increases the CRIT DMG dealt by Skills by 50%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 55%, and additionally increases the CRIT DMG dealt by Skills by 55%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 60%, and additionally increases the CRIT DMG dealt by Skills by 60%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 65%, and additionally increases the CRIT DMG dealt by Skills by 65%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 70%, and additionally increases the CRIT DMG dealt by Skills by 70%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 75%, and additionally increases the CRIT DMG dealt by Skills by 75%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 81.3%, and additionally increases the CRIT DMG dealt by Skills by 81.3%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 87.5%, and additionally increases the CRIT DMG dealt by Skills by 87.5%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 93.8%, and additionally increases the CRIT DMG dealt by Skills by 93.8%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 100%, and additionally increases the CRIT DMG dealt by Skills by 100%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 105%, and additionally increases the CRIT DMG dealt by Skills by 105%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 110%, and additionally increases the CRIT DMG dealt by Skills by 110%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 115%, and additionally increases the CRIT DMG dealt by Skills by 115%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 120%, and additionally increases the CRIT DMG dealt by Skills by 120%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 125%, and additionally increases the CRIT DMG dealt by Skills by 125%. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches 9 points, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against the enemy at no cost. This instance of Assist Skill cannot gain Charge."
+                  }
+                ]
               }
             ]
           },
@@ -2368,19 +3196,185 @@
                 "name": "Whistlebolt Sings Joy",
                 "type": "Basic ATK",
                 "desc": "Deals Physical DMG equal to 126% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 42% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Physical DMG equal to 45% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 15% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Physical DMG equal to 54% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 18% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Physical DMG equal to 63% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 21% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Physical DMG equal to 72% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 24% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Physical DMG equal to 81% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 27% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Physical DMG equal to 90% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 30% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Physical DMG equal to 99% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 33% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Physical DMG equal to 108% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 36% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Physical DMG equal to 117% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 39% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Physical DMG equal to 126% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 42% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  }
+                ]
               },
               {
                 "name": "Decalight Unveils All",
                 "type": "Skill",
                 "desc": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 25% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 10% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 11% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 12% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 13% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 14% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 15% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 16.3% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 17.5% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 18.8% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 20% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 21% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 22% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 23% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 24% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 25% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  }
+                ]
               },
               {
                 "name": "Hexagram of Feathered Fortune",
                 "type": "Ultimate",
                 "desc": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 25% for 3 turn(s).",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 10% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 11% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 12% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 13% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 14% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 15% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 16.3% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 17.5% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 18.8% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 20% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 21% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 22% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 23% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 24% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 25% for 3 turn(s)."
+                  }
+                ]
               },
               {
                 "name": "Untethered Glimmer Sails Far",
@@ -2397,13 +3391,137 @@
                 "name": "Behold Wherever Light Unfolds",
                 "type": "Talent",
                 "desc": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 25% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 10% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 11% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 12% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 13% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 14% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 15% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 16.3% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 17.5% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 18.8% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 20% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 21% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 22% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 23% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 24% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 25% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  }
+                ]
               },
               {
                 "name": "Let Thy Fortune Burst in Flames",
                 "type": "Elation Skill",
                 "desc": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 125% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 25% Physical Elation DMG to one random enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Elation.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Elation.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 50% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 10% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 55% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 11% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 60% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 12% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 65% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 13% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 70% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 14% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 75% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 15% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 81.3% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 16.3% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 87.5% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 17.5% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 93.8% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 18.8% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 100% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 20% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 105% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 21% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 110% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 22% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 115% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 23% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 120% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 24% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 125% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 25% Physical Elation DMG to one random enemy."
+                  }
+                ]
               }
             ]
           },
@@ -3507,31 +4625,301 @@
                 "name": "A Broken Blade Still Slays",
                 "type": "Basic ATK",
                 "desc": "Deals Fire DMG equal to 70% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 25% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 30% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 35% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 40% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 45% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 50% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 55% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 60% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 65% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 70% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  }
+                ]
               },
               {
                 "name": "A Tempered Blade Severs Souls",
                 "type": "Basic ATK",
                 "desc": "Deals Fire DMG equal to 140% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 50% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 60% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 70% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 80% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 90% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 100% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 110% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 120% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 130% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 140% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  }
+                ]
               },
               {
                 "name": "A Rain of Blades Seals Fate",
                 "type": "Skill",
                 "desc": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 90% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 30% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 36% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 12% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 39.6% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 13.2% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 43.2% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 14.4% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 46.8% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 15.6% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 50.4% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 16.8% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 54% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 18% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 58.5% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 19.5% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 63% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 21% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 67.5% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 22.5% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 72% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 24% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 75.6% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 25.2% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 79.2% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 26.4% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 82.8% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 27.6% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 86.4% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 28.8% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 90% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 30% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  }
+                ]
               },
               {
                 "name": "Fornax Ex Corpore",
                 "type": "Ultimate",
                 "desc": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 35% and the DMG they receive increases by 60%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 75%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 20% and the DMG they receive increases by 30%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 30%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 21% and the DMG they receive increases by 32%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 33%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 22% and the DMG they receive increases by 34%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 36%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 23% and the DMG they receive increases by 36%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 39%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 24% and the DMG they receive increases by 38%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 42%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 25% and the DMG they receive increases by 40%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 45%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 26.3% and the DMG they receive increases by 42.5%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 48.8%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 27.5% and the DMG they receive increases by 45%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 52.5%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 28.7% and the DMG they receive increases by 47.5%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 56.3%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 30% and the DMG they receive increases by 50%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 60%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 31% and the DMG they receive increases by 52%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 63%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 32% and the DMG they receive increases by 54%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 66%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 33% and the DMG they receive increases by 56%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 69%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 34% and the DMG they receive increases by 58%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 72%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 35% and the DMG they receive increases by 60%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 75%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  }
+                ]
               },
               {
                 "name": "Tenax Per Ignem",
                 "type": "Ultimate",
                 "desc": "Deals Fire DMG equal to 420% of Mortenax Blade's Max HP to all enemies.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 210% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 224% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 238% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 252% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 266% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 280% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 298% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 315% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 333% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 350% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Fire DMG equal to 364% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Fire DMG equal to 378% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Fire DMG equal to 392% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Fire DMG equal to 406% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Fire DMG equal to 420% of Mortenax Blade's Max HP to all enemies."
+                  }
+                ]
               },
               {
                 "name": "Blade's Reach Spares None",
@@ -3548,7 +4936,69 @@
                 "name": "All Karma Comes Due",
                 "type": "Talent",
                 "desc": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 30 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 15 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 16 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 17 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 18 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 19 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 20 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 21.3 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 22.5 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 23.8 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 25 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 26 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 27 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 28 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 29 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 30 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  }
+                ]
               }
             ]
           },
@@ -4649,13 +6099,117 @@
                 "name": "Halfhearted Blow",
                 "type": "Basic ATK",
                 "desc": "Deals Lightning DMG equal to 140% of Gilgamesh's ATK to one designated enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1509_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1509_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Lightning DMG equal to 50% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Lightning DMG equal to 60% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Lightning DMG equal to 70% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Lightning DMG equal to 80% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Lightning DMG equal to 90% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Lightning DMG equal to 100% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Lightning DMG equal to 110% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Lightning DMG equal to 120% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Lightning DMG equal to 130% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Lightning DMG equal to 140% of Gilgamesh's ATK to one designated enemy."
+                  }
+                ]
               },
               {
                 "name": "Gate of Babylon",
                 "type": "Skill",
                 "desc": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 37.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 350% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 175% of Gilgamesh's ATK to adjacent targets.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1509_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1509_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 15% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 140% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 70% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 16.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 154% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 77% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 18% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 168% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 84% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 19.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 182% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 91% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 21% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 196% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 98% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 22.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 210% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 105% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 24.4% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 228% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 114% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 26.3% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 245% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 123% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 28.1% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 263% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 131% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 30% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 280% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 140% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 31.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 294% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 147% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 33% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 308% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 154% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 34.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 322% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 161% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 36% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 336% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 168% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore 37.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 350% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 175% of Gilgamesh's ATK to adjacent targets."
+                  }
+                ]
               },
               {
                 "name": "Halfhearted Blow",
@@ -4665,7 +6219,69 @@
                 "name": "Enuma Elish",
                 "type": "Ultimate",
                 "desc": "Deals Lightning DMG equal to 500% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 125% of Gilgamesh's ATK to one random enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1509_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1509_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Lightning DMG equal to 200% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 50% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Lightning DMG equal to 220% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 55% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Lightning DMG equal to 240% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 60% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Lightning DMG equal to 260% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 65% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Lightning DMG equal to 280% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 70% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Lightning DMG equal to 300% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 75% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Lightning DMG equal to 325% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 81.3% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Lightning DMG equal to 350% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 87.5% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Lightning DMG equal to 375% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 93.8% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Lightning DMG equal to 400% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 100% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Lightning DMG equal to 420% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 105% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Lightning DMG equal to 440% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 110% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Lightning DMG equal to 460% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 115% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Lightning DMG equal to 480% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 120% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Lightning DMG equal to 500% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 125% of Gilgamesh's ATK to one random enemy."
+                  }
+                ]
               },
               {
                 "name": "Enkidu",
@@ -4682,13 +6298,137 @@
                 "name": "\"Amuse Me to the Fullest\"",
                 "type": "Talent",
                 "desc": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 50%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1509_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1509_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 20%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 22%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 24%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 26%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 28%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 30%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 32.5%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 35%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 37.5%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 40%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 42%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 44%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 46%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 48%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 50%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by 10%.\\nWhen \"Interest\" reaches 10 points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets."
+                  }
+                ]
               },
               {
                 "name": "\"I Grant You Permission To Strike\"",
                 "type": "Talent",
                 "desc": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 500% of Gilgamesh's ATK and Wind DMG equal to 750% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 240% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1509_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1509_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 200% of Gilgamesh's ATK and Wind DMG equal to 300% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 120% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 220% of Gilgamesh's ATK and Wind DMG equal to 330% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 128% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 240% of Gilgamesh's ATK and Wind DMG equal to 360% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 136% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 260% of Gilgamesh's ATK and Wind DMG equal to 390% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 144% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 280% of Gilgamesh's ATK and Wind DMG equal to 420% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 152% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 300% of Gilgamesh's ATK and Wind DMG equal to 450% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 160% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 325% of Gilgamesh's ATK and Wind DMG equal to 488% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 170% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 350% of Gilgamesh's ATK and Wind DMG equal to 525% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 180% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 375% of Gilgamesh's ATK and Wind DMG equal to 563% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 190% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 400% of Gilgamesh's ATK and Wind DMG equal to 600% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 200% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 420% of Gilgamesh's ATK and Wind DMG equal to 630% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 208% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 440% of Gilgamesh's ATK and Wind DMG equal to 660% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 216% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 460% of Gilgamesh's ATK and Wind DMG equal to 690% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 224% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 480% of Gilgamesh's ATK and Wind DMG equal to 720% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 232% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When Gilgamesh or Saber attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches 8, Gilgamesh and Saber launch a Joint Follow-Up ATK, dealing Lightning DMG equal to 500% of Gilgamesh's ATK and Wind DMG equal to 750% of Saber's ATK to all enemies. Then, Gilgamesh gains 3 point(s) of \"Interest,\" and Saber regenerates 120 Energy and the DMG dealt when she next uses her Ultimate becomes 240% of the original DMG.\\nThe accumulated attack tally is reset after using the Joint Follow-Up ATK."
+                  }
+                ]
               }
             ]
           },
@@ -5785,19 +7525,185 @@
                 "name": "King's Castling",
                 "type": "Basic ATK",
                 "desc": "Deals Wind DMG equal to 140% of Cerydra's ATK to one designated enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Wind DMG equal to 50% of Cerydra's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Wind DMG equal to 60% of Cerydra's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Wind DMG equal to 70% of Cerydra's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Wind DMG equal to 80% of Cerydra's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Wind DMG equal to 90% of Cerydra's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Wind DMG equal to 100% of Cerydra's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Wind DMG equal to 110% of Cerydra's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Wind DMG equal to 120% of Cerydra's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Wind DMG equal to 130% of Cerydra's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Wind DMG equal to 140% of Cerydra's ATK to one designated enemy."
+                  }
+                ]
               },
               {
                 "name": "Pawn's Promotion",
                 "type": "Skill",
                 "desc": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 90%, increases their All-Type RES PEN by 11%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\"",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 36%, increases their All-Type RES PEN by 8%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\""
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 39.6%, increases their All-Type RES PEN by 8.2%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\""
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 43.2%, increases their All-Type RES PEN by 8.4%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\""
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 46.8%, increases their All-Type RES PEN by 8.6%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\""
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 50.4%, increases their All-Type RES PEN by 8.8%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\""
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 54%, increases their All-Type RES PEN by 9%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\""
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 58.5%, increases their All-Type RES PEN by 9.25%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\""
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 63%, increases their All-Type RES PEN by 9.5%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\""
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 67.5%, increases their All-Type RES PEN by 9.75%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\""
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 72%, increases their All-Type RES PEN by 10%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\""
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 75.6%, increases their All-Type RES PEN by 10.2%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\""
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 79.2%, increases their All-Type RES PEN by 10.4%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\""
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 82.8%, increases their All-Type RES PEN by 10.6%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\""
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 86.4%, increases their All-Type RES PEN by 10.8%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\""
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 90%, increases their All-Type RES PEN by 11%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\""
+                  }
+                ]
               },
               {
                 "name": "Scholar's Mate",
                 "type": "Ultimate",
                 "desc": "Gains 2 Charge. Deals Wind DMG equal to 288% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Gains 2 Charge. Deals Wind DMG equal to 144% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Gains 2 Charge. Deals Wind DMG equal to 154% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Gains 2 Charge. Deals Wind DMG equal to 163% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Gains 2 Charge. Deals Wind DMG equal to 173% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Gains 2 Charge. Deals Wind DMG equal to 182% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Gains 2 Charge. Deals Wind DMG equal to 192% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Gains 2 Charge. Deals Wind DMG equal to 204% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Gains 2 Charge. Deals Wind DMG equal to 216% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Gains 2 Charge. Deals Wind DMG equal to 228% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Gains 2 Charge. Deals Wind DMG equal to 240% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Gains 2 Charge. Deals Wind DMG equal to 250% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Gains 2 Charge. Deals Wind DMG equal to 259% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Gains 2 Charge. Deals Wind DMG equal to 269% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Gains 2 Charge. Deals Wind DMG equal to 278% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Gains 2 Charge. Deals Wind DMG equal to 288% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team."
+                  }
+                ]
               },
               {
                 "name": "First-Move Advantage",
@@ -5814,7 +7720,69 @@
                 "name": "Ave Imperator",
                 "type": "Talent",
                 "desc": "The character with \"Military Merit\" increases ATK by an amount equal to 27% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 75% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "The character with \"Military Merit\" increases ATK by an amount equal to 18% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 30% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "The character with \"Military Merit\" increases ATK by an amount equal to 18.6% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 33% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "The character with \"Military Merit\" increases ATK by an amount equal to 19.2% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 36% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "The character with \"Military Merit\" increases ATK by an amount equal to 19.8% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 39% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "The character with \"Military Merit\" increases ATK by an amount equal to 20.4% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 42% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "The character with \"Military Merit\" increases ATK by an amount equal to 21% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 45% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "The character with \"Military Merit\" increases ATK by an amount equal to 21.8% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 48.8% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "The character with \"Military Merit\" increases ATK by an amount equal to 22.5% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 52.5% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "The character with \"Military Merit\" increases ATK by an amount equal to 23.3% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 56.3% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "The character with \"Military Merit\" increases ATK by an amount equal to 24% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 60% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "The character with \"Military Merit\" increases ATK by an amount equal to 24.6% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 63% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "The character with \"Military Merit\" increases ATK by an amount equal to 25.2% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 66% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "The character with \"Military Merit\" increases ATK by an amount equal to 25.8% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 69% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "The character with \"Military Merit\" increases ATK by an amount equal to 26.4% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 72% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "The character with \"Military Merit\" increases ATK by an amount equal to 27% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 75% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0."
+                  }
+                ]
               }
             ]
           },
@@ -6915,19 +8883,185 @@
                 "name": "Talons: Inculcate Decorum",
                 "type": "Basic ATK",
                 "desc": "Deals Lightning DMG equal to 140% of Ashveil's ATK to one designated enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Lightning DMG equal to 50% of Ashveil's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Lightning DMG equal to 60% of Ashveil's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Lightning DMG equal to 70% of Ashveil's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Lightning DMG equal to 80% of Ashveil's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Lightning DMG equal to 90% of Ashveil's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Lightning DMG equal to 100% of Ashveil's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Lightning DMG equal to 110% of Ashveil's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Lightning DMG equal to 120% of Ashveil's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Lightning DMG equal to 130% of Ashveil's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Lightning DMG equal to 140% of Ashveil's ATK to one designated enemy."
+                  }
+                ]
               },
               {
                 "name": "Flog: Smite Evil",
                 "type": "Skill",
                 "desc": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 250% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 125% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 50%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 100% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 50% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 20%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 110% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 55% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 22%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 120% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 60% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 24%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 130% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 65% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 26%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 140% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 70% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 28%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 150% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 75% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 30%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 163% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 81.3% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 32.5%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 175% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 87.5% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 35%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 188% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 93.8% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 37.5%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 200% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 100% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 40%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 210% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 105% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 42%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 220% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 110% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 44%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 230% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 115% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 46%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 240% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 120% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 48%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 250% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 125% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 50%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target."
+                  }
+                ]
               },
               {
                 "name": "Banquet: Insatiable Appetite",
                 "type": "Ultimate",
                 "desc": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 500% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 250% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 200% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 100% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 220% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 110% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 240% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 120% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 260% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 130% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 280% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 140% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 300% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 150% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 325% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 163% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 350% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 175% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 375% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 188% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 400% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 200% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 420% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 210% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 440% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 220% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 460% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 230% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 480% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 240% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 500% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 250% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end."
+                  }
+                ]
               },
               {
                 "name": "Devour: O Loathsome Hand",
@@ -6944,7 +9078,69 @@
                 "name": "Rancor: Enmity Reprisal",
                 "type": "Talent",
                 "desc": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 250% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 100% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 110% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 120% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 130% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 140% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 150% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 163% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 175% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 188% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 200% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 210% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 220% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 230% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 240% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 250% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12."
+                  }
+                ]
               }
             ]
           },
@@ -8046,25 +10242,253 @@
                 "name": "Lament, Nethersea's Ripple",
                 "type": "Basic ATK",
                 "desc": "Deals Quantum DMG equal to 70% of Castorice's Max HP to one designated enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 25% of Castorice's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 30% of Castorice's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 35% of Castorice's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 40% of Castorice's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 45% of Castorice's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 50% of Castorice's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 55% of Castorice's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 60% of Castorice's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 65% of Castorice's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 70% of Castorice's Max HP to one designated enemy."
+                  }
+                ]
               },
               {
                 "name": "Silence, Wraithfly's Caress",
                 "type": "Skill",
                 "desc": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 62.5% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 37.5% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 25% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 15% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 27.5% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 16.5% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 30% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 18% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 32.5% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 19.5% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 35% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 21% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 37.5% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 22.5% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 40.6% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 24.4% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 43.8% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 26.3% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 46.9% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 28.1% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 50% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 30% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 52.5% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 31.5% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 55% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 33% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 57.5% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 34.5% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 60% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 36% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 62.5% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 37.5% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead."
+                  }
+                ]
               },
               {
                 "name": "Boneclaw, Doomdrake's Embrace",
                 "type": "Skill",
                 "desc": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 37.5% and 62.5% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 15% and 25% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 16.5% and 27.5% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 18% and 30% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 19.5% and 32.5% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 21% and 35% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 22.5% and 37.5% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 24.4% and 40.6% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 26.3% and 43.8% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 28.1% and 46.9% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 30% and 50% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 31.5% and 52.5% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 33% and 55% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 34.5% and 57.5% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 36% and 60% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 37.5% and 62.5% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1."
+                  }
+                ]
               },
               {
                 "name": "Doomshriek, Dawn's Chime",
                 "type": "Ultimate",
                 "desc": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 25%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\"",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 10%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\""
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 11%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\""
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 12%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\""
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 13%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\""
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 14%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\""
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 15%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\""
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 16.3%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\""
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 17.5%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\""
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 18.8%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\""
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 20%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\""
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 21%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\""
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 22%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\""
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 23%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\""
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 24%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\""
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 25%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\""
+                  }
+                ]
               },
               {
                 "name": "Wail, Death's Herald",
@@ -8081,7 +10505,69 @@
                 "name": "Desolation Across Palms",
                 "type": "Talent",
                 "desc": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 25%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 10%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 11%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 12%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 13%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 14%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 15%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 16.3%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 17.5%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 18.8%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 20%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 21%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 22%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 23%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 24%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 25%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing."
+                  }
+                ]
               }
             ]
           },
@@ -9181,19 +11667,185 @@
                 "name": "Oops, a Missed Catch",
                 "type": "Basic ATK",
                 "desc": "Deals Quantum DMG equal to 140% of Cipher's ATK to one designated enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 50% of Cipher's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 60% of Cipher's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 70% of Cipher's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 80% of Cipher's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 90% of Cipher's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 100% of Cipher's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 110% of Cipher's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 120% of Cipher's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 130% of Cipher's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 140% of Cipher's ATK to one designated enemy."
+                  }
+                ]
               },
               {
                 "name": "Hey, Jackpot for the Taking",
                 "type": "Skill",
                 "desc": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 250% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 125% of Cipher's ATK to the adjacent targets.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 100% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 50% of Cipher's ATK to the adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 110% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 55% of Cipher's ATK to the adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 120% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 60% of Cipher's ATK to the adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 130% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 65% of Cipher's ATK to the adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 140% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 70% of Cipher's ATK to the adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 150% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 75% of Cipher's ATK to the adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 163% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 81.3% of Cipher's ATK to the adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 175% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 87.5% of Cipher's ATK to the adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 188% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 93.8% of Cipher's ATK to the adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 200% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 100% of Cipher's ATK to the adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 210% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 105% of Cipher's ATK to the adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 220% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 110% of Cipher's ATK to the adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 230% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 115% of Cipher's ATK to the adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 240% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 120% of Cipher's ATK to the adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 250% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 125% of Cipher's ATK to the adjacent targets."
+                  }
+                ]
               },
               {
                 "name": "Yours Truly, Kitty Phantom Thief!",
                 "type": "Ultimate",
                 "desc": "Deals Quantum DMG equal to 150% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 50% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 60% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 20% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 66% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 22% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 72% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 24% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 78% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 26% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 84% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 28% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 90% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 30% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 97.5% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 32.5% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 105% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 35% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 113% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 37.5% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 120% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 40% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Quantum DMG equal to 126% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 42% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Quantum DMG equal to 132% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 44% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Quantum DMG equal to 138% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 46% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Quantum DMG equal to 144% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 48% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Quantum DMG equal to 150% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 50% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability."
+                  }
+                ]
               },
               {
                 "name": "Puss in Boots",
@@ -9210,7 +11862,69 @@
                 "name": "The Hospitable Dolosian",
                 "type": "Talent",
                 "desc": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 188% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 75% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 82.5% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 90% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 97.5% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 105% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 113% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 122% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 131% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 141% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 150% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 158% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 165% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 173% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 180% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 188% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally."
+                  }
+                ]
               }
             ]
           },
@@ -10311,25 +13025,233 @@
                 "name": "Lo, Hope Takes Flight!",
                 "type": "Basic ATK",
                 "desc": "Gains 1 \"Recollection\" point(s) and deals Ice DMG equal to 70% of Cyrene's Max HP to one designated enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Gains 1 \"Recollection\" point(s) and deals Ice DMG equal to 25% of Cyrene's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Gains 1 \"Recollection\" point(s) and deals Ice DMG equal to 30% of Cyrene's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Gains 1 \"Recollection\" point(s) and deals Ice DMG equal to 35% of Cyrene's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Gains 1 \"Recollection\" point(s) and deals Ice DMG equal to 40% of Cyrene's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Gains 1 \"Recollection\" point(s) and deals Ice DMG equal to 45% of Cyrene's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Gains 1 \"Recollection\" point(s) and deals Ice DMG equal to 50% of Cyrene's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Gains 1 \"Recollection\" point(s) and deals Ice DMG equal to 55% of Cyrene's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Gains 1 \"Recollection\" point(s) and deals Ice DMG equal to 60% of Cyrene's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Gains 1 \"Recollection\" point(s) and deals Ice DMG equal to 65% of Cyrene's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Gains 1 \"Recollection\" point(s) and deals Ice DMG equal to 70% of Cyrene's Max HP to one designated enemy."
+                  }
+                ]
               },
               {
                 "name": "To Love and Tomorrow \u266a",
                 "type": "Basic ATK",
                 "desc": "Gains 3 \"Recollection\" points and deals Ice DMG equal to 42% of Cyrene's Max HP to one designated enemy. Then, deals Ice DMG equal to 42% of Cyrene's Max HP to all enemies.\\n\"To Love and Tomorrow \u266a\" cannot recover Skill Points.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Gains 3 \"Recollection\" points and deals Ice DMG equal to 15% of Cyrene's Max HP to one designated enemy. Then, deals Ice DMG equal to 15% of Cyrene's Max HP to all enemies.\\n\"To Love and Tomorrow \u266a\" cannot recover Skill Points."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Gains 3 \"Recollection\" points and deals Ice DMG equal to 18% of Cyrene's Max HP to one designated enemy. Then, deals Ice DMG equal to 18% of Cyrene's Max HP to all enemies.\\n\"To Love and Tomorrow \u266a\" cannot recover Skill Points."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Gains 3 \"Recollection\" points and deals Ice DMG equal to 21% of Cyrene's Max HP to one designated enemy. Then, deals Ice DMG equal to 21% of Cyrene's Max HP to all enemies.\\n\"To Love and Tomorrow \u266a\" cannot recover Skill Points."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Gains 3 \"Recollection\" points and deals Ice DMG equal to 24% of Cyrene's Max HP to one designated enemy. Then, deals Ice DMG equal to 24% of Cyrene's Max HP to all enemies.\\n\"To Love and Tomorrow \u266a\" cannot recover Skill Points."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Gains 3 \"Recollection\" points and deals Ice DMG equal to 27% of Cyrene's Max HP to one designated enemy. Then, deals Ice DMG equal to 27% of Cyrene's Max HP to all enemies.\\n\"To Love and Tomorrow \u266a\" cannot recover Skill Points."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Gains 3 \"Recollection\" points and deals Ice DMG equal to 30% of Cyrene's Max HP to one designated enemy. Then, deals Ice DMG equal to 30% of Cyrene's Max HP to all enemies.\\n\"To Love and Tomorrow \u266a\" cannot recover Skill Points."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Gains 3 \"Recollection\" points and deals Ice DMG equal to 33% of Cyrene's Max HP to one designated enemy. Then, deals Ice DMG equal to 33% of Cyrene's Max HP to all enemies.\\n\"To Love and Tomorrow \u266a\" cannot recover Skill Points."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Gains 3 \"Recollection\" points and deals Ice DMG equal to 36% of Cyrene's Max HP to one designated enemy. Then, deals Ice DMG equal to 36% of Cyrene's Max HP to all enemies.\\n\"To Love and Tomorrow \u266a\" cannot recover Skill Points."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Gains 3 \"Recollection\" points and deals Ice DMG equal to 39% of Cyrene's Max HP to one designated enemy. Then, deals Ice DMG equal to 39% of Cyrene's Max HP to all enemies.\\n\"To Love and Tomorrow \u266a\" cannot recover Skill Points."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Gains 3 \"Recollection\" points and deals Ice DMG equal to 42% of Cyrene's Max HP to one designated enemy. Then, deals Ice DMG equal to 42% of Cyrene's Max HP to all enemies.\\n\"To Love and Tomorrow \u266a\" cannot recover Skill Points."
+                  }
+                ]
               },
               {
                 "name": "Bloom, Elysium of Beyond",
                 "type": "Skill",
                 "desc": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 30% of the original DMG. When Cyrene is downed, the Zone will also be dispelled.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 12% of the original DMG. When Cyrene is downed, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 13.2% of the original DMG. When Cyrene is downed, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 14.4% of the original DMG. When Cyrene is downed, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 15.6% of the original DMG. When Cyrene is downed, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 16.8% of the original DMG. When Cyrene is downed, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 18% of the original DMG. When Cyrene is downed, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 19.5% of the original DMG. When Cyrene is downed, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 21% of the original DMG. When Cyrene is downed, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 22.5% of the original DMG. When Cyrene is downed, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 24% of the original DMG. When Cyrene is downed, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 25.2% of the original DMG. When Cyrene is downed, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 26.4% of the original DMG. When Cyrene is downed, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 27.6% of the original DMG. When Cyrene is downed, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 28.8% of the original DMG. When Cyrene is downed, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 30% of the original DMG. When Cyrene is downed, the Zone will also be dispelled."
+                  }
+                ]
               },
               {
                 "name": "Verse \u25e6 Vow \u221e",
                 "type": "Ultimate",
                 "desc": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 62.5%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 25%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 27.5%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 30%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 32.5%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 35%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 37.5%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 40.6%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 43.8%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 46.9%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 50%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 52.5%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 55%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 57.5%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 60%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 62.5%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP."
+                  }
+                ]
               },
               {
                 "name": "Reunion at First Sight",
@@ -10352,7 +13274,69 @@
                 "name": "Hearts Gather as One",
                 "type": "Talent",
                 "desc": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 25%.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 10%."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 11%."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 12%."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 13%."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 14%."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 15%."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 16.3%."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 17.5%."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 18.8%."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 20%."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 21%."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 22%."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 23%."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 24%."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 25%."
+                  }
+                ]
               }
             ]
           },
@@ -11459,19 +14443,185 @@
                 "name": "Aegis Vitae",
                 "type": "Basic ATK",
                 "desc": "Deals Physical DMG equal to 140% of Dan Heng \u2022 Permansor Terrae's ATK to one designated enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Physical DMG equal to 50% of Dan Heng \u2022 Permansor Terrae's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Physical DMG equal to 60% of Dan Heng \u2022 Permansor Terrae's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Physical DMG equal to 70% of Dan Heng \u2022 Permansor Terrae's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Physical DMG equal to 80% of Dan Heng \u2022 Permansor Terrae's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Physical DMG equal to 90% of Dan Heng \u2022 Permansor Terrae's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Physical DMG equal to 100% of Dan Heng \u2022 Permansor Terrae's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Physical DMG equal to 110% of Dan Heng \u2022 Permansor Terrae's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Physical DMG equal to 120% of Dan Heng \u2022 Permansor Terrae's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Physical DMG equal to 130% of Dan Heng \u2022 Permansor Terrae's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Physical DMG equal to 140% of Dan Heng \u2022 Permansor Terrae's ATK to one designated enemy."
+                  }
+                ]
               },
               {
                 "name": "Terra Omnibus",
                 "type": "Skill",
                 "desc": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 23% of Dan Heng \u2022 Permansor Terrae's ATK plus 513 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 14% of Dan Heng \u2022 Permansor Terrae's ATK plus 100 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 14.8% of Dan Heng \u2022 Permansor Terrae's ATK plus 160 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 15.5% of Dan Heng \u2022 Permansor Terrae's ATK plus 205 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 16.3% of Dan Heng \u2022 Permansor Terrae's ATK plus 250 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 17% of Dan Heng \u2022 Permansor Terrae's ATK plus 280 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 17.6% of Dan Heng \u2022 Permansor Terrae's ATK plus 310 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 18.2% of Dan Heng \u2022 Permansor Terrae's ATK plus 333 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 18.8% of Dan Heng \u2022 Permansor Terrae's ATK plus 355 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 19.4% of Dan Heng \u2022 Permansor Terrae's ATK plus 378 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 20% of Dan Heng \u2022 Permansor Terrae's ATK plus 400 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 20.6% of Dan Heng \u2022 Permansor Terrae's ATK plus 423 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 21.2% of Dan Heng \u2022 Permansor Terrae's ATK plus 445 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 21.8% of Dan Heng \u2022 Permansor Terrae's ATK plus 468 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 22.4% of Dan Heng \u2022 Permansor Terrae's ATK plus 490 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 23% of Dan Heng \u2022 Permansor Terrae's ATK plus 513 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill."
+                  }
+                ]
               },
               {
                 "name": "A Dragon's Zenith Knows No Rue",
                 "type": "Ultimate",
                 "desc": "Deals Physical DMG equal to 375% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 23% of Dan Heng \u2022 Permansor Terrae's ATK plus 513, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 100% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 100% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s).",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Physical DMG equal to 150% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 14% of Dan Heng \u2022 Permansor Terrae's ATK plus 100, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 40% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 40% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s)."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Physical DMG equal to 165% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 14.8% of Dan Heng \u2022 Permansor Terrae's ATK plus 160, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 44% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 44% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s)."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Physical DMG equal to 180% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 15.5% of Dan Heng \u2022 Permansor Terrae's ATK plus 205, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 48% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 48% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s)."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Physical DMG equal to 195% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 16.3% of Dan Heng \u2022 Permansor Terrae's ATK plus 250, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 52% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 52% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s)."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Physical DMG equal to 210% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 17% of Dan Heng \u2022 Permansor Terrae's ATK plus 280, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 56% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 56% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s)."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Physical DMG equal to 225% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 17.6% of Dan Heng \u2022 Permansor Terrae's ATK plus 310, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 60% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 60% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s)."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Physical DMG equal to 244% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 18.2% of Dan Heng \u2022 Permansor Terrae's ATK plus 333, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 65% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 65% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s)."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Physical DMG equal to 263% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 18.8% of Dan Heng \u2022 Permansor Terrae's ATK plus 355, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 70% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 70% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s)."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Physical DMG equal to 281% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 19.4% of Dan Heng \u2022 Permansor Terrae's ATK plus 378, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 75% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 75% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s)."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Physical DMG equal to 300% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 20% of Dan Heng \u2022 Permansor Terrae's ATK plus 400, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 80% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 80% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s)."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Physical DMG equal to 315% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 20.6% of Dan Heng \u2022 Permansor Terrae's ATK plus 423, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 84% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 84% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s)."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Physical DMG equal to 330% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 21.2% of Dan Heng \u2022 Permansor Terrae's ATK plus 445, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 88% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 88% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s)."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Physical DMG equal to 345% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 21.8% of Dan Heng \u2022 Permansor Terrae's ATK plus 468, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 92% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 92% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s)."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Physical DMG equal to 360% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 22.4% of Dan Heng \u2022 Permansor Terrae's ATK plus 490, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 96% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 96% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s)."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Physical DMG equal to 375% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 23% of Dan Heng \u2022 Permansor Terrae's ATK plus 513, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 100% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 100% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s)."
+                  }
+                ]
               },
               {
                 "name": "Earthrend",
@@ -11488,7 +14638,69 @@
                 "name": "Of Virtue, Forms Unfold",
                 "type": "Talent",
                 "desc": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 11.5% of Dan Heng \u2022 Permansor Terrae's ATK plus 256 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 7% of Dan Heng \u2022 Permansor Terrae's ATK plus 50 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 7.38% of Dan Heng \u2022 Permansor Terrae's ATK plus 80 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 7.75% of Dan Heng \u2022 Permansor Terrae's ATK plus 103 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 8.13% of Dan Heng \u2022 Permansor Terrae's ATK plus 125 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 8.5% of Dan Heng \u2022 Permansor Terrae's ATK plus 140 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 8.8% of Dan Heng \u2022 Permansor Terrae's ATK plus 155 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 9.1% of Dan Heng \u2022 Permansor Terrae's ATK plus 166 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 9.4% of Dan Heng \u2022 Permansor Terrae's ATK plus 178 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 9.7% of Dan Heng \u2022 Permansor Terrae's ATK plus 189 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 10% of Dan Heng \u2022 Permansor Terrae's ATK plus 200 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 10.3% of Dan Heng \u2022 Permansor Terrae's ATK plus 211 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 10.6% of Dan Heng \u2022 Permansor Terrae's ATK plus 223 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 10.9% of Dan Heng \u2022 Permansor Terrae's ATK plus 234 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 11.2% of Dan Heng \u2022 Permansor Terrae's ATK plus 245 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 11.5% of Dan Heng \u2022 Permansor Terrae's ATK plus 256 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears."
+                  }
+                ]
               }
             ]
           },
@@ -12585,19 +15797,185 @@
                 "name": "Aeolian Mode: Echoes in Still Waters",
                 "type": "Basic ATK",
                 "desc": "Deals Physical DMG equal to 140% of Hysilens's ATK to one designated enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Physical DMG equal to 50% of Hysilens's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Physical DMG equal to 60% of Hysilens's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Physical DMG equal to 70% of Hysilens's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Physical DMG equal to 80% of Hysilens's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Physical DMG equal to 90% of Hysilens's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Physical DMG equal to 100% of Hysilens's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Physical DMG equal to 110% of Hysilens's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Physical DMG equal to 120% of Hysilens's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Physical DMG equal to 130% of Hysilens's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Physical DMG equal to 140% of Hysilens's ATK to one designated enemy."
+                  }
+                ]
               },
               {
                 "name": "Overtone Hum: Chorus After Dark Tides",
                 "type": "Skill",
                 "desc": "Has a 100% base chance to increase the DMG taken by all enemies by 25%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 175% of Hysilens's ATK to all enemies.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Has a 100% base chance to increase the DMG taken by all enemies by 10%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 70% of Hysilens's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Has a 100% base chance to increase the DMG taken by all enemies by 11%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 77% of Hysilens's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Has a 100% base chance to increase the DMG taken by all enemies by 12%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 84% of Hysilens's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Has a 100% base chance to increase the DMG taken by all enemies by 13%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 91% of Hysilens's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Has a 100% base chance to increase the DMG taken by all enemies by 14%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 98% of Hysilens's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Has a 100% base chance to increase the DMG taken by all enemies by 15%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 105% of Hysilens's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Has a 100% base chance to increase the DMG taken by all enemies by 16.3%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 114% of Hysilens's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Has a 100% base chance to increase the DMG taken by all enemies by 17.5%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 123% of Hysilens's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Has a 100% base chance to increase the DMG taken by all enemies by 18.8%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 131% of Hysilens's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Has a 100% base chance to increase the DMG taken by all enemies by 20%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 140% of Hysilens's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Has a 100% base chance to increase the DMG taken by all enemies by 21%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 147% of Hysilens's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Has a 100% base chance to increase the DMG taken by all enemies by 22%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 154% of Hysilens's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Has a 100% base chance to increase the DMG taken by all enemies by 23%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 161% of Hysilens's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Has a 100% base chance to increase the DMG taken by all enemies by 24%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 168% of Hysilens's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Has a 100% base chance to increase the DMG taken by all enemies by 25%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 175% of Hysilens's ATK to all enemies."
+                  }
+                ]
               },
               {
                 "name": "Maelstrom Rhapsody",
                 "type": "Ultimate",
                 "desc": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 30%, and deals Physical DMG equal to 240% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 100% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 15%, and deals Physical DMG equal to 120% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 32% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 16%, and deals Physical DMG equal to 128% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 37.3% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 17%, and deals Physical DMG equal to 136% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 42.6% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 18%, and deals Physical DMG equal to 144% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 47.8% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 19%, and deals Physical DMG equal to 152% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 53.1% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 20%, and deals Physical DMG equal to 160% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 58.4% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 21.3%, and deals Physical DMG equal to 170% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 63.2% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 22.5%, and deals Physical DMG equal to 180% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 68% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 23.8%, and deals Physical DMG equal to 190% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 74% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 25%, and deals Physical DMG equal to 200% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 80% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 26%, and deals Physical DMG equal to 208% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 84% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 27%, and deals Physical DMG equal to 216% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 88% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 28%, and deals Physical DMG equal to 224% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 92% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 29%, and deals Physical DMG equal to 232% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 96% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 30%, and deals Physical DMG equal to 240% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 100% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled."
+                  }
+                ]
               },
               {
                 "name": "At Ocean's Abode",
@@ -12614,7 +15992,69 @@
                 "name": "Sirenic Serenade",
                 "type": "Talent",
                 "desc": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 31.3% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 31.3% of Hysilens's ATK, lasting for 2 turn(s).",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 10% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 10% of Hysilens's ATK, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 11.7% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 11.7% of Hysilens's ATK, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 13.3% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 13.3% of Hysilens's ATK, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 14.9% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 14.9% of Hysilens's ATK, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 16.6% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 16.6% of Hysilens's ATK, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 18.3% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 18.3% of Hysilens's ATK, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 19.8% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 19.8% of Hysilens's ATK, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 21.3% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 21.3% of Hysilens's ATK, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 23.1% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 23.1% of Hysilens's ATK, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 25% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 25% of Hysilens's ATK, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 26.3% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 26.3% of Hysilens's ATK, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 27.5% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 27.5% of Hysilens's ATK, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 28.7% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 28.7% of Hysilens's ATK, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 30% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 30% of Hysilens's ATK, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 31.3% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 31.3% of Hysilens's ATK, lasting for 2 turn(s)."
+                  }
+                ]
               }
             ]
           },
@@ -13717,19 +17157,185 @@
                 "name": "Time Thence Blurs",
                 "type": "Basic ATK",
                 "desc": "Deals Ice DMG equal to 70% of Evernight's Max HP to one designated enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Ice DMG equal to 25% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Ice DMG equal to 30% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Ice DMG equal to 35% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Ice DMG equal to 40% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Ice DMG equal to 45% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Ice DMG equal to 50% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Ice DMG equal to 55% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Ice DMG equal to 60% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Ice DMG equal to 65% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Ice DMG equal to 70% of Evernight's Max HP to one designated enemy."
+                  }
+                ]
               },
               {
                 "name": "Day Gently Slips",
                 "type": "Skill",
                 "desc": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 30% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\"\n\nConsumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains 2 \"Memoria.\" If in the \"Darkest Riddle\" state, additionally gains 12 \"Memoria.\"",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 12% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 13.2% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 14.4% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 15.6% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 16.8% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 18% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 19.5% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 21% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 22.5% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 24% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 25.2% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 26.4% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 27.6% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 28.8% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 30% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  }
+                ]
               },
               {
                 "name": "O Wakeful World, Goodnight",
                 "type": "Ultimate",
                 "desc": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 250% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 37.5% increased DMG while both Evernight and Evey deal 75% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 100% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 15% increased DMG while both Evernight and Evey deal 30% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 110% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 16.5% increased DMG while both Evernight and Evey deal 33% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 120% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 18% increased DMG while both Evernight and Evey deal 36% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 130% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 19.5% increased DMG while both Evernight and Evey deal 39% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 140% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 21% increased DMG while both Evernight and Evey deal 42% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 150% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 22.5% increased DMG while both Evernight and Evey deal 45% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 163% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 24.4% increased DMG while both Evernight and Evey deal 48.8% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 175% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 26.3% increased DMG while both Evernight and Evey deal 52.5% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 188% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 28.1% increased DMG while both Evernight and Evey deal 56.3% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 200% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 30% increased DMG while both Evernight and Evey deal 60% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 210% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 31.5% increased DMG while both Evernight and Evey deal 63% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 220% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 33% increased DMG while both Evernight and Evey deal 66% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 230% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 34.5% increased DMG while both Evernight and Evey deal 69% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 240% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 36% increased DMG while both Evernight and Evey deal 72% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 250% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 37.5% increased DMG while both Evernight and Evey deal 75% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  }
+                ]
               },
               {
                 "name": "Let it Rain Cold On Thee",
@@ -13746,7 +17352,69 @@
                 "name": "With Me, This Night",
                 "type": "Talent",
                 "desc": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 75% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\"",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 30% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 33% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 36% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 39% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 42% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 45% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 48.8% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 52.5% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 56.3% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 60% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 63% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 66% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 69% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 72% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 75% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  }
+                ]
               }
             ]
           },
@@ -14853,37 +18521,369 @@
                 "name": "Stride to Deliverance",
                 "type": "Basic ATK",
                 "desc": "Deals Physical DMG equal to 140% of Phainon's ATK to one designated enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Physical DMG equal to 50% of Phainon's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Physical DMG equal to 60% of Phainon's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Physical DMG equal to 70% of Phainon's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Physical DMG equal to 80% of Phainon's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Physical DMG equal to 90% of Phainon's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Physical DMG equal to 100% of Phainon's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Physical DMG equal to 110% of Phainon's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Physical DMG equal to 120% of Phainon's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Physical DMG equal to 130% of Phainon's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Physical DMG equal to 140% of Phainon's ATK to one designated enemy."
+                  }
+                ]
               },
               {
                 "name": "Creation: Bloodthorn Ferry",
                 "type": "Basic ATK",
                 "desc": "Gains 2 point(s) of \"Scourge\", dealing Physical DMG equal to 350% of Khaslana's ATK to one designated enemy and Physical DMG equal to 105% of Khaslana's ATK to adjacent targets.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Gains 2 point(s) of \"Scourge\", dealing Physical DMG equal to 125% of Khaslana's ATK to one designated enemy and Physical DMG equal to 37.5% of Khaslana's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Gains 2 point(s) of \"Scourge\", dealing Physical DMG equal to 150% of Khaslana's ATK to one designated enemy and Physical DMG equal to 45% of Khaslana's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Gains 2 point(s) of \"Scourge\", dealing Physical DMG equal to 175% of Khaslana's ATK to one designated enemy and Physical DMG equal to 52.5% of Khaslana's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Gains 2 point(s) of \"Scourge\", dealing Physical DMG equal to 200% of Khaslana's ATK to one designated enemy and Physical DMG equal to 60% of Khaslana's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Gains 2 point(s) of \"Scourge\", dealing Physical DMG equal to 225% of Khaslana's ATK to one designated enemy and Physical DMG equal to 67.5% of Khaslana's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Gains 2 point(s) of \"Scourge\", dealing Physical DMG equal to 250% of Khaslana's ATK to one designated enemy and Physical DMG equal to 75% of Khaslana's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Gains 2 point(s) of \"Scourge\", dealing Physical DMG equal to 275% of Khaslana's ATK to one designated enemy and Physical DMG equal to 82.5% of Khaslana's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Gains 2 point(s) of \"Scourge\", dealing Physical DMG equal to 300% of Khaslana's ATK to one designated enemy and Physical DMG equal to 90% of Khaslana's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Gains 2 point(s) of \"Scourge\", dealing Physical DMG equal to 325% of Khaslana's ATK to one designated enemy and Physical DMG equal to 97.5% of Khaslana's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Gains 2 point(s) of \"Scourge\", dealing Physical DMG equal to 350% of Khaslana's ATK to one designated enemy and Physical DMG equal to 105% of Khaslana's ATK to adjacent targets."
+                  }
+                ]
               },
               {
                 "name": "Let There Be Light",
                 "type": "Skill",
                 "desc": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 375% of Phainon's ATK to one designated enemy and Physical DMG equal to 150% of Phainon's ATK to adjacent targets.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 150% of Phainon's ATK to one designated enemy and Physical DMG equal to 60% of Phainon's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 165% of Phainon's ATK to one designated enemy and Physical DMG equal to 66% of Phainon's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 180% of Phainon's ATK to one designated enemy and Physical DMG equal to 72% of Phainon's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 195% of Phainon's ATK to one designated enemy and Physical DMG equal to 78% of Phainon's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 210% of Phainon's ATK to one designated enemy and Physical DMG equal to 84% of Phainon's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 225% of Phainon's ATK to one designated enemy and Physical DMG equal to 90% of Phainon's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 244% of Phainon's ATK to one designated enemy and Physical DMG equal to 97.5% of Phainon's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 263% of Phainon's ATK to one designated enemy and Physical DMG equal to 105% of Phainon's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 281% of Phainon's ATK to one designated enemy and Physical DMG equal to 113% of Phainon's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 300% of Phainon's ATK to one designated enemy and Physical DMG equal to 120% of Phainon's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 315% of Phainon's ATK to one designated enemy and Physical DMG equal to 126% of Phainon's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 330% of Phainon's ATK to one designated enemy and Physical DMG equal to 132% of Phainon's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 345% of Phainon's ATK to one designated enemy and Physical DMG equal to 138% of Phainon's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 360% of Phainon's ATK to one designated enemy and Physical DMG equal to 144% of Phainon's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 375% of Phainon's ATK to one designated enemy and Physical DMG equal to 150% of Phainon's ATK to adjacent targets."
+                  }
+                ]
               },
               {
                 "name": "Calamity: Soulscorch Edict",
                 "type": "Skill",
                 "desc": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 50% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 37.5% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 20% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 15% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 22% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 16.5% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 24% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 18% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 26% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 19.5% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 28% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 21% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 30% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 22.5% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 32.5% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 24.4% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 35% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 26.3% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 37.5% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 28.1% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 40% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 30% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 42% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 31.5% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 44% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 33% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 46% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 34.5% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 48% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 36% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 50% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 37.5% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter."
+                  }
+                ]
               },
               {
                 "name": "Foundation: Stardeath Verdict",
                 "type": "Skill",
                 "desc": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 14.6% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 56.3% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 563% of Khaslana's ATK, which is evenly distributed across all enemies.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 585% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 22.5% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 225% of Khaslana's ATK, which is evenly distributed across all enemies."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 644% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 24.8% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 248% of Khaslana's ATK, which is evenly distributed across all enemies."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 702% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 27% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 270% of Khaslana's ATK, which is evenly distributed across all enemies."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 761% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 29.3% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 293% of Khaslana's ATK, which is evenly distributed across all enemies."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 819% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 31.5% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 315% of Khaslana's ATK, which is evenly distributed across all enemies."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 878% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 33.8% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 338% of Khaslana's ATK, which is evenly distributed across all enemies."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 951% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 36.6% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 366% of Khaslana's ATK, which is evenly distributed across all enemies."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 10.2% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 39.4% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 394% of Khaslana's ATK, which is evenly distributed across all enemies."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 11% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 42.2% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 422% of Khaslana's ATK, which is evenly distributed across all enemies."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 11.7% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 45% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 450% of Khaslana's ATK, which is evenly distributed across all enemies."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 12.3% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 47.3% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 472% of Khaslana's ATK, which is evenly distributed across all enemies."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 12.9% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 49.5% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 495% of Khaslana's ATK, which is evenly distributed across all enemies."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 13.5% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 51.7% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 518% of Khaslana's ATK, which is evenly distributed across all enemies."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 14% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 54% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 540% of Khaslana's ATK, which is evenly distributed across all enemies."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 14.6% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 56.3% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 563% of Khaslana's ATK, which is evenly distributed across all enemies."
+                  }
+                ]
               },
               {
                 "name": "He Who Bears the World Must Burn",
                 "type": "Ultimate",
                 "desc": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 12% of Khaslana's ATK that is distributed evenly across all enemies.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 480% of Khaslana's ATK that is distributed evenly across all enemies."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 528% of Khaslana's ATK that is distributed evenly across all enemies."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 576% of Khaslana's ATK that is distributed evenly across all enemies."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 624% of Khaslana's ATK that is distributed evenly across all enemies."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 672% of Khaslana's ATK that is distributed evenly across all enemies."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 720% of Khaslana's ATK that is distributed evenly across all enemies."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 780% of Khaslana's ATK that is distributed evenly across all enemies."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 840% of Khaslana's ATK that is distributed evenly across all enemies."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 900% of Khaslana's ATK that is distributed evenly across all enemies."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 960% of Khaslana's ATK that is distributed evenly across all enemies."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 10.1% of Khaslana's ATK that is distributed evenly across all enemies."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 10.6% of Khaslana's ATK that is distributed evenly across all enemies."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 11% of Khaslana's ATK that is distributed evenly across all enemies."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 11.5% of Khaslana's ATK that is distributed evenly across all enemies."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 12% of Khaslana's ATK that is distributed evenly across all enemies."
+                  }
+                ]
               },
               {
                 "name": "Beginning of the End",
@@ -14900,13 +18900,137 @@
                 "name": "Pyric Corpus",
                 "type": "Talent",
                 "desc": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 37.5% for 3 turn(s).",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 15% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 16.5% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 18% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 19.5% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 21% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 22.5% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 24.4% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 26.3% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 28.1% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 30% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 31.5% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 33% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 34.5% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 36% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 37.5% for 3 turn(s)."
+                  }
+                ]
               },
               {
                 "name": "Fate: Divine Vessel",
                 "type": "Talent",
                 "desc": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 100% and Max HP by 338%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 40% and Max HP by 135%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 44% and Max HP by 149%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 48% and Max HP by 162%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 52% and Max HP by 176%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 56% and Max HP by 189%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 60% and Max HP by 203%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 65% and Max HP by 219%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 70% and Max HP by 236%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 75% and Max HP by 253%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 80% and Max HP by 270%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 84% and Max HP by 284%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 88% and Max HP by 297%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 92% and Max HP by 311%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 96% and Max HP by 324%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 100% and Max HP by 338%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn."
+                  }
+                ]
               }
             ]
           },
@@ -16006,25 +20130,253 @@
                 "name": "Bajiquan",
                 "type": "Basic ATK",
                 "desc": "Deals Quantum DMG equal to 140% of Rin Tohsaka's ATK to one designated enemy target.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 50% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 60% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 70% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 80% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 90% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 100% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 110% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 120% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 130% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 140% of Rin Tohsaka's ATK to one designated enemy target."
+                  }
+                ]
               },
               {
                 "name": "Jeweled Sword Zelretch",
                 "type": "Skill",
                 "desc": "Deals Quantum DMG equal to 225% of Rin Tohsaka's ATK to one designated enemy target.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 90% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 99% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 108% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 117% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 126% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 135% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 146% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 158% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 169% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 180% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Quantum DMG equal to 189% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Quantum DMG equal to 198% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Quantum DMG equal to 207% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Quantum DMG equal to 216% of Rin Tohsaka's ATK to one designated enemy target."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Quantum DMG equal to 225% of Rin Tohsaka's ATK to one designated enemy target."
+                  }
+                ]
               },
               {
                 "name": "Second Magic Experiment",
                 "type": "Skill",
                 "desc": "Deals Quantum DMG equal to 113% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 113% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 45% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 45% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 49.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 49.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 54% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 54% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 58.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 58.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 63% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 63% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 67.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 67.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 73.1% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 73.1% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 78.8% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 78.8% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 84.4% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 84.4% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 90% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 90% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Quantum DMG equal to 94.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 94.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Quantum DMG equal to 99% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 99% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Quantum DMG equal to 103% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 103% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Quantum DMG equal to 108% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 108% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Quantum DMG equal to 113% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to 113% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed."
+                  }
+                ]
               },
               {
                 "name": "An Gal Ta Ki Gal \u0160\u00e8",
                 "type": "Ultimate",
                 "desc": "Deals Quantum DMG equal to 750% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 250% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 25% for 3 turn(s).",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 300% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 100% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 10% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 330% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 110% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 11% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 360% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 120% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 12% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 390% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 130% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 13% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 420% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 140% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 14% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 450% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 150% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 15% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 488% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 163% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 16.3% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 525% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 175% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 17.5% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 563% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 188% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 18.8% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 600% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 200% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 20% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Quantum DMG equal to 630% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 210% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 21% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Quantum DMG equal to 660% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 220% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 22% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Quantum DMG equal to 690% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 230% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 23% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Quantum DMG equal to 720% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 240% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 24% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Quantum DMG equal to 750% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 250% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 25% for 3 turn(s)."
+                  }
+                ]
               },
               {
                 "name": "Conversion Charge",
@@ -16041,13 +20393,137 @@
                 "name": "Gem Magecraft",
                 "type": "Talent",
                 "desc": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 87.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\"",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 35% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 38.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 42% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 45.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 49% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 52.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 56.9% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 61.3% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 65.6% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 70% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 73.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 77% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 80.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 84% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 87.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\""
+                  }
+                ]
               },
               {
                 "name": "Freeform Tohsaka Style",
                 "type": "Talent",
                 "desc": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 375% of Rin Tohsaka's ATK and 375% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 150% of Rin Tohsaka's ATK and 150% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 165% of Rin Tohsaka's ATK and 165% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 180% of Rin Tohsaka's ATK and 180% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 195% of Rin Tohsaka's ATK and 195% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 210% of Rin Tohsaka's ATK and 210% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 225% of Rin Tohsaka's ATK and 225% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 244% of Rin Tohsaka's ATK and 244% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 263% of Rin Tohsaka's ATK and 263% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 281% of Rin Tohsaka's ATK and 281% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 300% of Rin Tohsaka's ATK and 300% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 315% of Rin Tohsaka's ATK and 315% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 330% of Rin Tohsaka's ATK and 330% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 345% of Rin Tohsaka's ATK and 345% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 360% of Rin Tohsaka's ATK and 360% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 375% of Rin Tohsaka's ATK and 375% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  }
+                ]
               }
             ]
           },
@@ -17137,13 +21613,97 @@
                 "name": "One Punch!",
                 "type": "Basic ATK",
                 "desc": "Deals Imaginary DMG equal to 140% of Silver Wolf LV.999's ATK to one designated enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Imaginary DMG equal to 50% of Silver Wolf LV.999's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Imaginary DMG equal to 60% of Silver Wolf LV.999's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Imaginary DMG equal to 70% of Silver Wolf LV.999's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Imaginary DMG equal to 80% of Silver Wolf LV.999's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Imaginary DMG equal to 90% of Silver Wolf LV.999's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Imaginary DMG equal to 100% of Silver Wolf LV.999's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Imaginary DMG equal to 110% of Silver Wolf LV.999's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Imaginary DMG equal to 120% of Silver Wolf LV.999's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Imaginary DMG equal to 130% of Silver Wolf LV.999's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Imaginary DMG equal to 140% of Silver Wolf LV.999's ATK to one designated enemy."
+                  }
+                ]
               },
               {
                 "name": "Bonus Stage: \u03b1Wolf Instant",
                 "type": "Basic ATK",
                 "desc": "Deals Imaginary DMG equal to a total of 336% of Silver Wolf LV.999's ATK, split evenly into 100 hits that bounce onto random enemies. After every set number of bounces, the bouncing pauses and the Top Loot Box triggers 1 time. Can trigger up to 3 time(s) in total.\\nWhen dealing fatal damage to all enemies on the field, this ability ends. After attackable enemy targets appear, gains 1 extra turn and uses this ability again based on the remaining number of bounces and Top Loot Box triggers. The first time this effect triggers in each turn, extends the duration of all buffs on this unit by 1 turn.\\nAfter all of the above DMG is dealt, launches a Final Hit that deals Imaginary DMG equal to 140% of Silver Wolf LV.999's ATK, split evenly among all enemies.\\nEnhanced Basic ATK cannot recover Skill Points. For every 60 points of \"Hidden MMR\" held, increases DMG dealt during Enhanced Basic ATK by 15% of the original DMG, stacking up to 2 time(s).",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Imaginary DMG equal to a total of 120% of Silver Wolf LV.999's ATK, split evenly into 100 hits that bounce onto random enemies. After every set number of bounces, the bouncing pauses and the Top Loot Box triggers 1 time. Can trigger up to 3 time(s) in total.\\nWhen dealing fatal damage to all enemies on the field, this ability ends. After attackable enemy targets appear, gains 1 extra turn and uses this ability again based on the remaining number of bounces and Top Loot Box triggers. The first time this effect triggers in each turn, extends the duration of all buffs on this unit by 1 turn.\\nAfter all of the above DMG is dealt, launches a Final Hit that deals Imaginary DMG equal to 50% of Silver Wolf LV.999's ATK, split evenly among all enemies.\\nEnhanced Basic ATK cannot recover Skill Points. For every 60 points of \"Hidden MMR\" held, increases DMG dealt during Enhanced Basic ATK by 15% of the original DMG, stacking up to 2 time(s)."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Imaginary DMG equal to a total of 144% of Silver Wolf LV.999's ATK, split evenly into 100 hits that bounce onto random enemies. After every set number of bounces, the bouncing pauses and the Top Loot Box triggers 1 time. Can trigger up to 3 time(s) in total.\\nWhen dealing fatal damage to all enemies on the field, this ability ends. After attackable enemy targets appear, gains 1 extra turn and uses this ability again based on the remaining number of bounces and Top Loot Box triggers. The first time this effect triggers in each turn, extends the duration of all buffs on this unit by 1 turn.\\nAfter all of the above DMG is dealt, launches a Final Hit that deals Imaginary DMG equal to 60% of Silver Wolf LV.999's ATK, split evenly among all enemies.\\nEnhanced Basic ATK cannot recover Skill Points. For every 60 points of \"Hidden MMR\" held, increases DMG dealt during Enhanced Basic ATK by 15% of the original DMG, stacking up to 2 time(s)."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Imaginary DMG equal to a total of 168% of Silver Wolf LV.999's ATK, split evenly into 100 hits that bounce onto random enemies. After every set number of bounces, the bouncing pauses and the Top Loot Box triggers 1 time. Can trigger up to 3 time(s) in total.\\nWhen dealing fatal damage to all enemies on the field, this ability ends. After attackable enemy targets appear, gains 1 extra turn and uses this ability again based on the remaining number of bounces and Top Loot Box triggers. The first time this effect triggers in each turn, extends the duration of all buffs on this unit by 1 turn.\\nAfter all of the above DMG is dealt, launches a Final Hit that deals Imaginary DMG equal to 70% of Silver Wolf LV.999's ATK, split evenly among all enemies.\\nEnhanced Basic ATK cannot recover Skill Points. For every 60 points of \"Hidden MMR\" held, increases DMG dealt during Enhanced Basic ATK by 15% of the original DMG, stacking up to 2 time(s)."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Imaginary DMG equal to a total of 192% of Silver Wolf LV.999's ATK, split evenly into 100 hits that bounce onto random enemies. After every set number of bounces, the bouncing pauses and the Top Loot Box triggers 1 time. Can trigger up to 3 time(s) in total.\\nWhen dealing fatal damage to all enemies on the field, this ability ends. After attackable enemy targets appear, gains 1 extra turn and uses this ability again based on the remaining number of bounces and Top Loot Box triggers. The first time this effect triggers in each turn, extends the duration of all buffs on this unit by 1 turn.\\nAfter all of the above DMG is dealt, launches a Final Hit that deals Imaginary DMG equal to 80% of Silver Wolf LV.999's ATK, split evenly among all enemies.\\nEnhanced Basic ATK cannot recover Skill Points. For every 60 points of \"Hidden MMR\" held, increases DMG dealt during Enhanced Basic ATK by 15% of the original DMG, stacking up to 2 time(s)."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Imaginary DMG equal to a total of 216% of Silver Wolf LV.999's ATK, split evenly into 100 hits that bounce onto random enemies. After every set number of bounces, the bouncing pauses and the Top Loot Box triggers 1 time. Can trigger up to 3 time(s) in total.\\nWhen dealing fatal damage to all enemies on the field, this ability ends. After attackable enemy targets appear, gains 1 extra turn and uses this ability again based on the remaining number of bounces and Top Loot Box triggers. The first time this effect triggers in each turn, extends the duration of all buffs on this unit by 1 turn.\\nAfter all of the above DMG is dealt, launches a Final Hit that deals Imaginary DMG equal to 90% of Silver Wolf LV.999's ATK, split evenly among all enemies.\\nEnhanced Basic ATK cannot recover Skill Points. For every 60 points of \"Hidden MMR\" held, increases DMG dealt during Enhanced Basic ATK by 15% of the original DMG, stacking up to 2 time(s)."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Imaginary DMG equal to a total of 240% of Silver Wolf LV.999's ATK, split evenly into 100 hits that bounce onto random enemies. After every set number of bounces, the bouncing pauses and the Top Loot Box triggers 1 time. Can trigger up to 3 time(s) in total.\\nWhen dealing fatal damage to all enemies on the field, this ability ends. After attackable enemy targets appear, gains 1 extra turn and uses this ability again based on the remaining number of bounces and Top Loot Box triggers. The first time this effect triggers in each turn, extends the duration of all buffs on this unit by 1 turn.\\nAfter all of the above DMG is dealt, launches a Final Hit that deals Imaginary DMG equal to 100% of Silver Wolf LV.999's ATK, split evenly among all enemies.\\nEnhanced Basic ATK cannot recover Skill Points. For every 60 points of \"Hidden MMR\" held, increases DMG dealt during Enhanced Basic ATK by 15% of the original DMG, stacking up to 2 time(s)."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Imaginary DMG equal to a total of 264% of Silver Wolf LV.999's ATK, split evenly into 100 hits that bounce onto random enemies. After every set number of bounces, the bouncing pauses and the Top Loot Box triggers 1 time. Can trigger up to 3 time(s) in total.\\nWhen dealing fatal damage to all enemies on the field, this ability ends. After attackable enemy targets appear, gains 1 extra turn and uses this ability again based on the remaining number of bounces and Top Loot Box triggers. The first time this effect triggers in each turn, extends the duration of all buffs on this unit by 1 turn.\\nAfter all of the above DMG is dealt, launches a Final Hit that deals Imaginary DMG equal to 110% of Silver Wolf LV.999's ATK, split evenly among all enemies.\\nEnhanced Basic ATK cannot recover Skill Points. For every 60 points of \"Hidden MMR\" held, increases DMG dealt during Enhanced Basic ATK by 15% of the original DMG, stacking up to 2 time(s)."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Imaginary DMG equal to a total of 288% of Silver Wolf LV.999's ATK, split evenly into 100 hits that bounce onto random enemies. After every set number of bounces, the bouncing pauses and the Top Loot Box triggers 1 time. Can trigger up to 3 time(s) in total.\\nWhen dealing fatal damage to all enemies on the field, this ability ends. After attackable enemy targets appear, gains 1 extra turn and uses this ability again based on the remaining number of bounces and Top Loot Box triggers. The first time this effect triggers in each turn, extends the duration of all buffs on this unit by 1 turn.\\nAfter all of the above DMG is dealt, launches a Final Hit that deals Imaginary DMG equal to 120% of Silver Wolf LV.999's ATK, split evenly among all enemies.\\nEnhanced Basic ATK cannot recover Skill Points. For every 60 points of \"Hidden MMR\" held, increases DMG dealt during Enhanced Basic ATK by 15% of the original DMG, stacking up to 2 time(s)."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Imaginary DMG equal to a total of 312% of Silver Wolf LV.999's ATK, split evenly into 100 hits that bounce onto random enemies. After every set number of bounces, the bouncing pauses and the Top Loot Box triggers 1 time. Can trigger up to 3 time(s) in total.\\nWhen dealing fatal damage to all enemies on the field, this ability ends. After attackable enemy targets appear, gains 1 extra turn and uses this ability again based on the remaining number of bounces and Top Loot Box triggers. The first time this effect triggers in each turn, extends the duration of all buffs on this unit by 1 turn.\\nAfter all of the above DMG is dealt, launches a Final Hit that deals Imaginary DMG equal to 130% of Silver Wolf LV.999's ATK, split evenly among all enemies.\\nEnhanced Basic ATK cannot recover Skill Points. For every 60 points of \"Hidden MMR\" held, increases DMG dealt during Enhanced Basic ATK by 15% of the original DMG, stacking up to 2 time(s)."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Imaginary DMG equal to a total of 336% of Silver Wolf LV.999's ATK, split evenly into 100 hits that bounce onto random enemies. After every set number of bounces, the bouncing pauses and the Top Loot Box triggers 1 time. Can trigger up to 3 time(s) in total.\\nWhen dealing fatal damage to all enemies on the field, this ability ends. After attackable enemy targets appear, gains 1 extra turn and uses this ability again based on the remaining number of bounces and Top Loot Box triggers. The first time this effect triggers in each turn, extends the duration of all buffs on this unit by 1 turn.\\nAfter all of the above DMG is dealt, launches a Final Hit that deals Imaginary DMG equal to 140% of Silver Wolf LV.999's ATK, split evenly among all enemies.\\nEnhanced Basic ATK cannot recover Skill Points. For every 60 points of \"Hidden MMR\" held, increases DMG dealt during Enhanced Basic ATK by 15% of the original DMG, stacking up to 2 time(s)."
+                  }
+                ]
               },
               {
                 "name": "Big Flipping Sword",
@@ -17167,13 +21727,137 @@
                 "name": "Trigger Happy",
                 "type": "Skill",
                 "desc": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 200% of Silver Wolf LV.999's ATK to all enemies.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 80% of Silver Wolf LV.999's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 88% of Silver Wolf LV.999's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 96% of Silver Wolf LV.999's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 104% of Silver Wolf LV.999's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 112% of Silver Wolf LV.999's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 120% of Silver Wolf LV.999's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 130% of Silver Wolf LV.999's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 140% of Silver Wolf LV.999's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 150% of Silver Wolf LV.999's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 160% of Silver Wolf LV.999's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 168% of Silver Wolf LV.999's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 176% of Silver Wolf LV.999's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 184% of Silver Wolf LV.999's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 192% of Silver Wolf LV.999's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 200% of Silver Wolf LV.999's ATK to all enemies."
+                  }
+                ]
               },
               {
                 "name": "God Mode: ON!",
                 "type": "Ultimate",
                 "desc": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 113% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 45% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 49.5% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 54% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 58.5% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 63% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 67.5% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 73.1% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 78.8% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 84.4% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 90% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 94.5% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 99% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 103% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 108% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 113% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target."
+                  }
+                ]
               },
               {
                 "name": "This? Absolute Meta!",
@@ -17190,7 +21874,69 @@
                 "name": "I Carry, We Win",
                 "type": "Talent",
                 "desc": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.5%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 1%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 50% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.2%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 0.4%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 20% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.22%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 0.44%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 22% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.24%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 0.48%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 24% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.26%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 0.52%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 26% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.28%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 0.56%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 28% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.3%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 0.6%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 30% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.33%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 0.65%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 32.5% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.35%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 0.7%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 35% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.38%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 0.75%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 37.5% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.4%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 0.8%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 40% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.42%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 0.84%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 42% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.44%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 0.88%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 44% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.46%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 0.92%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 46% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.48%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 0.96%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 48% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.5%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 1%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 50% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier."
+                  }
+                ]
               },
               {
                 "name": "Pro-Gamer Move",
@@ -17202,7 +21948,69 @@
                 "name": "Honkai-DMG Demo",
                 "type": "Elation Skill",
                 "desc": "Deals 6 instances of DMG, with each instance dealing 113% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Elation.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Elation.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals 6 instances of DMG, with each instance dealing 45% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals 6 instances of DMG, with each instance dealing 49.5% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals 6 instances of DMG, with each instance dealing 54% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals 6 instances of DMG, with each instance dealing 58.5% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals 6 instances of DMG, with each instance dealing 63% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals 6 instances of DMG, with each instance dealing 67.5% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals 6 instances of DMG, with each instance dealing 73.1% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals 6 instances of DMG, with each instance dealing 78.8% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals 6 instances of DMG, with each instance dealing 84.4% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals 6 instances of DMG, with each instance dealing 90% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals 6 instances of DMG, with each instance dealing 94.5% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals 6 instances of DMG, with each instance dealing 99% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals 6 instances of DMG, with each instance dealing 103% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals 6 instances of DMG, with each instance dealing 108% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals 6 instances of DMG, with each instance dealing 113% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value."
+                  }
+                ]
               }
             ]
           },
@@ -18302,13 +23110,97 @@
                 "name": "Cat Got Your Flametongue?",
                 "type": "Basic ATK",
                 "desc": "Deals Fire DMG equal to 140% of Sparxie's ATK to one designated enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 50% of Sparxie's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 60% of Sparxie's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 70% of Sparxie's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 80% of Sparxie's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 90% of Sparxie's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 100% of Sparxie's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 110% of Sparxie's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 120% of Sparxie's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 130% of Sparxie's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 140% of Sparxie's ATK to one designated enemy."
+                  }
+                ]
               },
               {
                 "name": "Bloom! Winner Takes All",
                 "type": "Basic ATK",
                 "desc": "Finalizes the livestream. Deals Fire DMG equal to 140% of Sparxie's ATK to one designated enemy, and Fire DMG equal to 70% of Sparxie's ATK to adjacent targets.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Finalizes the livestream. Deals Fire DMG equal to 50% of Sparxie's ATK to one designated enemy, and Fire DMG equal to 25% of Sparxie's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Finalizes the livestream. Deals Fire DMG equal to 60% of Sparxie's ATK to one designated enemy, and Fire DMG equal to 30% of Sparxie's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Finalizes the livestream. Deals Fire DMG equal to 70% of Sparxie's ATK to one designated enemy, and Fire DMG equal to 35% of Sparxie's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Finalizes the livestream. Deals Fire DMG equal to 80% of Sparxie's ATK to one designated enemy, and Fire DMG equal to 40% of Sparxie's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Finalizes the livestream. Deals Fire DMG equal to 90% of Sparxie's ATK to one designated enemy, and Fire DMG equal to 45% of Sparxie's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Finalizes the livestream. Deals Fire DMG equal to 100% of Sparxie's ATK to one designated enemy, and Fire DMG equal to 50% of Sparxie's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Finalizes the livestream. Deals Fire DMG equal to 110% of Sparxie's ATK to one designated enemy, and Fire DMG equal to 55% of Sparxie's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Finalizes the livestream. Deals Fire DMG equal to 120% of Sparxie's ATK to one designated enemy, and Fire DMG equal to 60% of Sparxie's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Finalizes the livestream. Deals Fire DMG equal to 130% of Sparxie's ATK to one designated enemy, and Fire DMG equal to 65% of Sparxie's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Finalizes the livestream. Deals Fire DMG equal to 140% of Sparxie's ATK to one designated enemy, and Fire DMG equal to 70% of Sparxie's ATK to adjacent targets."
+                  }
+                ]
               },
               {
                 "name": "Boom! Sparxicle's Poppin'",
@@ -18320,13 +23212,137 @@
                 "name": "Engagement Farming",
                 "type": "Skill",
                 "desc": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 25% and the DMG multiplier against adjacent targets by 12.5%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 10% and the DMG multiplier against adjacent targets by 5%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 11% and the DMG multiplier against adjacent targets by 5.5%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 12% and the DMG multiplier against adjacent targets by 6%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 13% and the DMG multiplier against adjacent targets by 6.5%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 14% and the DMG multiplier against adjacent targets by 7%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 15% and the DMG multiplier against adjacent targets by 7.5%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 16.3% and the DMG multiplier against adjacent targets by 8.13%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 17.5% and the DMG multiplier against adjacent targets by 8.75%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 18.8% and the DMG multiplier against adjacent targets by 9.38%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 20% and the DMG multiplier against adjacent targets by 10%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 21% and the DMG multiplier against adjacent targets by 10.5%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 22% and the DMG multiplier against adjacent targets by 11%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 23% and the DMG multiplier against adjacent targets by 11.5%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 24% and the DMG multiplier against adjacent targets by 12%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 25% and the DMG multiplier against adjacent targets by 12.5%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill."
+                  }
+                ]
               },
               {
                 "name": "Party's Wildin' and Camera's Rollin'",
                 "type": "Ultimate",
                 "desc": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 60%) of Sparxie's ATK to all enemies.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 30%) of Sparxie's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 32%) of Sparxie's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 34%) of Sparxie's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 36%) of Sparxie's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 38%) of Sparxie's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 40%) of Sparxie's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 42.5%) of Sparxie's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 45%) of Sparxie's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 47.5%) of Sparxie's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 50%) of Sparxie's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 52%) of Sparxie's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 54%) of Sparxie's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 56%) of Sparxie's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 58%) of Sparxie's ATK to all enemies."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 60%) of Sparxie's ATK to all enemies."
+                  }
+                ]
               },
               {
                 "name": "Content Monetization",
@@ -18343,13 +23359,137 @@
                 "name": "Sleight of Sparx Hand",
                 "type": "Talent",
                 "desc": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 50% Fire Elation DMG to one designated enemy, and 25% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 25% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 60% Fire Elation DMG to all enemies.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 20% Fire Elation DMG to one designated enemy, and 10% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 10% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 24% Fire Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 22% Fire Elation DMG to one designated enemy, and 11% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 11% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 26.4% Fire Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 24% Fire Elation DMG to one designated enemy, and 12% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 12% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 28.8% Fire Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 26% Fire Elation DMG to one designated enemy, and 13% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 13% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 31.2% Fire Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 28% Fire Elation DMG to one designated enemy, and 14% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 14% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 33.6% Fire Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 30% Fire Elation DMG to one designated enemy, and 15% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 15% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 36% Fire Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 32.5% Fire Elation DMG to one designated enemy, and 16.3% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 16.3% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 39% Fire Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 35% Fire Elation DMG to one designated enemy, and 17.5% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 17.5% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 42% Fire Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 37.5% Fire Elation DMG to one designated enemy, and 18.8% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 18.8% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 45% Fire Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 40% Fire Elation DMG to one designated enemy, and 20% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 20% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 48% Fire Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 42% Fire Elation DMG to one designated enemy, and 21% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 21% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 50.4% Fire Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 44% Fire Elation DMG to one designated enemy, and 22% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 22% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 52.8% Fire Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 46% Fire Elation DMG to one designated enemy, and 23% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 23% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 55.2% Fire Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 48% Fire Elation DMG to one designated enemy, and 24% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 24% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 57.6% Fire Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 50% Fire Elation DMG to one designated enemy, and 25% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 25% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 60% Fire Elation DMG to all enemies."
+                  }
+                ]
               },
               {
                 "name": "Signal Overflow: The Great Encore!",
                 "type": "Elation Skill",
                 "desc": "Deals 62.5% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 31.3% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Elation.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Elation.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals 25% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 12.5% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals 27.5% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 13.8% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals 30% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 15% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals 32.5% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 16.3% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals 35% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 17.5% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals 37.5% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 18.8% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals 40.6% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 20.3% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals 43.8% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 21.9% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals 46.9% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 23.4% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals 50% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 25% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals 52.5% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 26.3% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals 55% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 27.5% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals 57.5% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 28.7% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals 60% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 30% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals 62.5% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 31.3% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points."
+                  }
+                ]
               }
             ]
           },
@@ -19449,19 +24589,185 @@
                 "name": "Fiddle... Fissured Memory",
                 "type": "Basic ATK",
                 "desc": "Deals Fire DMG equal to 140% of The Dahlia's ATK to one designated enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Normal.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 50% of The Dahlia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 60% of The Dahlia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 70% of The Dahlia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 80% of The Dahlia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 90% of The Dahlia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 100% of The Dahlia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 110% of The Dahlia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 120% of The Dahlia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 130% of The Dahlia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 140% of The Dahlia's ATK to one designated enemy."
+                  }
+                ]
               },
               {
                 "name": "Lick... Enkindled Betrayal",
                 "type": "Skill",
                 "desc": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 200% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_BP.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 80% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 88% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 96% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 104% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 112% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 120% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 130% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 140% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 150% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 160% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 168% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 176% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 184% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 192% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 200% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG."
+                  }
+                ]
               },
               {
                 "name": "Wallow... Entombed Ash",
                 "type": "Ultimate",
                 "desc": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 360% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 23% and will be implanted with Weakness of all Dance Partners' Types.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Ultra.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 180% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 8% and will be implanted with Weakness of all Dance Partners' Types."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 192% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 9% and will be implanted with Weakness of all Dance Partners' Types."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 204% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 10% and will be implanted with Weakness of all Dance Partners' Types."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 216% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 11% and will be implanted with Weakness of all Dance Partners' Types."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 228% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 12% and will be implanted with Weakness of all Dance Partners' Types."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 240% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 13% and will be implanted with Weakness of all Dance Partners' Types."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 255% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 14.2% and will be implanted with Weakness of all Dance Partners' Types."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 270% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 15.5% and will be implanted with Weakness of all Dance Partners' Types."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 285% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 16.8% and will be implanted with Weakness of all Dance Partners' Types."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 300% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 18% and will be implanted with Weakness of all Dance Partners' Types."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 312% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 19% and will be implanted with Weakness of all Dance Partners' Types."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 324% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 20% and will be implanted with Weakness of all Dance Partners' Types."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 336% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 21% and will be implanted with Weakness of all Dance Partners' Types."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 348% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 22% and will be implanted with Weakness of all Dance Partners' Types."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 360% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 23% and will be implanted with Weakness of all Dance Partners' Types."
+                  }
+                ]
               },
               {
                 "name": "The Heart Makes the Finest Tomb",
@@ -19478,7 +24784,69 @@
                 "name": "Who's Afraid of Constance?",
                 "type": "Talent",
                 "desc": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 75%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 37.5% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 250%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Passive.webp"
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 30%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 15% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 100%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 33%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 16.5% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 110%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 36%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 18% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 120%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 39%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 19.5% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 130%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 42%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 21% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 140%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 45%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 22.5% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 150%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 48.8%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 24.4% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 163%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 52.5%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 26.3% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 175%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 56.3%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 28.1% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 188%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 60%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 30% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 200%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 63%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 31.5% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 210%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 66%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 33% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 220%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 69%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 34.5% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 230%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 72%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 36% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 240%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 75%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 37.5% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 250%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead."
+                  }
+                ]
               }
             ]
           },

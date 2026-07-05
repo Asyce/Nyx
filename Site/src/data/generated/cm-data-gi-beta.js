@@ -50,19 +50,491 @@
                 "name": "Formule Phenomenale: Self-Evident Proposition",
                 "type": "Talent",
                 "desc": "Normal Attack\\nGenerates threads that control her weapon using formulae, performing up to 3 consecutive strikes.\\n\\nCharged Attack\\nSummons the Facilitatrice Automatisee Generaliste Interactive et Omnitache, or \"Fagio,\" and switches it to Decoding mode: Unleashes a sweeping fire attack on enemies in front, as well as periodically fires condensed beams, dealing AoE Cryo DMG.\\nRadiance: Stellar Glimmer: The condensed beams will instead deal AoE Cryo DMG that is considered Stellar reaction DMG.\\nWhile in Decoding mode, Fagio's Decoding Power will continuously increase. Firing condensed beams will also further increase its Decoding Power.\\nWhen Fagio's Decoding Power reaches the maximum of 100 points, it switches to Power Overdrive mode, in which it fires at opponents with longer intervals, dealing Cryo DMG. It will be unable to switch to Decoding mode at this time.\\nWhen not in Decoding mode, Fagio's Decoding Power gradually decreases. When Sandrone is off-field, she will focus on maintaining Fagio, causing its Decoding Power to decrease at 300% the original rate.\\nFagio exits Power Overdrive mode when its Decoding Power has decreased to under 50.\\n\\nPlunging Attack\\nPlunges from midair to strike the ground below, dealing DMG to opponents along their path and causing AoE DMG on landing.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "76.3%",
+                          "82.5%",
+                          "88.7%",
+                          "97.6%",
+                          "103.8%",
+                          "110.9%",
+                          "120.6%",
+                          "130.4%",
+                          "140.2%",
+                          "150.8%",
+                          "161.4%",
+                          "172.1%",
+                          "182.7%",
+                          "193.4%",
+                          "204%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "67.2%",
+                          "72.7%",
+                          "78.1%",
+                          "85.9%",
+                          "91.4%",
+                          "97.7%",
+                          "106.3%",
+                          "114.9%",
+                          "123.5%",
+                          "132.8%",
+                          "142.2%",
+                          "151.6%",
+                          "161%",
+                          "170.3%",
+                          "179.7%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "102.8%",
+                          "111.2%",
+                          "119.5%",
+                          "131.5%",
+                          "139.9%",
+                          "149.4%",
+                          "162.6%",
+                          "175.7%",
+                          "188.9%",
+                          "203.2%",
+                          "217.6%",
+                          "231.9%",
+                          "246.3%",
+                          "260.6%",
+                          "274.9%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Sweeping Fire DMG",
+                        "values": [
+                          "43%",
+                          "46.5%",
+                          "50%",
+                          "55%",
+                          "58.5%",
+                          "62.5%",
+                          "68%",
+                          "73.5%",
+                          "79%",
+                          "85%",
+                          "91%",
+                          "97%",
+                          "103%",
+                          "109%",
+                          "115%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Condensed Beam DMG",
+                        "values": [
+                          "122.5%",
+                          "132.5%",
+                          "142.5%",
+                          "156.8%",
+                          "166.7%",
+                          "178.1%",
+                          "193.8%",
+                          "209.5%",
+                          "225.2%",
+                          "242.3%",
+                          "259.4%",
+                          "276.4%",
+                          "293.6%",
+                          "310.6%",
+                          "327.8%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Condensed Beam Stellar-Conduct DMG",
+                        "values": [
+                          "81.7%",
+                          "88.3%",
+                          "95%",
+                          "104.5%",
+                          "111.1%",
+                          "118.8%",
+                          "129.2%",
+                          "139.7%",
+                          "150.1%",
+                          "161.5%",
+                          "172.9%",
+                          "184.3%",
+                          "195.7%",
+                          "207.1%",
+                          "218.5%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Condensed Beam Stellar Swirl DMG",
+                        "values": [
+                          "122.5%",
+                          "132.5%",
+                          "142.5%",
+                          "156.8%",
+                          "166.7%",
+                          "178.1%",
+                          "193.8%",
+                          "209.5%",
+                          "225.2%",
+                          "242.3%",
+                          "259.4%",
+                          "276.4%",
+                          "293.6%",
+                          "310.6%",
+                          "327.8%"
+                        ]
+                      },
+                      {
+                        "label": "DMG When in Power Overdrive",
+                        "values": [
+                          "43%",
+                          "46.5%",
+                          "50%",
+                          "55%",
+                          "58.5%",
+                          "62.5%",
+                          "68%",
+                          "73.5%",
+                          "79%",
+                          "85%",
+                          "91%",
+                          "97%",
+                          "103%",
+                          "109%",
+                          "115%"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "74.6%",
+                          "80.7%",
+                          "86.7%",
+                          "95.4%",
+                          "101.5%",
+                          "108.4%",
+                          "118%",
+                          "127.5%",
+                          "137%",
+                          "147.4%",
+                          "157.8%",
+                          "168.3%",
+                          "178.7%",
+                          "189.1%",
+                          "199.5%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "149.1%/186.3%",
+                          "161.3%/201.5%",
+                          "173.4%/216.6%",
+                          "190.8%/238.3%",
+                          "202.9%/253.4%",
+                          "216.8%/270.8%",
+                          "235.9%/294.6%",
+                          "254.9%/318.4%",
+                          "274%/342.3%",
+                          "294.8%/368.2%",
+                          "315.6%/394.2%",
+                          "336.4%/420.2%",
+                          "357.3%/446.2%",
+                          "378.1%/472.2%",
+                          "398.9%/498.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Formule Phenomenale: Differential Analysis",
                 "type": "Talent",
                 "desc": "With her impeccable, ladylike poise, Sandrone boards the Tea Party Tactical Assault Hovermech and hovers forward for 6s. During this time, Sandrone can control the travel direction of the craft. Pressing Sprint consumes 10 Stamina and launches her into an elegant high-speed hover mode, in which she will move even faster at the cost of 15 Stamina per second.\\n\\nWhen Sandrone starts hovering, if there are opponents nearby, she will also summon a Prismatic Resonance Cannon and fire 2 Prism Shots at any opponents who have yet to cool down, dealing Cryo DMG.\\nRadiance: Stellar Glimmer: The second Prism Shot will instead deal Cryo DMG that is considered Stellar reaction DMG.\\n\\nWhen on the Tea Party Tactical Assault Hovermech, Sandrone will also elegantly and quietly repair Fagio, causing Decoding Power to swiftly decrease.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_MarionetteNew_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_MarionetteNew_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Prism Shot DMG",
+                        "values": [
+                          "32.4%",
+                          "34.8%",
+                          "37.3%",
+                          "40.5%",
+                          "42.9%",
+                          "45.4%",
+                          "48.6%",
+                          "51.8%",
+                          "55.1%",
+                          "58.3%",
+                          "61.6%",
+                          "64.8%",
+                          "68.8%",
+                          "72.9%",
+                          "77%"
+                        ]
+                      },
+                      {
+                        "label": "Prism Shot Stellar-Conduct DMG",
+                        "values": [
+                          "21.6%",
+                          "23.2%",
+                          "24.8%",
+                          "27%",
+                          "28.6%",
+                          "30.2%",
+                          "32.4%",
+                          "34.6%",
+                          "36.7%",
+                          "38.9%",
+                          "41%",
+                          "43.2%",
+                          "45.9%",
+                          "48.6%",
+                          "51.3%"
+                        ]
+                      },
+                      {
+                        "label": "Prism Shot Stellar Swirl DMG",
+                        "values": [
+                          "32.4%",
+                          "34.8%",
+                          "37.3%",
+                          "40.5%",
+                          "42.9%",
+                          "45.4%",
+                          "48.6%",
+                          "51.8%",
+                          "55.1%",
+                          "58.3%",
+                          "61.6%",
+                          "64.8%",
+                          "68.8%",
+                          "72.9%",
+                          "77%"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "4s",
+                          "4s",
+                          "4s",
+                          "4s",
+                          "4s",
+                          "4s",
+                          "4s",
+                          "4s",
+                          "4s",
+                          "4s",
+                          "4s",
+                          "4s",
+                          "4s",
+                          "4s",
+                          "4s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Formule Phenomenale: Q.E.D.",
                 "type": "Talent",
                 "desc": "In line with established ladylike behavior, Sandrone summons a large number of Prismatic Resonance Cannons for a frontal bombardment before firing on her foes with a Convective Inhibition Ray, dealing AoE Cryo DMG.\\nRadiance: Stellar Glimmer: The Convective Inhibition Ray instead deals AoE Cryo DMG that is considered Stellar reaction DMG.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_MarionetteNew_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_MarionetteNew_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Bombardment DMG",
+                        "values": [
+                          "88.2% \u00d73",
+                          "94.8% \u00d73",
+                          "101.4% \u00d73",
+                          "110.3% \u00d73",
+                          "116.9% \u00d73",
+                          "123.5% \u00d73",
+                          "132.3% \u00d73",
+                          "141.1% \u00d73",
+                          "150% \u00d73",
+                          "158.8% \u00d73",
+                          "167.6% \u00d73",
+                          "176.4% \u00d73",
+                          "187.5% \u00d73",
+                          "198.5% \u00d73",
+                          "209.5% \u00d73"
+                        ]
+                      },
+                      {
+                        "label": "Convective Inhibition Ray DMG",
+                        "values": [
+                          "330.8%",
+                          "355.6%",
+                          "380.4%",
+                          "413.5%",
+                          "438.3%",
+                          "463.1%",
+                          "496.2%",
+                          "529.3%",
+                          "562.4%",
+                          "595.4%",
+                          "628.5%",
+                          "661.6%",
+                          "702.9%",
+                          "744.3%",
+                          "785.6%"
+                        ]
+                      },
+                      {
+                        "label": "Convective Inhibition Ray Stellar-Conduct DMG",
+                        "values": [
+                          "220.5%",
+                          "237.1%",
+                          "253.6%",
+                          "275.7%",
+                          "292.2%",
+                          "308.7%",
+                          "330.8%",
+                          "352.9%",
+                          "374.9%",
+                          "397%",
+                          "419%",
+                          "441.1%",
+                          "468.6%",
+                          "496.2%",
+                          "523.8%"
+                        ]
+                      },
+                      {
+                        "label": "Convective Inhibition Ray Stellar Swirl DMG",
+                        "values": [
+                          "330.8%",
+                          "355.6%",
+                          "380.4%",
+                          "413.5%",
+                          "438.3%",
+                          "463.1%",
+                          "496.2%",
+                          "529.3%",
+                          "562.4%",
+                          "595.4%",
+                          "628.5%",
+                          "661.6%",
+                          "702.9%",
+                          "744.3%",
+                          "785.6%"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      },
+                      {
+                        "label": "Energy Cost",
+                        "values": [
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2257,19 +2729,391 @@
                 "name": "Badaboom! Hexbuster Hammer",
                 "type": "Talent",
                 "desc": "Normal Attack\\nPerforms up to 3 attacks by swinging the Banehunter Oathhammer, dealing Anemo DMG.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina and performs an upward hammer swing, dealing Anemo DMG to opponents in front.\\n\\nPlunging Attack\\nCalling upon the power of Anemo, she plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "48.6%",
+                          "52.3%",
+                          "55.9%",
+                          "60.8%",
+                          "64.4%",
+                          "68.1%",
+                          "72.9%",
+                          "77.8%",
+                          "82.7%",
+                          "87.5%",
+                          "92.4%",
+                          "97.2%",
+                          "103.3%",
+                          "109.4%",
+                          "115.5%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "48.3%",
+                          "51.9%",
+                          "55.5%",
+                          "60.4%",
+                          "64%",
+                          "67.6%",
+                          "72.4%",
+                          "77.2%",
+                          "82.1%",
+                          "86.9%",
+                          "91.7%",
+                          "96.6%",
+                          "102.6%",
+                          "108.6%",
+                          "114.7%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "68%",
+                          "73.1%",
+                          "78.2%",
+                          "85%",
+                          "90.1%",
+                          "95.2%",
+                          "102%",
+                          "108.8%",
+                          "115.6%",
+                          "122.4%",
+                          "129.2%",
+                          "136%",
+                          "144.5%",
+                          "152.9%",
+                          "161.4%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack DMG",
+                        "values": [
+                          "133.5%",
+                          "143.5%",
+                          "153.5%",
+                          "166.9%",
+                          "176.9%",
+                          "186.9%",
+                          "200.3%",
+                          "213.6%",
+                          "227%",
+                          "240.3%",
+                          "253.7%",
+                          "267%",
+                          "283.7%",
+                          "300.4%",
+                          "317.1%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Stamina Cost",
+                        "values": [
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "56.8%",
+                          "61.5%",
+                          "66.1%",
+                          "72.7%",
+                          "77.3%",
+                          "82.6%",
+                          "89.9%",
+                          "97.1%",
+                          "104.4%",
+                          "112.3%",
+                          "120.3%",
+                          "128.2%",
+                          "136.1%",
+                          "144.1%",
+                          "152%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "113.6%/141.9%",
+                          "122.9%/153.5%",
+                          "132.1%/165%",
+                          "145.3%/181.5%",
+                          "154.6%/193.1%",
+                          "165.2%/206.3%",
+                          "179.7%/224.5%",
+                          "194.2%/242.6%",
+                          "208.8%/260.8%",
+                          "224.6%/280.6%",
+                          "240.5%/300.4%",
+                          "256.3%/320.2%",
+                          "272.2%/340%",
+                          "288%/359.8%",
+                          "303.9%/379.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Ring-A-Ding-Ding! Hexhunter Chime",
                 "type": "Talent",
                 "desc": "Unleash the wind's might to defeat the evil witch and save Descartes! Prune strikes the Witchlure Bell with her Banehunter Oathhammer, dealing Anemo DMG.\\nIf Prune triggers Swirl or Star Swirl on an opponent using this attack, Ring-A-Ding-Ding! Hexhunter Chime will be changed to Clang Clang! Witch-tribution Comes! for the next 6s.\\n\\nClang Clang! Witch-tribution Comes!\\nPrune's hammer is now enshrouded by the element involved in the previous Swirl reaction, causing Banehunter Oathhammer to undergo Elemental Conversion. When activated with a Press, Prune will leap up and kick the Banehunter Oathhammer forward, dealing Elemental DMG of the corresponding type to opponents in front of her.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Prune_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Prune_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Ring-A-Ding-Ding! Hexhunter Chime DMG",
+                        "values": [
+                          "167.4%",
+                          "180%",
+                          "192.6%",
+                          "209.3%",
+                          "221.9%",
+                          "234.4%",
+                          "251.2%",
+                          "267.9%",
+                          "284.6%",
+                          "301.4%",
+                          "318.1%",
+                          "334.9%",
+                          "355.8%",
+                          "376.7%",
+                          "397.7%"
+                        ]
+                      },
+                      {
+                        "label": "Clang Clang! Witch-tribution Comes! DMG",
+                        "values": [
+                          "204.6%",
+                          "219.9%",
+                          "235.2%",
+                          "255.7%",
+                          "271%",
+                          "286.4%",
+                          "306.8%",
+                          "327.3%",
+                          "347.8%",
+                          "368.2%",
+                          "388.7%",
+                          "409.1%",
+                          "434.7%",
+                          "460.3%",
+                          "485.8%"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "The Bell Tolls! The Hunt Is On!",
                 "type": "Talent",
                 "desc": "Prune gently swings the Witchlure Bell, dealing Anemo DMG to nearby opponents. After this, the Bell will enter the Hunter-Seeker mode.\\n\\nWitchlure Bell: Hunter-Seeker\\nIn this mode, the Witchlure Bell will follow the current active character, attacking surrounding opponents at intervals and dealing AoE Anemo DMG. This DMG is considered Elemental Burst DMG.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Prune_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Prune_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "97%",
+                          "104.2%",
+                          "111.5%",
+                          "121.2%",
+                          "128.5%",
+                          "135.7%",
+                          "145.4%",
+                          "155.1%",
+                          "164.8%",
+                          "174.5%",
+                          "184.2%",
+                          "193.9%",
+                          "206%",
+                          "218.2%",
+                          "230.3%"
+                        ]
+                      },
+                      {
+                        "label": "Witchlure Bell DMG",
+                        "values": [
+                          "70.4%",
+                          "75.7%",
+                          "81%",
+                          "88%",
+                          "93.3%",
+                          "98.6%",
+                          "105.7%",
+                          "112.7%",
+                          "119.7%",
+                          "126.8%",
+                          "133.8%",
+                          "140.9%",
+                          "149.7%",
+                          "158.5%",
+                          "167.3%"
+                        ]
+                      },
+                      {
+                        "label": "Hunter-Seeker Mode Duration",
+                        "values": [
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s"
+                        ]
+                      },
+                      {
+                        "label": "Energy Cost",
+                        "values": [
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -4464,19 +5308,611 @@
                 "name": "Favonius Bladework: Dancing Radiance",
                 "type": "Talent",
                 "desc": "Normal Attack\\nImitating an ancient knightly war-dance, Varka wields dual claymores to perform up to 5 consecutive strikes.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to charge forward and perform an especially powerful dual blade slash toward the front.\\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "65.5%",
+                          "70.8%",
+                          "76.1%",
+                          "83.7%",
+                          "89.1%",
+                          "95.1%",
+                          "103.5%",
+                          "111.9%",
+                          "120.3%",
+                          "129.4%",
+                          "138.5%",
+                          "147.7%",
+                          "156.8%",
+                          "165.9%",
+                          "175.1%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "24%+44.6%",
+                          "25.9%+48.2%",
+                          "27.9%+51.8%",
+                          "30.7%+57%",
+                          "32.6%+60.6%",
+                          "34.9%+64.8%",
+                          "37.9%+70.5%",
+                          "41%+76.1%",
+                          "44.1%+81.8%",
+                          "47.4%+88.1%",
+                          "50.8%+94.3%",
+                          "54.1%+100.5%",
+                          "57.5%+106.7%",
+                          "60.8%+112.9%",
+                          "64.2%+119.1%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "32.4%+60.2%",
+                          "35.1%+65.1%",
+                          "37.7%+70%",
+                          "41.5%+77%",
+                          "44.1%+82%",
+                          "47.1%+87.6%",
+                          "51.3%+95.3%",
+                          "55.4%+103%",
+                          "59.6%+110.7%",
+                          "64.1%+119.1%",
+                          "68.6%+127.5%",
+                          "73.2%+135.9%",
+                          "77.7%+144.3%",
+                          "82.2%+152.7%",
+                          "86.7%+161.1%"
+                        ]
+                      },
+                      {
+                        "label": "4-Hit DMG",
+                        "values": [
+                          "55.4%+29.8%",
+                          "59.9%+32.3%",
+                          "64.5%+34.7%",
+                          "70.9%+38.2%",
+                          "75.4%+40.6%",
+                          "80.6%+43.4%",
+                          "87.7%+47.2%",
+                          "94.7%+51%",
+                          "101.8%+54.8%",
+                          "109.6%+59%",
+                          "117.3%+63.2%",
+                          "125%+67.3%",
+                          "132.8%+71.5%",
+                          "140.5%+75.7%",
+                          "148.2%+79.8%"
+                        ]
+                      },
+                      {
+                        "label": "5-Hit DMG",
+                        "values": [
+                          "69.7%+37.6%",
+                          "75.4%+40.6%",
+                          "81.1%+43.7%",
+                          "89.2%+48%",
+                          "94.9%+51.1%",
+                          "101.4%+54.6%",
+                          "110.3%+59.4%",
+                          "119.2%+64.2%",
+                          "128.1%+69%",
+                          "137.9%+74.2%",
+                          "147.6%+79.5%",
+                          "157.3%+84.7%",
+                          "167.1%+90%",
+                          "176.8%+95.2%",
+                          "186.5%+100.4%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack DMG",
+                        "values": [
+                          "85.6%+46.1%",
+                          "92.6%+49.9%",
+                          "99.6%+53.6%",
+                          "109.5%+59%",
+                          "116.5%+62.7%",
+                          "124.5%+67%",
+                          "135.4%+72.9%",
+                          "146.4%+78.8%",
+                          "157.3%+84.7%",
+                          "169.3%+91.2%",
+                          "181.2%+97.6%",
+                          "193.2%+104%",
+                          "205.1%+110.5%",
+                          "217.1%+116.9%",
+                          "229%+123.3%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Stamina Cost",
+                        "values": [
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "74.6%",
+                          "80.7%",
+                          "86.7%",
+                          "95.4%",
+                          "101.5%",
+                          "108.4%",
+                          "118%",
+                          "127.5%",
+                          "137%",
+                          "147.4%",
+                          "157.8%",
+                          "168.3%",
+                          "178.7%",
+                          "189.1%",
+                          "199.5%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "149.1%/186.3%",
+                          "161.3%/201.5%",
+                          "173.4%/216.6%",
+                          "190.8%/238.3%",
+                          "202.9%/253.4%",
+                          "216.8%/270.8%",
+                          "235.9%/294.6%",
+                          "254.9%/318.4%",
+                          "274%/342.3%",
+                          "294.8%/368.2%",
+                          "315.6%/394.2%",
+                          "336.4%/420.2%",
+                          "357.3%/446.2%",
+                          "378.1%/472.2%",
+                          "398.9%/498.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Windbound Execution",
                 "type": "Talent",
                 "desc": "Manifest the true essence of Favonius Bladework with absolute power. Produces different effects depending on whether the skill is Tapped or Held.\\n\\nTap\\nLeap forward and slash in one fluid motion, dealing AoE Anemo DMG and switching to Sturm und Drang mode.\\nWhile in Sturm und Drang, Varka's Normal Attack and Charged Attack DMG is increased, and he cannot perform Plunging Attacks. Also, when performing Normal or Charged Attacks, Varka's dual-wielded claymores will deal corresponding Elemental DMG based on the Elemental Types of the characters in the party, respectively. This Elemental DMG cannot be overridden by infusions.\\nAdditionally, when in Sturm und Drang, if there are Pyro, Hydro, Electro or Cryo characters in the party, Varka's Elemental Skill Windbound Execution will be converted to the special Elemental Skill, Four Winds' Ascension, dealing corresponding Elemental DMG and Anemo DMG. Additionally, Varka can also expend uses of the special Elemental Skill Four Winds' Ascension to perform a special Charged Attack, Azure Devour, that does not consume stamina to deal corresponding Elemental DMG and Anemo DMG.\\n\\nHold\\nAfter charging for a while, leap forward. The duration of the charge will increase the distance of the leap.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Varka_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Varka_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "278.4%",
+                          "299.3%",
+                          "320.2%",
+                          "348%",
+                          "368.9%",
+                          "389.8%",
+                          "417.6%",
+                          "445.4%",
+                          "473.3%",
+                          "501.1%",
+                          "529%",
+                          "556.8%",
+                          "591.6%",
+                          "626.4%",
+                          "661.2%"
+                        ]
+                      },
+                      {
+                        "label": "# CD",
+                        "values": [
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s"
+                        ]
+                      },
+                      {
+                        "label": "Hold CD",
+                        "values": [
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s"
+                        ]
+                      },
+                      {
+                        "label": "Sturm und Drang Duration",
+                        "values": [
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s"
+                        ]
+                      },
+                      {
+                        "label": "Sturm und Drang 1-Hit DMG",
+                        "values": [
+                          "81.8%",
+                          "88.5%",
+                          "95.1%",
+                          "104.7%",
+                          "111.3%",
+                          "118.9%",
+                          "129.4%",
+                          "139.9%",
+                          "150.3%",
+                          "161.7%",
+                          "173.2%",
+                          "184.6%",
+                          "196%",
+                          "207.4%",
+                          "218.8%"
+                        ]
+                      },
+                      {
+                        "label": "Sturm und Drang 2-Hit DMG",
+                        "values": [
+                          "30%+55.7%",
+                          "32.4%+60.2%",
+                          "34.9%+64.8%",
+                          "38.4%+71.2%",
+                          "40.8%+75.8%",
+                          "43.6%+80.9%",
+                          "47.4%+88.1%",
+                          "51.3%+95.2%",
+                          "55.1%+102.3%",
+                          "59.3%+110.1%",
+                          "63.5%+117.9%",
+                          "67.6%+125.6%",
+                          "71.8%+133.4%",
+                          "76%+141.2%",
+                          "80.2%+148.9%"
+                        ]
+                      },
+                      {
+                        "label": "Sturm und Drang 3-Hit DMG",
+                        "values": [
+                          "40.5%+75.3%",
+                          "43.8%+81.4%",
+                          "47.1%+87.6%",
+                          "51.9%+96.3%",
+                          "55.2%+102.4%",
+                          "58.9%+109.4%",
+                          "64.1%+119.1%",
+                          "69.3%+128.7%",
+                          "74.5%+138.3%",
+                          "80.1%+148.8%",
+                          "85.8%+159.4%",
+                          "91.5%+169.9%",
+                          "97.1%+180.4%",
+                          "102.8%+190.9%",
+                          "108.4%+201.4%"
+                        ]
+                      },
+                      {
+                        "label": "Sturm und Drang 4-Hit DMG",
+                        "values": [
+                          "69.3%+37.3%",
+                          "74.9%+40.3%",
+                          "80.6%+43.4%",
+                          "88.6%+47.7%",
+                          "94.3%+50.8%",
+                          "100.7%+54.2%",
+                          "109.6%+59%",
+                          "118.4%+63.8%",
+                          "127.3%+68.5%",
+                          "137%+73.8%",
+                          "146.6%+79%",
+                          "156.3%+84.2%",
+                          "166%+89.4%",
+                          "175.6%+94.6%",
+                          "185.3%+99.8%"
+                        ]
+                      },
+                      {
+                        "label": "Sturm und Drang 5-Hit DMG",
+                        "values": [
+                          "87.2%+46.9%",
+                          "94.3%+50.8%",
+                          "101.4%+54.6%",
+                          "111.5%+60%",
+                          "118.6%+63.9%",
+                          "126.7%+68.2%",
+                          "137.9%+74.2%",
+                          "149%+80.2%",
+                          "160.2%+86.3%",
+                          "172.3%+92.8%",
+                          "184.5%+99.4%",
+                          "196.7%+105.9%",
+                          "208.8%+112.5%",
+                          "221%+119%",
+                          "233.2%+125.6%"
+                        ]
+                      },
+                      {
+                        "label": "Sturm und Drang Charged Attack DMG",
+                        "values": [
+                          "107%+57.6%",
+                          "115.8%+62.3%",
+                          "124.5%+67%",
+                          "136.9%+73.7%",
+                          "145.6%+78.4%",
+                          "155.6%+83.8%",
+                          "169.3%+91.2%",
+                          "183%+98.5%",
+                          "196.7%+105.9%",
+                          "211.6%+113.9%",
+                          "226.5%+122%",
+                          "241.5%+130%",
+                          "256.4%+138.1%",
+                          "271.4%+146.1%",
+                          "286.3%+154.2%"
+                        ]
+                      },
+                      {
+                        "label": "Four Winds' Ascension DMG",
+                        "values": [
+                          "175.8%+94.6%",
+                          "188.9%+101.7%",
+                          "202.1%+108.8%",
+                          "219.7%+118.3%",
+                          "232.9%+125.4%",
+                          "246.1%+132.5%",
+                          "263.6%+142%",
+                          "281.2%+151.4%",
+                          "298.8%+160.9%",
+                          "316.4%+170.4%",
+                          "333.9%+179.8%",
+                          "351.5%+189.3%",
+                          "373.5%+201.1%",
+                          "395.5%+212.9%",
+                          "417.4%+224.8%"
+                        ]
+                      },
+                      {
+                        "label": "Azure Devour DMG",
+                        "values": [
+                          "93.6%\u00d72+50.4%\u00d72",
+                          "100.6%\u00d72+54.2%\u00d72",
+                          "107.6%\u00d72+58%\u00d72",
+                          "117%\u00d72+63%\u00d72",
+                          "124%\u00d72+66.8%\u00d72",
+                          "131%\u00d72+70.6%\u00d72",
+                          "140.4%\u00d72+75.6%\u00d72",
+                          "149.8%\u00d72+80.6%\u00d72",
+                          "159.1%\u00d72+85.7%\u00d72",
+                          "168.5%\u00d72+90.7%\u00d72",
+                          "177.8%\u00d72+95.8%\u00d72",
+                          "187.2%\u00d72+100.8%\u00d72",
+                          "198.9%\u00d72+107.1%\u00d72",
+                          "210.6%\u00d72+113.4%\u00d72",
+                          "222.3%\u00d72+119.7%\u00d72"
+                        ]
+                      },
+                      {
+                        "label": "Four Winds' Ascension CD",
+                        "values": [
+                          "11s",
+                          "11s",
+                          "11s",
+                          "11s",
+                          "11s",
+                          "11s",
+                          "11s",
+                          "11s",
+                          "11s",
+                          "11s",
+                          "11s",
+                          "11s",
+                          "11s",
+                          "11s",
+                          "11s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Northwind Avatar",
                 "type": "Talent",
                 "desc": "In the name of the mightiest Knight of Boreas, unleash a powerful double slash attack toward the front, dealing 2 instances of Anemo DMG.\\nIf there are Pyro, Hydro, Electro or Cryo characters in the party, the first slash will be converted to deal corresponding Elemental DMG according to the aforementioned priority order of Elemental Types.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Varka_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Varka_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill 1-Hit DMG",
+                        "values": [
+                          "337%",
+                          "362.2%",
+                          "387.5%",
+                          "421.2%",
+                          "446.5%",
+                          "471.7%",
+                          "505.4%",
+                          "539.1%",
+                          "572.8%",
+                          "606.5%",
+                          "640.2%",
+                          "673.9%",
+                          "716%",
+                          "758.2%",
+                          "800.3%"
+                        ]
+                      },
+                      {
+                        "label": "Skill 2-Hit DMG",
+                        "values": [
+                          "181.4%",
+                          "195%",
+                          "208.7%",
+                          "226.8%",
+                          "240.4%",
+                          "254%",
+                          "272.2%",
+                          "290.3%",
+                          "308.4%",
+                          "326.6%",
+                          "344.7%",
+                          "362.9%",
+                          "385.6%",
+                          "408.2%",
+                          "430.9%"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      },
+                      {
+                        "label": "Energy Cost",
+                        "values": [
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -6674,19 +8110,611 @@
                 "name": "Havoc: Sunder",
                 "type": "Talent",
                 "desc": "Normal Attack\\nPerforms up to 5 consecutive attacks.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to hurl a spinning crystal spear, dealing DMG to opponents ahead.\\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "54.5%",
+                          "59%",
+                          "63.4%",
+                          "69.7%",
+                          "74.2%",
+                          "79.3%",
+                          "86.2%",
+                          "93.2%",
+                          "100.2%",
+                          "107.8%",
+                          "115.4%",
+                          "123%",
+                          "130.6%",
+                          "138.2%",
+                          "145.8%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "49.8%",
+                          "53.8%",
+                          "57.9%",
+                          "63.7%",
+                          "67.7%",
+                          "72.4%",
+                          "78.7%",
+                          "85.1%",
+                          "91.5%",
+                          "98.4%",
+                          "105.4%",
+                          "112.3%",
+                          "119.3%",
+                          "126.2%",
+                          "133.2%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "32.4%+32.4%",
+                          "35.1%+35.1%",
+                          "37.7%+37.7%",
+                          "41.5%+41.5%",
+                          "44.1%+44.1%",
+                          "47.1%+47.1%",
+                          "51.3%+51.3%",
+                          "55.4%+55.4%",
+                          "59.6%+59.6%",
+                          "64.1%+64.1%",
+                          "68.6%+68.6%",
+                          "73.1%+73.1%",
+                          "77.7%+77.7%",
+                          "82.2%+82.2%",
+                          "86.7%+86.7%"
+                        ]
+                      },
+                      {
+                        "label": "4-Hit DMG",
+                        "values": [
+                          "60.8%",
+                          "65.8%",
+                          "70.7%",
+                          "77.8%",
+                          "82.7%",
+                          "88.4%",
+                          "96.2%",
+                          "103.9%",
+                          "111.7%",
+                          "120.2%",
+                          "128.7%",
+                          "137.2%",
+                          "145.6%",
+                          "154.1%",
+                          "162.6%"
+                        ]
+                      },
+                      {
+                        "label": "5-Hit DMG",
+                        "values": [
+                          "82.9%",
+                          "89.7%",
+                          "96.4%",
+                          "106%",
+                          "112.8%",
+                          "120.5%",
+                          "131.1%",
+                          "141.7%",
+                          "152.3%",
+                          "163.9%",
+                          "175.4%",
+                          "187%",
+                          "198.6%",
+                          "210.2%",
+                          "221.7%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack DMG",
+                        "values": [
+                          "66.8%\u00d72",
+                          "72.3%\u00d72",
+                          "77.7%\u00d72",
+                          "85.5%\u00d72",
+                          "90.9%\u00d72",
+                          "97.1%\u00d72",
+                          "105.7%\u00d72",
+                          "114.2%\u00d72",
+                          "122.8%\u00d72",
+                          "132.1%\u00d72",
+                          "141.4%\u00d72",
+                          "150.7%\u00d72",
+                          "160.1%\u00d72",
+                          "169.4%\u00d72",
+                          "178.7%\u00d72"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Stamina Cost",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "63.9%",
+                          "69.1%",
+                          "74.3%",
+                          "81.8%",
+                          "87%",
+                          "92.9%",
+                          "101.1%",
+                          "109.3%",
+                          "117.5%",
+                          "126.4%",
+                          "135.3%",
+                          "144.2%",
+                          "153.1%",
+                          "162.1%",
+                          "171%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "127.8%/159.7%",
+                          "138.2%/172.7%",
+                          "148.6%/185.7%",
+                          "163.5%/204.2%",
+                          "173.9%/217.2%",
+                          "185.8%/232.1%",
+                          "202.2%/252.5%",
+                          "218.5%/272.9%",
+                          "234.9%/293.4%",
+                          "252.7%/315.6%",
+                          "270.5%/337.9%",
+                          "288.4%/360.2%",
+                          "306.2%/382.5%",
+                          "324.1%/404.8%",
+                          "341.9%/427%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Havoc: Warp",
                 "type": "Talent",
                 "desc": "Imitates the combat style of \"The Foul.\" Produces different effects depending on whether you Tap or Hold.\\n\\nTap\\nSkirk gains 45 Serpent's Subtlety and switches to Seven-Phase Flash mode.\\n\\nHold\\nSkirk gains 45 Serpent's Subtlety and will continuously move at high speed. Her interruption resistance is increased in this state.\\nDuring this time, Skirk can control her movement direction and move atop water. She can also use this Skill again to end rapid movement prematurely.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_SkirkNew_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_SkirkNew_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "132.8%",
+                          "143.6%",
+                          "154.4%",
+                          "169.9%",
+                          "180.7%",
+                          "193.1%",
+                          "210%",
+                          "227%",
+                          "244%",
+                          "262.6%",
+                          "281.1%",
+                          "299.6%",
+                          "318.2%",
+                          "336.7%",
+                          "355.2%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "119.8%",
+                          "129.6%",
+                          "139.3%",
+                          "153.2%",
+                          "163%",
+                          "174.1%",
+                          "189.5%",
+                          "204.8%",
+                          "220.1%",
+                          "236.8%",
+                          "253.5%",
+                          "270.2%",
+                          "287%",
+                          "303.7%",
+                          "320.4%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "75.7%+75.7%",
+                          "81.9%+81.9%",
+                          "88%+88%",
+                          "96.9%+96.9%",
+                          "103%+103%",
+                          "110.1%+110.1%",
+                          "119.7%+119.7%",
+                          "129.4%+129.4%",
+                          "139.1%+139.1%",
+                          "149.7%+149.7%",
+                          "160.3%+160.3%",
+                          "170.8%+170.8%",
+                          "181.4%+181.4%",
+                          "191.9%+191.9%",
+                          "202.5%+202.5%"
+                        ]
+                      },
+                      {
+                        "label": "4-Hit DMG",
+                        "values": [
+                          "80.5%+80.5%",
+                          "87.1%+87.1%",
+                          "93.7%+93.7%",
+                          "103%+103%",
+                          "109.6%+109.6%",
+                          "117.1%+117.1%",
+                          "127.4%+127.4%",
+                          "137.7%+137.7%",
+                          "148%+148%",
+                          "159.2%+159.2%",
+                          "170.4%+170.4%",
+                          "181.7%+181.7%",
+                          "192.9%+192.9%",
+                          "204.2%+204.2%",
+                          "215.4%+215.4%"
+                        ]
+                      },
+                      {
+                        "label": "5-Hit DMG",
+                        "values": [
+                          "196.6%",
+                          "212.6%",
+                          "228.6%",
+                          "251.5%",
+                          "267.5%",
+                          "285.8%",
+                          "310.9%",
+                          "336.1%",
+                          "361.2%",
+                          "388.7%",
+                          "416.1%",
+                          "443.5%",
+                          "471%",
+                          "498.4%",
+                          "525.9%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack DMG",
+                        "values": [
+                          "44.5%\u00d73",
+                          "48.2%\u00d73",
+                          "51.8%\u00d73",
+                          "57%\u00d73",
+                          "60.6%\u00d73",
+                          "64.8%\u00d73",
+                          "70.4%\u00d73",
+                          "76.1%\u00d73",
+                          "81.8%\u00d73",
+                          "88.1%\u00d73",
+                          "94.3%\u00d73",
+                          "100.5%\u00d73",
+                          "106.7%\u00d73",
+                          "112.9%\u00d73",
+                          "119.1%\u00d73"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Stamina Cost",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "63.9%",
+                          "69.1%",
+                          "74.3%",
+                          "81.8%",
+                          "87%",
+                          "92.9%",
+                          "101.1%",
+                          "109.3%",
+                          "117.5%",
+                          "126.4%",
+                          "135.3%",
+                          "144.2%",
+                          "153.1%",
+                          "162.1%",
+                          "171%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "127.8%/159.7%",
+                          "138.2%/172.7%",
+                          "148.6%/185.7%",
+                          "163.5%/204.2%",
+                          "173.9%/217.2%",
+                          "185.8%/232.1%",
+                          "202.2%/252.5%",
+                          "218.5%/272.9%",
+                          "234.9%/293.4%",
+                          "252.7%/315.6%",
+                          "270.5%/337.9%",
+                          "288.4%/360.2%",
+                          "306.2%/382.5%",
+                          "324.1%/404.8%",
+                          "341.9%/427%"
+                        ]
+                      },
+                      {
+                        "label": "Seven-Phase Flash Mode Duration",
+                        "values": [
+                          "12.5s",
+                          "12.5s",
+                          "12.5s",
+                          "12.5s",
+                          "12.5s",
+                          "12.5s",
+                          "12.5s",
+                          "12.5s",
+                          "12.5s",
+                          "12.5s",
+                          "12.5s",
+                          "12.5s",
+                          "12.5s",
+                          "12.5s",
+                          "12.5s"
+                        ]
+                      },
+                      {
+                        "label": "Max Serpent's Subtlety",
+                        "values": [
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Havoc: Ruin",
                 "type": "Talent",
                 "desc": "Skirk's Elemental Burst is not reliant on Elemental Energy but instead on Serpent's Subtlety.\\nWhen Skirk has at least 50 Serpent's Subtlety, she can expend all her Serpent's Subtlety to unleash her Elemental Burst, ripping the space before her apart and using rapid consecutive slashes that deal AoE Cryo DMG. At the same time, the DMG dealt by an instance of this Elemental Burst will be increased by every point of Serpent's Subtlety over 50 when it is unleashed. Up to 12 points can be counted for this purpose.\\n\\nWhen Skirk is in Seven-Phase Flash mode, Havoc: Ruin will be replaced by Havoc: Extinction.\\n\\nHavoc: Extinction\\nA special Elemental Burst that can be used even without consuming Serpent's Subtlety.\\nAfter using it, Skirk will gain the \"All Shall Wither\" effect, which will last until Seven-Phase Flash ends. After unlocking the Ascension Talent Reason Beyond Reason, she can also absorb nearby Void Rifts.\\nWhile \"All Shall Wither\" is active, every 0.1s, after Skirk's Normal Attack hits an opponent, that Normal Attack will deal increased DMG. If she absorbed any Void Rifts while using Havoc: Extinction, this Normal Attack's DMG will be further increased based on the number of Rifts absorbed.\\nThis effect will be canceled when it has triggered 10 times.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_SkirkNew_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_SkirkNew_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Slash DMG",
+                        "values": [
+                          "122.8% \u00d75",
+                          "132% \u00d75",
+                          "141.2% \u00d75",
+                          "153.4% \u00d75",
+                          "162.7% \u00d75",
+                          "171.9% \u00d75",
+                          "184.1% \u00d75",
+                          "196.4% \u00d75",
+                          "208.7% \u00d75",
+                          "221% \u00d75",
+                          "233.2% \u00d75",
+                          "245.5% \u00d75",
+                          "260.9% \u00d75",
+                          "276.2% \u00d75",
+                          "291.6% \u00d75"
+                        ]
+                      },
+                      {
+                        "label": "Final Slash DMG",
+                        "values": [
+                          "204.6%",
+                          "219.9%",
+                          "235.3%",
+                          "255.8%",
+                          "271.1%",
+                          "286.4%",
+                          "306.9%",
+                          "327.4%",
+                          "347.8%",
+                          "368.3%",
+                          "388.7%",
+                          "409.2%",
+                          "434.8%",
+                          "460.4%",
+                          "485.9%"
+                        ]
+                      },
+                      {
+                        "label": "Serpent's Subtlety Bonus",
+                        "values": [
+                          "19.32% ATK Per Point",
+                          "20.77% ATK Per Point",
+                          "22.22% ATK Per Point",
+                          "24.15% ATK Per Point",
+                          "25.6% ATK Per Point",
+                          "27.05% ATK Per Point",
+                          "28.98% ATK Per Point",
+                          "30.92% ATK Per Point",
+                          "32.85% ATK Per Point",
+                          "34.78% ATK Per Point",
+                          "36.71% ATK Per Point",
+                          "38.65% ATK Per Point",
+                          "41.06% ATK Per Point",
+                          "43.48% ATK Per Point",
+                          "45.89% ATK Per Point"
+                        ]
+                      },
+                      {
+                        "label": "0/1/2/3 Void Rift Absorption DMG Bonus",
+                        "values": [
+                          "3.5%/6.6%/8.8%/11%",
+                          "4%/7.2%/9.6%/12%",
+                          "4.5%/7.8%/10.4%/13%",
+                          "5%/8.4%/11.2%/14%",
+                          "5.5%/9%/12%/15%",
+                          "6%/9.6%/12.8%/16%",
+                          "6.5%/10.2%/13.6%/17%",
+                          "7%/10.8%/14.4%/18%",
+                          "7.5%/11.4%/15.2%/19%",
+                          "8%/12%/16%/20%",
+                          "8.5%/12.6%/16.8%/21%",
+                          "9%/13.2%/17.6%/22%",
+                          "9.5%/13.8%/18.4%/23%",
+                          "10%/14.4%/19.2%/24%",
+                          "10.5%/15%/20%/25%"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -8224,19 +10252,471 @@
                 "name": "Pure Heart, Pure Dreams",
                 "type": "Talent",
                 "desc": "Normal Attack\\nPerforms up to 3 attacks, dealing Anemo DMG.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina and deals AoE Anemo DMG after a short casting time.\\n\\nPlunging Attack\\nCalling upon the power of Anemo, she plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "52.3%",
+                          "56.2%",
+                          "60.1%",
+                          "65.3%",
+                          "69.3%",
+                          "73.2%",
+                          "78.4%",
+                          "83.6%",
+                          "88.9%",
+                          "94.1%",
+                          "99.3%",
+                          "104.6%",
+                          "111.1%",
+                          "117.6%",
+                          "124.2%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "46.9%",
+                          "50.4%",
+                          "54%",
+                          "58.6%",
+                          "62.2%",
+                          "65.7%",
+                          "70.4%",
+                          "75.1%",
+                          "79.8%",
+                          "84.4%",
+                          "89.1%",
+                          "93.8%",
+                          "99.7%",
+                          "105.6%",
+                          "111.4%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "71.4%",
+                          "76.7%",
+                          "82.1%",
+                          "89.2%",
+                          "94.6%",
+                          "99.9%",
+                          "107.1%",
+                          "114.2%",
+                          "121.3%",
+                          "128.5%",
+                          "135.6%",
+                          "142.7%",
+                          "151.7%",
+                          "160.6%",
+                          "169.5%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack DMG",
+                        "values": [
+                          "130%",
+                          "139.8%",
+                          "149.5%",
+                          "162.5%",
+                          "172.3%",
+                          "182%",
+                          "195%",
+                          "208%",
+                          "221%",
+                          "234%",
+                          "247%",
+                          "260%",
+                          "276.3%",
+                          "292.5%",
+                          "308.8%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Stamina Cost",
+                        "values": [
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "56.8%",
+                          "61.5%",
+                          "66.1%",
+                          "72.7%",
+                          "77.3%",
+                          "82.6%",
+                          "89.9%",
+                          "97.1%",
+                          "104.4%",
+                          "112.3%",
+                          "120.3%",
+                          "128.2%",
+                          "136.1%",
+                          "144.1%",
+                          "152%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "113.6%/141.9%",
+                          "122.9%/153.5%",
+                          "132.1%/165%",
+                          "145.3%/181.5%",
+                          "154.6%/193.1%",
+                          "165.2%/206.3%",
+                          "179.7%/224.5%",
+                          "194.2%/242.6%",
+                          "208.8%/260.8%",
+                          "224.6%/280.6%",
+                          "240.5%/300.4%",
+                          "256.3%/320.2%",
+                          "272.2%/340%",
+                          "288%/359.8%",
+                          "303.9%/379.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Aisa Utamakura Pilgrimage",
                 "type": "Talent",
                 "desc": "Weaves memories of lovely dreams, entering a Dreamdrifter state where Yumemizuki Mizuki floats above the ground, and dealing 1 instance of AoE Anemo DMG to nearby opponents.\\n\\nDreamdrifter\\n\u00b7While in the Dreamdrifter state, Yumemizuki Mizuki will continuously drift forward, dealing AoE Anemo DMG to nearby opponents at regular intervals.\\n\u00b7During this time, Yumemizuki Mizuki can control her direction of drift, and the pick-up distance of Yumemi Style Special Snacks from the Elemental Burst Anraku Secret Spring Therapy will be increased.\\n\u00b7Increases the Swirl DMG that nearby party members deal based on Yumemizuki Mizuki's Elemental Mastery.\\n\u00b7Dreamdrifter will end when Mizuki leaves the field or uses her Elemental Skill again.\\n\\n\"Our dreams touch at midnight, their song ringing on in our hearts.\"",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Mizuki_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Mizuki_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "57.7%",
+                          "62.1%",
+                          "66.4%",
+                          "72.2%",
+                          "76.5%",
+                          "80.8%",
+                          "86.6%",
+                          "92.4%",
+                          "98.2%",
+                          "103.9%",
+                          "109.7%",
+                          "115.5%",
+                          "122.7%",
+                          "129.9%",
+                          "137.1%"
+                        ]
+                      },
+                      {
+                        "label": "Continuous Attack DMG",
+                        "values": [
+                          "44.9%",
+                          "48.3%",
+                          "51.6%",
+                          "56.1%",
+                          "59.5%",
+                          "62.9%",
+                          "67.4%",
+                          "71.9%",
+                          "76.4%",
+                          "80.8%",
+                          "85.3%",
+                          "89.8%",
+                          "95.4%",
+                          "101.1%",
+                          "106.7%"
+                        ]
+                      },
+                      {
+                        "label": "Dreamdrifter Duration",
+                        "values": [
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s"
+                        ]
+                      },
+                      {
+                        "label": "Elemental Mastery-Based Swirl DMG Increase",
+                        "values": [
+                          "18% per 100 Points",
+                          "21% per 100 Points",
+                          "24% per 100 Points",
+                          "27% per 100 Points",
+                          "30% per 100 Points",
+                          "33% per 100 Points",
+                          "36% per 100 Points",
+                          "39% per 100 Points",
+                          "42% per 100 Points",
+                          "45% per 100 Points",
+                          "48% per 100 Points",
+                          "51% per 100 Points",
+                          "54% per 100 Points",
+                          "57% per 100 Points",
+                          "60% per 100 Points"
+                        ]
+                      },
+                      {
+                        "label": "Elemental Mastery-Based Stellar Swirl DMG Increase",
+                        "values": [
+                          "1.8% per 100 Points",
+                          "2.1% per 100 Points",
+                          "2.4% per 100 Points",
+                          "2.7% per 100 Points",
+                          "3% per 100 Points",
+                          "3.3% per 100 Points",
+                          "3.6% per 100 Points",
+                          "3.9% per 100 Points",
+                          "4.2% per 100 Points",
+                          "4.5% per 100 Points",
+                          "4.8% per 100 Points",
+                          "5.1% per 100 Points",
+                          "5.4% per 100 Points",
+                          "5.7% per 100 Points",
+                          "6% per 100 Points"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Anraku Secret Spring Therapy",
                 "type": "Talent",
                 "desc": "Summons forth countless lovely dreams and nightmares that pull in nearby objects and opponents, dealing AoE Anemo DMG and summoning a Mini Baku.\\n\\nMini Baku:\\nFollows the current active character. At regular intervals, the Mini Baku will create 1 Yumemi Style Special Snack nearby. After one of your own party members picks up a Special Snack, if their HP is higher than 70%, the Snack will explode and unleash a Munen Shockwave, dealing 1 instance of AoE Anemo DMG to nearby opponents. Otherwise, it will heal the character who picked it up based on Yumemizuki Mizuki's Elemental Mastery. When Yumemizuki Mizuki triggers healing by picking up a Yumemi Style Special Snack, the amount of healing is increased by 100%. If a Snack is not picked up after a period of time, it will explode and release a Munen Shockwave, dealing 1 instance of AoE Anemo DMG to surrounding opponents.\\n\\n\"If you bury dark emotions for too long, they will become nightmares. With that in mind, why don't we turn them into 'delicious snacks' while we've got the time?\"",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Mizuki_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Mizuki_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "94.1%",
+                          "101.1%",
+                          "108.2%",
+                          "117.6%",
+                          "124.7%",
+                          "131.7%",
+                          "141.1%",
+                          "150.5%",
+                          "159.9%",
+                          "169.3%",
+                          "178.8%",
+                          "188.2%",
+                          "199.9%",
+                          "211.7%",
+                          "223.4%"
+                        ]
+                      },
+                      {
+                        "label": "Munen Shockwave DMG",
+                        "values": [
+                          "70.6%",
+                          "75.9%",
+                          "81.1%",
+                          "88.2%",
+                          "93.5%",
+                          "98.8%",
+                          "105.8%",
+                          "112.9%",
+                          "120%",
+                          "127%",
+                          "134.1%",
+                          "141.1%",
+                          "149.9%",
+                          "158.8%",
+                          "167.6%"
+                        ]
+                      },
+                      {
+                        "label": "Snack Pick-Up HP Regeneration",
+                        "values": [
+                          "130.6% Elemental Mastery+315",
+                          "140.4% Elemental Mastery+346",
+                          "150.1% Elemental Mastery+380",
+                          "163.2% Elemental Mastery+417",
+                          "173% Elemental Mastery+456",
+                          "182.8% Elemental Mastery+498",
+                          "195.8% Elemental Mastery+543",
+                          "208.9% Elemental Mastery+590",
+                          "222% Elemental Mastery+640",
+                          "235% Elemental Mastery+692",
+                          "248.1% Elemental Mastery+747",
+                          "261.1% Elemental Mastery+805",
+                          "277.4% Elemental Mastery+865",
+                          "293.8% Elemental Mastery+928",
+                          "310.1% Elemental Mastery+994"
+                        ]
+                      },
+                      {
+                        "label": "Duration",
+                        "values": [
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      },
+                      {
+                        "label": "Energy Cost",
+                        "values": [
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -10310,19 +12790,451 @@
                 "name": "Forceful Fists of Frost",
                 "type": "Talent",
                 "desc": "Normal Attack\\nCoalescing frost about his fist, Wriothesley will unleash powerful Repelling Fists, performing up to 5 rapid attacks that deal Cryo DMG.\\nApart from this, Normal Attack combo count will not reset for a short time after using Icefang Rush or sprinting.\\n\\nCharged Attack\\nConsumes a fixed amount of Stamina to leap and unleash a Vaulting Fist, dealing AoE Cryo DMG.\\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE Cryo DMG upon impact.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "53.4%",
+                          "57.7%",
+                          "62%",
+                          "68.3%",
+                          "72.6%",
+                          "77.6%",
+                          "84.4%",
+                          "91.2%",
+                          "98%",
+                          "105.5%",
+                          "112.9%",
+                          "120.4%",
+                          "127.8%",
+                          "135.3%",
+                          "142.7%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "51.8%",
+                          "56%",
+                          "60.2%",
+                          "66.3%",
+                          "70.5%",
+                          "75.3%",
+                          "81.9%",
+                          "88.5%",
+                          "95.2%",
+                          "102.4%",
+                          "109.6%",
+                          "116.8%",
+                          "124.1%",
+                          "131.3%",
+                          "138.5%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "67.2%",
+                          "72.7%",
+                          "78.2%",
+                          "86%",
+                          "91.5%",
+                          "97.7%",
+                          "106.3%",
+                          "114.9%",
+                          "123.5%",
+                          "132.9%",
+                          "142.3%",
+                          "151.6%",
+                          "161%",
+                          "170.4%",
+                          "179.8%"
+                        ]
+                      },
+                      {
+                        "label": "4-Hit DMG",
+                        "values": [
+                          "37.9%+37.9%",
+                          "41%+41%",
+                          "44.1%+44.1%",
+                          "48.5%+48.5%",
+                          "51.6%+51.6%",
+                          "55.1%+55.1%",
+                          "59.9%+59.9%",
+                          "64.8%+64.8%",
+                          "69.6%+69.6%",
+                          "74.9%+74.9%",
+                          "80.2%+80.2%",
+                          "85.5%+85.5%",
+                          "90.8%+90.8%",
+                          "96.1%+96.1%",
+                          "101.4%+101.4%"
+                        ]
+                      },
+                      {
+                        "label": "5-Hit DMG",
+                        "values": [
+                          "90.7%",
+                          "98.1%",
+                          "105.5%",
+                          "116.1%",
+                          "123.5%",
+                          "131.9%",
+                          "143.5%",
+                          "155.1%",
+                          "166.7%",
+                          "179.4%",
+                          "192%",
+                          "204.7%",
+                          "217.4%",
+                          "230%",
+                          "242.7%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack DMG",
+                        "values": [
+                          "153%",
+                          "164.4%",
+                          "175.9%",
+                          "191.2%",
+                          "202.7%",
+                          "214.1%",
+                          "229.4%",
+                          "244.7%",
+                          "260%",
+                          "275.3%",
+                          "290.6%",
+                          "305.9%",
+                          "325%",
+                          "344.2%",
+                          "363.3%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Stamina Cost",
+                        "values": [
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "56.8%",
+                          "61.5%",
+                          "66.1%",
+                          "72.7%",
+                          "77.3%",
+                          "82.6%",
+                          "89.9%",
+                          "97.1%",
+                          "104.4%",
+                          "112.3%",
+                          "120.3%",
+                          "128.2%",
+                          "136.1%",
+                          "144.1%",
+                          "152%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "113.6%/141.9%",
+                          "122.9%/153.5%",
+                          "132.1%/165%",
+                          "145.3%/181.5%",
+                          "154.6%/193.1%",
+                          "165.2%/206.3%",
+                          "179.7%/224.5%",
+                          "194.2%/242.6%",
+                          "208.8%/260.8%",
+                          "224.6%/280.6%",
+                          "240.5%/300.4%",
+                          "256.3%/320.2%",
+                          "272.2%/340%",
+                          "288%/359.8%",
+                          "303.9%/379.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Icefang Rush",
                 "type": "Talent",
                 "desc": "Adjusting his breathing, rhythm, and pace, Wriothesley sprints forward a short distance, entering the Chilling Penalty state and unleashing more powerful attacks than before.\\n\\nChilling Penalty\\n\u00b7Increases Wriothesley's interruption resistance\\n\u00b7When his HP is above 50%, it will enhance the Repelling Fists of Normal Attack: Forceful Fists of Frost and increase its DMG. When such an attack hits, it will consume a fixed amount of Wriothesley's HP. HP can be lost this way once every 0.1s.\\nThis effect will be canceled should Wriothesley leave the field.\\n\\n\"Past convictions are past. It is our future choices that we must grasp.\"\\n\"Defy your fate, or else this glutton be, to pay your fate's due, by the crime and thee.\"",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Wriothesley_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Wriothesley_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Enhanced Repelling Fist DMG",
+                        "values": [
+                          "143.2% Normal Attack DMG",
+                          "145.8% Normal Attack DMG",
+                          "148.3% Normal Attack DMG",
+                          "151.7% Normal Attack DMG",
+                          "154.3% Normal Attack DMG",
+                          "156.9% Normal Attack DMG",
+                          "160.2% Normal Attack DMG",
+                          "163.6% Normal Attack DMG",
+                          "167% Normal Attack DMG",
+                          "170.3% Normal Attack DMG",
+                          "173.7% Normal Attack DMG",
+                          "177% Normal Attack DMG",
+                          "180.4% Normal Attack DMG",
+                          "183.8% Normal Attack DMG",
+                          "187.1% Normal Attack DMG"
+                        ]
+                      },
+                      {
+                        "label": "HP Cost",
+                        "values": [
+                          "4.5% Max HP",
+                          "4.5% Max HP",
+                          "4.5% Max HP",
+                          "4.5% Max HP",
+                          "4.5% Max HP",
+                          "4.5% Max HP",
+                          "4.5% Max HP",
+                          "4.5% Max HP",
+                          "4.5% Max HP",
+                          "4.5% Max HP",
+                          "4.5% Max HP",
+                          "4.5% Max HP",
+                          "4.5% Max HP",
+                          "4.5% Max HP",
+                          "4.5% Max HP"
+                        ]
+                      },
+                      {
+                        "label": "Duration",
+                        "values": [
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s",
+                          "16s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Darkgold Wolfbite",
                 "type": "Talent",
                 "desc": "Activating his boxing gloves, Wriothesley strikes out with an icy straight, then uses Icicle Impact to cause multiple instances of AoE Cryo DMG in a frontal area.\\n\\nArkhe: Ousia\\nAfter Icicle Impact ends, a Surging Blade will descend upon the opponent's position, dealing Ousia-aligned Cryo DMG.\\n\\nThere are some things that even the Duke of the Fortress of Meropide can do little about \u2014 for example, complicated paperwork, the trivialities of a supervisor, or even... little kids pasting a whole host of cute but difficult-to-remove stickers on his boxing gloves.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Wriothesley_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Wriothesley_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "127.2%\u00d75",
+                          "136.74%\u00d75",
+                          "146.28%\u00d75",
+                          "159%\u00d75",
+                          "168.54%\u00d75",
+                          "178.08%\u00d75",
+                          "190.8%\u00d75",
+                          "203.52%\u00d75",
+                          "216.24%\u00d75",
+                          "228.96%\u00d75",
+                          "241.68%\u00d75",
+                          "254.4%\u00d75",
+                          "270.3%\u00d75",
+                          "286.2%\u00d75",
+                          "302.1%\u00d75"
+                        ]
+                      },
+                      {
+                        "label": "Surging Blade DMG",
+                        "values": [
+                          "42.4%",
+                          "45.58%",
+                          "48.76%",
+                          "53%",
+                          "56.18%",
+                          "59.36%",
+                          "63.6%",
+                          "67.84%",
+                          "72.08%",
+                          "76.32%",
+                          "80.56%",
+                          "84.8%",
+                          "90.1%",
+                          "95.4%",
+                          "100.7%"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      },
+                      {
+                        "label": "Surging Blade CD",
+                        "values": [
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s"
+                        ]
+                      },
+                      {
+                        "label": "Energy Cost",
+                        "values": [
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -11872,19 +14784,571 @@
                 "name": "Shuumatsuban Ninja Blade",
                 "type": "Talent",
                 "desc": "Normal Attack\\nPerforms up to 4 consecutive strikes.\\n\\nCharged Attack\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, performs a more powerful slash. \\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "72.2%",
+                          "78.1%",
+                          "84%",
+                          "92.4%",
+                          "98.3%",
+                          "105%",
+                          "114.2%",
+                          "123.5%",
+                          "132.7%",
+                          "142.8%",
+                          "154.4%",
+                          "167.9%",
+                          "181.5%",
+                          "195.1%",
+                          "209.9%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "71.4%",
+                          "77.2%",
+                          "83%",
+                          "91.3%",
+                          "97.1%",
+                          "103.8%",
+                          "112.9%",
+                          "122%",
+                          "131.1%",
+                          "141.1%",
+                          "152.5%",
+                          "165.9%",
+                          "179.4%",
+                          "192.8%",
+                          "207.4%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "43.4%+43.4%",
+                          "47%+47%",
+                          "50.5%+50.5%",
+                          "55.5%+55.5%",
+                          "59.1%+59.1%",
+                          "63.1%+63.1%",
+                          "68.7%+68.7%",
+                          "74.2%+74.2%",
+                          "79.8%+79.8%",
+                          "85.9%+85.9%",
+                          "92.8%+92.8%",
+                          "101%+101%",
+                          "109.1%+109.1%",
+                          "117.3%+117.3%",
+                          "126.2%+126.2%"
+                        ]
+                      },
+                      {
+                        "label": "4-Hit DMG",
+                        "values": [
+                          "98.1%",
+                          "106.1%",
+                          "114.1%",
+                          "125.5%",
+                          "133.5%",
+                          "142.6%",
+                          "155.2%",
+                          "167.7%",
+                          "180.3%",
+                          "194%",
+                          "209.7%",
+                          "228.1%",
+                          "246.6%",
+                          "265%",
+                          "285.1%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Spinning DMG",
+                        "values": [
+                          "62.5%",
+                          "67.6%",
+                          "72.7%",
+                          "80%",
+                          "85.1%",
+                          "90.9%",
+                          "98.9%",
+                          "106.9%",
+                          "114.9%",
+                          "123.6%",
+                          "133.6%",
+                          "145.4%",
+                          "157.2%",
+                          "168.9%",
+                          "181.7%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Final DMG",
+                        "values": [
+                          "113.1%",
+                          "122.3%",
+                          "131.5%",
+                          "144.6%",
+                          "153.9%",
+                          "164.4%",
+                          "178.8%",
+                          "193.3%",
+                          "207.8%",
+                          "223.6%",
+                          "241.6%",
+                          "262.9%",
+                          "284.2%",
+                          "305.4%",
+                          "328.6%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Stamina Cost",
+                        "values": [
+                          "40/s",
+                          "40/s",
+                          "40/s",
+                          "40/s",
+                          "40/s",
+                          "40/s",
+                          "40/s",
+                          "40/s",
+                          "40/s",
+                          "40/s",
+                          "40/s",
+                          "40/s",
+                          "40/s",
+                          "40/s",
+                          "40/s"
+                        ]
+                      },
+                      {
+                        "label": "Max Duration",
+                        "values": [
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s",
+                          "5s"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "74.6%",
+                          "80.7%",
+                          "86.7%",
+                          "95.4%",
+                          "101.5%",
+                          "108.4%",
+                          "118%",
+                          "127.5%",
+                          "137%",
+                          "147.4%",
+                          "157.8%",
+                          "168.3%",
+                          "178.7%",
+                          "189.1%",
+                          "199.5%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "149.1%/186.3%",
+                          "161.3%/201.5%",
+                          "173.4%/216.6%",
+                          "190.8%/238.3%",
+                          "202.9%/253.4%",
+                          "216.8%/270.8%",
+                          "235.9%/294.6%",
+                          "254.9%/318.4%",
+                          "274%/342.3%",
+                          "294.8%/368.2%",
+                          "315.6%/394.2%",
+                          "336.4%/420.2%",
+                          "357.3%/446.2%",
+                          "378.1%/472.2%",
+                          "398.9%/498.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Yoohoo Art: Fuuin Dash",
                 "type": "Talent",
                 "desc": "#The special technique of the Yoohoo Ninja Arts!\\nSayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing Anemo DMG. When the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing AoE Anemo DMG.\\n\\n\\nEnters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.\\n\\nHold\\nRolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state.\\nDuring this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick.\\nThe Hold version of this skill can trigger Elemental Absorption.\\n\\nThis skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.\\n\\nElemental Absorption\\nIf Sayu comes into contact with Hydro/Pyro/Cryo/Electro while in her Windwheel state, she will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use of this skill.\\n\\nSayu can pull this skill off with her eyes closed. This technique was originally created for escaping, but now that she's got a Vision, might as well make her foes eat dirt while she's at it.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Sayu_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Sayu_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Fuufuu Windwheel DMG",
+                        "values": [
+                          "36%",
+                          "38.7%",
+                          "41.4%",
+                          "45%",
+                          "47.7%",
+                          "50.4%",
+                          "54%",
+                          "57.6%",
+                          "61.2%",
+                          "64.8%",
+                          "68.4%",
+                          "72%",
+                          "76.5%",
+                          "81%",
+                          "85.5%"
+                        ]
+                      },
+                      {
+                        "label": "#Fuufuu Whirlwind Kick DMG",
+                        "values": [
+                          "158.4%",
+                          "170.3%",
+                          "182.2%",
+                          "198%",
+                          "209.9%",
+                          "221.8%",
+                          "237.6%",
+                          "253.4%",
+                          "269.3%",
+                          "285.1%",
+                          "301%",
+                          "316.8%",
+                          "336.6%",
+                          "356.4%",
+                          "376.2%"
+                        ]
+                      },
+                      {
+                        "label": "Fuufuu Whirlwind Kick Hold DMG",
+                        "values": [
+                          "217.6%",
+                          "233.9%",
+                          "250.2%",
+                          "272%",
+                          "288.3%",
+                          "304.6%",
+                          "326.4%",
+                          "348.2%",
+                          "369.9%",
+                          "391.7%",
+                          "413.4%",
+                          "435.2%",
+                          "462.4%",
+                          "489.6%",
+                          "516.8%"
+                        ]
+                      },
+                      {
+                        "label": "Fuufuu Windwheel Elemental DMG",
+                        "values": [
+                          "16.8%",
+                          "18.1%",
+                          "19.3%",
+                          "21%",
+                          "22.3%",
+                          "23.5%",
+                          "25.2%",
+                          "26.9%",
+                          "28.6%",
+                          "30.2%",
+                          "31.9%",
+                          "33.6%",
+                          "35.7%",
+                          "37.8%",
+                          "39.9%"
+                        ]
+                      },
+                      {
+                        "label": "Fuufuu Whirlwind Kick Elemental DMG",
+                        "values": [
+                          "76.2%",
+                          "81.9%",
+                          "87.6%",
+                          "95.2%",
+                          "100.9%",
+                          "106.6%",
+                          "114.2%",
+                          "121.9%",
+                          "129.5%",
+                          "137.1%",
+                          "144.7%",
+                          "152.3%",
+                          "161.8%",
+                          "171.4%",
+                          "180.9%"
+                        ]
+                      },
+                      {
+                        "label": "Max Duration (Hold)",
+                        "values": [
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "6 to 11s",
+                          "6 to 11s",
+                          "6 to 11s",
+                          "6 to 11s",
+                          "6 to 11s",
+                          "6 to 11s",
+                          "6 to 11s",
+                          "6 to 11s",
+                          "6 to 11s",
+                          "6 to 11s",
+                          "6 to 11s",
+                          "6 to 11s",
+                          "6 to 11s",
+                          "6 to 11s",
+                          "6 to 11s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Yoohoo Art: Mujina Flurry",
                 "type": "Talent",
                 "desc": "The other super special technique of the Yoohoo Ninja Arts! It summons a pair of helping hands for Sayu.\\nDeals Anemo DMG to nearby opponents and heals all nearby party members. The amount of HP restored is based on Sayu's ATK. This skill then summons a Muji-Muji Daruma.\\n\\nMuji-Muji Daruma\\nAt specific intervals, the Daruma will take one of several actions based on the situation around it:\\n\u00b7If the HP of nearby characters is above 70%, it will attack a nearby opponent, dealing Anemo DMG.\\n\u00b7If there are active characters with 70% or less HP nearby, it will heal the active character with the lowest percentage HP left. If there are no opponents nearby, it will heal active characters nearby even if they have 70% HP or more.\\n\\nPeople who don't know the first thing about ninjutsu love to watch Sayu show off this skill, and some have tried to learn it from her. But Sayu just wants to sleep and not be disturbed.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Sayu_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Sayu_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill Activation DMG",
+                        "values": [
+                          "116.8%",
+                          "125.6%",
+                          "134.3%",
+                          "146%",
+                          "154.8%",
+                          "163.5%",
+                          "175.2%",
+                          "186.9%",
+                          "198.6%",
+                          "210.2%",
+                          "221.9%",
+                          "233.6%",
+                          "248.2%",
+                          "262.8%",
+                          "277.4%"
+                        ]
+                      },
+                      {
+                        "label": "Skill Activation Healing",
+                        "values": [
+                          "92.2% ATK+577",
+                          "99.1% ATK+635",
+                          "106% ATK+698",
+                          "115.2% ATK+765",
+                          "122.1% ATK+837",
+                          "129% ATK+914",
+                          "138.2% ATK+996",
+                          "147.5% ATK+1083",
+                          "156.7% ATK+1174",
+                          "165.9% ATK+1270",
+                          "175.1% ATK+1371",
+                          "184.3% ATK+1477",
+                          "195.8% ATK+1588",
+                          "207.4% ATK+1703",
+                          "218.9% ATK+1824"
+                        ]
+                      },
+                      {
+                        "label": "Muji-Muji Daruma DMG",
+                        "values": [
+                          "52%",
+                          "55.9%",
+                          "59.8%",
+                          "65%",
+                          "68.9%",
+                          "72.8%",
+                          "78%",
+                          "83.2%",
+                          "88.4%",
+                          "93.6%",
+                          "98.8%",
+                          "104%",
+                          "110.5%",
+                          "117%",
+                          "123.5%"
+                        ]
+                      },
+                      {
+                        "label": "Muji-Muji Daruma Healing",
+                        "values": [
+                          "79.9% ATK+500",
+                          "85.9% ATK+550",
+                          "91.9% ATK+605",
+                          "99.8% ATK+663",
+                          "105.8% ATK+726",
+                          "111.8% ATK+792",
+                          "119.8% ATK+863",
+                          "127.8% ATK+938",
+                          "135.8% ATK+1017",
+                          "143.8% ATK+1101",
+                          "151.8% ATK+1188",
+                          "159.7% ATK+1280",
+                          "169.7% ATK+1376",
+                          "179.7% ATK+1476",
+                          "189.7% ATK+1580"
+                        ]
+                      },
+                      {
+                        "label": "Duration",
+                        "values": [
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s"
+                        ]
+                      },
+                      {
+                        "label": "Energy Cost",
+                        "values": [
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -13693,19 +17157,471 @@
                 "name": "Garyuu Bladework",
                 "type": "Talent",
                 "desc": "Normal Attack\\nPerforms up to 5 rapid strikes.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact. If this Plunging Attack is triggered by Chihayaburu, it will be converted to Plunging Attack: Midare Ranzan.\\n\\nPlunging Attack: Midare Ranzan\\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to Anemo DMG and will create a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "45%",
+                          "48.6%",
+                          "52.3%",
+                          "57.5%",
+                          "61.2%",
+                          "65.4%",
+                          "71.1%",
+                          "76.9%",
+                          "82.6%",
+                          "88.9%",
+                          "96.1%",
+                          "104.6%",
+                          "113%",
+                          "121.5%",
+                          "130.7%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "45.2%",
+                          "48.9%",
+                          "52.6%",
+                          "57.9%",
+                          "61.5%",
+                          "65.8%",
+                          "71.5%",
+                          "77.3%",
+                          "83.1%",
+                          "89.4%",
+                          "96.7%",
+                          "105.2%",
+                          "113.7%",
+                          "122.2%",
+                          "131.4%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "25.8%+31%",
+                          "27.9%+33.5%",
+                          "30%+36%",
+                          "33%+39.6%",
+                          "35.1%+42.1%",
+                          "37.5%+45%",
+                          "40.8%+49%",
+                          "44.1%+52.9%",
+                          "47.4%+56.9%",
+                          "51%+61.2%",
+                          "55.1%+66.1%",
+                          "60%+72%",
+                          "64.8%+77.8%",
+                          "69.7%+83.6%",
+                          "75%+90%"
+                        ]
+                      },
+                      {
+                        "label": "4-Hit DMG",
+                        "values": [
+                          "60.7%",
+                          "65.7%",
+                          "70.6%",
+                          "77.7%",
+                          "82.6%",
+                          "88.3%",
+                          "96%",
+                          "103.8%",
+                          "111.5%",
+                          "120%",
+                          "129.7%",
+                          "141.1%",
+                          "152.6%",
+                          "164%",
+                          "176.4%"
+                        ]
+                      },
+                      {
+                        "label": "5-Hit DMG",
+                        "values": [
+                          "25.4%\u00d73",
+                          "27.4%\u00d73",
+                          "29.5%\u00d73",
+                          "32.5%\u00d73",
+                          "34.5%\u00d73",
+                          "36.9%\u00d73",
+                          "40.1%\u00d73",
+                          "43.4%\u00d73",
+                          "46.6%\u00d73",
+                          "50.1%\u00d73",
+                          "54.2%\u00d73",
+                          "59%\u00d73",
+                          "63.7%\u00d73",
+                          "68.5%\u00d73",
+                          "73.7%\u00d73"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack DMG",
+                        "values": [
+                          "43%+74.6%",
+                          "46.5%+80.7%",
+                          "50%+86.8%",
+                          "55%+95.5%",
+                          "58.5%+101.6%",
+                          "62.5%+108.5%",
+                          "68%+118%",
+                          "73.5%+127.6%",
+                          "79%+137.1%",
+                          "85%+147.6%",
+                          "91.9%+159.5%",
+                          "100%+173.5%",
+                          "108%+187.6%",
+                          "116.1%+201.6%",
+                          "125%+216.9%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Stamina Cost",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "81.8%",
+                          "88.5%",
+                          "95.2%",
+                          "104.7%",
+                          "111.3%",
+                          "118.9%",
+                          "129.4%",
+                          "139.9%",
+                          "150.3%",
+                          "161.8%",
+                          "173.2%",
+                          "184.6%",
+                          "196%",
+                          "207.4%",
+                          "218.9%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "163.6%/204.4%",
+                          "177%/221%",
+                          "190.3%/237.7%",
+                          "209.3%/261.4%",
+                          "222.6%/278.1%",
+                          "237.8%/297.1%",
+                          "258.8%/323.2%",
+                          "279.7%/349.4%",
+                          "300.6%/375.5%",
+                          "323.5%/404%",
+                          "346.3%/432.5%",
+                          "369.1%/461.1%",
+                          "392%/489.6%",
+                          "414.8%/518.1%",
+                          "437.6%/546.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Chihayaburu",
                 "type": "Talent",
                 "desc": "#Unleashes a secret technique as fierce as the rushing wind that pulls objects and opponents towards Kazuha's current position before launching opponents within the AoE, dealing Anemo DMG and lifting Kazuha into the air on a rushing gust of wind.\\nWithin 10s of remaining airborne after casting Chihayaburu, Kazuha can unleash a powerful Plunging Attack known as Midare Ranzan.\\n\\n\\nCan be used in mid-air.\\n\\nHold\\nCharges up before unleashing greater Anemo DMG over a larger AoE than Mode.\\n\\nPlunging Attack: Midare Ranzan\\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to Anemo DMG. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.\\nMidare Ranzan's DMG is considered Plunging Attack DMG.\\n\\n\"Wind in branches grieves\\nBygone ages, gods of old\\nWithered autumn leaves\"",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Kazuha_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Kazuha_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "# Skill DMG",
+                        "values": [
+                          "192%",
+                          "206.4%",
+                          "220.8%",
+                          "240%",
+                          "254.4%",
+                          "268.8%",
+                          "288%",
+                          "307.2%",
+                          "326.4%",
+                          "345.6%",
+                          "364.8%",
+                          "384%",
+                          "408%",
+                          "432%",
+                          "456%"
+                        ]
+                      },
+                      {
+                        "label": "# CD",
+                        "values": [
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s"
+                        ]
+                      },
+                      {
+                        "label": "Hold Skill DMG",
+                        "values": [
+                          "260.8%",
+                          "280.4%",
+                          "299.9%",
+                          "326%",
+                          "345.6%",
+                          "365.1%",
+                          "391.2%",
+                          "417.3%",
+                          "443.4%",
+                          "469.4%",
+                          "495.5%",
+                          "521.6%",
+                          "554.2%",
+                          "586.8%",
+                          "619.4%"
+                        ]
+                      },
+                      {
+                        "label": "Hold CD",
+                        "values": [
+                          "9s",
+                          "9s",
+                          "9s",
+                          "9s",
+                          "9s",
+                          "9s",
+                          "9s",
+                          "9s",
+                          "9s",
+                          "9s",
+                          "9s",
+                          "9s",
+                          "9s",
+                          "9s",
+                          "9s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Kazuha Slash",
                 "type": "Talent",
                 "desc": "The signature technique of Kazuha's self-styled bladework \u2014 a single slash that strikes with the force of the first winds of autumn, dealing AoE Anemo DMG.\\nThe blade's passage will leave behind a field named \"Autumn Whirlwind\" that periodically deals AoE Anemo DMG to opponents within its range.\\n\\nElemental Absorption\\nIf Autumn Whirlwind comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n\"I see eternity go by in an instant, the autumns of many years from a single leaf. Thus I shall slice this maple in a flash, and ask a question of the ages.\"",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Kazuha_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Kazuha_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Slashing DMG",
+                        "values": [
+                          "262.4%",
+                          "282.1%",
+                          "301.8%",
+                          "328%",
+                          "347.7%",
+                          "367.4%",
+                          "393.6%",
+                          "419.8%",
+                          "446.1%",
+                          "472.3%",
+                          "498.6%",
+                          "524.8%",
+                          "557.6%",
+                          "590.4%",
+                          "623.2%"
+                        ]
+                      },
+                      {
+                        "label": "DoT",
+                        "values": [
+                          "120%",
+                          "129%",
+                          "138%",
+                          "150%",
+                          "159%",
+                          "168%",
+                          "180%",
+                          "192%",
+                          "204%",
+                          "216%",
+                          "228%",
+                          "240%",
+                          "255%",
+                          "270%",
+                          "285%"
+                        ]
+                      },
+                      {
+                        "label": "Additional Elemental DMG",
+                        "values": [
+                          "36%",
+                          "38.7%",
+                          "41.4%",
+                          "45%",
+                          "47.7%",
+                          "50.4%",
+                          "54%",
+                          "57.6%",
+                          "61.2%",
+                          "64.8%",
+                          "68.4%",
+                          "72%",
+                          "76.5%",
+                          "81%",
+                          "85.5%"
+                        ]
+                      },
+                      {
+                        "label": "Duration",
+                        "values": [
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      },
+                      {
+                        "label": "Energy Cost",
+                        "values": [
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -15912,19 +19828,491 @@
                 "name": "K\u00e4tzlein Style",
                 "type": "Talent",
                 "desc": "Normal Attack\\nPerforms up to 5 consecutive shots with a bow.\\n\\nCharged Attack\\nPerforms a more precise Aimed Shot with increased DMG.\\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMG.\\n\\nPlunging Attack\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "36.1%",
+                          "39.1%",
+                          "42%",
+                          "46.2%",
+                          "49.1%",
+                          "52.5%",
+                          "57.1%",
+                          "61.7%",
+                          "66.4%",
+                          "71.4%",
+                          "77.2%",
+                          "84%",
+                          "90.8%",
+                          "97.5%",
+                          "105%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "33.5%",
+                          "36.3%",
+                          "39%",
+                          "42.9%",
+                          "45.6%",
+                          "48.8%",
+                          "53%",
+                          "57.3%",
+                          "61.6%",
+                          "66.3%",
+                          "71.7%",
+                          "78%",
+                          "84.3%",
+                          "90.6%",
+                          "97.5%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "45.6%",
+                          "49.3%",
+                          "53%",
+                          "58.3%",
+                          "62%",
+                          "66.3%",
+                          "72.1%",
+                          "77.9%",
+                          "83.7%",
+                          "90.1%",
+                          "97.4%",
+                          "106%",
+                          "114.5%",
+                          "123.1%",
+                          "132.4%"
+                        ]
+                      },
+                      {
+                        "label": "4-Hit DMG",
+                        "values": [
+                          "43%",
+                          "46.5%",
+                          "50%",
+                          "55%",
+                          "58.5%",
+                          "62.5%",
+                          "68%",
+                          "73.5%",
+                          "79%",
+                          "85%",
+                          "91.9%",
+                          "100%",
+                          "108%",
+                          "116.1%",
+                          "125%"
+                        ]
+                      },
+                      {
+                        "label": "5-Hit DMG",
+                        "values": [
+                          "53.8%",
+                          "58.1%",
+                          "62.5%",
+                          "68.8%",
+                          "73.1%",
+                          "78.1%",
+                          "85%",
+                          "91.9%",
+                          "98.8%",
+                          "106.3%",
+                          "114.8%",
+                          "125%",
+                          "135.1%",
+                          "145.2%",
+                          "156.2%"
+                        ]
+                      },
+                      {
+                        "label": "Aimed Shot",
+                        "values": [
+                          "43.9%",
+                          "47.4%",
+                          "51%",
+                          "56.1%",
+                          "59.7%",
+                          "63.7%",
+                          "69.4%",
+                          "75%",
+                          "80.6%",
+                          "86.7%",
+                          "93.7%",
+                          "102%",
+                          "110.2%",
+                          "118.5%",
+                          "127.4%"
+                        ]
+                      },
+                      {
+                        "label": "Fully-Charged Aimed Shot",
+                        "values": [
+                          "124%",
+                          "133.3%",
+                          "142.6%",
+                          "155%",
+                          "164.3%",
+                          "173.6%",
+                          "186%",
+                          "198.4%",
+                          "210.8%",
+                          "223.2%",
+                          "236.1%",
+                          "253%",
+                          "269.8%",
+                          "286.7%",
+                          "303.6%"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "56.8%",
+                          "61.5%",
+                          "66.1%",
+                          "72.7%",
+                          "77.3%",
+                          "82.6%",
+                          "89.9%",
+                          "97.1%",
+                          "104.4%",
+                          "112.3%",
+                          "120.3%",
+                          "128.2%",
+                          "136.1%",
+                          "144.1%",
+                          "152%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "113.6%/141.9%",
+                          "122.9%/153.5%",
+                          "132.1%/165%",
+                          "145.3%/181.5%",
+                          "154.6%/193.1%",
+                          "165.2%/206.3%",
+                          "179.7%/224.5%",
+                          "194.2%/242.6%",
+                          "208.8%/260.8%",
+                          "224.6%/280.6%",
+                          "240.5%/300.4%",
+                          "256.3%/320.2%",
+                          "272.2%/340%",
+                          "288%/359.8%",
+                          "303.9%/379.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Icy Paws",
                 "type": "Talent",
                 "desc": "#Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit.\\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\\n\\n\\nRapidly fires off 2 Icy Paws.\\n\\nHold\\nDashes back quickly before firing 5 Icy Paws.\\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\\n\\nThe shield has a 250% Cryo DMG Absorption Bonus, and will cause your active character to become affected by Cryo at the point of formation for a short duration.\\n\\nWhen she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision \u2014 now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Diona_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Diona_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Icy Paw DMG",
+                        "values": [
+                          "41.9% per Paw",
+                          "45.1% per Paw",
+                          "48.2% per Paw",
+                          "52.4% per Paw",
+                          "55.5% per Paw",
+                          "58.7% per Paw",
+                          "62.9% per Paw",
+                          "67.1% per Paw",
+                          "71.3% per Paw",
+                          "75.5% per Paw",
+                          "79.6% per Paw",
+                          "83.8% per Paw",
+                          "89.1% per Paw",
+                          "94.3% per Paw",
+                          "99.6% per Paw"
+                        ]
+                      },
+                      {
+                        "label": "Base Shield DMG Absorption",
+                        "values": [
+                          "7.2% Max HP+693",
+                          "7.7% Max HP+762",
+                          "8.3% Max HP+837",
+                          "9% Max HP+918",
+                          "9.5% Max HP+1005",
+                          "10.1% Max HP+1097",
+                          "10.8% Max HP+1195",
+                          "11.5% Max HP+1299",
+                          "12.2% Max HP+1409",
+                          "13% Max HP+1524",
+                          "13.7% Max HP+1646",
+                          "14.4% Max HP+1773",
+                          "15.3% Max HP+1905",
+                          "16.2% Max HP+2044",
+                          "17.1% Max HP+2188"
+                        ]
+                      },
+                      {
+                        "label": "Duration",
+                        "values": [
+                          "1.8s per Paw",
+                          "1.9s per Paw",
+                          "2s per Paw",
+                          "2.1s per Paw",
+                          "2.2s per Paw",
+                          "2.3s per Paw",
+                          "2.4s per Paw",
+                          "2.4s per Paw",
+                          "2.4s per Paw",
+                          "2.4s per Paw",
+                          "2.4s per Paw",
+                          "2.4s per Paw",
+                          "2.4s per Paw",
+                          "2.4s per Paw",
+                          "2.4s per Paw"
+                        ]
+                      },
+                      {
+                        "label": "# CD",
+                        "values": [
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s"
+                        ]
+                      },
+                      {
+                        "label": "Hold CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Signature Mix",
                 "type": "Talent",
                 "desc": "Tosses out a special cold brew that deals AoE Cryo DMG and creates a Drunken Mist in an AoE.\\n\\nDrunken Mist\\n\u00b7Deals continuous Cryo DMG to opponents within the AoE.\\n\u00b7Continuously regenerates the HP of characters within the AoE.\\n\\nA horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Diona_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Diona_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "80%",
+                          "86%",
+                          "92%",
+                          "100%",
+                          "106%",
+                          "112%",
+                          "120%",
+                          "128%",
+                          "136%",
+                          "144%",
+                          "152%",
+                          "160%",
+                          "170%",
+                          "180%",
+                          "190%"
+                        ]
+                      },
+                      {
+                        "label": "Continuous Field DMG",
+                        "values": [
+                          "52.6%",
+                          "56.6%",
+                          "60.5%",
+                          "65.8%",
+                          "69.7%",
+                          "73.7%",
+                          "79%",
+                          "84.2%",
+                          "89.5%",
+                          "94.8%",
+                          "100%",
+                          "105.3%",
+                          "111.9%",
+                          "118.4%",
+                          "125%"
+                        ]
+                      },
+                      {
+                        "label": "HP Regeneration Over Time",
+                        "values": [
+                          "5.34% Max HP+513",
+                          "5.74% Max HP+565",
+                          "6.14% Max HP+620",
+                          "6.67% Max HP+680",
+                          "7.07% Max HP+744",
+                          "7.47% Max HP+813",
+                          "8% Max HP+885",
+                          "8.54% Max HP+962",
+                          "9.07% Max HP+1044",
+                          "9.6% Max HP+1129",
+                          "10.14% Max HP+1219",
+                          "10.67% Max HP+1313",
+                          "11.34% Max HP+1411",
+                          "12.01% Max HP+1514",
+                          "12.67% Max HP+1621"
+                        ]
+                      },
+                      {
+                        "label": "Duration",
+                        "values": [
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s"
+                        ]
+                      },
+                      {
+                        "label": "Energy Cost",
+                        "values": [
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -17872,19 +22260,571 @@
                 "name": "Ancient Sword Art",
                 "type": "Talent",
                 "desc": "Normal Attack\\nPerforms up to 5 rapid strikes.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "37.8%",
+                          "40.8%",
+                          "43.9%",
+                          "48.3%",
+                          "51.4%",
+                          "54.9%",
+                          "59.7%",
+                          "64.5%",
+                          "69.4%",
+                          "74.6%",
+                          "79.9%",
+                          "85.2%",
+                          "90.4%",
+                          "95.7%",
+                          "101%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "38.9%",
+                          "42%",
+                          "45.2%",
+                          "49.7%",
+                          "52.9%",
+                          "56.5%",
+                          "61.5%",
+                          "66.4%",
+                          "71.4%",
+                          "76.8%",
+                          "82.3%",
+                          "87.7%",
+                          "93.1%",
+                          "98.5%",
+                          "104%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "24.2%+24.2%",
+                          "26.1%+26.1%",
+                          "28.1%+28.1%",
+                          "30.9%+30.9%",
+                          "32.9%+32.9%",
+                          "35.1%+35.1%",
+                          "38.2%+38.2%",
+                          "41.3%+41.3%",
+                          "44.4%+44.4%",
+                          "47.8%+47.8%",
+                          "51.1%+51.1%",
+                          "54.5%+54.5%",
+                          "57.9%+57.9%",
+                          "61.3%+61.3%",
+                          "64.6%+64.6%"
+                        ]
+                      },
+                      {
+                        "label": "4-Hit DMG",
+                        "values": [
+                          "24.7%+24.7%",
+                          "26.7%+26.7%",
+                          "28.7%+28.7%",
+                          "31.6%+31.6%",
+                          "33.6%+33.6%",
+                          "35.9%+35.9%",
+                          "39%+39%",
+                          "42.2%+42.2%",
+                          "45.3%+45.3%",
+                          "48.8%+48.8%",
+                          "52.2%+52.2%",
+                          "55.7%+55.7%",
+                          "59.1%+59.1%",
+                          "62.6%+62.6%",
+                          "66%+66%"
+                        ]
+                      },
+                      {
+                        "label": "5-Hit DMG",
+                        "values": [
+                          "63%",
+                          "68.2%",
+                          "73.3%",
+                          "80.6%",
+                          "85.8%",
+                          "91.6%",
+                          "99.7%",
+                          "107.8%",
+                          "115.8%",
+                          "124.6%",
+                          "133.4%",
+                          "142.2%",
+                          "151%",
+                          "159.8%",
+                          "168.6%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack DMG",
+                        "values": [
+                          "64.3%+64.3%",
+                          "69.6%+69.6%",
+                          "74.8%+74.8%",
+                          "82.3%+82.3%",
+                          "87.5%+87.5%",
+                          "93.5%+93.5%",
+                          "101.7%+101.7%",
+                          "110%+110%",
+                          "118.2%+118.2%",
+                          "127.2%+127.2%",
+                          "136.1%+136.1%",
+                          "145.1%+145.1%",
+                          "154.1%+154.1%",
+                          "163.1%+163.1%",
+                          "172%+172%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Stamina Cost",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "63.9%",
+                          "69.1%",
+                          "74.3%",
+                          "81.8%",
+                          "87%",
+                          "92.9%",
+                          "101.1%",
+                          "109.3%",
+                          "117.5%",
+                          "126.4%",
+                          "135.3%",
+                          "144.2%",
+                          "153.1%",
+                          "162.1%",
+                          "171%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "127.8%/159.7%",
+                          "138.2%/172.7%",
+                          "148.6%/185.7%",
+                          "163.5%/204.2%",
+                          "173.9%/217.2%",
+                          "185.8%/232.1%",
+                          "202.2%/252.5%",
+                          "218.5%/272.9%",
+                          "234.9%/293.4%",
+                          "252.7%/315.6%",
+                          "270.5%/337.9%",
+                          "288.4%/360.2%",
+                          "306.2%/382.5%",
+                          "324.1%/404.8%",
+                          "341.9%/427%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Adeptus Art: Herald of Frost",
                 "type": "Talent",
                 "desc": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing Cryo DMG to surrounding opponents.\\n\\nHerald of Frost\\n\u00b7On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\\n\u00b7Periodically regenerates your active character's HP.\\n\u00b7Follows the character around, dealing Cryo DMG to opponents in their path.\\n\\nI use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Qiqi_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Qiqi_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "96%",
+                          "103.2%",
+                          "110.4%",
+                          "120%",
+                          "127.2%",
+                          "134.4%",
+                          "144%",
+                          "153.6%",
+                          "163.2%",
+                          "172.8%",
+                          "182.4%",
+                          "192%",
+                          "204%",
+                          "216%",
+                          "228%"
+                        ]
+                      },
+                      {
+                        "label": "Regeneration on Hit",
+                        "values": [
+                          "10.56% ATK+67",
+                          "11.35% ATK+74",
+                          "12.14% ATK+81",
+                          "13.2% ATK+89",
+                          "13.99% ATK+98",
+                          "14.78% ATK+107",
+                          "15.84% ATK+116",
+                          "16.9% ATK+126",
+                          "17.95% ATK+137",
+                          "19.01% ATK+148",
+                          "20.06% ATK+160",
+                          "21.12% ATK+172",
+                          "22.44% ATK+185",
+                          "23.76% ATK+199",
+                          "25.08% ATK+213"
+                        ]
+                      },
+                      {
+                        "label": "Continuous Regeneration",
+                        "values": [
+                          "69.6% ATK+451",
+                          "74.82% ATK+496",
+                          "80.04% ATK+544",
+                          "87% ATK+597",
+                          "92.22% ATK+653",
+                          "97.44% ATK+713",
+                          "104.4% ATK+777",
+                          "111.36% ATK+845",
+                          "118.32% ATK+916",
+                          "125.28% ATK+991",
+                          "132.24% ATK+1070",
+                          "139.2% ATK+1153",
+                          "147.9% ATK+1239",
+                          "156.6% ATK+1329",
+                          "165.3% ATK+1423"
+                        ]
+                      },
+                      {
+                        "label": "Herald of Frost DMG",
+                        "values": [
+                          "36%",
+                          "38.7%",
+                          "41.4%",
+                          "45%",
+                          "47.7%",
+                          "50.4%",
+                          "54%",
+                          "57.6%",
+                          "61.2%",
+                          "64.8%",
+                          "68.4%",
+                          "72%",
+                          "76.5%",
+                          "81%",
+                          "85.5%"
+                        ]
+                      },
+                      {
+                        "label": "Duration",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "30s",
+                          "30s",
+                          "30s",
+                          "30s",
+                          "30s",
+                          "30s",
+                          "30s",
+                          "30s",
+                          "30s",
+                          "30s",
+                          "30s",
+                          "30s",
+                          "30s",
+                          "30s",
+                          "30s"
+                        ]
+                      },
+                      {
+                        "label": "Herald of Frost Coordinated Attack DMG",
+                        "values": [
+                          "24%",
+                          "25.8%",
+                          "27.6%",
+                          "30%",
+                          "31.8%",
+                          "33.6%",
+                          "36%",
+                          "38.4%",
+                          "40.8%",
+                          "43.2%",
+                          "45.6%",
+                          "48%",
+                          "51%",
+                          "54%",
+                          "57%"
+                        ]
+                      },
+                      {
+                        "label": "Herald of Frost Coordinated Attack CD",
+                        "values": [
+                          "2.2s",
+                          "2.2s",
+                          "2.2s",
+                          "2.2s",
+                          "2.2s",
+                          "2.2s",
+                          "2.2s",
+                          "2.2s",
+                          "2.2s",
+                          "2.2s",
+                          "2.2s",
+                          "2.2s",
+                          "2.2s",
+                          "2.2s",
+                          "2.2s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Adeptus Art: Preserver of Fortune",
                 "type": "Talent",
                 "desc": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals Cryo DMG.\\n\\nFortune-Preserving Talisman\\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\\n\\n\"I am the Fortune Preserver, the Maiden of Resurrection.\"\\n\u2014 Qiqi does not remember these words.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Qiqi_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Qiqi_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "284.8%",
+                          "306.2%",
+                          "327.5%",
+                          "356%",
+                          "377.4%",
+                          "398.7%",
+                          "427.2%",
+                          "455.7%",
+                          "484.2%",
+                          "512.6%",
+                          "541.1%",
+                          "569.6%",
+                          "605.2%",
+                          "640.8%",
+                          "676.4%"
+                        ]
+                      },
+                      {
+                        "label": "Healing",
+                        "values": [
+                          "90% ATK+577",
+                          "96.8% ATK+635",
+                          "103.5% ATK+698",
+                          "112.5% ATK+765",
+                          "119.2% ATK+837",
+                          "126% ATK+914",
+                          "135% ATK+996",
+                          "144% ATK+1083",
+                          "153% ATK+1174",
+                          "162% ATK+1270",
+                          "171% ATK+1371",
+                          "180% ATK+1477",
+                          "191.3% ATK+1588",
+                          "202.5% ATK+1703",
+                          "213.8% ATK+1824"
+                        ]
+                      },
+                      {
+                        "label": "Duration",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s"
+                        ]
+                      },
+                      {
+                        "label": "Energy Cost",
+                        "values": [
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80"
+                        ]
+                      },
+                      {
+                        "label": "Stellar-Conduct DMG",
+                        "values": [
+                          "297.3%",
+                          "319.6%",
+                          "341.9%",
+                          "371.7%",
+                          "394%",
+                          "416.3%",
+                          "446%",
+                          "475.7%",
+                          "505.5%",
+                          "535.2%",
+                          "564.9%",
+                          "594.7%",
+                          "631.8%",
+                          "669%",
+                          "706.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -20084,19 +25024,491 @@
                 "name": "Divine Marksmanship",
                 "type": "Talent",
                 "desc": "Normal Attack\\nPerforms up to 6 consecutive shots with a bow.\\n\\nCharged Attack\\nPerforms a more precise Aimed Shot with increased DMG.\\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal Anemo DMG.\\n\\nPlunging Attack\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "20.4%+20.4%",
+                          "22%+22%",
+                          "23.7%+23.7%",
+                          "26.1%+26.1%",
+                          "27.7%+27.7%",
+                          "29.6%+29.6%",
+                          "32.2%+32.2%",
+                          "34.8%+34.8%",
+                          "37.4%+37.4%",
+                          "40.3%+40.3%",
+                          "43.5%+43.5%",
+                          "47.4%+47.4%",
+                          "51.2%+51.2%",
+                          "55%+55%",
+                          "59.2%+59.2%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "44.4%",
+                          "48%",
+                          "51.6%",
+                          "56.8%",
+                          "60.4%",
+                          "64.5%",
+                          "70.2%",
+                          "75.9%",
+                          "81.5%",
+                          "87.7%",
+                          "94.8%",
+                          "103.2%",
+                          "111.5%",
+                          "119.8%",
+                          "128.9%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "52.4%",
+                          "56.6%",
+                          "60.9%",
+                          "67%",
+                          "71.3%",
+                          "76.1%",
+                          "82.8%",
+                          "89.5%",
+                          "96.2%",
+                          "103.5%",
+                          "111.9%",
+                          "121.8%",
+                          "131.6%",
+                          "141.4%",
+                          "152.2%"
+                        ]
+                      },
+                      {
+                        "label": "4-Hit DMG",
+                        "values": [
+                          "26.1%+26.1%",
+                          "28.2%+28.2%",
+                          "30.3%+30.3%",
+                          "33.3%+33.3%",
+                          "35.5%+35.5%",
+                          "37.9%+37.9%",
+                          "41.2%+41.2%",
+                          "44.5%+44.5%",
+                          "47.9%+47.9%",
+                          "51.5%+51.5%",
+                          "55.7%+55.7%",
+                          "60.6%+60.6%",
+                          "65.5%+65.5%",
+                          "70.4%+70.4%",
+                          "75.7%+75.7%"
+                        ]
+                      },
+                      {
+                        "label": "5-Hit DMG",
+                        "values": [
+                          "50.7%",
+                          "54.8%",
+                          "58.9%",
+                          "64.8%",
+                          "68.9%",
+                          "73.6%",
+                          "80.1%",
+                          "86.6%",
+                          "93.1%",
+                          "100.1%",
+                          "108.2%",
+                          "117.8%",
+                          "127.3%",
+                          "136.8%",
+                          "147.2%"
+                        ]
+                      },
+                      {
+                        "label": "6-Hit DMG",
+                        "values": [
+                          "71%",
+                          "76.7%",
+                          "82.5%",
+                          "90.8%",
+                          "96.5%",
+                          "103.1%",
+                          "112.2%",
+                          "121.3%",
+                          "130.4%",
+                          "140.3%",
+                          "151.6%",
+                          "164.9%",
+                          "178.3%",
+                          "191.6%",
+                          "206.2%"
+                        ]
+                      },
+                      {
+                        "label": "Aimed Shot",
+                        "values": [
+                          "43.9%",
+                          "47.4%",
+                          "51%",
+                          "56.1%",
+                          "59.7%",
+                          "63.7%",
+                          "69.4%",
+                          "75%",
+                          "80.6%",
+                          "86.7%",
+                          "93.7%",
+                          "102%",
+                          "110.2%",
+                          "118.5%",
+                          "127.4%"
+                        ]
+                      },
+                      {
+                        "label": "Fully-Charged Aimed Shot",
+                        "values": [
+                          "124%",
+                          "133.3%",
+                          "142.6%",
+                          "155%",
+                          "164.3%",
+                          "173.6%",
+                          "186%",
+                          "198.4%",
+                          "210.8%",
+                          "223.2%",
+                          "236.1%",
+                          "253%",
+                          "269.8%",
+                          "286.7%",
+                          "303.6%"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "56.8%",
+                          "61.5%",
+                          "66.1%",
+                          "72.7%",
+                          "77.3%",
+                          "82.6%",
+                          "89.9%",
+                          "97.1%",
+                          "104.4%",
+                          "112.3%",
+                          "120.3%",
+                          "128.2%",
+                          "136.1%",
+                          "144.1%",
+                          "152%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "113.6%/141.9%",
+                          "122.9%/153.5%",
+                          "132.1%/165%",
+                          "145.3%/181.5%",
+                          "154.6%/193.1%",
+                          "165.2%/206.3%",
+                          "179.7%/224.5%",
+                          "194.2%/242.6%",
+                          "208.8%/260.8%",
+                          "224.6%/280.6%",
+                          "240.5%/300.4%",
+                          "256.3%/320.2%",
+                          "272.2%/340%",
+                          "288%/359.8%",
+                          "303.9%/379.6%"
+                        ]
+                      },
+                      {
+                        "label": "Windsunder Arrow DMG",
+                        "values": [
+                          "160% Normal Attack DMG",
+                          "170% Normal Attack DMG",
+                          "180% Normal Attack DMG",
+                          "190% Normal Attack DMG",
+                          "200% Normal Attack DMG",
+                          "210% Normal Attack DMG",
+                          "220% Normal Attack DMG",
+                          "230% Normal Attack DMG",
+                          "240% Normal Attack DMG",
+                          "250% Normal Attack DMG",
+                          "260% Normal Attack DMG",
+                          "270% Normal Attack DMG",
+                          "280% Normal Attack DMG",
+                          "290% Normal Attack DMG",
+                          "300% Normal Attack DMG"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Skyward Sonnet",
                 "type": "Talent",
                 "desc": "#O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\\n\\n\\nSummons a Wind Domain at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.\\n\\nHold\\nSummons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected opponents into the air.\\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\\n\\nOpponents hit by Skyward Sonnet will fall to the ground slowly.\\n\\nIn the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Venti_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Venti_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "# DMG",
+                        "values": [
+                          "276%",
+                          "296.7%",
+                          "317.4%",
+                          "345%",
+                          "365.7%",
+                          "386.4%",
+                          "414%",
+                          "441.6%",
+                          "469.2%",
+                          "496.8%",
+                          "524.4%",
+                          "552%",
+                          "586.5%",
+                          "621%",
+                          "655.5%"
+                        ]
+                      },
+                      {
+                        "label": "# CD",
+                        "values": [
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s"
+                        ]
+                      },
+                      {
+                        "label": "Hold DMG",
+                        "values": [
+                          "380%",
+                          "408.5%",
+                          "437%",
+                          "475%",
+                          "503.5%",
+                          "532%",
+                          "570%",
+                          "608%",
+                          "646%",
+                          "684%",
+                          "722%",
+                          "760%",
+                          "807.5%",
+                          "855%",
+                          "902.5%"
+                        ]
+                      },
+                      {
+                        "label": "Hold CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Wind's Grand Ode",
                 "type": "Talent",
                 "desc": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in opponents and deals continuous Anemo DMG.\\n\\nElemental Absorption\\nIf the Stormeye comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\nMany hymns written in praise of the Anemo Archon have been lost to time. This one sings of his mastery over the wind.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Venti_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Venti_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DoT",
+                        "values": [
+                          "37.6%",
+                          "40.4%",
+                          "43.2%",
+                          "47%",
+                          "49.8%",
+                          "52.6%",
+                          "56.4%",
+                          "60.2%",
+                          "63.9%",
+                          "67.7%",
+                          "71.4%",
+                          "75.2%",
+                          "79.9%",
+                          "84.6%",
+                          "89.3%"
+                        ]
+                      },
+                      {
+                        "label": "Additional Elemental DMG",
+                        "values": [
+                          "18.8%",
+                          "20.2%",
+                          "21.6%",
+                          "23.5%",
+                          "24.9%",
+                          "26.3%",
+                          "28.2%",
+                          "30.1%",
+                          "32%",
+                          "33.8%",
+                          "35.7%",
+                          "37.6%",
+                          "40%",
+                          "42.3%",
+                          "44.6%"
+                        ]
+                      },
+                      {
+                        "label": "Duration",
+                        "values": [
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s",
+                          "8s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      },
+                      {
+                        "label": "Energy Cost",
+                        "values": [
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -22296,19 +27708,391 @@
                 "name": "Wind Spirit Creation",
                 "type": "Talent",
                 "desc": "Normal Attack\\nPerforms up to 4 attacks using Wind Spirits, dealing Anemo DMG.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina and deals AoE Anemo DMG after a short casting time.\\n\\nPlunging Attack\\nCalling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "33.5%",
+                          "36%",
+                          "38.5%",
+                          "41.8%",
+                          "44.3%",
+                          "46.8%",
+                          "50.2%",
+                          "53.5%",
+                          "56.9%",
+                          "60.2%",
+                          "63.6%",
+                          "66.9%",
+                          "71.1%",
+                          "75.3%",
+                          "79.5%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "30.6%",
+                          "32.9%",
+                          "35.2%",
+                          "38.3%",
+                          "40.6%",
+                          "42.9%",
+                          "45.9%",
+                          "49%",
+                          "52%",
+                          "55.1%",
+                          "58.2%",
+                          "61.2%",
+                          "65.1%",
+                          "68.9%",
+                          "72.7%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "38.4%",
+                          "41.3%",
+                          "44.2%",
+                          "48.1%",
+                          "50.9%",
+                          "53.8%",
+                          "57.7%",
+                          "61.5%",
+                          "65.4%",
+                          "69.2%",
+                          "73.1%",
+                          "76.9%",
+                          "81.7%",
+                          "86.5%",
+                          "91.3%"
+                        ]
+                      },
+                      {
+                        "label": "4-Hit DMG",
+                        "values": [
+                          "47.9%",
+                          "51.5%",
+                          "55.1%",
+                          "59.9%",
+                          "63.5%",
+                          "67.1%",
+                          "71.9%",
+                          "76.7%",
+                          "81.5%",
+                          "86.3%",
+                          "91%",
+                          "95.8%",
+                          "101.8%",
+                          "107.8%",
+                          "113.8%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack DMG",
+                        "values": [
+                          "120.2%",
+                          "129.2%",
+                          "138.2%",
+                          "150.2%",
+                          "159.2%",
+                          "168.2%",
+                          "180.2%",
+                          "192.3%",
+                          "204.3%",
+                          "216.3%",
+                          "228.3%",
+                          "240.3%",
+                          "255.3%",
+                          "270.4%",
+                          "285.4%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Stamina Cost",
+                        "values": [
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "56.8%",
+                          "61.5%",
+                          "66.1%",
+                          "72.7%",
+                          "77.3%",
+                          "82.6%",
+                          "89.9%",
+                          "97.1%",
+                          "104.4%",
+                          "112.3%",
+                          "120.3%",
+                          "128.2%",
+                          "136.1%",
+                          "144.1%",
+                          "152%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "113.6%/141.9%",
+                          "122.9%/153.5%",
+                          "132.1%/165%",
+                          "145.3%/181.5%",
+                          "154.6%/193.1%",
+                          "165.2%/206.3%",
+                          "179.7%/224.5%",
+                          "194.2%/242.6%",
+                          "208.8%/260.8%",
+                          "224.6%/280.6%",
+                          "240.5%/300.4%",
+                          "256.3%/320.2%",
+                          "272.2%/340%",
+                          "288%/359.8%",
+                          "303.9%/379.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Astable Anemohypostasis Creation - 6308",
                 "type": "Talent",
                 "desc": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals Anemo DMG.\\n\\nThis is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Sucrose_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Sucrose_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "211.2%",
+                          "227%",
+                          "242.9%",
+                          "264%",
+                          "279.8%",
+                          "295.7%",
+                          "316.8%",
+                          "337.9%",
+                          "359%",
+                          "380.2%",
+                          "401.3%",
+                          "422.4%",
+                          "448.8%",
+                          "475.2%",
+                          "501.6%"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Forbidden Creation - Isomer 75 / Type II",
                 "type": "Talent",
                 "desc": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.\\nWhile it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal Anemo DMG.\\n\\nElemental Absorption\\nIf the Wind Spirit comes into contact with Hydro/Pyro/Cryo/Electro energy, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\nSucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Sucrose_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Sucrose_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DoT",
+                        "values": [
+                          "148%",
+                          "159.1%",
+                          "170.2%",
+                          "185%",
+                          "196.1%",
+                          "207.2%",
+                          "222%",
+                          "236.8%",
+                          "251.6%",
+                          "266.4%",
+                          "281.2%",
+                          "296%",
+                          "314.5%",
+                          "333%",
+                          "351.5%"
+                        ]
+                      },
+                      {
+                        "label": "Additional Elemental DMG",
+                        "values": [
+                          "44%",
+                          "47.3%",
+                          "50.6%",
+                          "55%",
+                          "58.3%",
+                          "61.6%",
+                          "66%",
+                          "70.4%",
+                          "74.8%",
+                          "79.2%",
+                          "83.6%",
+                          "88%",
+                          "93.5%",
+                          "99%",
+                          "104.5%"
+                        ]
+                      },
+                      {
+                        "label": "Duration",
+                        "values": [
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s",
+                          "6s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s"
+                        ]
+                      },
+                      {
+                        "label": "Energy Cost",
+                        "values": [
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -24096,19 +29880,611 @@
                 "name": "Snow Swan Variation",
                 "type": "Talent",
                 "desc": "Normal Attack\\nUnleashes a sword attack of up to 5 consecutive strikes.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to unleash a dazzling slash on opponents in front of her.\\n\\nPlunging Attack\\nAttacks opponents in her path while plunging from mid-air, then deals AoE DMG upon landing.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "51.9%",
+                          "56.1%",
+                          "60.3%",
+                          "66.3%",
+                          "70.5%",
+                          "75.4%",
+                          "82%",
+                          "88.6%",
+                          "95.3%",
+                          "102.5%",
+                          "109.7%",
+                          "117%",
+                          "124.2%",
+                          "131.5%",
+                          "138.7%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "51.5%",
+                          "55.7%",
+                          "59.9%",
+                          "65.9%",
+                          "70.1%",
+                          "74.9%",
+                          "81.5%",
+                          "88%",
+                          "94.6%",
+                          "101.8%",
+                          "109%",
+                          "116.2%",
+                          "123.4%",
+                          "130.6%",
+                          "137.8%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "32.6%+38.3%",
+                          "35.3%+41.4%",
+                          "37.9%+44.5%",
+                          "41.7%+49%",
+                          "44.4%+52.1%",
+                          "47.4%+55.6%",
+                          "51.6%+60.5%",
+                          "55.7%+65.4%",
+                          "59.9%+70.3%",
+                          "64.5%+75.7%",
+                          "69%+81%",
+                          "73.6%+86.3%",
+                          "78.1%+91.7%",
+                          "82.7%+97%",
+                          "87.2%+102.4%"
+                        ]
+                      },
+                      {
+                        "label": "4-Hit DMG",
+                        "values": [
+                          "74.6%",
+                          "80.6%",
+                          "86.7%",
+                          "95.4%",
+                          "101.5%",
+                          "108.4%",
+                          "117.9%",
+                          "127.5%",
+                          "137%",
+                          "147.4%",
+                          "157.8%",
+                          "168.2%",
+                          "178.6%",
+                          "189%",
+                          "199.4%"
+                        ]
+                      },
+                      {
+                        "label": "5-Hit DMG",
+                        "values": [
+                          "90.2%",
+                          "97.6%",
+                          "104.9%",
+                          "115.4%",
+                          "122.7%",
+                          "131.1%",
+                          "142.7%",
+                          "154.2%",
+                          "165.7%",
+                          "178.3%",
+                          "190.9%",
+                          "203.5%",
+                          "216.1%",
+                          "228.7%",
+                          "241.3%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack DMG",
+                        "values": [
+                          "107.4%",
+                          "116.2%",
+                          "124.9%",
+                          "137.4%",
+                          "146.1%",
+                          "156.1%",
+                          "169.9%",
+                          "183.6%",
+                          "197.3%",
+                          "212.3%",
+                          "227.3%",
+                          "242.3%",
+                          "257.3%",
+                          "272.3%",
+                          "287.3%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Stamina Cost",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "63.9%",
+                          "69.1%",
+                          "74.3%",
+                          "81.8%",
+                          "87%",
+                          "92.9%",
+                          "101.1%",
+                          "109.3%",
+                          "117.5%",
+                          "126.4%",
+                          "135.3%",
+                          "144.2%",
+                          "153.1%",
+                          "162.1%",
+                          "171%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "127.8%/159.7%",
+                          "138.2%/172.7%",
+                          "148.6%/185.7%",
+                          "163.5%/204.2%",
+                          "173.9%/217.2%",
+                          "185.8%/232.1%",
+                          "202.2%/252.5%",
+                          "218.5%/272.9%",
+                          "234.9%/293.4%",
+                          "252.7%/315.6%",
+                          "270.5%/337.9%",
+                          "288.4%/360.2%",
+                          "306.2%/382.5%",
+                          "324.1%/404.8%",
+                          "341.9%/427%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Slow Dance: Phantom Night Trance",
                 "type": "Talent",
                 "desc": "With slow, graceful dance steps, Odette deals AoE Cryo DMG to the opponent, and also summons her solo dance double to the field.\\nIf a dance double summoned by Odette is already on the field, this will re-summon the dance double and reset its duration.\\n\\nSolo dance double\\nAlternates between the Plume and Wing dance moves, periodically attacking nearby opponents and dealing to them AoE Cryo DMG.\\nAdditionally, if there is a dance double summoned by Odette nearby, Odette's Elemental Skill Adagio: Phantom Night Dancers will become the special Elemental Skill Adagio: Cock-Crow Coda instead, where a dance duet deals AoE Cryo DMG to nearby opponents over time. Then, when the duet ends, she deals another instance of AoE Cryo DMG that is considered Stellar-Conduct or Stellar Swirl DMG.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Odette_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Odette_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "108.1%",
+                          "116.2%",
+                          "124.3%",
+                          "135.1%",
+                          "143.2%",
+                          "151.3%",
+                          "162.1%",
+                          "172.9%",
+                          "183.7%",
+                          "194.5%",
+                          "205.4%",
+                          "216.2%",
+                          "229.7%",
+                          "243.2%",
+                          "256.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daybreak Finale DoT",
+                        "values": [
+                          "95.8%",
+                          "103%",
+                          "110.2%",
+                          "119.8%",
+                          "127%",
+                          "134.2%",
+                          "143.8%",
+                          "153.3%",
+                          "162.9%",
+                          "172.5%",
+                          "182.1%",
+                          "191.7%",
+                          "203.7%",
+                          "215.6%",
+                          "227.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daybreak Finale Stellar-Conduct/Stellar Swirl DMG",
+                        "values": [
+                          "203.2%/304.8%",
+                          "218.4%/327.6%",
+                          "233.7%/350.5%",
+                          "254%/381%",
+                          "269.2%/403.8%",
+                          "284.4%/426.7%",
+                          "304.8%/457.2%",
+                          "325.1%/487.6%",
+                          "345.4%/518.1%",
+                          "365.7%/548.6%",
+                          "386%/579.1%",
+                          "406.4%/609.5%",
+                          "431.7%/647.6%",
+                          "457.1%/685.7%",
+                          "482.5%/723.8%"
+                        ]
+                      },
+                      {
+                        "label": "\"Plume\" Dance Move DMG",
+                        "values": [
+                          "43%",
+                          "46.3%",
+                          "49.5%",
+                          "53.8%",
+                          "57%",
+                          "60.3%",
+                          "64.6%",
+                          "68.9%",
+                          "73.2%",
+                          "77.5%",
+                          "81.8%",
+                          "86.1%",
+                          "91.5%",
+                          "96.8%",
+                          "102.2%"
+                        ]
+                      },
+                      {
+                        "label": "\"Plume\" Dance Move Stellar-Conduct/Stellar Swirl DMG",
+                        "values": [
+                          "27%/40.5%",
+                          "29.1%/43.6%",
+                          "31.1%/46.6%",
+                          "33.8%/50.7%",
+                          "35.8%/53.7%",
+                          "37.8%/56.7%",
+                          "40.5%/60.8%",
+                          "43.2%/64.8%",
+                          "45.9%/68.9%",
+                          "48.6%/73%",
+                          "51.3%/77%",
+                          "54%/81.1%",
+                          "57.4%/86.1%",
+                          "60.8%/91.2%",
+                          "64.2%/96.3%"
+                        ]
+                      },
+                      {
+                        "label": "\"Wing\" Dance Move DMG",
+                        "values": [
+                          "51.5%",
+                          "55.3%",
+                          "59.2%",
+                          "64.3%",
+                          "68.2%",
+                          "72%",
+                          "77.2%",
+                          "82.3%",
+                          "87.5%",
+                          "92.6%",
+                          "97.8%",
+                          "102.9%",
+                          "109.4%",
+                          "115.8%",
+                          "122.2%"
+                        ]
+                      },
+                      {
+                        "label": "\"Wing\" Dance Move Stellar-Conduct/Stellar Swirl DMG",
+                        "values": [
+                          "32.3%/48.5%",
+                          "34.7%/52.1%",
+                          "37.2%/55.7%",
+                          "40.4%/60.6%",
+                          "42.8%/64.2%",
+                          "45.2%/67.8%",
+                          "48.5%/72.7%",
+                          "51.7%/77.5%",
+                          "54.9%/82.4%",
+                          "58.2%/87.2%",
+                          "61.4%/92.1%",
+                          "64.6%/96.9%",
+                          "68.7%/103%",
+                          "72.7%/109%",
+                          "76.7%/115.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daybreak Finale CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      },
+                      {
+                        "label": "Solo Dance Double Duration",
+                        "values": [
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Fast Dance: A Dream of Sable Feathers",
                 "type": "Talent",
                 "desc": "With quick, lively dance steps, Odette deals multiple instances of AoE Cryo DMG to the opponent, and summons her solo dance double. She also gains Snow Swan's Dream, which increases the Stellar Glimmer reaction DMG Odette deals.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Odette_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Odette_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Slash DMG",
+                        "values": [
+                          "110.2% \u00d73",
+                          "118.4% \u00d73",
+                          "126.7% \u00d73",
+                          "137.7% \u00d73",
+                          "146% \u00d73",
+                          "154.2% \u00d73",
+                          "165.3% \u00d73",
+                          "176.3% \u00d73",
+                          "187.3% \u00d73",
+                          "198.3% \u00d73",
+                          "209.3% \u00d73",
+                          "220.4% \u00d73",
+                          "234.1% \u00d73",
+                          "247.9% \u00d73",
+                          "261.7% \u00d73"
+                        ]
+                      },
+                      {
+                        "label": "Final Slash DMG",
+                        "values": [
+                          "170.3%",
+                          "183%",
+                          "195.8%",
+                          "212.8%",
+                          "225.6%",
+                          "238.4%",
+                          "255.4%",
+                          "272.4%",
+                          "289.5%",
+                          "306.5%",
+                          "323.5%",
+                          "340.5%",
+                          "361.8%",
+                          "383.1%",
+                          "404.4%"
+                        ]
+                      },
+                      {
+                        "label": "Snow Swan's Dream Stellar Reaction DMG Bonus",
+                        "values": [
+                          "14%",
+                          "18%",
+                          "22%",
+                          "26%",
+                          "30%",
+                          "34%",
+                          "38%",
+                          "42%",
+                          "46%",
+                          "50%",
+                          "54%",
+                          "58%",
+                          "62%",
+                          "66%",
+                          "70%"
+                        ]
+                      },
+                      {
+                        "label": "Snow Swan's Dream Duration",
+                        "values": [
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s"
+                        ]
+                      },
+                      {
+                        "label": "Solo Dance Double Duration",
+                        "values": [
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s",
+                          "20s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      },
+                      {
+                        "label": "Energy Cost",
+                        "values": [
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -25289,19 +31665,471 @@
                 "name": "Skirmishing Spear",
                 "type": "Talent",
                 "desc": "Normal Attack\\nPerforms up to 4 consecutive spear strikes, and applies the Hunter's Mark to the last opponent hit.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to perform a spinning attack.\\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "47.8%",
+                          "51.7%",
+                          "55.6%",
+                          "61.2%",
+                          "65.1%",
+                          "69.5%",
+                          "75.6%",
+                          "81.7%",
+                          "87.8%",
+                          "94.5%",
+                          "101.2%",
+                          "107.9%",
+                          "114.5%",
+                          "121.2%",
+                          "127.9%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "48.2%",
+                          "52.1%",
+                          "56%",
+                          "61.6%",
+                          "65.5%",
+                          "70%",
+                          "76.2%",
+                          "82.3%",
+                          "88.5%",
+                          "95.2%",
+                          "101.9%",
+                          "108.6%",
+                          "115.4%",
+                          "122.1%",
+                          "128.8%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "34.2%+31.8%",
+                          "37%+34.4%",
+                          "39.8%+37%",
+                          "43.8%+40.7%",
+                          "46.6%+43.3%",
+                          "49.8%+46.3%",
+                          "54.1%+50.3%",
+                          "58.5%+54.4%",
+                          "62.9%+58.5%",
+                          "67.7%+62.9%",
+                          "72.4%+67.3%",
+                          "77.2%+71.8%",
+                          "82%+76.2%",
+                          "86.8%+80.7%",
+                          "91.5%+85.1%"
+                        ]
+                      },
+                      {
+                        "label": "4-Hit DMG",
+                        "values": [
+                          "75.9%",
+                          "82%",
+                          "88.2%",
+                          "97%",
+                          "103.2%",
+                          "110.3%",
+                          "120%",
+                          "129.7%",
+                          "139.4%",
+                          "149.9%",
+                          "160.5%",
+                          "171.1%",
+                          "181.7%",
+                          "192.3%",
+                          "202.9%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack DMG",
+                        "values": [
+                          "111%+2500%",
+                          "120.1%+2500%",
+                          "129.1%+2500%",
+                          "142%+2500%",
+                          "151%+2500%",
+                          "161.4%+2500%",
+                          "175.6%+2500%",
+                          "189.8%+2500%",
+                          "204%+2500%",
+                          "219.5%+2500%",
+                          "235%+2500%",
+                          "250.5%+2500%",
+                          "265.9%+2500%",
+                          "281.4%+2500%",
+                          "296.9%+2500%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Stamina Cost",
+                        "values": [
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "63.9%",
+                          "69.1%",
+                          "74.3%",
+                          "81.8%",
+                          "87%",
+                          "92.9%",
+                          "101.1%",
+                          "109.3%",
+                          "117.5%",
+                          "126.4%",
+                          "135.3%",
+                          "144.2%",
+                          "153.1%",
+                          "162.1%",
+                          "171%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "127.8%/159.7%",
+                          "138.2%/172.7%",
+                          "148.6%/185.7%",
+                          "163.5%/204.2%",
+                          "173.9%/217.2%",
+                          "185.8%/232.1%",
+                          "202.2%/252.5%",
+                          "218.5%/272.9%",
+                          "234.9%/293.4%",
+                          "252.7%/315.6%",
+                          "270.5%/337.9%",
+                          "288.4%/360.2%",
+                          "306.2%/382.5%",
+                          "324.1%/404.8%",
+                          "341.9%/427%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Thunderbolt Ambush",
                 "type": "Talent",
                 "desc": "Follows her hunter's instincts. Tap or hold to produce different effects as well as apply to the opponent the Hunter's Mark effect.\\n\\nTapping\\nFires at opponents in front of her, dealing AoE Electro DMG.\\n\\nHolding\\nGoes into aiming mode, then targets opponents within a certain area in front of her. Alyosha's Interruption RES is enhanced when in this mode.\\nAt the end of the button hold, she deals Electro DMG to the targeted opponents.\\n\\nThe reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Alyosha_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Alyosha_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "# DMG",
+                        "values": [
+                          "286.7%",
+                          "308.2%",
+                          "329.7%",
+                          "358.4%",
+                          "379.9%",
+                          "401.4%",
+                          "430.1%",
+                          "458.8%",
+                          "487.4%",
+                          "516.1%",
+                          "544.8%",
+                          "573.4%",
+                          "609.3%",
+                          "645.1%",
+                          "681%"
+                        ]
+                      },
+                      {
+                        "label": "Hold DMG",
+                        "values": [
+                          "358.4%",
+                          "385.3%",
+                          "412.2%",
+                          "448%",
+                          "474.9%",
+                          "501.8%",
+                          "537.6%",
+                          "573.4%",
+                          "609.3%",
+                          "645.1%",
+                          "681%",
+                          "716.8%",
+                          "761.6%",
+                          "806.4%",
+                          "851.2%"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      },
+                      {
+                        "label": "Hunter's Mark Duration",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      },
+                      {
+                        "label": "Hunter's Precision ATK Bonus",
+                        "values": [
+                          "13.8%",
+                          "15%",
+                          "16.3%",
+                          "17.5%",
+                          "18.8%",
+                          "20%",
+                          "21.3%",
+                          "22.5%",
+                          "23.8%",
+                          "25%",
+                          "26.5%",
+                          "28%",
+                          "29.5%",
+                          "31%",
+                          "32.5%"
+                        ]
+                      },
+                      {
+                        "label": "Hunter's Precision Duration",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Hunter's Advance",
                 "type": "Talent",
                 "desc": "Summons her trusted companion Tugarin to fight alongside her on the field. This also turns an area in front of her into a Fulgurite Hunting Field for a short time.\\n\\nFulgurite Hunting Field\\n\u00b7 Continuously taunts nearby opponents to incite them to attack.\\n\u00b7 Every 2s, deals an instance of AoE Electro DMG to any opponent that has wandered into the field.\\n\\nWait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.",
-                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Alyosha_01.webp"
+                "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Alyosha_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Fulgurite Hunting Field DMG",
+                        "values": [
+                          "75%",
+                          "80.6%",
+                          "86.2%",
+                          "93.7%",
+                          "99.3%",
+                          "104.9%",
+                          "112.4%",
+                          "119.9%",
+                          "127.4%",
+                          "134.9%",
+                          "142.4%",
+                          "149.9%",
+                          "159.3%",
+                          "168.7%",
+                          "178%"
+                        ]
+                      },
+                      {
+                        "label": "Tugarin DMG",
+                        "values": [
+                          "50.2%",
+                          "54%",
+                          "57.8%",
+                          "62.8%",
+                          "66.5%",
+                          "70.3%",
+                          "75.3%",
+                          "80.4%",
+                          "85.4%",
+                          "90.4%",
+                          "95.4%",
+                          "100.4%",
+                          "106.7%",
+                          "113%",
+                          "119.3%"
+                        ]
+                      },
+                      {
+                        "label": "Duration",
+                        "values": [
+                          "14s",
+                          "14s",
+                          "14s",
+                          "14s",
+                          "14s",
+                          "14s",
+                          "14s",
+                          "14s",
+                          "14s",
+                          "14s",
+                          "14s",
+                          "14s",
+                          "14s",
+                          "14s",
+                          "14s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s",
+                          "18s"
+                        ]
+                      },
+                      {
+                        "label": "Energy Cost",
+                        "values": [
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70",
+                          "70"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },

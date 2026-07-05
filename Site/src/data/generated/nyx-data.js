@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-05T17:19:59.259Z",
+  "generatedAt": "2026-07-05T23:22:14.961Z",
   "codes": {
-    "updated": "2026-07-05T17:19:20.440Z",
+    "updated": "2026-07-05T20:39:50.279Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -51,6 +51,20 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
+        },
+        {
+          "code": "LCXGEA5SX65L",
+          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-06-12",
+          "firstSeen": "2026-07-05T20:39:31.207Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L"
         }
       ],
       "hsr": [
@@ -67,6 +81,20 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
+        },
+        {
+          "code": "5S6ZHRWTDNJB",
+          "reward": "60 stellar jade",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-05",
+          "firstSeen": "2026-07-05T20:39:50.279Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
         },
         {
           "code": "CREATIONNYMPH",
@@ -282,16 +310,16 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-07-05T17:19:00.958Z",
-    "checkedAt": "2026-07-05T17:19:00.958Z",
+    "updated": "2026-07-05T19:41:35.231Z",
+    "checkedAt": "2026-07-05T19:41:35.231Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T17:19:00.958Z",
-          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
-          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "checkedAt": "2026-07-05T19:41:35.231Z",
+          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
+          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
           "source": "game8"
         },
         "current": {
@@ -352,9 +380,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T17:19:00.958Z",
-          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
-          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "checkedAt": "2026-07-05T19:41:35.231Z",
+          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
+          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
           "source": "game8"
         },
         "current": {
@@ -406,9 +434,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T17:19:00.958Z",
-          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
-          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "checkedAt": "2026-07-05T19:41:35.231Z",
+          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
+          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
           "source": "game8"
         },
         "current": {
@@ -462,7 +490,7 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Yangyang Xuanling",
-              "icon": "../../Database/Prydwen/ww/assets/characters/yangyang-xuanling-184e6fda4c3c.webp",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_70_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/Prydwen/ww/assets/characters/yangyang-xuanling-47cdc9f48f22.webp",
@@ -569,7 +597,7 @@ var NYX_DB = {
             "characters": [
               {
                 "name": "Suisui",
-                "icon": "../../Database/Prydwen/ww/assets/characters/suisui-6c2f0381f367.webp",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
                 "iconFallback": null,
                 "iconZoom": false,
                 "art": "../../Database/Prydwen/ww/assets/characters/suisui-d7e1ee5a66d1.webp",
@@ -594,9 +622,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T17:19:00.958Z",
-          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
-          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "checkedAt": "2026-07-05T19:41:35.231Z",
+          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
+          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
           "source": "game8"
         },
         "current": {
@@ -606,7 +634,7 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Velina",
-              "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle64.webp",
+              "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1561.webp",
               "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect64.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp",
@@ -615,7 +643,7 @@ var NYX_DB = {
             },
             {
               "name": "Ye Shunguang",
-              "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle55.webp",
+              "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1431.webp",
               "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect55.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/ye-shunguang-bdd0b5faf96c.webp",
@@ -632,7 +660,7 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Norma",
-              "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
+              "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1571.webp",
               "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect65.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/norma-f4dbe2ca9e48.webp",
@@ -641,7 +669,7 @@ var NYX_DB = {
             },
             {
               "name": "Sunna",
-              "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle58.webp",
+              "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1491.webp",
               "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect58.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/sunna-48eb55c7efc5.webp",
@@ -657,9 +685,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T17:19:00.958Z",
-          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
-          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "checkedAt": "2026-07-05T19:41:35.231Z",
+          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
+          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
           "source": "game8"
         },
         "current": {
@@ -4393,15 +4421,29 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
+        },
+        {
+          "code": "LCXGEA5SX65L",
+          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-06-12",
+          "firstSeen": "2026-07-05T20:39:31.207Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L"
         }
       ],
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T17:19:00.958Z",
-          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
-          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "checkedAt": "2026-07-05T19:41:35.231Z",
+          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
+          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
           "source": "game8"
         },
         "current": {
@@ -114634,6 +114676,20 @@ var NYX_DB = {
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
         },
         {
+          "code": "5S6ZHRWTDNJB",
+          "reward": "60 stellar jade",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-05",
+          "firstSeen": "2026-07-05T20:39:50.279Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
+        },
+        {
           "code": "CREATIONNYMPH",
           "reward": "60 stellar jade and one fuel",
           "premium": true,
@@ -114722,9 +114778,9 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T17:19:00.958Z",
-          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
-          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "checkedAt": "2026-07-05T19:41:35.231Z",
+          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
+          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
           "source": "game8"
         },
         "current": {
@@ -114789,7 +114845,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Quantum",
           "role": "Elation",
-          "icon": "../../Database/Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp",
+          "icon": null,
           "art": "../../Database/Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp",
           "forms": []
         },
@@ -114800,7 +114856,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Wind",
           "role": "Remembrance",
-          "icon": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
+          "icon": null,
           "art": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
           "forms": []
         },
@@ -114828,7 +114884,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Fire",
           "role": "Erudition",
-          "icon": "../../Database/Prydwen/hsr/assets/characters/himeko-nova-2a8de327b90f.webp",
+          "icon": "../../Database/Nanoka/hsr/assets/characters/round/1510.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/himeko-nova-4191fdac6ee2.webp",
           "forms": []
         },
@@ -114872,7 +114928,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Lightning",
           "role": "Destruction",
-          "icon": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-8b85b84d2d9d.webp",
+          "icon": "../../Database/Nanoka/hsr/assets/characters/round/1509.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-7eb51f1144e6.webp",
           "forms": []
         },
@@ -115508,7 +115564,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Quantum",
           "role": "Erudition",
-          "icon": "../../Database/Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
+          "icon": "../../Database/Nanoka/hsr/assets/characters/round/1508.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/rin-tohsaka-ac78bcd23e3e.webp",
           "forms": []
         },
@@ -115696,7 +115752,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Fire",
           "role": "Nihility",
-          "icon": "../../Database/Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "icon": "../../Database/Nanoka/hsr/assets/characters/round/1225.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/tingyun-fugue-ca9647a723e1.webp",
           "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23035.webp",
           "overviewArtPool": [
@@ -115732,7 +115788,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Physical",
           "role": "Destruction",
-          "icon": "../../Database/Prydwen/hsr/assets/characters/trailblazer-destruction-533411d696bf.webp",
+          "icon": null,
           "art": "../../Database/Prydwen/hsr/assets/characters/trailblazer-destruction-9ca4f7d3313b.webp",
           "forms": [
             {
@@ -115742,7 +115798,7 @@ var NYX_DB = {
               "gender": null,
               "element": "Physical",
               "role": "Destruction",
-              "icon": "../../Database/Prydwen/hsr/assets/characters/trailblazer-destruction-533411d696bf.webp",
+              "icon": null,
               "art": "../../Database/Prydwen/hsr/assets/characters/trailblazer-destruction-9ca4f7d3313b.webp"
             },
             {
@@ -115752,7 +115808,7 @@ var NYX_DB = {
               "gender": null,
               "element": "Fire",
               "role": "Preservation",
-              "icon": "../../Database/Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+              "icon": null,
               "art": "../../Database/Prydwen/hsr/assets/characters/trailblazer-preservation-eab569c8a012.webp"
             },
             {
@@ -115762,7 +115818,7 @@ var NYX_DB = {
               "gender": null,
               "element": "Imaginary",
               "role": "Harmony",
-              "icon": "../../Database/Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+              "icon": null,
               "art": "../../Database/Prydwen/hsr/assets/characters/trailblazer-harmony-65eb58c4d838.webp"
             },
             {
@@ -115772,7 +115828,7 @@ var NYX_DB = {
               "gender": null,
               "element": "Ice",
               "role": "Remembrance",
-              "icon": "../../Database/Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+              "icon": null,
               "art": "../../Database/Prydwen/hsr/assets/characters/trailblazer-remembrance-f5dae98ced6c.webp"
             },
             {
@@ -115782,7 +115838,7 @@ var NYX_DB = {
               "gender": null,
               "element": "Lightning",
               "role": "Elation",
-              "icon": "../../Database/Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+              "icon": null,
               "art": "../../Database/Prydwen/hsr/assets/characters/trailblazer-elation-add66215f06a.webp"
             }
           ]
@@ -118473,9 +118529,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T17:19:00.958Z",
-          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
-          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "checkedAt": "2026-07-05T19:41:35.231Z",
+          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
+          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
           "source": "game8"
         },
         "current": {
@@ -118485,7 +118541,7 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Velina",
-              "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle64.webp",
+              "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1561.webp",
               "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect64.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp",
@@ -118494,7 +118550,7 @@ var NYX_DB = {
             },
             {
               "name": "Ye Shunguang",
-              "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle55.webp",
+              "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1431.webp",
               "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect55.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/ye-shunguang-bdd0b5faf96c.webp",
@@ -118511,7 +118567,7 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Norma",
-              "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
+              "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1571.webp",
               "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect65.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/norma-f4dbe2ca9e48.webp",
@@ -118520,7 +118576,7 @@ var NYX_DB = {
             },
             {
               "name": "Sunna",
-              "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle58.webp",
+              "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1491.webp",
               "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect58.webp",
               "iconZoom": true,
               "art": "../../Database/Prydwen/zzz/assets/characters/sunna-48eb55c7efc5.webp",
@@ -118541,7 +118597,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Ether",
           "role": "Anomaly",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1501.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/aria-746e633109ad.webp",
           "forms": []
         },
@@ -118553,7 +118609,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Fire",
           "role": "Anomaly",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle32.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1171.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/burnice-00756e804618.webp",
           "forms": []
         },
@@ -118565,7 +118621,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Electric",
           "role": "Anomaly",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle20.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1181.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/grace-818f41423b37.webp",
           "forms": []
         },
@@ -118577,7 +118633,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Ether",
           "role": "Stun",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle59.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1511.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/nangong-yu-27f17dc0ec46.webp",
           "forms": []
         },
@@ -118589,7 +118645,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Ether",
           "role": "Anomaly",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle41.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1331.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/vivian-68e896e0a867.webp",
           "forms": []
         },
@@ -118601,7 +118657,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Fire",
           "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle49.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1301.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/orphie-magus-e44aeea91ef9.webp",
           "forms": []
         },
@@ -118612,7 +118668,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Ether",
           "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole63.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1551.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/pyrois-4c5bdf76ba79.webp",
           "forms": []
         },
@@ -118624,7 +118680,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Wind",
           "role": "Anomaly",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle64.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1561.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp",
           "forms": []
         },
@@ -118636,7 +118692,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Physical",
           "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle55.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1431.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/ye-shunguang-bdd0b5faf96c.webp",
           "forms": []
         },
@@ -118648,7 +118704,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Physical",
           "role": "Anomaly",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle46.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1401.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/alice-a3e05b9a7470.webp",
           "forms": []
         },
@@ -118660,7 +118716,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Ether",
           "role": "Support",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle36.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1311.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/astra-yao-524011997577.webp",
           "forms": []
         },
@@ -118672,7 +118728,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Fire",
           "role": "Rupture",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle53.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1471.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/banyue-f74ed4cfb61e.webp",
           "forms": []
         },
@@ -118684,7 +118740,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Physical",
           "role": "Defence",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle25.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1071.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/caesar-b1d63aed5ee9.webp",
           "forms": []
         },
@@ -118696,7 +118752,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Electric",
           "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle60.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1521.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/cissia-5a04d57305a5.webp",
           "forms": []
         },
@@ -118708,7 +118764,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Physical",
           "role": "Stun",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1481.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/dialyn-ff43f11449fb.webp",
           "forms": []
         },
@@ -118720,7 +118776,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Ice",
           "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle21.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1191.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/ellen-aaf7bba6a047.webp",
           "forms": []
         },
@@ -118732,7 +118788,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Fire",
           "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle37.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1321.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/evelyn-40cacb3ba05c.webp",
           "forms": []
         },
@@ -118744,7 +118800,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Electric",
           "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1201.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/harumasa-afd749153d1a.webp",
           "forms": []
         },
@@ -118756,7 +118812,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Ice",
           "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle42.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1291.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/hugo-d2392f8cd65f.webp",
           "forms": []
         },
@@ -118768,7 +118824,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Fire",
           "role": "Stun",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle43.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1391.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/ju-fufu-083ada970294.webp",
           "forms": []
         },
@@ -118780,7 +118836,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Fire",
           "role": "Stun",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle14.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1101.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/koleda-b9f1d4fb1aad.webp",
           "forms": []
         },
@@ -118792,7 +118848,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Fire",
           "role": "Stun",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle26.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1161.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/lighter-dc3a9a94a8f3.webp",
           "forms": []
         },
@@ -118804,7 +118860,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Ether",
           "role": "Support",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle50.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1451.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/lucia-b3f7c6c00e60.webp",
           "forms": []
         },
@@ -118816,7 +118872,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Ice",
           "role": "Stun",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle18.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1141.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/lycaon-81640864dfb8.webp",
           "forms": []
         },
@@ -118828,7 +118884,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Ice",
           "role": "Anomaly",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle13.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1091.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/miyabi-77dced7400d3.webp",
           "forms": []
         },
@@ -118840,7 +118896,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Physical",
           "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle11.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1021.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/nekomata-c03741fa6151.webp",
           "forms": []
         },
@@ -118852,7 +118908,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Ice",
           "role": "Anomaly",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle61.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1541.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/promeia-1aa59734d9f7.webp",
           "forms": []
         },
@@ -118864,7 +118920,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Electric",
           "role": "Stun",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle29.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1251.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/qingyi-41754ae2151b.webp",
           "forms": []
         },
@@ -118876,7 +118932,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Electric",
           "role": "Support",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle22.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1211.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/rina-e34c2ce33c6c.webp",
           "forms": []
         },
@@ -118888,7 +118944,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Electric",
           "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle48.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1461.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/seed-03f6455f3ab6.webp",
           "forms": []
         },
@@ -118900,7 +118956,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Fire",
           "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle05.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1041.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/soldier-11-c75f3e4f2c7c.webp",
           "forms": []
         },
@@ -118912,7 +118968,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Physical",
           "role": "Support",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle58.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1491.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/sunna-48eb55c7efc5.webp",
           "forms": []
         },
@@ -118924,7 +118980,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Electric",
           "role": "Stun",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle39.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1361.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/trigger-516b78c67182.webp",
           "forms": []
         },
@@ -118936,7 +118992,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Electric",
           "role": "Anomaly",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle31.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1221.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/yanagi-aef45a0459b1.webp",
           "forms": []
         },
@@ -118948,7 +119004,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Ice",
           "role": "Rupture",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle52.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1051.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/yidhari-59c8d8a979e1.webp",
           "forms": []
         },
@@ -118960,7 +119016,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Ether",
           "role": "Rupture",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle44.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1371.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/yixuan-b71d7689bc1d.webp",
           "forms": []
         },
@@ -118972,7 +119028,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Physical",
           "role": "Support",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle47.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1411.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/yuzuha-46be4cd37d33.webp",
           "forms": []
         },
@@ -118984,7 +119040,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Ice",
           "role": "Defence",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle56.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1341.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/zhao-7c786d3090b7.webp",
           "forms": []
         },
@@ -118996,7 +119052,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Ether",
           "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle23.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1241.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/zhu-yuan-1eeccac3020e.webp",
           "forms": []
         },
@@ -119008,7 +119064,7 @@ var NYX_DB = {
           "rarity": "A",
           "element": "Electric",
           "role": "Stun",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle01.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1011.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/anby-9f2294728151.webp",
           "forms": []
         },
@@ -119020,7 +119076,7 @@ var NYX_DB = {
           "rarity": "A",
           "element": "Electric",
           "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle15.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1111.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/anton-4e5e8d4cf8c5.webp",
           "forms": []
         },
@@ -119032,7 +119088,7 @@ var NYX_DB = {
           "rarity": "A",
           "element": "Fire",
           "role": "Defence",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle16.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1121.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/ben-453d193f0424.webp",
           "forms": []
         },
@@ -119044,7 +119100,7 @@ var NYX_DB = {
           "rarity": "A",
           "element": "Physical",
           "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle10.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1081.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/billy-142f00f4ec7a.webp",
           "forms": []
         },
@@ -119056,7 +119112,7 @@ var NYX_DB = {
           "rarity": "A",
           "element": "Physical",
           "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle09.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1061.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/corin-04cc14dacf63.webp",
           "forms": []
         },
@@ -119068,7 +119124,7 @@ var NYX_DB = {
           "rarity": "A",
           "element": "Fire",
           "role": "Support",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle27.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1151.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/lucy-8522160730d1.webp",
           "forms": []
         },
@@ -119080,7 +119136,7 @@ var NYX_DB = {
           "rarity": "A",
           "element": "Fire",
           "role": "Rupture",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle51.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1441.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/manato-7f4b75e1c466.webp",
           "forms": []
         },
@@ -119092,7 +119148,7 @@ var NYX_DB = {
           "rarity": "A",
           "element": "Ether",
           "role": "Support",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle12.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1031.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/nicole-373bd7d328b4.webp",
           "forms": []
         },
@@ -119104,7 +119160,7 @@ var NYX_DB = {
           "rarity": "A",
           "element": "Physical",
           "role": "Defence",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle45.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1421.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/pan-yinhu-68a0ebf14907.webp",
           "forms": []
         },
@@ -119116,7 +119172,7 @@ var NYX_DB = {
           "rarity": "A",
           "element": "Physical",
           "role": "Anomaly",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle28.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1281.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/piper-647be76ff554.webp",
           "forms": []
         },
@@ -119128,7 +119184,7 @@ var NYX_DB = {
           "rarity": "A",
           "element": "Physical",
           "role": "Stun",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle38.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1351.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/pulchra-cb6f22fc2a37.webp",
           "forms": []
         },
@@ -119140,7 +119196,7 @@ var NYX_DB = {
           "rarity": "A",
           "element": "Electric",
           "role": "Defence",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle30.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1271.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/seth-953351a4c1cf.webp",
           "forms": []
         },
@@ -119152,7 +119208,7 @@ var NYX_DB = {
           "rarity": "A",
           "element": "Ice",
           "role": "Support",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle17.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1131.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/soukaku-b11bd2e95ae9.webp",
           "forms": []
         },
@@ -119163,7 +119219,7 @@ var NYX_DB = {
           "rarity": "S",
           "element": "Fire",
           "role": "Stun",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1571.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/norma-f4dbe2ca9e48.webp",
           "forms": []
         }
@@ -122744,9 +122800,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T17:19:00.958Z",
-          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
-          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "checkedAt": "2026-07-05T19:41:35.231Z",
+          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
+          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
           "source": "game8"
         },
         "current": {
@@ -122800,7 +122856,7 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Yangyang Xuanling",
-              "icon": "../../Database/Prydwen/ww/assets/characters/yangyang-xuanling-184e6fda4c3c.webp",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_70_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/Prydwen/ww/assets/characters/yangyang-xuanling-47cdc9f48f22.webp",
@@ -122907,7 +122963,7 @@ var NYX_DB = {
             "characters": [
               {
                 "name": "Suisui",
-                "icon": "../../Database/Prydwen/ww/assets/characters/suisui-6c2f0381f367.webp",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
                 "iconFallback": null,
                 "iconZoom": false,
                 "art": "../../Database/Prydwen/ww/assets/characters/suisui-d7e1ee5a66d1.webp",
@@ -122929,6 +122985,18 @@ var NYX_DB = {
         ]
       },
       "roster": [
+        {
+          "id": "ww-yangyang-xuanling",
+          "name": "Yangyang Xuanling",
+          "aliases": [],
+          "title": "Voices of Azure Plume",
+          "rarity": 5,
+          "element": "Havoc",
+          "role": "Sword",
+          "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_70_UI.webp",
+          "art": "../../Database/Prydwen/ww/assets/characters/yangyang-xuanling-47cdc9f48f22.webp",
+          "forms": []
+        },
         {
           "id": "ww-phrolova",
           "name": "Phrolova",
@@ -123485,6 +123553,18 @@ var NYX_DB = {
           "forms": []
         },
         {
+          "id": "ww-suisui",
+          "name": "Suisui",
+          "aliases": [],
+          "title": "Host of Harmony",
+          "rarity": 5,
+          "element": "Glacio",
+          "role": "Rectifier",
+          "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
+          "art": "../../Database/Prydwen/ww/assets/characters/suisui-d7e1ee5a66d1.webp",
+          "forms": []
+        },
+        {
           "id": "ww-lucilla",
           "name": "Lucilla",
           "aliases": [],
@@ -123588,7 +123668,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Unknown",
           "role": "Unknown",
-          "icon": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
+          "icon": null,
           "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
           "forms": []
         },
@@ -123599,7 +123679,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Unknown",
           "role": "Unknown",
-          "icon": "../../Database/Prydwen/ww/assets/characters/jingran-0e6d2cc79ad5.webp",
+          "icon": null,
           "art": "../../Database/Prydwen/ww/assets/characters/jingran-2b0e720255d4.webp",
           "forms": []
         },
@@ -123610,20 +123690,8 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Unknown",
           "role": "Unknown",
-          "icon": "../../Database/Prydwen/ww/assets/characters/qingxiao-4f6ce581004d.webp",
+          "icon": null,
           "art": "../../Database/Prydwen/ww/assets/characters/qingxiao-df2ddd77ec24.webp",
-          "forms": []
-        },
-        {
-          "id": "ww-suisui",
-          "name": "Suisui",
-          "aliases": [],
-          "title": "Host of Harmony",
-          "rarity": 5,
-          "element": "Glacio",
-          "role": "Rectifier",
-          "icon": "../../Database/Prydwen/ww/assets/characters/suisui-6c2f0381f367.webp",
-          "art": "../../Database/Prydwen/ww/assets/characters/suisui-d7e1ee5a66d1.webp",
           "forms": []
         },
         {
@@ -123633,20 +123701,8 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Unknown",
           "role": "Unknown",
-          "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
+          "icon": null,
           "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
-          "forms": []
-        },
-        {
-          "id": "ww-yangyang-xuanling",
-          "name": "Yangyang Xuanling",
-          "aliases": [],
-          "title": "Voices of Azure Plume",
-          "rarity": 5,
-          "element": "Havoc",
-          "role": "Sword",
-          "icon": "../../Database/Prydwen/ww/assets/characters/yangyang-xuanling-184e6fda4c3c.webp",
-          "art": "../../Database/Prydwen/ww/assets/characters/yangyang-xuanling-47cdc9f48f22.webp",
           "forms": []
         }
       ]
@@ -127133,9 +127189,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T17:19:00.958Z",
-          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
-          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "checkedAt": "2026-07-05T19:41:35.231Z",
+          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
+          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
           "source": "game8"
         },
         "current": {

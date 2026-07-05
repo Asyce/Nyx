@@ -117,6 +117,7 @@ function cleanKitText(s, len = 2600) {
     .replace(/<\/(?:p|div|li|h\d)>/gi, '\n')
     .replace(/<IconMap:[^>]+>/gi, '')
     .replace(/<[^>]+>/g, '')
+    .replace(/\{Cus:Ipt[^}]*\}/gi, '')
     .replace(/\{RUBY_[^}]+\}/g, '')
     .replace(/\{\/?LINK[^}]*\}/gi, '')
     .replace(/\{[A-Z][A-Z0-9_]*(?:#[^}]*)?\}/g, '')
@@ -151,6 +152,43 @@ function applyKitParams(desc, params = []) {
   });
 }
 
+function cleanKitLevels(levels = []) {
+  const out = [];
+  const seen = new Set();
+  for (const row of Array.isArray(levels) ? levels : []) {
+    const label = cleanKitName(row?.label || row?.level || '', 40);
+    const text = cleanKitText(row?.text || row?.desc || '', 5000);
+    if (!label || !text) continue;
+    const key = `${label}:${normKey(text)}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push({ label, text });
+  }
+  const uniqueTexts = new Set(out.map((row) => normKey(row.text)).filter(Boolean));
+  return uniqueTexts.size > 1 ? out : [];
+}
+
+function cleanKitScaling(groups = []) {
+  const out = [];
+  for (const group of Array.isArray(groups) ? groups : []) {
+    const columns = (group?.columns || []).map((col) => cleanKitName(col, 24)).filter(Boolean);
+    const rows = (group?.rows || [])
+      .map((row) => ({
+        label: cleanKitName(row?.label, 100),
+        values: (row?.values || []).map((value) => cleanKitName(value, 80)),
+      }))
+      .filter((row) => row.label && row.values.some(Boolean));
+    if (columns.length && rows.length) {
+      out.push({
+        title: cleanKitName(group?.title || 'Scaling', 80),
+        columns,
+        rows,
+      });
+    }
+  }
+  return out;
+}
+
 function kitSource(game, source = 'Nanoka') {
   const manifest = exists('Nanoka/manifest.json') ? readJson('Nanoka/manifest.json') : {};
   const key = game === 'wuwa' ? 'ww' : game;
@@ -161,15 +199,19 @@ function kitSource(game, source = 'Nanoka') {
   };
 }
 
-function kitEntry({ name, type, desc, icon, params, stats }) {
+function kitEntry({ name, type, desc, icon, params, stats, levels, scaling }) {
   const body = cleanKitText(applyKitParams(desc, params));
-  if (!name && !body) return null;
+  const cleanLevels = cleanKitLevels(levels);
+  const cleanScaling = cleanKitScaling(scaling);
+  if (!name && !body && !cleanLevels.length && !cleanScaling.length) return null;
   return {
     name: cleanKitName(name || type || 'Skill'),
     ...(type ? { type: cleanKitName(type, 80) } : {}),
     ...(body ? { desc: body } : {}),
     ...(icon ? { icon } : {}),
-    ...(Array.isArray(stats) && stats.length ? { stats: stats.slice(0, 8) } : {}),
+    ...(Array.isArray(stats) && stats.length ? { stats } : {}),
+    ...(cleanLevels.length ? { levels: cleanLevels } : {}),
+    ...(cleanScaling.length ? { scaling: cleanScaling } : {}),
   };
 }
 
@@ -185,6 +227,10 @@ function dedupeKitEntries(entries) {
       out.push(entry);
       continue;
     }
+    if (!existing.icon && entry.icon) existing.icon = entry.icon;
+    if ((!existing.stats || !existing.stats.length) && entry.stats?.length) existing.stats = entry.stats;
+    if ((!existing.levels || !existing.levels.length) && entry.levels?.length) existing.levels = entry.levels;
+    if ((!existing.scaling || !existing.scaling.length) && entry.scaling?.length) existing.scaling = entry.scaling;
     if (!entry.desc) continue;
     if (!existing.desc) {
       existing.desc = entry.desc;
@@ -195,8 +241,6 @@ function dedupeKitEntries(entries) {
     if (next && !current.includes(next) && !next.includes(current)) {
       existing.desc = cleanKitText(`${existing.desc}\n\n${entry.desc}`, 5000);
     }
-    if (!existing.icon && entry.icon) existing.icon = entry.icon;
-    if ((!existing.stats || !existing.stats.length) && entry.stats?.length) existing.stats = entry.stats;
   }
   return out;
 }
@@ -204,6 +248,112 @@ function dedupeKitEntries(entries) {
 function kitSection(title, entries) {
   const clean = dedupeKitEntries(entries).filter(Boolean);
   return clean.length ? { title, entries: clean } : null;
+}
+
+function trimNumberText(text) {
+  return String(text)
+    .replace(/(\.\d*?[1-9])0+(?=\D|$)/g, '$1')
+    .replace(/\.0+(?=\D|$)/g, '');
+}
+
+function kitColumns(count) {
+  return Array.from({ length: Math.max(0, count) }, (_, i) => `Lv. ${i + 1}`);
+}
+
+function formatGiPromoteValue(value, fmt = '') {
+  const n = Number(value);
+  if (!Number.isFinite(n)) return String(value ?? '');
+  const format = String(fmt || '');
+  const isPercent = /P/i.test(format);
+  const decimals = Number(format.match(/F(\d+)/i)?.[1] ?? (isPercent ? 1 : 0));
+  const raw = isPercent ? n * 100 : n;
+  return trimNumberText(raw.toFixed(Math.max(0, Math.min(4, decimals)))) + (isPercent ? '%' : '');
+}
+
+function applyGiPromoteParams(template, params = []) {
+  return String(template || '').replace(/\{param(\d+):([^}]+)\}/gi, (match, rawIndex, fmt) => {
+    const value = params[Number(rawIndex) - 1];
+    return value === undefined ? match : formatGiPromoteValue(value, fmt);
+  });
+}
+
+function giPromoteScaling(skill) {
+  const levels = Object.values(skill?.promote || {})
+    .filter((row) => Number(row?.level) > 0)
+    .sort((a, b) => Number(a.level) - Number(b.level));
+  if (!levels.length) return null;
+  const first = Array.isArray(levels[0]?.desc) ? levels[0].desc : [];
+  const rows = first.map((line, index) => {
+    const [labelRaw] = String(line || '').split('|');
+    const label = cleanKitName(labelRaw, 100);
+    if (!label) return null;
+    return {
+      label,
+      values: levels.map((level) => {
+        const template = String((level.desc || [])[index] || line || '').split('|').slice(1).join('|');
+        return cleanKitName(applyGiPromoteParams(template, level.param || []), 80);
+      }),
+    };
+  }).filter(Boolean);
+  return rows.length ? { title: 'Talent Level Scaling', columns: levels.map((row) => `Lv. ${row.level}`), rows } : null;
+}
+
+function hsrSkillLevels(skill, desc) {
+  const levels = Object.values(skill?.level || {})
+    .filter((row) => Number(row?.level) > 0)
+    .sort((a, b) => Number(a.level) - Number(b.level));
+  return levels.map((row) => ({
+    label: `Lv. ${row.level}`,
+    text: cleanKitText(applyKitParams(desc, row.param_list || []), 5000),
+  }));
+}
+
+function wuwaSkillScaling(skill) {
+  const rowsRaw = Object.values(skill?.level || {})
+    .filter((row) => row?.name && Array.isArray(row?.param) && row.param.length)
+    .sort((a, b) => Number(a?.id || 0) - Number(b?.id || 0));
+  if (!rowsRaw.length) return null;
+  const maxColumns = Math.max(...rowsRaw.map((row) => Math.max(...row.param.map((vals) => Array.isArray(vals) ? vals.length : 0))));
+  const rows = rowsRaw.map((row) => ({
+    label: cleanKitName(row.name, 100),
+    values: Array.from({ length: maxColumns }, (_, i) => row.param
+      .map((vals) => Array.isArray(vals) ? vals[i] : null)
+      .filter((value) => value !== undefined && value !== null && value !== '')
+      .join(' / ')),
+  })).filter((row) => row.label && row.values.some(Boolean));
+  return rows.length ? { title: 'Skill Level Scaling', columns: kitColumns(maxColumns), rows } : null;
+}
+
+function formatZzzScaleValue(prop, level) {
+  const main = Number(prop?.main ?? prop?.damage_percentage ?? 0);
+  const growth = Number(prop?.growth ?? prop?.damage_percentage_growth ?? 0);
+  const raw = main + growth * (Number(level) - 1);
+  const format = String(prop?.format || '');
+  if (format.includes('%')) return trimNumberText((raw / 100).toFixed(1)) + '%';
+  return trimNumberText(raw.toFixed(1));
+}
+
+function zzzParamScaling(params) {
+  const rowsRaw = Array.isArray(params) ? params : [];
+  const rows = rowsRaw.map((row) => {
+    const prop = Object.values(row?.param || {})[0];
+    if (!row?.name || !prop) return null;
+    return {
+      label: cleanKitName(row.name, 100),
+      values: Array.from({ length: 12 }, (_, i) => formatZzzScaleValue(prop, i + 1)),
+    };
+  }).filter((row) => row?.label && row.values.some(Boolean));
+  return rows.length ? { title: 'Skill Level Scaling', columns: kitColumns(12), rows } : null;
+}
+
+function zzzPassiveLevels(passiveRows, index) {
+  return passiveRows
+    .filter((row) => Number(row?.level) > 0)
+    .sort((a, b) => Number(a.level) - Number(b.level))
+    .map((row) => {
+      const descs = Array.isArray(row.desc) ? row.desc : [row.desc];
+      return { label: `Lv. ${row.level}`, text: descs[index] };
+    });
 }
 
 function normKey(s) {
@@ -230,6 +380,7 @@ function nanokaCharacterAliases(game, ch) {
     if (id === '1224') aliases.push('March 7th The Hunt', 'March 7th • The Hunt', 'March 7th Swordmaster');
     if (id === '1413') aliases.push('Evernight', 'March 7th Evernight', 'March 7th • Evernight');
     if (id === '1506') aliases.push('Silver Wolf LV.999', 'Silver Wolf LV999', 'Silver Wolf Lv 999', 'Silver Wolf • Lv. 999');
+    if (id === '1225') aliases.push('Tingyun Fugue', 'Tingyun • Fugue');
   }
 
   if (key === 'ww' && name && !/^the\s+/i.test(name)) aliases.push(`The ${name}`);
@@ -310,10 +461,10 @@ function fandomCharacterMetadata(game) {
 }
 
 const rawCharacterLocaleCache = new Map();
-function rawCharacterLocaleMap(game) {
-  const key = `${game}:${nch()}`;
+function rawCharacterLocaleMap(game, channel = nch()) {
+  const key = `${game}:${channel}`;
   if (rawCharacterLocaleCache.has(key)) return rawCharacterLocaleCache.get(key);
-  const rel = `Nanoka/${game}/${nch()}/raw/characters.json`;
+  const rel = `Nanoka/${game}/${channel}/raw/characters.json`;
   const map = new Map();
   if (exists(rel)) {
     const raw = readJson(rel);
@@ -899,6 +1050,12 @@ const ZZZ_SKILL_ICONS = [
   'Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp',
   'Nanoka/zzz/assets/skills/Icon_UltimateReady.webp',
 ].map((p) => dbAsset(p));
+
+function zzzAgentAvatarIcon(agent) {
+  const id = String(agent?.id || '').trim();
+  return id ? dbAsset(`Nanoka/zzz/assets/items/CardDailyUse${id}.webp`) : null;
+}
+
 const HSR_HOLIDAY_ART = loadHsrHolidayArtMap();
 const HSR_SIGNATURE_LIGHT_CONES = loadHsrSignatureLightConeMap();
 
@@ -1324,16 +1481,16 @@ function setNamedMapEntry(map, name, value, aliases = [], options = {}) {
   }
 }
 
-function localAvatarOverlay(game) {
+function localAvatarOverlay(game, channel = nch()) {
   const key = game === 'ww' ? 'wuwa' : game;
-  const cacheKey = `${key}:${nch()}`;
+  const cacheKey = `${key}:${channel}`;
   if (localAvatarOverlayCache.has(cacheKey)) return localAvatarOverlayCache.get(cacheKey);
   const byName = new Map();
   const fandom = fandomCharacterMetadata(key);
 
-  if (key === 'hsr' && exists(`Nanoka/hsr/${nch()}/characters.json`)) {
-    const localized = rawCharacterLocaleMap('hsr');
-    for (const ch of readJson(`Nanoka/hsr/${nch()}/characters.json`)) {
+  if (key === 'hsr' && exists(`Nanoka/hsr/${channel}/characters.json`)) {
+    const localized = rawCharacterLocaleMap('hsr', channel);
+    for (const ch of readJson(`Nanoka/hsr/${channel}/characters.json`)) {
       if (!ch?.name) continue;
       const displayName = cleanText(ch.name, 120);
       const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
@@ -1350,14 +1507,14 @@ function localAvatarOverlay(game) {
     }
   }
 
-  if (key === 'zzz' && exists(`Nanoka/zzz/${nch()}/agents.json`)) {
-    const localized = rawCharacterLocaleMap('zzz');
-    for (const ch of readJson(`Nanoka/zzz/${nch()}/agents.json`)) {
+  if (key === 'zzz' && exists(`Nanoka/zzz/${channel}/agents.json`)) {
+    const localized = rawCharacterLocaleMap('zzz', channel);
+    for (const ch of readJson(`Nanoka/zzz/${channel}/agents.json`)) {
       if (!ch?.name) continue;
       const displayName = cleanText(ch.name, 120);
       const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
       setNamedMapEntry(byName, displayName, {
-        icon: dbAsset(ch.assets?.partnerIcon || ch.assets?.icon),
+        icon: zzzAgentAvatarIcon(ch) || dbAsset(ch.assets?.partnerIcon || ch.assets?.icon),
         fallbackArt: dbAsset(ch.assets?.icon),
         title: titleOverride('zzz', displayName),
         localizedNames: localized.get(normKey(displayName)) || localized.get(normKey(ch.name)) || meta?.localizedNames,
@@ -1368,11 +1525,11 @@ function localAvatarOverlay(game) {
     }
   }
 
-  if (key === 'wuwa' && exists(`Nanoka/ww/${nch()}/characters.json`)) {
-    const localized = rawCharacterLocaleMap('ww');
-    for (const ch of readJson(`Nanoka/ww/${nch()}/characters.json`)) {
+  if (key === 'wuwa' && exists(`Nanoka/ww/${channel}/characters.json`)) {
+    const localized = rawCharacterLocaleMap('ww', channel);
+    for (const ch of readJson(`Nanoka/ww/${channel}/characters.json`)) {
       if (!ch?.name) continue;
-      const detailRel = `Nanoka/ww/${nch()}/raw/characters/${ch.id}.json`;
+      const detailRel = `Nanoka/ww/${channel}/raw/characters/${ch.id}.json`;
       const detail = exists(detailRel) ? readJson(detailRel) : null;
       const displayName = cleanText(ch.name, 120);
       const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
@@ -1391,6 +1548,15 @@ function localAvatarOverlay(game) {
 
   localAvatarOverlayCache.set(cacheKey, byName);
   return byName;
+}
+
+function trustedPrydwenIcon(game, ch) {
+  const rel = ch?.art?.icon;
+  if (!rel) return null;
+  const slug = normKey(ch?.slug || ch?.id || ch?.name);
+  const base = normKey(path.basename(String(rel)).replace(/-[a-f0-9]+\.[a-z0-9]+$/i, ''));
+  if (!slug || !base || !base.includes(slug)) return null;
+  return dbAsset(rel);
 }
 
 function materialLookup(mat, lookup) {
@@ -1710,6 +1876,7 @@ function buildGiKit(raw) {
       type: 'Talent',
       desc: skill?.desc,
       icon: giSkillIcon(skill),
+      scaling: [giPromoteScaling(skill)].filter(Boolean),
     }))
     .filter(Boolean);
   const skillSection = kitSection('Talents', skills);
@@ -2014,6 +2181,7 @@ function buildHsrKit(raw) {
         desc: skill?.desc || skill?.simple_desc,
         params: hsrSkillMaxParams(skill),
         icon: hsrSkillIconAsset(icon),
+        levels: hsrSkillLevels(skill, skill?.desc || skill?.simple_desc),
       });
     })
     .filter(Boolean);
@@ -2414,11 +2582,13 @@ function buildZzzKit(raw) {
     const group = raw.skill?.[key];
     const descriptions = Array.isArray(group?.description) ? group.description : [];
     for (const row of descriptions) {
-      if (!row?.desc) continue;
+      const scaling = zzzParamScaling(row?.param);
+      if (!row?.desc && !scaling) continue;
       const entry = kitEntry({
         name: row.name,
         type: key.charAt(0).toUpperCase() + key.slice(1),
         desc: row.desc,
+        scaling: [scaling].filter(Boolean),
       });
       if (entry) skillEntries.push(entry);
     }
@@ -2434,6 +2604,7 @@ function buildZzzKit(raw) {
     const descs = Array.isArray(passive.desc) ? passive.desc : [passive.desc];
     names.forEach((name, i) => {
       const entry = kitEntry({ name, type: i === 0 ? 'Core Passive' : 'Additional Ability', desc: descs[i] });
+      if (entry) entry.levels = cleanKitLevels(zzzPassiveLevels(passiveRows, i));
       if (entry) passiveEntries.push(entry);
     });
   }
@@ -2605,6 +2776,7 @@ function buildWuwaKit(raw) {
       type: node.skill?.type,
       desc: node.skill?.desc || node.skill?.simple_desc,
       icon: wuwaSkillIconAsset(node.skill?.icon),
+      scaling: [wuwaSkillScaling(node.skill)].filter(Boolean),
     }))
     .filter(Boolean);
   const skillSection = kitSection('Skills', skills);
@@ -2652,6 +2824,9 @@ function buildWuwaSkillIconMap() {
 function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName = null, signatureByName = null, kitByName = null) {
   const overlayGame = game === 'ww' ? 'wuwa' : game;
   const overlay = localAvatarOverlay(game);
+  const betaOverlay = NANOKA_CHANNEL === 'live' && betaChannelAvailable(game)
+    ? localAvatarOverlay(game, 'beta')
+    : null;
   const fandom = fandomCharacterMetadata(overlayGame);
   const rawChars = readJson(`Prydwen/${game}/characters.json`);
   const hsrLightConeReqMap = game === 'hsr' ? buildHsrLightConeReqMap() : null;
@@ -2659,7 +2834,11 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
   // (which arrive without icons/data). Other games keep the full Prydwen roster.
   const chars = (game === 'zzz' ? rawChars.filter((ch) => overlay.has(normKey(ch.name))) : rawChars).map((ch) => {
     const mapped = mapFacts(ch.facts || {});
-    const local = overlay.get(normKey(ch.name));
+    const primaryLocal = overlay.get(normKey(ch.name));
+    const betaLocal = ch.contentStatus && ch.contentStatus !== 'live'
+      ? betaOverlay?.get(normKey(ch.name))
+      : null;
+    const local = primaryLocal || betaLocal;
     const meta = fandom.get(normKey(ch.name));
     const req = reqByName?.get(String(ch.name || '').toLowerCase()) || reqByName?.get(normKey(ch.name)) || null;
     const skillIcons = skillIconsByName?.get(String(ch.name || '').toLowerCase()) || skillIconsByName?.get(normKey(ch.name)) || (game === 'zzz' ? ZZZ_SKILL_ICONS : null);
@@ -2670,11 +2849,11 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const signatureDisplay = signatureLightCone || signatureEquipment;
     const signatureReq = signatureLightCone ? (signatureLightCone.items ? signatureLightCone : hsrLightConeReqMap?.get(normKey(signatureLightCone.name))) : signatureEquipment;
     const holidayArtPool = game === 'hsr' ? (HSR_HOLIDAY_ART.get(normKey(ch.name)) || []) : [];
-    const icon = local?.icon || dbAsset(ch.art?.icon || ch.art?.card || ch.art?.full);
+    const icon = local?.icon || trustedPrydwenIcon(game, ch);
     const iconZoom = MANUAL_ICON_ZOOM[overlayGame]?.[normKey(ch.name)] || (!local?.icon && icon ? 1.18 : undefined);
     const art = dbAsset(ch.art?.full || ch.art?.card || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
     const card = dbAsset(ch.art?.card || ch.art?.full || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
-    const hasReliableData = !!(local || req || kit);
+    const hasReliableData = !!(primaryLocal || req || kit);
     const upcomingOnly = ch.contentStatus && ch.contentStatus !== 'live' && !hasReliableData;
     const mergedReq = req || signatureReq
       ? {
@@ -2754,15 +2933,16 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
       have.add(normKey(display));
       const req = reqByName?.get(String(ag.name || '').toLowerCase()) || reqByName?.get(normKey(ag.name)) || null;
       const kit = kitByName?.get(String(ag.name || '').toLowerCase()) || kitByName?.get(normKey(ag.name)) || null;
-      const icon = dbAsset(ag.assets?.icon);
+      const icon = zzzAgentAvatarIcon(ag) || dbAsset(ag.assets?.icon);
+      const art = dbAsset(ag.assets?.icon) || icon;
       chars.push({
         id: `zzz-${ag.id}`,
         n: display,
         updated: Number.MAX_SAFE_INTEGER, // newest → leads the recent strip
         sourceOrder: 0,
         icon,
-        art: icon,
-        card: icon,
+        art,
+        card: icon || art,
         r: Number(ag.rarity) >= 5 ? 'S' : 'A',
         el: firstVal(ag.element) || 'Unknown',
         spec: firstVal(ag.specialty) || undefined,

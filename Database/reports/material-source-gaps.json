@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T17:19:58.623Z",
+  "generatedAt": "2026-07-05T23:22:14.657Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
   "count": 206,
   "missing": [
@@ -1118,7 +1118,7 @@
     },
     {
       "game": "hsr",
-      "context": "Topaz & Numby ascension",
+      "context": "Tingyun • Fugue ascension",
       "id": "110412",
       "name": "Searing Steel Blade",
       "kind": "boss"

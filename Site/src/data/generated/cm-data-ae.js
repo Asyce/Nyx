@@ -27569,6 +27569,34 @@
                   {
                     "label": "Additional ATK Ultimate Energy Gain",
                     "value": "100"
+                  },
+                  {
+                    "label": "During Ultimate: BATK SEQ 1 Multiplier",
+                    "value": "330%"
+                  },
+                  {
+                    "label": "During Ultimate: BATK SEQ 1 Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "During Ultimate: BATK SEQ 2 Multiplier",
+                    "value": "370%"
+                  },
+                  {
+                    "label": "During Ultimate: BATK SEQ 2 Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "During Ultimate: Additional ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "During Ultimate: Additional ATK Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "During Ultimate: Combustion Duration (s)",
+                    "value": "5"
                   }
                 ]
               },
@@ -32588,6 +32616,10 @@
                   {
                     "label": "SP Recovery by Consuming 3 Vulnerability Stacks",
                     "value": "25"
+                  },
+                  {
+                    "label": "SP Recovery by Consuming 4 Vulnerability Stacks",
+                    "value": "35"
                   }
                 ]
               },
@@ -32627,6 +32659,30 @@
                   {
                     "label": "SEQ 3 DMG Multiplier",
                     "value": "149%"
+                  },
+                  {
+                    "label": "SEQ 3 Stagger",
+                    "value": "4"
+                  },
+                  {
+                    "label": "SEQ 3 SP Recovery",
+                    "value": "13"
+                  },
+                  {
+                    "label": "Enhanced SEQ 3 DMG Multiplier",
+                    "value": "297%"
+                  },
+                  {
+                    "label": "Enhanced SEQ 3 Stagger",
+                    "value": "9"
+                  },
+                  {
+                    "label": "Enhanced SEQ 3 SP Recovery",
+                    "value": "23"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
                   }
                 ]
               },
@@ -32666,6 +32722,10 @@
                   {
                     "label": "Decisive Assault Stagger",
                     "value": "15"
+                  },
+                  {
+                    "label": "Decisive Assault SP Recovery",
+                    "value": "40"
                   }
                 ]
               }
@@ -33896,6 +33956,14 @@
                   {
                     "label": "Critical DMG Boost",
                     "value": "50%"
+                  },
+                  {
+                    "label": "Buff Duration (s)",
+                    "value": "15"
+                  },
+                  {
+                    "label": "SEQ 2 Ultimate Energy Gain",
+                    "value": "10"
                   }
                 ]
               },
@@ -35141,6 +35209,10 @@
                   {
                     "label": "Arts Susceptibility (3 Waterspouts)",
                     "value": "10%"
+                  },
+                  {
+                    "label": "Arts Susceptibility Duration (s)",
+                    "value": "15"
                   }
                 ]
               },
@@ -36469,6 +36541,10 @@
                   {
                     "label": "Critical Rate Boost per Stack",
                     "value": "3%"
+                  },
+                  {
+                    "label": "Critical DMG Boost at Max Stacks",
+                    "value": "60%"
                   }
                 ]
               }
@@ -37694,6 +37770,10 @@
                   {
                     "label": "During Ultimate: Thunder Strike DMG Multiplier",
                     "value": "81%"
+                  },
+                  {
+                    "label": "During Ultimate: Bonus DMG Multiplier per Status Level of Electrification Consumed",
+                    "value": "18%"
                   }
                 ]
               },
@@ -52682,6 +52762,10 @@
                   {
                     "label": "Weakness Effect",
                     "value": "30%"
+                  },
+                  {
+                    "label": "Weakness Duration (s)",
+                    "value": "8"
                   }
                 ]
               }

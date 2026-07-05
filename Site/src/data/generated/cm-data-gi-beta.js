@@ -49,13 +49,13 @@
               {
                 "name": "Formule Phenomenale: Self-Evident Proposition",
                 "type": "Talent",
-                "desc": "Normal Attack\\nGenerates threads that control her weapon using formulae, performing up to 3 consecutive strikes.\\n\\nCharged Attack\\nSummons the Facilitatrice Automatisee Generaliste Interactive et Omnitache, or \"Fagio,\" and switches it to {LINK#N11330001}Decoding{/LINK} mode: Unleashes a sweeping fire attack on enemies in front, as well as periodically fires condensed beams, dealing AoE Cryo DMG.\\nRadiance: Stellar Glimmer: The condensed beams will instead deal AoE Cryo DMG that is considered Stellar reaction DMG.\\nWhile in Decoding mode, Fagio's {LINK#N11330002}Decoding Power{/LINK} will continuously increase. Firing condensed beams will also further increase its Decoding Power.\\nWhen Fagio's Decoding Power reaches the maximum of 100 points, it switches to Power Overdrive mode, in which it fires at opponents with longer intervals, dealing Cryo DMG. It will be unable to switch to Decoding mode at this time.\\nWhen not in Decoding mode, Fagio's Decoding Power gradually decreases. When Sandrone is off-field, she will focus on maintaining Fagio, causing its Decoding Power to decrease at 300% the original rate.\\nFagio exits Power Overdrive mode when its Decoding Power has decreased to under 50.\\n\\nPlunging Attack\\nPlunges from midair to strike the ground below, dealing DMG to opponents along their path and causing AoE DMG on landing.",
+                "desc": "Normal Attack\\nGenerates threads that control her weapon using formulae, performing up to 3 consecutive strikes.\\n\\nCharged Attack\\nSummons the Facilitatrice Automatisee Generaliste Interactive et Omnitache, or \"Fagio,\" and switches it to Decoding mode: Unleashes a sweeping fire attack on enemies in front, as well as periodically fires condensed beams, dealing AoE Cryo DMG.\\nRadiance: Stellar Glimmer: The condensed beams will instead deal AoE Cryo DMG that is considered Stellar reaction DMG.\\nWhile in Decoding mode, Fagio's Decoding Power will continuously increase. Firing condensed beams will also further increase its Decoding Power.\\nWhen Fagio's Decoding Power reaches the maximum of 100 points, it switches to Power Overdrive mode, in which it fires at opponents with longer intervals, dealing Cryo DMG. It will be unable to switch to Decoding mode at this time.\\nWhen not in Decoding mode, Fagio's Decoding Power gradually decreases. When Sandrone is off-field, she will focus on maintaining Fagio, causing its Decoding Power to decrease at 300% the original rate.\\nFagio exits Power Overdrive mode when its Decoding Power has decreased to under 50.\\n\\nPlunging Attack\\nPlunges from midair to strike the ground below, dealing DMG to opponents along their path and causing AoE DMG on landing.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp"
               },
               {
                 "name": "Formule Phenomenale: Differential Analysis",
                 "type": "Talent",
-                "desc": "With her impeccable, ladylike poise, Sandrone boards the Tea Party Tactical Assault Hovermech and hovers forward for 6s. During this time, Sandrone can control the travel direction of the craft. Pressing Sprint consumes 10 Stamina and launches her into an elegant high-speed hover mode, in which she will move even faster at the cost of 15 Stamina per second.\\n\\nWhen Sandrone starts hovering, if there are opponents nearby, she will also summon a Prismatic Resonance Cannon and fire 2 Prism Shots at any opponents who have yet to cool down, dealing Cryo DMG.\\nRadiance: Stellar Glimmer: The second Prism Shot will instead deal Cryo DMG that is considered Stellar reaction DMG.\\n\\nWhen on the Tea Party Tactical Assault Hovermech, Sandrone will also elegantly and quietly repair Fagio, causing {LINK#N11330002}Decoding Power{/LINK} to swiftly decrease.",
+                "desc": "With her impeccable, ladylike poise, Sandrone boards the Tea Party Tactical Assault Hovermech and hovers forward for 6s. During this time, Sandrone can control the travel direction of the craft. Pressing Sprint consumes 10 Stamina and launches her into an elegant high-speed hover mode, in which she will move even faster at the cost of 15 Stamina per second.\\n\\nWhen Sandrone starts hovering, if there are opponents nearby, she will also summon a Prismatic Resonance Cannon and fire 2 Prism Shots at any opponents who have yet to cool down, dealing Cryo DMG.\\nRadiance: Stellar Glimmer: The second Prism Shot will instead deal Cryo DMG that is considered Stellar reaction DMG.\\n\\nWhen on the Tea Party Tactical Assault Hovermech, Sandrone will also elegantly and quietly repair Fagio, causing Decoding Power to swiftly decrease.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_MarionetteNew_01.webp"
               },
               {
@@ -72,7 +72,7 @@
               {
                 "name": "Eternal Speculation Engine",
                 "type": "Passive Talent",
-                "desc": "Radiance: Stellar Glimmer: When using the Elemental Skill {LINK#S11332}Formule Phenomenale: Differential Analysis{/LINK}, if Fagio's {LINK#N11330002}Decoding Power{/LINK} is greater than 50, the second Prism Shot fired by Fagio at nearby opponents will deal 400% of its original DMG as Fagio's Decoding Power is decreased.\\nAdditionally, for every 10 points of Decoding Power Fagio loses, it gains 1 stack of Refined Tactics for 60s (max 10 stacks). When Sandrone uses the Elemental Burst {LINK#S11335}Formule Phenomenale: Q.E.D.{/LINK} while in the Radiance: Stellar Glimmer state, all stacks of Refined Tactics are cleared, causing the Convective Inhibition Ray to deal 100% + (number of stacks cleared) \u00d7 10% of its original DMG."
+                "desc": "Radiance: Stellar Glimmer: When using the Elemental Skill Formule Phenomenale: Differential Analysis, if Fagio's Decoding Power is greater than 50, the second Prism Shot fired by Fagio at nearby opponents will deal 400% of its original DMG as Fagio's Decoding Power is decreased.\\nAdditionally, for every 10 points of Decoding Power Fagio loses, it gains 1 stack of Refined Tactics for 60s (max 10 stacks). When Sandrone uses the Elemental Burst Formule Phenomenale: Q.E.D. while in the Radiance: Stellar Glimmer state, all stacks of Refined Tactics are cleared, causing the Convective Inhibition Ray to deal 100% + (number of stacks cleared) \u00d7 10% of its original DMG."
               },
               {
                 "name": "A Lady's Code of Conduct",
@@ -82,7 +82,7 @@
               {
                 "name": "Light of Rationalisme",
                 "type": "Passive Talent",
-                "desc": "When party members trigger Superconduct or Cryo Swirl, it will be changed to a Stellar-Conduct or Stellar Swirl reaction, and party members' Base DMG for the aforementioned reactions will be increased based on Sandrone's ATK: Every 100 ATK she has increases the Base Stellar-Conduct or Stellar Swirl DMG by 0.7%. The maximum increase that can be gained this way is 14%.\\nAdditionally, when Sandrone is within a {LINK#N11330003}Polestar Field{/LINK}, she will enter the Radiance: Stellar-Conduct state.\\nSandrone will also enter the Radiance: Stellar Swirl state for 8s after triggering a Stellar Swirl reaction."
+                "desc": "When party members trigger Superconduct or Cryo Swirl, it will be changed to a Stellar-Conduct or Stellar Swirl reaction, and party members' Base DMG for the aforementioned reactions will be increased based on Sandrone's ATK: Every 100 ATK she has increases the Base Stellar-Conduct or Stellar Swirl DMG by 0.7%. The maximum increase that can be gained this way is 14%.\\nAdditionally, when Sandrone is within a Polestar Field, she will enter the Radiance: Stellar-Conduct state.\\nSandrone will also enter the Radiance: Stellar Swirl state for 8s after triggering a Stellar Swirl reaction."
               },
               {
                 "name": "A Caucus Prelude and a Long Tale",
@@ -97,17 +97,17 @@
               {
                 "name": "Morrow After the Golden Dusk",
                 "type": "Constellation 1",
-                "desc": "When in {LINK#N11330001}Decoding{/LINK} mode, Fagio's {LINK#N11330002}Decoding Power{/LINK} increases at a 50% lower rate, and all party members deal 30% increased Stellar-Conduct and Stellar Swirl reaction DMG."
+                "desc": "When in Decoding mode, Fagio's Decoding Power increases at a 50% lower rate, and all party members deal 30% increased Stellar-Conduct and Stellar Swirl reaction DMG."
               },
               {
                 "name": "An Heiress Gazed Into the Looking-Glass",
                 "type": "Constellation 2",
-                "desc": "Radiance: Stellar Glimmer: Increases CRIT DMG from Charged Attack condensed beams by 40%. Also, each time a beam is fired, CRIT DMG dealt by all condensed beams fired during this {LINK#N11330001}Decoding{/LINK} mode period will be further increased by 20%. Max 3 stacks."
+                "desc": "Radiance: Stellar Glimmer: Increases CRIT DMG from Charged Attack condensed beams by 40%. Also, each time a beam is fired, CRIT DMG dealt by all condensed beams fired during this Decoding mode period will be further increased by 20%. Max 3 stacks."
               },
               {
                 "name": "Refuse the Wake of Dusk, the Moonlit Yoke",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11331}Formule Phenomenale: Self-Evident Proposition{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Formule Phenomenale: Self-Evident Proposition by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "In Knowledge Lies the World's True Ground",
@@ -117,12 +117,12 @@
               {
                 "name": "Of All Beside, She Takes No Part",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11335}Formule Phenomenale: Q.E.D.{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Formule Phenomenale: Q.E.D. by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Narcissus Wakes, Her Eyes Upon the Dawn",
                 "type": "Constellation 6",
-                "desc": "When Fagio fires a condensed beam for the third time while in {LINK#N11330001}Decoding{/LINK} mode, the beam becomes a more powerful Condensed Cluster Beam that fires continuously. This beam will deal up to 4 additional instances of AoE Cryo DMG at 100% of Sandrone's ATK on top of any subsequent original beam fired.\\nRadiance: Stellar-Conduct: The Condensed Cluster Beam will instead deal 4 additional instances of AoE Cryo DMG at 80% of Sandrone's ATK. This DMG is considered Stellar-Conduct DMG.\\nRadiance: Stellar Swirl: The condensed cluster beam deals AoE Cryo DMG of up to 4 strikes at 120% of Sandrone's ATK instead. This DMG is considered Stellar Swirl reaction DMG.\\nAdditionally, all Stellar-Conduct DMG dealt by Sandrone is {LINK#N11190007}elevated{/LINK} by 20%."
+                "desc": "When Fagio fires a condensed beam for the third time while in Decoding mode, the beam becomes a more powerful Condensed Cluster Beam that fires continuously. This beam will deal up to 4 additional instances of AoE Cryo DMG at 100% of Sandrone's ATK on top of any subsequent original beam fired.\\nRadiance: Stellar-Conduct: The Condensed Cluster Beam will instead deal 4 additional instances of AoE Cryo DMG at 80% of Sandrone's ATK. This DMG is considered Stellar-Conduct DMG.\\nRadiance: Stellar Swirl: The condensed cluster beam deals AoE Cryo DMG of up to 4 strikes at 120% of Sandrone's ATK instead. This DMG is considered Stellar Swirl reaction DMG.\\nAdditionally, all Stellar-Conduct DMG dealt by Sandrone is elevated by 20%."
               }
             ]
           }
@@ -2262,7 +2262,7 @@
               {
                 "name": "Ring-A-Ding-Ding! Hexhunter Chime",
                 "type": "Talent",
-                "desc": "Unleash the wind's might to defeat the evil witch and save Descartes! Prune strikes the Witchlure Bell with her Banehunter Oathhammer, dealing Anemo DMG.\\nIf Prune triggers Swirl or Star Swirl on an opponent using this attack, Ring-A-Ding-Ding! Hexhunter Chime will be changed to Clang Clang! Witch-tribution Comes! for the next 6s.\\n\\nClang Clang! Witch-tribution Comes!\\nPrune's hammer is now enshrouded by the element involved in the previous Swirl reaction, causing {LINK#N11320001}Banehunter Oathhammer{/LINK} to undergo Elemental Conversion. When activated with a Press, Prune will leap up and kick the Banehunter Oathhammer forward, dealing Elemental DMG of the corresponding type to opponents in front of her.",
+                "desc": "Unleash the wind's might to defeat the evil witch and save Descartes! Prune strikes the Witchlure Bell with her Banehunter Oathhammer, dealing Anemo DMG.\\nIf Prune triggers Swirl or Star Swirl on an opponent using this attack, Ring-A-Ding-Ding! Hexhunter Chime will be changed to Clang Clang! Witch-tribution Comes! for the next 6s.\\n\\nClang Clang! Witch-tribution Comes!\\nPrune's hammer is now enshrouded by the element involved in the previous Swirl reaction, causing Banehunter Oathhammer to undergo Elemental Conversion. When activated with a Press, Prune will leap up and kick the Banehunter Oathhammer forward, dealing Elemental DMG of the corresponding type to opponents in front of her.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Prune_01.webp"
               },
               {
@@ -2279,12 +2279,12 @@
               {
                 "name": "Verdict and Punishment",
                 "type": "Passive Talent",
-                "desc": "During the Elemental Burst {LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK}, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl or Astral Swirl on an opponent, it will also summon a {LINK#N11320001}Banehunter Oathhammer{/LINK} that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl. This DMG is considered Elemental Burst DMG."
+                "desc": "During the Elemental Burst The Bell Tolls! The Hunt Is On!, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl or Astral Swirl on an opponent, it will also summon a Banehunter Oathhammer that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl. This DMG is considered Elemental Burst DMG."
               },
               {
                 "name": "Tolling Synchronicity",
                 "type": "Passive Talent",
-                "desc": "After Prune hits an opponent with the {LINK#N11320001}Banehunter Oathhammer{/LINK} that has undergone Elemental Conversion, other nearby party members will gain the Tolling Rally effect for 5s: When Normal, Charged, or Plunging Attacks, or Elemental Skills and Bursts deal DMG to opponents, that attack's DMG will be increased based on the portion of Prune's ATK in excess of 2,000 when they become affected by the Tolling Rally effect. Every excess ATK point increases that instance of DMG by 0.025%, up to a total of 50% max."
+                "desc": "After Prune hits an opponent with the Banehunter Oathhammer that has undergone Elemental Conversion, other nearby party members will gain the Tolling Rally effect for 5s: When Normal, Charged, or Plunging Attacks, or Elemental Skills and Bursts deal DMG to opponents, that attack's DMG will be increased based on the portion of Prune's ATK in excess of 2,000 when they become affected by the Tolling Rally effect. Every excess ATK point increases that instance of DMG by 0.025%, up to a total of 50% max."
               },
               {
                 "name": "Tinker-Tink, Clank, and Bang!",
@@ -2304,32 +2304,32 @@
               {
                 "name": "With a Vow to Rescue, the Journey Begins",
                 "type": "Constellation 1",
-                "desc": "After the {LINK#N11320001}Banehunter Oathhammer{/LINK} that has undergone Elemental Conversion hits an opponent, Prune will regain 2 Energy. This effect can occur once every 1.8s."
+                "desc": "After the Banehunter Oathhammer that has undergone Elemental Conversion hits an opponent, Prune will regain 2 Energy. This effect can occur once every 1.8s."
               },
               {
                 "name": "Useful for Cleaning Messy Baggage, Elemental Powers Are Indeed",
                 "type": "Constellation 2",
-                "desc": "During the Elemental Burst {LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK}, when the Witchlure Bell is in Hunter-Seeker mode, Prune gains the Hunt the Witch effect: Prune's ATK increases by 10%, and when the Witchlure Bell and the {LINK#N11320001}Banehunter Oathhammer{/LINK} that has undergone Elemental Conversion hits an opponent, it further increases her ATK by 5%. Prune's ATK can be increased by up to 40% in this way.\\nThe original instance of the above effect will be removed if \"The Bell Tolls! The Hunt Is On!\" is used again during this time."
+                "desc": "During the Elemental Burst The Bell Tolls! The Hunt Is On!, when the Witchlure Bell is in Hunter-Seeker mode, Prune gains the Hunt the Witch effect: Prune's ATK increases by 10%, and when the Witchlure Bell and the Banehunter Oathhammer that has undergone Elemental Conversion hits an opponent, it further increases her ATK by 5%. Prune's ATK can be increased by up to 40% in this way.\\nThe original instance of the above effect will be removed if \"The Bell Tolls! The Hunt Is On!\" is used again during this time."
               },
               {
                 "name": "The Caravan Exits the Mountain Pass, the Scenery Once More Changed",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of The Bell Tolls! The Hunt Is On! by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Looking Back Following the Wind, One's Shadow Still Halved",
                 "type": "Constellation 4",
-                "desc": "After the {LINK#N11320001}Banehunter Oathhammer{/LINK} that has undergone Elemental Conversion hits an opponent, it will ricochet and land on a nearby opponent, dealing 80% ATK as DMG of the corresponding Elemental Type."
+                "desc": "After the Banehunter Oathhammer that has undergone Elemental Conversion hits an opponent, it will ricochet and land on a nearby opponent, dealing 80% ATK as DMG of the corresponding Elemental Type."
               },
               {
                 "name": "100 Defeats? No Problem, Tomorrow, We Go Again",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11322}Ring-A-Ding-Ding! Hexhunter Chime{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Ring-A-Ding-Ding! Hexhunter Chime by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "And That's the Story! Share It With Your Friends!",
                 "type": "Constellation 6",
-                "desc": "The duration of the Witchlure Bell's Hunter-Seeker mode from the Elemental Burst {LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK} is extended by 4s.\\nAdditionally, after party members affected by Tolling Rally trigger any Elemental Reaction, they will cause Prune and the other current active character(s) affected by Tolling Rally to gain 350 ATK for 5s."
+                "desc": "The duration of the Witchlure Bell's Hunter-Seeker mode from the Elemental Burst The Bell Tolls! The Hunt Is On! is extended by 4s.\\nAdditionally, after party members affected by Tolling Rally trigger any Elemental Reaction, they will cause Prune and the other current active character(s) affected by Tolling Rally to gain 350 ATK for 5s."
               }
             ]
           }
@@ -4469,7 +4469,7 @@
               {
                 "name": "Windbound Execution",
                 "type": "Talent",
-                "desc": "Manifest the true essence of Favonius Bladework with absolute power. Produces different effects depending on whether the skill is Tapped or Held.\\n\\nTap\\nLeap forward and slash in one fluid motion, dealing AoE Anemo DMG and switching to {LINK#N11280001}Sturm und Drang{/LINK} mode.\\nWhile in Sturm und Drang, Varka's Normal Attack and Charged Attack DMG is increased, and he cannot perform Plunging Attacks. Also, when performing Normal or Charged Attacks, Varka's dual-wielded claymores will deal corresponding Elemental DMG based on the Elemental Types of the characters in the party, respectively. This Elemental DMG cannot be overridden by infusions.\\nAdditionally, when in Sturm und Drang, if there are Pyro, Hydro, Electro or Cryo characters in the party, Varka's Elemental Skill Windbound Execution will be converted to the special Elemental Skill, {LINK#N11280002}Four Winds' Ascension{/LINK}, dealing corresponding Elemental DMG and Anemo DMG. Additionally, Varka can also expend uses of the special Elemental Skill Four Winds' Ascension to perform a special Charged Attack, Azure Devour, that does not consume stamina to deal corresponding Elemental DMG and Anemo DMG.\\n\\nHold\\nAfter charging for a while, leap forward. The duration of the charge will increase the distance of the leap.",
+                "desc": "Manifest the true essence of Favonius Bladework with absolute power. Produces different effects depending on whether the skill is Tapped or Held.\\n\\nTap\\nLeap forward and slash in one fluid motion, dealing AoE Anemo DMG and switching to Sturm und Drang mode.\\nWhile in Sturm und Drang, Varka's Normal Attack and Charged Attack DMG is increased, and he cannot perform Plunging Attacks. Also, when performing Normal or Charged Attacks, Varka's dual-wielded claymores will deal corresponding Elemental DMG based on the Elemental Types of the characters in the party, respectively. This Elemental DMG cannot be overridden by infusions.\\nAdditionally, when in Sturm und Drang, if there are Pyro, Hydro, Electro or Cryo characters in the party, Varka's Elemental Skill Windbound Execution will be converted to the special Elemental Skill, Four Winds' Ascension, dealing corresponding Elemental DMG and Anemo DMG. Additionally, Varka can also expend uses of the special Elemental Skill Four Winds' Ascension to perform a special Charged Attack, Azure Devour, that does not consume stamina to deal corresponding Elemental DMG and Anemo DMG.\\n\\nHold\\nAfter charging for a while, leap forward. The duration of the charge will increase the distance of the leap.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Varka_01.webp"
               },
               {
@@ -4486,12 +4486,12 @@
               {
                 "name": "Dawn Wind's March",
                 "type": "Passive Talent",
-                "desc": "When there are Pyro, Hydro, Electro or Cryo characters in the party, according to the aforementioned priority order of Elemental Types, every 1,000 points of Varka's ATK will grant Varka a 10% Anemo DMG Bonus and corresponding Elemental DMG Bonus (among the aforementioned Elemental Types, only one element can gain bonus DMG this way). Up to 25% bonus DMG can be gained this way. \\n\\nAdditionally, if there are at least 2 Anemo characters, or at least 2 characters of the same Element among Pyro, Hydro, Electro or Cryo in the party, the Normal Attacks, Charged Attacks, Special Charged Attack Azure Devour and the special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK} that Varka deals or unleashes while in the {LINK#N11280001}Sturm und Drang{/LINK} mode will deal 140% of their original DMG. If there are at least 2 Anemo characters and at least 2 other characters of the same element among Pyro, Hydro, Electro or Cryo present in the party at the same time, the aforementioned effect will be increased to 220%."
+                "desc": "When there are Pyro, Hydro, Electro or Cryo characters in the party, according to the aforementioned priority order of Elemental Types, every 1,000 points of Varka's ATK will grant Varka a 10% Anemo DMG Bonus and corresponding Elemental DMG Bonus (among the aforementioned Elemental Types, only one element can gain bonus DMG this way). Up to 25% bonus DMG can be gained this way. \\n\\nAdditionally, if there are at least 2 Anemo characters, or at least 2 characters of the same Element among Pyro, Hydro, Electro or Cryo in the party, the Normal Attacks, Charged Attacks, Special Charged Attack Azure Devour and the special Elemental Skill Four Winds' Ascension that Varka deals or unleashes while in the Sturm und Drang mode will deal 140% of their original DMG. If there are at least 2 Anemo characters and at least 2 other characters of the same element among Pyro, Hydro, Electro or Cryo present in the party at the same time, the aforementioned effect will be increased to 220%."
               },
               {
                 "name": "Wind's Vanguard",
                 "type": "Passive Talent",
-                "desc": "When nearby party members trigger Swirl or Astral Swirl reaction(s), Varka gains one stack of Azure Fang's Oath, increasing the DMG dealt by his Normal Attacks, Charged Attacks, special Charged Attack Azure Devour and special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK} by 7.5% for 8s. Max 4 stacks. Each character can grant Varka with 1 stack of Azure Fang's Oath every second this way."
+                "desc": "When nearby party members trigger Swirl or Astral Swirl reaction(s), Varka gains one stack of Azure Fang's Oath, increasing the DMG dealt by his Normal Attacks, Charged Attacks, special Charged Attack Azure Devour and special Elemental Skill Four Winds' Ascension by 7.5% for 8s. Max 4 stacks. Each character can grant Varka with 1 stack of Azure Fang's Oath every second this way."
               },
               {
                 "name": "Homebound Wind's Paean",
@@ -4501,7 +4501,7 @@
               {
                 "name": "Witch's Eve Rite: Dawn's Return",
                 "type": "Passive Talent",
-                "desc": "After completing Witch's Homework: The Untitled Question, Varka will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\\n\\nHexerei: Secret Rite\\nEnhances the special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK}: When Varka hits an opponent with Normal Attack(s) in {LINK#N11280001}Sturm und Drang{/LINK}, the CD of Four Winds' Ascension will be reduced by 1s."
+                "desc": "After completing Witch's Homework: The Untitled Question, Varka will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\\n\\nHexerei: Secret Rite\\nEnhances the special Elemental Skill Four Winds' Ascension: When Varka hits an opponent with Normal Attack(s) in Sturm und Drang, the CD of Four Winds' Ascension will be reduced by 1s."
               }
             ]
           },
@@ -4511,17 +4511,17 @@
               {
                 "name": "\"Come, Friend, Let Us Dance Beneath the Moon's Soft Glow\"",
                 "type": "Constellation 1",
-                "desc": "When Varka switches to {LINK#N11280001}Sturm und Drang{/LINK}, he will obtain an additional use of the special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK}.\\nAdditionally, after switching to Sturm und Drang, Varka will gain the Lyrical Libation effect: When unleashing the special Elemental Skill Four Winds' Ascension, or when performing the special Charged Attack Azure Devour, Varka will consume this effect to deal 200% of the original DMG dealt by Four Winds' Ascension or Azure Devour."
+                "desc": "When Varka switches to Sturm und Drang, he will obtain an additional use of the special Elemental Skill Four Winds' Ascension.\\nAdditionally, after switching to Sturm und Drang, Varka will gain the Lyrical Libation effect: When unleashing the special Elemental Skill Four Winds' Ascension, or when performing the special Charged Attack Azure Devour, Varka will consume this effect to deal 200% of the original DMG dealt by Four Winds' Ascension or Azure Devour."
               },
               {
                 "name": "\"When Dawn Breaks, Our Journey Shall Take Flight\"",
                 "type": "Constellation 2",
-                "desc": "When unleashing the special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK}, or when performing the special Charged Attack Azure Devour, Varka will perform an additional strike, dealing AoE Anemo DMG equal to 800% of Varka's ATK."
+                "desc": "When unleashing the special Elemental Skill Four Winds' Ascension, or when performing the special Charged Attack Azure Devour, Varka will perform an additional strike, dealing AoE Anemo DMG equal to 800% of Varka's ATK."
               },
               {
                 "name": "\"O Friend, Quaff Not the Bitter Wine That Brings Tears of Woe\"",
                 "type": "Constellation 3",
-                "desc": "Increases Elemental Skill {LINK#S11282}Windbound Execution{/LINK} Level by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases Elemental Skill Windbound Execution Level by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "\"For None May Take From Us Our Freedom of Song\"",
@@ -4531,12 +4531,12 @@
               {
                 "name": "\"Fill High the Cup With Fine Wine, for Tyrants Come and Go\"",
                 "type": "Constellation 5",
-                "desc": "Increases Elemental Burst {LINK#S11285}Northwind Avatar{/LINK} Level by 3.\\n Maximum upgrade level is 15."
+                "desc": "Increases Elemental Burst Northwind Avatar Level by 3.\\n Maximum upgrade level is 15."
               },
               {
                 "name": "\"Beloved Mondstadt, Steadfast You Shall Shine\"",
                 "type": "Constellation 6",
-                "desc": "{LINK#N11280001}Sturm und Drang{/LINK} is enhanced:\\n\u00b7 For a short time after unleashing the special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK}, Tapping on Varka's Elemental Skill or Holding his Normal Attack will not expend any uses of Four Winds' Ascension, and will perform one additional instance of the special Charged Attack, Azure Devour.\\n\u00b7 For a short time after performing the special Charged Attack Azure Devour, tap on Varka's Elemental Skill to unleash an additional instance of Four Winds' Ascension without expending any uses of Four Winds' Ascension.\\nWhen triggering an additional special Charged Attack, Azure Devour, or unleashing an additional special Elemental Skill, Four Winds' Ascension, in this manner, the above effect cannot be triggered.\\n\\nAdditionally, the Azure Fang's Oath effect in Ascension Talent {LINK#P1282201}Wind's Vanguard{/LINK} is enhanced: Every stack of Azure Fang's Oath will increase Varka's CRIT DMG by 20%."
+                "desc": "Sturm und Drang is enhanced:\\n\u00b7 For a short time after unleashing the special Elemental Skill Four Winds' Ascension, Tapping on Varka's Elemental Skill or Holding his Normal Attack will not expend any uses of Four Winds' Ascension, and will perform one additional instance of the special Charged Attack, Azure Devour.\\n\u00b7 For a short time after performing the special Charged Attack Azure Devour, tap on Varka's Elemental Skill to unleash an additional instance of Four Winds' Ascension without expending any uses of Four Winds' Ascension.\\nWhen triggering an additional special Charged Attack, Azure Devour, or unleashing an additional special Elemental Skill, Four Winds' Ascension, in this manner, the above effect cannot be triggered.\\n\\nAdditionally, the Azure Fang's Oath effect in Ascension Talent Wind's Vanguard is enhanced: Every stack of Azure Fang's Oath will increase Varka's CRIT DMG by 20%."
               }
             ]
           }
@@ -6679,13 +6679,13 @@
               {
                 "name": "Havoc: Warp",
                 "type": "Talent",
-                "desc": "Imitates the combat style of \"The Foul.\" Produces different effects depending on whether you Tap or Hold.\\n\\nTap\\nSkirk gains 45 {LINK#N11130005}Serpent's Subtlety{/LINK} and switches to {LINK#N11130006}Seven-Phase Flash{/LINK} mode.\\n\\nHold\\nSkirk gains 45 Serpent's Subtlety and will continuously move at high speed. Her interruption resistance is increased in this state.\\nDuring this time, Skirk can control her movement direction and move atop water. She can also use this Skill again to end rapid movement prematurely.",
+                "desc": "Imitates the combat style of \"The Foul.\" Produces different effects depending on whether you Tap or Hold.\\n\\nTap\\nSkirk gains 45 Serpent's Subtlety and switches to Seven-Phase Flash mode.\\n\\nHold\\nSkirk gains 45 Serpent's Subtlety and will continuously move at high speed. Her interruption resistance is increased in this state.\\nDuring this time, Skirk can control her movement direction and move atop water. She can also use this Skill again to end rapid movement prematurely.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_SkirkNew_01.webp"
               },
               {
                 "name": "Havoc: Ruin",
                 "type": "Talent",
-                "desc": "Skirk's Elemental Burst is not reliant on Elemental Energy but instead on {LINK#N11130005}Serpent's Subtlety{/LINK}.\\nWhen Skirk has at least 50 Serpent's Subtlety, she can expend all her Serpent's Subtlety to unleash her Elemental Burst, ripping the space before her apart and using rapid consecutive slashes that deal AoE Cryo DMG. At the same time, the DMG dealt by an instance of this Elemental Burst will be increased by every point of Serpent's Subtlety over 50 when it is unleashed. Up to 12 points can be counted for this purpose.\\n\\nWhen Skirk is in {LINK#N11130006}Seven-Phase Flash{/LINK} mode, Havoc: Ruin will be replaced by Havoc: Extinction.\\n\\nHavoc: Extinction\\nA special Elemental Burst that can be used even without consuming Serpent's Subtlety.\\nAfter using it, Skirk will gain the \"All Shall Wither\" effect, which will last until Seven-Phase Flash ends. After unlocking the Ascension Talent {LINK#N11130007}Reason Beyond Reason{/LINK}, she can also absorb nearby Void Rifts.\\nWhile \"All Shall Wither\" is active, every 0.1s, after Skirk's Normal Attack hits an opponent, that Normal Attack will deal increased DMG. If she absorbed any Void Rifts while using Havoc: Extinction, this Normal Attack's DMG will be further increased based on the number of Rifts absorbed.\\nThis effect will be canceled when it has triggered 10 times.",
+                "desc": "Skirk's Elemental Burst is not reliant on Elemental Energy but instead on Serpent's Subtlety.\\nWhen Skirk has at least 50 Serpent's Subtlety, she can expend all her Serpent's Subtlety to unleash her Elemental Burst, ripping the space before her apart and using rapid consecutive slashes that deal AoE Cryo DMG. At the same time, the DMG dealt by an instance of this Elemental Burst will be increased by every point of Serpent's Subtlety over 50 when it is unleashed. Up to 12 points can be counted for this purpose.\\n\\nWhen Skirk is in Seven-Phase Flash mode, Havoc: Ruin will be replaced by Havoc: Extinction.\\n\\nHavoc: Extinction\\nA special Elemental Burst that can be used even without consuming Serpent's Subtlety.\\nAfter using it, Skirk will gain the \"All Shall Wither\" effect, which will last until Seven-Phase Flash ends. After unlocking the Ascension Talent Reason Beyond Reason, she can also absorb nearby Void Rifts.\\nWhile \"All Shall Wither\" is active, every 0.1s, after Skirk's Normal Attack hits an opponent, that Normal Attack will deal increased DMG. If she absorbed any Void Rifts while using Havoc: Extinction, this Normal Attack's DMG will be further increased based on the number of Rifts absorbed.\\nThis effect will be canceled when it has triggered 10 times.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_SkirkNew_01.webp"
               }
             ]
@@ -6696,12 +6696,12 @@
               {
                 "name": "Reason Beyond Reason",
                 "type": "Passive Talent",
-                "desc": "When nearby party members trigger Frozen, Superconduct, Stellar-Conduct, Cryo Swirl, Stellar-Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. 3 Void Rifts created by Skirk herself can exist on the field at once.\\n\\nSkirk can use the following methods to absorb nearby Void Rifts:\\n\u00b7 When she hits an opponent with a Charged Attack in her {LINK#N11130006}Seven-Phase Flash{/LINK} mode.\\n\u00b7 When she uses the special Elemental Burst Havoc: Extinction while in Seven-Phase Flash mode.\\n\u00b7 When she Holds her Elemental Skill Havoc: Warp to engage in rapid movement.\\n\\nEach Rift absorbed will grant her 8 {LINK#N11130005}Serpent's Subtlety{/LINK} points."
+                "desc": "When nearby party members trigger Frozen, Superconduct, Stellar-Conduct, Cryo Swirl, Stellar-Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. 3 Void Rifts created by Skirk herself can exist on the field at once.\\n\\nSkirk can use the following methods to absorb nearby Void Rifts:\\n\u00b7 When she hits an opponent with a Charged Attack in her Seven-Phase Flash mode.\\n\u00b7 When she uses the special Elemental Burst Havoc: Extinction while in Seven-Phase Flash mode.\\n\u00b7 When she Holds her Elemental Skill Havoc: Warp to engage in rapid movement.\\n\\nEach Rift absorbed will grant her 8 Serpent's Subtlety points."
               },
               {
                 "name": "Return to Oblivion",
                 "type": "Passive Talent",
-                "desc": "When nearby Hydro party members' Hydro attacks hit opponents, or when nearby Cryo party members apart from Skirk hit opponents with Cryo attacks, Skirk will gain the \"Death's Crossing\" effect for 20s. Max 3 stacks, each stack's duration is counted independently.\\nEach character can grant Skirk at most 1 \"Death's Crossing\" stack by this means.\\nEach \"Death's Crossing\" stack increases the Normal Attack DMG dealt by Skirk in {LINK#N11130006}Seven-Phase Flash{/LINK} mode to 110%/120%/170% of its original DMG and the DMG dealt when using her Elemental Burst Havoc: Ruin to 105%/115%/160% of its original DMG."
+                "desc": "When nearby Hydro party members' Hydro attacks hit opponents, or when nearby Cryo party members apart from Skirk hit opponents with Cryo attacks, Skirk will gain the \"Death's Crossing\" effect for 20s. Max 3 stacks, each stack's duration is counted independently.\\nEach character can grant Skirk at most 1 \"Death's Crossing\" stack by this means.\\nEach \"Death's Crossing\" stack increases the Normal Attack DMG dealt by Skirk in Seven-Phase Flash mode to 110%/120%/170% of its original DMG and the DMG dealt when using her Elemental Burst Havoc: Ruin to 105%/115%/160% of its original DMG."
               },
               {
                 "name": "Mutual Weapons Mentorship",
@@ -6716,32 +6716,32 @@
               {
                 "name": "Far to Fall",
                 "type": "Constellation 1",
-                "desc": "Enhances the effects of the Ascension Talent {LINK#N11130007}Reason Beyond Reason{/LINK}: Every Void Rift absorbed will summon a crystal blade to attack nearby opponents, dealing 500% of Skirk's ATK as Cryo DMG. This DMG is considered Charged Attack DMG.\\nYou must first unlock the Ascension Talent Reason Beyond Reason."
+                "desc": "Enhances the effects of the Ascension Talent Reason Beyond Reason: Every Void Rift absorbed will summon a crystal blade to attack nearby opponents, dealing 500% of Skirk's ATK as Cryo DMG. This DMG is considered Charged Attack DMG.\\nYou must first unlock the Ascension Talent Reason Beyond Reason."
               },
               {
                 "name": "Into the Abyss",
                 "type": "Constellation 2",
-                "desc": "After unleashing her Elemental Skill Havoc: Warp, Skirk will gain 10 additional {LINK#N11130005}Serpent's Subtlety{/LINK} points.\\nWhen using her Elemental Burst Havoc: Ruin, the DMG of this Elemental Burst instance will be increased by taking up to 10 more Serpent's Subtlety points into account.\\nAdditionally, within 12.5s after Skirk unleashes the special Elemental Burst Havoc: Extinction while in her {LINK#N11130006}Seven-Phase Flash{/LINK} mode, her ATK is increased by 70%. This effect will be canceled when she leaves the Seven-Phase Flash mode."
+                "desc": "After unleashing her Elemental Skill Havoc: Warp, Skirk will gain 10 additional Serpent's Subtlety points.\\nWhen using her Elemental Burst Havoc: Ruin, the DMG of this Elemental Burst instance will be increased by taking up to 10 more Serpent's Subtlety points into account.\\nAdditionally, within 12.5s after Skirk unleashes the special Elemental Burst Havoc: Extinction while in her Seven-Phase Flash mode, her ATK is increased by 70%. This effect will be canceled when she leaves the Seven-Phase Flash mode."
               },
               {
                 "name": "Serendipitous Sin",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11145}Havoc: Ruin{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Havoc: Ruin by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Fractured Flow",
                 "type": "Constellation 4",
-                "desc": "Enhances the effects of the Ascension Talent {LINK#N11130008}Return to Oblivion{/LINK}: Each Death's Crossing stack also increases Skirk's ATK by 10%/20%/40%.\\nYou must first unlock the Ascension Talent Return to Oblivion."
+                "desc": "Enhances the effects of the Ascension Talent Return to Oblivion: Each Death's Crossing stack also increases Skirk's ATK by 10%/20%/40%.\\nYou must first unlock the Ascension Talent Return to Oblivion."
               },
               {
                 "name": "End of Wishes",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11142}Havoc: Warp{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Havoc: Warp by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "To the Source",
                 "type": "Constellation 6",
-                "desc": "Each Void Rift Skirk absorbs via the effects of the Ascension Talent {LINK#N11130007}Reason Beyond Reason{/LINK} will grant her 1 Havoc: Sever stack. She can consume such stacks to initiate coordinated attacks and decrease the DMG she takes while in {LINK#N11130006}Seven-Phase Flash{/LINK} mode. These stacks last for 15s, and each stack's duration is counted independently (max 3 stacks).\\nYou must first unlock the Ascension Talent \"Reason Beyond Reason.\"\\n\\nHavoc: Sever\\n\u00b7 When Skirk uses the Elemental Burst Havoc: Ruin, she will consume all Havoc: Sever stacks to initiate a coordinated attack in which each Havoc: Sever stack will deal 750% of Skirk's ATK as Cryo DMG. This DMG is considered Elemental Burst DMG.\\n\u00b7 When she uses Normal Attacks while in Seven-Phase Flash mode, 1 Havoc: Sever stack will be consumed when her third or fifth sequenced attacks hit an opponent to launch 3 coordinated attacks. Each coordinated attack deals 180% of Skirk's ATK as Cryo DMG. This damage is considered Normal Attack DMG.\\n\u00b7 When Skirk takes DMG while in Seven-Phase Flash mode, 1 Havoc: Sever stack will be consumed to decrease this DMG instance by 80% and attack nearby opponents 3 times, with each attack dealing 180% of Skirk's ATK as Cryo DMG. This DMG is considered Charged Attack DMG."
+                "desc": "Each Void Rift Skirk absorbs via the effects of the Ascension Talent Reason Beyond Reason will grant her 1 Havoc: Sever stack. She can consume such stacks to initiate coordinated attacks and decrease the DMG she takes while in Seven-Phase Flash mode. These stacks last for 15s, and each stack's duration is counted independently (max 3 stacks).\\nYou must first unlock the Ascension Talent \"Reason Beyond Reason.\"\\n\\nHavoc: Sever\\n\u00b7 When Skirk uses the Elemental Burst Havoc: Ruin, she will consume all Havoc: Sever stacks to initiate a coordinated attack in which each Havoc: Sever stack will deal 750% of Skirk's ATK as Cryo DMG. This DMG is considered Elemental Burst DMG.\\n\u00b7 When she uses Normal Attacks while in Seven-Phase Flash mode, 1 Havoc: Sever stack will be consumed when her third or fifth sequenced attacks hit an opponent to launch 3 coordinated attacks. Each coordinated attack deals 180% of Skirk's ATK as Cryo DMG. This damage is considered Normal Attack DMG.\\n\u00b7 When Skirk takes DMG while in Seven-Phase Flash mode, 1 Havoc: Sever stack will be consumed to decrease this DMG instance by 80% and attack nearby opponents 3 times, with each attack dealing 180% of Skirk's ATK as Cryo DMG. This DMG is considered Charged Attack DMG."
               }
             ]
           }
@@ -10347,7 +10347,7 @@
               {
                 "name": "There Shall Be an Unveiling for Injustice",
                 "type": "Passive Talent",
-                "desc": "Radiance: Stellar-Conduct: The Ascension Talent \"There Shall Be a Plea for Justice\" is changed to the following:\\nWhen Wriothesley's HP is less than 60%, he will obtain a \"Gracious Rebuke: Unveiling.\" This turns the Charged Attack of his Normal Attack: Forceful Fists of Frost into the enhanced Luster: Vaulting Fist, which will not consume Stamina and restores 30% Max HP to Wriothesley upon hit. Wriothesley can gain HP in this way once every 2s.\\nAdditionally, the third and fifth strikes of Repelling Fist enhanced by Chilling Penalty will deal 60% and 80% of their original Cryo DMG respectively, while Luster: Vaulting Fist will deal 100% of its original AoE Cryo DMG. The aforementioned DMG is considered as Stellar-Conduct DMG, and Wriothesley deals 30% increased Stellar-Conduct DMG.\\nAdditionally, when inside a {LINK#N11330003}Polestar Field{/LINK}, Wriothesley will enter the Radiance: Stellar-Conduct state."
+                "desc": "Radiance: Stellar-Conduct: The Ascension Talent \"There Shall Be a Plea for Justice\" is changed to the following:\\nWhen Wriothesley's HP is less than 60%, he will obtain a \"Gracious Rebuke: Unveiling.\" This turns the Charged Attack of his Normal Attack: Forceful Fists of Frost into the enhanced Luster: Vaulting Fist, which will not consume Stamina and restores 30% Max HP to Wriothesley upon hit. Wriothesley can gain HP in this way once every 2s.\\nAdditionally, the third and fifth strikes of Repelling Fist enhanced by Chilling Penalty will deal 60% and 80% of their original Cryo DMG respectively, while Luster: Vaulting Fist will deal 100% of its original AoE Cryo DMG. The aforementioned DMG is considered as Stellar-Conduct DMG, and Wriothesley deals 30% increased Stellar-Conduct DMG.\\nAdditionally, when inside a Polestar Field, Wriothesley will enter the Radiance: Stellar-Conduct state."
               }
             ]
           },
@@ -11877,7 +11877,7 @@
               {
                 "name": "Yoohoo Art: Fuuin Dash",
                 "type": "Talent",
-                "desc": "#The special technique of the Yoohoo Ninja Arts!\\nSayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing Anemo DMG. When the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing AoE Anemo DMG.\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nEnters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.\\n\\nHold\\nRolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state.\\nDuring this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick.\\nThe Hold version of this skill can trigger Elemental Absorption.\\n\\nThis skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.\\n\\nElemental Absorption\\nIf Sayu comes into contact with Hydro/Pyro/Cryo/Electro while in her Windwheel state, she will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use of this skill.\\n\\nSayu can pull this skill off with her eyes closed. This technique was originally created for escaping, but now that she's got a Vision, might as well make her foes eat dirt while she's at it.",
+                "desc": "#The special technique of the Yoohoo Ninja Arts!\\nSayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing Anemo DMG. When the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing AoE Anemo DMG.\\n\\n\\nEnters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.\\n\\nHold\\nRolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state.\\nDuring this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick.\\nThe Hold version of this skill can trigger Elemental Absorption.\\n\\nThis skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.\\n\\nElemental Absorption\\nIf Sayu comes into contact with Hydro/Pyro/Cryo/Electro while in her Windwheel state, she will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use of this skill.\\n\\nSayu can pull this skill off with her eyes closed. This technique was originally created for escaping, but now that she's got a Vision, might as well make her foes eat dirt while she's at it.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Sayu_01.webp"
               },
               {
@@ -11919,7 +11919,7 @@
               {
                 "name": "Egress Prep",
                 "type": "Constellation 2",
-                "desc": "#Yoohoo Art: Fuuin Dash gains the following effects:\\n\u00b7DMG of Fuufuu Whirlwind Kick in {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Mode increased by 3.3%.\\n\u00b7Every 0.5s in the Fuufuu Windwheel state will increase the DMG of this Fuufuu Whirlwind Kick by 3.3%. The maximum DMG increase possible through this method is 66%."
+                "desc": "#Yoohoo Art: Fuuin Dash gains the following effects:\\n\u00b7DMG of Fuufuu Whirlwind Kick in Mode increased by 3.3%.\\n\u00b7Every 0.5s in the Fuufuu Windwheel state will increase the DMG of this Fuufuu Whirlwind Kick by 3.3%. The maximum DMG increase possible through this method is 66%."
               },
               {
                 "name": "Eh, the Bunshin Can Handle It",
@@ -13698,7 +13698,7 @@
               {
                 "name": "Chihayaburu",
                 "type": "Talent",
-                "desc": "#Unleashes a secret technique as fierce as the rushing wind that pulls objects and opponents towards Kazuha's current position before launching opponents within the AoE, dealing Anemo DMG and lifting Kazuha into the air on a rushing gust of wind.\\nWithin 10s of remaining airborne after casting Chihayaburu, Kazuha can unleash a powerful Plunging Attack known as Midare Ranzan.\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nCan be used in mid-air.\\n\\nHold\\nCharges up before unleashing greater Anemo DMG over a larger AoE than {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Mode.\\n\\nPlunging Attack: Midare Ranzan\\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to Anemo DMG. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.\\nMidare Ranzan's DMG is considered Plunging Attack DMG.\\n\\n\"Wind in branches grieves\\nBygone ages, gods of old\\nWithered autumn leaves\"",
+                "desc": "#Unleashes a secret technique as fierce as the rushing wind that pulls objects and opponents towards Kazuha's current position before launching opponents within the AoE, dealing Anemo DMG and lifting Kazuha into the air on a rushing gust of wind.\\nWithin 10s of remaining airborne after casting Chihayaburu, Kazuha can unleash a powerful Plunging Attack known as Midare Ranzan.\\n\\n\\nCan be used in mid-air.\\n\\nHold\\nCharges up before unleashing greater Anemo DMG over a larger AoE than Mode.\\n\\nPlunging Attack: Midare Ranzan\\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to Anemo DMG. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.\\nMidare Ranzan's DMG is considered Plunging Attack DMG.\\n\\n\"Wind in branches grieves\\nBygone ages, gods of old\\nWithered autumn leaves\"",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Kazuha_01.webp"
               },
               {
@@ -13750,7 +13750,7 @@
               {
                 "name": "Oozora Genpou",
                 "type": "Constellation 4",
-                "desc": "#When Kaedehara Kazuha's Energy is lower than 45, he obtains the following effects:\\n\u00b7{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Pressing}{LAYOUT_PS#Pressing} or Holding Chihayaburu regenerates 3 or 4 Energy for Kaedehara Kazuha, respectively.\\n\u00b7When gliding, Kaedehara Kazuha regenerates 2 Energy per second."
+                "desc": "#When Kaedehara Kazuha's Energy is lower than 45, he obtains the following effects:\\n\u00b7 or Holding Chihayaburu regenerates 3 or 4 Energy for Kaedehara Kazuha, respectively.\\n\u00b7When gliding, Kaedehara Kazuha regenerates 2 Energy per second."
               },
               {
                 "name": "Wisdom of Bansei",
@@ -15917,7 +15917,7 @@
               {
                 "name": "Icy Paws",
                 "type": "Talent",
-                "desc": "#Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit.\\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nRapidly fires off 2 Icy Paws.\\n\\nHold\\nDashes back quickly before firing 5 Icy Paws.\\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\\n\\nThe shield has a 250% Cryo DMG Absorption Bonus, and will cause your active character to become affected by Cryo at the point of formation for a short duration.\\n\\nWhen she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision \u2014 now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!",
+                "desc": "#Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit.\\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\\n\\n\\nRapidly fires off 2 Icy Paws.\\n\\nHold\\nDashes back quickly before firing 5 Icy Paws.\\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\\n\\nThe shield has a 250% Cryo DMG Absorption Bonus, and will cause your active character to become affected by Cryo at the point of formation for a short duration.\\n\\nWhen she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision \u2014 now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Diona_01.webp"
               },
               {
@@ -20089,7 +20089,7 @@
               {
                 "name": "Skyward Sonnet",
                 "type": "Talent",
-                "desc": "#O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nSummons a Wind Domain at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.\\n\\nHold\\nSummons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected opponents into the air.\\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\\n\\nOpponents hit by Skyward Sonnet will fall to the ground slowly.\\n\\nIn the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.",
+                "desc": "#O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\\n\\n\\nSummons a Wind Domain at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.\\n\\nHold\\nSummons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected opponents into the air.\\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\\n\\nOpponents hit by Skyward Sonnet will fall to the ground slowly.\\n\\nIn the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Venti_01.webp"
               },
               {
@@ -24101,13 +24101,13 @@
               {
                 "name": "Slow Dance: Phantom Night Trance",
                 "type": "Talent",
-                "desc": "With slow, graceful dance steps, Odette deals AoE Cryo DMG to the opponent, and also summons her {LINK#N11500001}solo dance double{/LINK} to the field.\\nIf a dance double summoned by Odette is already on the field, this will re-summon the dance double and reset its duration.\\n\\nSolo dance double\\nAlternates between the Plume and Wing dance moves, periodically attacking nearby opponents and dealing to them AoE Cryo DMG.\\nAdditionally, if there is a dance double summoned by Odette nearby, Odette's Elemental Skill Adagio: Phantom Night Dancers will become the special Elemental Skill {LINK#N11500002}Adagio: Cock-Crow Coda{/LINK} instead, where a dance duet deals AoE Cryo DMG to nearby opponents over time. Then, when the duet ends, she deals another instance of AoE Cryo DMG that is considered Stellar-Conduct or Stellar Swirl DMG.",
+                "desc": "With slow, graceful dance steps, Odette deals AoE Cryo DMG to the opponent, and also summons her solo dance double to the field.\\nIf a dance double summoned by Odette is already on the field, this will re-summon the dance double and reset its duration.\\n\\nSolo dance double\\nAlternates between the Plume and Wing dance moves, periodically attacking nearby opponents and dealing to them AoE Cryo DMG.\\nAdditionally, if there is a dance double summoned by Odette nearby, Odette's Elemental Skill Adagio: Phantom Night Dancers will become the special Elemental Skill Adagio: Cock-Crow Coda instead, where a dance duet deals AoE Cryo DMG to nearby opponents over time. Then, when the duet ends, she deals another instance of AoE Cryo DMG that is considered Stellar-Conduct or Stellar Swirl DMG.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Odette_01.webp"
               },
               {
                 "name": "Fast Dance: A Dream of Sable Feathers",
                 "type": "Talent",
-                "desc": "With quick, lively dance steps, Odette deals multiple instances of AoE Cryo DMG to the opponent, and summons her {LINK#N11500001}solo dance double{/LINK}. She also gains Snow Swan's Dream, which increases the Stellar Glimmer reaction DMG Odette deals.",
+                "desc": "With quick, lively dance steps, Odette deals multiple instances of AoE Cryo DMG to the opponent, and summons her solo dance double. She also gains Snow Swan's Dream, which increases the Stellar Glimmer reaction DMG Odette deals.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Odette_01.webp"
               }
             ]
@@ -24118,7 +24118,7 @@
               {
                 "name": "The Chosen One's Spring",
                 "type": "Passive Talent",
-                "desc": "When Odette summons her {LINK#N11500001}solo dance double{/LINK}, she also obtains 4 stacks of {LINK#N11500003}Marvelous Splendor{/LINK}."
+                "desc": "When Odette summons her solo dance double, she also obtains 4 stacks of Marvelous Splendor."
               },
               {
                 "name": "Pathetique of Pateticheskaya",
@@ -24143,17 +24143,17 @@
               {
                 "name": "\"On This Danceless Morn, She Gazes at Her Double\"",
                 "type": "Constellation 1",
-                "desc": "Unleashing the special Elemental Skill {LINK#N11500002}Adagio: Cock-Crow Coda{/LINK} deals an instance of Cryo AoE DMG to nearby opponents that will be considered the corresponding Stellar reaction DMG at a certain percentage of Odette's ATK:Radiance: Stellar-Conduct: 200%;\\nRadiance: Stellar Swirl: 300%.\\nAdditionally, the Passive Talent \"Spring Rite of the Chosen One\" is also enhanced: now, when Odette summons her {LINK#N11500001}solo dance double{/LINK}, she also gains 2 stacks of {LINK#N11500003}Marvelous Splendor{/LINK}, and when she is off-field, the rate at which Marvelous Splendor is removed is sped up to 2 stacks per second."
+                "desc": "Unleashing the special Elemental Skill Adagio: Cock-Crow Coda deals an instance of Cryo AoE DMG to nearby opponents that will be considered the corresponding Stellar reaction DMG at a certain percentage of Odette's ATK:Radiance: Stellar-Conduct: 200%;\\nRadiance: Stellar Swirl: 300%.\\nAdditionally, the Passive Talent \"Spring Rite of the Chosen One\" is also enhanced: now, when Odette summons her solo dance double, she also gains 2 stacks of Marvelous Splendor, and when she is off-field, the rate at which Marvelous Splendor is removed is sped up to 2 stacks per second."
               },
               {
                 "name": "\"I Must See the Snow Swan's Dream for Myself, She Thought\"",
                 "type": "Constellation 2",
-                "desc": "The Passive Talent \"Spring Rite of the Chosen One\" is enhanced as follows: every stack of {LINK#N11500003}Marvelous Splendor{/LINK} active also increases the character's ATK by 7%.\\nAdditionally, if Odette is in the Radiance: Stellar Glimmer state when there is a {LINK#N11500001}solo dance double{/LINK} on the field, opponents near the dance double will also have their corresponding Elemental RES lowered by 20%.\\n\u00b7Radiance: Stellar-Conduct: Cryo and Electro.\\n\u00b7Radiance: Stellar Swirl: Cryo and Anemo.\\nYou must unlock the Passive Talent \"Spring Rite of the Chosen One\" to gain access to the above effects."
+                "desc": "The Passive Talent \"Spring Rite of the Chosen One\" is enhanced as follows: every stack of Marvelous Splendor active also increases the character's ATK by 7%.\\nAdditionally, if Odette is in the Radiance: Stellar Glimmer state when there is a solo dance double on the field, opponents near the dance double will also have their corresponding Elemental RES lowered by 20%.\\n\u00b7Radiance: Stellar-Conduct: Cryo and Electro.\\n\u00b7Radiance: Stellar Swirl: Cryo and Anemo.\\nYou must unlock the Passive Talent \"Spring Rite of the Chosen One\" to gain access to the above effects."
               },
               {
                 "name": "\"I Must Pursue the Howling Wind and Keep on Moving Up Myself\"",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11502}Slow Dance: Phantom Night Trance{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Slow Dance: Phantom Night Trance by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "\"Upwards I Go, as I Fall Into the Hazy, Burning Sky\"",
@@ -24163,12 +24163,12 @@
               {
                 "name": "\"Behold, for I Have Bid Farewell to Earthly Suffering\"",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11505}Fast Dance: A Dream of Sable Feathers{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Fast Dance: A Dream of Sable Feathers by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "\"Reach Out Your Hand to Touch the Eternal Visage of the Sky\"",
                 "type": "Constellation 6",
-                "desc": "The Passive Talent \"Spring Rite of the Chosen One\" is enhanced as follows: When all nearby party members have been granted {LINK#N11500003}Marvelous Splendor{/LINK} by Odette, her Marvelous Splendor stack will no longer decrease.\\nAdditionally, characters affected by Marvelous Splendor have their Stellar Glimmer reaction DMG dealt to opponents {LINK#N11190007}elevated{/LINK} by 25%, and Stellar Glimmer reaction DMG dealt by Odette is elevated by an additional 20%.\\nYou must unlock the Passive Talent \"Spring Rite of the Chosen One\" to gain access to the above effects."
+                "desc": "The Passive Talent \"Spring Rite of the Chosen One\" is enhanced as follows: When all nearby party members have been granted Marvelous Splendor by Odette, her Marvelous Splendor stack will no longer decrease.\\nAdditionally, characters affected by Marvelous Splendor have their Stellar Glimmer reaction DMG dealt to opponents elevated by 25%, and Stellar Glimmer reaction DMG dealt by Odette is elevated by an additional 20%.\\nYou must unlock the Passive Talent \"Spring Rite of the Chosen One\" to gain access to the above effects."
               }
             ]
           }
@@ -25288,19 +25288,19 @@
               {
                 "name": "Skirmishing Spear",
                 "type": "Talent",
-                "desc": "Normal Attack\\nPerforms up to 4 consecutive spear strikes, and applies the {LINK#N11500004}Hunter's Mark{/LINK} to the last opponent hit.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to perform a spinning attack.\\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+                "desc": "Normal Attack\\nPerforms up to 4 consecutive spear strikes, and applies the Hunter's Mark to the last opponent hit.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to perform a spinning attack.\\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp"
               },
               {
                 "name": "Thunderbolt Ambush",
                 "type": "Talent",
-                "desc": "Follows her hunter's instincts. Tap or hold to produce different effects as well as apply to the opponent the {LINK#N11500004}Hunter's Mark{/LINK} effect.\\n\\nTapping\\nFires at opponents in front of her, dealing AoE Electro DMG.\\n\\nHolding\\nGoes into aiming mode, then targets opponents within a certain area in front of her. Alyosha's Interruption RES is enhanced when in this mode.\\nAt the end of the button hold, she deals Electro DMG to the targeted opponents.\\n\\nThe reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.",
+                "desc": "Follows her hunter's instincts. Tap or hold to produce different effects as well as apply to the opponent the Hunter's Mark effect.\\n\\nTapping\\nFires at opponents in front of her, dealing AoE Electro DMG.\\n\\nHolding\\nGoes into aiming mode, then targets opponents within a certain area in front of her. Alyosha's Interruption RES is enhanced when in this mode.\\nAt the end of the button hold, she deals Electro DMG to the targeted opponents.\\n\\nThe reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Alyosha_01.webp"
               },
               {
                 "name": "Hunter's Advance",
                 "type": "Talent",
-                "desc": "Summons her trusted companion {LINK#N11500005}Tugarin{/LINK} to fight alongside her on the field. This also turns an area in front of her into a Fulgurite Hunting Field for a short time.\\n\\nFulgurite Hunting Field\\n\u00b7 Continuously taunts nearby opponents to incite them to attack.\\n\u00b7 Every 2s, deals an instance of AoE Electro DMG to any opponent that has wandered into the field.\\n\\nWait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.",
+                "desc": "Summons her trusted companion Tugarin to fight alongside her on the field. This also turns an area in front of her into a Fulgurite Hunting Field for a short time.\\n\\nFulgurite Hunting Field\\n\u00b7 Continuously taunts nearby opponents to incite them to attack.\\n\u00b7 Every 2s, deals an instance of AoE Electro DMG to any opponent that has wandered into the field.\\n\\nWait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Alyosha_01.webp"
               }
             ]
@@ -25311,7 +25311,7 @@
               {
                 "name": "The Treeline Rouses",
                 "type": "Passive Talent",
-                "desc": "When {LINK#N11500005}Tugarin{/LINK} attacks, it will also restore HP to nearby party members at 120% of Alyosha's ATK."
+                "desc": "When Tugarin attacks, it will also restore HP to nearby party members at 120% of Alyosha's ATK."
               },
               {
                 "name": "Farewell, Winter Wheat",
@@ -25321,7 +25321,7 @@
               {
                 "name": "Into the Fray",
                 "type": "Passive Talent",
-                "desc": "Alyosha will enter the Radiance: Stellar-Conduct state when inside a {LINK#N11330003}Polestar Field{/LINK}.\\nRadiance: Stellar-Conduct: The Hunter's Precision effect obtained when {LINK#N11500004}Hunter's Mark{/LINK} is activated will also increase all Stellar-Conduct DMG dealt by nearby teammates by 25%."
+                "desc": "Alyosha will enter the Radiance: Stellar-Conduct state when inside a Polestar Field.\\nRadiance: Stellar-Conduct: The Hunter's Precision effect obtained when Hunter's Mark is activated will also increase all Stellar-Conduct DMG dealt by nearby teammates by 25%."
               },
               {
                 "name": "Treetop Watch",
@@ -25341,7 +25341,7 @@
               {
                 "name": "Howl From Afar",
                 "type": "Constellation 2",
-                "desc": "The duration of the Elemental Burst Hunter's Advance is extended by 6s.\\nAdditionally, each time {LINK#N11500005}Tugarin{/LINK} attacks the opponent, it will first apply the {LINK#N11500004}Hunter's Mark{/LINK}. This effect does not activate existing Hunter's Marks."
+                "desc": "The duration of the Elemental Burst Hunter's Advance is extended by 6s.\\nAdditionally, each time Tugarin attacks the opponent, it will first apply the Hunter's Mark. This effect does not activate existing Hunter's Marks."
               },
               {
                 "name": "Kindred Call",
@@ -25351,7 +25351,7 @@
               {
                 "name": "Spoils of the Hunt",
                 "type": "Constellation 4",
-                "desc": "When {LINK#N11500005}Tugarin{/LINK} attacks, it will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage."
+                "desc": "When Tugarin attacks, it will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage."
               },
               {
                 "name": "When the Birdsong Falls Silent",
@@ -25361,7 +25361,7 @@
               {
                 "name": "Standard Reclaimed",
                 "type": "Constellation 6",
-                "desc": "The Hunter's Precision effect obtained from activating {LINK#N11500004}Hunter's Mark{/LINK} can now stack, max 2 stacks. When the stack count reaches 2, characters affected by Hunter's Precision will also have their Elemental Mastery increased by 100."
+                "desc": "The Hunter's Precision effect obtained from activating Hunter's Mark can now stack, max 2 stacks. When the stack count reaches 2, characters affected by Hunter's Precision will also have their Elemental Mastery increased by 100."
               }
             ]
           }

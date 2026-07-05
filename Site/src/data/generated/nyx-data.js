@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-05T12:31:52.858Z",
+  "generatedAt": "2026-07-05T17:19:59.259Z",
   "codes": {
-    "updated": "2026-07-05T10:50:23.678Z",
+    "updated": "2026-07-05T17:19:20.440Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -20,7 +20,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-20T23:42:46.446Z",
+          "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
         },
@@ -34,7 +34,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-07-03",
-          "firstSeen": "2026-07-01T10:04:15.046Z",
+          "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ"
         },
@@ -48,23 +48,9 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-06-25",
-          "firstSeen": "2026-06-22T20:55:49.647Z",
+          "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
-        },
-        {
-          "code": "LCXGEA5SX65L",
-          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-06-12",
-          "firstSeen": "2026-07-05T10:49:59.746Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L"
         }
       ],
       "hsr": [
@@ -78,23 +64,9 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-13T20:18:18.521Z",
+          "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
-        },
-        {
-          "code": "5S6ZHRWTDNJB",
-          "reward": "60 stellar jade",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-07-05",
-          "firstSeen": "2026-07-04T19:50:01.616Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
         },
         {
           "code": "CREATIONNYMPH",
@@ -106,7 +78,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
         },
@@ -120,7 +92,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
         },
@@ -134,7 +106,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
         },
@@ -148,7 +120,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
         },
@@ -162,7 +134,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
         },
@@ -176,7 +148,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
           "added": "2026-06-08",
-          "firstSeen": "2026-06-13T20:18:18.521Z",
+          "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BladeFitCheck",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=BladeFitCheck"
         }
@@ -192,7 +164,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-20T23:42:44.037Z",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
         },
@@ -206,7 +178,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
           "added": "2026-06-11",
-          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
         },
@@ -220,7 +192,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
           "added": "2026-06-11",
-          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
         },
@@ -234,7 +206,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
           "added": "2026-06-11",
-          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
         },
@@ -248,7 +220,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
           "added": "2026-06-11",
-          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
         }
@@ -268,7 +240,7 @@ var NYX_DB = {
             "icon": null
           },
           "added": "2026-05-05",
-          "firstSeen": "2026-07-02T09:31:27.765Z",
+          "firstSeen": "2026-07-05T17:19:09.869Z",
           "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
           "redeemUrl": null
         },
@@ -285,7 +257,7 @@ var NYX_DB = {
             "icon": null
           },
           "added": "2026-05-03",
-          "firstSeen": "2026-07-02T09:31:27.765Z",
+          "firstSeen": "2026-07-05T17:19:09.869Z",
           "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
           "redeemUrl": null
         },
@@ -302,7 +274,7 @@ var NYX_DB = {
             "icon": null
           },
           "added": "2026-05-03",
-          "firstSeen": "2026-07-02T09:31:27.765Z",
+          "firstSeen": "2026-07-05T17:19:09.869Z",
           "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
           "redeemUrl": null
         }
@@ -310,18 +282,17 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-07-04T19:35:34.218Z",
-    "checkedAt": "2026-07-05T09:22:02.115Z",
+    "updated": "2026-07-05T17:19:00.958Z",
+    "checkedAt": "2026-07-05T17:19:00.958Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T09:22:02.115Z",
-          "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
-          "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "checkedAt": "2026-07-05T17:19:00.958Z",
+          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
+          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "source": "game8"
         },
         "current": {
           "phase": "4.3",
@@ -381,11 +352,10 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T09:22:02.115Z",
-          "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
-          "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "checkedAt": "2026-07-05T17:19:00.958Z",
+          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
+          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "source": "game8"
         },
         "current": {
           "phase": "6.7 Phase 1",
@@ -436,11 +406,10 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T09:22:02.115Z",
-          "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
-          "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "checkedAt": "2026-07-05T17:19:00.958Z",
+          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
+          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "source": "game8"
         },
         "current": {
           "phase": null,
@@ -625,11 +594,10 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T09:22:02.115Z",
-          "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
-          "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "checkedAt": "2026-07-05T17:19:00.958Z",
+          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
+          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "source": "game8"
         },
         "current": {
           "phase": null,
@@ -689,11 +657,10 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T09:22:02.115Z",
-          "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
-          "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "checkedAt": "2026-07-05T17:19:00.958Z",
+          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
+          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "source": "game8"
         },
         "current": {
           "phase": "1.3 Phase 2",
@@ -4395,7 +4362,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-20T23:42:46.446Z",
+          "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
         },
@@ -4409,7 +4376,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-07-03",
-          "firstSeen": "2026-07-01T10:04:15.046Z",
+          "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ"
         },
@@ -4423,34 +4390,19 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-06-25",
-          "firstSeen": "2026-06-22T20:55:49.647Z",
+          "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
-        },
-        {
-          "code": "LCXGEA5SX65L",
-          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-06-12",
-          "firstSeen": "2026-07-05T10:49:59.746Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L"
         }
       ],
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T09:22:02.115Z",
-          "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
-          "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "checkedAt": "2026-07-05T17:19:00.958Z",
+          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
+          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "source": "game8"
         },
         "current": {
           "phase": "6.7 Phase 1",
@@ -4498,7 +4450,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-05T09:37:14.602Z",
+        "updated": "2026-07-05T17:12:35.038Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -41607,7 +41559,7 @@ var NYX_DB = {
         ]
       },
       "furniture": {
-        "updated": "2026-07-04T18:11:13.009Z",
+        "updated": "2026-07-05T17:16:02.394Z",
         "version": "6.7.50",
         "counts": {
           "items": 2300,
@@ -114677,23 +114629,9 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-13T20:18:18.521Z",
+          "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
-        },
-        {
-          "code": "5S6ZHRWTDNJB",
-          "reward": "60 stellar jade",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-07-05",
-          "firstSeen": "2026-07-04T19:50:01.616Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
         },
         {
           "code": "CREATIONNYMPH",
@@ -114705,7 +114643,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
         },
@@ -114719,7 +114657,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
         },
@@ -114733,7 +114671,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
         },
@@ -114747,7 +114685,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
         },
@@ -114761,7 +114699,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
         },
@@ -114775,7 +114713,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
           "added": "2026-06-08",
-          "firstSeen": "2026-06-13T20:18:18.521Z",
+          "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BladeFitCheck",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=BladeFitCheck"
         }
@@ -114784,11 +114722,10 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T09:22:02.115Z",
-          "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
-          "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "checkedAt": "2026-07-05T17:19:00.958Z",
+          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
+          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "source": "game8"
         },
         "current": {
           "phase": "4.3",
@@ -115507,7 +115444,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Ice",
           "role": "Remembrance",
-          "icon": "../../Database/Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+          "icon": "../../Database/Nanoka/hsr/assets/characters/round/1413.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/march-7th-evernight-95ed5616b882.webp",
           "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23049.webp",
           "overviewArtPool": [
@@ -115663,7 +115600,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Imaginary",
           "role": "Elation",
-          "icon": "../../Database/Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+          "icon": "../../Database/Nanoka/hsr/assets/characters/round/1506.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/silver-wolf-lv-999-8f3d673fabce.webp",
           "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23057.webp",
           "overviewArtPool": [
@@ -116074,11 +116011,11 @@ var NYX_DB = {
           "rarity": 4,
           "element": "Ice",
           "role": "Preservation",
-          "icon": "../../Database/Nanoka/hsr/assets/characters/round/1224.webp",
+          "icon": "../../Database/Nanoka/hsr/assets/characters/round/1001.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/march-7th-b9b058e0b744.webp",
-          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23012.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21002.webp",
           "overviewArtPool": [
-            "../../Database/Nanoka/hsr/assets/lightcones/full/23012.webp"
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21002.webp"
           ],
           "forms": []
         },
@@ -116089,8 +116026,12 @@ var NYX_DB = {
           "rarity": 4,
           "element": "Imaginary",
           "role": "Hunt",
-          "icon": "../../Database/Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
+          "icon": "../../Database/Nanoka/hsr/assets/characters/round/1224.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/march-7th-the-hunt-f54d5c1be4e8.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23012.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/23012.webp"
+          ],
           "forms": []
         },
         {
@@ -118467,7 +118408,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
           "added": "2026-07-05",
-          "firstSeen": "2026-06-20T23:42:44.037Z",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
         },
@@ -118481,7 +118422,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
           "added": "2026-06-11",
-          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
         },
@@ -118495,7 +118436,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
           "added": "2026-06-11",
-          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
         },
@@ -118509,7 +118450,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
           "added": "2026-06-11",
-          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
         },
@@ -118523,7 +118464,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
           "added": "2026-06-11",
-          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
         }
@@ -118532,11 +118473,10 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T09:22:02.115Z",
-          "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
-          "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "checkedAt": "2026-07-05T17:19:00.958Z",
+          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
+          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "source": "game8"
         },
         "current": {
           "phase": null,
@@ -122804,11 +122744,10 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T09:22:02.115Z",
-          "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
-          "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "checkedAt": "2026-07-05T17:19:00.958Z",
+          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
+          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "source": "game8"
         },
         "current": {
           "phase": null,
@@ -123033,7 +122972,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Spectro",
           "role": "Sword",
-          "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.webp",
+          "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/rover-spectro-62be77f1ce9f.webp",
           "forms": [
             {
@@ -123043,7 +122982,7 @@ var NYX_DB = {
               "gender": null,
               "element": "Spectro",
               "role": "Sword",
-              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.webp",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.webp",
               "art": "../../Database/Prydwen/ww/assets/characters/rover-spectro-62be77f1ce9f.webp"
             },
             {
@@ -123053,7 +122992,7 @@ var NYX_DB = {
               "gender": null,
               "element": "Havoc",
               "role": "Sword",
-              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.webp",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.webp",
               "art": "../../Database/Prydwen/ww/assets/characters/rover-havoc-cc7df9718613.webp"
             },
             {
@@ -123063,7 +123002,7 @@ var NYX_DB = {
               "gender": null,
               "element": "Aero",
               "role": "Sword",
-              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.webp",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.webp",
               "art": "../../Database/Prydwen/ww/assets/characters/rover-aero-e18045d46d04.webp"
             },
             {
@@ -123183,6 +123122,18 @@ var NYX_DB = {
           "role": "Rectifier",
           "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_45_UI.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/phoebe-3d4306d78712.webp",
+          "forms": []
+        },
+        {
+          "id": "ww-the-shorekeeper",
+          "name": "The Shorekeeper",
+          "aliases": [],
+          "title": "Euphonic Chrysalis",
+          "rarity": 5,
+          "element": "Spectro",
+          "role": "Rectifier",
+          "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_28_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shouanren_UI.webp",
           "forms": []
         },
         {
@@ -123684,18 +123635,6 @@ var NYX_DB = {
           "role": "Unknown",
           "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
-          "forms": []
-        },
-        {
-          "id": "ww-the-shorekeeper",
-          "name": "The Shorekeeper",
-          "aliases": [],
-          "title": "Euphonic Chrysalis",
-          "rarity": 5,
-          "element": "Spectro",
-          "role": "Rectifier",
-          "icon": "../../Database/Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
-          "art": "../../Database/Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
           "forms": []
         },
         {
@@ -127151,7 +127090,7 @@ var NYX_DB = {
             "icon": null
           },
           "added": "2026-05-05",
-          "firstSeen": "2026-07-02T09:31:27.765Z",
+          "firstSeen": "2026-07-05T17:19:09.869Z",
           "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
           "redeemUrl": null
         },
@@ -127168,7 +127107,7 @@ var NYX_DB = {
             "icon": null
           },
           "added": "2026-05-03",
-          "firstSeen": "2026-07-02T09:31:27.765Z",
+          "firstSeen": "2026-07-05T17:19:09.869Z",
           "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
           "redeemUrl": null
         },
@@ -127185,7 +127124,7 @@ var NYX_DB = {
             "icon": null
           },
           "added": "2026-05-03",
-          "firstSeen": "2026-07-02T09:31:27.765Z",
+          "firstSeen": "2026-07-05T17:19:09.869Z",
           "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
           "redeemUrl": null
         }
@@ -127194,11 +127133,10 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T09:22:02.115Z",
-          "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
-          "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "checkedAt": "2026-07-05T17:19:00.958Z",
+          "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
+          "lastValidUpdate": "2026-07-05T17:19:00.958Z",
+          "source": "game8"
         },
         "current": {
           "phase": "1.3 Phase 2",

@@ -10,7 +10,7 @@
   "version": "4.3.56",
   "liveVersion": "4.3",
   "newCount": 0,
-  "changedCount": 16,
+  "changedCount": 18,
   "roster": [
     {
       "id": "hsr-evanescia",
@@ -94,13 +94,13 @@
               },
               {
                 "name": "Petalfall: Floral Reminiscence",
-                "type": "Technique",
+                "type": "Technique Attack",
                 "desc": "Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to 100% of Evanescia's ATK to all enemies and gains 20 point(s) of \"Certified Banger.\"",
                 "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Maze.webp"
               },
               {
                 "name": "Attack",
-                "type": "MazeAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
@@ -1217,7 +1217,7 @@
               {
                 "name": "We, Too, Stride the Stars",
                 "type": "Ultimate",
-                "desc": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 953% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 315% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 100% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit.",
+                "desc": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 953% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 315% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 100% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit.\n\nDeals 1 instance(s) of DMG, each dealing Fire DMG to one random enemy.",
                 "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Ultra.webp"
               },
               {
@@ -1233,12 +1233,6 @@
                 "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Ultra.webp"
               },
               {
-                "name": "We, Too, Stride the Stars",
-                "type": "Ultimate",
-                "desc": "Deals 1 instance(s) of DMG, each dealing Fire DMG to one random enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Ultra.webp"
-              },
-              {
                 "name": "Starcharter Cruise",
                 "type": "Technique",
                 "desc": "When Himeko \u2022 Nova is in the team, increases max Technique Points by 3.\\nAfter using the Technique, she enters the \"Cruise\" state, lasting for 30 seconds. Actively using the Technique consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, immediately uses Skill 1 time at the start of each wave.\\nIf attacking a Normal Enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.",
@@ -1246,7 +1240,7 @@
               },
               {
                 "name": "Attack",
-                "type": "MazeAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
@@ -2396,7 +2390,7 @@
               },
               {
                 "name": "Whistlebolt Sings Joy",
-                "type": "MazeAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
@@ -3528,11 +3522,6 @@
                 "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_BP.webp"
               },
               {
-                "name": "A Rain of Blades Seals Fate",
-                "type": "Skill",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_BP.webp"
-              },
-              {
                 "name": "Fornax Ex Corpore",
                 "type": "Ultimate",
                 "desc": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 35% and the DMG they receive increases by 60%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 75%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability.",
@@ -3546,13 +3535,13 @@
               },
               {
                 "name": "Blade's Reach Spares None",
-                "type": "Technique",
+                "type": "Technique Attack",
                 "desc": "Immediately attacks all enemies within a certain range. After entering combat, inflicts the Taunt state on all enemies for 1 turn and decreases DMG taken by this unit by 90% for 2 turn(s).",
                 "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Maze.webp"
               },
               {
                 "name": "One Cut Ends All",
-                "type": "MazeAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
@@ -4588,6 +4577,7 @@
           "cost": 385000
         }
       },
+      "recent": 1,
       "betaStatus": "changed"
     },
     {
@@ -4685,7 +4675,7 @@
               },
               {
                 "name": "Attack",
-                "type": "MazeAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
@@ -5817,7 +5807,7 @@
               },
               {
                 "name": "Attack",
-                "type": "MazeAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
@@ -6947,7 +6937,7 @@
               },
               {
                 "name": "Talons: Inculcate Decorum",
-                "type": "MazeAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
@@ -8078,13 +8068,13 @@
               },
               {
                 "name": "Wail, Death's Herald",
-                "type": "Technique",
+                "type": "Technique Attack",
                 "desc": "After using Technique, enters the \"Netherveil\" state that lasts for 20 seconds. While \"Netherveil\" is active, enemies are unable to actively approach Castorice.\\nDuring \"Netherveil,\" active attacks will cause all enemies within range to enter combat. At the same time, summons the memosprite Netherwing, advances its action by 100%, and deploys the Territory \"Lost Netherland.\" Netherwing has its current HP equal to 50% of max \"Newbud.\" After entering battle, consumes 40% of the current HP of all allies (except Netherwing).\\nIf Netherwing is not summoned after entering battle, Castorice gains \"Newbud\" by an amount equal to 30% of max \"Newbud.\"",
                 "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Maze.webp"
               },
               {
                 "name": "Attack",
-                "type": "MazeAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
@@ -9213,7 +9203,7 @@
               },
               {
                 "name": "Attack",
-                "type": "MazeAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
@@ -10355,12 +10345,7 @@
               },
               {
                 "name": "Attack",
-                "type": "SingleAttack",
-                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
-              },
-              {
-                "name": "Attack",
-                "type": "SingleAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
@@ -11496,7 +11481,7 @@
               },
               {
                 "name": "Attack",
-                "type": "MazeAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
@@ -12622,7 +12607,7 @@
               },
               {
                 "name": "Attack",
-                "type": "MazeAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
@@ -13661,6 +13646,1144 @@
       "betaStatus": "changed"
     },
     {
+      "id": "hsr-march-7th-evernight",
+      "n": "March 7th \u2022 Evernight",
+      "localizedNames": {
+        "en": "Evernight",
+        "zh": "\u957f\u591c\u6708",
+        "ja": "\u9577\u591c\u6708",
+        "ko": "\uc5d0\ubc84\ub098\uc774\ud2b8"
+      },
+      "title": "The Remembrance of None",
+      "slug": "march-7th-evernight",
+      "release": 1758790800000,
+      "updated": 1780178400000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/hsr/assets/characters/round/1413.webp",
+      "art": "../../Database/Prydwen/hsr/assets/characters/march-7th-evernight-95ed5616b882.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/march-7th-evernight-787da7cf2b25.webp",
+      "holidayArtPool": [
+        "../../Database/HsrWiki/holiday-art/march7thevernight/01-New Year 2023.png",
+        "../../Database/HsrWiki/holiday-art/march7thevernight/02-Chinese New Year 2023.png",
+        "../../Database/HsrWiki/holiday-art/march7thevernight/03-Valentine's Day 2023 March 7th.jpg",
+        "../../Database/HsrWiki/holiday-art/march7thevernight/04-New Year 2024.png",
+        "../../Database/HsrWiki/holiday-art/march7thevernight/05-Festa Junina 2024.jpg",
+        "../../Database/HsrWiki/holiday-art/march7thevernight/06-Qixi Festival 2024.png",
+        "../../Database/HsrWiki/holiday-art/march7thevernight/07-Christmas 2024.png",
+        "../../Database/HsrWiki/holiday-art/march7thevernight/08-New Year 2026.png",
+        "../../Database/HsrWiki/holiday-art/march7thevernight/09-Chinese New Year 2026 Himeko March 7th.png",
+        "../../Database/HsrWiki/holiday-art/march7thevernight/10-Chinese New Year 2026 2.png",
+        "../../Database/HsrWiki/holiday-art/march7thevernight/11-Dragon Boat Festival 2026.jpg"
+      ],
+      "signatureLightCone": {
+        "id": "23049",
+        "name": "To Evernight's Stars",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23049.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23049.webp",
+        "path": "Remembrance"
+      },
+      "signatureWeapon": {
+        "id": "23049",
+        "name": "To Evernight's Stars",
+        "path": "Remembrance",
+        "educated": false
+      },
+      "signatureWeaponId": "23049",
+      "signatureWeaponName": "To Evernight's Stars",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23049.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/23049.webp"
+      ],
+      "status": "live",
+      "labels": [],
+      "r": 5,
+      "el": "Ice",
+      "path": "Remembrance",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Passive.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "4.3.56",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Time Thence Blurs",
+                "type": "Basic ATK",
+                "desc": "Deals Ice DMG equal to 70% of Evernight's Max HP to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Normal.webp"
+              },
+              {
+                "name": "Day Gently Slips",
+                "type": "Skill",
+                "desc": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 30% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\"\n\nConsumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains 2 \"Memoria.\" If in the \"Darkest Riddle\" state, additionally gains 12 \"Memoria.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_BP.webp"
+              },
+              {
+                "name": "O Wakeful World, Goodnight",
+                "type": "Ultimate",
+                "desc": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 250% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 37.5% increased DMG while both Evernight and Evey deal 75% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Ultra.webp"
+              },
+              {
+                "name": "Let it Rain Cold On Thee",
+                "type": "Technique",
+                "desc": "After using Technique, at the start of the next battle, obtains the same effect as the one from Skill that increases CRIT DMG for all ally memosprites, and gains 1 \"Memoria.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "With Me, This Night",
+                "type": "Talent",
+                "desc": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 75% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Dark the Night, Still the Moon",
+                "type": "Major Trace",
+                "desc": "Increases Evernight's and the memosprite Evey's CRIT Rate by 35%. When using an ability, consumes 5% of this unit's current HP to increase CRIT DMG for both of them by 15%, lasting for 2 turn(s). After Evey uses \"Dream, Dissolving, as Dew,\" recovers 1 Skill Point for allies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_SkillTree1.webp"
+              },
+              {
+                "name": "Rouse the Flame, Lull the Light",
+                "type": "Major Trace",
+                "desc": "When combat starts, Evernight regenerates 70 Energy and gains 1 \"Memoria.\" When Evernight or an ally memosprite uses an ability, Evernight regenerates 5 Energy and gains 1 \"Memoria.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_SkillTree2.webp"
+              },
+              {
+                "name": "Kindle the Morn, Drop the Rain",
+                "type": "Major Trace",
+                "desc": "When there are 1/2/3/\u22654 Remembrance characters in the team, increases CRIT DMG for all ally memosprites by 5%/15%/50%/65% respectively while Evernight's Skill lasts.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Sleep Tight, the Night Dreams Long",
+                "type": "Eidolon 1",
+                "desc": "When Evernight is on the field, if there are (\u22654)/3/2/1 enemy targets on the field, ally memosprites deal DMG equal to 120%/125%/130%/150% of their original DMG respectively.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Rank1.webp"
+              },
+              {
+                "name": "Listen Up, the Slumber Speaks Soft",
+                "type": "Eidolon 2",
+                "desc": "Increases Evernight's and the memosprite Evey's CRIT DMG by 40%. Each time Evernight gains \"Memoria,\" increases the amount of \"Memoria\" gain by 2 point(s). When using Ultimate, additionally gains 2 Charge for \"Darkest Riddle.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Rank2.webp"
+              },
+              {
+                "name": "Fear Not, the Nightmare Lies Past",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_BP.webp"
+              },
+              {
+                "name": "Wake Up, the Tomorrow is Yours",
+                "type": "Eidolon 4",
+                "desc": "While Evernight is on the field, ally memosprites' Weakness Break Efficiency increases by 25%, and the memosprite Evey's Weakness Break Efficiency additionally increases by 25%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Rank4.webp"
+              },
+              {
+                "name": "Let Go, the \"Me\" in Memories",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Ultra.webp"
+              },
+              {
+                "name": "Like This, Always",
+                "type": "Eidolon 6",
+                "desc": "While Evernight is on the field, all ally targets' All-Type RES PEN increases by 20%. After the memosprite Evey uses \"Dream, Dissolving, as Dew,\" Evernight gains 30% of the amount of \"Memoria\" consumed in this attack.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1413_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "110433",
+            "name": "Sea Siren's Torn Fin",
+            "qty": 65,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110433.webp",
+            "source": "Lady of Crashing Waves",
+            "sourceDetails": [
+              {
+                "name": "Lady of Crashing Waves"
+              }
+            ]
+          },
+          {
+            "id": "115011",
+            "name": "Ethereal Omen",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/115011.webp"
+          },
+          {
+            "id": "115012",
+            "name": "Echoing Wail",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/115012.webp"
+          },
+          {
+            "id": "115013",
+            "name": "Eternal Lament",
+            "qty": 15,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/115013.webp"
+          }
+        ],
+        "talents": [
+          {
+            "id": "115011",
+            "name": "Ethereal Omen",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/115011.webp"
+          },
+          {
+            "id": "115012",
+            "name": "Echoing Wail",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/115012.webp"
+          },
+          {
+            "id": "115013",
+            "name": "Eternal Lament",
+            "qty": 58,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/115013.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110251",
+            "name": "B\u012bja of Consciousness",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110251.webp"
+          },
+          {
+            "id": "110252",
+            "name": "Seedling of Manas",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110252.webp"
+          },
+          {
+            "id": "110253",
+            "name": "Flower of \u0100laya",
+            "qty": 139,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+          },
+          {
+            "id": "110507",
+            "name": "...",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110507.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "115011",
+                  "name": "Ethereal Omen",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115013.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "115011",
+                  "name": "Ethereal Omen",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "115011",
+                  "name": "Ethereal Omen",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 25000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 70000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110507.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110507.webp"
+                }
+              ]
+            },
+            {
+              "cost": 240000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 13,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110507.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "115011",
+                  "name": "Ethereal Omen",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "115011",
+                  "name": "Ethereal Omen",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 25000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 70000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110507.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110507.webp"
+                }
+              ]
+            },
+            {
+              "cost": 240000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 13,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110507.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "115011",
+                  "name": "Ethereal Omen",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "115011",
+                  "name": "Ethereal Omen",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 25000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 70000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110507.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/115013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110507.webp"
+                }
+              ]
+            },
+            {
+              "cost": 240000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 13,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110507.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "115011",
+            "name": "Ethereal Omen",
+            "qty": 16,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/115011.webp"
+          },
+          {
+            "id": "115012",
+            "name": "Echoing Wail",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/115012.webp"
+          },
+          {
+            "id": "115013",
+            "name": "Eternal Lament",
+            "qty": 36,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/115013.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110251",
+            "name": "B\u012bja of Consciousness",
+            "qty": 10,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110251.webp"
+          },
+          {
+            "id": "110252",
+            "name": "Seedling of Manas",
+            "qty": 27,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110252.webp"
+          },
+          {
+            "id": "110253",
+            "name": "Flower of \u0100laya",
+            "qty": 53,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+          },
+          {
+            "id": "110507",
+            "name": "...",
+            "qty": 3,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110507.webp"
+          }
+        ],
+        "talentBaseCost": 1181500,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "To Evernight's Stars",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23049.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23049.webp",
+          "path": "Remembrance",
+          "items": [
+            {
+              "id": "115011",
+              "name": "Ethereal Omen",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/115011.webp"
+            },
+            {
+              "id": "115012",
+              "name": "Echoing Wail",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/115012.webp"
+            },
+            {
+              "id": "115013",
+              "name": "Eternal Lament",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/115013.webp"
+            },
+            {
+              "id": "110251",
+              "name": "B\u012bja of Consciousness",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110251.webp"
+            },
+            {
+              "id": "110252",
+              "name": "Seedling of Manas",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110252.webp"
+            },
+            {
+              "id": "110253",
+              "name": "Flower of \u0100laya",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110253.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      },
+      "betaStatus": "changed"
+    },
+    {
       "id": "hsr-phainon",
       "n": "Phainon",
       "localizedNames": {
@@ -13764,13 +14887,13 @@
               },
               {
                 "name": "Beginning of the End",
-                "type": "Technique",
+                "type": "Technique Attack",
                 "desc": "While Phainon is in the team, increases Max Technique Points by 3.\\nWhen actively using this Technique, consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, regenerates 25 Energy for allies and gains 2 \"Scourge\" and 1 Skill Point(s). Deals Physical DMG equal to 200% of Phainon's ATK to all enemies at the start of each wave.\\nIf attacking a normal enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.",
                 "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Maze.webp"
               },
               {
                 "name": "Attack",
-                "type": "MazeAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
@@ -14911,7 +16034,7 @@
               },
               {
                 "name": "Attack",
-                "type": "MazeAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
@@ -15956,6 +17079,1161 @@
       "betaStatus": "changed"
     },
     {
+      "id": "hsr-silver-wolf-lv-999",
+      "n": "Silver Wolf \u2022 Lv. 999",
+      "localizedNames": {
+        "en": "Silver Wolf LV.999",
+        "zh": "\u94f6\u72fcLV.999",
+        "ja": "\u9280\u72fcLV.999",
+        "ko": "\uc740\ub791 LV.999"
+      },
+      "title": "Godmode Player",
+      "slug": "silver-wolf-lv-999",
+      "release": 1776848400000,
+      "updated": 1780178400000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/hsr/assets/characters/round/1506.webp",
+      "art": "../../Database/Prydwen/hsr/assets/characters/silver-wolf-lv-999-8f3d673fabce.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/silver-wolf-lv-999-525c30d127a5.webp",
+      "signatureLightCone": {
+        "id": "23057",
+        "name": "Welcome to the Cosmic City",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23057.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23057.webp",
+        "path": "Elation"
+      },
+      "signatureWeapon": {
+        "id": "23057",
+        "name": "Welcome to the Cosmic City",
+        "path": "Elation",
+        "educated": false
+      },
+      "signatureWeaponId": "23057",
+      "signatureWeaponName": "Welcome to the Cosmic City",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23057.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/23057.webp"
+      ],
+      "status": "live",
+      "labels": [],
+      "r": 5,
+      "el": "Imaginary",
+      "path": "Elation",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Passive.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "4.3.56",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "One Punch!",
+                "type": "Basic ATK",
+                "desc": "Deals Imaginary DMG equal to 140% of Silver Wolf LV.999's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Normal.webp"
+              },
+              {
+                "name": "Bonus Stage: \u03b1Wolf Instant",
+                "type": "Basic ATK",
+                "desc": "Deals Imaginary DMG equal to a total of 336% of Silver Wolf LV.999's ATK, split evenly into 100 hits that bounce onto random enemies. After every set number of bounces, the bouncing pauses and the Top Loot Box triggers 1 time. Can trigger up to 3 time(s) in total.\\nWhen dealing fatal damage to all enemies on the field, this ability ends. After attackable enemy targets appear, gains 1 extra turn and uses this ability again based on the remaining number of bounces and Top Loot Box triggers. The first time this effect triggers in each turn, extends the duration of all buffs on this unit by 1 turn.\\nAfter all of the above DMG is dealt, launches a Final Hit that deals Imaginary DMG equal to 140% of Silver Wolf LV.999's ATK, split evenly among all enemies.\\nEnhanced Basic ATK cannot recover Skill Points. For every 60 points of \"Hidden MMR\" held, increases DMG dealt during Enhanced Basic ATK by 15% of the original DMG, stacking up to 2 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Normal.webp"
+              },
+              {
+                "name": "Big Flipping Sword",
+                "type": "Basic ATK",
+                "desc": "Deals massive Imaginary Elation DMG to all enemies, split evenly among them. And deals True DMG to the target with the highest HP based on the total DMG dealt.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Normal.webp"
+              },
+              {
+                "name": "Kaboom Eggsplosion",
+                "type": "Basic ATK",
+                "desc": "Deals massive Imaginary Elation DMG to all enemies, split evenly among them. And recovers Skill Points.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Normal.webp"
+              },
+              {
+                "name": "Funky Munch Bean",
+                "type": "Basic ATK",
+                "desc": "Deals massive Imaginary Elation DMG to all enemies, split evenly among them. And gains Punchline.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Normal.webp"
+              },
+              {
+                "name": "Trigger Happy",
+                "type": "Skill",
+                "desc": "Gains 5 Punchline point(s) and deals Imaginary DMG equal to 200% of Silver Wolf LV.999's ATK to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_BP.webp"
+              },
+              {
+                "name": "God Mode: ON!",
+                "type": "Ultimate",
+                "desc": "Enters the \"Godmode Player\" state, and advances action by 100%.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.999 holds \"Certified Banger,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's \"Top Loot Box\": Deals 113% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers 2 Skill Point(s).\\n\"Funky Munch Bean\": Gains 3 Punchline point(s).\\nThe initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Ultra.webp"
+              },
+              {
+                "name": "This? Absolute Meta!",
+                "type": "Technique",
+                "desc": "Summons \"Funky Munch Bean.\" Use again to dismiss. Using Technique does not consume Technique Points. When Technique Points reach 0, the summon is dismissed and Technique cannot be used.\\n\"Funky Munch Bean\" causes Normal Enemies within a certain range to enter a Terrified state. It will also automatically search for and attack Normal Enemies, consuming 1 Technique Point to instantly defeat them without entering combat.\\nWhile \"Funky Munch Bean\" is present, after entering combat, 1 instance of \"Top Loot Box\" from \"Funky Munch Bean\" is triggered at the start of each wave. A fixed amount of 99 \"Certified Banger\" is taken into account for the Elation DMG dealt in this instance.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "I Carry, We Win",
+                "type": "Talent",
+                "desc": "After \"Hidden MMR\" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).\\nWhen gaining Punchline, Silver Wolf LV.999 gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by 0.5%. Once CRIT Rate reaches 100%, each additional point of \"Hidden MMR\" instead increases CRIT DMG by 1%.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"Certified Banger,\" using Basic ATK or Skill deals 50% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Passive.webp"
+              },
+              {
+                "name": "Pro-Gamer Move",
+                "type": "Elation Skill",
+                "desc": "Gains 15 \"Hidden MMR\" point(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Elation.webp"
+              },
+              {
+                "name": "Honkai-DMG Demo",
+                "type": "Elation Skill",
+                "desc": "Deals 6 instances of DMG, with each instance dealing 113% Imaginary Elation DMG to one random enemy. Then, resets the fixed chance to trigger \"Top Loot Box\" to its initial value.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Elation.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "False Ending Speedrun",
+                "type": "Major Trace",
+                "desc": "When SPD is 160 or higher, increases this unit's Elation by 50%. For every 1 SPD exceeded, increases this unit's Elation by 2%. Up to a max of 100 excess SPD can be taken into account for this effect.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_SkillTree1.webp"
+              },
+              {
+                "name": "True Ending Unlocked",
+                "type": "Major Trace",
+                "desc": "If the number of Punchline points taken into account when using Elation Skill is 20 or more, additionally gains 20 \"Hidden MMR\" points (And if it's 40 or more, then gains 20 more points on top of that).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_SkillTree2.webp"
+              },
+              {
+                "name": "Secret Level Maxed",
+                "type": "Major Trace",
+                "desc": "After entering the \"Godmode Player\" state, gains 20 \"Hidden MMR\" point(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Aether Editing: Eidolon +1",
+                "type": "Eidolon 1",
+                "desc": "Enemy targets in the Zone take 20% increased DMG.\\nWhen exiting the \"Godmode Player\" state, \"Hidden MMR\" will not be cleared. Instead, 20% of \"Hidden MMR\" will be retained.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Rank1.webp"
+              },
+              {
+                "name": "It's a Feature, Not a Bug",
+                "type": "Eidolon 2",
+                "desc": "After entering the \"Godmode Player\" state, extends the duration of all buffs on this unit by 1 turn. In the current \"Godmode Player\" state, for every 120 point(s) of \"Hidden MMR\" increased (including the initial \"Hidden MMR\"), Silver Wolf LV.999 gains 1 extra turn and regains 1 use of Enhanced Basic ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Rank2.webp"
+              },
+              {
+                "name": "Max Lv. 15? Says who?",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_BP.webp"
+              },
+              {
+                "name": "I Came. I Saw. I One-Shot.",
+                "type": "Eidolon 4",
+                "desc": "Elation DMG dealt by \"Honkai-DMG Demo\" additionally takes into account Punchline, equal to the original amount multiplied by 5.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Rank4.webp"
+              },
+              {
+                "name": "Basic ATK Is the New Ultimate",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Ultra.webp"
+              },
+              {
+                "name": "Solo Maxxing!",
+                "type": "Eidolon 6",
+                "desc": "Elation DMG dealt during Enhanced Basic ATK merrymakes by 50%.\\nWhen enemy targets enter combat, they are implanted with \"Absolute Weakness\": Has All-Type Weakness, and reduces their All-Type Base RES to 0. (If Base RES is already at 0, then the corresponding Type RES decreases by 20% instead).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1506_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "110437",
+            "name": "Harbinger of Strife",
+            "qty": 65,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110437.webp"
+          },
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 15,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+          }
+        ],
+        "talents": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 58,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110261",
+            "name": "The Fluffy Hand-drawn Storyboards",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+          },
+          {
+            "id": "110262",
+            "name": "The Fluffy Serialization Memorial Issue",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+          },
+          {
+            "id": "110263",
+            "name": "The Fluffy Collector's Edition",
+            "qty": 139,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+          },
+          {
+            "id": "110508",
+            "name": "...",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 36,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110261",
+            "name": "The Fluffy Hand-drawn Storyboards",
+            "qty": 7,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+          },
+          {
+            "id": "110262",
+            "name": "The Fluffy Serialization Memorial Issue",
+            "qty": 28,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+          },
+          {
+            "id": "110263",
+            "name": "The Fluffy Collector's Edition",
+            "qty": 59,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+          },
+          {
+            "id": "110508",
+            "name": "...",
+            "qty": 3,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentBaseCost": 1260000,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "Welcome to the Cosmic City",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23057.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23057.webp",
+          "path": "Elation",
+          "items": [
+            {
+              "id": "116001",
+              "name": "Whimsy Wax",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+            },
+            {
+              "id": "116002",
+              "name": "Dreamweave Steel",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+            },
+            {
+              "id": "116003",
+              "name": "Lucid Awl",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+            },
+            {
+              "id": "110261",
+              "name": "The Fluffy Hand-drawn Storyboards",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+            },
+            {
+              "id": "110262",
+              "name": "The Fluffy Serialization Memorial Issue",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+            },
+            {
+              "id": "110263",
+              "name": "The Fluffy Collector's Edition",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      },
+      "betaStatus": "changed"
+    },
+    {
       "id": "hsr-sparxie",
       "n": "Sparxie",
       "localizedNames": {
@@ -16033,10 +18311,6 @@
                 "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Normal.webp"
               },
               {
-                "name": "Bloom! Winner Takes All",
-                "type": "Basic ATK"
-              },
-              {
                 "name": "Boom! Sparxicle's Poppin'",
                 "type": "Skill",
                 "desc": "Start a livestream to turn Basic ATK into \"Bloom! Winner Takes All\" and trigger \"Engagement Farming\" 1 time. During this ability, \"Engagement Farming\" can be triggered repeatedly, up to 20 time(s). Using this ability is not considered as using a Skill.",
@@ -16062,7 +18336,7 @@
               },
               {
                 "name": "Attack",
-                "type": "MazeAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
@@ -17197,7 +19471,7 @@
               },
               {
                 "name": "Attack",
-                "type": "MazeAttack",
+                "type": "Technique Attack",
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {

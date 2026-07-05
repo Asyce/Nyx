@@ -1,21 +1,28 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-07-05T08:26:04.436Z",
+  "generatedAt": "2026-07-05T17:05:29.364Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 0,
-      "unchanged": 31
+      "changed": 1,
+      "unchanged": 30
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [],
-      "unchanged": 31,
+      "changed": [
+        {
+          "id": "characters:akekuri",
+          "name": "Akekuri",
+          "previousHash": "3431d95fef4eac522e24e2cef042e923081eb9bd8fcab2eff9ac65e3d6bbddd5",
+          "currentHash": "d1b3f1ae8765949a6a9c52b452d7b27b2513c1ed35339d523d2b48f47df17570"
+        }
+      ],
+      "unchanged": 30,
       "totals": {
         "previous": 31,
         "current": 31

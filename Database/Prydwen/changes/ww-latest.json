@@ -1,21 +1,46 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-07-05T08:26:04.436Z",
+  "generatedAt": "2026-07-05T17:05:29.364Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 0,
-      "unchanged": 63
+      "changed": 4,
+      "unchanged": 59
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [],
-      "unchanged": 63,
+      "changed": [
+        {
+          "id": "characters:chisa",
+          "name": "Chisa",
+          "previousHash": "64760f88c10a9f50aaccee8cc563faeb96906c0595bc635e2ae6814d807301bb",
+          "currentHash": "56a568be11c90d75f32d124f1e45f4f1bafbd288abbf11ea36a5c3e24fa3a359"
+        },
+        {
+          "id": "characters:ciaccona",
+          "name": "Ciaccona",
+          "previousHash": "84e8d1190f26220c365d474e0e233b7ef7332bb96ec13b36303687b77908e409",
+          "currentHash": "818d472e5146423f90c67fca41a848934583e349220dcbd0ee2a70239b2479a8"
+        },
+        {
+          "id": "characters:yinlin",
+          "name": "Yinlin",
+          "previousHash": "6729796408cbfdc7b0c2d9487b46a9eaedee38d3e0ae4f12c715a3e0f1196ef8",
+          "currentHash": "c3d2984121a6a52fb85ebaff9de0847f93f242e659ceae9f8b530e088614b077"
+        },
+        {
+          "id": "characters:zhezhi",
+          "name": "Zhezhi",
+          "previousHash": "aeabb02d7f69708736f38d4c567c974a6a3fb728ff62aee176f9582b299f7db9",
+          "currentHash": "abf85a67e122c5af534fbf2a07eb3f7531e6eea7b4fc897e6ec2a4e9fc06c383"
+        }
+      ],
+      "unchanged": 59,
       "totals": {
         "previous": 63,
         "current": 63

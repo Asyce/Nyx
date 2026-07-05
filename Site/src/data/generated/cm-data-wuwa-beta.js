@@ -402,6 +402,7 @@
         "talentCost": 2030000,
         "currency": 2200000
       },
+      "recent": 1,
       "betaStatus": "changed"
     },
     {
@@ -5124,6 +5125,7 @@
         "talentCost": 2030000,
         "currency": 2200000
       },
+      "recent": 1,
       "betaStatus": "changed"
     },
     {

@@ -50244,13 +50244,13 @@
               {
                 "name": "Formule Phenomenale: Self-Evident Proposition",
                 "type": "Talent",
-                "desc": "Normal Attack\\nGenerates threads that control her weapon using formulae, performing up to 3 consecutive strikes.\\n\\nCharged Attack\\nSummons the Facilitatrice Automatisee Generaliste Interactive et Omnitache, or \"Fagio,\" and switches it to {LINK#N11330001}Decoding{/LINK} mode: Unleashes a sweeping fire attack on enemies in front, as well as periodically fires condensed beams, dealing AoE Cryo DMG.\\nRadiance: Stellar-Conduct: The condensed beams will instead deal AoE Cryo DMG that is considered Stellar-Conduct DMG.\\nWhile in Decoding mode, Fagio's {LINK#N11330002}Decoding Power{/LINK} will continuously increase. Firing condensed beams will also further increase its Decoding Power.\\nWhen Fagio's Decoding Power reaches the maximum of 100 points, it switches to Power Overdrive mode, in which it fires at opponents with longer intervals, dealing Cryo DMG. It will be unable to switch to Decoding mode at this time.\\nWhen not in Decoding mode, Fagio's Decoding Power gradually decreases. When Sandrone is off-field, she will focus on maintaining Fagio, causing its Decoding Power to decrease at 300% the original rate.\\nFagio exits Power Overdrive mode when its Decoding Power has decreased to under 50.\\n\\nPlunging Attack\\nPlunges from midair to strike the ground below, dealing DMG to opponents along their path and causing AoE DMG on landing.",
+                "desc": "Normal Attack\\nGenerates threads that control her weapon using formulae, performing up to 3 consecutive strikes.\\n\\nCharged Attack\\nSummons the Facilitatrice Automatisee Generaliste Interactive et Omnitache, or \"Fagio,\" and switches it to Decoding mode: Unleashes a sweeping fire attack on enemies in front, as well as periodically fires condensed beams, dealing AoE Cryo DMG.\\nRadiance: Stellar-Conduct: The condensed beams will instead deal AoE Cryo DMG that is considered Stellar-Conduct DMG.\\nWhile in Decoding mode, Fagio's Decoding Power will continuously increase. Firing condensed beams will also further increase its Decoding Power.\\nWhen Fagio's Decoding Power reaches the maximum of 100 points, it switches to Power Overdrive mode, in which it fires at opponents with longer intervals, dealing Cryo DMG. It will be unable to switch to Decoding mode at this time.\\nWhen not in Decoding mode, Fagio's Decoding Power gradually decreases. When Sandrone is off-field, she will focus on maintaining Fagio, causing its Decoding Power to decrease at 300% the original rate.\\nFagio exits Power Overdrive mode when its Decoding Power has decreased to under 50.\\n\\nPlunging Attack\\nPlunges from midair to strike the ground below, dealing DMG to opponents along their path and causing AoE DMG on landing.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp"
               },
               {
                 "name": "Formule Phenomenale: Differential Analysis",
                 "type": "Talent",
-                "desc": "With her impeccable, ladylike poise, Sandrone boards the Tea Party Tactical Assault Hovermech and hovers forward for 6s. During this time, Sandrone can control the travel direction of the craft. Pressing Sprint consumes 10 Stamina and launches her into an elegant high-speed hover mode, in which she will move even faster at the cost of 15 Stamina per second.\\n\\nWhen Sandrone starts hovering, if there are opponents nearby, she will also summon a Prismatic Resonance Cannon and fire 2 Prism Shots at any opponents who have yet to cool down, dealing Cryo DMG.\\nRadiance: Stellar-Conduct: The second Prism Shot will instead deal Cryo DMG that is considered Stellar-Conduct DMG.\\n\\nWhen on the Tea Party Tactical Assault Hovermech, Sandrone will also elegantly and quietly repair Fagio, causing {LINK#N11330002}Decoding Power{/LINK} to swiftly decrease.",
+                "desc": "With her impeccable, ladylike poise, Sandrone boards the Tea Party Tactical Assault Hovermech and hovers forward for 6s. During this time, Sandrone can control the travel direction of the craft. Pressing Sprint consumes 10 Stamina and launches her into an elegant high-speed hover mode, in which she will move even faster at the cost of 15 Stamina per second.\\n\\nWhen Sandrone starts hovering, if there are opponents nearby, she will also summon a Prismatic Resonance Cannon and fire 2 Prism Shots at any opponents who have yet to cool down, dealing Cryo DMG.\\nRadiance: Stellar-Conduct: The second Prism Shot will instead deal Cryo DMG that is considered Stellar-Conduct DMG.\\n\\nWhen on the Tea Party Tactical Assault Hovermech, Sandrone will also elegantly and quietly repair Fagio, causing Decoding Power to swiftly decrease.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_MarionetteNew_01.webp"
               },
               {
@@ -50267,7 +50267,7 @@
               {
                 "name": "Eternal Speculation Engine",
                 "type": "Passive Talent",
-                "desc": "Radiance: Stellar-Conduct: When using the Elemental Skill {LINK#S11332}Formule Phenomenale: Differential Analysis{/LINK}, if Fagio's {LINK#N11330002}Decoding Power{/LINK} is greater than 50, the second Prism Shot fired by Fagio at nearby opponents will deal 400% of its original DMG as Fagio's Decoding Power is decreased.\\nAdditionally, for every 10 points of Decoding Power Fagio loses, it gains 1 stack of Refined Tactics for 60s (max 10 stacks). When Sandrone uses the Elemental Burst {LINK#S11335}Formule Phenomenale: Q.E.D.{/LINK} while in the Radiance: Stellar-Conduct state, all stacks of Refined Tactics are cleared, causing the Convective Inhibition Ray to deal 100% + (number of stacks cleared) \u00d7 10% of its original DMG."
+                "desc": "Radiance: Stellar-Conduct: When using the Elemental Skill Formule Phenomenale: Differential Analysis, if Fagio's Decoding Power is greater than 50, the second Prism Shot fired by Fagio at nearby opponents will deal 400% of its original DMG as Fagio's Decoding Power is decreased.\\nAdditionally, for every 10 points of Decoding Power Fagio loses, it gains 1 stack of Refined Tactics for 60s (max 10 stacks). When Sandrone uses the Elemental Burst Formule Phenomenale: Q.E.D. while in the Radiance: Stellar-Conduct state, all stacks of Refined Tactics are cleared, causing the Convective Inhibition Ray to deal 100% + (number of stacks cleared) \u00d7 10% of its original DMG."
               },
               {
                 "name": "A Lady's Code of Conduct",
@@ -50277,7 +50277,7 @@
               {
                 "name": "Light of Rationalisme",
                 "type": "Passive Talent",
-                "desc": "When party members trigger Superconduct, it will be changed to Stellar-Conduct, and party members' Base Stellar-Conduct DMG will be increased based on Sandrone's ATK: Every 100 ATK she has increases the Base Stellar-Conduct DMG by 0.7%. The maximum increase that can be gained this way is 14%.\\nAdditionally, when Sandrone is within a {LINK#N11330003}Polestar Field{/LINK}, she will enter the Radiance: Stellar-Conduct state."
+                "desc": "When party members trigger Superconduct, it will be changed to Stellar-Conduct, and party members' Base Stellar-Conduct DMG will be increased based on Sandrone's ATK: Every 100 ATK she has increases the Base Stellar-Conduct DMG by 0.7%. The maximum increase that can be gained this way is 14%.\\nAdditionally, when Sandrone is within a Polestar Field, she will enter the Radiance: Stellar-Conduct state."
               },
               {
                 "name": "A Caucus Prelude and a Long Tale",
@@ -50292,17 +50292,17 @@
               {
                 "name": "Morrow After the Golden Dusk",
                 "type": "Constellation 1",
-                "desc": "When in {LINK#N11330001}Decoding{/LINK} mode, Fagio's {LINK#N11330002}Decoding Power{/LINK} increases at a 50% lower rate, and all party members deal 30% increased Stellar-Conduct DMG."
+                "desc": "When in Decoding mode, Fagio's Decoding Power increases at a 50% lower rate, and all party members deal 30% increased Stellar-Conduct DMG."
               },
               {
                 "name": "An Heiress Gazed Into the Looking-Glass",
                 "type": "Constellation 2",
-                "desc": "Radiance: Stellar-Conduct: Increases CRIT DMG from Charged Attack condensed beams by 40%. Also, each time a beam is fired, CRIT DMG dealt by all condensed beams fired during this {LINK#N11330001}Decoding{/LINK} mode period will be further increased by 20%. Max 3 stacks."
+                "desc": "Radiance: Stellar-Conduct: Increases CRIT DMG from Charged Attack condensed beams by 40%. Also, each time a beam is fired, CRIT DMG dealt by all condensed beams fired during this Decoding mode period will be further increased by 20%. Max 3 stacks."
               },
               {
                 "name": "Refuse the Wake of Dusk, the Moonlit Yoke",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11331}Formule Phenomenale: Self-Evident Proposition{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Formule Phenomenale: Self-Evident Proposition by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "In Knowledge Lies the World's True Ground",
@@ -50312,12 +50312,12 @@
               {
                 "name": "Of All Beside, She Takes No Part",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11335}Formule Phenomenale: Q.E.D.{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Formule Phenomenale: Q.E.D. by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Narcissus Wakes, Her Eyes Upon the Dawn",
                 "type": "Constellation 6",
-                "desc": "When Fagio fires a condensed beam for the third time while in {LINK#N11330001}Decoding{/LINK} mode, the beam becomes a more powerful Condensed Cluster Beam that fires continuously. This beam will deal up to 4 additional instances of AoE Cryo DMG at 100% of Sandrone's ATK on top of any subsequent original beam fired.\\nRadiance: Stellar-Conduct: The Condensed Cluster Beam will instead deal 4 additional instances of AoE Cryo DMG at 80% of Sandrone's ATK. This DMG is considered Stellar-Conduct DMG.\\nAdditionally, all Stellar-Conduct DMG dealt by Sandrone is {LINK#N11190007}elevated{/LINK} by 20%."
+                "desc": "When Fagio fires a condensed beam for the third time while in Decoding mode, the beam becomes a more powerful Condensed Cluster Beam that fires continuously. This beam will deal up to 4 additional instances of AoE Cryo DMG at 100% of Sandrone's ATK on top of any subsequent original beam fired.\\nRadiance: Stellar-Conduct: The Condensed Cluster Beam will instead deal 4 additional instances of AoE Cryo DMG at 80% of Sandrone's ATK. This DMG is considered Stellar-Conduct DMG.\\nAdditionally, all Stellar-Conduct DMG dealt by Sandrone is elevated by 20%."
               }
             ]
           }
@@ -52456,13 +52456,13 @@
               {
                 "name": "Unforeseen Strike",
                 "type": "Talent",
-                "desc": "As he searches for weaknesses, Lohen switches to {LINK#N11290001}Masterstroke{/LINK} mode. While in this state:\\n\u00b7 Lohen can actively accumulate {LINK#N11290003}Joy{/LINK}, using it to unleash the special Elemental Skill {LINK#N11290002}Etched Into Bone and Soul{/LINK}.\\n\u00b7 Nearby party members can accumulate {LINK#N11290004}Will to Win{/LINK} for Lohen, increasing the DMG dealt by Etched Into Bone and Soul.\\nLohen can unleash Etched Into Bone and Soul up to 3 times while in Masterstroke mode, after which, he will no longer be able to accumulate Joy.\\n\\n\"Chivalry? Hah, what better way to bait the trap? When an enemy dreams of an honorable victory, they inevitably fail to suspect the 'pleasant surprise' that awaits them.\"",
+                "desc": "As he searches for weaknesses, Lohen switches to Masterstroke mode. While in this state:\\n\u00b7 Lohen can actively accumulate Joy, using it to unleash the special Elemental Skill Etched Into Bone and Soul.\\n\u00b7 Nearby party members can accumulate Will to Win for Lohen, increasing the DMG dealt by Etched Into Bone and Soul.\\nLohen can unleash Etched Into Bone and Soul up to 3 times while in Masterstroke mode, after which, he will no longer be able to accumulate Joy.\\n\\n\"Chivalry? Hah, what better way to bait the trap? When an enemy dreams of an honorable victory, they inevitably fail to suspect the 'pleasant surprise' that awaits them.\"",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Lohen_01.webp"
               },
               {
                 "name": "Manifest Judgment",
                 "type": "Talent",
-                "desc": "Performs a swift series of forward strikes, consuming all {LINK#N11290004}Will to Win{/LINK} and dealing Cryo DMG. This DMG will be increased based on the amount of Will to Win consumed. If Lohen is in {LINK#N11290001}Masterstroke{/LINK} mode when this is performed, the duration of Masterstroke will be extended by 1.65s.\\n\\n\"So quick to cave? What a pity, I was just starting to enjoy myself...\"",
+                "desc": "Performs a swift series of forward strikes, consuming all Will to Win and dealing Cryo DMG. This DMG will be increased based on the amount of Will to Win consumed. If Lohen is in Masterstroke mode when this is performed, the duration of Masterstroke will be extended by 1.65s.\\n\\n\"So quick to cave? What a pity, I was just starting to enjoy myself...\"",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Lohen_01.webp"
               }
             ]
@@ -52473,12 +52473,12 @@
               {
                 "name": "Moratorium on Questioning",
                 "type": "Passive Talent",
-                "desc": "When nearby party members accumulate {LINK#N11290004}Will to Win{/LINK} for Lohen by dealing DMG while he is in {LINK#N11290001}Masterstroke{/LINK} mode, if that DMG is not less than 3,000% of Lohen's Base ATK, it will accumulate an extra 60 Will to Win."
+                "desc": "When nearby party members accumulate Will to Win for Lohen by dealing DMG while he is in Masterstroke mode, if that DMG is not less than 3,000% of Lohen's Base ATK, it will accumulate an extra 60 Will to Win."
               },
               {
                 "name": "Flippant Masterpiece",
                 "type": "Passive Talent",
-                "desc": "While in {LINK#N11290001}Masterstroke{/LINK} mode, for 8s after another nearby party member triggers a Cryo Reaction, that character's ATK is increased by 15%, while Lohen's ATK is increased by 15%."
+                "desc": "While in Masterstroke mode, for 8s after another nearby party member triggers a Cryo Reaction, that character's ATK is increased by 15%, while Lohen's ATK is increased by 15%."
               },
               {
                 "name": "When the Mood Strikes",
@@ -52488,7 +52488,7 @@
               {
                 "name": "Witch's Eve Rite: Unhealing Thorn",
                 "type": "Passive Talent",
-                "desc": "After completing Witch's Homework: Of Various Foes, Lohen becomes a Hexerei character. When the party includes at least 2 Hexerei characters, you gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\\n\\nHexerei: Secret Rite\\nWhen the special Elemental Skill {LINK#N11290002}Etched Into Bone and Soul{/LINK} hits an opponent or the Elemental Burst Manifest Judgment is unleashed, if Lohen's {LINK#N11290004}Will to Win{/LINK} is at 50% or more of its max limit, his Normal Attack and Charged Attack DMG will be increased by 40% for 6s."
+                "desc": "After completing Witch's Homework: Of Various Foes, Lohen becomes a Hexerei character. When the party includes at least 2 Hexerei characters, you gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\\n\\nHexerei: Secret Rite\\nWhen the special Elemental Skill Etched Into Bone and Soul hits an opponent or the Elemental Burst Manifest Judgment is unleashed, if Lohen's Will to Win is at 50% or more of its max limit, his Normal Attack and Charged Attack DMG will be increased by 40% for 6s."
               }
             ]
           },
@@ -52498,32 +52498,32 @@
               {
                 "name": "O Breezes, That So Oft Bear Sorrowful Lament",
                 "type": "Constellation 1",
-                "desc": "Lohen's maximum {LINK#N11290004}Will to Win{/LINK} limit is increased to 300% of its original value.\\nAdditionally, when other nearby party members deal DMG while Lohen is in {LINK#N11290001}Masterstroke{/LINK} mode, they accumulate 500% as much Will to Win for him as they originally would have."
+                "desc": "Lohen's maximum Will to Win limit is increased to 300% of its original value.\\nAdditionally, when other nearby party members deal DMG while Lohen is in Masterstroke mode, they accumulate 500% as much Will to Win for him as they originally would have."
               },
               {
                 "name": "In Flight, I Strike Whatever Flies",
                 "type": "Constellation 2",
-                "desc": "When in {LINK#N11290001}Masterstroke{/LINK} mode, after the special Elemental Skill {LINK#N11290002}Etched Into Bone and Soul{/LINK} hits an opponent or the Elemental Burst Manifest Judgment is unleashed, Lohen gains \"Evilsbane Blade\" for 4s: The next time Lohen hits an opponent with a Normal or Charged Attack while in Masterstroke mode, he will follow up with an additional strike that deals AoE Cryo DMG equal to 500% of his ATK, and increase the Elemental Mastery of other nearby party members by 200 for 8s. Evilsbane Blade can be triggered once every 4s."
+                "desc": "When in Masterstroke mode, after the special Elemental Skill Etched Into Bone and Soul hits an opponent or the Elemental Burst Manifest Judgment is unleashed, Lohen gains \"Evilsbane Blade\" for 4s: The next time Lohen hits an opponent with a Normal or Charged Attack while in Masterstroke mode, he will follow up with an additional strike that deals AoE Cryo DMG equal to 500% of his ATK, and increase the Elemental Mastery of other nearby party members by 200 for 8s. Evilsbane Blade can be triggered once every 4s."
               },
               {
                 "name": "Only the Spear That Wounds Can Heal",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11292}Unforeseen Strike{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Unforeseen Strike by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Radiant Love, Laughing Death",
                 "type": "Constellation 4",
-                "desc": "When Lohen unleashes the Elemental Burst Manifest Judgment while in {LINK#N11290001}Masterstroke{/LINK} mode, his {LINK#N11290004}Will to Win{/LINK} will be maxed out, causing this instance of his Elemental Burst to gain the maximum possible DMG increase.\\n\\nAdditionally, when Lohen switches to Masterstroke mode, the following will occur depending on how much Elemental Energy he has:\\n\u00b7 When Elemental Energy is not full: Lohen recovers 15 Elemental Energy.\\n\u00b7 When Elemental Energy is full: If, during the next 15s, Lohen unleashes the Elemental Burst Manifest Judgment, he will recover 15 Elemental Energy."
+                "desc": "When Lohen unleashes the Elemental Burst Manifest Judgment while in Masterstroke mode, his Will to Win will be maxed out, causing this instance of his Elemental Burst to gain the maximum possible DMG increase.\\n\\nAdditionally, when Lohen switches to Masterstroke mode, the following will occur depending on how much Elemental Energy he has:\\n\u00b7 When Elemental Energy is not full: Lohen recovers 15 Elemental Energy.\\n\u00b7 When Elemental Energy is full: If, during the next 15s, Lohen unleashes the Elemental Burst Manifest Judgment, he will recover 15 Elemental Energy."
               },
               {
                 "name": "Never Ask, Nor Trouble You to Know",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11295}Manifest Judgment{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Manifest Judgment by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "To Drown, to Sink, Unconscious \u2014 Supreme Joy",
                 "type": "Constellation 6",
-                "desc": "Using the special Elemental Skill {LINK#N11290002}Etched Into Bone and Soul{/LINK} and hitting an opponent with it or, while {LINK#N11290001}Masterstroke{/LINK} mode is active, unleashing the Elemental Burst Manifest Judgment, will not consume any {LINK#N11290004}Will to Win{/LINK}. Instead, Lohen's {LINK#N11290003}Joy{/LINK} will be maxed out, and if he hits an opponent the next time he uses the special Elemental Skill Etched Into Bone and Soul, the duration of this instance of Masterstroke will be extended by 1.25s. This effect can be triggered once every 7s.\\nAdditionally, the CRIT DMG of all the DMG described above is increased by 175%, and the number of times Lohen can unleash Etched Into Bone and Soul during this instance of Masterstroke is increased by 2."
+                "desc": "Using the special Elemental Skill Etched Into Bone and Soul and hitting an opponent with it or, while Masterstroke mode is active, unleashing the Elemental Burst Manifest Judgment, will not consume any Will to Win. Instead, Lohen's Joy will be maxed out, and if he hits an opponent the next time he uses the special Elemental Skill Etched Into Bone and Soul, the duration of this instance of Masterstroke will be extended by 1.25s. This effect can be triggered once every 7s.\\nAdditionally, the CRIT DMG of all the DMG described above is increased by 175%, and the number of times Lohen can unleash Etched Into Bone and Soul during this instance of Masterstroke is increased by 2."
               }
             ]
           }
@@ -54398,7 +54398,7 @@
               {
                 "name": "Revelation: Uncreated Light",
                 "type": "Talent",
-                "desc": "Recreates a fleeting glimpse of an age long past, when the angels acted on the authority of the heavens, bestowing the {LINK#N11310001}Grace of Kenosis{/LINK}{LINK#N11310002}{/LINK} effect on nearby party members. This increases their ATK and deals AoE Pyro DMG, as well as creates a Shield of Blazing Light.\\nThe Shield of Blazing Light's DMG Absorption is based on Nicole's ATK, and it will absorb Pyro DMG at 250% effectiveness.",
+                "desc": "Recreates a fleeting glimpse of an age long past, when the angels acted on the authority of the heavens, bestowing the Grace of Kenosis effect on nearby party members. This increases their ATK and deals AoE Pyro DMG, as well as creates a Shield of Blazing Light.\\nThe Shield of Blazing Light's DMG Absorption is based on Nicole's ATK, and it will absorb Pyro DMG at 250% effectiveness.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Nicole_01.webp"
               },
               {
@@ -54415,12 +54415,12 @@
               {
                 "name": "Methexis",
                 "type": "Passive Talent",
-                "desc": "For 20s after unleashing the Elemental Skill {LINK#S11312}Revelation: Uncreated Light{/LINK}, Nicole will continuously \"observe\" the other current active party members. After the observed character has remained on the field for 3s, their {LINK#N11310001}Grace of Kenosis{/LINK} is upgraded to {LINK#N11310002}Guidance of Theosis{/LINK}, increasing their ATK by an additional 300. If the observed character is a Hexerei character, Grace of Kenosis is upgraded to Guidance of Theosis straight away.\\nWhen characters other than Nicole who have Guidance of Theosis leave the field, their effect reverts to Grace of Kenosis."
+                "desc": "For 20s after unleashing the Elemental Skill Revelation: Uncreated Light, Nicole will continuously \"observe\" the other current active party members. After the observed character has remained on the field for 3s, their Grace of Kenosis is upgraded to Guidance of Theosis, increasing their ATK by an additional 300. If the observed character is a Hexerei character, Grace of Kenosis is upgraded to Guidance of Theosis straight away.\\nWhen characters other than Nicole who have Guidance of Theosis leave the field, their effect reverts to Grace of Kenosis."
               },
               {
                 "name": "Philokalia",
                 "type": "Passive Talent",
-                "desc": "When Elemental DMG from nearby active party members hits an opponent, Nicole's own {LINK#N11310001}Grace of Kenosis{/LINK} effect is upgraded to {LINK#N11310002}Guidance of Theosis{/LINK} for 8s."
+                "desc": "When Elemental DMG from nearby active party members hits an opponent, Nicole's own Grace of Kenosis effect is upgraded to Guidance of Theosis for 8s."
               },
               {
                 "name": "Nepsis",
@@ -54430,7 +54430,7 @@
               {
                 "name": "Witch's Eve Rite: Light in the Darkness",
                 "type": "Passive Talent",
-                "desc": "After completing Witch's Homework: The Role of a Guide...?, Nicole becomes a Hexerei character. When the party includes at least 2 Hexerei characters, you gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\\n\\nHexerei: Secret Rite\\nIncreases the DMG dealt by Hexerei characters' {LINK#S11315}Arcane Projections{/LINK} by 300% of Nicole's ATK."
+                "desc": "After completing Witch's Homework: The Role of a Guide...?, Nicole becomes a Hexerei character. When the party includes at least 2 Hexerei characters, you gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\\n\\nHexerei: Secret Rite\\nIncreases the DMG dealt by Hexerei characters' Arcane Projections by 300% of Nicole's ATK."
               }
             ]
           },
@@ -54445,27 +54445,27 @@
               {
                 "name": "\"I Will Guide You and Show You the Path You Should Tread\"",
                 "type": "Constellation 2",
-                "desc": "Enhances the effects of the Elemental Skill {LINK#S11312}Revelation: Uncreated Light{/LINK}: {LINK#N11310001}Grace of Kenosis{/LINK} increases ATK by an additional 300 (which does not count toward this effect's ATK Bonus limit), while {LINK#N11310002}Guidance of Theosis{/LINK} decreases nearby opponents' Elemental RES based on the corresponding character's Elemental Type by 25%. This effect does not stack for the same Element.\\nAdditionally, when Nicole unleashes her Elemental Skill Revelation: Uncreated Light, nearby active party members will also gain a Shield of Blazing Light."
+                "desc": "Enhances the effects of the Elemental Skill Revelation: Uncreated Light: Grace of Kenosis increases ATK by an additional 300 (which does not count toward this effect's ATK Bonus limit), while Guidance of Theosis decreases nearby opponents' Elemental RES based on the corresponding character's Elemental Type by 25%. This effect does not stack for the same Element.\\nAdditionally, when Nicole unleashes her Elemental Skill Revelation: Uncreated Light, nearby active party members will also gain a Shield of Blazing Light."
               },
               {
                 "name": "\"A Lamp by Your Side, A Light to Shine the Way\"",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11312}Revelation: Uncreated Light{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Revelation: Uncreated Light by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "\"Whether Left or Right, No Matter Which Way You Turn\"",
                 "type": "Constellation 4",
-                "desc": "When nearby party members have their {LINK#N11310001}Grace of Kenosis{/LINK} upgraded to {LINK#N11310002}Guidance of Theosis{/LINK}, Nicole also bestows upon them the Pathfinder's Blessing effect for 20s. Each character can gain this effect once every 16s.\\nThe Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG of characters with Pathfinder's Blessing is increased by 70% of Nicole's ATK. This effect will be removed once it has taken effect 8 times or when its duration is over.\\nWhen multiple opponents are hit at once, instances of Pathfinder's Blessing are consumed equal to the number of opponents hit. Each character's Pathfinder's Blessing is counted independently."
+                "desc": "When nearby party members have their Grace of Kenosis upgraded to Guidance of Theosis, Nicole also bestows upon them the Pathfinder's Blessing effect for 20s. Each character can gain this effect once every 16s.\\nThe Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG of characters with Pathfinder's Blessing is increased by 70% of Nicole's ATK. This effect will be removed once it has taken effect 8 times or when its duration is over.\\nWhen multiple opponents are hit at once, instances of Pathfinder's Blessing are consumed equal to the number of opponents hit. Each character's Pathfinder's Blessing is counted independently."
               },
               {
                 "name": "\"You Will Hear My Voice Beside You\"",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11315}Revelation: Ladder of Divine Ascent{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Revelation: Ladder of Divine Ascent by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "\"This Is the Path, Walk It Without Delay\"",
                 "type": "Constellation 6",
-                "desc": "When Nicole's {LINK#N11310001}Grace of Kenosis{/LINK} is upgraded to {LINK#N11310002}Guidance of Theosis{/LINK}, all nearby party members' Grace of Kenosis will also be upgraded to Guidance of Theosis. Once upgraded, Guidance of Theosis will no longer revert to Grace of Kenosis.\\nAdditionally, DMG dealt by characters with Guidance of Theosis will ignore 40% of opponents' DEF."
+                "desc": "When Nicole's Grace of Kenosis is upgraded to Guidance of Theosis, all nearby party members' Grace of Kenosis will also be upgraded to Guidance of Theosis. Once upgraded, Guidance of Theosis will no longer revert to Grace of Kenosis.\\nAdditionally, DMG dealt by characters with Guidance of Theosis will ignore 40% of opponents' DEF."
               }
             ]
           }
@@ -56591,7 +56591,7 @@
               {
                 "name": "Ring-A-Ding-Ding! Hexhunter Chime",
                 "type": "Talent",
-                "desc": "Unleash the wind's might to defeat the evil witch and save Descartes! Prune strikes the Witchlure Bell with her Banehunter Oathhammer, dealing Anemo DMG.\\nIf Prune triggers Swirl on an opponent using this attack, Ring-A-Ding-Ding! Hexhunter Chime will be changed to Clang Clang! Witch-tribution Comes! for the next 6s.\\n\\nClang Clang! Witch-tribution Comes!\\nPrune's hammer is now enshrouded by the element involved in the previous Swirl reaction, causing {LINK#N11320001}Banehunter Oathhammer{/LINK} to undergo Elemental Conversion. When activated with a Press, Prune will leap up and kick the Banehunter Oathhammer forward, dealing Elemental DMG of the corresponding type to opponents in front of her.",
+                "desc": "Unleash the wind's might to defeat the evil witch and save Descartes! Prune strikes the Witchlure Bell with her Banehunter Oathhammer, dealing Anemo DMG.\\nIf Prune triggers Swirl on an opponent using this attack, Ring-A-Ding-Ding! Hexhunter Chime will be changed to Clang Clang! Witch-tribution Comes! for the next 6s.\\n\\nClang Clang! Witch-tribution Comes!\\nPrune's hammer is now enshrouded by the element involved in the previous Swirl reaction, causing Banehunter Oathhammer to undergo Elemental Conversion. When activated with a Press, Prune will leap up and kick the Banehunter Oathhammer forward, dealing Elemental DMG of the corresponding type to opponents in front of her.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Prune_01.webp"
               },
               {
@@ -56608,12 +56608,12 @@
               {
                 "name": "Verdict and Punishment",
                 "type": "Passive Talent",
-                "desc": "During the Elemental Burst {LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK}, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl on an opponent, it will also summon a {LINK#N11320001}Banehunter Oathhammer{/LINK} that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl. This DMG is considered Elemental Burst DMG."
+                "desc": "During the Elemental Burst The Bell Tolls! The Hunt Is On!, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl on an opponent, it will also summon a Banehunter Oathhammer that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl. This DMG is considered Elemental Burst DMG."
               },
               {
                 "name": "Tolling Synchronicity",
                 "type": "Passive Talent",
-                "desc": "After Prune hits an opponent with the {LINK#N11320001}Banehunter Oathhammer{/LINK} that has undergone Elemental Conversion, other nearby party members will gain the Tolling Rally effect for 5s: When Normal, Charged, or Plunging Attacks, or Elemental Skills and Bursts deal DMG to opponents, that attack's DMG will be increased based on the portion of Prune's ATK in excess of 2,000 when they become affected by the Tolling Rally effect. Every excess ATK point increases that instance of DMG by 0.025%, up to a total of 50% max."
+                "desc": "After Prune hits an opponent with the Banehunter Oathhammer that has undergone Elemental Conversion, other nearby party members will gain the Tolling Rally effect for 5s: When Normal, Charged, or Plunging Attacks, or Elemental Skills and Bursts deal DMG to opponents, that attack's DMG will be increased based on the portion of Prune's ATK in excess of 2,000 when they become affected by the Tolling Rally effect. Every excess ATK point increases that instance of DMG by 0.025%, up to a total of 50% max."
               },
               {
                 "name": "Tinker-Tink, Clank, and Bang!",
@@ -56633,32 +56633,32 @@
               {
                 "name": "With a Vow to Rescue, the Journey Begins",
                 "type": "Constellation 1",
-                "desc": "After the {LINK#N11320001}Banehunter Oathhammer{/LINK} that has undergone Elemental Conversion hits an opponent, Prune will regain 2 Energy. This effect can occur once every 1.8s."
+                "desc": "After the Banehunter Oathhammer that has undergone Elemental Conversion hits an opponent, Prune will regain 2 Energy. This effect can occur once every 1.8s."
               },
               {
                 "name": "Useful for Cleaning Messy Baggage, Elemental Powers Are Indeed",
                 "type": "Constellation 2",
-                "desc": "During the Elemental Burst {LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK}, when the Witchlure Bell is in Hunter-Seeker mode, Prune gains the Hunt the Witch effect: Prune's ATK increases by 10%, and when the Witchlure Bell and the {LINK#N11320001}Banehunter Oathhammer{/LINK} that has undergone Elemental Conversion hits an opponent, it further increases her ATK by 5%. Prune's ATK can be increased by up to 40% in this way.\\nThe original instance of the above effect will be removed if \"The Bell Tolls! The Hunt Is On!\" is used again during this time."
+                "desc": "During the Elemental Burst The Bell Tolls! The Hunt Is On!, when the Witchlure Bell is in Hunter-Seeker mode, Prune gains the Hunt the Witch effect: Prune's ATK increases by 10%, and when the Witchlure Bell and the Banehunter Oathhammer that has undergone Elemental Conversion hits an opponent, it further increases her ATK by 5%. Prune's ATK can be increased by up to 40% in this way.\\nThe original instance of the above effect will be removed if \"The Bell Tolls! The Hunt Is On!\" is used again during this time."
               },
               {
                 "name": "The Caravan Exits the Mountain Pass, the Scenery Once More Changed",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of The Bell Tolls! The Hunt Is On! by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Looking Back Following the Wind, One's Shadow Still Halved",
                 "type": "Constellation 4",
-                "desc": "After the {LINK#N11320001}Banehunter Oathhammer{/LINK} that has undergone Elemental Conversion hits an opponent, it will ricochet and land on a nearby opponent, dealing 80% ATK as DMG of the corresponding Elemental Type."
+                "desc": "After the Banehunter Oathhammer that has undergone Elemental Conversion hits an opponent, it will ricochet and land on a nearby opponent, dealing 80% ATK as DMG of the corresponding Elemental Type."
               },
               {
                 "name": "100 Defeats? No Problem, Tomorrow, We Go Again",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11322}Ring-A-Ding-Ding! Hexhunter Chime{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Ring-A-Ding-Ding! Hexhunter Chime by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "And That's the Story! Share It With Your Friends!",
                 "type": "Constellation 6",
-                "desc": "The duration of the Witchlure Bell's Hunter-Seeker mode from the Elemental Burst {LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK} is extended by 4s.\\nAdditionally, after party members affected by Tolling Rally trigger any Elemental Reaction, they will cause Prune and the other current active character(s) affected by Tolling Rally to gain 350 ATK for 5s."
+                "desc": "The duration of the Witchlure Bell's Hunter-Seeker mode from the Elemental Burst The Bell Tolls! The Hunt Is On! is extended by 4s.\\nAdditionally, after party members affected by Tolling Rally trigger any Elemental Reaction, they will cause Prune and the other current active character(s) affected by Tolling Rally to gain 350 ATK for 5s."
               }
             ]
           }
@@ -58800,13 +58800,13 @@
               {
                 "name": "Countermeasure: Lumi's Battle Cry!",
                 "type": "Talent",
-                "desc": "Adventure with Lumi! Depending on how you Tap, Lumi attacks in different forms.\\n\\nTap\\nLumi strikes in a {LINK#N11300001}Super Power Form{/LINK}, attacking nearby enemies continuously, dealing AoE Geo DMG. If there are Moondrifts nearby, Lumi will also deal AoE Geo DMG to nearby enemies, which will be considered Lunar-Crystallize Reaction DMG.\\n\\nContinuous Tapping\\nTime to show what we're really capable of! After using her Elemental Skill, Linnea will feed Lumi sparkling gemstones when her Elemental Skill or Normal Attack is Tapped repeatedly. A full-bellied Lumi will strike in her {LINK#N11300001}Ultimate Power Form{/LINK}, dealing an especially powerful instance of AoE Geo DMG that is considered Lunar-Crystallize Reaction DMG, switching to {LINK#N11300001}Standard Power Form{/LINK}.\\nAdditionally, tapping the Elemental Skill increases Linnea's interruption resistance.\\n\\n\"You're up, Lumi!\"",
+                "desc": "Adventure with Lumi! Depending on how you Tap, Lumi attacks in different forms.\\n\\nTap\\nLumi strikes in a Super Power Form, attacking nearby enemies continuously, dealing AoE Geo DMG. If there are Moondrifts nearby, Lumi will also deal AoE Geo DMG to nearby enemies, which will be considered Lunar-Crystallize Reaction DMG.\\n\\nContinuous Tapping\\nTime to show what we're really capable of! After using her Elemental Skill, Linnea will feed Lumi sparkling gemstones when her Elemental Skill or Normal Attack is Tapped repeatedly. A full-bellied Lumi will strike in her Ultimate Power Form, dealing an especially powerful instance of AoE Geo DMG that is considered Lunar-Crystallize Reaction DMG, switching to Standard Power Form.\\nAdditionally, tapping the Elemental Skill increases Linnea's interruption resistance.\\n\\n\"You're up, Lumi!\"",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Linnea_01.webp"
               },
               {
                 "name": "Memo: Survival Guide in Extreme Conditions",
                 "type": "Talent",
-                "desc": "Even master adventurers need proper rest! Linnea summons Lumi to strike in {LINK#N11300001}Super Power Form{/LINK}, healing nearby party members. For a short duration, she will continuously heal nearby active party members based on Linnea's DEF.\\nIf Lumi is already on the field when Linnea unleashes Elemental Burst, Lumi's active duration will be reset instead and her Strike Form will not change.\\n\\n\"Any professional adventurer worth their salt prizes making it out of a serious jam over making discoveries, however unprecedented!\"",
+                "desc": "Even master adventurers need proper rest! Linnea summons Lumi to strike in Super Power Form, healing nearby party members. For a short duration, she will continuously heal nearby active party members based on Linnea's DEF.\\nIf Lumi is already on the field when Linnea unleashes Elemental Burst, Lumi's active duration will be reset instead and her Strike Form will not change.\\n\\n\"Any professional adventurer worth their salt prizes making it out of a serious jam over making discoveries, however unprecedented!\"",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Linnea_01.webp"
               }
             ]
@@ -58817,7 +58817,7 @@
               {
                 "name": "Field Observation Notes",
                 "type": "Passive Talent",
-                "desc": "When Lumi is present on the field, the Geo RES of opponents near Lumi will decrease by 15%.\\n\\nMoonsign: Ascendant Gleam: Linnea's Elemental Skill {LINK#S11302}Countermeasure: Lumi's Battle Cry!{/LINK} and Elemental Burst {LINK#S11305}Memo: Survival Guide in Extreme Conditions{/LINK} are enhanced. After summoning Lumi, the Geo RES of opponents near Lumi will be further decreased by 15%."
+                "desc": "When Lumi is present on the field, the Geo RES of opponents near Lumi will decrease by 15%.\\n\\nMoonsign: Ascendant Gleam: Linnea's Elemental Skill Countermeasure: Lumi's Battle Cry! and Elemental Burst Memo: Survival Guide in Extreme Conditions are enhanced. After summoning Lumi, the Geo RES of opponents near Lumi will be further decreased by 15%."
               },
               {
                 "name": "Universal Naturalist Archive",
@@ -58842,17 +58842,17 @@
               {
                 "name": "Provisional Classification",
                 "type": "Constellation 1",
-                "desc": "When unleashing Elemental Skill {LINK#S11302}Countermeasure: Lumi's Battle Cry!{/LINK}, or when triggering Moondrift Harmony, Linnea gains 6 stacks of the Field Catalog effect for 10s. Max 18 stacks. When nearby party members deal Lunar-Crystallize Reaction DMG, consume 1 stack of Field Catalog to increase the DMG dealt. The increase in DMG is equal to 75% of Linnea's DEF.\\nAdditionally, when Lumi uses Million Ton Crush in her {LINK#N11300001}Ultimate Power Form{/LINK}, Linnea can consume up to 5 stacks of Field Catalog. Each stack will increase the DMG dealt by 150% of Linnea's DEF."
+                "desc": "When unleashing Elemental Skill Countermeasure: Lumi's Battle Cry!, or when triggering Moondrift Harmony, Linnea gains 6 stacks of the Field Catalog effect for 10s. Max 18 stacks. When nearby party members deal Lunar-Crystallize Reaction DMG, consume 1 stack of Field Catalog to increase the DMG dealt. The increase in DMG is equal to 75% of Linnea's DEF.\\nAdditionally, when Lumi uses Million Ton Crush in her Ultimate Power Form, Linnea can consume up to 5 stacks of Field Catalog. Each stack will increase the DMG dealt by 150% of Linnea's DEF."
               },
               {
                 "name": "Tidings of Joy and Sorrow",
                 "type": "Constellation 2",
-                "desc": "Within 8s after triggering Moondrift Harmony, all Hydro and Geo party members have their CRIT DMG increased by 40%. Additionally, when Lumi uses Million Ton Crush in her {LINK#N11300001}Ultimate Power Form{/LINK}, the CRIT DMG of that attack increases by an additional 150%. \\n\\nMoonsign: Ascendant Gleam: When Lumi uses Heavy Overdrive Hammer in her {LINK#N11300001}Super Power Form{/LINK}, or when she uses Million Ton Crush in her Ultimate Power Form, an instance of Moondrift Harmony will be triggered. For this instance of Moondrift Harmony, all Hydro and Geo characters in the party will be considered to have applied their Elements in the reaction."
+                "desc": "Within 8s after triggering Moondrift Harmony, all Hydro and Geo party members have their CRIT DMG increased by 40%. Additionally, when Lumi uses Million Ton Crush in her Ultimate Power Form, the CRIT DMG of that attack increases by an additional 150%. \\n\\nMoonsign: Ascendant Gleam: When Lumi uses Heavy Overdrive Hammer in her Super Power Form, or when she uses Million Ton Crush in her Ultimate Power Form, an instance of Moondrift Harmony will be triggered. For this instance of Moondrift Harmony, all Hydro and Geo characters in the party will be considered to have applied their Elements in the reaction."
               },
               {
                 "name": "Eventful Log Page",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11302}Countermeasure: Lumi's Battle Cry!{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Countermeasure: Lumi's Battle Cry! by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Expert Instinct",
@@ -58862,12 +58862,12 @@
               {
                 "name": "Fairyland's Farewell Gift",
                 "type": "Constellation 5",
-                "desc": "Elemental Burst {LINK#S11305}Memo: Survival Guide in Extreme Conditions{/LINK} increases by 3 Levels.\\nMaximum upgrade level is 15."
+                "desc": "Elemental Burst Memo: Survival Guide in Extreme Conditions increases by 3 Levels.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Golden Beagle's Dream",
                 "type": "Constellation 6",
-                "desc": "The effects of the Constellation, Provisional Classification, are enhanced: When unleashing Elemental Skill {LINK#S11302}Countermeasure: Lumi's Battle Cry!{/LINK}, or when triggering Moondrift Harmony, Linnea will directly gain the maximum number of Field Catalog stacks. When consuming Field Catalog, consume twice the original number of stacks, such that the increase in DMG will be boosted to 150% of the original value.\\n\\nMoonsign: Ascendant Gleam: Lunar-Crystallize Reaction DMG dealt by nearby party members is {LINK#N11190007}elevated{/LINK} by 25%."
+                "desc": "The effects of the Constellation, Provisional Classification, are enhanced: When unleashing Elemental Skill Countermeasure: Lumi's Battle Cry!, or when triggering Moondrift Harmony, Linnea will directly gain the maximum number of Field Catalog stacks. When consuming Field Catalog, consume twice the original number of stacks, such that the increase in DMG will be boosted to 150% of the original value.\\n\\nMoonsign: Ascendant Gleam: Lunar-Crystallize Reaction DMG dealt by nearby party members is elevated by 25%."
               }
             ]
           }
@@ -61005,7 +61005,7 @@
               {
                 "name": "Windbound Execution",
                 "type": "Talent",
-                "desc": "Manifest the true essence of Favonius Bladework with absolute power. Produces different effects depending on whether the skill is Tapped or Held.\\n\\nTap\\nLeap forward and slash in one fluid motion, dealing AoE Anemo DMG and switching to {LINK#N11280001}Sturm und Drang{/LINK} mode.\\nWhile in Sturm und Drang, Varka's Normal Attack and Charged Attack DMG is increased, and he cannot perform Plunging Attacks. Also, when performing Normal or Charged Attacks, Varka's dual-wielded claymores will deal corresponding Elemental DMG based on the Elemental Types of the characters in the party, respectively. This Elemental DMG cannot be overridden by infusions.\\nAdditionally, when in Sturm und Drang, if there are Pyro, Hydro, Electro or Cryo characters in the party, Varka's Elemental Skill Windbound Execution will be converted to the special Elemental Skill, {LINK#N11280002}Four Winds' Ascension{/LINK}, dealing corresponding Elemental DMG and Anemo DMG. Additionally, Varka can also expend uses of the special Elemental Skill Four Winds' Ascension to perform a special Charged Attack, Azure Devour, that does not consume stamina to deal corresponding Elemental DMG and Anemo DMG.\\n\\nHold\\nAfter charging for a while, leap forward. The duration of the charge will increase the distance of the leap.",
+                "desc": "Manifest the true essence of Favonius Bladework with absolute power. Produces different effects depending on whether the skill is Tapped or Held.\\n\\nTap\\nLeap forward and slash in one fluid motion, dealing AoE Anemo DMG and switching to Sturm und Drang mode.\\nWhile in Sturm und Drang, Varka's Normal Attack and Charged Attack DMG is increased, and he cannot perform Plunging Attacks. Also, when performing Normal or Charged Attacks, Varka's dual-wielded claymores will deal corresponding Elemental DMG based on the Elemental Types of the characters in the party, respectively. This Elemental DMG cannot be overridden by infusions.\\nAdditionally, when in Sturm und Drang, if there are Pyro, Hydro, Electro or Cryo characters in the party, Varka's Elemental Skill Windbound Execution will be converted to the special Elemental Skill, Four Winds' Ascension, dealing corresponding Elemental DMG and Anemo DMG. Additionally, Varka can also expend uses of the special Elemental Skill Four Winds' Ascension to perform a special Charged Attack, Azure Devour, that does not consume stamina to deal corresponding Elemental DMG and Anemo DMG.\\n\\nHold\\nAfter charging for a while, leap forward. The duration of the charge will increase the distance of the leap.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Varka_01.webp"
               },
               {
@@ -61022,12 +61022,12 @@
               {
                 "name": "Dawn Wind's March",
                 "type": "Passive Talent",
-                "desc": "When there are Pyro, Hydro, Electro or Cryo characters in the party, according to the aforementioned priority order of Elemental Types, every 1,000 points of Varka's ATK will grant Varka a 10% Anemo DMG Bonus and corresponding Elemental DMG Bonus (among the aforementioned Elemental Types, only one element can gain bonus DMG this way). Up to 25% bonus DMG can be gained this way. \\n\\nAdditionally, if there are at least 2 Anemo characters, or at least 2 characters of the same Element among Pyro, Hydro, Electro or Cryo in the party, the Normal Attacks, Charged Attacks, Special Charged Attack Azure Devour and the special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK} that Varka deals or unleashes while in the {LINK#N11280001}Sturm und Drang{/LINK} mode will deal 140% of their original DMG. If there are at least 2 Anemo characters and at least 2 other characters of the same element among Pyro, Hydro, Electro or Cryo present in the party at the same time, the aforementioned effect will be increased to 220%."
+                "desc": "When there are Pyro, Hydro, Electro or Cryo characters in the party, according to the aforementioned priority order of Elemental Types, every 1,000 points of Varka's ATK will grant Varka a 10% Anemo DMG Bonus and corresponding Elemental DMG Bonus (among the aforementioned Elemental Types, only one element can gain bonus DMG this way). Up to 25% bonus DMG can be gained this way. \\n\\nAdditionally, if there are at least 2 Anemo characters, or at least 2 characters of the same Element among Pyro, Hydro, Electro or Cryo in the party, the Normal Attacks, Charged Attacks, Special Charged Attack Azure Devour and the special Elemental Skill Four Winds' Ascension that Varka deals or unleashes while in the Sturm und Drang mode will deal 140% of their original DMG. If there are at least 2 Anemo characters and at least 2 other characters of the same element among Pyro, Hydro, Electro or Cryo present in the party at the same time, the aforementioned effect will be increased to 220%."
               },
               {
                 "name": "Wind's Vanguard",
                 "type": "Passive Talent",
-                "desc": "When nearby party members trigger Swirl reaction(s), Varka gains one stack of Azure Fang's Oath, increasing the DMG dealt by his Normal Attacks, Charged Attacks, special Charged Attack Azure Devour and special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK} by 7.5% for 8s. Max 4 stacks. Each character can grant Varka with 1 stack of Azure Fang's Oath every second this way."
+                "desc": "When nearby party members trigger Swirl reaction(s), Varka gains one stack of Azure Fang's Oath, increasing the DMG dealt by his Normal Attacks, Charged Attacks, special Charged Attack Azure Devour and special Elemental Skill Four Winds' Ascension by 7.5% for 8s. Max 4 stacks. Each character can grant Varka with 1 stack of Azure Fang's Oath every second this way."
               },
               {
                 "name": "Homebound Wind's Paean",
@@ -61037,7 +61037,7 @@
               {
                 "name": "Witch's Eve Rite: Dawn's Return",
                 "type": "Passive Talent",
-                "desc": "After completing Witch's Homework: The Untitled Question, Varka will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\\n\\nHexerei: Secret Rite\\nEnhances the special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK}: When Varka hits an opponent with Normal Attack(s) in {LINK#N11280001}Sturm und Drang{/LINK}, the CD of Four Winds' Ascension will be reduced by 1s."
+                "desc": "After completing Witch's Homework: The Untitled Question, Varka will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\\n\\nHexerei: Secret Rite\\nEnhances the special Elemental Skill Four Winds' Ascension: When Varka hits an opponent with Normal Attack(s) in Sturm und Drang, the CD of Four Winds' Ascension will be reduced by 1s."
               }
             ]
           },
@@ -61047,17 +61047,17 @@
               {
                 "name": "\"Come, Friend, Let Us Dance Beneath the Moon's Soft Glow\"",
                 "type": "Constellation 1",
-                "desc": "When Varka switches to {LINK#N11280001}Sturm und Drang{/LINK}, he will obtain an additional use of the special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK}.\\nAdditionally, after switching to Sturm und Drang, Varka will gain the Lyrical Libation effect: When unleashing the special Elemental Skill Four Winds' Ascension, or when performing the special Charged Attack Azure Devour, Varka will consume this effect to deal 200% of the original DMG dealt by Four Winds' Ascension or Azure Devour."
+                "desc": "When Varka switches to Sturm und Drang, he will obtain an additional use of the special Elemental Skill Four Winds' Ascension.\\nAdditionally, after switching to Sturm und Drang, Varka will gain the Lyrical Libation effect: When unleashing the special Elemental Skill Four Winds' Ascension, or when performing the special Charged Attack Azure Devour, Varka will consume this effect to deal 200% of the original DMG dealt by Four Winds' Ascension or Azure Devour."
               },
               {
                 "name": "\"When Dawn Breaks, Our Journey Shall Take Flight\"",
                 "type": "Constellation 2",
-                "desc": "When unleashing the special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK}, or when performing the special Charged Attack Azure Devour, Varka will perform an additional strike, dealing AoE Anemo DMG equal to 800% of Varka's ATK."
+                "desc": "When unleashing the special Elemental Skill Four Winds' Ascension, or when performing the special Charged Attack Azure Devour, Varka will perform an additional strike, dealing AoE Anemo DMG equal to 800% of Varka's ATK."
               },
               {
                 "name": "\"O Friend, Quaff Not the Bitter Wine That Brings Tears of Woe\"",
                 "type": "Constellation 3",
-                "desc": "Increases Elemental Skill {LINK#S11282}Windbound Execution{/LINK} Level by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases Elemental Skill Windbound Execution Level by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "\"For None May Take From Us Our Freedom of Song\"",
@@ -61067,12 +61067,12 @@
               {
                 "name": "\"Fill High the Cup With Fine Wine, for Tyrants Come and Go\"",
                 "type": "Constellation 5",
-                "desc": "Increases Elemental Burst {LINK#S11285}Northwind Avatar{/LINK} Level by 3.\\n Maximum upgrade level is 15."
+                "desc": "Increases Elemental Burst Northwind Avatar Level by 3.\\n Maximum upgrade level is 15."
               },
               {
                 "name": "\"Beloved Mondstadt, Steadfast You Shall Shine\"",
                 "type": "Constellation 6",
-                "desc": "{LINK#N11280001}Sturm und Drang{/LINK} is enhanced:\\n\u00b7 For a short time after unleashing the special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK}, Tapping on Varka's Elemental Skill or Holding his Normal Attack will not expend any uses of Four Winds' Ascension, and will perform one additional instance of the special Charged Attack, Azure Devour.\\n\u00b7 For a short time after performing the special Charged Attack Azure Devour, tap on Varka's Elemental Skill to unleash an additional instance of Four Winds' Ascension without expending any uses of Four Winds' Ascension.\\nWhen triggering an additional special Charged Attack, Azure Devour, or unleashing an additional special Elemental Skill, Four Winds' Ascension, in this manner, the above effect cannot be triggered.\\n\\nAdditionally, the Azure Fang's Oath effect in Ascension Talent {LINK#P1282201}Wind's Vanguard{/LINK} is enhanced: Every stack of Azure Fang's Oath will increase Varka's CRIT DMG by 20%."
+                "desc": "Sturm und Drang is enhanced:\\n\u00b7 For a short time after unleashing the special Elemental Skill Four Winds' Ascension, Tapping on Varka's Elemental Skill or Holding his Normal Attack will not expend any uses of Four Winds' Ascension, and will perform one additional instance of the special Charged Attack, Azure Devour.\\n\u00b7 For a short time after performing the special Charged Attack Azure Devour, tap on Varka's Elemental Skill to unleash an additional instance of Four Winds' Ascension without expending any uses of Four Winds' Ascension.\\nWhen triggering an additional special Charged Attack, Azure Devour, or unleashing an additional special Elemental Skill, Four Winds' Ascension, in this manner, the above effect cannot be triggered.\\n\\nAdditionally, the Azure Fang's Oath effect in Ascension Talent Wind's Vanguard is enhanced: Every stack of Azure Fang's Oath will increase Varka's CRIT DMG by 20%."
               }
             ]
           }
@@ -63214,13 +63214,13 @@
               {
                 "name": "Heaven and Earth Made Manifest",
                 "type": "Talent",
-                "desc": "Summoning a shadow of her former powers, she switches to the {LINK#N11260001}Lunar Phase Shift{/LINK} mode.\\nIn this mode, Zibai's Normal Attacks and Charged Attacks will deal Geo DMG that cannot be overridden by other infusions, and she can accrue special Phase Shift Radiance through different methods. Zibai can consume Phase Shift Radiance to unleash the special Elemental Skill Spirit Steed's Stride.\\n\\nMoonsign: Ascendant Gleam\\nWhile in the Lunar Phase Shift mode, when Zibai performs Normal Attacks, the fourth attack will deal an additional instance of Geo DMG, which is considered Lunar-Crystallize Reaction DMG.",
+                "desc": "Summoning a shadow of her former powers, she switches to the Lunar Phase Shift mode.\\nIn this mode, Zibai's Normal Attacks and Charged Attacks will deal Geo DMG that cannot be overridden by other infusions, and she can accrue special Phase Shift Radiance through different methods. Zibai can consume Phase Shift Radiance to unleash the special Elemental Skill Spirit Steed's Stride.\\n\\nMoonsign: Ascendant Gleam\\nWhile in the Lunar Phase Shift mode, when Zibai performs Normal Attacks, the fourth attack will deal an additional instance of Geo DMG, which is considered Lunar-Crystallize Reaction DMG.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Zibai_01.webp"
               },
               {
                 "name": "Tri-Sphere Eminence",
                 "type": "Talent",
-                "desc": "Zibai operates the Jadelight Canopy, dealing two instances of Geo DMG, with the second damage instance being considered Lunar-Crystallize Reaction DMG.\\nWhen cast, if Zibai is in the {LINK#N11260001}Lunar Phase Shift{/LINK}, the duration of the current Lunar Phase Shift will extend by an additional 1.7s.",
+                "desc": "Zibai operates the Jadelight Canopy, dealing two instances of Geo DMG, with the second damage instance being considered Lunar-Crystallize Reaction DMG.\\nWhen cast, if Zibai is in the Lunar Phase Shift, the duration of the current Lunar Phase Shift will extend by an additional 1.7s.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Zibai_01.webp"
               }
             ]
@@ -63231,7 +63231,7 @@
               {
                 "name": "The Selenic Adeptus Descends",
                 "type": "Passive Talent",
-                "desc": "When casting the Elemental Skill {LINK#S11262}Heaven and Earth Made Manifest{/LINK}, or when nearby party members trigger Moondrift Harmony, Zibai gains the Selenic Descent effect for 4s: The DMG dealt by the 2nd hit of {LINK#N11260001}Spirit Steed's Stride{/LINK} is increased by 60% of Zibai's DEF."
+                "desc": "When casting the Elemental Skill Heaven and Earth Made Manifest, or when nearby party members trigger Moondrift Harmony, Zibai gains the Selenic Descent effect for 4s: The DMG dealt by the 2nd hit of Spirit Steed's Stride is increased by 60% of Zibai's DEF."
               },
               {
                 "name": "Layered Peaks Pierce the Clouds",
@@ -63256,32 +63256,32 @@
               {
                 "name": "Burst Forth With Vigor, But Enter in Silence",
                 "type": "Constellation 1",
-                "desc": "After using the Elemental Skill {LINK#S11262}Heaven and Earth Made Manifest{/LINK}, Zibai will immediately gain 100 {LINK#N11260001}Phase Shift Radiance{/LINK}, and the max number of Spirit Steed's Stride usages per Lunar Phase Shift mode is increased to 5 times.\\nAdditionally, each time you switch to the Lunar Phase Shift mode, the first Spirit Steed's Stride's 2nd-hit Lunar-Crystallize Reaction DMG is increased by 220%."
+                "desc": "After using the Elemental Skill Heaven and Earth Made Manifest, Zibai will immediately gain 100 Phase Shift Radiance, and the max number of Spirit Steed's Stride usages per Lunar Phase Shift mode is increased to 5 times.\\nAdditionally, each time you switch to the Lunar Phase Shift mode, the first Spirit Steed's Stride's 2nd-hit Lunar-Crystallize Reaction DMG is increased by 220%."
               },
               {
                 "name": "At Birth Are Souls Born, and in Death Leave But Husks",
                 "type": "Constellation 2",
-                "desc": "When in the {LINK#N11260001}Lunar Phase Shift{/LINK} mode, all nearby party members' Lunar-Crystallize Reaction DMG is increased by 30%.\\n\\nMoonsign: Ascendant Gleam: Ascension Talent {LINK#P1262101}The Selenic Adeptus Descends{/LINK} is enhanced: the DMG dealt by the 2nd hit of Spirit Steed's Stride is further increased by 550% of Zibai's DEF. You must first unlock the Ascension Talent \"The Selenic Adeptus Descends.\""
+                "desc": "When in the Lunar Phase Shift mode, all nearby party members' Lunar-Crystallize Reaction DMG is increased by 30%.\\n\\nMoonsign: Ascendant Gleam: Ascension Talent The Selenic Adeptus Descends is enhanced: the DMG dealt by the 2nd hit of Spirit Steed's Stride is further increased by 550% of Zibai's DEF. You must first unlock the Ascension Talent \"The Selenic Adeptus Descends.\""
               },
               {
                 "name": "Free From Constraints and Worldly Ties",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of Elemental Skill {LINK#S11262}Heaven and Earth Made Manifest{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Elemental Skill Heaven and Earth Made Manifest by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "The Spirit Passes, Then Form Follows",
                 "type": "Constellation 4",
-                "desc": "While in the {LINK#N11260001}Lunar Phase Shift{/LINK} mode, Zibai's Normal Attack sequence will not reset, and when Spirit Steed's Stride hits opponents, Zibai will gain the \"Scattermoon Splendor\" effect: The next time she uses Normal Attacks, the additional attack from her 4th hit will deal 250% of the original damage as Lunar-Crystallize Reaction DMG."
+                "desc": "While in the Lunar Phase Shift mode, Zibai's Normal Attack sequence will not reset, and when Spirit Steed's Stride hits opponents, Zibai will gain the \"Scattermoon Splendor\" effect: The next time she uses Normal Attacks, the additional attack from her 4th hit will deal 250% of the original damage as Lunar-Crystallize Reaction DMG."
               },
               {
                 "name": "Perceive the Worthless and Debate It Not",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11265}Tri-Sphere Eminence{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Tri-Sphere Eminence by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "The World, A Journey in Passing",
                 "type": "Constellation 6",
-                "desc": "While Zibai is in the {LINK#N11260001}Lunar Phase Shift{/LINK} mode, her Phase Shift Radiance gain rate is increased by 50%.\\nAdditionally, Spirit Steed's Stride will change such that it will consume all Phase Shift Radiance. This will {LINK#N11190007}elevate{/LINK} the DMG dealt by this instance of Spirit Steed's Stride and the Lunar-Crystallize Reaction DMG dealt by Zibai within the next 3s by 1.6% for every point consumed above 70. This effect cannot stack."
+                "desc": "While Zibai is in the Lunar Phase Shift mode, her Phase Shift Radiance gain rate is increased by 50%.\\nAdditionally, Spirit Steed's Stride will change such that it will consume all Phase Shift Radiance. This will elevate the DMG dealt by this instance of Spirit Steed's Stride and the Lunar-Crystallize Reaction DMG dealt by Zibai within the next 3s by 1.6% for every point consumed above 70. This effect cannot stack."
               }
             ]
           }
@@ -65426,7 +65426,7 @@
               {
                 "name": "Shadowless Reflection",
                 "type": "Talent",
-                "desc": "Light the lamp, dealing AoE Geo DMG, and gain Haunted Night's Oriole-Song effect for 20s. When this effect is active, Illuga gains 21 stacks of {LINK#N11270001}Nightingale's Song{/LINK}. When Normal Attacks, Charged Attacks, Plunging Attacks, Elemental Skills, and Elemental Bursts of nearby active party members deal Geo DMG to opponents, 1 stack of Nightingale's Song is consumed to increase the DMG dealt. Increase in DMG is based on Illuga's Elemental Mastery. If DMG is inflicted by Lunar-Crystallize, DMG dealt will increase further.\\nWhen Geo DMG dealt in this manner hits multiple opponents, multiple stacks of Nightingale's Song will be consumed, depending on how many opponents are hit.\\n\\nAdditionally, if there are Geo Constructs created by nearby party members on the battlefield while Illuga unleashes his Elemental Burst, or when nearby party members create Geo Constructs while Haunted Night's Oriole-Song is active, every Geo Construct on the battlefield will allow Illuga to gain 5 additional stacks of Nightingale's Song. Within 20s after unleashing his Elemental Burst, Illuga can gain a maximum of 15 additional stacks of Nightingale's Song this way.\\n\\nWhen all stacks of Nightingale's Song have been consumed, or when the state's duration ends, the Haunted Night's Oriole-Song effect will end.",
+                "desc": "Light the lamp, dealing AoE Geo DMG, and gain Haunted Night's Oriole-Song effect for 20s. When this effect is active, Illuga gains 21 stacks of Nightingale's Song. When Normal Attacks, Charged Attacks, Plunging Attacks, Elemental Skills, and Elemental Bursts of nearby active party members deal Geo DMG to opponents, 1 stack of Nightingale's Song is consumed to increase the DMG dealt. Increase in DMG is based on Illuga's Elemental Mastery. If DMG is inflicted by Lunar-Crystallize, DMG dealt will increase further.\\nWhen Geo DMG dealt in this manner hits multiple opponents, multiple stacks of Nightingale's Song will be consumed, depending on how many opponents are hit.\\n\\nAdditionally, if there are Geo Constructs created by nearby party members on the battlefield while Illuga unleashes his Elemental Burst, or when nearby party members create Geo Constructs while Haunted Night's Oriole-Song is active, every Geo Construct on the battlefield will allow Illuga to gain 5 additional stacks of Nightingale's Song. Within 20s after unleashing his Elemental Burst, Illuga can gain a maximum of 15 additional stacks of Nightingale's Song this way.\\n\\nWhen all stacks of Nightingale's Song have been consumed, or when the state's duration ends, the Haunted Night's Oriole-Song effect will end.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Illuga_01.webp"
               }
             ]
@@ -65437,12 +65437,12 @@
               {
                 "name": "Torchforger's Covenant",
                 "type": "Passive Talent",
-                "desc": "After unleashing Elemental Skill {LINK#S11272}Dawnbearing Songbird{/LINK} or Elemental Burst {LINK#S11275}Shadowless Reflection{/LINK}, other nearby party members will gain the Lightkeeper's Oath effect for 20s: For Geo DMG dealt to opponents, CRIT Rate increases by 5% and CRIT DMG increases by 10%.\\n\\nMoonsign: Ascendant Gleam \\nParty members affected by the Lightkeeper's Oath effect have their Elemental Mastery increased by 50."
+                "desc": "After unleashing Elemental Skill Dawnbearing Songbird or Elemental Burst Shadowless Reflection, other nearby party members will gain the Lightkeeper's Oath effect for 20s: For Geo DMG dealt to opponents, CRIT Rate increases by 5% and CRIT DMG increases by 10%.\\n\\nMoonsign: Ascendant Gleam \\nParty members affected by the Lightkeeper's Oath effect have their Elemental Mastery increased by 50."
               },
               {
                 "name": "Demonhunter's Dusk",
                 "type": "Passive Talent",
-                "desc": "{LINK#N11270001}Nightingale's Song{/LINK}'s effects are enhanced: When there are 1/2/3 Hydro or Geo characters in the party, Nightingale's Song will further increase DMG. Increase in DMG is equal to 7%/14%/24% of Illuga's Elemental Mastery. If this aforementioned DMG is inflicted by a Lunar-Crystallize reaction, increase in DMG is equal to 48%/96%/160% of Illuga's Elemental Mastery."
+                "desc": "Nightingale's Song's effects are enhanced: When there are 1/2/3 Hydro or Geo characters in the party, Nightingale's Song will further increase DMG. Increase in DMG is equal to 7%/14%/24% of Illuga's Elemental Mastery. If this aforementioned DMG is inflicted by a Lunar-Crystallize reaction, increase in DMG is equal to 48%/96%/160% of Illuga's Elemental Mastery."
               },
               {
                 "name": "Moonsign Benediction: Unwithering in Winter",
@@ -65467,27 +65467,27 @@
               {
                 "name": "Elk With Fanged Antlers",
                 "type": "Constellation 2",
-                "desc": "When Elemental Burst {LINK#S11275}Shadowless Reflection{/LINK}'s Haunted Night's Oriole-Song effect is active, for every 7 stacks of {LINK#N11270001}Nightingale's Song{/LINK} consumed, Illuga will summon Aedon, dealing a single instance of Geo DMG to 1 nearby opponent. The DMG dealt is based on 400% of Illuga's Elemental Mastery and 200% of his DEF. This DMG is considered Elemental Burst DMG."
+                "desc": "When Elemental Burst Shadowless Reflection's Haunted Night's Oriole-Song effect is active, for every 7 stacks of Nightingale's Song consumed, Illuga will summon Aedon, dealing a single instance of Geo DMG to 1 nearby opponent. The DMG dealt is based on 400% of Illuga's Elemental Mastery and 200% of his DEF. This DMG is considered Elemental Burst DMG."
               },
               {
                 "name": "Earthshaking Maw",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of Elemental Burst {LINK#S11275}Shadowless Reflection{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Elemental Burst Shadowless Reflection by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Solarhunting Wolf",
                 "type": "Constellation 4",
-                "desc": "When Elemental Burst {LINK#S11275}Shadowless Reflection{/LINK}'s Haunted Night's Oriole-Song effect is active, nearby active party members will have their DEF increased by 200."
+                "desc": "When Elemental Burst Shadowless Reflection's Haunted Night's Oriole-Song effect is active, nearby active party members will have their DEF increased by 200."
               },
               {
                 "name": "Hurricane Steed",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of Elemental Skill {LINK#S11272}Dawnbearing Songbird{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Elemental Skill Dawnbearing Songbird by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Nightmare Orioles",
                 "type": "Constellation 6",
-                "desc": "Enhances the Lightkeeper's Oath effect of the Ascension Talent {LINK#P1272101}Torchforger's Covenant{/LINK}: For Geo DMG dealt to opponents, CRIT Rate is increased by 10%, CRIT DMG is increased by 30%.\\n\\nMoonsign: Ascendant Gleam:\\nWhen characters are affected by Lightkeeper's Oath, Elemental Mastery is increased by 80.\\nYou must first unlock the Ascension Talent \"Torchforger's Covenant.\""
+                "desc": "Enhances the Lightkeeper's Oath effect of the Ascension Talent Torchforger's Covenant: For Geo DMG dealt to opponents, CRIT Rate is increased by 10%, CRIT DMG is increased by 30%.\\n\\nMoonsign: Ascendant Gleam:\\nWhen characters are affected by Lightkeeper's Oath, Elemental Mastery is increased by 80.\\nYou must first unlock the Ascension Talent \"Torchforger's Covenant.\""
               }
             ]
           }
@@ -67620,19 +67620,19 @@
               {
                 "name": "Moondew Cascade",
                 "type": "Talent",
-                "desc": "Normal Attack\\nSummons Moonlit Tides, performing up to 3 attacks that deal Hydro DMG.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\\nIf you have at least 1 {LINK#N11190008}Verdant Dew{/LINK}, Columbina's Charged Attacks will be replaced with the special Charged Attack Moondew Cleanse, which will not consume Stamina: Consume 1 Verdant Dew to deal 3 instances of AoE Dendro DMG to opponents in front. This DMG is considered Lunar-Bloom DMG.\\n\\nPlunging Attack\\nPlunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.",
+                "desc": "Normal Attack\\nSummons Moonlit Tides, performing up to 3 attacks that deal Hydro DMG.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\\nIf you have at least 1 Verdant Dew, Columbina's Charged Attacks will be replaced with the special Charged Attack Moondew Cleanse, which will not consume Stamina: Consume 1 Verdant Dew to deal 3 instances of AoE Dendro DMG to opponents in front. This DMG is considered Lunar-Bloom DMG.\\n\\nPlunging Attack\\nPlunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp"
               },
               {
                 "name": "Eternal Tides",
                 "type": "Talent",
-                "desc": "Awaken Moonbound Tides, dealing AoE Hydro DMG and summoning {LINK#N11250001}Gravity Ripple{/LINK}.\\nGravity Ripple will follow the active character on the field, while continuously dealing AoE Hydro DMG to surrounding opponents. While Gravity Ripple is on the field, and nearby party members trigger Lunar reactions or inflict Lunar Reaction DMG, Columbina will accrue a special Gravity. Once Gravity is accumulated to its limit, different types of damage will be dealt to enemies based on the type of Lunar Reaction that has accumulated the most Gravity for Columbina.\\nMoonsign: Ascendant Gleam: Gravity Ripple inflicts AoE Hydro DMG over a wider area.",
+                "desc": "Awaken Moonbound Tides, dealing AoE Hydro DMG and summoning Gravity Ripple.\\nGravity Ripple will follow the active character on the field, while continuously dealing AoE Hydro DMG to surrounding opponents. While Gravity Ripple is on the field, and nearby party members trigger Lunar reactions or inflict Lunar Reaction DMG, Columbina will accrue a special Gravity. Once Gravity is accumulated to its limit, different types of damage will be dealt to enemies based on the type of Lunar Reaction that has accumulated the most Gravity for Columbina.\\nMoonsign: Ascendant Gleam: Gravity Ripple inflicts AoE Hydro DMG over a wider area.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Columbina_01.webp"
               },
               {
                 "name": "Moonlit Melancholy",
                 "type": "Talent",
-                "desc": "Hills and tides unite under the silver light of a pristine new moon. Temporarily transforms the surrounding terrain into {LINK#N11250002}Lunar Domain{/LINK}, dealing AoE Hydro DMG.",
+                "desc": "Hills and tides unite under the silver light of a pristine new moon. Temporarily transforms the surrounding terrain into Lunar Domain, dealing AoE Hydro DMG.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Columbina_01.webp"
               }
             ]
@@ -67643,12 +67643,12 @@
               {
                 "name": "Lunacy's Lure",
                 "type": "Passive Talent",
-                "desc": "When triggering {LINK#N11250001}Gravity Interference{/LINK}, Columbina gains the Lunacy effect, increasing her CRIT Rate by 5% for 10s. This effect can be stacked up to 3 times."
+                "desc": "When triggering Gravity Interference, Columbina gains the Lunacy effect, increasing her CRIT Rate by 5% for 10s. This effect can be stacked up to 3 times."
               },
               {
                 "name": "Law of the New Moon",
                 "type": "Passive Talent",
-                "desc": "When characters within the {LINK#N11250002}Lunar Domain{/LINK} trigger Lunar reactions, they will gain the following effects respectively: \\n\u00b7 Lunar-Charged: When the Thundercloud performs lightning strike(s) against a valid target, it has a 33% chance to perform an additional lightning strike. \\n\u00b7 Lunar-Bloom: When triggering Lunar-Bloom reactions, the party gains a special {LINK#N11250003}Moonridge Dew{/LINK}. Up to 3 Moonridge Dews can be gained every 18s. \\n\u00b7 Lunar-Crystallize: When Moondrift Harmony is triggered, every Moondrift has a 33% chance to inflict an extra attack."
+                "desc": "When characters within the Lunar Domain trigger Lunar reactions, they will gain the following effects respectively: \\n\u00b7 Lunar-Charged: When the Thundercloud performs lightning strike(s) against a valid target, it has a 33% chance to perform an additional lightning strike. \\n\u00b7 Lunar-Bloom: When triggering Lunar-Bloom reactions, the party gains a special Moonridge Dew. Up to 3 Moonridge Dews can be gained every 18s. \\n\u00b7 Lunar-Crystallize: When Moondrift Harmony is triggered, every Moondrift has a 33% chance to inflict an extra attack."
               },
               {
                 "name": "Moonsign Benediction: Moonlight, Lent Unto You",
@@ -67668,32 +67668,32 @@
               {
                 "name": "Radiance Over Blossoms and Peaks",
                 "type": "Constellation 1",
-                "desc": "Unleashing her Elemental Skill Eternal Tides will immediately trigger an effect equivalent to the effect of {LINK#N11250001}Gravity Interference{/LINK}. This effect can be triggered once every 15s.\\nMoonsign: Ascendant Gleam\\nWhen Gravity Interference is triggered, if the Lunar reaction type that has accumulated the most Gravity for Columbina is:\\n\u00b7 Lunar-Charged: Your current active character will recover 6 Energy.\\n\u00b7 Lunar-Bloom: Your active character's interruption resistance will be increased for 8s.\\n\u00b7 Lunar-Crystallize: Summons a Rainsea Shield. The Rainsea Shield's DMG absorption is based on 12% of Columbina's Max HP, and it will absorb Hydro DMG with 250% effectiveness for 8s.\\n\\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}elevated{/LINK} by 1.5%."
+                "desc": "Unleashing her Elemental Skill Eternal Tides will immediately trigger an effect equivalent to the effect of Gravity Interference. This effect can be triggered once every 15s.\\nMoonsign: Ascendant Gleam\\nWhen Gravity Interference is triggered, if the Lunar reaction type that has accumulated the most Gravity for Columbina is:\\n\u00b7 Lunar-Charged: Your current active character will recover 6 Energy.\\n\u00b7 Lunar-Bloom: Your active character's interruption resistance will be increased for 8s.\\n\u00b7 Lunar-Crystallize: Summons a Rainsea Shield. The Rainsea Shield's DMG absorption is based on 12% of Columbina's Max HP, and it will absorb Hydro DMG with 250% effectiveness for 8s.\\n\\nAll nearby party members' Lunar Reaction DMG is elevated by 1.5%."
               },
               {
                 "name": "Not in Lone Splendor",
                 "type": "Constellation 2",
-                "desc": "Rate of accumulating {LINK#N11250001}Gravity{/LINK} increases by 34%. \\nWhen Gravity Interference is triggered, Columbina will receive the Lunar Brilliance effect, which increases her Max HP by 40% for 8s.\\nMoonsign: Ascendant Gleam:\\nWhen Lunar Brilliance is active, if, during the current trigger of Gravity Interference, the Lunar reaction type that has accumulated the most Gravity for Columbina is:\\n\u00b7 Lunar-Charged: ATK of your current active character increases. Increase in ATK is equal to 1% of Columbina's Max HP.\\n\u00b7 Lunar-Bloom: Elemental Mastery of your current active character increases. Increase in Elemental Mastery is equal to 0.35% of Columbina's Max HP.\\n\u00b7 Lunar-Crystallize: DEF of your current active character increases. Increase in DEF is equal to 1% of Columbina's Max HP.\\n\\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}elevated{/LINK} by 7%."
+                "desc": "Rate of accumulating Gravity increases by 34%. \\nWhen Gravity Interference is triggered, Columbina will receive the Lunar Brilliance effect, which increases her Max HP by 40% for 8s.\\nMoonsign: Ascendant Gleam:\\nWhen Lunar Brilliance is active, if, during the current trigger of Gravity Interference, the Lunar reaction type that has accumulated the most Gravity for Columbina is:\\n\u00b7 Lunar-Charged: ATK of your current active character increases. Increase in ATK is equal to 1% of Columbina's Max HP.\\n\u00b7 Lunar-Bloom: Elemental Mastery of your current active character increases. Increase in Elemental Mastery is equal to 0.35% of Columbina's Max HP.\\n\u00b7 Lunar-Crystallize: DEF of your current active character increases. Increase in DEF is equal to 1% of Columbina's Max HP.\\n\\nAll nearby party members' Lunar Reaction DMG is elevated by 7%."
               },
               {
                 "name": "Dreamlike Glow Across Tranquil Waters",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of Elemental Skill {LINK#S11252}Eternal Tides{/LINK} by 3.\\nMaximum upgrade level is 15.\\n\\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}elevated{/LINK} by 1.5%."
+                "desc": "Increases the Level of Elemental Skill Eternal Tides by 3.\\nMaximum upgrade level is 15.\\n\\nAll nearby party members' Lunar Reaction DMG is elevated by 1.5%."
               },
               {
                 "name": "Cloudveiled Ridges in Floral Mists",
                 "type": "Constellation 4",
-                "desc": "When {LINK#N11250001}Gravity Interference{/LINK} is triggered, 4 Elemental Energy will be restored to Columbina;\\nAdditionally, if the Lunar reaction type that accumulates the most Gravity for Columbina is Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize, the Lunar Reaction DMG dealt by this instance of Gravity Interference is increased by 12.5%/2.5%/12.5% of Columbina's Max HP respectively. This effect can be triggered at most once every 15s.\\n\\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}elevated{/LINK} by 1.5%."
+                "desc": "When Gravity Interference is triggered, 4 Elemental Energy will be restored to Columbina;\\nAdditionally, if the Lunar reaction type that accumulates the most Gravity for Columbina is Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize, the Lunar Reaction DMG dealt by this instance of Gravity Interference is increased by 12.5%/2.5%/12.5% of Columbina's Max HP respectively. This effect can be triggered at most once every 15s.\\n\\nAll nearby party members' Lunar Reaction DMG is elevated by 1.5%."
               },
               {
                 "name": "Silence Tending One Lone Song",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of Elemental Burst {LINK#S11255}Moonlit Melancholy{/LINK} by 3.\\nMaximum upgrade level is 15.\\n\\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}elevated{/LINK} by 1.5%."
+                "desc": "Increases the Level of Elemental Burst Moonlit Melancholy by 3.\\nMaximum upgrade level is 15.\\n\\nAll nearby party members' Lunar Reaction DMG is elevated by 1.5%."
               },
               {
                 "name": "Through Darkness Led by Moonlight",
                 "type": "Constellation 6",
-                "desc": "For 8s after characters in the {LINK#N11250002}Lunar Domain{/LINK} trigger a Lunar reaction, based on the elements involved in the reaction, the CRIT DMG of the corresponding Elemental DMG done by all party members is increased by 80%. The CRIT DMG-increasing effects for the same Elemental Type do not stack.\\n\\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}elevated{/LINK} by 7%."
+                "desc": "For 8s after characters in the Lunar Domain trigger a Lunar reaction, based on the elements involved in the reaction, the CRIT DMG of the corresponding Elemental DMG done by all party members is increased by 80%. The CRIT DMG-increasing effects for the same Elemental Type do not stack.\\n\\nAll nearby party members' Lunar Reaction DMG is elevated by 7%."
               }
             ]
           }
@@ -69841,13 +69841,13 @@
               {
                 "name": "Binary Form: Convergence and Division",
                 "type": "Talent",
-                "desc": "Purify the substance of souls and wishes to undergo {LINK#N11230001}Essential Transmutation{/LINK}. While transmuted, Durin's Elemental Skill Binary Form: Convergence and Division will be replaced with the special Elemental Skill Transmutation: Confirmation of Purity, and the Normal Attack Radiant Wingslash will be replaced with the special Elemental Skill Transmutation: Denial of Darkness.\\n\\nTransmutation: Confirmation of Purity\\nDeal 1 instance of AoE Pyro DMG to nearby opponents, reverse Essential Transmutation, and enter the Confirmation of Purity state for 30s.\\n\\nTransmutation: Denial of Darkness\\nDeal 3 consecutive instances of Pyro DMG to opponents in front, reverse Essential Transmutation, and enter the Denial of Darkness state for 30s.\\n\\nWhen Durin enters the Confirmation of Purity or Denial of Darkness state while in battle, he will restore a certain amount of Elemental Energy. Elemental Energy can be restored this way once every 6s.",
+                "desc": "Purify the substance of souls and wishes to undergo Essential Transmutation. While transmuted, Durin's Elemental Skill Binary Form: Convergence and Division will be replaced with the special Elemental Skill Transmutation: Confirmation of Purity, and the Normal Attack Radiant Wingslash will be replaced with the special Elemental Skill Transmutation: Denial of Darkness.\\n\\nTransmutation: Confirmation of Purity\\nDeal 1 instance of AoE Pyro DMG to nearby opponents, reverse Essential Transmutation, and enter the Confirmation of Purity state for 30s.\\n\\nTransmutation: Denial of Darkness\\nDeal 3 consecutive instances of Pyro DMG to opponents in front, reverse Essential Transmutation, and enter the Denial of Darkness state for 30s.\\n\\nWhen Durin enters the Confirmation of Purity or Denial of Darkness state while in battle, he will restore a certain amount of Elemental Energy. Elemental Energy can be restored this way once every 6s.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Durin_01.webp"
               },
               {
                 "name": "Principle of Purity: As the Light Shifts",
                 "type": "Talent",
-                "desc": "Unleash the power of the \"Beast\" in different ways. Durin can use different Elemental Bursts based on his {LINK#N11230001}Essential Transmutation{/LINK} state.\\n\\nPrinciple of Purity: As the Light Shifts\\nWhen Durin is in the Confirmation of Purity state, he will use the Elemental Burst Principle of Purity: As the Light Shifts, dealing 3 instances of AoE Pyro DMG to opponents in front, and manifesting his power in the Dragon of White Flame form. The Dragon of White Flame will follow the current active character and attack nearby opponents at intervals, dealing AoE Pyro DMG. This DMG is considered Elemental Burst DMG.\\n\\nPrinciple of Darkness: As the Stars Smolder\\nWhen Durin is in the Denial of Darkness state, he will use the Elemental Burst Principle of Darkness: As the Stars Smolder, dealing 3 instances of AoE Pyro DMG to opponents in front, and manifesting his power in the Dragon of Dark Decay form. The Dragon of Dark Decay will follow the current active character and periodically attack a single nearby opponent, dealing Pyro DMG. This DMG is considered Elemental Burst DMG.\\n\\nWhen Durin is not in a special state as a result of Essential Transmutation, he will use the Elemental Burst Principle of Purity: As the Light Shifts.",
+                "desc": "Unleash the power of the \"Beast\" in different ways. Durin can use different Elemental Bursts based on his Essential Transmutation state.\\n\\nPrinciple of Purity: As the Light Shifts\\nWhen Durin is in the Confirmation of Purity state, he will use the Elemental Burst Principle of Purity: As the Light Shifts, dealing 3 instances of AoE Pyro DMG to opponents in front, and manifesting his power in the Dragon of White Flame form. The Dragon of White Flame will follow the current active character and attack nearby opponents at intervals, dealing AoE Pyro DMG. This DMG is considered Elemental Burst DMG.\\n\\nPrinciple of Darkness: As the Stars Smolder\\nWhen Durin is in the Denial of Darkness state, he will use the Elemental Burst Principle of Darkness: As the Stars Smolder, dealing 3 instances of AoE Pyro DMG to opponents in front, and manifesting his power in the Dragon of Dark Decay form. The Dragon of Dark Decay will follow the current active character and periodically attack a single nearby opponent, dealing Pyro DMG. This DMG is considered Elemental Burst DMG.\\n\\nWhen Durin is not in a special state as a result of Essential Transmutation, he will use the Elemental Burst Principle of Purity: As the Light Shifts.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Durin_01.webp"
               }
             ]
@@ -69873,7 +69873,7 @@
               {
                 "name": "Witch's Eve Rite: Ode to Ascension",
                 "type": "Passive Talent",
-                "desc": "After completing Witch's Homework: Of This World, Durin will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\\n\\nHexerei: Secret Rite\\nIncreases all effects of the Ascension Talent {LINK#P1232101}Light Manifest of the Divine Calculus{/LINK} (except for Duration) by 75%."
+                "desc": "After completing Witch's Homework: Of This World, Durin will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\\n\\nHexerei: Secret Rite\\nIncreases all effects of the Ascension Talent Light Manifest of the Divine Calculus (except for Duration) by 75%."
               }
             ]
           },
@@ -69893,17 +69893,17 @@
               {
                 "name": "Flame Mirror's Revelation",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11235}Principle of Purity: As the Light Shifts{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Principle of Purity: As the Light Shifts by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Emanare's Source",
                 "type": "Constellation 4",
-                "desc": "Durin's Elemental Burst DMG is increased by 40%. Additionally, when effects that consume Cycle of Enlightenment stacks are triggered as part of the Constellation {LINK#T1231}Adamah's Redemption{/LINK}, there is a 30% chance that no Cycle of Enlightenment stacks will be consumed."
+                "desc": "Durin's Elemental Burst DMG is increased by 40%. Additionally, when effects that consume Cycle of Enlightenment stacks are triggered as part of the Constellation Adamah's Redemption, there is a 30% chance that no Cycle of Enlightenment stacks will be consumed."
               },
               {
                 "name": "Scouring Flame's Sundering",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11232}Binary Form: Convergence and Division{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Binary Form: Convergence and Division by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Dual Birth",
@@ -72055,13 +72055,13 @@
               {
                 "name": "Savvy Strategy: Splitting the Spoils",
                 "type": "Talent",
-                "desc": "Jahoda dashes toward her opponent, entering the Shadow Pursuit state upon contact. While in this state, Jahoda moves continuously and swiftly: If nearby opponents are affected by Pyro, Hydro, Electro, or Cryo, she will quietly convert her {LINK#N11240001}Purr-loined Treasure Flask{/LINK} to that element, gradually filling it. When the duration ends or the skill is used again, Jahoda drains the Purr-loined Treasure Flask and deals a single instance of Anemo DMG to nearby opponents. When the Purr-loined Treasure Flask is full, Jahoda immediately drains it, exiting the Shadow Pursuit state and dealing a more powerful instance of Anemo DMG.\\nIf her dash fails to make contact with an opponent, Jahoda instead drops a Smoke Bomb at her location, dealing a single instance of Anemo DMG to nearby opponents.\\n\\nMoonsign: Ascendant Gleam: When the Purr-loined Treasure Flask becomes full, Jahoda will not immediately discharge it. Instead, for a short duration, she steadily consumes the stored element inside and periodically fires Fluffy Meowballs at nearby opponents, dealing DMG of the corresponding element stored in the Purr-loined Treasure Flask. When a Fluffy Meowball hits an opponent, Jahoda regenerates 2 Elemental Energy. This effect can be triggered once every 3.5s.\\n\\nThere are many ways to divide wealth in this world \u2014 but for Nod-Krai's treasure hunters \u2014 and hoarders \u2014 only one has ever proven sufficiently effective.",
+                "desc": "Jahoda dashes toward her opponent, entering the Shadow Pursuit state upon contact. While in this state, Jahoda moves continuously and swiftly: If nearby opponents are affected by Pyro, Hydro, Electro, or Cryo, she will quietly convert her Purr-loined Treasure Flask to that element, gradually filling it. When the duration ends or the skill is used again, Jahoda drains the Purr-loined Treasure Flask and deals a single instance of Anemo DMG to nearby opponents. When the Purr-loined Treasure Flask is full, Jahoda immediately drains it, exiting the Shadow Pursuit state and dealing a more powerful instance of Anemo DMG.\\nIf her dash fails to make contact with an opponent, Jahoda instead drops a Smoke Bomb at her location, dealing a single instance of Anemo DMG to nearby opponents.\\n\\nMoonsign: Ascendant Gleam: When the Purr-loined Treasure Flask becomes full, Jahoda will not immediately discharge it. Instead, for a short duration, she steadily consumes the stored element inside and periodically fires Fluffy Meowballs at nearby opponents, dealing DMG of the corresponding element stored in the Purr-loined Treasure Flask. When a Fluffy Meowball hits an opponent, Jahoda regenerates 2 Elemental Energy. This effect can be triggered once every 3.5s.\\n\\nThere are many ways to divide wealth in this world \u2014 but for Nod-Krai's treasure hunters \u2014 and hoarders \u2014 only one has ever proven sufficiently effective.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Jahoda_01.webp"
               },
               {
                 "name": "Hidden Aces: Seven Tools of the Hunter",
                 "type": "Talent",
-                "desc": "Time to reveal those pocket aces! Jahoda retrieves 2 {LINK#N11240002}Purrsonal Coordinated Assistance Robots{/LINK} and deals a single instance of Anemo DMG to nearby opponents.\\n\\n\"Coordinated assistance? It means you 'assist' some Mora our way, and we handle the 'coordination.' Makes purrfect sense, don't you agree?\"",
+                "desc": "Time to reveal those pocket aces! Jahoda retrieves 2 Purrsonal Coordinated Assistance Robots and deals a single instance of Anemo DMG to nearby opponents.\\n\\n\"Coordinated assistance? It means you 'assist' some Mora our way, and we handle the 'coordination.' Makes purrfect sense, don't you agree?\"",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Jahoda_01.webp"
               }
             ]
@@ -72072,12 +72072,12 @@
               {
                 "name": "Plan to Get Paid",
                 "type": "Passive Talent",
-                "desc": "When your team has at least one Pyro, Hydro, Electro, or Cryo character, the {LINK#N11240002}Purrsonal Coordinated Assistance Robots{/LINK} from the Elemental Burst Hidden Aces: Seven Tools of the Hunter will be enhanced based on the number of characters of each corresponding element.\\nJahoda secretly keeps track of these characters. Among them, the element with the highest number of characters determines the enhancement effect:\\n\u00b7 Pyro: Purrsonal Coordinated Assistance Robots deal 130% of their original DMG.\\n\u00b7 Hydro: Purrsonal Coordinated Assistance Robots heal for 120% of their original healing amount.\\n\u00b7 Electro: The number of Purrsonal Coordinated Assistance Robots increases by one.\\n\u00b7 Cryo: The attack interval of Purrsonal Coordinated Assistance Robots is reduced by 10%.\\n\\nIf there's a tie between elements, the order of priority that determines which enhancement takes effect is: Pyro, Hydro, Electro, then Cryo. Only one elemental effect can initially be triggered."
+                "desc": "When your team has at least one Pyro, Hydro, Electro, or Cryo character, the Purrsonal Coordinated Assistance Robots from the Elemental Burst Hidden Aces: Seven Tools of the Hunter will be enhanced based on the number of characters of each corresponding element.\\nJahoda secretly keeps track of these characters. Among them, the element with the highest number of characters determines the enhancement effect:\\n\u00b7 Pyro: Purrsonal Coordinated Assistance Robots deal 130% of their original DMG.\\n\u00b7 Hydro: Purrsonal Coordinated Assistance Robots heal for 120% of their original healing amount.\\n\u00b7 Electro: The number of Purrsonal Coordinated Assistance Robots increases by one.\\n\u00b7 Cryo: The attack interval of Purrsonal Coordinated Assistance Robots is reduced by 10%.\\n\\nIf there's a tie between elements, the order of priority that determines which enhancement takes effect is: Pyro, Hydro, Electro, then Cryo. Only one elemental effect can initially be triggered."
               },
               {
                 "name": "Sweet Berry Bounty",
                 "type": "Passive Talent",
-                "desc": "When a {LINK#N11240002}Purrsonal Coordinated Assistance Robot{/LINK} from the Elemental Burst Hidden Aces: Seven Tools of the Hunter triggers healing on an active team member, if that character's HP is above 70%, their Elemental Mastery will be increased by 100 for 6s."
+                "desc": "When a Purrsonal Coordinated Assistance Robot from the Elemental Burst Hidden Aces: Seven Tools of the Hunter triggers healing on an active team member, if that character's HP is above 70%, their Elemental Mastery will be increased by 100 for 6s."
               },
               {
                 "name": "Moonsign Benediction: Rooftop Dash",
@@ -72097,32 +72097,32 @@
               {
                 "name": "One More Flask!",
                 "type": "Constellation 1",
-                "desc": "When a Fluffy Meowball fired by the {LINK#N11240001}Purr-loined Treasure Flask{/LINK} from the Elemental Skill Savvy Strategy: Splitting the Spoils hits an enemy, there is a 50% chance for it to bounce, dealing the corresponding Elemental DMG to nearby opponents."
+                "desc": "When a Fluffy Meowball fired by the Purr-loined Treasure Flask from the Elemental Skill Savvy Strategy: Splitting the Spoils hits an enemy, there is a 50% chance for it to bounce, dealing the corresponding Elemental DMG to nearby opponents."
               },
               {
                 "name": "Rogue's Quick Thinking",
                 "type": "Constellation 2",
-                "desc": "Moonsign: Ascendant Gleam: In the Ascension Talent {LINK#P1242101}\"Plan to Get Paid,\"{/LINK} Jahoda can secretly track, in addition to the element with the highest number of characters, the element with the next highest number of characters among the remaining types. This allows up to two elemental effects to be active at once. You must first unlock the Ascension Talent \"Plan to Get Paid.\""
+                "desc": "Moonsign: Ascendant Gleam: In the Ascension Talent \"Plan to Get Paid,\" Jahoda can secretly track, in addition to the element with the highest number of characters, the element with the next highest number of characters among the remaining types. This allows up to two elemental effects to be active at once. You must first unlock the Ascension Talent \"Plan to Get Paid.\""
               },
               {
                 "name": "Desperate Gamble",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11245}Hidden Aces: Seven Tools of the Hunter{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Hidden Aces: Seven Tools of the Hunter by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Wild Berry Amid the Dust",
                 "type": "Constellation 4",
-                "desc": "When a {LINK#N11240002}Purrsonal Coordinated Assistance Robot{/LINK} from the Elemental Burst Hidden Aces: Seven Tools of the Hunter undergoes an Elemental Conversion, Jahoda will recover 4 Elemental Energy."
+                "desc": "When a Purrsonal Coordinated Assistance Robot from the Elemental Burst Hidden Aces: Seven Tools of the Hunter undergoes an Elemental Conversion, Jahoda will recover 4 Elemental Energy."
               },
               {
                 "name": "The Greatest Treasure",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11242}Savvy Strategy: Splitting the Spoils{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Savvy Strategy: Splitting the Spoils by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "The Littlest Luck",
                 "type": "Constellation 6",
-                "desc": "Moonsign: Ascendant Gleam: After the {LINK#N11240001}Purr-loined Treasure Flask{/LINK} from the Elemental Skill Savvy Strategy: Splitting the Spoils is full, nearby Moonsign characters in your party have their CRIT Rate increased by 5% and CRIT DMG increased by 40% for 20s."
+                "desc": "Moonsign: Ascendant Gleam: After the Purr-loined Treasure Flask from the Elemental Skill Savvy Strategy: Splitting the Spoils is full, nearby Moonsign characters in your party have their CRIT Rate increased by 5% and CRIT DMG increased by 40% for 20s."
               }
             ]
           }
@@ -74262,19 +74262,19 @@
               {
                 "name": "Striking Serpent",
                 "type": "Talent",
-                "desc": "Normal Attack\\nPerforms up to 4 kicks that deal Dendro DMG with the ferocity and grace of a striking serpent.\\n\\nCharged Attack\\nNefer enters the Slither state, consuming Stamina to move rapidly forward for up to 2.5s. When the skill button is released, the duration ends, or Stamina runs out, Nefer will exit the Slither state and consume a certain amount of additional Stamina to deal Dendro DMG to opponents. When in the {LINK#N11220001}Shadow Dance{/LINK} state, additional Stamina consumption is decreased.\\nAdditionally, unleashing the Elemental Skill {LINK#S11222}Senet Strategy: Dance of a Thousand Nights{/LINK} or sprinting while Nefer is in the Slither state will not cause her to exit the state.\\n\\nPlunging Attack\\nCalling upon the might of Dendro, Nefer plunges towards the ground from mid-air, damaging all opponents in her path and dealing AoE Dendro DMG upon impact with the ground.",
+                "desc": "Normal Attack\\nPerforms up to 4 kicks that deal Dendro DMG with the ferocity and grace of a striking serpent.\\n\\nCharged Attack\\nNefer enters the Slither state, consuming Stamina to move rapidly forward for up to 2.5s. When the skill button is released, the duration ends, or Stamina runs out, Nefer will exit the Slither state and consume a certain amount of additional Stamina to deal Dendro DMG to opponents. When in the Shadow Dance state, additional Stamina consumption is decreased.\\nAdditionally, unleashing the Elemental Skill Senet Strategy: Dance of a Thousand Nights or sprinting while Nefer is in the Slither state will not cause her to exit the state.\\n\\nPlunging Attack\\nCalling upon the might of Dendro, Nefer plunges towards the ground from mid-air, damaging all opponents in her path and dealing AoE Dendro DMG upon impact with the ground.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp"
               },
               {
                 "name": "Senet Strategy: Dance of a Thousand Nights",
                 "type": "Talent",
-                "desc": "A dance that dissolved dynasties, as chilling as a winter's night on the great sea of sand, yet lingering with the tenderness of moonlit gauze. Nefer charges forward, dealing AoE Dendro DMG and entering the {LINK#N11220001}Shadow Dance{/LINK} state.\\nWhile in the Shadow Dance state, if you have at least 1 {LINK#N11190008}Verdant Dew{/LINK}, Nefer's Charged Attacks will be replaced with the special Charged Attack {LINK#N11220002}Phantasm Performance{/LINK}, which will not consume Stamina. When in the Shadow Dance state, Nefer's resistance to interruption is increased.\\n\\nTwo initial charges.\\n\\n\"The world is a game in which the pieces remain hidden behind a veil. To avoid falling into a trap, one must collect every piece of information one can. This is the meaning of secrets.\"",
+                "desc": "A dance that dissolved dynasties, as chilling as a winter's night on the great sea of sand, yet lingering with the tenderness of moonlit gauze. Nefer charges forward, dealing AoE Dendro DMG and entering the Shadow Dance state.\\nWhile in the Shadow Dance state, if you have at least 1 Verdant Dew, Nefer's Charged Attacks will be replaced with the special Charged Attack Phantasm Performance, which will not consume Stamina. When in the Shadow Dance state, Nefer's resistance to interruption is increased.\\n\\nTwo initial charges.\\n\\n\"The world is a game in which the pieces remain hidden behind a veil. To avoid falling into a trap, one must collect every piece of information one can. This is the meaning of secrets.\"",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Nefer_01.webp"
               },
               {
                 "name": "Sacred Vow: True Eye's Phantasm",
                 "type": "Talent",
-                "desc": "Grant \"revelation\" to the mysteries of the false through Thoth's true sight, dealing AoE Dendro DMG to opponents ahead. When unleashed, Nefer will consume all {LINK#N11220003}Veils of Falsehood{/LINK} to increase the DMG dealt by the current Elemental Burst.\\n\\nThe blessings of the Ibis King proclaimed by the singers of the burning sands are, in truth, more akin to dire curses.",
+                "desc": "Grant \"revelation\" to the mysteries of the false through Thoth's true sight, dealing AoE Dendro DMG to opponents ahead. When unleashed, Nefer will consume all Veils of Falsehood to increase the DMG dealt by the current Elemental Burst.\\n\\nThe blessings of the Ibis King proclaimed by the singers of the burning sands are, in truth, more akin to dire curses.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Nefer_01.webp"
               }
             ]
@@ -74285,12 +74285,12 @@
               {
                 "name": "A Wager of Moonlight",
                 "type": "Passive Talent",
-                "desc": "Nefer will be granted the corresponding buff effects based on the party's Moonsign.\\n\\nMoonsign: Ascendant Gleam: When she unleashes her Elemental Skill {LINK#S11222}Senet Strategy: Dance of a Thousand Nights{/LINK}, any Dendro Cores on the field will be converted to Seeds of Deceit, and any Lunar-Bloom reactions triggered by nearby characters in the following 15s that would create Dendro Cores or Bountiful Cores will instead create Seeds of Deceit. Seeds of Deceit cannot trigger Hyperbloom or Burgeon reactions and will not burst.\\nWhen Nefer unleashes a Charged Attack or {LINK#N11220002}Phantasm Performance{/LINK}, she can absorb Seeds of Deceit within a certain range, gaining 1 stack of {LINK#N11220003}Veil of Falsehood{/LINK} for every seed absorbed. When this effect reaches 3 stacks, or when the third stack's duration is refreshed, Nefer's Elemental Mastery will be increased by 100 for 8s."
+                "desc": "Nefer will be granted the corresponding buff effects based on the party's Moonsign.\\n\\nMoonsign: Ascendant Gleam: When she unleashes her Elemental Skill Senet Strategy: Dance of a Thousand Nights, any Dendro Cores on the field will be converted to Seeds of Deceit, and any Lunar-Bloom reactions triggered by nearby characters in the following 15s that would create Dendro Cores or Bountiful Cores will instead create Seeds of Deceit. Seeds of Deceit cannot trigger Hyperbloom or Burgeon reactions and will not burst.\\nWhen Nefer unleashes a Charged Attack or Phantasm Performance, she can absorb Seeds of Deceit within a certain range, gaining 1 stack of Veil of Falsehood for every seed absorbed. When this effect reaches 3 stacks, or when the third stack's duration is refreshed, Nefer's Elemental Mastery will be increased by 100 for 8s."
               },
               {
                 "name": "Daughter of the Dust and Sand",
                 "type": "Passive Talent",
-                "desc": "When Nefer is in the {LINK#N11220001}Shadow Dance{/LINK} state, for 5s after a party member triggers a Lunar-Bloom reaction, Nefer's {LINK#S11221}Slither{/LINK} state will provide additional {LINK#N11190008}Verdant Dew{/LINK}. Every 100 points of Nefer's Elemental Mastery beyond 500 will strengthen this additional provision effect by 10%. The maximum increase that can be achieved this way is 50%."
+                "desc": "When Nefer is in the Shadow Dance state, for 5s after a party member triggers a Lunar-Bloom reaction, Nefer's Slither state will provide additional Verdant Dew. Every 100 points of Nefer's Elemental Mastery beyond 500 will strengthen this additional provision effect by 10%. The maximum increase that can be achieved this way is 50%."
               },
               {
                 "name": "Moonsign Benediction: Dusklit Eaves",
@@ -74310,32 +74310,32 @@
               {
                 "name": "Planning Breeds Success",
                 "type": "Constellation 1",
-                "desc": "The Base DMG for Lunar-Bloom reactions caused by Nefer's {LINK#N11220002}Phantasm Performance{/LINK} is increased by 60% of her Elemental Mastery. This effect is also boosted by {LINK#N11220003}Veil of Falsehood{/LINK}."
+                "desc": "The Base DMG for Lunar-Bloom reactions caused by Nefer's Phantasm Performance is increased by 60% of her Elemental Mastery. This effect is also boosted by Veil of Falsehood."
               },
               {
                 "name": "Observation Feeds Strategy",
                 "type": "Constellation 2",
-                "desc": "Enhances the effects of the Ascension Talent {LINK#P1222101}A Wager of Moonlight{/LINK}: Extends {LINK#N11220003}Veil of Falsehood{/LINK}'s duration by 5s, and increases its stack limit to 5, as well as causing {LINK#N11220002}Phantasm Performance{/LINK} to deal up to 140% of its original DMG. When Nefer unleashes her Elemental Skill {LINK#S11222}Senet Strategy: Dance of a Thousand Nights{/LINK}, she will instantly gain 2 stacks of Veil of Falsehood. Additionally, when Veil of Falsehood reaches 5 stacks, or when the fifth stack's duration is refreshed, Nefer's Elemental Mastery will be increased by 200 for 8s instead.\\nYou must first unlock the Ascension Talent \"A Wager of Moonlight.\""
+                "desc": "Enhances the effects of the Ascension Talent A Wager of Moonlight: Extends Veil of Falsehood's duration by 5s, and increases its stack limit to 5, as well as causing Phantasm Performance to deal up to 140% of its original DMG. When Nefer unleashes her Elemental Skill Senet Strategy: Dance of a Thousand Nights, she will instantly gain 2 stacks of Veil of Falsehood. Additionally, when Veil of Falsehood reaches 5 stacks, or when the fifth stack's duration is refreshed, Nefer's Elemental Mastery will be increased by 200 for 8s instead.\\nYou must first unlock the Ascension Talent \"A Wager of Moonlight.\""
               },
               {
                 "name": "Deceit Cloaks the Truth",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11222}Senet Strategy: Dance of a Thousand Nights{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Senet Strategy: Dance of a Thousand Nights by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Delusion Ensnares Reason",
                 "type": "Constellation 4",
-                "desc": "When Nefer is on the field and in the {LINK#N11220001}Shadow Dance{/LINK} state, you will gain Verdant Dew 25% faster.\\nAdditionally, while Nefer is in the Shadow Dance state, nearby opponents will have their Dendro RES decreased by 20%. When Nefer exits the Shadow Dance state or after she strays a certain distance away from the opponents, this effect will be removed after 4.5s."
+                "desc": "When Nefer is on the field and in the Shadow Dance state, you will gain Verdant Dew 25% faster.\\nAdditionally, while Nefer is in the Shadow Dance state, nearby opponents will have their Dendro RES decreased by 20%. When Nefer exits the Shadow Dance state or after she strays a certain distance away from the opponents, this effect will be removed after 4.5s."
               },
               {
                 "name": "Opportunity Hides in the Margins",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11225}Sacred Vow: True Eye's Phantasm{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Sacred Vow: True Eye's Phantasm by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Victory Flows from the Turning of Tides",
                 "type": "Constellation 6",
-                "desc": "When Nefer unleashes {LINK#N11220002}Phantasm Performance{/LINK}, the second stage of DMG dealt by herself will be converted to deal AoE Dendro DMG equal to 85% of her Elemental Mastery. Additionally, when the attacks from Phantasm Performance end, an extra instance of AoE Dendro DMG equal to 120% of Nefer's Elemental Mastery will be dealt. All of the aforementioned DMG is considered Lunar-Bloom DMG dealt by Phantasm Performance.\\n\\nMoonsign: Ascendant Gleam\\nNefer's Lunar-Bloom DMG is {LINK#N11190007}elevated{/LINK} by 15%."
+                "desc": "When Nefer unleashes Phantasm Performance, the second stage of DMG dealt by herself will be converted to deal AoE Dendro DMG equal to 85% of her Elemental Mastery. Additionally, when the attacks from Phantasm Performance end, an extra instance of AoE Dendro DMG equal to 120% of Nefer's Elemental Mastery will be dealt. All of the aforementioned DMG is considered Lunar-Bloom DMG dealt by Phantasm Performance.\\n\\nMoonsign: Ascendant Gleam\\nNefer's Lunar-Bloom DMG is elevated by 15%."
               }
             ]
           }
@@ -76449,7 +76449,7 @@
               {
                 "name": "Ancient Rite: Arcane Light",
                 "type": "Talent",
-                "desc": "Flins summons forth the ancient power concealed within his lamp and switches to his Manifest Flame form. This form has the following characteristics:\\n\u00b7 Flins's Normal and Charged Attacks deal Electro DMG that cannot be overridden by other Elemental infusions, and he is unable to perform Plunging Attacks.\\n\u00b7 His interruption resistance is increased.\\n\u00b7 His Elemental Skill Ancient Rite: Arcane Light is replaced with the special Elemental Skill Northland Spearstorm.\\n\\nNorthland Spearstorm\\nFlins summons a flurry of spears in front, dealing AoE Electro DMG and causing his Elemental Burst Ancient Ritual: Cometh the Night to be replaced with the special Elemental Burst {LINK#N11200001}Thunderous Symphony{/LINK} for the next 6s.\\nThe base CD of Northland Spearstorm is 6s and will not be affected by other effects.",
+                "desc": "Flins summons forth the ancient power concealed within his lamp and switches to his Manifest Flame form. This form has the following characteristics:\\n\u00b7 Flins's Normal and Charged Attacks deal Electro DMG that cannot be overridden by other Elemental infusions, and he is unable to perform Plunging Attacks.\\n\u00b7 His interruption resistance is increased.\\n\u00b7 His Elemental Skill Ancient Rite: Arcane Light is replaced with the special Elemental Skill Northland Spearstorm.\\n\\nNorthland Spearstorm\\nFlins summons a flurry of spears in front, dealing AoE Electro DMG and causing his Elemental Burst Ancient Ritual: Cometh the Night to be replaced with the special Elemental Burst Thunderous Symphony for the next 6s.\\nThe base CD of Northland Spearstorm is 6s and will not be affected by other effects.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Flins_01.webp"
               },
               {
@@ -76501,22 +76501,22 @@
               {
                 "name": "Stranger in the Night",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11205}Ancient Ritual: Cometh the Night{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Ancient Ritual: Cometh the Night by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Night on Bald Mountain",
                 "type": "Constellation 4",
-                "desc": "Flins's ATK is increased by 20%.\\nAdditionally, his Ascension Talent {LINK#P1202201}Whispering Flame{/LINK} is enhanced: Flins's Elemental Mastery is increased by 10% of his ATK. The maximum increase obtainable this way is 220."
+                "desc": "Flins's ATK is increased by 20%.\\nAdditionally, his Ascension Talent Whispering Flame is enhanced: Flins's Elemental Mastery is increased by 10% of his ATK. The maximum increase obtainable this way is 220."
               },
               {
                 "name": "Exile's Shadow",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11202}Ancient Rite: Arcane Light{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Ancient Rite: Arcane Light by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Songs and Dances of Death",
                 "type": "Constellation 6",
-                "desc": "The DMG dealt to opponents by Flins's Lunar-Charged reactions is {LINK#N11190007}elevated{/LINK} by 35%.\\nMoonsign: Ascendant Gleam: All nearby party members' Lunar-Charged DMG is elevated by 10%."
+                "desc": "The DMG dealt to opponents by Flins's Lunar-Charged reactions is elevated by 35%.\\nMoonsign: Ascendant Gleam: All nearby party members' Lunar-Charged DMG is elevated by 10%."
               }
             ]
           }
@@ -78661,13 +78661,13 @@
               {
                 "name": "Runo: Dawnless Rest of Karsikko",
                 "type": "Talent",
-                "desc": "Silently incants an ancient hymn, summoning a {LINK#N11190001}Frostgrove Sanctuary{/LINK} with different effects depending on whether you Tap or Hold.\\n\\nTap\\nIntone a Hymn of Hunting, dealing AoE Dendro DMG.\\n\\nHold\\nCan be unleashed when you have at least 1 {LINK#N11190008}Verdant Dew{/LINK}. Lauma consumes all Verdant Dew and intones a Hymn of Eternal Rest, dealing one regular instance of AoE Dendro DMG and another instance of AoE Dendro DMG that is considered Lunar-Bloom DMG. Each Verdant Dew consumed will give Lauma one stack of {LINK#N11190002}Moon Song{/LINK}. Each time you Hold to cast an Elemental Skill, a maximum of 3 Verdant Dew can be consumed in this way.\\n\\nAdditionally, when Lauma's Elemental Skill or attacks from Frostgrove Sanctuary hit an opponent, that opponent's Dendro RES and Hydro RES will be decreased for 10s.",
+                "desc": "Silently incants an ancient hymn, summoning a Frostgrove Sanctuary with different effects depending on whether you Tap or Hold.\\n\\nTap\\nIntone a Hymn of Hunting, dealing AoE Dendro DMG.\\n\\nHold\\nCan be unleashed when you have at least 1 Verdant Dew. Lauma consumes all Verdant Dew and intones a Hymn of Eternal Rest, dealing one regular instance of AoE Dendro DMG and another instance of AoE Dendro DMG that is considered Lunar-Bloom DMG. Each Verdant Dew consumed will give Lauma one stack of Moon Song. Each time you Hold to cast an Elemental Skill, a maximum of 3 Verdant Dew can be consumed in this way.\\n\\nAdditionally, when Lauma's Elemental Skill or attacks from Frostgrove Sanctuary hit an opponent, that opponent's Dendro RES and Hydro RES will be decreased for 10s.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Lauma_01.webp"
               },
               {
                 "name": "Runo: All Hearts Become the Beating Moon",
                 "type": "Talent",
-                "desc": "Let the wishes of all beings become as moonlight that bathes the earth. Lauma incants a sacred song of the far north, gaining 18 stacks of {LINK#N11190003}Pale Hymn{/LINK}.\\nAdditionally, if Lauma uses her Elemental Burst while she has {LINK#N11190002}Moon Song{/LINK}, or she gains Moon Song within 15s of using her Elemental Burst, she will consume all Moon Song stacks and gain 6 stacks of Pale Hymn for every Moon Song stack consumed. This effect can only be triggered once for each Elemental Burst used, including the 15 seconds following its use.\\n\\nPale Hymn\\nWhen nearby party members deal Bloom, Hyperbloom, Burgeon, or Lunar-Bloom DMG, 1 stack of Pale Hymn will be consumed and the DMG dealt will be increased based on Lauma's Elemental Mastery. If this DMG hits multiple opponents at once, then multiple stacks of Pale Hymn will be consumed, depending on how many opponents are hit.\\nThe duration for each stack of Pale Hymn is counted independently.",
+                "desc": "Let the wishes of all beings become as moonlight that bathes the earth. Lauma incants a sacred song of the far north, gaining 18 stacks of Pale Hymn.\\nAdditionally, if Lauma uses her Elemental Burst while she has Moon Song, or she gains Moon Song within 15s of using her Elemental Burst, she will consume all Moon Song stacks and gain 6 stacks of Pale Hymn for every Moon Song stack consumed. This effect can only be triggered once for each Elemental Burst used, including the 15 seconds following its use.\\n\\nPale Hymn\\nWhen nearby party members deal Bloom, Hyperbloom, Burgeon, or Lunar-Bloom DMG, 1 stack of Pale Hymn will be consumed and the DMG dealt will be increased based on Lauma's Elemental Mastery. If this DMG hits multiple opponents at once, then multiple stacks of Pale Hymn will be consumed, depending on how many opponents are hit.\\nThe duration for each stack of Pale Hymn is counted independently.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Lauma_01.webp"
               }
             ]
@@ -78678,7 +78678,7 @@
               {
                 "name": "Light for the Frosty Night",
                 "type": "Passive Talent",
-                "desc": "For the next 20s after Lauma uses her Elemental Skill {LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK}, corresponding differing buff effects will be granted depending on the party's Moonsign. The buffs provided by different Moonsign levels cannot stack.\\n\\nMoonsign: Nascent Gleam\\nBloom, Hyperbloom, and Burgeon DMG dealt by all nearby party members can score CRIT Hits, with CRIT Rate fixed at 15%, and CRIT DMG fixed at 100%. CRIT Rate from this effect stacks with CRIT Rate from similar effects that allow these Elemental Reactions to CRIT.\\n\\nMoonsign: Ascendant Gleam\\nAll nearby party members' Lunar-Bloom DMG CRIT Rate +10%, CRIT DMG +20%."
+                "desc": "For the next 20s after Lauma uses her Elemental Skill Runo: Dawnless Rest of Karsikko, corresponding differing buff effects will be granted depending on the party's Moonsign. The buffs provided by different Moonsign levels cannot stack.\\n\\nMoonsign: Nascent Gleam\\nBloom, Hyperbloom, and Burgeon DMG dealt by all nearby party members can score CRIT Hits, with CRIT Rate fixed at 15%, and CRIT DMG fixed at 100%. CRIT Rate from this effect stacks with CRIT Rate from similar effects that allow these Elemental Reactions to CRIT.\\n\\nMoonsign: Ascendant Gleam\\nAll nearby party members' Lunar-Bloom DMG CRIT Rate +10%, CRIT DMG +20%."
               },
               {
                 "name": "Cleansing for the Spring",
@@ -78703,32 +78703,32 @@
               {
                 "name": "\"O Lips, Weave Me Songs and Psalms\"",
                 "type": "Constellation 1",
-                "desc": "After Lauma uses her Elemental Skill {LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK} or her Elemental Burst {LINK#S11195}Runo: All Hearts Become the Beating Moon{/LINK}, she will gain Threads of Life for 20s.\\nDuring this time, when nearby party members trigger Lunar-Bloom reactions, nearby active characters will recover HP equal to 500% of Lauma's Elemental Mastery. This effect can be triggered once every 1.9s.\\nAdditionally, the Stamina cost for Lauma's Spirit Envoy Form will be reduced by 40%, and its Max Duration will be extended by 5s."
+                "desc": "After Lauma uses her Elemental Skill Runo: Dawnless Rest of Karsikko or her Elemental Burst Runo: All Hearts Become the Beating Moon, she will gain Threads of Life for 20s.\\nDuring this time, when nearby party members trigger Lunar-Bloom reactions, nearby active characters will recover HP equal to 500% of Lauma's Elemental Mastery. This effect can be triggered once every 1.9s.\\nAdditionally, the Stamina cost for Lauma's Spirit Envoy Form will be reduced by 40%, and its Max Duration will be extended by 5s."
               },
               {
                 "name": "\"Twine Warnings and Tales From the North\"",
                 "type": "Constellation 2",
-                "desc": "The Elemental Burst {LINK#S11195}Runo: All Hearts Become the Beating Moon{/LINK} is enhanced:\\n\u00b7 {LINK#N11190003}Pale Hymn{/LINK} effects are increased: All nearby party members' Bloom, Hyperbloom, and Burgeon DMG is further increased by 500% of Lauma's Elemental Mastery, and their Lunar-Bloom DMG is further increased by 400% of Lauma's Elemental Mastery.\\n\\nMoonsign: Ascendant Gleam: All nearby party members' Lunar-Bloom DMG is increased by 40%."
+                "desc": "The Elemental Burst Runo: All Hearts Become the Beating Moon is enhanced:\\n\u00b7 Pale Hymn effects are increased: All nearby party members' Bloom, Hyperbloom, and Burgeon DMG is further increased by 500% of Lauma's Elemental Mastery, and their Lunar-Bloom DMG is further increased by 400% of Lauma's Elemental Mastery.\\n\\nMoonsign: Ascendant Gleam: All nearby party members' Lunar-Bloom DMG is increased by 40%."
               },
               {
                 "name": "\"Seek Not to Tread the Sly Fox's Path\"",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11195}Runo: All Hearts Become the Beating Moon{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Runo: All Hearts Become the Beating Moon by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "\"Nor Yearn for the Great Bear's Might\"",
                 "type": "Constellation 4",
-                "desc": "When attacks from the {LINK#N11190001}Frostgrove Sanctuary{/LINK} summoned by her Elemental Skill {LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK} hit opponents, Lauma will regain 4 Elemental Energy. This effect can be triggered once every 5s."
+                "desc": "When attacks from the Frostgrove Sanctuary summoned by her Elemental Skill Runo: Dawnless Rest of Karsikko hit opponents, Lauma will regain 4 Elemental Energy. This effect can be triggered once every 5s."
               },
               {
                 "name": "\"If Truth May Be Subject to Witness\"",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Runo: Dawnless Rest of Karsikko by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "\"I Offer Blood and Tears to the Moonlight\"",
                 "type": "Constellation 6",
-                "desc": "When the {LINK#N11190001}Frostgrove Sanctuary{/LINK} attacks opponents, it will deal 1 additional instance of AoE Dendro DMG equal to 185% of Lauma's Elemental Mastery. This DMG is considered Lunar-Bloom DMG. This instance of DMG will not consume any {LINK#N11190003}Pale Hymn{/LINK} stacks and will provide Lauma with 2 stacks of Pale Hymn, as well as refreshing the duration of Pale Hymn stacks gained in this manner.\\nThis effect can occur up to 8 times during each Frostgrove Sanctuary. When using the Elemental Skill {LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK}, all Pale Hymn stacks gained in this manner will be removed.\\n\\nAdditionally, when Lauma uses a Normal Attack while she has Pale Hymn stacks, she will consume 1 stack to convert this to deal Dendro DMG equal to 150% of her Elemental Mastery. This DMG is considered Lunar-Bloom DMG.\\n\\nMoonsign: Ascendant Gleam: All nearby party members' Lunar-Bloom DMG is {LINK#N11190007}elevated{/LINK} by 25%."
+                "desc": "When the Frostgrove Sanctuary attacks opponents, it will deal 1 additional instance of AoE Dendro DMG equal to 185% of Lauma's Elemental Mastery. This DMG is considered Lunar-Bloom DMG. This instance of DMG will not consume any Pale Hymn stacks and will provide Lauma with 2 stacks of Pale Hymn, as well as refreshing the duration of Pale Hymn stacks gained in this manner.\\nThis effect can occur up to 8 times during each Frostgrove Sanctuary. When using the Elemental Skill Runo: Dawnless Rest of Karsikko, all Pale Hymn stacks gained in this manner will be removed.\\n\\nAdditionally, when Lauma uses a Normal Attack while she has Pale Hymn stacks, she will consume 1 stack to convert this to deal Dendro DMG equal to 150% of her Elemental Mastery. This DMG is considered Lunar-Bloom DMG.\\n\\nMoonsign: Ascendant Gleam: All nearby party members' Lunar-Bloom DMG is elevated by 25%."
               }
             ]
           }
@@ -80855,7 +80855,7 @@
               {
                 "name": "Modular Efficiency Protocol",
                 "type": "Passive Talent",
-                "desc": "Aino will be granted the corresponding buff effects based on the party's Moonsign.\\n\\nMoonsign: Ascendant Gleam: Her Elemental Burst {LINK#S11215}Precision Hydronic Cooler{/LINK} is enhanced: The Cool Your Jets Ducky will fire water balls more frequently, and the water balls will deal AoE Hydro DMG over a larger area of effect."
+                "desc": "Aino will be granted the corresponding buff effects based on the party's Moonsign.\\n\\nMoonsign: Ascendant Gleam: Her Elemental Burst Precision Hydronic Cooler is enhanced: The Cool Your Jets Ducky will fire water balls more frequently, and the water balls will deal AoE Hydro DMG over a larger area of effect."
               },
               {
                 "name": "Structured Power Booster",
@@ -80880,32 +80880,32 @@
               {
                 "name": "The Theory of Ash\u2014Field Equilibrium",
                 "type": "Constellation 1",
-                "desc": "After Aino uses her Elemental Skill {LINK#S11212}Musecatcher{/LINK} or her Elemental Burst {LINK#S11215}Precision Hydronic Cooler{/LINK}, her Elemental Mastery will be increased by 80. The Elemental Mastery of other nearby active party members will be increased by 80 for 15s.\\n\\nThe Elemental Mastery-increasing effects of this Constellation do not stack."
+                "desc": "After Aino uses her Elemental Skill Musecatcher or her Elemental Burst Precision Hydronic Cooler, her Elemental Mastery will be increased by 80. The Elemental Mastery of other nearby active party members will be increased by 80 for 15s.\\n\\nThe Elemental Mastery-increasing effects of this Constellation do not stack."
               },
               {
                 "name": "The Principle of Transference in Gear Differentials",
                 "type": "Constellation 2",
-                "desc": "If Aino is off-field while the Focused Hydronic Cooling Zone of her Elemental Burst {LINK#S11215}Precision Hydronic Cooler{/LINK} is active, when your active party member hits a nearby opponent with an attack, the Cool Your Jets Ducky will fire an additional water ball at that opponent, dealing AoE Hydro DMG equal to 25% of Aino's ATK and 100% of her Elemental Mastery. This DMG is considered Elemental Burst DMG. This effect can be triggered once every 5s."
+                "desc": "If Aino is off-field while the Focused Hydronic Cooling Zone of her Elemental Burst Precision Hydronic Cooler is active, when your active party member hits a nearby opponent with an attack, the Cool Your Jets Ducky will fire an additional water ball at that opponent, dealing AoE Hydro DMG equal to 25% of Aino's ATK and 100% of her Elemental Mastery. This DMG is considered Elemental Burst DMG. This effect can be triggered once every 5s."
               },
               {
                 "name": "Cake and the Art of Mechanism Repair",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11215}Precision Hydronic Cooler{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Precision Hydronic Cooler by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Butter and Cats and the Law of Energy Supply",
                 "type": "Constellation 4",
-                "desc": "When the Elemental Skill {LINK#S11212}Musecatcher{/LINK} hits an opponent, it will restore 10 Elemental Energy for Aino. Energy can be restored to her in this manner once every 10s."
+                "desc": "When the Elemental Skill Musecatcher hits an opponent, it will restore 10 Elemental Energy for Aino. Energy can be restored to her in this manner once every 10s."
               },
               {
                 "name": "Perpetual Turbine of Metal and Light",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11212}Musecatcher{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Musecatcher by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "The Burden of Creative Genius",
                 "type": "Constellation 6",
-                "desc": "For the next 15s after using the Elemental Burst {LINK#S11215}Precision Hydronic Cooler{/LINK}, DMG from nearby active characters' Electro-Charged, Bloom, Lunar-Charged, Lunar-Bloom, and Lunar-Crystallize reactions is increased by 15%.\\nMoonsign: Ascendant Gleam: DMG from the aforementioned reactions will be further increased by 20%."
+                "desc": "For the next 15s after using the Elemental Burst Precision Hydronic Cooler, DMG from nearby active characters' Electro-Charged, Bloom, Lunar-Charged, Lunar-Bloom, and Lunar-Crystallize reactions is increased by 15%.\\nMoonsign: Ascendant Gleam: DMG from the aforementioned reactions will be further increased by 20%."
               }
             ]
           }
@@ -83052,13 +83052,13 @@
               {
                 "name": "Cleaning Mode: Carrier Frequency",
                 "type": "Talent",
-                "desc": "Ineffa engages her Enhanced Cleaning Module, dealing a single instance of AoE Electro DMG to nearby opponents, activating her Optical Flow Shield Barrier, and summoning the Multipurpose Smart Assistance Unit, {LINK#N11160001}Birgitta{/LINK}.\\nThe Optical Flow Shield Barrier absorbs DMG based on Ineffa's ATK, and it will absorb Electro DMG with 250% effectiveness.",
+                "desc": "Ineffa engages her Enhanced Cleaning Module, dealing a single instance of AoE Electro DMG to nearby opponents, activating her Optical Flow Shield Barrier, and summoning the Multipurpose Smart Assistance Unit, Birgitta.\\nThe Optical Flow Shield Barrier absorbs DMG based on Ineffa's ATK, and it will absorb Electro DMG with 250% effectiveness.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Ineffa_01.webp"
               },
               {
                 "name": "Supreme Instruction: Cyclonic Exterminator",
                 "type": "Talent",
-                "desc": "Through Multipurpose Smart Assistance Unit, {LINK#N11160001}Birgitta{/LINK}, Ineffa can use Rocket Punches to quickly clean up opponents! Shoots Birgitta into the fray, dealing AoE Electro DMG and allowing Birgitta to remain on the field.\\n\\nIf Birgitta is already on the field, having been summoned by Ineffa, this Skill will re-summon Birgitta at the target's location and reset her duration.",
+                "desc": "Through Multipurpose Smart Assistance Unit, Birgitta, Ineffa can use Rocket Punches to quickly clean up opponents! Shoots Birgitta into the fray, dealing AoE Electro DMG and allowing Birgitta to remain on the field.\\n\\nIf Birgitta is already on the field, having been summoned by Ineffa, this Skill will re-summon Birgitta at the target's location and reset her duration.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Ineffa_01.webp"
               }
             ]
@@ -83069,12 +83069,12 @@
               {
                 "name": "Overclocking Circuit",
                 "type": "Passive Talent",
-                "desc": "If there are thunderclouds created by Lunar-Charged reactions nearby when {LINK#N11160001}Birgitta{/LINK} unleashes Discharge attacks, she will initiate an additional attack, dealing AoE Electro DMG equal to 65% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG."
+                "desc": "If there are thunderclouds created by Lunar-Charged reactions nearby when Birgitta unleashes Discharge attacks, she will initiate an additional attack, dealing AoE Electro DMG equal to 65% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG."
               },
               {
                 "name": "Panoramic Permutation Protocol",
                 "type": "Passive Talent",
-                "desc": "When using the Elemental Burst {LINK#S11165}Supreme Instruction: Cyclonic Exterminator{/LINK}, all your party members will gain the Parameter Permutation effect: Increases Ineffa and your own active party member's Elemental Mastery by 6% of Ineffa's ATK for 20s."
+                "desc": "When using the Elemental Burst Supreme Instruction: Cyclonic Exterminator, all your party members will gain the Parameter Permutation effect: Increases Ineffa and your own active party member's Elemental Mastery by 6% of Ineffa's ATK for 20s."
               },
               {
                 "name": "Moonsign Benediction: Assemblage Hub",
@@ -83099,12 +83099,12 @@
               {
                 "name": "Support Cleaning Module",
                 "type": "Constellation 2",
-                "desc": "After the Elemental Burst {LINK#S11165}Supreme Instruction: Cyclonic Exterminator{/LINK} hits opponents, it will inflict the Punishment Edict status on one of those hit opponents: After a brief delay, or when this opponent is defeated, nearby opponents will take AoE Electro DMG equal to 300% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.\\nAdditionally, when the Elemental Burst Supreme Instruction: Cyclonic Exterminator is unleashed, nearby party members will gain Optical Flow Shield Barriers."
+                "desc": "After the Elemental Burst Supreme Instruction: Cyclonic Exterminator hits opponents, it will inflict the Punishment Edict status on one of those hit opponents: After a brief delay, or when this opponent is defeated, nearby opponents will take AoE Electro DMG equal to 300% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.\\nAdditionally, when the Elemental Burst Supreme Instruction: Cyclonic Exterminator is unleashed, nearby party members will gain Optical Flow Shield Barriers."
               },
               {
                 "name": "Enhanced Emotion Emulator",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11162}Cleaning Mode: Carrier Frequency{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Cleaning Mode: Carrier Frequency by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "The Edictless Path",
@@ -83114,7 +83114,7 @@
               {
                 "name": "Mirror's Dream Transcension",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11165}Supreme Instruction: Cyclonic Exterminator{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Supreme Instruction: Cyclonic Exterminator by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "A Dawning Morn for You",
@@ -85266,13 +85266,13 @@
               {
                 "name": "Havoc: Warp",
                 "type": "Talent",
-                "desc": "Imitates the combat style of \"The Foul.\" Produces different effects depending on whether you Tap or Hold.\\n\\nTap\\nSkirk gains 45 {LINK#N11130005}Serpent's Subtlety{/LINK} and switches to {LINK#N11130006}Seven-Phase Flash{/LINK} mode.\\n\\nHold\\nSkirk gains 45 Serpent's Subtlety and will continuously move at high speed. Her interruption resistance is increased in this state.\\nDuring this time, Skirk can control her movement direction and move atop water. She can also use this Skill again to end rapid movement prematurely.",
+                "desc": "Imitates the combat style of \"The Foul.\" Produces different effects depending on whether you Tap or Hold.\\n\\nTap\\nSkirk gains 45 Serpent's Subtlety and switches to Seven-Phase Flash mode.\\n\\nHold\\nSkirk gains 45 Serpent's Subtlety and will continuously move at high speed. Her interruption resistance is increased in this state.\\nDuring this time, Skirk can control her movement direction and move atop water. She can also use this Skill again to end rapid movement prematurely.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_SkirkNew_01.webp"
               },
               {
                 "name": "Havoc: Ruin",
                 "type": "Talent",
-                "desc": "Skirk's Elemental Burst is not reliant on Elemental Energy but instead on {LINK#N11130005}Serpent's Subtlety{/LINK}.\\nWhen Skirk has at least 50 Serpent's Subtlety, she can expend all her Serpent's Subtlety to unleash her Elemental Burst, ripping the space before her apart and using rapid consecutive slashes that deal AoE Cryo DMG. At the same time, the DMG dealt by an instance of this Elemental Burst will be increased by every point of Serpent's Subtlety over 50 when it is unleashed. Up to 12 points can be counted for this purpose.\\n\\nWhen Skirk is in {LINK#N11130006}Seven-Phase Flash{/LINK} mode, Havoc: Ruin will be replaced by Havoc: Extinction.\\n\\nHavoc: Extinction\\nA special Elemental Burst that can be used even without consuming Serpent's Subtlety.\\nAfter using it, Skirk will gain the \"All Shall Wither\" effect, which will last until Seven-Phase Flash ends. After unlocking the Ascension Talent {LINK#N11130007}Reason Beyond Reason{/LINK}, she can also absorb nearby Void Rifts.\\nWhile \"All Shall Wither\" is active, every 0.1s, after Skirk's Normal Attack hits an opponent, that Normal Attack will deal increased DMG. If she absorbed any Void Rifts while using Havoc: Extinction, this Normal Attack's DMG will be further increased based on the number of Rifts absorbed.\\nThis effect will be canceled when it has triggered 10 times.",
+                "desc": "Skirk's Elemental Burst is not reliant on Elemental Energy but instead on Serpent's Subtlety.\\nWhen Skirk has at least 50 Serpent's Subtlety, she can expend all her Serpent's Subtlety to unleash her Elemental Burst, ripping the space before her apart and using rapid consecutive slashes that deal AoE Cryo DMG. At the same time, the DMG dealt by an instance of this Elemental Burst will be increased by every point of Serpent's Subtlety over 50 when it is unleashed. Up to 12 points can be counted for this purpose.\\n\\nWhen Skirk is in Seven-Phase Flash mode, Havoc: Ruin will be replaced by Havoc: Extinction.\\n\\nHavoc: Extinction\\nA special Elemental Burst that can be used even without consuming Serpent's Subtlety.\\nAfter using it, Skirk will gain the \"All Shall Wither\" effect, which will last until Seven-Phase Flash ends. After unlocking the Ascension Talent Reason Beyond Reason, she can also absorb nearby Void Rifts.\\nWhile \"All Shall Wither\" is active, every 0.1s, after Skirk's Normal Attack hits an opponent, that Normal Attack will deal increased DMG. If she absorbed any Void Rifts while using Havoc: Extinction, this Normal Attack's DMG will be further increased based on the number of Rifts absorbed.\\nThis effect will be canceled when it has triggered 10 times.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_SkirkNew_01.webp"
               }
             ]
@@ -85283,12 +85283,12 @@
               {
                 "name": "Reason Beyond Reason",
                 "type": "Passive Talent",
-                "desc": "When nearby party members trigger Frozen, Superconduct, Stellar-Conduct, Cryo Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. 3 Void Rifts created by Skirk herself can exist on the field at once.\\n\\nSkirk can use the following methods to absorb nearby Void Rifts:\\n\u00b7 When she hits an opponent with a Charged Attack in her {LINK#N11130006}Seven-Phase Flash{/LINK} mode.\\n\u00b7 When she uses the special Elemental Burst Havoc: Extinction while in Seven-Phase Flash mode.\\n\u00b7 When she Holds her Elemental Skill Havoc: Warp to engage in rapid movement.\\n\\nEach Rift absorbed will grant her 8 {LINK#N11130005}Serpent's Subtlety{/LINK} points."
+                "desc": "When nearby party members trigger Frozen, Superconduct, Stellar-Conduct, Cryo Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. 3 Void Rifts created by Skirk herself can exist on the field at once.\\n\\nSkirk can use the following methods to absorb nearby Void Rifts:\\n\u00b7 When she hits an opponent with a Charged Attack in her Seven-Phase Flash mode.\\n\u00b7 When she uses the special Elemental Burst Havoc: Extinction while in Seven-Phase Flash mode.\\n\u00b7 When she Holds her Elemental Skill Havoc: Warp to engage in rapid movement.\\n\\nEach Rift absorbed will grant her 8 Serpent's Subtlety points."
               },
               {
                 "name": "Return to Oblivion",
                 "type": "Passive Talent",
-                "desc": "When nearby Hydro party members' Hydro attacks hit opponents, or when nearby Cryo party members apart from Skirk hit opponents with Cryo attacks, Skirk will gain the \"Death's Crossing\" effect for 20s. Max 3 stacks, each stack's duration is counted independently.\\nEach character can grant Skirk at most 1 \"Death's Crossing\" stack by this means.\\nEach \"Death's Crossing\" stack increases the Normal Attack DMG dealt by Skirk in {LINK#N11130006}Seven-Phase Flash{/LINK} mode to 110%/120%/170% of its original DMG and the DMG dealt when using her Elemental Burst Havoc: Ruin to 105%/115%/160% of its original DMG."
+                "desc": "When nearby Hydro party members' Hydro attacks hit opponents, or when nearby Cryo party members apart from Skirk hit opponents with Cryo attacks, Skirk will gain the \"Death's Crossing\" effect for 20s. Max 3 stacks, each stack's duration is counted independently.\\nEach character can grant Skirk at most 1 \"Death's Crossing\" stack by this means.\\nEach \"Death's Crossing\" stack increases the Normal Attack DMG dealt by Skirk in Seven-Phase Flash mode to 110%/120%/170% of its original DMG and the DMG dealt when using her Elemental Burst Havoc: Ruin to 105%/115%/160% of its original DMG."
               },
               {
                 "name": "Mutual Weapons Mentorship",
@@ -85303,32 +85303,32 @@
               {
                 "name": "Far to Fall",
                 "type": "Constellation 1",
-                "desc": "Enhances the effects of the Ascension Talent {LINK#N11130007}Reason Beyond Reason{/LINK}: Every Void Rift absorbed will summon a crystal blade to attack nearby opponents, dealing 500% of Skirk's ATK as Cryo DMG. This DMG is considered Charged Attack DMG.\\nYou must first unlock the Ascension Talent Reason Beyond Reason."
+                "desc": "Enhances the effects of the Ascension Talent Reason Beyond Reason: Every Void Rift absorbed will summon a crystal blade to attack nearby opponents, dealing 500% of Skirk's ATK as Cryo DMG. This DMG is considered Charged Attack DMG.\\nYou must first unlock the Ascension Talent Reason Beyond Reason."
               },
               {
                 "name": "Into the Abyss",
                 "type": "Constellation 2",
-                "desc": "After unleashing her Elemental Skill Havoc: Warp, Skirk will gain 10 additional {LINK#N11130005}Serpent's Subtlety{/LINK} points.\\nWhen using her Elemental Burst Havoc: Ruin, the DMG of this Elemental Burst instance will be increased by taking up to 10 more Serpent's Subtlety points into account.\\nAdditionally, within 12.5s after Skirk unleashes the special Elemental Burst Havoc: Extinction while in her {LINK#N11130006}Seven-Phase Flash{/LINK} mode, her ATK is increased by 70%. This effect will be canceled when she leaves the Seven-Phase Flash mode."
+                "desc": "After unleashing her Elemental Skill Havoc: Warp, Skirk will gain 10 additional Serpent's Subtlety points.\\nWhen using her Elemental Burst Havoc: Ruin, the DMG of this Elemental Burst instance will be increased by taking up to 10 more Serpent's Subtlety points into account.\\nAdditionally, within 12.5s after Skirk unleashes the special Elemental Burst Havoc: Extinction while in her Seven-Phase Flash mode, her ATK is increased by 70%. This effect will be canceled when she leaves the Seven-Phase Flash mode."
               },
               {
                 "name": "Serendipitous Sin",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11145}Havoc: Ruin{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Havoc: Ruin by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Fractured Flow",
                 "type": "Constellation 4",
-                "desc": "Enhances the effects of the Ascension Talent {LINK#N11130008}Return to Oblivion{/LINK}: Each Death's Crossing stack also increases Skirk's ATK by 10%/20%/40%.\\nYou must first unlock the Ascension Talent Return to Oblivion."
+                "desc": "Enhances the effects of the Ascension Talent Return to Oblivion: Each Death's Crossing stack also increases Skirk's ATK by 10%/20%/40%.\\nYou must first unlock the Ascension Talent Return to Oblivion."
               },
               {
                 "name": "End of Wishes",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11142}Havoc: Warp{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Havoc: Warp by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "To the Source",
                 "type": "Constellation 6",
-                "desc": "Each Void Rift Skirk absorbs via the effects of the Ascension Talent {LINK#N11130007}Reason Beyond Reason{/LINK} will grant her 1 Havoc: Sever stack. She can consume such stacks to initiate coordinated attacks and decrease the DMG she takes while in {LINK#N11130006}Seven-Phase Flash{/LINK} mode. These stacks last for 15s, and each stack's duration is counted independently (max 3 stacks).\\nYou must first unlock the Ascension Talent \"Reason Beyond Reason.\"\\n\\nHavoc: Sever\\n\u00b7 When Skirk uses the Elemental Burst Havoc: Ruin, she will consume all Havoc: Sever stacks to initiate a coordinated attack in which each Havoc: Sever stack will deal 750% of Skirk's ATK as Cryo DMG. This DMG is considered Elemental Burst DMG.\\n\u00b7 When she uses Normal Attacks while in Seven-Phase Flash mode, 1 Havoc: Sever stack will be consumed when her third or fifth sequenced attacks hit an opponent to launch 3 coordinated attacks. Each coordinated attack deals 180% of Skirk's ATK as Cryo DMG. This damage is considered Normal Attack DMG.\\n\u00b7 When Skirk takes DMG while in Seven-Phase Flash mode, 1 Havoc: Sever stack will be consumed to decrease this DMG instance by 80% and attack nearby opponents 3 times, with each attack dealing 180% of Skirk's ATK as Cryo DMG. This DMG is considered Charged Attack DMG."
+                "desc": "Each Void Rift Skirk absorbs via the effects of the Ascension Talent Reason Beyond Reason will grant her 1 Havoc: Sever stack. She can consume such stacks to initiate coordinated attacks and decrease the DMG she takes while in Seven-Phase Flash mode. These stacks last for 15s, and each stack's duration is counted independently (max 3 stacks).\\nYou must first unlock the Ascension Talent \"Reason Beyond Reason.\"\\n\\nHavoc: Sever\\n\u00b7 When Skirk uses the Elemental Burst Havoc: Ruin, she will consume all Havoc: Sever stacks to initiate a coordinated attack in which each Havoc: Sever stack will deal 750% of Skirk's ATK as Cryo DMG. This DMG is considered Elemental Burst DMG.\\n\u00b7 When she uses Normal Attacks while in Seven-Phase Flash mode, 1 Havoc: Sever stack will be consumed when her third or fifth sequenced attacks hit an opponent to launch 3 coordinated attacks. Each coordinated attack deals 180% of Skirk's ATK as Cryo DMG. This damage is considered Normal Attack DMG.\\n\u00b7 When Skirk takes DMG while in Seven-Phase Flash mode, 1 Havoc: Sever stack will be consumed to decrease this DMG instance by 80% and attack nearby opponents 3 times, with each attack dealing 180% of Skirk's ATK as Cryo DMG. This DMG is considered Charged Attack DMG."
               }
             ]
           }
@@ -86831,12 +86831,12 @@
               {
                 "name": "The Wind's Gentle Grace",
                 "type": "Passive Talent",
-                "desc": "When characters affected by the Favonian Favor effect of the Elemental Burst {LINK#S11155}Radiant Psalter{/LINK} trigger Frozen reactions on opponents, they will grant Dahlia 2 Benison stacks. This effect can trigger once every 8s."
+                "desc": "When characters affected by the Favonian Favor effect of the Elemental Burst Radiant Psalter trigger Frozen reactions on opponents, they will grant Dahlia 2 Benison stacks. This effect can trigger once every 8s."
               },
               {
                 "name": "Prayer of Well-Wrought Joy",
                 "type": "Passive Talent",
-                "desc": "When your active party member is affected by the Favonian Favor effect of the Elemental Burst {LINK#S11155}\"Radiant Psalter,\"{/LINK} their ATK SPD will increase based on Dahlia's Max HP: Every 1,000 Max HP will cause an increase of 0.5%, up to a maximum of 20%."
+                "desc": "When your active party member is affected by the Favonian Favor effect of the Elemental Burst \"Radiant Psalter,\" their ATK SPD will increase based on Dahlia's Max HP: Every 1,000 Max HP will cause an increase of 0.5%, up to a maximum of 20%."
               },
               {
                 "name": "Pilgrimage Upon Returning Winds",
@@ -86851,32 +86851,32 @@
               {
                 "name": "Infallible Procession",
                 "type": "Constellation 1",
-                "desc": "Each time Dahlia gains 1 of his Elemental Burst {LINK#S11155}Radiant Psalter{/LINK}'s Benison stacks, he will regain 2.5 Elemental Energy."
+                "desc": "Each time Dahlia gains 1 of his Elemental Burst Radiant Psalter's Benison stacks, he will regain 2.5 Elemental Energy."
               },
               {
                 "name": "Revelation of Mercy",
                 "type": "Constellation 2",
-                "desc": "After Dahlia consumes his Elemental Burst {LINK#S11155}Radiant Psalter{/LINK}'s Benison stacks to summon a Shield of Sacred Favor, the character protected by said Shield will gain 25% increased Shield Strength for 12s."
+                "desc": "After Dahlia consumes his Elemental Burst Radiant Psalter's Benison stacks to summon a Shield of Sacred Favor, the character protected by said Shield will gain 25% increased Shield Strength for 12s."
               },
               {
                 "name": "Windblume Offertory",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11155}Radiant Psalter{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Radiant Psalter by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Collect of the Assembly",
                 "type": "Constellation 4",
-                "desc": "The Favonian Favor from Dahlia's Elemental Burst {LINK#S11155}Radiant Psalter{/LINK} lasts 3 more seconds."
+                "desc": "The Favonian Favor from Dahlia's Elemental Burst Radiant Psalter lasts 3 more seconds."
               },
               {
                 "name": "Let It Be Subtly So",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11152}Immersive Ordinance{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Immersive Ordinance by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "You Shall Go Out With Joy",
                 "type": "Constellation 6",
-                "desc": "The current active character affected by the Elemental Burst {LINK#S11155}Radiant Psalter{/LINK}'s Favonian Favor has their ATK SPD increased by 10%.\\nAdditionally, when an active character affected by Favonian Favor falls, immediately:\\n\u00b7 Revive them.\\n\u00b7 Restore their HP to 100%.\\nThis effect can trigger once every 15 minutes."
+                "desc": "The current active character affected by the Elemental Burst Radiant Psalter's Favonian Favor has their ATK SPD increased by 10%.\\nAdditionally, when an active character affected by Favonian Favor falls, immediately:\\n\u00b7 Revive them.\\n\u00b7 Restore their HP to 100%.\\nThis effect can trigger once every 15 minutes."
               }
             ]
           }
@@ -88759,7 +88759,7 @@
               {
                 "name": "Low-Temperature Cooking",
                 "type": "Talent",
-                "desc": "Behold the true meaning of \"cooking\"! Escoffier will demonstrate different cooking techniques when you Tap or Hold this skill, but rest assured, each of them is Fontaine's pride and joy.\\n\\nTap\\nActivates her All-Spectrum Multi-Use Cooking Mek in its Cold Storage mode and deals AoE Cryo DMG to nearby opponents.\\n\\nCooking Mek: Cold Storage Mode\\nFollows the current active character and fires Frosty Parfaits at nearby opponents at intervals, dealing Cryo DMG.\\n\\nArkhe: Ousia\\nAt intervals, Escoffier will summon a Surging Blade when activating her Cooking Mek in Cold Storage mode, dealing Ousia-aligned AoE Cryo DMG.\\n\\nHold\\nActivates her All-Spectrum Multi-Use Cooking Mek's {LINK#N11120002}Off-the-Cuff Cookery Mode{/LINK}.",
+                "desc": "Behold the true meaning of \"cooking\"! Escoffier will demonstrate different cooking techniques when you Tap or Hold this skill, but rest assured, each of them is Fontaine's pride and joy.\\n\\nTap\\nActivates her All-Spectrum Multi-Use Cooking Mek in its Cold Storage mode and deals AoE Cryo DMG to nearby opponents.\\n\\nCooking Mek: Cold Storage Mode\\nFollows the current active character and fires Frosty Parfaits at nearby opponents at intervals, dealing Cryo DMG.\\n\\nArkhe: Ousia\\nAt intervals, Escoffier will summon a Surging Blade when activating her Cooking Mek in Cold Storage mode, dealing Ousia-aligned AoE Cryo DMG.\\n\\nHold\\nActivates her All-Spectrum Multi-Use Cooking Mek's Off-the-Cuff Cookery Mode.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Escoffier_01.webp"
               },
               {
@@ -88776,17 +88776,17 @@
               {
                 "name": "Better to Salivate Than Medicate",
                 "type": "Passive Talent",
-                "desc": "After using the Elemental Burst {LINK#S11125}Scoring Cuts{/LINK}, Escoffier will obtain the Rehab Diet effect for 9s: Restores HP for nearby active characters every 1s based on 138.24% of Escoffier's ATK."
+                "desc": "After using the Elemental Burst Scoring Cuts, Escoffier will obtain the Rehab Diet effect for 9s: Restores HP for nearby active characters every 1s based on 138.24% of Escoffier's ATK."
               },
               {
                 "name": "Inspiration-Immersed Seasoning",
                 "type": "Passive Talent",
-                "desc": "When there are 1/2/3/4 Hydro or Cryo characters in the party, Escoffier will decrease the Hydro RES and Cryo RES of any opponents hit by her Elemental Skill, {LINK#S11122}Low-Temperature Cooking{/LINK}, or her Elemental Burst, {LINK#S11125}Scoring Cuts{/LINK}, by 5%/10%/15%/55% for 12s."
+                "desc": "When there are 1/2/3/4 Hydro or Cryo characters in the party, Escoffier will decrease the Hydro RES and Cryo RES of any opponents hit by her Elemental Skill, Low-Temperature Cooking, or her Elemental Burst, Scoring Cuts, by 5%/10%/15%/55% for 12s."
               },
               {
                 "name": "Constant Off-the-Cuff Cookery",
                 "type": "Passive Talent",
-                "desc": "#When using the Hold form of her Elemental Skill {LINK#S11122}Low-Temperature Cooking{/LINK}, Escoffier will activate her All-Spectrum Multi-Use Cooking Mek in its Off-the-Cuff Cookery mode.\\n\\nCooking Mek: Off-the-Cuff Cookery Mode\\n\u00b7 Places the Cooking Mek on the field. The Cooking Mek can absorb elemental attacks. When the absorbed elemental energy hits a certain limit, Escoffier can convert the ingredients placed within it into wonderful food.\\n\u00b7 Escoffier needs time to purchase new ingredients, so she can only make a certain number of dishes like this each week. The number of dishes Escoffier can make resets every Monday at 4:00 AM {TIMEZONE}."
+                "desc": "#When using the Hold form of her Elemental Skill Low-Temperature Cooking, Escoffier will activate her All-Spectrum Multi-Use Cooking Mek in its Off-the-Cuff Cookery mode.\\n\\nCooking Mek: Off-the-Cuff Cookery Mode\\n\u00b7 Places the Cooking Mek on the field. The Cooking Mek can absorb elemental attacks. When the absorbed elemental energy hits a certain limit, Escoffier can convert the ingredients placed within it into wonderful food.\\n\u00b7 Escoffier needs time to purchase new ingredients, so she can only make a certain number of dishes like this each week. The number of dishes Escoffier can make resets every Monday at 4:00 AM ."
               }
             ]
           },
@@ -88796,32 +88796,32 @@
               {
                 "name": "Pre-Dinner Dance for Your Taste Buds",
                 "type": "Constellation 1",
-                "desc": "When 4 party members are Hydro or Cryo, all nearby party members will have their Cryo DMG CRIT DMG increased by 60% for 15s after Escoffier uses her Elemental Skill {LINK#S11122}Low-Temperature Cooking{/LINK} or Elemental Burst {LINK#S11125}Scoring Cuts{/LINK}.\\nYou must first unlock the Ascension Talent \"Inspiration-Immersed Seasoning.\""
+                "desc": "When 4 party members are Hydro or Cryo, all nearby party members will have their Cryo DMG CRIT DMG increased by 60% for 15s after Escoffier uses her Elemental Skill Low-Temperature Cooking or Elemental Burst Scoring Cuts.\\nYou must first unlock the Ascension Talent \"Inspiration-Immersed Seasoning.\""
               },
               {
                 "name": "Fresh, Fragrant Stew Is an Art",
                 "type": "Constellation 2",
-                "desc": "When Escoffier activates her Cooking Mek in its {LINK#N11120001}Cold Storage Mode{/LINK}, she will gain the \"Freshly-Prepped Delicacy\" effect for 15s. During this time, Escoffier will gain 5 Cold Dish stacks. When nearby active characters apart from Escoffier deal Cryo DMG with a Normal, Charged, or Plunging Attack, or an Elemental Skill or Elemental Burst, they will expend 1 Cold Dish stack to increase their DMG dealt by 240% of Escoffier's ATK.\\nIf you hit multiple opponents with a single instance of Cryo DMG, Cold Dish stacks will be consumed based on the number of opponents hit."
+                "desc": "When Escoffier activates her Cooking Mek in its Cold Storage Mode, she will gain the \"Freshly-Prepped Delicacy\" effect for 15s. During this time, Escoffier will gain 5 Cold Dish stacks. When nearby active characters apart from Escoffier deal Cryo DMG with a Normal, Charged, or Plunging Attack, or an Elemental Skill or Elemental Burst, they will expend 1 Cold Dish stack to increase their DMG dealt by 240% of Escoffier's ATK.\\nIf you hit multiple opponents with a single instance of Cryo DMG, Cold Dish stacks will be consumed based on the number of opponents hit."
               },
               {
                 "name": "The Bakery Magic of Caramel Browning",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11122}Low-Temperature Cooking{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Low-Temperature Cooking by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Secret Rosemary Recipe",
                 "type": "Constellation 4",
-                "desc": "{LINK#P1122101}Rehab Diet{/LINK} lasts 6 more seconds. While it is active, you have a chance of healing 100% extra HP and restoring 2 Energy to Escoffier when you trigger healing through Rehab Diet. This chance corresponds to Escoffier's CRIT Rate. You can trigger this effect 7 times during any one Rehab Diet's duration.\\nYou must first unlock the Ascension Talent \"Better to Salivate Than Medicate.\""
+                "desc": "Rehab Diet lasts 6 more seconds. While it is active, you have a chance of healing 100% extra HP and restoring 2 Energy to Escoffier when you trigger healing through Rehab Diet. This chance corresponds to Escoffier's CRIT Rate. You can trigger this effect 7 times during any one Rehab Diet's duration.\\nYou must first unlock the Ascension Talent \"Better to Salivate Than Medicate.\""
               },
               {
                 "name": "Symphony of a Thousand Sauces",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11125}Scoring Cuts{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Scoring Cuts by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Tea Parties Bursting With Color",
                 "type": "Constellation 6",
-                "desc": "{LINK#N11120001}Cooking Mek: Cold Storage Mode{/LINK} is enhanced:\\n\u00b7 When your party's active character's Normal, Charged, or Plunging Attacks hit opponents, Cooking Mek: Cold Storage Mode will fire off another Special-Grade Frosty Parfait, dealing 500% of Escoffier's ATK as AoE Cryo DMG. This DMG is considered Elemental Skill DMG.\\nThis effect can be triggered once every 0.5s, and this effect can be triggered 6 times within the duration of one Cooking Mek: Cold Storage Mode."
+                "desc": "Cooking Mek: Cold Storage Mode is enhanced:\\n\u00b7 When your party's active character's Normal, Charged, or Plunging Attacks hit opponents, Cooking Mek: Cold Storage Mode will fire off another Special-Grade Frosty Parfait, dealing 500% of Escoffier's ATK as AoE Cryo DMG. This DMG is considered Elemental Skill DMG.\\nThis effect can be triggered once every 0.5s, and this effect can be triggered 6 times within the duration of one Cooking Mek: Cold Storage Mode."
               }
             ]
           }
@@ -90307,13 +90307,13 @@
               {
                 "name": "Airborne Disease Prevention",
                 "type": "Talent",
-                "desc": "It's time for the real bash bros to step up! Ifa calls Cacucu in as backup.\\nAfter using this skill, Ifa gains 80 Nightsoul points and enters the {LINK#N11130003}Nightsoul's Blessing{/LINK} state. In the Nightsoul's Blessing state, Ifa will hover with Cacucu's help. When he uses Normal Attacks in this state, he will use different kinds of {LINK#N11130001}Supporting Fire{/LINK} depending on whether you Tap or Hold, firing Tonicshots that are capable of healing all party members.\\n\\nAdditionally, Holding the Elemental Skill Airborne Disease Prevention while Ifa is in Nightsoul's Blessing will cause him to use a Nightsoul-aligned Plunging Attack. Letting go of the skill button will interrupt this Plunging Attack to maintain his hover. If Ifa lands due to this Plunging Attack, his Nightsoul's Blessing state will end.",
+                "desc": "It's time for the real bash bros to step up! Ifa calls Cacucu in as backup.\\nAfter using this skill, Ifa gains 80 Nightsoul points and enters the Nightsoul's Blessing state. In the Nightsoul's Blessing state, Ifa will hover with Cacucu's help. When he uses Normal Attacks in this state, he will use different kinds of Supporting Fire depending on whether you Tap or Hold, firing Tonicshots that are capable of healing all party members.\\n\\nAdditionally, Holding the Elemental Skill Airborne Disease Prevention while Ifa is in Nightsoul's Blessing will cause him to use a Nightsoul-aligned Plunging Attack. Letting go of the skill button will interrupt this Plunging Attack to maintain his hover. If Ifa lands due to this Plunging Attack, his Nightsoul's Blessing state will end.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Ifa_01.webp"
               },
               {
                 "name": "Compound Sedation Field",
                 "type": "Talent",
-                "desc": "Fires a Therapeutic Sedative at a (temporarily aggressive) opponent. The sedative will explode on impact, creating a restraining wind current that pulls nearby objects and opponents in while dealing Nightsoul-aligned AoE Anemo DMG.\\nWhen the Therapeutic Sedative hits an opponent affected by Hydro/Pyro/Cryo/Electro, it will apply a {LINK#N11130004}Sedation Mark{/LINK} to them.",
+                "desc": "Fires a Therapeutic Sedative at a (temporarily aggressive) opponent. The sedative will explode on impact, creating a restraining wind current that pulls nearby objects and opponents in while dealing Nightsoul-aligned AoE Anemo DMG.\\nWhen the Therapeutic Sedative hits an opponent affected by Hydro/Pyro/Cryo/Electro, it will apply a Sedation Mark to them.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Ifa_01.webp"
               }
             ]
@@ -90324,7 +90324,7 @@
               {
                 "name": "Field Medic's Vision",
                 "type": "Passive Talent",
-                "desc": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the total in his entire party will grant him 1 {LINK#N11130002}Rescue Essentials{/LINK} point. Rescue Essentials will increase the Swirl, Electro-Charged, and Lunar-Charged DMG dealt by nearby party members."
+                "desc": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the total in his entire party will grant him 1 Rescue Essentials point. Rescue Essentials will increase the Swirl, Electro-Charged, and Lunar-Charged DMG dealt by nearby party members."
               },
               {
                 "name": "Mutual Aid Agreement",
@@ -90349,32 +90349,32 @@
               {
                 "name": "Vitiferous Elixir's Concoction",
                 "type": "Constellation 1",
-                "desc": "When {LINK#N11130001}Supporting Fire{/LINK} hits an opponent, it will restore 6 Energy for Ifa. One such Energy restoration can be triggered once every 8s."
+                "desc": "When Supporting Fire hits an opponent, it will restore 6 Energy for Ifa. One such Energy restoration can be triggered once every 8s."
               },
               {
                 "name": "Guiding Spirit of Ballistic Prayer",
                 "type": "Constellation 2",
-                "desc": "When Ifa is in the Nightsoul's Blessing state, every Nightsoul point the party has above a total of 60 will grant Ifa 4 additional {LINK#N11130002}Rescue Essentials{/LINK} points.\\nAdditionally, Ifa's Rescue Essentials limit is increased by 50.\\nYou must first unlock the Ascension Talent {LINK#P1132101}Field Medic's Vision{/LINK}."
+                "desc": "When Ifa is in the Nightsoul's Blessing state, every Nightsoul point the party has above a total of 60 will grant Ifa 4 additional Rescue Essentials points.\\nAdditionally, Ifa's Rescue Essentials limit is increased by 50.\\nYou must first unlock the Ascension Talent Field Medic's Vision."
               },
               {
                 "name": "Rebuttal in Negotiations With the Night",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of {LINK#S11132}Airborne Disease Prevention{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Airborne Disease Prevention by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Decayed Vessel's Permutation",
                 "type": "Constellation 4",
-                "desc": "The restraining wind current created by the Elemental Burst {LINK#S11135}Compound Sedation Field{/LINK} has its duration extended to 3s.\\nAdditionally, Ifa gains 100 Elemental Mastery for 15s after using his Elemental Burst Compound Sedation Field."
+                "desc": "The restraining wind current created by the Elemental Burst Compound Sedation Field has its duration extended to 3s.\\nAdditionally, Ifa gains 100 Elemental Mastery for 15s after using his Elemental Burst Compound Sedation Field."
               },
               {
                 "name": "Vow of Universal Coexistence",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of {LINK#S11135}Compound Sedation Field{/LINK} by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Compound Sedation Field by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Oath on a Feathered Knot",
                 "type": "Constellation 6",
-                "desc": "When Ifa uses the Hold version of his {LINK#N11130001}Supporting Fire{/LINK}, there is a 50% chance that he will fire an additional Tonicshot that deals 120% of Ifa's ATK as Anemo DMG. This DMG is considered Normal Attack DMG.\\nAdditionally, when he is not in combat, Ifa will consume 20% less Nightsoul points and Phlogiston in his Nightsoul's Blessing state."
+                "desc": "When Ifa uses the Hold version of his Supporting Fire, there is a 50% chance that he will fire an additional Tonicshot that deals 120% of Ifa's ATK as Anemo DMG. This DMG is considered Normal Attack DMG.\\nAdditionally, when he is not in combat, Ifa will consume 20% less Nightsoul points and Phlogiston in his Nightsoul's Blessing state."
               }
             ]
           }
@@ -128873,7 +128873,7 @@
               {
                 "name": "Tailor-Made",
                 "type": "Passive Talent",
-                "desc": "#Gain different effects depending on the next action you take within a short duration after using Fluttering Hasode's upward sweep. If you {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} the Elemental Skill, you will trigger the Tapestry effect. If you {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} your Normal Attack, the Tailoring effect will be triggered instead.\\n\\nTapestry\\n\u00b7 Switches to the next character in your roster.\\n\u00b7 Grants all your party members \"Seize the Moment\": When your active party member's Normal Attacks, Charged Attacks, and Plunging Attacks hit a nearby opponent, \"Tamoto\" will execute a coordinated attack, dealing 100% of Fluttering Hasode's upward sweep DMG as AoE Geo DMG at the opponent's location. DMG dealt this way is considered Elemental Skill DMG.\\n\u00b7 \"Seize the Moment\" lasts 8s, and 1 of \"Tamoto\"'s coordinated attack can be unleashed every 2s. 2 such coordinated attacks can occur per \"Seize the Moment\" effect duration.\\n\\nTailoring\\n\u00b7 Chiori gains Geo infusion for 5s.\\n\\nWhen on the field, if Chiori does not either {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} her Elemental Skill or use a Normal Attack within a short time after using Fluttering Hasode's upward sweep, the Tailoring effect will be triggered by default."
+                "desc": "#Gain different effects depending on the next action you take within a short duration after using Fluttering Hasode's upward sweep. If you the Elemental Skill, you will trigger the Tapestry effect. If you your Normal Attack, the Tailoring effect will be triggered instead.\\n\\nTapestry\\n\u00b7 Switches to the next character in your roster.\\n\u00b7 Grants all your party members \"Seize the Moment\": When your active party member's Normal Attacks, Charged Attacks, and Plunging Attacks hit a nearby opponent, \"Tamoto\" will execute a coordinated attack, dealing 100% of Fluttering Hasode's upward sweep DMG as AoE Geo DMG at the opponent's location. DMG dealt this way is considered Elemental Skill DMG.\\n\u00b7 \"Seize the Moment\" lasts 8s, and 1 of \"Tamoto\"'s coordinated attack can be unleashed every 2s. 2 such coordinated attacks can occur per \"Seize the Moment\" effect duration.\\n\\nTailoring\\n\u00b7 Chiori gains Geo infusion for 5s.\\n\\nWhen on the field, if Chiori does not either her Elemental Skill or use a Normal Attack within a short time after using Fluttering Hasode's upward sweep, the Tailoring effect will be triggered by default."
               },
               {
                 "name": "The Finishing Touch",
@@ -142363,7 +142363,7 @@
               {
                 "name": "There Shall Be an Unveiling for Injustice",
                 "type": "Passive Talent",
-                "desc": "Radiance: Stellar-Conduct: The Ascension Talent \"There Shall Be a Plea for Justice\" is changed to the following:\\nWhen Wriothesley's HP is less than 60%, he will obtain a \"Gracious Rebuke: Unveiling.\" This enhances the next Charged Attack of his Normal Attack: Forceful Fists of Frost into Luster: Vaulting Fist, which will not consume Stamina and restores 30% Max HP to Wriothesley upon hit. Wriothesley can gain HP in this way once every 2s.\\nAdditionally, the third and fifth strikes of Repelling Fist enhanced by Chilling Penalty will deal 60% and 80% of their original Cryo DMG respectively, while Luster: Vaulting Fist will deal 100% of its original AoE Cryo DMG. The aforementioned DMG is considered as Stellar-Conduct DMG, and Wriothesley deals 30% increased Stellar-Conduct DMG.\\nAdditionally, when inside a {LINK#N11330003}Polestar Field{/LINK}, Wriothesley will enter the Radiance: Stellar-Conduct state."
+                "desc": "Radiance: Stellar-Conduct: The Ascension Talent \"There Shall Be a Plea for Justice\" is changed to the following:\\nWhen Wriothesley's HP is less than 60%, he will obtain a \"Gracious Rebuke: Unveiling.\" This enhances the next Charged Attack of his Normal Attack: Forceful Fists of Frost into Luster: Vaulting Fist, which will not consume Stamina and restores 30% Max HP to Wriothesley upon hit. Wriothesley can gain HP in this way once every 2s.\\nAdditionally, the third and fifth strikes of Repelling Fist enhanced by Chilling Penalty will deal 60% and 80% of their original Cryo DMG respectively, while Luster: Vaulting Fist will deal 100% of its original AoE Cryo DMG. The aforementioned DMG is considered as Stellar-Conduct DMG, and Wriothesley deals 30% increased Stellar-Conduct DMG.\\nAdditionally, when inside a Polestar Field, Wriothesley will enter the Radiance: Stellar-Conduct state."
               }
             ]
           },
@@ -150515,7 +150515,7 @@
               {
                 "name": "Enigmatic Feint",
                 "type": "Talent",
-                "desc": "#Flicks her mantle and executes an Enigma Thrust, dealing Anemo DMG.\\nWhen the Enigma Thrust hits an opponent, it will restore Lynette's HP based on her Max HP, and in the 4s afterward, she will lose a certain amount of HP per second.\\nBased on whether you {LAYOUT_MOBILE#tap}{LAYOUT_PC#press}{LAYOUT_PS#press} or hold this ability, she will use Enigma Thrust differently.\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nShe swiftly uses an Enigma Thrust.\\n\\nHold\\nLynette will enter a high-speed Pilfering Shadow state and apply Shadowsign to a nearby opponent. You can control her movement direction during this state, and you can end it prematurely by using this skill again.\\nWhen this high-speed state ends, Lynette will unleash her Enigma Thrust. If there is an opponent with Shadowsign applied to them nearby, Lynette will approach them in a flash before using Enigma Thrust.\\n\\nA maximum of 1 opponent can have Shadowsign at any one time. When this opponent gets too far from Lynette, the Shadowsign will be canceled.\\n\\nArkhe: Ousia\\nAt specific intervals, Lynette will unleash a Surging Blade when she uses Enigma Thrust, dealing Ousia-aligned Anemo DMG.\\n\\n\"Now then, turn your eyes to the stage and continue to enjoy the performance. When I next appear, I'll be where you least expect.\"",
+                "desc": "#Flicks her mantle and executes an Enigma Thrust, dealing Anemo DMG.\\nWhen the Enigma Thrust hits an opponent, it will restore Lynette's HP based on her Max HP, and in the 4s afterward, she will lose a certain amount of HP per second.\\nBased on whether you or hold this ability, she will use Enigma Thrust differently.\\n\\n\\nShe swiftly uses an Enigma Thrust.\\n\\nHold\\nLynette will enter a high-speed Pilfering Shadow state and apply Shadowsign to a nearby opponent. You can control her movement direction during this state, and you can end it prematurely by using this skill again.\\nWhen this high-speed state ends, Lynette will unleash her Enigma Thrust. If there is an opponent with Shadowsign applied to them nearby, Lynette will approach them in a flash before using Enigma Thrust.\\n\\nA maximum of 1 opponent can have Shadowsign at any one time. When this opponent gets too far from Lynette, the Shadowsign will be canceled.\\n\\nArkhe: Ousia\\nAt specific intervals, Lynette will unleash a Surging Blade when she uses Enigma Thrust, dealing Ousia-aligned Anemo DMG.\\n\\n\"Now then, turn your eyes to the stage and continue to enjoy the performance. When I next appear, I'll be where you least expect.\"",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Linette_01.webp"
               },
               {
@@ -152061,7 +152061,7 @@
               {
                 "name": "Meow-teor Kick",
                 "type": "Talent",
-                "desc": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nLeaps into the air with all the agility of a cat passing through the bushes, and thwacks her foes with a flying kick that deals AoE Dendro DMG while creating a Shield of Safe Transport. This will also briefly apply Dendro to Kirara. The shield will absorb Dendro DMG with 250% effectiveness. The shield's DMG absorption will be based on Kirara's Max HP and will not exceed a certain percentage of that Max HP. The remaining DMG absorption on a Shield of Safe Transport will stack on a new one when it is created, and its duration will reset.\\n\\nHold\\nOut of her desire to \"deliver within half a day,\" Kirara deploys a Shield of Safe Transport identical to the one that can be created by {LAYOUT_MOBILE#tapping}{LAYOUT_PC#pressing}{LAYOUT_PS#pressing} the skill. She will also curl up into a special express delivery box, entering the Urgent Neko Parcel state in order to move and fight more swiftly.\\n\\nUrgent Neko Parcel\\n\u00b7 Deals Dendro DMG to opponents she crashes into. This effect can be triggered once on each opponent every 0.5s.\\n\u00b7 When in this state, Kirara's movement speed, climbing speed, and jumping power are all increased, and her Stamina Consumption from climbing is increased.\\n\u00b7 When the duration ends or the skill is used again, a Flipclaw Strike more powerful than the attack in the {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Mode will be unleashed, dealing AoE Dendro DMG.\\n\u00b7 The Urgent Neko Parcel state lasts a maximum of 10s. When the state ends, the skill will enter CD. The longer Kirara spends in this state, the longer the CD will be.\\n\u00b7 Sprinting or actively canceling climbing will end this state early.\\n\\n\"So you wanna know the secret to speedy deliveries? Well, it's all in the legs!\"",
+                "desc": "#\\nLeaps into the air with all the agility of a cat passing through the bushes, and thwacks her foes with a flying kick that deals AoE Dendro DMG while creating a Shield of Safe Transport. This will also briefly apply Dendro to Kirara. The shield will absorb Dendro DMG with 250% effectiveness. The shield's DMG absorption will be based on Kirara's Max HP and will not exceed a certain percentage of that Max HP. The remaining DMG absorption on a Shield of Safe Transport will stack on a new one when it is created, and its duration will reset.\\n\\nHold\\nOut of her desire to \"deliver within half a day,\" Kirara deploys a Shield of Safe Transport identical to the one that can be created by the skill. She will also curl up into a special express delivery box, entering the Urgent Neko Parcel state in order to move and fight more swiftly.\\n\\nUrgent Neko Parcel\\n\u00b7 Deals Dendro DMG to opponents she crashes into. This effect can be triggered once on each opponent every 0.5s.\\n\u00b7 When in this state, Kirara's movement speed, climbing speed, and jumping power are all increased, and her Stamina Consumption from climbing is increased.\\n\u00b7 When the duration ends or the skill is used again, a Flipclaw Strike more powerful than the attack in the Mode will be unleashed, dealing AoE Dendro DMG.\\n\u00b7 The Urgent Neko Parcel state lasts a maximum of 10s. When the state ends, the skill will enter CD. The longer Kirara spends in this state, the longer the CD will be.\\n\u00b7 Sprinting or actively canceling climbing will end this state early.\\n\\n\"So you wanna know the secret to speedy deliveries? Well, it's all in the legs!\"",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Momoka_01.webp"
               },
               {
@@ -177952,7 +177952,7 @@
               {
                 "name": "A Star With Which to Start the Journey",
                 "type": "Passive Talent",
-                "desc": "If Cyno unleashes the Elemental Skill Secret Rite: Chasmic Soulfarer while not in the Pactsworn Pathclearer state, he will enter Pactsworn Pathclearer for 6s.\\nAdditionally, when in a {LINK#N11330003}Polestar Field{/LINK}, Cyno will enter the Radiance: Stellar-Conduct state."
+                "desc": "If Cyno unleashes the Elemental Skill Secret Rite: Chasmic Soulfarer while not in the Pactsworn Pathclearer state, he will enter Pactsworn Pathclearer for 6s.\\nAdditionally, when in a Polestar Field, Cyno will enter the Radiance: Stellar-Conduct state."
               }
             ]
           },
@@ -197166,7 +197166,7 @@
               {
                 "name": "Edict of Cleansing",
                 "type": "Passive Talent",
-                "desc": "Extends the duration of the Sesshou Sakura by 10s. When a nearby party member triggers a Superconduct or Stellar-Conduct reaction, the next instance of Sesshou Sakura lightning is enhanced as follows: DMG dealt is increased at 80% of Yae Miko's ATK. This effect can trigger once every 2.5s.\\nRadiance: Stellar-Conduct: An enhanced Sesshou Sakura lightning bolt hit on an opponent will also cause an additional instance of Electro DMG at 200% of Yae Miko's ATK. This DMG is considered Stellar-Conduct DMG.\\nAdditionally, when inside a {LINK#N11330003}Polestar Field{/LINK}, Yae Miko will enter the Radiance: Stellar-Conduct state."
+                "desc": "Extends the duration of the Sesshou Sakura by 10s. When a nearby party member triggers a Superconduct or Stellar-Conduct reaction, the next instance of Sesshou Sakura lightning is enhanced as follows: DMG dealt is increased at 80% of Yae Miko's ATK. This effect can trigger once every 2.5s.\\nRadiance: Stellar-Conduct: An enhanced Sesshou Sakura lightning bolt hit on an opponent will also cause an additional instance of Electro DMG at 200% of Yae Miko's ATK. This DMG is considered Stellar-Conduct DMG.\\nAdditionally, when inside a Polestar Field, Yae Miko will enter the Radiance: Stellar-Conduct state."
               }
             ]
           },
@@ -199225,7 +199225,7 @@
               {
                 "name": "Spring Spirit Summoning",
                 "type": "Talent",
-                "desc": "#The frosted dew, silvery and dense, shall exorcise all demons.\\nGrants all nearby party members the Icy Quill effect and deals Cryo DMG in different ways based on whether it is {LAYOUT_MOBILE#tapped}{LAYOUT_PC#pressed}{LAYOUT_PS#pressed} or held.\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nRushes forward together with a Talisman Spirit, dealing Cryo DMG to opponents along the path.\\n\\nHold\\nCommands the Talisman Spirit to deal AoE Cryo DMG.\\n\\nIcy Quill\\nWhen Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts deal Cryo DMG to opponents, the DMG dealt is increased based on Shenhe's current ATK.\\n\\nThe Icy Quill's effects will be cleared once its duration ends or after being triggered a certain number of times. When held rather than {LAYOUT_MOBILE#tapped}{LAYOUT_PC#pressed}{LAYOUT_PS#pressed}, the Icy Quill's effect lasts longer and can be triggered more times.\\nWhen one Cryo DMG instance strikes multiple opponents, the effect is triggered multiple times based on the number of opponents hit. The number of times the effect is triggered is calculated independently for each party member with the Icy Quill.\\n\\nThe power of the spirits is no falsehood. Burdened with her orders, the divine maiden hurries on!",
+                "desc": "#The frosted dew, silvery and dense, shall exorcise all demons.\\nGrants all nearby party members the Icy Quill effect and deals Cryo DMG in different ways based on whether it is or held.\\n\\n\\nRushes forward together with a Talisman Spirit, dealing Cryo DMG to opponents along the path.\\n\\nHold\\nCommands the Talisman Spirit to deal AoE Cryo DMG.\\n\\nIcy Quill\\nWhen Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts deal Cryo DMG to opponents, the DMG dealt is increased based on Shenhe's current ATK.\\n\\nThe Icy Quill's effects will be cleared once its duration ends or after being triggered a certain number of times. When held rather than , the Icy Quill's effect lasts longer and can be triggered more times.\\nWhen one Cryo DMG instance strikes multiple opponents, the effect is triggered multiple times based on the number of opponents hit. The number of times the effect is triggered is calculated independently for each party member with the Icy Quill.\\n\\nThe power of the spirits is no falsehood. Burdened with her orders, the divine maiden hurries on!",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Shenhe_01.webp"
               },
               {
@@ -199247,7 +199247,7 @@
               {
                 "name": "Spirit Communion Seal",
                 "type": "Passive Talent",
-                "desc": "#After Shenhe uses Spring Spirit Summoning, she will grant all nearby party members the following effects:\\n\u00b7 {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}: Elemental Skill and Elemental Burst DMG increased by 15% for 10s.\\n\u00b7 Hold: Normal, Charged, and Plunging Attack DMG increased by 15% for 15s."
+                "desc": "#After Shenhe uses Spring Spirit Summoning, she will grant all nearby party members the following effects:\\n\u00b7 : Elemental Skill and Elemental Burst DMG increased by 15% for 10s.\\n\u00b7 Hold: Normal, Charged, and Plunging Attack DMG increased by 15% for 15s."
               },
               {
                 "name": "Precise Comings and Goings",
@@ -201047,7 +201047,7 @@
               {
                 "name": "Opening Flourish",
                 "type": "Talent",
-                "desc": "#Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nFlourishes her polearm in a cloud-grasping stance, dealing Geo DMG.\\n\\nHold\\nTakes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.\\nWhen the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing Geo DMG.\\nBased on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.\\n\\nOne glorious moment on-stage, a decade of preparation behind it.",
+                "desc": "#Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.\\n\\n\\nFlourishes her polearm in a cloud-grasping stance, dealing Geo DMG.\\n\\nHold\\nTakes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.\\nWhen the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing Geo DMG.\\nBased on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.\\n\\nOne glorious moment on-stage, a decade of preparation behind it.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Yunjin_01.webp"
               },
               {
@@ -218129,7 +218129,7 @@
               {
                 "name": "Yoohoo Art: Fuuin Dash",
                 "type": "Talent",
-                "desc": "#The special technique of the Yoohoo Ninja Arts!\\nSayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing Anemo DMG. When the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing AoE Anemo DMG.\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nEnters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.\\n\\nHold\\nRolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state.\\nDuring this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick.\\nThe Hold version of this skill can trigger Elemental Absorption.\\n\\nThis skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.\\n\\nElemental Absorption\\nIf Sayu comes into contact with Hydro/Pyro/Cryo/Electro while in her Windwheel state, she will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use of this skill.\\n\\nSayu can pull this skill off with her eyes closed. This technique was originally created for escaping, but now that she's got a Vision, might as well make her foes eat dirt while she's at it.",
+                "desc": "#The special technique of the Yoohoo Ninja Arts!\\nSayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing Anemo DMG. When the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing AoE Anemo DMG.\\n\\n\\nEnters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.\\n\\nHold\\nRolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state.\\nDuring this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick.\\nThe Hold version of this skill can trigger Elemental Absorption.\\n\\nThis skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.\\n\\nElemental Absorption\\nIf Sayu comes into contact with Hydro/Pyro/Cryo/Electro while in her Windwheel state, she will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use of this skill.\\n\\nSayu can pull this skill off with her eyes closed. This technique was originally created for escaping, but now that she's got a Vision, might as well make her foes eat dirt while she's at it.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Sayu_01.webp"
               },
               {
@@ -218171,7 +218171,7 @@
               {
                 "name": "Egress Prep",
                 "type": "Constellation 2",
-                "desc": "#Yoohoo Art: Fuuin Dash gains the following effects:\\n\u00b7DMG of Fuufuu Whirlwind Kick in {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Mode increased by 3.3%.\\n\u00b7Every 0.5s in the Fuufuu Windwheel state will increase the DMG of this Fuufuu Whirlwind Kick by 3.3%. The maximum DMG increase possible through this method is 66%."
+                "desc": "#Yoohoo Art: Fuuin Dash gains the following effects:\\n\u00b7DMG of Fuufuu Whirlwind Kick in Mode increased by 3.3%.\\n\u00b7Every 0.5s in the Fuufuu Windwheel state will increase the DMG of this Fuufuu Whirlwind Kick by 3.3%. The maximum DMG increase possible through this method is 66%."
               },
               {
                 "name": "Eh, the Bunshin Can Handle It",
@@ -222041,7 +222041,7 @@
               {
                 "name": "Chihayaburu",
                 "type": "Talent",
-                "desc": "#Unleashes a secret technique as fierce as the rushing wind that pulls objects and opponents towards Kazuha's current position before launching opponents within the AoE, dealing Anemo DMG and lifting Kazuha into the air on a rushing gust of wind.\\nWithin 10s of remaining airborne after casting Chihayaburu, Kazuha can unleash a powerful Plunging Attack known as Midare Ranzan.\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nCan be used in mid-air.\\n\\nHold\\nCharges up before unleashing greater Anemo DMG over a larger AoE than {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Mode.\\n\\nPlunging Attack: Midare Ranzan\\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to Anemo DMG. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.\\nMidare Ranzan's DMG is considered Plunging Attack DMG.\\n\\n\"Wind in branches grieves\\nBygone ages, gods of old\\nWithered autumn leaves\"",
+                "desc": "#Unleashes a secret technique as fierce as the rushing wind that pulls objects and opponents towards Kazuha's current position before launching opponents within the AoE, dealing Anemo DMG and lifting Kazuha into the air on a rushing gust of wind.\\nWithin 10s of remaining airborne after casting Chihayaburu, Kazuha can unleash a powerful Plunging Attack known as Midare Ranzan.\\n\\n\\nCan be used in mid-air.\\n\\nHold\\nCharges up before unleashing greater Anemo DMG over a larger AoE than Mode.\\n\\nPlunging Attack: Midare Ranzan\\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to Anemo DMG. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.\\nMidare Ranzan's DMG is considered Plunging Attack DMG.\\n\\n\"Wind in branches grieves\\nBygone ages, gods of old\\nWithered autumn leaves\"",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Kazuha_01.webp"
               },
               {
@@ -222093,7 +222093,7 @@
               {
                 "name": "Oozora Genpou",
                 "type": "Constellation 4",
-                "desc": "#When Kaedehara Kazuha's Energy is lower than 45, he obtains the following effects:\\n\u00b7{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Pressing}{LAYOUT_PS#Pressing} or Holding Chihayaburu regenerates 3 or 4 Energy for Kaedehara Kazuha, respectively.\\n\u00b7When gliding, Kaedehara Kazuha regenerates 2 Energy per second."
+                "desc": "#When Kaedehara Kazuha's Energy is lower than 45, he obtains the following effects:\\n\u00b7 or Holding Chihayaburu regenerates 3 or 4 Energy for Kaedehara Kazuha, respectively.\\n\u00b7When gliding, Kaedehara Kazuha regenerates 2 Energy per second."
               },
               {
                 "name": "Wisdom of Bansei",
@@ -224257,7 +224257,7 @@
               {
                 "name": "Icetide Vortex",
                 "type": "Talent",
-                "desc": "#Sharp frost, swift blade.\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nSlashes swiftly, dealing Cryo DMG.\\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.\\n\\nGrimheart\\nIncreases Eula's resistance to interruption and DEF.\\n\\nHold\\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing AoE Cryo DMG to opponents in front of her.\\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.\\n\\n\"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\"",
+                "desc": "#Sharp frost, swift blade.\\n\\n\\nSlashes swiftly, dealing Cryo DMG.\\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.\\n\\nGrimheart\\nIncreases Eula's resistance to interruption and DEF.\\n\\nHold\\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing AoE Cryo DMG to opponents in front of her.\\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.\\n\\n\"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\"",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Eula_01.webp"
               },
               {
@@ -224299,7 +224299,7 @@
               {
                 "name": "Lady of Seafoam",
                 "type": "Constellation 2",
-                "desc": "#Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD."
+                "desc": "#Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to CD."
               },
               {
                 "name": "Lawrence Pedigree",
@@ -238991,7 +238991,7 @@
               {
                 "name": "Dominus Lapidis",
                 "type": "Talent",
-                "desc": "#Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nCommands the power of earth to create a Stone Stele.\\n\\nHold\\nCauses nearby Geo energy to explode, causing the following effects:\\n\u00b7If their maximum number hasn't been reached, creates a Stone Stele.\\n\u00b7Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP.\\n\u00b7Deals AoE Geo DMG.\\n\u00b7If there are nearby targets with the Geo element, it will drain a large amount of Geo element from a maximum of 2 such targets. This effect does not cause DMG.\\n\\nStone Stele\\nWhen created, deals AoE Geo DMG.\\nAdditionally, it will intermittently resonate with other nearby Geo constructs, dealing Geo DMG to nearby opponents.\\nThe Stone Stele is considered a Geo construct that can both be climbed and used to block attacks.\\nOnly one Stele created by Zhongli himself may initially exist at any one time.\\n\\nJade Shield\\nPossesses 150% DMG Absorption against all Elemental and Physical DMG.\\nCharacters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.\\n\\nA true master of stone may carve jade and shape gold.",
+                "desc": "#Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.\\n\\n\\nCommands the power of earth to create a Stone Stele.\\n\\nHold\\nCauses nearby Geo energy to explode, causing the following effects:\\n\u00b7If their maximum number hasn't been reached, creates a Stone Stele.\\n\u00b7Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP.\\n\u00b7Deals AoE Geo DMG.\\n\u00b7If there are nearby targets with the Geo element, it will drain a large amount of Geo element from a maximum of 2 such targets. This effect does not cause DMG.\\n\\nStone Stele\\nWhen created, deals AoE Geo DMG.\\nAdditionally, it will intermittently resonate with other nearby Geo constructs, dealing Geo DMG to nearby opponents.\\nThe Stone Stele is considered a Geo construct that can both be climbed and used to block attacks.\\nOnly one Stele created by Zhongli himself may initially exist at any one time.\\n\\nJade Shield\\nPossesses 150% DMG Absorption against all Elemental and Physical DMG.\\nCharacters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.\\n\\nA true master of stone may carve jade and shape gold.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Zhongli_01.webp"
               },
               {
@@ -245644,7 +245644,7 @@
               {
                 "name": "Icy Paws",
                 "type": "Talent",
-                "desc": "#Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit.\\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nRapidly fires off 2 Icy Paws.\\n\\nHold\\nDashes back quickly before firing 5 Icy Paws.\\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\\n\\nThe shield has a 250% Cryo DMG Absorption Bonus, and will cause your active character to become affected by Cryo at the point of formation for a short duration.\\n\\nWhen she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision \u2014 now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!",
+                "desc": "#Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit.\\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\\n\\n\\nRapidly fires off 2 Icy Paws.\\n\\nHold\\nDashes back quickly before firing 5 Icy Paws.\\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\\n\\nThe shield has a 250% Cryo DMG Absorption Bonus, and will cause your active character to become affected by Cryo at the point of formation for a short duration.\\n\\nWhen she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision \u2014 now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Diona_01.webp"
               },
               {
@@ -245676,7 +245676,7 @@
               {
                 "name": "Choice Treasures",
                 "type": "Passive Talent",
-                "desc": "Within 20s after using the Elemental Skill Icy Paws, Diona will also fire off three Icy Paws when party members trigger Superconduct or Stellar-Conduct reactions. Icy Paws fired this way cannot generate Elemental Particles, nor will they generate a shield upon hitting opponents. This effect can occur once every 3.5s.\\nAdditionally, when inside a {LINK#N11330003}Polestar Field{/LINK}, Diona will enter the Radiance: Stellar-Conduct state."
+                "desc": "Within 20s after using the Elemental Skill Icy Paws, Diona will also fire off three Icy Paws when party members trigger Superconduct or Stellar-Conduct reactions. Icy Paws fired this way cannot generate Elemental Particles, nor will they generate a shield upon hitting opponents. This effect can occur once every 3.5s.\\nAdditionally, when inside a Polestar Field, Diona will enter the Radiance: Stellar-Conduct state."
               }
             ]
           },
@@ -257912,7 +257912,7 @@
               {
                 "name": "Seven Sacred Treasures",
                 "type": "Passive Talent",
-                "desc": "The cooldown of the Elemental Skill Adeptus Art: Herald of Frost is reduced to 15s.\\nRadiance: Stellar-Conduct: While the Herald of Frost is on the field, characters in Qiqi's party have their Superconduct and Stellar-Conduct Reaction DMG increased by 50%.\\nAdditionally, when inside a {LINK#N11330003}Polestar Field{/LINK}, Qiqi will enter the Radiance: Stellar-Conduct state."
+                "desc": "The cooldown of the Elemental Skill Adeptus Art: Herald of Frost is reduced to 15s.\\nRadiance: Stellar-Conduct: While the Herald of Frost is on the field, characters in Qiqi's party have their Superconduct and Stellar-Conduct Reaction DMG increased by 50%.\\nAdditionally, when inside a Polestar Field, Qiqi will enter the Radiance: Stellar-Conduct state."
               }
             ]
           },
@@ -260091,7 +260091,7 @@
               {
                 "name": "Skyward Sonnet",
                 "type": "Talent",
-                "desc": "#O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nSummons a Wind Domain at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.\\n\\nHold\\nSummons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected opponents into the air.\\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\\n\\nOpponents hit by Skyward Sonnet will fall to the ground slowly.\\n\\nIn the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.",
+                "desc": "#O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\\n\\n\\nSummons a Wind Domain at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.\\n\\nHold\\nSummons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected opponents into the air.\\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\\n\\nOpponents hit by Skyward Sonnet will fall to the ground slowly.\\n\\nIn the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Venti_01.webp"
               },
               {
@@ -266462,7 +266462,7 @@
               {
                 "name": "Tidecaller",
                 "type": "Talent",
-                "desc": "#Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing Electro DMG.\\n\\nHold\\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing Electro DMG. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\\nThe shield possesses the following properties:\\n\u00b7Has 250% Electro DMG Absorption Efficiency.\\n\u00b7Applies the Electro element to Beidou upon activation.\\n\\nConquer the high seas! Pursue the waves and chase the storm!",
+                "desc": "#Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\\n\\n\\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing Electro DMG.\\n\\nHold\\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing Electro DMG. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\\nThe shield possesses the following properties:\\n\u00b7Has 250% Electro DMG Absorption Efficiency.\\n\u00b7Applies the Electro element to Beidou upon activation.\\n\\nConquer the high seas! Pursue the waves and chase the storm!",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Beidou_01.webp"
               },
               {
@@ -266494,7 +266494,7 @@
               {
                 "name": "Polaris",
                 "type": "Passive Talent",
-                "desc": "When holding down on the Elemental Skill Tidecaller, 1 stack of power will accumulate every 0.8s, even when not under attack. This increases the DMG dealt at the point of unleashing.\\nAdditionally, holding down to unleash Tidecaller and hitting the opponent also gives extra boosts based on the power accumulated: every stack active decreases Beidou's Elemental Skill CD by 4s, as well as regenerates 8 Elemental Energy for her. This effect can trigger once every 15s.\\nAdditionally, when inside a {LINK#N11330003}Polestar Field{/LINK}, Beidou will enter the Radiance: Stellar-Conduct state."
+                "desc": "When holding down on the Elemental Skill Tidecaller, 1 stack of power will accumulate every 0.8s, even when not under attack. This increases the DMG dealt at the point of unleashing.\\nAdditionally, holding down to unleash Tidecaller and hitting the opponent also gives extra boosts based on the power accumulated: every stack active decreases Beidou's Elemental Skill CD by 4s, as well as regenerates 8 Elemental Energy for her. This effect can trigger once every 15s.\\nAdditionally, when inside a Polestar Field, Beidou will enter the Radiance: Stellar-Conduct state."
               }
             ]
           },
@@ -268684,7 +268684,7 @@
               {
                 "name": "Passion Overload",
                 "type": "Talent",
-                "desc": "#Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nA single, swift flame strike that deals Pyro DMG.\\n\\nHold (Short)\\nCharges up, resulting in different effects when unleashed based on the Charge Level.\\n\u00b7Level 1: Strikes twice, dealing Pyro DMG and launching opponents.\\n\u00b7Level 2: Unleashes 3 consecutive attacks that deal impressive Pyro DMG, but the last attack triggers an explosion that launches both Bennett and the enemy.\\nBennett takes no damage from being launched.\\n\\nAn attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.",
+                "desc": "#Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\\n\\n\\nA single, swift flame strike that deals Pyro DMG.\\n\\nHold (Short)\\nCharges up, resulting in different effects when unleashed based on the Charge Level.\\n\u00b7Level 1: Strikes twice, dealing Pyro DMG and launching opponents.\\n\u00b7Level 2: Unleashes 3 consecutive attacks that deal impressive Pyro DMG, but the last attack triggers an explosion that launches both Bennett and the enemy.\\nBennett takes no damage from being launched.\\n\\nAn attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Bennett_01.webp"
               },
               {
@@ -273120,7 +273120,7 @@
               {
                 "name": "Nightrider",
                 "type": "Talent",
-                "desc": "#Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing Electro DMG in a small AoE.\\nFor the ability's duration, Oz will continuously attack nearby opponents with Freikugel.\\n\\nHold to adjust the location Oz will be summoned to.\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} again any time during the ability's duration to once again summon him to Fischl's side.\\n\\n\"My time is most precious, and I shall not waste it on the likes of you... Go, Oz, fall upon them, and bring down upon them your Rachs\u00fcchtig Blitz, that which tears open the long night.\"\\n\u2014Flowers for Princess Fischl (IV): Farewell Frau Welt",
+                "desc": "#Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing Electro DMG in a small AoE.\\nFor the ability's duration, Oz will continuously attack nearby opponents with Freikugel.\\n\\nHold to adjust the location Oz will be summoned to.\\n again any time during the ability's duration to once again summon him to Fischl's side.\\n\\n\"My time is most precious, and I shall not waste it on the likes of you... Go, Oz, fall upon them, and bring down upon them your Rachs\u00fcchtig Blitz, that which tears open the long night.\"\\n\u2014Flowers for Princess Fischl (IV): Farewell Frau Welt",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Fischl_01.webp"
               },
               {
@@ -277271,7 +277271,7 @@
               {
                 "name": "Violet Arc",
                 "type": "Talent",
-                "desc": "#Channels the power of lightning to sweep bothersome matters away.\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nReleases a homing Lightning Orb.\\nOn hit, it deals Electro DMG and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.\\n\\nHold\\nAfter an extended casting time, calls down lightning from the heavens, dealing massive Electro DMG to all nearby opponents.\\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.\\n\\nElectro Purple is the raiment of the Witch of Purple Rose.",
+                "desc": "#Channels the power of lightning to sweep bothersome matters away.\\n\\n\\nReleases a homing Lightning Orb.\\nOn hit, it deals Electro DMG and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.\\n\\nHold\\nAfter an extended casting time, calls down lightning from the heavens, dealing massive Electro DMG to all nearby opponents.\\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.\\n\\nElectro Purple is the raiment of the Witch of Purple Rose.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Lisa_01.webp"
               },
               {
@@ -283914,7 +283914,7 @@
               {
                 "name": "Claw and Thunder",
                 "type": "Talent",
-                "desc": "#Hunts his prey using the techniques taught to him by his master and his lupical.\\n\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\\nSwings the Thunder Wolf Claw, dealing Electro DMG to opponents in front of Razor.\\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\\n\\nHold\\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive Electro DMG, and clears all of Razor's Electro Sigils.\\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor.\\n\\nIn the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.",
+                "desc": "#Hunts his prey using the techniques taught to him by his master and his lupical.\\n\\n\\nSwings the Thunder Wolf Claw, dealing Electro DMG to opponents in front of Razor.\\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\\n\\nHold\\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive Electro DMG, and clears all of Razor's Electro Sigils.\\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor.\\n\\nIn the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Razor_01.webp"
               },
               {
@@ -283971,7 +283971,7 @@
               {
                 "name": "Bite",
                 "type": "Constellation 4",
-                "desc": "#When casting Claw and Thunder ({LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}), opponents hit will have their DEF decreased by 15% for 7s."
+                "desc": "#When casting Claw and Thunder (), opponents hit will have their DEF decreased by 15% for 7s."
               },
               {
                 "name": "Sharpened Claws",

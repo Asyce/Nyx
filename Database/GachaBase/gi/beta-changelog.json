@@ -1,0 +1,364 @@
+{
+  "game": "gi",
+  "label": "Genshin Impact",
+  "source": "GachaBase beta changelog",
+  "sourceUrl": "https://gi.gachabase.net/changelog/beta?lang=en",
+  "scrapedAt": "2026-07-05T17:07:08.514Z",
+  "title": "Changelog - v6.7.5X | Genshin Impact | Gachabase",
+  "categoryLinks": [
+    {
+      "type": "changelog",
+      "href": "https://gi.gachabase.net/changelog/beta?lang=en",
+      "text": "Changelog"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/beta?lang=en",
+      "text": "Characters"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/beta?lang=en",
+      "text": "Weapons"
+    },
+    {
+      "type": "artifacts",
+      "href": "https://gi.gachabase.net/artifacts/beta?lang=en",
+      "text": "Artifacts"
+    },
+    {
+      "type": "inventory",
+      "href": "https://gi.gachabase.net/inventory/all/beta?lang=en",
+      "text": "All"
+    },
+    {
+      "type": "inventory",
+      "href": "https://gi.gachabase.net/inventory/food/beta?lang=en",
+      "text": "Food"
+    },
+    {
+      "type": "inventory",
+      "href": "https://gi.gachabase.net/inventory/upgrade-materials/beta?lang=en",
+      "text": "Upgrade Materials"
+    },
+    {
+      "type": "inventory",
+      "href": "https://gi.gachabase.net/inventory/adventure-items/beta?lang=en",
+      "text": "Adventure Items"
+    },
+    {
+      "type": "inventory",
+      "href": "https://gi.gachabase.net/inventory/serenitea-pot/beta?lang=en",
+      "text": "Serenitea Pot"
+    },
+    {
+      "type": "inventory",
+      "href": "https://gi.gachabase.net/inventory/gadgets/beta?lang=en",
+      "text": "Gadgets"
+    },
+    {
+      "type": "inventory",
+      "href": "https://gi.gachabase.net/inventory/namecards/beta?lang=en",
+      "text": "Namecards"
+    },
+    {
+      "type": "inventory",
+      "href": "https://gi.gachabase.net/inventory/dressing-room/beta?lang=en",
+      "text": "Dressing Room"
+    },
+    {
+      "type": "inventory",
+      "href": "https://gi.gachabase.net/inventory/quest-items/beta?lang=en",
+      "text": "Quest Items"
+    },
+    {
+      "type": "inventory",
+      "href": "https://gi.gachabase.net/inventory/tcg/beta?lang=en",
+      "text": "TCG"
+    },
+    {
+      "type": "inventory",
+      "href": "https://gi.gachabase.net/inventory/consumables/beta?lang=en",
+      "text": "Consumables"
+    },
+    {
+      "type": "inventory",
+      "href": "https://gi.gachabase.net/inventory/other-items/beta?lang=en",
+      "text": "Other Items"
+    },
+    {
+      "type": "archive",
+      "href": "https://gi.gachabase.net/archive/books/beta?lang=en",
+      "text": "Books"
+    },
+    {
+      "type": "archive",
+      "href": "https://gi.gachabase.net/archive/readables/beta?lang=en",
+      "text": "Readables"
+    },
+    {
+      "type": "tutorials",
+      "href": "https://gi.gachabase.net/tutorials/all/beta?lang=en",
+      "text": "All"
+    },
+    {
+      "type": "tutorials",
+      "href": "https://gi.gachabase.net/tutorials/elements/beta?lang=en",
+      "text": "Elements"
+    },
+    {
+      "type": "tutorials",
+      "href": "https://gi.gachabase.net/tutorials/adventure/beta?lang=en",
+      "text": "Adventure"
+    },
+    {
+      "type": "tutorials",
+      "href": "https://gi.gachabase.net/tutorials/enemies/beta?lang=en",
+      "text": "Enemies"
+    },
+    {
+      "type": "tutorials",
+      "href": "https://gi.gachabase.net/tutorials/system/beta?lang=en",
+      "text": "System"
+    },
+    {
+      "type": "tutorials",
+      "href": "https://gi.gachabase.net/tutorials/other/beta?lang=en",
+      "text": "Other"
+    }
+  ],
+  "counts": {
+    "entries": 18,
+    "byType": {
+      "weapons": 16,
+      "artifacts": 2
+    },
+    "byStatus": {
+      "new": 13,
+      "updated": 5
+    }
+  },
+  "entries": [
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11435",
+      "rarity": 4,
+      "name": "BP Weapon",
+      "iconHash": "5c08a310142532085551b596938a5b01",
+      "status": "new",
+      "href": "https://gi.gachabase.net/weapons/11435/bp-weapon/beta/6.7.50/46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11436",
+      "rarity": 4,
+      "name": "Forgeable Weapon",
+      "iconHash": "e820cb9eb6c82d50758f8d2782587ed6",
+      "status": "new",
+      "href": "https://gi.gachabase.net/weapons/11436/forgeable-weapon/beta/6.7.50/46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11520",
+      "rarity": 5,
+      "name": "Whitelake Frostfeather",
+      "iconHash": "a10b7853cb47513dafe98bbc3c068057",
+      "status": "new",
+      "href": "https://gi.gachabase.net/weapons/11520/whitelake-frostfeather/beta/6.7.50/46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11521",
+      "rarity": 5,
+      "name": "Staredge Saber",
+      "iconHash": "7065f048eaf4d97e231a2bcd66295a76",
+      "status": "new",
+      "href": "https://gi.gachabase.net/weapons/11521/staredge-saber/beta/6.7.50/46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "12435",
+      "rarity": 4,
+      "name": "BP Weapon",
+      "iconHash": "6d1f24c0920ece4d836088cfbe0ffdf2",
+      "status": "new",
+      "href": "https://gi.gachabase.net/weapons/12435/bp-weapon/beta/6.7.50/46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "12436",
+      "rarity": 4,
+      "name": "Forgeable Weapon",
+      "iconHash": "31d2fb8798db034f22ee52b19d0694bb",
+      "status": "new",
+      "href": "https://gi.gachabase.net/weapons/12436/forgeable-weapon/beta/6.7.50/46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "12516",
+      "rarity": 5,
+      "name": "A Teaspoon of Transcendence",
+      "iconHash": "2b7a5a0845ec4d16d7ba1bb6b7910d79",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/12516/a-teaspoon-of-transcendence/beta/6.7.50/46041974",
+      "diff": "https://gi.gachabase.net/diff/weapons/12516/a-teaspoon-of-transcendence?prev=beta_6.6.54_45738258&cur=beta_6.7.50_46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "13435",
+      "rarity": 4,
+      "name": "BP Weapon",
+      "iconHash": "33d627504b5d49f5d8992b0f68ae0c21",
+      "status": "new",
+      "href": "https://gi.gachabase.net/weapons/13435/bp-weapon/beta/6.7.50/46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "13436",
+      "rarity": 4,
+      "name": "Forgeable Weapon",
+      "iconHash": "b8f4d1e1fb059610e0bc3379363334d5",
+      "status": "new",
+      "href": "https://gi.gachabase.net/weapons/13436/forgeable-weapon/beta/6.7.50/46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "14435",
+      "rarity": 4,
+      "name": "BP Weapon",
+      "iconHash": "62ce9af4a48903857fb38eef749dcb95",
+      "status": "new",
+      "href": "https://gi.gachabase.net/weapons/14435/bp-weapon/beta/6.7.50/46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "14436",
+      "rarity": 4,
+      "name": "Forgeable Weapon",
+      "iconHash": "ae50d2370dc7126dc4375c5c7ec07a97",
+      "status": "new",
+      "href": "https://gi.gachabase.net/weapons/14436/forgeable-weapon/beta/6.7.50/46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "14513",
+      "rarity": 5,
+      "name": "Cashflow Supervision",
+      "iconHash": "03c107cdae672128345a1133e1079e8c",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/14513/cashflow-supervision/beta/6.7.50/46041974",
+      "diff": "https://gi.gachabase.net/diff/weapons/14513/cashflow-supervision?prev=beta_6.6.54_45738258&cur=beta_6.7.50_46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "14518",
+      "rarity": 5,
+      "name": "Sunny Morning Sleep-In",
+      "iconHash": "b74589faa820f92a97c0bb75e82119e8",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/14518/sunny-morning-sleep-in/beta/6.7.50/46041974",
+      "diff": "https://gi.gachabase.net/diff/weapons/14518/sunny-morning-sleep-in?prev=beta_6.6.54_45738258&cur=beta_6.7.50_46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "15435",
+      "rarity": 4,
+      "name": "BP Weapon",
+      "iconHash": "4890397955b518397cdecd03fba75d24",
+      "status": "new",
+      "href": "https://gi.gachabase.net/weapons/15435/bp-weapon/beta/6.7.50/46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "15436",
+      "rarity": 4,
+      "name": "Forgeable Weapon",
+      "iconHash": "363986b0ead4ab67687a3949320d06d2",
+      "status": "new",
+      "href": "https://gi.gachabase.net/weapons/15436/forgeable-weapon/beta/6.7.50/46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "15514",
+      "rarity": 5,
+      "name": "Astral Vulture's Crimson Plumage",
+      "iconHash": "43b315af31d8b31d91113201fe8b2736",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/15514/astral-vultures-crimson-plumage/beta/6.7.50/46041974",
+      "diff": "https://gi.gachabase.net/diff/weapons/15514/astral-vultures-crimson-plumage?prev=beta_6.6.54_45738258&cur=beta_6.7.50_46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "artifacts",
+      "id": "15002",
+      "rarity": null,
+      "name": "Viridescent Venerer",
+      "iconHash": "e94a73209189301beeda0406b9c1d99b",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/artifacts/15002/viridescent-venerer/beta/6.7.50/46041974",
+      "diff": "https://gi.gachabase.net/diff/artifacts/15002/viridescent-venerer?prev=beta_6.6.54_45738258&cur=beta_6.7.50_46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    },
+    {
+      "game": "gi",
+      "type": "artifacts",
+      "id": "15047",
+      "rarity": null,
+      "name": "Crimson Proof",
+      "iconHash": "bbde45c6d9db62bb2d277a7812ed0941",
+      "status": "new",
+      "href": "https://gi.gachabase.net/artifacts/15047/crimson-proof/beta/6.7.50/46041974",
+      "betaVersion": "6.7.50",
+      "revision": "46041974"
+    }
+  ]
+}

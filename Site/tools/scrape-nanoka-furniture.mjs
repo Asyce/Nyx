@@ -26,6 +26,10 @@ function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
 }
 
+function normalizeRawHtml(s) {
+  return String(s || '').replace(/[ \t]+$/gm, '').replace(/\r?\n/g, '\n');
+}
+
 async function fetchText(url, retries = 3) {
   return fetchTextWithFallback(url, {
     retries,
@@ -92,7 +96,7 @@ const html = await fetchText(sourceUrl);
 
 ensureDir(path.resolve(outDir, 'raw'));
 ensureDir(path.resolve(outDir, 'assets'));
-fs.writeFileSync(path.resolve(outDir, 'raw', 'page.html'), html, 'utf8');
+fs.writeFileSync(path.resolve(outDir, 'raw', 'page.html'), normalizeRawHtml(html), 'utf8');
 
 let listPayload = null;
 let staticBase = null;

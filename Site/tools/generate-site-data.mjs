@@ -118,6 +118,9 @@ function cleanKitText(s, len = 2600) {
     .replace(/<IconMap:[^>]+>/gi, '')
     .replace(/<[^>]+>/g, '')
     .replace(/\{RUBY_[^}]+\}/g, '')
+    .replace(/\{\/?LINK[^}]*\}/gi, '')
+    .replace(/\{[A-Z][A-Z0-9_]*(?:#[^}]*)?\}/g, '')
+    .replace(/\{\/[A-Z][A-Z0-9_]*\}/g, '')
     .replace(/[ \t]+\n/g, '\n')
     .replace(/\n{3,}/g, '\n\n')
     .replace(/[ \t]{2,}/g, ' ')
@@ -170,11 +173,67 @@ function kitEntry({ name, type, desc, icon, params, stats }) {
   };
 }
 
+function dedupeKitEntries(entries) {
+  const out = [];
+  const byKey = new Map();
+  for (const entry of entries || []) {
+    if (!entry) continue;
+    const key = `${normKey(entry.type || '')}:${normKey(entry.name || '')}`;
+    const existing = byKey.get(key);
+    if (!existing) {
+      byKey.set(key, entry);
+      out.push(entry);
+      continue;
+    }
+    if (!entry.desc) continue;
+    if (!existing.desc) {
+      existing.desc = entry.desc;
+      continue;
+    }
+    const current = normKey(existing.desc);
+    const next = normKey(entry.desc);
+    if (next && !current.includes(next) && !next.includes(current)) {
+      existing.desc = cleanKitText(`${existing.desc}\n\n${entry.desc}`, 5000);
+    }
+    if (!existing.icon && entry.icon) existing.icon = entry.icon;
+    if ((!existing.stats || !existing.stats.length) && entry.stats?.length) existing.stats = entry.stats;
+  }
+  return out;
+}
+
+function kitSection(title, entries) {
+  const clean = dedupeKitEntries(entries).filter(Boolean);
+  return clean.length ? { title, entries: clean } : null;
+}
+
 function normKey(s) {
   return String(s || '')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\{RUBY_[^}]+\}/g, '')
+    .replace(/\{\/?LINK[^}]*\}/gi, '')
+    .replace(/\{[A-Z][A-Z0-9_]*(?:#[^}]*)?\}/g, '')
+    .replace(/\{\/[A-Z][A-Z0-9_]*\}/g, '')
     .normalize('NFKD')
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '');
+}
+
+function nanokaCharacterAliases(game, ch) {
+  const key = game === 'wuwa' ? 'ww' : game;
+  const id = String(ch?.id || '');
+  const name = cleanText(ch?.name, 120);
+  const aliases = [ch?.name, name];
+  if (name.includes('•')) aliases.push(name.replace(/\s*•\s*/g, ' '));
+
+  if (key === 'hsr') {
+    if (id === '1001') aliases.push('March 7th');
+    if (id === '1224') aliases.push('March 7th The Hunt', 'March 7th • The Hunt', 'March 7th Swordmaster');
+    if (id === '1413') aliases.push('Evernight', 'March 7th Evernight', 'March 7th • Evernight');
+    if (id === '1506') aliases.push('Silver Wolf LV.999', 'Silver Wolf LV999', 'Silver Wolf Lv 999', 'Silver Wolf • Lv. 999');
+  }
+
+  if (key === 'ww' && name && !/^the\s+/i.test(name)) aliases.push(`The ${name}`);
+  return uniq(aliases.map((alias) => cleanText(alias, 120)).filter(Boolean));
 }
 
 function localizedNamesFrom(source) {
@@ -1149,13 +1208,14 @@ function buildGenshinFurniture() {
   };
 }
 
-function markRecentBuckets(roster, keyFn, fallbackCount = 9) {
+function markRecentBuckets(roster, keyFn, fallbackCount = 9, includeFn = () => true) {
   roster.forEach((ch) => {
     delete ch.recent;
     delete ch.recentFallback;
   });
+  const eligible = roster.filter((ch) => includeFn(ch));
   const groups = new Map();
-  for (const ch of roster) {
+  for (const ch of eligible) {
     const key = keyFn(ch);
     if (!key) continue;
     if (!groups.has(key)) groups.set(key, []);
@@ -1164,7 +1224,7 @@ function markRecentBuckets(roster, keyFn, fallbackCount = 9) {
 
   const selected = [];
   let buckets = 0;
-  const huge = Math.max(12, Math.ceil((roster.length || 1) * 0.3));
+  const huge = Math.max(12, Math.ceil((eligible.length || 1) * 0.3));
   for (const [, list] of [...groups.entries()].sort((a, b) => Number(b[0]) - Number(a[0]))) {
     if (list.length > huge) continue;
     selected.push(...list);
@@ -1174,7 +1234,7 @@ function markRecentBuckets(roster, keyFn, fallbackCount = 9) {
 
   const final = selected.length >= 3
     ? selected
-    : roster.slice(0, Math.min(fallbackCount, roster.length));
+    : eligible.slice(0, Math.min(fallbackCount, eligible.length));
   final.forEach((ch) => {
     ch.recent = 1;
     if (selected.length < 3) ch.recentFallback = 1;
@@ -1253,6 +1313,17 @@ function nanokaItemLookup(game) {
 
 const localAvatarOverlayCache = new Map();
 
+function setNamedMapEntry(map, name, value, aliases = [], options = {}) {
+  if (!map || !value) return;
+  const names = uniq([name, cleanText(name, 120), ...aliases].filter(Boolean));
+  for (const alias of names) {
+    const lower = String(alias).toLowerCase();
+    const norm = normKey(alias);
+    if (lower && (options.force || !map.has(lower))) map.set(lower, value);
+    if (norm && (options.force || !map.has(norm))) map.set(norm, value);
+  }
+}
+
 function localAvatarOverlay(game) {
   const key = game === 'ww' ? 'wuwa' : game;
   const cacheKey = `${key}:${nch()}`;
@@ -1264,16 +1335,18 @@ function localAvatarOverlay(game) {
     const localized = rawCharacterLocaleMap('hsr');
     for (const ch of readJson(`Nanoka/hsr/${nch()}/characters.json`)) {
       if (!ch?.name) continue;
-      const meta = fandom.get(normKey(ch.name));
-      byName.set(normKey(ch.name), {
+      const displayName = cleanText(ch.name, 120);
+      const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
+      const payload = {
         icon: dbAsset(ch.assets?.roundIcon || ch.assets?.avatar),
         fallbackArt: dbAsset(ch.assets?.drawCard || ch.assets?.avatar),
-        title: titleOverride('hsr', ch.name),
-        localizedNames: localized.get(normKey(ch.name)) || meta?.localizedNames,
+        title: titleOverride('hsr', displayName),
+        localizedNames: localized.get(normKey(displayName)) || localized.get(normKey(ch.name)) || meta?.localizedNames,
         voiceActors: mergeVoiceActors(voiceActorsFrom(ch.profile?.va), meta?.voiceActors),
         release: parseRelease(ch.release) || meta?.release,
         releasePatch: meta?.releasePatch,
-      });
+      };
+      setNamedMapEntry(byName, displayName, payload, nanokaCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
     }
   }
 
@@ -1281,16 +1354,17 @@ function localAvatarOverlay(game) {
     const localized = rawCharacterLocaleMap('zzz');
     for (const ch of readJson(`Nanoka/zzz/${nch()}/agents.json`)) {
       if (!ch?.name) continue;
-      const meta = fandom.get(normKey(ch.name));
-      byName.set(normKey(ch.name), {
+      const displayName = cleanText(ch.name, 120);
+      const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
+      setNamedMapEntry(byName, displayName, {
         icon: dbAsset(ch.assets?.partnerIcon || ch.assets?.icon),
         fallbackArt: dbAsset(ch.assets?.icon),
-        title: titleOverride('zzz', ch.name),
-        localizedNames: localized.get(normKey(ch.name)) || meta?.localizedNames,
+        title: titleOverride('zzz', displayName),
+        localizedNames: localized.get(normKey(displayName)) || localized.get(normKey(ch.name)) || meta?.localizedNames,
         voiceActors: meta?.voiceActors,
         release: meta?.release,
         releasePatch: meta?.releasePatch,
-      });
+      }, nanokaCharacterAliases('zzz', ch));
     }
   }
 
@@ -1300,21 +1374,22 @@ function localAvatarOverlay(game) {
       if (!ch?.name) continue;
       const detailRel = `Nanoka/ww/${nch()}/raw/characters/${ch.id}.json`;
       const detail = exists(detailRel) ? readJson(detailRel) : null;
-      const meta = fandom.get(normKey(ch.name));
-      byName.set(normKey(ch.name), {
+      const displayName = cleanText(ch.name, 120);
+      const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
+      setNamedMapEntry(byName, displayName, {
         icon: dbAsset(ch.assets?.icon),
         fallbackArt: dbAsset(ch.assets?.background),
-        title: titleOverride('wuwa', ch.name),
-        localizedNames: localized.get(normKey(ch.name)) || meta?.localizedNames,
+        title: titleOverride('wuwa', displayName),
+        localizedNames: localized.get(normKey(displayName)) || localized.get(normKey(ch.name)) || meta?.localizedNames,
         voiceActors: mergeVoiceActors(voiceActorsFrom(detail || ch.profile), meta?.voiceActors),
         release: meta?.release,
         releasePatch: meta?.releasePatch,
         releaseOrder: Number(ch.id) || 0,
-      });
+      }, nanokaCharacterAliases('ww', ch));
     }
   }
 
-  localAvatarOverlayCache.set(key, byName);
+  localAvatarOverlayCache.set(cacheKey, byName);
   return byName;
 }
 
@@ -1637,7 +1712,8 @@ function buildGiKit(raw) {
       icon: giSkillIcon(skill),
     }))
     .filter(Boolean);
-  if (skills.length) sections.push({ title: 'Talents', entries: skills });
+  const skillSection = kitSection('Talents', skills);
+  if (skillSection) sections.push(skillSection);
   const passives = (raw.passives || [])
     .map((skill) => kitEntry({
       name: skill?.name,
@@ -1646,7 +1722,8 @@ function buildGiKit(raw) {
       icon: skill?.icon ? dbAsset(`Nanoka/gi/assets/skills/${skill.icon}.webp`) : null,
     }))
     .filter(Boolean);
-  if (passives.length) sections.push({ title: 'Passive Talents', entries: passives });
+  const passiveSection = kitSection('Passive Talents', passives);
+  if (passiveSection) sections.push(passiveSection);
   const constellations = (raw.constellations || [])
     .map((rank, index) => kitEntry({
       name: rank?.name,
@@ -1655,7 +1732,8 @@ function buildGiKit(raw) {
       icon: rank?.icon ? dbAsset(`Nanoka/gi/assets/skills/${rank.icon}.webp`) : null,
     }))
     .filter(Boolean);
-  if (constellations.length) sections.push({ title: 'Constellations', entries: constellations });
+  const constellationSection = kitSection('Constellations', constellations);
+  if (constellationSection) sections.push(constellationSection);
   return sections.length ? { ...kitSource('gi'), sections } : null;
 }
 
@@ -1910,6 +1988,12 @@ function hsrSkillMaxParams(skill) {
   return max?.param_list || skill?.param_list || [];
 }
 
+function hsrSkillTypeLabel(skill) {
+  if (skill?.type === 'MazeNormal' || skill?.tag === 'MazeAttack') return 'Technique Attack';
+  if (skill?.type === 'Assist') return 'Assist Skill';
+  return skill?.type_name || skill?.tag;
+}
+
 function buildHsrKit(raw) {
   if (!raw) return null;
   const sections = [];
@@ -1926,14 +2010,15 @@ function buildHsrKit(raw) {
         .find((node) => (node?.level_up_skill_id || []).map(String).includes(String(skill.id)))?.icon;
       return kitEntry({
         name: skill?.name,
-        type: skill?.type_name || skill?.tag,
+        type: hsrSkillTypeLabel(skill),
         desc: skill?.desc || skill?.simple_desc,
         params: hsrSkillMaxParams(skill),
         icon: hsrSkillIconAsset(icon),
       });
     })
     .filter(Boolean);
-  if (skills.length) sections.push({ title: 'Skills', entries: skills });
+  const skillSection = kitSection('Skills', skills);
+  if (skillSection) sections.push(skillSection);
 
   const traces = Object.values(raw.skill_trees || {})
     .flatMap((point) => Object.values(point || {}))
@@ -1947,7 +2032,8 @@ function buildHsrKit(raw) {
       icon: hsrSkillIconAsset(node?.icon),
     }))
     .filter(Boolean);
-  if (traces.length) sections.push({ title: 'Major Traces', entries: traces });
+  const traceSection = kitSection('Major Traces', traces);
+  if (traceSection) sections.push(traceSection);
 
   const eidolons = Object.entries(raw.ranks || {})
     .sort((a, b) => Number(a[0]) - Number(b[0]))
@@ -1959,7 +2045,8 @@ function buildHsrKit(raw) {
       icon: hsrSkillIconAsset(row?.icon),
     }))
     .filter(Boolean);
-  if (eidolons.length) sections.push({ title: 'Eidolons', entries: eidolons });
+  const eidolonSection = kitSection('Eidolons', eidolons);
+  if (eidolonSection) sections.push(eidolonSection);
 
   return sections.length ? { ...kitSource('hsr'), sections } : null;
 }
@@ -1971,7 +2058,7 @@ function buildHsrKitMap() {
     const rawRel = `Nanoka/hsr/${nch()}/raw/characters/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
     const kit = buildHsrKit(readJson(rawRel));
-    if (kit) setReqMapEntry(out, ch.name, kit);
+    if (kit) setReqMapEntry(out, ch.name, kit, nanokaCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
   }
   return out;
 }
@@ -1991,7 +2078,7 @@ function buildHsrNanokaSignatureMap() {
       ...lightCone,
       source: 'Nanoka recommended light cone',
       educated: false,
-    });
+    }, nanokaCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
   }
   return out;
 }
@@ -2021,8 +2108,7 @@ function buildHsrSkillIconMap() {
     if (!ch?.name || !exists(rawRel)) continue;
     const icons = hsrSkillIcons(readJson(rawRel));
     if (!icons.length) continue;
-    out.set(String(ch.name).toLowerCase(), icons);
-    out.set(normKey(ch.name), icons);
+    setNamedMapEntry(out, ch.name, icons, nanokaCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
   }
   return out;
 }
@@ -2035,15 +2121,13 @@ function buildHsrReqMap() {
     if (!ch?.name || !exists(rawRel)) continue;
     const req = hsrRequirements(readJson(rawRel));
     // Dual-key by lowercase + normKey so Prydwen "Himeko Nova" matches Nanoka "Himeko • Nova".
-    setReqMapEntry(out, ch.name, req);
+    setReqMapEntry(out, ch.name, req, nanokaCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
   }
   return out;
 }
 
-function setReqMapEntry(map, name, req) {
-  if (!name || !req) return;
-  map.set(String(name).toLowerCase(), req);
-  map.set(normKey(name), req);
+function setReqMapEntry(map, name, req, aliases = [], options = {}) {
+  setNamedMapEntry(map, name, req, aliases, options);
 }
 
 function sumZzzWEngineMaterials(engine) {
@@ -2339,7 +2423,8 @@ function buildZzzKit(raw) {
       if (entry) skillEntries.push(entry);
     }
   }
-  if (skillEntries.length) sections.push({ title: 'Skills', entries: skillEntries });
+  const skillSection = kitSection('Skills', skillEntries);
+  if (skillSection) sections.push(skillSection);
 
   const passiveRows = Object.values(raw.passive?.level || {});
   const passive = passiveRows.sort((a, b) => Number(b?.level || 0) - Number(a?.level || 0))[0];
@@ -2352,7 +2437,8 @@ function buildZzzKit(raw) {
       if (entry) passiveEntries.push(entry);
     });
   }
-  if (passiveEntries.length) sections.push({ title: 'Core Skill', entries: passiveEntries });
+  const passiveSection = kitSection('Core Skill', passiveEntries);
+  if (passiveSection) sections.push(passiveSection);
 
   const mindscapes = Object.entries(raw.talent || {})
     .sort((a, b) => Number(a[0]) - Number(b[0]))
@@ -2362,7 +2448,8 @@ function buildZzzKit(raw) {
       desc: row?.desc,
     }))
     .filter(Boolean);
-  if (mindscapes.length) sections.push({ title: 'Mindscape Cinema', entries: mindscapes });
+  const mindscapeSection = kitSection('Mindscape Cinema', mindscapes);
+  if (mindscapeSection) sections.push(mindscapeSection);
   return sections.length ? { ...kitSource('zzz'), sections } : null;
 }
 
@@ -2373,7 +2460,7 @@ function buildZzzKitMap() {
     const rawRel = `Nanoka/zzz/${nch()}/raw/agents/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
     const kit = buildZzzKit(readJson(rawRel));
-    if (kit) setReqMapEntry(out, ch.name, kit);
+    if (kit) setReqMapEntry(out, ch.name, kit, nanokaCharacterAliases('zzz', ch));
   }
   return out;
 }
@@ -2384,7 +2471,7 @@ function buildZzzReqMap() {
   for (const ch of readJson(`Nanoka/zzz/${nch()}/agents.json`)) {
     const rawRel = `Nanoka/zzz/${nch()}/raw/agents/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
-    setReqMapEntry(out, ch.name, zzzRequirements(readJson(rawRel)));
+    setReqMapEntry(out, ch.name, zzzRequirements(readJson(rawRel)), nanokaCharacterAliases('zzz', ch));
   }
   return out;
 }
@@ -2467,7 +2554,7 @@ function buildWuwaReqMap() {
   for (const ch of readJson(`Nanoka/ww/${nch()}/characters.json`)) {
     const rawRel = `Nanoka/ww/${nch()}/raw/characters/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
-    setReqMapEntry(out, ch.name, wuwaRequirements(readJson(rawRel)));
+    setReqMapEntry(out, ch.name, wuwaRequirements(readJson(rawRel)), nanokaCharacterAliases('ww', ch));
   }
   return out;
 }
@@ -2520,7 +2607,8 @@ function buildWuwaKit(raw) {
       icon: wuwaSkillIconAsset(node.skill?.icon),
     }))
     .filter(Boolean);
-  if (skills.length) sections.push({ title: 'Skills', entries: skills });
+  const skillSection = kitSection('Skills', skills);
+  if (skillSection) sections.push(skillSection);
 
   const chains = Object.entries(raw.chains || {})
     .sort((a, b) => Number(a[0]) - Number(b[0]))
@@ -2531,7 +2619,8 @@ function buildWuwaKit(raw) {
       icon: wuwaSkillIconAsset(row?.icon),
     }))
     .filter(Boolean);
-  if (chains.length) sections.push({ title: 'Resonance Chain', entries: chains });
+  const chainSection = kitSection('Resonance Chain', chains);
+  if (chainSection) sections.push(chainSection);
   return sections.length ? { ...kitSource('wuwa'), sections } : null;
 }
 
@@ -2542,7 +2631,7 @@ function buildWuwaKitMap() {
     const rawRel = `Nanoka/ww/${nch()}/raw/characters/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
     const kit = buildWuwaKit(readJson(rawRel));
-    if (kit) setReqMapEntry(out, ch.name, kit);
+    if (kit) setReqMapEntry(out, ch.name, kit, nanokaCharacterAliases('ww', ch));
   }
   return out;
 }
@@ -2555,8 +2644,7 @@ function buildWuwaSkillIconMap() {
     if (!ch?.name || !exists(rawRel)) continue;
     const icons = wuwaSkillIcons(readJson(rawRel));
     if (!icons.length) continue;
-    out.set(String(ch.name).toLowerCase(), icons);
-    out.set(normKey(ch.name), icons);
+    setNamedMapEntry(out, ch.name, icons, nanokaCharacterAliases('ww', ch));
   }
   return out;
 }
@@ -2584,8 +2672,8 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const holidayArtPool = game === 'hsr' ? (HSR_HOLIDAY_ART.get(normKey(ch.name)) || []) : [];
     const icon = local?.icon || dbAsset(ch.art?.icon || ch.art?.card || ch.art?.full);
     const iconZoom = MANUAL_ICON_ZOOM[overlayGame]?.[normKey(ch.name)] || (!local?.icon && icon ? 1.18 : undefined);
-    const art = dbAsset(ch.art?.full || ch.art?.card || ch.art?.icon) || local?.fallbackArt;
-    const card = dbAsset(ch.art?.card || ch.art?.full || ch.art?.icon) || local?.fallbackArt;
+    const art = dbAsset(ch.art?.full || ch.art?.card || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
+    const card = dbAsset(ch.art?.card || ch.art?.full || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
     const hasReliableData = !!(local || req || kit);
     const upcomingOnly = ch.contentStatus && ch.contentStatus !== 'live' && !hasReliableData;
     const mergedReq = req || signatureReq
@@ -2689,7 +2777,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
   } else {
     chars.sort((a, b) => (b.updated || 0) - (a.updated || 0) || rarityScore(b.r) - rarityScore(a.r) || a.n.localeCompare(b.n));
   }
-  markRecentBuckets(chars, (ch) => ch.updated, game === 'ww' ? 9 : 9);
+  markRecentBuckets(chars, (ch) => ch.updated, game === 'ww' ? 9 : 9, (ch) => !ch.upcoming && ch.reliableData !== false);
   chars.forEach((ch) => { if (ch.upcoming) ch.recent = false; });
   return chars;
 }

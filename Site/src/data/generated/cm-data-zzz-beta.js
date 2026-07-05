@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["zzz"] = {
-  "version": "3.1.4+17277842",
+  "version": "3.1.4+17279672",
   "liveVersion": "3.0",
   "newCount": 1,
   "changedCount": 7,
@@ -27,7 +27,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "3.1.4+17277842",
+        "version": "3.1.4+17279672",
         "sections": [
           {
             "title": "Skills",
@@ -1645,7 +1645,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "3.1.4+17277842",
+        "version": "3.1.4+17279672",
         "sections": [
           {
             "title": "Skills",
@@ -3291,7 +3291,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "3.1.4+17277842",
+        "version": "3.1.4+17279672",
         "sections": [
           {
             "title": "Skills",
@@ -4958,7 +4958,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "3.1.4+17277842",
+        "version": "3.1.4+17279672",
         "sections": [
           {
             "title": "Skills",
@@ -6605,7 +6605,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "3.1.4+17277842",
+        "version": "3.1.4+17279672",
         "sections": [
           {
             "title": "Skills",
@@ -8246,7 +8246,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "3.1.4+17277842",
+        "version": "3.1.4+17279672",
         "sections": [
           {
             "title": "Skills",
@@ -8254,22 +8254,12 @@
               {
                 "name": "Basic Attack: Kitty Slash",
                 "type": "Basic",
-                "desc": "Press to activate:\nUnleashes up to 5 slashes, dealing Physical DMG.\nOn the last hit, there is a 33.33% chance to repeat this hit 3 times."
-              },
-              {
-                "name": "Basic Attack: Kitty Slash",
-                "type": "Basic",
-                "desc": "Press to activate:\nUnleashes up to 5 slashes, dealing Physical DMG.\nOn the last hit, if it strikes a Stunned enemy, this hit repeats 3 times."
+                "desc": "Press to activate:\nUnleashes up to 5 slashes, dealing Physical DMG.\nOn the last hit, there is a 33.33% chance to repeat this hit 3 times.\n\nPress to activate:\nUnleashes up to 5 slashes, dealing Physical DMG.\nOn the last hit, if it strikes a Stunned enemy, this hit repeats 3 times."
               },
               {
                 "name": "Basic Attack: Crimson Blade",
                 "type": "Basic",
-                "desc": "Hold during the first 3 hits of Nekomata's Basic Attack to activate:\nSlashes enemies in front and passes through them, dealing Physical DMG.\nUpon activation, there is a 33.33% chance to repeat this attack 3 times."
-              },
-              {
-                "name": "Basic Attack: Crimson Blade",
-                "type": "Basic",
-                "desc": "Hold during the first 3 hits of [Basic Attack] to activate:\nSlashes enemies in front and passes through them, dealing Physical DMG.\nUpon activating this skill, if it hits an enemy in a Stunned state, this attack repeats 3 times."
+                "desc": "Hold during the first 3 hits of Nekomata's Basic Attack to activate:\nSlashes enemies in front and passes through them, dealing Physical DMG.\nUpon activation, there is a 33.33% chance to repeat this attack 3 times.\n\nHold during the first 3 hits of [Basic Attack] to activate:\nSlashes enemies in front and passes through them, dealing Physical DMG.\nUpon activating this skill, if it hits an enemy in a Stunned state, this attack repeats 3 times."
               },
               {
                 "name": "Dodge: Can't Touch Me-ow~",
@@ -8317,19 +8307,9 @@
                 "desc": "Press to activate:\nUnleashes a downward strike, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill."
               },
               {
-                "name": "Special Attack: Surprise Attack",
-                "type": "Special",
-                "desc": "Press to activate:\nUnleashes a downward strike, dealing Physical DMG;\nAnti-Interrupt level is increased while using this skill;\nThe skill's follow-up attack effect is enhanced."
-              },
-              {
                 "name": "EX Special Attack: Super Surprise Attack!",
                 "type": "Special",
                 "desc": "With enough Energy, press to activate:\nUnleashes a powerful falling slash that deals massive Physical DMG.\nCharacter is invulnerable while using this skill."
-              },
-              {
-                "name": "EX Special Attack: Super Surprise Attack!",
-                "type": "Special",
-                "desc": "With enough Energy, press to activate:\nUnleashes a powerful falling slash that deals massive Physical DMG.\nCharacter is invulnerable while using this skill.\nThe skill's follow-up attack effect is enhanced."
               },
               {
                 "name": "Chain Attack: Claw Swipe",
@@ -9920,7 +9900,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "3.1.4+17277842",
+        "version": "3.1.4+17279672",
         "sections": [
           {
             "title": "Skills",
@@ -11567,7 +11547,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "3.1.4+17277842",
+        "version": "3.1.4+17279672",
         "sections": [
           {
             "title": "Skills",

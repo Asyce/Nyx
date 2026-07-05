@@ -4586,12 +4586,7 @@
               {
                 "name": "Basic Attack: Mixed Flame Blend",
                 "type": "Basic",
-                "desc": "In the Nitro-Fuel Cocktail state, hold to activate:\nSpin continuously while spraying flames around, followed by a Finishing Move that inflicts Fire DMG. Continuing to hold extends the flame-spraying duration.\nWhen the move is activated, it consumes 20 Heat;\nAnti-Interrupt level is increased while using this skill.\nAfter executing the Finishing Move, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot."
-              },
-              {
-                "name": "Basic Attack: Mixed Flame Blend",
-                "type": "Basic",
-                "desc": "In the Nitro-Fuel Cocktail state, hold to activate:\nSpins continuously while spraying flames around, followed by a Finishing Move, then triggers an extra instance of Afterburn that doesn't cost Heat and deals Fire DMG. Continuing to hold extends the flame-spraying duration.\nThe DMG dealt by this skill also counts as Assist Attack DMG.\nUpon activation, it consumes 20 Heat.\nAnti-Interrupt level is increased while using this skill.\nAfter executing the Finishing Move, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot."
+                "desc": "In the Nitro-Fuel Cocktail state, hold to activate:\nSpin continuously while spraying flames around, followed by a Finishing Move that inflicts Fire DMG. Continuing to hold extends the flame-spraying duration.\nWhen the move is activated, it consumes 20 Heat;\nAnti-Interrupt level is increased while using this skill.\nAfter executing the Finishing Move, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot.\n\nIn the Nitro-Fuel Cocktail state, hold to activate:\nSpins continuously while spraying flames around, followed by a Finishing Move, then triggers an extra instance of Afterburn that doesn't cost Heat and deals Fire DMG. Continuing to hold extends the flame-spraying duration.\nThe DMG dealt by this skill also counts as Assist Attack DMG.\nUpon activation, it consumes 20 Heat.\nAnti-Interrupt level is increased while using this skill.\nAfter executing the Finishing Move, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot."
               },
               {
                 "name": "Dodge: Fiery Phantom Dash",
@@ -4611,12 +4606,7 @@
               {
                 "name": "Quick Assist: Energizing Specialty Drink",
                 "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nUnleash a flurry of attacks on enemies in front while spraying flames, dealing Physical DMG and Fire DMG.\nCharacter is invulnerable while using this skill."
-              },
-              {
-                "name": "Quick Assist: Energizing Specialty Drink",
-                "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nLaunches a series of attacks at enemies ahead and sprays flames, dealing Physical DMG and Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot."
+                "desc": "When the active character is launched, press to activate:\nUnleash a flurry of attacks on enemies in front while spraying flames, dealing Physical DMG and Fire DMG.\nCharacter is invulnerable while using this skill.\n\nWhen the active character is launched, press to activate:\nLaunches a series of attacks at enemies ahead and sprays flames, dealing Physical DMG and Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot."
               },
               {
                 "name": "Defensive Assist: Smoky Cauldron",
@@ -4636,22 +4626,12 @@
               {
                 "name": "EX Special Attack: Intense Heat Stirring Method",
                 "type": "Special",
-                "desc": "With enough energy, press to activate:\nContinuously spray flames with a one-handed flamethrower, then release a fire blast in a straight line ahead, dealing massive Fire DMG. Continue holding to steadily consume energy and extend the spray's duration.\nWhile continuously spraying, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to execute a sidestep dodge, adjusting your position in the corresponding direction.\nAnti-Interrupt Level is increased while continuously spraying, and DMG taken is reduced by 40%.\nCharacter is invulnerable during sidestep dodge and fire blast."
-              },
-              {
-                "name": "EX Special Attack: Intense Heat Stirring Method",
-                "type": "Special",
-                "desc": "With enough energy, press to activate:\nContinuously spray flames with a one-handed flamethrower, then release a fire blast in a straight line ahead, dealing massive Fire DMG. Continue holding to steadily consume energy and extend the spray's duration.\nWhile continuously spraying, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to execute a sidestep dodge, adjusting your position in the corresponding direction.\nAnti-Interrupt Level is increased while continuously spraying, and DMG taken is reduced by 60%.\nCharacter is invulnerable during sidestep dodge and fire blast."
+                "desc": "With enough energy, press to activate:\nContinuously spray flames with a one-handed flamethrower, then release a fire blast in a straight line ahead, dealing massive Fire DMG. Continue holding to steadily consume energy and extend the spray's duration.\nWhile continuously spraying, drag the to execute a sidestep dodge, adjusting your position in the corresponding direction.\nAnti-Interrupt Level is increased while continuously spraying, and DMG taken is reduced by 40%.\nCharacter is invulnerable during sidestep dodge and fire blast.\n\nWith enough energy, press to activate:\nContinuously spray flames with a one-handed flamethrower, then release a fire blast in a straight line ahead, dealing massive Fire DMG. Continue holding to steadily consume energy and extend the spray's duration.\nWhile continuously spraying, drag the to execute a sidestep dodge, adjusting your position in the corresponding direction.\nAnti-Interrupt Level is increased while continuously spraying, and DMG taken is reduced by 60%.\nCharacter is invulnerable during sidestep dodge and fire blast."
               },
               {
                 "name": "EX Special Attack: Intense Heat Stirring Method - Double Shot",
                 "type": "Special",
-                "desc": "While using EX Special Attack: Intense Heat Stirring Method, with enough Energy, press to activate:\nUse both flamethrowers to continuously spray flames, followed by a fire blast in a front line, dealing massive Fire DMG. Keep holding to continue consuming Energy and extend the spray's duration.\nCharacter is invulnerable during the moment the spray is activated and during the activation of the fire blast.\nAnti-Interrupt Level is increased while spraying, and DMG received is reduced by 40%."
-              },
-              {
-                "name": "EX Special Attack: Intense Heat Stirring Method - Double Shot",
-                "type": "Special",
-                "desc": "While using EX Special Attack: Intense Heat Stirring Method, with enough Energy, press to activate:\nUse both flamethrowers to continuously spray flames, followed by a fire blast in a front line, dealing massive Fire DMG. Keep holding to continue consuming Energy and extend the spray's duration.\nCharacter is invulnerable during the moment the spray is activated and during the activation of the fire blast.\nAnti-Interrupt Level is increased while spraying, and DMG received is reduced by 60%."
+                "desc": "While using EX Special Attack: Intense Heat Stirring Method, with enough Energy, press to activate:\nUse both flamethrowers to continuously spray flames, followed by a fire blast in a front line, dealing massive Fire DMG. Keep holding to continue consuming Energy and extend the spray's duration.\nCharacter is invulnerable during the moment the spray is activated and during the activation of the fire blast.\nAnti-Interrupt Level is increased while spraying, and DMG received is reduced by 40%.\n\nWhile using EX Special Attack: Intense Heat Stirring Method, with enough Energy, press to activate:\nUse both flamethrowers to continuously spray flames, followed by a fire blast in a front line, dealing massive Fire DMG. Keep holding to continue consuming Energy and extend the spray's duration.\nCharacter is invulnerable during the moment the spray is activated and during the activation of the fire blast.\nAnti-Interrupt Level is increased while spraying, and DMG received is reduced by 60%."
               },
               {
                 "name": "EX Special Attack: Intense Heat Tossing Method",
@@ -6255,12 +6235,7 @@
               {
                 "name": "Basic Attack: High-Pressure Spike",
                 "type": "Basic",
-                "desc": "Press to activate:\nUnleashes up to 4 attacks, dealing Physical DMG and Electric DMG.\nWhile launching Basic Attacks, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to attack while moving. This allows Grace to reposition herself and deal Physical DMG.\nWhile Grace is launching Basic Attacks, her Basic Attack combo will not be interrupted by her Special Attacks, EX Special Attacks, Dodge, Dash Attacks, or Dodge Counter."
-              },
-              {
-                "name": "Basic Attack: High-Pressure Spike",
-                "type": "Basic",
-                "desc": "Press to activate:\nUnleashes up to 4 attacks, dealing Physical DMG and Electric DMG.\nWhile launching Basic Attacks, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to move while attacking. This allows Grace to reposition herself and deal Physical DMG. If used after the 1st or 2nd hit of a Basic Attack, pressing again resumes the combo from the 3rd or 4th hit of the Basic Attack.\nWhile Grace is launching Basic Attacks, her Basic Attack combo will not be interrupted by her Special Attacks, EX Special Attacks, Dodge, Dash Attacks, or Dodge Counter."
+                "desc": "Press to activate:\nUnleashes up to 4 attacks, dealing Physical DMG and Electric DMG.\nWhile launching Basic Attacks, drag the to attack while moving. This allows Grace to reposition herself and deal Physical DMG.\nWhile Grace is launching Basic Attacks, her Basic Attack combo will not be interrupted by her Special Attacks, EX Special Attacks, Dodge, Dash Attacks, or Dodge Counter.\n\nPress to activate:\nUnleashes up to 4 attacks, dealing Physical DMG and Electric DMG.\nWhile launching Basic Attacks, drag the to move while attacking. This allows Grace to reposition herself and deal Physical DMG. If used after the 1st or 2nd hit of a Basic Attack, pressing again resumes the combo from the 3rd or 4th hit of the Basic Attack.\nWhile Grace is launching Basic Attacks, her Basic Attack combo will not be interrupted by her Special Attacks, EX Special Attacks, Dodge, Dash Attacks, or Dodge Counter."
               },
               {
                 "name": "Dodge: Safety Regulation",
@@ -6275,12 +6250,7 @@
               {
                 "name": "Dodge Counter: Violation Penalty",
                 "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nThrows a grenade at enemies, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
-              },
-              {
-                "name": "Dodge Counter: Violation Penalty",
-                "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nThrows a grenade at enemies, dealing Electric DMG, then automatically triggers the Basic Attack's 4th hit.\nCharacter is invulnerable while using this skill."
+                "desc": "Press during a Perfect Dodge to activate:\nThrows a grenade at enemies, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n\nPress during a Perfect Dodge to activate:\nThrows a grenade at enemies, dealing Electric DMG, then automatically triggers the Basic Attack's 4th hit.\nCharacter is invulnerable while using this skill."
               },
               {
                 "name": "Quick Assist: Incident Management",
@@ -6300,22 +6270,12 @@
               {
                 "name": "Special Attack: Obstruction Removal",
                 "type": "Special",
-                "desc": "Press to activate:\nThrows a grenade to the front, dealing Electric DMG.\nUpon use, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to change directions.\nAnti-Interrupt level is increased while using this skill."
-              },
-              {
-                "name": "Special Attack: Obstruction Removal",
-                "type": "Special",
-                "desc": "Press to activate:\nThrows a grenade forward, dealing Electric DMG.\nDuring the skill, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to reposition in that direction.\nWhen activated via consuming Zap, dodge incoming enemy attacks.\nAnti-Interrupt level is increased while using this skill."
+                "desc": "Press to activate:\nThrows a grenade to the front, dealing Electric DMG.\nUpon use, drag the to change directions.\nAnti-Interrupt level is increased while using this skill.\n\nPress to activate:\nThrows a grenade forward, dealing Electric DMG.\nDuring the skill, drag the to reposition in that direction.\nWhen activated via consuming Zap, dodge incoming enemy attacks.\nAnti-Interrupt level is increased while using this skill."
               },
               {
                 "name": "EX Special Attack: Supercharged Obstruction Removal",
                 "type": "Special",
-                "desc": "With enough Energy, press to activate:\nLeap in the air and throw two grenades to the front, dealing massive Electric DMG.\nUpon use, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to change directions.\nCharacter is invulnerable while using this skill."
-              },
-              {
-                "name": "EX Special Attack: Supercharged Obstruction Removal",
-                "type": "Special",
-                "desc": "With enough Energy, press to activate:\nLeaps into the air and throws two grenades forward, dealing massive Electric DMG.\nDuring the skill, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to change directions.\nIf Zap reaches max stacks, throws an additional Vortex Cluster Grenade, generating an electromagnetic field at the point of detonation that pulls in enemies and deals Electric DMG.\nCharacter is invulnerable while using this skill."
+                "desc": "With enough Energy, press to activate:\nLeap in the air and throw two grenades to the front, dealing massive Electric DMG.\nUpon use, drag the to change directions.\nCharacter is invulnerable while using this skill.\n\nWith enough Energy, press to activate:\nLeaps into the air and throws two grenades forward, dealing massive Electric DMG.\nDuring the skill, drag the to change directions.\nIf Zap reaches max stacks, throws an additional Vortex Cluster Grenade, generating an electromagnetic field at the point of detonation that pulls in enemies and deals Electric DMG.\nCharacter is invulnerable while using this skill."
               },
               {
                 "name": "Pulse",
@@ -6325,7 +6285,7 @@
               {
                 "name": "Special Attack: Obstruction Removal - Cycle",
                 "type": "Special",
-                "desc": "While in the Pulse state, hold to activate:\nRepeatedly hurls grenades forward during the skill, dealing Electric DMG and granting 1 Zap stack each time grenades are thrown.\nDuring the skill, tilt the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to reposition and dodge enemy attacks.\nAnti-Interrupt level is increased while using this skill."
+                "desc": "While in the Pulse state, hold to activate:\nRepeatedly hurls grenades forward during the skill, dealing Electric DMG and granting 1 Zap stack each time grenades are thrown.\nDuring the skill, tilt the to reposition and dodge enemy attacks.\nAnti-Interrupt level is increased while using this skill."
               },
               {
                 "name": "Chain Attack: Collaborative Construction",
@@ -6335,12 +6295,7 @@
               {
                 "name": "Ultimate: Demolition Blast - Beware",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nThrows a custom grenade which explodes in the air and splits into four smaller grenades, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill."
-              },
-              {
-                "name": "Ultimate: Demolition Blast - Beware",
-                "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nThrows a custom grenade which explodes in the air and splits into four smaller grenades, dealing massive Electric DMG.\nGains 8 stacks of Zap and 25 stacks of Pulse (max 25 stacks).\nCharacter is invulnerable while using this skill."
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nThrows a custom grenade which explodes in the air and splits into four smaller grenades, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\n\nWhen Decibel Rating is at Maximum, press to activate:\nThrows a custom grenade which explodes in the air and splits into four smaller grenades, dealing massive Electric DMG.\nGains 8 stacks of Zap and 25 stacks of Pulse (max 25 stacks).\nCharacter is invulnerable while using this skill."
               }
             ]
           },
@@ -16240,7 +16195,7 @@
               {
                 "name": "Dodge: Wandering Cloud",
                 "type": "Dodge",
-                "desc": "While tilting the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick}, hold to activate:\nEnters a high-speed movement state. Steer with the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick}, and release the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to stop."
+                "desc": "While tilting the , hold to activate:\nEnters a high-speed movement state. Steer with the , and release the to stop."
               },
               {
                 "name": "Dash Attack: Phantasm Dash",
@@ -17955,12 +17910,12 @@
               {
                 "name": "EX Special Attack: Aurora Thrust - Northern Cross",
                 "type": "Special",
-                "desc": "With enough energy, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} forward and press to activate:\nA thrust attack that goes through enemies ahead, dealing massive Physical DMG.\nActivating the skill can trigger Perfect Dodge and restores 10 Blade Etiquette.\nCharacter is invulnerable while using this skill."
+                "desc": "With enough energy, drag the forward and press to activate:\nA thrust attack that goes through enemies ahead, dealing massive Physical DMG.\nActivating the skill can trigger Perfect Dodge and restores 10 Blade Etiquette.\nCharacter is invulnerable while using this skill."
               },
               {
                 "name": "EX Special Attack: Aurora Thrust - Southern Cross",
                 "type": "Special",
-                "desc": "With enough energy, and without moving the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} or when dragging it backwards, press to activate:\nBack away with a slash, then thrust forward, dealing massive Physical DMG.\nActivating the skill can trigger Perfect Dodge and restores 10 Blade Etiquette.\nCharacter is invulnerable while using this skill."
+                "desc": "With enough energy, and without moving the or when dragging it backwards, press to activate:\nBack away with a slash, then thrust forward, dealing massive Physical DMG.\nActivating the skill can trigger Perfect Dodge and restores 10 Blade Etiquette.\nCharacter is invulnerable while using this skill."
               },
               {
                 "name": "Chain Attack: Starfall Intermission",
@@ -19583,7 +19538,7 @@
               {
                 "name": "Dash Attack: \"Lunar Eclipse Melody\"",
                 "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nAttack ahead, dealing Ether DMG.\nWhen triggered, dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} allows movement in the corresponding direction."
+                "desc": "Press during a dodge to activate:\nAttack ahead, dealing Ether DMG.\nWhen triggered, dragging the allows movement in the corresponding direction."
               },
               {
                 "name": "Dodge Counter: \"Umbrella Waltz\"",
@@ -19608,7 +19563,7 @@
               {
                 "name": "Special Attack: \"Windchimes & Oaths\"",
                 "type": "Special",
-                "desc": "Press to activate:\nQuickly move away, then release Tremolo, dealing Ether DMG, and enter the Idyllic Cadenza state.\nDuring activation, dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} enables movement in the direction held.\nHold to charge during activation, drawing enemies in, and follow up with 1 to 4 Tremolos depending on the charge duration.\nA Quick Assist will be triggered when this skill hits an enemy.\nCharacter is invulnerable when quickly moving away."
+                "desc": "Press to activate:\nQuickly move away, then release Tremolo, dealing Ether DMG, and enter the Idyllic Cadenza state.\nDuring activation, dragging the enables movement in the direction held.\nHold to charge during activation, drawing enemies in, and follow up with 1 to 4 Tremolos depending on the charge duration.\nA Quick Assist will be triggered when this skill hits an enemy.\nCharacter is invulnerable when quickly moving away."
               },
               {
                 "name": "Idyllic Cadenza",
@@ -21246,7 +21201,7 @@
               {
                 "name": "Dodge: Immovable Mountain",
                 "type": "Dodge",
-                "desc": "While attacking, press without moving the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to activate:\nBanyue enters a defensive stance. If attacked during this time, he parries the enemy's attack and accumulates Daze.\nIf attacked at the exact moment the skill is activated, a Perfect Block occurs.\nCharacter is invulnerable during a successful parry."
+                "desc": "While attacking, press without moving the to activate:\nBanyue enters a defensive stance. If attacked during this time, he parries the enemy's attack and accumulates Daze.\nIf attacked at the exact moment the skill is activated, a Perfect Block occurs.\nCharacter is invulnerable during a successful parry."
               },
               {
                 "name": "Dodge: Overcome Peaks",
@@ -21256,7 +21211,7 @@
               {
                 "name": "Dodge: Battle Cry",
                 "type": "Dodge",
-                "desc": "Rotate the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} in a half-circle and press to activate:\nDodges backward and taunts enemies.\nAfter any EX Special Attack, follow up with Dodge: Battle Cry and quickly execute the required inputs during Dodge: Battle Cry to then follow up with the corresponding EX Special Attack.\nCharacter is invulnerable while using this skill."
+                "desc": "Rotate the in a half-circle and press to activate:\nDodges backward and taunts enemies.\nAfter any EX Special Attack, follow up with Dodge: Battle Cry and quickly execute the required inputs during Dodge: Battle Cry to then follow up with the corresponding EX Special Attack.\nCharacter is invulnerable while using this skill."
               },
               {
                 "name": "Dash Attack: Scattering Sands",
@@ -24582,7 +24537,7 @@
               {
                 "name": "Basic Attack: Serpent's Kiss",
                 "type": "Basic",
-                "desc": "With Serpentine Shadow, hold to launch:\nCissia leaps into the air and locks onto a target, then slams down, dealing Electric DMG to enemies in the area.\nWhile locking on, continue to hold and drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to extend the lock-on duration and freely control the landing position.\nFor every 6 points of Venom gained, gain 1 stack of Serpentine Shadow, stacking up to 3 times.\nUpon entering the battlefield, gain 1 stack of Serpentine Shadow.\nUsing this skill consumes 1 stack of Serpentine Shadow.\nUpon hitting an enemy, all Venom is consumed to trigger Corrode Bone.\nUpon activating this skill, a Quick Assist is triggered.\nCharacter is invulnerable while using this skill."
+                "desc": "With Serpentine Shadow, hold to launch:\nCissia leaps into the air and locks onto a target, then slams down, dealing Electric DMG to enemies in the area.\nWhile locking on, continue to hold and drag the to extend the lock-on duration and freely control the landing position.\nFor every 6 points of Venom gained, gain 1 stack of Serpentine Shadow, stacking up to 3 times.\nUpon entering the battlefield, gain 1 stack of Serpentine Shadow.\nUsing this skill consumes 1 stack of Serpentine Shadow.\nUpon hitting an enemy, all Venom is consumed to trigger Corrode Bone.\nUpon activating this skill, a Quick Assist is triggered.\nCharacter is invulnerable while using this skill."
               },
               {
                 "name": "Corrode Bone",
@@ -27908,17 +27863,12 @@
               {
                 "name": "Dash: Roaming Hunt",
                 "type": "Dodge",
-                "desc": "Hold or double-press to activate:\nEnter the Roaming state, allowing dashing movement.\nIn the Roaming state, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to control Ellen's direction, and release to stop.\nEllen is invulnerable for a brief time after activation."
+                "desc": "Hold or double-press to activate:\nEnter the Roaming state, allowing dashing movement.\nIn the Roaming state, drag the to control Ellen's direction, and release to stop.\nEllen is invulnerable for a brief time after activation."
               },
               {
                 "name": "Dash Attack: Arctic Ambush",
                 "type": "Dodge",
-                "desc": "While in the Roaming state, press to activate:\nDelivers a spinning slash to enemies before opening her scissors for a Swift Scissors strike, dealing Ice DMG.\nGain 1 point of Flash Freeze Charge when the Swift Scissors strike hits.\n\nWhile in the Roaming state, hold to activate:\nPerform a spinning slash against the enemy, then pull apart the scissors to unleash a Charged Scissors strike, dealing massive Ice DMG.\nGain 3 points of Flash Freeze Charge when the Charged Scissors strike hits. If the enemy is Frozen, it always triggers Shatter.\nAnti-Interrupt level is increased while charging the skill, and DMG taken is reduced by 40%.\nCharacter is invulnerable while using this skill."
-              },
-              {
-                "name": "Dash Attack: Arctic Ambush",
-                "type": "Dodge",
-                "desc": "While in the Roaming state, press to activate:\nDelivers a spinning slash to enemies before opening her scissors for a Swift Scissors strike, dealing Ice DMG.\nGain 1 point of Flash Freeze Charge when the Swift Scissors strike hits.\n\nWhile in the Roaming state, hold to activate:\nPerform a spinning slash against the enemy, then pull apart the scissors to unleash a Charged Scissor strike, dealing massive Ice DMG.\nGain 3 points of Flash Freeze Charge when the Charged Scissor strike hits. If the enemy is Frozen, it always triggers Shatter.\nAnti-Interrupt level is increased while charging the skill, and DMG taken is reduced by 40%.\nWhen taking DMG from enemies while the skill is charging, that instance of DMG is nullified, and charging instantly completes.\nCharacter is invulnerable while using this skill."
+                "desc": "While in the Roaming state, press to activate:\nDelivers a spinning slash to enemies before opening her scissors for a Swift Scissors strike, dealing Ice DMG.\nGain 1 point of Flash Freeze Charge when the Swift Scissors strike hits.\n\nWhile in the Roaming state, hold to activate:\nPerform a spinning slash against the enemy, then pull apart the scissors to unleash a Charged Scissors strike, dealing massive Ice DMG.\nGain 3 points of Flash Freeze Charge when the Charged Scissors strike hits. If the enemy is Frozen, it always triggers Shatter.\nAnti-Interrupt level is increased while charging the skill, and DMG taken is reduced by 40%.\nCharacter is invulnerable while using this skill.\n\nWhile in the Roaming state, press to activate:\nDelivers a spinning slash to enemies before opening her scissors for a Swift Scissors strike, dealing Ice DMG.\nGain 1 point of Flash Freeze Charge when the Swift Scissors strike hits.\n\nWhile in the Roaming state, hold to activate:\nPerform a spinning slash against the enemy, then pull apart the scissors to unleash a Charged Scissor strike, dealing massive Ice DMG.\nGain 3 points of Flash Freeze Charge when the Charged Scissor strike hits. If the enemy is Frozen, it always triggers Shatter.\nAnti-Interrupt level is increased while charging the skill, and DMG taken is reduced by 40%.\nWhen taking DMG from enemies while the skill is charging, that instance of DMG is nullified, and charging instantly completes.\nCharacter is invulnerable while using this skill."
               },
               {
                 "name": "Flash Freeze",
@@ -27943,7 +27893,7 @@
               {
                 "name": "Quick Assist: Shark Sentinel",
                 "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nSpeedily move through the enemy with open scissors for a cutting strike, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\nWhen the character on the field is launched, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} and press to activate:\nEnter the Roaming state, enabling dashing movement.\nWhile in the Roaming state, use the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to change directions and release to stop.\nCharacter is invulnerable briefly when triggering the skill.\nUpon triggering a Quick Assist, Ellen gains the Quick Charge effect, shortening the charging time of Dash Attack: Arctic Ambush, lasting up to 5s or until it triggers once."
+                "desc": "When the active character is launched, press to activate:\nSpeedily move through the enemy with open scissors for a cutting strike, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\nWhen the character on the field is launched, drag the and press to activate:\nEnter the Roaming state, enabling dashing movement.\nWhile in the Roaming state, use the to change directions and release to stop.\nCharacter is invulnerable briefly when triggering the skill.\nUpon triggering a Quick Assist, Ellen gains the Quick Charge effect, shortening the charging time of Dash Attack: Arctic Ambush, lasting up to 5s or until it triggers once."
               },
               {
                 "name": "Defensive Assist: Wavefront Impact",
@@ -31234,7 +31184,7 @@
               {
                 "name": "Basic Attack: Cloud Piercer - Drift",
                 "type": "Basic",
-                "desc": "During Basic Attack: Cloud Piercer, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} and press to activate:\nShoot a ranged piercing attack and reposition towards the corresponding drag direction, dealing Physical DMG."
+                "desc": "During Basic Attack: Cloud Piercer, drag the and press to activate:\nShoot a ranged piercing attack and reposition towards the corresponding drag direction, dealing Physical DMG."
               },
               {
                 "name": "Basic Attack: Falling Feather",
@@ -31264,12 +31214,7 @@
               {
                 "name": "Dash Attack: Hiten no Tsuru - Slash",
                 "type": "Dodge",
-                "desc": "While there are X-Marked enemies on the field, Harumasa will enter the Awakened state, switching Dash Attack: Hiten no Tsuru for Dash Attack: Hiten no Tsuru - Slash.\n\nWhile in the Awakened state, press during a dodge to activate:\nRush forwards to the closest X-Marked enemy and execute a powerful slash, dealing Electric DMG.\nWhen the slash hits the target, it consumes 2 stacks of Electro Prison. With less than 2 stacks of Electro Prison, X-Marked will be removed from the enemy. Before X-Marked is removed, repeatedly press to repeatedly use Dash Attack: Hiten no Tsuru - Slash. While no X-Marked enemies exist on the field, Harumasa leaves the Awakened state.\nWhile in the Awakened state, press after Basic Attack: Falling Feather to quickly follow up with Dash Attack: Hiten no Tsuru - Slash.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%."
-              },
-              {
-                "name": "Dash Attack: Hiten no Tsuru - Slash",
-                "type": "Dodge",
-                "desc": "While there are X-Marked enemies on the field, Harumasa will enter the Awakened state, switching Dash Attack: Hiten no Tsuru for Dash Attack: Hiten no Tsuru - Slash.\n\nWhile in the Awakened state, press during a dodge to activate:\nRush forward to the closest X-Marked enemy and execute a powerful slash, dealing Electric DMG. Hitting a Stunned enemy triggers Chasing Thunder, dealing 1 instance of additional Electric DMG.\nWhen the slash hits the target, it consumes 2 stacks of Electro Prison. With less than 2 stacks of Electro Prison, X-Marked will be removed from the enemy. Before X-Marked is removed, repeatedly press to repeatedly use Dash Attack: Hiten no Tsuru - Slash. While no X-Marked enemies exist on the field, Harumasa leaves the Awakened state.\nWhile in the Awakened state, press after Basic Attack: Falling Feather to quickly follow up with Dash Attack: Hiten no Tsuru - Slash.\nEnemy attacks can be blocked during the 1st hit of the skill. The pursuit effect of the second and third hits is increased.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%."
+                "desc": "While there are X-Marked enemies on the field, Harumasa will enter the Awakened state, switching Dash Attack: Hiten no Tsuru for Dash Attack: Hiten no Tsuru - Slash.\n\nWhile in the Awakened state, press during a dodge to activate:\nRush forwards to the closest X-Marked enemy and execute a powerful slash, dealing Electric DMG.\nWhen the slash hits the target, it consumes 2 stacks of Electro Prison. With less than 2 stacks of Electro Prison, X-Marked will be removed from the enemy. Before X-Marked is removed, repeatedly press to repeatedly use Dash Attack: Hiten no Tsuru - Slash. While no X-Marked enemies exist on the field, Harumasa leaves the Awakened state.\nWhile in the Awakened state, press after Basic Attack: Falling Feather to quickly follow up with Dash Attack: Hiten no Tsuru - Slash.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%.\n\nWhile there are X-Marked enemies on the field, Harumasa will enter the Awakened state, switching Dash Attack: Hiten no Tsuru for Dash Attack: Hiten no Tsuru - Slash.\n\nWhile in the Awakened state, press during a dodge to activate:\nRush forward to the closest X-Marked enemy and execute a powerful slash, dealing Electric DMG. Hitting a Stunned enemy triggers Chasing Thunder, dealing 1 instance of additional Electric DMG.\nWhen the slash hits the target, it consumes 2 stacks of Electro Prison. With less than 2 stacks of Electro Prison, X-Marked will be removed from the enemy. Before X-Marked is removed, repeatedly press to repeatedly use Dash Attack: Hiten no Tsuru - Slash. While no X-Marked enemies exist on the field, Harumasa leaves the Awakened state.\nWhile in the Awakened state, press after Basic Attack: Falling Feather to quickly follow up with Dash Attack: Hiten no Tsuru - Slash.\nEnemy attacks can be blocked during the 1st hit of the skill. The pursuit effect of the second and third hits is increased.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%."
               },
               {
                 "name": "Quick Assist: Braced Bow",
@@ -34565,7 +34510,7 @@
               {
                 "name": "Dash Attack: Tiger Seven Forms - Mountain King's Game",
                 "type": "Dodge",
-                "desc": "After using Dash Attack: Tiger Seven Forms - Tiger Charge, hold to activate:\nEnter a high-speed spinning state. While in this state, use the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to move and deal Physical DMG upon contact with enemies.\nAfter Ju Fufu gains Momentum from other skills, she will be surrounded by flames in the high-speed spinning state. Upon contact with enemies, 1 point of Momentum is consumed, changing the DMG to Fire DMG and granting 25 points of Might. The maximum for Momentum is 15.\nWhen consuming Momentum to deal Fire DMG, if Might is above 100 points, 100 points of Might will be automatically consumed to trigger Chain Attack: Suppressing Tiger Cauldron.\nReleasing will have Ju Fufu exit the spinning state and throw Hu Wei to attack enemies, dealing Fire DMG. When switching to another character, Ju Fufu will remain in the spinning state and attempt to collide with the nearest enemy.\nWhile Ju Fufu is the currently active character, DMG taken during the skill is reduced by 40%, and Anti-Interrupt Level is increased. If not the active character, she becomes Invulnerable."
+                "desc": "After using Dash Attack: Tiger Seven Forms - Tiger Charge, hold to activate:\nEnter a high-speed spinning state. While in this state, use the to move and deal Physical DMG upon contact with enemies.\nAfter Ju Fufu gains Momentum from other skills, she will be surrounded by flames in the high-speed spinning state. Upon contact with enemies, 1 point of Momentum is consumed, changing the DMG to Fire DMG and granting 25 points of Might. The maximum for Momentum is 15.\nWhen consuming Momentum to deal Fire DMG, if Might is above 100 points, 100 points of Might will be automatically consumed to trigger Chain Attack: Suppressing Tiger Cauldron.\nReleasing will have Ju Fufu exit the spinning state and throw Hu Wei to attack enemies, dealing Fire DMG. When switching to another character, Ju Fufu will remain in the spinning state and attempt to collide with the nearest enemy.\nWhile Ju Fufu is the currently active character, DMG taken during the skill is reduced by 40%, and Anti-Interrupt Level is increased. If not the active character, she becomes Invulnerable."
               },
               {
                 "name": "Dodge Counter: Tiger Seven Forms - Reignited Mountain",
@@ -37836,12 +37781,12 @@
               {
                 "name": "Basic Attack: L-Form Thundering Fist",
                 "type": "Basic",
-                "desc": "Press or hold to activate:\nPerform up to five forward strikes, dealing Physical DMG and Fire DMG.\nDuring the 3rd hit of the Basic Attack, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick}, and repeatedly press or hold to unleash a series of melee follow-up attacks. Release the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to follow up with the 4th hit of the Basic Attack.\nWhile performing the startup light punch in the 5th hit of the Basic Attack, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} and repeatedly press or hold to keep alternating between the light punch and 4th hit of the Basic Attack. Release the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to follow up with the subsequent jab combo.\nContinue repeatedly pressing or holding to extend the duration of the jab combo.\nWhen you stop pressing or holding , or when the combo reaches its maximum duration, launches a Finishing Move forward. Lighter is invulnerable during the Finishing Move.\nDuring the 5th hit of the Basic Attack, Lighter takes 40% less DMG.\nWhile in the Morale Burst state, Anti-Interrupt Level is increased during the 5th hit of his Basic Attack, and the DMG reduction effect is increased to 80%."
+                "desc": "Press or hold to activate:\nPerform up to five forward strikes, dealing Physical DMG and Fire DMG.\nDuring the 3rd hit of the Basic Attack, drag the , and repeatedly press or hold to unleash a series of melee follow-up attacks. Release the to follow up with the 4th hit of the Basic Attack.\nWhile performing the startup light punch in the 5th hit of the Basic Attack, drag the and repeatedly press or hold to keep alternating between the light punch and 4th hit of the Basic Attack. Release the to follow up with the subsequent jab combo.\nContinue repeatedly pressing or holding to extend the duration of the jab combo.\nWhen you stop pressing or holding , or when the combo reaches its maximum duration, launches a Finishing Move forward. Lighter is invulnerable during the Finishing Move.\nDuring the 5th hit of the Basic Attack, Lighter takes 40% less DMG.\nWhile in the Morale Burst state, Anti-Interrupt Level is increased during the 5th hit of his Basic Attack, and the DMG reduction effect is increased to 80%."
               },
               {
                 "name": "Dodge: Shadowed Slide",
                 "type": "Dodge",
-                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\nPress while the character is attacking to activate:\nPerform a quick shuffle dodge in the direction of the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#Joystick}.\nThis skill will not interrupt the combo count for Basic Attacks.\nCharacter is invulnerable while using this skill."
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\nPress while the character is attacking to activate:\nPerform a quick shuffle dodge in the direction of the .\nThis skill will not interrupt the combo count for Basic Attacks.\nCharacter is invulnerable while using this skill."
               },
               {
                 "name": "Dash Attack: Charging Slam",
@@ -41137,12 +41082,7 @@
               {
                 "name": "Defensive Assist: Disrupted Hunt",
                 "type": "Assist",
-                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
-              },
-              {
-                "name": "Defensive Assist: Disrupted Hunt",
-                "type": "Assist",
-                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n\nWhen the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
               },
               {
                 "name": "Assist Follow-Up: Vengeful Counterattack",
@@ -52665,17 +52605,12 @@
               {
                 "name": "Basic Attack: Fire Suppression",
                 "type": "Basic",
-                "desc": "Press at the right moment to activate:\nUnleashes a set of more powerful slashes, dealing Fire DMG."
-              },
-              {
-                "name": "Basic Attack: Fire Suppression",
-                "type": "Basic",
-                "desc": "Press at the right moment to activate:\nLaunches a stronger slash, dealing Fire DMG.\nWhen Fire Suppression is guaranteed to trigger, pressing when the attack is about to end speeds up the transition into the next hit of Basic Attack.\nWhen Fire Suppression is guaranteed to trigger, the 5th hit of the Basic Attack string unlocks. Activating a Chain Attack or Ultimate powers up her next Basic Attack 5th hit. A strengthened Basic Attack 5th hit will consume all remaining guaranteed Fire Suppression activations to deal additional Fire DMG per activation spent.\nAfter triggering a Perfect Dodge, the current Basic Attack hit count is retained for 5s. After performing a Dodge Counter, pressing resumes the Basic Attack from the retained hit count."
+                "desc": "Press at the right moment to activate:\nUnleashes a set of more powerful slashes, dealing Fire DMG.\n\nPress at the right moment to activate:\nLaunches a stronger slash, dealing Fire DMG.\nWhen Fire Suppression is guaranteed to trigger, pressing when the attack is about to end speeds up the transition into the next hit of Basic Attack.\nWhen Fire Suppression is guaranteed to trigger, the 5th hit of the Basic Attack string unlocks. Activating a Chain Attack or Ultimate powers up her next Basic Attack 5th hit. A strengthened Basic Attack 5th hit will consume all remaining guaranteed Fire Suppression activations to deal additional Fire DMG per activation spent.\nAfter triggering a Perfect Dodge, the current Basic Attack hit count is retained for 5s. After performing a Dodge Counter, pressing resumes the Basic Attack from the retained hit count."
               },
               {
                 "name": "Basic Attack: Fire Assault",
                 "type": "Basic",
-                "desc": "Hold to activate: Basic Attack: Fire Charge\nRelease while Basic Attack: Fire Charge is activated to launch Basic Attack: Fire Assault.\nIf attacked by an enemy during Basic Attack: Fire Assault or the moment Basic Attack: Fire Charge is activated, a Block Counter can be triggered, negating that instance of DMG and granting 3 guaranteed triggers of Fire Suppression. Press to follow up with the 3rd hit of a Basic Attack, up to 8 times.\nWhile charging, tilting the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} launches Basic Attack: Blazing Rush."
+                "desc": "Hold to activate: Basic Attack: Fire Charge\nRelease while Basic Attack: Fire Charge is activated to launch Basic Attack: Fire Assault.\nIf attacked by an enemy during Basic Attack: Fire Assault or the moment Basic Attack: Fire Charge is activated, a Block Counter can be triggered, negating that instance of DMG and granting 3 guaranteed triggers of Fire Suppression. Press to follow up with the 3rd hit of a Basic Attack, up to 8 times.\nWhile charging, tilting the launches Basic Attack: Blazing Rush."
               },
               {
                 "name": "Dodge: Tempered Fire",
@@ -52720,32 +52655,17 @@
               {
                 "name": "EX Special Attack: Fervent Fire",
                 "type": "Special",
-                "desc": "With enough Energy, press to activate:\nSlashes enemies nearby, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks will trigger Fire Suppression for up to 30s or 8 times."
-              },
-              {
-                "name": "EX Special Attack: Fervent Fire",
-                "type": "Special",
-                "desc": "With enough Energy, press to activate:\nExecutes a powerful slash against enemies nearby, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks are guaranteed to trigger Fire Suppression for up to 30s or 8 times.\nAfter using this skill, press to immediately follow up with the 4th hit of a Basic Attack.\nSoldier 11 enters the Alert Stance after using this skill. While in Alert Stance, if hit during a Basic Attack, triggers Basic Attack: Fire Charge to block the attack, followed by Basic Attack: Fire Assault. After Basic Attack: Fire Assault is performed, press to resume Basic Attack from the retained Basic Attack hit count."
+                "desc": "With enough Energy, press to activate:\nSlashes enemies nearby, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks will trigger Fire Suppression for up to 30s or 8 times.\n\nWith enough Energy, press to activate:\nExecutes a powerful slash against enemies nearby, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks are guaranteed to trigger Fire Suppression for up to 30s or 8 times.\nAfter using this skill, press to immediately follow up with the 4th hit of a Basic Attack.\nSoldier 11 enters the Alert Stance after using this skill. While in Alert Stance, if hit during a Basic Attack, triggers Basic Attack: Fire Charge to block the attack, followed by Basic Attack: Fire Assault. After Basic Attack: Fire Assault is performed, press to resume Basic Attack from the retained Basic Attack hit count."
               },
               {
                 "name": "Chain Attack: Uplifting Flame",
                 "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful upward slash at enemies in a small area, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks trigger Fire Suppression for the next 30s, up to 8 times."
-              },
-              {
-                "name": "Chain Attack: Uplifting Flame",
-                "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nSlashes enemies in a small area ahead, then executes a powerful upwards slash, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks are guaranteed to trigger Fire Suppression for up to 30s or 8 times.\nAfter using this skill, press to immediately follow up with the 4th hit of a Basic Attack.\nSoldier 11 enters the Alert Stance after using this skill. While in Alert Stance, if hit during a Basic Attack, triggers Basic Attack: Fire Charge to block the attack, followed by Basic Attack: Fire Assault. After Basic Attack: Fire Assault is performed, press to resume Basic Attack from the retained Basic Attack hit count."
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful upward slash at enemies in a small area, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks trigger Fire Suppression for the next 30s, up to 8 times.\n\nWhen a Chain Attack is triggered, select the character to activate:\nSlashes enemies in a small area ahead, then executes a powerful upwards slash, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks are guaranteed to trigger Fire Suppression for up to 30s or 8 times.\nAfter using this skill, press to immediately follow up with the 4th hit of a Basic Attack.\nSoldier 11 enters the Alert Stance after using this skill. While in Alert Stance, if hit during a Basic Attack, triggers Basic Attack: Fire Charge to block the attack, followed by Basic Attack: Fire Assault. After Basic Attack: Fire Assault is performed, press to resume Basic Attack from the retained Basic Attack hit count."
               },
               {
                 "name": "Ultimate: Bellowing Flame",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful upward slash at enemies in a small area, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks trigger Fire Suppression for the next 30s, up to 8 times."
-              },
-              {
-                "name": "Ultimate: Bellowing Flame",
-                "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nSlashes enemies nearby, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks are guaranteed to trigger Fire Suppression for up to 30s or 8 times.\nAfter using this skill, press to immediately follow up with the 4th hit of a Basic Attack.\nSoldier 11 enters the Alert Stance after using this skill. While in Alert Stance, if hit during a Basic Attack, triggers Basic Attack: Fire Charge to block the attack, followed by Basic Attack: Fire Assault. After Basic Attack: Fire Assault is performed, press to resume Basic Attack from the retained Basic Attack hit count."
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful upward slash at enemies in a small area, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks trigger Fire Suppression for the next 30s, up to 8 times.\n\nWhen Decibel Rating is at Maximum, press to activate:\nSlashes enemies nearby, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks are guaranteed to trigger Fire Suppression for up to 30s or 8 times.\nAfter using this skill, press to immediately follow up with the 4th hit of a Basic Attack.\nSoldier 11 enters the Alert Stance after using this skill. While in Alert Stance, if hit during a Basic Attack, triggers Basic Attack: Fire Charge to block the attack, followed by Basic Attack: Fire Assault. After Basic Attack: Fire Assault is performed, press to resume Basic Attack from the retained Basic Attack hit count."
               }
             ]
           },
@@ -55982,7 +55902,7 @@
               {
                 "name": "Basic Attack: Silenced Shot",
                 "type": "Basic",
-                "desc": "Hold to activate:\nTrigger enters the Sniper Stance and fires forward continuously, dealing Electric DMG.\nWhile continually firing, when attacked by an enemy, Trigger will automatically evade. This effect can trigger once every 8s.\nWhile continually firing, you can drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to adjust her position to the left/right/back.\nAutomatically evading attacks or adjusting position when about to be hit will trigger a Perfect Dodge, followed by an automatic charged counter.\nAfter releasing , Trigger will step back, ready her weapon and unleash a Finishing Move, then exit Sniper Stance.\nCharacter is invulnerable during the charged counter and Finishing Move.\nWhen the continuous firing or the charged counter hits an enemy, Trigger gains 25 Purge, up to a maximum of 100 Purge.\nWhen the Finishing Move hits an enemy, it triggers the Quick Assist of the previous character in the squad. A Quick Assist can only be triggered through this method once every 25s."
+                "desc": "Hold to activate:\nTrigger enters the Sniper Stance and fires forward continuously, dealing Electric DMG.\nWhile continually firing, when attacked by an enemy, Trigger will automatically evade. This effect can trigger once every 8s.\nWhile continually firing, you can drag the to adjust her position to the left/right/back.\nAutomatically evading attacks or adjusting position when about to be hit will trigger a Perfect Dodge, followed by an automatic charged counter.\nAfter releasing , Trigger will step back, ready her weapon and unleash a Finishing Move, then exit Sniper Stance.\nCharacter is invulnerable during the charged counter and Finishing Move.\nWhen the continuous firing or the charged counter hits an enemy, Trigger gains 25 Purge, up to a maximum of 100 Purge.\nWhen the Finishing Move hits an enemy, it triggers the Quick Assist of the previous character in the squad. A Quick Assist can only be triggered through this method once every 25s."
               },
               {
                 "name": "Basic Attack: Harmonizing Shot",
@@ -60961,7 +60881,7 @@
               {
                 "name": "Dodge: Nimbus Step",
                 "type": "Dodge",
-                "desc": "When dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick}, hold to activate:\nEnter a high\u2010speed Light as Air state. While in the Light as Air state in Investigation Zone Mode, automatically collect from all resource pickup points within range.\nWhile in the Light as Air state, use the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to steer. Release the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to stop.\nCharacter is invulnerable at the moment this skill activates."
+                "desc": "When dragging the , hold to activate:\nEnter a high\u2010speed Light as Air state. While in the Light as Air state in Investigation Zone Mode, automatically collect from all resource pickup points within range.\nWhile in the Light as Air state, use the to steer. Release the to stop.\nCharacter is invulnerable at the moment this skill activates."
               },
               {
                 "name": "Dodge Counter: Banishing Blow",
@@ -65926,12 +65846,12 @@
               {
                 "name": "Basic Attack: Don't Move!",
                 "type": "Basic",
-                "desc": "[Assault Mode]\nPress to activate.\nUnleash a flurry of martial arts, bullets, and Ether Buckshots in a series of up to 5 attacks, dealing Physical DMG and Ether DMG.\nWhen the 4th or 5th hit strikes an enemy, obtain 1 Enhanced Shotshell per hit. A max of 1 can be obtained per activation of this Basic Attack.\nWhile using this skill, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} and press to activate Dash Attack: Firepower Offensive and readjust to face the selected direction.\nWhile under Assault Mode, hold to switch to Suppressive Mode."
+                "desc": "[Assault Mode]\nPress to activate.\nUnleash a flurry of martial arts, bullets, and Ether Buckshots in a series of up to 5 attacks, dealing Physical DMG and Ether DMG.\nWhen the 4th or 5th hit strikes an enemy, obtain 1 Enhanced Shotshell per hit. A max of 1 can be obtained per activation of this Basic Attack.\nWhile using this skill, drag the and press to activate Dash Attack: Firepower Offensive and readjust to face the selected direction.\nWhile under Assault Mode, hold to switch to Suppressive Mode."
               },
               {
                 "name": "Basic Attack: Please Do Not Resist",
                 "type": "Basic",
-                "desc": "[Suppressive Mode]\nHold to activate:\nUnleash up to 3 Shotshell piercing attacks, dealing Physical DMG. If Zhu Yuan has Enhanced Shotshells upon firing, 1 Enhanced Shotshell will be consumed, dealing massive Ether DMG.\nWhile using this skill, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to activate her Dash Attack: Overwhelming Firepower and readjust to face the selected direction.\nWhile in Suppressive Mode, release to return to Assault Mode."
+                "desc": "[Suppressive Mode]\nHold to activate:\nUnleash up to 3 Shotshell piercing attacks, dealing Physical DMG. If Zhu Yuan has Enhanced Shotshells upon firing, 1 Enhanced Shotshell will be consumed, dealing massive Ether DMG.\nWhile using this skill, drag the to activate her Dash Attack: Overwhelming Firepower and readjust to face the selected direction.\nWhile in Suppressive Mode, release to return to Assault Mode."
               },
               {
                 "name": "Dodge: Tactical Detour",
@@ -65946,7 +65866,7 @@
               {
                 "name": "Dash Attack: Overwhelming Firepower",
                 "type": "Dodge",
-                "desc": "Suppressive Mode\nDrag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} during Basic Attack: Please Do Not Resist to activate:\nUnleashes a Shotshell piercing attack, dealing Physical DMG. If Zhu Yuan has Enhanced Shotshells when firing, 1 Enhanced Shotshell will be consumed, dealing massive Ether DMG."
+                "desc": "Suppressive Mode\nDrag the during Basic Attack: Please Do Not Resist to activate:\nUnleashes a Shotshell piercing attack, dealing Physical DMG. If Zhu Yuan has Enhanced Shotshells when firing, 1 Enhanced Shotshell will be consumed, dealing massive Ether DMG."
               },
               {
                 "name": "Dodge Counter: Fire Blast",
@@ -72513,7 +72433,7 @@
               {
                 "name": "Basic Attack: Full Firepower",
                 "type": "Basic",
-                "desc": "Press to activate:\nUnleashes a piercing attack, dealing Physical DMG.\nRepeatedly press or hold to enter Crouching Shot to extend the attack duration.\nDrag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} during Crouching Shot to launch Rolling Shot and adjust the character's position, dealing Physical DMG.\nStop pressing or holding during Crouching Shot to launch Finishing Shot at enemies in front, dealing Physical DMG."
+                "desc": "Press to activate:\nUnleashes a piercing attack, dealing Physical DMG.\nRepeatedly press or hold to enter Crouching Shot to extend the attack duration.\nDrag the during Crouching Shot to launch Rolling Shot and adjust the character's position, dealing Physical DMG.\nStop pressing or holding during Crouching Shot to launch Finishing Shot at enemies in front, dealing Physical DMG."
               },
               {
                 "name": "Dodge: Risky Business",
@@ -72523,7 +72443,7 @@
               {
                 "name": "Dash Attack: Starlight Sanction",
                 "type": "Dodge",
-                "desc": "When dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} during a dodge, press :\nLaunches a piercing attack at nearby enemies within a large area, dealing Physical DMG.\nWhen not dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} during a dodge, press :\nLaunches a piercing attack at enemies in a line, dealing Physical DMG."
+                "desc": "When dragging the during a dodge, press :\nLaunches a piercing attack at nearby enemies within a large area, dealing Physical DMG.\nWhen not dragging the during a dodge, press :\nLaunches a piercing attack at enemies in a line, dealing Physical DMG."
               },
               {
                 "name": "Dodge Counter: Fair Fight",
@@ -79096,12 +79016,12 @@
               {
                 "name": "Dodge: Speed Demon",
                 "type": "Dodge",
-                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\nDrag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to dodge, then hold to reload while dodging, enhancing Basic Attacks and Dash Attacks up to 8 times."
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\nDrag the to dodge, then hold to reload while dodging, enhancing Basic Attacks and Dash Attacks up to 8 times."
               },
               {
                 "name": "Dash Attack: Jack in the Box",
                 "type": "Dodge",
-                "desc": "When dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} during a dodge, press :\nDashes in the target direction and strikes nearby enemies, dealing Physical DMG.\nWhen not dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} during a dodge, press :\nVaults backward and launches a ranged strike against enemies in front, dealing Physical DMG.\nAutomatically reloads after the attack to enhance her Basic Attack and Dash Attack, up to 8 times."
+                "desc": "When dragging the during a dodge, press :\nDashes in the target direction and strikes nearby enemies, dealing Physical DMG.\nWhen not dragging the during a dodge, press :\nVaults backward and launches a ranged strike against enemies in front, dealing Physical DMG.\nAutomatically reloads after the attack to enhance her Basic Attack and Dash Attack, up to 8 times."
               },
               {
                 "name": "Dodge Counter: Diverted Bombard",

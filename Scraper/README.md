@@ -101,6 +101,23 @@ Output layout:
 
 Character detail pages keep the full visible page text, section text, tables when present, local asset references, and game-specific recommendation buckets such as light cones, relics, teams, weapons, echoes, disk drives, or gear. Catalog pages keep parsed entries plus the full page text. Prydwen does not expose Nanoka-style version channels, so records default to `live`; pages labeled as future or soon content are marked `beta`.
 
+## GachaBase Beta
+
+The GachaBase beta changelog scraper snapshots beta changelog entries for Genshin Impact, Honkai: Star Rail, and Zenless Zone Zero. It writes a combined file plus per-game files under `../Database/GachaBase`.
+
+```powershell
+npm run gachabase:beta
+npm run gachabase:beta -- --game hsr
+npm run gachabase:beta -- --game gi,zzz
+```
+
+Output layout:
+
+- `../Database/GachaBase/beta-changelog.json`
+- `../Database/GachaBase/<game>/beta-changelog.json`
+
+The scraper reads the server-rendered changelog payload from normal HTML, so it runs in GitHub Actions and on a VPS without a browser. If a fetch fails and prior output exists, the previous file is preserved and marked stale.
+
 ## Wiki Titles
 
 The wiki title scraper fills the character subtitle/title line used below character names. It reads the current local rosters, queries each game's Fandom MediaWiki API, and writes the local cache to `../Database/WikiTitles/character-titles.json`.

@@ -5021,12 +5021,6 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
   background:linear-gradient(160deg,#ded7ff,#a99cff);
   box-shadow:0 0 10px rgba(169,156,255,.35);
 }
-.cm-upcoming-note{
-  margin:0 0 12px;
-  color:#b9afd8;
-  font-size:12px;
-  line-height:1.45;
-}
 .cm-character-tabs{
   display:inline-flex;
   align-items:center;
@@ -5071,6 +5065,21 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
 }
 .cm-kit-section{ display:flex; flex-direction:column; gap:10px; }
 .cm-kit-section-title{ color:#f5f1ff; font-family:'GI',serif; font-size:24px; line-height:1; }
+.cm-kit-type-group{ display:flex; flex-direction:column; gap:8px; }
+.cm-kit-type-title{
+  width:max-content;
+  max-width:100%;
+  padding:4px 8px;
+  border-radius:6px;
+  color:#f5f1ff;
+  background:rgba(139,123,255,.16);
+  box-shadow:inset 0 0 0 1px rgba(183,170,255,.16);
+  font-family:'HSR','Segoe UI',sans-serif;
+  font-size:10px;
+  font-weight:900;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
 .cm-kit-list{ display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:10px; }
 .cm-kit-entry{
   min-width:0;

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T15:01:03.301Z",
+  "generatedAt": "2026-07-05T17:19:20.440Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-05T15:00:50.648Z",
+      "lastSuccessfulFetch": "2026-07-05T17:19:20.440Z",
       "codes": [
         {
           "code": "PFY1S40I88T9",
@@ -20,7 +20,7 @@
           "premium": true,
           "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-06-20T23:42:46.446Z"
+          "firstSeen": "2026-07-05T17:19:20.440Z"
         },
         {
           "code": "EZSB8889C2BZ",
@@ -30,7 +30,7 @@
           "premium": false,
           "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-07-01T10:04:15.046Z"
+          "firstSeen": "2026-07-05T17:19:20.440Z"
         },
         {
           "code": "LEGEDILJKSGM",
@@ -40,17 +40,7 @@
           "premium": true,
           "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-06-22T20:55:49.647Z"
-        },
-        {
-          "code": "LCXGEA5SX65L",
-          "rewards": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "added": "2026-06-12",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-05T15:00:50.648Z"
+          "firstSeen": "2026-07-05T17:19:20.440Z"
         }
       ]
     },
@@ -61,7 +51,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-05T15:01:03.301Z",
+      "lastSuccessfulFetch": "2026-07-05T17:19:05.884Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -72,18 +62,7 @@
           "premium": true,
           "premium100": false,
           "cwSeen": false,
-          "firstSeen": "2026-06-13T20:18:18.521Z"
-        },
-        {
-          "code": "5S6ZHRWTDNJB",
-          "rewards": "60 stellar jade",
-          "added": "2026-07-05",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-05T15:01:03.301Z"
+          "firstSeen": "2026-07-05T17:19:05.883Z"
         },
         {
           "code": "CREATIONNYMPH",
@@ -94,7 +73,7 @@
           "premium": true,
           "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-06-20T23:42:40.844Z"
+          "firstSeen": "2026-07-05T17:19:05.883Z"
         },
         {
           "code": "CTK5DRQVT48F",
@@ -105,7 +84,7 @@
           "premium": false,
           "premium100": false,
           "cwSeen": false,
-          "firstSeen": "2026-06-20T23:42:40.844Z"
+          "firstSeen": "2026-07-05T17:19:05.883Z"
         },
         {
           "code": "FAREWELL",
@@ -116,7 +95,7 @@
           "premium": true,
           "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-06-20T23:42:40.844Z"
+          "firstSeen": "2026-07-05T17:19:05.883Z"
         },
         {
           "code": "IFYOUAREREADINGTHIS",
@@ -127,7 +106,7 @@
           "premium": true,
           "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-06-20T23:42:40.844Z"
+          "firstSeen": "2026-07-05T17:19:05.883Z"
         },
         {
           "code": "OMEGA",
@@ -138,7 +117,7 @@
           "premium": true,
           "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-06-20T23:42:40.844Z"
+          "firstSeen": "2026-07-05T17:19:05.883Z"
         },
         {
           "code": "STARRAILGIFT",
@@ -149,7 +128,7 @@
           "premium": true,
           "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-06-20T23:42:40.844Z"
+          "firstSeen": "2026-07-05T17:19:05.883Z"
         },
         {
           "code": "BladeFitCheck",
@@ -159,7 +138,7 @@
           "premium": false,
           "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-06-13T20:18:18.521Z"
+          "firstSeen": "2026-07-05T17:19:05.883Z"
         }
       ]
     },
@@ -170,7 +149,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-05T15:00:50.621Z",
+      "lastSuccessfulFetch": "2026-07-05T17:19:07.480Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -181,7 +160,7 @@
           "premium": true,
           "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-06-20T23:42:44.037Z"
+          "firstSeen": "2026-07-05T17:19:07.479Z"
         },
         {
           "code": "ROSCAELIFER0617",
@@ -191,7 +170,7 @@
           "premium": true,
           "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-06-13T20:18:20.166Z"
+          "firstSeen": "2026-07-05T17:19:07.479Z"
         },
         {
           "code": "ZZZ30BANGBOO",
@@ -201,7 +180,7 @@
           "premium": true,
           "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-06-13T20:18:20.166Z"
+          "firstSeen": "2026-07-05T17:19:07.479Z"
         },
         {
           "code": "ZZZSEASON3",
@@ -211,7 +190,7 @@
           "premium": true,
           "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-06-13T20:18:20.166Z"
+          "firstSeen": "2026-07-05T17:19:07.479Z"
         },
         {
           "code": "ZZZSTEAM",
@@ -221,7 +200,7 @@
           "premium": true,
           "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-06-13T20:18:20.166Z"
+          "firstSeen": "2026-07-05T17:19:07.479Z"
         }
       ]
     },
@@ -232,7 +211,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-05T15:00:50.295Z",
+      "lastSuccessfulFetch": "2026-07-05T17:19:08.293Z",
       "codes": []
     },
     {
@@ -242,28 +221,8 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-05T15:01:00.003Z",
+      "lastSuccessfulFetch": "2026-07-05T17:19:09.869Z",
       "codes": [
-        {
-          "code": "ALLFIELD",
-          "rewards": "",
-          "added": "2026-06-28",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ALLFIELD",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-05T15:01:00.003Z"
-        },
-        {
-          "code": "RETURNOFALL",
-          "rewards": "",
-          "added": "2026-06-28",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=RETURNOFALL",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-05T15:01:00.003Z"
-        },
         {
           "code": "ZAU2SYXHWX5L4ZH",
           "rewards": "5k T Creds and Ten Arms Insp Kits",
@@ -272,7 +231,7 @@
           "premium": false,
           "premium100": false,
           "cwSeen": false,
-          "firstSeen": "2026-07-02T09:31:27.765Z"
+          "firstSeen": "2026-07-05T17:19:09.869Z"
         },
         {
           "code": "ENDFIELD4PC",
@@ -282,7 +241,7 @@
           "premium": false,
           "premium100": false,
           "cwSeen": false,
-          "firstSeen": "2026-07-02T09:31:27.765Z"
+          "firstSeen": "2026-07-05T17:19:09.869Z"
         },
         {
           "code": "ENDFIELDGIFT",
@@ -292,7 +251,7 @@
           "premium": true,
           "premium100": false,
           "cwSeen": false,
-          "firstSeen": "2026-07-02T09:31:27.765Z"
+          "firstSeen": "2026-07-05T17:19:09.869Z"
         }
       ]
     }

@@ -279,9 +279,6 @@ const NYX_SEARCH_ALIASES = {
   march:['Evernight'],
   dot:['Kafka', 'Black Swan', 'Hysilens'],
   yae:['Evanescia'],
-  wise:['Pyrois'],
-  belle:['Pyrois'],
-  phaethon:['Pyrois'],
   tb:['Trailblazer'],
   stelle:['Trailblazer'],
   caelus:['Trailblazer'],
@@ -1902,21 +1899,6 @@ function cmApplyIdentityDisplay(gameKey, ch, prefs){
     }
     return cmWithIdentityDisplay(ch, cmIdentityDisplayLabel('hsr', choice, asset.label), opts);
   }
-  if (gameKey === 'zzz' && (id === 'zzz-pyrois' || name === 'pyrois')) {
-    const choice = CM_IDENTITY_ASSETS.zzz[prefs.sibling] ? prefs.sibling : 'wise';
-    const asset = CM_IDENTITY_ASSETS.zzz[choice];
-    return cmWithIdentityDisplay(ch, cmIdentityDisplayLabel('zzz', choice, asset.label), {
-      icon:asset.icon,
-      circle:asset.icon,
-      iconZoom:asset.iconZoom,
-      iconPosition:asset.iconPosition,
-      formIcon:asset.icon,
-      formCircle:asset.icon,
-      formIconZoom:asset.iconZoom,
-      formIconPosition:asset.iconPosition,
-      aliases:['Pyrois', 'Lord Phaethon', 'Phaethon', 'Wise', 'Belle', 'Eous', 'Fairy'],
-    });
-  }
   if (gameKey === 'wuwa' && (id === 'wuwa-rover' || name === 'rover')) {
     const choice = CM_IDENTITY_ASSETS.wuwa[prefs.rover] ? prefs.rover : 'male';
     const asset = CM_IDENTITY_ASSETS.wuwa[choice];
@@ -1963,6 +1945,30 @@ function cmApplyIdentityDisplay(gameKey, ch, prefs){
     });
   }
   return ch;
+}
+
+function cmKitEntryGroups(entries){
+  const rows = (entries || []).filter(Boolean);
+  const counts = new Map();
+  rows.forEach((entry) => {
+    const key = entry.type || '';
+    if (key) counts.set(key, (counts.get(key) || 0) + 1);
+  });
+  const shouldGroup = [...counts.values()].some((count) => count > 1);
+  if (!shouldGroup) return [{ label:'', entries:rows }];
+  const groups = [];
+  const byLabel = new Map();
+  rows.forEach((entry) => {
+    const label = entry.type || 'Other';
+    let group = byLabel.get(label);
+    if (!group) {
+      group = { label, entries:[] };
+      byLabel.set(label, group);
+      groups.push(group);
+    }
+    group.entries.push(entry);
+  });
+  return groups;
 }
 
 function cmSearchExtra(ch){
@@ -2016,27 +2022,32 @@ function CharacterKitPanel({ kit, emptyText }){
       {sections.map((section, si) => (
         <div className="cm-kit-section" key={section.title || si}>
           <div className="cm-kit-section-title">{section.title || 'Kit'}</div>
-          <div className="cm-kit-list">
-            {(section.entries || []).map((entry, ei) => (
-              <article className="cm-kit-entry" key={(entry.name || 'entry') + ei}>
-                <div className="cm-kit-entry-head">
-                  {entry.icon && <img src={entry.icon} alt="" draggable="false" />}
-                  <div>
-                    {entry.type && <span>{entry.type}</span>}
-                    <b>{entry.name || 'Skill'}</b>
-                  </div>
-                </div>
-                {entry.desc && <p>{entry.desc}</p>}
-                {Array.isArray(entry.stats) && entry.stats.length > 0 && (
-                  <div className="cm-kit-stats">
-                    {entry.stats.map((stat, i) => (
-                      <span key={(stat.label || 'stat') + i}><b>{stat.label}</b><em>{stat.value}</em></span>
-                    ))}
-                  </div>
-                )}
-              </article>
-            ))}
-          </div>
+          {cmKitEntryGroups(section.entries).map((group, gi) => (
+            <div className="cm-kit-type-group" key={(group.label || 'all') + gi}>
+              {group.label && <div className="cm-kit-type-title">{group.label}</div>}
+              <div className="cm-kit-list">
+                {(group.entries || []).map((entry, ei) => (
+                  <article className="cm-kit-entry" key={(entry.name || 'entry') + ei}>
+                    <div className="cm-kit-entry-head">
+                      {entry.icon && <img src={entry.icon} alt="" draggable="false" />}
+                      <div>
+                        {entry.type && entry.type !== group.label && <span>{entry.type}</span>}
+                        <b>{entry.name || 'Skill'}</b>
+                      </div>
+                    </div>
+                    {entry.desc && <p>{entry.desc}</p>}
+                    {Array.isArray(entry.stats) && entry.stats.length > 0 && (
+                      <div className="cm-kit-stats">
+                        {entry.stats.map((stat, i) => (
+                          <span key={(stat.label || 'stat') + i}><b>{stat.label}</b><em>{stat.value}</em></span>
+                        ))}
+                      </div>
+                    )}
+                  </article>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       ))}
     </div>
@@ -2773,7 +2784,6 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
               {upcoming.length > 0 && (
                 <div className="cm-group cm-upcoming-group">
                   <div className="cm-ghd" title="Upcoming units without reliable Nanoka/wiki material data yet"><span className="t">Upcoming</span></div>
-                  <div className="cm-upcoming-note">Currently no reliable information available for these units. They will update automatically when a trusted scraper source has data.</div>
                   <div className="cm-grid cm-grid-recent">{upcoming.map((c, i) => renderCell('upcoming', c, i))}</div>
                 </div>
               )}

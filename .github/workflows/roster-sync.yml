@@ -66,6 +66,7 @@ jobs:
         run: |
           node ./nanoka/scrape.mjs --game all --skip-assets || echo "::warning::nanoka sync had errors; carry-forward applied"
           node ./prydwen/scrape.mjs                          || echo "::warning::prydwen sync had errors; carry-forward applied"
+          node ./gachabase-beta/scrape.mjs                   || echo "::warning::gachabase beta sync had errors; carry-forward applied"
           node ./endfield-wiki/scrape.mjs                    || echo "::warning::endfield-wiki sync had errors; carry-forward applied"
           node ./wiki-titles/scrape.mjs                      || echo "::warning::wiki-titles sync had errors; carry-forward applied"
           node ./banners/scrape.cjs                          || echo "::warning::banner scrape had errors; carry-forward applied"

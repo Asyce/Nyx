@@ -15,6 +15,7 @@
     "validate": "node ./validate-data.cjs",
     "validate:strict": "node ./validate-data.cjs --strict-freshness",
     "endfield:wiki": "node ./endfield-wiki/scrape.mjs",
+    "gachabase:beta": "node ./gachabase-beta/scrape.mjs",
     "nanoka": "node ./nanoka/scrape.mjs",
     "nanoka:gi": "node ./nanoka/scrape.mjs --game gi",
     "nanoka:hsr": "node ./nanoka/scrape.mjs --game hsr",

@@ -17432,16 +17432,16 @@
       },
       "slug": "rover-spectro",
       "updated": 1780956000000,
-      "sourceOrder": 1502,
+      "sourceOrder": 1501,
       "voiceActors": {
         "english": "Jane Jackson / Chase Brown",
         "japanese": "Tanaka Minami / Toshiki Masuda",
         "chinese": "Du QingQing / Ma Yang",
         "korean": "Song Ha Rim / Kim Sin Woo"
       },
-      "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.webp",
+      "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/rover-spectro-62be77f1ce9f.webp",
-      "card": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujue_UI.webp",
+      "card": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.webp",
       "signatureWeapon": {
         "id": "21020016",
         "name": "Blazing Brilliance",
@@ -17990,16 +17990,16 @@
           },
           "slug": "rover-spectro",
           "updated": 1780956000000,
-          "sourceOrder": 1502,
+          "sourceOrder": 1501,
           "voiceActors": {
             "english": "Jane Jackson / Chase Brown",
             "japanese": "Tanaka Minami / Toshiki Masuda",
             "chinese": "Du QingQing / Ma Yang",
             "korean": "Song Ha Rim / Kim Sin Woo"
           },
-          "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.webp",
+          "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/rover-spectro-62be77f1ce9f.webp",
-          "card": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujue_UI.webp",
+          "card": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.webp",
           "signatureWeapon": {
             "id": "21020016",
             "name": "Blazing Brilliance",
@@ -18547,16 +18547,16 @@
           },
           "slug": "rover-havoc",
           "updated": 1780956000000,
-          "sourceOrder": 1605,
+          "sourceOrder": 1604,
           "voiceActors": {
             "english": "Jane Jackson / Chase Brown",
             "japanese": "Tanaka Minami / Toshiki Masuda",
             "chinese": "Du QingQing / Ma Yang",
             "korean": "Song Ha Rim / Kim Sin Woo"
           },
-          "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.webp",
+          "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/rover-havoc-cc7df9718613.webp",
-          "card": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.webp",
+          "card": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujue_UI.webp",
           "signatureWeapon": {
             "id": "21020026",
             "name": "Red Spring",
@@ -19101,14 +19101,14 @@
           },
           "slug": "rover-aero",
           "updated": 1780956000000,
-          "sourceOrder": 1408,
+          "sourceOrder": 1406,
           "voiceActors": {
             "english": "Jane Jackson / Chase Brown",
             "japanese": "Tanaka Minami / Toshiki Masuda",
             "chinese": "Du QingQing / Ma Yang",
             "korean": "Song Ha Rim / Kim Sin Woo"
           },
-          "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.webp",
+          "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/rover-aero-e18045d46d04.webp",
           "card": "../../Database/Prydwen/ww/assets/characters/rover-aero-578c4299a93d.webp",
           "signatureWeapon": {
@@ -24386,6 +24386,552 @@
           "name": "Luminous Hymn",
           "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050029_UI.webp",
           "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050029_UI.webp",
+          "items": [
+            {
+              "id": "41100031",
+              "name": "Crude Ring",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100032",
+              "name": "Basic Ring",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+              "source": "Exiles / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100033",
+              "name": "Improved Ring",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "41100034",
+              "name": "Tailored Ring",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+              "source": "Exiles",
+              "sourceDetails": [
+                {
+                  "name": "Exile",
+                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                }
+              ]
+            },
+            {
+              "id": "43020031",
+              "name": "Lento Helix",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020032",
+              "name": "Adagio Helix",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020033",
+              "name": "Andante Helix",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            },
+            {
+              "id": "43020034",
+              "name": "Presto Helix",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Abyss of Initiation"
+                },
+                {
+                  "name": "Forgery Challenge: Misty Forest"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
+      }
+    },
+    {
+      "id": "ww-the-shorekeeper",
+      "n": "The Shorekeeper",
+      "localizedNames": {
+        "en": "Shorekeeper",
+        "zh": "\u5b88\u5cb8\u4eba",
+        "ja": "\u30b7\u30e7\u30a2\u30ad\u30fc\u30d1\u30fc",
+        "ko": "\ud30c\uc218\uc778"
+      },
+      "title": "Euphonic Chrysalis",
+      "slug": "the-shorekeeper",
+      "release": 1727568000000,
+      "releasePatch": "1.3",
+      "updated": 1780956000000,
+      "sourceOrder": 1505,
+      "voiceActors": {
+        "english": "imdb:nm2267289|Stephanie McKeon",
+        "japanese": "Ayaka Suwa|Suwa Ayaka (ja=\u8acf\u8a2a\u5f69\u82b1)",
+        "chinese": "https://zh.moegirl.org.cn/%E5%94%90%E9%9B%85%E8%8F%81|Tang Yajing (zh=\u5510\u96c5\u83c1)",
+        "korean": "https://namu.wiki/w/\uae40\ubcf4\ub098|Kim Bo-na (ko=\uae40\ubcf4\ub098)"
+      },
+      "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_28_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shouanren_UI.webp",
+      "card": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shouanren_UI.webp",
+      "signatureWeapon": {
+        "id": "21050036",
+        "name": "Stellar Symphony",
+        "type": "Rectifier",
+        "educated": false
+      },
+      "signatureWeaponId": "21050036",
+      "signatureWeaponName": "Stellar Symphony",
+      "status": "live",
+      "labels": [],
+      "r": 5,
+      "el": "Spectro",
+      "w": "Rectifier",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenQTE.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.4",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Origin Calculus",
+                "type": "Normal Attack",
+                "desc": "Basic Attack\nPerform up to 4 consecutive attacks, dealing Spectro DMG. Each hit generates 1 Collapsed Core.\n\nHeavy Attack\nHold the Normal Attack Button to enter Unbound Form, which consumes STA continuously. While in this form, Shorekeeper will:\n- Generate a segment of Deductive Data every second;\n- Automatically collect nearby plant collectibles.\nUsing up all STA or actions such as casting Basic Attack will end the Unbound Form and deal Spectro DMG to the target. Each accumulated segment of Deductive Data will convert into a segment of Empirical Data and generate a Collapsed Core.\n\nMid-air Attack\nConsume STA to perform a Plunging Attack. Each hit generates 1 Collapsed Core. Quickly Press the Normal Attack Button after the Plunging Attack to perform Basic Attack Stage 2.\n\nDodge Counter\nPress the Normal Attack Button after a successful Dodge to attack a target, dealing Spectro DMG.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp"
+              },
+              {
+                "name": "Chaos Theory",
+                "type": "Resonance Skill",
+                "desc": "Restore HP for all nearby party members and summon 5 Dim Star Butterflies, which automatically track and attack a target, dealing Spectro DMG. Follow up with Basic Attack in time to start the Basic Attack cycle from Stage 2.\nCan be performed in mid-air.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenB1.webp"
+              },
+              {
+                "name": "End Loop",
+                "type": "Resonance Liberation",
+                "desc": "Outer Stellarealm\nGenerate the Outer Stellarealm to restore HP for all party members within its effective range continuously. This effect can be triggered once every 3s.\n\nInner Stellarealm\nWhen a party member uses Intro Skill within the Outer Stellarealm, it evolves into the Inner Stellarealm. Within the effective range of the Inner Stellarealm, for every {0} of Shorekeeper's Energy Regen, all party members gain a {1} increase of Crit. Rate, up to {2}.\nInner Stellarealm has all the effects of the Outer Stellarealm.\n\nSupernal Stellarealm\nWhen a party member uses Intro Skill within the Inner Stellarealm, it evolves into the Supernal Stellarealm. Within the effective range of the Supernal Stellarealm, for every {3} of Shorekeeper's Energy Regen, all party members gain a {4} increase of Crit. DMG, up to {5}.\nSupernal Stellarealm has all the effects of the Inner Stellarealm.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenC1.webp"
+              },
+              {
+                "name": "Astral Chord",
+                "type": "Forte Circuit",
+                "desc": "Flare Star Butterfly\nHitting a target with a Normal Attack generates a Collapsed Core, which transforms into a Flare Star Butterfly after {0}s. Flare Star Butterflies automatically track and attack a target, dealing Spectro DMG. If there are already {1} Collapsed Cores, Shorekeeper's next Basic Attack hit will instantly convert a Collapsed Core into a Flare Star Butterfly.\n\nIllation\nWhen Shorekeeper has 5 segments of Empirical Data, casting Heavy Attack will consume all segments to pull in nearby targets, dealing Spectro DMG. Meanwhile, all generated Collapsed Cores will instantly transform into Flare Star Butterflies.\n\nTransmutation\nWhen Shorekeeper has 5 segments of Empirical Data, casting Mid-air Attack will consume all segments to deal Spectro DMG. Meanwhile, all generated Collapsed Cores will instantly transform into Flare Star Butterflies. Quickly press the Normal Attack Button afterward to perform Basic Attack Stage 2.\n\nEmpirical Data\nShorekeeper can hold up to 5 segments of Empirical Data.\n- Obtain 1 segment of Empirical Data when Basic Attack Stage 1, 2, or 4 hits a target.\n- Obtain 2 segments of Empirical Data when Basic Attack Stage 3 hits a target.\n- Obtain 1 segment of Empirical Data when Mid-air Attack hits a target.\n- Obtain 1 segment of Empirical Data when Dodge Counter hits a target.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenY.webp"
+              },
+              {
+                "name": "Proof of Existence",
+                "type": "Intro Skill",
+                "desc": "Enlightenment\nShorekeeper appears to restore HP for all nearby party members and summon 5 Dim Star Butterflies, which automatically track and attack a target, dealing Spectro DMG. This is considered Resonance Skill DMG.\n\nDiscernment\nWhen a Supernal Stellarealm is generated, Shorekeeper's first Intro Skill triggered in its duration will be replaced with Intro Skill Discernment. Casting Discernment ends the current Stellarealm, restores HP for all nearby party members, and deals Spectro DMG to the targets. This attack is guaranteed to be a Critical Hit dealing Resonance Liberation DMG. The Intro Skill Discernment can only be triggered once each time a Supernal Stellarealm is generated.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenQTE.webp"
+              },
+              {
+                "name": "Binary Butterfly",
+                "type": "Outro Skill",
+                "desc": "Shorekeeper summons 1 Flare Star Butterfly and 1 Dim Star Butterfly to circle the Resonator on the field for up to {0}s, granting the following effects:\n- If the Resonator on the field is hit or launched, tapping the Dodge Button allows the Resonator to immediately recover from the interruption, triggering a successful Dodge. The Resonator launched in the air can land on the ground standing if they are close to the ground. This effect can be triggered up to {1} time(s).\n- All nearby party members' DMG is Amplified by {2}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenT.webp"
+              },
+              {
+                "name": "Healing Bonus+",
+                "desc": "Healing Bonus increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.webp"
+              },
+              {
+                "name": "HP+",
+                "desc": "HP increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.webp"
+              },
+              {
+                "name": "Life Entwined",
+                "type": "Inherent Skill",
+                "desc": "When a Resonator other than Shorekeeper takes a fatal blow, they will not be knocked out and will instead be healed for {0} of Shorekeeper's HP while Shorekeeper loses the same amount of HP. Shorekeeper's HP will not go below 1 from this effect. This effect can be triggered once every 10 minutes.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenD1.webp"
+              },
+              {
+                "name": "Tune Break: Rectifier",
+                "type": "Tune Break",
+                "desc": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakMagic.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "Unspoken Conjecture",
+                "type": "Sequence 1",
+                "desc": "The Stellarealms generated by Resonance Liberation End Loop gain the following enhancements:\n- The effective range of the healing and buffs is extended by {0}\n- The duration is extended by {1}s.\n- Casting Intro Skill Discernment no longer ends the existing Stellarealm."
+              },
+              {
+                "name": "Night's Gift and Refusal",
+                "type": "Sequence 2",
+                "desc": "The Outer Stellarealm now increases the ATK of all nearby party members by {0}."
+              },
+              {
+                "name": "Infinity Awaits Me",
+                "type": "Sequence 3",
+                "desc": "Casting Resonance Liberation End Loop grants Shorekeeper {0} Concerto Energy. This effect can be triggered once every {1}s."
+              },
+              {
+                "name": "Overflowing Quietude",
+                "type": "Sequence 4",
+                "desc": "Gain {0} additional Healing Bonus when casting Resonance Skill Chaos Theory."
+              },
+              {
+                "name": "Echoes in Silence",
+                "type": "Sequence 5",
+                "desc": "Extend the ranges of the pulling effect of Basic Attack Stage 3 by {0} and Illation by {1}."
+              },
+              {
+                "name": "To the New World",
+                "type": "Sequence 6",
+                "desc": "Increase the DMG Multiplier of Intro Skill Discernment by {0}. Casting Intro Skill Discernment increases Shorekeeper's Crit. DMG by {1}."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "41100011",
+            "name": "LF Whisperin Core",
+            "qty": 4,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+            "source": "Whisperins / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100012",
+            "name": "MF Whisperin Core",
+            "qty": 12,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+            "source": "Whisperins / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100013",
+            "name": "HF Whisperin Core",
+            "qty": 12,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+            "source": "Whisperins",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              }
+            ]
+          },
+          {
+            "id": "41100014",
+            "name": "FF Whisperin Core",
+            "qty": 4,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+            "source": "Whisperins",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              }
+            ]
+          },
+          {
+            "id": "41400154",
+            "name": "Topological Confinement",
+            "qty": 46,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+            "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+            "sourceDetails": [
+              {
+                "name": "Fallacy of No Return",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "42310230",
+            "name": "Nova",
+            "qty": 60,
+            "rar": 1,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_084_UI.webp",
+            "source": "Black Shores / Collection Spots",
+            "sourceDetails": [
+              {
+                "name": "Black Shores"
+              },
+              {
+                "name": "Collection Spots"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "41100011",
+            "name": "LF Whisperin Core",
+            "qty": 25,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+            "source": "Whisperins / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100012",
+            "name": "MF Whisperin Core",
+            "qty": 28,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+            "source": "Whisperins / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100013",
+            "name": "HF Whisperin Core",
+            "qty": 40,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+            "source": "Whisperins",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              }
+            ]
+          },
+          {
+            "id": "41100014",
+            "name": "FF Whisperin Core",
+            "qty": 57,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+            "source": "Whisperins",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              }
+            ]
+          },
+          {
+            "id": "41400144",
+            "name": "Sentinel's Dagger",
+            "qty": 26,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
+            "source": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
+            "sourceDetails": [
+              {
+                "name": "Ju\u00e9",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_327_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "43020031",
+            "name": "Lento Helix",
+            "qty": 25,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
+            "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Abyss of Initiation"
+              },
+              {
+                "name": "Forgery Challenge: Misty Forest"
+              },
+              {
+                "name": "Souvenir Store"
+              }
+            ]
+          },
+          {
+            "id": "43020032",
+            "name": "Adagio Helix",
+            "qty": 28,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
+            "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Abyss of Initiation"
+              },
+              {
+                "name": "Forgery Challenge: Misty Forest"
+              }
+            ]
+          },
+          {
+            "id": "43020033",
+            "name": "Andante Helix",
+            "qty": 55,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
+            "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Abyss of Initiation"
+              },
+              {
+                "name": "Forgery Challenge: Misty Forest"
+              }
+            ]
+          },
+          {
+            "id": "43020034",
+            "name": "Presto Helix",
+            "qty": 67,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
+            "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Abyss of Initiation"
+              },
+              {
+                "name": "Forgery Challenge: Misty Forest"
+              }
+            ]
+          }
+        ],
+        "ascCost": 170000,
+        "talentCost": 2030000,
+        "currency": 2530000,
+        "weapon": {
+          "name": "Stellar Symphony",
+          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050027_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050027_UI.webp",
           "items": [
             {
               "id": "41100031",
@@ -44889,179 +45435,6 @@
       "recent": false
     },
     {
-      "id": "ww-the-shorekeeper",
-      "n": "The Shorekeeper",
-      "title": "Euphonic Chrysalis",
-      "slug": "the-shorekeeper",
-      "updated": 1780956000000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
-      "card": "../../Database/Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
-      "signatureWeapon": {
-        "id": "21050036",
-        "name": "Stellar Symphony",
-        "type": "Rectifier",
-        "educated": false
-      },
-      "signatureWeaponId": "21050036",
-      "signatureWeaponName": "Stellar Symphony",
-      "status": "live",
-      "labels": [],
-      "r": 5,
-      "el": "Spectro",
-      "w": "Rectifier",
-      "req": {
-        "weapon": {
-          "name": "Stellar Symphony",
-          "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050027_UI.webp",
-          "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050027_UI.webp",
-          "items": [
-            {
-              "id": "41100031",
-              "name": "Crude Ring",
-              "qty": 6,
-              "rar": 2,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
-              "source": "Exiles / Forgery Challenge",
-              "sourceDetails": [
-                {
-                  "name": "Exile",
-                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
-                },
-                {
-                  "name": "Forgery Challenge"
-                }
-              ]
-            },
-            {
-              "id": "41100032",
-              "name": "Basic Ring",
-              "qty": 6,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
-              "source": "Exiles / Forgery Challenge",
-              "sourceDetails": [
-                {
-                  "name": "Exile",
-                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
-                },
-                {
-                  "name": "Forgery Challenge"
-                }
-              ]
-            },
-            {
-              "id": "41100033",
-              "name": "Improved Ring",
-              "qty": 10,
-              "rar": 4,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
-              "source": "Exiles",
-              "sourceDetails": [
-                {
-                  "name": "Exile",
-                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
-                }
-              ]
-            },
-            {
-              "id": "41100034",
-              "name": "Tailored Ring",
-              "qty": 12,
-              "rar": 5,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
-              "source": "Exiles",
-              "sourceDetails": [
-                {
-                  "name": "Exile",
-                  "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
-                }
-              ]
-            },
-            {
-              "id": "43020031",
-              "name": "Lento Helix",
-              "qty": 6,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
-              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
-              "sourceDetails": [
-                {
-                  "name": "Forgery Challenge: Abyss of Initiation"
-                },
-                {
-                  "name": "Forgery Challenge: Misty Forest"
-                },
-                {
-                  "name": "Souvenir Store"
-                }
-              ]
-            },
-            {
-              "id": "43020032",
-              "name": "Adagio Helix",
-              "qty": 8,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
-              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
-              "sourceDetails": [
-                {
-                  "name": "Forgery Challenge: Abyss of Initiation"
-                },
-                {
-                  "name": "Forgery Challenge: Misty Forest"
-                }
-              ]
-            },
-            {
-              "id": "43020033",
-              "name": "Andante Helix",
-              "qty": 6,
-              "rar": 4,
-              "kind": "book",
-              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
-              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
-              "sourceDetails": [
-                {
-                  "name": "Forgery Challenge: Abyss of Initiation"
-                },
-                {
-                  "name": "Forgery Challenge: Misty Forest"
-                }
-              ]
-            },
-            {
-              "id": "43020034",
-              "name": "Presto Helix",
-              "qty": 20,
-              "rar": 5,
-              "kind": "book",
-              "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
-              "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
-              "sourceDetails": [
-                {
-                  "name": "Forgery Challenge: Abyss of Initiation"
-                },
-                {
-                  "name": "Forgery Challenge: Misty Forest"
-                }
-              ]
-            }
-          ],
-          "cost": 330000
-        },
-        "currency": 330000
-      }
-    },
-    {
       "id": "ww-yangyang-xuanling",
       "n": "Yangyang Xuanling",
       "title": "Voices of Azure Plume",
@@ -45384,6 +45757,7 @@
         "Encore",
         "Phoebe",
         "Phrolova",
+        "The Shorekeeper",
         "Verina",
         "Yinlin",
         "Zhezhi"

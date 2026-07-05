@@ -4549,7 +4549,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
 .cm-ledger-art.holiday img{ object-position:50% 32%; opacity:.94; }
 .cm-ledger-art::after{ content:''; position:absolute; inset:0;
   background:linear-gradient(90deg, rgba(14,9,28,.62) 0%, rgba(14,9,28,.18) 12%, rgba(14,9,28,.06) 100%); }
-.cm-ledger-row{ position:relative; display:grid; grid-template-columns:260px minmax(0, 1fr); align-items:center; gap:20px;
+.cm-ledger-row{ position:relative; z-index:1; display:grid; grid-template-columns:260px minmax(0, 1fr); align-items:center; gap:20px;
   min-height:128px; padding:16px 22px; border-bottom:1px solid rgba(176,150,255,.14);
   background:linear-gradient(90deg, rgba(16,9,32,.34), rgba(16,9,32,.1)); }
 .cm-ledger-row:last-child{ border-bottom:none; }
@@ -4611,7 +4611,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
 .cm-skill-icon.glyph{ color:#bcd0ff; }
 .cm-skill-icon.glyph svg{ width:24px; height:24px; filter:drop-shadow(0 1px 3px rgba(0,0,0,.5)); }
 .cm-skill-icons .cm-talent-summary{ margin-left:2px; }
-.cm-ledger-row.weapon{ align-items:stretch; }
+.cm-ledger-row.weapon{ z-index:5; align-items:stretch; }
 .cm-weapon-label{ position:relative; justify-content:center; overflow:visible; isolation:isolate; }
 .cm-weapon-watermark{ position:absolute; right:-6px; top:50%; z-index:-1; width:112px; height:112px; object-fit:contain;
   transform:translateY(-50%); opacity:.28; filter:drop-shadow(0 0 18px rgba(183,170,255,.28)); }
@@ -4623,7 +4623,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
   display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; font-size:.94em; }
 .cm-weapon-pick i{ flex:none; font-style:normal; color:#cdb3ff; }
 .cm-weapon-pick:not(:disabled):hover{ color:#fff; box-shadow:inset 0 0 0 1px rgba(221,0,68,.55), 0 0 16px rgba(221,0,68,.18); }
-.cm-weapon-menu{ position:absolute; left:0; right:0; top:calc(100% - 2px); z-index:60; overflow:hidden; border-radius:8px;
+.cm-weapon-menu{ position:absolute; left:0; right:auto; top:calc(100% - 2px); z-index:60; width:min(340px, calc(100vw - 32px)); overflow:hidden; border-radius:8px;
   background:rgba(7,5,16,.98); box-shadow:inset 0 0 0 1px rgba(183,170,255,.34), 0 18px 42px rgba(0,0,0,.68); }
 .cm-weapon-menu input{ width:100%; height:36px; border:0; border-bottom:1px solid rgba(183,170,255,.18); padding:0 10px;
   color:#f8f2ff; background:rgba(13,9,31,.86); outline:none; font-size:12px; }

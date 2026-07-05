@@ -15,7 +15,7 @@
     "4.3.55",
     "4.3.56"
   ],
-  "scrapedAt": "2026-07-04T17:58:54.361Z",
+  "scrapedAt": "2026-07-05T08:24:24.983Z",
   "counts": {
     "characters": 92,
     "lightcones": 162,
@@ -115,16 +115,11 @@
   "assetsPlanned": 2630,
   "contentStatus": "All records are Live records from the Nanoka live manifest version.",
   "assets": {
-    "requested": 2630,
+    "skipped": 2630,
     "downloaded": 0,
-    "cached": 2629,
-    "missing": 1,
-    "missingAssets": [
-      {
-        "path": "Nanoka/hsr/assets/characters/avatar/1507.webp",
-        "nanokaAssetPath": "avataricon/avatar/1507.webp"
-      }
-    ]
+    "cached": 0,
+    "missing": 0,
+    "missingAssets": []
   },
   "changeReport": "Nanoka/changes/hsr-live-latest.json",
   "missingAssetReport": "Nanoka/hsr/live/missing-assets.json"

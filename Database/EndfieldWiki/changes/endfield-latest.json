@@ -1,7 +1,7 @@
 {
   "provider": "EndfieldWiki",
   "game": "endfield",
-  "generatedAt": "2026-07-05T00:15:15.053Z",
+  "generatedAt": "2026-07-05T08:28:01.888Z",
   "summary": {
     "characters": {
       "added": 0,
@@ -18,8 +18,8 @@
     "items": {
       "added": 0,
       "removed": 0,
-      "changed": 10,
-      "unchanged": 18
+      "changed": 0,
+      "unchanged": 28
     }
   },
   "sections": {
@@ -46,69 +46,8 @@
     "items": {
       "added": [],
       "removed": [],
-      "changed": [
-        {
-          "id": "Auronyx",
-          "name": "Auronyx",
-          "previousHash": "284c5df6bec96e57ab322b0ddfc1f190e33f17015d4515ce22fe95e16fbdb94b",
-          "currentHash": "e5c2cfa1cf7dffa93b374d197ffaf21efe0372ab3909cca96e1d9e04efcf03ed"
-        },
-        {
-          "id": "Bloodcap",
-          "name": "Bloodcap",
-          "previousHash": "b2d0440cc96359c514b41c9cb8aeaed4002022b13b98e2337287e4bdff3beda1",
-          "currentHash": "87a704ae693255002a804bcde3542cc7bf83f90edd289a6a0efa9a88a1a3d09e"
-        },
-        {
-          "id": "Cosmagaric",
-          "name": "Cosmagaric",
-          "previousHash": "25382bc183f8bf8e181e119217eca72b9e38fa77447fa6e298e9815f8f129a3d",
-          "currentHash": "a79945e2e1f3380c4dc91d783ca1af6b3ec539bdd72c84b9fd9f3d534d3260b7"
-        },
-        {
-          "id": "Igneosite",
-          "name": "Igneosite",
-          "previousHash": "5d8cdfa3819bd66ca6877c03bf6e9bff8ada79fcb0383e45a563b10491b70c51",
-          "currentHash": "e1433c25fce4c57e851a0bd5e1db131d5e1cde64ebeb66b2bb707738d37d6514"
-        },
-        {
-          "id": "Kalkonyx",
-          "name": "Kalkonyx",
-          "previousHash": "a6cf02e2d4453d46a6dc1df49aeba12c5bb4e768d7b8f61fcdeef8e7aeed53b5",
-          "currentHash": "cbb5ceb96285c86679209ac067cb65675efc6261b4f60b43cc5ee2dc6aed51ed"
-        },
-        {
-          "id": "Pink_Bolete",
-          "name": "Pink Bolete",
-          "previousHash": "ffc7c7d8e51ab6d99aa06cee7ea531f4338082ced255d0d9d25c7ffb64c73473",
-          "currentHash": "2417bdaee8837a6fa5ff135acf8d56902603158a1bbcdb7c6bf0ac274a6721cc"
-        },
-        {
-          "id": "Red_Bolete",
-          "name": "Red Bolete",
-          "previousHash": "67640995b4860f1613aa2fcaf394c4e59d58936f9da59844aed1734872d3f171",
-          "currentHash": "6ac5ef04daea2250b3365a28cee6e6da1bc878e6fb117e943ae60a6c334e4d74"
-        },
-        {
-          "id": "Ruby_Bolete",
-          "name": "Ruby Bolete",
-          "previousHash": "b76bf7475861615fa40b0d93af9dbbb27c2816ce15bfbb23bae8b4496bfe10e0",
-          "currentHash": "06b11e26028e787821332a4fde11b0a60b627544436861e1672d2fbe932ff9ad"
-        },
-        {
-          "id": "Umbronyx",
-          "name": "Umbronyx",
-          "previousHash": "e0be9c6e9bed2ba77b5fc4e00eccc5c66dc96ee89bda4c5ffd8c442f606164c6",
-          "currentHash": "95d4970ce1c69b9e875052ac29c7e113c519b0916d114cfa28f0c765eaee57ae"
-        },
-        {
-          "id": "Wulingstone",
-          "name": "Wulingstone",
-          "previousHash": "86df94ef7ac56372cab4674643e2aaebdba5e906ce683df6602861c4640af596",
-          "currentHash": "2b13f7c91d1b43507d09dc4dc509702e953e6d0b4caca82106839cd774f6801e"
-        }
-      ],
-      "unchanged": 18,
+      "changed": [],
+      "unchanged": 28,
       "totals": {
         "previous": 28,
         "current": 28

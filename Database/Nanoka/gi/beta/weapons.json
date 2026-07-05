@@ -23930,7 +23930,9 @@
             "name": "Sediment Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112152.webp"
+            }
           },
           {
             "itemId": "112146",
@@ -23938,7 +23940,9 @@
             "name": "Phantasmagorical Dust",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
+            }
           }
         ]
       },
@@ -23961,7 +23965,9 @@
             "name": "Sediment Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112152.webp"
+            }
           },
           {
             "itemId": "112146",
@@ -23969,7 +23975,9 @@
             "name": "Phantasmagorical Dust",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
+            }
           }
         ]
       },
@@ -23992,7 +24000,9 @@
             "name": "Sediment Clot",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112153.webp"
+            }
           },
           {
             "itemId": "112147",
@@ -24000,7 +24010,9 @@
             "name": "Phantasm Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
+            }
           }
         ]
       },
@@ -24023,7 +24035,9 @@
             "name": "Sediment Clot",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112153.webp"
+            }
           },
           {
             "itemId": "112147",
@@ -24031,7 +24045,9 @@
             "name": "Phantasm Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
+            }
           }
         ]
       },
@@ -24054,7 +24070,9 @@
             "name": "Crystalline Cyst",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112154.webp"
+            }
           },
           {
             "itemId": "112148",
@@ -24062,7 +24080,9 @@
             "name": "Dreamy Crystal Koku",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
+            }
           }
         ]
       },
@@ -24085,7 +24105,9 @@
             "name": "Crystalline Cyst",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112154.webp"
+            }
           },
           {
             "itemId": "112148",
@@ -24093,7 +24115,9 @@
             "name": "Dreamy Crystal Koku",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
+            }
           }
         ]
       }
@@ -24107,7 +24131,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "b267d55f2e2ac51e71d1aa67cd3fed86ec478c9dd717319270e5eb4d643bc023"
+      "currentHash": "37506f4d52d7879e57d31ae66894ad4d97292cd20809d3bc1d60f07445a6f646"
     }
   },
   {
@@ -34892,7 +34916,9 @@
             "name": "Aether-Life Root",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112155.webp"
+            }
           },
           {
             "itemId": "112149",
@@ -34900,7 +34926,9 @@
             "name": "Chimera",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
+            }
           }
         ]
       },
@@ -34923,7 +34951,9 @@
             "name": "Aether-Life Root",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112155.webp"
+            }
           },
           {
             "itemId": "112149",
@@ -34931,7 +34961,9 @@
             "name": "Chimera",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
+            }
           }
         ]
       },
@@ -34954,7 +34986,9 @@
             "name": "Crystalline Sprout",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112156.webp"
+            }
           },
           {
             "itemId": "112150",
@@ -34962,7 +34996,9 @@
             "name": "Symbiotic Chimera Cell",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
+            }
           }
         ]
       },
@@ -34985,7 +35021,9 @@
             "name": "Crystalline Sprout",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112156.webp"
+            }
           },
           {
             "itemId": "112150",
@@ -34993,7 +35031,9 @@
             "name": "Symbiotic Chimera Cell",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
+            }
           }
         ]
       },
@@ -35016,7 +35056,9 @@
             "name": "Everliving Branch of the Heart",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112157.webp"
+            }
           },
           {
             "itemId": "112151",
@@ -35024,7 +35066,9 @@
             "name": "Primordial Chimera",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
+            }
           }
         ]
       },
@@ -35047,7 +35091,9 @@
             "name": "Everliving Branch of the Heart",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112157.webp"
+            }
           },
           {
             "itemId": "112151",
@@ -35055,7 +35101,9 @@
             "name": "Primordial Chimera",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
+            }
           }
         ]
       }
@@ -35069,7 +35117,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "4ddf0c768d6b4ee016a1a38dc40d8c8374f218372506a7fc28ad73be9ca3fae0"
+      "currentHash": "06b88fac7d5730f75bdd085111612be82186cf0efc2cd5ec56444a82cf991b69"
     }
   },
   {
@@ -35512,7 +35560,9 @@
             "name": "Sediment Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112152.webp"
+            }
           },
           {
             "itemId": "112146",
@@ -35520,7 +35570,9 @@
             "name": "Phantasmagorical Dust",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
+            }
           }
         ]
       },
@@ -35543,7 +35595,9 @@
             "name": "Sediment Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112152.webp"
+            }
           },
           {
             "itemId": "112146",
@@ -35551,7 +35605,9 @@
             "name": "Phantasmagorical Dust",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
+            }
           }
         ]
       },
@@ -35574,7 +35630,9 @@
             "name": "Sediment Clot",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112153.webp"
+            }
           },
           {
             "itemId": "112147",
@@ -35582,7 +35640,9 @@
             "name": "Phantasm Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
+            }
           }
         ]
       },
@@ -35605,7 +35665,9 @@
             "name": "Sediment Clot",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112153.webp"
+            }
           },
           {
             "itemId": "112147",
@@ -35613,7 +35675,9 @@
             "name": "Phantasm Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
+            }
           }
         ]
       },
@@ -35636,7 +35700,9 @@
             "name": "Crystalline Cyst",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112154.webp"
+            }
           },
           {
             "itemId": "112148",
@@ -35644,7 +35710,9 @@
             "name": "Dreamy Crystal Koku",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
+            }
           }
         ]
       },
@@ -35667,7 +35735,9 @@
             "name": "Crystalline Cyst",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112154.webp"
+            }
           },
           {
             "itemId": "112148",
@@ -35675,7 +35745,9 @@
             "name": "Dreamy Crystal Koku",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
+            }
           }
         ]
       }
@@ -35689,7 +35761,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "e5508a1ab5622b4c7f67900cac137fed37589b6e659bebdbe34089b2896511d2"
+      "currentHash": "b343188ce55ada73ab939f8bef292b984742b0b84ad3a88487fb7f61ef9da256"
     }
   },
   {
@@ -57151,7 +57223,9 @@
             "name": "Aether-Life Root",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112155.webp"
+            }
           },
           {
             "itemId": "112149",
@@ -57159,7 +57233,9 @@
             "name": "Chimera",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
+            }
           }
         ]
       },
@@ -57182,7 +57258,9 @@
             "name": "Aether-Life Root",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112155.webp"
+            }
           },
           {
             "itemId": "112149",
@@ -57190,7 +57268,9 @@
             "name": "Chimera",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
+            }
           }
         ]
       },
@@ -57213,7 +57293,9 @@
             "name": "Crystalline Sprout",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112156.webp"
+            }
           },
           {
             "itemId": "112150",
@@ -57221,7 +57303,9 @@
             "name": "Symbiotic Chimera Cell",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
+            }
           }
         ]
       },
@@ -57244,7 +57328,9 @@
             "name": "Crystalline Sprout",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112156.webp"
+            }
           },
           {
             "itemId": "112150",
@@ -57252,7 +57338,9 @@
             "name": "Symbiotic Chimera Cell",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
+            }
           }
         ]
       },
@@ -57275,7 +57363,9 @@
             "name": "Everliving Branch of the Heart",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112157.webp"
+            }
           },
           {
             "itemId": "112151",
@@ -57283,7 +57373,9 @@
             "name": "Primordial Chimera",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
+            }
           }
         ]
       },
@@ -57306,7 +57398,9 @@
             "name": "Everliving Branch of the Heart",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112157.webp"
+            }
           },
           {
             "itemId": "112151",
@@ -57314,7 +57408,9 @@
             "name": "Primordial Chimera",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
+            }
           }
         ]
       }
@@ -57328,7 +57424,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "e151db80b1457b6a4b46e0f6adacc46dce199929ca1768e7d0da8a0ad6d171bb"
+      "currentHash": "fd89c1727a0d7837c69a3acb1bb4435db3f66bef6cff93a99798d938f44ce243"
     }
   },
   {
@@ -82667,7 +82763,9 @@
             "name": "Sediment Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112152.webp"
+            }
           },
           {
             "itemId": "112149",
@@ -82675,7 +82773,9 @@
             "name": "Chimera",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
+            }
           }
         ]
       },
@@ -82698,7 +82798,9 @@
             "name": "Sediment Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112152.webp"
+            }
           },
           {
             "itemId": "112149",
@@ -82706,7 +82808,9 @@
             "name": "Chimera",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
+            }
           }
         ]
       },
@@ -82729,7 +82833,9 @@
             "name": "Sediment Clot",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112153.webp"
+            }
           },
           {
             "itemId": "112150",
@@ -82737,7 +82843,9 @@
             "name": "Symbiotic Chimera Cell",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
+            }
           }
         ]
       },
@@ -82760,7 +82868,9 @@
             "name": "Sediment Clot",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112153.webp"
+            }
           },
           {
             "itemId": "112150",
@@ -82768,7 +82878,9 @@
             "name": "Symbiotic Chimera Cell",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
+            }
           }
         ]
       },
@@ -82791,7 +82903,9 @@
             "name": "Crystalline Cyst",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112154.webp"
+            }
           },
           {
             "itemId": "112151",
@@ -82799,7 +82913,9 @@
             "name": "Primordial Chimera",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
+            }
           }
         ]
       },
@@ -82822,7 +82938,9 @@
             "name": "Crystalline Cyst",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112154.webp"
+            }
           },
           {
             "itemId": "112151",
@@ -82830,7 +82948,9 @@
             "name": "Primordial Chimera",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
+            }
           }
         ]
       }
@@ -82844,7 +82964,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "5558638223986f282fdcaacbdf8782a174eee29547879ab5e7303b06c7001b36"
+      "currentHash": "4934abcdf37f58f791ed7966af040b27689e9e7006477a15c41486e13dc43ba9"
     }
   },
   {
@@ -83288,7 +83408,9 @@
             "name": "Aether-Life Root",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112155.webp"
+            }
           },
           {
             "itemId": "112146",
@@ -83296,7 +83418,9 @@
             "name": "Phantasmagorical Dust",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
+            }
           }
         ]
       },
@@ -83319,7 +83443,9 @@
             "name": "Aether-Life Root",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112155.webp"
+            }
           },
           {
             "itemId": "112146",
@@ -83327,7 +83453,9 @@
             "name": "Phantasmagorical Dust",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
+            }
           }
         ]
       },
@@ -83350,7 +83478,9 @@
             "name": "Crystalline Sprout",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112156.webp"
+            }
           },
           {
             "itemId": "112147",
@@ -83358,7 +83488,9 @@
             "name": "Phantasm Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
+            }
           }
         ]
       },
@@ -83381,7 +83513,9 @@
             "name": "Crystalline Sprout",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112156.webp"
+            }
           },
           {
             "itemId": "112147",
@@ -83389,7 +83523,9 @@
             "name": "Phantasm Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
+            }
           }
         ]
       },
@@ -83412,7 +83548,9 @@
             "name": "Everliving Branch of the Heart",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112157.webp"
+            }
           },
           {
             "itemId": "112148",
@@ -83420,7 +83558,9 @@
             "name": "Dreamy Crystal Koku",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
+            }
           }
         ]
       },
@@ -83443,7 +83583,9 @@
             "name": "Everliving Branch of the Heart",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112157.webp"
+            }
           },
           {
             "itemId": "112148",
@@ -83451,7 +83593,9 @@
             "name": "Dreamy Crystal Koku",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
+            }
           }
         ]
       }
@@ -83465,7 +83609,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "413fdbff08a876b2d7ccc6004e62d307cc708fdc94bf4ab17d70dfaa4904b18f"
+      "currentHash": "e64b54394257bd1b7eff16c8f494fe5c12879579938da2583deaa1a720332344"
     }
   },
   {
@@ -113325,7 +113469,9 @@
             "name": "Sediment Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112152.webp"
+            }
           },
           {
             "itemId": "112146",
@@ -113333,7 +113479,9 @@
             "name": "Phantasmagorical Dust",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
+            }
           }
         ]
       },
@@ -113356,7 +113504,9 @@
             "name": "Sediment Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112152.webp"
+            }
           },
           {
             "itemId": "112146",
@@ -113364,7 +113514,9 @@
             "name": "Phantasmagorical Dust",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
+            }
           }
         ]
       },
@@ -113387,7 +113539,9 @@
             "name": "Sediment Clot",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112153.webp"
+            }
           },
           {
             "itemId": "112147",
@@ -113395,7 +113549,9 @@
             "name": "Phantasm Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
+            }
           }
         ]
       },
@@ -113418,7 +113574,9 @@
             "name": "Sediment Clot",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112153.webp"
+            }
           },
           {
             "itemId": "112147",
@@ -113426,7 +113584,9 @@
             "name": "Phantasm Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
+            }
           }
         ]
       },
@@ -113449,7 +113609,9 @@
             "name": "Crystalline Cyst",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112154.webp"
+            }
           },
           {
             "itemId": "112148",
@@ -113457,7 +113619,9 @@
             "name": "Dreamy Crystal Koku",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
+            }
           }
         ]
       },
@@ -113480,7 +113644,9 @@
             "name": "Crystalline Cyst",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112154.webp"
+            }
           },
           {
             "itemId": "112148",
@@ -113488,7 +113654,9 @@
             "name": "Dreamy Crystal Koku",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
+            }
           }
         ]
       }
@@ -113502,7 +113670,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "403eff028ee63cdaf08910831156b4ff7d9a4cbb9825d8a7cdcf1f1df61a14bb"
+      "currentHash": "79ab0130985a1d27ffbbb2493928e97605279ce61fbd80a2daeebdf7d1c07868"
     }
   },
   {
@@ -149120,7 +149288,9 @@
             "name": "Aether-Life Root",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112155.webp"
+            }
           },
           {
             "itemId": "112149",
@@ -149128,7 +149298,9 @@
             "name": "Chimera",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
+            }
           }
         ]
       },
@@ -149151,7 +149323,9 @@
             "name": "Aether-Life Root",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112155.webp"
+            }
           },
           {
             "itemId": "112149",
@@ -149159,7 +149333,9 @@
             "name": "Chimera",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
+            }
           }
         ]
       },
@@ -149182,7 +149358,9 @@
             "name": "Crystalline Sprout",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112156.webp"
+            }
           },
           {
             "itemId": "112150",
@@ -149190,7 +149368,9 @@
             "name": "Symbiotic Chimera Cell",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
+            }
           }
         ]
       },
@@ -149213,7 +149393,9 @@
             "name": "Crystalline Sprout",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112156.webp"
+            }
           },
           {
             "itemId": "112150",
@@ -149221,7 +149403,9 @@
             "name": "Symbiotic Chimera Cell",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
+            }
           }
         ]
       },
@@ -149244,7 +149428,9 @@
             "name": "Everliving Branch of the Heart",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112157.webp"
+            }
           },
           {
             "itemId": "112151",
@@ -149252,7 +149438,9 @@
             "name": "Primordial Chimera",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
+            }
           }
         ]
       },
@@ -149275,7 +149463,9 @@
             "name": "Everliving Branch of the Heart",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112157.webp"
+            }
           },
           {
             "itemId": "112151",
@@ -149283,7 +149473,9 @@
             "name": "Primordial Chimera",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
-            "assets": {}
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
+            }
           }
         ]
       }
@@ -149297,7 +149489,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "ab6add4aaba47be218c10ecf7f9379a71f585ce723b9b80c303980a53280d24f"
+      "currentHash": "d1cfb003fcd28509f3ef8892ba5a3446d6c03682d5d8a147023431157cffb1e9"
     }
   },
   {
@@ -157059,11 +157251,12 @@
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
     "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Glacia.webp"
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Glacia.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_AssaultRifle_Glacia.webp"
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "ec068cd02c9b6c78acb1ff87b87696ea9e192ada2b028ea9a20cd88d255d232b"
+      "currentHash": "7d572e4e65bd14ec89310b38146fa818d89cdc1fd33a41541c126a8744418fcd"
     }
   },
   {
@@ -157073,11 +157266,12 @@
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
     "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Fulmen.webp"
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Fulmen.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_AssaultRifle_Fulmen.webp"
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "89bc4f8339b72bafc30214e102c7389fd1d969ef5475c6d1a65b6f961c742189"
+      "currentHash": "24c3288334d1d7dbe6e25455617f28661f1de6322b0ca345163f5f31d8712950"
     }
   },
   {
@@ -157087,11 +157281,12 @@
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
     "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_GrenadeLauncher_Ignis.webp"
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_GrenadeLauncher_Ignis.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_GrenadeLauncher_Ignis.webp"
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "14eae162f3d0700111ad76a95456ef4b03a0c0daf581db117509a08a90530325"
+      "currentHash": "d882b76dd38f93cee6692b7dfee63c9dfb4f6f679c1cfae32358c6bdc00868d3"
     }
   },
   {
@@ -157100,10 +157295,13 @@
     "name": "Pomegranate Crystal Pyro",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/Sword_Template.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/Sword_Template.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "currentHash": "a8c28658f9e917dd7d1b60f12e403013502aedb2309710681526fa450af5dd8d"
+      "currentHash": "f74fc1011865b3a30cc60637dd24ede3c1cec1d9a797efa8bebef5d48673a53f"
     }
   },
   {
@@ -157112,10 +157310,13 @@
     "name": "Hydro Crystal",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/Sword_Template.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/Sword_Template.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "currentHash": "082bbbdcfc79ef9856259f0dd7343392bc3106fe54c82ba598fbc2a6377c3bce"
+      "currentHash": "bc8c11b58cbaf1d6a9b2874cd0d1753216214691a51d01dd97e09313ca86d055"
     }
   },
   {
@@ -157124,10 +157325,13 @@
     "name": "Electro Crystal",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/Sword_Template.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/Sword_Template.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "currentHash": "0b2704f00085107ee491bbb891dcb47fc4f61e0aa2e9718dbf9679c03b6ff701"
+      "currentHash": "64947da46ee945771acfdbc73c1db51af17c98c3b4071780f5e4ac47ca80f4fa"
     }
   },
   {
@@ -157136,10 +157340,13 @@
     "name": "Garnet Cryo",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/Sword_Template.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/Sword_Template.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "currentHash": "618e467fa12d785afb3257c1c91bcfb8b17f1bbb1b8c4cf7e5187d0bd3c5c529"
+      "currentHash": "93d827e5c75ab259de6f57402487cd03b18007221afc1b35a5ba2dc8be8ca8dd"
     }
   },
   {
@@ -157148,10 +157355,13 @@
     "name": "224008",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/Sword_Template.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/Sword_Template.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "currentHash": "2408f6ad18d6efddb8f6a0a07edc0cc2dcd287e3fd46b9a56d559e980bfb91d2"
+      "currentHash": "813e6f7e17164bb780b3ffb6b8f040bb34bbd1c56a4bab9f3ff48db302385ac0"
     }
   },
   {
@@ -157161,11 +157371,14 @@
     "rarity": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "description": "A glorious, illusory sword that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this sword once held the name \"Logseims\" when it was wielded by a golden sinner in an ancient land.",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Sword_MorphVinces_{0}.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_MorphVinces_{0}.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "liveHash": "63d1f14f6982aec60e8a86c357ec04b19cdde142c5baf9c953ba2250620e8b92",
-      "currentHash": "63d1f14f6982aec60e8a86c357ec04b19cdde142c5baf9c953ba2250620e8b92"
+      "liveHash": "ff60b6dd825c00b15af8f6049ace3403df8195f42684f18e708533c635cfd031",
+      "currentHash": "ff60b6dd825c00b15af8f6049ace3403df8195f42684f18e708533c635cfd031"
     }
   },
   {
@@ -157175,11 +157388,14 @@
     "rarity": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
     "description": "A glorious, illusory sword glimmering with the power of \"Life\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this sword once held the name \"Logseims\" when it was wielded by a transcendent sinner in an ancient land.",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Sword_MorphVinces_Great_{0}.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_MorphVinces_Great_{0}.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "liveHash": "c0ad540670e8b4ae37ec52be77ec3be99b05d16bff48f89d107b943b28f066d0",
-      "currentHash": "c0ad540670e8b4ae37ec52be77ec3be99b05d16bff48f89d107b943b28f066d0"
+      "liveHash": "e188ed9dd19169261e17be4cc84f913101c5e83842b59d400370b04b2c595704",
+      "currentHash": "e188ed9dd19169261e17be4cc84f913101c5e83842b59d400370b04b2c595704"
     }
   },
   {
@@ -157189,11 +157405,14 @@
     "rarity": 4,
     "type": "WEAPON_CLAYMORE",
     "description": "A glorious, illusory claymore that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this claymore once held the name \"Starkuthr\" when it was wielded by an wise sinner in an ancient land.",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Claymore_MorphGravitas_{0}.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Claymore_MorphGravitas_{0}.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "liveHash": "f056fbc2b9ee96e0b9e059d98022abc1a3b3998888bdd220e8fa36620c026b4f",
-      "currentHash": "f056fbc2b9ee96e0b9e059d98022abc1a3b3998888bdd220e8fa36620c026b4f"
+      "liveHash": "4cf58aa2b18888dfc7293f09f8c2f97342dbd83b359533f77ae3ab8a6352d4bb",
+      "currentHash": "4cf58aa2b18888dfc7293f09f8c2f97342dbd83b359533f77ae3ab8a6352d4bb"
     }
   },
   {
@@ -157203,11 +157422,14 @@
     "rarity": 5,
     "type": "WEAPON_CLAYMORE",
     "description": "A glorious, illusory claymore glimmering with the power of \"Reason\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this claymore once held the name \"Starkuthr\" when it was wielded by a transcendent sinner in an ancient land.",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Claymore_MorphGravitas_Great_{0}.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Claymore_MorphGravitas_Great_{0}.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "liveHash": "0c11ad7ed72a5b344b3455ed65498ce0d2288cf89202638089b02f619b047851",
-      "currentHash": "0c11ad7ed72a5b344b3455ed65498ce0d2288cf89202638089b02f619b047851"
+      "liveHash": "477603203ac58553901341ee9b9facd9d8eee3986c8ef493f86b07631ed49a85",
+      "currentHash": "477603203ac58553901341ee9b9facd9d8eee3986c8ef493f86b07631ed49a85"
     }
   },
   {
@@ -157217,11 +157439,14 @@
     "rarity": 4,
     "type": "WEAPON_POLE",
     "description": "A glorious, illusory polearm that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this polearm once held the name \"Barnstokkr\" when it was wielded by a moon-hunting sinner in an ancient land.",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Pole_MorphSpinifer_{0}.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Pole_MorphSpinifer_{0}.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "liveHash": "4acdd74e106932e2587526f4ac79c13e841a7c830540dcaaa65cab036955a91c",
-      "currentHash": "4acdd74e106932e2587526f4ac79c13e841a7c830540dcaaa65cab036955a91c"
+      "liveHash": "a500e05804f81168736b6c68cd021583f7dd957081bb09a05e6dd8d0eeda386f",
+      "currentHash": "a500e05804f81168736b6c68cd021583f7dd957081bb09a05e6dd8d0eeda386f"
     }
   },
   {
@@ -157231,11 +157456,14 @@
     "rarity": 5,
     "type": "WEAPON_POLE",
     "description": "A glorious, illusory polearm glimmering with the power of \"Death\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this polearm once held the name \"Barnstokkr\" when it was wielded by a transcendent sinner in an ancient land.",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Pole_MorphSpinifer_Great_{0}.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Pole_MorphSpinifer_Great_{0}.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "liveHash": "062fa015d09d4fba26264cda589fd6d7660470a98664dfc03b920fd9115b6dfb",
-      "currentHash": "062fa015d09d4fba26264cda589fd6d7660470a98664dfc03b920fd9115b6dfb"
+      "liveHash": "6fa27e2674131ceb8c7452488ed8f316441864ed719176873a83b79ec169d395",
+      "currentHash": "6fa27e2674131ceb8c7452488ed8f316441864ed719176873a83b79ec169d395"
     }
   },
   {
@@ -157245,11 +157473,14 @@
     "rarity": 4,
     "type": "WEAPON_CATALYST",
     "description": "A glorious, illusory catalyst that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its user. Legend has it that this catalyst once held the name \"Gleipnir\" when it was used by an oracle-issuing sinner in an ancient land.",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Catalyst_MorphIlia_{0}.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Catalyst_MorphIlia_{0}.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "liveHash": "fe567471962aa590ada9fa6f290de6254f739fe1a46e8b446218c0338fd5a1a5",
-      "currentHash": "fe567471962aa590ada9fa6f290de6254f739fe1a46e8b446218c0338fd5a1a5"
+      "liveHash": "df7f937dbc0c25d727a24a2bcf025ec548883309a18b10087c589c8100c16bef",
+      "currentHash": "df7f937dbc0c25d727a24a2bcf025ec548883309a18b10087c589c8100c16bef"
     }
   },
   {
@@ -157259,11 +157490,14 @@
     "rarity": 5,
     "type": "WEAPON_CATALYST",
     "description": "A glorious, illusory catalyst glimmering with the power of \"Time\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its user. Legend has it that this catalyst once held the name \"Gleipnir\" when it was used by a transcendent sinner in an ancient land.",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Catalyst_MorphIlia_Great_{0}.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Catalyst_MorphIlia_Great_{0}.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "liveHash": "6fa535c2c86e6f62162a8c307e6cb77a6fa04b3ae9b24b2d4c617ba4be946b90",
-      "currentHash": "6fa535c2c86e6f62162a8c307e6cb77a6fa04b3ae9b24b2d4c617ba4be946b90"
+      "liveHash": "ae2efe8635b26931ded381e088305526bd8618947a149daee22ca375810a7c14",
+      "currentHash": "ae2efe8635b26931ded381e088305526bd8618947a149daee22ca375810a7c14"
     }
   },
   {
@@ -157273,11 +157507,14 @@
     "rarity": 4,
     "type": "WEAPON_BOW",
     "description": "A glorious, illusory bow that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this bow once held the name \"Gusisnautar\" when it was wielded by a foul sinner in an ancient land.",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Bow_MorphChrod_{0}.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Bow_MorphChrod_{0}.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "liveHash": "62153924ac27b9451e926530b0d96750c330e0a91d27c4caabf9ad6d4c099596",
-      "currentHash": "62153924ac27b9451e926530b0d96750c330e0a91d27c4caabf9ad6d4c099596"
+      "liveHash": "d8cc31fbb5d48ab3d29948e096a4642160271fa12c8d93f43b2dc0daf829136c",
+      "currentHash": "d8cc31fbb5d48ab3d29948e096a4642160271fa12c8d93f43b2dc0daf829136c"
     }
   },
   {
@@ -157287,11 +157524,14 @@
     "rarity": 5,
     "type": "WEAPON_BOW",
     "description": "A glorious, illusory bow glimmering with the power of \"Void\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this bow once held the name \"Gusisnautar\" when it was wielded by a transcendent sinner in an ancient land.",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Bow_MorphChrod_Great_{0}.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Bow_MorphChrod_Great_{0}.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "liveHash": "847489b2004d81a3440248d6e639a6b8dfc7fea10f95aa7e4617a66a133601bd",
-      "currentHash": "847489b2004d81a3440248d6e639a6b8dfc7fea10f95aa7e4617a66a133601bd"
+      "liveHash": "2f4dcf1b2f4116f7b98ed918417549fed0bcf23dbd8606c984c6e7773c62f5bc",
+      "currentHash": "2f4dcf1b2f4116f7b98ed918417549fed0bcf23dbd8606c984c6e7773c62f5bc"
     }
   },
   {
@@ -157318,11 +157558,14 @@
     "rarity": 4,
     "type": "WEAPON_CLAYMORE",
     "description": "A gift from the Little Hexenzirkel to a good friend. Due to insufficient available materials, the design has been based on a magical item from the Fontainian text, \"Tales of a Snow-Winged Goose.\"\\nYou won't be able to open doors to different realms as one can in fairy tales, but this item is more than durable enough to accompany friends through countless such realms.",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Claymore_LoliFriend.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Claymore_LoliFriend.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "liveHash": "87957289aa33c5445eed7e44f28620bd8434249e74aa4bcdf8e964e89de81e92",
-      "currentHash": "87957289aa33c5445eed7e44f28620bd8434249e74aa4bcdf8e964e89de81e92"
+      "liveHash": "000e3f1a548b10d9a9e3fd691094838d62eae940e37b5829f2940519af540f1d",
+      "currentHash": "000e3f1a548b10d9a9e3fd691094838d62eae940e37b5829f2940519af540f1d"
     }
   },
   {

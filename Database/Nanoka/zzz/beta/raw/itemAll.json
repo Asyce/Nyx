@@ -51955,7 +51955,7 @@
   },
   "4300401": {
     "id": 4300401,
-    "name": "Ether Dynamite C - Windworn Highway",
+    "name": "Ether Explosive B-Windworn Highway",
     "desc": "Material-C-Area Exclusive1",
     "desc2": "BKItem_4300401_Story",
     "class": {},
@@ -51964,7 +51964,7 @@
   },
   "4300402": {
     "id": 4300402,
-    "name": "High-Carbon Composite Fiber C - Withered Wildswood",
+    "name": "High-Carbon Composite Fiber B-Withered Wildswood",
     "desc": "Material-C-Area Exclusive2",
     "desc2": "BKItem_4300402_Story",
     "class": {},
@@ -51973,7 +51973,7 @@
   },
   "4300403": {
     "id": 4300403,
-    "name": "Ether Sensor C - Fantasy Beach",
+    "name": "Ether Sensor B-Fantasy Beach",
     "desc": "Material-C-Area Exclusive3",
     "desc2": "BKItem_4300403_Story",
     "class": {},
@@ -51982,7 +51982,7 @@
   },
   "4300404": {
     "id": 4300404,
-    "name": "Thrust Bearing C - Dove Street Construction Site",
+    "name": "Pressure Bearing B-Dove Street Construction Site Ruins",
     "desc": "Material-C-Area Exclusive4",
     "desc2": "BKItem_4300404_Story",
     "class": {},
@@ -51991,7 +51991,7 @@
   },
   "4300405": {
     "id": 4300405,
-    "name": "Ether Signal Stabilizer C - Six Dusk Street",
+    "name": "Ether Signal Stabilizer B - Six Dusk Street",
     "desc": "Material-C-Area Exclusive5",
     "desc2": "BKItem_4300405_Story",
     "class": {},
@@ -52000,7 +52000,7 @@
   },
   "4300406": {
     "id": 4300406,
-    "name": "Microcontrol Circuit Board C - Lumina Central",
+    "name": "Microcontrol Circuit Board B - Lumina Central",
     "desc": "Material-C-Area Exclusive6",
     "desc2": "BKItem_4300406_Story",
     "class": {},
@@ -52009,7 +52009,7 @@
   },
   "4300421": {
     "id": 4300421,
-    "name": "Ether Explosive B-Windworn Highway",
+    "name": "Ether Explosive A-Windworn Highway",
     "desc": "Found by exploring the Parts-Rich Zone. Used for Outpost Base Upgrades.",
     "desc2": "BKItem_4300421_Story",
     "class": {},
@@ -52018,7 +52018,7 @@
   },
   "4300422": {
     "id": 4300422,
-    "name": "High-Carbon Composite Fiber B - Withered Wildswood",
+    "name": "High-Carbon Composite Fiber A-Withered Wildswood",
     "desc": "Found by exploring Can Material-Rich Zones. Used for Outpost Base Upgrades.",
     "desc2": "BKItem_4300422_Story",
     "class": {},
@@ -52027,7 +52027,7 @@
   },
   "4300423": {
     "id": 4300423,
-    "name": "Ether Sensor B-Fantasy Beach",
+    "name": "Ether Sensor A-Fantasy Beach",
     "desc": "Found by exploring the Cable-Rich Zone. Used for Outpost Base Upgrades.",
     "desc2": "BKItem_4300423_Story",
     "class": {},
@@ -52036,7 +52036,7 @@
   },
   "4300424": {
     "id": 4300424,
-    "name": "Thrust Bearing B - Dove Street Construction Site",
+    "name": "Pressure Bearing A-Dove Street Construction Site",
     "desc": "Found by exploring the Parts-Rich Zone. Used for Outpost Base Upgrades.",
     "desc2": "BKItem_4300424_Story",
     "class": {},
@@ -52045,7 +52045,7 @@
   },
   "4300425": {
     "id": 4300425,
-    "name": "Ether Signal Stabilizer B - Six Dusk Street",
+    "name": "Ether Signal Stabilizer A - Six Dusk Street",
     "desc": "Found by exploring Can Material-Rich Zones. Used for Outpost Base Upgrades.",
     "desc2": "BKItem_4300425_Story",
     "class": {},
@@ -52054,7 +52054,7 @@
   },
   "4300426": {
     "id": 4300426,
-    "name": "Microcontrol Circuit Board B - Lumina Central",
+    "name": "Microcontrol Circuit Board A - Lumina Central",
     "desc": "Found by exploring the Cable-Rich Zone. Used for Outpost Base Upgrades.",
     "desc2": "BKItem_4300426_Story",
     "class": {},
@@ -52063,7 +52063,7 @@
   },
   "4300451": {
     "id": 4300451,
-    "name": "Ether Explosive A-Windworn Highway",
+    "name": "Ether Explosive S-Windworn Highway",
     "desc": "Found by exploring the Parts-Rich Zone. Used for Outpost Base Upgrades.",
     "desc2": "BKItem_4300451_Story",
     "class": {},
@@ -52072,7 +52072,7 @@
   },
   "4300452": {
     "id": 4300452,
-    "name": "High-Carbon Composite Fiber A - Withered Wildswood",
+    "name": "High-Carbon Composite Fiber S-Withered Wildswood",
     "desc": "Found by exploring Can Material-Rich Zones. Used for Outpost Base Upgrades.",
     "desc2": "BKItem_4300452_Story",
     "class": {},
@@ -52081,7 +52081,7 @@
   },
   "4300453": {
     "id": 4300453,
-    "name": "Ether Sensor A - Fantasy Beach",
+    "name": "Ether Sensor S - Fantasy Beach",
     "desc": "Found by exploring the Cable-Rich Zone. Used for Outpost Base Upgrades.",
     "desc2": "BKItem_4300453_Story",
     "class": {},
@@ -52090,7 +52090,7 @@
   },
   "4300454": {
     "id": 4300454,
-    "name": "Thrust Bearing A - Dove Street Construction Site",
+    "name": "Pressure Bearing S-Dove Street Construction Site Ruins",
     "desc": "Found by exploring the Parts-Rich Zone. Used for Outpost Base Upgrades.",
     "desc2": "BKItem_4300454_Story",
     "class": {},
@@ -52099,7 +52099,7 @@
   },
   "4300455": {
     "id": 4300455,
-    "name": "Ether Signal Stabilizer A - Six Dusk Street",
+    "name": "Ether Signal Stabilizer S - Six Dusk Street",
     "desc": "Found by exploring Can Material-Rich Zones. Used for Outpost Base Upgrades.",
     "desc2": "BKItem_4300455_Story",
     "class": {},
@@ -52108,7 +52108,7 @@
   },
   "4300456": {
     "id": 4300456,
-    "name": "Micro Control Circuit A - Lumina Central",
+    "name": "Microcontrol Circuit Board S-Lumina Central",
     "desc": "Found by exploring the Cable-Rich Zone. Used for Outpost Base Upgrades.",
     "desc2": "BKItem_4300456_Story",
     "class": {},
@@ -54394,8 +54394,8 @@
   },
   "4340204": {
     "id": 4340204,
-    "name": "Dreamweave Beach-Aquarium",
-    "desc": "After use, unlocks the Key Room at <color=#FFAF2C>Dreamweave Beach - Aquarium First Floor</color> to obtain a large amount of Supplies.",
+    "name": "Dreamweave Beach-Aquarium West Room",
+    "desc": "After use, unlocks the Key Room at <IconMap:Icon_Zenkov_Line><color=#FFAF2C>Dreamweave Beach - Aquarium West Side Room</color> to obtain a large amount of Supplies.",
     "desc2": "BKItem_4340204_Story",
     "class": {},
     "rarity": 4,
@@ -55946,7 +55946,7 @@
     "desc": "A rare, custom-built Blasting Electric circuit board, straight from Jen. Got some serious uses lined up for it — keep it safe.",
     "desc2": "BKItem_4360099_Story",
     "class": {},
-    "rarity": 5,
+    "rarity": 4,
     "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/BlindBoxJackPot_04.png"
   },
   "4361001": {
@@ -56113,8 +56113,8 @@
   },
   "4364003": {
     "id": 4364003,
-    "name": "Dreamweave Beach-Aquarium Key",
-    "desc": "Use to unlock the east entrance of <color=#FFAF2C>Dreamweave Beach-Aquarium</color>.",
+    "name": "Dreamweave Beach-Aquarium East Entrance",
+    "desc": "Use to unlock the <IconMap:Icon_Zenkov_Line><color=#FFAF2C>Dreamweave Beach-Aquarium East Entrance</color>.",
     "desc2": "BKItem_4364003_Story",
     "class": {},
     "rarity": 4,

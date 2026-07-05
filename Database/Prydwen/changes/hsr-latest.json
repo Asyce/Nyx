@@ -1,64 +1,21 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-07-04T18:03:10.068Z",
+  "generatedAt": "2026-07-05T08:26:04.436Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 7,
-      "unchanged": 88
+      "changed": 0,
+      "unchanged": 95
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [
-        {
-          "id": "characters:aglaea",
-          "name": "Aglaea",
-          "previousHash": "a0f94ad36f0c2e0faefbddacde57b8453992b0a5cec718ffc0c32e653d44cb26",
-          "currentHash": "70d9f0cc82c3468ce855029664f506e255b653b53945c3b5e2e84e406024966b"
-        },
-        {
-          "id": "characters:blade-mortenax",
-          "name": "Mortenax Blade",
-          "previousHash": "476d2a520eb497e87896e1eea29ae349dd15d09355c692749a834935dec64554",
-          "currentHash": "41507d7edc1f2fd73aa0bccdd4c4a411defd8e14d3c5eea13bc116381a71fdef"
-        },
-        {
-          "id": "characters:jiaoqiu",
-          "name": "Jiaoqiu",
-          "previousHash": "35b0c14f8c048a1607d262f1c87acf62a457f69c46f17755a268c759ee1546e5",
-          "currentHash": "7b7e96d18e8f704663c9fa407e2a9aa2f7cf3ee9a1df0f6925e7a849c3d7939a"
-        },
-        {
-          "id": "characters:misha",
-          "name": "Misha",
-          "previousHash": "a3cb1480b444f0fca5e9e01f34fae04ad5770e09c4c4c52b52f86b90572020b0",
-          "currentHash": "4e36f693d3131de0b7cc6bf712cdc22a8d041f39926449f410e66e14feb7e10b"
-        },
-        {
-          "id": "characters:pela",
-          "name": "Pela",
-          "previousHash": "601e25fa5c2bcb247e3f7dc784b3435718f5307cdc6f35f23d84b17ff26a3dae",
-          "currentHash": "5f48e0c200153e154171912342c2cbdd0baf0bd8b5447345b9dee861b5cadb37"
-        },
-        {
-          "id": "characters:silver-wolf",
-          "name": "Silver Wolf",
-          "previousHash": "6d62d4e8bbd1c9d196762ab8450fb3f13b6ceee57cdcee749095e441e65c5931",
-          "currentHash": "07dd7b46f7d9fce6160b75e6b5f44b69d98daaaf654810d48dadd65f5e77627f"
-        },
-        {
-          "id": "characters:topaz",
-          "name": "Topaz & Numby",
-          "previousHash": "ce4b1ba8add816fb352c1afc02fd3d9c67315c8e122a44c01ff150f54388407d",
-          "currentHash": "56a0a71eed627111f002da53e0f28c055e1195c57cfd7e3812364e26e96c1ce4"
-        }
-      ],
-      "unchanged": 88,
+      "changed": [],
+      "unchanged": 95,
       "totals": {
         "previous": 95,
         "current": 95

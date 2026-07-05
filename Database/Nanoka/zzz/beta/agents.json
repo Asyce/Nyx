@@ -77792,8 +77792,8 @@
       }
     },
     "liveComparison": {
-      "liveHash": "410e49360fd6061085bc56b66928ab6e5b22cbcf61fd301d5354010e4f5ba1ae",
-      "currentHash": "410e49360fd6061085bc56b66928ab6e5b22cbcf61fd301d5354010e4f5ba1ae"
+      "liveHash": "4cf5473c1a9a359c20c7b95d227869f1090232d21f7f9176cae9b84073251aea",
+      "currentHash": "4cf5473c1a9a359c20c7b95d227869f1090232d21f7f9176cae9b84073251aea"
     }
   },
   {
@@ -109126,8 +109126,8 @@
       "detail": {}
     },
     "liveComparison": {
-      "liveHash": "7970209d4868749393497dd5d2dccf986523b6b7fb2d3abd933777de0d4e24b5",
-      "currentHash": "7970209d4868749393497dd5d2dccf986523b6b7fb2d3abd933777de0d4e24b5"
+      "liveHash": "d237e66c6d12f7a21438a9f08ec09d7494d8cd5d2661f2df93aebe727a48e774",
+      "currentHash": "d237e66c6d12f7a21438a9f08ec09d7494d8cd5d2661f2df93aebe727a48e774"
     }
   },
   {
@@ -113207,8 +113207,8 @@
       "detail": {}
     },
     "liveComparison": {
-      "liveHash": "d2cac2f43483f464e8bedb13f4a90164a2395fae2730f73adce947c655d1070e",
-      "currentHash": "9587f1a057490de165520ea428b446f804f731de8de1ec01989b78583c322aed"
+      "liveHash": "3afdf018291ed7d2db37a4bae47bcf281c42995e14fc95377552a3cb04ccf2b2",
+      "currentHash": "f5d29ad97be358e60e07c2096ca9019d5b53105b1fe41cf7235f3c38bc038fcd"
     }
   },
   {
@@ -117256,7 +117256,9 @@
     "gender": 2,
     "description": "Partner_ProfileDesc_1581",
     "assets": {
-      "partnerIcon": "Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle67.webp"
+      "icon": "Nanoka/zzz/assets/agents/icons/IconRole67.webp",
+      "partnerIcon": "Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
+      "roleIcon": "Nanoka/zzz/assets/agents/role-icons/IconRole67.webp"
     },
     "profile": {
       "birthday": "Partner_Birthday_1581",
@@ -118286,7 +118288,7 @@
           },
           {
             "name": "Special Attack: Dawn's Exaltation · Radiant Turn",
-            "desc": "Hold <IconMap:Icon_Special> to activate:\nEnter <color=#FFFFFF>[Shift Stance]</color> after a <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color>. While in <color=#FFFFFF>[Shift Stance]</color>, switching characters when the character's <color=#FFFFFF>[Newfeather Gauge]</color> reaches its max value of 120 will allow entry into the <color=#FFFFFF>[Phase Flux]</color> state:\nWhile in the <color=#FFFFFF>[Phase Flux]</color> state, the character acts autonomously to assist in combat. Some attacks can also apply <color=#FFA9DD>[Lumen Buildup Point]</color> to targets. The <color=#FFFFFF>[Newfeather Gauge]</color> is consumed over time while in the <color=#FFFFFF>[Phase Flux]</color> state. When the <color=#FFFFFF>[Newfeather Gauge]</color> is fully depleted, the character exits the <color=#FFFFFF>[Phase Flux]</color> state. Before exiting <color=#FFFFFF>[Phase Flux]</color>, the character cannot be switched in by any means other than a <color=#FFFFFF>[Chain Attack]</color>;\nIf the character triggers 3 <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Refringe]</color> reactions while in the <color=#FFFFFF>[Phase Flux]</color> state, or if the character's stored <color=#FFFFFF>[Phantom Radiance]</color> count is 1 or more when the <color=#FFFFFF>[Newfeather Gauge]</color> is depleted, the character activates <color=#FFFFFF>[Assist: Featherbloom Waltz]</color>. Upon activation, Normal Switch-In is unlocked, and the character will automatically trigger <color=#FFFFFF>[Assist: Featherbloom Waltz]</color> on the next Normal Switch-In;\nUpon entering the <color=#FFFFFF>[Phase Flux]</color> state, the character grants all squad members a DMG dealt increase of <color=#2BAD00>{CAL:0+AvatarSkillLevel(1)*1.5,1,2}%</color> for 60s; repeated triggers reset the duration;\nIf the character's <color=#FFFFFF>[Newfeather Gauge]</color> reaches its max value of 120 and a <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> hits a Stunned enemy, switching characters during the <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> can also trigger the <color=#FFFFFF>[Phase Flux]</color> state;\nIf no character switch is made after entering <color=#FFFFFF>[Shift Stance]</color>, Remie performs a downward attack to return to the ground.",
+            "desc": "Hold <IconMap:Icon_Special> to activate:\nIf Remie's <color=#FFFFFF>[New Feather Value]</color> reaches the maximum of 120 points, she can enter <color=#FFFFFF>[Shift Stance]</color> after a <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color>. When switching characters during <color=#FFFFFF>[Shift Stance]</color>, she will enter <color=#FFFFFF>[Phase-Shift Flow]</color>:\nWhile in <color=#FFFFFF>[Phase-Shift Flow]</color>, Remie acts autonomously to assist in combat, and some of her attacks can apply <color=#FFA9DD>[Lumen Buildup Points]</color> to targets. <color=#FFFFFF>[New Feather Value]</color> is consumed over time while in <color=#FFFFFF>[Phase-Shift Flow]</color>. When <color=#FFFFFF>[New Feather Value]</color> is fully depleted, <color=#FFFFFF>[Phase-Shift Flow]</color> ends. Before exiting <color=#FFFFFF>[Phase-Shift Flow]</color>, Remie can only be switched in via <color=#FFFFFF>[Chain Attack]</color>;\nIf Remie triggers 3 <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reactions while in <color=#FFFFFF>[Phase-Shift Flow]</color>, or has at least 1 stored <color=#FFFFFF>[Void Radiance]</color> when her <color=#FFFFFF>[New Feather Value]</color> is depleted, <color=#FFFFFF>[Assist: Petal Feather Waltz]</color> is activated. Once activated, Normal Switch-In is unlocked, and Remie will automatically trigger <color=#FFFFFF>[Assist: Petal Feather Waltz]</color> on her next Normal Switch-In;\nUpon entering <color=#FFFFFF>[Phase-Shift Flow]</color>, Remie grants all squad members a DMG dealt increase of <color=#2BAD00>{CAL:0+AvatarSkillLevel(1)*1.5,1,2}%</color> for 60s; repeated triggers reset the duration;\nIf Remie's <color=#FFFFFF>[New Feather Value]</color> reaches the maximum of 120 points and her <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> hits a Stunned enemy, switching characters during the <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> can also trigger <color=#FFFFFF>[Phase-Shift Flow]</color>;\nIf no character switch is made after entering <color=#FFFFFF>[Shift Stance]</color>, Remie performs a downward attack to land on the ground.",
             "potential": []
           },
           {
@@ -118480,7 +118482,7 @@
           },
           {
             "name": "Ultimate: Curtain Call of Chaos",
-            "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nPerform a multi-hit attack forward, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nIf the attack hits a target, trigger the <color=#FFFFFF>Luminize</color> effect after the skill ends, with a multiplier of <color=#2BAD00>{CAL:230+AvatarSkillLevel(3)*5.2,1,2}%</color>;\nCharacter is invulnerable while using this skill.",
+            "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nPerform a large area attack forward, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nIf the attack hits a target, the <color=#FFFFFF>Luminize</color> effect can be triggered after the skill ends, with a multiplier of <color=#2BAD00>{CAL:230+AvatarSkillLevel(3)*5.2,1,2}%</color>;\nCharacter is invulnerable while using this skill.",
             "potential": []
           },
           {
@@ -118626,7 +118628,7 @@
           },
           {
             "name": "Assist: Petal Feather Waltz",
-            "desc": "Enter the field and unleash a large area bombardment, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nCosts 40 <color=#FFFFFF>[Neofeather]</color> upon activation. If the remaining <color=#FFFFFF>[Neofeather]</color> is at or below 90 when activated, <color=#FFFFFF>[Assist: Feathered Waltz]</color> will not consume <color=#FFFFFF>[Neofeather]</color>, and the character enters the <color=#FFFFFF>[Radiance]</color> state, upgrading the next <color=#FFFFFF>[Basic Attack: Cascade]</color> to <color=#FFFFFF>[Basic Attack: Soaring Flash]</color>;\nWhen this skill hits an enemy in a Stunned state, the enemy's Stun duration is extended by 3s. Each enemy can only receive this effect once per Stun state. This Stun duration extension cannot stack with effects of the same type;\nIf a target is hit, a <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends, with a multiplier of <color=#2BAD00>{CAL:220+AvatarSkillLevel(6)*5,1,2}%</color>;\nCharacter is invulnerable while using this skill.",
+            "desc": "Enter and launch a large area attack, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nConsumes 40 <color=#FFFFFF>[New Feather Value]</color> upon activation. If the remaining <color=#FFFFFF>[New Feather Value]</color> is equal to or less than 90 at the time of activation, this <color=#FFFFFF>[Assist: Feather Petal Waltz]</color> no longer consumes <color=#FFFFFF>[New Feather Value]</color>, and the character enters the <color=#FFFFFF>[Radiant Glow]</color> state. The next use of <color=#FFFFFF>[Basic Attack: Cascading Rainbow]</color> will be upgraded to <color=#FFFFFF>[Basic Attack: Startled Swan]</color>;\nWhen the skill hits an enemy in a Stunned state, the enemy's Stun duration is extended by 3s. Each enemy can only receive this effect once per Stun state, and this Stun duration extension effect cannot stack with effects of the same type;\nIf a target is hit, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends, with a multiplier of <color=#2BAD00>{CAL:220+AvatarSkillLevel(6)*5,1,2}%</color>;\nCharacter is invulnerable while using this skill.",
             "potential": []
           },
           {
@@ -119017,7 +119019,7 @@
             "Additional Ability: Phee's Invitation"
           ],
           "desc": [
-            "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> equals <color=#2BAD00>0.01%</color> of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> Reaction for the Character, Remie generates <color=#FFFFFF>[Luminos]</color> based on the <color=#FFFFFF>[Anomaly Intensity]</color> of the Attribute Anomaly effect after being boosted by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Luminos]</color> can be stored;\nIf <color=#FFFFFF>[Assist Skill: Feather Waltz]</color>/<color=#FFFFFF>[Ultimate: Grand Finale]</color>/<color=#FFFFFF>[Basic Attack: Cascade]</color>/<color=#FFFFFF>[Basic Attack: Flashwing]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Intensity]</color> of all stored <color=#FFFFFF>[Luminos]</color>, deal Attribute Anomaly DMG to enemies at the skill's corresponding multiplier, and increase this DMG Multiplier by <color=#2BAD00>0.1%</color> of her own Anomaly Proficiency;\nWhen the Character enters the <color=#FFFFFF>[Phase Flux]</color> state or after using <color=#FFFFFF>[Basic Attack: Cascade]</color> or <color=#FFFFFF>[Basic Attack: Flashwing]</color>, all stored <color=#FFFFFF>[Luminos]</color> will be cleared.",
+            "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is 0.01% of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction, Remie generates <color=#FFFFFF>[Phantom Radiance]</color> based on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of that Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Phantom Radiance]</color> can be stored;\nIf <color=#FFFFFF>[Assist Skill: Feather Waltz]</color>/<color=#FFFFFF>[Ultimate: Brilliant Finale]</color>/<color=#FFFFFF>[Basic Attack: Cascade]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of all stored <color=#FFFFFF>[Phantom Radiance]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.1%</color> of own Anomaly Proficiency;\nWhen the Character enters <color=#FFFFFF>[Phase-Shift Flow]</color> or after using <color=#FFFFFF>[Basic Attack: Cascade]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>, all stored <color=#FFFFFF>[Phantom Radiance]</color> will be cleared.",
             "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the <color=#FFFFFF>[Phase Flux]</color> state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, they also inflict the <color=#FFFFFF>[Phantachrome]</color> effect on that enemy: While under the <color=#FFFFFF>[Phantachrome]</color> effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Phantachrome]</color> effect expires. After the <color=#FFFFFF>[Phantachrome]</color> effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds."
           ],
           "extra_property": {},
@@ -119031,7 +119033,7 @@
             "Additional Ability: Phee's Invitation"
           ],
           "desc": [
-            "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is <color=#2BAD00>0.01%</color> of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is further increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction of the Character, Remie generates <color=#FFFFFF>[Phantom Radiance]</color> based on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of that Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Phantom Radiance]</color> can be stored;\nIf <color=#FFFFFF>[Assist Skill: Floral Wing Waltz]</color> / <color=#FFFFFF>[Ultimate: Dazzling Finale]</color> / <color=#FFFFFF>[Basic Attack: Cascading Rainbow]</color> / <color=#FFFFFF>[Basic Attack: Fleeting Crane]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of all stored <color=#FFFFFF>[Phantom Radiance]</color>, deal Attribute Anomaly DMG to enemies at the skill's corresponding multiplier, and increase this DMG Multiplier based on <color=#2BAD00>0.12%</color> of own Anomaly Proficiency;\nAll stored <color=#FFFFFF>[Phantom Radiance]</color> on the Character will be cleared upon entering the <color=#FFFFFF>[Phase Flux]</color> state or after using <color=#FFFFFF>[Basic Attack: Cascading Rainbow]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Crane]</color>.",
+            "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is 0.01% of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction, Remie generates <color=#FFFFFF>[Voidglow]</color> based on the <color=#FFFFFF>[Anomaly Intensity]</color> of the Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Voidglow]</color> can be stored;\nIf <color=#FFFFFF>[Assist: Feather Ring Dance]</color>/<color=#FFFFFF>[Ultimate: Turbulent Final Act]</color>/<color=#FFFFFF>[Basic Attack: Cascade]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Intensity]</color> of all stored <color=#FFFFFF>[Voidglow]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.12%</color> of own Anomaly Proficiency;\nWhen the Character enters <color=#FFFFFF>[Phase-Shift Flow]</color> state or after using <color=#FFFFFF>[Basic Attack: Cascade]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>, all stored <color=#FFFFFF>[Voidglow]</color> will be cleared.",
             "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the <color=#FFFFFF>[Phase Flux]</color> state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, they also inflict the <color=#FFFFFF>[Phantachrome]</color> effect on that enemy: While under the <color=#FFFFFF>[Phantachrome]</color> effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Phantachrome]</color> effect expires. After the <color=#FFFFFF>[Phantachrome]</color> effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds."
           ],
           "extra_property": {},
@@ -119045,7 +119047,7 @@
             "Additional Ability: Phee's Invitation"
           ],
           "desc": [
-            "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> equals <color=#2BAD00>0.01%</color> of her own Anomaly Proficiency. When the team has 3 <color=#FFFFFF>[Anomaly]</color> Characters, the <color=#FFA9DD>[Mutation Coefficient]</color> is further increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction for the Character, Remie generates <color=#FFFFFF>[Luxons]</color> based on the <color=#FFFFFF>[Anomaly Intensity]</color> of the Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. A maximum of 3 most recently generated <color=#FFFFFF>[Luxons]</color> can be stored;\nIf <color=#FFFFFF>[Assist Skill: Feathered Roundelay]</color> / <color=#FFFFFF>[Ultimate: Chaotic Finale]</color> / <color=#FFFFFF>[Basic Attack: Trailing Rainbow]</color> / <color=#FFFFFF>[Basic Attack: Fleeting Crane]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Intensity]</color> of all stored <color=#FFFFFF>[Luxons]</color>, deal Attribute Anomaly DMG to enemies at the skill's corresponding multiplier, and increase this DMG Multiplier based on <color=#2BAD00>0.14%</color> of own Anomaly Proficiency;\nAll stored <color=#FFFFFF>[Luxons]</color> are cleared when the Character enters the <color=#FFFFFF>[Phase Flux]</color> state or after using <color=#FFFFFF>[Basic Attack: Trailing Rainbow]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Crane]</color>.",
+            "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is 0.01% of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction of the Character, Remie generates <color=#FFFFFF>[Void Radiance]</color> based on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of the Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Void Radiance]</color> can be stored;\nIf <color=#FFFFFF>[Assist Skill: Feather Waltz]</color>/<color=#FFFFFF>[Ultimate: Turbulent Finale]</color>/<color=#FFFFFF>[Basic Attack: Falling Rainbow]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> among all stored <color=#FFFFFF>[Void Radiance]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.14%</color> of own Anomaly Proficiency;\nWhen the Character enters the <color=#FFFFFF>[Phase-Shift Flow]</color> state, or after triggering <color=#FFFFFF>[Basic Attack: Falling Rainbow]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>, all stored <color=#FFFFFF>[Void Radiance]</color> will be cleared.",
             "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the <color=#FFFFFF>[Phase Flux]</color> state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, they also inflict the <color=#FFFFFF>[Phantachrome]</color> effect on that enemy: While under the <color=#FFFFFF>[Phantachrome]</color> effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Phantachrome]</color> effect expires. After the <color=#FFFFFF>[Phantachrome]</color> effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds."
           ],
           "extra_property": {},
@@ -119059,7 +119061,7 @@
             "Additional Ability: Phee's Invitation"
           ],
           "desc": [
-            "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> equals <color=#2BAD00>0.01%</color> of her own Anomaly Proficiency. When the team has 3 <color=#FFFFFF>[Anomaly]</color> Characters, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction for the Character, Remie generates <color=#FFFFFF>[Spectral Gleam]</color> based on the <color=#FFFFFF>[Anomaly Intensity]</color> of that Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 most recently generated <color=#FFFFFF>[Spectral Gleam]</color> can be stored;\nIf <color=#FFFFFF>[Assist Skill: Floral Feather Waltz]</color>/<color=#FFFFFF>[Ultimate: Resplendent Finale]</color>/<color=#FFFFFF>[Basic Attack: Cascade]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Flash]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Intensity]</color> of all stored <color=#FFFFFF>[Spectral Gleam]</color>, deal Attribute Anomaly DMG to enemies at the skill's corresponding multiplier, and increase this DMG Multiplier by <color=#2BAD00>0.15%</color> of her own Anomaly Proficiency;\nAll stored <color=#FFFFFF>[Spectral Gleam]</color> are cleared when the Character enters the <color=#FFFFFF>[Phase Flux]</color> state or after using <color=#FFFFFF>[Basic Attack: Cascade]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Flash]</color>.",
+            "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is 0.01% of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction of the Character, Remie generates <color=#FFFFFF>[Void Radiance]</color> based on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of the Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Void Radiance]</color> can be stored;\nIf <color=#FFFFFF>[Assist Skill: Feather Waltz]</color>/<color=#FFFFFF>[Ultimate: Turbulent Finale]</color>/<color=#FFFFFF>[Basic Attack: Falling Rainbow]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> among all stored <color=#FFFFFF>[Void Radiance]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.15%</color> of own Anomaly Proficiency;\nWhen the Character enters the <color=#FFFFFF>[Phase-Shift Flow]</color> state, or after triggering <color=#FFFFFF>[Basic Attack: Falling Rainbow]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>, all stored <color=#FFFFFF>[Void Radiance]</color> will be cleared.",
             "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the <color=#FFFFFF>[Phase Flux]</color> state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, they also inflict the <color=#FFFFFF>[Phantachrome]</color> effect on that enemy: While under the <color=#FFFFFF>[Phantachrome]</color> effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Phantachrome]</color> effect expires. After the <color=#FFFFFF>[Phantachrome]</color> effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds."
           ],
           "extra_property": {},
@@ -119073,7 +119075,7 @@
             "Additional Ability: Phee's Invitation"
           ],
           "desc": [
-            "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is <color=#2BAD00>0.01%</color> of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> Reaction for this Character, Remie generates <color=#FFFFFF>[Void Gleam]</color> based on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of that Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Void Gleam]</color> can be stored;\nIf <color=#FFFFFF>[Assist Skill: Feather Waltz]</color> / <color=#FFFFFF>[Ultimate: Chaotic Finale]</color> / <color=#FFFFFF>[Basic Attack: Cascading Rainbow]</color> / <color=#FFFFFF>[Basic Attack: Fleeting Swan]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of all stored <color=#FFFFFF>[Void Gleam]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.16%</color> of own Anomaly Proficiency;\nWhen the Character enters the <color=#FFFFFF>[Phase Flow]</color> state or after using <color=#FFFFFF>[Basic Attack: Cascading Rainbow]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Swan]</color>, all stored <color=#FFFFFF>[Void Gleam]</color> will be cleared.",
+            "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is 0.01% of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction, Remie generates <color=#FFFFFF>[Voidglow]</color> based on the <color=#FFFFFF>[Anomaly Intensity]</color> of the Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Voidglow]</color> can be stored;\nIf <color=#FFFFFF>[Assist: Feather Ring Dance]</color>/<color=#FFFFFF>[Ultimate: Turbulent Final Act]</color>/<color=#FFFFFF>[Basic Attack: Cascade]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Intensity]</color> of all stored <color=#FFFFFF>[Voidglow]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.16%</color> of own Anomaly Proficiency;\nWhen the Character enters <color=#FFFFFF>[Phase-Shift Flow]</color> state or after using <color=#FFFFFF>[Basic Attack: Cascade]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>, all stored <color=#FFFFFF>[Voidglow]</color> will be cleared.",
             "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the <color=#FFFFFF>[Phase Flux]</color> state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, they also inflict the <color=#FFFFFF>[Phantachrome]</color> effect on that enemy: While under the <color=#FFFFFF>[Phantachrome]</color> effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Phantachrome]</color> effect expires. After the <color=#FFFFFF>[Phantachrome]</color> effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds."
           ],
           "extra_property": {},
@@ -119087,7 +119089,7 @@
             "Additional Ability: Phee's Invitation"
           ],
           "desc": [
-            "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> equals <color=#2BAD00>0.01%</color> of her own Anomaly Proficiency. When the team has 3 <color=#FFFFFF>[Anomaly]</color> Characters, the <color=#FFA9DD>[Mutation Coefficient]</color> is further increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction for the Character, Remie generates <color=#FFFFFF>[Luminary]</color> based on the <color=#FFFFFF>[Anomaly Intensity]</color> of the Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Luminary]</color> can be stored;\nIf <color=#FFFFFF>[Assist Skill: Feather Ring Waltz]</color>/<color=#FFFFFF>[Ultimate: Chaotic Finale]</color>/<color=#FFFFFF>[Basic Attack: Cascading Rainbow]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Swan]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Intensity]</color> of all stored <color=#FFFFFF>[Luminary]</color>, deal Attribute Anomaly DMG to enemies at the corresponding skill multiplier, and boost this DMG Multiplier by <color=#2BAD00>0.18%</color> of her own Anomaly Proficiency;\nWhen the Character enters the <color=#FFFFFF>[Phase Flux]</color> state or after using <color=#FFFFFF>[Basic Attack: Cascading Rainbow]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Swan]</color>, all stored <color=#FFFFFF>[Luminary]</color> are cleared.",
+            "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is 0.01% of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction, Remie generates <color=#FFFFFF>[Voidglow]</color> based on the <color=#FFFFFF>[Anomaly Intensity]</color> of the Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Voidglow]</color> can be stored;\nIf <color=#FFFFFF>[Assist: Feather Ring Dance]</color>/<color=#FFFFFF>[Ultimate: Turbulent Final Act]</color>/<color=#FFFFFF>[Basic Attack: Cascade]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Intensity]</color> of all stored <color=#FFFFFF>[Voidglow]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.18%</color> of own Anomaly Proficiency;\nWhen the Character enters <color=#FFFFFF>[Phase-Shift Flow]</color> state or after using <color=#FFFFFF>[Basic Attack: Cascade]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>, all stored <color=#FFFFFF>[Voidglow]</color> will be cleared.",
             "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the <color=#FFFFFF>[Phase Flux]</color> state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, they also inflict the <color=#FFFFFF>[Phantachrome]</color> effect on that enemy: While under the <color=#FFFFFF>[Phantachrome]</color> effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Phantachrome]</color> effect expires. After the <color=#FFFFFF>[Phantachrome]</color> effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds."
           ],
           "extra_property": {},
@@ -119101,7 +119103,7 @@
             "Additional Ability: Phee's Invitation"
           ],
           "desc": [
-            "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> equals <color=#2BAD00>0.01%</color> of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction for this Character, Remie generates <color=#FFFFFF>[Spectral Glow]</color> based on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of that Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Spectral Glow]</color> can be stored;\nIf <color=#FFFFFF>[Assist Skill: Feather-Petal Waltz]</color> / <color=#FFFFFF>[Ultimate: Finale in Chaos]</color> / <color=#FFFFFF>[Basic Attack: Cascade]</color> / <color=#FFFFFF>[Basic Attack: Soaring Flash]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> among all stored <color=#FFFFFF>[Spectral Glow]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.2%</color> of her own Anomaly Proficiency;\nWhen the Character enters the <color=#FFFFFF>[Phase Flux]</color> state or after using <color=#FFFFFF>[Basic Attack: Cascade]</color> or <color=#FFFFFF>[Basic Attack: Soaring Flash]</color>, all stored <color=#FFFFFF>[Spectral Glow]</color> will be cleared.",
+            "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is 0.01% of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction, Remie generates <color=#FFFFFF>[Phantom Radiance]</color> based on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of that Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Phantom Radiance]</color> can be stored;\nIf <color=#FFFFFF>[Assist Skill: Feather Waltz]</color>/<color=#FFFFFF>[Ultimate: Brilliant Finale]</color>/<color=#FFFFFF>[Basic Attack: Cascade]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of all stored <color=#FFFFFF>[Phantom Radiance]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.2%</color> of own Anomaly Proficiency;\nWhen the Character enters <color=#FFFFFF>[Phase-Shift Flow]</color> or after using <color=#FFFFFF>[Basic Attack: Cascade]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>, all stored <color=#FFFFFF>[Phantom Radiance]</color> will be cleared.",
             "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the <color=#FFFFFF>[Phase Flux]</color> state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, they also inflict the <color=#FFFFFF>[Phantachrome]</color> effect on that enemy: While under the <color=#FFFFFF>[Phantachrome]</color> effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Phantachrome]</color> effect expires. After the <color=#FFFFFF>[Phantachrome]</color> effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds."
           ],
           "extra_property": {},
@@ -119153,7 +119155,7 @@
       "2": {
         "level": 2,
         "name": "Cascading Clamor",
-        "desc": "Remie's <color=#FFA9DD>[Refringence]</color> increases to 2. When triggering a <color=#FFA9DD>[Refringe]</color> reaction, up to 2 <color=#FFA9DD>[Lumen Buildup Points]</color> will be consumed. When 2 <color=#FFA9DD>[Lumen Buildup Points]</color> are consumed, the <color=#FFA9DD>[Mutation Coefficient]</color> of this <color=#FFA9DD>[Refringe]</color> increases by 20%.\nAdditionally, while the character is in the <color=#FFFFFF>[Phase Flux]</color> state, the frequency at which auto-activated Support Skills apply <color=#FFA9DD>[Lumen Buildup Points]</color> to enemies increases, and the number of <color=#FFA9DD>[Lumen Buildup Points]</color> applied per skill also increases from 1 to 2.",
+        "desc": "Remie's <color=#FFA9DD>[Refringence]</color> increases to 2. When triggering a <color=#FFA9DD>[Refringe]</color> reaction, up to 2 <color=#FFA9DD>[Lumen Buildup Points]</color> will be consumed. When 2 <color=#FFA9DD>[Lumen Buildup Points]</color> are consumed, the <color=#FFA9DD>[Mutation Coefficient]</color> of this <color=#FFA9DD>[Refringe]</color> increases by 25%.\nAdditionally, while the character is in the <color=#FFFFFF>[Phase Flux]</color> state, the frequency at which auto-activated Support Skills apply <color=#FFA9DD>[Lumen Buildup Points]</color> to enemies increases, and the number of <color=#FFA9DD>[Lumen Buildup Points]</color> applied per skill also increases from 1 to 2.",
         "desc2": "..."
       },
       "3": {
@@ -119165,7 +119167,7 @@
       "4": {
         "level": 4,
         "name": "The Long Goodbye",
-        "desc": "When Remie triggers the <color=#FFFFFF>[Luminize]</color> effect, DMG Multiplier is additionally increased by 10%.",
+        "desc": "When Remie triggers the <color=#FFFFFF>[Luminize]</color> effect, DMG Multiplier is additionally increased by 12%; after Remie enters the battlefield and gains the maximum number of special <color=#FFFFFF>[Void Radiance]</color>, if all <color=#FFFFFF>[Void Radiance]</color> are consumed within 30s, the maximum number of special <color=#FFFFFF>[Void Radiance]</color> can be obtained once more. The effect of gaining special <color=#FFFFFF>[Void Radiance]</color> again disappears after triggering 1 time or when Remie enters the <color=#FFFFFF>[Phase-Shift Flow]</color> state.",
         "desc2": "..."
       },
       "5": {
@@ -119177,7 +119179,7 @@
       "6": {
         "level": 6,
         "name": "Wings of a Thousand Beats",
-        "desc": "When Remie uses <color=#FFFFFF>[Basic Attack: Falling Rainbow]</color> and <color=#FFFFFF>[Basic Attack: Fleeting Swan]</color>, she triggers the <color=#FFFFFF>[Luminize]</color> effect 2 times; if the 4th hit of <color=#FFFFFF>[Basic Attack]</color> lands on a target, Remie gains 3 special <color=#FFFFFF>[Void Gleam]</color> after the skill ends. The DMG dealt by special <color=#FFFFFF>[Void Gleam]</color> obtained this way is 20% of that from special <color=#FFFFFF>[Void Gleam]</color> gained upon entering the battlefield; In <color=#FFFFFF>[Additional Ability]</color>, the number of required <color=#FFFFFF>[Anomaly]</color> Characters is reduced by 1.",
+        "desc": "When Remie uses <color=#FFFFFF>[Basic Attack: Drooping Rainbow]</color> and <color=#FFFFFF>[Basic Attack: Fleeting Swan]</color>, she triggers the <color=#FFFFFF>[Luminize]</color> effect 2 times; if the 4th hit of <color=#FFFFFF>[Basic Attack]</color> lands on a target, Remie gains 3 special <color=#FFFFFF>[Void Radiance]</color> after the skill ends. The DMG dealt by special <color=#FFFFFF>[Void Radiance]</color> obtained this way is 20% of that from special <color=#FFFFFF>[Void Radiance]</color> gained upon entering the battlefield.",
         "desc2": "..."
       }
     },
@@ -119215,8 +119217,8 @@
       "detail": {}
     },
     "liveComparison": {
-      "liveHash": "6dbd95c6e06957343ba1e3a04c0bd2bd750dd5a39deaa77e5dc67aabd04558da",
-      "currentHash": "78931004288b7a55ea4bf0d059a890ac88768d64567ae9100f330a952f2c1ed7"
+      "liveHash": "d6061c4aefd7cacb7ea8fd772591aa6d670961d9da57ac2b53ebe2d54cf613dd",
+      "currentHash": "cae8e757435e97e7d8a0df457e28f3b6d9da0562cde81407dc6419aeaa386d71"
     }
   },
   {
@@ -119239,7 +119241,11 @@
     },
     "gender": 2,
     "description": "...",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/agents/icons/IconRole66.webp",
+      "partnerIcon": "Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle66.webp",
+      "roleIcon": "Nanoka/zzz/assets/agents/role-icons/IconRole66.webp"
+    },
     "profile": {
       "birthday": "...",
       "full_name": "...",
@@ -119669,12 +119675,12 @@
         "descriptions": [
           {
             "name": "Basic Attack: Glacial Spearpoint",
-            "desc": "Press <IconMap:Icon_Normal> to activate:\nLaunch up to 4 Slashes forward, dealing <color=#98EFF0>Ice DMG</color>;\n<color=#FFFFFF>[Basic Attack]</color> Stage 4 is considered a <color=#FFFFFF>[Drawn Stance]</color>;",
+            "desc": "Press <IconMap:Icon_Normal> to activate:\nLaunch up to 4 Slashes forward, dealing <color=#98EFF0>Ice DMG</color>;\nThe 4th hit of <color=#FFFFFF>[Basic Attack: Frosty Spearhead]</color> is considered a <color=#FFFFFF>[Draw Stance]</color>;",
             "potential": []
           },
           {
             "name": "Basic Attack: Gun-Draw Stance",
-            "desc": "While in <color=#FFFFFF>[Sky Patrol Gunstance]</color> with available <color=#FFFFFF>[Basic Attack: Retract]</color> charges, hold <IconMap:Icon_Normal> to activate:\nActivates the corresponding <color=#FFFFFF>[Basic Attack: Retract]</color> based on the current stage, dealing <color=#98EFF0>Ice DMG</color>;\n<color=#FFFFFF>[Basic Attack: Retract]</color> has three stages. Each activation advances the stage count. After activating Stage 3 of <color=#FFFFFF>[Basic Attack: Retract]</color>, the stage count resets;\nWhen Sigrid takes a hit from an enemy while charging her Stance during Stage 1 or 2 of <color=#FFFFFF>[Basic Attack: Retract]</color>, she blocks with her shield. A successful Block negates the incoming DMG, refreshes the <color=#FFFFFF>[Sky Patrol Gunstance]</color> state, and grants one <color=#FFFFFF>[Basic Attack: Retract]</color> charge. After a successful Block, press 【Basic Attack】 to activate <color=#FFFFFF>[Basic Attack: Retract]</color> at the corresponding stage;\n<color=#FFFFFF>[Basic Attack: Retract]</color> used after <color=#FFFFFF>[Basic Attack: Piercing Frost Tip]</color> retains the current stage count of <color=#FFFFFF>[Basic Attack: Piercing Frost Tip]</color>;\nDMG taken during this skill is reduced by 60%;\nAnti-Interrupt level is increased during this skill;\nSigrid is invulnerable during Stage 3 of <color=#FFFFFF>[Basic Attack: Retract]</color>.",
+            "desc": "While in <color=#FFFFFF>[Sky Patrol Gunstance]</color> with available <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> charges, hold <IconMap:Icon_Normal> to activate:\nActivates the corresponding <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> based on the current branch stage, dealing <color=#98EFF0>Ice DMG</color>;\n<color=#FFFFFF>[Basic Attack: Gun Retraction]</color> has three stages. Each use advances the stage count. After activating Stage 3 of <color=#FFFFFF>[Basic Attack: Gun Retraction]</color>, the stage count resets;\nIf Sigrid is attacked during the charge Stance of Stages 1 or 2 of <color=#FFFFFF>[Basic Attack: Gun Retraction]</color>, she will Block with her shield. Upon a successful Block, the incoming attack DMG is negated, the <color=#FFFFFF>[Sky Patrol Gunstance]</color> state is refreshed, and one <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> charge is granted. After a successful Block, press <IconMap:Icon_Normal> to activate <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> at the corresponding stage;\n<color=#FFFFFF>[Basic Attack: Gun Retraction]</color> used after <color=#FFFFFF>[Basic Attack: Piercing Frost Tip]</color> retains the current stage count of <color=#FFFFFF>[Basic Attack: Piercing Frost Tip]</color>;\nDMG received during this skill is reduced by 60%;\nAnti-Interrupt level is increased during this skill;\nCharacter is invulnerable during Stage 3 of <color=#FFFFFF>[Basic Attack: Gun Retraction]</color>.",
             "potential": []
           },
           {
@@ -119899,23 +119905,23 @@
                 "desc": "{Skill:1591007, Prop:1001}",
                 "param": {
                   "1591007": {
-                    "main": 38300,
-                    "growth": 3490,
+                    "main": 35080,
+                    "growth": 3190,
                     "format": "%",
-                    "damage_percentage": 38300,
-                    "damage_percentage_growth": 3490,
-                    "stun_ratio": 10460,
-                    "stun_ratio_growth": 480,
-                    "sp_recovery": 34220,
+                    "damage_percentage": 35080,
+                    "damage_percentage_growth": 3190,
+                    "stun_ratio": 9360,
+                    "stun_ratio_growth": 430,
+                    "sp_recovery": 30620,
                     "sp_recovery_growth": 0,
-                    "fever_recovery": 261525,
+                    "fever_recovery": 234025,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 9503,
+                    "attribute_infliction": 8503,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 9504
+                    "ether_purify": 8504
                   }
                 },
                 "potential": []
@@ -119925,23 +119931,23 @@
                 "desc": "{Skill:1591007, Prop:1002}",
                 "param": {
                   "1591007": {
-                    "main": 10460,
-                    "growth": 480,
+                    "main": 9360,
+                    "growth": 430,
                     "format": "%",
-                    "damage_percentage": 38300,
-                    "damage_percentage_growth": 3490,
-                    "stun_ratio": 10460,
-                    "stun_ratio_growth": 480,
-                    "sp_recovery": 34220,
+                    "damage_percentage": 35080,
+                    "damage_percentage_growth": 3190,
+                    "stun_ratio": 9360,
+                    "stun_ratio_growth": 430,
+                    "sp_recovery": 30620,
                     "sp_recovery_growth": 0,
-                    "fever_recovery": 261525,
+                    "fever_recovery": 234025,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 9503,
+                    "attribute_infliction": 8503,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 9504
+                    "ether_purify": 8504
                   }
                 },
                 "potential": []
@@ -119957,23 +119963,23 @@
                 "desc": "{Skill:1591008, Prop:1001}",
                 "param": {
                   "1591008": {
-                    "main": 57900,
-                    "growth": 5270,
+                    "main": 55190,
+                    "growth": 5020,
                     "format": "%",
-                    "damage_percentage": 57900,
-                    "damage_percentage_growth": 5270,
-                    "stun_ratio": 15960,
-                    "stun_ratio_growth": 730,
-                    "sp_recovery": 52220,
+                    "damage_percentage": 55190,
+                    "damage_percentage_growth": 5020,
+                    "stun_ratio": 15590,
+                    "stun_ratio_growth": 710,
+                    "sp_recovery": 51020,
                     "sp_recovery_growth": 0,
-                    "fever_recovery": 399025,
+                    "fever_recovery": 389675,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 14503,
+                    "attribute_infliction": 14169,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 14504
+                    "ether_purify": 14170
                   }
                 },
                 "potential": []
@@ -119983,23 +119989,23 @@
                 "desc": "{Skill:1591008, Prop:1002}",
                 "param": {
                   "1591008": {
-                    "main": 15960,
-                    "growth": 730,
+                    "main": 15590,
+                    "growth": 710,
                     "format": "%",
-                    "damage_percentage": 57900,
-                    "damage_percentage_growth": 5270,
-                    "stun_ratio": 15960,
-                    "stun_ratio_growth": 730,
-                    "sp_recovery": 52220,
+                    "damage_percentage": 55190,
+                    "damage_percentage_growth": 5020,
+                    "stun_ratio": 15590,
+                    "stun_ratio_growth": 710,
+                    "sp_recovery": 51020,
                     "sp_recovery_growth": 0,
-                    "fever_recovery": 399025,
+                    "fever_recovery": 389675,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 14503,
+                    "attribute_infliction": 14169,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 14504
+                    "ether_purify": 14170
                   }
                 },
                 "potential": []
@@ -120015,23 +120021,23 @@
                 "desc": "{Skill:1591022, Prop:1001}",
                 "param": {
                   "1591022": {
-                    "main": 84960,
-                    "growth": 7730,
+                    "main": 71060,
+                    "growth": 6460,
                     "format": "%",
-                    "damage_percentage": 84960,
-                    "damage_percentage_growth": 7730,
-                    "stun_ratio": 19620,
-                    "stun_ratio_growth": 900,
-                    "sp_recovery": 64210,
+                    "damage_percentage": 71060,
+                    "damage_percentage_growth": 6460,
+                    "stun_ratio": 19260,
+                    "stun_ratio_growth": 880,
+                    "sp_recovery": 63010,
                     "sp_recovery_growth": 0,
-                    "fever_recovery": 490600,
+                    "fever_recovery": 481525,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 17833,
+                    "attribute_infliction": 17500,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 17834
+                    "ether_purify": 17501
                   }
                 },
                 "potential": []
@@ -120041,23 +120047,23 @@
                 "desc": "{Skill:1591022, Prop:1002}",
                 "param": {
                   "1591022": {
-                    "main": 19620,
-                    "growth": 900,
+                    "main": 19260,
+                    "growth": 880,
                     "format": "%",
-                    "damage_percentage": 84960,
-                    "damage_percentage_growth": 7730,
-                    "stun_ratio": 19620,
-                    "stun_ratio_growth": 900,
-                    "sp_recovery": 64210,
+                    "damage_percentage": 71060,
+                    "damage_percentage_growth": 6460,
+                    "stun_ratio": 19260,
+                    "stun_ratio_growth": 880,
+                    "sp_recovery": 63010,
                     "sp_recovery_growth": 0,
-                    "fever_recovery": 490600,
+                    "fever_recovery": 481525,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 17833,
+                    "attribute_infliction": 17500,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 17834
+                    "ether_purify": 17501
                   }
                 },
                 "potential": []
@@ -120213,12 +120219,12 @@
           },
           {
             "name": "Enhance Special: Chaotic Jade",
-            "desc": "When Energy is sufficient and not in the <color=#FFFFFF>[Sky-Sweeping Spear Stance]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful series of forward thrusts, dealing massive <color=#98EFF0>Ice DMG</color>;\nIf Sigrid is hit by an enemy attack during the thrusts, she will Block with her shield. A successful Block negates the incoming attack's DMG, refreshes the <color=#FFFFFF>[Sky-Sweeping Spear Stance]</color> state, and grants one opportunity to activate <color=#FFFFFF>[Basic Attack: Spear-Draw Stance]</color>. After a successful Block, press [Basic Attack] to activate the corresponding stage of <color=#FFFFFF>[Basic Attack: Spear-Draw Stance]</color>;\nThis skill is considered a <color=#FFFFFF>[Spear-Draw Stance]</color>;\nCharacter is invulnerable while using this skill.",
+            "desc": "When Energy is sufficient and not in the <color=#FFFFFF>[Sky-Patrol Spearstance]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful series of forward thrusts, dealing massive <color=#98EFF0>Ice DMG</color>;\nWhen hit by an enemy attack during the skill's thrusts, Sigrid uses her shield to Block. A successful Block negates the attack's DMG, refreshes the <color=#FFFFFF>[Sky-Patrol Spearstance]</color> state, and grants one opportunity to activate <color=#FFFFFF>[Basic Attack: Spear-Draw Stance]</color>; press <IconMap:Icon_Normal> after a successful Block to activate the corresponding hit of <color=#FFFFFF>[Basic Attack: Spear-Draw Stance]</color>;\nThis skill is considered a <color=#FFFFFF>[Spear-Draw Stance]</color>;\nCharacter is invulnerable while using this skill.",
             "potential": []
           },
           {
             "name": "Blasting Enhance Special: Jade Shatter",
-            "desc": "When Energy is sufficient and in the <color=#FFFFFF>[Sky-Patrol Stance]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful series of forward lunge thrusts, dealing massive <color=#98EFF0>Ice DMG</color>;\nWhen hit by an enemy attack during the lunge thrusts, Sigrid uses her shield to Block. If the Block is successful, the incoming attack DMG is negated, the <color=#FFFFFF>[Sky-Patrol Stance]</color> state is refreshed, and one opportunity to activate <color=#FFFFFF>[Basic Attack: Gunlock Form]</color> is granted. Press【Basic Attack】after a successful Block to activate the corresponding sequence of <color=#FFFFFF>[Basic Attack: Gunlock Form]</color>;\nThis skill is considered a <color=#FFFFFF>[Draw Form]</color>;\nCharacter is invulnerable while using this skill.",
+            "desc": "When Energy is sufficient and in the <color=#FFFFFF>[Sky-Patrol Stance]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful series of forward thrusting strikes, dealing massive <color=#98EFF0>Ice DMG</color>;\nIf Sigrid is struck by an enemy attack during the thrusting strikes, she will Block with her shield. Upon a successful Block, the incoming attack DMG is negated, the <color=#FFFFFF>[Sky-Patrol Stance]</color> state is refreshed, and an opportunity to use <color=#FFFFFF>[Basic Attack: Rifle-Retract Form]</color> is granted. Press <IconMap:Icon_Normal> after a successful Block to use the corresponding sequence of <color=#FFFFFF>[Basic Attack: Rifle-Retract Form]</color>;\nThis skill is considered a <color=#FFFFFF>[Rifle-Draw Form]</color>;\nCharacter is invulnerable while using this skill.",
             "potential": []
           },
           {
@@ -120350,11 +120356,11 @@
                 "desc": "{Skill:1591012, Prop:1001}",
                 "param": {
                   "1591012": {
-                    "main": 69780,
-                    "growth": 6350,
+                    "main": 82380,
+                    "growth": 7490,
                     "format": "%",
-                    "damage_percentage": 69780,
-                    "damage_percentage_growth": 6350,
+                    "damage_percentage": 82380,
+                    "damage_percentage_growth": 7490,
                     "stun_ratio": 36260,
                     "stun_ratio_growth": 1650,
                     "sp_recovery": 0,
@@ -120379,8 +120385,8 @@
                     "main": 36260,
                     "growth": 1650,
                     "format": "%",
-                    "damage_percentage": 69780,
-                    "damage_percentage_growth": 6350,
+                    "damage_percentage": 82380,
+                    "damage_percentage_growth": 7490,
                     "stun_ratio": 36260,
                     "stun_ratio_growth": 1650,
                     "sp_recovery": 0,
@@ -120412,7 +120418,7 @@
         "descriptions": [
           {
             "name": "Chain Attack: Frost Ground Roll",
-            "desc": "When a <color=#FFFFFF>Chain Attack</color> is triggered, select the character to activate:\nLaunch a powerful Pierce against enemies ahead, dealing massive <color=#98EFF0>Ice DMG</color>;\nGain 1 stack of <color=#FFFFFF>[Temper]</color>. Each stack of <color=#FFFFFF>[Temper]</color> increases the DMG dealt by subsequent <color=#FFFFFF>[Basic Attack: Retract Stance]</color> by 25%, lasting 50s;\nWhen this skill hits an Elite or Boss-Rank enemy in a Stunned state for the first time, the current <color=#FFFFFF>[Basic Attack: Retract Stance]</color> stage count is recorded and reset, entering <color=#FFFFFF>[Formation Break]</color> state. This effect can trigger at most once per Stun period;\nWhile in <color=#FFFFFF>[Formation Break]</color> state, <color=#FFFFFF>[Aerial Gun Stance]</color> duration does not decrease, and holding <IconMap:Icon_Normal> allows continuous use of <color=#FFFFFF>[Basic Attack: Retract Stance]</color> Stages 1 through 3;\nAfter using <color=#FFFFFF>[Basic Attack: Retract Stance]</color> Stage 3, <color=#FFFFFF>[Formation Break]</color> state ends and the <color=#FFFFFF>[Basic Attack: Retract Stance]</color> stage count is restored;\nThis skill is considered a <color=#FFFFFF>[Draw Stance]</color>;\nDuring <color=#FFFFFF>[Formation Break]</color> state, <color=#FFFFFF>[Basic Attack: Retract Stance]</color> hitting Stunned enemies will not open a Chain Attack window;\nCharacter is invulnerable while using this skill.",
+            "desc": "When a <color=#FFFFFF>Chain Attack</color> is triggered, select the character to activate:\nLaunch a powerful Pierce at enemies ahead, dealing massive <color=#98EFF0>Ice DMG</color>;\nGain the <color=#FFFFFF>[Tempered]</color> effect, increasing DMG dealt by subsequent <color=#FFFFFF>[Basic Attack: Gun Stow]</color> by 25%, lasting 50s;\nWhen this skill hits an Elite or Boss-Rank enemy in a Stunned state for the first time, the current <color=#FFFFFF>[Basic Attack: Gun Stow]</color> stage count is recorded and reset, entering <color=#FFFFFF>[Formation Break]</color> state. This effect can trigger at most once per Stun;\nDuring <color=#FFFFFF>[Formation Break]</color> state, the duration of <color=#FFFFFF>[Sky Patrol Stance]</color> does not decrease, and holding <IconMap:Icon_Normal> allows continuous use of <color=#FFFFFF>[Basic Attack: Gun Stow]</color> Stages 1 through 3;\nAfter using <color=#FFFFFF>[Basic Attack: Gun Stow]</color> Stage 3, <color=#FFFFFF>[Formation Break]</color> state ends and the <color=#FFFFFF>[Basic Attack: Gun Stow]</color> stage count is restored;\nThis skill is treated as <color=#FFFFFF>[Gun Draw]</color>;\nDuring <color=#FFFFFF>[Formation Break]</color> state, <color=#FFFFFF>[Basic Attack: Gun Stow]</color> hitting Stunned enemies will not open the Chain Attack window;\nCharacter is invulnerable while using this skill.",
             "potential": []
           },
           {
@@ -120486,23 +120492,23 @@
                 "desc": "{Skill:1591016, Prop:1001}",
                 "param": {
                   "1591016": {
-                    "main": 253380,
-                    "growth": 23040,
+                    "main": 253980,
+                    "growth": 23090,
                     "format": "%",
-                    "damage_percentage": 253380,
-                    "damage_percentage_growth": 23040,
-                    "stun_ratio": 26220,
-                    "stun_ratio_growth": 1200,
+                    "damage_percentage": 253980,
+                    "damage_percentage_growth": 23090,
+                    "stun_ratio": 26580,
+                    "stun_ratio_growth": 1210,
                     "sp_recovery": 0,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 0,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 23833,
+                    "attribute_infliction": 24163,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 73834
+                    "ether_purify": 74164
                   }
                 },
                 "potential": []
@@ -120512,23 +120518,23 @@
                 "desc": "{Skill:1591016, Prop:1002}",
                 "param": {
                   "1591016": {
-                    "main": 26220,
-                    "growth": 1200,
+                    "main": 26580,
+                    "growth": 1210,
                     "format": "%",
-                    "damage_percentage": 253380,
-                    "damage_percentage_growth": 23040,
-                    "stun_ratio": 26220,
-                    "stun_ratio_growth": 1200,
+                    "damage_percentage": 253980,
+                    "damage_percentage_growth": 23090,
+                    "stun_ratio": 26580,
+                    "stun_ratio_growth": 1210,
                     "sp_recovery": 0,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 0,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 23833,
+                    "attribute_infliction": 24163,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 73834
+                    "ether_purify": 74164
                   }
                 },
                 "potential": []
@@ -120848,7 +120854,7 @@
             "Additional Ability: Sky Alliance"
           ],
           "desc": [
-            "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Drawn Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> in combat, if not currently in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color> and gains 1 charge of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, up to a maximum of 1 charge;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Stance]</color>, when Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color>, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 charge of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, up to a maximum of 1 charge;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Stance]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>33%</color> and her ATK increases by <color=#FFFFFF>150%</color> for <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit an enemy in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
+            "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw-Fire Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color> in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, when Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color>, she can refresh <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunstance]</color> decreases as <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increase: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunstance]</color> ends, <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Gunstance]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>33%</color> and her ATK increases by <color=#2BAD00>150</color>, lasting <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
             "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
           ],
           "extra_property": {},
@@ -120862,7 +120868,7 @@
             "Additional Ability: Sky Alliance"
           ],
           "desc": [
-            "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Drawn Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> in combat, if she is not currently in <color=#FFFFFF>[Aerial Gunner Stance]</color>, she enters <color=#FFFFFF>[Aerial Gunner Stance]</color> and gains 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, stacking up to 1 time;\nIn combat, while in <color=#FFFFFF>[Aerial Gunner Stance]</color>, when Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color>, she can refresh <color=#FFFFFF>[Aerial Gunner Stance]</color> and gains 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, stacking up to 1 time;\nThe duration of <color=#FFFFFF>[Aerial Gunner Stance]</color> decreases as the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> stage increases: at stages 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Aerial Gunner Stance]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> stage decreases by 1, to a minimum of stage 1;\nWhen <color=#FFFFFF>[Aerial Gunner Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>39%</color> and her ATK increases by <color=#FFFFFF>180%</color> for <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
+            "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw-Fire Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color> in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, when Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color>, she can refresh <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunstance]</color> decreases as <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increase: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunstance]</color> ends, <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Gunstance]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>39%</color> and her ATK increases by <color=#2BAD00>180</color>, lasting <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
             "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
           ],
           "extra_property": {},
@@ -120876,7 +120882,7 @@
             "Additional Ability: Sky Alliance"
           ],
           "desc": [
-            "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Drawn Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> in combat, if she is not already in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color> and gains 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, with a maximum of 1 stored;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> while in <color=#FFFFFF>[Sky Patrol Stance]</color> during combat, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, with a maximum of 1 stored;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as the number of <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase count decreases by 1, down to a minimum of Phase 1;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>44%</color> and her ATK increases by <color=#FFFFFF>210%</color> for <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in the Stunned state, the Stun DMG Multiplier for DMG dealt to the target increases by 20%.",
+            "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw-Fire Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color> in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, when Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color>, she can refresh <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunstance]</color> decreases as <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increase: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunstance]</color> ends, <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Gunstance]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>44%</color> and her ATK increases by <color=#2BAD00>210</color>, lasting <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
             "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
           ],
           "extra_property": {},
@@ -120890,7 +120896,7 @@
             "Additional Ability: Sky Alliance"
           ],
           "desc": [
-            "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Drawn Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> in combat, if she is not already in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color> and gains 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, with a maximum of 1 stored;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> while in <color=#FFFFFF>[Sky Patrol Stance]</color> during combat, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, with a maximum of 1 stored;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as the number of <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase count decreases by 1, down to a minimum of Phase 1;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>50%</color> and her ATK increases by <color=#FFFFFF>240%</color> for <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in the Stunned state, the Stun DMG Multiplier for DMG dealt to the target increases by 20%.",
+            "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw-Fire Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color> in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, when Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color>, she can refresh <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunstance]</color> decreases as <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increase: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunstance]</color> ends, <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Gunstance]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>50%</color> and her ATK increases by <color=#2BAD00>240</color>, lasting <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
             "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
           ],
           "extra_property": {},
@@ -120904,7 +120910,7 @@
             "Additional Ability: Sky Alliance"
           ],
           "desc": [
-            "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw Stance]</color> attack in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunform]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunform]</color> and gains 1 charge of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, up to a maximum of 1 charge;\nWhile in <color=#FFFFFF>[Sky Patrol Gunform]</color> in combat, when Sigrid uses any <color=#FFFFFF>[Draw Stance]</color> attack, she can refresh <color=#FFFFFF>[Sky Patrol Gunform]</color> and gain 1 charge of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, up to a maximum of 1 charge;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunform]</color> decreases as the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunform]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Gunform]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>55%</color> and her ATK increases by <color=#FFFFFF>270%</color> for <color=#FFFFFF>8</color>s; repeated triggers extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit a Stunned enemy, the Stun DMG Multiplier dealt to the target increases by 20%.",
+            "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Mode]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw Mode]</color> attack in combat, if not currently in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color> and gains 1 charge of <color=#FFFFFF>[Basic Attack: Holster Mode]</color>, up to a maximum of 1 charge;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Stance]</color>, when Sigrid uses any <color=#FFFFFF>[Draw Mode]</color> attack, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 charge of <color=#FFFFFF>[Basic Attack: Holster Mode]</color>, up to a maximum of 1 charge;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as the <color=#FFFFFF>[Basic Attack: Holster Mode]</color> phase increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Mode]</color> phase decreases by 1, to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Stance]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>55%</color> and her ATK increases by <color=#2BAD00>270</color> for <color=#FFFFFF>8</color>s; repeated triggers extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
             "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
           ],
           "extra_property": {},
@@ -120918,7 +120924,7 @@
             "Additional Ability: Sky Alliance"
           ],
           "desc": [
-            "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw Stance]</color> attack in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunform]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunform]</color> and gains 1 charge of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, up to a maximum of 1 charge;\nWhile in <color=#FFFFFF>[Sky Patrol Gunform]</color> in combat, when Sigrid uses any <color=#FFFFFF>[Draw Stance]</color> attack, she can refresh <color=#FFFFFF>[Sky Patrol Gunform]</color> and gain 1 charge of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, up to a maximum of 1 charge;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunform]</color> decreases as the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunform]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Gunform]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>61%</color> and her ATK increases by <color=#FFFFFF>300%</color> for <color=#FFFFFF>8</color>s; repeated triggers extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit a Stunned enemy, the Stun DMG Multiplier dealt to the target increases by 20%.",
+            "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Gun-Draw Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Gun-Draw Stance]</color> in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunform]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunform]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Gun-Stow Stance]</color>, stackable up to 1 time;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Gunform]</color>, when Sigrid uses any <color=#FFFFFF>[Gun-Draw Stance]</color>, she can refresh <color=#FFFFFF>[Sky Patrol Gunform]</color> and gain 1 use of <color=#FFFFFF>[Basic Attack: Gun-Stow Stance]</color>, stackable up to 1 time;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunform]</color> decreases as the <color=#FFFFFF>[Basic Attack: Gun-Stow Stance]</color> phase advances: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunform]</color> ends, the <color=#FFFFFF>[Basic Attack: Gun-Stow Stance]</color> phase decreases by 1, to a minimum of Phase 1;\nWhen <color=#FFFFFF>[Sky Patrol Gunform]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>61%</color> and her ATK increases by <color=#2BAD00>300</color>, lasting <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
             "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
           ],
           "extra_property": {},
@@ -120932,7 +120938,7 @@
             "Additional Ability: Sky Alliance"
           ],
           "desc": [
-            "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Drawn Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> in combat, if she is not already in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color> and gains 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, with a maximum of 1 stored;\nWhen Sigrid uses any <color=#FFFFFF>[Drawn Stance]</color> while in <color=#FFFFFF>[Sky Patrol Stance]</color> during combat, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 opportunity to trigger <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, with a maximum of 1 stored;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as the number of <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase count decreases by 1, down to a minimum of Phase 1;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>66%</color> and her ATK increases by <color=#FFFFFF>330%</color> for <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in the Stunned state, the Stun DMG Multiplier for DMG dealt to the target increases by 20%.",
+            "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw-Fire Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color> in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, when Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color>, she can refresh <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunstance]</color> decreases as <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increase: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunstance]</color> ends, <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Gunstance]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>66%</color> and her ATK increases by <color=#2BAD00>330</color>, lasting <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
             "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
           ],
           "extra_property": {},
@@ -120978,7 +120984,7 @@
       "1": {
         "level": 1,
         "name": "A long, long time ago,",
-        "desc": "When the 3rd hit of <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> is triggered, enter or refresh <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gain one opportunity to trigger <color=#FFFFFF>[Basic Attack: Gun Retraction]</color>; excess <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> opportunities cause the next <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> to deal an extra <color=#FFFFFF>150%</color> DMG; Sigrid's own ATK increases by <color=#FFFFFF>22%</color>.",
+        "desc": "When the 3rd hit of <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> is triggered, enter or refresh <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gain one opportunity to trigger <color=#FFFFFF>[Basic Attack: Gun Retraction]</color>; excess <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> opportunities cause the next <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> to deal an extra <color=#FFFFFF>100%</color> DMG; Sigrid's own ATK increases by <color=#FFFFFF>22%</color>.",
         "desc2": "Long, long ago, the great Sunbringer scooped up the very first handful of earth on the sky islands…\nHold on, hold on — the kids have heard the story of Lady Sunbringer building the first island of Roscaelifer so many times their ears have grown calluses.\nWhat we're here to talk about today is the story of the warrior who stood at Lady Sunbringer's side — clad in silver-white armor as radiant as a moonlit night, just like a Knight of old from a fairy tale…"
       },
       "2": {
@@ -120991,25 +120997,25 @@
         "level": 3,
         "name": "Miracle Guardian",
         "desc": "<color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge</color>, <color=#FFFFFF>Assist</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>Chain Attack</color> Lv. +2",
-        "desc2": "Sigrid_Talent_03_Desc_02"
+        "desc2": "Roscaelifer is a miracle of the skies, and the title of its guardian belongs to no chosen few.\nYet someone must lead those guardians—that was meant to be the duty of Sir Lindverne, but her free-spirited, endearingly naive nature made it rather hard for her to cut an imposing figure as a general.\nLuckily, she always had a dashing deputy at her side—or rather, one after another."
       },
       "4": {
         "level": 4,
         "name": "Hero Upgrading",
         "desc": "Each time <color=#FFFFFF>[Aerial Gunstance]</color> refreshes, increase the DMG dealt by <color=#FFFFFF>20%</color> for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s.",
-        "desc2": "Sigrid_Talent_04_Desc_02"
+        "desc2": "Soldiers and civilians alike couldn't help but quietly measure the new Deputy Administrative Director against the last—not that anyone could blame them. After all, in the words of Lindverne Sunbringer, every head of the de L'Azur family was the stuff of legend.\nBut because of that, everyone expected the young de L'Azur to outshine her predecessor—anything less would dishonor the name of that legendary guardian family.\nAnd so, Lindverne kept weaving new, ever more audacious legends around Sigrid."
       },
       "5": {
         "level": 5,
         "name": "Azure Sky Oath",
         "desc": "<color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge</color>, <color=#FFFFFF>Assist</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>Chain Attack</color> Lv. +2",
-        "desc2": "Sigrid_Talent_05_Desc_02"
+        "desc2": "Today, Lady Sunbringer need only invoke the name of the Void Hunters to command legions—but every legendary leader was once followed by no one.\nTo chase that young leader into the sky, to build a city of miracles where none should exist, you needed either the courage of a brute or the naivety of a dreamer.\nAnd each time a de L'Azur recites that oath to conquer the sky, both qualities shine brilliantly once more."
       },
       "6": {
         "level": 6,
         "name": "Knight of the Skies",
-        "desc": "<color=#FFFFFF>[Basic Attack: Gun Draw]</color> The first hit on an enemy in the 1st/2nd/3rd stage deals an additional <color=#FFFFFF>200%</color>/<color=#FFFFFF>300%</color>/<color=#FFFFFF>400%</color> DMG.",
-        "desc2": "Sigrid_Talent_06_Desc_02"
+        "desc": "<color=#FFFFFF>[Basic Attack: Gun Draw]</color> The first hit on an enemy in the 1st/2nd/3rd stage deals an additional <color=#FFFFFF>150%</color>/<color=#FFFFFF>150%</color>/<color=#FFFFFF>200%</color> DMG.",
+        "desc2": "In the Legendary tales of ancient times, a Knight of the Lake left their mark.\nIn the ballads of a distant future, the piercing lance of Lynn shall cleave across the horizon of time and space.\n\"Until this lance breaks, the miracle of the skies shall never fall.\""
       }
     },
     "recommendations": {
@@ -121046,7 +121052,7 @@
       "detail": {}
     },
     "liveComparison": {
-      "currentHash": "c540d7ffe0f2c05da49dc233d5d2a1d99bd7165a0d92ead31402467c41e7cb33"
+      "currentHash": "bfe662d43f7cb3548010c8b90599874c2404a622c1a27b56e038f8fbe7996ca2"
     }
   }
 ]

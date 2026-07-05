@@ -29002,109 +29002,109 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_028.png",
     "rank": 2,
     "class": 130,
-    "name": "Ether Dynamite C - Windworn Highway"
+    "name": "Ether Explosive B-Windworn Highway"
   },
   "4300402": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_031.png",
     "rank": 2,
     "class": 130,
-    "name": "High-Carbon Composite Fiber C - Withered Wildswood"
+    "name": "High-Carbon Composite Fiber B-Withered Wildswood"
   },
   "4300403": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_034.png",
     "rank": 2,
     "class": 130,
-    "name": "Ether Sensor C - Fantasy Beach"
+    "name": "Ether Sensor B-Fantasy Beach"
   },
   "4300404": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_037.png",
     "rank": 2,
     "class": 130,
-    "name": "Thrust Bearing C - Dove Street Construction Site"
+    "name": "Pressure Bearing B-Dove Street Construction Site Ruins"
   },
   "4300405": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_040.png",
     "rank": 2,
     "class": 130,
-    "name": "Ether Signal Stabilizer C - Six Dusk Street"
+    "name": "Ether Signal Stabilizer B - Six Dusk Street"
   },
   "4300406": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_043.png",
     "rank": 2,
     "class": 130,
-    "name": "Microcontrol Circuit Board C - Lumina Central"
+    "name": "Microcontrol Circuit Board B - Lumina Central"
   },
   "4300421": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_029.png",
     "rank": 3,
     "class": 130,
-    "name": "Ether Explosive B-Windworn Highway"
+    "name": "Ether Explosive A-Windworn Highway"
   },
   "4300422": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_032.png",
     "rank": 3,
     "class": 130,
-    "name": "High-Carbon Composite Fiber B - Withered Wildswood"
+    "name": "High-Carbon Composite Fiber A-Withered Wildswood"
   },
   "4300423": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_035.png",
     "rank": 3,
     "class": 130,
-    "name": "Ether Sensor B-Fantasy Beach"
+    "name": "Ether Sensor A-Fantasy Beach"
   },
   "4300424": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_038.png",
     "rank": 3,
     "class": 130,
-    "name": "Thrust Bearing B - Dove Street Construction Site"
+    "name": "Pressure Bearing A-Dove Street Construction Site"
   },
   "4300425": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_041.png",
     "rank": 3,
     "class": 130,
-    "name": "Ether Signal Stabilizer B - Six Dusk Street"
+    "name": "Ether Signal Stabilizer A - Six Dusk Street"
   },
   "4300426": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_044.png",
     "rank": 3,
     "class": 130,
-    "name": "Microcontrol Circuit Board B - Lumina Central"
+    "name": "Microcontrol Circuit Board A - Lumina Central"
   },
   "4300451": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_030.png",
     "rank": 4,
     "class": 130,
-    "name": "Ether Explosive A-Windworn Highway"
+    "name": "Ether Explosive S-Windworn Highway"
   },
   "4300452": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_033.png",
     "rank": 4,
     "class": 130,
-    "name": "High-Carbon Composite Fiber A - Withered Wildswood"
+    "name": "High-Carbon Composite Fiber S-Withered Wildswood"
   },
   "4300453": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_036.png",
     "rank": 4,
     "class": 130,
-    "name": "Ether Sensor A - Fantasy Beach"
+    "name": "Ether Sensor S - Fantasy Beach"
   },
   "4300454": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_039.png",
     "rank": 4,
     "class": 130,
-    "name": "Thrust Bearing A - Dove Street Construction Site"
+    "name": "Pressure Bearing S-Dove Street Construction Site Ruins"
   },
   "4300455": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_042.png",
     "rank": 4,
     "class": 130,
-    "name": "Ether Signal Stabilizer A - Six Dusk Street"
+    "name": "Ether Signal Stabilizer S - Six Dusk Street"
   },
   "4300456": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_045.png",
     "rank": 4,
     "class": 130,
-    "name": "Micro Control Circuit A - Lumina Central"
+    "name": "Microcontrol Circuit Board S-Lumina Central"
   },
   "4301301": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_1.png",
@@ -30628,7 +30628,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_011.png",
     "rank": 4,
     "class": 130,
-    "name": "Dreamweave Beach-Aquarium"
+    "name": "Dreamweave Beach-Aquarium West Room"
   },
   "4340205": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_014.png",
@@ -31658,7 +31658,7 @@
   },
   "4360099": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/BlindBoxJackPot_04.png",
-    "rank": 5,
+    "rank": 4,
     "class": 130,
     "name": "Blasting Electric Circuit Board"
   },
@@ -31774,7 +31774,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_012.png",
     "rank": 4,
     "class": 130,
-    "name": "Dreamweave Beach-Aquarium Key"
+    "name": "Dreamweave Beach-Aquarium East Entrance"
   },
   "4364004": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_013.png",

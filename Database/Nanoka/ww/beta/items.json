@@ -2900,10 +2900,12 @@
     "description": "Obtain to receive the items inside.",
     "background": "Stay tuned",
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_27_UI.webp"
+    },
     "liveComparison": {
-      "liveHash": "62a05d69cf2385d80460bceb8d2e7d2b0a9ce1dfa55424d52f2ed0def9307b98",
-      "currentHash": "32e81d6fab9ac58a9211c1ce39dcda47d6c6c49801737d1d728029badf473914"
+      "liveHash": "b96b5276db2a9c1c7bd69b3f3b39645ff010dbe0043b91d2b334e1b2bc3ce938",
+      "currentHash": "80717bfdc658a3c70ed3d0c1cfda4cdc39927af600c7be9de61daa614272b947"
     }
   },
   {
@@ -2918,10 +2920,12 @@
     "description": "Obtain to receive the items inside.",
     "background": "Stay tuned",
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_28_UI.webp"
+    },
     "liveComparison": {
-      "liveHash": "c185a662a2118a29657b1f756c3ccf55e9624f7fec3fb6802f1100c968b75929",
-      "currentHash": "0c6a9fa9aecb2968c303a1ce03a49be9ff51150af113b3dd4a3de87d9162607b"
+      "liveHash": "61b8c5a638133068d4388f13b6b545897200dae2183e2e712c1ebeaa14ad26c9",
+      "currentHash": "1d6e858cb26a836fc800dd1270c5747462707c2ef202a842506d8ec81f9bdf80"
     }
   },
   {
@@ -4719,9 +4723,11 @@
     "source": [
       "Convene"
     ],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_Part_1627_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "501afa0f528b13ea69cb7f844bcfea6038200f78c0f3aefa0eb8ffab4f73ac4f"
+      "currentHash": "8b8ddb4f7d8c317d14401f8c2eaf5ae71a17c3ee8c5cf3876f8afda7890e6c8f"
     }
   },
   {
@@ -5133,9 +5139,11 @@
     "source": [
       "Quests"
     ],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_Part_1300_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "00109fc93af1a77a6955f82f5ac8cad6c37b11363e3fbdda5bc9c3027636161b"
+      "currentHash": "97e9240e71b7a0dca3aaa6db0d793f20cd2e2099b769c78d60bc814ce3d19d51"
     }
   },
   {
@@ -5749,9 +5757,11 @@
     "source": [
       "Convene"
     ],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_Part_1628_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "7558c6f0e20b7bc145f448e78fceb213f95f14d99e025a4b5b3ecbdef2016b74"
+      "currentHash": "c43e286e77e2576a34891cf1bd50d5fb9f16c4d6bf5e8e9997439f42887d9cc4"
     }
   },
   {
@@ -14995,9 +15005,11 @@
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
     "background": "Stay tuned",
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32068_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "e4603ea84b82867a31e72638c6fd84d7bd4f0fa55673fc6ce17e499d7be0afe0"
+      "currentHash": "915310174bb0cf8bf0e74c068f78a6f1a7aee72ce513f032eaa98c84a7873f50"
     }
   },
   {
@@ -15012,9 +15024,11 @@
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
     "background": "Stay tuned",
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31090_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "b3bc1333cffd8f2821cba0eb563000849efa443b78ebe4fcb020a704ba8a55df"
+      "currentHash": "a76327dfcf73d995f8db6542c0db52e395e56ce790039eb67385752ff562a55b"
     }
   },
   {
@@ -20999,9 +21013,11 @@
     "description": "Open to obtain a random Echo of the following Sonata Effect: Song of Feathered Trace.\n \n2pcs Set: Energy Regen +10%.\n\n5pcs Set: Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a 20% increase in Crit. Rate and 35% increase in Heavy Attack DMG Bonus to the Resonator, lasting 15s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a 0.1% increase in ATK to Resonators in the team for every 1% of the Resonator's Energy Regen, up to 25%, lasting 10s.",
     "background": "The footprints in the rift will never fade...",
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_38_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "d6c93623ee3110d81dc17ecf2cd273e70990859ae921987e635620243ed667f3"
+      "currentHash": "a2b8bab20c5e8895a0b89333c78a067b3d89fe38b8b8f60a95417dce4ac810ff"
     }
   },
   {
@@ -21017,9 +21033,11 @@
     "description": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n \n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting inreases the Resonator's Crit. DMG by 20% and Aero DMG by 30%, lasting for 15s.",
     "background": "The footprints in the rift will never fade...",
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_40_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "ae000a47a688dc203cc252dedae8bcb256da97b2fba092a1de019f693d79bd0b"
+      "currentHash": "5533cce84bbb1eb99c3f60f6ec077dd9850921f27c5e3a5556e17a3a77dec0ff"
     }
   },
   {
@@ -21035,9 +21053,11 @@
     "description": "Open to obtain a random Echo of the following Sonata Effect: Lamp of Nether Road\n\n2pcs Set: HP +10%.\n\n5pcs Set: Obtaining Shield increases the Resonator's Crit. Rate by 5% for 5s, stacking up to 4 times. This effect is triggered once every 0.5s. Reaching max stacks increases the Resonator's Fusion DMG by 15%.",
     "background": "The footprints in the rift will never fade...",
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_39_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "fee5ac9897e8dc70d694331c89c6062aef50b8fdef2bd9915c68984db7414107"
+      "currentHash": "79f7916fca9052ba3dbbbcf0699c11464bd0d90a063677a0b31374537fda6fc1"
     }
   },
   {
@@ -23109,8 +23129,8 @@
     "source": [],
     "assets": {},
     "liveComparison": {
-      "liveHash": "33d60b75b9441fb5dcbbc9f119dd9c2557c870cdd8658bfb83213fe12e5a2800",
-      "currentHash": "33d60b75b9441fb5dcbbc9f119dd9c2557c870cdd8658bfb83213fe12e5a2800"
+      "liveHash": "023a4c4c00783d40a0e41b8ca7a1d7f3b345554074fad36442aad309fc7cda1e",
+      "currentHash": "023a4c4c00783d40a0e41b8ca7a1d7f3b345554074fad36442aad309fc7cda1e"
     }
   },
   {
@@ -23942,9 +23962,11 @@
       "Quest Item"
     ],
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_ClawMachine_01_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "e379952f7bc8765e21288f688ce4531a67ef6392562d773f73ed67b8364dc93e"
+      "currentHash": "374385fd1473189b2d0602be01433ce5949b674b46c8000f7ae93927bdfa0850"
     }
   },
   {
@@ -23991,9 +24013,11 @@
       "Quest Item"
     ],
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_ClawMachine_02_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "fa7cb3f41e347e24e6f5ab6ecffa5e7c1f7c47c2ba2566bd8643f8d630c6e78d"
+      "currentHash": "1521ef16a5849daab9f838d3c214a1df1d3cc22830721df3821d3a8f30464d49"
     }
   },
   {
@@ -24040,9 +24064,11 @@
       "Quest Item"
     ],
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_ClawMachine_03_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "6391fdd9defee5843211389c9195b84f74e145b805aba2d7f4c4dcea090d2b87"
+      "currentHash": "9e1aca2282d31f33fe46a79a3ac176bc173dccac3aa1013a3ad26ff00603d2be"
     }
   },
   {
@@ -24089,9 +24115,11 @@
       "Quest Item"
     ],
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_ClawMachine_04_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "d6d7dfc2a8b1e3c7f5dd8b9d783af60cd41fc4dac62c2bfae6a8903c0da128e1"
+      "currentHash": "2a8fa120279f143d405e0e17f561d104b15f04b7e0551ffd82459c0f92929517"
     }
   },
   {
@@ -24138,9 +24166,11 @@
       "Quest Item"
     ],
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_ClawMachine_05_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "a30014fa44b3c3ba2a1c079ab6eb6515c778f80a5b5f154d2b3b757245fe1949"
+      "currentHash": "ca02be44f78e80e3bf2363248f4102fb044b8e64f2c9c2aea2440aae0d1b9dac"
     }
   },
   {
@@ -24187,9 +24217,11 @@
       "Quest Item"
     ],
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_ClawMachine_06_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "0891192212436a038fe6837f1958339b347a8a41818ff5ad42d514d5c8f34d65"
+      "currentHash": "6dae630ef48f5fb036e1b969b1b6158adae34922ed70538ea028b5fbb36fa8d6"
     }
   },
   {
@@ -24236,9 +24268,11 @@
       "Quest Item"
     ],
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_ClawMachine_07_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "15ed41e29697cc9c8a980915608640555af997b2fd334a73e986a769a348c9f8"
+      "currentHash": "1e7ac3e67d0b82260ed351d58ee710968e715fb845b4dd9c2112d88bb6466eb3"
     }
   },
   {
@@ -24285,9 +24319,11 @@
       "Quest Item"
     ],
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_ClawMachine_08_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "4d22d917ec00f3e90cbf3621476989935bda2a01b3a3aba044b23c813700e6f4"
+      "currentHash": "d1ba4b530aef7268b15b942b9739a68ab55455e01b0cb3f6203a6992462717b0"
     }
   },
   {
@@ -28540,7 +28576,7 @@
     "source": [],
     "assets": {},
     "liveComparison": {
-      "currentHash": "a5948e6790cb36b218239864736bfda5ea918fef7321a8aa1c6eba1adff29a9a"
+      "currentHash": "234e90ffd6613b9b8405e2ef33722502a35a853fbd04790225770ca08b54c640"
     }
   },
   {
@@ -28555,7 +28591,7 @@
     "source": [],
     "assets": {},
     "liveComparison": {
-      "currentHash": "3600558c96854e11d4f20916918e0a4f47f3ef2d492812bbbe6d4a6ba20a369a"
+      "currentHash": "326a0739d48c408d85429fdbc6c45b8e51466f681825dc7fea7063648ae596dc"
     }
   },
   {
@@ -34391,9 +34427,11 @@
     "source": [
       "Cooking"
     ],
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_80000097_UI.webp"
+    },
     "liveComparison": {
-      "currentHash": "71a75ecfa870597da4d42cb07badd8f0575e04e34c490f93ef3db9cb50468683"
+      "currentHash": "f51d2cd249caaad761b8d29b4da0c507475d65a9416f2958ee65b9fa01a81d7c"
     }
   },
   {
@@ -47001,8 +47039,8 @@
     "source": [],
     "assets": {},
     "liveComparison": {
-      "liveHash": "38f96d5c6ddde0a1529577b0f118e13901fc0b4a2c26e20091653252ad6c72d5",
-      "currentHash": "38f96d5c6ddde0a1529577b0f118e13901fc0b4a2c26e20091653252ad6c72d5"
+      "liveHash": "facb1da57c6610a11c7c9339fea38b20319edb197620581e730bff44cd0b8f78",
+      "currentHash": "facb1da57c6610a11c7c9339fea38b20319edb197620581e730bff44cd0b8f78"
     }
   },
   {

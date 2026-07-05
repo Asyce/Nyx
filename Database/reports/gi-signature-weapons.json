@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-05T00:39:24.912Z",
-  "startedAt": "2026-07-05T00:39:19.818Z",
+  "generatedAt": "2026-07-05T09:36:04.470Z",
+  "startedAt": "2026-07-05T09:35:29.914Z",
   "dryRun": false,
   "source": "GameWith character build pages + web consensus fallback",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
@@ -45,8 +45,7 @@
           "domain": "u7buy.com",
           "query": "source-template",
           "searchProvider": "source-template",
-          "status": "fetch-error",
-          "error": "HTTP 404 Not Found"
+          "status": "no-match"
         },
         {
           "title": "Alyosha Genshin Impact materials",
@@ -54,8 +53,7 @@
           "domain": "u7buy.com",
           "query": "source-template",
           "searchProvider": "source-template",
-          "status": "fetch-error",
-          "error": "HTTP 404 Not Found"
+          "status": "no-match"
         },
         {
           "title": "Alyosha Genshin Impact leaks",
@@ -71,8 +69,7 @@
           "domain": "topuplive.com",
           "query": "source-template",
           "searchProvider": "source-template",
-          "status": "fetch-error",
-          "error": "HTTP 404 Not Found"
+          "status": "no-match"
         },
         {
           "title": "Alyosha Genshin Impact kit and constellations",
@@ -80,6 +77,22 @@
           "domain": "beebom.com",
           "query": "source-template",
           "searchProvider": "source-template",
+          "status": "no-match"
+        },
+        {
+          "title": "Alyosha Release Date and Details | Genshin Impact｜Game8",
+          "url": "https://game8.co/games/Genshin-Impact/archives/606884",
+          "domain": "game8.co",
+          "query": "Alyosha Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
+          "title": "Genshin Impact | Alyosha Release Date & Known Information",
+          "url": "https://gamewith.net/genshin-impact/article/show/76471",
+          "domain": "gamewith.net",
+          "query": "Alyosha Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
           "status": "no-match"
         }
       ],

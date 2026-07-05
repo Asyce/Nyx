@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T22:53:19.273Z",
+  "generatedAt": "2026-07-05T09:35:20.854Z",
   "source": "Genshin Impact Wiki / Fandom MediaWiki API",
   "sourceExample": "https://genshin-impact.fandom.com/wiki/Ifa/Gallery",
   "requestedWidth": 1800,
@@ -667,9 +667,21 @@
           "mime": "image/png"
         },
         {
+          "file": "Barbara Birthday 2026.jpg",
+          "title": "Barbara Birthday 2026.jpg (1.91 MB)",
+          "localAsset": "GenshinWiki/birthday-art/barbara/07-Barbara Birthday 2026.jpg",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Barbara/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Barbara_Birthday_2026.jpg",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 5000,
+          "originalHeight": 5000,
+          "mime": "image/jpeg"
+        },
+        {
           "file": "Barbara TPRGT 2022 - Aether.png",
           "title": "Barbara TPRGT 2022 - Aether.png (2.42 MB)",
-          "localAsset": "GenshinWiki/birthday-art/barbara/07-Barbara TPRGT 2022 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/barbara/08-Barbara TPRGT 2022 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Barbara/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Barbara_TPRGT_2022_-_Aether.png",
           "width": 1800,
@@ -681,7 +693,7 @@
         {
           "file": "Barbara TPRGT 2022 - Lumine.png",
           "title": "Barbara TPRGT 2022 - Lumine.png (3.55 MB)",
-          "localAsset": "GenshinWiki/birthday-art/barbara/08-Barbara TPRGT 2022 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/barbara/09-Barbara TPRGT 2022 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Barbara/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Barbara_TPRGT_2022_-_Lumine.png",
           "width": 1800,
@@ -693,7 +705,7 @@
         {
           "file": "Barbara TPRGT 2023 - Aether.png",
           "title": "Barbara TPRGT 2023 - Aether.png (3.34 MB)",
-          "localAsset": "GenshinWiki/birthday-art/barbara/09-Barbara TPRGT 2023 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/barbara/10-Barbara TPRGT 2023 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Barbara/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Barbara_TPRGT_2023_-_Aether.png",
           "width": 1800,
@@ -705,7 +717,7 @@
         {
           "file": "Barbara TPRGT 2023 - Lumine.png",
           "title": "Barbara TPRGT 2023 - Lumine.png (3.35 MB)",
-          "localAsset": "GenshinWiki/birthday-art/barbara/10-Barbara TPRGT 2023 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/barbara/11-Barbara TPRGT 2023 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Barbara/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Barbara_TPRGT_2023_-_Lumine.png",
           "width": 1800,

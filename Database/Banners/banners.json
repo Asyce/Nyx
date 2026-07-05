@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-07-05T17:19:00.958Z",
-  "updated": "2026-07-05T17:19:00.958Z",
+  "checkedAt": "2026-07-05T19:41:35.231Z",
+  "updated": "2026-07-05T19:41:35.231Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-05T17:19:00.958Z",
-        "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
+        "checkedAt": "2026-07-05T19:41:35.231Z",
+        "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
         "source": "game8"
       },
       "current": {
@@ -53,8 +53,8 @@
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-05T17:19:00.958Z",
-        "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
+        "checkedAt": "2026-07-05T19:41:35.231Z",
+        "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
         "source": "game8"
       },
       "current": {
@@ -97,8 +97,8 @@
       "name": "Wuthering Waves",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-05T17:19:00.958Z",
-        "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
+        "checkedAt": "2026-07-05T19:41:35.231Z",
+        "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
         "source": "game8"
       },
       "current": {
@@ -216,8 +216,8 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-05T17:19:00.958Z",
-        "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
+        "checkedAt": "2026-07-05T19:41:35.231Z",
+        "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
         "source": "game8"
       },
       "current": {
@@ -277,8 +277,8 @@
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-05T17:19:00.958Z",
-        "lastSuccessfulFetch": "2026-07-05T17:19:00.958Z",
+        "checkedAt": "2026-07-05T19:41:35.231Z",
+        "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
         "source": "game8"
       },
       "current": {

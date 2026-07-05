@@ -18720,6 +18720,139 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Ardelia.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Ardelia.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Rocky Whispers",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "68%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "90%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "118%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "124%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Dolly Rush",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Hops on Mr. Dolly and rams the target to deal Nature DMG. If the target has Corrosion, then Debuff Consumption the Corrosion and apply Physical Susceptibility and Arts Susceptibility to the target.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "320%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Susceptibility",
+                    "value": "20%"
+                  },
+                  {
+                    "label": "Susceptibility Duration (s)",
+                    "value": "30"
+                  }
+                ]
+              },
+              {
+                "name": "Eruption Column",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When the controlled operator performs a Final Strike on an enemy with no stacks of Vulnerable or Arts Infliction.\n SKILL DESCRIPTION: Launches a homing Volcanic Cloud at a target enemy that deals Nature DMG when close enough to the target. The Volcanic Cloud explodes after a short delay, dealing half of the Nature DMG and forcibly applying temporary Corrosion to nearby enemies.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "17"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "100%"
+                  },
+                  {
+                    "label": "Explosion DMG Multiplier",
+                    "value": "250%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Corrode Duration (s)",
+                    "value": "7"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Wooly Party",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Ardelia enters a mobile channeling state and summons the aid of Mr. Dolly. Multiple copies of Mr. Dolly are thrown in random directions. Each copy deals Nature DMG when hitting the enemy. Each enemy can only take 1 damaging hit every 0.3s.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "90"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "165%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "3"
+                  },
+                  {
+                    "label": "Duration (s)",
+                    "value": "3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Dreams_of_the_Starry_Beach",
+        "name": "Dreams of the Starry Beach",
+        "path": "Arts Unit",
+        "type": "Arts Unit",
+        "educated": false
+      },
+      "signatureWeaponId": "Dreams_of_the_Starry_Beach",
+      "signatureWeaponName": "Dreams of the Starry Beach",
       "req": {
         "ascension": [
           {
@@ -19646,7 +19779,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Dreams_of_the_Starry_Beach",
+          "name": "Dreams of the Starry Beach",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/dreams-of-the-starry-beach/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/dreams-of-the-starry-beach/icon.png",
+          "path": "Arts Unit",
+          "weaponType": "Arts Unit",
+          "type": "Arts Unit",
+          "items": [
+            {
+              "id": "ae:Quadrant_Fitting_Fluid",
+              "name": "Quadrant Fitting Fluid",
+              "n": "Quadrant Fitting Fluid",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
+              "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+            },
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Igneosite",
+              "name": "Igneosite",
+              "n": "Igneosite",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/igneosite.png",
+              "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -19707,6 +19941,163 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Camille.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Camille.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Sanguine Absolution",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Heat DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Heat DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "56%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "45%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "68%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "77%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "113%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Blazing Exorcism",
+                "type": "The Explosion DMG part of this skill is not affected by Link bonuses.",
+                "desc": "SKILL DESCRIPTION: Camille summons Firefang Vesperwings that fly towards the enemy to deal Heat DMG and apply Heat Infliction on enemies in a small area of effect. The Firefang Vesperwings then temporarily hover around the target and apply Weaken and Heat Susceptibility to the said target for the duration of the hovering. When the target is defeated, the Firefang Vesperwings fly to another nearby enemy, deal Heat DMG, and apply Heat Infliction, Weaken, and Heat Susceptibility to the new target.\nHitting an enemy with hovering Firefang Vesperwings with Camille's combo skill sets off an explosion after a short delay. This explosion deals additional Heat DMG.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "200%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Firefang Vesperwing Duration (s)",
+                    "value": "45"
+                  },
+                  {
+                    "label": "Weakness Effect",
+                    "value": "7%"
+                  },
+                  {
+                    "label": "Heat Susceptibility",
+                    "value": "7%"
+                  },
+                  {
+                    "label": "Explosion DMG Multiplier",
+                    "value": "100%"
+                  }
+                ]
+              },
+              {
+                "name": "Heartstake Thorn",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When an enemy's Heat Infliction is Debuff Consumption or Absorb.\n SKILL DESCRIPTION: Performs a returning dash that deals Heat DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "0"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "300%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "SP Recovery",
+                    "value": "20"
+                  },
+                  {
+                    "label": "Hunter Pursuit DMG Multiplier",
+                    "value": "500%"
+                  },
+                  {
+                    "label": "Hunter Pursuit Stagger",
+                    "value": "20"
+                  },
+                  {
+                    "label": "Hunter Pursuit SP Recovery",
+                    "value": "40"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Sanguine Downpour",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Camille flies to the sky, rains down a barrage of spears, and follows through with a sweep attack. This deals Heat DMG and applies Heat Infliction to target(s) hit while recovering some SP.\nAfter casting the ultimate, Camille's battle skill is temporarily transformed into Hunter Pursuit.\nHunter Pursuit: Treated as a combo skill and costs no SP. It is a dash attack that deals Heat DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "130"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "600%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "15"
+                  },
+                  {
+                    "label": "SP Recovery",
+                    "value": "40"
+                  },
+                  {
+                    "label": "Hunter Pursuit State Duration (s)",
+                    "value": "15"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Blessing_of_Lustrous_Carmine",
+        "name": "Blessing of Lustrous Carmine",
+        "path": "Polearm",
+        "type": "Polearm",
+        "educated": false
+      },
+      "signatureWeaponId": "Blessing_of_Lustrous_Carmine",
+      "signatureWeaponName": "Blessing of Lustrous Carmine",
       "req": {
         "ascension": [
           {
@@ -20633,7 +21024,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Blessing_of_Lustrous_Carmine",
+          "name": "Blessing of Lustrous Carmine",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/blessing-of-lustrous-carmine/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/blessing-of-lustrous-carmine/icon.png",
+          "path": "Polearm",
+          "weaponType": "Polearm",
+          "type": "Polearm",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:D96_Steel_Sample_4",
+              "name": "D96 Steel Sample 4",
+              "n": "D96 Steel Sample 4",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
+              "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -20694,6 +21186,139 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Ember.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Ember.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Sword Art of Assault",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 25 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "86%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "120%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "149%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "184%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Forward March",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: A leap followed by a heavy slam that deals Heat DMG, Knock Down, and Stagger to all enemies in a fan-shaped area.\nIf Ember takes DMG from enemies during casting, the slam deals more Stagger when it hits.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "390%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Additional Stagger Dealt When Hit",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Frontline Support",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When the controlled operator is attacked.\n SKILL DESCRIPTION: Leaps at the target enemy and unleashes a heavy slam that deals Physical DMG and Knock Down while giving HP treatment to the controlled operator. The attribute of Will increases the amount of HP treatment.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "18"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "230%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Base Treatment",
+                    "value": "675"
+                  },
+                  {
+                    "label": "Treatment Increase per Will",
+                    "value": "1.58"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Re-Ignited Oath",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Slams the ground to deal Heat DMG to nearby enemies, while granting every teammate a Shield based on Ember's Max HP.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "650%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "25"
+                  },
+                  {
+                    "label": "Shield Conversion Ratio (HP)",
+                    "value": "25%"
+                  },
+                  {
+                    "label": "Shield Duration (s)",
+                    "value": "10"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Thunderberge",
+        "name": "Thunderberge",
+        "path": "Great Sword",
+        "type": "Great Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "Thunderberge",
+      "signatureWeaponName": "Thunderberge",
       "req": {
         "ascension": [
           {
@@ -21620,7 +22245,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Thunderberge",
+          "name": "Thunderberge",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/thunderberge/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/thunderberge/icon.png",
+          "path": "Great Sword",
+          "weaponType": "Great Sword",
+          "type": "Great Sword",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Igneosite",
+              "name": "Igneosite",
+              "n": "Igneosite",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/igneosite.png",
+              "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:D96_Steel_Sample_4",
+              "name": "D96 Steel Sample 4",
+              "n": "D96 Steel Sample 4",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
+              "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -21714,6 +22440,145 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Endmin.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Endmin.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Destructive Sequence",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "51%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "61%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "68%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "78%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "90%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Constructive Sequence",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: A forceful burst of Originium Crystals that attacks enemies within the area of effect. Deals Physical DMG and applies Crush.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "350%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Sealing Sequence",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When another operator in the team deals DMG with combo skills.\n SKILL DESCRIPTION: Rushes to the enemy's side to deal Physical DMG and attach Originium Crystals that temporarily seal them. Applying Physical Status or Vulnerable to the sealed enemy shatters the Originium Crystals and deals additional Physical DMG.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "15"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "100%"
+                  },
+                  {
+                    "label": "Crystal Shattering DMG Multiplier",
+                    "value": "400%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Seal Duration (s)",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Bombardment Sequence",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Bombards the ground with Originium Crystals, dealing massive Physical DMG to all enemies within a fan-shaped area. If the enemy already has Originium Crystals on them, this skill shatters the Originium Crystals and deals 1 more hit of Physical DMG.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "80"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "800%"
+                  },
+                  {
+                    "label": "Bonus DMG Multiplier",
+                    "value": "600%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "25"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Base Skills",
+            "entries": [
+              {
+                "name": "Base Skills",
+                "type": "Base",
+                "desc": "The Endministrator does not possess any Base Skill."
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Grand_Vision",
+        "name": "Grand Vision",
+        "path": "Sword",
+        "type": "Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "Grand_Vision",
+      "signatureWeaponName": "Grand Vision",
       "req": {
         "ascension": [
           {
@@ -22640,7 +23505,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Grand_Vision",
+          "name": "Grand Vision",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/grand-vision/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/grand-vision/icon.png",
+          "path": "Sword",
+          "weaponType": "Sword",
+          "type": "Sword",
+          "items": [
+            {
+              "id": "ae:Metadiastima_Photoemission_Tube",
+              "name": "Metadiastima Photoemission Tube",
+              "n": "Metadiastima Photoemission Tube",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
+              "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+            },
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -22743,6 +23709,145 @@
             "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Endmin.png",
             "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Endmin.png"
           ],
+          "kit": {
+            "source": "EndfieldWiki",
+            "channel": "live",
+            "version": "live",
+            "sections": [
+              {
+                "title": "Combat Skills",
+                "entries": [
+                  {
+                    "name": "Destructive Sequence",
+                    "type": "Combat Skill",
+                    "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                    "stats": [
+                      {
+                        "label": "BATK SEQ 1 Multiplier",
+                        "value": "51%"
+                      },
+                      {
+                        "label": "BATK SEQ 2 Multiplier",
+                        "value": "61%"
+                      },
+                      {
+                        "label": "BATK SEQ 3 Multiplier",
+                        "value": "68%"
+                      },
+                      {
+                        "label": "BATK SEQ 4 Multiplier",
+                        "value": "78%"
+                      },
+                      {
+                        "label": "BATK SEQ 5 Multiplier",
+                        "value": "90%"
+                      },
+                      {
+                        "label": "Finisher ATK Multiplier",
+                        "value": "900%"
+                      },
+                      {
+                        "label": "Dive ATK Multiplier",
+                        "value": "180%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Constructive Sequence",
+                    "type": "Combat Skill",
+                    "desc": "SKILL DESCRIPTION: A forceful burst of Originium Crystals that attacks enemies within the area of effect. Deals Physical DMG and applies Crush.",
+                    "stats": [
+                      {
+                        "label": "SP Cost",
+                        "value": "100"
+                      },
+                      {
+                        "label": "DMG Multiplier",
+                        "value": "350%"
+                      },
+                      {
+                        "label": "Stagger",
+                        "value": "10"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sealing Sequence",
+                    "type": "Combat Skill",
+                    "desc": "COMBO TRIGGER: When another operator in the team deals DMG with combo skills.\n SKILL DESCRIPTION: Rushes to the enemy's side to deal Physical DMG and attach Originium Crystals that temporarily seal them. Applying Physical Status or Vulnerable to the sealed enemy shatters the Originium Crystals and deals additional Physical DMG.",
+                    "stats": [
+                      {
+                        "label": "Cooldown",
+                        "value": "15"
+                      },
+                      {
+                        "label": "DMG Multiplier",
+                        "value": "100%"
+                      },
+                      {
+                        "label": "Crystal Shattering DMG Multiplier",
+                        "value": "400%"
+                      },
+                      {
+                        "label": "Stagger",
+                        "value": "10"
+                      },
+                      {
+                        "label": "Seal Duration (s)",
+                        "value": "5"
+                      },
+                      {
+                        "label": "Ultimate Energy Gain",
+                        "value": "10"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bombardment Sequence",
+                    "type": "Combat Skill",
+                    "desc": "SKILL DESCRIPTION: Bombards the ground with Originium Crystals, dealing massive Physical DMG to all enemies within a fan-shaped area. If the enemy already has Originium Crystals on them, this skill shatters the Originium Crystals and deals 1 more hit of Physical DMG.",
+                    "stats": [
+                      {
+                        "label": "Ultimate Energy Cost",
+                        "value": "80"
+                      },
+                      {
+                        "label": "DMG Multiplier",
+                        "value": "800%"
+                      },
+                      {
+                        "label": "Bonus DMG Multiplier",
+                        "value": "600%"
+                      },
+                      {
+                        "label": "Stagger",
+                        "value": "25"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Base Skills",
+                "entries": [
+                  {
+                    "name": "Base Skills",
+                    "type": "Base",
+                    "desc": "The Endministrator does not possess any Base Skill."
+                  }
+                ]
+              }
+            ]
+          },
+          "signatureWeapon": {
+            "id": "Grand_Vision",
+            "name": "Grand Vision",
+            "path": "Sword",
+            "type": "Sword",
+            "educated": false
+          },
+          "signatureWeaponId": "Grand_Vision",
+          "signatureWeaponName": "Grand Vision",
           "req": {
             "ascension": [
               {
@@ -23669,7 +24774,108 @@
             ],
             "ascCost": 0,
             "talentCost": 0,
-            "currency": 0
+            "currency": 0,
+            "weapon": {
+              "id": "Grand_Vision",
+              "name": "Grand Vision",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/grand-vision/icon.png",
+              "art": "../../Database/EndfieldWiki/endfield/assets/weapons/grand-vision/icon.png",
+              "path": "Sword",
+              "weaponType": "Sword",
+              "type": "Sword",
+              "items": [
+                {
+                  "id": "ae:Metadiastima_Photoemission_Tube",
+                  "name": "Metadiastima Photoemission Tube",
+                  "n": "Metadiastima Photoemission Tube",
+                  "qty": 16,
+                  "rar": 5,
+                  "kind": "gem",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
+                  "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+                },
+                {
+                  "id": "ae:Cast_Die",
+                  "name": "Cast Die",
+                  "n": "Cast Die",
+                  "qty": 23,
+                  "rar": 3,
+                  "kind": "weapon",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+                  "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+                },
+                {
+                  "id": "ae:Heavy_Cast_Die",
+                  "name": "Heavy Cast Die",
+                  "n": "Heavy Cast Die",
+                  "qty": 50,
+                  "rar": 4,
+                  "kind": "weapon",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+                  "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+                },
+                {
+                  "id": "ae:Auronyx",
+                  "name": "Auronyx",
+                  "n": "Auronyx",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "specialty",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+                  "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+                },
+                {
+                  "id": "ae:Kalkonyx",
+                  "name": "Kalkonyx",
+                  "n": "Kalkonyx",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "specialty",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+                  "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+                },
+                {
+                  "id": "ae:Umbronyx",
+                  "name": "Umbronyx",
+                  "n": "Umbronyx",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "specialty",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+                  "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+                },
+                {
+                  "id": "ae:Wulingstone",
+                  "name": "Wulingstone",
+                  "n": "Wulingstone",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "specialty",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+                  "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+                },
+                {
+                  "id": "ae:T-Creds",
+                  "name": "T-Creds",
+                  "n": "T-Creds",
+                  "qty": 125700,
+                  "rar": 4,
+                  "kind": "currency",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                  "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+                }
+              ],
+              "cost": 0,
+              "educated": false
+            }
           },
           "aePreferredItems": [
             {
@@ -23771,6 +24977,145 @@
             "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Endmin.png",
             "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Endmin.png"
           ],
+          "kit": {
+            "source": "EndfieldWiki",
+            "channel": "live",
+            "version": "live",
+            "sections": [
+              {
+                "title": "Combat Skills",
+                "entries": [
+                  {
+                    "name": "Destructive Sequence",
+                    "type": "Combat Skill",
+                    "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                    "stats": [
+                      {
+                        "label": "BATK SEQ 1 Multiplier",
+                        "value": "51%"
+                      },
+                      {
+                        "label": "BATK SEQ 2 Multiplier",
+                        "value": "61%"
+                      },
+                      {
+                        "label": "BATK SEQ 3 Multiplier",
+                        "value": "68%"
+                      },
+                      {
+                        "label": "BATK SEQ 4 Multiplier",
+                        "value": "78%"
+                      },
+                      {
+                        "label": "BATK SEQ 5 Multiplier",
+                        "value": "90%"
+                      },
+                      {
+                        "label": "Finisher ATK Multiplier",
+                        "value": "900%"
+                      },
+                      {
+                        "label": "Dive ATK Multiplier",
+                        "value": "180%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Constructive Sequence",
+                    "type": "Combat Skill",
+                    "desc": "SKILL DESCRIPTION: A forceful burst of Originium Crystals that attacks enemies within the area of effect. Deals Physical DMG and applies Crush.",
+                    "stats": [
+                      {
+                        "label": "SP Cost",
+                        "value": "100"
+                      },
+                      {
+                        "label": "DMG Multiplier",
+                        "value": "350%"
+                      },
+                      {
+                        "label": "Stagger",
+                        "value": "10"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sealing Sequence",
+                    "type": "Combat Skill",
+                    "desc": "COMBO TRIGGER: When another operator in the team deals DMG with combo skills.\n SKILL DESCRIPTION: Rushes to the enemy's side to deal Physical DMG and attach Originium Crystals that temporarily seal them. Applying Physical Status or Vulnerable to the sealed enemy shatters the Originium Crystals and deals additional Physical DMG.",
+                    "stats": [
+                      {
+                        "label": "Cooldown",
+                        "value": "15"
+                      },
+                      {
+                        "label": "DMG Multiplier",
+                        "value": "100%"
+                      },
+                      {
+                        "label": "Crystal Shattering DMG Multiplier",
+                        "value": "400%"
+                      },
+                      {
+                        "label": "Stagger",
+                        "value": "10"
+                      },
+                      {
+                        "label": "Seal Duration (s)",
+                        "value": "5"
+                      },
+                      {
+                        "label": "Ultimate Energy Gain",
+                        "value": "10"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bombardment Sequence",
+                    "type": "Combat Skill",
+                    "desc": "SKILL DESCRIPTION: Bombards the ground with Originium Crystals, dealing massive Physical DMG to all enemies within a fan-shaped area. If the enemy already has Originium Crystals on them, this skill shatters the Originium Crystals and deals 1 more hit of Physical DMG.",
+                    "stats": [
+                      {
+                        "label": "Ultimate Energy Cost",
+                        "value": "80"
+                      },
+                      {
+                        "label": "DMG Multiplier",
+                        "value": "800%"
+                      },
+                      {
+                        "label": "Bonus DMG Multiplier",
+                        "value": "600%"
+                      },
+                      {
+                        "label": "Stagger",
+                        "value": "25"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Base Skills",
+                "entries": [
+                  {
+                    "name": "Base Skills",
+                    "type": "Base",
+                    "desc": "The Endministrator does not possess any Base Skill."
+                  }
+                ]
+              }
+            ]
+          },
+          "signatureWeapon": {
+            "id": "Grand_Vision",
+            "name": "Grand Vision",
+            "path": "Sword",
+            "type": "Sword",
+            "educated": false
+          },
+          "signatureWeaponId": "Grand_Vision",
+          "signatureWeaponName": "Grand Vision",
           "req": {
             "ascension": [
               {
@@ -24697,7 +26042,108 @@
             ],
             "ascCost": 0,
             "talentCost": 0,
-            "currency": 0
+            "currency": 0,
+            "weapon": {
+              "id": "Grand_Vision",
+              "name": "Grand Vision",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/grand-vision/icon.png",
+              "art": "../../Database/EndfieldWiki/endfield/assets/weapons/grand-vision/icon.png",
+              "path": "Sword",
+              "weaponType": "Sword",
+              "type": "Sword",
+              "items": [
+                {
+                  "id": "ae:Metadiastima_Photoemission_Tube",
+                  "name": "Metadiastima Photoemission Tube",
+                  "n": "Metadiastima Photoemission Tube",
+                  "qty": 16,
+                  "rar": 5,
+                  "kind": "gem",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
+                  "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+                },
+                {
+                  "id": "ae:Cast_Die",
+                  "name": "Cast Die",
+                  "n": "Cast Die",
+                  "qty": 23,
+                  "rar": 3,
+                  "kind": "weapon",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+                  "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+                },
+                {
+                  "id": "ae:Heavy_Cast_Die",
+                  "name": "Heavy Cast Die",
+                  "n": "Heavy Cast Die",
+                  "qty": 50,
+                  "rar": 4,
+                  "kind": "weapon",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+                  "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+                },
+                {
+                  "id": "ae:Auronyx",
+                  "name": "Auronyx",
+                  "n": "Auronyx",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "specialty",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+                  "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+                },
+                {
+                  "id": "ae:Kalkonyx",
+                  "name": "Kalkonyx",
+                  "n": "Kalkonyx",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "specialty",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+                  "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+                },
+                {
+                  "id": "ae:Umbronyx",
+                  "name": "Umbronyx",
+                  "n": "Umbronyx",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "specialty",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+                  "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+                },
+                {
+                  "id": "ae:Wulingstone",
+                  "name": "Wulingstone",
+                  "n": "Wulingstone",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "specialty",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+                  "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+                },
+                {
+                  "id": "ae:T-Creds",
+                  "name": "T-Creds",
+                  "n": "T-Creds",
+                  "qty": 125700,
+                  "rar": 4,
+                  "kind": "currency",
+                  "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                  "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                  "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+                }
+              ],
+              "cost": 0,
+              "educated": false
+            }
           },
           "aePreferredItems": [
             {
@@ -24801,6 +26247,139 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Gilberta.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Gilberta.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Arcane Staff: Beam Cohesion Arts",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 16 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "68%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "81%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "91%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "112%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Arcane Staff: Gravity Mode",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Initiates Arts channeling that creates a gravity well. The gravity well pulls in nearby enemies and deals Nature DMG to them. When channeling ends, the gravity well implodes to deal Nature DMG and Nature Infliction to enemies in the area of effect.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "Gravity Pull DMG Multiplier",
+                    "value": "219%"
+                  },
+                  {
+                    "label": "Explosion DMG Multiplier",
+                    "value": "130%"
+                  },
+                  {
+                    "label": "Explosion Stagger",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Arcane Staff: Matrix Displacement",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When an Arts Reaction is applied to an enemy.\n SKILL DESCRIPTION: A quick casting of the Arts that generates a gravity pull, which then deals Nature DMG and forcibly Lift the target and nearby enemies.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "19"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "315%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Arcane Staff: Gravity Field",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Creates an Anomalous Gravity Field that instantly deals 1 hit of Nature DMG and applies Nature Infliction to enemies caught in the field. Targets in the Anomalous Gravity Field also suffer from Slow and Arts Susceptibility. The effect of Arts Susceptibility is further increased based on the number of active Vulnerable stacks on the target.\nIf a target in the field is Lifted, the Lifted status will persist until the field wears off.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "90"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "750%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "20"
+                  },
+                  {
+                    "label": "Field Duration (s)",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Slow Effect",
+                    "value": "80%"
+                  },
+                  {
+                    "label": "Base Arts Susceptibility",
+                    "value": "30%"
+                  },
+                  {
+                    "label": "Arts Susceptibility Increase per Vulnerability Stack",
+                    "value": "3%"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Delivery_Guaranteed",
+        "name": "Delivery Guaranteed",
+        "path": "Arts Unit",
+        "type": "Arts Unit",
+        "educated": false
+      },
+      "signatureWeaponId": "Delivery_Guaranteed",
+      "signatureWeaponName": "Delivery Guaranteed",
       "req": {
         "ascension": [
           {
@@ -25727,7 +27306,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Delivery_Guaranteed",
+          "name": "Delivery Guaranteed",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/delivery-guaranteed/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/delivery-guaranteed/icon.png",
+          "path": "Arts Unit",
+          "weaponType": "Arts Unit",
+          "type": "Arts Unit",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            },
+            {
+              "id": "ae:Tachyon_Screening_Lattice",
+              "name": "Tachyon Screening Lattice",
+              "n": "Tachyon Screening Lattice",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/tachyon-screening-lattice.png",
+              "source": "Protocol Space: Hazardous Material Management Room, Crisis Calamity: Marble Aggelomoirai (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Spa",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Tachyon_Screening_Lattice"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -25810,6 +27490,163 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Laevatain.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Laevatain.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Flaming Cinders",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Heat DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Heat DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "36%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "54%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "56%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "88%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "119%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Smouldering Fire",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Summons a Magma Fragment to continuously attack enemies and deal Heat DMG. Hitting the enemy grants 1 stack of Melting Flame.\nIf Laevatain already has 4 stack(s) of Melting Flame when casting the skill, then consume all the stacks and perform 1 additional attack that deals Heat DMG and forcibly trigger temporary Combustion to all enemies in a large area.\nWhen the additional attack hits the enemy, restore additional Ultimate Energy.\nBattle skill effects are enhanced while Laevatain's ultimate is active.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "Base Explosion DMG Multiplier",
+                    "value": "140%"
+                  },
+                  {
+                    "label": "Base Explosion Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "DMG Over Time Multiplier per SEQ",
+                    "value": "14%"
+                  },
+                  {
+                    "label": "Additional ATK DMG Multiplier",
+                    "value": "770%"
+                  },
+                  {
+                    "label": "Additional ATK Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Combustion Duration (s)",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Additional ATK Ultimate Energy Gain",
+                    "value": "100"
+                  }
+                ]
+              },
+              {
+                "name": "Seethe",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When an enemy suffers Combustion or Corrosion.\n SKILL DESCRIPTION: Fire erupts beneath the feet of any enemy with Combustion or Corrosion, dealing Heat DMG to them.\nIf the skill hits the enemy, Laevatain gains 1 stack of Melting Flame and further gains Ultimate Energy per enemy hit.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "9"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "540%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain when Hitting 1 Enemy",
+                    "value": "25"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain when Hitting 2 Enemies",
+                    "value": "30"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain when Hitting 3 Enemies",
+                    "value": "35"
+                  }
+                ]
+              },
+              {
+                "name": "Twilight",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Laevatain summons her Sviga L\u00e6vi and becomes the controlled operator.\nFor a certain duration, her basic attacks (BATK) are enhanced and the Sviga L\u00e6vi strikes together with Laevatain, with each attack dealing Heat DMG. BATK sequence 3 also applies Heat Infliction.\nCasting the battle skill, Smouldering Fire, or the combo skill, Seethe, does not shorten the duration of the ultimate, Twilight.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "300"
+                  },
+                  {
+                    "label": "Duration (s)",
+                    "value": "15"
+                  },
+                  {
+                    "label": "Enhanced BATK SEQ 1 Multiplier",
+                    "value": "146%"
+                  },
+                  {
+                    "label": "Enhanced BATK SEQ 2 Multiplier",
+                    "value": "182%"
+                  },
+                  {
+                    "label": "Enhanced BATK SEQ 3 Multiplier",
+                    "value": "260%"
+                  },
+                  {
+                    "label": "Enhanced BATK SEQ 4 Multiplier",
+                    "value": "456%"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Forgeborn_Scathe",
+        "name": "Forgeborn Scathe",
+        "path": "Sword",
+        "type": "Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "Forgeborn_Scathe",
+      "signatureWeaponName": "Forgeborn Scathe",
       "req": {
         "ascension": [
           {
@@ -26736,7 +28573,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Forgeborn_Scathe",
+          "name": "Forgeborn Scathe",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/forgeborn-scathe/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/forgeborn-scathe/icon.png",
+          "path": "Sword",
+          "weaponType": "Sword",
+          "type": "Sword",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:D96_Steel_Sample_4",
+              "name": "D96 Steel Sample 4",
+              "n": "D96 Steel Sample 4",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
+              "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -26819,6 +28757,155 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Lastrite.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Lastrite.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Dance of Rime",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 25 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "68%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "124%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "153%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "203%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Esoteric Legacy of Se\u0161'qa",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Performs a Hypothermic Perfusion on the controlled operator's weapon and SP Return some SP.\nThe next Final Strike performed by the currently controlled operator within a certain duration creates Last Rite's Mirages that unleash an additional attack at the target. This attack deals Cryo DMG and applies Cryo Infliction.\nWhen the controlled operator is Last Rite herself, casting this battle skill does not reset her basic attack sequence.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "Mirage Additional ATK DMG Multiplier",
+                    "value": "320%"
+                  },
+                  {
+                    "label": "SP Return",
+                    "value": "30"
+                  },
+                  {
+                    "label": "Duration (s)",
+                    "value": "15"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "16"
+                  }
+                ]
+              },
+              {
+                "name": "Winter's Devourer",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When an enemy has 3 or more Cryo Infliction stacks.\n SKILL DESCRIPTION: Encases the target enemy in icicles and shatters them to Debuff Consumption all Cryo Infliction stacks of the said enemy. The number of Cryo Infliction stacks Debuff Consumption determines the amount of Cryo DMG dealt to the said enemy and Ultimate Energy gained by Last Rite.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "8"
+                  },
+                  {
+                    "label": "Ice Shard DMG Multiplier",
+                    "value": "160%"
+                  },
+                  {
+                    "label": "Slash Base DMG Multiplier",
+                    "value": "160%"
+                  },
+                  {
+                    "label": "Slash Stagger",
+                    "value": "15"
+                  },
+                  {
+                    "label": "Bonus DMG Multiplier per Infliction Stack",
+                    "value": "240%"
+                  },
+                  {
+                    "label": "Base Ultimate Energy Gain",
+                    "value": "40"
+                  },
+                  {
+                    "label": "Additional Ultimate Energy Gain per Infliction Stack",
+                    "value": "15"
+                  }
+                ]
+              },
+              {
+                "name": "Vigil Services",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Last Rite encases herself in frost armor, creates an ice scythe to perform 3 slashes, and gains immunity to all damages while this state is active.\nEach slash deals massive Cryo DMG.\nLast Rite can only gain Ultimate Energy from her own battle skills and combo skills.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "240"
+                  },
+                  {
+                    "label": "SEQ 1 DMG Multiplier",
+                    "value": "400%"
+                  },
+                  {
+                    "label": "SEQ 1 Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "SEQ 2 DMG Multiplier",
+                    "value": "400%"
+                  },
+                  {
+                    "label": "SEQ 2 Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "SEQ 3 DMG Multiplier",
+                    "value": "800%"
+                  },
+                  {
+                    "label": "SEQ 3 Stagger",
+                    "value": "10"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Khravengger",
+        "name": "Khravengger",
+        "path": "Great Sword",
+        "type": "Great Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "Khravengger",
+      "signatureWeaponName": "Khravengger",
       "req": {
         "ascension": [
           {
@@ -27745,7 +29832,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Khravengger",
+          "name": "Khravengger",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/khravengger/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/khravengger/icon.png",
+          "path": "Great Sword",
+          "weaponType": "Great Sword",
+          "type": "Great Sword",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            },
+            {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -27839,6 +30027,159 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Lifeng.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Lifeng.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Ruination",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 19 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "55%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "65%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "79%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "152%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Turbid Avatar",
+                "type": "Contrary to the in-game text, Lifeng will apply both Knock Down and Physical Sus",
+                "desc": "SKILL DESCRIPTION: Swings the polearm multiple times to deal 2 hits of Physical DMG, then slams the ground to deal Physical DMG and Knock Down to all enemies in the area of effect.\nIf the enemy struck by the last hit of this skill has no Vulnerable stacks, apply Physical Susceptibility to the said enemy instead.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "SEQ 1 DMG Multiplier",
+                    "value": "86%"
+                  },
+                  {
+                    "label": "SEQ 2 DMG Multiplier",
+                    "value": "86%"
+                  },
+                  {
+                    "label": "SEQ 3 DMG Multiplier",
+                    "value": "268%"
+                  },
+                  {
+                    "label": "SEQ 3 Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Physical Susceptibility",
+                    "value": "12%"
+                  },
+                  {
+                    "label": "Physical Susceptibility Duration (s)",
+                    "value": "12"
+                  }
+                ]
+              },
+              {
+                "name": "Aspect of Wrath",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When the controlled operator performs a Final Strike on an enemy with Physical Susceptibility or Breach.\n SKILL DESCRIPTION: Unleashes an aspect that performs a spear thrust to deal Physical DMG and grants Link.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "15"
+                  },
+                  {
+                    "label": "SEQ 1 DMG Multiplier",
+                    "value": "105%"
+                  },
+                  {
+                    "label": "SEQ 2 DMG Multiplier",
+                    "value": "375%"
+                  },
+                  {
+                    "label": "SEQ 2 Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Combo Duration (s)",
+                    "value": "20"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Heart of the Unmoving",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Unleashes an aspect that performs an Immovable Vajra Slam. The Slam deals Physical DMG and applies Knock Down to all enemies in a large area of effect (AOE), and pulls enemies towards the center of the AOE. After a while, the Slam unleashes one more hit that deals massive Physical DMG and applies another Knock Down to enemies still within its AOE.\nIf the skill Debuff Consumption a Link, then it deals an additional hit of massive Physical DMG.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "90"
+                  },
+                  {
+                    "label": "SEQ 1 DMG Multiplier",
+                    "value": "400%"
+                  },
+                  {
+                    "label": "SEQ 1 Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "SEQ 2 DMG Multiplier",
+                    "value": "400%"
+                  },
+                  {
+                    "label": "SEQ 2 Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Additional ATK DMG Multiplier",
+                    "value": "600%"
+                  },
+                  {
+                    "label": "Additional ATK Stagger",
+                    "value": "5"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Mountain_Bearer",
+        "name": "Mountain Bearer",
+        "path": "Polearm",
+        "type": "Polearm",
+        "educated": false
+      },
+      "signatureWeaponId": "Mountain_Bearer",
+      "signatureWeaponName": "Mountain Bearer",
       "req": {
         "ascension": [
           {
@@ -28765,7 +31106,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Mountain_Bearer",
+          "name": "Mountain Bearer",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/mountain-bearer/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/mountain-bearer/icon.png",
+          "path": "Polearm",
+          "weaponType": "Polearm",
+          "type": "Polearm",
+          "items": [
+            {
+              "id": "ae:Metadiastima_Photoemission_Tube",
+              "name": "Metadiastima Photoemission Tube",
+              "n": "Metadiastima Photoemission Tube",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
+              "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+            },
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Igneosite",
+              "name": "Igneosite",
+              "n": "Igneosite",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/igneosite.png",
+              "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -28837,6 +31279,139 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Mifu.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Mifu.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Fistmancer of Blades",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 25 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "76%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "86%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "136%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "172%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  }
+                ]
+              },
+              {
+                "name": "Qingbo Triplex",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Keep casting Mi Fu's battle skill to unleash 3 different moves. The first battle skill cast is Cloudtrapper.\n\nMOVE 1 - Cloudtrapper: Costs 100 SP and SP Return 50 SP after casting; Mi Fu fires a grappling chain from her gauntlets that deals Physical DMG to the target and nearby enemies, then attempts to pull the target and nearby enemies towards her. After casting MOVE 1, the next battle skill will be temporarily replaced with Trail and Mangle.\n\nMOVE 2 - Trail and Mangle: Costs 50 SP; Mi Fu unleashes a flurry of punches that deals Physical DMG with the final punch applying Crush. If this Crush Debuff Consumption at least 3 Vulnerable stacks from a single target, then the next battle skill will be temporarily replaced with World Splitter.\n\nMOVE 3 - World Splitter: Costs 50 SP; Mi Fu deals massive Physical DMG to a specified area; this DMG is not treated as Battle Skill DMG, but as Crush DMG.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "50"
+                  },
+                  {
+                    "label": "Cloudtrapper DMG Multiplier",
+                    "value": "150%"
+                  },
+                  {
+                    "label": "Trail and Mangle DMG Multiplier",
+                    "value": "200%"
+                  },
+                  {
+                    "label": "Trail and Mangle Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "World Splitter DMG Multiplier",
+                    "value": "600%"
+                  },
+                  {
+                    "label": "World Splitter Stagger",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Fists of No Regrets",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When an enemy has 3 or more Vulnerable stacks.\n SKILL DESCRIPTION: Mi Fu unleashes a devastating uppercut at the enemy, dealing Physical DMG and applying temporary Physical Susceptibility. After casting this skill, the next battle skill is temporarily replaced with Trail and Mangle.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "19"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "250%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Physical Susceptibility",
+                    "value": "5%"
+                  },
+                  {
+                    "label": "Physical Susceptibility Duration (s)",
+                    "value": "16"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Pile of No Mercy",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: After a short power up, Mi Fu dashes forward to forcibly Lift a target into mid-air, then slams the said target to deal Physical DMG. After casting this skill, the next battle skill is temporarily replaced with Trail and Mangle.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "80"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "700%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "20"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Amaranthine_Tassel",
+        "name": "Amaranthine Tassel",
+        "path": "Great Sword",
+        "type": "Great Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "Amaranthine_Tassel",
+      "signatureWeaponName": "Amaranthine Tassel",
       "req": {
         "ascension": [
           {
@@ -29763,7 +32338,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Amaranthine_Tassel",
+          "name": "Amaranthine Tassel",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/amaranthine-tassel/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/amaranthine-tassel/icon.png",
+          "path": "Great Sword",
+          "weaponType": "Great Sword",
+          "type": "Great Sword",
+          "items": [
+            {
+              "id": "ae:Quadrant_Fitting_Fluid",
+              "name": "Quadrant Fitting Fluid",
+              "n": "Quadrant Fitting Fluid",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
+              "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+            },
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Igneosite",
+              "name": "Igneosite",
+              "n": "Igneosite",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/igneosite.png",
+              "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -29833,6 +32509,179 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Pogranichnik.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Pogranichnik.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "All-Out Offensive",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "52%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "63%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "74%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "86%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "97%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "The Pulverizing Front",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Pogranichnik performs a 2-sequence slash attack at enemies in front of him, dealing Physical DMG, applying Breach, and recovering SP based on the number of Vulnerability stacks Debuff Consumption. The SP recovery effect can only trigger 1 time, even if the skill hits multiple targets.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "SEQ 1 DMG Multiplier",
+                    "value": "192%"
+                  },
+                  {
+                    "label": "SEQ 1 Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "SEQ 2 DMG Multiplier",
+                    "value": "238%"
+                  },
+                  {
+                    "label": "SEQ 2 Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "SP Recovery by Consuming 1 Vulnerability Stack",
+                    "value": "5"
+                  },
+                  {
+                    "label": "SP Recovery by Consuming 2 Vulnerability Stacks",
+                    "value": "15"
+                  },
+                  {
+                    "label": "SP Recovery by Consuming 3 Vulnerability Stacks",
+                    "value": "25"
+                  }
+                ]
+              },
+              {
+                "name": "Full Moon Slash",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When Crush or Breach Debuff Consumption the enemy's Vulnerable stack(s).\n SKILL DESCRIPTION: Performs a number of slash sequences (up to 3) based on the max number of Vulnerable stacks Debuff Consumption from one enemy, dealing Physical DMG and recovering some SP. Each slash deals more DMG and gives better SP recovery.\nConsuming 4 stacks of Vulnerability enhances the 3rd slash sequence.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "17"
+                  },
+                  {
+                    "label": "SEQ 1 DMG Multiplier",
+                    "value": "95%"
+                  },
+                  {
+                    "label": "SEQ 1 Stagger",
+                    "value": "3"
+                  },
+                  {
+                    "label": "SEQ 1 SP Recovery",
+                    "value": "5"
+                  },
+                  {
+                    "label": "SEQ 2 DMG Multiplier",
+                    "value": "122%"
+                  },
+                  {
+                    "label": "SEQ 2 Stagger",
+                    "value": "3"
+                  },
+                  {
+                    "label": "SEQ 2 SP Recovery",
+                    "value": "7"
+                  },
+                  {
+                    "label": "SEQ 3 DMG Multiplier",
+                    "value": "149%"
+                  }
+                ]
+              },
+              {
+                "name": "Shieldguard Banner, Forward",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Summons 4 Shieldguards to advance and push all enemies along the way towards the target, dealing Physical DMG while generating 5 points of Steel Oath. After an enemy suffers a Physical Status or takes DMG from Pogranichnik's combo skill, Pogranichnik consumes 1 point of Steel Oath and summons 1 Shieldguard to harass the said enemy, dealing Physical DMG and recovering some SP. When the last Steel Oath point is consumed, all 4 Shieldguards will initiate a Decisive Assault that deals massive Physical DMG to the target while recovering plenty of SP.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "90"
+                  },
+                  {
+                    "label": "Steel Oath Duration",
+                    "value": "30"
+                  },
+                  {
+                    "label": "Advance DMG Multiplier",
+                    "value": "300%"
+                  },
+                  {
+                    "label": "Advance Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Harass DMG Multiplier",
+                    "value": "100%"
+                  },
+                  {
+                    "label": "Harass SP Recovery",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Decisive Assault DMG Multiplier",
+                    "value": "450%"
+                  },
+                  {
+                    "label": "Decisive Assault Stagger",
+                    "value": "15"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Thermite_Cutter",
+        "name": "Thermite Cutter",
+        "path": "Sword",
+        "type": "Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "Thermite_Cutter",
+      "signatureWeaponName": "Thermite Cutter",
       "req": {
         "ascension": [
           {
@@ -30759,7 +33608,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Thermite_Cutter",
+          "name": "Thermite Cutter",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/thermite-cutter/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/thermite-cutter/icon.png",
+          "path": "Sword",
+          "weaponType": "Sword",
+          "type": "Sword",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Igneosite",
+              "name": "Igneosite",
+              "n": "Igneosite",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/igneosite.png",
+              "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:D96_Steel_Sample_4",
+              "name": "D96 Steel Sample 4",
+              "n": "D96 Steel Sample 4",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
+              "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -30840,6 +33790,159 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Rossi.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Rossi.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Seething Wolfblood",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "61%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "71%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "77%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "91%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "113%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Crimson Shadow",
+                "type": "Rossi gains up to an additional 10 Ultimate Energy if the second sequence hits a",
+                "desc": "SKILL DESCRIPTION: Charges to the target to deal Physical DMG and apply Lift.\nIf the target already has Vulnerable stack(s), the skill also unleashes a Wolven Ambrage that charges at the target to deal Heat DMG.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "SEQ 1 DMG Multiplier",
+                    "value": "192%"
+                  },
+                  {
+                    "label": "SEQ 1 Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "SEQ 2 DMG Multiplier",
+                    "value": "288%"
+                  },
+                  {
+                    "label": "SEQ 2 Stagger",
+                    "value": "15"
+                  }
+                ]
+              },
+              {
+                "name": "Moment of Blazing Shadow",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When an enemy has both Vulnerable and Arts Infliction stacks.\n SKILL DESCRIPTION: Rossi's combo skill has 2 consecutive sequences. COMBO SEQUENCE 1 deals Physical DMG to the target.\nCOMBO SEQUENCE 2 Debuff Consumption all Arts Infliction stacks from the target, deals Physical DMG based on the number of Arts Infliction stacks Debuff Consumption, applies 1 instance of Lift, and buffs Rossi's Critical Rate and Critical DMG Dealt at the same time.\nIf COMBO SEQUENCE 2 is cast with perfect timing, it applies 1 more stack of Vulnerable.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "0"
+                  },
+                  {
+                    "label": "SEQ 1 DMG Multiplier",
+                    "value": "150%"
+                  },
+                  {
+                    "label": "SEQ 1 Ultimate Energy Gain",
+                    "value": "10"
+                  },
+                  {
+                    "label": "SEQ 2 DMG Multiplier",
+                    "value": "300%"
+                  },
+                  {
+                    "label": "Bonus DMG Multiplier per Infliction Stack",
+                    "value": "180%"
+                  },
+                  {
+                    "label": "SEQ 2 Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Critical Rate Boost",
+                    "value": "25%"
+                  },
+                  {
+                    "label": "Critical DMG Boost",
+                    "value": "50%"
+                  }
+                ]
+              },
+              {
+                "name": "\"Razorclaw\" Ambuscade",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Rossi flutters her cape and unleashes a flurry of stabs that quickly deals multiple sequences of Heat DMG to the target. She then performs a two-sequence slash attack with her dagger that deals massive Heat DMG and applies Heat Infliction.\nWhen this skill successfully scores a critical hit, it deals higher Critical DMG.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "110"
+                  },
+                  {
+                    "label": "Stab Attack Total DMG Multiplier",
+                    "value": "600%"
+                  },
+                  {
+                    "label": "SEQ 1 Slash DMG Multiplier",
+                    "value": "250%"
+                  },
+                  {
+                    "label": "SEQ 2 Slash DMG Multiplier",
+                    "value": "750%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "25"
+                  },
+                  {
+                    "label": "Critical DMG Boost",
+                    "value": "60%"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Lupine_Scarlet",
+        "name": "Lupine Scarlet",
+        "path": "Sword",
+        "type": "Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "Lupine_Scarlet",
+      "signatureWeaponName": "Lupine Scarlet",
       "req": {
         "ascension": [
           {
@@ -31766,7 +34869,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Lupine_Scarlet",
+          "name": "Lupine Scarlet",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/lupine-scarlet/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/lupine-scarlet/icon.png",
+          "path": "Sword",
+          "weaponType": "Sword",
+          "type": "Sword",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Igneosite",
+              "name": "Igneosite",
+              "n": "Igneosite",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/igneosite.png",
+              "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            },
+            {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -31858,6 +35062,163 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Tangtang.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Tangtang.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "I'LL BLOW YOUR MIND!",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "51%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "56%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "79%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "82%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "113%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "IMA WAVERIDAAH!",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Tangtang jumps out from the water and fires a point-blank shot that deals Cryo DMG to the enemy and creates a Waterspout.\nCasting the battle skill also consumes all nearby Whirlpools to create additional Waterspouts and SP Return some SP based on the number of Waterspouts created.\nWaterspout: Applies 1 stack of Cryo Infliction on enemies within range and deals Cryo DMG over time. If the battle skill creates multiple Waterspouts, they also apply Arts Susceptibility to enemies (but not another stack of Cryo Infliction).\nDMG dealt by the Waterspout is treated as Battle Skill DMG.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "Shooting DMG Multiplier",
+                    "value": "180%"
+                  },
+                  {
+                    "label": "Shot Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "DMG Multiplier (1 Waterspout)",
+                    "value": "300%"
+                  },
+                  {
+                    "label": "Waterspout Duration (s)",
+                    "value": "3"
+                  },
+                  {
+                    "label": "SP Return per Whirlpool",
+                    "value": "20"
+                  },
+                  {
+                    "label": "Arts Susceptibility (2 Waterspouts)",
+                    "value": "5%"
+                  },
+                  {
+                    "label": "Arts Susceptibility (3 Waterspouts)",
+                    "value": "10%"
+                  }
+                ]
+              },
+              {
+                "name": "RIVER, TO ME!",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When applying Cryo Infliction or dealing Arts Burst to an enemy.\n SKILL DESCRIPTION: Tangtang unleashes a powerful jet stream that penetrates all enemies in its path, deals Cryo DMG to them, and creates a Whirlpool.\nUp to 2 Whirlpools can exist in the battlefield at any time.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "12"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "240%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Whirlpool Duration (s)",
+                    "value": "30"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "DA CHIEF SEES YOU!",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Tangtang opens her eyepatch and unleashes an OLDEN STARE from her eye that temporarily locks down, immobilizes, and deals Cryo DMG over time to enemies within its area of effect.\nWhen the OLDEN STARE stops evolving, a rogue wave comes crashing down to deal massive Cryo DMG to enemies in its area of effect.\nIf the controlled operator performs a dive attack in the OLDEN STARE pattern, its evolution ends and the rogue wave is summoned immediately to deal even more Cryo DMG.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "90"
+                  },
+                  {
+                    "label": "DMG Over Time Total Multiplier",
+                    "value": "320%"
+                  },
+                  {
+                    "label": "OLDEN STARE Duration (s)",
+                    "value": "4"
+                  },
+                  {
+                    "label": "Rogue Wave DMG Multiplier",
+                    "value": "400%"
+                  },
+                  {
+                    "label": "Early Rogue Wave DMG Multiplier",
+                    "value": "700%"
+                  },
+                  {
+                    "label": "Rogue Wave Stagger",
+                    "value": "15"
+                  },
+                  {
+                    "label": "Early Rogue Wave Stagger",
+                    "value": "20"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Brigand's_Calling",
+        "name": "Brigand's Calling",
+        "path": "Handcannon",
+        "type": "Handcannon",
+        "educated": false
+      },
+      "signatureWeaponId": "Brigand's_Calling",
+      "signatureWeaponName": "Brigand's Calling",
       "req": {
         "ascension": [
           {
@@ -32784,7 +36145,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Brigand's_Calling",
+          "name": "Brigand's Calling",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/brigands-calling/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/brigands-calling/icon.png",
+          "path": "Handcannon",
+          "weaponType": "Handcannon",
+          "type": "Handcannon",
+          "items": [
+            {
+              "id": "ae:Quadrant_Fitting_Fluid",
+              "name": "Quadrant Fitting Fluid",
+              "n": "Quadrant Fitting Fluid",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
+              "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+            },
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Igneosite",
+              "name": "Igneosite",
+              "n": "Igneosite",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/igneosite.png",
+              "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -32854,6 +36316,175 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Yvonne.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Yvonne.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Exuberant Trigger",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "53%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "56%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "71%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "92%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "126%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Brr-Brr-Bomb \u03b2",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Throws a freezing bomb. The bomb explodes when it hits the enemy to deal Cryo DMG. If hitting an enemy with Cryo Infliction or Nature Infliction, then Debuff Consumption all Arts Infliction stacks, forcibly apply Solidification, and deal Cryo DMG to the target based on the number of stacks Debuff Consumption.\nAfter the battle skill successfully applies Solidification, Yvonne gains additional Ultimate Energy based on the number of stacks Debuff Consumption. This Ultimate Energy Gain effect can only trigger 1 time, even if the skill hits multiple enemies.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "Base DMG Multiplier",
+                    "value": "250%"
+                  },
+                  {
+                    "label": "DMG Multiplier of Solidification Applied",
+                    "value": "150%"
+                  },
+                  {
+                    "label": "Bonus DMG Multiplier per Infliction Stack",
+                    "value": "200%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Ultimate Energy from Solidification Applied",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Additional Ultimate Energy Gain per Infliction Stack",
+                    "value": "30"
+                  }
+                ]
+              },
+              {
+                "name": "Flashfreezer \u03c537",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When the controlled operator performs a Final Strike on an enemy with Solidification.\n SKILL DESCRIPTION: Immediately deploys Frost-e-Bytee next to the enemy. While active, Frost-e-Bytee constantly releases energy to attack nearby enemies, deals Cryo DMG to them, and pulls them towards itself. After Frost-e-Bytee expires, it explodes to forcibly apply Solidification and deal Cryo DMG to nearby enemies.\nAfter the combo skill successfully hits the enemy, Yvonne gains additional Ultimate Energy. This Ultimate Energy Gain effect can only trigger 1 time, even if the skill hits multiple enemies.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "18"
+                  },
+                  {
+                    "label": "Duration (s)",
+                    "value": "3"
+                  },
+                  {
+                    "label": "Number of Energy Releases",
+                    "value": "4"
+                  },
+                  {
+                    "label": "Energy DMG Multiplier",
+                    "value": "100%"
+                  },
+                  {
+                    "label": "Explosion DMG Multiplier",
+                    "value": "200%"
+                  },
+                  {
+                    "label": "Explosion Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Additional Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Cryoblasting Pistolier",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Immediately deploys the support bot Tink-a-Bella and makes Yvonne the controlled operator.\nTemporarily enhances Yvonne's basic attack (BATK). Each enhanced BATK sequence performed grants a stack of Critical Rate buff. After reaching max stacks, Yvonne also gains a Critical DMG buff. When the skill is about to end, Yvonne's last enhanced BATK becomes an enhanced Final Strike that deals massive Cryo DMG.\nIf the enemy is Solidification, Yvonne performs an additional attack that deals Cryo DMG and then Debuff Consumption the enemy's Solidification.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "220"
+                  },
+                  {
+                    "label": "Duration (s)",
+                    "value": "7"
+                  },
+                  {
+                    "label": "BATK DMG Multiplier",
+                    "value": "20%"
+                  },
+                  {
+                    "label": "Enhanced Final Strike DMG Multiplier",
+                    "value": "300%"
+                  },
+                  {
+                    "label": "Additional ATK DMG Multiplier",
+                    "value": "600%"
+                  },
+                  {
+                    "label": "Enhanced Final Strike Stagger",
+                    "value": "20"
+                  },
+                  {
+                    "label": "Max Stacks",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Critical Rate Boost per Stack",
+                    "value": "3%"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Artzy_Tyrannical",
+        "name": "Artzy Tyrannical",
+        "path": "Handcannon",
+        "type": "Handcannon",
+        "educated": false
+      },
+      "signatureWeaponId": "Artzy_Tyrannical",
+      "signatureWeaponName": "Artzy Tyrannical",
       "req": {
         "ascension": [
           {
@@ -33780,7 +37411,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Artzy_Tyrannical",
+          "name": "Artzy Tyrannical",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/artzy-tyrannical/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/artzy-tyrannical/icon.png",
+          "path": "Handcannon",
+          "weaponType": "Handcannon",
+          "type": "Handcannon",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            },
+            {
+              "id": "ae:Tachyon_Screening_Lattice",
+              "name": "Tachyon Screening Lattice",
+              "n": "Tachyon Screening Lattice",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/tachyon-screening-lattice.png",
+              "source": "Protocol Space: Hazardous Material Management Room, Crisis Calamity: Marble Aggelomoirai (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Spa",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Tachyon_Screening_Lattice"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -33883,6 +37615,159 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Zhuangfangyi.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Zhuangfangyi.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Jolting Arts",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Electric DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "36%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "54%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "72%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "101%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "108%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Mantra of Sundering",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Debuff Consumption the target's Electrification to increase the DMG multiplier of this battle skill and create [Status Level of Electrification Debuff Consumption +1] Sunderblades. If the battlefield has fewer than 3 Sunderblades, Mantra of Sundering can still create 1 Sunderblade, even if it does not Debuff Consumption any target's Electrification.\nZhuang Fangyi then channels all Sunderblades nearby to successively unleash Thunder Strikes on the target, dealing Electric DMG and giving bonus Ultimate Energy, with the final Thunder Strike dealing 6 times the DMG.\nA single battle skill casting can only create a max of 3 Sunderblades.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "Thunder Strike DMG Multiplier",
+                    "value": "45%"
+                  },
+                  {
+                    "label": "Total Stagger",
+                    "value": "15"
+                  },
+                  {
+                    "label": "Bonus DMG Multiplier per Status Level of Electrification Consumed",
+                    "value": "9%"
+                  },
+                  {
+                    "label": "Bonus Ultimate Energy per Thunder Strike",
+                    "value": "6"
+                  },
+                  {
+                    "label": "Sunderblade Limit",
+                    "value": "9"
+                  },
+                  {
+                    "label": "Sunderblade Duration (s)",
+                    "value": "36"
+                  },
+                  {
+                    "label": "During Ultimate: Thunder Strike DMG Multiplier",
+                    "value": "81%"
+                  }
+                ]
+              },
+              {
+                "name": "Breath of Transformation",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When the controlled operator's Final Strike or Finisher hits an enemy with Electric Infliction.\n SKILL DESCRIPTION: Zhuang Fangyi creates a Xiranblitz Array that attacks the enemy and deals Electric DMG. If the Array hits an enemy that has Electric Infliction stack(s), then it will Debuff Consumption the said Electric Infliction stack(s), forcibly apply Electrification, and give Ultimate Energy based on the number of stacks Debuff Consumption.\nIf Electrification is forcibly applied to an enemy that already has Electrification, then apply Status Level +1 to the enemy's Electrification.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "17"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "360%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Additional Ultimate Energy per Infliction Stack",
+                    "value": "10"
+                  },
+                  {
+                    "label": "During Ultimate: DMG Multiplier",
+                    "value": "540%"
+                  }
+                ]
+              },
+              {
+                "name": "Smiting Tempest",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Transforms into the Empyrean of Truth that grants these enhancements:\nZhuang Fangyi's basic attacks are enhanced and her actions are harder to interrupt;\nBattle skill Mantra of Sundering gains a higher DMG multiplier and an increased effect range, and the final Thunder Strike also applies Electric Infliction to the target hit.\nCombo skill Breath of Transformation gains a higher DMG multiplier, cooldown becomes 4 times faster, and effects are applied to enemies within a small area.\nThe first casting of the battle skill Mantra of Sundering does not consume SP nor Electrification, and if a target is available, the battle skill is guaranteed to create 3 Sunderblades even if the target has no Electrification.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "240"
+                  },
+                  {
+                    "label": "Duration (s)",
+                    "value": "25"
+                  },
+                  {
+                    "label": "During Ultimate: BATK SEQ 1 Multiplier",
+                    "value": "150%"
+                  },
+                  {
+                    "label": "During Ultimate: BATK SEQ 2 Multiplier",
+                    "value": "210%"
+                  },
+                  {
+                    "label": "During Ultimate: BATK SEQ 3 Multiplier",
+                    "value": "300%"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Lone_Barge",
+        "name": "Lone Barge",
+        "path": "Arts Unit",
+        "type": "Arts Unit",
+        "educated": false
+      },
+      "signatureWeaponId": "Lone_Barge",
+      "signatureWeaponName": "Lone Barge",
       "req": {
         "ascension": [
           {
@@ -34809,7 +38694,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Lone_Barge",
+          "name": "Lone Barge",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/lone-barge/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/lone-barge/icon.png",
+          "path": "Arts Unit",
+          "weaponType": "Arts Unit",
+          "type": "Arts Unit",
+          "items": [
+            {
+              "id": "ae:Metadiastima_Photoemission_Tube",
+              "name": "Metadiastima Photoemission Tube",
+              "n": "Metadiastima Photoemission Tube",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
+              "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+            },
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Igneosite",
+              "name": "Igneosite",
+              "n": "Igneosite",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/igneosite.png",
+              "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -34879,6 +38865,167 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Alesh.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Alesh.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Basic Rod Casting",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "39%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "23%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "62%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "62%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "124%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Unconventional Lure",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Hooks a block of ice and slams it to deal Physical DMG to the enemy target. When hitting a target with Cryo Infliction, Alesh Debuff Consumption all of the target's Cryo Infliction stacks, forcibly applies Solidification to the target, and recovers some SP based on the number of stacks Debuff Consumption. This SP recovery effect can only trigger 1 time, even if the skill hits multiple enemies.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "450%"
+                  },
+                  {
+                    "label": "SP Recovery by Consuming 1 Infliction Stack",
+                    "value": "15"
+                  },
+                  {
+                    "label": "SP Recovery by Consuming 2 Infliction Stacks",
+                    "value": "25"
+                  },
+                  {
+                    "label": "SP Recovery by Consuming 3 Infliction Stacks",
+                    "value": "35"
+                  },
+                  {
+                    "label": "SP Recovery by Consuming 4 Infliction Stacks",
+                    "value": "45"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Auger Angling",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When the Arts Reaction or Originium Crystal of a nearby target is Debuff Consumption.\n SKILL DESCRIPTION: Opens an angling hole beneath the enemy that deals Physical DMG and recovers some SP. The skill has a chance to hook a Rare Fin that greatly increases the DMG dealt and recovers some more SP.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "8"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "300%"
+                  },
+                  {
+                    "label": "Chance to Catch the Rare Fin",
+                    "value": "10%"
+                  },
+                  {
+                    "label": "Enhanced DMG Multiplier",
+                    "value": "480%"
+                  },
+                  {
+                    "label": "SP Recovery",
+                    "value": "15"
+                  },
+                  {
+                    "label": "Bonus SP Recovery",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "One Monster Catch!",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Alesh hooks a fin of unbelievable size and slams it to deal Cryo DMG and apply Cryo Infliction to enemies in a large area of effect in front of him. He recovers some SP on hit, with additional SP gained for each target defeated.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "Ultimate DMG Multiplier",
+                    "value": "980%"
+                  },
+                  {
+                    "label": "Base SP Recovery",
+                    "value": "25"
+                  },
+                  {
+                    "label": "Bonus SP Recovery per Target Defeated",
+                    "value": "15"
+                  },
+                  {
+                    "label": "SP Recovery Limit",
+                    "value": "100"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "20"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Thermite_Cutter",
+        "name": "Thermite Cutter",
+        "path": "Sword",
+        "type": "Sword",
+        "educated": true
+      },
+      "signatureWeaponId": "Thermite_Cutter",
+      "signatureWeaponName": "Thermite Cutter",
       "req": {
         "ascension": [
           {
@@ -35805,7 +39952,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Thermite_Cutter",
+          "name": "Thermite Cutter",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/thermite-cutter/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/thermite-cutter/icon.png",
+          "path": "Sword",
+          "weaponType": "Sword",
+          "type": "Sword",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Igneosite",
+              "name": "Igneosite",
+              "n": "Igneosite",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/igneosite.png",
+              "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:D96_Steel_Sample_4",
+              "name": "D96 Steel Sample 4",
+              "n": "D96 Steel Sample 4",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
+              "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": true
+        }
       },
       "aePreferredItems": [
         {
@@ -35864,6 +40112,151 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Arclight.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Arclight.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Seek and Hunt",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 16 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "23%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "28%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "59%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "81%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "107%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Tempestuous Arc",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Instantly blinks to the enemy's side to deal 2 slashes that deal some Physical DMG. If the enemy has active Electrification, Debuff Consumption the Electrification to unleash an additional attack that deals Electric DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "SEQ 1 DMG Multiplier",
+                    "value": "101%"
+                  },
+                  {
+                    "label": "SEQ 2 DMG Multiplier",
+                    "value": "101%"
+                  },
+                  {
+                    "label": "SEQ 2 Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Additional ATK DMG Multiplier",
+                    "value": "405%"
+                  },
+                  {
+                    "label": "Additional ATK Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "SP Recovery",
+                    "value": "40"
+                  }
+                ]
+              },
+              {
+                "name": "Peal of Thunder",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When an enemy suffers Electrification or after an enemy's Electrification is Debuff Consumption.\n SKILL DESCRIPTION: Blinks to the enemy's side to unleash a flurry of slashes that deals Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "3"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "350%"
+                  },
+                  {
+                    "label": "SP Recovery",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "5"
+                  }
+                ]
+              },
+              {
+                "name": "Exploding Blitz",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Performs a short forward dash while wreathed in arcs of electricity to deal Electric DMG and apply Electric Infliction to all enemies in the path. The lingering arcs explode after a short while, dealing another hit of Electric DMG. If the enemy has active Electric Infliction, Debuff Consumption the Electric Infliction and forcibly apply Electrification.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "90"
+                  },
+                  {
+                    "label": "SEQ 1 DMG Multiplier",
+                    "value": "350%"
+                  },
+                  {
+                    "label": "SEQ 1 Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "SEQ 2 DMG Multiplier",
+                    "value": "550%"
+                  },
+                  {
+                    "label": "SEQ 2 Stagger",
+                    "value": "10"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Thermite_Cutter",
+        "name": "Thermite Cutter",
+        "path": "Sword",
+        "type": "Sword",
+        "educated": true
+      },
+      "signatureWeaponId": "Thermite_Cutter",
+      "signatureWeaponName": "Thermite Cutter",
       "req": {
         "ascension": [
           {
@@ -36790,7 +41183,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Thermite_Cutter",
+          "name": "Thermite Cutter",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/thermite-cutter/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/thermite-cutter/icon.png",
+          "path": "Sword",
+          "weaponType": "Sword",
+          "type": "Sword",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Igneosite",
+              "name": "Igneosite",
+              "n": "Igneosite",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/igneosite.png",
+              "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:D96_Steel_Sample_4",
+              "name": "D96 Steel Sample 4",
+              "n": "D96 Steel Sample 4",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
+              "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": true
+        }
       },
       "aePreferredItems": [
         {
@@ -36893,6 +41387,147 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Avywenna.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Avywenna.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Thunderlance: Blitz",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "37%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "48%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "46%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "68%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "113%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Thunderlance: Interdiction",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Leaps into mid-air to stir up a maelstrom with her lance, dealing some Electric DMG to nearby enemies while pulling back all Thunderlances and Thunderlance EX in the battlefield towards herself.\nThe returning Thunderlances pierce through all enemies along their paths and deal Electric DMG, while returning Thunderlances EX deal more Electric DMG and also apply Electric Infliction.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "150%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Thunderlance DMG Multiplier",
+                    "value": "168%"
+                  },
+                  {
+                    "label": "Thunderlance Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Thunderlance EX DMG Multiplier",
+                    "value": "432%"
+                  },
+                  {
+                    "label": "Thunderlance EX Stagger",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Thunderlance: Strike",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When controlled operator performs a Final Strike on a target with active Electric Infliction or Electrification.\n SKILL DESCRIPTION: Leaps into mid-air and throws 3 Thunderlances at the target, then deals 1 hit of Electric DMG to enemies in the area of effect.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "12"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "380%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Thunderlance Duration (s)",
+                    "value": "30"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "0"
+                  }
+                ]
+              },
+              {
+                "name": "Thunderlance: Final Shock",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Throws a Thunderlance EX at the target area that deals massive Electric DMG to enemies nearby.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "950%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "20"
+                  },
+                  {
+                    "label": "Thunderlance EX Duration (s)",
+                    "value": "30"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "JET",
+        "name": "JET",
+        "path": "Polearm",
+        "type": "Polearm",
+        "educated": true
+      },
+      "signatureWeaponId": "JET",
+      "signatureWeaponName": "JET",
       "req": {
         "ascension": [
           {
@@ -37819,7 +42454,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "JET",
+          "name": "JET",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/jet/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/jet/icon.png",
+          "path": "Polearm",
+          "weaponType": "Polearm",
+          "type": "Polearm",
+          "items": [
+            {
+              "id": "ae:Quadrant_Fitting_Fluid",
+              "name": "Quadrant Fitting Fluid",
+              "n": "Quadrant Fitting Fluid",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
+              "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+            },
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": true
+        }
       },
       "aePreferredItems": [
         {
@@ -37889,6 +42625,131 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Chen.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Chen.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Soaring Break",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 16 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "45%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "54%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "60%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "68%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "90%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Ascending Strike",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Performs an uppercut slash at the target enemy, dealing Physical DMG and Lift.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "380%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Lift Duration (s)",
+                    "value": "2.5"
+                  }
+                ]
+              },
+              {
+                "name": "Soar to the Stars",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When an enemy becomes Vulnerable.\n SKILL DESCRIPTION: A slashing dash that passes through the target enemy and deals Physical DMG and Lift to all enemies along the way.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "15"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "270%"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Blade Gale",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: A 7-sequence slash attack that deals Physical DMG with each sequence to the target enemy. The final slash sequence deals even more DMG.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "70"
+                  },
+                  {
+                    "label": "Slash Multiplier",
+                    "value": "81%"
+                  },
+                  {
+                    "label": "First Strike Stagger",
+                    "value": "15"
+                  },
+                  {
+                    "label": "Final Strike DMG Multiplier",
+                    "value": "1023%"
+                  },
+                  {
+                    "label": "Final Strike Stagger",
+                    "value": "20"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Sundering_Steel",
+        "name": "Sundering Steel",
+        "path": "Sword",
+        "type": "Sword",
+        "educated": true
+      },
+      "signatureWeaponId": "Sundering_Steel",
+      "signatureWeaponName": "Sundering Steel",
       "req": {
         "ascension": [
           {
@@ -38815,7 +43676,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Sundering_Steel",
+          "name": "Sundering Steel",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/sundering-steel/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/sundering-steel/icon.png",
+          "path": "Sword",
+          "weaponType": "Sword",
+          "type": "Sword",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:D96_Steel_Sample_4",
+              "name": "D96 Steel Sample 4",
+              "n": "D96 Steel Sample 4",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
+              "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": true
+        }
       },
       "aePreferredItems": [
         {
@@ -38918,6 +43880,127 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Dapan.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Dapan.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "ROLLING CUT!",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 20 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "63%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "75%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "113%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "136%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "FLIP DA WOK!",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Takes out a wok, quickly charges it up, and performs a powerful wok flip that deals Physical DMG and Lift to the enemy.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "300%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Lift Duration (s)",
+                    "value": "1.8"
+                  }
+                ]
+              },
+              {
+                "name": "MORE SPICE!",
+                "type": "The Crush DMG Bonus is a Multiplicative Bonus.",
+                "desc": "COMBO TRIGGER: When an enemy reaches 4 stacks of Vulnerable.\n SKILL DESCRIPTION: Swings the wok at the enemy to deal massive Physical DMG and Crush. This Crush also deals more DMG.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "19"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "650%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "15"
+                  },
+                  {
+                    "label": "Crush DMG Bonus",
+                    "value": "20%"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "CHOP 'N DUNK!",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Da Pan slams the chopping board to forcibly Lift all enemies in the area of effect in front of him. This is followed by a 6-sequence flurry of slashes that deals Physical DMG. The final step is to bash every enemy to the ground to forcibly Knock Down and deal massive Physical DMG to them.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "90"
+                  },
+                  {
+                    "label": "Aerial Flurry DMG Multiplier",
+                    "value": "50%"
+                  },
+                  {
+                    "label": "Ultimate DMG Multiplier",
+                    "value": "400%"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Amaranthine_Tassel",
+        "name": "Amaranthine Tassel",
+        "path": "Great Sword",
+        "type": "Great Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "Amaranthine_Tassel",
+      "signatureWeaponName": "Amaranthine Tassel",
       "req": {
         "ascension": [
           {
@@ -39844,7 +44927,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Amaranthine_Tassel",
+          "name": "Amaranthine Tassel",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/amaranthine-tassel/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/amaranthine-tassel/icon.png",
+          "path": "Great Sword",
+          "weaponType": "Great Sword",
+          "type": "Great Sword",
+          "items": [
+            {
+              "id": "ae:Quadrant_Fitting_Fluid",
+              "name": "Quadrant Fitting Fluid",
+              "n": "Quadrant Fitting Fluid",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
+              "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+            },
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Igneosite",
+              "name": "Igneosite",
+              "n": "Igneosite",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/igneosite.png",
+              "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -39947,6 +45131,123 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Perlica.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Perlica.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Protocol \u03b1: Breach",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 15 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Electric DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "57%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "68%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "84%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "127%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Protocol \u03c9: Strike",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Unleashes a bolt of electro-magnetic energy that deals Electric DMG and Electric Infliction to enemies in a small area.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "400%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Instant Protocol: Chain",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When controlled operator performs a Final Strike on any enemy.\n SKILL DESCRIPTION: Unleashes stored electro-magnetic energy to bombard the target, dealing Electric DMG and forcibly inflicting temporary Electrification.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "19"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "180%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Electrify Duration (s)",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Protocol \u03b5: 70.41K",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Tele-protocols a massive piece of orbital debris into the battlefield with devastating impact. All enemies in the area of effect suffer massive Electric DMG.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "80"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "1000%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "20"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Stanza_of_Memorials",
+        "name": "Stanza of Memorials",
+        "path": "Arts Unit",
+        "type": "Arts Unit",
+        "educated": true
+      },
+      "signatureWeaponId": "Stanza_of_Memorials",
+      "signatureWeaponName": "Stanza of Memorials",
       "req": {
         "ascension": [
           {
@@ -40873,7 +46174,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Stanza_of_Memorials",
+          "name": "Stanza of Memorials",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/stanza-of-memorials/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/stanza-of-memorials/icon.png",
+          "path": "Arts Unit",
+          "weaponType": "Arts Unit",
+          "type": "Arts Unit",
+          "items": [
+            {
+              "id": "ae:Quadrant_Fitting_Fluid",
+              "name": "Quadrant Fitting Fluid",
+              "n": "Quadrant Fitting Fluid",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
+              "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+            },
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": true
+        }
       },
       "aePreferredItems": [
         {
@@ -40943,6 +46345,151 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Snowshine.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Snowshine.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Hypothermic Assault",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 3 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 23 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "124%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "132%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "225%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Saturated Defense",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Raises a shield that can block attacks, grants Protect to self and nearby operators, and immediately SP Return some SP.\nWhen attacked while the said shield is raised, perform a retaliation bash that deals Cryo DMG and applies Cryo Infliction on the attacker.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "450%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "20"
+                  },
+                  {
+                    "label": "Protection",
+                    "value": "90%"
+                  },
+                  {
+                    "label": "SP Return",
+                    "value": "30"
+                  }
+                ]
+              },
+              {
+                "name": "Polar Rescue",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: After controlled operator gets attacked and drops below 60% HP.\n SKILL DESCRIPTION: Snowshine throws a Snowfield SAR Assistant at the controlled operator. Upon target contact, the Assistant gives massive instant HP Treatment to nearby operators as well as continuous HP Treatment to operators in the area of effect.\nThe attribute of Will increases the amount of HP treatment.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "23"
+                  },
+                  {
+                    "label": "Initial Base Treatment",
+                    "value": "216"
+                  },
+                  {
+                    "label": "Initial Treatment Increase per Will",
+                    "value": "0.5"
+                  },
+                  {
+                    "label": "Base Treatment Over Time",
+                    "value": "54"
+                  },
+                  {
+                    "label": "Treatment Over Time Increase per Will",
+                    "value": "0.13"
+                  },
+                  {
+                    "label": "Treatment Over Time Interval (s)",
+                    "value": "0.5"
+                  },
+                  {
+                    "label": "Duration (s)",
+                    "value": "3"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Frigid Snowfield",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Leaps into mid-air with a jetpack before slamming down with her shield to deal massive Cryo DMG to enemies in the area of effect. Also generates a Snow Zone (lasting several seconds) that deals Cryo DMG over time to enemies. The Snow Zone forcibly applies Solidification to enemies caught within it for a certain duration.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "80"
+                  },
+                  {
+                    "label": "Explosion DMG Multiplier",
+                    "value": "450%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "20"
+                  },
+                  {
+                    "label": "DMG Over Time Multiplier",
+                    "value": "65%"
+                  },
+                  {
+                    "label": "DMG Over Time Interval (s)",
+                    "value": "0.5"
+                  },
+                  {
+                    "label": "Duration (s)",
+                    "value": "5"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Finishing_Call",
+        "name": "Finishing Call",
+        "path": "Great Sword",
+        "type": "Great Sword",
+        "educated": true
+      },
+      "signatureWeaponId": "Finishing_Call",
+      "signatureWeaponName": "Finishing Call",
       "req": {
         "ascension": [
           {
@@ -41869,7 +47416,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Finishing_Call",
+          "name": "Finishing Call",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/finishing-call/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/finishing-call/icon.png",
+          "path": "Great Sword",
+          "weaponType": "Great Sword",
+          "type": "Great Sword",
+          "items": [
+            {
+              "id": "ae:Quadrant_Fitting_Fluid",
+              "name": "Quadrant Fitting Fluid",
+              "n": "Quadrant Fitting Fluid",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
+              "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+            },
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Igneosite",
+              "name": "Igneosite",
+              "n": "Igneosite",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/igneosite.png",
+              "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": true
+        }
       },
       "aePreferredItems": [
         {
@@ -41961,6 +47609,127 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Wulfgard.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Wulfgard.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Rapid Fire Akimbo",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Heat DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Heat DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "68%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "79%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "125%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "152%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Thermite Tracers",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Fires multiple shots at the target that deal some Heat DMG. The final shot also applies Heat Infliction. If the target has active Combustion or Electrification, do not apply Heat Infliction but instead Debuff Consumption the Arts Reaction to fire an additional shot that deals massive Heat DMG.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "230%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Additional ATK DMG Multiplier",
+                    "value": "850%"
+                  },
+                  {
+                    "label": "Additional ATK Stagger",
+                    "value": "5"
+                  }
+                ]
+              },
+              {
+                "name": "Frag Grenade\u00b7\u03b2",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When an Arts Infliction is applied to an enemy.\n SKILL DESCRIPTION: Throws a frag grenade at the target's location that explodes upon hitting the ground, dealing Heat DMG and Heat Infliction to nearby enemies.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "19"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "135%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Wolven Fury",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Fire a rapid barrage of shots and unleashes the Wolven Fury to attack nearby enemies, dealing 5 hits of Heat DMG and forcibly applying Combustion.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "90"
+                  },
+                  {
+                    "label": "DMG Multiplier per SEQ",
+                    "value": "72%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "15"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Clannibal",
+        "name": "Clannibal",
+        "path": "Handcannon",
+        "type": "Handcannon",
+        "educated": false
+      },
+      "signatureWeaponId": "Clannibal",
+      "signatureWeaponName": "Clannibal",
       "req": {
         "ascension": [
           {
@@ -42887,7 +48656,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Clannibal",
+          "name": "Clannibal",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/clannibal/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/clannibal/icon.png",
+          "path": "Handcannon",
+          "weaponType": "Handcannon",
+          "type": "Handcannon",
+          "items": [
+            {
+              "id": "ae:Quadrant_Fitting_Fluid",
+              "name": "Quadrant Fitting Fluid",
+              "n": "Quadrant Fitting Fluid",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
+              "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+            },
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -43001,6 +48871,147 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Xaihi.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Xaihi.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Cooldown",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 15 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "34%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "36%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "47%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "74%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "124%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Distributed DoS",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Summons an Auxiliary Crystal that orbits the controlled operator for a while.\nAfter the controlled operator performs a Final Strike on the enemy, the Auxiliary Crystal will restore the said operator's HP. This effect can trigger 2 times. The attribute of Will increases the amount of HP treatment.\nWhen the controlled operator is already at Max HP when triggering the HP restoration, grant the said operator a temporary Arts Amp as well. This effect cannot stack.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "Base Treatment",
+                    "value": "324"
+                  },
+                  {
+                    "label": "Treatment Increase per Will",
+                    "value": "0.76"
+                  },
+                  {
+                    "label": "Auxiliary Crystal Duration (s)",
+                    "value": "20"
+                  },
+                  {
+                    "label": "Arts Amp",
+                    "value": "15%"
+                  },
+                  {
+                    "label": "Arts Amp Duration (s)",
+                    "value": "25"
+                  }
+                ]
+              },
+              {
+                "name": "Stress Testing",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When the Auxiliary Crystal uses up its HP treatments.\n SKILL DESCRIPTION: Quickly charges up the Auxiliary Crystal and launches it at the enemy to deal Cryo DMG and Cryo Infliction.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "7"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "450%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Stack Overflow",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Applies temporary Cryo Amp and Nature Amp to the entire team. The attribute of Intellect increases the Amp effect.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "80"
+                  },
+                  {
+                    "label": "Base Cryo Amp",
+                    "value": "24%"
+                  },
+                  {
+                    "label": "Base Nature Amp",
+                    "value": "24%"
+                  },
+                  {
+                    "label": "Amp Increase per Intellect",
+                    "value": "0.03%"
+                  },
+                  {
+                    "label": "Intellect raises Amp limit",
+                    "value": "36%"
+                  },
+                  {
+                    "label": "Duration (s)",
+                    "value": "12"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Detonation_Unit",
+        "name": "Detonation Unit",
+        "path": "Arts Unit",
+        "type": "Arts Unit",
+        "educated": false
+      },
+      "signatureWeaponId": "Detonation_Unit",
+      "signatureWeaponName": "Detonation Unit",
       "req": {
         "ascension": [
           {
@@ -43927,7 +49938,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Detonation_Unit",
+          "name": "Detonation Unit",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/detonation-unit/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/detonation-unit/icon.png",
+          "path": "Arts Unit",
+          "weaponType": "Arts Unit",
+          "type": "Arts Unit",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            },
+            {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -43997,6 +50109,119 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Akekuri.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Akekuri.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Sword of Aspiration",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "45%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "62%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "73%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "111%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Burst of Passion",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: A frontal slash that deals Heat DMG and applies Heat Infliction.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "320%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Flash and Dash",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When an enemy becomes Staggered or hits a Stagger Node.\n SKILL DESCRIPTION: Performs a returning dash with 2 thrust sequences, with each sequence dealing Physical DMG and recovering some SP.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "9"
+                  },
+                  {
+                    "label": "DMG Multiplier per SEQ",
+                    "value": "180%"
+                  },
+                  {
+                    "label": "Stagger per SEQ",
+                    "value": "5"
+                  },
+                  {
+                    "label": "SP Recovery per SEQ",
+                    "value": "7.5"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "SQUAD! ON ME!",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Enters a channeling state and fires 3 Rallying Flares. Each firing recovers some SP.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "120"
+                  },
+                  {
+                    "label": "SP Recovery",
+                    "value": "80"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Thermite_Cutter",
+        "name": "Thermite Cutter",
+        "path": "Sword",
+        "type": "Sword",
+        "educated": true
+      },
+      "signatureWeaponId": "Thermite_Cutter",
+      "signatureWeaponName": "Thermite Cutter",
       "req": {
         "ascension": [
           {
@@ -44923,7 +51148,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Thermite_Cutter",
+          "name": "Thermite Cutter",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/thermite-cutter/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/thermite-cutter/icon.png",
+          "path": "Sword",
+          "weaponType": "Sword",
+          "type": "Sword",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Igneosite",
+              "name": "Igneosite",
+              "n": "Igneosite",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/igneosite.png",
+              "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:D96_Steel_Sample_4",
+              "name": "D96 Steel Sample 4",
+              "n": "D96 Steel Sample 4",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
+              "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": true
+        }
       },
       "aePreferredItems": [
         {
@@ -44993,6 +51319,131 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Antal.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Antal.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Exchange Current",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 15 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Electric DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "52%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "63%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "77%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "115%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Specified Research Subject",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Applies Focus with a long duration on the enemy and deals Electric DMG. An enemy with an active Focus also suffers Electric Susceptibility and Heat Susceptibility. Focus can only be applied to 1 enemy at any given time.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "200%"
+                  },
+                  {
+                    "label": "Duration (s)",
+                    "value": "60"
+                  },
+                  {
+                    "label": "Electric Susceptibility",
+                    "value": "10%"
+                  },
+                  {
+                    "label": "Heat Susceptibility",
+                    "value": "10%"
+                  }
+                ]
+              },
+              {
+                "name": "EMP Test Site",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When an enemy with active Focus suffers a Physical Status or Arts Infliction.\n SKILL DESCRIPTION: Triggers 1 energy explosion on the enemy that deals Electric DMG and applies another stack of the same Physical Status or Arts Infliction.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "24"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "340%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Overclocked Moment",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Applies temporary Electric Amp and Heat Amp to the entire team.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "Electric Amp",
+                    "value": "20%"
+                  },
+                  {
+                    "label": "Heat Amp",
+                    "value": "20%"
+                  },
+                  {
+                    "label": "Duration (s)",
+                    "value": "12"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Detonation_Unit",
+        "name": "Detonation Unit",
+        "path": "Arts Unit",
+        "type": "Arts Unit",
+        "educated": true
+      },
+      "signatureWeaponId": "Detonation_Unit",
+      "signatureWeaponName": "Detonation Unit",
       "req": {
         "ascension": [
           {
@@ -45919,7 +52370,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "Detonation_Unit",
+          "name": "Detonation Unit",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/detonation-unit/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/detonation-unit/icon.png",
+          "path": "Arts Unit",
+          "weaponType": "Arts Unit",
+          "type": "Arts Unit",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            },
+            {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            }
+          ],
+          "cost": 0,
+          "educated": true
+        }
       },
       "aePreferredItems": [
         {
@@ -45989,6 +52541,163 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Catcher.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Catcher.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Basic Tactics",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 22 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "79%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "87%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "122%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "160%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Rigid Interdiction",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Raises a shield that can block attacks, grants Protect to self and nearby operators, and immediately SP Return some SP.\nWhen attacked while the said shield is raised, perform a retaliation bash that deals Physical DMG and applies 1 stack of Vulnerable to the attacking enemy.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "400%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "20"
+                  },
+                  {
+                    "label": "Protection",
+                    "value": "90%"
+                  },
+                  {
+                    "label": "SP Return",
+                    "value": "30"
+                  }
+                ]
+              },
+              {
+                "name": "Timely Suppression",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When an enemy starts charging up a skill, or when the controlled operator is attacked and falls below 40% HP.\n SKILL DESCRIPTION: A powerful downward punch that deals Physical DMG to the enemy, while granting Shield to self and another teammate (controlled operator prioritized).\nDEF can further increase Shield points.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "33"
+                  },
+                  {
+                    "label": "SEQ 1 DMG Multiplier",
+                    "value": "55%"
+                  },
+                  {
+                    "label": "SEQ 2 DMG Multiplier",
+                    "value": "225%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Base Shield",
+                    "value": "810"
+                  },
+                  {
+                    "label": "Shield Increase per Defense",
+                    "value": "5.06"
+                  },
+                  {
+                    "label": "Shield Duration (s)",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Textbook Assault",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Swings the greatsword to perform 2 consecutive slashes to deal Physical DMG and apply Weaken, followed by a powerful downward slam that deals massive Physical DMG and applies Knock Down to all enemies within the area of effect.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "80"
+                  },
+                  {
+                    "label": "SEQ 1 DMG Multiplier",
+                    "value": "200%"
+                  },
+                  {
+                    "label": "SEQ 1 Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "SEQ 2 DMG Multiplier",
+                    "value": "270%"
+                  },
+                  {
+                    "label": "SEQ 2 Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "SEQ 3 DMG Multiplier",
+                    "value": "400%"
+                  },
+                  {
+                    "label": "SEQ 3 Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Weakness Effect",
+                    "value": "30%"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "OBJ_Heavy_Burden",
+        "name": "OBJ Heavy Burden",
+        "path": "Great Sword",
+        "type": "Great Sword",
+        "educated": false
+      },
+      "signatureWeaponId": "OBJ_Heavy_Burden",
+      "signatureWeaponName": "OBJ Heavy Burden",
       "req": {
         "ascension": [
           {
@@ -46915,7 +53624,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "OBJ_Heavy_Burden",
+          "name": "OBJ Heavy Burden",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/obj-heavy-burden/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/obj-heavy-burden/icon.png",
+          "path": "Great Sword",
+          "weaponType": "Great Sword",
+          "type": "Great Sword",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            },
+            {
+              "id": "ae:Tachyon_Screening_Lattice",
+              "name": "Tachyon Screening Lattice",
+              "n": "Tachyon Screening Lattice",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/tachyon-screening-lattice.png",
+              "source": "Protocol Space: Hazardous Material Management Room, Crisis Calamity: Marble Aggelomoirai (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Spa",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Tachyon_Screening_Lattice"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
@@ -47007,6 +53817,131 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Estella.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Estella.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Audio Noise",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "56%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "68%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "79%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "90%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Onomatopoeia",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: A lance thrust that fires a stream of freezing sound waves that deal Cryo DMG and apply Cryo Infliction to all enemies along its straight path.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "350%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Distortion",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When an enemy suffers Solidification.\n SKILL DESCRIPTION: Quickly moves to the enemy's side to deal Physical DMG and forcibly Lift enemies in a small area. If the skill hits a target with Solidification, the skill deals additional DMG and applies Physical Susceptibility.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "17"
+                  },
+                  {
+                    "label": "DMG Multiplier Against Non-Solidified Enemies",
+                    "value": "360%"
+                  },
+                  {
+                    "label": "DMG Multiplier Against Solidified Enemies",
+                    "value": "630%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Physical Susceptibility Multiplier",
+                    "value": "15%"
+                  },
+                  {
+                    "label": "Physical Susceptibility Duration",
+                    "value": "6"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Tremolo",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Estella expends all her strength to unleash a powerful slam of the spear shaft, dealing Physical DMG to all enemies in a circular area around self. To enemies with Physical Susceptibility, the skill forcibly applies Lift to them.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "70"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "1100%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "20"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "JET",
+        "name": "JET",
+        "path": "Polearm",
+        "type": "Polearm",
+        "educated": true
+      },
+      "signatureWeaponId": "JET",
+      "signatureWeaponName": "JET",
       "req": {
         "ascension": [
           {
@@ -47933,7 +54868,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "JET",
+          "name": "JET",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/jet/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/jet/icon.png",
+          "path": "Polearm",
+          "weaponType": "Polearm",
+          "type": "Polearm",
+          "items": [
+            {
+              "id": "ae:Quadrant_Fitting_Fluid",
+              "name": "Quadrant Fitting Fluid",
+              "n": "Quadrant Fitting Fluid",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
+              "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+            },
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": true
+        }
       },
       "aePreferredItems": [
         {
@@ -48025,6 +55061,143 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Fluorite.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Fluorite.png"
       ],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Signature Gun Kata",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 15 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "56%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "73%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "57%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "135%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Tiny Surprise",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Kicks an Improvised Explosive that sticks to the target, applying Slow and exploding after a short duration. The explosion deals Nature DMG and Nature Infliction to enemies in the area of effect. Defeating the target also sets off the Improvised Explosive immediately.\nOnly 1 Improvised Explosive can be present in the battlefield.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "420%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Slow Effect",
+                    "value": "30%"
+                  }
+                ]
+              },
+              {
+                "name": "Free Giveaway",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: When an enemy has 2 or more stacks of Cryo Infliction or Nature Infliction.\n SKILL DESCRIPTION: Shoots the target enemy to trigger a special explosion that deals Nature DMG and applies another Arts Infliction of the element already on the enemy.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "38"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "380%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Apex Prankster",
+                "type": "The Battle Skill DMG Boost is a Multiplicative Bonus.",
+                "desc": "SKILL DESCRIPTION: Fluorite quickly moves in an arc and rapidly fires at the target within the arc to deal 4 sequences of Nature DMG. If an Improvised Explosive has been stuck to the target, the skill detonates it immediately and increases the DMG and size of the explosion.\nIf the final DMG sequence hits a target with at least 2 stacks of Cryo Infliction or Nature Infliction, then apply the same Arts Infliction again.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "SEQ 1 DMG Multiplier",
+                    "value": "250%"
+                  },
+                  {
+                    "label": "SEQ 2 DMG Multiplier",
+                    "value": "250%"
+                  },
+                  {
+                    "label": "SEQ 3 DMG Multiplier",
+                    "value": "250%"
+                  },
+                  {
+                    "label": "SEQ 4 DMG Multiplier",
+                    "value": "250%"
+                  },
+                  {
+                    "label": "Battle Skill AOE Boost",
+                    "value": "30%"
+                  },
+                  {
+                    "label": "Battle Skill DMG Boost",
+                    "value": "30%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "20"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "OBJ_Velocitous",
+        "name": "OBJ Velocitous",
+        "path": "Handcannon",
+        "type": "Handcannon",
+        "educated": true
+      },
+      "signatureWeaponId": "OBJ_Velocitous",
+      "signatureWeaponName": "OBJ Velocitous",
       "req": {
         "ascension": [
           {
@@ -48951,7 +56124,108 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "OBJ_Velocitous",
+          "name": "OBJ Velocitous",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/obj-velocitous/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/obj-velocitous/icon.png",
+          "path": "Handcannon",
+          "weaponType": "Handcannon",
+          "type": "Handcannon",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            },
+            {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            }
+          ],
+          "cost": 0,
+          "educated": true
+        }
       },
       "aePreferredItems": [
         {

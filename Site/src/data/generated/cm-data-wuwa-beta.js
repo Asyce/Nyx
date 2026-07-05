@@ -42,6 +42,111 @@
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingY.webp",
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingQTE.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.5.6",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Succor and Smite",
+                "type": "Normal Attack",
+                "desc": "Basic Attack - Azure Sword Stance\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack repeatedly or hold it down to consume Melody and perform up to 4 consecutive attacks, dealing Havoc DMG. While Melody is not depleted, the Energy Regen of Basic Attack - Azure Sword Stance is increased by {0}.\nBasic Attack - Azure Sword Stance Stage 4 applies 1 stack of Havoc Bane to the targets hit.\n\nBasic Attack - Feather Sword Stance\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack repeatedly or hold it down to consume Melody and perform up to 4 consecutive attacks, dealing Havoc DMG. While Melody is not depleted, the Energy Regen of Basic Attack - Feather Sword Stance is increased by {1}.\nBasic Attack - Feather Sword Stance Stage 4 applies 1 stack of Havoc Bane to the targets hit.\n\nMid-air Attack - Azure Sword Stance\nConsume STA to perform a Plunging Attack, consuming Melody and dealing Havoc DMG.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} Normal Attack within a short time after casting this skill triggers Basic Attack - Azure Sword Stance Stage 2.\n\nMid-air Attack - Feather Sword Stance\nConsume STA to perform a Plunging Attack, consuming Melody and dealing Havoc DMG.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} Normal Attack within a short time after casting this skill triggers Basic Attack - Feather Sword Stance Stage 2.\n\nDodge Counter - Azure Sword Stance\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} Normal Attack within a short time after a successful Dodge consumes Melody to attack the target, dealing Havoc DMG.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} Normal Attack within a short time after casting this skill triggers Basic Attack - Azure Sword Stance Stage 3.\nCasting Dodge Counter - Azure Sword Stance counts as casting Basic Attack - Azure Sword Stance Stage 2.\n\nDodge Counter - Feather Sword Stance\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} Normal Attack within a short time after a successful Dodge consumes Melody to attack the target, dealing Havoc DMG.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} Normal Attack within a short time after casting this skill triggers Basic Attack - Feather Sword Stance Stage 3.\nCasting Dodge Counter - Feather Sword Stance counts as casting Basic Attack - Feather Sword Stance Stage 2.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp"
+              },
+              {
+                "name": "Feather's Edge",
+                "type": "Resonance Skill",
+                "desc": "Sword Stance Switch\nWhile in Azure Sword Stance, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Resonance Skill to switch to Feather Sword Stance and perform Basic Attack - Feather Sword Stance Stage 1, dealing Havoc DMG.\n\nWhile in Feather Sword Stance, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Resonance Skill to switch to Azure Sword Stance and perform Basic Attack - Azure Sword Stance Stage 1, dealing Havoc DMG.\n\nSword Stance Switch: Azure\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} Resonance Skill within a short time after casting Basic Attack - Feather Sword Stance to switch to Azure Sword Stance and cast Sword Stance Switch: Azure, dealing Havoc DMG, considered Heavy Attack DMG.\nA successful Dodge can be triggered within a short time into the action of this skill, which consumes {0} Melody.\nAfter casting this skill, the Basic Attack cycle will not reset for a short time.\n\nSword Stance Switch: Feather\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} Resonance Skill within a short time after casting Basic Attack - Azure Sword Stance to swtich to Feather Sword Stance and cast Sword Stance Switch: Feather, dealing Havoc DMG, considered Heavy Attack DMG.\nA successful Dodge can be triggered within a short time into the action of this skill, which consumes {1} Melody.\nAfter casting this skill, the Basic Attack cycle will not reset for a short time.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingB1.webp"
+              },
+              {
+                "name": "Hush of a Thousand Voices",
+                "type": "Resonance Liberation",
+                "desc": "Hush of a Thousand Voices\nConsume all Melody to deal Havoc DMG and restore {0} Azure Plume. This DMG is considered Heavy Attack DMG.\n\nUpon casting this skill, obtain Voice upon Voice. When casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather, summon Shadow of Xuanling to attack the target, dealing Havoc DMG, considered Heavy Attack DMG.\nVoice upon Voice cannot stack. Once Shadow of Xuanling is summoned, the Voice upon Voice state is removed.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingC1.webp"
+              },
+              {
+                "name": "The Way of Ten Thousand Voices",
+                "type": "Forte Circuit",
+                "desc": "Resonance Skill - Sword Stance Flow: Azure\nYangyang: Xuanling is in Azure Sword Stance. When Melody is depleted while in Feather Sword Stance, Resonance Skill - Feather's Edge is replaced by Resonance Skill - Sword Stance Flow: Azure.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Resonance Skill to switch to Azure Sword Stance and cast Resonance Skill - Sword Stance Flow: Azure, dealing Havoc DMG and restoring {0} {Cus:Sap,S=point P=points SapTag=0} of Melody and {1} {Cus:Sap,S=point P=points SapTag=1} of Azure Plume. This DMG is considered Heavy Attack DMG.\nWhen Resonance Skill - Sword Stance Flow: Azure hits the target, consume {2} {Cus:Sap,S=stack P=stacks SapTag=2} of Havoc Bane on the target.\nThe Basic Attack - Feather Sword Stance cycle is not reset within a short time after casting Resonance Skill - Sword Stance Flow: Azure. If casting Resonance Skill - Sword Stance Flow: Azure resets the cycle, summon a Wraith of Sound to finish the current attack and deal a fixed instance of Havoc DMG, considered Basic Attack DMG, which is not affected by any DMG Bonus effects and does not inflict Havoc Bane.\nSuccessful Dodge can be triggered within a short time into the action of this skill, which consumes {3} {Cus:Sap,S=point P=points SapTag=3} of Melody.\n\nResonance Skill - Sword Stance Flow: Feather\nWhen Melody is depleted while in Azure Sword Stance, Resonance Skill - Feather's Edge is replaced by Resonance Skill - Sword Stance Flow: Feather.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Resonance Skill switch to Feather Sword Stance and cast Resonance Skill - Sword Stance Flow: Feather, switching to Feather Sword Stance and dealing Havoc DMG, restoring {4} {Cus:Sap,S=point P=points SapTag=4} of Melody and {5} {Cus:Sap,S=point P=points SapTag=5} of Azure Plume. This instance of DMG is considered Heavy Attack DMG.\nWhen Resonance Skill - Sword Stance Flow: Feather hits, consume {6} {Cus:Sap,S=stack P=stacks SapTag=6} of Havoc Bane on the target.\nThe Basic Attack - Feather Sword Stance cycle is not reset within a short time after casting Resonance Skill - Sword Stance Flow: Feather. If casting Resonance Skill - Sword Stance Flow: Feather resets the cycle, summon a Wraith of Sound to finish the current attack and deal a fixed instance of Havoc DMG, considered Basic Attack DMG, which is not affected by any DMG Bonus effects and does not inflict Havoc Bane.\nSuccessful Dodge can be triggered within a short time into the action of this skill, which consumes {7} {Cus:Sap,S=point P=points SapTag=7} of Melody.\n\nHeavy Attack - Azure Sword Stance\nWhen Azure Plume is restored t",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingY.webp"
+              },
+              {
+                "name": "Skybound Feather",
+                "type": "Intro Skill",
+                "desc": "Deal Havoc DMG and restore {0} {Cus:Sap,S=point P=points SapTag=0} of Azure Plume.\nWhen Intro Skill - Skybound Feather deals damage, it applies 1 stack of Havoc Bane on the target.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingQTE.webp"
+              },
+              {
+                "name": "As the Wind Wills",
+                "type": "Outro Skill",
+                "desc": "Attacks the target, dealing Havoc DMG equal to {0} of Yangyang: Xuanling's ATK.\nAll Resonators in the team other than Yangyang: Xuanling gains Tonal Switch for {1}s. When a Resonator with Tonal Switch inflicts Havoc Bane, that Resonator's Havoc DMG is Amplified by {2}.\nThis effect is reset upon casting this skill again.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingT.webp"
+              },
+              {
+                "name": "ATK+",
+                "desc": "ATK increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.webp"
+              },
+              {
+                "name": "Crit. Rate+",
+                "desc": "Crit. Rate increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.webp"
+              },
+              {
+                "name": "Tune Break - Sword",
+                "type": "Tune Break",
+                "desc": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakKnife.webp"
+              },
+              {
+                "name": "Unbroken Vow",
+                "type": "Inherent Skill",
+                "desc": "When a target has 1 to 3 stacks of Havoc Bane, each stack of Havoc Bane Amplifies the DMG from Yangyang: Xuanling by {0}, up to {1}.\n\nWhen a target has 4 to 6 stacks of Havoc Bane, each stack of Havoc Bane Amplifies the DMG from Yangyang: Xuanling by {2}, up to {3}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLing1D1.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "At the wind's breath, the blossoms wake",
+                "type": "Sequence 1",
+                "desc": "Casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather summons a Shadow of Xuanling: Unfaltering to attack the target, dealing Havoc DMG equal to {0} of Yangyang: Xuanling's ATK. This DMG is considered Heavy Attack DMG.\nCasting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather Stagnates nearby enemies.\n\nHeavy Attack - Azure Sword Stance, Basic Attack - Havoc in Bloom and Dodge Counter - Havoc in Bloom are immune to interruption."
+              },
+              {
+                "name": "River carries her song away",
+                "type": "Sequence 2",
+                "desc": "The DMG dealt by Heavy Attack - Azure Sword Stance, Heavy Attack - Feather Sword Stance, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, and Dodge Counterk - Havoc in Bloom is increased by {0}.\n\nEvery time when Yangyang: Xuanling remains out of combat for more than 4s after she leaves the combat state or regains consciousness, she gains the following effects once:\n- Gain Strung Notes, up to 1 stack. Casting Basic Attack - Azure Sword Stance or Basic Attack - Feather Sword Stance summons Shadow of Xuanling: Strung Notes to attack the target, dealing Havoc DMG equal to {1} of Yangyang: Xuanling's ATK, considered Heavy Attack DMG. Strung Notes is removed after Shadow of Xuanling: Strung Notes is summoned.\n- Restore 2 points of Azure Plume.\n- Reset the Cooldown of gaining Bated Breath and Streaming Storm."
+              },
+              {
+                "name": "My grief follows you into the clouds",
+                "type": "Sequence 3",
+                "desc": "The DMG dealt via Resonance Liberation Hush of a Thousand Voices is Amplified by {0}.\n\nAfter casting Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Flow: Azure, or Resonance Skill - Sword Stance Flow: Feather, increase the maximum Havoc Bane stacks of targets within a certain range by {1}, lasting {2}s. This effect does not stack.\n\nBasic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, and Heavy Attack - Feather Sword Stance apply 1 additional stack of Havoc Bane to the target."
+              },
+              {
+                "name": "Across the miles, a letter and my longing",
+                "type": "Sequence 4",
+                "desc": "When casting Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Switch: Azure, Resonance Skill - Sword Stance Switch: Feather, Resonance Skill - Sword Stance Flow: Azure, or Resonance Skill - Sword Stance Flow: Feather, the ATK of Resonators in the team is increased by {0} for {1}s."
+              },
+              {
+                "name": "Take wing. Take wing.",
+                "type": "Sequence 5",
+                "desc": "When Yangyang: Xuanling takes a fatal blow, she will not be downed, but instead recover HP equal to {0} of her Max HP while becoming immune to DMG and interruption for {1}s. This effect can be triggered once every {2} min."
+              },
+              {
+                "name": "Let the azure keep its light",
+                "type": "Sequence 6",
+                "desc": "When Yangyang: Xuanling applies Havoc Bane to a target, gain Voice Flux for {0}s. While Voice Flux is active, the Heavy Attack DMG from Yangyang: Xuanling is increased by {1}.\n\nAfter casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather, gain Still as Withered Wood for {2}s. While Still as Withered Wood is active, if Yangyang: Xuanling is on the field, then when nearby Resonators in the team inflict Glacio Chafe, Fusion Burst, Electro Flare, Aero Erosion, Spectro Frazzle, or Havoc Bane, Yangyang: Xuanling summons Shadow of Xuanling: Still as Withered Wood to attack the target, dealing Havoc DMG equal to {3} of Yangyang: Xuanling's ATK. The DMG of Shadow of Xuanling: Still as Withered Wood is considered Heavy Attack DMG and is guranteed to be a critical hit.\n\nShadow of Xuanling: Still as Withered Wood can be summoned once every {4}s and expires after being summoned {5} times. When Still as Withered Wood expires or is removed, reset the available summon charges of Shadow of Xuanling: Still as Withered Wood. Still as Withered Wood has a Cooldown of {6}s."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -345,6 +450,111 @@
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLucy/SP_SkillIconLucyY.webp",
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLucy/SP_SkillIconLucyQTE.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.5.6",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Locked Thread",
+                "type": "Normal Attack",
+                "desc": "Basic Attack\nPerform up to {0} consecutive attacks, dealing Spectro DMG.\nHold Normal Attack right after Basic Attack Stage {1} to continuously attack the targets, dealing Spectro DMG. Hold this skill for a certain amount of time to cast Heavy Attack Stage {2}.\nHold Normal Attack shortly after Basic Attack Stage {3} lands to cast Heavy Attack Stage {4}.\n\nHeavy Attack\nConsume STA to lash out against the enemies with Monowire, dealing Spectro DMG.\nHold Normal Attack after Heavy Attack Stage {5} lands to cast Heavy Attack Stage {6}, dealing Spectro DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting Heavy Attack Stage {7} to cast Basic Attack Stage {8}.\n\nMid-air Attack\nConsume STA to perform a Plunging Attack, dealing Spectro DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to cast Basic Attack Stage {9}.\n\nDodge Counter\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after a successful Dodge to attack the target, dealing Spectro DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to cast Basic Attack Stage {10}.\nHold Normal Attack shortly after this skill lands to cast Heavy Attack Stage {11}.\n\nBasic Attack - Thread Shredding\nWhen in Algorithm Compaction, Lucy's Basic Attack is replaced with Basic Attack - Thread Shredding.\nPerform up to {12} consecutive attacks, dealing Spectro DMG, considered Heavy Attack DMG.\n\nHeavy Attack - Single Threading\nWhen in Algorithm Compaction, Lucy's Heavy Attack is replaced with Heavy Attack - Single Threading.\nConsume STA to attack the target, dealing Spectro DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill while airborne to cast Mid-air Attack - Algorithm Compaction.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill while on the ground to cast Basic Attack - Thread Shredding Stage {13}.\n\nHeavy Attack - Dual Threading\nWhen in Algorithm Compaction and Root Access reaches {14} points, Heavy Attack - Single Threading is replaced with Heavy Attack - Dual Threading.\nConsume STA and all Root Access to attack the target, dealing Spectro DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} or hold Normal Attack shortly after casting this skill while airborne to cast Heavy Attack - Multi-threading.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill while on the ground to cast Basic Attack - Thread Shredding Stage {15}.\n\nHeavy Attack - Multi-threading\nConsume STA to attack the targe",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorGun.webp"
+              },
+              {
+                "name": "Protocol Breach",
+                "type": "Resonance Skill",
+                "desc": "Resonance Skill - Payload\nCast Resonance Skill - Payload to charge forward, dealing Spectro DMG and inflicting Hack - Shifting. Upon hitting the target, a follow-up attack is automatically triggered, dealing Spectro DMG and activating Resonance Skill - Pulse Interference. If no target is hit during the charge, reduce the skill CD by {0}%. If the charge is interrupted or not successfully cast, the skill CD is not reduced.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after the follow-up attack to cast Basic Attack Stage {1}.\nHold Normal Attack shortly after follow-up attack lands to cast Heavy Attack Stage {2}.\n\nResonance Skill - Pulse Interference\nCast Resonance Skill - Pulse Interference to cut through the target, dealing Spectro DMG and briefly Stagnating the target, before granting Digital Handshake.\nDigital Handshake: When Lucy is not in Algorithm Compaction and is the active Resonator in the team, she gains TCP every second. This effect is removed when TCP reaches {3} points or when Resonance Liberation - Netrunner or Resonance Liberation - Old Net Deep Dive is cast.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to cast Basic Attack Stage {4}.\n\nResonance Skill - Deadlock\nWhen TCP reaches {5} points or Lucy is in Algorithm Compaction, Resonance Skill - Payload and Resonance Skill - Pulse Interference are replaced with Resonance Skill - Deadlock.\nCast Resonance Skill - Deadlock to attack the target, dealing Spectro DMG and inflicting Hack - Shifting, considered Heavy Attack DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to cast Basic Attack - Thread Shredding Stage {6}.\nReset the CD of Resonance Skill - Deadlock after casting Resonance Liberation - Netrunner or Resonance Liberation - Old Net Deep Dive.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLucy/SP_SkillIconLucyB1.webp"
+              },
+              {
+                "name": "Netrunner",
+                "type": "Resonance Liberation",
+                "desc": "Resonance Liberation - Netrunner\nLucy deep dives into cyberspace and pulls up the Protocol Interface for {0}s. While the Protocol Interface is active, choose up to {1} different Spoofing Program effects, each requiring different RAM costs. Lucy starts with {2} {Cus:Sap,S=point P=points SapTag=2} of RAM.\nWhile in the Protocol Interface, Lucy marks targets within a certain range in her view. Marked targets will be applied with all Spoofing Program effects selected afterwards. Adjust Lucy's view to mark more targets. When no target is in view, no Spoofing Program can be applied.\nWhile in the Protocol Interface, when either the duration expires or when Normal Attack is held down, Override is triggered, which deals Spectro DMG to all marked targets before closing the Protocol Interface, considered Heavy Attack DMG. When RAM runs out or is insufficient to activate any Spoofing Programs, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack to trigger Override on all marked targets.\nCan be cast in mid-air close to the ground.\n\nSpoofing Program: Ping\nRequires {3} RAM. Extends field of view. Lucy marks and deals Spectro DMG to all nearby targets within the effective range without having to adjust the view, considered Heavy Attack DMG.\nSpoofing Program: Cyberware Malfunction\nRequires {4} RAM. Marked targets take {5}% more DMG for {6}s.\nSpoofing Program: Breach Protocol\nRequires {7} RAM. Marked targets' DEF is reduced by {8}% for {9}s.\nSpoofing Program: Synapse Burnout\nRequires {10} RAM. Deals Spectro DMG to all marked targets within a certain range, considered Heavy Attack DMG.\nSpoofing Program: Cripple Movement\nRequires {11} RAM. Deals Hack DMG to all marked targets and reduces their ATK by {12}% for {13}s.\nSpoofing Program: Weapon Glitch\nRequires {14} RAM. Causes all marked targets' attacks to have a chance to be reduced by {15}% within {16}s.\nSpoofing Program: Cyberpsychosis\nRequires {17} RAM. Convert all marked targets to neutral units and reduce their Vibration Strength. Only effective against Common Class enemies.\n\nResonance Liberation - Old Net Deep Dive\nWhen in Algorithm Compaction, after Heavy Attack - Multi-threading is cast, Resonance Liberation - Netrunner is replaced with Resonance Liberation - Old Net Deep Dive. Lucy gains all effects of Resonance Liberation - Netrunner, and the DMG Multiplier of Override is greatly increased.\nAfter casting Resonance Liberation - Old Net Deep Dive, or when Lucy exits the Algorithm Compaction state, Resonance Liberation - Old Net Deep Dive is replaced with Resonance Liberation - Netrunner.\nCan be cast in mid-air cl",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLucy/SP_SkillIconLucyC1.webp"
+              },
+              {
+                "name": "Depths of Blackwall",
+                "type": "Forte Circuit",
+                "desc": "Cloud Portal\nWhen not in Algorithm Compaction, Lucy gains TCP upon hitting a target. At {0} points of TCP, Resonance Skill - Payload and Resonance Skill - Pulse Interference are replaced with Resonance Skill - Deadlock.\nCasting Resonance Liberation - Netrunner or Resonance Liberation - Old Net Deep Dive clears all TCP.\n\nAlgorithm Compaction\nAfter casting Resonance Skill - Deadlock, Lucy enters Algorithm Compaction and gains {1} {Cus:Sap,S=stack P=stacks SapTag=1} of SQL. Her Basic Attack is replaced with Basic Attack - Thread Shredding, and Heavy Attack is replaced with Heavy Attack - Single Threading. Lucy's Spectro DMG Bonus is increased by {2}% for {3}s.\nWhile in Algorithm Compaction, casting Resonance Skill - Deadlock again will not grant SQL and Spectro DMG Bonus repetitively.\nWhen in Algorithm Compaction, Lucy gains Root Access upon hitting a target with attacks including Basic Attack - Thread Shredding and Heavy Attack - Single Threading. Reaching {4} points of Root Access replaces Heavy Attack - Single Threading with Heavy Attack - Dual Threading. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} or hold Normal Attack shortly after casting Heavy Attack - Dual Threading to cast Heavy Attack - Multi-threading.\nWhen casting Heavy Attack - Multi-threading, if Lucy has SQL, increase this attack's DMG Multiplier by {5}% and remove SQL.\nWhen casting Heavy Attack - Multi-threading, if Lucy does not have SQL, she loses {6}% of current HP. If Lucy's HP is below {7}%, no HP is consumed.\nAfter casting Heavy Attack - Multi-threading, Resonance Liberation - Netrunner is replaced with Resonance Liberation - Old Net Deep Dive.\nLucy exits the the Algorithm Compaction state after casting Resonance Liberation - Netrunner or Resonance Liberation - Old Net Deep Dive, or Heavy Attack - Multi-threading is not followed up by one of these skills: Normal Attack - Locked Thread, Resonance Skill - Protocol Breach, Intro Skill - Outdated Hallucination, and Tune Break - Data Crash.\n\nHack Response - Data Crash\nLucy deals Spectro DMG to a target inflicted with Hack - Interfered and applies the same target with Data Crash, considered Hack DMG.\nData Crash: After the target deals damage, Stagnate the target for {9}s. Data Crash is removed after this effect is triggered.\n\nTCP\nLucy holds up to {10} points of TCP.\nLucy gains TCP when she deals damage through Basic Attack, Heavy Attack, Mid-air Attack, Dodge Counter.\nLucy gains TCP when she deals damage through Resonance Skill - Payload and Resonance Skill - Pulse Interference.\nAfter casting Intro Skill - Outdated Hallucination, casting the ",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLucy/SP_SkillIconLucyY.webp"
+              },
+              {
+                "name": "Outdated Hallucination",
+                "type": "Intro Skill",
+                "desc": "Attack the target, dealing Spectro DMG and granting Resonators in the team Involuntary Sharing, allowing them to see targets behind obstacles for {0}s. Additionally, Involuntary Sharing is enhanced on Rebecca, allowing her to lock onto targets behind obstacles. If Rebecca's turret is on the field, its Overload effect is activated, increasing its DMG dealt for {1}s.\nIf Lucy is not in Algorithm Compaction after casting this skill, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack within a certain time to cast Basic Attack Stage {2}.\nIf Lucy is in Algorithm Compaction after casting this skill, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack within a certain time to cast Basic Attack - Thread Shredding Stage {3}.\nAfter casting this skill, the next Resonance Skill - Pulse Interference additionally grants {4} points of TCP.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLucy/SP_SkillIconLucyQTE.webp"
+              },
+              {
+                "name": "Countermeasure Program",
+                "type": "Outro Skill",
+                "desc": "The incoming Resonator gains {0}% Basic Attack DMG Amplification for {1}s or until they are switched out.\nGrants all Resonators in the team Countermeasure Program for {2}s.\nWhile the effect is active, when an active Resonator in the team other than Lucy inflicts Hack - Shifting, that Resonator gains {3}% All DMG Amplification.\nWhile the effect is active, when a Resonator in the team other than Lucy is attacked, Lucy grants them {5}% DMG Reduction for {4}s and Stagnates their attacker for {6}s. This effect can only trigger up to {7} time while Countermeasure Program is active. Obtaining Countermeasure Program again resets the effective charge.\nWhen the All DMG Amplification is effective, switching to another Resonator ends the Countermeasure Program early.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLucy/SP_SkillIconLucyT.webp"
+              },
+              {
+                "name": "ATK+",
+                "desc": "ATK increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.webp"
+              },
+              {
+                "name": "Crit. Rate+",
+                "desc": "Crit. Rate increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.webp"
+              },
+              {
+                "name": "Data Crash",
+                "type": "Tune Break",
+                "desc": "When the target's Off-Tune Level is full, Lucy can cast Tune Break on the target.\nResponding to Hack - Interfered: when Resonators in the team trigger Tune Break on the target and cause them to be affected by Hack - Interfered, Lucy applies Hack Response - Data Crash on the target. Each target can be inflicted with this effect up to {1} {Cus:Sap,S=time P=times SapTag=1} every {0}s.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakGun.webp"
+              },
+              {
+                "name": "Ghost Cyberware",
+                "type": "Inherent Skill",
+                "desc": "When Lucy is the active Resonator in the team, if she takes no damage for {0}s, she gains {1} {Cus:Sap,S=stack P=stacks SapTag=1} of Optical Illusion. Max {2} {Cus:Sap,S=stack P=stacks SapTag=2} by default.\nOptical Illusion: When attacked, reduce this instance of DMG by {3}%. If Lucy is hit or launched from the attack, she immediately recovers and triggers a successful Dodge if she's on the ground. After this effect is triggered, remove {4} {Cus:Sap,S=stack P=stacks SapTag=4} of Optical Illusion. This effect can be triggered up to {6} {Cus:Sap,S=time P=times SapTag=6} every {5}s.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLucy/SP_SkillIconLucyD2.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "The Moon, a Ticket, and a Dream",
+                "type": "Sequence 1",
+                "desc": "Lucy is now immune to interruptions during Resonance Skill - Payload, Resonance Skill - Pulse Inteference, Heavy Attack - Dual Threading, and Heavy Attack - Multi-Threading\nCasting Intro Skill - Outdated Hallucination increases ATK by {0}% for {1}s.\nWhen a Resonator in the team defeats a target affected by Spoofing Program with direct damage, Lucy records the effect triggered and activates the corresponding Quick Action on that Resonator for {2}s. The record expires when Lucy is knocked out.\nQuick Action: When activated, inflict the recorded Spoofing Program effects on targets within a certain distance from the active Resonator in the team, effective once only on each target.\nThe following Spoofing Program effects can be recorded: Spoofing Program: Cyberware Malfunction, Spoofing Program: Breach Protocol, Spoofing Program: Cripple Movement, Spoofing Program: Weapon Glitch, and Spoofing Program: Cyberpsychosis. When applying Spoofing Program effects via Quick Action, only the continuous status effects are applied."
+              },
+              {
+                "name": "The Blackwall, the Past, the Escape",
+                "type": "Sequence 2",
+                "desc": "While casting Resonance Liberation - Netrunner and Resonance Liberation - Old Net Deep Dive, Lucy's starting RAM is increased to {0}.\nAfter casting Resonance Skill - Pulse Interference, deal {1} additional {Cus:Sap,S=instance P=instances SapTag=1} of Spectro DMG equal to {2}% of Lucy's ATK, considered Heavy Attack DMG.\nWhen this instance of damage hits the target, apply all of the following Spoofing Program effects: Spoofing Program: Cyberware Malfunction,\nSpoofing Program: Breach Protocol, Spoofing Program: Cripple Movement, Spoofing Program: Weapon Glitch, and Spoofing Program: Cyberpsychosis. Only the continuous status effects are applied.\nForte Circuit - Depths of Blackwall is enhanced: When casting Heavy Attack - Multi-threading, if Lucy has SQL, the DMG Multiplier increase is raised from {3}% to {4}%."
+              },
+              {
+                "name": "Cyberpunk",
+                "type": "Sequence 3",
+                "desc": "The DMG Multiplier of Override from Resonance Liberation - Netrunner and Resonance Liberation - Old Net Deep Dive is increased by {0}%, and its Crit. DMG is increased by {1}%.\nThe DMG Multiplier of Spoofing Program: Cripple Movement is increased by {2}%.\nThe DMG Multiplier of Hack Response - Data Crash is increased by {3}%."
+              },
+              {
+                "name": "No Living Legends in Night City",
+                "type": "Sequence 4",
+                "desc": "When Resonators in the team inflict Hack - Shifting, Resonators in the team gain {0}% All-Attribute DMG Bonus for {1}s."
+              },
+              {
+                "name": "A Broken Path to Hell",
+                "type": "Sequence 5",
+                "desc": "The stack limit of Optical Illusion obtainable via Inherent Skill - Ghost Cyberware is increased to {0}.\nInherent Skill - Ghost Cyberware is now enhanced: When Lucy's HP falls below {1}%, she immediately gains {2} {Cus:Sap,S=stack P=stacks SapTag=2} of Optical Illusion upon being hit. This effect has a Cooldown of {3}s. When Optical Illusion is triggered, Lucy gains a Shield equal to {4}% of ATK for {5}s."
+              },
+              {
+                "name": "I Really Want to Stay At Your House",
+                "type": "Sequence 6",
+                "desc": "Targets with Hack - Shifting or in the Hack - Interfered state take {0}% increased Heavy Attack DMG from Lucy.\nTargets with Hack - Shifting or in the Hack - Interfered state take {1}% increased Hack DMG from Lucy.\nThe Stagnation triggered by Hack Response - Data Crash now lasts for {2}s."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -781,6 +991,111 @@
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuhesi/SP_IconLuhesiY.webp",
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuhesi/SP_IconLuhesiQTE.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.5.6",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Such is Light",
+                "type": "Normal Attack",
+                "desc": "Basic Attack\nPerform up to 4 consecutive attacks, dealing Spectro DMG.\nHurl out a whirling blade on Stage 3, which disappears when Luuk Herssen casts other skills that can deal damage or leaves the field.\n\nHeavy Attack\nConsume STA to jump into the air, dealing Spectro DMG.\n\nMid-air Attack\nPerform up to 4 consecutive attacks in mid-air, dealing Spectro DMG. Stage 4 is a Plunging Attack at the cost of STA.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack or Jump to perform Basic Attack Stage {0} and 3 in mid-air.\nLuuk Herssen attacks with Scythe: Dissection when the input is Normal Attack.\nLuuk Herssen attacks with Scythe: Resection when the input is Jump. He also inflicts Tune Strain - Shifting on the target hit for {1}s and reduces DMG taken by {3} for {2}s.\nAs the active Resonator, while in mid-air, this skill's cycle will not be reset.\nWhile in mid-air, hold Normal Attack to perform a Plunging Attack at the cost of STA.\n\nDodge Counter\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack right after a successful Dodge on the ground to deal Spectro DMG. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack right after casting this skill to cast Basic Attack Stage 3.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack right after a successful Dodge in mid-air to flash toward the target, dealing Spectro DMG.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.webp"
+              },
+              {
+                "name": "Reunion of All the Fallen",
+                "type": "Resonance Skill",
+                "desc": "Golden Reflux\nFlash toward the target and deal Spectro DMG. Inflict Tune Strain - Shifting on the target hit for 25s.\nGolden Reflux has 2 charges.\nCan be cast in mid-air.\n\nAureole of Execution\nCasting Basic Attack Stage 4 or Mid-air Attack Stage 3 replaces Resonance Skill with Aureole of Execution, which deals Basic Attack DMG and inflicts Tune Strain - Shifting on the target hit for 25s.\nAureole of Execution has {0} forms, including Aureole of Execution: Ring, Aureole of Execution: Breach, and Aureole of Execution: Glare.\nCasting any form of Aureole of Execution grants {1} {Cus:Sap,S=stack P=stacks SapTag=1} of Endnotes on the Endgame and switches Aureole of Execution to the next form in sequence.\nSwitching to another Resonator resets the cycle of Aureole of Execution and Resonance Skill is reset to Golden Reflux.\nCan be cast in mid-air.\n\nAureole of Execution: Ring\nDeal Spectro DMG, and reset the Mid-air Attack cycle to Stage 1.\nThe next Normal Attack triggers Basic Attack - Golden Impale.\nBasic Attack - Golden Impale is no longer available if Dodge Counter is cast in mid-air or Luuk Herssen is switched out in the duration.\n\nAureole of Execution: Breach\nSpin and dash forward, dealing Spectro DMG to enemies along the path and resetting the Mid-air Attack cycle to Stage 1. Then, hurl out an Ichor Blade.\nThe next Normal Attack triggers Basic Attack - Golden Impale.\nBasic Attack - Golden Impale is no longer available if Dodge Counter is cast in air or Luuk Herssen is switched out in the duration.\n\nAureole of Execution: Glare\nHurl out Solid-State Ichor, dealing Spectro DMG and forming an Ichor Deposit on the ground.\n\nBasic Attack - Golden Impale\nFlash toward the target and deal Spectro DMG, considered Basic Attack DMG.\n\nIchor Deposit\nIchor Deposit detonates automatically after {3}s, dealing Spectro DMG, considered Basic Attack DMG.\n\nEndnotes on the Endgame\nIncrease the DMG Multiplier of Resonance Liberation Rewritten in Winter's Margins by {4}, stacking up to {2} times. Casting Rewritten in Winter's Margins or switching to another Resonator removes all stacks.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuhesi/SP_IconLuhesiB1.webp"
+              },
+              {
+                "name": "Rewritten in Winter's Margins",
+                "type": "Resonance Liberation",
+                "desc": "Deal Spectro DMG, considered Basic Attack DMG.\nCan be cast in mid-air.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuhesi/SP_IconLuhesiC1.webp"
+              },
+              {
+                "name": "Spark from the Frost",
+                "type": "Forte Circuit",
+                "desc": "Mid-air Attack - Gavel of Earthshaker\nWhen the Solid-State Ichor of Resonance Skill Aureole of Execution: Glare is hurled out, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack in mid-air to cast Mid-air Attack - Gavel of Earthshaker.\nSlam down from the air to detonate the Ichor Deposit, dealing Spectro DMG (considered Basic Attack DMG) and recovering all STA.\nMid-air Attack - Gavel of Earthshaker is no longer available when Resonance Liberation Rewritten in Winter's Margins is cast or Luuk Herssen is switched off the field.\n\nAureate Judge\nWith full Ichor Flow, enter the Aureate Judge state. In this state, Luuk Herssen gains the following effects:\n- Ichor Flow does not restore. The DMG Multipliers of all forms of Resonance Skill Aureole of Execution increase by {15}.\n- Casting Aureole of Execution: Glare increases the DMG Multiplier of the next Mid-air Attack - Gavel of Earthshaker and Ichor Deposit DMG by {15}.\n- {1} points of Ichor Flow is consumed each time Resonance Skill Aureole of Execution is cast.\n- Aureate Judge ends when Ichor Flow depletes.\n\nGolden Rule\nWhen Luuk Herssen is in the team, all other Resonators in the team gain Golden Rule. When Resonators with Golden Rule cast Outro Skill and the incoming Resonator is Luuk Herssen, remove all Golden Rules on Resonators in the team and grant Luuk Herssen {3} points of Ichor Flow and {4} points of Concerto Energy. Resonators in the team gain Golden Rule again after {2}s. This effect does not apply in Co-op Mode.\n\nDawnlit Keep\nLuuk Herssen gains {6} {Cus:Sap,S=stack P=stacks SapTag=6} of Dawnlit Keep when he stays out of combat for over {5}s or casts Intro Skill Before Injection of Dawn.\nDawnlit Keep is capped at {7} stack. When taking damage from enemies, consume {9} {Cus:Sap,S=stack P=stacks SapTag=9} of Dawnlit Keep to reduce the DMG taken by {14} and gain immunity to interruptions for {10}s. This effect can be triggered once per second.\n\nRadiant Reave\nWhen Luuk Herssen performs Dodge in mid-air, he briefly stays airborne and hurls out an Ichor Blade.\nLuuk Herssen consumes STA continuously while airborne.\nIf Luuk Herssen is launched into mid-air, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Dodge before landing to trigger this effect, up to 3 times. When he is on the ground or switched out for more than {12}s, the trigger count is reset.\n\nIchor Blade\nDeal fixed Spectro DMG, considered Basic Attack DMG that is not affected by any DMG Bonus.\nOnly one Ichor Blade can exist at a time. It cannot trigger Counterattack.\nIchor Blade cannot be launched without a nearby target.\nIchor Blade disappears ",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuhesi/SP_IconLuhesiY.webp"
+              },
+              {
+                "name": "Before Injection of Dawn",
+                "type": "Intro Skill",
+                "desc": "Deal Spectro DMG. Hurl out an Ichor Blade and inflict Tune Strain - Shifting on the target.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack after this skill to cast Mid-air Attack Stage 2 - Scythe: Dissection or Jump to cast Mid-air Attack Stage 2 - Scythe: Resection.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuhesi/SP_IconLuhesiQTE.webp"
+              },
+              {
+                "name": "Bow to the Last Light",
+                "type": "Outro Skill",
+                "desc": "Deal Spectro DMG equal to {0} of Luuk Herssen's ATK.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuhesi/SP_IconLuhesiT.webp"
+              },
+              {
+                "name": "ATK+",
+                "desc": "ATK increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.webp"
+              },
+              {
+                "name": "Crit. Rate+",
+                "desc": "Crit. Rate increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.webp"
+              },
+              {
+                "name": "Pulses Under the Snow",
+                "type": "Inherent Skill",
+                "desc": "When Resonators in the team directly damage and defeat targets, if the targets are affected by Tune Strain - Interfered:\n- If Luuk Herssen has no Perpetuating Daytime, gain stacks of Perpetuating Daytime equal to the stacks of Tune Strain - Interfered.\n- If Luuk Herssen already has Perpetuating Daytime, and the target's stacks of Tune Strain - Interfered exceed the current stacks of Perpetuating Daytime, increase Perpetuating Daytime's stacks to match the target's Tune Strain - Interfered stacks.\n\nPerpetuating Daytime\n- When Resonators in the team casts Tune Break, if the target is affected by Tune Strain - Shifting, Luuk Herssen loses all stacks of Perpetuating Daytime, then apply equal stacks of Tune Strain - Interfered on the target, up to the target's current Tune Strain - Interfered stack cap. Cooldown: {1}s.\nLuuk Herssen loses all stacks of Perpetuating Daytime and will not be able to obtain any new stacks when knocked out.\n- Perpetuating Daytime stacks up to {0} times.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuhesi/SP_IconLuhesiD1.webp"
+              },
+              {
+                "name": "Silent Debate of Light",
+                "type": "Tune Break",
+                "desc": "Luuk Herssen can inflict Tune Strain - Shifting on targets.\nLuuk Herssen can respond to Tune Strain - Interfered.\nWhen responding to Tune Strain - Interfered: For each stack of Tune Strain - Interfered on the target, each point of Luuk Herssen's Tune Break Boost increases his total DMG against the target by {1}. While Luuk Herssen is in the team, the max stack limit of Tune Strain - Interfered on a target is increased by {2}.\nWhen the target's Off-Tune Level is full, Luuk Herssen can cast Tune Break on the target.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakFist.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "Gold Kindled in Ash",
+                "type": "Sequence 1",
+                "desc": "Luuk Herssen gains {0} Mid-air Attack DMG Bonus.\nThe max stack limit of Dawnlit Keep is increased by {1}.\nWhen in the Aureate Judge state, casting Resonance Skill Aureole of Execution grants {2} {Cus:Sap,S=stack P=stacks SapTag=2} of Dawnlit Keep."
+              },
+              {
+                "name": "Avalanche Roaring in Eyes",
+                "type": "Sequence 2",
+                "desc": "The DMG Multiplier of Resonance Liberation Rewritten in Winter's Margins is increased by {0}. This DMG Multiplier increase effect is stackable with that of Endnotes on the Endgame.\nInherent Skill Uncaused Diagnosis is enhanced:\nWhen Luuk Herssen deals damage to targets inflicted with Tune Strain - Interfered, every {1} points of Tune Break Boost he has now Amplify this instance of damage by {2}. This effect now increases the DMG Amplification up to {4} instead of {3}."
+              },
+              {
+                "name": "Spine Tempered by Golden Rain",
+                "type": "Sequence 3",
+                "desc": "The DMG Multipliers of all forms of Resonance Skill Aureole of Execution are increased by {0} in the Aureate Judge state. Casting Aureole of Execution: Glare increases the DMG Multipliers of the next Mid-Attack - Gavel of Earthshaker and Ichor Deposit by {0}.\nInherent Skill Pulses Under the Snow is enhanced:\nPerpetuating Daytime now stacks up to {2} times."
+              },
+              {
+                "name": "Pulse Thrumming Under Rime",
+                "type": "Sequence 4",
+                "desc": "After a Resonator in the team deals Tune Break DMG, all Resonators in the team deal {0} more DMG for {1}s. This effect is unstackable."
+              },
+              {
+                "name": "Through the Stillness of Snowstorm",
+                "type": "Sequence 5",
+                "desc": "Intro Skill Before Injection of Dawn and Outro Skill Bow to the Last Light gain {0} DMG Bonus.\nResonance Skill Golden Reflux has its DMG Multiplier increased by {1} and Cooldown reduced by {2}s, and gains 1 more charge."
+              },
+              {
+                "name": "Dawn Unfurling over Frostlands",
+                "type": "Sequence 6",
+                "desc": "When nearby Resonators in the team deal Tune Break DMG, all forms of Resonance Skill Aureole of Execution, Ichor Deposit, and Mid-air Attack - Gavel of Earthshaker deal {0} more DMG to the target for {1}s.\nEach stack of Endnotes on the Endgame additionally grants Resonance Liberation Rewritten in Winter's Margins {2} DMG Bonus, up to {3}.\nWhen Luuk Herssen deals damage to targets inflicted with Tune Strain - Interfered, the stack count of Tune Strain - Interfered on the target is increased by {4}. This effect ignores the max stack limit."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -1217,6 +1532,111 @@
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLinNai/SP_IconLinNaiY1.webp",
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLinNai/SP_IconLinNaiQTE.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.5.6",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Chroma Drift",
+                "type": "Normal Attack",
+                "desc": "Basic Attack\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} or hold Normal Attack to perform up to 3 consecutive attacks, dealing Spectro DMG.\n\nMid-air Attack\nConsume STA to perform Plunging Attack, dealing Spectro DMG.\n\nDodge Counter\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack right after a successful Dodge to attack the target, dealing Spectro DMG.\n\nBasic Attack - Spark Collision\nWith full Overflow in the Optical Sampling Stage, hold Normal Attack to enter a charging state.\nDuring this state, 15 points of Overflow will be converted to 12.5% of Lumiflow every 0.2s. Lynae is immune to interruption and takes {0} less DMG.\nUpon releasing Normal Attack or when Lumiflow is full, Lynae casts Spark Collision of varying strengths based on the ratio of Lumiflow, dealing Spectro DMG:\n- Spark Collision Lv. 1: Lumiflow Lumiflow Lumiflow=100%\n\nKaleidoscopic Parade - Basic Attack\nWhile in Kaleidoscopic Parade, Basic Attack is replaced with Kaleidoscopic Parade - Basic Attack.\nPerform up to 5 consecutive attacks, dealing Spectro DMG.\nWith 120 points of Lumiflow, Kaleidoscopic Parade - Basic Attack Stage 1 & 4 track enemies in a greater distance.\n\nKaleidoscopic Parade - Ground Heavy Attack\nWhile in Kaleidoscopic Parade, hold Normal Attack on the ground to cast this skill. Consume STA to continuously attack the target, dealing Spectro DMG, considered Basic Attack DMG. Release to cast Kaleidoscopic Parade - Graffiti Blast, dealing Spectro DMG, considered Basic Attack DMG.\n\nKaleidoscopic Parade - Mid-air Heavy Attack\nWhile in Kaleidoscopic Parade, hold Normal Attack in mid-air to cast this skill. Consume STA to attack the target, dealing Spectro DMG, considered Basic Attack DMG.\nCannot gain new charges while in the air. The available charges reset when Lynae is the active Resonator and is on the ground.\n\nKaleidoscopic Parade - Mid-air Attack\nWhile in Kaleidoscopic Parade, Mid-air Attack is replaced with Kaleidoscopic Parade - Mid-air Attack.\nConsume STA to perform Plunging Attack, dealing Spectro DMG.\n\nKaleidoscopic Parade - Dodge Counter\nWhile in Kaleidoscopic Parade, Dodge Counter is replaced with Kaleidoscopic Parade - Dodge Counter.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack right after a successful Dodge to attack the target, dealing Spectro DMG.\nWhile in Kaleidoscopic Parade, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack shortly after casting this skill to cast Kaleidoscopic Parade - Basic Attack Stage 2.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorGun.webp"
+              },
+              {
+                "name": "Lynae-Style Palettes",
+                "type": "Resonance Skill",
+                "desc": "Lynae-Style Palettes\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Resonance Skill to deal Spectro DMG.\nWhile in Kaleidoscopic Parade, hold Resonance Skill to attack the target, dealing Spectro DMG and exiting the Kaleidoscopic Parade.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack within a certain time after this skill to cast Basic Attack Stage 2.\nLynae-Style Palettes and Additive Color share a cooldown.\n\nAdditive Color\nDuring Kaleidoscopic Parade, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Resonance Skill on the ground to attack the target, dealing Spectro DMG.\nWithin a certain time during the skill, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack to cast Kaleidoscopic Parade - Basic Attack Stage 2.\nLynae-Style Palettes and Additive Color share a cooldown.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLinNai/SP_IconLinNaiB1.webp"
+              },
+              {
+                "name": "Prismatic Overblast",
+                "type": "Resonance Liberation",
+                "desc": "Deal Spectro DMG. Casting this skill increases the DMG dealt by all nearby Resonators in the team by {0} for {1}s.\n\nBasic Attack - To a Vivid Tomorrow!\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack within a certain time after casting Resonance Liberation - Prismatic Overblast to cast Basic Attack - To a Vivid Tomorrow!, dealing Spectro DMG.\nWhile in Kaleidoscopic Parade, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack within a certain time during the skill to cast Kaleidoscopic Parade - Basic Attack Stage 2.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLinNai/SP_IconLinNaiC1.webp"
+              },
+              {
+                "name": "Chromaticity Modeling",
+                "type": "Forte Circuit",
+                "desc": "Optical Sampling Stage\nLynae is in Optical Sampling Stage by default. While in this state, Overflow recovers during certain skills.\n\nKaleidoscopic Parade\nCasting Basic Attack - Spark Collision sends Lynae into Kaleidoscopic Parade. In this state, Lynae continuously recovers Lumiflow while moving on the ground or during certain periods of certain skills. Lynae will not Walk during this state, and her Running and Sprinting will be replaced by the faster Free Skating and Speed Skating.\n\nBasic Attack - Polychrome Leap\nWhile in Kaleidoscopic Parade, with at least 1/3 of the max Lumiflow, Jump is replaced by Basic Attack - Polychrome Leap.\nConsume 1/3 of the max Lumiflow to deal Spectro DMG. Inflict Photochromic Flux on targets hit. Successful Dodges can be triggered within a certain time during this skill. While airborne, Basic Attack - Polychrome Leap chains up to 3 stages. Switching to another Resonator resets the combo.\nWhile in combat, each stage of Basic Attack - Polychrome Leap cast recovers 1 point of True Color.\nWithin a certain time after Basic Attack - Polychrome Leap Stage 1 {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack on the ground to cast Kaleidoscopic Parade - Basic Attack Stage 2.\nCasting Basic Attack - Polychrome Leap Stage 2 also pulls in nearby targets.\n\nBasic Attack - Iridescent Splash\nDuring Kaleidoscopic Parade, when Lynae is in mid-air with 3 points of True Color, and Basic Attack - Visual Impact is on cooldown, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack or Resonance Skill to deal Spectro DMG and inflict Photochromic Flux on targets hit.\nThis skill consumes 3 points of True Color.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack within a certain time during this skill to cast Kaleidoscopic Parade - Basic Attack Stage 2.\n\nBasic Attack - Visual Impact\nDuring Kaleidoscopic Parade, when Lynae is in mid-air with 3 points of True Color, and this skill is not on cooldown, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack or Resonance Skill to deal Spectro DMG and inflict Photochromic Flux on targets hit.\nThis skill consumes 3 points of True Color and grants all nearby Resonators in the team {0} points of Tune Break Boost for {1}s.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack within a certain time during this skill to cast Kaleidoscopic Parade - Basic Attack Stage 2.\n\nResonance Mode\nInflict Photochromic Flux when hitting a target with Basic Attack - Polychrome Leap, Basic Attack - Iridescent Splash, Basic Attack - Visual Impact and Intro Skill - Time to Show Some Colors!.\nLynae can switch betw",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLinNai/SP_IconLinNaiY1.webp"
+              },
+              {
+                "name": "Time to Show Some Colors!",
+                "type": "Intro Skill",
+                "desc": "Deal Spectro DMG, inflicting Photochromic Flux on targets hit.\nWhile in Optical Sampling Stage, casting this skill recovers {0} points of Overflow.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLinNai/SP_IconLinNaiQTE.webp"
+              },
+              {
+                "name": "Let's Hit the Road!",
+                "type": "Outro Skill",
+                "desc": "Attack the target and deal {0} Spectro DMG. The next incoming Resonator gain {1} All DMG Amplification and {2} Resonance Liberation DMG Amplification for 14s or until they are switched out.\nLynae leaves the Kaleidoscopic Parade state upon casting Outro Skill.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLinNai/SP_IconLinNaiT.webp"
+              },
+              {
+                "name": "ATK+",
+                "desc": "ATK increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.webp"
+              },
+              {
+                "name": "Colors Never Fade!",
+                "type": "Inherent Skill",
+                "desc": "After casting Basic Attack - Visual Impact, Lynae leaves Spray Paint on the ground and continuously inflicts Photochromic Flux on targets within the Spray Paint for {1}s, triggered once every {0}s. When Spray Paint is on the ground, switching to another Resonance Mode doesn't affect the Photochromic Flux effects inflicted by the Spray Paint.\n\nWith Lynae in the team, the expedition motorbike's Energy Tank expands by 600 points. Lynae enters Kaleidoscopic Parade automatically while on the expedition motorbike and restores 20% of Lumiflow per second.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLinNai/SP_IconLinNai1D1.webp"
+              },
+              {
+                "name": "Crit. Rate+",
+                "desc": "Crit. Rate increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.webp"
+              },
+              {
+                "name": "Spectral Analysis",
+                "type": "Tune Break",
+                "desc": "Lynae can inflict Tune Rupture - Shifting or Tune Strain - Shifting on targets.\nLynae can respond to Tune Rupture - Interfered and Tune Strain - Interfered.\n- Responding to Tune Rupture - Interfered: When any Resonator in the team deals Tune Break DMG and inflicts the Tune Rupture - Interfered state, Lynae casts Tune Rupture Response - Spectral Analysis. Each target can be damaged by this skill up to once every 8s.\n- Responding to Tune Strain - Interfered: For each stack of Tune Strain - Interfered on the target, each point of Lynae's Tune Break Boost increases her total DMG against that target by {1}. When Lynae is in the team, the target's max stack limit of Tune Strain - Interfered is increased by 1.\nWhen the target's Off-Tune Level is full, Lynae can cast Tune Break on the target.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakGun.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "Days to be Painted Like a Canvas",
+                "type": "Sequence 1",
+                "desc": "The DMG Multiplier of Basic Attack - Polychrome Leap is increased by {0}.\nThe duration of Spray Paint is increased by {1}. Targets within the range of Spray Paint are pulled in towards the center every {2}s.\nLynae is now immune to interruptions during Basic Attack - Polychrome Leap and Basic Attack - Visual Impact.\nDuring Optical Sampling Stage, after staying in a non-combat state for {3}s, restore {4} points of Overflow every {3}s."
+              },
+              {
+                "name": "Into Lights' Vanishing Point",
+                "type": "Sequence 2",
+                "desc": "Gain {0} All DMG Amplification.\nOutro Skill gains the following effect:\nCasting Outro Skill now additionally grants the incoming Resonator {1} All DMG Amplification for {2}s or until the Resonator is switched out."
+              },
+              {
+                "name": "For One Brilliant Moment",
+                "type": "Sequence 3",
+                "desc": "The DMG Multiplier of Basic Attack - Visual Impact and Basic Attack - Iridescent Splash is increased by {4}.\nWhile Lynae is in combat, when Lumiflow is at least 120 points, gain 1 stack of Premixed Hue every {0}s, up to {1} stacks. Each stack of Premixed Hue increases the Spectro DMG Bonus of Additive Color by {2}. No Premixed Hue is gained while casting Additive Color. When Additive Color ends, remove all stacks of Premixed Hue. Lynae loses a stack of Premixed Hue every {3}s when Lumiflow is below 120 points.\nWhile Lynae is out of combat, with at least 120 points of Lumiflow, gain 1 stack of Premixed Hue every 0.5s; when Lumiflow is below 120 points, lose 1 stack of Premixed Hue every 1s."
+              },
+              {
+                "name": "Shadows of a Wind Racer",
+                "type": "Sequence 4",
+                "desc": "ATK is increased by {0}."
+              },
+              {
+                "name": "Visions of a Future Unbound",
+                "type": "Sequence 5",
+                "desc": "The DMG Multiplier of Resonance Liberation - Prismatic Overblast is increased by {0}."
+              },
+              {
+                "name": "Painted in My True Color",
+                "type": "Sequence 6",
+                "desc": "Each time Kaleidoscopic Parade - Graffiti Blast or Kaleidoscopic Parade - Mid-air Heavy Attack is cast, Lynae gains 1 stack of Color of Soul, up to {2} stacks. Each stack of Color of Soul increases the DMG the target takes from Basic Attack - Iridescent Splash and Basic Attack - Visual Impact by {3}. After casting Basic Attack - Iridescent Splash or Basic Attack - Visual Impact, all stacks of Color of Soul are removed.\nCasting Basic Attack - Polychrome Leap resets the charges of Kaleidoscopic Parade - Mid-air Heavy Attack.\nLynae is immune to interruptions, and DMG taken is reduced by {5} during Kaleidoscopic Parade - Mid-air Heavy Attack.\nLynae now stays in Kaleidoscopic Parade after casting Outro Skill - Let's Hit the Road!.\nThe Lumiflow upper limit is increased from {0} to {1}. At the max limit, Lynae's roller skating speed further increases.\nIf Intro Skill is cast during Kaleidoscopic Parade, restore {4} points of Lumiflow."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -1653,6 +2073,111 @@
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXigelika/SP_IconXigelikaY.webp",
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXigelika/SP_IconXigelikaQTE.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.5.6",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "One, Two, Three",
+                "type": "Normal Attack",
+                "desc": "Basic Attack\nPerform up to 4 consecutive attacks, dealing Aero DMG.\nEnter the Decipher state for {0}s after casting Basic Attack Stage 4. This effect ends early if Sigrika is switched off the field.\nWhen Sigrika has at least {1} {Cus:Sap,S=point P=points SapTag=1} of Full Stop, her Basic Attack cycle starts from Stage 2.\n\nBasic Attack - Elucidated\nWhile in the Decipher state, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack on the ground to cast Basic Attack - Elucidated, dealing Aero DMG (considered Echo Skill DMG).\nLeave the Decipher state upon casting this skill.\n\nHeavy Attack\nConsume STA to attack the target, dealing Aero DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting Heavy Attack to cast Basic Attack Stage 2.\n\nMid-air Attack\nConsume STA to perform Plunging Attack, dealing Aero DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting Plunging Attack to cast Basic Attack Stage 2.\n\nDodge Counter\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after a successful Dodge on the ground to attack the target, dealing Aero DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting Dodge Counter to cast Basic Attack Stage 4.\n\nDodge Counter - Decipher\nWhile in the Decipher state, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack shortly after a successful Dodge on the ground to cast Dodge Counter - Decipher to attack the target, dealing Aero DMG (considered Echo Skill DMG).\nLeave the Decipher state upon casting this skill.\n\nMid-air Dodge Counter\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after a successful Dodge in mid-air to attack the target, dealing Aero DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting Mid-air Dodge Counter to cast Basic Attack Stage 2.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.webp"
+              },
+              {
+                "name": "Royan Close Quarters Combat",
+                "type": "Resonance Skill",
+                "desc": "BOOMY BOOM!\nAttack the target, dealing Aero DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting BOOMY BOOM! to cast Basic Attack Stage 3.\n\nBIG BOOMY BOOM!\nWhile in the Decipher state, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Resonance Skill on the ground to cast BIG BOOMY BOOM!, dealing Aero DMG (considered Echo Skill DMG).\nLeave the Decipher state upon casting this skill.\n\nSoliskin to the Aid\nWhile in the Decipher state, with at least {0} {Cus:Sap,S=point P=points SapTag=0} of Full Stop, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Resonance Skill on the ground to cast Soliskin to the Aid, dealing Aero DMG (considered Echo Skill DMG).\nLeave the Decipher state upon casting this skill.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXigelika/SP_IconXigelikaB1.webp"
+              },
+              {
+                "name": "Where Trust Leads Me!",
+                "type": "Resonance Liberation",
+                "desc": "Deal Aero DMG (considered Echo Skill DMG). Gain Divergent for {0}s.\n\nDivergent\nThe next time Sigrika obtains a Rune, she additionally obtains a Rune of the opposite type and removes Divergent.\nWhen Sigrika holds Divergent and Convergent at the same time, Convergent takes priority.\nWhen Sigrika holds {1} {Cus:Sap,S=point P=points SapTag=1} of Full Stop, Divergent doesn't take effect.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXigelika/SP_IconXigelikaC1.webp"
+              },
+              {
+                "name": "Within Infinity's Embrace",
+                "type": "Forte Circuit",
+                "desc": "Heavy Attack - Schemata of Runes\nHold Normal Attack to consume two Runes and cast Heavy Attack - Schemata of Runes, dealing Aero DMG. Based on the types of the Runes consumed, Sigrika gains the following effects:\n- When consuming Rune: Trust and Rune: Answer, this skill gains the effect of Runic Outburst.\n- When consuming two Runes: Trust, this skill gains the effect of Runic Chain Whip.\n- When consuming two Runes: Answer, this skill gains the effect of Runic Soliskin.\nWhen consuming Runes, if Sigrika holds at least {0} {Cus:Sap,S=point P=points SapTag=0} of Soliskin Vitality, consume {1} {Cus:Sap,S=point P=points SapTag=1} to increase the DMG Multipliers of the current Runic Outburst, Runic Chain Whip, and Runic Soliskin by {2}. Obtain a stack of Innate Gift?.\nWhen consuming Runes, if Soliskin Vitality is lower than {3} {Cus:Sap,S=point P=points SapTag=3}, consume all Soliskin Vitality. Every {4} {Cus:Sap,S=point P=points SapTag=4} of Soliskin Vitality consumed grants the current Runic Outburst, Runic Chain Whip, and Runic Soliskin {5} DMG Amplification.\nHeavy Attack - Schemata of Runes deals Echo Skill DMG.\n\nRunic Outburst\nDeal Aero DMG (considered Echo Skill DMG).\n\nRunic Chain Whip\nStagnate nearby targets and deal Aero DMG (considered Echo Skill DMG).\n\nRunic Soliskin\nPull in nearby targets and deal Aero DMG (considered Echo Skill DMG).\n\nForte Circuit - Learn My True Name\nWhen Full Stop reaches {6} {Cus:Sap,S=point P=points SapTag=6}, if Forte Circuit - Learn My True Name is not on Cooldown, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Resonance Skill to cast Resonance Skill - BOOMY BOOM! or Resonance Skill - Soliskin to the Aid. Hold Resonance Skill to consume all Full Stop to cast Forte Circuit - Learn My True Name, dealing Aero DMG (considered Echo Skill DMG).\n\nInnate Gift?\nSigrika can hold up to {7} {Cus:Sap,S=stack P=stacks SapTag=7} of Innate Gift?. Each stack grants Runic Outburst, Runic Chain Whip, Runic Soliskin and Forte Circuit - Learn My True Name {8} DMG Amplification.\nThis effect ends after Sigrika casts Forte Circuit - Learn My True Name or is switched off the field.\n\nRune\nSigrika holds up to {9} {Cus:Sap,S=Rune P=Runes SapTag=9}. Without Full Stop, Sigrika can only hold up to {10} {Cus:Sap,S=Rune P=Runes SapTag=A}. When Sigrika gains a new Rune at max capacity, the existing Runes shift one slot to the left, removing the leftmost Rune. With at least {11} {Cus:Sap,S=point P=points SapTag=B} of Full Stop, Sigrika can hold {12} additional {Cus:Sap,S=Rune P=Runes SapTag=C}.\nHitting a target directly with Basic Attack - Elucidated or Dodge Coun",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXigelika/SP_IconXigelikaY.webp"
+              },
+              {
+                "name": "Solsworn Etymology",
+                "type": "Intro Skill",
+                "desc": "Deal Aero DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting Intro Skill to cast Basic Attack Stage 2.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXigelika/SP_IconXigelikaQTE.webp"
+              },
+              {
+                "name": "In This Very Moment",
+                "type": "Outro Skill",
+                "desc": "Attack the target, deal Aero DMG equal to {0} of Sigrika's ATK. Gain {1} {Cus:Sap,S=stack P=stacks SapTag=1} of Encapsulated for {2}s.\n\nEncapsulated\nWhen any nearby Resonators in the team cast Echo Skills, Stagnate the target and consume {3} {Cus:Sap,S=stack P=stacks SapTag=3} of Encapsulated. Encapsulated stacks up to {4} times.\nAll stacks of Encapsulated are removed when Sigrika is removed from the lineup.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXigelika/SP_IconXigelikaT.webp"
+              },
+              {
+                "name": "ATK+",
+                "desc": "ATK increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.webp"
+              },
+              {
+                "name": "Crit. Rate+",
+                "desc": "Crit. Rate increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.webp"
+              },
+              {
+                "name": "True Names Invoked",
+                "type": "Inherent Skill",
+                "desc": "Casting Intro Skill - Solsworn Etymology grants Convergent for {0}s.\n\nConvergent\nThe next time Sigrika obtains a Rune, she additionally obtains a Rune of the same type and removes Convergent.\nWhen Sigrika holds Divergent and Convergent at the same time, Convergent takes priority.\nWhen Sigrika holds {1} {Cus:Sap,S=point P=points SapTag=1} of Full Stop, Convergent doesn't take effect.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXigelika/SP_IconXigelikaD1.webp"
+              },
+              {
+                "name": "Tune Break: Gauntlets",
+                "type": "Tune Break",
+                "desc": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakFist.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "The Gleam Meant for Radiance",
+                "type": "Sequence 1",
+                "desc": "The DMG Multipliers of Basic Attack - Elucidated, Dodge Counter - Decipher, Resonance Skill - BIG BOOMY BOOM!, and Resonance Skill - Soliskin to the Aid are increased by {0}.\nSigrika becomes immune to interruptions while casting Basic Attack - Elucidated, Resonance Skill - BIG BOOMY BOOM!, and Resonance Skill - Soliskin to the Aid.\nEncapsulated now stacks up to {1} times. After casting Outro Skill In This Very Moment, Sigrika obtains {2} additional {Cus:Sap,S=stack P=stacks SapTag=2}."
+              },
+              {
+                "name": "The Bitterness Steeped in Hope",
+                "type": "Sequence 2",
+                "desc": "The DMG Multiplier of Forte Circuit - Learn My True Name is increased by {0}.\nWhen not in combat for over {1}s, Sigrika gains Divergent. This effect is active for up to {3} {Cus:Sap,S=time P=times SapTag=3} every {2}s."
+              },
+              {
+                "name": "I Flee, Yet I Seek",
+                "type": "Sequence 3",
+                "desc": "Innate Gift? now stacks up to {0} times and is no longer removed after Sigrika casts Forte Circuit - Learn My True Name or is switched off the field.\nWhen not in combat, all Innate Gift? stacks are removed every {1}s."
+              },
+              {
+                "name": "I Lose, Yet I Gain",
+                "type": "Sequence 4",
+                "desc": "When a Resonator in the team casts Echo Skill, all Resonators in the team gain an {0} ATK increase for {1}s."
+              },
+              {
+                "name": "Until Submerged by the Dark",
+                "type": "Sequence 5",
+                "desc": "The DMG Multiplier of Resonance Liberation Where Trust Leads Me! is increased by {0}."
+              },
+              {
+                "name": "True Names Resurfaced, Rising in Light",
+                "type": "Sequence 6",
+                "desc": "Targets take {0} more DMG from Sigrika.\nInnate Gift? gains following effects:\n- Each stack additionally grants Runic Outburst, Runic Chain Whip, Runic Soliskin, and Forte Circuit - Learn My True Name {1} DMG Amplification, up to {2}.\n- Each stack causes Runic Outburst, Runic Chain Whip, Runic Soliskin, and Forte Circuit - Learn My True Name to ignore {3} of the target's DEF when dealing damage, up to {4}."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -2091,6 +2616,111 @@
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLibeika/SP_IconLibeikaY.webp",
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLibeika/SP_IconLibeikaQTE.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.5.6",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Mix-'n'-Match",
+                "type": "Normal Attack",
+                "desc": "Basic Attack - Huntress\nPerform up to 3 consecutive attacks, dealing Electro DMG.\n\nHeavy Attack - Huntress\nHold Normal Attack to continuously fire at enemies at the cost of STA, dealing Electro DMG, considered Basic Attack DMG.\n- Hold and then release Normal Attack while Rebecca is not casting Tactical Dodge - Huntress to cast Heavy Attack - Eat Lead!: Huntress\n\nHeavy Attack - Eat Lead!: Huntress\nDeal Electro DMG.\n\nComin' in Hot! - Huntress\nSomersault in mid-air and land.\nKeep holding Normal Attack after casting this skill to follow up with Heavy Attack - Huntress without consuming STA.\n\nMid-air Plunging Attack - Huntress\nConsume STA to perform a Plunging Attack, dealing Electro DMG.\n\nDodge Counter - Huntress\nPress Normal Attack shortly after a successful Dodge to strike the target, dealing Electro DMG.\n\nTactical Dodge - Huntress\nPress Dodge to attack the target while dodging, dealing Electro DMG.\nCan be cast during the following actions (while on the ground):\n- Performing Basic Attack - Huntress.\n- Performing Heavy Attack - Huntress.\n- Performing Heavy Attack - Eat Lead!: Huntress\n- Casting Comin' in Hot! - Huntress.\n- Casting Tactical Dodge - Huntress.\n- Casting Resonance Skill.\n- Casting Intro Skill.\nAdditional Electro DMG is dealt upon a successful Dodge during Tactical Dodge - Huntress.\nKeep holding Normal Attack after casting this skill to follow up with Heavy Attack - Huntress without consuming STA.\n\nBasic Attack - Guts\nPerform up to 3 consecutive attacks, dealing Electro DMG.\nCasting Tactical Dodge - Guts does not reset Basic Attack - Huntress's attack cycle within a certain time.\n\nHeavy Attack - Guts\nConsume STA and attack the target, dealing Electro DMG.\n\nMid-air Plunging Attack - Guts\nConsume STA to perform a Plunging Attack, dealing Electro DMG.\n\nDodge Counter - Guts\nPress Normal Attack shortly after a successful Dodge to strike the target, dealing Electro DMG.\n\nTactical Dodge - Guts\nPress Dodge and attack the target while dodging, dealing Electro DMG.\nCan be cast during the following actions (while on the ground):\n- Performing Basic Attack - Guts.\n- Casting Tactical Dodge - Guts.\n- Casting Resonance Skill.\n- Casting Intro Skill.\nAdditional Electro DMG is dealt upon a successful Dodge during Tactical Dodge - Guts.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorGun.webp"
+              },
+              {
+                "name": "Tactical Tweaks",
+                "type": "Resonance Skill",
+                "desc": "Resonance Skill - It's Big Boomin' Time!\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Resonance Skill when in the Huntress mode to close the distance and spray lead at enemies, then switch to the Guts mode to blast the target, dealing Electro DMG.\n\nResonance Skill - Come 'n' Get Me!\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Resonance Skill when in the Guts mode to spray lead at the enemy, then use recoil from shooting the ground to close the distance and switch to Huntress mode to continue the barrage, dealing Electro DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} or hold Normal Attack when close to the ground shortly after casting this skill to follow up with Comin' in Hot! - Huntress.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLibeika/SP_IconLibeikaB1.webp"
+              },
+              {
+                "name": "Party 'til Dawn!",
+                "type": "Resonance Liberation",
+                "desc": "Switching to Mk. {0} HMG mode generates a field of Stagnation for {1}s, in which:\nRebecca fires the Mk. {2} HMG automatically, dealing Electro DMG, considered Basic Attack DMG, while accumulating Overload. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} or hold Normal Attack or {Cus:Ipt,Touch=tap PC=press Gamepad=press} Resonance Liberation at intervals after Rebecca starts firing to enhance her Mk. {3} HMG's firepower and accumulate Overload faster. This effect can be triggered up to 2 times.\n- The machine gun will only auto-lock onto the enemy closest to the crosshair in the aim down sight.\n- Rebecca is immobile when firing the Mk. {4} HMG and gains {5} DMG Reduction and Immunity to Interrruption.\n\nOverload\nRebecca can hold up to {6} points of Overload.\nHitting targets with the standard firepower Mk. {7} HMG grants {8} points.\nHitting targets with the enhanced firepower Mk. {9} HMG grants {10} points.\nHitting targets with the twice-enhanced firepower Mk. {11} HMG grants {12} points.\n\nBOOM! Fireworks!\nAfter Mk. {13} HMG mode ends or when Overload is maxed, BOOM! Fireworks! is automatically cast, dealing Electro DMG. Casting BOOM! Fireworks! ends Mk. {14} HMG.\n- Hold Resonance Liberation while in Mk. {15} HMG mode to immediatly cast BOOM! Fireworks!.\n- Leaving the Mk. {14} HMG mode removes all Overload.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLibeika/SP_IconLibeikaC1.webp"
+              },
+              {
+                "name": "Gloves Are Comin' Off!",
+                "type": "Forte Circuit",
+                "desc": "Switch Gears!\nUpon casting Resonance Skill or Intro Skill, Rebecca can freely switch between the Huntress and Guts modes.\n- The Huntress mode increases Rebecca's Crit. DMG by {0}.\n- The Guts mode allows Rebecca to ignore {1} of the target's DEF.\nBy default, Rebecca starts in the Huntress mode.\n\nHack - Shifting\nRebecca inflicts Hack - Shifting upon dealing damage to the targets through the following skills. The same skill can trigger this effect once every {2}s:\nIntro Skill - Yo, It's Big Boomin' Time!, Intro Skill - Hey, Leadhead, Come 'n' Get Me!, Heavy Attack - Rat-tat-tat!: Huntress, Heavy Attack - Bang-bang-bang!: Guts, and Resonance Liberation - BOOM! Fireworks!.\n\nHack Response - Meltdown\nDeal Electro DMG to all targets affected by Hack - Interfered within the range, considered Hack DMG.\n\nHeavy Attack - Rat-tat-tat!: Huntress\nAt {3} points of Fervor, Heavy Attack - Huntress is replaced with Heavy Attack - Rat-tat-tat!: Huntress. Hold Normal Attack to cast Heavy Attack - Rat-tat-tat!: Huntress, which consumes all Fervor to pull in nearby targets and deal Electro DMG, considered Basic Attack DMG.\nDuring Heavy Attack - Huntress, if Fervor is at {4} points and Rebecca is not in the action of Tactical Dodge - Huntress, release Normal Attack to cast Heavy Attack - Rat-tat-tat!: Huntress.\n\nHeavy Attack - Bang-bang-bang!: Guts\nAt {5} points of Fervor, Heavy Attack - Guts is replaced with Heavy Attack - Bang-bang-bang!: Guts. Hold Normal Attack to cast Heavy Attack - Bang-bang-bang!: Guts, which consumes all Fervor to pull in nearby targets and deal Electro DMG, considered Basic Attack DMG.\n\nFervor\nRebecca can hold up to {6} points of Fervor.\nNormal Attacks restore Fervor upon damaging the target.\nResonance Skill restores Fervor upon damaging the target.\nWhen A Girl Gets What She Wants! is gained by casting Intro Skill - Yo, It's Big Boomin' Time! or Intro Skill - Hey, Leadhead, Come 'n' Get Me!, Rebecca restores {7} {Cus:Sap,S=point P=points SapTag=7} of Fervor.\n\nHot Hand\nRebecca can hold up to {8} points of Hot Hand.\nRegenerates over time at a rate of {9} {Cus:Sap,S=point P=points SapTag=9} per second.\nCasting Heavy Attack - Rat-tat-tat!: Huntress or Heavy Attack - Bang-bang-bang!: Guts restores {10} {Cus:Sap,S=point P=points SapTag=A}.\n\nA Girl Gets What She Wants!\nAt {11} points of Hot Hand, casting Intro Skill - Yo, It's Big Boomin' Time!, Intro Skill - Hey, Leadhead, Come 'n' Get Me!, Resonance Skill - It's Big Boomin' Time!, or Resonance Skill - Come 'n' Get Me! grants the following effects for {12}s:\nRebecca simultaneously gains the Stat Bonuses of bo",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLibeika/SP_IconLibeikaY.webp"
+              },
+              {
+                "name": "My Turn!",
+                "type": "Intro Skill",
+                "desc": "Yo, It's Big Boomin' Time!\nWhen in the Huntress mode, upon casting Intro Skill, Rebecca approaches the enemy and sprays lead with Huntress, then switches to the Guts mode to blast the target, dealing Electro DMG.\n\nHey, Leadhead, Come 'n' Get Me!\nWhen in the Guts mode, upon casting Intro Skill, Rebecca approaches the enemy using the recoil of Guts from shooting the ground and switches to the Huntress mode to spray lead at the enemy, dealing Electro DMG.\nPress or hold Normal Attack when close to the ground shortly after casting this skill to follow up with Comin' in Hot! - Huntress.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLibeika/SP_IconLibeikaQTE.webp"
+              },
+              {
+                "name": "Preem Choom",
+                "type": "Outro Skill",
+                "desc": "Summon a turret that continuously attacks enemies for {0}s, dealing {9} Electro DMG each hit.\nThe incoming Resonator gains Edgerunner Bonds, granting {1} All DMG Amplification for {2}s. Resonators with Edgerunner Bonds gain {3} {Cus:Sap,S=stack P=stacks SapTag=3} of Overlimit every {8}s, each stack granting {4} Heavy Attack DMG Amplification, up to {5} (Lucy automatically receives max stacks when her Edgerunner Bonds is active). Switching to another Resonator ends Edgerunner Bonds and Overlimit early.\nLucy can enhance the turret, increasing its DMG Multiplier by {6}, but its on-field duration will be lowered to {7}s.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLibeika/SP_IconLibeikaT.webp"
+              },
+              {
+                "name": "ATK+",
+                "desc": "ATK increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.webp"
+              },
+              {
+                "name": "Crit. Rate+",
+                "desc": "Crit. Rate increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.webp"
+              },
+              {
+                "name": "Hack - Meltdown",
+                "type": "Tune Break",
+                "desc": "When the target's Off-Tune Level is full, Rebecca can cast Tune Break on the target.\n\nRebecca can inflict Hack - Shifting and respond to Hack - Interfered on targets.\nResponding to Hack - Interfered: When any Resonator in the team deals Tune Break DMG and inflicts the Hack - Interfered, Rebecca triggers Hack - Meltdown on the target. Each target can be damaged by this skill up to once every {0}s.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakGun.webp"
+              },
+              {
+                "name": "Tag, You're It!",
+                "type": "Inherent Skill",
+                "desc": "ATK is increased by {0} for {1}s when A Girl Gets What She Wants! is triggered, or when Heavy Attack - Rat-tat-tat!: Huntress or Heavy Attack - Bang-bang-bang!: Guts is cast, stacking up to {2} times.\nWhen a Resonator in the team inflicts Hack - Shifting, their Tune Break Boost is increased by {3} for {4}s.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLibeika/SP_IconLibeikaD1.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "Try Not to Get in the Way!",
+                "type": "Sequence 1",
+                "desc": "The DMG Multipliers of the following skills are increased by {0}:\n- Basic Attack - Huntress, Heavy Attack - Huntress, Tactical Dodge - Huntress, and Dodge Counter - Huntress\n- Basic Attack - Guts, Tactical Dodge - Guts, Dodge Counter - Guts.\nWhen A Girl Gets What She Wants! is triggered, Rebecca gains {1} additional {Cus:Sap,S=stack P=stacks SapTag=1} of Street Smarts for {2}s. Upon performing Tactical Dodge - Huntress or Tactical Dodge - Guts, if Rebecca has sufficient Street Smarts stacks, {3} {Cus:Sap,S=stack P=stacks SapTag=3} will be consumed to restore {4} STA.\nResonance Liberation BOOM! Fireworks! is immune to interruption."
+              },
+              {
+                "name": "Oh, Hey Choom!",
+                "type": "Sequence 2",
+                "desc": "Casting Intro Skill - Yo, It's Big Boomin' Time!, Intro Skill - Hey, Leadhead, Come 'n' Get Me!, or Resonance Liberation - Party 'til Dawn! grants {0} All-Attribute DMG Bonus for all Resonators in the team for {1}s.\nWhen Resonators in the team inflict Hack - Shifting, they gain {2} All DMG Amplification for {3}s.\nHot Hand regenerates twice as fast when Rebecca is out of combat."
+              },
+              {
+                "name": "Don't Sweat Your Six!",
+                "type": "Sequence 3",
+                "desc": "Rebecca's Resonance Liberation - Party 'til Dawn!, and Resonance Liberation - BOOM! Fireworks! gain {0} DMG Multiplier increase.\nRebecca's Resonance Liberation - Party 'til Dawn! gains {1} more explosion range.\nCasting Intro Skill - Yo, It's Big Boomin' Time! or Intro Skill - Hey, Leadhead, Come 'n' Get Me! grants {2} points of Hot Hand."
+              },
+              {
+                "name": "Got Ya Covered!",
+                "type": "Sequence 4",
+                "desc": "Rebecca gains an additional {0} Stat Bonus increase from the A Girl Gets What She Wants! effect."
+              },
+              {
+                "name": "Dreamin' on the Edge",
+                "type": "Sequence 5",
+                "desc": "Rebecca gains {0} Basic Attack DMG Bonus for {1}s when she inflicts Hack - Shifting."
+              },
+              {
+                "name": "Maybe, Just Maybe...",
+                "type": "Sequence 6",
+                "desc": "Rebecca's Basic Attack DMG Bonus from every source is increased by {0}.\nDuring Heavy Attack - Rat-tat-tat!: Huntress or Heavy Attack - Bang-bang-bang!: Guts, Rebecca deals an additional instance of Electro DMG equal to {1} of her ATK, considered Basic Attack DMG.\nRebecca recovers an additional {2} points of Hot Hand when she is casting Heavy Attack - Rat-tat-tat!: Huntress or Heavy Attack - Bang-bang-bang!: Guts.\nWhen Rebecca takes a fatal blow, she does not fall to the damage and instead restores fixed {3} HP for {4} times immediately. This effect is triggered once every {5} min.\nWhen Rebecca stays out of combat for more than {6}s, she restores {7} {Cus:Sap,S=point P=points SapTag=7} of Fervor. This effect is triggered once every {8}s."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -2526,6 +3156,111 @@
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDaniya/SP_IconDaniyaY.webp",
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDaniya/SP_IconDaniyaQTE.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.5.6",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Dreamweaver's Banquet",
+                "type": "Normal Attack",
+                "desc": "Basic Attack - Stagecraft Form\nPerform up to 4 consecutive attacks, dealing Fusion DMG.\n\nBasic Attack - Breakdown Form\nPerform up to 4 consecutive attacks, dealing Fusion DMG.\n\nHeavy Attack - Stagecraft Form\nConsume STA to attack the target, dealing Fusion DMG.\n\nHeavy Attack - Breakdown Form\nConsume STA to pull in nearby targets, dealing Fusion DMG.\n\nMid-air Attack - Stagecraft Form\nConsume STA to perform Mid-air Plunging Attack, dealing Fusion DMG.\n\nMid-air Attack - Breakdown Form\nConsume STA to perform up to 4 consecutive attacks in mid-air, dealing Fusion DMG.\n\nMid-air Heavy Attack - Breakdown Form\nHold Normal Attack in the air to perform Mid-air Plunging Attack at the cost of STA, dealing Fusion DMG.\n\nDodge Counter - Stagecraft Form\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after a successful Dodge to attack the target, dealing Fusion DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to perform Basic Attack - Stagecraft Form Stage 4.\n\nDodge Counter - Breakdown Form\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after a successful Dodge to attack the target, dealing Fusion DMG.\nCan be cast in mid-air.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to perform Basic Attack - Breakdown Form Stage 4 or Mid-air Attack - Breakdown Form Stage 4.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp"
+              },
+              {
+                "name": "Bubbles and Baits",
+                "type": "Resonance Skill",
+                "desc": "Phantom Bubble - Stagecraft Form\nPull in nearby targets, dealing Fusion DMG.\n\nBeckon - Breakdown Form\nPull in nearby targets, dealing Fusion DMG.\nThis skill shares a Cooldown with Banish - Breakdown Form.\nCan be cast in mid-air.\n\nBanish - Breakdown Form\nWhile holding a Dark Core, replace Beckon - Breakdown Form with Banish - Breakdown Form.\nCast Banish - Breakdown Form Stage 1 to pull in nearby targets, dealing Fusion DMG. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack or Resonance Skill shortly after to cast Banish - Breakdown Form Stage 2.\nBanish - Breakdown Form Stage 2 consumes all Dark Cores, dealing Fusion DMG. For each Dark Core consumed, the DMG Multiplier of the attack is increased by {0}.\nThe skill deals Resonance Liberation DMG.\nThis skill shares a Cooldown with Beckon - Breakdown Form.\nCan be cast in mid-air.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDaniya/SP_IconDaniyaB1.webp"
+              },
+              {
+                "name": "Final Act",
+                "type": "Resonance Liberation",
+                "desc": "Final Act - Stagecraft Form\nDeal Fusion DMG.\nAfter performing this skill, obtain Entropy Shift: Breakdown Form for {0}s, then switch to Breakdown Form.\n\nFinal Act - Breakdown Form\nWhen Conformal Charge is full, consume all Conformal Charge and Void Particle to perform this skill.\nDeal Fusion DMG.\nAfter casting this skill, obtain Entropy Shift: Stagecraft Form, which lasts for {1}s, and then switch to Stagecraft Form.\nCan be performed in mid-air.\n\nEntropy Shift: Breakdown Form\nIncreases ATK by {2}.\nObtaining this effect removes the Entropy Shift: Stagecraft Form effect.\n\nEntropy Shift: Stagecraft Form\nGrants {3} point of Void Particle per second.\nObtaining this effect removes the Entropy Shift: Breakdown Form effect.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDaniya/SP_IconDaniyaC1.webp"
+              },
+              {
+                "name": "\"Flawless\"",
+                "type": "Forte Circuit",
+                "desc": "Erosion Field\nAfter casting Resonance Liberation Final Act - Breakdown Form, generate an Erosion Field, lasting for {0}s. Only one Erosion Field generated by your own Resonator can exist at a time.\nErosion Field pulls in nearby targets once every {1}s, dealing Fusion DMG, considered Resonance Liberation DMG.\n\nVoid Particle\nWhen in the Breakdown Form while holding Void Particle, Normal Attack consumes Void Particle on hit and grants the following effects:\n- The skill DMG is considered Resonance Liberation DMG and the DMG Multiplier is increased by {2}.\n- Conformal Charge regenerates {3} faster.\n\nResonance Mode - Fusion Burst\nWhile in Resonance Mode - Fusion Burst, Denia gains the following effects:\n- Each time when the following skills deal damage, inflict {4} {Cus:Sap,S=stack P=stacks SapTag=4} of Fusion Burst on the target. The same skill can only trigger this effect once every {5}s against the same target.\nIntro Skill It's Been A While!, Intro Skill Knock Knock, Resonance Liberation Final Act - Stagecraft Form, Resonance Liberation Final Act - Breakdown Form, and Erosion Field.\n- Each time when the following skills deal damage, inflict Fusion Burst on the target. The same skill can only trigger this effect once every {6}s against the same target.\nBasic Attack - Stagecraft Form Stage 3, Basic Attack - Stagecraft Form Stage 4, Basic Attack - Breakdown Form Stage 3, Basic Attack - Breakdown Form Stage 4, Mid-air Attack - Breakdown Form Stage 3, and Mid-air Attack - Breakdown Form Stage 4.\n- When Denia is in the team, if an enemy falls to Fusion Burst DMG, it counts as caused by the nearest active Resonator.\n\nResonance Mode - Tune Strain\nWhile in Resonance Mode - Tune Strain, Denia gains the following effects:\n- Each time when the following skills deal damage, inflict Tune Strain - Shifting on the target and reset the duration of Tune Strain - Interfered on the target. The same skill can only trigger this effect once every {9}s against the same target.\nIntro Skill It's Been A While!, Intro Skill Knock Knock, Resonance Liberation Final Act - Stagecraft Form, Resonance Liberation Final Act - Breakdown Form, Erosion Field, Basic Attack - Stagecraft Form Stage 3, Basic Attack - Stagecraft Form Stage 4, Basic Attack - Breakdown Form Stage 3, Basic Attack - Breakdown Form Stage 4, Mid-air Attack - Breakdown Form Stage 3 and Mid-air Attack - Breakdown Form Stage 4.\n- When Resonators in the team inflict Tune Strain - Shifting on the target, this target's Off-Tune Level is increased by {10} of the max. This effect can only be triggered on the same target once every",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDaniya/SP_IconDaniyaY.webp"
+              },
+              {
+                "name": "Formal Greetings",
+                "type": "Intro Skill",
+                "desc": "It's Been A While!\nAvailable in Stagecraft Form, dealing Fusion DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack after casting this skill to cast Basic Attack - Stagecraft Form Stage 4.\n\nKnock Knock\nAvailable in Breakdown Form, dealing Fusion DMG.\nCasting this skill grants Entropy Shift: Breakdown Form for {0}s.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDaniya/SP_IconDaniyaQTE.webp"
+              },
+              {
+                "name": "Unfinished Lies",
+                "type": "Outro Skill",
+                "desc": "When in Resonance Mode - Fusion Burst, Fusion Burst DMG against targets near the active Resonator in the team is Amplified by {0} for {1}s.\nThis effect ends early when Denia switches modes.\n\nWhen in Resonance Mode - Tune Strain, the incoming Resonator has their All DMG Amplified by {2} for {3}s.\nAfter this Resonator under this effect inflicts Tune Strain - Shifting, they gain {4} DMG Amplification instead.\nThis effect ends early when this Resonator is switched out or when Denia switches modes.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDaniya/SP_IconDaniyaT.webp"
+              },
+              {
+                "name": "ATK+",
+                "desc": "ATK increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.webp"
+              },
+              {
+                "name": "Crit. DMG+",
+                "desc": "Crit. DMG increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.webp"
+              },
+              {
+                "name": "Shattered Hours",
+                "type": "Tune Break",
+                "desc": "When the target's Off-Tune Level is full, Denia can cast Tune Break on the target.\n\nWhen in Resonance Mode - Tune Strain, Denia gains the following effects:\n- Denia can inflict Tune Strain - Shifting on the target.\n- Denia can respond to Tune Strain - Interfered.\nWhen responding to Tune Strain - Interfered: For each stack of Tune Strain - Interfered on the target, each point of Denia's Tune Break Boost increases her total DMG against the target by {0}. While Denia is in the team, the max stack limit of Tune Strain - Interfered on a target is increased by {1}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakMagic.webp"
+              },
+              {
+                "name": "Vestiges of Falsehood",
+                "type": "Inherent Skill",
+                "desc": "When Denia engages in combat in Stagecraft Form: restore Dark Cores to {1} if she has fewer than {0}; restore Void Particle to {3} {Cus:Sap,S=point P=points SapTag=2} if she has fewer than {2}. This effect can be triggered once every {4}s.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDaniya/SP_IconDaniyaD1.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "Silent Glows in a Dimlit Dream",
+                "type": "Sequence 1",
+                "desc": "Crit. DMG is increased by {0}.\n\nWhen performing Resonance Skill Phantom Bubble - Stagecraft Form, or Resonance Skill Banish - Breakdown Form, Basic Attack - Breakdown Form Stage 3, Basic Attack - Breakdown Form Stage 4, Mid-air Attack - Breakdown Form Stage 3, and Mid-air Attack - Breakdown Form Stage 4, Denia becomes immune to interruption.\n\nWhen Denia enters combat in Stagecraft Form, she obtains the Entropy Shift: Stagecraft Form effect for {1}s.\nWhen Denia enters combat in Breakdown Form, she obtains the Entropy Shift: Breakdown Form effect for {2}s."
+              },
+              {
+                "name": "Tossed in the Tides of Reality",
+                "type": "Sequence 2",
+                "desc": "When Denia is in Resonance Mode - Fusion Burst, after a Resonator in the team inflicts Fusion Burst on the target, they gain {0} Fusion DMG Bonus for {1}s. After Fusion Burst is triggered on enemies near the active Resonator in the team, Denia gains {2} {Cus:Sap,S=stack P=stacks SapTag=2} of Degenerate Voidmatter for {3}s, up to {4} stacks. Each stack of Degenerate Voidmatter causes Denia to ignore {5} of the target's Fusion RES.\nThis effect ends when Denia switches modes.\n\nWhen Denia is in Resonance Mode - Tune Strain, her Forte Circuit effect is enhanced: After a Resonator in the team inflicts Tune Strain - Shifting on the target, their Tune Break Boost is increased by {6} for {7}s, and the target's Off-Tune Level is increased by {8} of the max. This effect can only be triggered once per {9}s on the same target.\nThis effect ends when Denia switches forms.\n\nThe DMG Multiplier of Resonance Skill Banish - Breakdown Form is increased by {10}."
+              },
+              {
+                "name": "Through Dark and Wind, the Erlking Follows",
+                "type": "Sequence 3",
+                "desc": "The DMG Multiplier of Resonance Liberation Final Act - Breakdown Form is increased by {0}.\n\nDenia now holds up to {1} Dark Cores. While in Entropy Shift, the shortest interval at which she can obtain Dark Core is reduced to {2}s.\nThe Entropy Shift: Stagecraft Form effect is enhanced and now grants {3} points of Void Particle per second.\nThe Entropy Shift: Breakdown Form effect is enhanced: Casting Resonance Liberation Final Act - Breakdown Form additionally restores {4} points of Concerto Energy.\n\nDenia's Inherent Skill Vestiges of Falsehood is enhanced:\nUpon entering combat, Dark Core and Void Particle are restored to the max. This effect can be triggered once every {5}s.\n\nWhen the number of Dark Cores reaches the limit, casting Basic Attack - Stagecraft Form Stage 4 or Resonance Skill Phantom Bubble - Stagecraft Form consumes all Dark Cores and increases the DMG Multiplier of this skill by {6}. The DMG dealt is considered Resonance Liberation DMG."
+              },
+              {
+                "name": "From the Far Beyond, to the Far Beyond",
+                "type": "Sequence 4",
+                "desc": "The attack interval of Erosion Field is reduced to {0}s."
+              },
+              {
+                "name": "If Lies Patch Up a Heart",
+                "type": "Sequence 5",
+                "desc": "The DMG of Resonance Liberation Final Act - Stagecraft Form is increased by {0}."
+              },
+              {
+                "name": "May You Find Your Sun in the Silence",
+                "type": "Sequence 6",
+                "desc": "While in Entropy Shift states, gain {0} ATK increase and {1} Fusion DMG Bonus.\n\nWhile Denia is in Resonance Mode - Fusion Burst, after Erosion Field deals damage, trigger Fusion Burst on the target based on its max limit. The Fusion Burst DMG triggered gains a {2} DMG Multiplier increase against the main target and does not remove the Fusion Burst stacks on the targets hit. The effect can be triggered on the same target up to {3} {Cus:Sap,S=time P=times SapTag=3}. When the target is damaged by Resonance Liberation Final Act: Breakdown Form, the effect's trigger count is reset. The trigger count can be reset for the same target once every {4}s.\n\nWhile Denia is in Resonance Mode - Tune Strain, when Resonators in the team deal Tune Break DMG to Mistuned enemies in Tune Strain - Shifting, they additionally inflict {5} {Cus:Sap,S=stack P=stacks SapTag=5} of Tune Strain - Interfered on the target. This effect can only be triggered on the same target once every {6}s."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -2962,6 +3697,111 @@
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAimisi/SP_IconAimisiY.webp",
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAimisi/SP_IconAimisiQTE.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.5.6",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Infinity Calibration",
+                "type": "Normal Attack",
+                "desc": "Basic Attack - Aemeath\nPerform up to 4 consecutive attacks, dealing Fusion DMG.\n\nHeavy Attack - Aemeath\nHold Normal Attack to charge the attack by consuming STA, release to cast Heavy Attack - Aemeath: Charged I, dealing Fusion DMG.\nHold Normal Attack longer to cast Heavy Attack - Aemeath: Charged II, dealing higher Fusion DMG.\nWhen in Instant Response, Heavy Attack - Aemeath: Charged II charges more quickly. Casting Heavy Attack - Aemeath: Charged II, Heavy Attack - Mech: Charged II, or Resonance Liberation Heavenfall Edict: Finale ends Instant Response.\nThis Skill DMG is considered Resonance Liberation DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting Heavy Attack - Aemeath: Charged I to cast Basic Attack - Aemeath Stage 2.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting Heavy Attack - Aemeath: Charged II to cast Basic Attack - Aemeath Stage 3.\n\nMid-air Attack - Aemeath\nConsume STA to perform a Plunging Attack, dealing Fusion DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to cast Basic Attack - Aemeath Stage 2.\n\nDodge Counter - Aemeath\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after a successful Dodge to attack the target, dealing Fusion DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to cast Basic Attack - Aemeath Stage 4.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp"
+              },
+              {
+                "name": "Shared Voyage",
+                "type": "Resonance Skill",
+                "desc": "Form Switch\nAemeath can switch forms between herself and her Mech. The Mech inherits Aemeath's Stats and unlocks new moves.\nAemeath automatically casts Basic Attack - Stage 1 upon casting Form Switch.\nWhile in the Mech form, Aemeath casts Mid-air Attack automatically upon casting Form Switch in mid-air.\n\nSync Strike: Armament Merge\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Resonance Skill shortly after casting Basic Attack - Aemeath Stage 2, 3 & 4, Heavy Attack - Aemeath, or Dodge Counter - Aemeath to cast Sync Strike: Armament Merge, dealing Fusion DMG.\nSwitch into the Mech form after casting this skill. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} the Normal Attack button shortly after to cast Basic Attack - Mech Stage 2.\n\nSync Strike: Call of Dawn\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Resonance Skill shortly after casting Basic Attack - Mech Stage 2, 3 & 4, Heavy Attack - Mech, or Dodge Counter - Mech to cast Sync Strike: Call of Dawn, dealing Fusion DMG.\nCan be cast in mid-air.\nSwitch into Aemeath after casting this skill. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} the Normal Attack button shortly after to cast Basic Attack - Aemeath Stage 2.\n\nBasic Attack - Mech\nPerform up to 4 consecutive attacks, dealing Fusion DMG.\nCan be cast in mid-air close to the ground.\n\nHeavy Attack - Mech\nHold the Normal Attack button to charge by consuming STA, release to cast Heavy Attack - Mech: Charged I to attack the target, dealing Fusion DMG.\nHold the Normal Attack button longer to cast Heavy Attack - Mech: Charged II, dealing higher Fusion DMG.\nWhen in Instant Response, Heavy Attack - Mech: Charged II charges more quickly. Casting Heavy Attack - Aemeath: Charged II, Heavy Attack - Mech: Charged II, or Resonance Liberation Heavenfall Edict: Finale ends Instant Response.\nThis Skill DMG is considered Resonance Liberation DMG.\nCan be cast in mid-air close to the ground.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting Heavy Attack - Mech: Charged I to cast Basic Attack - Mech Stage 2.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting Heavy Attack - Mech: Charged II to cast Basic Attack - Mech Stage 3.\n\nMid-air Attack - Mech\nConsume STA to perform Plunging Attack, dealing Fusion DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} the Normal Attack button shortly after casting this skill to cast Basic Attack - Mech Stage 2.\n\nDodge Counter - Mech\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} the Normal Attack button shortly after a successful Dodge to attack the target, dealing Fusion DMG.\n{Cus:Ipt,Touch=Tap PC=Press",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAimisi/SP_IconAimisiB1.webp"
+              },
+              {
+                "name": "Towards the Daybreak",
+                "type": "Resonance Liberation",
+                "desc": "Heavenfall Edict - Overdrive\nDeal Fusion DMG. Switch into Mech form after casting this skill.\nCan be cast in mid-air close to the ground.\nCasting this skill grants the following effects:\n- Enter Stardust Resonance for {0}s.\n- Enter Heavenfall Edict: Unbound for {1}s.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to cast Basic Attack - Mech Stage 2.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Resonance Skill to perform Resonance Skill Form Switch shortly after casting this skill to cast Basic Attack - Aemeath Stage 2.\nThe next Seraphic Duet cast within {2}s after casting this skill doesn't consume Rupturous Trail/Fusion Trail.\n\nStardust Resonance\nEnhance the effect of Resonance Skill Seraphic Duet.\nThis effect ends after Seraphic Duet is cast {3} times.\n\nHeavenfall Edict - Unbound\nHeavenfall Edict - Overdrive is replaced with Heavenfall Edict - Finale.\nWhen in Heavenfall Edict - Unbound and Resonance Rate reaches the limit, enter Instant Response. Instant Response is removed when the Heavenfall Edict - Unbound state ends.\n\nHeavenfall Edict - Finale\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Resonance Skill or Resonance Liberation to cast Heavenfall Edict: Finale when the following conditions are met:\n- Be in the Heavenfall Edict: Unbound state.\n- Synchronization Rate reaches the limit.\n- Resonance Rate reaches the limit.\nCasting this skill depletes all Synchronization Rate and Resonance Rate, dealing Fusion DMG, and ends the Heavenfall Edict: Unbound state and Seraphic Duo state.\nSwitch back to Aemeath after casting this skill.\nCan be cast in mid-air close to the ground.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAimisi/SP_IconAimisiC1.webp"
+              },
+              {
+                "name": "To Sculpt the Silence",
+                "type": "Forte Circuit",
+                "desc": "Seraphic Duo\nWhen casting Basic Attack - Aemeath Stage 4 or Basic Attack - Mech Stage 4, enter Seraphic Duo for {1}s.\n\nResonance Skill - Seraphic Duet: Overture\nWhen Aemeath is in Seraphic Duo and the Synchronization Rate is no less than {0} points, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Resonance Skill to cast Resonance Skill Seraphic Duet: Overture at the cost of {29} points of Synchronization Rate, dealing Fusion DMG, considered Resonance Liberation DMG.\nCan be cast in mid-air close to the ground.\nSwitch into the Mech form after casting this skill and exit Seraphic Duo. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack within a certain period of time to cast Basic Attack - Mech Stage 2.\n\nResonance Skill - Seraphic Duet: Encore\nIn the Mech form, when in Seraphic Duo and the Synchronization Rate is no less than {0} points, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Resonance Skill to cast Resonance Skill Seraphic Duet: Encore at the cost of {29} points of Synchronization Rate, dealing Fusion DMG, considered Resonance Liberation DMG.\nCan be cast in mid-air close to the ground.\nSwitch back to Aemeath and exit the Seraphic Duo state. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly afterward to cast Basic Attack - Aemeath Stage 2.\n\nResonance Mode\n- In Resonance Mode - Tune Rupture, when Resonators in the team respond to Tune Rupture - Interfered, inflict {2} {Cus:Sap,S=stack P=stacks SapTag=2} of Rupturous Trail on the target for {4}s, stacking up to {3} times.\n\n- In Resonance Mode - Fusion Burst, when Resonators in the team inflict Fusion Burst, inflict {5} {Cus:Sap,S=stack P=stacks SapTag=5} of Fusion Trail for {7}s, stacking up to {6} times.\nWhile in combat, when the Fusion Burst on targets near the active Resonator reaches {8} stacks, inflict {9} stack of Fusion Burst. If the targets have more than {10} stacks of Fusion Burst, trigger Fusion Burst based on their max stack limit and remove all of their stacks.\n\nIn Resonance Mode - Tune Rupture/Resonance Mode - Fusion Burst, inflict Tune Rupture - Shifting/Fusion Burst when the following skills deal damage. The same skill can only trigger this effect on the same target once every {27}s:\nBasic Attack - Aemeath Stage 3 & 4, Basic Attack - Mech Stage 3 & 4, Resonance Skill Sync Strike: Armament Merge, Resonance Skill Sync Strike: Call of Dawn, Intro Skill Songs Across the Universe, and Intro Skill Debut of Meteoric Radiance.\n\nResonance Skill Seraphic Duet gains the following enhancements based on Aemeath's Resonance Mode:\n- When in Resonance Mode - Tune Rupture, Resonance Skill Se",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAimisi/SP_IconAimisiY.webp"
+              },
+              {
+                "name": "Overture of Departure",
+                "type": "Intro Skill",
+                "desc": "Songs Across the Universe\nDeal Fusion DMG.\nCast this skill to enter Starlume Acceleration for {0}s.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to cast Basic Attack - Aemeath Stage 3.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Resonance Skill and cast Resonance Skill Form Switch shortly after casting this skill to cast Basic Attack - Mech Stage 3 automatically.\n\nDebut of Meteoric Radiance\nIn the Mech form, Songs Across the Universe is replaced with Debut of Meteoric Radiance.\nDeal Fusion DMG.\nCasting this skill grants Starlume Acceleration for {0}s.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to cast Basic Attack - Mech Stage 3.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Resonance Skill and cast Resonance Skill Form Switch shortly after casting this skill to cast Basic Attack - Aemeath Stage 3 automatically.\n\nStarlume Acceleration\nIn Starlume Acceleration, casting Resonance Liberation Heavenfall Edict: Overdrive addtionally restores Resonance Rate.\nCasting Resonance Liberation Heavenfall Edict: Overdrive ends Starlume Acceleration.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAimisi/SP_IconAimisiQTE.webp"
+              },
+              {
+                "name": "Silent Protection",
+                "type": "Outro Skill",
+                "desc": "When casting this skill, the following effects are triggered based on the Resonance Mode Aemeath is in:\n- In Resonance Mode - Tune Rupture: all Resonators in the team except Aemeath gain {0} All-DMG Amplification for {1}s. The All-DMG Amplification effect is increased to {2} for Resonators who inflict Tune Rupture - Shifting.\n- In Resonance Mode - Fusion Burst: all Resonators in the team except Aemeath gain {0} All-DMG Amplification for {1}s. The All-DMG Amplification effect is increased to {2} for Resonators who inflict Fusion Burst.\nCasting this skill resets the effects above.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAimisi/SP_IconAimisiT.webp"
+              },
+              {
+                "name": "ATK+",
+                "desc": "ATK increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.webp"
+              },
+              {
+                "name": "Before All Sounds",
+                "type": "Inherent Skill",
+                "desc": "In Instant Response, Heavy Attack - Aemeath and Heavy Attack - Mech gain {0} DMG Amplification.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAimisi/SP_IconAimisiD1.webp"
+              },
+              {
+                "name": "Crit. Rate+",
+                "desc": "Crit. Rate increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.webp"
+              },
+              {
+                "name": "Unlanded Melody",
+                "type": "Tune Break",
+                "desc": "When the target's Off-Tune Level is full, Aemeath can cast Tune Break on the target.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting Tune Break to cast Basic Attack Stage 3.\n\nResponding to Tune Rupture - Interfered: when Resonators in the team trigger Tune Break on the target and cause them to be affected by Tune Rupture - Interfered, Aemeath triggers Tune Rupture Response - Starburst. The same target can only be damaged by this skill once every {0}s.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakKnife.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "Gilded Glimmer of the First Dawn",
+                "type": "Sequence 1",
+                "desc": "In Instant Response, Heavy Attack - Aemeath and Heavy Attack - Mech gain {2} Crit. DMG increase and continuously pull in nearby target while charging.\n\nWhen Aemeath remains in a state that meets all of the following conditions for over {1}s, she enters Instant Response - Brilliance:\n- Out of combat;\n- Not performing Heavy Attack - Aemeath, Heavy Attack - Mech, or Resonance Liberation Heavenfall Edict: Finale.\nInstant Response: Brilliance inherits all effects of Instant Response and remains active even when out of the duration of Heavenfall Edict: Unbound.\nWhen in Instant Response - Brilliance and not in Heavenfall Edict: Unbound, casting Heavy Attack - Aemeath Charged II or Heavy Attack - Mech Charged II grants {5} points of Synchronization Rate.\n\nIn Resonance Mode - Tune Rupture or Resonance Mode - Fusion Burst, when Aemeath defeats a target affected by Rupturous Trail/Fusion Trail, she enters Sealed Trail - Tune Rupture/Sealed Trail - Fusion Burst for {3}s.\nWhile in Sealed Trail - Tune Rupture or Sealed Trail - Fusion Burst, Aemeath records the highest stack count of Rupturous Trail/Fusion Trail among the targets defeated.\nHer next skill that directly damages the target immediately inflicts the targets with the recorded stacks of Rupturous Trail/Fusion Trail, up to the current max limit of Rupturous Trail/Fusion Trail. This ends Sealed Trail - Tune Rupture/Sealed Trail - Fusion Burst and Aemeath cannot enter Sealed Trail - Tune Rupture or Sealed Trail - Fusion Burst for {4}s."
+              },
+              {
+                "name": "Downy Notes of Snowfluff",
+                "type": "Sequence 2",
+                "desc": "The DMG Multiplier of Resonance Skill Seraphic Duet: Overture is increased by {0}.\nThe DMG Multiplier of Resonance Skill Seraphic Duet: Encore is increased by {0}.\n\nWhile in Resonance Mode - Tune Rupture, when the additional instances Tune Rupture DMG triggered by Resonance Skill Seraphic Duet hit the same target, the DMG Multiplier of the Tune Rupture DMG triggered by Resonance Skill Seraphic Duet against this target is increased by {1} for {2}s, stacking up to {3} times.\n\nWhile in Resonance Mode - Fusion Burst, gain the following effects:\n- In the Stardust Resonance state, the DMG Multiplier of Fusion Burst triggered by Resonance Skill Seraphic Duet is further increased to {4} against the main target of the Fusion Burst.\n- Fusion Trail now additionally increases the DMG Multiplier of Fusion Trail triggered by Resonance Skill Seraphic Duet. Each stack of Fusion Trail removed now provides a {5} DMG Multiplier increase to Fusion Burst on the main target.\n- In combat state, when a target near the active Resonator in the team is defeated, immediately trigger Fusion Burst based on the target's current stack limit of Fusion Burst."
+              },
+              {
+                "name": "Fervor Sightly Burns Bright as New",
+                "type": "Sequence 3",
+                "desc": "Resonance Liberation Heavenfall Edict: Finale's DMG Multiplier is increased by {0}.\nResonance Liberation Heavenfall Edict: Overdrive's DMG Multiplier is increased by {3}.\n\nIn Instant Response, Aemeath now inflicts Tune Rupture - Shifting or Fusion Burst on nearby targets while casting Heavy Attack - Aemeath or Heavy Attack - Mech, based on her current Resonance Mode.\n\nInherent Skill Between the Stars is replaced with the following effects:\n\n- In Resonance Mode - Tune Rupture, when Resonators in the team inflict Tune Rupture - Shifting or deal Tune Rupture DMG, Aemeath's Crit. DMG is increased by {1}, and Resonance Liberation Heavenfall Edict: Finale DMG is now Amplified by {2}.\nResonators joining the team or switching Resonance Mode resets this effect.\n\n- In Resonance Mode - Fusion Burst, when Resonators in the team inflict Fusion Burst, Aemeath's Crit. DMG is increased by {1}, and Resonance Liberation Heavenfall Edict: Finale DMG is now Amplified by {2}.\nResonators joining the team or switching Resonance Mode resets this effect."
+              },
+              {
+                "name": "Ethereal Waltz on Binary Tides",
+                "type": "Sequence 4",
+                "desc": "When casting Intro Skill Songs Across the Universe, Intro Skill Debut of Meteoric Radiance, Resonance Skill Sync Strike and Resonance Skill Seraphic Duet, Resonators in the team gain {0} All-Attribute DMG Bonus for {1}s."
+              },
+              {
+                "name": "Voyage to the Astral Shore",
+                "type": "Sequence 5",
+                "desc": "When Aemeath defeats a target directly with her skills, Starflux is reset to {0}.\n\nWhen taking fatal damage, Aemeath is knocked out and turns into 2D Digital Ghost for {2}s.\nIn the 2D Digital Ghost state, Aemeath grants Resonators in the team a Shield equal to {1} of her ATK for {3}s. As she exits from the 2D Digital Ghost state, she revives and recovers {4} of her Max HP and {5} points of Resonance Energy. This effect can be triggered once every {6} min.\nWhen Aemeath revives, she exits the 2D Digital Ghost state and removes the Shield provided."
+              },
+              {
+                "name": "A Zephyr-Kissed Journey to You",
+                "type": "Sequence 6",
+                "desc": "Targets take {0} more Resonance Liberation DMG from Aemeath.\n\nWhen in Resonance Mode - Tune Rupture, Aemeath's Tune Rupture DMG can critically hit, with a fixed Crit. Rate of {1}, and fixed Crit. DMG of {2}.\n\nWhen in Resonance Mode - Fusion Burst and in combat state, Fusion Burst DMG triggered on targets near the active Resonator in the team can critically hit, with a fixed Crit. Rate of {3}, and fixed Crit. DMG of {4}.\n\nThe stacks of Rupturous Trail and Fusion Trail inflicted on the target through Forte Circuit To Sculpt the Silence is doubled.\n\nIn Resonance Mode - Tune Rupture/Resonance Mode - Fusion Burst and in combat, the max stack limit of Rupturous Trail/Fusion Trail on the targets near the active Resonator in the team is increased to {5}. While casting Resonance Skill Seraphic Duet, inflict {6} stacks of Rupturous Trail/Fusion Trail on targets within range for {7}s."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -3398,6 +4238,111 @@
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingY1.webp",
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingQTE.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.5.6",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Ground State Calibration",
+                "type": "Normal Attack",
+                "desc": "Basic Attack\nPerform up to 4 consecutive attacks, dealing Fusion DMG.\n\nHeavy Attack\nConsume STA to attack the target, dealing Fusion DMG.\n\nBasic Attack - Wide Field Observation Mode\nWhile in Wide Field Observation Mode, Basic Attack is replaced with Basic Attack - Wide Field Observation Mode.\nPerform up to 3 consecutive attacks, dealing Fusion DMG.\n\nMid-air Attack\nConsume STA to perform Mid-air Plunging Attack, dealing Fusion DMG. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack within a certain time afterward to cast Basic Attack Stage 3.\n\nDodge Counter\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack right after a successful Dodge to attack the target, dealing Fusion DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after performing this attack to perform Basic Attack Stage 2.\n\nDodge Counter - Wide Field Observation Mode\nWhile in Wide Field Observation Mode, Dodge Counter is replaced with Dodge Counter - Wide Field Observation Mode.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack right after a successful Dodge to counterattack and deal Fusion DMG.\nWithin a certain time afterward, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack to cast Basic Attack - Wide Field Observation Mode Stage 3.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.webp"
+              },
+              {
+                "name": "Resolution",
+                "type": "Resonance Skill",
+                "desc": "Expectation Error\nHeal all nearby Resonators in the team and enter the Parry state, during which DMG taken is reduced by 100% for a time. Switching to another Resonator ends this state immediately.\nIf attacked while in the Parry state, exit the state and cast Resonance Skill - Optimal Solution.\nIf not attacked while in the Parry state, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack to exit the state and cast Basic Attack Stage 2.\n\nOptimal Solution\nStagnate nearby targets and deal Fusion DMG, reducing the cooldown of Resonance Skill - Expectation Error by {0}s.\nSwitching to another Resonator ends the Stagnation effect early.\n\nDistributed Array\nWhile in Wide Field Observation Mode, Resonance Skill is replaced with Resonance Skill - Distributed Array.\nHeal all nearby Resonators in the team and summon Hover Cannons to strike the target, dealing Fusion DMG.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingB1.webp"
+              },
+              {
+                "name": "Critical Protocol",
+                "type": "Resonance Liberation",
+                "desc": "Attack the targets within the effective range, dealing Fusion DMG.\nFor every {1} of Mornye's Energy Regen exceeding {0}, this skill gains an additional {2} Crit. Rate (up to {3}) and {4} Crit. DMG (up to {5}).\nWhen casting this skill, if a Syntony Field is present, remove it and generate a High Syntony Field.\nCan be performed in mid-air.\n\nHigh Syntony Field\n- High Syntony Field lasts for {6}s.\n- Increases the DEF of all nearby Resonators in the team within the High Syntony Field by {8}.\n- Inherits the Syntony Field's boost to resistance to interruption and Off-Tune Buildup Rate.\n- Inherits the Syntony Field's healing effect and increases the Healing Multiplier by {7}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingC1.webp"
+              },
+              {
+                "name": "Mass-Energy Equivalence",
+                "type": "Forte Circuit",
+                "desc": "Baseline Mode\nWhile in her default Baseline Mode, Mornye gains Rest Mass Energy.\n\nHeavy Attack - Geopotential Shift\nWhen Rest Mass Energy reaches {0} points, Heavy Attack is replaced with Heavy Attack - Geopotential Shift.\nCast Heavy Attack - Geopotential Shift to deal Fusion DMG, considered Heavy Attack DMG. Afterward, Mornye jumps into mid-air, consumes all Rest Mass Energy and enters Wide Field Observation Mode.\n\nWide Field Observation Mode\nWide Field Observation Mode lasts for {11}s.\n- Upon entering Wide Field Observation Mode, Mornye generates a Syntony Field.\n- While in Wide Field Observation Mode, Mornye gains Relative Momentum.\n- If Relative Momentum is below {0} when holding Normal Attack, perform Basic Attack - Wide Field Observation Mode Stage 1 to 3 in sequence. If Relative Momentum reaches {0} during this time, cast Heavy Attack - Inversion instead.\n- While moving, Mornye continuously consumes STA. STA cannot be recovered while in Wide Field Observation Mode.\n- When Dodging with directional input, Mornye starts to fly at speed, which lasts for up to 10s or until STA is depleted or until the Wide Field Observation Mode ends.\n- When Mornye is hit or launched into mid-air, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Dodge to immediately recover from the attack, which is considered a successful Dodge. This effect can be triggered up to {12} times, which resets when Wide Field Observation Mode ends.\n- {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Jump and Mornye will slowly descend. Before she lands, Basic Attack - Wide Field Observation Mode, Resonance Skill - Distributed Array, and Heavy Attack - Inversion are unavailable. If Jump is {Cus:Ipt,Touch=tapped PC=pressed Gamepad=pressed} when Mornye runs out of STA, she will exit the Wide Field Observation Mode. She will leave the Wide Field Observation Mode also when she Dodges, Jumps, or performs Mid-air Attacks.\nAdditionally, performing environmental interactions, using Utilities, or switching to another Resonator ends Wide Field Observation Mode. The state also ends when Mornye is no longer airborne.\n\nSyntony Field\n- Syntony Field lasts for {1}s.\n- When the Syntony Field is generated, deal Fusion DMG, considered Resonance Liberation DMG.\n- Continuously restores HP for nearby active Resonators in the team within the Syntony Field, triggered once every {2}s.\n- Increases the Off-Tune Buildup Rate of all nearby Resonators in the team within the Syntony Field by {3}.\n- Enhances the resistance to interruption of nearby active Resonators in the team within the Syntony Field.\n\nHeavy Attack - Inversion\n- Whe",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingY1.webp"
+              },
+              {
+                "name": "Convergence",
+                "type": "Intro Skill",
+                "desc": "Attack the target to deal Fusion DMG, then jump into mid-air, clearing all Rest Mass Energy and entering Wide Field Observation Mode.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingQTE.webp"
+              },
+              {
+                "name": "Recursion",
+                "type": "Outro Skill",
+                "desc": "Resonators in the team gain {0} All DMG Amplification for {1}s.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingP1.webp"
+              },
+              {
+                "name": "Blueprint",
+                "type": "Inherent Skill",
+                "desc": "Mornye's Energy Regen is increased by {4}.\nCasting Intro Skill - Convergence restores {0} points of Concerto Energy, triggered once every {1}s.\nCasting Basic Attack - Wide Field Observation Mode Stage 3 restores {2} points of Concerto Energy, triggered once every {3}s.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNing1D1.webp"
+              },
+              {
+                "name": "Decoupling",
+                "type": "Tune Break",
+                "desc": "Mornye can respond to Tune Rupture - Interfered and Tune Strain - Interfered.\n- Responding to Tune Rupture - Interfered: When any Resonator in the team deals Tune Break DMG and inflicts Tune Rupture - Interfered, Mornye casts Tune Rupture Response - Particle Jet. Each target can be damaged by this skill up to once every {0}s.\n- Responding to Tune Strain - Interfered: Each stack of Tune Strain - Interfered on the target increases Mornye's total DMG against them. Each point of Mornye's Tune Break Boost increases the total DMG by {1}. While Mornye is in the team, the max stack limit of Tune Strain - Interfered on a target is increased by {2}.\nMornye can perform Tune Break against the targets with full Off-Tune Level.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakSword.webp"
+              },
+              {
+                "name": "DEF+",
+                "desc": "DEF increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertygreendefense_UI.webp"
+              },
+              {
+                "name": "Healing Bonus+",
+                "desc": "Healing Bonus increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "The Silent Observer",
+                "type": "Sequence 1",
+                "desc": "Basic Attack \u2013 Wide Field Observation Mode becomes immune to interruption.\nThe duration of Interfered Marker is extended by {0}. Interfered Marker now grants DMG increase even when the target is not affected by Tune Rupture - Interfered or Tune Strain - Interfered. When Mornye applies Observation Marker on a target, she also inflicts Interfered Marker."
+              },
+              {
+                "name": "Morning Star of Entropy",
+                "type": "Sequence 2",
+                "desc": "All nearby Resonators in the team gain Crit. DMG increase against targets with Interfered Marker: Every {2} of Mornye's Energy Regen over {1} grants {3} Crit. DMG increase, up to {4}.\nSyntony Field and High Syntony Field further increase the Off-Tune Buildup Rate of all nearby Resonators in the team by {0}."
+              },
+              {
+                "name": "Blueprint of Recursion",
+                "type": "Sequence 3",
+                "desc": "Casting Resonance Skill - Distributed Array additionally restores {0} points of Concerto Energy and {1} Relative Momentum, triggered once every {2}s."
+              },
+              {
+                "name": "Latent Variables of the Cosmos",
+                "type": "Sequence 4",
+                "desc": "The healing of High Syntony Field is increased by {0}."
+              },
+              {
+                "name": "Time Dilation Effect",
+                "type": "Sequence 5",
+                "desc": "The DMG Multiplier of Resonance Liberation - Critical Protocol is increased by {0}.\nThe DMG Multiplier of Tune Rupture Response - Particle Jet is increased by {1}."
+              },
+              {
+                "name": "To the Far Shores of the Stars",
+                "type": "Sequence 6",
+                "desc": "Resonance Liberation - Critical Protocol deals {0} more DMG. If Mornye has not engaged in combat for over {1}s, she restores Resonance Energy equal to {2} of her Max Resonance Energy every {4}s."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -3820,6 +4765,110 @@
         null,
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiQTE.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.5.6",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Unraveled Spring",
+                "type": "Normal Attack",
+                "desc": "Basic Attack - Zephyr Stance\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Glacio DMG and restoring Cloud Breath on hit.\n\nMid-air Attack - Zephyr Stance\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nDodge Counter - Zephyr Stance\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG and restoring Cloud Breath on hit.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to perform Basic Attack - Zephyr Stance Stage 4.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp"
+              },
+              {
+                "name": "Vernal Screen",
+                "type": "Resonance Skill",
+                "desc": "Resonance Skill - Zephyr Stance\nWhile in Zephyr Stance and Cloud Breath is not full, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Resonance Skill to have Suisui thrust forward, dealing Glacio DMG. If Suisui is the active Resonator while casting the skill, restore Cloud Breath.\nCan be cast in mid-air close to the ground\nThis skill shares a Cooldown with Resonance Skill - Drizzle Stance.\n\nAwakening Spring\nWhile in Zephyr Stance and at full Cloud Breath, Resonance Skill - Zephyr Stance is replaced with Awakening Spring. Casting this skill consumes all Cloud Breath, pulls in nearby targets, and sends Suisui into Drizzle Stance, dealing Glacio DMG and inflicting Glacio Chafe on the target 1 time on hit.\n\nEnrichment\nCasting Awakening Spring or Intro Skill - Tinkling Jade grants all nearby Resonators in the team 1 stack of Enrichment. This effect can be triggered once every 25s. Incoming Resonators receive healing from Suisui at the cost of Enrichment.\n\nResonance Skill - Drizzle Stance\nWhile in Drizzle Stance, Resonance Skill - Zephyr Stance is replaced with Resonance Skill - Drizzle Stance.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Resonance Skill to have Suisui thrust forward, dealing Glacio DMG. If Suisui is the active Resonator while casting the skill, restore Floral Epistle.\nCan be cast in mid-air close to the ground\nThis skill shares a Cooldown with Resonance Skill - Zephyr Stance.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiB1.webp"
+              },
+              {
+                "name": "Song of Thoroughfare",
+                "type": "Resonance Liberation",
+                "desc": "Casting the skill deploys Ceaseless Landscape that lasts for 30s. When Ceaseless Landscape is active, Suisui enters the Roaming Transcendent state when casting Outro Skill - Rippling Waters.\nCeaseless Landscape grants all nearby Resonators in the team the following enhancements:\n- Inflicting a target with Spectro Frazzle, Fusion Burst, Glacio Chafe, and Aero Erosion, or dealing the corresponding Negative Status DMG increases the max stack limit of Negative Status the target can receive by 3 for {0}s. This effect does not stack.\n- Inflicting a target with Electro Flare or dealing the corresponding Negative Status DMG increases the max stack limits of Electro Flare and Electro Rage the target can receive by 3 for {1}s. This effect does not stack.\n- Consuming Havoc Bane stacks on the target after landing a skill allows the Resonator's Havoc DMG to ignore the target's DEF by {2} and Havoc RES by {3} for {4}s. This effect does not stack.\nCan be cast in mid-air close to the ground.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiC1.webp"
+              },
+              {
+                "name": "Lambent Gold",
+                "type": "Forte Circuit",
+                "desc": "Zephyr Stance\nSuisui is in Zephyr Stance by default. When in Zephyr Stance, Suisui can obtain Cloud Breath through certain skills.\n\nDrizzle Stance\nEntering Drizzle Stance clears all Floral Epistle.\nDuring Drizzle Stance:\n- Suisui unlocks new combat moves and restores Floral Epistle through certain skills.\n-Suisui gains increased resistance to interruption.\n- {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack within a certain time after triggering a successful Dodge via Dodge skills to cast Basic Attack - Drizzle Stance Stage 1.\nAfter entering Drizzle Stance for 15s, Suisui ends Drizzle Stance and clears all Floral Epistle upon exiting the state.\n\nDodge - Parting Mist\nWhile performing attacks on the ground, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Dodge to cast Dodge - Parting Mist at the cost of STA.\nWhen in Zephyr Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Cloud Breath. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after triggering the Dodge to cast Dodge Counter - Zephyr Stance.\n- When in Drizzle Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Floral Epistle, and does not reset the cycle of Basic Attack - Drizzle Stance within a certain period.\n\nBasic Attack - Drizzle Stance\nWhen in Drizzle Stance, Basic Attack - Zephyr Stance is replaced with Basic Attack - Drizzle Stance.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack repeatedly to perform up to 4 consequtive attacks, dealing Glacio DMG and restoring Floral Epistle on hit.\nWhen casting Basic Attack - Drizzle Stance Stage 3, continuously pull in nearby targets.\nBasic Attack - Drizzle Stance Stage 4 inflicts Glacio Chafe 1 time on the target on hit.\n\nHeavy Attack - Drizzle Stance\nConsume STA to attack the target, dealing Glacio DMG, and restoring Floral Epistle on hit.\n\nIlluminating Dew\nWhen in Drizzle Stance, keep holding Normal Attack after casting Heavy Attack - Drizzle Stance to cast this skill.\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nSwallow's Cut\nWhen in Drizzle Stance, cast this skill one of the following ways:\n- Release the Normal Attack button while casting Heavy Attack - Drizzle Stance.\n- {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack while Suisui is mid-air.\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nCloud Breath\nMax {0} points.\nWhen in Zephyr Stance:\n- Basic Attack - Zephyr Stance and Dodge Counter - Zephyr Stance restores Cloud Breath on hit.\n- Casting Resonance Skill - Zephyr Stance restores {1} {Cus:Sap,S=point P=points SapTag=1} o"
+              },
+              {
+                "name": "Tinkling Jade",
+                "type": "Intro Skill",
+                "desc": "Attack the target, dealing Glacio DMG, and inflict Glacio Chafe 1 time on the target.\nWhile casting this skill, consume all Cloud Breath to pull in nearby targets and enter Drizzle Stance.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiQTE.webp"
+              },
+              {
+                "name": "Rippling Waters",
+                "type": "Outro Skill",
+                "desc": "Resonators in the team gain {0} All DMG Amplification for 30s.\n\nSuisui enters Roaming Transcendent when Ceaseless Landscape is active.\nSuisui exits Drizzle Stance and consumes all Floral Epistle and unlocks the following effects based on the amount of Floral Epistle consumed:\n\n0 Floral Epistle consumed:\n- All nearby Resonators in the team gain Reflecting Shadows for 6s. Resonators with Reflecting Shadows have increased resistance to interruption.\n\nAt least 200 Floral Epistle consumed:\n- If Ceaseless Landscape is active, Suisui may perform Plume Step for the first time 6s into her Transcendent Dance while in Roaming Transcendent.\n\nAt least 400 Floral Epistle consumed:\n- During this Roaming Transcendent state, the active Resonator within theCeaseless Landscape deals more DMG if they have Reflecting Shadows. For every {2} of Suisui's Energy Regen over {1}, the Resonator's DMG dealt is increased by {3}, up to {4}.\n- If Ceaseless Landscape is active, Suisui may perform the second Plume Step 12s into her Transcendent Dance while in Roaming Transcendent.\n\nAt least 600 Floral Epistle consumed:\n- When Suisui performs the first Plume Step, all nearby active Resonators in the team within theCeaseless Landscape gain the following effects for 24s:\nCasting Outro Skill grants the incoming Resonator Undulating Mist. When Resonators with Undulating Mist consume Negative Status or Electro Rage stacks on the target, they gain an ATK increase: For every {6} of Suisui's Energy Regen over {5}, the Resonator's ATK is increased by {7} for {9}s, up to {8}. Undulating Mist lasts for 14s or until the Resonator is switched off the field. When Undulating Mist is removed, the ATK increase effect is also removed.\n- If Ceaseless Landscape is active, Suisui may perform the third Plume Step 18s into her Transcendent Dance while in Roaming Transcendent.\n\nRoaming Transcendent\nLasts for {10}s.\nDuring Roaming Transcendent, Suisui will merge with Ceaseless Landscape and start a Transcendent Dance, during which she will perform Plume Steps at interval based on the amount of Floral Epistle consumed when Outro Skill - Rippling Waters is cast.\nWhen Suisui is the active Resonator in the team, she stops the Transcendent Dance.\nWhen Ceaseless Landscape isn't active, she will exit the Roaming Transcendent state.\n\nPlume Step\nPerforming Plume Step grants Reflecting Shadows to all nearby Resonators in the team for 6s, inflicts 1 stack of Glacio Chafe on all enemies within the Ceaseless Landscape, and heals the nearby active Resonators in the team within the Ceaseless Landscape.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiT.webp"
+              },
+              {
+                "name": "Healing Bonus+",
+                "desc": "Healing Bonus increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.webp"
+              },
+              {
+                "name": "HP+",
+                "desc": "HP increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.webp"
+              },
+              {
+                "name": "Sky Over Water",
+                "type": "Inherent Skill",
+                "desc": "Consuming Enrichment grants the Resonator {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Spring's Birth, up to {1} stacks. When the Resonator with Spring's Birth is not at full HP, restore their HP by {3} + {4} of Suisui's Max HP at the cost of 1 stack of Spring's Birth every {2}s.\n\nWhen Resonance Skill - Awakening Spring and Intro Skill - Tinkling Jade hit a target, they additionally restore {5} points of Concerto Energy and {6} points of Resonance Energy, and increase the attack's Crit. Rate by {7} and Glacio DMG by {8}. This effect can be triggered up to once every 25s.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiD1.webp"
+              },
+              {
+                "name": "Tune Break: Rectifier",
+                "type": "Tune Break",
+                "desc": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakFist.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "Mountains Washed Into Paintings",
+                "type": "Sequence 1",
+                "desc": "Resonators with Undulating Mist also gain ATK increase after inflicting Negative Status or dealing Negative Status DMG.\nThe duration of Reflecting Shadows obtained through the third Plume Step is extended by {1}.\nBasic Attack - Drizzle Stance, Heavy Attack - Drizzle Stance, and Enhanced Plunging Attack- Enhanced State are immune to interruption."
+              },
+              {
+                "name": "Clouds Pour Like Molten Gold",
+                "type": "Sequence 2",
+                "desc": "All nearby Resonators in the team within the Ceaseless Landscape have their Crit. DMG increased by {0} for 30s after performing the following actions:\n- Inflicting Spectro Frazzle, Fusion Burst, Glacio Chafe, Aero Erosion, and Electro Flare, or dealing the corresponding Negative Status DMG.\n- Consuming Havoc Bane stacks on the target.\nWhen the active Resonator is not in the Ceaseless Landscape, this Crit. DMG bonus effect is disabled."
+              },
+              {
+                "name": "Sparse Curtains Invite Evening Glow",
+                "type": "Sequence 3",
+                "desc": "{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting Resonance Skill - Drizzle Stance to cast Basic Attack - Drizzle Stance Stage 4.\n\nCasting Resonance Skill - Drizzle Stance grants Kingfisher. Switching to another Resonator ends this effect. Casting Basic Attack - Drizzle Stance Stage 4 consumes Kingfisher to restore {0} points of Concerto Energy and {1} points of Floral Epistle. Kingfisher can be consumed up to once every {2}s."
+              },
+              {
+                "name": "Autumn Mountains in Choir Sing",
+                "type": "Sequence 4",
+                "desc": "Healing provided by Enrichment and Spring's Birth are increased by {0}."
+              },
+              {
+                "name": "I Long To Ride The Eastern Wind",
+                "type": "Sequence 5",
+                "desc": "The DMG Multipliers of Basic Attack - Drizzle Stance and Heavy Attack - Drizzle Stance are increased by {0}."
+              },
+              {
+                "name": "Staying True To This Splendid Realm",
+                "type": "Sequence 6",
+                "desc": "The Crit. DMG of Intro Skill - Tinkling Jade and Resonance Skill - Awakening Spring are increased by {0}."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -4123,6 +5172,111 @@
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuosela/SP_SkillIconLuoselaY.webp",
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuosela/SP_SkillIconLuoselaQTE.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.5.6",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Snapshot",
+                "type": "Normal Attack",
+                "desc": "Basic Attack\nPerform up to 3 consecutive attacks, dealing Glacio DMG.\nWhile casting Basic Attack Stage 3, hold Normal Attack to deploy Focus Ring. A cursor will move around the Focus Ring.\n- Releasing the Normal Attack button when the cursor falls outside of Perfect Focus will trigger Basic Attack Stage 3 - Unremarkable, dealing Glacio DMG and restoring Trace.\n- Releasing the Normal Attack button when the cursor falls within Perfect Focus will trigger Basic Attack Stage 3 - Commendable, dealing increased Glacio DMG and restoring additional Trace.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} Normal Attack shortly after casting Basic Attack Stage 2 will trigger Basic Attack Stage 3 - Unremarkable instead of deploying Focus Ring.\nWhen Focus Ring is deployed, the Perfect Focus zone continues to fill the ring. Once Focus Ring is completely filled, it automatically collapses and triggers Basic Attack Stage 3 - Commendable.\nHold Normal Attack to cast Basic Attack Stage 1, 2, and 3 in sequence, and deploy Focus Ring during Basic Attack Stage 3.\n\nMid-air Attack\nConsume STA to perform Plunging Attack, dealing Glacio DMG. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.\n\nDodge Counter\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG. Shortly after performing this attack, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack to perform Basic Attack Stage 3.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp"
+              },
+              {
+                "name": "Phantom Frame",
+                "type": "Resonance Skill",
+                "desc": "Pull in nearby targets, dealing Glacio DMG.\nWhile casting this skill, hold Resonance Skill to deploy Focus Ring. A cursor will move around the Focus Ring.\n- Releasing the Resonance Skill button when the cursor falls outside of Perfect Focus will trigger Compensate, dealing Glacio DMG and restoring Trace.\n- Releasing the Resonance Skill button when the cursor falls within Perfect Focus will trigger Spotlight, dealing increased Glacio DMG and restoring additional Trace.\nIf Lucilla casts the skill on-field without holding Resonance Skill, she directly casts Compensate instead of deploying Focus Ring.\n\nCompensate\nAttack the target, dealing Glacio DMG and reducing the Cooldown of Lucilla's Resonance Skill by {0}s.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.\n\nSpotlight\nAttack the target, dealing Glacio DMG.\nWhile casting Spotlight, Lucilla additionally restores {1} {Cus:Sap,S=point P=points SapTag=1} of Concerto Energy, and inflicts {2} extra {Cus:Sap,S=stack P=stacks SapTag=2} of Glacio Chafe onto the target if she is in Resonance Mode - Glacio Chafe.\nSpotlight is immune to interruptions. Switching to another Resonator while casting Spotlight ends the skill early.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuosela/SP_SkillIconLuoselaB1.webp"
+              },
+              {
+                "name": "Clear As Day",
+                "type": "Resonance Liberation",
+                "desc": "Lucilla holds up to 0 Resonance Energy. Clear As Day consumes no Resonance Energy.\nClear As Day unlocks when Lucilla holds all 3 Photos.\n\nClear As Day\nDeal Glacio DMG and enter Reminiscence:\n- When in Resonance Mode - Glacio Chafe, the DMG dealt is considered Basic Attack DMG. Casting this skill grants Lucilla {0} Basic Attack DMG Bonus for {1}s.\n- When in Resonance Mode - Echo, the DMG dealt is considered Echo Skill DMG. Casting this skill grants Lucilla {0} Echo Skill DMG Bonus for {1}s.\nWhen in Reminiscence, Lucilla's resistance to interruption is increased, and she cannot cast Resonance Skill and Resonance Liberation. Her Basic Attack, Dodge Counter, Mid-air Attack, and Intro Skill - Clip It are replaced with Basic Attack - Tracing Forms, Dodge Counter - Reminiscence, Mid-air Attack - Reminiscence, and Intro Skill - Clip It: Hard Cut respectively.\nCan be performed in mid-air close to the ground.\n\nBasic Attack - Tracing Forms\nPerform up to 3 consecutive attacks, dealing Glacio DMG, considered Basic Attack DMG.\nHold Normal Attack to cast Basic Attack - Tracing Forms Stage 1, 2, & 3 consecutively.\nWhile casting Basic Attack - Tracing Forms Stage 3, consecutively {Cus:Ipt,Touch=tap PC=press Gamepad=pess} or hold Normal Attack to continuously attack the target.\nWhile casting Basic Attack - Tracing Forms Stage 3, release the Normal Attack button or finish the whole Basic Attack - Tracing Forms Stage 3 to automatically perform Letting It Go.\n\nLetting It Go\nDeal Glacio DMG to targets within the range. When in Resonance Mode - Glacio Chafe/Resonance Mode - Echo, DMG dealt is considered Basic Attack DMG/Echo Skill DMG.\nLucilla is immune to interruption and damage during Letting It Go, and Resonator switching is disabled while casting.\nWhile casting Letting It Go, Lucilla additionally restores {2} points of Concerto Energy.\nCasting Letting It Go ends Reminiscence.\n\nMid-air Attack - Reminiscence\nConsume STA to perform Plunging Attack, dealing Glacio DMG, considered Basic Attack DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to cast Basic Attack - Tracing Forms Stage 2.\n\nDodge Counter - Reminiscence\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG, considered Basic Attack DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to perform Basic Attack - Tracing Forms Stage 3.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuosela/SP_SkillIconLuoselaC1.webp"
+              },
+              {
+                "name": "Memory Palace",
+                "type": "Forte Circuit",
+                "desc": "D\u00e9j\u00e0 Vu\nWhile casting Resonance Liberation - Clear As Day, Lucilla grants the following enhancements based on her Resonance Mode:\n- When in Resonance Mode - Glacio Chafe, gain {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Film Roll for {1}s, stacking up to {2} times. All stacks are removed when the duration ends.\n- When in Resonance Mode - Echo, gain {6} {Cus:Sap,S=stack P=stacks SapTag=6} of Zoom for {7}s. Max {8} stack, which is removed when the duration ends.\nThe above effects end early when Lucilla switches Resonance Mode.\n\nFilm Roll\nWhen an active Resonator in the team other than Lucilla inflicts Glacio Chafe onto the target, Lucilla consumes {3} {Cus:Sap,S=stack P=stacks SapTag=3} of Film Roll to inflict Glacio Chafe {4} {Cus:Sap,S=time P=times SapTag=4} on nearby targets. This effect can be triggered once every {5}s.\n\nZoom\nEach stack of Zoom increases the Crit. DMG of the active Resonator's Echo Skill by {9}.\n\nOblivion\nDuring Basic Attack - Tracing Forms Stage 3, Lucilla consumes 1 Photo intermittently to perform Oblivion, dealing 1 instance of Glacio DMG:\n- When in Resonance Mode - Glacio Chafe, this instance of DMG is considered Basic Attack DMG. The skill inflicts {11} {Cus:Sap,S=stack P=stacks SapTag=B} of Glacio Chafe on the target.\n- When in Resonance Mode - Echo, this instance of DMG is considered Echo Skill DMG. Each cast of Oblivion is considered as casting a different Echo Skill.\n\nQuick Glance\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Aim to enter the camera mode. During this mode, Reverberations, environmental collectibles, and special collectibles within a certain range of Lucilla's shot will be marked. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} the shutter button to capture the moment, and the marked items will be gathered.\n\nTrace\nLucilla can hold up to {12} points of Trace.\nRestore {13} {Cus:Sap,S=point P=points SapTag=C} of Trace while casting Intro Skill - Clip It.\nRestore {14} {Cus:Sap,S=point P=points SapTag=D} of Trace while casting Resonance Skill - Spotlight.\nRestore {14} {Cus:Sap,S=point P=points SapTag=D} of Trace while casting Basic Attack Stage 3 - Commendable.\nRestore {15} {Cus:Sap,S=point P=points SapTag=E} of Trace while casting Resonance Skill - Compensate or Basic Attack Stage 3 - Unremarkable.\n\nPhotos\nLucilla can hold up to {16} Photos.\nEvery {17} {Cus:Sap,S=point P=points SapTag=F} of Trace restored generates 1 Photo.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuosela/SP_SkillIconLuoselaY.webp"
+              },
+              {
+                "name": "Clip It",
+                "type": "Intro Skill",
+                "desc": "Clip It\nAttack the target, dealing Glacio DMG and inflicting {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Glacio Chafe.\n\nClip It: Hard Cut\nWhen in Reminiscence, Intro Skill is replaced with Clip It: Hard Cut.\nAttack the target, dealing Glacio DMG and inflicting {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Glacio Chafe.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting this skill to cast Basic Attack - Tracing Forms Stage 3.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuosela/SP_SkillIconLuoselaQTE.webp"
+              },
+              {
+                "name": "Montage",
+                "type": "Outro Skill",
+                "desc": "When in Resonance Mode - Glacio Chafe, Glacio Chafe DMG against targets within a certain range around the active Resonator is Amplified by {0} for {1}s.\nThis effect ends when Lucilla switches Resonance Modes.\n\nWhen in Resonance Mode - Echo, grant {2} Echo Skill DMG Amplification to the incoming Resonator for {3}s.\nThis effect ends when the incoming Resonator is switched off the field or when Lucilla switches Resonance Modes.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuosela/SP_SkillIconLuoselaT.webp"
+              },
+              {
+                "name": "ATK+",
+                "desc": "ATK increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.webp"
+              },
+              {
+                "name": "Crit. Rate+",
+                "desc": "Crit. Rate increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.webp"
+              },
+              {
+                "name": "Slow Motion",
+                "type": "Inherent Skill",
+                "desc": "When Focus Ring is deployed, Lucilla slows targets within her shot.\nWhile casting Resonance Skill - Spotlight, Lucilla grants the following enhancements based on her Resonance Mode:\n- When in Resonance Mode - Glacio Chafe, Glacio RES of targets within a certain range around the active Resonator is reduced by {0} for {1}s. If an enemy falls to Glacio Chafe DMG during this time, it counts as caused by the nearest active Resonator.\n- When in Resonance Mode - Echo, Resonators in the team gain {2} Echo Skill DMG Bonus for {3}s.\nThese enhancements end when Lucilla switches the Resonance Mode.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuosela/SP_SkillIconLuoselaD1.webp"
+              },
+              {
+                "name": "Tune Break: Rectifier",
+                "type": "Tune Break",
+                "desc": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakMagic.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "Distant Noon",
+                "type": "Sequence 1",
+                "desc": "While casting Resonance Skill - Phantom Frame to deploy Focus Ring, the first time landing the cursor within Perfect Focus will immediately expand Perfect Focus to fill up Focus Ring.\nLucilla's Crit. Rate increases by {0} for {1}s when Resonance Skill - Spotlight is cast.\nLucilla is immune to interruptions while casting Resonance Skill - Phantom Frame and Basic Attack - Tracing Forms Stage 3."
+              },
+              {
+                "name": "Slumbering Moonlight",
+                "type": "Sequence 2",
+                "desc": "While casting Resonance Liberation - Clear As Day, Lucilla grants the following enhancements based on her Resonance Mode:\n- When in Resonance Mode - Glacio Chafe, Glacio Chafe DMG against targets within a certain range around the active Resonator is Amplified by {0}.\n- When in Resonance Mode - Echo, grant {1} Echo Skill DMG Bonus to Resonators in the team.\nThese enhancements last as long as Reminiscence is active and remain effective for {2}s after Reminiscence ends.\nThese effects end when Lucilla switches Resonance Modes."
+              },
+              {
+                "name": "Days Fade Unheard",
+                "type": "Sequence 3",
+                "desc": "The DMG Multiplier of Letting It Go is increased by {0}."
+              },
+              {
+                "name": "The Past Fades Into Silence",
+                "type": "Sequence 4",
+                "desc": "Oblivion pulls in nearby targets on hit. While casting Oblivion, Lucilla's ATK is increased by {0} for {2}s, stacking up {1} times. All stacks are removed when the duration ends.\nWhile casting Basic Attack - Tracing Forms Stage 3, Lucilla takes {3} less DMG."
+              },
+              {
+                "name": "Time is Like a Stream",
+                "type": "Sequence 5",
+                "desc": "The DMG Multiplier of Oblivion is increased by {0}."
+              },
+              {
+                "name": "Gazing In the Mist of Time",
+                "type": "Sequence 6",
+                "desc": "When in Reminiscence, each time Lucilla consumes Photo, she gains {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Remembrance, stacking up to {1} times. Each stack of Remembrance increases Letting It Go's DMG dealt to the target by {2}, up to {5}. Casting Letting It Go removes all stacks of Remembrance.\nLucilla gains Longing if she has defeated a target while in Reminiscence: Upon ending Reminiscence while not in combat, consume Longing to restore {4} {Cus:Sap,S=point P=points SapTag=4} of Trace."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -4559,6 +5713,111 @@
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeixue/SP_IconFeixueY.webp",
         "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeixue/SP_IconFeixueQTE.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.5.6",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Flaming Sakura Blade Art",
+                "type": "Normal Attack",
+                "desc": "Basic Attack - Present Self\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack consecutively or hold it down to perform up to 3 consecutive attacks, dealing Glacio DMG.\nBasic Attack - Present Self Stage 3 applies Glacio Chafe 1 time on hit.\n\nHeavy Attack - Frost Splinter: Present Self\nWhen Dedication reaches 300 points, Heavy Attack - Frost Splinter: Present Self becomes available.\nHold Normal Attack to shoot out 3 arrows one by one at the cost of STA, dealing Glacio DMG, considered Resonance Liberation DMG. Hiyuki is immune to interruptions and incoming DMG in the duration.\nWhen the last arrow is shot, 300 points of Dedication is consumed and Foreclaiming: Inward Vision becomes available. The arrow applies Glacio Chafe 1 time on hit.\n\nMid-air Attack - Present Self\nConsume STA to perform a Plunging Attack from Mid-air, dealing Glacio DMG.\n\nDodge Counter - Present Self\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack within a certain period after a successful Dodge to attack the target, dealing Glacio DMG.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack within a certain period after casting this skill to perform Basic Attack - Present Self Stage 3.\n\nBasic Attack - Foreclaimed Self\nWhile in Foreclaimed Self, Basic Attack - Present Self is replaced by Basic Attack - Foreclaimed Self.\nPerform up to 5 consecutive attacks, dealing Glacio DMG, considered Resonance Liberation DMG.\nBasic Attack - Foreclaimed Self Stage 3, 4, and 5 each applies Glacio Chafe 1 time on hit.\n\nHeavy Attack - Foreclaimed Self\nIn Foreclaimed Self, hold Normal Attack to enter Hold Breath, continuously consuming STA. When Normal Attack is released or STA is depleted, Hiyuki leaves the Hold Breath state and thrusts forward, dealing Glacio DMG, considered Resonance Liberation DMG. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack within a certain period after casting this skill to perform Basic Attack - Foreclaimed Self Stage 2.\nIf Hiyuki is attacked by an enemy within a certain period during the thrust, neutralize that instance of damage, Stagnate nearby targets, and become immune to interruptions for a certain period afterward while reducing all incoming DMG by 100%. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack within a certain period after triggering this effect to chain into Basic Attack - Foreclaimed Self Stage 4 instead.\n\nHeavy Attack - Bitterfrost: Foreclaimed Self\nWhen Whiteout Bitterfrost is full, Heavy Attack - Foreclaimed Self is replaced with Heavy Attack - Bitterfrost: Foreclaimed Self.\nHold Normal Attack and consume STA and 3 stacks of",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp"
+              },
+              {
+                "name": "Frostblight",
+                "type": "Resonance Skill",
+                "desc": "Resonance Skill - Present Self\nDeal Glacio DMG.\nCasting this skill enhances the next Basic Attack - Present Self Stage 3, which now restores 100 points of Dedication when cast. Switching to another Resonator ends this effect.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} or hold Normal Attack within a certain period after casting this skill to perform Basic Attack - Present Self Stage 3.\n\nWhile in Foreclaimed Self, Resonance Skill - Present Self is replaced by Frostblight: Jade Cleave and Frostblight: Petalfall:\n\nFrostblight: Jade Cleave\nWhile on the ground, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Resonance Skill to pull in nearby targets and deal Glacio DMG, removing the targets' Frostbind.\nThis skill shares a Cooldown with Frostblight: Petalfall.\n\nFrostblight: Petalfall\nWhile in mid-air, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Resonance Skill to pull in nearby targets and deal Glacio DMG, removing the targets' Frostbind.\nThis skill shares a Cooldown with Frostblight: Jade Cleave.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeixue/SP_IconFeixueB1.webp"
+              },
+              {
+                "name": "Foreclaiming",
+                "type": "Resonance Liberation",
+                "desc": "Foreclaiming: Inward Vision\nForeclaiming: Inward Vision becomes available after casting Heavy Attack - Frost Splinter: Present Self.\nWhile in Present Self, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Resonance Liberation to cast this skill, dealing Glacio DMG. Upon casting this skill, gain 3 points of Frostharden Iai, remove 300 points of Dedication and Frostheart. Then, enter Foreclaimed Self and restore 50 points of Frostheart.\nForeclaiming: Inward Vision applies 4 stacks of Glacio Chafe on hit.\nCasting Foreclaiming: Inward Vision does not consume Resonance Energy.\n\nForeclaiming: Blade Liberation\nWhile in Foreclaimed Self, Foreclaiming: Blade Liberation can be cast via the following ways:\n- {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Resonance Liberation and release to cast Foreclaiming: Blade Liberation. If Hiyuki has 3 points of Snowforged Blade, consume all Snowforged Blade. Otherwise, this cast does not consume Snowforged Blade.\n- Hold Resonance Liberation to enter a charging state. During this state, consume 1 point of Snowforged Blade periodically. Release Resonance Liberation to cast Foreclaiming: Blade Liberation. If no Snowforged Blade is consumed when Resonance Liberation is released, Hiyuki will continue to charge the attack and cast the skill automatically after certain time. Foreclaiming: Blade Liberation will also be cast automatically when Snowforged Blade depletes.\nHiyuki deals Glacio DMG. Each point of Snowforged Blade consumed increases the DMG Multiplier of this attack.\nCasting the skill consumes 300 points of Dedication and Frostheart, and ends Foreclaimed Self.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeixue/SP_IconFeixueC1.webp"
+              },
+              {
+                "name": "Everfrost Dominion",
+                "type": "Forte Circuit",
+                "desc": "Glacio Bite\n- While Hiyuki is in the team, Glacio Chafe inflicted by nearby Resonators in the team is converted to Glacio Bite. Every time a new stack of Glacio Bite is inflicted on a target, an instance of Glacio Bite DMG is triggered based on that enemy's current Glacio Bite stack limit. Glacio Bite can be inflicted on frozen targets. Glacio Bite is also considered Glacio Chafe and Glacio Bite DMG is also considered Glacio Chafe DMG.\n- When Foreclaiming: Inward Vision or Basic Attack - Iai hits a target, if the target has no fewer than {0} stacks of Glacio Bite, consume {1} {Cus:Sap,S=stack P=stacks SapTag=1} and trigger Frostbind once.\n- When Hiyuki joins the team, remove all stacks of Glacio Chafe from the targets. When Hiyuki leaves the team, if there is no other Resonator in the team who can convert Glacio Chafe into Glacio Bite, all enemies' Glacio Bite stacks are cleared.\n\nPresent Self\nHiyuki starts in Present Self. While in Present Self, casting certain skills restores Dedication.\n\nForeclaimed Self\nHiyuki enters Foreclaimed Self after casting Foreclaiming: Inward Vision. While in Foreclaimed Self, Hiyuki unlocks new moves and restores Frostheart through certain attacks.\n\nIai Stance\nIf Hiyuki has at least 100 points of Frostheart, performing any of the following actions causes her to flash backward at the cost of STA and enter Iai Stance:\n- {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Dodge after casting any Normal Attacks - Foreclaimed Self other than Heavy Attack - Bitterfrost: Foreclaimed Self, Frostblight: Jade Cleave, Frostblight: Petalfall, Basic Attack - Iai, or Intro Skill - Frostedge.\n- Hold Resonance Skill within a certain period after casting Frostblight: Jade Cleave or Frostblight: Petalfall.\nWhile performing the actions above, if there is a valid target within the range and the forward input is held down, Hiyuki instead flashes behind the enemy at the cost of STA and enters Iai Stance.\nHiyuki may enter Iai Stance while airborne. Upon entering the Iai Stance, Hiyuki's mid-air Dodge charges are reset. Iai Stance ends if Hiyuki is switched out.\n\nBasic Attack - Iai\nWithin a certain period after entering Iai Stance, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack and consume 100 points of Frostheart to cast Basic Attack - Iai, dealing Glacio DMG, considered Resonance Liberation DMG.\nIf Frostheart remains at 100 points or above after casting this skill, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack within a certain period to cast Basic Attack - Iai again.\nIf Hiyuki is attacked by an enemy within a certain period during Ba",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeixue/SP_IconFeixueY.webp"
+              },
+              {
+                "name": "Frostedge",
+                "type": "Intro Skill",
+                "desc": "Deal Glacio DMG, considered Resonance Liberation DMG, and apply Glacio Chafe 1 time on hit.\nIn Present Self, casting this skill restores 200 points of Dedication. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} or hold Normal Attack within a certain period after casting this skill to cast Basic Attack - Present Self Stage 3.\nIn Foreclaimed Self, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack within a certain period after casting this skill to cast Basic Attack - Foreclaimed Self Stage 2.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeixue/SP_IconFeixueQTE.webp"
+              },
+              {
+                "name": "Snowlight Blessing",
+                "type": "Outro Skill",
+                "desc": "Glacio DMG dealt by nearby Resonators other than Hiyuki in the team is Amplified by {0} against targets affected by Glacio Chafe for {1}s.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeixue/SP_IconFeixueT.webp"
+              },
+              {
+                "name": "ATK+",
+                "desc": "ATK increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.webp"
+              },
+              {
+                "name": "Crit. Rate+",
+                "desc": "Crit. Rate increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.webp"
+              },
+              {
+                "name": "Fine Snow",
+                "type": "Inherent Skill",
+                "desc": "When a Resonator in the team applies Glacio Chafe or Havoc Bane, Hiyuki gains 1 stack of Snow Rust. Snow Rust stacks up to {0} times. Each Resonator can trigger this effect only once in this way.\nBased on Hiyuki's current stacks of Snow Rust, the following bonuses are unlocked:\n1 stack of Snow Rust: When Hiyuki is the active Resonator in the team, Glacio Bite DMG is Amplified by {1} against targets within a certain range. Hiyuki's Crit. DMG is increased by {2}.\n2 stacks of Snow Rust: When Hiyuki is the active Resonator in the team, each time she applies Glacio Chafe, she additionally deals an instance of Glacio Bite DMG with a fixed DMG Multiplier of {3}.\n3 stacks of Snow Rust: When Hiyuki is the active Resonator in the team, Glacio Bite DMG is additionally Amplified by {4} against targets within a certain range.\nThis effect resets when new Resonators are added to the team.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeixue/SP_IconFeixue1D1.webp"
+              },
+              {
+                "name": "Tune Break: Sword",
+                "type": "Tune Break",
+                "desc": "When the target's Off-Tune Level is full, Hiyuki can cast Tune Break on the target.\n\nWhile in Present Self, {Cus:Ipt,Touch=tap PC=press Gamepad=press} or hold Normal Attack shortly after casting Tune Break to cast Basic Attack - Present Self Stage 3.\nWhile in Foreclaimed Self, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack shortly after casting Tune Break to cast Basic Attack - Foreclaimed Self Stage 3.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakKnife.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "Springless",
+                "type": "Sequence 1",
+                "desc": "The DMG Multipliers of Basic Attack - Foreclaimed Self, Heavy Attack - Foreclaimed Self, Mid-air Attack - Foreclaimed Self, and Dodge Counter - Foreclaimed Self are increased by {0}.\n\nBasic Attack - Foreclaimed Self Stage 3 now has an increased range and pulls enemies within range toward the center. Hiyuki is immune to interruptions while casting Basic Attack - Foreclaimed Self Stage 4 & 5.\n\nCasting Foreclaiming: Inward Vision enhances the next Basic Attack - Foreclaimed Self Stage 1 & 2, which now inflict Glacio Chafe 1 time on hit."
+              },
+              {
+                "name": "To Burn Cold in Silence",
+                "type": "Sequence 2",
+                "desc": "Basic Attack - Iai's DMG Multiplier is increased by {0}.\n\nInherent Skill Ephemeral Realm's effect becomes the following one:\nOnce Hiyuki leaves the combat state or recovers from being knocked out, after staying out of combat for 4s, restore {1} {Cus:Sap,S=point P=points SapTag=1} of Snowforged Blade.\n\nOnce Hiyuki leaves the combat state or recovers from being knocked out, after staying out of combat for {2}s, the following effects are triggered once:\n- While in Foreclaimed Self, restore {3} {Cus:Sap,S=point P=points SapTag=3} points of Frostharden Iai.\n- Reset the Cooldown of {4} {Cus:Sap,S=charge P=charges SapTag=4} of Frostblight: Jade Cleave.\n- Restore an additional {6} points of Frostheart for the next {5} {Cus:Sap,S=cast P=casts SapTag=5} of Frostblight: Jade Cleave or Frostblight: Petalfall."
+              },
+              {
+                "name": "No Self, No Bound",
+                "type": "Sequence 3",
+                "desc": "Inherent Skill Fine Snow gains the following effect:\n{0}s after a Resonator joins the team or Hiyuki is revived, Hiyuki gains 1 stack of Snow Rust. Hiyuki can obtain up to 1 stack of Snow Rust in this way.\n\nThe DMG Multipliers of Heavy Attack - Frost Splinter: Present Self and Heavy Attack - Bitterfrost: Foreclaimed Self are increased by {1}.\n\nAt 2 stacks of Snow Rust, while Hiyuki is the active Resonator in the team, the DMG Multiplier of the additionally applied Glacio Bite DMG each time she inflicts Glacio Chafe is increased by {2}."
+              },
+              {
+                "name": "Like Reeds on Tides",
+                "type": "Sequence 4",
+                "desc": "Casting Resonance Skill - Present Self, Frostblight: Jade Cleave, or Frostblight: Petalfall increases the DMG dealt by all nearby Resonators in the team by {0} for {1}s.\n\nRestore {2} of Max HP while casting Frostblight: Jade Cleave or Frostblight: Petalfall."
+              },
+              {
+                "name": "Vessel of Thousand Wishes",
+                "type": "Sequence 5",
+                "desc": "The DMG Multipliers of Resonance Skill - Present Self, Frostblight: Jade Cleave, and Frostblight: Petalfall are increased by {0}."
+              },
+              {
+                "name": "Into a Night Without End",
+                "type": "Sequence 6",
+                "desc": "The Crit. DMG of Foreclaiming: Inward Vision and Foreclaiming: Blade Liberation is increased by {0}.\n\nAt 2 stacks of Snow Rust, the effect \"While Hiyuki is the active Resonator in the team, each time she applies Glacio Chafe, she additionally deals an instance of Glacio Bite DMG with a fixed DMG Multiplier\" changes to \"While Hiyuki is the active Resonator in the team, each time a Resonator in the team applies Glacio Chafe, she additionally deals an instance of Glacio Bite DMG with a fixed DMG Multiplier.\"\nAt 2 stacks of Snow Rust, Hiyuki's Crit. DMG is increased by {1}.\nAt 3 stacks of Snow Rust, the total Glacio Bite DMG taken by targets within a certain range of the active Resonator in the team is increased by {2}."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {

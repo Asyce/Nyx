@@ -10,7 +10,7 @@
   "version": "3.1.4+17277842",
   "liveVersion": "3.0",
   "newCount": 1,
-  "changedCount": 0,
+  "changedCount": 7,
   "roster": [
     {
       "id": "zzz-1591",
@@ -24,6 +24,133 @@
       "el": "Ice",
       "spec": "Attack",
       "status": "beta",
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.1.4+17277842",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Glacial Spearpoint",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunch up to 4 Slashes forward, dealing Ice DMG;\nThe 4th hit of [Basic Attack: Frosty Spearhead] is considered a [Draw Stance];"
+              },
+              {
+                "name": "Basic Attack: Gun-Draw Stance",
+                "type": "Basic",
+                "desc": "While in [Sky Patrol Gunstance] with available [Basic Attack: Gun Retraction] charges, hold to activate:\nActivates the corresponding [Basic Attack: Gun Retraction] based on the current branch stage, dealing Ice DMG;\n[Basic Attack: Gun Retraction] has three stages. Each use advances the stage count. After activating Stage 3 of [Basic Attack: Gun Retraction], the stage count resets;\nIf Sigrid is attacked during the charge Stance of Stages 1 or 2 of [Basic Attack: Gun Retraction], she will Block with her shield. Upon a successful Block, the incoming attack DMG is negated, the [Sky Patrol Gunstance] state is refreshed, and one [Basic Attack: Gun Retraction] charge is granted. After a successful Block, press to activate [Basic Attack: Gun Retraction] at the corresponding stage;\n[Basic Attack: Gun Retraction] used after [Basic Attack: Piercing Frost Tip] retains the current stage count of [Basic Attack: Piercing Frost Tip];\nDMG received during this skill is reduced by 60%;\nAnti-Interrupt level is increased during this skill;\nCharacter is invulnerable during Stage 3 of [Basic Attack: Gun Retraction]."
+              },
+              {
+                "name": "Dodge: Cloud Step",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge;\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Wind Chase",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nPerform a forward slash, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Parting Shot",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nCondenses ice at the spear tip to unleash a powerful counter against enemies ahead, dealing Ice DMG;\nA Dodge Counter: Parting Shot used after Basic Attack: Frostbite Spearhead retains the number of stages of Basic Attack: Frostbite Spearhead;\nThis skill is considered a Draw Stance;\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Guardian",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nDash forward with freezing force, dealing Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Unyielding Frost",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Ice Glutton",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nSwing the spear upward, then slam it down with a heavy attack, dealing massive Ice DMG;\nThis skill is considered a Spear Draw Stance;\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Ice Blossom",
+                "type": "Special",
+                "desc": "Press to activate:\nLunge forward with three consecutive thrusts, dealing Ice DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Enhance Special: Chaotic Jade",
+                "type": "Special",
+                "desc": "When Energy is sufficient and not in the [Sky-Patrol Spearstance] state, press to activate:\nLaunch a powerful series of forward thrusts, dealing massive Ice DMG;\nWhen hit by an enemy attack during the skill's thrusts, Sigrid uses her shield to Block. A successful Block negates the attack's DMG, refreshes the [Sky-Patrol Spearstance] state, and grants one opportunity to activate [Basic Attack: Spear-Draw Stance]; press after a successful Block to activate the corresponding hit of [Basic Attack: Spear-Draw Stance];\nThis skill is considered a [Spear-Draw Stance];\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Blasting Enhance Special: Jade Shatter",
+                "type": "Special",
+                "desc": "When Energy is sufficient and in the [Sky-Patrol Stance] state, press to activate:\nLaunch a powerful series of forward thrusting strikes, dealing massive Ice DMG;\nIf Sigrid is struck by an enemy attack during the thrusting strikes, she will Block with her shield. Upon a successful Block, the incoming attack DMG is negated, the [Sky-Patrol Stance] state is refreshed, and an opportunity to use [Basic Attack: Rifle-Retract Form] is granted. Press after a successful Block to use the corresponding sequence of [Basic Attack: Rifle-Retract Form];\nThis skill is considered a [Rifle-Draw Form];\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Frost Ground Roll",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunch a powerful Pierce at enemies ahead, dealing massive Ice DMG;\nGain the [Tempered] effect, increasing DMG dealt by subsequent [Basic Attack: Gun Stow] by 25%, lasting 50s;\nWhen this skill hits an Elite or Boss-Rank enemy in a Stunned state for the first time, the current [Basic Attack: Gun Stow] stage count is recorded and reset, entering [Formation Break] state. This effect can trigger at most once per Stun;\nDuring [Formation Break] state, the duration of [Sky Patrol Stance] does not decrease, and holding allows continuous use of [Basic Attack: Gun Stow] Stages 1 through 3;\nAfter using [Basic Attack: Gun Stow] Stage 3, [Formation Break] state ends and the [Basic Attack: Gun Stow] stage count is restored;\nThis skill is treated as [Gun Draw];\nDuring [Formation Break] state, [Basic Attack: Gun Stow] hitting Stunned enemies will not open the Chain Attack window;\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Frost Sky",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nChannels the power of extreme cold to unleash a devastating series of dashes forward, dealing massive Ice DMG;\nThis skill is considered a Draw;\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Sky Knight",
+                "type": "Core Passive",
+                "desc": "[Basic Attack] Phase 4, [EX Special Attack], [Assist Follow-Up], [Chain Attack], [Ultimate], and [Dodge Counter] are considered [Draw-Fire Stance];\nWhen Sigrid uses any [Draw-Fire Stance] in combat, if not currently in [Sky Patrol Gunstance], she enters [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nIn combat, while in [Sky Patrol Gunstance], when Sigrid uses any [Draw-Fire Stance], she can refresh [Sky Patrol Gunstance] and gains 1 use of [Basic Attack: Holster Stance], storable up to 1 time;\nThe duration of [Sky Patrol Gunstance] decreases as [Basic Attack: Holster Stance] phases increase: at Phase 1/2/3, the duration is 8/7/6s respectively;\nWhen [Sky Patrol Gunstance] ends, [Basic Attack: Holster Stance] phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing [Sky Patrol Gunstance], Sigrid's CRIT Rate increases by 66% and her ATK increases by 330, lasting 8s; on repeated triggers, the duration is extended by 8s, up to a maximum of 40s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%."
+              },
+              {
+                "name": "Additional Ability: Sky Alliance",
+                "type": "Additional Ability",
+                "desc": "Triggers when your squad has an [Assist] or [Stun] character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by 15%"
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "A long, long time ago,",
+                "type": "Mindscape 1",
+                "desc": "When the 3rd hit of [Basic Attack: Gun Retraction] is triggered, enter or refresh [Sky Patrol Gunstance] and gain one opportunity to trigger [Basic Attack: Gun Retraction]; excess [Basic Attack: Gun Retraction] opportunities cause the next [Basic Attack: Gun Retraction] to deal an extra 100% DMG; Sigrid's own ATK increases by 22%."
+              },
+              {
+                "name": "Act One of the Legendary",
+                "type": "Mindscape 2",
+                "desc": "[Draw Stance] and [Basic Attack: Holster Stance] deal Ice DMG that ignores 24% of the target's DEF; the duration of the [Sky Patrol Gunform] effect is extended by 2s;"
+              },
+              {
+                "name": "Miracle Guardian",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Hero Upgrading",
+                "type": "Mindscape 4",
+                "desc": "Each time [Aerial Gunstance] refreshes, increase the DMG dealt by 20% for 8s. Repeated triggers can extend the duration by 8s, up to a maximum of 40s."
+              },
+              {
+                "name": "Azure Sky Oath",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Knight of the Skies",
+                "type": "Mindscape 6",
+                "desc": "[Basic Attack: Gun Draw] The first hit on an enemy in the 1st/2nd/3rd stage deals an additional 150%/150%/200% DMG."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -1469,6 +1596,11521 @@
       },
       "recent": 1,
       "betaStatus": "new"
+    },
+    {
+      "id": "zzz-aria",
+      "n": "Aria",
+      "localizedNames": {
+        "en": "Aria",
+        "zh": "\u7231\u82ae",
+        "ja": "\u30a2\u30ea\u30a2",
+        "ko": "\uc544\ub9ac\uc544"
+      },
+      "title": "Kingdom of Delusion",
+      "slug": "aria",
+      "release": 1772582400000,
+      "releasePatch": "2.6",
+      "updated": 1782165600000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm9702939|Rebecca Wang",
+        "japanese": "Kaori Maeda|Maeda Kaori (\u524d\u7530 \u4f73\u7e54\u91cc)",
+        "chinese": "https://zh.moegirl.org.cn/\u9759\u5bb8|Jingchen (\u9759\u5bb8)",
+        "korean": "ko:\ucc28\uc601\ud76c|Cha Young-hee (\ucc28\uc601\ud76c)"
+      },
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/aria-746e633109ad.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/aria-85e6eab1e21b.webp",
+      "signatureWeapon": {
+        "id": "14150",
+        "name": "Angel in the Shell",
+        "type": "Anomaly",
+        "educated": false
+      },
+      "signatureWeaponId": "14150",
+      "signatureWeaponName": "Angel in the Shell",
+      "status": "live",
+      "labels": [],
+      "r": "S",
+      "el": "Ether",
+      "spec": "Anomaly",
+      "tag": "Angels of Delusion",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.1.4+17277842",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Sweet Melody",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunches up to four consecutive attacks forward, dealing Ether DMG.\nAfter hitting an enemy with the fourth hit, 1 Fandom Power is generated on the field after the attack ends."
+              },
+              {
+                "name": "Basic Attack: Perfect Pitch",
+                "type": "Basic",
+                "desc": "Hold to activate:\nAria enters a charging state and can reach three levels of charge. Releasing or reaching the maximum charge time causes Aria to unleash a powerful downward attack forward based on the current charge level, dealing massive Ether DMG.\nIf there is Fandom Power nearby while Aria is charging, she will absorb the Fandom Power, with each absorbed Fandom Power instantly increasing charge level by 1 and granting 1 stack of a buff that increases the next Basic Attack: Perfect Pitch's Ether Anomaly Buildup by 10%. This buff can stack up to 2 times and is removed after the attack ends.\nAfter the 4th hit of Basic Attack: Sweet Melody, Special Attack: Full-Sugar Electronica - No Ice, an EX Special Attack, a level three charged Basic Attack: Perfect Pitch, a Quick Assist, a Chain Attack, or an Ultimate, if there are at least 2 Fandom Power nearby, hold to consume 2 Fandom Power and quickly activate a level three charged Basic Attack: Perfect Pitch. After a level three charged Basic Attack: Perfect Pitch, a Chain Attack, or an Ultimate, if there are at least 2 Fandom Power nearby, a level three charged Basic Attack: Perfect Pitch can also be quickly activated by pressing within a short window, consuming 2 Fandom Power.\nAnti-Interrupt Level is increased while charging, and received DMG is reduced by 40%. Character is invulnerable while using this attack."
+              },
+              {
+                "name": "Dodge: On-Beat Precision",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nIf activated during a Basic Attack: Sweet Melody chain, this action does not reset the Basic Attack count.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Silky-Smooth Combo",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nLaunches a swift slashing attack forward, dealing Ether DMG.\nIf activated during a Basic Attack: Sweet Melody chain, this action does not reset the Basic Attack count."
+              },
+              {
+                "name": "Dodge Counter: Slide-Shift Variation",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nUnleashes a powerful slash against the target, dealing Ether DMG.\nAfter using this skill, it can be immediately followed up with the 3rd hit of Basic Attack: Sweet Melody.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Shatter Fantasy",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nDelivers a powerful slash to the target, dealing Ether DMG.\nAfter using this skill, it can be immediately followed up with the 3rd hit of Basic Attack: Sweet Melody.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Clutch Save",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Encore Song",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleashes a powerful series of slashes on the target, dealing massive Ether DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Full-Sugar Electronica",
+                "type": "Special",
+                "desc": "Press to activate:\nDelivers a forward kick, dealing Ether DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Special Attack: Full-Sugar Electronica - No Ice",
+                "type": "Special",
+                "desc": "After the 4th hit of Basic Attack: Sweet Melody, an Assist Follow-Up, a Chain Attack, or an Ultimate, press to activate:\nDelivers a quicker forward kick, dealing Ether DMG. If the attack hits an enemy, 1 Fandom Power is generated on the field after the attack ends.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Fall Into Delusion",
+                "type": "Special",
+                "desc": "With enough energy, press to activate:\nDelivers a powerful forward kick followed by a sonic wave attack, dealing Ether DMG. If the attack hits an enemy, 3 Fandom Power are generated on the field after the attack ends.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Instantly Hooked",
+                "type": "Special",
+                "desc": "After launching EX Special Attack: Fall Into Delusion, and with enough Energy, press to activate:\nPerforms a powerful downward attack in front, dealing Ether DMG. If the attack hits an enemy, 3 Fandom Power are generated on the field after the attack ends.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Dream Collab",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunches a series of attacks forward, dealing massive Ether DMG. 4 Fandom Power are generated on the field on skill activation.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: 100% Energy",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nReleases all her power, entering Moment of Delusion, and fires multiple powerful shots at the target, dealing massive Ether DMG.\nUpon entering Moment of Delusion, Aria gains 3 stacks of All-Out Cheering and activates Ether Veil: Delusion Reprise. While Ether Veil: Delusion Reprise is active, all squad members gain an additional 50 ATK for 30s. Re-activating Ether Veil: Delusion Reprise will first cancel any existing instance of Ether Veil: Delusion Reprise.\nWhile Aria is charging, if she has All-Out Cheering, stacks of All-Out Cheering are consumed first to charge. Each stack of All-Out Cheering consumed increases the charge level by 2.\nUpon entering Moment of Delusion, if Aria already has All-Out Cheering, all remaining stacks of All-Out Cheering are first converted into Fandom Power and generated on the field. Each stack of All-Out Cheering is converted into 2 Fandom Power.\nMoment of Delusion lasts for up to 15s. During Moment of Delusion, Aria's Basic Attack: Perfect Pitch 3rd attack is upgraded to an enhanced version.\nWhen exiting Moment of Delusion, if Aria has All-Out Cheering, all remaining stacks of All-Out Cheering are converted into Fandom Power and generated on the field. Each stack of All-Out Cheering is converted into 2 Fandom Power.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Innate Stage Presence",
+                "type": "Core Passive",
+                "desc": "Aria's Anomaly Proficiency increases by 90.\nIf Aria's 3rd hit of Basic Attack: Perfect Pitch lands a heavy attack on an enemy suffering an Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it will trigger Abloom, which resolves an additional instance of Attribute Anomaly DMG equal to 27.5%/14.3%/35.7%/2.5%/3.6%/1.4% per 10 points of initial Anomaly Mastery of the original Anomaly DMG. If the target is Stunned, the DMG ratio is further increased by 50%."
+              },
+              {
+                "name": "Additional Ability: Collaborative Stage",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Stun, Support, or Anomaly character, or shares the same Faction:\nWhen Ether Veil is activated, 4 Fandom Power are generated on the field. This can trigger once every 1s.\nWhen any squad member applies Corruption to an enemy, its duration is extended by 3s."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Energetic Sound Waves",
+                "type": "Mindscape 1",
+                "desc": "When Aria's Basic Attack, Special Attack, or EX Special Attack deals DMG to enemies, it ignores 10% of the target's Ether Anomaly Buildup RES. Additionally, when Aria triggers Abloom, it has a chance to trigger a critical hit. The base CRIT Rate is 25%, and CRIT DMG is 25%. If initial Anomaly Mastery exceeds 100, each additional point of initial Anomaly Mastery increases this effect's CRIT Rate by 0.5%."
+              },
+              {
+                "name": "Fantastical Beat",
+                "type": "Mindscape 2",
+                "desc": "When Aria attacks or triggers Abloom, it ignores 16% of the target's DEF. During Moment of Delusion, attacks and Abloom triggers also ignore an additional 8% of the target's DEF."
+              },
+              {
+                "name": "Delulu",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Mechanical Angel",
+                "type": "Mindscape 4",
+                "desc": "When Aria triggers Abloom, she gains 4 Energy and 70 Decibels. This effect can trigger once every 10s."
+              },
+              {
+                "name": "Tears in the Rain",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Construct's Dream",
+                "type": "Mindscape 6",
+                "desc": "Upon entering the battlefield, Aria immediately gains 1,200 Decibels. In Investigation Zone mode, this effect can trigger once every 180s. After Aria enters Moment of Delusion, she will not exit it, and enhanced Basic Attack: Perfect Pitch and her Ultimate deal 40% increased Ether DMG. While in Moment of Delusion, when an enemy on the field enters an Anomaly state, Aria gains 1 stacks of All-Out Cheering. This effect can occur once every 6s. When gaining the All-Out Cheering effect, if already at 3 stacks of All-Out Cheering, any excess All-Out Cheering is converted into 2 Fandom Power and generated on the field."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100213",
+            "name": "Basic Anomaly Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100223",
+            "name": "Advanced Anomaly Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100233",
+            "name": "Controller Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100115",
+            "name": "Basic Ether Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100125",
+            "name": "Advanced Ether Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100135",
+            "name": "Specialized Ether Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110008",
+            "name": "Clouded Crystalline Substance",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
+            "source": "giant beast \"Sobek\" controlled by The Thrall",
+            "sourceDetails": [
+              {
+                "name": "giant beast \"Sobek\" controlled by The Thrall"
+              }
+            ]
+          },
+          {
+            "id": "110506",
+            "name": "Higher Dimensional Data: Falling Fist",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
+            "source": "Hollow Thug - Rampant Brute / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Rampant Brute",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_DubiousHero.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110506",
+                  "name": "Higher Dimensional Data: Falling Fist",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
+                  "source": "Hollow Thug - Rampant Brute / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Rampant Brute",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_DubiousHero.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110506",
+                  "name": "Higher Dimensional Data: Falling Fist",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
+                  "source": "Hollow Thug - Rampant Brute / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Rampant Brute",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_DubiousHero.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110008",
+                  "name": "Clouded Crystalline Substance",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
+                  "source": "giant beast \"Sobek\" controlled by The Thrall",
+                  "sourceDetails": [
+                    {
+                      "name": "giant beast \"Sobek\" controlled by The Thrall"
+                    }
+                  ]
+                },
+                {
+                  "id": "110506",
+                  "name": "Higher Dimensional Data: Falling Fist",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
+                  "source": "Hollow Thug - Rampant Brute / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Rampant Brute",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_DubiousHero.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110008",
+                  "name": "Clouded Crystalline Substance",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
+                  "source": "giant beast \"Sobek\" controlled by The Thrall",
+                  "sourceDetails": [
+                    {
+                      "name": "giant beast \"Sobek\" controlled by The Thrall"
+                    }
+                  ]
+                },
+                {
+                  "id": "110506",
+                  "name": "Higher Dimensional Data: Falling Fist",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
+                  "source": "Hollow Thug - Rampant Brute / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Rampant Brute",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_DubiousHero.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110008",
+                  "name": "Clouded Crystalline Substance",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
+                  "source": "giant beast \"Sobek\" controlled by The Thrall",
+                  "sourceDetails": [
+                    {
+                      "name": "giant beast \"Sobek\" controlled by The Thrall"
+                    }
+                  ]
+                },
+                {
+                  "id": "110506",
+                  "name": "Higher Dimensional Data: Falling Fist",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
+                  "source": "Hollow Thug - Rampant Brute / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Rampant Brute",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_DubiousHero.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 4105000,
+        "weapon": {
+          "name": "Angel in the Shell",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1501.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1501.webp",
+          "items": [
+            {
+              "id": "101012",
+              "name": "Anomaly Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+            },
+            {
+              "id": "101022",
+              "name": "Reinforced Anomaly Component",
+              "qty": 32,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+            },
+            {
+              "id": "101032",
+              "name": "Specialized Anomaly Component",
+              "qty": 30,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+            }
+          ],
+          "cost": 400000
+        }
+      },
+      "recent": 1,
+      "betaStatus": "changed"
+    },
+    {
+      "id": "zzz-pyrois",
+      "n": "Pyrois",
+      "localizedNames": {
+        "en": "Pyrois",
+        "zh": "\u4f69\u6d1b\u4f0a\u65af",
+        "ja": "\u30d4\u30e5\u30ed\u30a4\u30b9",
+        "ko": "\ud53c\ub85c\uc774\uc2a4"
+      },
+      "slug": "pyrois",
+      "release": 1781654400000,
+      "releasePatch": "3.0",
+      "updated": 1781647200000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole63.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/pyrois-4c5bdf76ba79.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
+      "signatureWeapon": {
+        "id": "14155",
+        "name": "Sol Exuvia",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14155",
+      "signatureWeaponName": "Sol Exuvia",
+      "status": "live",
+      "labels": [
+        "New"
+      ],
+      "r": "S",
+      "el": "Ether",
+      "spec": "Attack",
+      "tag": "Unknown",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.1.4+17277842",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Emberglow",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerforms up to three attacks forward, dealing Ether DMG."
+              },
+              {
+                "name": "Basic Attack: Celestial Light",
+                "type": "Basic",
+                "desc": "With 30 or more , hold to activate:\nUnleashes up to four attacks forward, dealing massive Ether DMG.\nIf another character is switched in during the 3rd hit, Pyrois automatically performs the 4th hit off-field.\nEach hit consumes a certain amount of Solar Prominence.\nCharacter is invulnerable during the 3rd and 4th hits."
+              },
+              {
+                "name": "Dodge: Twilight",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Sunrise",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nDelivers a quick slash forward, dealing Ether DMG."
+              },
+              {
+                "name": "Dodge Counter: First Light",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nPerforms a forward spinning slash, dealing Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Duskguard",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nLaunches a series of attacks against the target, dealing Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Ironhide Behemoth",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Return to Daylight",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nPerforms a forward thrust attack, dealing Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Fading Rays",
+                "type": "Special",
+                "desc": "Press to activate:\nPerforms a rush attack, dealing Ether DMG."
+              },
+              {
+                "name": "EX Special Attack: Sun's Halo",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nQuickly charges forward and performs a series of consecutive attacks, dealing massive Ether DMG.\nIf hit by an enemy attack during the charge, triggers a Perfect Block effect, nullifying the damage and increasing the move's Interrupt Level to that of a Heavy Defensive Assist.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Assault Directive",
+                "type": "Special",
+                "desc": "When an Ultimate or EX Special Attack: Sun's Halo is used, Phaethon performs an assist attack, dealing Ether DMG. This effect can trigger once every 2.5s, and is guaranteed to trigger when using an Ultimate."
+              },
+              {
+                "name": "Chain Attack: Ceremonial March",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nPerforms a coordinated attack with Phaethon, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Total Annihilation",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the upper branch to activate:\nAfter charging, performs a downward slash, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Triumphant Return",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the lower branch to activate:\nReleases an energy burst in the surrounding area, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Unbound Swordstorm",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the left branch to activate:\nUnleashes consecutive attacks forward, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Eternal Imprisonment",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the right branch to activate:\nGathers energy ahead before unleashing a Finishing Move, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Radiant Chariot",
+                "type": "Core Passive"
+              },
+              {
+                "name": "Additional Ability: Glorious Legion",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Stun or Support character:\nPyrois' CRIT DMG increases by 40%.\nUsing a Chain Attack grants 300 Decibels."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Shadows of Twilight Past",
+                "type": "Mindscape 1",
+                "desc": "Upon entering the battlefield, Pyrois gains 1,000 Decibels. This effect can trigger once every 180s in Investigation Zone mode. CRIT Rate increases by 8%."
+              },
+              {
+                "name": "Blazing Cavalry",
+                "type": "Mindscape 2",
+                "desc": "Using Ultimate: Triumphant Return grants 1,500 Decibels. This effect can trigger once every 180s. Pyrois's Decibel limit increases by 1,000."
+              },
+              {
+                "name": "Chains of Fate",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Balefire Horizon",
+                "type": "Mindscape 4",
+                "desc": "When Pyrois triggers a Perfect Block with EX Special Attack: Sun's Halo, immediately gain shield equal to 8% of Max HP, lasting 10s. Repeated triggers reset the duration. Pyrois deals 10% extra Daze while shielded."
+              },
+              {
+                "name": "Youthful Guardian",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Morning Star at Dawn",
+                "type": "Mindscape 6",
+                "desc": "Mindscape Effect Hidden"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100211",
+            "name": "Basic Attack Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100221",
+            "name": "Advanced Attack Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100231",
+            "name": "Pioneer's Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100115",
+            "name": "Basic Ether Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100125",
+            "name": "Advanced Ether Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100135",
+            "name": "Specialized Ether Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110010",
+            "name": "Timeworn Husk",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "source": "Girtablullu",
+            "sourceDetails": [
+              {
+                "name": "Girtablullu",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+              }
+            ]
+          },
+          {
+            "id": "110515",
+            "name": "Higher Dimensional Data: Deep Erosion Circuit",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "source": "the Airspace Sentinel / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Airspace Sentinel",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 4105000,
+        "weapon": {
+          "name": "Sol Exuvia",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_04.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_04.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
+      },
+      "recent": 1,
+      "betaStatus": "changed"
+    },
+    {
+      "id": "zzz-velina",
+      "n": "Velina",
+      "localizedNames": {
+        "en": "Velina",
+        "zh": "\u7ef4\u7433\u5a1c",
+        "ja": "\u30f4\u30a7\u30ea\u30ca",
+        "ko": "\ubca8\ub9ac\ub098"
+      },
+      "title": "Beyond Etiquette",
+      "slug": "velina",
+      "release": 1781654400000,
+      "releasePatch": "3.0",
+      "updated": 1781647200000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm5966262|Rhiannon Moushall",
+        "japanese": "Chiwa Sait\u014d|Sait\u014d Chiwa (\u658e\u85e4 \u5343\u548c)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u5b89\u742a|Zhang Anqi (\u5f20\u5b89\u742a)",
+        "korean": "ko:\uc2e0\uc628\uc720|Shin On-yu (\uc2e0\uc628\uc720)"
+      },
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle64.webp",
+      "iconZoom": 1.24,
+      "art": "../../Database/Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
+      "signatureWeapon": {
+        "id": "14156",
+        "name": "Joyau Dore",
+        "type": "Anomaly",
+        "educated": false
+      },
+      "signatureWeaponId": "14156",
+      "signatureWeaponName": "Joyau Dore",
+      "status": "live",
+      "labels": [
+        "New"
+      ],
+      "r": "S",
+      "el": "Wind",
+      "spec": "Anomaly",
+      "tag": "External Strategy Department",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.1.4+17277842",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Dancing Fans",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunches up to five attacks against enemies ahead, dealing Wind DMG.\nDuring the 5th attack, Velina's Anti-Interrupt Level increases, and DMG taken is reduced by 40%."
+              },
+              {
+                "name": "Dodge: Windward Sweep",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Gale Step",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nDelivers a quick attack forward, dealing Wind DMG."
+              },
+              {
+                "name": "Dodge Counter: Cloudrend",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nLaunches a series of attacks on the target, dealing Wind DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Emergency Protocol",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nUnleashes consecutive attacks against the target, dealing Wind DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Judicious Intervention",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Negotiation Techniques",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleashes a series of attacks, dealing Wind DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Wind Shear - Purging Surge",
+                "type": "Special",
+                "desc": "Press to activate:\nUnleashes a sweeping gust forward, dealing Wind DMG."
+              },
+              {
+                "name": "EX Special Attack: Wind Shear - Purifying Rise",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nDodges backward, then unleashes a massive wind blast to attack enemies, dealing Wind DMG.\nDuring the backward dodge, a dodge effect is active. Successfully dodging an enemy attack triggers Vital View.\nAfter using this skill, press to chain into the 5th hit of the Basic Attack.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Wind Shear - Triple Deathblow",
+                "type": "Special",
+                "desc": "With enough energy and after using EX Special Attack: Wind Shear - Purifying Rise, press or hold to activate:\nContinuously swings the fan, dealing Wind DMG.\nAfter using this skill, press to chain into the 5th hit of the Basic Attack.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Wind Shear - Eye of the Storm",
+                "type": "Special",
+                "desc": "With 90 or more , hold or to activate:\nVelina channels a whirlwind and summons a to continuously attack enemies and triggers the previous character's Quick Assist.\nSweeping Cyclone lasts for 5s and deals Wind DMG to nearby enemies once every 0.5s."
+              },
+              {
+                "name": "Chain Attack: Thousandfold Spiral",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nTransforms into a hurricane to unleash multiple attacks against enemies, followed by a Finishing Move, dealing massive Wind DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Heed the Tempest",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes multiple attacks against enemies ahead, dealing massive Wind DMG.\nAfter using this skill, the previous character's Quick Assist is triggered.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Breeze in Bloom",
+                "type": "Core Passive"
+              },
+              {
+                "name": "Additional Ability: Tea Party Etiquette",
+                "type": "Additional Ability"
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Orderly Elegance",
+                "type": "Mindscape 1"
+              },
+              {
+                "name": "Saturation Project",
+                "type": "Mindscape 2",
+                "desc": "When Velina triggers Windswept, she can also gain 1 point of Windbite. This effect can trigger once every 5s. After Sweeping Cyclone triggers the Chromatic Tint effect, it can accumulate the corresponding attribute's Anomaly Buildup. The buildup accumulated by this attack is excluded from Anomaly DMG calculations. The DMG increase effects of Velina's Windswept and Vortex from Additional Ability: Tea Party Etiquette are further increased by 15%."
+              },
+              {
+                "name": "Conquest by Etiquette",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Tea Party Tribunal",
+                "type": "Mindscape 4",
+                "desc": "When Velina uses an EX Special Attack, her ATK increases by 15% for 40s. Repeated triggers reset the duration."
+              },
+              {
+                "name": "Death Witch",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Chief Angel",
+                "type": "Mindscape 6",
+                "desc": "When Velina consumes 2 points of Windbite to increase the DMG Multiplier of Vortex, she gains 1 point of Windbite. This effect can trigger once every 6s. When Velina hits an enemy suffering a Wind Attribute Anomaly, the Wind Attribute Anomaly Buildup she inflicts increases by 20%. When Velina inflicts Windswept on an enemy already affected by Windswept, the new Windswept's DMG increases based on the remaining duration of the previous. Each remaining second increases the DMG by 2.5%, up to a maximum increase of 40%."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100213",
+            "name": "Basic Anomaly Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100223",
+            "name": "Advanced Anomaly Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100233",
+            "name": "Controller Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100116",
+            "name": "Basic Windbite Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100126",
+            "name": "Advanced Windbite Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100136",
+            "name": "Specialized Windbite Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110010",
+            "name": "Timeworn Husk",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "source": "Girtablullu",
+            "sourceDetails": [
+              {
+                "name": "Girtablullu",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+              }
+            ]
+          },
+          {
+            "id": "110515",
+            "name": "Higher Dimensional Data: Deep Erosion Circuit",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "source": "the Airspace Sentinel / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Airspace Sentinel",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 4105000,
+        "weapon": {
+          "name": "Joyau Dore",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1561.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1561.webp",
+          "items": [
+            {
+              "id": "101012",
+              "name": "Anomaly Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+            },
+            {
+              "id": "101022",
+              "name": "Reinforced Anomaly Component",
+              "qty": 32,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+            },
+            {
+              "id": "101032",
+              "name": "Specialized Anomaly Component",
+              "qty": 30,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+            }
+          ],
+          "cost": 400000
+        }
+      },
+      "recent": 1,
+      "betaStatus": "changed"
+    },
+    {
+      "id": "zzz-miyabi",
+      "n": "Miyabi",
+      "localizedNames": {
+        "en": "Miyabi",
+        "zh": "\u96c5",
+        "ja": "\u661f\u898b\u96c5",
+        "ko": "\ubbf8\uc57c\ube44"
+      },
+      "title": "Today's Training",
+      "slug": "miyabi",
+      "release": 1734480000000,
+      "releasePatch": "1.4",
+      "updated": 1781388000000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Cristina Vee",
+        "japanese": "Ami Koshimizu|Koshimizu Ami (\u5c0f\u6e05\u6c34 \u4e9c\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/\u962e\u4ece\u9752|Ruan Congqing (\u962e\u4ece\u9752)",
+        "korean": "https://namu.wiki/w/\uae40\ub3c4\ud76c(\uc131\uc6b0)|Kim Do-hee (\uae40\ub3c4\ud76c)"
+      },
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle13.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/miyabi-77dced7400d3.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/miyabi-6ec442dcf805.webp",
+      "signatureWeapon": {
+        "id": "14109",
+        "name": "Hailstorm Shrine",
+        "type": "Anomaly",
+        "educated": false
+      },
+      "signatureWeaponId": "14109",
+      "signatureWeaponName": "Hailstorm Shrine",
+      "status": "live",
+      "labels": [],
+      "r": "S",
+      "el": "Ice",
+      "spec": "Anomaly",
+      "tag": "Section 6",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.1.4+17277842",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Kazahana",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to five slashes ahead, the first two deal Physical DMG, and the last three deal Frost DMG.\nBlock enemy attacks during the 5th hit of the Basic Attack."
+              },
+              {
+                "name": "Basic Attack: Shimotsuki",
+                "type": "Basic",
+                "desc": "With at least 2 points of Fallen Frost, hold to activate:\nHoshimi Miyabi sheaths her blade, enters Shimotsuki Stance and starts to charge up. Every level of charge will consume 2 points of Fallen Frost, up to a maximum of three levels of charge.\nWhen releasing , or when Fallen Frost is completely depleted, Hoshimi Miyabi will draw her blade and unleash a powerful slash ahead based on the current charge level, dealing massive Frost DMG. She then exits Shimotsuki Stance.\nCharacter is invulnerable during Shimotsuki Stance.\nHoshimi Miyabi can have up to 6 points of Fallen Frost. Upon entering the battlefield, Hoshimi Miyabi immediately obtains 3 points of Fallen Frost."
+              },
+              {
+                "name": "Dodge: Mizutori",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\nWhile dodging, repeatedly press or hold to activate:\nA dash dodge that covers a lot of ground.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Fuyubachi",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Kan Suzume",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nSlashes enemies in front, dealing Frost DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Dancing Petals",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nSlashes enemies in front, dealing Frost DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Drifting Petals",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Falling Petals",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nCharges and slashes enemies in front, dealing Frost DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Miyuki",
+                "type": "Special",
+                "desc": "Press to activate:\nQuickly draws her blade and slashes ahead, dealing Frost DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Hisetsu",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nRush forward, unleashing powerful slashes against enemies along the way, dealing massive Frost DMG.\nUpon activating this skill, gain 2 points of Fallen Frost.\nCharacter is invulnerable while using this skill.\nAfter using this skill, with enough Energy, press again to activate:\nConsume extra Energy and unleash a powerful follow-up attack against enemies in front, dealing massive Frost DMG.\nUpon activating this skill, gain 2 points of Fallen Frost.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Spring's Call",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful slash at enemies in front in a large area, dealing massive Frost DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Lingering Snow",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes powerful slashes at enemies ahead in a large area then pauses, before unleashing a Finishing Move, dealing massive Frost DMG.\nUpon activating this skill, gain 3 points of Fallen Frost and increase Ice DMG by 30% for 12s.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Searing Cold",
+                "type": "Core Passive",
+                "desc": "When Hoshimi Miyabi deals Frost DMG, she applies Icefire to the target, lasting 30s. When accumulating Frost Anomaly Buildup against targets with Icefire, increases Frost Anomaly Buildup Rate by 100% of Hoshimi Miyabi's CRIT Rate, up to a maximum increase of 80%. As Hoshimi Miyabi accumulates Frost Anomaly Buildup, it has its own independent Attribute Anomaly Buildup gauge and triggers Freeze, Shatter, and Frostbite that can react with other Attribute Anomalies, including Ice Attribute Anomaly, to trigger Disorder.\nWhen Hoshimi Miyabi applies Frostbite to enemies with Icefire, it will consume the Icefire to trigger Frostburn - Break, dealing Frost DMG equal to 1,500% of Hoshimi Miyabi's ATK and causing the target to enter the Frostburn state. All units accumulate 20% more Anomaly Buildup against enemies under the Frostburn state, but Hoshimi Miyabi cannot reapply Icefire to these enemies. The Frostburn state ends when Frostbite expires. While this state remains active, triggering another Attribute Anomaly will overwrite Frostbite and remove Frostburn.\nUpon triggering Frostburn - Break, Hoshimi Miyabi obtains 1 point of Fallen Frost. This effect can trigger once every 10s."
+              },
+              {
+                "name": "Additional Ability: Bask in Frost",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Support or Anomaly character, or shares the same Faction:\nBasic Attack: Shimotsuki DMG increases by 60%. When any squad member triggers Disorder, Hoshimi Miyabi obtains 2 points of Fallen Frost and Basic Attack: Shimotsuki during the next Shimotsuki Stance will ignore 30% of the target's Ice RES."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Frost Atop the Snow",
+                "type": "Mindscape 1",
+                "desc": "While in Shimotsuki Stance, every 1 point of Fallen Frost consumed will allow Basic Attack: Shimotsuki to ignore 6% of DEF, stacking up to 6 times and lasting until Shimotsuki Stance ends. When the slash for charge level three of Basic Attack: Shimotsuki hits an enemy under Frostburn, it will immediately remove the Frostburn state and increase all squad members' Anomaly Buildup Rate by 20% for 10s."
+              },
+              {
+                "name": "Breath Technique",
+                "type": "Mindscape 2",
+                "desc": "Basic Attack: Kazahana and Dodge Counter DMG increases by 30%. Hoshimi Miyabi gains 1 point of Fallen Frost when the final move of the 5th hit of Basic Attack: Kazahana hits an enemy. Upon entering the battlefield, Hoshimi Miyabi immediately obtains 6 points of Fallen Frost and her CRIT Rate increases by 15%."
+              },
+              {
+                "name": "Martial Discipline",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Rupture",
+                "type": "Mindscape 4",
+                "desc": "Frostburn - Break DMG increases by 30%. Upon triggering Frostburn - Break, Hoshimi Miyabi generates 250 more Decibels."
+              },
+              {
+                "name": "Anniversary",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Prodigious Talent",
+                "type": "Mindscape 6",
+                "desc": "During Shimotsuki Stance, Hoshimi Miyabi obtains Polar, which increases Basic Attack: Shimotsuki DMG by 30%. After obtaining Polar, Hoshimi Miyabi will automatically draw her blade and unleash powerful slashes based on the current charge level upon consuming Fallen Frost. Before Fallen Frost is completely depleted, the draw and slashes will not interrupt charging under Shimotsuki Stance. Each occurrence of Shimotsuki Stance can perform up to 3 draws and slashes."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100213",
+            "name": "Basic Anomaly Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100223",
+            "name": "Advanced Anomaly Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100233",
+            "name": "Controller Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100112",
+            "name": "Basic Freeze Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100122",
+            "name": "Advanced Freeze Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100132",
+            "name": "Specialized Freeze Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110005",
+            "name": "Sycophant's Refinement",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss005.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss005.webp",
+            "source": "Sacrifice",
+            "sourceDetails": [
+              {
+                "name": "Sacrifice - Covenant Guardian",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_CovenantGuardian.webp"
+              }
+            ]
+          },
+          {
+            "id": "110508",
+            "name": "Higher Dimensional Data: Thunderous Dragon",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
+            "source": "Thracian / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Thracian",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Thracian.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110508",
+                  "name": "Higher Dimensional Data: Thunderous Dragon",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
+                  "source": "Thracian / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Thracian",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Thracian.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110508",
+                  "name": "Higher Dimensional Data: Thunderous Dragon",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
+                  "source": "Thracian / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Thracian",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Thracian.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110005",
+                  "name": "Sycophant's Refinement",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss005.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss005.webp",
+                  "source": "Sacrifice",
+                  "sourceDetails": [
+                    {
+                      "name": "Sacrifice - Covenant Guardian",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_CovenantGuardian.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110508",
+                  "name": "Higher Dimensional Data: Thunderous Dragon",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
+                  "source": "Thracian / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Thracian",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Thracian.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110005",
+                  "name": "Sycophant's Refinement",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss005.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss005.webp",
+                  "source": "Sacrifice",
+                  "sourceDetails": [
+                    {
+                      "name": "Sacrifice - Covenant Guardian",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_CovenantGuardian.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110508",
+                  "name": "Higher Dimensional Data: Thunderous Dragon",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
+                  "source": "Thracian / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Thracian",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Thracian.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110005",
+                  "name": "Sycophant's Refinement",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss005.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss005.webp",
+                  "source": "Sacrifice",
+                  "sourceDetails": [
+                    {
+                      "name": "Sacrifice - Covenant Guardian",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_CovenantGuardian.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110508",
+                  "name": "Higher Dimensional Data: Thunderous Dragon",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
+                  "source": "Thracian / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Thracian",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Thracian.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 4105000,
+        "weapon": {
+          "name": "Hailstorm Shrine",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1091.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1091.webp",
+          "items": [
+            {
+              "id": "101012",
+              "name": "Anomaly Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+            },
+            {
+              "id": "101022",
+              "name": "Reinforced Anomaly Component",
+              "qty": 32,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+            },
+            {
+              "id": "101032",
+              "name": "Specialized Anomaly Component",
+              "qty": 30,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+            }
+          ],
+          "cost": 400000
+        }
+      },
+      "betaStatus": "changed"
+    },
+    {
+      "id": "zzz-nekomata",
+      "n": "Nekomata",
+      "localizedNames": {
+        "en": "Nekomata",
+        "zh": "\u732b\u53c8",
+        "ja": "\u732b\u53c8",
+        "ko": "\ub124\ucf54\ub9c8\ud0c0"
+      },
+      "title": "Patience of a Cat",
+      "slug": "nekomata",
+      "releasePatch": "1.0",
+      "updated": 1781388000000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "japanese": "Hara Sayuri (\u539f \u7d17\u53cb\u91cc)",
+        "chinese": "Hu\u0101 l\u00edng (\u82b1\u94c3)"
+      },
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle11.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/nekomata-c03741fa6151.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/nekomata-b9bdae637f03.webp",
+      "signatureWeapon": {
+        "id": "14146",
+        "name": "Cordis Germina",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14146",
+      "signatureWeaponName": "Cordis Germina",
+      "status": "live",
+      "labels": [],
+      "r": "S",
+      "el": "Physical",
+      "spec": "Attack",
+      "tag": "Cunning Hares",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.1.4+17277842",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Kitty Slash",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 5 slashes, dealing Physical DMG.\nOn the last hit, there is a 33.33% chance to repeat this hit 3 times."
+              },
+              {
+                "name": "Basic Attack: Kitty Slash",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 5 slashes, dealing Physical DMG.\nOn the last hit, if it strikes a Stunned enemy, this hit repeats 3 times."
+              },
+              {
+                "name": "Basic Attack: Crimson Blade",
+                "type": "Basic",
+                "desc": "Hold during the first 3 hits of Nekomata's Basic Attack to activate:\nSlashes enemies in front and passes through them, dealing Physical DMG.\nUpon activation, there is a 33.33% chance to repeat this attack 3 times."
+              },
+              {
+                "name": "Basic Attack: Crimson Blade",
+                "type": "Basic",
+                "desc": "Hold during the first 3 hits of [Basic Attack] to activate:\nSlashes enemies in front and passes through them, dealing Physical DMG.\nUpon activating this skill, if it hits an enemy in a Stunned state, this attack repeats 3 times."
+              },
+              {
+                "name": "Dodge: Can't Touch Me-ow~",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dodge: Vanishing Tail Technique",
+                "type": "Dodge",
+                "desc": "When Nekomata has 40 or more [Purr Energy], after triggering [Perfect Dodge], press to consume 30 [Purr Energy] and activate:\nNekomata enters Vital View and quickly dashes behind the enemy;\nCharacter is invulnerable while using this skill, and this skill does not consume dodge charges;"
+              },
+              {
+                "name": "Dash Attack: Over Here!",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Phantom Claws",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nSlashes enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dodge Counter: Velvet Claw Pierce",
+                "type": "Dodge",
+                "desc": "After using [Dodge: Vanishing Tail Technique], press or hold when having 40 or more [Purr Energy] to activate:\nLaunch a powerful Slash against enemies in a large area ahead, dealing massive Physical DMG;\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Cat's Paw",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nSlashes enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Desperate Defense",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Shadow Strike",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nCharge and slash enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Surprise Attack",
+                "type": "Special",
+                "desc": "Press to activate:\nUnleashes a downward strike, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Special Attack: Surprise Attack",
+                "type": "Special",
+                "desc": "Press to activate:\nUnleashes a downward strike, dealing Physical DMG;\nAnti-Interrupt level is increased while using this skill;\nThe skill's follow-up attack effect is enhanced."
+              },
+              {
+                "name": "EX Special Attack: Super Surprise Attack!",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nUnleashes a powerful falling slash that deals massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Super Surprise Attack!",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nUnleashes a powerful falling slash that deals massive Physical DMG.\nCharacter is invulnerable while using this skill.\nThe skill's follow-up attack effect is enhanced."
+              },
+              {
+                "name": "Chain Attack: Claw Swipe",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful slash at enemies ahead in a large area, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Claw Smash",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes powerful slashes at enemies ahead in a large area, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Stealthy Paws",
+                "type": "Core Passive",
+                "desc": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 60% for 6s."
+              },
+              {
+                "name": "Additional Ability: Catwalk",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Bird Hunter",
+                "type": "Mindscape 1",
+                "desc": "When Nekomata hits an enemy from behind, she ignores 16% of her target's Physical RES. If the enemy is Stunned, all Nekomata's attacks against them are considered back attacks."
+              },
+              {
+                "name": "Cat & Mouse",
+                "type": "Mindscape 2",
+                "desc": "When there's only one enemy on the field and Nekomata is in combat, her Energy Generation Rate is increased by 25%."
+              },
+              {
+                "name": "Curious Left Tail",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Sharpen Claws",
+                "type": "Mindscape 4",
+                "desc": "When Nekomata uses her EX Special Attack, her CRIT Rate increases by 7% for 15s, stacking up to 2 times, with each stack's duration being calculated separately."
+              },
+              {
+                "name": "Lucky Right Tail",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Predator Lineage",
+                "type": "Mindscape 6",
+                "desc": "When Nekomata launches a Chain Attack or uses her Ultimate, her CRIT DMG increases by 18%, stacking up to 3 times. The effect expires when she's no longer in-combat. This effect gains maximum stacks immediately on defeating an enemy."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100211",
+            "name": "Basic Attack Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100221",
+            "name": "Advanced Attack Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100231",
+            "name": "Pioneer's Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100110",
+            "name": "Basic Physical Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100120",
+            "name": "Advanced Physical Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100130",
+            "name": "Specialized Physical Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110001",
+            "name": "Ferocious Grip",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss001.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss001.webp",
+            "source": "Dead End Butcher",
+            "sourceDetails": [
+              {
+                "name": "Dead End Butcher",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_CottusGrey.webp"
+              }
+            ]
+          },
+          {
+            "id": "110502",
+            "name": "Higher Dimensional Data: Crimson Awe",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss002.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss002.webp",
+            "source": "Troublemaker Wanted Enforcer / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Troublemaker - Wanted Enforcer",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_ThugBulkyEnforcerBoss.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110502",
+                  "name": "Higher Dimensional Data: Crimson Awe",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss002.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss002.webp",
+                  "source": "Troublemaker Wanted Enforcer / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Troublemaker - Wanted Enforcer",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_ThugBulkyEnforcerBoss.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110502",
+                  "name": "Higher Dimensional Data: Crimson Awe",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss002.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss002.webp",
+                  "source": "Troublemaker Wanted Enforcer / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Troublemaker - Wanted Enforcer",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_ThugBulkyEnforcerBoss.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110001",
+                  "name": "Ferocious Grip",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss001.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss001.webp",
+                  "source": "Dead End Butcher",
+                  "sourceDetails": [
+                    {
+                      "name": "Dead End Butcher",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_CottusGrey.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110502",
+                  "name": "Higher Dimensional Data: Crimson Awe",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss002.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss002.webp",
+                  "source": "Troublemaker Wanted Enforcer / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Troublemaker - Wanted Enforcer",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_ThugBulkyEnforcerBoss.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110001",
+                  "name": "Ferocious Grip",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss001.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss001.webp",
+                  "source": "Dead End Butcher",
+                  "sourceDetails": [
+                    {
+                      "name": "Dead End Butcher",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_CottusGrey.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110502",
+                  "name": "Higher Dimensional Data: Crimson Awe",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss002.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss002.webp",
+                  "source": "Troublemaker Wanted Enforcer / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Troublemaker - Wanted Enforcer",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_ThugBulkyEnforcerBoss.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110001",
+                  "name": "Ferocious Grip",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss001.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss001.webp",
+                  "source": "Dead End Butcher",
+                  "sourceDetails": [
+                    {
+                      "name": "Dead End Butcher",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_CottusGrey.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110502",
+                  "name": "Higher Dimensional Data: Crimson Awe",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss002.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss002.webp",
+                  "source": "Troublemaker Wanted Enforcer / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Troublemaker - Wanted Enforcer",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_ThugBulkyEnforcerBoss.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 4105000,
+        "weapon": {
+          "name": "Cordis Germina",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1461.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1461.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
+      },
+      "betaStatus": "changed"
+    },
+    {
+      "id": "zzz-rina",
+      "n": "Rina",
+      "localizedNames": {
+        "en": "Rina",
+        "zh": "\u4e3d\u5a1c",
+        "ja": "\u30ea\u30ca",
+        "ko": "\ub9ac\ub098"
+      },
+      "title": "The Truth",
+      "slug": "rina",
+      "release": 1720051200000,
+      "releasePatch": "1.0",
+      "updated": 1781388000000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Morgan Laur\u00e9",
+        "japanese": "Satomi Arai|Arai Satomi (\u65b0\u4e95 \u91cc\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u82e5\u745c|Zhang Ruoyu (\u5f20\u82e5\u745c)",
+        "korean": "ko:\uc774\uc740\uc870|Lee Eun-jo (\uc774\uc740\uc870)"
+      },
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle22.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/rina-e34c2ce33c6c.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/rina-c1e5e69afdcd.webp",
+      "signatureWeapon": {
+        "id": "14121",
+        "name": "Weeping Cradle",
+        "type": "Support",
+        "educated": false
+      },
+      "signatureWeaponId": "14121",
+      "signatureWeaponName": "Weeping Cradle",
+      "status": "live",
+      "labels": [],
+      "r": "S",
+      "el": "Electric",
+      "spec": "Support",
+      "tag": "Victoria Housekeeping Co.",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.1.4+17277842",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Whack the Dimwit",
+                "type": "Basic",
+                "desc": "Press to activate:\nOrder Drusilla and Anastella to attack up to 4 times, dealing Physical DMG and Electric DMG.\nPerforming other actions with Rina during Drusilla and Anastella's attacks will not interrupt Rina's Basic Attack combo count."
+              },
+              {
+                "name": "Basic Attack: Shoo the Fool",
+                "type": "Basic",
+                "desc": "Hold or to activate:\nCalls back Drusilla and Anastella to swing them around for a ranged attack, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Morning Cleanup",
+                "type": "Basic",
+                "desc": "After Rina uses her [EX Special Attack], [Chain Attack], or [Ultimate], within 13s, Drusilla or Anastella attacks enemies once every 2.5s, dealing Electric DMG and gaining 1 [Fright], up to 6 [Fright] max. After using this skill, Drusilla and Anastella's exit countdown resets."
+              },
+              {
+                "name": "Midnight Cleanup",
+                "type": "Basic",
+                "desc": "When [Fright] reaches 6, the next time Drusilla or Anastella uses [Morning Cleanup], it will consume all [Fright] and trigger [Midnight Cleanup] instead; after using this skill, reset Drusilla and Anastella's exit countdown."
+              },
+              {
+                "name": "Dodge: Dress Adjustment",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Sudden Surprise",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nOrder Drusilla and Anastella to execute a piercing attack, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Bangboo Callback",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nOrder Drusilla and Anastella to spin forward and trigger an explosion, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Duple Meter Allemande",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nOrder Drusilla and Anastella to spin forward and trigger an explosion, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Evasive Assist: Triple Meter Courante",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nDodges the enemy's attack and activates Vital View.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Quadruple Meter Gavotte",
+                "type": "Assist",
+                "desc": "Press after an Evasive Assist to activate:\nOrder Drusilla and Anastella to push forward and generate an electrical vortex, dealing Electric DMG;\nCan quickly chain into [Enhanced Special: Fool Vanishing Magic] during this skill;\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Beat the Blockhead",
+                "type": "Special",
+                "desc": "Press to activate:\nOrder Anastella to execute a downward smash, dealing Electric DMG\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Dimwit Disappearing Trick",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nOrder Drusilla and Anastella to execute multiple downward smashes, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\nA [Quick Assist] is triggered after using this skill."
+              },
+              {
+                "name": "Chain Attack: Code of Conduct",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nOrder Drusilla and Anastella to push forward and generate a ball-shaped electrical field that deals massive Electric DMG.\nDuring this skill, Drusilla and Anastella are unable to perform Basic Attacks, Dash Attacks, Special Attacks, and EX Special Attacks, but can be recalled to Rina's side through Basic Attack: Shoo the Fool.\nCharacter is invulnerable while using this skill.\nA Quick Assist is triggered when this skill hits an enemy."
+              },
+              {
+                "name": "Ultimate: The Queen's Attendants",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nOrder Drusilla and Anastella to spin forward, dealing massive Electric DMG.\nDuring this skill, Drusilla and Anastella are unable to respond to [Basic Attack], [Dash Attack], [Special Attack], or [EX Special Attack] commands, but can be recalled to Rina's side through [Basic Attack: Shoo, Fool!].\nUpon activating this skill, the other squad members recover 10 Energy. The next character to switch in recovers an additional 20 Energy.\nCharacter is invulnerable while using this skill.\nAfter using this skill, a [Quick Assist] is triggered."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Mini Destruction Partner",
+                "type": "Core Passive",
+                "desc": "When ordering Drusilla or Anastella to attack, other squad members' PEN Ratio increases together with Rina's, by 25% of Rina's PEN Ratio + 12%, up to 30%. The effect ends when both Drusilla and Anastella return to Rina."
+              },
+              {
+                "name": "Additional Ability: Banquet of Perfection",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nIncreases the duration of Shock inflicted on enemies by any character by 3s. When Shocked enemies are on the field, all squad members' Electric DMG increases by 10%."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Dance Duet",
+                "type": "Mindscape 1",
+                "desc": "After being sent out to launch an attack, Drusilla and Anastella stay in place for an additional 5.5s before returning to Rina.\nThe effect gained from Core Passive: Mini Destruction Partner by characters within 10m is increased to 130% of the original value."
+              },
+              {
+                "name": "Master's Paragon",
+                "type": "Mindscape 2",
+                "desc": "Upon becoming the active character in combat, Rina's DMG increases by 15% for 12s. This effect can trigger once every 18s."
+              },
+              {
+                "name": "Head Maid's Specialty",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Needle and Hammer",
+                "type": "Mindscape 4",
+                "desc": "Rina's Energy Regen increases by 0.5/s when both Drusilla and Anastella are deployed. The effect ends when Drusilla or Anastella returns to Rina."
+              },
+              {
+                "name": "Head Maid Perfectionist",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Stormy Night's Fright",
+                "type": "Mindscape 6",
+                "desc": "When an EX Special Attack, Chain Attack or Ultimate hits an enemy, the entire squad's Electric DMG is increased by 15% for 8s."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100214",
+            "name": "Basic Support Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankSupport01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100224",
+            "name": "Advanced Support Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankSupport02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100234",
+            "name": "Ruler Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankSupport03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100113",
+            "name": "Basic Shock Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100123",
+            "name": "Advanced Shock Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100133",
+            "name": "Specialized Shock Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110003",
+            "name": "Finale Dance Shoes",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss003.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss003.webp",
+            "source": "Twin Marionettes",
+            "sourceDetails": [
+              {
+                "name": "Twin Marionettes",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Marionette_Twins.webp"
+              }
+            ]
+          },
+          {
+            "id": "110505",
+            "name": "Higher Dimensional Data: Destructive Advance",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
+            "source": "Typhon Slugger / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Typhon Slugger",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_MetalGorillaPro.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100113",
+                  "name": "Basic Shock Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100113",
+                  "name": "Basic Shock Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100113",
+                  "name": "Basic Shock Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100113",
+                  "name": "Basic Shock Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100113",
+                  "name": "Basic Shock Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100113",
+                  "name": "Basic Shock Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100113",
+                  "name": "Basic Shock Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100113",
+                  "name": "Basic Shock Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100113",
+                  "name": "Basic Shock Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100113",
+                  "name": "Basic Shock Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100123",
+                  "name": "Advanced Shock Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100133",
+                  "name": "Specialized Shock Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110505",
+                  "name": "Higher Dimensional Data: Destructive Advance",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
+                  "source": "Typhon Slugger / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Typhon Slugger",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_MetalGorillaPro.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110505",
+                  "name": "Higher Dimensional Data: Destructive Advance",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
+                  "source": "Typhon Slugger / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Typhon Slugger",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_MetalGorillaPro.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110003",
+                  "name": "Finale Dance Shoes",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss003.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss003.webp",
+                  "source": "Twin Marionettes",
+                  "sourceDetails": [
+                    {
+                      "name": "Twin Marionettes",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Marionette_Twins.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110505",
+                  "name": "Higher Dimensional Data: Destructive Advance",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
+                  "source": "Typhon Slugger / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Typhon Slugger",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_MetalGorillaPro.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110003",
+                  "name": "Finale Dance Shoes",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss003.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss003.webp",
+                  "source": "Twin Marionettes",
+                  "sourceDetails": [
+                    {
+                      "name": "Twin Marionettes",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Marionette_Twins.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110505",
+                  "name": "Higher Dimensional Data: Destructive Advance",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
+                  "source": "Typhon Slugger / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Typhon Slugger",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_MetalGorillaPro.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110003",
+                  "name": "Finale Dance Shoes",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss003.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss003.webp",
+                  "source": "Twin Marionettes",
+                  "sourceDetails": [
+                    {
+                      "name": "Twin Marionettes",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Marionette_Twins.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110505",
+                  "name": "Higher Dimensional Data: Destructive Advance",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
+                  "source": "Typhon Slugger / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Typhon Slugger",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_MetalGorillaPro.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 4105000,
+        "weapon": {
+          "name": "Weeping Cradle",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1211.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1211.webp",
+          "items": [
+            {
+              "id": "101013",
+              "name": "Support Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport01.webp"
+            },
+            {
+              "id": "101023",
+              "name": "Reinforced Support Component",
+              "qty": 32,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport02.webp"
+            },
+            {
+              "id": "101033",
+              "name": "Specialized Support Component",
+              "qty": 30,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
+            }
+          ],
+          "cost": 400000
+        }
+      },
+      "betaStatus": "changed"
+    },
+    {
+      "id": "zzz-norma",
+      "n": "Norma",
+      "localizedNames": {
+        "en": "Norma",
+        "zh": "\u8bfa\u59c6",
+        "ja": "\u30ce\u30eb\u30e0\u30fc",
+        "ko": "\ub178\ub974\ub9c8"
+      },
+      "slug": "norma",
+      "releasePatch": "2.5",
+      "updated": 1780783200000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm9332106|Madeline Dorroh",
+        "japanese": "F\u016bka Izumi|Izumi F\u016bka (\u548c\u6cc9 \u98a8\u82b1)",
+        "chinese": "https://zh.moegirl.org.cn/\u738b\u6653\u5f64|Wang Xiaotong (\u738b\u6653\u5f64)",
+        "korean": "ko:\uae40\uc724\ucc44|Kim Yun-chae (\uae40\uc724\ucc44)"
+      },
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
+      "iconZoom": 1.24,
+      "art": "../../Database/Prydwen/zzz/assets/characters/norma-f4dbe2ca9e48.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
+      "status": "beta",
+      "labels": [
+        "3.0"
+      ],
+      "r": "S",
+      "el": "Fire",
+      "spec": "Stun",
+      "tag": "External Strategy Department",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "3.1.4+17277842",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Engineering Insurance",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerforms up to four attacks forward, dealing Fire DMG."
+              },
+              {
+                "name": "Dodge: Development Protocols",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Deadline Rush",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSpins while firing at nearby enemies, dealing Fire DMG."
+              },
+              {
+                "name": "Dodge Counter: Compliance Testing",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nCommands the Rumble Drill to continuously drill the target, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Roaring Backup",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nCommands the Rumble Drill to continuously attack the target, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Technological Bastion",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Technological Suppression",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleashes a series of attacks, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Thermal Shutdown",
+                "type": "Special",
+                "desc": "Press to activate:\nBombards enemies, dealing Fire DMG."
+              },
+              {
+                "name": "Chain Attack: Impact Drill",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nCommands a swarm of Rumble Drills to deal multiple hits, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Precise Guidance",
+                "type": "Core Passive"
+              },
+              {
+                "name": "Additional Ability: Advantage in Numbers",
+                "type": "Additional Ability"
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Visionary Extremism",
+                "type": "Mindscape 1"
+              },
+              {
+                "name": "Axiom of Universal Unity",
+                "type": "Mindscape 2",
+                "desc": "The Stun DMG Multiplier granted by each stack of Tech Divide in Norma's Additional Ability: Advantage in Numbers is increased to 6%. When Norma uses Basic Attack: Hat Trick while in combat, she gains 25 Energy. This effect can trigger once every 20s."
+              },
+              {
+                "name": "Natural-Born Villain Paradox",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Bangboo Superiority Theory",
+                "type": "Mindscape 4",
+                "desc": "When Norma consumes Preheated Chamber to trigger a Chain Attack, both Norma and the corresponding Agent gain 200 Decibels."
+              },
+              {
+                "name": "En-Nah Big Bang",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "The Primary Cause of Genius",
+                "type": "Mindscape 6"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100212",
+            "name": "Basic Stun Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100222",
+            "name": "Advanced Stun Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100232",
+            "name": "Buster Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100111",
+            "name": "Basic Burn Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100121",
+            "name": "Advanced Burn Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100131",
+            "name": "Specialized Burn Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110010",
+            "name": "Timeworn Husk",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "source": "Girtablullu",
+            "sourceDetails": [
+              {
+                "name": "Girtablullu",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+              }
+            ]
+          },
+          {
+            "id": "110515",
+            "name": "Higher Dimensional Data: Deep Erosion Circuit",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "source": "the Airspace Sentinel / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Airspace Sentinel",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 3705000
+      },
+      "betaStatus": "changed"
     }
   ],
   "weapons": [

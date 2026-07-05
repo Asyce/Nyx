@@ -2920,6 +2920,138 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Sweet Melody",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunches up to four consecutive attacks forward, dealing Ether DMG.\nAfter hitting an enemy with the fourth hit, 1 Fandom Power is generated on the field after the attack ends."
+              },
+              {
+                "name": "Basic Attack: Perfect Pitch",
+                "type": "Basic",
+                "desc": "Hold to activate:\nAria enters a charging state and can reach three levels of charge. Releasing or reaching the maximum charge time causes Aria to unleash a powerful downward attack forward based on the current charge level, dealing massive Ether DMG.\nIf there is Fandom Power nearby while Aria is charging, she will absorb the Fandom Power, with each absorbed Fandom Power instantly increasing charge level by 1 and granting 1 stack of a buff that increases the next Basic Attack: Perfect Pitch's Ether Anomaly Buildup by 10%. This buff can stack up to 2 times and is removed after the attack ends.\nAfter the 4th hit of Basic Attack: Sweet Melody, Special Attack: Full-Sugar Electronica - No Ice, an EX Special Attack, a level three charged Basic Attack: Perfect Pitch, a Quick Assist, a Chain Attack, or an Ultimate, if there are at least 2 Fandom Power nearby, hold to consume 2 Fandom Power and quickly activate a level three charged Basic Attack: Perfect Pitch. After a level three charged Basic Attack: Perfect Pitch, a Chain Attack, or an Ultimate, if there are at least 2 Fandom Power nearby, a level three charged Basic Attack: Perfect Pitch can also be quickly activated by pressing within a short window, consuming 2 Fandom Power.\nAnti-Interrupt Level is increased while charging, and received DMG is reduced by 40%. Character is invulnerable while using this attack."
+              },
+              {
+                "name": "Dodge: On-Beat Precision",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nIf activated during a Basic Attack: Sweet Melody chain, this action does not reset the Basic Attack count.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Silky-Smooth Combo",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nLaunches a swift slashing attack forward, dealing Ether DMG.\nIf activated during a Basic Attack: Sweet Melody chain, this action does not reset the Basic Attack count."
+              },
+              {
+                "name": "Dodge Counter: Slide-Shift Variation",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nUnleashes a powerful slash against the target, dealing Ether DMG.\nAfter using this skill, it can be immediately followed up with the 3rd hit of Basic Attack: Sweet Melody.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Shatter Fantasy",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nDelivers a powerful slash to the target, dealing Ether DMG.\nAfter using this skill, it can be immediately followed up with the 3rd hit of Basic Attack: Sweet Melody.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Clutch Save",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Encore Song",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleashes a powerful series of slashes on the target, dealing massive Ether DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Full-Sugar Electronica",
+                "type": "Special",
+                "desc": "Press to activate:\nDelivers a forward kick, dealing Ether DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Special Attack: Full-Sugar Electronica - No Ice",
+                "type": "Special",
+                "desc": "After the 4th hit of Basic Attack: Sweet Melody, an Assist Follow-Up, a Chain Attack, or an Ultimate, press to activate:\nDelivers a quicker forward kick, dealing Ether DMG. If the attack hits an enemy, 1 Fandom Power is generated on the field after the attack ends.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Fall Into Delusion",
+                "type": "Special",
+                "desc": "With enough energy, press to activate:\nDelivers a powerful forward kick followed by a sonic wave attack, dealing Ether DMG. If the attack hits an enemy, 3 Fandom Power are generated on the field after the attack ends.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Instantly Hooked",
+                "type": "Special",
+                "desc": "After launching EX Special Attack: Fall Into Delusion, and with enough Energy, press to activate:\nPerforms a powerful downward attack in front, dealing Ether DMG. If the attack hits an enemy, 3 Fandom Power are generated on the field after the attack ends.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Dream Collab",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunches a series of attacks forward, dealing massive Ether DMG. 4 Fandom Power are generated on the field on skill activation.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: 100% Energy",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nReleases all her power, entering Moment of Delusion, and fires multiple powerful shots at the target, dealing massive Ether DMG.\nUpon entering Moment of Delusion, Aria gains 3 stacks of All-Out Cheering and activates Ether Veil: Delusion Reprise. While Ether Veil: Delusion Reprise is active, all squad members gain an additional 50 ATK for 30s. Re-activating Ether Veil: Delusion Reprise will first cancel any existing instance of Ether Veil: Delusion Reprise.\nWhile Aria is charging, if she has All-Out Cheering, stacks of All-Out Cheering are consumed first to charge. Each stack of All-Out Cheering consumed increases the charge level by 2.\nUpon entering Moment of Delusion, if Aria already has All-Out Cheering, all remaining stacks of All-Out Cheering are first converted into Fandom Power and generated on the field. Each stack of All-Out Cheering is converted into 2 Fandom Power.\nMoment of Delusion lasts for up to 15s. During Moment of Delusion, Aria's Basic Attack: Perfect Pitch 3rd attack is upgraded to an enhanced version.\nWhen exiting Moment of Delusion, if Aria has All-Out Cheering, all remaining stacks of All-Out Cheering are converted into Fandom Power and generated on the field. Each stack of All-Out Cheering is converted into 2 Fandom Power.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Innate Stage Presence",
+                "type": "Core Passive",
+                "desc": "Aria's Anomaly Proficiency increases by 90.\nIf Aria's 3rd hit of Basic Attack: Perfect Pitch lands a heavy attack on an enemy suffering an Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it will trigger Abloom, which resolves an additional instance of Attribute Anomaly DMG equal to 27.5%/14.3%/35.7%/2.5%/3.6%/1.4% per 10 points of initial Anomaly Mastery of the original Anomaly DMG. If the target is Stunned, the DMG ratio is further increased by 50%."
+              },
+              {
+                "name": "Additional Ability: Collaborative Stage",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Stun or Support character, or shares the same Faction:\nWhen Ether Veil is activated, 4 Fandom Power are generated on the field. This can trigger once every 1s.\nWhen any squad member applies Corruption to an enemy, its duration is extended by 3s."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Energetic Sound Waves",
+                "type": "Mindscape 1",
+                "desc": "When Aria's Basic Attack, Special Attack, or EX Special Attack deals DMG to enemies, it ignores 10% of the target's Ether Anomaly Buildup RES. Additionally, when Aria triggers Abloom, it has a chance to trigger a critical hit. The base CRIT Rate is 25%, and CRIT DMG is 25%. If initial Anomaly Mastery exceeds 100, each additional point of initial Anomaly Mastery increases this effect's CRIT Rate by 0.5%."
+              },
+              {
+                "name": "Fantastical Beat",
+                "type": "Mindscape 2",
+                "desc": "When Aria attacks or triggers Abloom, it ignores 16% of the target's DEF. During Moment of Delusion, attacks and Abloom triggers also ignore an additional 8% of the target's DEF."
+              },
+              {
+                "name": "Delulu",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Mechanical Angel",
+                "type": "Mindscape 4",
+                "desc": "When Aria triggers Abloom, she gains 4 Energy and 70 Decibels. This effect can trigger once every 10s."
+              },
+              {
+                "name": "Tears in the Rain",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Construct's Dream",
+                "type": "Mindscape 6",
+                "desc": "Upon entering the battlefield, Aria immediately gains 1,200 Decibels. In Investigation Zone mode, this effect can trigger once every 180s. After Aria enters Moment of Delusion, she will not exit it, and enhanced Basic Attack: Perfect Pitch and her Ultimate deal 40% increased Ether DMG. While in Moment of Delusion, when an enemy on the field enters an Anomaly state, Aria gains 1 stacks of All-Out Cheering. This effect can occur once every 6s. When gaining the All-Out Cheering effect, if already at 3 stacks of All-Out Cheering, any excess All-Out Cheering is converted into 2 Fandom Power and generated on the field."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -4438,6 +4570,158 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Direct Flame Blend",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 5 attacks in front, dealing Physical DMG and Fire DMG."
+              },
+              {
+                "name": "Basic Attack: Mixed Flame Blend",
+                "type": "Basic",
+                "desc": "In the Nitro-Fuel Cocktail state, hold to activate:\nSpin continuously while spraying flames around, followed by a Finishing Move that inflicts Fire DMG. Continuing to hold extends the flame-spraying duration.\nWhen the move is activated, it consumes 20 Heat;\nAnti-Interrupt level is increased while using this skill.\nAfter executing the Finishing Move, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot."
+              },
+              {
+                "name": "Basic Attack: Mixed Flame Blend",
+                "type": "Basic",
+                "desc": "In the Nitro-Fuel Cocktail state, hold to activate:\nSpins continuously while spraying flames around, followed by a Finishing Move, then triggers an extra instance of Afterburn that doesn't cost Heat and deals Fire DMG. Continuing to hold extends the flame-spraying duration.\nThe DMG dealt by this skill also counts as Assist Attack DMG.\nUpon activation, it consumes 20 Heat.\nAnti-Interrupt level is increased while using this skill.\nAfter executing the Finishing Move, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot."
+              },
+              {
+                "name": "Dodge: Fiery Phantom Dash",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Dangerous Fermentation",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nPerform a forward rush attack with the flamethrower, dealing Fire DMG."
+              },
+              {
+                "name": "Dodge Counter: Fluttering Steps",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nLaunch a series of attacks on enemies in front while spraying flames, dealing Physical DMG and Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Energizing Specialty Drink",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nUnleash a flurry of attacks on enemies in front while spraying flames, dealing Physical DMG and Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Energizing Specialty Drink",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nLaunches a series of attacks at enemies ahead and sprays flames, dealing Physical DMG and Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot."
+              },
+              {
+                "name": "Defensive Assist: Smoky Cauldron",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Scorching Dew",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nLeap into the air and quickly spin forward while spraying flames in all directions, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using the skill, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot."
+              },
+              {
+                "name": "Special Attack: Intense Heat Aging Method",
+                "type": "Special",
+                "desc": "Press to activate:\nUnleash a fire blast forward, inflicting Fire DMG;\nPress and hold to charge, boosting the move's power.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Intense Heat Stirring Method",
+                "type": "Special",
+                "desc": "With enough energy, press to activate:\nContinuously spray flames with a one-handed flamethrower, then release a fire blast in a straight line ahead, dealing massive Fire DMG. Continue holding to steadily consume energy and extend the spray's duration.\nWhile continuously spraying, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to execute a sidestep dodge, adjusting your position in the corresponding direction.\nAnti-Interrupt Level is increased while continuously spraying, and DMG taken is reduced by 40%.\nCharacter is invulnerable during sidestep dodge and fire blast."
+              },
+              {
+                "name": "EX Special Attack: Intense Heat Stirring Method",
+                "type": "Special",
+                "desc": "With enough energy, press to activate:\nContinuously spray flames with a one-handed flamethrower, then release a fire blast in a straight line ahead, dealing massive Fire DMG. Continue holding to steadily consume energy and extend the spray's duration.\nWhile continuously spraying, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to execute a sidestep dodge, adjusting your position in the corresponding direction.\nAnti-Interrupt Level is increased while continuously spraying, and DMG taken is reduced by 60%.\nCharacter is invulnerable during sidestep dodge and fire blast."
+              },
+              {
+                "name": "EX Special Attack: Intense Heat Stirring Method - Double Shot",
+                "type": "Special",
+                "desc": "While using EX Special Attack: Intense Heat Stirring Method, with enough Energy, press to activate:\nUse both flamethrowers to continuously spray flames, followed by a fire blast in a front line, dealing massive Fire DMG. Keep holding to continue consuming Energy and extend the spray's duration.\nCharacter is invulnerable during the moment the spray is activated and during the activation of the fire blast.\nAnti-Interrupt Level is increased while spraying, and DMG received is reduced by 40%."
+              },
+              {
+                "name": "EX Special Attack: Intense Heat Stirring Method - Double Shot",
+                "type": "Special",
+                "desc": "While using EX Special Attack: Intense Heat Stirring Method, with enough Energy, press to activate:\nUse both flamethrowers to continuously spray flames, followed by a fire blast in a front line, dealing massive Fire DMG. Keep holding to continue consuming Energy and extend the spray's duration.\nCharacter is invulnerable during the moment the spray is activated and during the activation of the fire blast.\nAnti-Interrupt Level is increased while spraying, and DMG received is reduced by 60%."
+              },
+              {
+                "name": "EX Special Attack: Intense Heat Tossing Method",
+                "type": "Special",
+                "desc": "If Burnice has Emberflow, coming on-field activates this skill.\nAfter squadmates trigger Afterburn 12 times, Burnice gains 1 point of Emberflow. With Emberflow, Burnice's next entry onto the field consumes 1 stack to automatically activate this skill. This entry is considered a Quick Assist. When Afterburn triggered by Basic Attack: Mixed Flame Blend hits an enemy, it counts for 2 times. While possessing Emberflow, the counter no longer increases. Consuming Emberflow clears the counter.\nQuickly dashes forward and passes through the enemy, unleashing a fiery impact that deals Physical DMG and Fire DMG.\nWhen the skill's heavy attack hits a target suffering Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it triggers Abloom: deals an additional instance of DMG equal to 480%/240%/600%/40%/60%/24% of the original Anomaly's DMG.\nThe Fire Anomaly Buildup increase from Additional Ability: Fire Kindling applies to this skill.\nCharacter is invulnerable while using this skill.\nAfter using this skill, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot."
+              },
+              {
+                "name": "Chain Attack: Fuel-Fed Flame",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nQuickly dash forward while spraying flames in all directions, then launch a fire blast in a fan-shaped area ahead, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using the skill, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot."
+              },
+              {
+                "name": "Ultimate: Glorious Inferno",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nDash forward quickly, then leap into the air and continuously spray flames over a wide area ahead, dealing massive Fire DMG.\nWhen leaping into the air, a Quick Assist will be triggered. If the Quick Assist is activated, Burnice will extend the duration of her flame spray.\nUpon activation, recover 50 Heat.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Nitro-Fuel Cocktail",
+                "type": "Core Passive",
+                "desc": "When Burnice expends Energy, she accumulates Heat, up to a max of 100. She gains 1.4 Heat for each 1 point of Energy consumed. At 50 Heat, she enters the Nitro-Fuel Cocktail state until all Heat is expended. Upon entering the battlefield, Burnice instantly accumulates 100 Heat.\nWhile in the Nitro-Fuel Cocktail state, when Burnice hits an enemy with a Basic Attack: Mixed Flame Blend, EX Special Attack: Intense Heat Stirring Method, EX Special Attack: Intense Heat Stirring Method - Double Shot, Chain Attack: Fuel-Fed Flame, or Ultimate: Glorious Inferno, she applies the Scorched effect to the target until she exits the Nitro-Fuel Cocktail state. When other squad members hit enemies under the Scorched status, it triggers the Afterburn effect, expending 8 Heat to deal Fire DMG equal to 350% of Burnice's ATK and accumulate Fire Anomaly Buildup. This effect can trigger once every 1.5s. For every 10 Anomaly Proficiency, Afterburn DMG increases by 1%, up to a max of 30%. DMG from the Afterburn effect is considered Assist Attack DMG."
+              },
+              {
+                "name": "Additional Ability: Fire Kindling",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Anomaly character or shares the same Faction:\nWhen Burnice's Basic Attack: Mixed Flame Blend, EX Special Attack: Intense Heat Stirring Method or EX Special Attack: Intense Heat Stirring Method - Double Shot hits an enemy, or when the Afterburn effect is triggered, the move's accumulated Fire Anomaly Buildup increases by 65%. When any squad member applies the Burn effect to an enemy, the duration of that effect is extended by 3s."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Kindred Flames",
+                "type": "Mindscape 1",
+                "desc": "Increases the limit of Heat from 100 to 140. Upon entering the battlefield, Burnice accumulates an additional 40 Heat. Increases the DMG Multiplier of the Afterburn effect by 100% of Burnice's ATK. Additionally, the accumulated Fire Anomaly Buildup from the Afterburn effect is increased by 25%."
+              },
+              {
+                "name": "Extra at No Additional Charge",
+                "type": "Mindscape 2",
+                "desc": "When triggering the Afterburn effect, Thermal Penetration is applied to the enemy, stacking up to 5 times and lasting 6s. Repeated triggers reset the duration. When any allied unit in the squad hits the enemy, the attack's PEN Ratio is increased by 4% for each stack of Thermal Penetration, up to a max of 20%."
+              },
+              {
+                "name": "Optimistic by Nature",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Ultimate Fuel Supply",
+                "type": "Mindscape 4",
+                "desc": "When an EX Special Attack or Assist Attack hits an enemy, the move's CRIT Rate increases by 30%. The max flame spray duration of EX Special Attack: Intense Heat Stirring Method - Double Shot is increased by 1s."
+              },
+              {
+                "name": "Dance of Fire and Ice",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Burning Invitation",
+                "type": "Mindscape 6",
+                "desc": "When Burnice hits an enemy with EX Special Attack: Intense Heat Stirring Method - Double Shot, it triggers an additional special Afterburn effect, dealing 60% of Burnice's ATK as Fire DMG to the target. This effect can trigger once every 0.5s and does not consume Heat. After hitting an enemy with EX Special Attack: Intense Heat Stirring Method - Double Shot, while the move is active, EX Special Attack: Intense Heat Stirring Method - Double Shot, special Afterburn effects, and Burn DMG will ignore 25% of the target's Fire RES. When EX Special Attack: Intense Heat Stirring Method - Double Shot's fire blast hits an enemy, if that enemy is Burned, trigger an additional instance of Burn DMG equal to 1,800% of the original DMG. This effect can trigger once every 20s for each target."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -5960,6 +6244,158 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: High-Pressure Spike",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 4 attacks, dealing Physical DMG and Electric DMG.\nWhile launching Basic Attacks, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to attack while moving. This allows Grace to reposition herself and deal Physical DMG.\nWhile Grace is launching Basic Attacks, her Basic Attack combo will not be interrupted by her Special Attacks, EX Special Attacks, Dodge, Dash Attacks, or Dodge Counter."
+              },
+              {
+                "name": "Basic Attack: High-Pressure Spike",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 4 attacks, dealing Physical DMG and Electric DMG.\nWhile launching Basic Attacks, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to move while attacking. This allows Grace to reposition herself and deal Physical DMG. If used after the 1st or 2nd hit of a Basic Attack, pressing again resumes the combo from the 3rd or 4th hit of the Basic Attack.\nWhile Grace is launching Basic Attacks, her Basic Attack combo will not be interrupted by her Special Attacks, EX Special Attacks, Dodge, Dash Attacks, or Dodge Counter."
+              },
+              {
+                "name": "Dodge: Safety Regulation",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Quick Inspection",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlide forward while shooting, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Violation Penalty",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nThrows a grenade at enemies, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dodge Counter: Violation Penalty",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nThrows a grenade at enemies, dealing Electric DMG, then automatically triggers the Basic Attack's 4th hit.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Incident Management",
+                "type": "Assist",
+                "desc": "When the active character is launched in the air, press to activate:\nThrows a grenade at the enemy, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Evasive Assist: Rapid Risk Response",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nDodges the enemy's attack and activates Vital View.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Counter Volt Needle",
+                "type": "Assist",
+                "desc": "Press after an Evasive Assist to activate:\nUnleashes a spinning hail of bullets against enemies in front and throws a grenade, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Obstruction Removal",
+                "type": "Special",
+                "desc": "Press to activate:\nThrows a grenade to the front, dealing Electric DMG.\nUpon use, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to change directions.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Special Attack: Obstruction Removal",
+                "type": "Special",
+                "desc": "Press to activate:\nThrows a grenade forward, dealing Electric DMG.\nDuring the skill, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to reposition in that direction.\nWhen activated via consuming Zap, dodge incoming enemy attacks.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Supercharged Obstruction Removal",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nLeap in the air and throw two grenades to the front, dealing massive Electric DMG.\nUpon use, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to change directions.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Supercharged Obstruction Removal",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nLeaps into the air and throws two grenades forward, dealing massive Electric DMG.\nDuring the skill, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to change directions.\nIf Zap reaches max stacks, throws an additional Vortex Cluster Grenade, generating an electromagnetic field at the point of detonation that pulls in enemies and deals Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Pulse",
+                "type": "Special",
+                "desc": "Activating an Ultimate grants 25 stacks of Pulse (max 25 stacks). When gaining Zap, consumes 1 stack of Pulse.\nAfter consuming Pulse to obtain 8 stacks of Zap, the next grenade throw includes an additional Pulse Grenade. If it hits an enemy suffering Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it triggers Abloom: deals an additional instance of DMG equal to 560%/280%/700%/50%/70%/28% of the original Anomaly's DMG.\nWhile in the Pulse state, Special Attack: Obstruction Removal - Cycle is unlocked."
+              },
+              {
+                "name": "Special Attack: Obstruction Removal - Cycle",
+                "type": "Special",
+                "desc": "While in the Pulse state, hold to activate:\nRepeatedly hurls grenades forward during the skill, dealing Electric DMG and granting 1 Zap stack each time grenades are thrown.\nDuring the skill, tilt the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to reposition and dodge enemy attacks.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Chain Attack: Collaborative Construction",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nThrows three grenades into the air then strafes to detonate them, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Demolition Blast - Beware",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nThrows a custom grenade which explodes in the air and splits into four smaller grenades, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Demolition Blast - Beware",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nThrows a custom grenade which explodes in the air and splits into four smaller grenades, dealing massive Electric DMG.\nGains 8 stacks of Zap and 25 stacks of Pulse (max 25 stacks).\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Pre-Driven Needle",
+                "type": "Core Passive",
+                "desc": "When Grace's Basic Attack or Dash Attack hits an enemy and deals Physical DMG, she gains 1 stack of Zap (up to 8 stacks). Upon reaching maximum stacks, using a Special Attack or EX Special Attack will consume all stacks of Zap, increasing the accumulated Electric Anomaly Buildup by 130%."
+              },
+              {
+                "name": "Additional Ability: Tech Support Dept.",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nUpon hitting an enemy with an EX Special Attack, the next Shock effect inflicted on the target has increased Shock DMG by 18%. This effect can stack up to 2 times, and each enemy can trigger it once per skill use. Resets when the Shock effect ends."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Recharge Chamber",
+                "type": "Mindscape 1",
+                "desc": "When the 4th hit of Grace's Basic Attack hits an enemy, all squad members gain 0.25 Energy.\nWithin the same move, this effect can grant a max of 2 Energy to all squad members."
+              },
+              {
+                "name": "Lightning Piercer",
+                "type": "Mindscape 2",
+                "desc": "When Grace's thrown grenade hits an enemy during a Basic Attack, Special Attack, or EX Special Attack, the target's Electric RES is reduced by 8.5%, and Electric Anomaly Buildup RES is reduced by 8.5%, lasting for 8s."
+              },
+              {
+                "name": "Chief Mechanic",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Burst Capacitor",
+                "type": "Mindscape 4",
+                "desc": "When Grace uses her EX Special Attack, she gains 6 stacks of Charge (max 6 stacks). When her Basic Attack: High-Pressure Spike or Dash Attack: Quick Inspection hits an enemy, 1 stack of Charge is consumed, increasing her Energy Generation Rate of the attack by 20%."
+              },
+              {
+                "name": "\"Frosty Cold Iron Witch\"",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Detonation Trigger",
+                "type": "Mindscape 6",
+                "desc": "When all Zap stacks are consumed to activate a Special Attack or EX Special Attack, Grace's skill is enhanced, tossing an extra grenade and increasing each grenade's DMG to 200%."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -7482,6 +7918,128 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Shooting Star Step",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerform up to three attacks forward, dealing Ether DMG."
+              },
+              {
+                "name": "Basic Attack: Adorable Explosive Impact",
+                "type": "Basic",
+                "desc": "Hold to launch a charged attack, dealing Ether DMG. Release the button at the right moment to trigger precise charging, increasing the Daze dealt by the skill by 20%.\nNangong Yu can perform up to three hits. The second and third hits each must consume 50 Downbeats.\nAfter using a Chain Attack, Ultimate, or EX Special Attack, if enough Downbeats are available, hold to skip the first hit and directly perform the second and third hits, which always trigger precise charging.\nWhen Nangong Yu is the active character, Chain Attacks, Ultimates, and EX Special Attacks do not interrupt the combo count of Basic Attack: Adorable Explosive Impact.\nWhile charging the first hit, Anti-Interrupt Level increases and DMG taken decreases by 60%.\nWhile charging the second and third hits, the character is Invulnerable.\nDuring the dash phase of the first hit, enemy attacks can be Blocked. On a successful Block, the attack is treated as a precise charging attack.\nCharacter is invulnerable during all attacks."
+              },
+              {
+                "name": "Dodge: Natural Dancer",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Spinning Meteor",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nDeliver a quick attack forward, dealing Ether DMG."
+              },
+              {
+                "name": "Dodge Counter: Asteroid Waltz",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nLaunch a series of attacks on the target, dealing Ether DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Emergency Save",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nLaunches a series of attacks on the target, dealing Ether DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Perfected Choreography",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Improvised Performance",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nLaunches a series of attacks on the target, dealing massive Ether DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: The Weight of Love",
+                "type": "Special",
+                "desc": "Press to activate:\nDelivers a morning star attack, dealing Ether DMG."
+              },
+              {
+                "name": "EX Special Attack: The Unbearable Weight of Love",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nDelivers a morning star attack, dealing Ether DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Comet Gravity",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunch a series of attacks forward, dealing massive Ether DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Meteor Shower",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nLaunch multiple attacks forward, dealing massive Ether DMG.\nUpon activating this skill, Nangong Yu activates Ether Veil: Delusion Reprise. While Ether Veil: Delusion Reprise is active, all squad members gain an additional 50 ATK for 30s. If Nangong Yu activates Ether Veil: Delusion Reprise again, the current Ether Veil: Delusion Reprise will first deactivate.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Prodigious Idol",
+                "type": "Core Passive",
+                "desc": "Nangong Yu's Anomaly Proficiency increases by 120.\nWhen Nangong Yu's initial Anomaly Mastery exceeds 110, each point of initial Anomaly Mastery above that increases her Impact by 1.\nWhen an enemy is Stunned, each time any character triggers Abloom DMG, Disorder DMG, or inflicts an Attribute Anomaly on the enemy, the enemy gains 1 stacks of Vibrato.\nA single enemy can have up to 4 stacks of Vibrato.\nIf Vibrato reaches the maximum stacks and the enemy is afflicted with an Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, or if the enemy has Vibrato and recovers from being Stunned, all Vibrato stacks will be cleared.\nWhen Vibrato is cleared, if the enemy is suffering an aforementioned Attribute Anomaly, Nangong Yu triggers an instance of Abloom DMG on the target, dealing an additional instance of Attribute Anomaly DMG equal to 720%/360%/900%/63%/90%/36% of the original Attribute Anomaly DMG. Each stack of Vibrato on the enemy increases this Abloom DMG ratio by an additional 25%. During the same Stun period, once Vibrato has been cleared, the enemy cannot gain Vibrato again.\nWhen Nangong Yu's Basic Attack: Adorable Explosive Impact or EX Special Attack: The Unbearable Weight of Love hits an enemy, her Anomaly Buildup Rate increases by 35%, and her Daze dealt increases by 20%, and the whole squad's DMG dealt increases by 25% for 30s. Repeated triggers reset the duration.\nWhile in combat, Nangong Yu restores 3.8 Downbeats/s. When any squad member inflicts an Attribute Anomaly on an enemy, Nangong Yu restores an additional 12 Downbeats. This effect can trigger once every 6s.\nNangong Yu can have up to 100 Downbeats, and starts with 30 Downbeats upon entering the battlefield."
+              },
+              {
+                "name": "Additional Ability: Angel Captain",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Anomaly character or shares the same Faction:\nAny squad member's attack against a Stunned enemy has 30% increased Anomaly Buildup. Chain Attacks against a Stunned enemy have an additional 30% increased Anomaly Buildup.\nWhen any squad member Stuns an enemy, Nangong Yu gains 2 stacks of Dance Prowess, up to a maximum of 2 stacks, lasting 15s, repeated triggers reset the duration. With Dance Prowess, when a heavy attack from Nangong Yu's EX Special Attack: The Unbearable Weight of Love, Basic Attack: Adorable Explosive Impact, or Quick Assist: Emergency Save hits an enemy that is both Stunned and affected by an Attribute Anomaly, 1 stack of Dance Prowess is consumed to trigger the special Disorder effect Polarity Disorder against all enemies who meet the conditions. This deals DMG equal to 25% of the original Disorder DMG, and triggers the previous squad member's Quick Assist. Polarity Disorder does not clear the target's Attribute Anomaly. If the skill fails to trigger Polarity Disorder, Dance Prowess will not be consumed. When Nangong Yu has Dance Prowess, the next time she switches to the field, she will immediately perform the first charged hit of Basic Attack: Adorable Explosive Impact, which will always trigger precise charging.\nWhen any squad member Stuns an enemy, Nangong Yu's next EX Special Attack will not consume Energy. This effect lasts 15s and can trigger once every 15s.\nWhen Nangong Yu and Aria are in the same squad, if Aria's Basic Attack: Perfect Pitch heavy attack hits an enemy that is both Stunned and affected by an Attribute Anomaly, and Nangong Yu fully participates in the attack, 1 stack of Dance Prowess will also be consumed to trigger Polarity Disorder on all enemies who meet the conditions.\nWhen the third hit of Nangong Yu's Basic Attack: Adorable Explosive Impact or Ultimate: Meteor Shower hits an enemy, the enemy suffers Misstep. Under this effect, Stun DMG Multiplier increases by 30% and when an enemy becomes Stunned, their Stun duration increases by 3s. Before recovering from Stun, Misstep can only trigger once on the same target. The increased Stun duration cannot stack with similar effects. When an enemy with Misstep recovers from Stun, the Misstep effect ends."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Lazy Spotlight",
+                "type": "Mindscape 1",
+                "desc": "When EX Special Attack: The Unbearable Weight of Love or Basic Attack: Adorable Explosive Impact hits an enemy, the enemy's All-Attribute RES decreases by 18% for 40s. Repeated triggers refresh the duration. When entering the battlefield, Nangong Yu's Downbeat is restored to the maximum. In Investigation Zone Mode, this effect can trigger once every 180s."
+              },
+              {
+                "name": "Painless Tears",
+                "type": "Mindscape 2",
+                "desc": "Each stack of Vibrato's additional Abloom DMG ratio increase from Core Passive: Prodigious Idol increases by an additional 10%. The Stun DMG Multiplier provided by Additional Ability: Angel Captain increases by an additional 30%. When the active character's Chain Attack heavy attack hits an enemy that is both Stunned and affected by an Attribute Anomaly, it triggers Polarity Disorder, dealing DMG equal to 25% of the original Disorder DMG. Each enemy can only trigger this effect once during the same Stun period."
+              },
+              {
+                "name": "Chips on the Scales",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Accomplice's Dance Step",
+                "type": "Mindscape 4",
+                "desc": "Anomaly Proficiency increases by 40. The Anomaly Buildup of Basic Attack: Adorable Explosive Impact when hitting an enemy increases by 35%."
+              },
+              {
+                "name": "Center Stage",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "An Angel's Delusion",
+                "type": "Mindscape 6",
+                "desc": "Nangong Yu's attacks deal 50% more Daze. When the enemy is not Stunned, each time any character triggers Abloom DMG, Disorder DMG, or inflicts an Attribute Anomaly on them, the enemy gains 1 stacks of Vibrato: Modified. When hit by the heavy attack of EX Special Attack: The Unbearable Weight of Love or Basic Attack: Adorable Explosive Impact, they gain 1 stacks of Vibrato: Modified. When hit by the heavy attack of Ultimate: Meteor Shower, they gain 2 stacks of Vibrato: Modified. Vibrato: Modified can stack up to 4 times. When the enemy becomes Stunned, all Vibrato: Modified stacks are cleared. When Vibrato: Modified is cleared, if the enemy is under an Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, Nangong Yu triggers an instance of Abloom DMG on the target, dealing an additional instance of Attribute Anomaly DMG equal to 800%/400%/1,000%/70%/100%/40% of the original Attribute Anomaly DMG. Each stack of Vibrato: Modified on the enemy increases this Abloom DMG ratio by an additional 25%. Vibrato: Modified cannot stack with Vibrato."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -9004,6 +9562,143 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Feathered Strike",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to four attacks in front, dealing Physical DMG and Ether DMG.\nAfter triggering the fourth attack, enter the Noblewoman state.\nWith Flight Feathers available, holding during the fourth attack will activate the Fluttering Frock state."
+              },
+              {
+                "name": "Basic Attack: Noblewoman - Waltz",
+                "type": "Basic",
+                "desc": "Press while in the Noblewoman state to activate:\nDash forward with an attack that deals Ether DMG and restores 1 Flight Feather upon hitting an enemy.\nCharacter is invulnerable while using this skill.\nIf a Perfect Dodge is triggered during the dash, gain 1 additional Flight Feather.\nIf Flight Feathers are available after the skill, enter the Fluttering Frock state, which can be canceled by holding when the skill is used."
+              },
+              {
+                "name": "Basic Attack: Fluttering Frock - Suspension",
+                "type": "Basic",
+                "desc": "Press while in the Fluttering Frock state to activate:\nAttack an area ahead, dealing Ether DMG.\nAfter activation, this skill consumes all Flight Feathers, and each one consumed grants 1 Guard Feather.\nCharacter is invulnerable while using this skill.\nWhen switching characters during the Fluttering Frock state, Vivian will automatically perform Basic Attack: Fluttering Frock - Suspension.\nWhile in the Fluttering Frock state, press to exit the state."
+              },
+              {
+                "name": "Basic Attack: Featherbloom",
+                "type": "Basic",
+                "desc": "After any squad member hits a target with an EX Special Attack, Vivian will consume 1 Guard Feather to launch Basic Attack: Featherbloom against the target, dealing Ether DMG, triggering at most once per use of a skill. This effect can trigger even while Vivian is off-field.\nA maximum of 5 Guard Feathers can be stored."
+              },
+              {
+                "name": "Dodge: Lightstream",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Silver Thorned Melody",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nLaunches a forward thrust at enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Wingblade Reverb",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nLaunches an attack on enemies ahead, dealing Physical DMG and Ether DMG.\nCharacter is invulnerable while using this skill.\nAfter activating the skill, enter the Noblewoman state.\nWhen there are Flight Feathers available, hold during skill activation to enter the Fluttering Frock state."
+              },
+              {
+                "name": "Dodge: Dainty Steps",
+                "type": "Dodge",
+                "desc": "When in the Noblewoman state and about to be attacked, an automatic dodge will trigger, during which the character will be Invulnerable, but a Perfect Dodge will not be triggered.\nThis can trigger once each time the Noblewoman state is entered."
+              },
+              {
+                "name": "Quick Assist: Frostwing Guard",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nLaunches an attack on enemies ahead, dealing Physical DMG and Ether DMG.\nCharacter is invulnerable while using this skill.\nAfter the skill activates, enter the Noblewoman state.\nWith Flight Feathers available, hold during skill activation to enter the Fluttering Frock state."
+              },
+              {
+                "name": "Defensive Assist: Silver Umbrella Formation",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Featherblade Execution",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nLaunch an attack at enemies ahead, dealing Ether DMG and gaining 2 Flight Feathers.\nCharacter is invulnerable while using this skill.\nAfter the skill activates enter the Fluttering Frock state, which can be canceled by holding during the skill."
+              },
+              {
+                "name": "Special Attack: Song of Silver Wings",
+                "type": "Special",
+                "desc": "Press to activate:\nQuickly attack forward, dealing Physical DMG and Ether DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Violet Requiem",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nUnleash a powerful forward attack that deals massive Ether DMG and grants 3 Flight Feathers.\nCharacter is invulnerable while using this skill.\nEnter the Fluttering Frock state after using the skill. Hold during the skill to enter the Noblewoman state."
+              },
+              {
+                "name": "Chain Attack: Chorus of Celestial Wings",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunch a powerful attack on a large area of enemies ahead, dealing massive Ether DMG and gaining 2 Flight Feathers.\nCharacter is invulnerable while using this skill.\nAfter the skill activates, enter the Fluttering Frock state, which can be canceled by holding during the skill."
+              },
+              {
+                "name": "Ultimate: Soaring Bird's Song",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nLaunch a powerful attack on a large area of enemies ahead, dealing massive Ether DMG and gaining 5 Flight Feathers.\nCharacter is invulnerable while using this skill.\nAfter the skill is activated, enter the Fluttering Frock state, which can be canceled by holding during the skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Dirge of Destiny",
+                "type": "Core Passive",
+                "desc": "When Basic Attack: Featherbloom hits a target suffering Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it triggers Abloom: deals an additional instance of DMG equal to 6.15%/3.2%/8%/0.75%/1.08%/0.32% per 10 points of Anomaly Proficiency of the original Anomaly's DMG.\nWhen Basic Attack: Fluttering Frock - Suspension or Basic Attack: Featherbloom hits a target suffering any Attribute Anomaly, apply Vivian's Prophecy to the target, causing the target to take Ether DMG equal to 55% of Vivian's ATK every 0.55s. This DMG can trigger the additional DMG of Attribute Anomalies. When the enemy is no longer suffering an Attribute Anomaly, Vivian's Prophecy expires.\nUpon entering the battlefield, Vivian gains 2 Flight Feathers."
+              },
+              {
+                "name": "Additional Ability: Prophetic Tears",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Anomaly character or shares the same attribute:\nWhenever another squad member applies an Attribute Anomaly to an enemy, Vivian will consume 1 Guard Feather to launch Basic Attack: Featherbloom on the target. This can trigger once every 0.5s.\nCorruption DMG dealt by all squad members and the Corruption status' Disorder DMG increases by 12%."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "\"Walking Into the Orchard in Spring\"",
+                "type": "Mindscape 1",
+                "desc": "When a total of 4 Guard Feathers are consumed, gain 1 Flight Feather. All Attribute Anomaly DMG and Disorder DMG received by targets under Vivian's Prophecy increases by 16%."
+              },
+              {
+                "name": "\"Stormy Night, Stormy Night\"",
+                "type": "Mindscape 2",
+                "desc": "Vivian's Ether Anomaly Buildup Rate increases by 25%. The benefits of Abloom from Anomaly Proficiency are raised to 130% of the original value, and 15% of the target's All-Attribute RES is ignored."
+              },
+              {
+                "name": "\"Another and the Same\"",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "\"The Wind Between the Reeds\"",
+                "type": "Mindscape 4",
+                "desc": "Basic Attack: Fluttering Frock - Suspension and Basic Attack: Featherbloom will always CRIT on hit, and they will also increase Vivian's ATK by 12% for 12s. Repeated triggers reset the duration.\nWhen entering the battlefield, Vivian immediately gains 5 Guard Feathers."
+              },
+              {
+                "name": "\"Sonnet\"",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "\"Vivian\"",
+                "type": "Mindscape 6",
+                "desc": "Vivian's Ether DMG increases by 40%. When triggering a Perfect Dodge during Basic Attack: Noblewoman - Waltz's dash, or using EX Special Attack: Violet Requiem, gain 1 additional Flight Feather. Launching Basic Attack: Fluttering Frock - Suspension consumes all Guard Feathers, the downward attack's area of effect increases, and upon hit, triggers a special instance of Abloom. Each additional Guard Feather consumed will increase the proportion of additional Anomaly DMG dealt by that instance of Abloom, consuming a maximum of 5 Guard Feathers to increase the DMG up to a maximum of 5 times the original."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -10519,6 +11214,143 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: High-Pressure Flamethrower",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 5 attacks in front, followed by a powerful flame blade strike, dealing Physical DMG and Fire DMG."
+              },
+              {
+                "name": "Dodge: Flickering Flames",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Rush Command",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nPerform a quick forward attack, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Counter Strike Opportunity",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nLaunch a series of attacks on enemies in front, dealing Physical DMG and Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Searing Slash",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nUnleash a series of attacks on enemies in front, dealing Physical DMG and Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Blazing Gunblade",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Boiling Pierce",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleash multiple attacks against enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Blazing Chamber",
+                "type": "Special",
+                "desc": "Press to activate:\nThrust forward and perform a tail attack, dealing Fire DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Special Attack: Corrosive Flash",
+                "type": "Special",
+                "desc": "Automatically triggers during ally attacks:\nUnleashes 4 laser Aftershock attacks, dealing Fire DMG.\nTriggers once per 5s.\nUpon activating this skill, restore 20 Bottled Heat.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Watch Your Step",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nPerform a sweeping laser attack forward, dealing Fire DMG.\nAfter using this skill, immediately follow up with the powerful fire blade from the Basic Attack.\nUpon activating this skill, restore 20 Bottled Heat.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Crimson Vortex",
+                "type": "Special",
+                "desc": "When off-field with 60 or more Energy, automatically triggers during ally attacks:\nPerforms a sweeping laser attack in an area around, dealing Fire DMG.\nUpon activating this skill, restore 20 Bottled Heat.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Heat Charge",
+                "type": "Special",
+                "desc": "When Bottled Heat is greater than or equal to 100, hold to activate:\nConsume 100 Bottled Heat to continuously fire a laser forward, dealing Fire DMG.\nWhen firing begins, triggers Quick Assist.\nAfter continuous firing for a period, firepower increases, greatly boosting the skill's Interrupt Level.\nWhen attacked during firing, will parry enemy attacks and immediately increase firepower.\nWhen maximum firing duration is reached, automatically activates EX Special Attack: Fiery Eruption.\nDuring the low firepower phase, Anti-Interrupt Level increases and DMG taken is reduced by 40%, while character is invulnerable during the high firepower phase."
+              },
+              {
+                "name": "EX Special Attack: Fiery Eruption",
+                "type": "Special",
+                "desc": "Automatically activates after EX Special Attack: Heat Charge reaches maximum firing time:\nPerforms a spinning attack forward, then fires a laser ahead dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Overheated Barrel",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nPerform a spinning attack forward, then fire a laser ahead, dealing Fire DMG.\nUpon activating this skill, restore 20 points of Bottled Heat.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Dance With Fire",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nPerform a spinning attack forward, then fire a laser ahead, dealing Fire DMG.\nWhen leaping into the air, a Quick Assist will be triggered. If the Quick Assist is activated, Orphie & Magus will extend the laser firing duration.\nUpon activating this skill, recover 20 Bottled Heat.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Taming Wind and Fire",
+                "type": "Core Passive",
+                "desc": "Orphie & Magus's CRIT Rate increases by 25%, and Aftershock DMG increases by 85%.\nOrphie & Magus initially gain 100 Bottled Heat, up to a maximum of 125.\nWhen Orphie & Magus are off-field, if Special Attack: Corrosive Flash is available and Energy is greater than or equal to 60, consume 30 Energy to automatically trigger EX Special Attack: Crimson Vortex instead.\nWhen the laser from EX Special Attack: Heat Charge hits enemies, all squad members gain Zeroed In for 12s. Repeated triggers reset the duration. Zeroed In increases Agent ATK by 280. When Orphie & Magus's initial Energy Regen is greater than or equal to 1.6, for every 0.1 initial Energy Regen above this threshold, ATK increases by an additional 20. The total increase from both initial and additional ATK increases cannot exceed 700. When an Agent with Zeroed In triggers Aftershock, their Zeroed In duration extends by 4s, up to a maximum extension of 20s.\nThe fire blade attack from Basic Attack: High-Pressure Flamethrower, EX Special Attack: Watch Your Step, EX Special Attack: Crimson Vortex, EX Special Attack: Heat Charge, EX Special Attack: Fiery Eruption, Chain Attack: Overheated Barrel, and Ultimate: Dance With Fire all count as Aftershock DMG, and using these skills counts as triggering Aftershock."
+              },
+              {
+                "name": "Additional Ability: Forged in Flames",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Stun or Support character:\nAftershock DMG dealt by Agents with Zeroed In ignores 25% DEF."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Luxurious Cat House",
+                "type": "Mindscape 1",
+                "desc": "Orphie & Magus' Special Attack: Corrosive Flash, EX Special Attack: Crimson Vortex, EX Special Attack: Heat Charge, and EX Special Attack: Fiery Eruption ignore 15% of target's Fire RES, and Agents with Zeroed In deal 20% increased DMG."
+              },
+              {
+                "name": "Weird Food List",
+                "type": "Mindscape 2",
+                "desc": "When Orphie & Magus launch an Aftershock, restore 65 Decibels. This effect can trigger once every 4s. After Orphie & Magus use their Ultimate, their ATK increases by 20% for up to 45s."
+              },
+              {
+                "name": "\"Tactics Manual\"",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Pink Holster",
+                "type": "Mindscape 4",
+                "desc": "Initial duration of Zeroed In increases to 16s, and Orphie & Magus's EX Special Attack: Heat Charge and Ultimate: Dance With Fire DMG increases by 40%."
+              },
+              {
+                "name": "Ferry Toll",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Magic Seed",
+                "type": "Mindscape 6",
+                "desc": "With enough energy, after the fire blade attack of Basic Attack: High-Pressure Flamethrower, press to immediately follow up with EX Special Attack: Crimson Vortex. When the fire blade attack of Basic Attack: High-Pressure Flamethrower is activated, recover 10 Bottled Heat, and the Interrupt Level during the low firepower phase of EX Special Attack: Heat Charge will also increase. When the laser from EX Special Attack: Heat Charge or Ultimate hits enemies, it deals additional Fire DMG equal to 250% of Orphie & Magus's ATK. This effect can trigger once every 0.5s and is counted as EX Special Attack and Aftershock DMG."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -12036,6 +12868,148 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Emberglow",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerforms up to three attacks forward, dealing Ether DMG."
+              },
+              {
+                "name": "Basic Attack: Celestial Light",
+                "type": "Basic",
+                "desc": "With 30 or more , hold to activate:\nUnleashes up to four attacks forward, dealing massive Ether DMG.\nIf another character is switched in during the 3rd hit, Pyrois automatically performs the 4th hit off-field.\nEach hit consumes a certain amount of Solar Prominence.\nCharacter is invulnerable during the 3rd and 4th hits."
+              },
+              {
+                "name": "Dodge: Twilight",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Sunrise",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nDelivers a quick slash forward, dealing Ether DMG."
+              },
+              {
+                "name": "Dodge Counter: First Light",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nPerforms a forward spinning slash, dealing Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Duskguard",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nLaunches a series of attacks against the target, dealing Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Ironhide Behemoth",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Return to Daylight",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nPerforms a forward thrust attack, dealing Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Fading Rays",
+                "type": "Special",
+                "desc": "Press to activate:\nPerforms a rush attack, dealing Ether DMG."
+              },
+              {
+                "name": "EX Special Attack: Sun's Halo",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nQuickly charges forward and performs a series of consecutive attacks, dealing massive Ether DMG.\nIf hit by an enemy attack during the charge, triggers a Perfect Block effect, nullifying the damage and increasing the move's Interrupt Level to that of a Heavy Defensive Assist.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Assault Directive",
+                "type": "Special",
+                "desc": "When an Ultimate or EX Special Attack: Sun's Halo is used, Phaethon performs an assist attack, dealing Ether DMG. This effect can trigger once every 2.5s, and is guaranteed to trigger when using an Ultimate."
+              },
+              {
+                "name": "Chain Attack: Ceremonial March",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nPerforms a coordinated attack with Phaethon, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Total Annihilation",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the upper branch to activate:\nAfter charging, performs a downward slash, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Triumphant Return",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the lower branch to activate:\nReleases an energy burst in the surrounding area, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Unbound Swordstorm",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the left branch to activate:\nUnleashes consecutive attacks forward, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Eternal Imprisonment",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the right branch to activate:\nGathers energy ahead before unleashing a Finishing Move, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Radiant Chariot",
+                "type": "Core Passive",
+                "desc": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 40%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 900% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 2,250% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
+              },
+              {
+                "name": "Additional Ability: Glorious Legion",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Stun or Support character:\nPyrois' CRIT DMG increases by 40%.\nUsing a Chain Attack grants 300 Decibels."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Shadows of Twilight Past",
+                "type": "Mindscape 1",
+                "desc": "Upon entering the battlefield, Pyrois gains 1,000 Decibels. This effect can trigger once every 180s in Investigation Zone mode. CRIT Rate increases by 8%."
+              },
+              {
+                "name": "Blazing Cavalry",
+                "type": "Mindscape 2",
+                "desc": "Using Ultimate: Triumphant Return grants 1,500 Decibels. This effect can trigger once every 180s. Pyrois's Decibel limit increases by 1,000."
+              },
+              {
+                "name": "Chains of Fate",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Balefire Horizon",
+                "type": "Mindscape 4",
+                "desc": "Mindscape Effect Hidden"
+              },
+              {
+                "name": "Youthful Guardian",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Morning Star at Dawn",
+                "type": "Mindscape 6",
+                "desc": "Mindscape Effect Hidden"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -13561,6 +14535,133 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Dancing Fans",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunches up to five attacks against enemies ahead, dealing Wind DMG.\nDuring the 5th attack, Velina's Anti-Interrupt Level increases, and DMG taken is reduced by 40%."
+              },
+              {
+                "name": "Dodge: Windward Sweep",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Gale Step",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nDelivers a quick attack forward, dealing Wind DMG."
+              },
+              {
+                "name": "Dodge Counter: Cloudrend",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nLaunches a series of attacks on the target, dealing Wind DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Emergency Protocol",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nUnleashes consecutive attacks against the target, dealing Wind DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Judicious Intervention",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Negotiation Techniques",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleashes a series of attacks, dealing Wind DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Wind Shear - Purging Surge",
+                "type": "Special",
+                "desc": "Press to activate:\nUnleashes a sweeping gust forward, dealing Wind DMG."
+              },
+              {
+                "name": "EX Special Attack: Wind Shear - Purifying Rise",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nDodges backward, then unleashes a massive wind blast to attack enemies, dealing Wind DMG.\nDuring the backward dodge, a dodge effect is active. Successfully dodging an enemy attack triggers Vital View.\nAfter using this skill, press to chain into the 5th hit of the Basic Attack.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Wind Shear - Triple Deathblow",
+                "type": "Special",
+                "desc": "With enough energy and after using EX Special Attack: Wind Shear - Purifying Rise, press or hold to activate:\nContinuously swings the fan, dealing Wind DMG.\nAfter using this skill, press to chain into the 5th hit of the Basic Attack.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Wind Shear - Eye of the Storm",
+                "type": "Special",
+                "desc": "With 90 or more , hold or to activate:\nVelina channels a whirlwind and summons a to continuously attack enemies and triggers the previous character's Quick Assist.\nSweeping Cyclone lasts for 5s and deals Wind DMG to nearby enemies once every 0.5s."
+              },
+              {
+                "name": "Chain Attack: Thousandfold Spiral",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nTransforms into a hurricane to unleash multiple attacks against enemies, followed by a Finishing Move, dealing massive Wind DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Heed the Tempest",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes multiple attacks against enemies ahead, dealing massive Wind DMG.\nAfter using this skill, the previous character's Quick Assist is triggered.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Breeze in Bloom",
+                "type": "Core Passive",
+                "desc": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 150%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 145% and 255% multiplier Wind Anomaly DMG respectively."
+              },
+              {
+                "name": "Additional Ability: Tea Party Etiquette",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Anomaly character or shares the same attribute:\nVelina's Windswept and Vortex DMG increases by 10%. When the heavy attack from an Ultimate hits an enemy suffering a Wind Attribute Anomaly, it triggers an instance of Abloom DMG against the target: resolves one additional instance of Attribute Anomaly DMG, fixed at 680% of Wind Attribute Anomaly DMG.\nFor Core Passive: Breeze in Bloom, the Attribute Anomaly Buildup RES reduction from is further increased by 7%, while Daze inflicted increases by 30%, and accumulated Attribute Anomaly Buildup increases by 15%."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Orderly Elegance",
+                "type": "Mindscape 1",
+                "desc": "Sweeping Cyclone from Additional Ability: Tea Party Etiquette deals an additional 20% Daze. When Velina triggers Vortex, she ignores 20% of the target's All-Attribute RES. When squad members deal Windswept DMG, 20% of the target's Wind RES is ignored."
+              },
+              {
+                "name": "Saturation Project",
+                "type": "Mindscape 2",
+                "desc": "When Velina triggers Windswept, she can also gain 1 point of Windbite. This effect can trigger once every 5s. After Sweeping Cyclone triggers the Chromatic Tint effect, it can accumulate the corresponding attribute's Anomaly Buildup. The buildup accumulated by this attack is excluded from Anomaly DMG calculations. The DMG increase effects of Velina's Windswept and Vortex from Additional Ability: Tea Party Etiquette are further increased by 15%."
+              },
+              {
+                "name": "Conquest by Etiquette",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Tea Party Tribunal",
+                "type": "Mindscape 4",
+                "desc": "When Velina uses an EX Special Attack, her ATK increases by 15% for 40s. Repeated triggers reset the duration."
+              },
+              {
+                "name": "Death Witch",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Chief Angel",
+                "type": "Mindscape 6",
+                "desc": "When Velina consumes 2 points of Windbite to increase the DMG Multiplier of Vortex, she gains 1 point of Windbite. This effect can trigger once every 6s. When Velina hits an enemy suffering a Wind Attribute Anomaly, the Wind Attribute Anomaly Buildup she inflicts increases by 20%. When Velina inflicts Windswept on an enemy already affected by Windswept, the new Windswept's DMG increases based on the remaining duration of the previous. Each remaining second increases the DMG by 2.5%, up to a maximum increase of 40%."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -15083,6 +16184,203 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Swiftedge",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunches up to four forward slashes, dealing Physical DMG.\nCan be chained into Dash Attack: Phantasm Dash after the 4th hit."
+              },
+              {
+                "name": "Basic Attack: Cloudstream Sword Will",
+                "type": "Basic",
+                "desc": "Hold to activate:\nLaunches a flurry of blade shockwaves, dealing Physical DMG. Hold to extend the attack.\nAnti-Interrupt Level is increased during this skill."
+              },
+              {
+                "name": "Basic Attack: Enlightened Mind - Splitting Currents",
+                "type": "Basic",
+                "desc": "While in the Enlightened Mind state and on the ground, press to activate:\nPerforms up to three forward slashes, dealing Physical DMG.\nIf struck by an enemy attack during the 3rd hit, triggers a block, negating that instance of DMG.\nIf she possesses Qingming Sword Force, the 3rd hit is replaced with Basic Attack: Enlightened Mind - Skyward Ascent."
+              },
+              {
+                "name": "Basic Attack: Enlightened Mind - Skyward Ascent",
+                "type": "Basic",
+                "desc": "While in the Enlightened Mind state and with Qingming Sword Force, after the 2nd hit of Basic Attack: Enlightened Mind - Splitting Currents, press to activate:\nLaunches a swift rising attack, dealing Physical DMG and entering an airborne state.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Basic Attack: Enlightened Mind - Sunderlight Maximum",
+                "type": "Basic",
+                "desc": "After activating Basic Attack: Enlightened Mind - Sunderlight Annihilation, and with Qingming Sword Force, press to activate:\nLaunches a wide sweeping slash forward, dealing massive Physical DMG. On hit, 1 point of Qingming Sword Force is consumed.\nIf struck by an enemy during the skill, triggers a block, negating that instance of DMG and increasing the skill's Interrupt Level.\nAfter using this skill and with Qingming Sword Force, press to consume 1 point of Qingming Sword Force and launch a hit of EX Special Attack: Enlightened Mind - Soaring Light. This skill is automatically followed up with Basic Attack: Enlightened Mind - Skyward Ascent, and Ye Shunguang enters an airborne state.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Basic Attack: Enlightened Mind - Sunderlight",
+                "type": "Basic",
+                "desc": "In the Enlightened Mind state, and while airborne, press to activate:\nLaunches up to two downward slashes in front, dealing Physical DMG.\nYe Shunguang will not exit the Enlightened Mind state during this skill.\nPress or to follow up with Basic Attack: Enlightened Mind - Sunderlight Annihilation.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Basic Attack: Enlightened Mind - Sunderlight Annihilation",
+                "type": "Basic",
+                "desc": "After the 2nd hit of Basic Attack: Enlightened Mind - Sunderlight, press to activate:\nPerforms a falling attack in front, entering a grounded state, and dealing Physical DMG.\nWhen launching this skill with 2 or more points of Qingming Sword Force, Ye Shunguang will perform a downward falling strike across a large area in front instead, dealing massive Physical DMG. On hit, 2 points of Qingming Sword Force are consumed, granting the Culmination effect. After using this skill, if Ye Shunguang possesses Qingming Sword Force, press to consume 1 point of Qingming Sword Force and launch a hit of EX Special Attack: Enlightened Mind - Soaring Light, which can be quickly followed up with Basic Attack: Enlightened Mind - Sunderlight Maximum.\nYe Shunguang will not exit the Enlightened Mind state during this skill.\nDuring this skill, if attacked by enemies, triggers a block, negating that instance of DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Culmination",
+                "type": "Basic",
+                "desc": "During EX Special Attack: Enlightened Mind - Soaring Light, each time Qingming Sword Force is consumed while Culmination is active, the Qingming Sword Force cost is replaced by consuming Culmination instead. This effect does not stack, and lasts until the current Enlightened Mind ends."
+              },
+              {
+                "name": "Dodge: Leave No Trace",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\nDuring the Enlightened Mind state, and if a Perfect Dodge is triggered, press to activate Basic Attack: Enlightened Mind - Skyward Ascent."
+              },
+              {
+                "name": "Dodge: Wandering Cloud",
+                "type": "Dodge",
+                "desc": "While tilting the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick}, hold to activate:\nEnters a high-speed movement state. Steer with the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick}, and release the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to stop."
+              },
+              {
+                "name": "Dash Attack: Phantasm Dash",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Swallow Strike",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nLeaps into the air and thrusts forward, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Entry Skill: Illuminating Darkness",
+                "type": "Assist",
+                "desc": "With 6 Qingming Sword Force and while not in the Enlightened Mind state, hold to activate, or press while in combat and switch on-field from off-field to activate:\nEnters the Enlightened Mind state and activates Ether Veil: Verdict.\nDeals Physical DMG to enemies in a large area in front.\nActivating this skill is considered as activating a Quick Assist.\nEnters the airborne state after using this skill.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Support Guard",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nLeaps into the air and thrusts forward, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Cease Hostility",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nDeals massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: When I Return",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Enlightened Mind - Tactical Support",
+                "type": "Assist",
+                "desc": "While in the Enlightened Mind state, when the active character is launched, press to activate:\nLaunches a forward slash, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Enlightened Mind - Unification",
+                "type": "Assist",
+                "desc": "While in the Enlightened Mind state and after a Defensive Assist, press to activate:\nDeals massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Guiding Tides",
+                "type": "Special",
+                "desc": "Press to activate:\nIf a dodge is available, 1 dodge chance is consumed, and the action is counted as activating a Dodge.\nIf no dodge is available or a Perfect Dodge is not triggered, launches a quick sword energy attack that deals Physical DMG.\nIf a Perfect Dodge is triggered at this time, launches a flying sword attack, dealing Physical DMG, and immediately follow up with the 2nd hit of Basic Attack: Swiftedge.\nCharacter is briefly invulnerable during the skill."
+              },
+              {
+                "name": "EX Special Attack: Gale Suppression",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nLaunches a rushing slash and a flying sword attack at the enemy, dealing massive Physical DMG.\nEnemy attacks can be dodged during this skill.\nAfter this skill is used, gain 1 point of Qingming Sword Force.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Enlightened Mind - Clean Exit",
+                "type": "Special",
+                "desc": "While in the Enlightened Mind state and grounded, press to activate:\nPerforms a swift backstep slash, dealing Physical DMG.\nIf a dodge is available, 1 dodge chance is consumed, and the action is counted as activating a Dodge.\nIf a Perfect Dodge is triggered at this time, press to quickly activate Enlightened Mind - Sunderlight Maximum and enter Vital View.\nAfter this Enlightened Mind - Sunderlight Maximum activates, it can be immediately followed up with Basic Attack: Enlightened Mind - Skyward Ascent.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Enlightened Mind - Soaring Light",
+                "type": "Special",
+                "desc": "In the Enlightened Mind state and with Qingming Sword Force, hold to activate:\nPerforms quick consecutive slashes, dealing massive Physical DMG while rapidly consuming Qingming Sword Force until none remains.\nThe skill ends early if Qingming Sword Force is insufficient or if is released.\nYe Shunguang will not exit the Enlightened Mind state during this skill.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Enlightened Mind - Return to Dust",
+                "type": "Special",
+                "desc": "In the Enlightened Mind state, press or hold when all Qingming Sword Force is expended to activate:\nDeals massive Physical DMG to enemies in a large area.\nYe Shunguang will not exit the Enlightened Mind state during this skill.\nAfter using this skill, Ether Veil: Verdict is removed and the Enlightened Mind state ends.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Smite the Wicked",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful slash at enemies ahead in a large area, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Chasing Storms",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nSummons a sword formation and enter the Enlightened Mind state, activating an Ether Veil: Verdict while also gaining 6 Qingming Sword Force. This skill deals massive Physical DMG.\nUpon activating this skill, if Decibels are consumed, press while in this Enlightened Mind state to launch an Ultimate: Cleaving Heavens that doesn't consume Decibels.\nEnter the airborne state after using this skill.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Enlightened Mind - Lure Thunder",
+                "type": "Chain",
+                "desc": "While in the Enlightened Mind state, and when a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful slash at enemies ahead in a large area, dealing massive Physical DMG.\nYe Shunguang will not exit the Enlightened Mind state during this skill.\nEnter the airborne state after using this skill.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Cleaving Heavens",
+                "type": "Chain",
+                "desc": "After consuming Decibels to launch Ultimate: Chasing Storms and while in the Enlightened Mind state, press or hold when all Qingming Sword Force is expended to activate:\nSummons a massive blade, dealing massive Physical DMG to enemies.\nYe Shunguang will not exit the Enlightened Mind state during this skill.\nAfter using this skill, the Enlightened Mind state ends, and Ether Veil: Verdict is removed.\nThis skill doesn't consume Decibels.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Burning Clarity",
+                "type": "Core Passive",
+                "desc": "When not in the Enlightened Mind state and with fewer than 6 points of Qingming Sword Force, certain attacks slowly build Qingming Sword Force. Whenever Qingming Sword Force is gained by any means, each 1 point of Qingming Sword Force that exceeds the limit is converted into 1 stack of Bearer, stacking up to 3 times. Upon leaving the Enlightened Mind state, all Bearer stacks are consumed to grant the same number of Qingming Sword Force stacks.\nUpon entering the battlefield, gain Unity, increasing CRIT Rate by 30% and DMG by 25%.\nWhen Ultimate: Chasing Storms or Entry Skill: Illuminating Darkness is unleashed, Ye Shunguang enters the Enlightened Mind state and activates Ether Veil: Verdict. Ether Veil: Verdict has the same duration as Enlightened Mind. The duration lasts 16s, and the duration timer pauses while she is off-field. During the Enlightened Mind state, Ye Shunguang's skills are enhanced, all Physical DMG dealt by her skills becomes Honed Edge DMG.\nWhile Ether Veil: Verdict is active, when an enemy enters Ether Veil: Verdict, they gain a Veil Vulnerability effect based on their current Stun DMG Multiplier. During this, when Ye Shunguang deals DMG to enemies with her skills, enemy Stun DMG Multiplier is ignored and replaced with the Veil Vulnerability bonus. Veil Vulnerability caps at 110%. The effect is removed when Ether Veil: Verdict ends."
+              },
+              {
+                "name": "Additional Ability: Shadowtrace Flight",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Support or Defense character:\nWhen a squadmate activates any Ether Veil, gain 3 points of Qingming Sword Force. If already in the Enlightened Mind state, this is instead converted into 3 stacks of Bearer."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Dreambound Self",
+                "type": "Mindscape 1",
+                "desc": "Upon entering the battlefield, gains 6 Qingming Sword Force. This effect can trigger once every 180s in Investigation Zone mode.\nThe Unity effect from Core Passive: Burning Clarity increases DMG dealt by an additional 10%, and they ignore 20% of the target's DEF."
+              },
+              {
+                "name": "Light & Shadow",
+                "type": "Mindscape 2",
+                "desc": "The max stack count of Bearer increases to 6, and Culmination can stack up to 9 times. While in the Enlightened Mind state, each point of Qingming Sword Force consumed grants 1 stack of Culmination. EX Special Attack: Enlightened Mind - Soaring Light and Ultimate: Cleaving Heavens's DMG ignore 40% of the target's DEF."
+              },
+              {
+                "name": "Swordswoman",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Together into the Dust",
+                "type": "Mindscape 4",
+                "desc": "Upon entering the battlefield, gains 1,000 Decibels. In Investigation Zone mode, this effect can trigger once every 180s. The Vulnerability bonus provided by Ether Veil: Verdict is increased to a maximum of 200%."
+              },
+              {
+                "name": "Guiding Glimmer",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Lantern Wish",
+                "type": "Mindscape 6",
+                "desc": "Upon entering the battlefield, gains 2 stacks of Lantern Wish. When entering the Enlightened Mind state, gains 1 stack of Lantern Wish, stacking up to 4 times. With 3 stacks of Lantern Wish, EX Special Attack: Enlightened Mind - Return to Dust is replaced with Ultimate: Cleaving Heavens. When this Ultimate: Cleaving Heavens is activated, it consumes 3 stacks of Lantern Wish. The last hit of Enlightened Mind - Return to Dust and Ultimate: Cleaving Heavens deal 1,500% of ATK as additional Physical DMG."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -16601,6 +17899,133 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Celestial Overture",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerform up to 5 slashes forward, dealing Physical DMG.\nWhen Alice triggers Assault through Attribute Anomaly Buildup, the 5th hit of her next Basic Attack is enhanced."
+              },
+              {
+                "name": "Basic Attack: Starshine Waltz",
+                "type": "Basic",
+                "desc": "When Alice's Blade Etiquette reaches 1 bar, hold to activate:\nHold to charge, expending up to 3 bars of Blade Etiquette. Release or when Blade Etiquette is below 1 bar, Alice performs a series of slashes in an area centered on the target enemy, with the number of hits determined by charge level, dealing massive Physical DMG.\nWhen the Finishing Move of a three-stage charged Basic Attack: Starshine Waltz hits, it triggers a special Assault effect: Polarity Assault. This deals DMG equal to {CAL:0+100,1,2}% of the original Assault, ignoring Anomaly Buildup, and can interact with other Attribute Anomalies, including Physical, to trigger Disorder.\nBlade Etiquette does not accumulate when hitting an enemy.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dodge: Jumpy Bunny",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Blade-Dancer's Gale",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Ceremony of Swordlight",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nSlash and kick enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Intertwined Stab",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nSlash and kick enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Parry Guard",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Cross Riposte",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nCharge forward and slash enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Piercing Dawn",
+                "type": "Special",
+                "desc": "Press to activate:\nHurl the blade to strike and pass through enemies ahead, dealing Physical DMG.\nUpon activating this skill, a Perfect Dodge can be triggered.\nAfter triggering a Perfect Dodge, press to follow up with the 5th hit of a Basic Attack.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Aurora Thrust - Northern Cross",
+                "type": "Special",
+                "desc": "With enough energy, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} forward and press to activate:\nA thrust attack that goes through enemies ahead, dealing massive Physical DMG.\nActivating the skill can trigger Perfect Dodge and restores 10 Blade Etiquette.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Aurora Thrust - Southern Cross",
+                "type": "Special",
+                "desc": "With enough energy, and without moving the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} or when dragging it backwards, press to activate:\nBack away with a slash, then thrust forward, dealing massive Physical DMG.\nActivating the skill can trigger Perfect Dodge and restores 10 Blade Etiquette.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Starfall Intermission",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes powerful consecutive slashes at enemies ahead, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Starfall Finale",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes powerful slashes at enemies in a large area ahead, dealing massive Physical DMG.\nActivating this skill restores 200 Blade Etiquette.\nBlade Etiquette does not accumulate when hitting an enemy.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Twin Rainbows of the Swordheart",
+                "type": "Core Passive",
+                "desc": "After any squad member inflicts a Physical Anomaly on an enemy, Alice deals additional DMG each 0.95s of its active duration, equal to 2.5% of the original Physical Anomaly DMG. If Disorder is triggered while the enemy is suffering a Physical Anomaly, for every 1s of remaining Physical Anomaly duration, the Disorder DMG multiplier increases by 18%, up to a max of {CAL:18*10,1,2}%.\nWhen Alice's attacks hit an enemy, she builds up Blade Etiquette. When she triggers an Assault through Anomaly Buildup, she gains 10 Blade Etiquette. Blade Etiquette has a maximum of 300, with each 100 being 1 bar.\nWhen the Finishing Move of a three-stage charged Basic Attack: Starshine Waltz lands, it triggers a special Assault effect: Polarity Assault, dealing {CAL:0+100,1,2}% of the original Assault DMG, ignoring Anomaly Buildup progress. This can be combined with any Attribute Anomaly, including Physical Anomaly, to trigger Disorder.\nWhen Alice triggers Assault on an enemy, her Physical Anomaly Buildup Rate increases by 25% for 30s."
+              },
+              {
+                "name": "Additional Ability: Mystery Hunt",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Anomaly or Support character:\nWhen any squad member triggers Disorder, Alice gains 30 Blade Etiquette.\nIf Alice's Anomaly Mastery exceeds 140, each additional point grants her 1.6 Anomaly Proficiency.\nUpon entering the battlefield, Alice gains 300 Blade Etiquette. This effect can trigger once every 180s in Investigation Zone mode."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Palmful of Cilantro",
+                "type": "Mindscape 1",
+                "desc": "When Alice triggers a Polarity Assault, she gains 25 Blade Etiquette. When she triggers Assault against an enemy, the target's DEF is reduced by 20% for 30s."
+              },
+              {
+                "name": "Sage at the Sword's Tip",
+                "type": "Mindscape 2",
+                "desc": "When Ultimate: Starfall Finale's Finishing Move hits an enemy, it triggers Polarity Assault. All squad members' Assault DMG increases by 15%. Disorder DMG against enemies suffering from Physical Anomaly increases by 15%. Upon entering the battlefield, Alice immediately gains 1,000 Decibels. Triggers once per 180s in Investigation Zone mode."
+              },
+              {
+                "name": "Symmetrism",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Rosemary on Her Lips",
+                "type": "Mindscape 4",
+                "desc": "Alice ignores 10% of the target's Physical RES. Enhanced Basic Attack: Celestial Overture accumulates 25% more Physical Anomaly Buildup."
+              },
+              {
+                "name": "Passion for the Supernatural",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "A Heart of Thyme",
+                "type": "Mindscape 6",
+                "desc": "When Alice uses a third-stage charged Basic Attack: Starshine Waltz or Ultimate: Starfall Finale, she enters the Victory State for 30s. During this time, whenever any squad member lands a hit on a target, Alice will follow up with an extra attack against the target, dealing Physical DMG equal to 3,300% of her Anomaly Proficiency. This effect can trigger once every 1s and is guaranteed to CRIT. This effect can trigger up to 6 times. Gaining the Victory State again refreshes the available trigger count."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -18122,6 +19547,143 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: \"Capriccio\"",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerform up to three attacks forward, dealing Ether DMG.\nDuring the 3rd hit, hold to charge, drawing enemies in and expanding the attack range for a stronger attack.\nAfter using other skills, hold to initiate the 3rd hit directly."
+              },
+              {
+                "name": "Basic Attack: Interlude",
+                "type": "Basic",
+                "desc": "While in the Idyllic Cadenza state, press to activate:\nRelease Tremolo forward to attack, dealing Ether DMG.\nA Quick Assist will be triggered when this skill hits an enemy."
+              },
+              {
+                "name": "Basic Attack: Chorus",
+                "type": "Basic",
+                "desc": "While in the Idyllic Cadenza state, press during a Perfect Dodge to activate:\nLaunch multiple Tremolo attacks at enemies in front, dealing massive Ether DMG.\nA Quick Assist will be triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Basic Attack: Finale",
+                "type": "Basic",
+                "desc": "While in the Idyllic Cadenza state, hold to activate:\nRelease Tremolo forward to attack, dealing Ether DMG and exit the Idyllic Cadenza state.\nUpon activation of the skill, it grants Astra Yao the buff from Core Passive: \"Graceful Andante\".\nWith enough Energy, consumes Energy to follow up with 1 Tremolo and 3 Tone Clusters. This Tremolo attack released is considered an EX Special Attack."
+              },
+              {
+                "name": "Dodge: \"Mini Waltz\"",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: \"Lunar Eclipse Melody\"",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nAttack ahead, dealing Ether DMG.\nWhen triggered, dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} allows movement in the corresponding direction."
+              },
+              {
+                "name": "Dodge Counter: \"Umbrella Waltz\"",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nAttack enemies in front, dealing Ether DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: \"One Luminous Sky\"",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nAttack enemies in front, dealing Ether DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Evasive Assist: \"Two Hearts\"",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nDodges the enemy's attack and activates Vital View.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: \"Three Lifetimes of Fate\"",
+                "type": "Assist",
+                "desc": "Press after an Evasive Assist to activate:\nRelease an energy beam forward, dealing Ether DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: \"Windchimes & Oaths\"",
+                "type": "Special",
+                "desc": "Press to activate:\nQuickly move away, then release Tremolo, dealing Ether DMG, and enter the Idyllic Cadenza state.\nDuring activation, dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} enables movement in the direction held.\nHold to charge during activation, drawing enemies in, and follow up with 1 to 4 Tremolos depending on the charge duration.\nA Quick Assist will be triggered when this skill hits an enemy.\nCharacter is invulnerable when quickly moving away."
+              },
+              {
+                "name": "Idyllic Cadenza",
+                "type": "Special",
+                "desc": "After entering the Idyllic Cadenza state, Astra Yao increases all squad members' DMG by {CAL:0.08+AvatarSkillLevel(1)*0.01,100,2}% and CRIT DMG by {CAL:0.07+AvatarSkillLevel(1)*0.015,100,2}%.\nWhile in the Idyllic Cadenza state, Astra Yao cannot move, but pressing will activate Basic Attack: Interlude, and pressing will activate a dodge. After triggering a Perfect Dodge, press to activate Basic Attack: Chorus.\nWhile in this state, Astra Yao's Anti-Interrupt Level is increased, and the DMG she takes is reduced by 40%. After switching to another character, Astra Yao will remain on the field and become Invulnerable. When switching back to her, she will automatically follow up with Special Attack: \"Windchimes & Oaths\".\nDuring this state, hold to activate Basic Attack: Finale, exiting the Idyllic Cadenza state, or hold to exit the Idyllic Cadenza state directly."
+              },
+              {
+                "name": "Chord",
+                "type": "Special",
+                "desc": "For every 25 Energy, Astra Yao will have 1 Chord.\nWhile in the Idyllic Cadenza state, when Astra Yao has Chords, a Quick Assist can be triggered in the following situations:\n\u00b7 When the active character's attack hits an enemy, once per 3s.\n\u00b7 When the active character's heavy attack hits an enemy, once per 1s.\nWhen other squad members switch in through a Quick Assist, Chain Attack, Defensive Assist, or Evasive Assist, Astra Yao will consume 25 Energy and release 1 Tremolo to attack. This Tremolo attack released is considered an EX Special Attack.\nAfter triggering a Quick Assist, quickly press to switch characters and trigger a Precise Assist, causing Astra Yao to follow up with 3 Tone Clusters to attack. When other squad members switch in through a Chain Attack, Defensive Assist, or Evasive Assist, it will automatically trigger a Precise Assist."
+              },
+              {
+                "name": "Chain Attack: \"Tipsy Concerto\"",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUse song to channel energy into a blast, dealing massive Ether DMG.\nCharacter is invulnerable while using this skill.\nA Quick Assist is triggered when this skill hits an enemy.\nAfter the skill, Astra Yao enters the Idyllic Cadenza state."
+              },
+              {
+                "name": "Ultimate: \"Fantasian Sonata\"",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUse song to channel energy into a blast, dealing massive Ether DMG, and restoring {CAL:-50+AvatarSkillLevel(3)*250,1,2} HP to all squad members.\nCharacter is invulnerable while using this skill.\nA Quick Assist is triggered when this skill hits an enemy.\nAfter the skill, Astra Yao enters the Idyllic Cadenza state.\nAfter the skill, the next two Quick Assists will be replaced by Chain Attacks.\nBefore all replacement chances are used up, a Quick Assist is triggered whenever any squad member hits an enemy with a Chain Attack or Ultimate."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: \"Graceful Andante\"",
+                "type": "Core Passive",
+                "desc": "During the Idyllic Cadenza state, when other squad members switch in through a Quick Assist, Chain Attack, Defensive Assist, or Evasive Assist, and when Astra Yao expends Energy to release Tremolo to attack, both Astra Yao and the incoming character's ATK are increased. The increase is equal to 35% of Astra Yao's initial ATK, up to a maximum of 1,200. The effect lasts for 20s and can be extended up to 30s with repeated triggers."
+              },
+              {
+                "name": "Additional Ability: \"Moonlit Frenzy\"",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Attack, Anomaly, or Rupture character:\nWhen Energy is consumed to trigger a Precise Assist or Basic Attack: Finale, Astra Yao will additionally follow up with 1 Tremolo and 3 Tone Clusters."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "12-Tone Equal Temperament",
+                "type": "Mindscape 1",
+                "desc": "When Astra Yao's attack hits an enemy, the target's All-Attribute RES is reduced by 6%, stacking up to 3 times and lasting 30s. Repeated triggers reset the duration. Upon entering the battlefield, Astra Yao immediately gains 1,000 Decibels. This effect can trigger once every 180s in Investigation Zone Mode. When activating her Ultimate, all squad members gain 1 stack of Song of Protection for 60s. When attacked by an enemy, consume Song of Protection, granting Invulnerability for 1s."
+              },
+              {
+                "name": "Art of Greed",
+                "type": "Mindscape 2",
+                "desc": "The ATK buff from Core Passive: \"Graceful Andante\" is further increased by 19%, with an increased maximum of 400. While in the Idyllic Cadenza state, when other squad members switch in through a Quick Assist, Chain Attack, Defensive Assist, or Evasive Assist, Astra Yao will additionally follow up with 1 Tremolo and 3 Tone Clusters to attack. This effect can trigger once every 3s."
+              },
+              {
+                "name": "Interwoven Staff Notation",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "\"Hair Upon Your Nape\"",
+                "type": "Mindscape 4",
+                "desc": "After activating a Chain Attack or Ultimate, within 15s, Astra Yao can trigger a Quick Assist even if she does not have Chords. When the attack hits an enemy, the interval for triggering a Quick Assist is reduced to 1s. While in the Idyllic Cadenza state, when other squad members enter the field via a Quick Assist, they will receive different buffs based on their specialty, and this effect can be triggered once every 3s for the entire squad: Attack: The next Quick Assist heavy attack on an enemy will deal extra DMG equal to 300% of Astra Yao's ATK; Anomaly: The next Quick Assist will have 50% increased Anomaly Buildup; Stun: The next Quick Assist will inflict 50% increased Daze."
+              },
+              {
+                "name": "Proxy and Silk String",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "We Are the World",
+                "type": "Mindscape 6",
+                "desc": "While in the Idyllic Cadenza state, the DMG multiplier for Tremolo and Tone Clusters released or followed up with will increase to 200% of the original, and CRIT Rate is increased by 80%. When triggering a Precise Assist, Astra Yao will automatically follow up with the charged 3rd-hit of Basic Attack: \"Capriccio\", with a 80% increased CRIT Rate. This effect can trigger once every 10s."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -19643,6 +21205,188 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Towering Peaks",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunches up to four attacks in front, dealing Fire DMG.\nInterrupt Level is increased during this skill."
+              },
+              {
+                "name": "Basic Attack: Majestic Summit",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunches up to four attacks in front, dealing Fire DMG.\nAnti-Interrupt Level is increased during this skill."
+              },
+              {
+                "name": "Basic Attack: Immolate",
+                "type": "Basic",
+                "desc": "While not in the Visage of Wrath state and with at least 120 Wrathful Fires, hold to activate:\nDeals Fire DMG to nearby enemies, then enters the Visage of Wrath state."
+              },
+              {
+                "name": "Basic Attack: Inflame",
+                "type": "Basic",
+                "desc": "While not in combat and with more than 50% HP and less than 120 Wrathful Fires, hold to activate:\nBanyue consumes HP to recover Wrathful Fires. Upon reaching 120 Wrathful Fires, Banyue immediately enters the Visage of Wrath state.\nUpon entering the battlefield, gain one chance to use this skill. In Investigation Zone mode, this effect can trigger once per 180s.\nHP consumption will at most reduce Banyue's HP to 50% of Max HP."
+              },
+              {
+                "name": "Basic Attack: Toppling Mountain",
+                "type": "Basic",
+                "desc": "When Banyue is in the Visage of Wrath state, hold to consume 120 Wrathful Fires and activate:\nBanyue hurls a massive mountain at the enemy, dealing massive Fire DMG.\nAfter using this move, Banyue exits the Visage of Wrath state.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Basic Attack: Crushing Peaks",
+                "type": "Basic",
+                "desc": "While Banyue is in the Visage of Wrath state and after performing two different EX Special Attacks through Basic Attack branches or quick input commands, hold to activate:\nBanyue launches his beads forward to imprison enemies, dealing massive Fire DMG.\nBanyue automatically follows up with Basic Attack: Toppling Mountain.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dodge: Immovable Mountain",
+                "type": "Dodge",
+                "desc": "While attacking, press without moving the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to activate:\nBanyue enters a defensive stance. If attacked during this time, he parries the enemy's attack and accumulates Daze.\nIf attacked at the exact moment the skill is activated, a Perfect Block occurs.\nCharacter is invulnerable during a successful parry."
+              },
+              {
+                "name": "Dodge: Overcome Peaks",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dodge: Battle Cry",
+                "type": "Dodge",
+                "desc": "Rotate the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} in a half-circle and press to activate:\nDodges backward and taunts enemies.\nAfter any EX Special Attack, follow up with Dodge: Battle Cry and quickly execute the required inputs during Dodge: Battle Cry to then follow up with the corresponding EX Special Attack.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Scattering Sands",
+                "type": "Dodge",
+                "desc": "During a dodge, press , or during Dodge: Battle Cry, hold to activate:\nLaunches beads forward, dealing Fire DMG.\nAfter using this skill, can be followed up with the 2nd hit of Basic Attack: Towering Peaks or the 2nd hit of Basic Attack: Majestic Summit."
+              },
+              {
+                "name": "Dodge Counter: Stoneburst",
+                "type": "Dodge",
+                "desc": "After a Perfect Dodge is triggered through Dodge: Overcome Peaks, press , or after a Perfect Dodge is triggered though Dodge: Battle Cry, hold to activate:\nLaunches a forward attack that deals Fire DMG.\nAfter using this skill, can be chained into the 3rd hit of Basic Attack: Towering Peaks or the 3rd hit of Basic Attack: Majestic Summit.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Batholith",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nExecutes a series of attacks against enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Iron Bastion",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Lofty Ascent",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nQuickly dash forward and attack, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Pierce Heavens",
+                "type": "Assist",
+                "desc": "After successfully parrying an enemy attack with Dodge: Immovable Mountain, press to activate:\nQuickly dash forward and attack, dealing Fire DMG\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Earth Shaker",
+                "type": "Special",
+                "desc": "With enough Adrenaline, can be activated in one of three ways:\nAfter the 3rd or 4th hit of Basic Attack: Towering Peaks, press to activate:\nAfter an Assist Follow-Up, Dodge Counter, or Quick Assist, hold to activate:\nDuring an EX Special Attack, Basic Attack: Immolate, Chain Attack, Ultimate, Assist Follow-Up, Dodge Counter, or Quick Assist, quickly input in sequence to activate:\nBanyue slams the ground repeatedly, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Mountain Tremor",
+                "type": "Special",
+                "desc": "With enough Adrenaline, can be activated in one of two ways:\nAfter the 1st or 2nd hit of Basic Attack: Majestic Summit, press to activate:\nDuring an EX Special Attack, Basic Attack: Immolate, Chain Attack, Ultimate, Assist Follow-Up, Dodge Counter, or Quick Assist, quickly input in sequence to activate:\nBanyue throws a mountain, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: One's Path",
+                "type": "Special",
+                "desc": "With enough Adrenaline, can be activated in one of three ways:\nAfter the 3rd or 4th hit of Basic Attack: Majestic Summit, press to activate:\nAfter an Assist Follow-Up, Dodge Counter, or Quick Assist, hold to activate:\nDuring an EX Special Attack, Basic Attack: Immolate, Chain Attack, Ultimate, Assist Follow-Up, Dodge Counter, or Quick Assist, quickly input in sequence to activate:\nBanyue throws out his beads, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Lion's Roar",
+                "type": "Special",
+                "desc": "With enough Adrenaline, can be activated in one of two ways:\nAfter the 1st or 2nd hit of Basic Attack: Towering Peaks, press to activate:\nDuring an EX Special Attack, Basic Attack: Immolate, Chain Attack, Ultimate, Assist Follow-Up, Dodge Counter, or Quick Assist, quickly input in sequence to activate:\nBanyue sends out a sonic wave forward, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Mountain Tremor - Wrath",
+                "type": "Special",
+                "desc": "With enough Adrenaline when using EX Special Attack: Earth Shaker, quickly input in sequence to activate:\nBanyue throws out an even larger mountain, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Lion's Roar - Wrath",
+                "type": "Special",
+                "desc": "With enough Adrenaline when using EX Special Attack: One's Path, quickly input in sequence to activate:\nBanyue releases a powerful sonic wave in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Cancel",
+                "type": "Special",
+                "desc": "When Banyue activates an EX Special Attack ALT through quick input commands, the currently activating EX Special Attack can be interrupted. Each EX Special Attack has its own Perfect Interrupt window. Interrupting an EX Special Attack after its Perfect Interrupt window will not affect the interrupted EX Special Attack's effect. Interrupting an EX Special Attack during the Perfect Interrupt window is equal to triggering a Perfect Cancel.\nWhile in the Visage of Wrath state and with Mountain's Might, Perfect Cancel is easier to trigger."
+              },
+              {
+                "name": "Chain Attack: Blazing Wrath",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunches a large area attack in front, dealing massive Fire DMG.\nIf Banyue has more than 120 Wrathful Fires, he automatically enters the Visage of Wrath state after the attack.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: The World Trembles",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nLaunches a large area attack in front, dealing massive Fire DMG.\nIf Banyue has more than 120 Wrathful Fires, he automatically enters the Visage of Wrath state after the attack.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: One With the Mountains",
+                "type": "Core Passive",
+                "desc": "Banyue gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing his Sheer Force by 0.1.\nAll Fire DMG Banyue deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nWhen Banyue enters the battlefield, he immediately recovers 60 Adrenaline. In Investigation Zone Mode, this effect can trigger once every 180s.\nBanyue can recover Wrathful Fires through the following methods:\nRecover 0.5 Wrathful Fires for every point of Adrenaline consumed;\nRecover 4 Wrathful Fires upon activating Defensive Assist;\nRecover 4 Wrathful Fires when parrying an enemy with Dodge: Immovable Mountain, and recover 6 Wrathful Fires instead upon triggering a Perfect Block, up to once every 1s;\nRecover 4 Wrathful Fires upon triggering a Perfect Dodge, up to once every 1s.\nBanyue can have up to 150 Wrathful Fires. When he possesses at least 120 Wrathful Fires, Banyue can enter the Visage of Wrath state by using Basic Attack: Immolate. While in Visage of Wrath state, Banyue can no longer gain Wrathful Fires. After Banyue uses Basic Attack: Toppling Mountain, he exits the Visage of Wrath state.\nWhen entering the Visage of Wrath state, Banyue gains 4 Mountain's Might. If Banyue has Mountain's Might, launching an EX Special Attack no longer consumes Adrenaline, instead consuming 1 Mountain's Might and restoring 10 Adrenaline. Upon exiting the Visage of Wrath state, remove all Mountain's Might.\nWhen possessing Mountain's Might in Visage of Wrath state, hold to launch four different EX Special Attacks and Basic Attack: Toppling Mountain in a fixed sequence.\nWhen Banyue uses an EX Special Attack or Assist Follow-Up, he increases his Sheer Force by 300, Fire DMG by 36%, and CRIT DMG by 36% for 30s. Repeated triggers reset the duration."
+              },
+              {
+                "name": "Additional Ability: Mountain's Zenith",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Support or Stun character:\nWhile in the Visage of Wrath state, when Banyue consumes Mountain's Might to unleash an EX Special Attack through a Basic Attack branch or quick input commands, he gains one stack of Vidyaraja. Each stack of Vidyaraja increases his Fire DMG by 5%, stacking up to 3 times and lasting 8s. Repeated triggers reset the duration."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Greed Burns Like Fire",
+                "type": "Mindscape 1",
+                "desc": "When Banyue hits an enemy with EX Special Attack: One's Path or EX Special Attack: Earth Shaker, he inflicts the Tremor state. In this state, enemies' Fire RES is reduced by 10%, lasting 30s. When EX Special Attack: Lion's Roar, EX Special Attack: Lion's Roar - Wrath, EX Special Attack: Mountain Tremor, EX Special Attack: Mountain Tremor - Wrath, Basic Attack: Toppling Mountain, and Basic Attack: Crushing Peaks hits an enemy in the Tremor state, the Sheer DMG dealt is increased by 10%. When Basic Attack: Crushing Peaks hits a Stunned enemy, the current Stun duration is extended by 2s. This effect can only trigger once per Stun and does not stack with similar effects."
+              },
+              {
+                "name": "Anger Cuts Like a Blade",
+                "type": "Mindscape 2",
+                "desc": "The CRIT DMG bonus from the Core Passive is increased by an additional 15%, and the Fire DMG bonus is increased by an additional 15%. While in the Visage of Wrath state, Banyue restores an additional 5 Adrenaline when consuming Mountain's Might to unleash an EX Special Attack."
+              },
+              {
+                "name": "Ignorance Binds Like Chains",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Purge Unit - Type Zero",
+                "type": "Mindscape 4",
+                "desc": "EX Special Attack: Lion's Roar - Wrath, EX Special Attack: Mountain Tremor - Wrath, Basic Attack: Toppling Mountain, and Basic Attack: Crushing Peaks DMG increase by 30%."
+              },
+              {
+                "name": "Student",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Descended Vidyaraja",
+                "type": "Mindscape 6",
+                "desc": "At any time, when Banyue uses an EX Special Attack, he also gains Vidyaraja. The Fire DMG bonus from Vidyaraja is increased by an additional 8%, and its duration is extended to 30s. When activating Basic Attack: Crushing Peaks, Banyue deals Fire DMG equal to 600% of his Sheer Force to nearby enemies. Using Dodge: Battle Cry immediately after an EX Special Attack also grants Vidyaraja."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -21164,6 +22908,143 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Rampaging Slash",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 6 slashes ahead, dealing Physical DMG."
+              },
+              {
+                "name": "Basic Attack: Dead End",
+                "type": "Basic",
+                "desc": "When there are sufficient Assist Points, hold to activate:\nConsume 1 Assist Point to toss the shield and attack nearby enemies in all directions, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dodge: Adrift",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Hog Rush",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nStrikes forward with the shield, dealing Physical DMG.\nDuring skill activation, DMG taken is reduced by 40%, and when attacked by an enemy, Caesar blocks with the shield and gets knocked back. Following that, press or to trigger Retaliation and activate Special Attack: Roaring Thrust or EX Special Attack: Overpowered Shield Bash."
+              },
+              {
+                "name": "Dodge Counter: Eye For an Eye",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nStabs at enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Lane Change",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nThrust at enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Aegis Shield",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Aiding Blade",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nTosses the shield forward, unleashing a powerful spinning attack on enemies in front, followed by a slash that deals Physical DMG.\nAfter activating the skill, press or to trigger a Retaliation, activating Special Attack: Roaring Thrust or EX Special Attack: Overpowered Shield Bash.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Shockwave Shield Bash",
+                "type": "Special",
+                "desc": "Press to activate:\nStrike forward with the shield, dealing Physical DMG.\nIf Caesar is hit by an enemy at the beginning of the skill's activation, it will trigger a Perfect Block, negating the damage once and automatically following up with a Special Attack: Roaring Thrust.\nAfter using the skill, Caesar enters a guard stance, reducing incoming damage by 40%. When attacked by an enemy, Caesar blocks with the shield and gets slightly knocked back. Press or to trigger Retaliation, activating Special Attack: Roaring Thrust or EX Special Attack: Overpowered Shield Bash\nWhen Retaliation is triggered, Caesar is invulnerable while using the skill."
+              },
+              {
+                "name": "Special Attack: Roaring Thrust",
+                "type": "Special",
+                "desc": "After activating Special Attack: Shockwave Shield Bash, press to activate:\nThrusts forward, dealing Physical DMG.\nIf Perfect Block or Retaliation is not triggered, the Anti-Interrupt level is increased while using this skill.\nCharacter is invulnerable while using this skill when Perfect Block or Retaliation is triggered."
+              },
+              {
+                "name": "EX Special Attack: Parry Counter",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nStrikes forward with the shield, followed by a powerful thrust, dealing massive Physical DMG.\nIf Caesar is hit by an enemy at the beginning of the skill activation or an Interrupt is triggered with the shield strike, it will trigger Perfect Block, negating incoming damage once and countering with a shield attack. After triggering Perfect Block, press to activate EX Special Attack: Overpowered Shield Bash without consuming energy.\nAfter using the skill, Caesar enters a guard stance, reducing incoming damage by 40%. When attacked by an enemy, Caesar blocks the attack and is knocked back. Press or to trigger Retaliation and activate Special Attack: Roaring Thrust or EX Special Attack: Overpowered Shield Bash\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Overpowered Shield Bash",
+                "type": "Special",
+                "desc": "After activating EX Special Attack: Parry Counter, with enough energy, press to activate:\nStrikes forward with the shield, dealing massive Physical DMG.\nIf Caesar is hit by an enemy at the beginning of the skill activation or an Interrupt is triggered with the shield strike, it will trigger Perfect Block, negating incoming damage once and recovering the Energy used to activate the skill.\nWhen the skill is activated through Perfect Block or Retaliation, it cannot trigger Perfect Block again.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Stance Switch",
+                "type": "Special",
+                "desc": "When Caesar triggers a Perfect Block, Retaliation, or Defensive Assist, her impact is increased by {CAL:8+AvatarSkillLevel(1)*1,1,2}% for 3s."
+              },
+              {
+                "name": "Chain Attack: Road Rage Slam",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful downward strike at enemies ahead, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Savage Smash",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nTosses the shield forward, unleashing a powerful spinning attack on enemies in front, followed by a downward strike, dealing massive Physical DMG.\nWhen hitting shielded enemies, the Daze dealt is increased by {CAL:40+AvatarSkillLevel(3)*5,1,2}%.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Barrier of Resilience",
+                "type": "Core Passive",
+                "desc": "When Caesar activates EX Special Attack: Parry Counter, Chain Attack, Ultimate, or triggers EX Special Attack: Overpowered Shield Bash through Retaliation, she buffs all squad members with a Radiant Aegis shield equal to 1,400% of her base Impact + 1,400. The shield lasts for 60s and is equipped by the active character, with its value shared among all squad members. Any single instance of DMG will not exceed the shield value.\nWhile Radiant Aegis is active, the shield bearer's Anti-Interrupt level is increased.\nWhile Radiant Aegis is active, the shield bearer's ATK is increased by 1,000. After Radiant Aegis expires, this buff remains for an additional 5s."
+              },
+              {
+                "name": "Additional Ability: Battle Spirit",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad can activate Defensive Assist or shares the same Faction:\nWhen Caesar activates Perfect Block, Retaliation, Defensive Assist, or Basic Attack: Dead End, she applies a Debuff effect to enemies within a 7m radius, increasing the damage they take from all squad members by 25% for 30s."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Spearhead Advance",
+                "type": "Mindscape 1",
+                "desc": "When Caesar becomes the active character in combat, she instantly buffs all squad members with a Radiant Aegis shield. This effect can trigger once every 300s. While Radiant Aegis is active, enemies within a 5m radius of the shield bearer suffer a 15% All-Attribute RES reduction."
+              },
+              {
+                "name": "Legacy of the Far Lands",
+                "type": "Mindscape 2",
+                "desc": "While Radiant Aegis from Core Passive: Barrier of Resilience is active, Caesar's Energy Generation Rate increases by 10%, and the shield bearer's ATK boost is increased to 150% of its original value."
+              },
+              {
+                "name": "Absolute Trust",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Aries the Battering-Ram",
+                "type": "Mindscape 4",
+                "desc": "When Caesar uses a Chain Attack or Ultimate, she gains 3 additional Assist Points. If her Energy is below 20, she can activate EX Special Attack: Overpowered Shield Bash with 1 Assist Point instead. This substitution can trigger once every 5s."
+              },
+              {
+                "name": "Romantic Conquest",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Overlord's Will",
+                "type": "Mindscape 6",
+                "desc": "EX Special Attack: Overpowered Shield Bash and Assist Follow-Up: Aiding Blade are guaranteed to trigger a critical hit. The skill's DMG is increased by 50% and deals additional 50% DMG to the primary target. When Caesar uses EX Special Attack: Overpowered Shield Bash or Assist Follow-Up: Aiding Blade, her CRIT Rate is increased by 30% and her CRIT DMG is increased by 60% for 15s."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -22685,6 +24566,133 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Tongue Flick",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunch up to four attacks forward, dealing Electric DMG.\nWhen the 4th hit lands, gain 2 points of Venom. Hitting a Stunned enemy grants an additional 1 point of Venom."
+              },
+              {
+                "name": "Basic Attack: Serpent's Kiss",
+                "type": "Basic",
+                "desc": "With Serpentine Shadow, hold to launch:\nCissia leaps into the air and locks onto a target, then slams down, dealing Electric DMG to enemies in the area.\nWhile locking on, continue to hold and drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to extend the lock-on duration and freely control the landing position.\nFor every 6 points of Venom gained, gain 1 stack of Serpentine Shadow, stacking up to 3 times.\nUpon entering the battlefield, gain 1 stack of Serpentine Shadow.\nUsing this skill consumes 1 stack of Serpentine Shadow.\nUpon hitting an enemy, all Venom is consumed to trigger Corrode Bone.\nUpon activating this skill, a Quick Assist is triggered.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Corrode Bone",
+                "type": "Basic",
+                "desc": "Deal Electric DMG to nearby enemies.\nEach trigger increases CRIT Rate by 6% for 15s, stacking up to 3 times. Repeated triggers refresh the duration."
+              },
+              {
+                "name": "Dodge: Slither",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Bite Mark",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nDash forward with a swift slash, dealing Electric DMG."
+              },
+              {
+                "name": "Dodge Counter: Bite Back",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nLeap forward and perform a sweeping attack upon landing, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Alarm System",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nLeaps forward and performs a sweeping attack upon landing, dealing Electric DMG.\nDuring this skill, you can quickly chain into Special Attack: Bared Fangs, EX Special Attack: Venomous Bite, and Basic Attack: Serpent's Kiss.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Extra Prison Rations",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Partners in Crime",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleash a series of attacks, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Bared Fangs",
+                "type": "Special",
+                "desc": "Press to activate:\nLaunches a long-range snake bite forward, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Venomous Bite",
+                "type": "Special",
+                "desc": "With enough energy, press or hold to activate:\nUnleash multiple long-range snake bites forward, dealing Electric DMG.\nGrants 5 Energy when the move is used.\nWhen activating by holding, consumes additional Energy. For every 20 additional Energy consumed, unleash 1 extra strike that deals Electric DMG, up to a maximum of 60 additional Energy.\nAfter activation, gain 3 Venom. For every additional 20 Energy consumed while holding, gain 1 more Venom.\nAfter using this skill, it can be immediately followed up with the 4th hit of Basic Attack: Tongue Flick.\nA Quick Assist is triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Gang Operation",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunch multiple attacks ahead, dealing massive Electric DMG.\nAfter using this skill, gain 3 Venom.\nA Quick Assist is triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Ophidiophobia",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nDeliver a thunderbolt attack in front, dealing massive Electric DMG.\nAfter using this skill, obtain 3 Venom.\nAfter using this skill, activate Ether Veil: Cold-Blooded, lasting 30s. All squad members' CRIT DMG increases by 5% for the duration.\nRe-activating Ether Veil: Cold-Blooded a second time will first deactivate the active Ether Veil: Cold-Blooded.\nA Quick Assist is triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Fatal Concoction",
+                "type": "Core Passive",
+                "desc": "Upon entering the battlefield, gain 3 Venom. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile possessing Venom, consume 1 Venom every 5s while in combat to trigger Corrode Bone, dealing Electric DMG.\nWith Venom, all squad memebrs' Electric DMG ignores 6% of enemy DEF. If initial Energy Regen is higher than 1.4, for every additional 0.12 above that threshold, an additional 1% of the enemy's DEF is ignored, up to a maximum of 25% of enemy DEF. This effect lasts until 30s after Venom is depleted.\nCorrode Bone deals additional Electric DMG equal to 335% of ATK.\nWhen there are 1/2 Electric characters in the squad, the Daze dealt by Corrode Bone increases by 40%/60%.\nWhen gaining Venom, every 1 excess point of Venom triggers Corrode Bone once."
+              },
+              {
+                "name": "Additional Ability: Festering Venom",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Stun character or shares the same attribute:\nWhile possessing Venom, increases all squad members' CRIT DMG by 40%, with Cissia gaining an additional 10%. The effect lasts until 30s after Venom is depleted."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Traveler and Prey",
+                "type": "Mindscape 1",
+                "desc": "The Venom gained upon entering the battlefield increases to 6. The DEF ignore from the Core Passive increases to 140% of its original value, and all squad members ignore 5% of the target's Electric RES. Corrode Bone DMG ignores 10% of the target's Electric RES."
+              },
+              {
+                "name": "Hunger and Hard Truths",
+                "type": "Mindscape 2",
+                "desc": "After a Chain Attack: Gang Operation or Ultimate: Ophidiophobia hits a Stunned enemy, gain an additional 3 Venom. Basic Attack: Serpent's Kiss deals 35% increased DMG."
+              },
+              {
+                "name": "Chains and a Warm Nest",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "A Rogue's Resolve",
+                "type": "Mindscape 4",
+                "desc": "When using an EX Special Attack, Chain Attack, or Ultimate, gain 1 stack of Decidedness, stacking up to 3 times. When using Basic Attack: Serpent's Kiss, consume all Decidedness. Each stack consumed triggers 1 special instance of Corrode Bone that does not consume Venom. This Corrode Bone does not cause Daze."
+              },
+              {
+                "name": "False Evidence and Fangs",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Home and Sixth Street",
+                "type": "Mindscape 6",
+                "desc": "Each time Corrode Bone is triggered, gain 1 stack of Bone-Deep Corrosion. When attacks from any squad member, other than Corrode Bone, hit an enemy, consume 1 stack of Bone-Deep Corrosion to trigger 1 special Corrode Bone. This instance of Corrode Bone cannot inflict Daze, and at most 1 stack of Bone-Deep Corrosion can be consumed every 3s."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -24206,6 +26214,143 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Happy to Be of Service",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to four attacks, dealing Physical DMG."
+              },
+              {
+                "name": "Basic Attack: Rock, Paper, Scissors",
+                "type": "Basic",
+                "desc": "After EX Special Attack: Rock or EX Special Attack: Scissors, press to activate:\nPerforms up to two attacks, dealing Physical DMG.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%."
+              },
+              {
+                "name": "Dodge: Line Busy",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Sudden Call",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nLaunches a dashing attack at enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Number Unavailable",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nLaunches consecutive attacks against enemies in front, dealing Physical DMG.\nAfter using this skill, can immediately follow up with the 4th hit of Basic Attack: Happy to Be of Service.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Forward Call",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nLaunches consecutive attacks against enemies in front, dealing Physical DMG.\nAfter using this skill, can immediately follow up with the 4th hit of Basic Attack: Happy to Be of Service.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Decline Call",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Back-to-Back Calls",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nPerforms a rapid dash followed by a slash attack, dealing Physical DMG.\nAfter using this skill, can immediately follow up with the 4th hit of Basic Attack: Happy to Be of Service.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Get Lost!",
+                "type": "Special",
+                "desc": "With Customer Complaint, hold to activate:\nDelivers a forward martial salute attack. On activation, it consumes 1 Customer Complaint and deals Physical DMG.\nAfter activation, the previous character's Quick Assist is triggered.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Welcome Gesture",
+                "type": "Special",
+                "desc": "Press to activate:\nThrows dual rings to slash enemies, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Rock",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nLaunches a fist attack, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Scissors",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nLaunches a scissors attack, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Paper!",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nLaunches a paper attack, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Welcome Mat",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunches consecutive kicks against enemies in front, dealing massive Physical DMG.\nAfter using this skill, can immediately follow up with the 4th hit of Basic Attack: Happy to Be of Service.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Service Stopped for Number Dialed",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nRushes forward and performs a finger flick attack, dealing massive Physical DMG.\nAfter using this skill, can immediately follow up with the 4th hit of Basic Attack: Happy to Be of Service.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Five-Star Service Hotline",
+                "type": "Core Passive",
+                "desc": "Upon entering the battlefield, Dialyn starts with 60 Positive Reviews. If her initial CRIT Rate surpasses 50%, her Impact increases by 2 for each additional 1%, up to a maximum increase of 100.\nAfter using EX Special Attack: Rock, the next EX Special Attack becomes EX Special Attack: Scissors for 8s.\nAfter using EX Special Attack: Scissors, the next EX Special Attack becomes EX Special Attack: Paper! for 8s.\nWhen EX Special Attack: Paper! hits an enemy, it applies the Malicious Complaint effect. While under Malicious Complaint, if the enemy becomes Stunned, the Stun duration is extended by 2s, and Stun DMG Multiplier increases by 30%. Before recovering from Stun, Malicious Complaint can trigger on the same target only once. The Stun duration bonus does not stack with similar effects. When an enemy with Malicious Complaint recovers from being Stunned, the effect ends.\nWhile in combat, Dialyn gains 0.6 Positive Reviews per second. When a heavy attack of EX Special Attack: Rock, EX Special Attack: Scissors, or EX Special Attack: Paper! hits enemies, she gains 7.5 Positive Reviews. Each use of a skill can grant this bonus only once, up to a maximum of 120.\nWith at least 90 Positive Reviews, when Dialyn triggers the Chain Attack window using Chain Attack: Welcome Mat, EX Special Attack: Get Lost!, or Quick Assist: Forward Call, the next character to switch in will have their Chain Attack upgraded to an Ultimate. When an ally launches an Ultimate this way, Dialyn consumes 60 Positive Reviews.\nWith at least 90 Positive Reviews, when Dialyn hits an enemy with EX Special Attack: Get Lost! and doesn't trigger a Chain Attack window, she consumes 90 Positive Reviews to forcibly trigger a Chain Attack window. The next character to switch in will have their Chain Attack upgraded to an Ultimate.\nEach time Positive Reviews reaches 90 or an Ultimate is activated, Dialyn obtains 1 Customer Complaint. A maximum of 1 Customer Complaint can be held at a time."
+              },
+              {
+                "name": "Additional Ability: External Line",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Attack or Rupture character:\nDialyn's EX Special Attack CRIT DMG is increased by 50%.\nWhen an EX Special Attack or Ultimate is activated, all squad members gain the Overwhelmingly Positive effect. While Overwhelmingly Positive is active, DMG dealt is increased by 40% for 15s. When Dialyn uses an EX Special Attack or Ultimate while Overwhelmingly Positive is active, if the remaining duration of Overwhelmingly Positive is less than 35s, its duration is extended by 10s.\nWhen a heavy attack from EX Special Attack: Rock, EX Special Attack: Scissors, or EX Special Attack: Paper! hits, additional DMG is dealt based on the previous squad member's Specialty:\nIf the squad member is an Attack Agent, EX Special Attack: Rock, EX Special Attack: Scissors, and EX Special Attack: Paper! deal additional DMG equal to 320% of that Attack Agent's ATK.\nIf the squad member is a Rupture Agent, EX Special Attack: Rock, EX Special Attack: Scissors, and EX Special Attack: Paper! deal additional DMG equal to 400% of that Rupture Agent's Sheer Force."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Boundless Hospitality",
+                "type": "Mindscape 1",
+                "desc": "The amount of Positive Reviews accumulated each second and gained when EX Special Attack: Rock, EX Special Attack: Scissors, or EX Special Attack: Paper! hits an enemy increase by 16%. While the Overwhelmingly Positive effect is active, characters ignore 15% of enemy All-Attribute RES."
+              },
+              {
+                "name": "24/7 Hotline",
+                "type": "Mindscape 2",
+                "desc": "Enemies affected by Malicious Complaint gain an additional 20% Stun DMG Multiplier when Stunned, and all units deal 15% increased DMG to targets affected by Malicious Complaint."
+              },
+              {
+                "name": "Call From the Hollow",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "The Past Never Fades",
+                "type": "Mindscape 4",
+                "desc": "Upon entering combat, Dialyn recovers 20 Energy. This effect can trigger once every 180s in Investigation Zone Mode. While the Overwhelmingly Positive effect is active, Dialyn's ATK increases by 500."
+              },
+              {
+                "name": "Lies",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Truth",
+                "type": "Mindscape 6",
+                "desc": "When an ally enters the field with an Ultimate through the Core Passive's effect, that ally gains the Aftertone effect. With this effect, landing an attack causes Dialyn to deal an additional instance of Physical DMG equal to 480% of Dialyn's ATK. This DMG is treated as EX Special Attack DMG, and can trigger once every second, up to 12 times. Gaining Aftertone again refreshes its trigger count. Only one ally can have Aftertone at a time."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -25727,6 +27872,168 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Saw Teeth Trimming",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 3 attacks, dealing Physical DMG.\nPress repeatedly or hold during the 3rd attack to extend the skill duration."
+              },
+              {
+                "name": "Basic Attack: Flash Freeze Trimming",
+                "type": "Basic",
+                "desc": "While Flash Freeze is active, press to activate:\nLaunch up to 3 attacks at enemies in front, dealing Ice DMG.\nEach attack consumes 1 Flash Freeze Charge.\nPress repeatedly or hold during the 3rd attack to extend the skill duration."
+              },
+              {
+                "name": "Basic Attack: Glacial Blade Wave",
+                "type": "Basic",
+                "desc": "After the 3rd hit of Basic Attack: Flash Freeze Trimming, Dash Attack: Arctic Ambush's charged scissor strike, Dodge Counter: Reef Rock, and Quick Assist, if Ellen has Flash Freeze Charges, pressing will launch Basic Attack: Glacial Blade Wave, dealing Ice DMG.\nThis skill consumes 2 points of Flash Freeze Charge.\nAfter use, it can be directly followed up with the 3rd hit of her Basic Attack.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Basic Attack: Icy Blade",
+                "type": "Basic",
+                "desc": "After the 3rd hit of Basic Attack: Flash Freeze Trimming, EX Special Attack: Sharknami, Dodge Counter: Reef Rock, and Assist Follow-Up, automatically launch Basic Attack: Icy Blade, dealing multiple instances of Ice DMG to all enemies in a large area ahead. It inflicts additional instances of Ice DMG against Medium and Large foes.\nAfter the skill, Ellen gains the Quick Charge effect.\nBasic Attack: Icy Blade does not affect the branch or form of the original skill.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dodge: Vortex",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA rapid dash dodge.\nCharacter is invulnerable while using this skill.\nWhen Perfect Dodge is triggered, Ellen gains the Quick Charge effect, reducing the charge time of Dash Attack: Arctic Ambush, lasting up to 5 seconds or until it triggers."
+              },
+              {
+                "name": "Dash: Roaming Hunt",
+                "type": "Dodge",
+                "desc": "Hold or double-press to activate:\nEnter the Roaming state, allowing dashing movement.\nIn the Roaming state, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to control Ellen's direction, and release to stop.\nEllen is invulnerable for a brief time after activation."
+              },
+              {
+                "name": "Dash Attack: Arctic Ambush",
+                "type": "Dodge",
+                "desc": "While in the Roaming state, press to activate:\nDelivers a spinning slash to enemies before opening her scissors for a Swift Scissors strike, dealing Ice DMG.\nGain 1 point of Flash Freeze Charge when the Swift Scissors strike hits.\n\nWhile in the Roaming state, hold to activate:\nPerform a spinning slash against the enemy, then pull apart the scissors to unleash a Charged Scissors strike, dealing massive Ice DMG.\nGain 3 points of Flash Freeze Charge when the Charged Scissors strike hits. If the enemy is Frozen, it always triggers Shatter.\nAnti-Interrupt level is increased while charging the skill, and DMG taken is reduced by 40%.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Arctic Ambush",
+                "type": "Dodge",
+                "desc": "While in the Roaming state, press to activate:\nDelivers a spinning slash to enemies before opening her scissors for a Swift Scissors strike, dealing Ice DMG.\nGain 1 point of Flash Freeze Charge when the Swift Scissors strike hits.\n\nWhile in the Roaming state, hold to activate:\nPerform a spinning slash against the enemy, then pull apart the scissors to unleash a Charged Scissor strike, dealing massive Ice DMG.\nGain 3 points of Flash Freeze Charge when the Charged Scissor strike hits. If the enemy is Frozen, it always triggers Shatter.\nAnti-Interrupt level is increased while charging the skill, and DMG taken is reduced by 40%.\nWhen taking DMG from enemies while the skill is charging, that instance of DMG is nullified, and charging instantly completes.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Flash Freeze",
+                "type": "Dodge",
+                "desc": "When Ellen has Flash Freeze Charges, the Flash Freeze effect is activated. Once Flash Freeze activates, Basic Attacks and Dash Attacks expend Flash Freeze Charges, dealing massive Ice DMG. Ellen can have up to a maximum of 6 Flash Freeze Charges."
+              },
+              {
+                "name": "Dash Attack: Monstrous Wave",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nLaunches a dashing slash attack at enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dash Attack: Cold Snap",
+                "type": "Dodge",
+                "desc": "While Flash Freeze is active, press during dodge to activate:\nLaunches a dashing slash attack at enemies in front, dealing Ice DMG.\nConsumes 1 Flash Freeze Charge."
+              },
+              {
+                "name": "Dodge Counter: Reef Rock",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nRapidly move through enemies with open scissors for a cutting strike, dealing Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Shark Sentinel",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nSpeedily move through the enemy with open scissors for a cutting strike, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\nWhen the character on the field is launched, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} and press to activate:\nEnter the Roaming state, enabling dashing movement.\nWhile in the Roaming state, use the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to change directions and release to stop.\nCharacter is invulnerable briefly when triggering the skill.\nUpon triggering a Quick Assist, Ellen gains the Quick Charge effect, shortening the charging time of Dash Attack: Arctic Ambush, lasting up to 5s or until it triggers once."
+              },
+              {
+                "name": "Defensive Assist: Wavefront Impact",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Shark Cruiser",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nCharge and slash enemies in front, dealing Ice DMG.\nPress repeatedly or hold during the attack to extend the skill duration.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Drift",
+                "type": "Special",
+                "desc": "Press to activate:\nUse a quick tail sweep attack in front, dealing Ice DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Tail Swipe",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nPerform a forceful tail whip attack that deals massive Ice DMG.\nGain 1 Flash Freeze Charge upon striking an enemy.\nCharacter is invulnerable while using this skill.\nAfter executing the move, you can immediately follow up with the 3rd hit of a Basic Attack."
+              },
+              {
+                "name": "EX Special Attack: Sharknami",
+                "type": "Special",
+                "desc": "With enough Energy and after executing EX Special Attack: Tail Swipe, press to activate:\nPerform a powerful series of slashes ahead that deal massive Ice DMG.\nGain 1 Flash Freeze Charge upon striking an enemy.\nCharacter is invulnerable while using this skill.\nAfter executing the move, you can immediately follow up with the 3rd hit of a Basic Attack."
+              },
+              {
+                "name": "Chain Attack: Avalanche",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nCrash down from above and unleash an ice storm, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Endless Winter",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nCrash down from above and unleash an ice storm before a powerful scissor strike, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Sharp-Toothed",
+                "type": "Core Passive",
+                "desc": "When Ellen launches a Charged Scissors Strike during Dash Attack: Arctic Ambush, or consumes a Flash Freeze Charge to activate Basic Attack: Flash Freeze Trimming, the skill's CRIT DMG is increased by 100%."
+              },
+              {
+                "name": "Additional Ability: Rising Storm",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nWhen Ellen deals Ice DMG, subsequent Ice DMG increases by 3% for 10s. This effect can stack up to 10 times, and repeated triggers reset the duration."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Glacial Omen",
+                "type": "Mindscape 1",
+                "desc": "Upon hitting an enemy with a Swift Scissors strike during Dash Attack: Arctic Ambush, the obtained Flash Freeze Charges are increased to 3. Upon hitting an enemy with a Charged Scissors strike during Dash Attack: Arctic Ambush, the obtained Flash Freeze Charges are increased to 6. For each Flash Freeze Charge consumed, Ellen's CRIT Rate is increased by 2% for 15s, stacking up to 6 times. The duration of each stack is calculated separately."
+              },
+              {
+                "name": "Arctic Ocean Predator",
+                "type": "Mindscape 2",
+                "desc": "The 3rd hit of Basic Attack: Flash Freeze Trimming can be directly followed up with EX Special Attack: Sharknami. For each point of Flash Freeze Charge when using an EX Special Attack, the current attack's CRIT DMG is increased by 20%, up to a max of 60%."
+              },
+              {
+                "name": "Overtime-Intolerant",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Endless Hoarfrost",
+                "type": "Mindscape 4",
+                "desc": "Whenever a squad member Freezes or Stuns an enemy, Ellen gains 6 Flash Freeze Charges and the Quick Charge effect. She also recovers 4 Energy. The Energy recovery effect can trigger once per 10s."
+              },
+              {
+                "name": "Adequate Sleep",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "The Feast Begins",
+                "type": "Mindscape 6",
+                "desc": "When Ellen uses an EX Special Attack, Chain Attack, or gains Quick Charge, her PEN Ratio increases by 20% for 6s. She also gains 1 stack of The Feast Begins, up to a maximum of 3 stacks. With 3 stacks of The Feast Begins, using a Charged Scissors strike during Dash Attack: Arctic Ambush consumes all stacks, increasing the DMG of the current attack by 250%."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -27248,6 +29555,148 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Razor Wire",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunch up to five attacks ahead, dealing Physical DMG and Fire DMG.\nWhen the 5th hit lands against an enemy, Evelyn will use her Lunalux Garrote to bind the primary target and enter Binding Seal."
+              },
+              {
+                "name": "Passive: Bind",
+                "type": "Basic",
+                "desc": "When Evelyn uses her skills to deal DMG to enemies, she will accumulate Burning Embers.\nWhen Evelyn consumes Burning Embers to activate Garrote or consumes Decibels to perform an Ultimate, she gains 1 Burning Tether Point.\nOnce Evelyn has 3 Burning Tether Points, her next use of Garrote will consume all Burning Tether Points to instead use a lower Interrupt Level version of Chain Attack: Lunalux - Snare."
+              },
+              {
+                "name": "Basic Attack: Garrote - First Form",
+                "type": "Basic",
+                "desc": "When Burning Embers is at 50% or higher, hold or to activate:\nConsume 50% Burning Embers to use Lunalux Garrote to perform a slashing attack, dealing Fire DMG.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%.\nAfter using this skill, gain 1 Burning Tether Point."
+              },
+              {
+                "name": "Basic Attack: Garrote - Second Form",
+                "type": "Basic",
+                "desc": "When Burning Embers is 50% or higher, after using Basic Attack: Garrote - First Form, continue to hold or to activate:\nConsume 50% Burning Embers to use Lunalux Garrote to perform a follow-up attack, dealing Fire DMG.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%.\nAfter using this skill, gain 1 Burning Tether Point."
+              },
+              {
+                "name": "Dodge: Arc Step",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Piercing Ambush",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nDeliver a kick to the enemy in front, causing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Strangling Reversal",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nUse Lunalux Garrote to slash surrounding enemies, dealing Fire DMG;\nWhen the attack hits an enemy, Evelyn will use Lunalux Garrote to bind the primary target and enter Binding Seal.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Fierce Blade",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nUse Lunalux Garrote to slash surrounding enemies, dealing Fire DMG.\nWhen the attack hits an enemy, Evelyn will use Lunalux Garrote to bind the primary target and enter Binding Seal.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Silent Protection",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Course Disruption",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nEvelyn slashes with Lunalux Garrote, then triggers an explosion ahead, dealing Fire DMG.\nWhen the attack hits an enemy, Evelyn will use Lunalux Garrote to bind the primary target and enter Binding Seal.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Locked Position",
+                "type": "Special",
+                "desc": "Before entering Binding Seal, press or to activate:\nUse Lunalux Garrote to pull the enemy and charge forward with a kick, dealing Fire DMG.\nWhen the attack hits the enemy, Evelyn will use Lunalux Garrote to bind the primary target and enter Binding Seal.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Special Attack: Binding Sunder - First Form",
+                "type": "Special",
+                "desc": "After entering Binding Seal, press or hold to activate:\nCentered on the target affected by Binding Seal, tether surrounding enemies and detonate an explosion, dealing Fire DMG. Binding Seal will end after detonation.\nDodge enemy attacks upon activating the skill, and if a Perfect Dodge is triggered, gain an additional 25% Burning Embers.\nAfter tethering surrounding enemies, press to cancel detonation and immediately follow up with the Basic Attack's 3rd hit.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Binding Sunder - Final Form",
+                "type": "Special",
+                "desc": "After entering Binding Seal and with enough Energy, press or hold to activate:\nCentered on the target affected by Binding Seal, tether surrounding enemies and detonate an explosion, dealing massive Fire DMG. Binding Seal will end after detonation.\nDodge enemy attacks upon activating the skill, and if a Perfect Dodge is triggered, gain an additional 25% Burning Embers.\nAfter pulling in surrounding enemies, press to cancel detonation and immediately follow up with the Basic Attack's 3rd hit.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Lunalux - Snare",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nEvelyn slashes in front with multiple Lunalux Garrotes and detonates an explosion, dealing massive Fire DMG to enemies in the area.\nWhen the attack hits an enemy, Evelyn uses Lunalux Garrote to bind the primary target and enters Binding Seal.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Lunalux Garrote - Timbre",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nEvelyn slashes in front with multiple Lunalux Garrotes and detonates an explosion, dealing massive Fire DMG to enemies in the area.\nUpon activating this skill, Evelyn removes her jacket and enters the Dance of Awakened Fire state, which lasts for the entire battle. While in the Dance of Awakened Fire state, when Evelyn consumes Burning Tether Points to activate Chain Attack: Lunalux - Snare, she will retain 1 point of Burning Tether Point. When the attack hits an enemy, Evelyn uses Lunalux Garrote to bind the primary target, entering Binding Seal.\nCharacter is invulnerable while using this skill.\nAfter using this skill, gain 1 Burning Tether Point."
+              },
+              {
+                "name": "Ultimate: Lunalux Garrote - Shadow",
+                "type": "Chain",
+                "desc": "While under the Dance of Awakened Fire state, and when Decibel Rating is at Maximum, press to activate:\nEvelyn slashes in front with multiple Lunalux Garrotes and detonates an explosion, dealing massive Fire DMG to enemies in the area.\nWhen the attack hits an enemy, Evelyn uses Lunalux Garrote to bind the primary target and enters Binding Seal.\nCharacter is invulnerable while using this skill.\nAfter using this skill, gain 1 Burning Tether Point."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Entangle",
+                "type": "Core Passive",
+                "desc": "Upon entering Binding Seal, Evelyn's CRIT Rate increases by 25%. After leaving Binding Seal, she retains the buff for 10s. If Evelyn switches to another character while in Binding Seal, she will automatically follow up with Special Attack: Binding Sunder - First Form."
+              },
+              {
+                "name": "Additional Ability: Ambush Point",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Stun or Support character:\nEvelyn's Chain Attack and Ultimate DMG increases by 30%. When Evelyn's CRIT Rate is at or over 80%, the DMG multiplier for her Chain Attack: Lunalux - Snare, Ultimate: Lunalux Garrote - Timbre and Ultimate: Lunalux Garrote - Shadow increases to 125% of the original value."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Dreamweave",
+                "type": "Mindscape 1",
+                "desc": "Upon entering the battlefield, Evelyn immediately gains 1,500 Decibels. This effect can trigger once every 180s in Investigation Zone Mode. Enemies affected by Binding Seal will be Bound. When Evelyn attacks Bound enemies, she ignores 12% of their DEF. When Evelyn uses Special Attack: Binding Sunder - First Form or EX Special Attack: Binding Sunder - Final Form, the Bound effect spreads to all enemies hit by the skill. This spread Bound effect lasts for 10s."
+              },
+              {
+                "name": "Dance of Fire",
+                "type": "Mindscape 2",
+                "desc": "Evelyn's ATK increases by 15%. When Evelyn uses Basic Attack: Garrote - First Form or Basic Attack: Garrote - Second Form, the Burning Embers consumed will be returned. This effect can trigger once every 25s. When Evelyn consumes Burning Tether Point to trigger Chain Attack: Lunalux - Snare, the skill's Interrupt Level increases."
+              },
+              {
+                "name": "Metamorphosis",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Fate's Melody",
+                "type": "Mindscape 4",
+                "desc": "Upon activating a Chain Attack or Ultimate, Evelyn immediately gains a shield equal to 10% of her Max HP. While this shield exists, Evelyn's CRIT DMG increases by 40%."
+              },
+              {
+                "name": "Crimson Threads Like the Dawn",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Bond of Light and Shadow",
+                "type": "Mindscape 6",
+                "desc": "Upon launching a Chain Attack or Ultimate, Evelyn gains Shadowstring Edge for 20s. During Shadowstring Edge, when Evelyn hits her primary target with a Basic Attack, Dash Attack, Special Attack, or EX Special Attack, she additionally executes a Lunalux Garrote follow-up attack, dealing Fire DMG equal to 375% of her ATK to enemies in the area. This DMG is considered Chain Attack DMG and can trigger up to 16 times. Gaining another Shadowstring Edge will refresh the trigger count."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -28769,6 +31218,158 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Cloud Piercer",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunch up to five piercing attacks ahead, dealing Physical DMG and Electric DMG.\nWhen the 5th hit of the Basic Attack hits an enemy, it generates 2 Electro Quivers.\nAfter activating a Chain Attack, the next time Harumasa activates the 5th hit of Basic Attack: Cloud Piercer and hits an enemy with it, it generates 6 Electro Quivers."
+              },
+              {
+                "name": "Basic Attack: Cloud Piercer - Drift",
+                "type": "Basic",
+                "desc": "During Basic Attack: Cloud Piercer, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} and press to activate:\nShoot a ranged piercing attack and reposition towards the corresponding drag direction, dealing Physical DMG."
+              },
+              {
+                "name": "Basic Attack: Falling Feather",
+                "type": "Basic",
+                "desc": "After the 5th hit of Basic Attack: Cloud Piercer, a Special Attack, an EX Special Attack, or a Chain Attack, hold to activate:\nImmediately shoot Falling Feather at enemies ahead, dealing Electric DMG.\nHold to aim at a target and release to activate:\nAfter drawing the bowstring and aiming, shoot Falling Feather at the target, dealing Electric DMG."
+              },
+              {
+                "name": "Basic Attack: Ha-Oto no Ya",
+                "type": "Basic",
+                "desc": "When the 5th hit of Basic Attack: Cloud Piercer/EX Special Attack/Chain Attack hits an enemy or the ground, it can generate 2/6/6 Electro Quivers. If there are no Electro Quivers on the field when any squad member applies an Attribute Anomaly to an enemy, generate 6 Electro Quivers. This effect can trigger once every 12s.\nThere can be up to 6 Electro Quivers present at a time. If there are any Electro Quivers present when Harumasa fires and hits enemies with Falling Feather, the Electro Quivers will activate and fire Ha-Oto no Ya at the enemies hit by Falling Feather, dealing Electric DMG.\nHa-Oto no Ya will apply Electro Prison to enemies hit, stacking up to 8 times and lasting 10s, repeated triggers reset the duration. While a target has at least 2 stacks of Electro Prison, they will be X-Marked."
+              },
+              {
+                "name": "Dodge: Quick Flash",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Hiten no Tsuru",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nLaunch multiple piercing attacks ahead, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Hidden Edge",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nPierces enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Hiten no Tsuru - Slash",
+                "type": "Dodge",
+                "desc": "While there are X-Marked enemies on the field, Harumasa will enter the Awakened state, switching Dash Attack: Hiten no Tsuru for Dash Attack: Hiten no Tsuru - Slash.\n\nWhile in the Awakened state, press during a dodge to activate:\nRush forwards to the closest X-Marked enemy and execute a powerful slash, dealing Electric DMG.\nWhen the slash hits the target, it consumes 2 stacks of Electro Prison. With less than 2 stacks of Electro Prison, X-Marked will be removed from the enemy. Before X-Marked is removed, repeatedly press to repeatedly use Dash Attack: Hiten no Tsuru - Slash. While no X-Marked enemies exist on the field, Harumasa leaves the Awakened state.\nWhile in the Awakened state, press after Basic Attack: Falling Feather to quickly follow up with Dash Attack: Hiten no Tsuru - Slash.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%."
+              },
+              {
+                "name": "Dash Attack: Hiten no Tsuru - Slash",
+                "type": "Dodge",
+                "desc": "While there are X-Marked enemies on the field, Harumasa will enter the Awakened state, switching Dash Attack: Hiten no Tsuru for Dash Attack: Hiten no Tsuru - Slash.\n\nWhile in the Awakened state, press during a dodge to activate:\nRush forward to the closest X-Marked enemy and execute a powerful slash, dealing Electric DMG. Hitting a Stunned enemy triggers Chasing Thunder, dealing 1 instance of additional Electric DMG.\nWhen the slash hits the target, it consumes 2 stacks of Electro Prison. With less than 2 stacks of Electro Prison, X-Marked will be removed from the enemy. Before X-Marked is removed, repeatedly press to repeatedly use Dash Attack: Hiten no Tsuru - Slash. While no X-Marked enemies exist on the field, Harumasa leaves the Awakened state.\nWhile in the Awakened state, press after Basic Attack: Falling Feather to quickly follow up with Dash Attack: Hiten no Tsuru - Slash.\nEnemy attacks can be blocked during the 1st hit of the skill. The pursuit effect of the second and third hits is increased.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%."
+              },
+              {
+                "name": "Quick Assist: Braced Bow",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nUnleash a piercing attack at enemies ahead, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Yugamae",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Yugamae - Slash",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleash a series of slashes at enemies ahead, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Nowhere to Hide",
+                "type": "Special",
+                "desc": "Press to activate:\nLaunch an arrow forward, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Nowhere to Run",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nLaunch daggers and an enhanced arrow ahead, dealing massive Electric DMG.\nWhen the enhanced arrow hits an enemy or the ground, it generates 6 Electro Quivers.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Nowhere to Run - Patrol",
+                "type": "Special",
+                "desc": "With enough energy, press after using the 4th/5th attack of Basic Attack: Cloud Piercer, Dash Attack: Hiten no Tsuru - Slash, an Ultimate, Dodge Counter: Hidden Edge, or Quick Assist: Braced Bow to activate:\nFire enhanced arrows forward in rapid succession, dealing massive Electric DMG.\nWhen the first enhanced arrow hits an enemy or the ground, 6 Electro Quivers are generated. When the final enhanced arrow hits an enemy, it activates the Electro Quivers on the field, firing Ha-Oto no Ya at the target, dealing Electric DMG.\nWhen the target's Electro Prison stacks are close to the maximum, fewer Electro Quivers will be activated.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Kai - Hanare",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleash a piercing attack on enemies in a large area ahead then fire an enhanced arrow, dealing massive Electric DMG.\nWhen the arrow hits the ground, it generates 6 Electro Quivers.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Zanshin",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleash a piercing attack on enemies in a large area ahead, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Zanshin - Scattered Blossoms",
+                "type": "Chain",
+                "desc": "Activates ALT automatically after Ultimate: Zanshin:\nUnleashes a wide-area piercing attack against enemies in front, dealing Electric DMG. This is considered Ultimate DMG.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Day Break",
+                "type": "Core Passive",
+                "desc": "The CRIT Rate of Dash Attack: Hiten no Tsuru - Slash increases by 25%, and when Harumasa's Dash Attack: Hiten no Tsuru - Slash triggers a critical hit against an enemy, he gains 1 stack of Gleaming Edge, for up to a maximum of 3 stacks per use of the skill and stacking up to 6 times, lasting 5s, repeated triggers reset the duration. Each stack of Gleaming Edge increases the CRIT DMG of Dash Attack: Hiten no Tsuru - Slash by 12%."
+              },
+              {
+                "name": "Additional Ability: Overclock",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Stun or Anomaly character:\nWhen Harumasa's attacks hit Stunned enemies or enemies under Attribute Anomaly, his DMG increases by 40%. When Harumasa's Falling Feather hits Stunned enemies or enemies under Attribute Anomaly, it will apply 2 stacks of Electro Prison to the target."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "\"High Spirit\"",
+                "type": "Mindscape 1",
+                "desc": "The maximum stack limit of Electro Prison from Basic Attack: Ha-Oto no Ya increases to 14 stacks. When an Electro Quiver is triggered, 2 consecutive Ha-Oto no Ya will be fired at the target."
+              },
+              {
+                "name": "Languish",
+                "type": "Mindscape 2",
+                "desc": "When using an Chain Attack or Ultimate, Harumasa gains 7 stacks of Electro Blitz, up to a max of 7 stacks. While possessing Electro Blitz, the DMG of Dash Attack: Hiten no Tsuru - Slash increases by 50%. Consume 1 stack of Electro Blitz once Dash Attack: Hiten no Tsuru - Slash ends."
+              },
+              {
+                "name": "White Lies",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Occasionally Motivated",
+                "type": "Mindscape 4",
+                "desc": "Electro Prison now lasts for 20s. When Dash Attack: Hiten no Tsuru - Slash hits enemies, Harumasa gains 30 Decibels once per use of this skill. Upon activating Ultimate, apply the maximum stacks of Electro Prison to all on-field enemies."
+              },
+              {
+                "name": "No One Knows",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Tacit Understanding",
+                "type": "Mindscape 6",
+                "desc": "After Ha-Oto no Ya hits Stunned enemies or enemies under Attribute Anomalies, Harumasa will ignore 15% of the target's Electric RES for 12s. Every 12 times an enemy is hit by Ha-Oto no Ya, trigger an extra electromagnetic explosion, dealing 1,500% of Harumasa's ATK to the target as Electric DMG."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -30290,6 +32891,128 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Dark Abyss Quartet",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerform up to four attacks forward, dealing Physical DMG and Ice DMG.\nThe fourth attack is a shot. During this attack, hold to charge and perform a charged shot.\nAnti-Interrupt level is increased during the fourth attack, and DMG received is reduced by 40%."
+              },
+              {
+                "name": "Basic Attack: Dark Abyss Concerto",
+                "type": "Basic",
+                "desc": "After the 4th hit of Basic Attack: Dark Abyss Quartet, the shot of Dodge Counter: Phantasm - Slash, or the shot of Quick Assist: Elegy, press or hold to activate:\nThrow the scythe forward to perform a slash, followed by a shot, dealing Ice DMG.\nDuring the shot, hold to charge and perform a charged shot.\nDuring this skill, Anti-Interrupt level is increased, and DMG received is reduced by 40%."
+              },
+              {
+                "name": "Dodge: Phantasm",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Phantasm - Shatter",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nLaunch a dashing attack at enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Phantasm - Slash",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nPerforms a series of attacks on enemies in front, dealing Ice DMG.\nDuring the skill, hold to launch a shot. During the shot, hold to charge and perform a charged shot.\nThe shot is considered a Basic Attack, with its DMG treated as Basic Attack DMG.\nAfter the skill is used, it can be directly followed up with the 4th hit of Basic Attack: Dark Abyss Quartet.\nDuring the skill's ranged phase, Anti-Interrupt level is increased, and DMG received is reduced by 40%.\nInvulnerable during the slashes and ranged retreat of the skill."
+              },
+              {
+                "name": "Quick Assist: Elegy",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nPerforms a series of attacks on enemies in front, dealing Ice DMG.\nDuring the skill, hold to launch a shot. During the shot, hold to charge and perform a charged shot.\nThe shot is considered a Basic Attack, with its DMG treated as Basic Attack DMG.\nAfter the skill is used, it can be directly followed up with the 4th hit of Basic Attack: Dark Abyss Quartet.\nDuring the skill's ranged phase, Anti-Interrupt Level is increased, and DMG received is reduced by 40%.\nInvulnerable during the slashes and ranged retreat of the skill."
+              },
+              {
+                "name": "Defensive Assist: The End Has Not Come",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Ace Reversal",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nDash forward and perform two slashes, dealing Ice DMG.\nAfter the skill is used, it can be directly followed up with the 4th hit of Basic Attack: Dark Abyss Quartet.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Soul Hunter - Judgment",
+                "type": "Special",
+                "desc": "Press to activate:\nSpins the scythe and then unleashes a forward slash, dealing Ice DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Soul Hunter - Punishment",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nSpins the scythe to attack and then executes a powerful Finishing Move, dealing massive Ice DMG.\nThis skill is not counted as a heavy attack.\nAfter the skill is used, it can be directly followed up with the 4th hit of Basic Attack: Dark Abyss Quartet.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Trick of Fate",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nDash forward to perform a slash across a large area, then launch a shot, dealing massive Ice DMG.\nThe shot activated by this skill is considered a charged shot.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Blaspheme",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nThrows the scythe in a powerful spinning attack, then launches a Finishing Move, dealing massive Ice DMG.\nThis skill is not counted as a heavy attack.\nAfter the skill is used, it can be directly followed up with the 4th hit of Basic Attack: Dark Abyss Quartet.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Terminating Verdict",
+                "type": "Core Passive",
+                "desc": "When Chain Attack: Trick of Fate hits an enemy or Hugo's attacks Stun an enemy, Hugo gains the Dark Abyss Reverb state for 6s, and repeated triggers reset the duration. During this state, Hugo's CRIT Rate increases by 12% and CRIT DMG increases by 25%.\nWhen there are 1/2 Stun characters in your squad, Hugo's ATK increases by 300/900.\nWhen the Finishing Move of EX Special Attack: Soul Hunter - Punishment or Ultimate: Blaspheme hits an enemy while they are Stunned, it triggers the Totalize effect, increasing the DMG Multiplier of the skill's Finishing Move by 1,000%. Additionally, the Totalize effect further increases the skill's DMG multiplier based on the remaining Stun time of the enemy when triggered: for each remaining second of Stun time from the portion that is less than or equal to 5s, the skill's DMG multiplier increases by 280%; for each remaining second of Stun time from the portion between 5 and 15s, the skill's DMG multiplier increases by 100%. The total increase can raise the skill's DMG multiplier by a maximum of 3,400%.\nAfter Hugo triggers the Totalize effect, the enemy's Stunned state will immediately end. Based on the remaining Stun time at the moment Totalize is triggered, a certain amount of Daze will be accumulated. For every second of Stun time remaining, 5% Daze is accumulated, up to a maximum Daze equivalent to 25% of the enemy's maximum Daze.\nWhen EX Special Attack: Soul Hunter - Punishment hits an enemy, if the enemy is not Stunned, the Daze accumulated by the skill increases by 20%."
+              },
+              {
+                "name": "Additional Ability: Prelude to Finality",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Stun character or shares the same attribute:\nChain Attack: Trick of Fate's DMG increases by 15%, with a further increase of 35% against normal enemies. When Totalize is triggered, the DMG dealt by the skill increases by 40%. EX Special Attack: Soul Hunter - Punishment generates an additional 20 Energy when triggering Totalize on normal enemies. The Energy generation effect can trigger once every 30s."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Child of Hatred",
+                "type": "Mindscape 1",
+                "desc": "When triggering the Totalize effect in the Dark Abyss Reverb state, the skill's CRIT Rate is increased by an additional 12%, and CRIT DMG by 30%."
+              },
+              {
+                "name": "The Child Within",
+                "type": "Mindscape 2",
+                "desc": "When Ultimate: Blaspheme triggers Totalize, it will not end the enemy's Stunned state. Additionally, when Totalize is triggered, the skill will ignore 15% of the enemy's DEF."
+              },
+              {
+                "name": "Fruit of the Poisonous Tree",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Dramatic Theory",
+                "type": "Mindscape 4",
+                "desc": "After a Charged Shot hits an enemy, Hugo's attacks against that target will ignore 12% of that target's Ice RES for 15s, repeated triggers reset the duration."
+              },
+              {
+                "name": "Nirvana",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Crown of Thorns",
+                "type": "Mindscape 6",
+                "desc": "All shooting attacks that hit enemies trigger the Dark Abyss Reverb state, lasting up to 6s, and repeated triggers reset the duration. Additionally, whenever any skill triggers the Totalize effect, that DMG is further increased by 60%. The Finishing Move of EX Special Attack: Soul Hunter - Punishment also triggers the Totalize effect when hitting an enemy that isn't Stunned, boosting the DMG multiplier of the Finishing Move by a fixed 1,000 %."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -31811,6 +34534,138 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Tiger Seven Forms - Flaming Claw",
+                "type": "Basic",
+                "desc": "Press to activate:\nSlash forward up to four times, dealing Physical DMG and Fire DMG.\nDuring the 3rd hit, repeatedly press to maintain the combo and keep striking the enemy.\nDuring the 3rd hit, hold or pause before pressing to chain into the 4th hit.\nDuring the 3rd hit, Anti-Interrupt Level is increased, and DMG received is reduced by 40%."
+              },
+              {
+                "name": "Basic Attack: Hu Wei",
+                "type": "Basic",
+                "desc": "During combat, Hu Wei will automatically attack enemies, dealing Fire DMG.\nUpon hitting an enemy, gain 20 points of Might, triggering up to once per use of a skill. The maximum for Might is 200."
+              },
+              {
+                "name": "Dodge: Tiger Seven Forms - Tigerwind",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Tiger Seven Forms - Tiger Charge",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nPerform a quick slash forward, dealing Physical DMG."
+              },
+              {
+                "name": "Dash Attack: Tiger Seven Forms - Mountain King's Game",
+                "type": "Dodge",
+                "desc": "After using Dash Attack: Tiger Seven Forms - Tiger Charge, hold to activate:\nEnter a high-speed spinning state. While in this state, use the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to move and deal Physical DMG upon contact with enemies.\nAfter Ju Fufu gains Momentum from other skills, she will be surrounded by flames in the high-speed spinning state. Upon contact with enemies, 1 point of Momentum is consumed, changing the DMG to Fire DMG and granting 25 points of Might. The maximum for Momentum is 15.\nWhen consuming Momentum to deal Fire DMG, if Might is above 100 points, 100 points of Might will be automatically consumed to trigger Chain Attack: Suppressing Tiger Cauldron.\nReleasing will have Ju Fufu exit the spinning state and throw Hu Wei to attack enemies, dealing Fire DMG. When switching to another character, Ju Fufu will remain in the spinning state and attempt to collide with the nearest enemy.\nWhile Ju Fufu is the currently active character, DMG taken during the skill is reduced by 40%, and Anti-Interrupt Level is increased. If not the active character, she becomes Invulnerable."
+              },
+              {
+                "name": "Dodge Counter: Tiger Seven Forms - Reignited Mountain",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nPerform multiple slashes on enemies ahead, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Decisive Stomp",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nSlashes enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Steadfast Crouching Tiger",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Feral Blazing Maw",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nSlash forward at enemies, then use Hu Wei to follow up with a downward attack, dealing Fire DMG.\nGain 1 point of Momentum upon activation at most once every 10s.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Tiger Seven Forms - Mountain-Descending Tiger",
+                "type": "Special",
+                "desc": "Press to activate:\nPerform a spinning slash forward, followed by a falling slash, dealing Fire DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Tiger Seven Forms Alt - Mountain-Descending Savage Tiger",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nSwing Hu Wei forward for a powerful strike, dealing massive Fire DMG.\nUpon activation, gain 3 points of Momentum and 80 points of Might.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Tiger Cauldron Collapse",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nSwing Hu Wei to deliver a powerful strike to enemies in a small area ahead, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Suppressing Tiger Cauldron",
+                "type": "Chain",
+                "desc": "With at least 100 points of Might, after triggering a Chain Attack, automatically activate:\nConsume 100 Might to open Hu Wei and fire flames and popcorn at enemies, striking them in a small area ahead, dealing massive Fire DMG.\nIf Momentum is available, and while not the active character, the high-speed spinning state will activate after the skill ends.\nThis is an Aftershock. Character is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Tiger Seven Forms - Raging Tiger Explosion",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nPerform two downward attacks with Hu Wei, dealing massive Fire DMG.\nUpon activation, gain 6 points of Momentum and 100 points of Might.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Fu-rocious Might",
+                "type": "Core Passive",
+                "desc": "When Ju Fufu has yet to use Hu Wei, it will automatically attack enemies and gain Might upon hitting them.\nWhen Hu Wei hits an enemy and has at least 100 Might, and Ju Fufu is not the currently active character, Ju Fufu will launch Chain Attack: Suppressing Tiger Cauldron centered around the target enemy. Upon activation, all squad members gain the Tiger's Roar effect: CRIT DMG increases by 20%, and when Ju Fufu's initial ATK is greater than or equal to 2,800, every additional 100 ATK further increases CRIT DMG by 5%, up to a maximum additional increase of 30%.\nWhile in the Tiger's Roar state, character Chain Attack/Ultimate DMG increases by 20%/40%.\nThe Tiger's Roar state lasts for 30s. Repeated triggers reset the duration. While Ju Fufu is in the Tiger's Roar state, Impact increases by 50."
+              },
+              {
+                "name": "Additional Ability: Aura of Authority",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Attack or Rupture character:\nThe maximum Decibels for all characters in the squad increases by 1,000. When an Attack or Rupture character uses an Ultimate, that character gains 300 Decibels."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Super Scary Little Tiger",
+                "type": "Mindscape 1",
+                "desc": "Upon entering combat, Ju Fufu's CRIT Rate increases by 12%, and she immediately gains 100 Might. When Ju Fufu's Chain Attack hits an enemy, when the target is Stunned, the target's Stun DMG Multiplier increases by 35%, lasting for 30s."
+              },
+              {
+                "name": "Almighty Qingming Warrior",
+                "type": "Mindscape 2",
+                "desc": "While in the Tiger's Roar state, character CRIT DMG increases by an additional 22%. Whenever any character activates an Ultimate, Ju Fufu gains 3 points of Momentum."
+              },
+              {
+                "name": "Righteous Young Hero",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Monster-Slaying Tiger Mystic",
+                "type": "Mindscape 4",
+                "desc": "While Ju Fufu is in the Tiger's Roar state, her CRIT DMG increases by 35%."
+              },
+              {
+                "name": "Unrivaled Almighty Senior",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Roar of My Inner Tiger",
+                "type": "Mindscape 6",
+                "desc": "Ju Fufu's Chain Attack DMG increases by 30%. Upon consuming Momentum and hitting an enemy in the high-speed spinning state, fire 3 popcorns, each dealing 160% of Fufu's ATK as DMG. This DMG is treated as Chain Attack DMG."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -33332,6 +36187,123 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Smash 'n' Bash",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has the Furnace Fire effect, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nWhen Koleda and Ben are deployed together, executing an enhanced Basic Attack will trigger a coordinated attack from both, further increasing the move's power;\nKoleda is invulnerable during the Basic Attack's 4th hit and enhanced Basic Attack."
+              },
+              {
+                "name": "Dodge: Wait 'n' See",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Tremble!",
+                "type": "Dodge",
+                "desc": "Press during a Dodge to activate:\nStrikes enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Don't Look Down on Me",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nStrikes enemies in front and creates an explosion, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Coming Thru!",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nStrikes enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Protective Hammer",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Hammer Bell",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nKoleda charges and strikes enemies in front, dealing Fire DMG and obtaining Furnace Fire effect.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Hammer Time",
+                "type": "Special",
+                "desc": "Press to activate:\nStrikes enemies in front and triggers an explosion, dealing Fire DMG.\nThis skill launches faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad, and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Boiling Furnace",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive Fire DMG. Koleda also gains the Furnace Fire effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Natural Disaster",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful explosion on enemies in a large area, dealing massive Fire DMG while also obtaining the Furnace Fire effect.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Hammerquake",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful explosion on enemies in a large area in front, dealing massive Fire DMG while also obtaining the Furnace Fire effect.\nKoleda and Ben can team up when fighting together to launch a coordinated attack, further increasing the power of the attack.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Demolition Hammer",
+                "type": "Core Passive",
+                "desc": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 60%."
+              },
+              {
+                "name": "Additional Ability: Belobog Management",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Beat of the Hammer",
+                "type": "Mindscape 1",
+                "desc": "After the 2nd or 4th hit of Koleda's Basic Attack or her enhanced Basic Attack, quickly use a Special Attack or EX Special Attack to increase the Daze dealt by 15%."
+              },
+              {
+                "name": "Kinetic Recovery",
+                "type": "Mindscape 2",
+                "desc": "When Koleda's EX Special Attack hits an enemy, she recovers 60 Energy. Can trigger once every 45s."
+              },
+              {
+                "name": "\"Mind Your Own!\"",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Furnace's Glow",
+                "type": "Mindscape 4",
+                "desc": "Koleda gains one stack of Charge (max 2 stacks) when consuming Furnace Fire to use her Enhanced Basic Attack. When her Chain Attack: Natural Disaster or Ultimate: Hammerquake hits an enemy, she consumes all stacks of Charge to increase the attack's DMG by 18% per stack."
+              },
+              {
+                "name": "\"You Dare Underestimate Me?\"",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Saturated Blast",
+                "type": "Mindscape 6",
+                "desc": "When EX Special Attack, Chain Attack, or Ultimate triggers an explosion that hits an enemy, it deals additional DMG equal to 360% of Koleda's ATK."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -34853,6 +37825,123 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: L-Form Thundering Fist",
+                "type": "Basic",
+                "desc": "Press or hold to activate:\nPerform up to five forward strikes, dealing Physical DMG and Fire DMG.\nDuring the 3rd hit of the Basic Attack, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick}, and repeatedly press or hold to unleash a series of melee follow-up attacks. Release the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to follow up with the 4th hit of the Basic Attack.\nWhile performing the startup light punch in the 5th hit of the Basic Attack, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} and repeatedly press or hold to keep alternating between the light punch and 4th hit of the Basic Attack. Release the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to follow up with the subsequent jab combo.\nContinue repeatedly pressing or holding to extend the duration of the jab combo.\nWhen you stop pressing or holding , or when the combo reaches its maximum duration, launches a Finishing Move forward. Lighter is invulnerable during the Finishing Move.\nDuring the 5th hit of the Basic Attack, Lighter takes 40% less DMG.\nWhile in the Morale Burst state, Anti-Interrupt Level is increased during the 5th hit of his Basic Attack, and the DMG reduction effect is increased to 80%."
+              },
+              {
+                "name": "Dodge: Shadowed Slide",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\nPress while the character is attacking to activate:\nPerform a quick shuffle dodge in the direction of the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#Joystick}.\nThis skill will not interrupt the combo count for Basic Attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Charging Slam",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nRapidly strikes enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Blazing Flash",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nStrike enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using the skill, press or hold to immediately follow up with the 5th hit of the Basic Attack."
+              },
+              {
+                "name": "Quick Assist: Blazing Flash - Guard",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nStrike enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using the skill, press or hold to immediately follow up with the 5th hit of the Basic Attack."
+              },
+              {
+                "name": "Defensive Assist: Swift Break",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Charging Slam - Stab",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nStrike enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, press or hold to immediately follow up with the 5th hit of the Basic Attack."
+              },
+              {
+                "name": "Special Attack: V-Form Sunrise Uppercut",
+                "type": "Special",
+                "desc": "Press to activate:\nStrikes enemies in front with an uppercut, dealing Fire DMG.\nAnti-Interrupt level is increased while using this skill.\nPress during a shuffle dodge to activate:\nStrike forward with a series of punches, dealing Fire DMG.\nThis skill will not interrupt the combo count for Basic Attacks.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: V-Form Sunrise Uppercut - Full Distance",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nStrikes enemies in front with a powerful uppercut, leaping into the air and dealing massive Fire DMG.\nDuring the move, press again to spend additional Energy to perform a powerful follow-up attack, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill\nAfter using the move, press or hold to transition to the 4th hit of the Basic Attack.\nDuring the shuffle dodge, with enough Energy, press to activate:\nPerform a powerful combo punch forward, dealing massive Fire DMG. Using this skill will not break the combo count for Basic Attacks.\nCharacter is invulnerable while using this skill.\nAfter the attack, press or hold to immediately transition into the 5th hit of the Basic Attack."
+              },
+              {
+                "name": "Chain Attack: V-Form Scorching Sun",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful strike at enemies in front in a small area, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: W-Form Crowned Inferno",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful strike in a large area around, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Accelerant",
+                "type": "Core Passive",
+                "desc": "Lighter automatically gains Morale over time, at a rate of 2.9 points per second. For each point of Energy consumed by any squad member, Lighter recovers an additional 0.26 Morale, up to a maximum of 100. When Morale reaches 80, the next time Lighter switches into battle he immediately launches a Quick Assist. Once Morale is 80 or higher, executing the 5th hit of his Basic Attack puts Lighter in the Morale Burst state, enhancing the power of the startup light punch, jab combo, and the Finishing Move of the 5th hit of his Basic Attack. When a skill hits an enemy with its power increased, it will continuously consume Morale. With every 10 points of Morale consumed, Lighter's Impact increases by 2%, up to a maximum increase of 20%, and lasting 6s.\nIn the Morale Burst state, Lighter will no longer automatically gain Morale over time. If his Morale is exhausted during a startup light punch or jab combo, he will automatically follow up with a more powerful Finishing Move.\nIn the Morale Burst state, when startup light punches or jab combos hit enemies, the target's Ice RES and Fire RES are reduced by 15%, lasting 30s.\nIn the Morale Burst state, when the Finishing Move hits an enemy, it applies the Collapse effect on the target, extending its Stunned duration by 3s. The Collapse effect can trigger only once on the same target before they recover from Stun.\nWhen the Finishing Move of the 5th hit of his Basic Attack hits an enemy, when he switches off field, or when his Morale runs out, Lighter will leave the Morale Burst state, keeping any unspent Morale."
+              },
+              {
+                "name": "Additional Ability: Fighting Spirit",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Attack character or shares the same Faction:\nWhile under the Morale Burst state, when the 5th hit of Lighter's Basic Attack hits an enemy, all squad members gain a stack of Elation, stacking up to 20 times and lasting 30s. Repeated triggers reset the duration. For each stack of Elation, an Agent's Ice DMG and Fire DMG increase by 1.25%.\nWhen obtaining Elation, if Lighter's Impact exceeds 170, every additional 10 points of Impact will increase the buff effect provided by each stack of Elation by an extra 0.25%. When any squad member launches a Chain Attack, it will refresh the duration of all squad members' Elation. Elation can increase the Ice DMG and Fire DMG of Agents by a maximum of 75%."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "The Champion",
+                "type": "Mindscape 1",
+                "desc": "Among the debuffs imposed by Core Passive: Accelerant, the Collapse effect increases Stun duration by 5s, while further reducing Ice RES and Fire RES by 10%. The more powerful Finishing Move that follows when Lighter's Morale is completely exhausted during a startup light punch or jab combo deals 30% increased DMG."
+              },
+              {
+                "name": "Red Scarf",
+                "type": "Mindscape 2",
+                "desc": "When applying Collapse via Core Passive: Accelerant to enemies, the target's Stun DMG Multiplier increases by 25%. The increase to Ice DMG and Fire DMG provided by Elation from Additional Ability: Fighting Spirit increases to 120% of the original."
+              },
+              {
+                "name": "Mercenary Leader",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Sunglasses",
+                "type": "Mindscape 4",
+                "desc": "When Lighter is off-field, the Energy Regen for the on-field character is increased by 10%. Upon entering the Morale Burst state, Lighter restores 4 Energy for off-field characters. This effect can trigger once every 18s."
+              },
+              {
+                "name": "Decision Maker",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Survivor",
+                "type": "Mindscape 6",
+                "desc": "Lighter's Morale recovery efficiency is increased to 200% of its original value. When Lighter lands a heavy strike on enemies during a Basic Attack, Dodge Counter, Special Attack, EX Special Attack, Quick Assist, Assist Follow-Up, Chain Attack, or Ultimate, it will trigger the Blazing Impact effect, dealing 250% of ATK as Fire DMG. This effect can trigger once every 8s on each enemy. If Lighter's Impact exceeds 170 points, each additional point will further increase the multiplier of Blazing Impact by 5%, up to a maximum increase of 500%. The more powerful Finishing Move that follows when Lighter's Morale is completely exhausted during a light punch or jab combo will trigger an additional activation of Blazing Impact when hitting an enemy, ignoring the effect's cooldown."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -36374,6 +39463,123 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Orbital Combo",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerform up to five forward strikes, dealing Ether DMG.\nThe fifth attack is a Whim, conjuring an Ethereal figure that inflicts Ether DMG on enemies in a circular area ahead.\nWhen in combat and not in the Dream state, Lucia gains 40 Dream Points upon using this Whim."
+              },
+              {
+                "name": "Dodge: Fading Silhouette",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Refraction",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nDeliver a quick strike forward, dealing Ether DMG."
+              },
+              {
+                "name": "Dodge Counter: Stardust Echo",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nThis Dodge Counter is a Whim. When activated, summons an Ethereal figure that delivers a downward attack in a circular area ahead, dealing Ether DMG.\nIf not in the Dream state, Lucia gains 20 Dream Points upon using this Whim. This effect can trigger once every 5s.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Crushing Mist",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nThis Quick Assist is a Whim. When activated, it summons an Ethereal figure that delivers a downward attack in a circular area ahead, dealing Ether DMG.\nIf not in the Dream state, Lucia gains 20 Dream Points upon using this Whim. This effect can trigger once every 5s.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Voice of Illusory Dreams",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Harmony of Painted Dreams",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nThis Assist Follow-Up is a Harmony. When activated, it summons an Ethereal figure that delivers a downward attack in a circular area ahead, dealing Ether DMG.\nIf not in the Dream state, Lucia gains 40 Dream Points upon using this Harmony.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Symphony of the Reaper - Storm",
+                "type": "Special",
+                "desc": "Press to activate:\nThis Special Attack is a Whim. When activated, it recreates an Ethereal figure that slashes forward in a line, dealing Ether DMG.\nWhen in combat and not in the Dream state, Lucia gains 20 Dream Points upon using this Whim. This effect can trigger once every 5s."
+              },
+              {
+                "name": "EX Special Attack: Symphony of the Reaper - Daybreak",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nThis EX Special Attack is a Harmony. When activated, it summons an Ethereal figure that delivers a powerful forward slash in a line, dealing Ether DMG.\nWhen Lucia uses any Harmony, all squad members gain the Darkbreaker state. While in Darkbreaker state, Sheer Force increases by 12. Every 200 points of Lucia's initial Max HP grants an additional {CAL:5+AvatarSkillLevel(1)*0.2,1,1} Sheer Force. The Darkbreaker state can increase Sheer Force by up to a maximum of {CAL:612+AvatarSkillLevel(1)*24,1,2}, lasting 20s and repeated triggers reset the duration. When Lucia's initial Max HP reaches 24,000, the above bonus effect reaches its maximum value.\nWhen any Harmony deals DMG, Lucia increases the final attack's DMG by an additional {CAL:0.34+AvatarSkillLevel(1)*0.03,100,2}% of her Max HP.\nIf she activates this EX Special Attack while in the Dream state and under the effect of Ether Veil: Wellspring, Ether Veil: Wellspring duration is extended by 16s.\nAfter activating her EX Special Attack, Lucia can immediately follow up with the 5th hit of her Basic Attack.\nIf not in the Dream state, Lucia gains 60 Dream Points upon using this Harmony.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Stage of Brilliance",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nThis Chain Attack is a Harmony. When activated, it summons an Ethereal figure that pulls in enemies in a circular area ahead and deals Ether DMG.\nIf not in the Dream state, Lucia gains 40 Dream Points upon using this Harmony.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Charge, Great Armor!",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nThis Ultimate is a Harmony. When activated, Lucia summons an Ethereal figure and rides it forward in a charge. Holding a directional button allows her to steer and extend the charge, up to 3s. During the charge, Anti-Interrupt Level is increased, DMG taken is reduced by 40%, and when Lucia takes fatal DMG, she remains in battle with HP not dropping below 1.\nWhen the charge ends, Lucia unleashes a powerful strike in a large area around her, dealing Ether DMG. A Quick Assist is triggered when this skill hits an enemy, and after the skill is used, it leaves behind a Starlight Convergence. Starlight Convergence lasts 8s. While inside Starlight Convergence, the currently active character gains HP regeneration equal to {CAL:0.01+AvatarSkillLevel(3)*0.0005,100,2}% of Lucia's Max HP per second. This effect ends 4s after leaving the Starlight Convergence or immediately when switching out.\nAfter activation, if Lucia is in the Dream state and Ether Veil: Wellspring is active, Ether Veil: Wellspring duration is extended by 32s.\nIf not in the Dream state, Lucia gains 100 Dream Points upon using this Harmony. If she is in the Dream state when activating this Harmony, she will gain 100 Dream Points and re-enter Dream state the next time she exits it. This effect cannot be stacked.\nCharacter is invulnerable while performing the powerful strike."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Lost Nocturne",
+                "type": "Core Passive",
+                "desc": "When entering the battlefield, Lucia immediately gains 60 Dream Points. If her Dream Points reaches 100 upon activating a Whim or Harmony, she enters the Dream state.\nWhen entering the Dream state, it triggers a Quick Assist and simultaneously activates Ether Veil: Wellspring. While Ether Veil: Wellspring is active, all squad members' Max HP increase by 5%, lasting 40s. Repeated triggers extend the duration, up to a max of 300s.\nWhile Lucia is in the Dream state, using any Whim consumes 25 Dream Points and upgrades it to Harmony. Whenever another active character's attack hits an enemy, Lucia consumes 25 Dream Points to unleash an Aftershock. This Aftershock is a Harmony. After Lucia triggers a skill upgrade or Aftershock, Aftershock cannot be triggered for 8s.\nWhen Lucia triggers a skill upgrade or an Aftershock, all squad members gain the Dreamer's Nursery Rhyme state. While in Dreamer's Nursery Rhyme state, DMG dealt increases by 20% for 12s. Repeated triggers reset the duration.\nIf Lucia runs out of Dream Points or she leaves the Ether Veil, she exits the Dream state."
+              },
+              {
+                "name": "Additional Ability: Ballad of the Long Night",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Rupture or Stun character:\nWhen applying Darkbreaker, additionally applies a 30% CRIT DMG increase effect."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Secret Friend",
+                "type": "Mindscape 1",
+                "desc": "When Dreamer's Nursery Rhyme deals additional DMG, ignore 18% of enemy All-Attribute RES and have 5% increased Decibel Generation Rate. Each time Lucia performs a skill upgrade, she gains 1 stack of Echo, stacking up to 4 times. When Dreamer's Nursery Rhyme ends, if Lucia has any Echo stacks, 1 stack is consumed to reapply Dreamer's Nursery Rhyme to all squad members."
+              },
+              {
+                "name": "Great Magician",
+                "type": "Mindscape 2",
+                "desc": "While Lucia is inside Ether Veil: Wellspring, Harmony deals 15% more DMG. Agents in the Darkbreaker state gain an additional 15% Sheer DMG increase while in Ether Veil: Wellspring."
+              },
+              {
+                "name": "The Best Partner",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Late-Night Hours",
+                "type": "Mindscape 4",
+                "desc": "When Ether Veil is activated or extended on the field, Lucia grants all squad members 100 Decibels. This effect can trigger once every 15s."
+              },
+              {
+                "name": "Dream Watcher",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "The Never-Ending Journey",
+                "type": "Mindscape 6",
+                "desc": "When Lucia is inside any Ether Veil, her ATK increases by 2% of her initial Max HP, and Harmony always triggers a CRIT with Harmony CRIT DMG increased by 30%."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -37895,6 +41101,133 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Moon Hunter",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 5 strikes in front, dealing Physical DMG.\nHold down to charge up, increasing the power of the attack and dealing Ice DMG."
+              },
+              {
+                "name": "Dodge: Suitable Positioning",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Keep it Clean",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlides forward, launching a series of strikes in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Etiquette Manual",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nStrikes enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Wolf Pack",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nStrikes enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Disrupted Hunt",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Disrupted Hunt",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Vengeful Counterattack",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nCreates an icicle in front, which strikes all enemies within range, dealing Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Vengeful Counterattack - Glacial Waltz",
+                "type": "Assist",
+                "desc": "Hold after a Defensive Assist to activate:\nQuickly launch multiple strikes against enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Time to Hunt",
+                "type": "Special",
+                "desc": "Press to activate:\nUnleashes a series of strikes in front, dealing Ice DMG.\nHold down to charge up, increasing its power.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Thrill of the Hunt",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nUnleashes a series of powerful strikes in front, dealing massive Ice DMG.\nHold down to charge up, consuming Energy and enhancing the power of the attack.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: As You Wish",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a series of powerful strikes at enemies in a small area in front of him, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Mission Complete",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes multiple powerful strikes at enemies in a large area, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Metallic Paws",
+                "type": "Core Passive",
+                "desc": "When Lycaon charges his Basic Attack to completion, the attack deals 80% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s."
+              },
+              {
+                "name": "Additional Ability: Elegant Predator",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Full Moon Momentum",
+                "type": "Mindscape 1",
+                "desc": "When Lycaon's EX Special Attack: Thrill of the Hunt hits an enemy, the attack's Daze increases by 12%. This effect can trigger once every 8s. When he charges his EX Special Attack: Thrill of the Hunt to completion, this buff will increase by an additional 10%."
+              },
+              {
+                "name": "Energy Feedback",
+                "type": "Mindscape 2",
+                "desc": "When Stunning an enemy or triggering a squad member's Chain Attack, Lycaon gains 5 Energy. Can trigger once every 1s."
+              },
+              {
+                "name": "Attendant Training",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Graceful Demeanor",
+                "type": "Mindscape 4",
+                "desc": "If Lycaon is attacked while using a Basic Attack or Special Attack, he will immediately gain a Shield equal to 7.5% of his Max HP, lasting for 15s.\nDuring the Shield's duration, his Anti-Interrupt level is increased. This effect can trigger once every 15s."
+              },
+              {
+                "name": "Alpha Nature",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Ruthless Hunter",
+                "type": "Mindscape 6",
+                "desc": "When a charged attack hits an enemy, the target suffers 10% increased DMG from Lycaon, stacking up to 5 times and lasting 12s. Only one stack can be gained per skill use, and repeated triggers reset the duration."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -39416,6 +42749,128 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Kazahana",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to five slashes ahead, the first two deal Physical DMG, and the last three deal Frost DMG.\nBlock enemy attacks during the 5th hit of the Basic Attack."
+              },
+              {
+                "name": "Basic Attack: Shimotsuki",
+                "type": "Basic",
+                "desc": "With at least 2 points of Fallen Frost, hold to activate:\nHoshimi Miyabi sheaths her blade, enters Shimotsuki Stance and starts to charge up. Every level of charge will consume 2 points of Fallen Frost, up to a maximum of three levels of charge.\nWhen releasing , or when Fallen Frost is completely depleted, Hoshimi Miyabi will draw her blade and unleash a powerful slash ahead based on the current charge level, dealing massive Frost DMG. She then exits Shimotsuki Stance.\nCharacter is invulnerable during Shimotsuki Stance.\nHoshimi Miyabi can have up to 6 points of Fallen Frost. Upon entering the battlefield, Hoshimi Miyabi immediately obtains 3 points of Fallen Frost."
+              },
+              {
+                "name": "Dodge: Mizutori",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\nWhile dodging, repeatedly press or hold to activate:\nA dash dodge that covers a lot of ground.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Fuyubachi",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Kan Suzume",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nSlashes enemies in front, dealing Frost DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Dancing Petals",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nSlashes enemies in front, dealing Frost DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Drifting Petals",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Falling Petals",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nCharges and slashes enemies in front, dealing Frost DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Miyuki",
+                "type": "Special",
+                "desc": "Press to activate:\nQuickly draws her blade and slashes ahead, dealing Frost DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Hisetsu",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nRush forward, unleashing powerful slashes against enemies along the way, dealing massive Frost DMG.\nUpon activating this skill, gain 2 points of Fallen Frost.\nCharacter is invulnerable while using this skill.\nAfter using this skill, with enough Energy, press again to activate:\nConsume extra Energy and unleash a powerful follow-up attack against enemies in front, dealing massive Frost DMG.\nUpon activating this skill, gain 2 points of Fallen Frost.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Spring's Call",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful slash at enemies in front in a large area, dealing massive Frost DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Lingering Snow",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes powerful slashes at enemies ahead in a large area then pauses, before unleashing a Finishing Move, dealing massive Frost DMG.\nUpon activating this skill, gain 3 points of Fallen Frost and increase Ice DMG by 30% for 12s.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Searing Cold",
+                "type": "Core Passive",
+                "desc": "When Hoshimi Miyabi deals Frost DMG, she applies Icefire to the target, lasting 30s. When accumulating Frost Anomaly Buildup against targets with Icefire, increases Frost Anomaly Buildup Rate by 100% of Hoshimi Miyabi's CRIT Rate, up to a maximum increase of 80%. As Hoshimi Miyabi accumulates Frost Anomaly Buildup, it has its own independent Attribute Anomaly Buildup gauge and triggers Freeze, Shatter, and Frostbite that can react with other Attribute Anomalies, including Ice Attribute Anomaly, to trigger Disorder.\nWhen Hoshimi Miyabi applies Frostbite to enemies with Icefire, it will consume the Icefire to trigger Frostburn - Break, dealing Frost DMG equal to 1,500% of Hoshimi Miyabi's ATK and causing the target to enter the Frostburn state. All units accumulate 20% more Anomaly Buildup against enemies under the Frostburn state, but Hoshimi Miyabi cannot reapply Icefire to these enemies. The Frostburn state ends when Frostbite expires. While this state remains active, triggering another Attribute Anomaly will overwrite Frostbite and remove Frostburn.\nUpon triggering Frostburn - Break, Hoshimi Miyabi obtains 1 point of Fallen Frost. This effect can trigger once every 10s."
+              },
+              {
+                "name": "Additional Ability: Bask in Frost",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Support character or shares the same Faction:\nBasic Attack: Shimotsuki DMG increases by 60%. When any squad member triggers Disorder, Hoshimi Miyabi obtains 2 points of Fallen Frost and Basic Attack: Shimotsuki during the next Shimotsuki Stance will ignore 30% of the target's Ice RES."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Frost Atop the Snow",
+                "type": "Mindscape 1",
+                "desc": "While in Shimotsuki Stance, every 1 point of Fallen Frost consumed will allow Basic Attack: Shimotsuki to ignore 6% of DEF, stacking up to 6 times and lasting until Shimotsuki Stance ends. When the slash for charge level three of Basic Attack: Shimotsuki hits an enemy under Frostburn, it will immediately remove the Frostburn state and increase all squad members' Anomaly Buildup Rate by 20% for 10s."
+              },
+              {
+                "name": "Breath Technique",
+                "type": "Mindscape 2",
+                "desc": "Basic Attack: Kazahana and Dodge Counter DMG increases by 30%. Hoshimi Miyabi gains 1 point of Fallen Frost when the final move of the 5th hit of Basic Attack: Kazahana hits an enemy. Upon entering the battlefield, Hoshimi Miyabi immediately obtains 6 points of Fallen Frost and her CRIT Rate increases by 15%."
+              },
+              {
+                "name": "Martial Discipline",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Rupture",
+                "type": "Mindscape 4",
+                "desc": "Frostburn - Break DMG increases by 30%. Upon triggering Frostburn - Break, Hoshimi Miyabi generates 250 more Decibels."
+              },
+              {
+                "name": "Anniversary",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Prodigious Talent",
+                "type": "Mindscape 6",
+                "desc": "During Shimotsuki Stance, Hoshimi Miyabi obtains Polar, which increases Basic Attack: Shimotsuki DMG by 30%. After obtaining Polar, Hoshimi Miyabi will automatically draw her blade and unleash powerful slashes based on the current charge level upon consuming Fallen Frost. Before Fallen Frost is completely depleted, the draw and slashes will not interrupt charging under Shimotsuki Stance. Each occurrence of Shimotsuki Stance can perform up to 3 draws and slashes."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -40934,6 +44389,128 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Kitty Slash",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 5 slashes, dealing Physical DMG.\nOn the last hit, there is a 33.33% chance to repeat this hit 3 times."
+              },
+              {
+                "name": "Basic Attack: Crimson Blade",
+                "type": "Basic",
+                "desc": "Hold during the first 3 hits of Nekomata's Basic Attack to activate:\nSlashes enemies in front and passes through them, dealing Physical DMG.\nUpon activation, there is a 33.33% chance to repeat this attack 3 times."
+              },
+              {
+                "name": "Dodge: Can't Touch Me-ow~",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Over Here!",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Phantom Claws",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nSlashes enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Cat's Paw",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nSlashes enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Desperate Defense",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Shadow Strike",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nCharge and slash enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Surprise Attack",
+                "type": "Special",
+                "desc": "Press to activate:\nUnleashes a downward strike, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Super Surprise Attack!",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nUnleashes a powerful falling slash that deals massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Claw Swipe",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful slash at enemies ahead in a large area, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Claw Smash",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes powerful slashes at enemies ahead in a large area, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Stealthy Paws",
+                "type": "Core Passive",
+                "desc": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 60% for 6s."
+              },
+              {
+                "name": "Additional Ability: Catwalk",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Bird Hunter",
+                "type": "Mindscape 1",
+                "desc": "When Nekomata hits an enemy from behind, she ignores 16% of her target's Physical RES. If the enemy is Stunned, all Nekomata's attacks against them are considered back attacks."
+              },
+              {
+                "name": "Cat & Mouse",
+                "type": "Mindscape 2",
+                "desc": "When there's only one enemy on the field and Nekomata is in combat, her Energy Generation Rate is increased by 25%."
+              },
+              {
+                "name": "Curious Left Tail",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Sharpen Claws",
+                "type": "Mindscape 4",
+                "desc": "When Nekomata uses her EX Special Attack, her CRIT Rate increases by 7% for 15s, stacking up to 2 times, with each stack's duration being calculated separately."
+              },
+              {
+                "name": "Lucky Right Tail",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Predator Lineage",
+                "type": "Mindscape 6",
+                "desc": "When Nekomata launches a Chain Attack or uses her Ultimate, her CRIT DMG increases by 18%, stacking up to 3 times. The effect expires when she's no longer in-combat. This effect gains maximum stacks immediately on defeating an enemy."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -42455,6 +46032,153 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Sweeping Edge",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerforms up to five attacks against enemies ahead, dealing Ice DMG.\nAfter landing the fifth hit's downward attack, and with sufficient Trial by Cold, keep holding or to chain into EX Special Attack: Execution - Merciless Judgment.\nEnters the Bound Absolution state after throwing the cape during the fourth hit."
+              },
+              {
+                "name": "Basic Attack: Whirling Blade",
+                "type": "Basic",
+                "desc": "Hold to activate:\nPromeia leaps into the air and attacks, throwing her cape beside the enemy and entering the Bound Absolution state, dealing Ice DMG.\nHitting enemies does not accumulate Corrosive Chill."
+              },
+              {
+                "name": "Bound Absolution",
+                "type": "Basic",
+                "desc": "When using certain skills, Promeia throws her cape to continuously slice enemies, dealing Ice DMG. Does not accumulate Corrosive Chill upon hit.\nWhile the cape remains out, Promeia can walk slowly.\nPress or during this period to immediately follow up with the 5th hit of Basic Attack: Sweeping Edge.\nIf attacked during this period, Promeia triggers a Perfect Dodge automatically. The dodge can trigger once every 20s."
+              },
+              {
+                "name": "Dodge: Veiled Step",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Grim Reap",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nDelivers a quick attack forward, dealing Ice DMG."
+              },
+              {
+                "name": "Dodge Counter: Soaring Bat",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nUnleashes consecutive attacks against the target, dealing Ice DMG.\nAfter using this skill, it can be immediately followed up with the 5th hit of Basic Attack: Sweeping Edge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Ambushing Strike",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nUnleashes consecutive attacks against the target, dealing Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Injunction",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Intercepting Strike",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleashes consecutive attacks against the target, dealing Ice DMG.\nAfter using this skill, it can be immediately followed up with the 5th hit of Basic Attack: Sweeping Edge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Execution - Cold Flash",
+                "type": "Special",
+                "desc": "Press to activate:\nLaunches a flying blade attack, dealing Ice DMG."
+              },
+              {
+                "name": "EX Special Attack: Execution - Glacial Death",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nPerforms a flying blade attack, throwing her cape beside the enemy and entering the Bound Absolution state, dealing Ice DMG.\nIf attacked by an enemy shortly after using the move, automatically chains into EX Special Attack: Execution - Shrouded in Shadow.\nUpon use, Promeia gains the Absolute Order effect.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Execution - Shrouded in Shadow",
+                "type": "Special",
+                "desc": "Triggers automatically when hit shortly upon activating EX Special Attack: Execution - Glacial Death:\nEnters the Vital View state briefly and swiftly circles behind the enemy.\nAfter triggering a Perfect Dodge, and with enough Energy, press to consume 40 Energy and activate EX Special Attack: Execution - Shrouded in Shadow, gaining the Absolute Order effect.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Execution - Descending Frost",
+                "type": "Special",
+                "desc": "While under the Absolute Order effect, press or while in the Bound Absolution state to activate:\nLeaps toward the enemy, retrieving the cape while performing a descending attack that deals Ice DMG.\nAfter landing, if Promeia possesses Trial by Cold, keep holding or to chain into EX Special Attack: Execution - Merciless Judgment.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Execution - Layered Frost",
+                "type": "Special",
+                "desc": "After triggering EX Special Attack: Execution - Shrouded in Shadow, press or to activate:\nQuickly launches a flurry of attacks, then leaps toward the enemy, retrieving the cape while performing a more powerful downward attack that deals Ice DMG.\nAfter landing, if Promeia possesses Trial by Cold, keep holding or to chain into EX Special Attack: Execution - Merciless Judgment.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Execution - Merciless Judgment",
+                "type": "Special",
+                "desc": "With enough Trial by Cold and after performing the final hit of Basic Attack: Sweeping Edge, Special Attack: Execution - Descending Frost, or Special Attack: Execution - Layered Frost, keep holding or after landing to activate:\nQuickly leaps back while unleashing a more powerful finishing move, dealing Ice DMG.\nHitting enemies does not accumulate Corrosive Chill.\nAfter using this skill, hold or , or press to immediately follow up with the 5th hit of Basic Attack: Sweeping Edge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Hanging Judgment",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nThrows flying blades and hangs upside down above the enemy, unleashing a flurry of attacks and ending with a finishing move, dealing massive Ice DMG.\nWhen the heavy attack hits an enemy afflicted with Ice Anomaly, Ether Anomaly, Electric Anomaly, Fire Anomaly, Physical Anomaly, or Wind Anomaly, it triggers Abloom once, dealing 100% Attribute Anomaly DMG of the corresponding attribute.\nAfter using this skill, it can be immediately followed up with the 5th hit of Basic Attack: Sweeping Edge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Glaciating Impalement",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nLaunches a series of forward attacks, dealing massive Ice DMG.\nWhen the heavy attack hits an enemy afflicted with Ice Anomaly, Ether Anomaly, Electric Anomaly, Fire Anomaly, Physical Anomaly, or Wind Anomaly, it triggers Abloom once, dealing 250% Attribute Anomaly DMG of the corresponding attribute.\nAfter using this skill, it can be immediately followed up with the 5th hit of Basic Attack: Sweeping Edge.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Thief of Flames",
+                "type": "Core Passive",
+                "desc": "If Promeia's initial Anomaly Mastery exceeds 150, each additional point increases her Anomaly Proficiency by 1.5 and increases the whole squad's Abloom DMG by 0.35%.\nPromeia gains a set amount of Corrosive Chill when her attacks hit enemies. When squad members trigger Freeze/Disorder, when the enemy is inflicted with Vortex, or when Promeia triggers EX Special Attack: Execution - Shrouded in Shadow, she gains an additional 5/5/5/10 Corrosive Chill, up to a maximum of 100 Corrosive Chill.\nWhen a squad member triggers and hits an enemy with Abloom, Promeia gains an additional 15 Corrosive Chill.\nWhen Corrosive Chill reaches at least 50, 50 Corrosive Chill is consumed and converted into 1 point of Trial by Cold, up to a maximum of 2 points of Trial by Cold.\nUpon entering the battlefield, Promeia gains 2 points of Trial by Cold.\nWhen the finishing move of EX Special Attack: Execution - Merciless Judgment hits an enemy afflicted with Ice Anomaly, Ether Anomaly, Electric Anomaly, Fire Anomaly, Physical Anomaly, or Wind Anomaly, it triggers Abloom once, dealing 635% Attribute Anomaly DMG of the corresponding attribute. The skill consumes 1 Trial by Cold upon activation.\nWhen Promeia triggers and hits an enemy with Abloom, she gains an additional 100 Decibels. This effect can trigger once every 0.5s. Using Ultimate: Glaciating Impalement grants Frost Oath. With Frost Oath, after using EX Special Attack: Execution - Merciless Judgment, Chain Attack: Hanging Judgment, or Ultimate: Glaciating Impalement, press or hold to consume Frost Oath and immediately follow up with Special Attack: Execution - Layered Frost. Only 1 stack of Frost Oath can be held."
+              },
+              {
+                "name": "Additional Ability: Vessel of Ice",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Anomaly or Support character:\nWhen using an EX Special Attack, Promeia's Ice Anomaly Buildup Rate increases by 30% for 30s. Repeated triggers refresh the duration.\nWhen any squad member applies the Frostbite effect to an enemy, its duration is increased by 3s.\nWhen Promeia's EX Special Attack hits an enemy, it inflicts Presumption of Guilt. When any squad member triggers Abloom on a target with Presumption of Guilt, it ignores 40% of the target's DEF. Presumption of Guilt lasts 30s, and repeated triggers refresh the duration."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Innocent Idealism",
+                "type": "Mindscape 1",
+                "desc": "When Promeia uses Ultimate: Glaciating Impalement, she gains an additional effect: if Trial by Cold points are not at maximum, gain 1 point of Trial by Cold. This effect can trigger once after using Ultimate: Glaciating Impalement. When any squad member triggers Abloom on enemies with Presumption of Guilt, it ignores an additional 20% DEF."
+              },
+              {
+                "name": "Faltering Conviction",
+                "type": "Mindscape 2",
+                "desc": "Promeia's Anomaly Proficiency increases by 40. The multiplier of Abloom triggered by consuming Trial by Cold increases by 120%."
+              },
+              {
+                "name": "Cruel Moonlight",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Ruthless Accusation",
+                "type": "Mindscape 4",
+                "desc": "When Promeia triggers Abloom, she restores 5 Corrosive Chill. This effect can trigger once every 0.5s."
+              },
+              {
+                "name": "The Dying Moth",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "To Be Continued",
+                "type": "Mindscape 6",
+                "desc": "When Promeia consumes Trial by Cold to trigger Abloom, it triggers an additional special Abloom effect, dealing Attribute Anomaly DMG of the corresponding attribute at a fixed 200% multiplier. 5 Corrosive Chill and 100 Decibels are also restored. This effect can trigger at most once every 15s. In addition, Attribute Anomaly DMG and Disorder DMG dealt by Promeia ignore 15% of enemies' All-Attribute RES."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -43976,6 +47700,138 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Penultimate",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunch up to four strikes forward, dealing Physical DMG and Electric DMG.\nDuring the 3rd hit, repeatedly press to continue the attack, continuously striking the enemy. Using Dodge during this period will not interrupt Qingyi's Basic Attack combo count.\nDuring the 3rd hit, stop pressing to interrupt the continuous attack, transitioning automatically to the 4th hit. If the continuous attack lasts for a certain time, the 4th hit will be enhanced.\nAnti-Interrupt Level is increased and DMG received is reduced by 40% during the 3rd and 4th hit."
+              },
+              {
+                "name": "Basic Attack: Enchanted Blossoms",
+                "type": "Basic",
+                "desc": "Hold to activate:\nLaunches a forward rush attack, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Flash Connect",
+                "type": "Basic",
+                "desc": "When Qingyi deals Electric DMG with a skill, she accumulates Flash Connect Voltage. When Flash Connect Voltage reaches 75%, she will enter the Flash Connect state. When using her Basic Attack: Enchanted Moonlit Blossoms, Qingyi will consume all Flash Connect Voltage and exit the Flash Connect state. For every 1% of Flash Connect Voltage consumed over 75%, her Damage and Daze inflicted by this skill will be increased by 1%/0.5%. Basic Attack: Enchanted Moonlit Blossoms itself does not accumulate Flash Connect Voltage."
+              },
+              {
+                "name": "Basic Attack: Enchanted Moonlit Blossoms",
+                "type": "Basic",
+                "desc": "During the Flash Connect state, hold to activate:\nLaunch five consecutive forward rush attacks, then execute a Finishing Move that inflicts massive Electric DMG. Release during the move to trigger the Finishing Move early.\nActivate the Finishing Move just before the character is attacked to trigger Perfect Dodge.\nAnti-Interrupt level is increased and DMG received is reduced by 40% during the rush attack. Qingyi is invulnerable during the Finishing Move."
+              },
+              {
+                "name": "Dodge: Swan Song",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Breach",
+                "type": "Dodge",
+                "desc": "Press during a Dodge to activate:\nRush forward and then launch an upward attack, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Lingering Sentiments",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nLeap into the air and then perform a downward attack, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Wind Through the Pines",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nLeap into the air and perform a downward attack, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Graceful Embellishment",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Song of the Clear River",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nRush forward with an attack and inject electrical energy into the ground, then pull back to trigger an explosion, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Sunlit Glory",
+                "type": "Special",
+                "desc": "Press to activate:\nQuickly swings upward, followed by a downward smash, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Moonlit Begonia",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nQuickly swings upward and leaps into the air, turning around to launch a series of attacks, then follows up with a powerful downward smash, dealing massive Electric DMG.\nHold to consume additional energy to increase the number of hits of the series of attacks.\nCharacter is invulnerable while using this skill.\nAfter executing the move, you can immediately follow up with the 3rd hit of a Basic Attack."
+              },
+              {
+                "name": "Chain Attack: Tranquil Serenade",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunch a series of powerful strikes over a large area in front, dealing massive Electric DMG\nWhen this attack hits an enemy, the skill's DMG increases by 3% for every stack of Subjugation in Core Passive: Eternal Seasons the target has.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Eight Sounds of Ganzhou",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nLaunch a series of powerful strikes over a large area in front, followed by a Finishing Move, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Eternal Seasons",
+                "type": "Core Passive",
+                "desc": "When Qingyi lands a Finishing Move on an enemy with her Basic Attack: Enchanted Moonlit Blossoms, it applies 5 stacks of Subjugation to the enemy, stacking up to 20 times. Each stack of Subjugation increases the target's Stun DMG Multiplier by 4%. For each rush attack performed during Basic Attack: Enchanted Moonlit Blossoms, the Finishing Move will apply an extra stack of Subjugation. If Perfect Dodge is triggered when using the Finishing Move, it directly applies {CAL:5+5,1,2} stacks of Subjugation. When applying Subjugation to normal and elite enemies, the target receives double the stacks. When the target recovers from being Stunned, the corresponding stacks of Subjugation are reset."
+              },
+              {
+                "name": "Additional Ability: Three Verses of Farewell at Yang Pass",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Attack character or shares the same Faction:\nBasic Attacks deal 20% increased Daze. If Qingyi's Impact is greater than 120, each point over increases her ATK by 6, up to a maximum of 600."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Insulation Breakdown",
+                "type": "Mindscape 1",
+                "desc": "When Qingyi enters combat, Flash Connect Voltage is instantly restored to its maximum, and the accumulation rate is increased by 30%. When using her Basic Attack: Enchanted Moonlit Blossoms, if Flash Connect Voltage is at its maximum, the attack will reduce the DEF of the enemy it hits by 15%, and Qingyi's CRIT Rate against that enemy will increase by 20% for 15s."
+              },
+              {
+                "name": "Minimal Effort, Maximum Impact",
+                "type": "Mindscape 2",
+                "desc": "The Stun DMG Multiplier increase provided by each stack of Subjugation in Core Passive: Eternal Seasons increases to 135% of its original value. When Qingyi's attack hits an enemy and the stacks of Subjugation she applies reaches its maximum stacks, her Daze dealt to the target increases by 15%."
+              },
+              {
+                "name": "Drink Hot Water",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Stable Arc Barrier",
+                "type": "Mindscape 4",
+                "desc": "Upon entering or exiting Flash Connect state, gain a shield equal to 10% of Qingyi's Max HP. If a previous shield is still active when the shield effect refreshes, Qingyi generates 5 Energy. This Energy Generation effect can be triggered once every 10s."
+              },
+              {
+                "name": "Youthful Spirit",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Eight Meridians",
+                "type": "Mindscape 6",
+                "desc": "The Interrupt Level of Basic Attack: Enchanted Moonlit Blossoms is greatly increased, and the CRIT DMG is increased by an additional 100%. When Qingyi hits an enemy with her Basic Attack: Enchanted Moonlit Blossoms, the target's Attribute DMG RES is reduced by 20% for 15s."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -45497,6 +49353,128 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Whack the Dimwit",
+                "type": "Basic",
+                "desc": "Press to activate:\nOrder Drusilla and Anastella to attack up to 4 times, dealing Physical DMG and Electric DMG.\nPerforming other actions with Rina during Drusilla and Anastella's attacks will not interrupt Rina's Basic Attack combo count."
+              },
+              {
+                "name": "Basic Attack: Shoo the Fool",
+                "type": "Basic",
+                "desc": "Hold or to activate:\nCalls back Drusilla and Anastella to swing them around for a ranged attack, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Dodge: Dress Adjustment",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Sudden Surprise",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nOrder Drusilla and Anastella to execute a piercing attack, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Bangboo Callback",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nOrder Drusilla and Anastella to spin forward and trigger an explosion, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Duple Meter Allemande",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nOrder Drusilla and Anastella to spin forward and trigger an explosion, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Evasive Assist: Triple Meter Courante",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nDodges the enemy's attack and activates Vital View.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Quadruple Meter Gavotte",
+                "type": "Assist",
+                "desc": "Press after an Evasive Assist to activate:\nOrder Drusilla and Anastella to push forward and generate an electrical vortex, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Beat the Blockhead",
+                "type": "Special",
+                "desc": "Press to activate:\nOrder Anastella to execute a downward smash, dealing Electric DMG\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Dimwit Disappearing Trick",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nOrder Drusilla and Anastella to execute multiple downward smashes, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\nA Quick Assist is triggered when this skill hits an enemy."
+              },
+              {
+                "name": "Chain Attack: Code of Conduct",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nOrder Drusilla and Anastella to push forward and generate a ball-shaped electrical field that deals massive Electric DMG.\nDuring this skill, Drusilla and Anastella are unable to perform Basic Attacks, Dash Attacks, Special Attacks, and EX Special Attacks, but can be recalled to Rina's side through Basic Attack: Shoo the Fool.\nCharacter is invulnerable while using this skill.\nA Quick Assist is triggered when this skill hits an enemy."
+              },
+              {
+                "name": "Ultimate: The Queen's Attendants",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nOrder Drusilla and Anastella to spin forward, dealing massive Electric DMG.\nDuring this skill, Drusilla and Anastella are unable to respond to Basic Attack, Dash Attack, Special Attack, or EX Special Attack commands, but can be recalled to Rina's side through Basic Attack: Shoo the Fool.\nUpon activating this skill, the other squad members recover 10 Energy. The next character to switch in recovers an additional 20 Energy.\nCharacter is invulnerable while using this skill.\nA Quick Assist is triggered when this skill hits an enemy."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Mini Destruction Partner",
+                "type": "Core Passive",
+                "desc": "When ordering Drusilla or Anastella to attack, other squad members' PEN Ratio increases together with Rina's, by 25% of Rina's PEN Ratio + 12%, up to 30%. The effect ends when both Drusilla and Anastella return to Rina."
+              },
+              {
+                "name": "Additional Ability: Banquet of Perfection",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nIncreases the duration of Shock inflicted on enemies by any character by 3s. When Shocked enemies are on the field, all squad members' Electric DMG increases by 10%."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Dance Duet",
+                "type": "Mindscape 1",
+                "desc": "After being sent out to launch an attack, Drusilla and Anastella stay in place for an additional 5.5s before returning to Rina.\nThe effect gained from Core Passive: Mini Destruction Partner by characters within 10m is increased to 130% of the original value."
+              },
+              {
+                "name": "Master's Paragon",
+                "type": "Mindscape 2",
+                "desc": "Upon becoming the active character in combat, Rina's DMG increases by 15% for 12s. This effect can trigger once every 18s."
+              },
+              {
+                "name": "Head Maid's Specialty",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Needle and Hammer",
+                "type": "Mindscape 4",
+                "desc": "Rina's Energy Regen increases by 0.5/s when both Drusilla and Anastella are deployed. The effect ends when Drusilla or Anastella returns to Rina."
+              },
+              {
+                "name": "Head Maid Perfectionist",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Stormy Night's Fright",
+                "type": "Mindscape 6",
+                "desc": "When an EX Special Attack, Chain Attack or Ultimate hits an enemy, the entire squad's Electric DMG is increased by 15% for 8s."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -47018,6 +50996,138 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Chrysanthemum Wheel Dance",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerform up to 4 attacks forward, dealing Physical DMG for the first two hits and Electric DMG for the third and fourth hits.\nWhen attacked between the retreat of the 3rd hit to before the 4th hit, triggers an automatic dodge."
+              },
+              {
+                "name": "Basic Attack: Falling Petals - Slaughter",
+                "type": "Basic",
+                "desc": "After the 4th hit of a Basic Attack, Dodge Counter, Quick Assist, or Assist Follow-Up, hold or press to activate:\nSummon the mech to perform a charged punch attack, dealing massive Electric DMG.\nWhen Steel Charge reaches 120, gain one chance to quickly activate Basic Attack: Falling Petals - Slaughter by holding . This effect expires when Steel Charge is less than 120 or after using the method above to activate Basic Attack: Falling Petals - Slaughter once.\nDoes not accumulate Steel Charge on hit.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Basic Attack: Falling Petals - Downfall",
+                "type": "Basic",
+                "desc": "Seed has Steel Charge, which she can accumulate by hitting enemies with her skills.\nSteel Charge has a maximum value of 150, and an initial value of 60. Upon reaching 120 Steel Charge and triggering Basic Attack: Falling Petals - Slaughter or Ultimate: Clockwork Garden - Bloom!, press or hold to consume 60 Steel Charge and unleash Basic Attack: Falling Petals - Downfall First Form, then automatically consume 60 Steel Charge to follow up with Basic Attack: Falling Petals - Downfall Second Form.\nPilots the mech to fire sweeping shots and perform a jumping smash, dealing massive Electric DMG.\nDoes not accumulate Steel Charge on hit.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dodge: Running on Petals",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Magnetic Wheel Dance",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nThrow steel wheels forward, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Blossom Burst",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nUnleash a barrage of lasers at enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Barrage of Raining Flowers",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nUnleash a barrage of lasers at enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Sprouting Barrier",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Crimson Core Burst",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleash continuous floating turret attacks at enemies ahead, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Withered in Frost",
+                "type": "Special",
+                "desc": "Press to activate:\nThrow a steel wheel that traces a curved path, dealing Electric DMG."
+              },
+              {
+                "name": "EX Special Attack: Raining Iron Petals",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nEnter flight mode, where Seed can move in four directions, and unleash a continuous barrage of missiles, dealing massive Electric DMG.\nHold to extend the barrage duration while continuously consuming Energy.\nDuring flight, release to trigger EX Special Attack: Raining Iron Petals - Away.\nUpon consuming 60 Energy points in one flight, automatically trigger Basic Attack: Falling Petals - Slaughter.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Raining Iron Petals - Away",
+                "type": "Special",
+                "desc": "During EX Special Attack: Raining Iron Petals, release to activate:\nUnleash rapid cannon fire, dealing Electric DMG.\nDoes not accumulate Steel Charge on hit.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Tempest of Frosty Petals",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nSummons her mech for protection, then launches cannon shots and a barrage of missiles, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Clockwork Garden - Bloom!",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nSeed will pilot the mech personally, raining down missiles and a meteor shower of rockets, then performing a jumping smash, dealing massive Electric DMG.\nAfter using this skill, accumulate 60 Steel Charge.\nDoes not accumulate Steel Charge on hit.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Flower Chain Protocol",
+                "type": "Core Passive",
+                "desc": "The Attack teammate with the highest initial ATK is considered Seed's Vanguard.\nWhen the Vanguard unleashes an EX Special Attack, Seed gains Onslaught status, increasing Seed's ATK by 1,000 and CRIT DMG by 30%. When Seed unleashes an EX Special Attack, the Vanguard gains Direct Strike status, increasing the Vanguard's ATK by 1,000 and CRIT DMG by 30%.\nWhen Direct Strike and Onslaught are both active, Seed and the Vanguard simultaneously gain Besiege status, increasing DMG dealt by 25%.\nOnslaught, Direct Strike, and Besiege buffs can all take effect when the character is the current active character. When switching to inactive, the buffs remain until the character goes off-field or 3s after the switch. When the character returns to being the active character, the buffs re-activate.\nUpon entering the battlefield with a Vanguard, Seed immediately gains Onslaught status and Besiege status, while the Vanguard immediately gains Direct Strike status and Besiege status.\nDirect Strike and Onslaught status last for 40s, and repeated triggers refresh the duration.\nWhen the Vanguard consumes Energy as the active character or when Seed consumes Energy, for every 1 point of Energy consumed, Seed recovers 0.5 points of Steel Charge."
+              },
+              {
+                "name": "Additional Ability: Surprise Strike",
+                "type": "Additional Ability",
+                "desc": "When another Attack Character is in your squad:\nWhen Seed deals DMG as the active character, restore 2 Energy to the Vanguard. This effect can trigger once every 1s.\nSeed's Basic Attack: Falling Petals - Slaughter, Basic Attack: Falling Petals - Downfall, and Ultimate: Clockwork Garden - Bloom! deal 30% increased DMG and ignore 25% of enemy Electric RES."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "\"Hibernation Period\"",
+                "type": "Mindscape 1",
+                "desc": "When Seed's Steel Charge reaches 100, Basic Attack: Falling Petals - Downfall can be triggered, and the total Steel Charge consumed is reduced to 100. The amount of Steel Charge required to gain one chance to quickly release Basic Attack: Falling Petals - Slaughter is reduced to 100. Accumulate an additional 40/20 Steel Charge when entering the battlefield/using Ultimate. Increases Basic Attack: Falling Petals - Downfall CRIT DMG by 30%."
+              },
+              {
+                "name": "\"Light Absorption Technique\"",
+                "type": "Mindscape 2",
+                "desc": "When Besiege is active for an Agent, that Agent's DMG ignores 20% of DEF. When activating EX Special Attack: Raining Iron Petals, after consuming a total of 60 Energy, Seed can continue consuming Energy to extend the duration of the skill until the button is released or a total of 120 Energy is consumed. For every 5 Energy consumed by EX Special Attack: Raining Iron Petals, the following Basic Attack: Falling Petals - Slaughter's DMG increases by 5%."
+              },
+              {
+                "name": "\"A Story of Sprouting\"",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "\"Fragrant Tune\"",
+                "type": "Mindscape 4",
+                "desc": "When Seed's Besiege status buff is active, her Decibel Generation Rate increases by 10%, and Ultimate DMG increases by 20%."
+              },
+              {
+                "name": "\"Time to Bloom\"",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "\"Theory of the Heart\"",
+                "type": "Mindscape 6",
+                "desc": "Seed's CRIT DMG increases by 50%.\nWhen using Basic Attack: Falling Petals - Slaughter, fires 3 additional laser beams, each dealing 165% of ATK as DMG. This effect can trigger once every 3s."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -48539,6 +52649,158 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Warmup Sparks",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 4 slashes, dealing Physical DMG."
+              },
+              {
+                "name": "Basic Attack: Fire Suppression",
+                "type": "Basic",
+                "desc": "Press at the right moment to activate:\nUnleashes a set of more powerful slashes, dealing Fire DMG."
+              },
+              {
+                "name": "Basic Attack: Fire Suppression",
+                "type": "Basic",
+                "desc": "Press at the right moment to activate:\nLaunches a stronger slash, dealing Fire DMG.\nWhen Fire Suppression is guaranteed to trigger, pressing when the attack is about to end speeds up the transition into the next hit of Basic Attack.\nWhen Fire Suppression is guaranteed to trigger, the 5th hit of the Basic Attack string unlocks. Activating a Chain Attack or Ultimate powers up her next Basic Attack 5th hit. A strengthened Basic Attack 5th hit will consume all remaining guaranteed Fire Suppression activations to deal additional Fire DMG per activation spent.\nAfter triggering a Perfect Dodge, the current Basic Attack hit count is retained for 5s. After performing a Dodge Counter, pressing resumes the Basic Attack from the retained hit count."
+              },
+              {
+                "name": "Basic Attack: Fire Assault",
+                "type": "Basic",
+                "desc": "Hold to activate: Basic Attack: Fire Charge\nRelease while Basic Attack: Fire Charge is activated to launch Basic Attack: Fire Assault.\nIf attacked by an enemy during Basic Attack: Fire Assault or the moment Basic Attack: Fire Charge is activated, a Block Counter can be triggered, negating that instance of DMG and granting 3 guaranteed triggers of Fire Suppression. Press to follow up with the 3rd hit of a Basic Attack, up to 8 times.\nWhile charging, tilting the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} launches Basic Attack: Blazing Rush."
+              },
+              {
+                "name": "Dodge: Tempered Fire",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Blazing Fire",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dash Attack: Fire Suppression",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Fire DMG."
+              },
+              {
+                "name": "Dodge Counter: Backdraft",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nExecutes a powerful slash against enemies in front, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Covering Fire",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nSlashes enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Hold the Line",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Reignition",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nCharge and cross slash enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Raging Fire",
+                "type": "Special",
+                "desc": "Press to activate:\nSlashes enemies nearby, dealing Fire DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Fervent Fire",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nSlashes enemies nearby, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks will trigger Fire Suppression for up to 30s or 8 times."
+              },
+              {
+                "name": "EX Special Attack: Fervent Fire",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nExecutes a powerful slash against enemies nearby, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks are guaranteed to trigger Fire Suppression for up to 30s or 8 times.\nAfter using this skill, press to immediately follow up with the 4th hit of a Basic Attack.\nSoldier 11 enters the Alert Stance after using this skill. While in Alert Stance, if hit during a Basic Attack, triggers Basic Attack: Fire Charge to block the attack, followed by Basic Attack: Fire Assault. After Basic Attack: Fire Assault is performed, press to resume Basic Attack from the retained Basic Attack hit count."
+              },
+              {
+                "name": "Chain Attack: Uplifting Flame",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful upward slash at enemies in a small area, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks trigger Fire Suppression for the next 30s, up to 8 times."
+              },
+              {
+                "name": "Chain Attack: Uplifting Flame",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nSlashes enemies in a small area ahead, then executes a powerful upwards slash, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks are guaranteed to trigger Fire Suppression for up to 30s or 8 times.\nAfter using this skill, press to immediately follow up with the 4th hit of a Basic Attack.\nSoldier 11 enters the Alert Stance after using this skill. While in Alert Stance, if hit during a Basic Attack, triggers Basic Attack: Fire Charge to block the attack, followed by Basic Attack: Fire Assault. After Basic Attack: Fire Assault is performed, press to resume Basic Attack from the retained Basic Attack hit count."
+              },
+              {
+                "name": "Ultimate: Bellowing Flame",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful upward slash at enemies in a small area, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks trigger Fire Suppression for the next 30s, up to 8 times."
+              },
+              {
+                "name": "Ultimate: Bellowing Flame",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nSlashes enemies nearby, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Soldier 11's Basic Attacks and Dash Attacks are guaranteed to trigger Fire Suppression for up to 30s or 8 times.\nAfter using this skill, press to immediately follow up with the 4th hit of a Basic Attack.\nSoldier 11 enters the Alert Stance after using this skill. While in Alert Stance, if hit during a Basic Attack, triggers Basic Attack: Fire Charge to block the attack, followed by Basic Attack: Fire Assault. After Basic Attack: Fire Assault is performed, press to resume Basic Attack from the retained Basic Attack hit count."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Heatwave",
+                "type": "Core Passive",
+                "desc": "When triggering Fire Suppression during a Basic Attack or Dash Attack, increase that attack's DMG by 70%."
+              },
+              {
+                "name": "Additional Ability: Fields of Fire",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nSoldier 11 deals 10% more Fire DMG. When attacking Stunned enemies, this effect is further enhanced by an additional 22.5%."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Rapid Heat",
+                "type": "Mindscape 1",
+                "desc": "When Soldier 11 becomes the active character in combat, if her Energy is less than 40, her Energy is recovered to 80. This effect can trigger once every 50s."
+              },
+              {
+                "name": "Scorching Convergence",
+                "type": "Mindscape 2",
+                "desc": "When triggering Fire Suppression, Basic Attack, Dash Attack, and Dodge Counter DMG increases by 3%, up to 12 stacks, lasting 15s, with the duration of each stack calculated separately."
+              },
+              {
+                "name": "Elite Soldier",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Indulgent Blaze",
+                "type": "Mindscape 4",
+                "desc": "If Fire Suppression is triggered during the 1st, 2nd, or 3rd hit of Soldier 11's Basic Attack or a Dash Attack, Anti-Interrupt Level increases and DMG received is reduced by 18% during skill activation.\nIf Fire Suppression is triggered during the 4th hit of her Basic Attack, she becomes invulnerable during skill activation."
+              },
+              {
+                "name": "Perfect Soldier",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Scorching Flow",
+                "type": "Mindscape 6",
+                "desc": "When Soldier 11 uses her EX Special Attack, Chain Attack, or Ultimate, she gains 8 stacks of Charge (max 8 stacks).\nWhen Fire Suppression is triggered, 1 stack of Charge is consumed, causing the current move to ignore 25% of the target's Fire RES."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -50060,6 +54322,133 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Mischief Meteor Hammer",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to four attacks ahead, dealing Physical DMG."
+              },
+              {
+                "name": "Basic Attack: Naughty Cat Spotted",
+                "type": "Basic",
+                "desc": "During combat, when Sunna is off-field and there are no enemies with Cat's Gaze, Bubblegum consumes 1 Claw Sharpener to automatically launch an attack, dealing Physical DMG.\nWhen any squad member activates Ether Veil, Sunna gains 2 Claw Sharpeners.\nWhen any squad member applies an Attribute Anomaly to an enemy, Sunna gains 1 Claw Sharpener. This effect can trigger at most once every 10s.\nBubblegum inherits Sunna's initial ATK. Sunna can hold up to 6 Claw Sharpeners."
+              },
+              {
+                "name": "Dodge: Can't Hit Me",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Skyward Hammer",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nLaunches enemies in front into the air, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Delusion Strikeout",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nStrikes enemies in front with a series of hammer blows, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Sonic Beatdown",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nUnleashes a series of hammer attacks against enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Stage Fright",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Jump Training",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nContinuously jumps forward on the inflatable hammer, dealing massive Physical DMG to enemies in front.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Star Shooter",
+                "type": "Special",
+                "desc": "Press to activate:\nShoots Bubblegum to attack enemies in front using an air gun, dealing Physical DMG. After activation, Bubblegum enters combat."
+              },
+              {
+                "name": "EX Special Attack: Bubblegum Barrage",
+                "type": "Special",
+                "desc": "With enough energy, press to activate:\nHurls Bubblegum at the target, dealing Physical DMG. After activation, Bubblegum enters combat.\nUpon activating this skill, all Agents in the squad gain Angelic Chord-ination for 40s.\nLanding a heavy attack with this skill triggers a Quick Assist.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Special Photography Technique",
+                "type": "Special",
+                "desc": "While in the Angelic Chord-ination state, press to activate, or during EX Special Attack: Bubblegum Barrage, keep holding to quickly activate:\nAttacks the target enemy in coordination with Bubblegum, dealing Physical DMG. After activation, Bubblegum enters combat.\nBefore the heavy attack is executed, activates Ether Veil: Delusion Reprise. While Ether Veil: Delusion Reprise is active, all squad members gain an additional 50 ATK for 40s. Re-activating Ether Veil: Delusion Reprise will cancel the existing instance of Ether Veil: Delusion Reprise.\nLanding a heavy attack with this skill triggers a Quick Assist.\nCharacter is invulnerable while using this skill. EX Special Attack: Special Photography Technique can be used once each time Sunna enters the Angelic Chord-ination state."
+              },
+              {
+                "name": "Chain Attack: Don't Mess With the Cat",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nCharges forward on Bubblegum, dealing massive Physical DMG.\nLanding a heavy attack with this skill triggers a Quick Assist.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Smash It All!",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nAfter a series of hammer attacks, launches Bubblegum to cause an explosion, dealing massive Physical DMG to enemies in an area.\nOn activating the heavy attack, gains 6 Claw Sharpeners.\nUpon landing the downward attack from above on an enemy, triggers a Quick Assist and restores {CAL:-50+AvatarSkillLevel(3)*250,1,2} HP to all squad members.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Cuteness Is Justice",
+                "type": "Core Passive",
+                "desc": "Characters in the Angelic Chord-ination state gain increased ATK, equal to 30% of Sunna's initial ATK, up to a maximum of 1,050 ATK. When Sunna's initial ATK reaches 3,500, the ATK bonus granted to all squad members reaches its maximum.\nWhen attacks from Basic Attack: Naughty Cat Spotted, EX Special Attack: Bubblegum Barrage, EX Special Attack: Special Photography Technique, Chain Attack: Don't Mess With the Cat, or Ultimate: Smash It All! hit an enemy, apply Cat's Gaze to the target for 12s. While Sunna is on-field, the duration of Cat's Gaze is continuously refreshed. Some normal enemies affected by Cat's Gaze show reduced aggression toward Sunna.\nWhen Attack or Anomaly characters in the squad continuously land attacks on enemies affected by Cat's Gaze, Cat's Gaze is triggered and removed:\nWhen triggered by an Attack character, deals the Agent's Attribute DMG equal to 300% of ATK to enemies in an area.\nWhen triggered by an Anomaly character, deals the Agent's Attribute DMG equal to 480% of ATK to enemies in an area. This DMG is guaranteed to CRIT, and the CRIT DMG is increased by 150%.\nDMG dealt by Cat's Gaze is treated as DMG dealt by the triggering Agent.\nWhen multiple enemies on the field have Cat's Gaze, only the primary attack target's Cat's Gaze is triggered. Upon triggering, Cat's Gaze is removed from all enemies on the field.\nWhen an enemy is Stunned, the number of attacks required to trigger Cat's Gaze is significantly reduced."
+              },
+              {
+                "name": "Additional Ability: Daydreamer's Counterpoint",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Attack character or shares the same Faction:\nWhen characters inside Ether Veil: Delusion Reprise land attacks on enemies, the target's Stun DMG Multiplier increases by 30% for 40s.\nWhen Sunna enters the battlefield, she gains 15 Energy. In Investigation Zone mode, the effect can trigger once every 180s."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "\"Loneliness Corruption Symptoms\"",
+                "type": "Mindscape 1",
+                "desc": "When Sunna enters the battlefield, she gains 15 Energy. In Investigation Zone Mode, this effect can trigger once every 180s. When Cat's Gaze triggers and damages an enemy, the target's DEF is reduced by 7% for 40s, stacking up to 3 times. The duration of each stack is calculated separately."
+              },
+              {
+                "name": "\"Feline Go-With-the-Flow\"",
+                "type": "Mindscape 2",
+                "desc": "While Sunna is within any Ether Veil, all squad members gain 10% ATK and she obtains 1 Claw Sharpener every 10s. The number of attacks required to trigger Cat's Gaze is reduced, and the DMG Multiplier on trigger is increased:\nWhen triggered by an Attack character, the DMG Multiplier is increased by 200%.\nWhen triggered by an Anomaly character, the DMG Multiplier is increased by 300%."
+              },
+              {
+                "name": "\"Transformation Apple\"",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "\"Delusion Investigation Team\"",
+                "type": "Mindscape 4",
+                "desc": "When Sunna uses her Ultimate, all squad members deal 18% increased DMG for 60s."
+              },
+              {
+                "name": "\"Galaxy Tramway\"",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "\"Hollow Big Bang\"",
+                "type": "Mindscape 6",
+                "desc": "When Sunna uses an EX Special Attack, she enters the Focused Creation! state for 8s.\nWhile in the Focused Creation! state, all attacks Sunna performs are guaranteed to CRIT, and her CRIT DMG increases by 0.03% of her initial ATK, up to a maximum of 105%.\nWhile in the Focused Creation! state, Sunna's Anti-Interrupt Level is increased, and DMG taken is reduced by 40%.\nWhile in the Focused Creation! state, Sunna can trigger Cat's Gaze, its DMG being calculated using Attack Agent rules. If Cat's Gaze is triggered while Sunna has a Claw Sharpener, the Claw Sharpener is immediately consumed, and Cat's Gaze is reapplied to the enemy.\nWhile in the Focused Creation! state, DMG dealt when any squad member triggers Cat's Gaze increases by 50%."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -51577,6 +55966,138 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Cold-Bore Shot",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 4 shots ahead. The first 3 hits deal Physical DMG, the 4th hit deals Electric DMG."
+              },
+              {
+                "name": "Basic Attack: Silenced Shot",
+                "type": "Basic",
+                "desc": "Hold to activate:\nTrigger enters the Sniper Stance and fires forward continuously, dealing Electric DMG.\nWhile continually firing, when attacked by an enemy, Trigger will automatically evade. This effect can trigger once every 8s.\nWhile continually firing, you can drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to adjust her position to the left/right/back.\nAutomatically evading attacks or adjusting position when about to be hit will trigger a Perfect Dodge, followed by an automatic charged counter.\nAfter releasing , Trigger will step back, ready her weapon and unleash a Finishing Move, then exit Sniper Stance.\nCharacter is invulnerable during the charged counter and Finishing Move.\nWhen the continuous firing or the charged counter hits an enemy, Trigger gains 25 Purge, up to a maximum of 100 Purge.\nWhen the Finishing Move hits an enemy, it triggers the Quick Assist of the previous character in the squad. A Quick Assist can only be triggered through this method once every 25s."
+              },
+              {
+                "name": "Basic Attack: Harmonizing Shot",
+                "type": "Basic",
+                "desc": "When Trigger has Purge, use another active character in the squad to hit an enemy with a Basic Attack, Dodge Counter, Special Attack, Dash Attack or Quick Assist to activate:\nWhile encircling the enemy, rapidly fire two shots at the enemy, dealing Electric DMG.\nUpon activating this skill, consume 3 Purge.\nCharacter is invulnerable while using this skill.\nBasic Attack: Harmonizing Shot is an Aftershock attack.\nThe squad can trigger Basic Attack: Harmonizing Shot once every 3s."
+              },
+              {
+                "name": "Basic Attack: Harmonizing Shot - Tartarus",
+                "type": "Basic",
+                "desc": "When Trigger has Purge, use another active character in the squad to hit an enemy with a heavy attack from an EX Special Attack, Assist Follow-Up, or Ultimate to activate:\nWhile encircling the enemy, rapidly fires three shots at the enemy, followed by a Finishing Move, dealing Electric DMG.\nUpon activating this skill, consume 5 Purge.\nCharacter is invulnerable while using this skill.\nBasic Attack: Harmonizing Shot - Tartarus is an Aftershock attack.\nThe same skill type can trigger Basic Attack: Harmonizing Shot - Tartarus up to 2 times within 20s for the entire squad.\nDuring Basic Attack: Harmonizing Shot, Basic Attack: Harmonizing Shot - Tartarus will immediately activate instead if triggered."
+              },
+              {
+                "name": "Dodge: Phantom Concealment",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Vengeful Specter",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nRapidly lift the gun and fire, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Condemned Soul",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nRotate and fire a quick shot at enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Cold-Bore Cover Fire",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nRotate and fire a quick shot at enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Delaying Demise",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Piercing Thunder",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleash a series of slashes at enemies ahead, followed by a powerful charged shot after landing, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Spectral Flash",
+                "type": "Special",
+                "desc": "Press to activate:\nLunge forward with a slash, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Flash Burial",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nLunge forward with a slash, then leap up with a powerful shot to the ground, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\nWhen this skill hits an enemy, it triggers the Quick Assist of the previous character in the squad.\nWhen this skill hits an enemy, Trigger enters Coordinated Support. While in this state, when another active character in the squad hits an enemy with any attack, it triggers a Basic Attack: Harmonizing Shot without consuming Purge and with no cooldown restrictions. This state lasts 8s and the effect can trigger up to 4 times. Repeatedly entering Coordinated Support extends the duration and grants additional triggers, lasting a maximum of 20s and triggering up to a maximum of 10 times."
+              },
+              {
+                "name": "Chain Attack: Stygian Guide",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes continuous powerful shots forward, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Underworld Requiem",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nDeliver a powerful shot at enemies in a large area ahead, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\nWhen the skill hits an enemy, it triggers the Quick Assist of the previous character in the squad.\nWhen the skill hits an enemy, Trigger enters Coordinated Support. While in this state, when another active character in the squad hits an enemy with any attack, it triggers a Basic Attack: Harmonizing Shot without consuming Purge and with no cooldown restrictions. This state lasts 12s and the effect can trigger up to 6 times. Repeatedly entering Coordinated Support extends the duration and grants additional triggers, lasting a maximum of 20s and triggering up to a maximum of 10 times."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Soul-Searching Gaze",
+                "type": "Core Passive",
+                "desc": "When Trigger's Aftershock hits an enemy, the target's Stun DMG Multiplier increases by 35% for 5s. This Stun DMG Multiplier increase will apply even if the target isn't stunned."
+              },
+              {
+                "name": "Additional Ability: Silver Lantern's Gaze",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Attack character or shares the same attribute:\nWhen Trigger's CRIT Rate exceeds 40%, each 1% CRIT Rate above this threshold increases her Daze dealt by Aftershocks by 1.5%, up to a maximum increase of 75%."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Sharpened Senses",
+                "type": "Mindscape 1",
+                "desc": "The Stun DMG Multiplier applied through Core Passive: Soul-Searching Gaze is increased by an additional 20%. When activating Basic Attack: Harmonizing Shot, the cooldown is reduced to 2s. Purge gained upon hitting an enemy with the continuous fire or charged counter in Sniper Stance increases by 25%. Maximum Purge increases to 125."
+              },
+              {
+                "name": "\"Ether Vision\"",
+                "type": "Mindscape 2",
+                "desc": "Upon using an Aftershock, Trigger gains 1 stack of Hunter's Gaze. When executing a Finishing Move in Sniper Stance, Trigger gains 2 stacks of Hunter's Gaze. Each stack of Hunter's Gaze increases all squad members' CRIT DMG by 6%, stacking up to 4 times, and lasting 10s. Repeated triggers reset the duration."
+              },
+              {
+                "name": "\"Homecoming\"",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Concealment",
+                "type": "Mindscape 4",
+                "desc": "When Trigger enters or extends Coordinated Support, while the state is active, the next time other squad members trigger Basic Attack: Harmonizing Shot or Basic Attack: Harmonizing Shot - Tartarus, it will trigger Disconnect upon hitting an enemy, dealing additional DMG equal to 200% of Trigger's ATK and inflict Daze equal to 120% of Trigger's Impact. This skill has a relatively high Interrupt Level."
+              },
+              {
+                "name": "Locked In",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Beyond the River of the Dead",
+                "type": "Mindscape 6",
+                "desc": "Upon entering the battlefield, Trigger gains 5 Armor Break Rounds. For every 25 Purge consumed, Trigger gains 1 additional Armor Break Round, up to a maximum of 5 rounds. While possessing Armor Break Rounds, when Trigger hits a target in Sniper Stance, 1 Armor Break Round is consumed to deal additional Electric DMG equal to 1,200% of Trigger's ATK. Armor Break Round DMG is additionally increased by 50%. This effect can trigger once every 0.2s."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -53098,6 +57619,123 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Tsukuyomi Kagura",
+                "type": "Basic",
+                "desc": "Yanagi has two stances: Jougen and Kagen.\nPress to activate:\nExecute up to five forward slashes based on the current stance, causing Physical DMG and Electric DMG.\nDuring combat, Yanagi gains the corresponding stance buff based on her current stance:\nJougen stance buff: Electric DMG increases by 10%. Anti-Interrupt Level increases during Basic Attacks.\nKagen stance buff: PEN Ratio increases by 10%. Interrupt Level increases for Basic Attacks.\nFor 8s after switching stances, Yanagi retains the bonus from the previous stance."
+              },
+              {
+                "name": "Dodge: Wandering Breeze",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Fleeting Flight",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Rapid Retaliation",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nSlashes enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, you can immediately follow up with the 3rd hit of the current stance's Basic Attack."
+              },
+              {
+                "name": "Quick Assist: Blade of Elegance",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nSlashes enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, you can immediately follow up with the 3rd hit of the current stance's Basic Attack."
+              },
+              {
+                "name": "Defensive Assist: Radiant Reversal",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Weeping Willow Stab",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nSwitch stances, and quickly deliver multiple slashes to enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, you can immediately follow up with the 3rd hit of the current stance's Basic Attack."
+              },
+              {
+                "name": "Special Attack: Ruten",
+                "type": "Special",
+                "desc": "Press to activate:\nPerform a forward slash, dealing Electric DMG, and switch the current stance.\nAnti-Interrupt level is increased while using this skill.\nIf activated after the 3rd, 4th, or 5th hit of a Basic Attack, it activates Swift Ruten, speeding up the slashes while switching her current stance.\nBlock enemy attacks while Swift Ruten is active.\nUpon activating Swift Ruten, Yanagi can immediately follow up with the 3rd hit of the current stance's Basic Attack."
+              },
+              {
+                "name": "EX Special Attack: Gekka Ruten",
+                "type": "Special",
+                "desc": "With enough Energy, hold to activate:\nCharge up power for a quick forward thrust, followed by a downward attack, dealing massive Electric DMG.\nUpon executing the thrust, Yanagi switches stances and enters the Shinrabanshou state, lasting 15s. For the duration of this state, when following up with a subsequent Basic Attack from the 5th hit of a Basic Attack or other skills, the combo will begin directly from the 3rd hit of the Basic Attack.\nIf the downward attack hits an enemy suffering an Anomaly, it triggers a special Disorder effect, Polarity Disorder, dealing 15% of the original Disorder effect's DMG to the target, plus an additional {CAL:5+AvatarSkillLevel(1)*2.25,100,2}% of Yanagi's Anomaly Proficiency. Polarity Disorder will not remove the target's Anomaly.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Celestial Harmony",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nSwitch stances and unleash a powerful slash on enemies in front, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, you can immediately follow up with the 3rd hit of the current stance's Basic Attack."
+              },
+              {
+                "name": "Ultimate: Raiei Tenge",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nYanagi unleashes her potential and delivers a powerful slash to a large area of enemies in front in a very short time, followed by an additional lightning strike, dealing massive Electric DMG.\nWhen the lightning strike hits an enemy affected by an Attribute Anomaly, it triggers a special Disorder effect called Polarity Disorder. This deals DMG equal to 15% of the original Disorder effect plus an additional {CAL:5+AvatarSkillLevel(3)*2.25,100,2}% of Yanagi's Anomaly Proficiency. Polarity Disorder will not remove the target's Anomaly.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Yanagi can immediately follow up with the 3rd hit of the current stance's Basic Attack."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Lunar Eclipse",
+                "type": "Core Passive",
+                "desc": "After Yanagi activates her EX Special Attack, the DMG multiplier of Disorder is increased by 250% when any squad member applies the Disorder effect to an enemy, lasting 15s.\nWhen her EX Special Attack hits an enemy, Yanagi's Electric DMG against the target is increased by 20% for 15s."
+              },
+              {
+                "name": "Additional Ability: Gessou",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Anomaly character or shares the same attribute:\nAfter switching stances, when Yanagi hits an enemy with Basic Attack: Tsukuyomi Kagura, Electric Anomaly Buildup increases by 45% for 8s."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Know Thy Self, Know Thy Enemy",
+                "type": "Mindscape 1",
+                "desc": "When any squad member inflicts an Anomaly on an enemy, Yanagi gains 1 stack of Clarity, lasting 15s, stacking up to 3 times. Repeated triggers reset the duration. Upon being hit by an enemy attack, Yanagi consumes 1 stack of Clarity to gain invulnerability for 1s. When Yanagi has 1 or more stacks of Clarity, her Anomaly Proficiency increases by 80."
+              },
+              {
+                "name": "Outstanding Adaptability",
+                "type": "Mindscape 2",
+                "desc": "During her EX Special Attack, the rapid thrust's Electric Anomaly Buildup increases by 20%. Holding down the Special Attack button after a rapid thrust hits an enemy will consume 10 additional Energy to launch another thrust. If Energy is insufficient or the button is released, the attack automatically follows up with the downward attack. When the downward attack hits an enemy suffering an Anomaly and triggers Polarity Disorder, the DMG multiplier increases to 20% of the original Disorder effect. Each additional thrust increases this multiplier by 15%, up to a maximum of 2 extra thrusts."
+              },
+              {
+                "name": "Tsukishiro Style Management",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Chessmaster",
+                "type": "Mindscape 4",
+                "desc": "When Yanagi inflicts Attribute Anomaly DMG on an enemy, they suffer the Exposed effect, lasting 15s. Attacks on enemies under the Expose effect will have 16% increased PEN Ratio."
+              },
+              {
+                "name": "\"Other Mother\"",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Inhuman Blood",
+                "type": "Mindscape 6",
+                "desc": "After a thrust attack during her EX Special Attack, the duration of the Shinrabanshou state increases to 30s. While the state is active, EX Special Attack DMG increases by 20%. The maximum number of times the additional DMG multiplier increase effect for Polarity Disorder in Outstanding Adaptability can be triggered increases to 4, and the Energy cost for the first 4 additional thrust attacks is halved."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -54619,6 +59257,148 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Crushing Strike",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 3 strikes, dealing Ice DMG.\nOn the 3rd hit, Yidhari recovers 10% HP."
+              },
+              {
+                "name": "Basic Attack: Frostbite Embrace",
+                "type": "Basic",
+                "desc": "Hold to activate:\nYidhari begins charging, continuously consuming HP to reach up to three levels of charge. When is released, Yidhari unleashes a powerful charged hammer attack in front based on the current charge level, dealing massive Ice DMG.\nThe higher Yidhari's HP, the faster charging consumes it. HP consumption will at most reduce Yidhari's HP to 25% of Max HP.\nAt 2 charge levels, after using the skill, press to immediately follow up with the 3rd hit of Basic Attack: Crushing Strike. The DMG of a Basic Attack: Crushing Strike triggered this way increases based on the current charge level, up to 30%.\nAt 3 charge levels, Yidhari gains increased Anti-Interrupt level during the charged skill. Press to chain early into the finishing smash."
+              },
+              {
+                "name": "Frost's Crushing Weight",
+                "type": "Basic",
+                "desc": "While charging or spinning during Basic Attack: Frostbite Embrace, if hit by an enemy, Yidhari can block with her tentacles, reducing the DMG taken by 25%.\nIf charging or not yet at full charge, Yidhari counterattacks with her tentacles, returning to the charging stance and instantly gaining 1 charge level, while also dealing Ice DMG to enemies ahead.\nWhile Frost's Crushing Weight is active, pressing makes Yidhari immediately unleash the finishing slam of Basic Attack: Frostbite Embrace based on her current charge level.\nWhile Frost's Crushing Weight is active, pressing or makes Yidhari unleash a Special Attack: Surging Cold, Crushing Pursuit that is guaranteed to trigger Surging Cold."
+              },
+              {
+                "name": "Dodge: Dreamshift",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Frostbloom Impact",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nStrike forward, dealing Ice DMG."
+              },
+              {
+                "name": "Dodge Counter: Icehaul Reverb",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nStrikes enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Frostshock Reinforcement",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nStrikes enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Flashquake Rejection",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Glacial Onslaught",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nExecute an ice shard hammer attack against enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Cease Thoughts",
+                "type": "Special",
+                "desc": "Press to activate:\nLaunches enemies in front into the air, dealing Ice DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Frost Coil",
+                "type": "Special",
+                "desc": "With enough Adrenaline, press to activate:\nPerform two consecutive upward strikes, then release an icy mist, dealing massive Ice DMG.\nIf EX Special Attack: Frost Coil hits an enemy, Yidhari recovers HP at the end of the skill equal to 33% of her missing HP.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Surging Cold, Crushing Pursuit",
+                "type": "Special",
+                "desc": "Press or while charging or spinning during Basic Attack: Frostbite Embrace, or press while holding to activate:\nLaunches enemies in front into the air, dealing Ice DMG.\nWhen the skill's attack collides with an enemy's attack, it triggers Surging Cold.\nIf the skill hits a Stunned enemy, and with sufficient Adrenaline, it triggers Crushing Pursuit.\nTriggering Surging Cold or Crushing Pursuit instantly raises the charge level to maximum.\nDuring this skill, press and Yidhari will immediately unleash the finishing slam of Basic Attack: Frostbite Embrace based on the current charge level.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Glacial Crush",
+                "type": "Special",
+                "desc": "When triggering Surging Cold or Crushing Pursuit, and with enough Adrenaline, press or to activate:\nDash forward with an upward attack, then leap into the air before delivering a powerful downward smash, dealing massive Ice DMG.\nIf EX Special Attack: Glacial Crush hits an enemy, Yidhari heals at the end of the skill for 33% of her missing HP.\nIf the skill is used after Surging Cold, it grants an additional 15 Adrenaline. This effect can trigger once every 1s.\nAfter using this skill, press to immediately unleash the finishing slam of Basic Attack: Frostbite Embrace based on the current charge level.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Frostbound Oath",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleash a powerful strike against enemies in a small area ahead, dealing massive Ice DMG.\nIf inside Ether Veil: Wellspring, tentacles join in the assault, further enhancing the skill's power.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ether Veil: Wellspring",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, the final hit of Basic Attack: Frostbite Embrace, EX Special Attack: Frost Coil, EX Special Attack: Glacial Crush, and Chain Attack: Frostbound Oath will consume 3,000 Decibels to activate an Ether Veil: Wellspring. While Ether Veil: Wellspring is active, all squad members' Max HP increase by 5% for 30s. Repeated triggers extend the duration, up to a maximum of 300s.\nWhile Yidhari is within Ether Veil: Wellspring, the charge speed of Basic Attack: Frostbite Embrace increases, and HP is consumed faster during charging."
+              },
+              {
+                "name": "Ultimate: Final Act - Crossing the River of Regret",
+                "type": "Chain",
+                "desc": "After Yidhari expends Decibels to activate Ether Veil: Wellspring, press within 30s to activate:\nDeliver a powerful strike to enemies in a large area ahead, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill.\nEach time Yidhari expends Decibels to activate an Ether Veil: Wellspring, she can use Ultimate: Final Act - Crossing the River of Regret once."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Dreamscape Collection",
+                "type": "Core Passive",
+                "desc": "Yidhari gains extra Sheer Force based on her Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1.\nAll Ice DMG dealt by Yidhari deals is Sheer DMG, ignoring enemy DEF and using her Sheer Force stat as the DMG Multiplier. When Yidhari enters battle, she immediately gains 60 Adrenaline. In Investigation Zone Mode, this effect can trigger once every 180s.\nYidhari's skill DMG increases as her current HP percentage decreases.\nWhen her HP falls below 50%, the buff reaches its maximum value, increasing her DMG by up to 100%. Once her HP is restored to 50%, the maximum bonus remains for 5s thereafter.\nYidhari gains fewer Decibels from landing skills. Instead, she gains Decibels as her HP decreases, with every 1% HP lost granting 10 Decibels."
+              },
+              {
+                "name": "Additional Ability: Narrative Completion",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Stun or Support character:\nWhen Yidhari's HP falls below 50%, CRIT DMG increases by 30% and DMG taken is reduced by 25%.\nWhile Yidhari is within Ether Veil: Wellspring, she gains the following additional effect:\nAfter the level 3 charged attack of Yidhari's Basic Attack: Frostbite Embrace or EX Special Attack: Glacial Crush, an icy tentacle is summoned to attack, dealing extra damage. This effect can trigger once every 12s.\nThe above skill is considered an EX Special Attack, the DMG multiplier increases based on the EX Special Attack's level."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "The Past Lost Beneath the Abyss",
+                "type": "Mindscape 1",
+                "desc": "The Adrenaline cost to activate Yidhari's EX Special Attack is reduced by 10. After using EX Special Attack: Frost Coil or EX Special Attack: Glacial Crush, keeping hold of the Basic Attack or Special Attack button consumes 35 Adrenaline to forgo healing and immediately chain into another EX Special Attack: Glacial Crush. The HP restored by this EX Special Attack: Glacial Crush is increased by 100% of the original value. Yidhari's Basic Attacks and EX Special Attacks ignore 20% of targets' Ice RES."
+              },
+              {
+                "name": "Who Lingers Here, Lost in Thought?",
+                "type": "Mindscape 2",
+                "desc": "Yidhari's CRIT DMG increases by 40%. Triggering Surging Cold or Crushing Pursuit grants Adrenaline regen of 0.5/s for up to 30s. Repeated triggers reset the duration."
+              },
+              {
+                "name": "A Story Without an Audience",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Blooming in Silence",
+                "type": "Mindscape 4",
+                "desc": "Yidhari gains 10% more Decibels when losing HP for Core Passive: Dreamscape Collection. While in Ether Veil: Wellspring, Yidhari's Max HP is further increased by 5%."
+              },
+              {
+                "name": "This Solace Is Real",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "At Last, a Peaceful Dream",
+                "type": "Mindscape 6",
+                "desc": "After Yidhari spends Decibels to activate or extend Ether Veil: Wellspring, she gains Erudition for 30s. While Erudition is active, her Sheer DMG increases by 25%. Also, upon taking fatal DMG for the first time, her HP is reduced to at most 1, and for the next 5s, she cannot be defeated and will restore 25% HP over time."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -56140,6 +60920,158 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Cirrus Strike",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerform up to five attacks forward, dealing Auric\u00a0Ink DMG.\nThis skill's Anti-Interrupt Level increases during the 3rd and 4th hit."
+              },
+              {
+                "name": "Basic Attack: Ink\u2010Veil Cloud Coalescence",
+                "type": "Basic",
+                "desc": "Hold to activate:\nDeploy a Grand Tai Chi Formation, dealing Auric\u00a0Ink DMG.\nWhen the skill ends, automatically launch the 5th hit of Basic Attack: Cirrus Strike.\nAnti-Interrupt level is increased while using this skill, and DMG received is reduced by 40%."
+              },
+              {
+                "name": "Basic Attack: Auric Array",
+                "type": "Basic",
+                "desc": "While possessing an Auric Ink Point: tap during Dodge: Nimbus Step, or hold to activate:\nDeploy an array, continuously dealing Auric Ink DMG.\nWhen the skill ends, it automatically triggers Basic Attack: Qingming Eruption.\nWhile channeling, continuously recover Adrenaline, recovering 7/s, for up to 3s.\nCharacter is invulnerable while using this skill, and enters the Vital View state."
+              },
+              {
+                "name": "Basic Attack: Qingming Eruption",
+                "type": "Basic",
+                "desc": "Automatically activates when Basic Attack: Auric Array reaches the max duration:\nSpreads her wings to launch an explosive attack, dealing massive Auric\u00a0Ink DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dodge: Hidden Cloud Technique",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Skybreaker",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nLaunch a forward rush attack, dealing Auric\u00a0Ink DMG."
+              },
+              {
+                "name": "Dodge: Nimbus Step",
+                "type": "Dodge",
+                "desc": "When dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick}, hold to activate:\nEnter a high\u2010speed Light as Air state. While in the Light as Air state in Investigation Zone Mode, automatically collect from all resource pickup points within range.\nWhile in the Light as Air state, use the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to steer. Release the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to stop.\nCharacter is invulnerable at the moment this skill activates."
+              },
+              {
+                "name": "Dodge Counter: Banishing Blow",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nLaunch a series of attacks on enemies ahead, dealing Auric\u00a0Ink DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Cloudstream Shadow",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nLaunch a series of attacks on enemies ahead, dealing Auric\u00a0Ink DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Clear Sky Surge",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Celestial Cloud Blitz",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nQuickly dash forward and attack, dealing Auric\u00a0Ink DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Shadow-Ignition",
+                "type": "Special",
+                "desc": "Press to activate:\nSwiftly retreat, then attack forward, dealing Auric\u00a0Ink DMG.\nWhile retreating, a Perfect Dodge can be triggered, but cannot be followed up with a Dodge Counter.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Ink Manifestation",
+                "type": "Special",
+                "desc": "With enough Adrenaline, press or hold to activate:\nCharge continuously, and release to launch an upward wing attack, dealing massive Auric\u00a0Ink DMG.\nWhile charging, incoming attacks are automatically blocked and will activate the upward wing attack.\nIf hit at the exact moment charging begins, it triggers a Perfect Block effect, negating the DMG and increasing the skill's Interrupt Level to match a Heavy Defensive Assist, and recovering 10 Adrenaline.\nWhen an upward wing strike hits an enemy with a red flash or yellow flash, a Perfect Block can be triggered, negating the hit and increasing the skill's Interrupt Level to match a Defensive Assist and recovering 10 Adrenaline.\nThe Perfect Block effect can occur at most once every 0.5s.\nIf charged until flashing or when triggering the Perfect Block effect, the upward wing attack can be followed by an additional Talisman Attack.\nAfter the skill, press to launch EX Special Attack: Celestial Cloud Blitz - Break.\nAfter EX Special Attack: Celestial Cloud Blitz - Break, and with enough Adrenaline, press to consume another 20 Adrenaline to launch EX Special Attack: Qingming Eruption - Break.\nAfter using EX Special Attack: Qingming Eruption - Break and with enough Auric\u00a0Ink Points, hold to quickly follow up with Basic Attack: Auric Array.\nCharacter is invulnerable during the upward wing attack, and Anti-Interrupt Level is increased while charging."
+              },
+              {
+                "name": "EX Special Attack: Cloud-Shaper",
+                "type": "Special",
+                "desc": "With enough Adrenaline, hold to activate:\nContinuously charge up, channeling energy around enemies to deal DMG over time, up to a max of 2s, dealing massive Auric\u00a0Ink DMG.\nOnce fully charged or if interrupted, automatically trigger EX Special Attack: Ashen Ink Becomes Shadows.\nAt the moment the skill is activated, a Perfect Dodge can be triggered. After the Perfect Dodge, enter the Vital View state.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Ashen Ink Becomes Shadows",
+                "type": "Special",
+                "desc": "Triggers automatically during EX Special Attack: Cloud-Shaper:\nWhen the energy orb appears and contracts, it deals Auric\u00a0Ink DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Auric Ink Rush",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nRapidly dash forward and attack, followed by an explosive wing burst, dealing massive Auric\u00a0Ink DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Qingming Skyshade",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nLaunch a barrage of wing attacks, then guide countless talismans to attack, dealing massive Auric\u00a0Ink DMG.\nUpon activating this skill, Yixuan evenly redistributes the squad's HP.\nAfter using this skill and with enough Auric Ink Points, hold to quickly follow up with Basic Attack: Auric Array.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Endless Talisman Suppression",
+                "type": "Chain",
+                "desc": "With enough Technique Points, press to activate:\nConsumes 120 Technique Points to spread her wings, then guide countless talismans to attack, dealing massive Auric\u00a0Ink DMG.\nWith both enough Technique Points and Decibels, this skill triggers with priority.\nAfter using this skill and with enough Auric Ink Points, hold to quickly follow up with Basic Attack: Auric Array.\nUpon activating this skill, Yixuan evenly redistributes the squad's HP.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Grandmaster of Mysticism",
+                "type": "Core Passive",
+                "desc": "Yixuan gains extra Sheer Force based on her Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1.\nAll Auric\u00a0Ink DMG Yixuan deals via her skills is Sheer DMG, ignoring enemy DEF and using her Sheer Force stat as the DMG Multiplier.\nWhen Yixuan accumulates Auric\u00a0Ink Anomaly Buildup, it uses an independent Anomaly Buildup gauge, and when triggering an Anomaly, she restores an additional 10 Adrenaline. This can trigger once every 10s.\nUpon entering combat, Yixuan immediately restores all Adrenaline. In Investigation Zone Mode, this effect can only trigger once every 180s. Triggering a Perfect Dodge grants an additional 5 Adrenaline and can occur at most once per second.\nWhen she consumes Adrenaline, Yixuan accumulates Technique Points, gaining 0.667 points for each point of Adrenaline consumed. With enough Technique Points, she can trigger an additional Ultimate: Endless Talisman Suppression. The maximum for Technique Points is 120.\nThe DMG dealt by Yixuan's Basic Attack: Auric Array, Basic Attack: Qingming Eruption, EX Special Attack, Assist Follow-Up, Chain Attack, and Ultimate increases by 60%.\nAfter launching Ultimate: Endless Talisman Suppression, Yixuan gains one Auric Ink Point. She can spend an Auric Ink Point to launch Basic Attack: Auric Array."
+              },
+              {
+                "name": "Additional Ability: Auric\u00a0Ink Undercurrent",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Stun, Support, or Defense character:\nWhen a fellow squad member uses an Ultimate, Yixuan continuously recovers 2 Adrenaline for 10s. If Yixuan is switched out by a Perfect Assist, she automatically follows up with a lightning strike attack, dealing DMG equal to 225% of her Sheer Force and restoring an additional 5 Adrenaline.\nEX Special Attack: Cloud-Shaper and EX Special Attack: Ashen Ink Becomes Shadows deal 30% increased DMG to Stunned enemies.\nAfter activating her Ultimate, Yixuan enters the Meditation state, increasing her CRIT DMG by 40% for 15s."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Spiritual Path",
+                "type": "Mindscape 1",
+                "desc": "Upon entering combat, CRIT Rate increases by 10% and immediately gain 120 Technique Points. In Investigation Zone Mode, this effect can only trigger once every 180s. When any squad member lands a hit on an enemy, Yixuan automatically summons an extra lightning strike, dealing DMG equal to 50% of her Sheer Force and restoring 5 additional Adrenaline. This can trigger once every 6s."
+              },
+              {
+                "name": "Ward Off Misfortune",
+                "type": "Mindscape 2",
+                "desc": "When an Ultimate or EX Special Attack deals DMG, it ignores 15% of the target's Ether RES. Triggering Ultimate: Qingming Skyshade extends all enemies' Stunned state by 3s. In a single Stun state duration, enemies can only have this effect applied once, and it does not stack with similar effects. Additionally, when using Ultimate: Endless Talisman Suppression, gain one stack of the Condensed Ink effect. After Basic Attack: Qingming Eruption or EX Special Attack: Ashen Ink Becomes Shadows, press the Basic Attack button, or after EX Special Attack: Qingming Eruption - Break, press the Special Attack button to consume one stack of Condensed Ink and launch EX Special Attack: Endless Talisman Suppression - Break, dealing DMG up to 1,200% of Sheer Force. Only one stack of Condensed Ink can be held at a time."
+              },
+              {
+                "name": "Cycle of Yin and Yang",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "The One Path of Mysticism",
+                "type": "Mindscape 4",
+                "desc": "Activating an Ultimate grants one stack of Tranquility, up to a max of 2 stacks. For each stack of Tranquility, the next EX Special Attack: Cloud-Shaper DMG and EX Special Attack: Ashen Ink Becomes Shadows DMG increase by 30%."
+              },
+              {
+                "name": "Calm Sky Vigil",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Swift Yet Still",
+                "type": "Mindscape 6",
+                "desc": "After using Ultimate: Qingming Skyshade, gain a stack of the Regulated Breathing effect. While under this effect, you can ignore the Technique Point cost to launch Ultimate: Endless Talisman Suppression once. The Regulated Breathing effect ends after Ultimate: Endless Talisman Suppression is used. This effect can only be gained once every 30s. Only one stack of Regulated Breathing can be held. Additionally, while in the Meditation state, Yixuan's Sheer DMG is increased by 20%."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -57661,6 +62593,163 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Tanuki Claws",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 5 strikes ahead, dealing Physical DMG."
+              },
+              {
+                "name": "Basic Attack: Tanuki Cloak",
+                "type": "Basic",
+                "desc": "Hold to activate:\nEnter a defensive stance for up to 1.5 seconds. If hit during this time, parry the attack and inflict massive Daze against the attacking enemy.\nSuccessfully parrying an attack gains 1 Sugar Points.\nCharacter is invulnerable when successfully parrying."
+              },
+              {
+                "name": "Basic Attack: Hard Candy Shot",
+                "type": "Basic",
+                "desc": "When Yuzuha has Sugar Points, landing a hit with other active characters' attacks will have Yuzuha continuously twirl her umbrella and attack centered around the target before launching a powerful shell, dealing Physical DMG. When this attack lands a heavy attack, Yuzuha consumes 1 Sugar Point.\nBasic Attack: Hard Candy Shot is considered an Aftershock.\nBasic Attack: Hard Candy Shot can be triggered once every 8s.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Basic Attack: Sugarburst Sparkles",
+                "type": "Basic",
+                "desc": "Enemies under the effect of Sweet Scare will be attacked by a Basic Attack: Sugarburst Sparkles once every 1s.\nBasic Attack: Sugarburst Sparkles initially deals Physical DMG.\nBasic Attack: Sugarburst Sparkles does not contribute its accumulated Attribute Anomaly Buildup toward Anomaly DMG calculation.\nBasic Attack: Sugarburst Sparkles Anomaly Buildup Rate increases by {CAL:0.07+AvatarSkillLevel(0)*0.015,100,4}%."
+              },
+              {
+                "name": "Basic Attack: Sugarburst Sparkles - Max",
+                "type": "Basic",
+                "desc": "Enemies affected by Sweet Scare will be attacked by a Basic Attack: Sugarburst Sparkles - Max when hit with a heavy attack from Basic Attack: Hard Candy Shot or Assist Follow-Up: Stuffed Hard Candy Shot.\nBasic Attack: Sugarburst Sparkles - Max initially deals Physical DMG.\nBasic Attack: Sugarburst Sparkles - Max does not contribute its accumulated Attribute Anomaly Buildup toward Anomaly DMG calculation.\nBasic Attack: Sugarburst Sparkles - Max Anomaly Buildup Rate increases by {CAL:0.07+AvatarSkillLevel(0)*0.015,100,4}%."
+              },
+              {
+                "name": "Basic Attack: Tanuki Helper",
+                "type": "Basic",
+                "desc": "When Yuzuha is off-field, tanuki Kama assists the active character in attacking enemies, dealing Physical DMG.\nWhen Yuzuha performs Basic Attack: Tanuki Cloak, tanuki Kama joins her in attacking the enemy, dealing Physical DMG.\nTanuki Kama inherits Yuzuha's initial ATK."
+              },
+              {
+                "name": "Dodge: Did I Scare You?",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: You're Outta Luck!",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nRapidly strikes enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Time for Payback~",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nDeliver a quick strike forward, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Dessert Time",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nStrike enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Replenish Your Fun",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nUpon a successful parry, gain 1 Sugar Points.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: We Have Cookies",
+                "type": "Assist",
+                "desc": "After triggering a Defensive Assist or successfully parrying an enemy attack with Basic Attack: Tanuki Cloak, press to activate:\nStrike enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Stuffed Hard Candy Shot",
+                "type": "Assist",
+                "desc": "After triggering a Defensive Assist or successfully parrying an enemy attack with Basic Attack: Tanuki Cloak, press at the right moment to activate:\nFollowing a continuous spinning umbrella attack, fire a powerful projectile that deals Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Gummy Bombardment",
+                "type": "Special",
+                "desc": "Press to activate:\nFire a cannon shot forward, dealing Physical DMG."
+              },
+              {
+                "name": "EX Special Attack: Cavity Alert",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nThrow a bomb at the enemy, dealing Physical DMG.\nUpon hitting an enemy with a heavy attack, it inflicts the Sweet Scare state.\nGains 2 Sugar Points upon activation.\nA Quick Assist is triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Cavity Alert, Right Now!",
+                "type": "Special",
+                "desc": "After using Dodge Counter: Time for Payback~, Quick Assist: Dessert Time, Assist Follow-Up: We Have Cookies, or Assist Follow-Up: Stuffed Hard Candy Shot, or when a Perfect Dodge is triggered, press to activate:\nQuickly throw a bomb at the enemy, dealing Physical DMG.\nOn hitting an enemy with a heavy attack, it inflicts the Sweet Scare state.\nGains 2 Sugar Points upon activation.\nA Quick Assist is triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Sweet Scare",
+                "type": "Special",
+                "desc": "The Sweet Scare state lasts for {CAL:16+AvatarSkillLevel(1)*2,1,2}s, repeated triggers reset the duration.\nWhen an enemy affected by Sweet Scare is first hit by an active character using an attack of their attribute, Flavor Match is triggered against that enemy, changing the attribute of Basic Attack: Sugarburst Sparkles and Basic Attack: Sugarburst Sparkles - Max against that enemy to match that of the character who triggered Flavor Match.\nWhen Sweet Scare is triggered again on an enemy, their existing Flavor Match state is removed. The process can be repeated to change the attribute of Basic Attack: Sugarburst Sparkles and Basic Attack: Sugarburst Sparkles - Max again."
+              },
+              {
+                "name": "Chain Attack: Prank Assault",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleash a powerful strike on enemies in a small area ahead, dealing massive Physical DMG.\nGains 1 Sugar Points when used.\nA Quick Assist is triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Surrender or Suffer the Mischief",
+                "type": "Chain",
+                "desc": "When Decibel Rating reaches Maximum, press to trigger:\nUnleash a powerful strike on enemies in a large area around the character, dealing massive Physical DMG.\nEnemies hit with a heavy attack are inflicted with the Sweet Scare state.\nUpon activating this skill, other squad members gain {CAL:7+AvatarSkillLevel(3)*1.5,1,2} Energy.\nUpon activating this skill, gain 2 Sugar Points.\nA Quick Assist is triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Whimsical Wonder",
+                "type": "Core Passive",
+                "desc": "Upon entering the battlefield, Yuzuha immediately gains 3 Sugar Points.\nYuzuha can have up to 6 Sugar Points.\nWhen Yuzuha's EX Special Attack: Cavity Alert, EX Special Attack: Cavity Alert, Right Now!, or Ultimate: Surrender or Suffer the Mischief hits an enemy, all squad members receive the Tanuki Wish effect.\nTanuki Wish grants an ATK increase equal to 40% of Yuzuha's initial ATK, up to a maximum increase of 1,200, and increases the DMG dealt by those with the effect by 15%, lasting 40s. Repeated triggers reset the duration.\nIf Yuzuha's initial ATK reaches 3,000, she grants the full ATK bonus to all squad members."
+              },
+              {
+                "name": "Additional Ability: The More the Merrier",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Anomaly character or shares the same Faction:\nIf Yuzuha's Anomaly Mastery exceeds 100, every point over increases the Anomaly Buildup Rate of characters with Tanuki Wish by 0.2%, up to a maximum of 20%, and all Attribute Anomaly DMG and Disorder DMG by 0.2%, up to a maximum of 20%. When Yuzuha's Anomaly Mastery is at 200, she grants the full buff effect."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Lucky Constitution",
+                "type": "Mindscape 1",
+                "desc": "Yuzuha regains 30 Energy when she enters the battlefield. In Investigation Zone Mode, this effect can trigger at most once every 180s. Enemies in the Sweet Scare state have their All-Attribute RES reduced by 10%. The Attribute Anomaly DMG and Disorder DMG buff from her Additional Ability is increased to 130% of its original value."
+              },
+              {
+                "name": "Full of Colorful Company",
+                "type": "Mindscape 2",
+                "desc": "When Yuzuha's EX Special Attack: Cavity Alert, EX Special Attack: Cavity Alert, Right Now!, or Ultimate: Surrender or Suffer the Mischief hits an enemy, all squad members' DMG increases by 15% and Anomaly Buildup Rate by 15%, lasting 40s and repeated triggers reset the duration. When a heavy attack hits an enemy that is not Stunned, it will trigger a forced Chain Attack. Chain Attacks triggered this way have reduced Interrupt Level and forced Chain Attacks can only occur once every 20s. Whenever another character enters through a Chain Attack, Yuzuha gains 1 Sugar Points. Yuzuha's Basic Attack: Hard Candy Shot cooldown is reduced by 25%."
+              },
+              {
+                "name": "Fairytale of the Haunted City",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Falling Magic",
+                "type": "Mindscape 4",
+                "desc": "The DMG of Yuzuha's Assist Follow-Up: Stuffed Hard Candy Shot and Assist Follow-Up: We Have Cookies increases by 30%, Anomaly Buildup Rate by 20%, and triggers a Quick Assist when it hits an enemy."
+              },
+              {
+                "name": "Dreams of a Fading Winter",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Put Down Roots",
+                "type": "Mindscape 6",
+                "desc": "Gain 1 additional Sugar Points when successfully parrying an enemy attack using a Defensive Assist or Basic Attack: Tanuki Cloak. When using Assist Follow-Up: Stuffed Hard Candy Shot, hold to charge for up to 0.8 seconds. Releasing or reaching full charge fires an extra powerful shell at the enemy. For every 0.4s charged, Yuzuha consumes 1 Sugar Point to fire an additional powerful shell, each dealing 300% of her ATK as Physical DMG. If any powerful shell from Assist Follow-Up: Stuffed Hard Candy Shot hits an enemy, all squad members' Disorder DMG Multiplier increases by 105% for 40s, and stacking up to 3 times, with each stack duration being calculated separately. In addition, if the powerful shell hits an enemy under Sweet Scare, it'll trigger 1 Basic Attack: Sugarburst Sparkles - Max attack. If Yuzuha is attacked while charging, she will automatically dodge the attack and immediately unleash the max-charged attack."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -59182,6 +64271,133 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Glacial Judgment",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunches up to five slashes forward, the first dealing Physical DMG, and the following four Ice DMG."
+              },
+              {
+                "name": "Basic Attack: Final Verdict",
+                "type": "Basic",
+                "desc": "Hold to activate:\nAfter getting ready, Zhao starts charging up, then launches a forward slash on release, dealing massive Ice DMG.\nWhile charging, Zhao accumulates up to 5s of charge time. When the Finishing Move of Basic Attack: Final Verdict, Chain Attack, or Assist Follow-Up hits, the stored charge time is consumed to deal additional DMG. For every 1 second of charge time, Zhao deals {CAL:0.12+AvatarSkillLevel(0)*0.01,100,2}% of Max HP as additional DMG.\nWhen Zhao is in any Ether Veil, if she gets switched out while charging, the charge can continue.\nIf Frostbite Points are maxed out when the skill activates, all Frostbite Points are consumed to trigger Ether Veil: Wellspring and a Quick Assist. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%.\nWhile not the currently controlled character, the character is invulnerable while using this skill."
+              },
+              {
+                "name": "Dodge: Bunny Hop",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Bouncing Dash",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlashes forward, dealing Physical DMG and Ice DMG."
+              },
+              {
+                "name": "Dodge Counter: Swift Blink",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nPerforms a falling slash ahead, dealing Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Entry Skill: Burst of Frost",
+                "type": "Assist",
+                "desc": "When Zhao has maximum Frostbite Points, and is in combat, press to activate:\nLaunches consecutive attacks forward, followed by a slash, dealing massive Ice DMG.\nUpon activating this skill, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nUpon activating this skill, a Quick Assist is triggered. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nActivating this skill is considered as activating a Quick Assist.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Patch the Gaps",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nLaunches a falling slash in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Frostveil Suppression",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Frostlight Reflection",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nLaunch multiple slashes in front, dealing massive Ice DMG.\nUpon activating this skill, if Frostbite Points are maxed out, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nUpon activating this skill while in any Ether Veil, a Quick Assist is triggered. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Shatterfrost Surge",
+                "type": "Special",
+                "desc": "Press to activate:\nLaunches a forward slash, dealing Ice DMG.\nUpon activating this skill, consumes 5% of current HP to grant all squad members HP regeneration equal to {CAL:1+AvatarSkillLevel(1)*0.06,1,2}% of Zhao's Max HP per second for 5s. The HP-consuming effects of Special Attack: Shatterfrost Surge and EX Special Attack: Frostflow Tundra can trigger at most once every 30s."
+              },
+              {
+                "name": "EX Special Attack: Frostflow Tundra",
+                "type": "Special",
+                "desc": "With enough energy, press to activate:\nLaunches multiple forward slashes, dealing massive Ice DMG.\nUpon activating this skill, consumes 5% of current HP to grant all squad members HP regeneration equal to {CAL:1+AvatarSkillLevel(1)*0.06,1,2}% of Zhao's Max HP per second for 5s. The HP-consuming effects of Special Attack: Shatterfrost Surge and EX Special Attack: Frostflow Tundra can trigger at most once every 30s.\nUpon activating this skill, gain 20 Frostbite Points. If Frostbite Points are maxed out, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nUpon activating this skill while in any Ether Veil, a Quick Assist is triggered. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Temporary Alliance",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunches multiple slashes in front, dealing massive Ice DMG.\nAfter using this skill, gains 5 Frostbite Points. If Frostbite Points are maxed out, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nUpon activating this skill while in any Ether Veil, a Quick Assist is triggered. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Bunny Barrage",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nLaunches consecutive attacks in front, followed by a falling slash, dealing massive Ice DMG.\nAfter using this skill, gains 20 Frostbite Points. If Frostbite Points are maxed out, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nUpon activating this skill while in any Ether Veil, a Quick Assist is triggered. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Ideal Colleague",
+                "type": "Core Passive",
+                "desc": "Zhao gains bonus CRIT Rate based on her initial Max HP, gaining 1.4% CRIT Rate for every 1,000 initial Max HP.\nUpon entering the battlefield, Zhao gains 100 Frostbite Points. This effect can trigger once every 180s in Investigation Zone mode. The maximum amount of Frostbite Points is 100.\nWhen the currently active character's attacks hit an enemy, Zhao gains 6 Frostbite Points. This can be triggered once every 3s.\nWhen Frostbite Points are maxed out, switching Zhao to the field while in combat will activate her Entry Skill.\nWhen Zhao activates her Entry Skill, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nWhile Ether Veil: Wellspring is active, all squad members gain 5% Max HP for 40s. Re-activating Ether Veil: Wellspring ends the existing instance before applying a new Ether Veil: Wellspring.\nWhen Zhao activates Ether Veil: Wellspring, all squad members' ATK increase by 1,000 for 50s. Repeated triggers reset the duration."
+              },
+              {
+                "name": "Additional Ability: Crystallization",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Attack, Anomaly, or Support character:\nWhen Zhao is within any Ether Veil, the whole squad's DMG increases by 10%. If Zhao's initial Max HP exceeds 15,000, every additional 400 initial Max HP increases this DMG bonus by an additional 1%, up to a total maximum increase of 40%. This bonus reaches its maximum when Zhao's initial Max HP reaches 27,000."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Righteous Verdict",
+                "type": "Mindscape 1",
+                "desc": "When Zhao switches out of being the active character, all squad members' DMG ignores 15% of the target's All-Attribute RES for 50s."
+              },
+              {
+                "name": "Krampus Senior",
+                "type": "Mindscape 2",
+                "desc": "When Zhao recovers HP, her ATK increases by 20%, and other squad members' ATK increases by 15% for 50s. Repeated triggers reset the duration."
+              },
+              {
+                "name": "Frostveil Edge",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Featherlight Footsteps",
+                "type": "Mindscape 4",
+                "desc": "When Zhao activates an Ether Veil, she gains 250 Decibels. The CRIT DMG of her Ultimate, Chain Attack, and Basic Attack: Final Verdict increase by 40%."
+              },
+              {
+                "name": "Fuzzy Listener",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "No Value Has Its Own Value",
+                "type": "Mindscape 6",
+                "desc": "The CRIT Rate buff from Core Passive: Ideal Colleague increases to 125% of the original value. The extra DMG gained from charging during Basic Attack: Final Verdict increases to 140% of the original value, and accumulated charge time is no longer consumed when attacking."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -60699,6 +65915,133 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Don't Move!",
+                "type": "Basic",
+                "desc": "[Assault Mode]\nPress to activate.\nUnleash a flurry of martial arts, bullets, and Ether Buckshots in a series of up to 5 attacks, dealing Physical DMG and Ether DMG.\nWhen the 4th or 5th hit strikes an enemy, obtain 1 Enhanced Shotshell per hit. A max of 1 can be obtained per activation of this Basic Attack.\nWhile using this skill, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} and press to activate Dash Attack: Firepower Offensive and readjust to face the selected direction.\nWhile under Assault Mode, hold to switch to Suppressive Mode."
+              },
+              {
+                "name": "Basic Attack: Please Do Not Resist",
+                "type": "Basic",
+                "desc": "[Suppressive Mode]\nHold to activate:\nUnleash up to 3 Shotshell piercing attacks, dealing Physical DMG. If Zhu Yuan has Enhanced Shotshells upon firing, 1 Enhanced Shotshell will be consumed, dealing massive Ether DMG.\nWhile using this skill, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to activate her Dash Attack: Overwhelming Firepower and readjust to face the selected direction.\nWhile in Suppressive Mode, release to return to Assault Mode."
+              },
+              {
+                "name": "Dodge: Tactical Detour",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Firepower Offensive",
+                "type": "Dodge",
+                "desc": "Assault Mode\nPress during a dodge to activate:\nUses handgun to attack, dealing Ether DMG."
+              },
+              {
+                "name": "Dash Attack: Overwhelming Firepower",
+                "type": "Dodge",
+                "desc": "Suppressive Mode\nDrag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} during Basic Attack: Please Do Not Resist to activate:\nUnleashes a Shotshell piercing attack, dealing Physical DMG. If Zhu Yuan has Enhanced Shotshells when firing, 1 Enhanced Shotshell will be consumed, dealing massive Ether DMG."
+              },
+              {
+                "name": "Dodge Counter: Fire Blast",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate.\nShoots enemies in front with an Ether Buckshot, dealing Ether DMG.\nGain 1 Enhanced Shotshell on skill use.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Covering Shot",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nShoots enemies in front with an Ether Buckshot, dealing Ether DMG.\nGain 1 Enhanced Shotshell on skill use.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Evasive Assist: Guarded Backup",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nDodges the enemy's attack and activates Vital View.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Defensive Counter",
+                "type": "Assist",
+                "desc": "Press after an Evasive Assist to activate:\nAttack with a combination of martial arts and shotshells, dealing Physical DMG and Ether DMG.\nUpon activation, gain 3 Enhanced Shotshells.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Buckshot Blast",
+                "type": "Special",
+                "desc": "Press to activate:\nShoots Ether Buckshots that deal Ether DMG. This can be repeated 3 times by repeatedly pressing .\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Full Barrage",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nShoots a series of Ether Buckshots, that explode and deal massive Ether DMG.\nUpon activation, gain 3 Enhanced Shotshells.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Eradication Mode",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUses Modified Master Firearm to execute a saturated attack, firing lasers and seeking missiles to deal massive Ether DMG.\nUpon activation, gain 3 Enhanced Shotshells.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Max Eradication Mode",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUses Modified Master Firearm to execute a saturated attack, firing lasers and seeking missiles to deal massive Ether DMG.\nUpon activation, gain 3 Enhanced Shotshells.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Special Ops Ammunition",
+                "type": "Core Passive",
+                "desc": "When Zhu Yuan is under Suppressive Mode, using Enhanced Shotshells increases her DMG by 40%. When attacking Stunned enemies, this DMG buff is increased by an additional 40%. When Zhu Yuan enters the battlefield, she immediately gains 6 Enhanced Shotshells."
+              },
+              {
+                "name": "Additional Ability: Tactical Coordination",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Support character or shares the same Faction:\nZhu Yuan's CRIT Rate is increased by 30% for 10s after using an EX Special Attack, Chain Attack, or Ultimate."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Quick Reload",
+                "type": "Mindscape 1",
+                "desc": "When Zhu Yuan activates Chain Attacks/Ultimates, gain the Quick Reload effect. When Zhu Yuan has the Quick Reload effect and uses up all Enhanced Shotshells, the Quick Reload effect will be consumed to instantly gain 6/9 Enhanced Shotshells."
+              },
+              {
+                "name": "Ether Ember",
+                "type": "Mindscape 2",
+                "desc": "In Suppressive Mode, Zhu Yuan's Anti-Interrupt level is increased and DMG taken reduced by 10%. When Zhu Yuan hits an enemy with Enhanced Shotshells, deal 10% more Basic Attack: Please Do Not Resist and Dash Attack: Overwhelming Firepower Ether DMG, stacking up to 5 times and lasting for 5s. Each shot adds one stack of this effect, and repeated triggers reset the duration."
+              },
+              {
+                "name": "Public Security Special Training",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Ether Perforation",
+                "type": "Mindscape 4",
+                "desc": "When Zhu Yuan hits an enemy with Enhanced Shotshells, her Basic Attack: Please Do Not Resist and Dash Attack: Overwhelming Firepower ignore 25% of the target's Ether RES."
+              },
+              {
+                "name": "Special Ops Experience",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Expanded Energy Pack III",
+                "type": "Mindscape 6",
+                "desc": "When Zhu Yuan consumes a total of 12 Enhanced Shotshells, she receives the Ether Afterglow effect, and the Energy cost of the next EX Special Attack is reduced by 30. Launching an EX Special Attack will consume Ether Afterglow and shoot an additional 4-bullet Ether Buckshot. Each extra bullet deals DMG equal to 220% of Zhu Yuan's ATK."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -62220,6 +67563,128 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Turbo Volt",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 4 slashes. The first 3 hits deal Physical DMG, the 4th hit deals Electric DMG."
+              },
+              {
+                "name": "Basic Attack: Thunderbolt",
+                "type": "Basic",
+                "desc": "After unleashing the 3rd hit of the Basic Attack, hold down or pause for a short while, and then press to activate:\nUnleashes a downward strike that deals Electric DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Dodge: Slide",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Taser Blast",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlashes all nearby enemies, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Thunderclap",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nSlashes enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Thunderfall",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nSlashes enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Flash",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Lightning Whirl",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nPerform a spinning slash against enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Fork Lightning",
+                "type": "Special",
+                "desc": "Press to activate:\nUnleashes an upward slash that deals Electric DMG.\nThis attack launches faster when used after the 3rd hit of the Basic Attack or Basic Attack: Thunderbolt.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Lightning Bolt",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nUnleashes a powerful upward slash that deals massive Electric DMG.\nThis attack launches faster when used after the 3rd hit of her Basic Attack or Basic Attack: Thunderbolt.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Electro Engine",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful upwards slash at enemies in a small area, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Overdrive Engine",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful upward slash at enemies in a small area followed by several downward strikes, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Fluctuating Voltage",
+                "type": "Core Passive",
+                "desc": "Launch a Basic Attack: Thunderbolt, Special Attack, or EX Special Attack after the 3rd hit of Anby's Basic Attack for an extra 64% Daze."
+              },
+              {
+                "name": "Additional Ability: Parallel Connection",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nWhen Anby's Dodge Counter hits an enemy, she gains an extra 7.2 Energy. This effect can trigger once every 5s."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Rapid Charge Mode",
+                "type": "Mindscape 1",
+                "desc": "When the 4th hit of Anby's Basic Attack hits an enemy, her Energy Generation Rate is increased by 12% for 30s."
+              },
+              {
+                "name": "Precision Discharge",
+                "type": "Mindscape 2",
+                "desc": "When Basic Attack: Thunderbolt hits a Stunned enemy, its DMG is increased by 30%. When Anby's EX Special Attack hits an enemy that is not Stunned, the Daze inflicted is increased by 10%."
+              },
+              {
+                "name": "Well-Disciplined",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Conducting Charge",
+                "type": "Mindscape 4",
+                "desc": "When Anby launches a Chain Attack or uses her Ultimate, off-field Electric Agents recover 3 Energy.\nFor every 12% Energy Generation Rate Anby has, recover an additional 2 Energy, up to a maximum of 6."
+              },
+              {
+                "name": "Street Experience",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Charging Field",
+                "type": "Mindscape 6",
+                "desc": "When Anby uses her EX Special Attack, she gains 8 stacks of Charge (max 8 stacks). When she hits an enemy with her Basic Attack or Dash Attack, 1 stack of Charge is consumed, increasing that attack's DMG by 45%."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -63741,6 +69206,143 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Enthusiastic Drills",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 4 mixed attacks in front, dealing Physical DMG.\nThe 4th hit is a Piledriver Attack."
+              },
+              {
+                "name": "Basic Attack: Enthusiastic Drills (Burst Mode)",
+                "type": "Basic",
+                "desc": "Press while Anton is in Burst Mode to activate:\nUnleashes up to 3 mixed attacks in front, dealing massive Electric DMG.\nDuring the 2nd Drill Attack and 3rd Piledriver Attack, press repeatedly or hold to extend the skill duration."
+              },
+              {
+                "name": "Dodge: Let's Move",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Fire With Fire",
+                "type": "Dodge",
+                "desc": "Press during a Dodge to activate:\nRams into enemies in front of him, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Retaliation",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nContinuously strikes enemies in front with heavy punches, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dodge Counter: Overload Drill (Burst Mode)",
+                "type": "Dodge",
+                "desc": "While in Burst Mode, press during a Perfect Dodge to activate:\nLaunches a Drill Attack at enemies in front of him, dealing massive Electric DMG.\nCharacter is invulnerable during the attack."
+              },
+              {
+                "name": "Quick Assist: Shoulder-To-Shoulder",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nContinuously strikes enemies in front of him with heavy punches, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Protective Drill (Burst Mode)",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nAttacks enemies in front with a Drill Attack, dealing massive Electric DMG.\nCharacter is invulnerable during the attack."
+              },
+              {
+                "name": "Defensive Assist: Iron Wrist",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Limit Burst",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nLaunches a Drill Attack that ends in a Piledriver Attack, dealing Electric DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Spin, Bro!",
+                "type": "Special",
+                "desc": "Press to activate:\nUnleashes a Piledriver Attack against enemies in a line in front, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Smash the Horizon, Bro!",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nLaunches several Piledriver Attacks at enemies in a line in front of him, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\nAnton enters Burst Mode after using this skill. When in Burst Mode, Anton's attacks become more powerful, dealing massive Electric DMG while continually consuming Energy upon hitting an enemy. Burst Mode remains active until his Energy is depleted."
+              },
+              {
+                "name": "Special Attack: Explosive Drill (Burst Mode)",
+                "type": "Special",
+                "desc": "Press while in Burst Mode to activate:\nLaunches a Piledriver Attack at enemies in front, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Chain Attack: Go Go Go!",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a Piledriver Attack onto the ground in front of him over a large area, dealing massive Electric DMG to enemies within range.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Go Go Go Go Go!",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a Piledriver Attack onto the ground in front of him over a large area, dealing massive Electric DMG to enemies within range.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Brothers in Arms!",
+                "type": "Core Passive",
+                "desc": "When Anton uses his Piledriver Attack, the skill's DMG is increased by 24% and when he uses his Drill Attack, the skill's DMG is increased by 40%."
+              },
+              {
+                "name": "Additional Ability: Teamwork",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nWhile Anton is in Burst Mode, for every 4 critical hits, the next attack hitting Shocked enemies triggers an additional bout of Shock DMG at 45% of the original DMG. This effect can trigger once every 0.5s."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Warm-Up Exercises",
+                "type": "Mindscape 1",
+                "desc": "When Drill Attack hits an enemy, Anton gains additional Energy, up to a maximum of 5 Energy per skill use."
+              },
+              {
+                "name": "State of Flow",
+                "type": "Mindscape 2",
+                "desc": "When Anton uses his EX Special Attack and enters Burst Mode, he gains a Shield that equals to 7.5% of his Max HP. While in Burst Mode, entering combat or switching in reapplies the Shield effect. This effect can trigger once every 15s. The Shield dissipates when Burst Mode ends."
+              },
+              {
+                "name": "Rotational Training",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Everyone Get Fired Up!",
+                "type": "Mindscape 4",
+                "desc": "When Anton uses a Chain Attack or Ultimate, all squad members' CRIT Rate increases by 10% for 12s."
+              },
+              {
+                "name": "Jack of All Trades",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Break the Limit",
+                "type": "Mindscape 6",
+                "desc": "When Anton's Piledriver Attack triggers a critical hit, his Basic Attack: Enthusiastic Drills (Burst Mode) and Dodge Counter: Overload Drill (Burst Mode) deal 4% more DMG for 30s, stacking up to 6 times. Repeated triggers reset the duration."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -65262,6 +70864,123 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Debt Reconciliation",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 3 strikes, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge: Missing Invoice",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Incoming Expense",
+                "type": "Dodge",
+                "desc": "Press during a Dodge to activate:\nStrikes enemies in front of him, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Accounts Settled",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nStrike enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Joint Account",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nStrikes enemies in front, dealing Fire DMG.\nCharacter is invulnerable during the attack."
+              },
+              {
+                "name": "Defensive Assist: Risk Allocation",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Don't Break Contract",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nCharges and strikes enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Fiscal Fist",
+                "type": "Special",
+                "desc": "Press to activate:\nBen lifts his weapon, blocking the enemy's attack before unleashing a forward strike, dealing Physical DMG. Successfully blocking an attack enhances the power of this skill and triggers Block Counter, dealing massive Physical DMG.\nHold to remain in the Blocking stance.\nWhile in the Blocking stance, Ben gains a Shield that weakens over time.\nAfter leaving the blocking stance, the Shield is removed and recovers over time.\nThe Shield cannot exceed 16% of Ben's Max HP.\nBen is invulnerable when activating Block.\nAnti-Interrupt level is increased while launching strikes."
+              },
+              {
+                "name": "EX Special Attack: Cashflow Counter",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nBen lifts his weapon, blocking the enemy's attacks before unleashing a forward strike, dealing Fire DMG. Successfully blocking an attack enhances the power of this skill and triggers Block Counter, dealing massive Fire DMG.\nHold to remain in the Blocking stance.\nWhile in the Blocking stance, Ben gains a Shield that weakens over time.\nAfter leaving the blocking stance, the Shield is removed and recovers over time.\nThe Shield cannot exceed 16% of Ben's Max HP.\nWhen this skill is activated, the Shield is restored to its maximum value.\nAfter activating the skill, press again to follow up with a powerful forward strike, dealing massive Fire DMG.\nBen is invulnerable when activating Block.\nBen is invulnerable while launching strikes."
+              },
+              {
+                "name": "Chain Attack: Signed and Sealed",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Complete Payback",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive Fire DMG.\nWhen activating the skill, additionally recover 3 Assist Points.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Guardian",
+                "type": "Core Passive",
+                "desc": "Ben's initial ATK increases along with his initial DEF. He gains 80% of his initial DEF as ATK.\nWhen Ben launches a powerful follow-up strike during his EX Special Attack, all squad members gain a Shield of 30% of his DEF +550, lasting for 30s."
+              },
+              {
+                "name": "Additional Ability: Contractual Agreement",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nWhile the Shield from Core Passive: Guardian is in effect, the character's CRIT Rate is increased by 16%."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Reacting Force",
+                "type": "Mindscape 1",
+                "desc": "When successfully Blocking an enemy with Ben's Special Attack or EX Special Attack, the DMG dealt by the blocked enemy is reduced by 30% for 15s."
+              },
+              {
+                "name": "Offense Through Defense",
+                "type": "Mindscape 2",
+                "desc": "When successfully triggering a Block Counter during Ben's Special Attack or EX Special Attack, inflict an additional 300% of Ben's DEF as DMG."
+              },
+              {
+                "name": "Careful Accounting",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Agile Adaptation",
+                "type": "Mindscape 4",
+                "desc": "When successfully blocking enemy DMG with Ben's invulnerable effect during his Special Attack or EX Special Attack, the following counter deals 30% more DMG."
+              },
+              {
+                "name": "Meticulous Detail",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Wild Spirit",
+                "type": "Mindscape 6",
+                "desc": "After launching an attack or follow-up attack during Ben's EX Special Attack, Daze inflicted by Basic Attacks, Dash Attack, and Dodge Counter is increased by 20%, lasting 12s."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -66783,6 +72502,123 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Full Firepower",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes a piercing attack, dealing Physical DMG.\nRepeatedly press or hold to enter Crouching Shot to extend the attack duration.\nDrag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} during Crouching Shot to launch Rolling Shot and adjust the character's position, dealing Physical DMG.\nStop pressing or holding during Crouching Shot to launch Finishing Shot at enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge: Risky Business",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Starlight Sanction",
+                "type": "Dodge",
+                "desc": "When dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} during a dodge, press :\nLaunches a piercing attack at nearby enemies within a large area, dealing Physical DMG.\nWhen not dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} during a dodge, press :\nLaunches a piercing attack at enemies in a line, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Fair Fight",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nPierces enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Power of Teamwork",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nLaunches a piercing attack at enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Evasive Assist: Flash Spin",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nDodges the enemy's attack and activates Vital View.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Fatal Shot",
+                "type": "Assist",
+                "desc": "Press after an Evasive Assist to activate:\nPierces enemies in a large area in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Stand Still",
+                "type": "Special",
+                "desc": "Press to activate:\nPerforms up to 3 piercing attacks in a line, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Clearance Time",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nLaunches a powerful piercing attack in a line, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Starlight Mirage",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful piercing attack at surrounding enemies in a large area, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Starlight, Shine Bright",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful piercing attack at surrounding enemies in a large area, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Steady Shot",
+                "type": "Core Passive",
+                "desc": "Billy's DMG increases by 50% when he enters Crouching Shot during his Basic Attack. The effect ends if he moves, returns to standby, or is knocked back or launched by an attack."
+              },
+              {
+                "name": "Additional Ability: Team Starlight",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nAfter Billy uses a Chain Attack, the DMG of his next Ultimate is increased by 50%, stacking up to 2 times. This effect resets whenever an Ultimate is activated."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Dazzling Entrance",
+                "type": "Mindscape 1",
+                "desc": "When Billy hits an enemy with a Dash Attack or Dodge Counter, he gains an additional 2.7 Energy. Can trigger once every 5s."
+              },
+              {
+                "name": "Roaming Gunslinger",
+                "type": "Mindscape 2",
+                "desc": "Billy's Dodge Counter DMG increases by 25%. Rolling Shots during his Basic Attacks count as dodges, making Billy Invulnerable during skill activation and able to trigger Perfect Dodges. When a Rolling Shot triggers a Perfect Dodge, it will automatically follow up with a Dodge Counter."
+              },
+              {
+                "name": "Teachings of the Starlight Knights",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Starlight Ballistics",
+                "type": "Mindscape 4",
+                "desc": "When Billy hits an enemy with his EX Special Attack, the skill's CRIT Rate increases based on the distance from the enemy. The closer he is to the target, the greater the effect, up to a maximum increase of 32%."
+              },
+              {
+                "name": "Lost Technological Construct",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Starlight Hero",
+                "type": "Mindscape 6",
+                "desc": "When Billy accumulates 10 hits on enemies or triggers a Perfect Dodge, his DMG increases by 6%, stacking up to 5 times and lasting until he's knocked back or launched by an attack."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -68304,6 +74140,123 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Wipeout",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 5 slashes, dealing Physical DMG.\nRepeatedly press or hold the button during the 3rd and 5th hits to extend the chainsaw slash attack."
+              },
+              {
+                "name": "Dodge: Shoo!",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Oopsy-Daisy!",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG.\nRepeatedly press or hold the button to extend the chainsaw attack's duration."
+              },
+              {
+                "name": "Dodge Counter: Nope!",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nSlashes enemies in front before detonating her chainsaw, dealing Physical DMG.\nRepeatedly press or hold the button to extend the chainsaw slash attack.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Emergency Measures",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nSlashes enemies in front before detonating her chainsaw, dealing Physical DMG.\nRepeatedly press or hold the button to extend the chainsaw slash attack.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: P\u2014Please Allow Me!",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Quick Sweep",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleash a series of slashes against enemies in front followed by an explosive chainsaw, dealing Physical DMG.\nRepeatedly press or hold to extend the chainsaw slash attack.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Clean Sweep",
+                "type": "Special",
+                "desc": "Press to activate:\nUnleashes a series of slashes upon enemies in front, before detonating the chainsaw, dealing Physical DMG.\nRepeatedly press or hold the button to extend the chainsaw slash attack.\nAnti-Interrupt level is increased while using this skill, and DMG taken is reduced by 40%."
+              },
+              {
+                "name": "EX Special Attack: Skirt Alert",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nUnleashes a series of powerful slashes upon enemies in front, before detonating the chainsaw, dealing massive Physical DMG.\nRepeatedly press or hold the button to extend the chainsaw slash attack at the cost of Energy if the attack connects.\nCharacter is invulnerable during the spinning slash.\nAnti-Interrupt level is increased during the extended slash, and DMG taken is reduced by 40%."
+              },
+              {
+                "name": "Chain Attack: Sorry...",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful slash at enemies in a small area, dealing massive Physical DMG.\nRepeatedly press or hold the button to extend the chainsaw slash attack.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Very, Very Sorry!",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful slash at enemies in a small area, dealing massive Physical DMG.\nRepeatedly press or hold the button to extend the chainsaw slash attack.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Hyperfocus",
+                "type": "Core Passive",
+                "desc": "After holding or tapping repeatedly, when Corin unleashes a continuous extended slash with her Chainsaw, the skill's DMG increases by 37.5%."
+              },
+              {
+                "name": "Additional Ability: Cleanup Assistance",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nCorin deals 35% more DMG to Stunned enemies."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Open Trauma",
+                "type": "Mindscape 1",
+                "desc": "When Corin's Chain Attack or Ultimate hits an enemy, her DMG against the target increases by 12% for 15s."
+              },
+              {
+                "name": "Atomic Smash",
+                "type": "Mindscape 2",
+                "desc": "When Corin's EX Special Attack, Chain Attack or Ultimate hits an enemy, the target's Physical RES is reduced by 0.5%, stacking up to 20 times and lasting 5s. The duration of each stack is calculated separately."
+              },
+              {
+                "name": "Amateur Maid",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Battlefield Retainer",
+                "type": "Mindscape 4",
+                "desc": "When Corin uses a Quick Assist, Defensive Assist, or Chain Attack, she recovers 7.2 Energy. This effect can trigger once every 16s."
+              },
+              {
+                "name": "Special Ops Maid",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Accumulated Release",
+                "type": "Mindscape 6",
+                "desc": "When Corin's extended slash hits an enemy, she obtains a stack of Charge (max 40 stacks).\nDuring a Dodge Counter, Special Attack, EX Special Attack, Quick Assist, or Assist Follow-Up, when her chainsaw detonation hits an enemy, consumes all stacks of Charge. Each stack consumed causes the attack to deal an additional 3% of ATK as DMG."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -69821,6 +75774,138 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Lady's Bat",
+                "type": "Basic",
+                "desc": "Press to activate:\nStrike forward up to 4 times, dealing Physical DMG and Fire DMG.\nWhen Lucy uses her fourth Basic Attack, the currently on-field guard boars will launch Guard Boars: Spinning Swing! together."
+              },
+              {
+                "name": "Guard Boars: To Arms!",
+                "type": "Basic",
+                "desc": "In combat, the guard boars will randomly use a baseball bat, boxing gloves, or a slingshot to automatically attack enemies, dealing Physical DMG."
+              },
+              {
+                "name": "Guard Boars: Spinning Swing!",
+                "type": "Basic",
+                "desc": "When Lucy uses the fourth Basic Attack, or when she gains the Cheer On! status, the guard boars will whirl their baseball bats in a continuous motion, dealing Physical DMG to nearby enemies. If the attack cannot be executed immediately, the guard boars will remember the required number of times to execute it."
+              },
+              {
+                "name": "Dodge: Foul Ball!",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Fearless Boar!",
+                "type": "Dodge",
+                "desc": "Press during dodge to activate:\nRapidly strikes enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Returning Tusk!",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nStrike enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Hit By Pitch!",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nStrikes enemies in front, dealing Fire DMG.\nCharacter is invulnerable during the attack."
+              },
+              {
+                "name": "Defensive Assist: Safe on Base!",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Scored a Run!",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nStrikes enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Solid Hit!",
+                "type": "Special",
+                "desc": "Press to activate:\nRecall a guard boar and launch it as a Line Drive. The guard boar will cause an explosion upon hitting enemies or walls, dealing Fire DMG.\nHold to activate:\nRecall a guard boar and launch it as a Fly Ball. The guard boar will cause an explosion upon landing, dealing Fire DMG."
+              },
+              {
+                "name": "EX Special Attack: Home Run!",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nRecall a guard boar and launch it as a Line Drive. The guard boar will cause an explosion upon hitting enemies or walls, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nWhen the skill hits an enemy, it triggers a Quick Assist.\nWith enough Energy, hold to activate:\nRecall a guard boar and launch it as a Fly Ball. The guard boar will cause an explosion upon landing, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nWhen the skill hits an enemy, it triggers a Quick Assist."
+              },
+              {
+                "name": "Cheer On!",
+                "type": "Special",
+                "desc": "After using EX Special Attack, when a guard boar triggers an explosion, it will apply the Cheer On! status to all squad members and Bangboo, and the guard boars themselves. While under the Cheer On! status, allies' ATK increases by {CAL:13+AvatarSkillLevel(1)*0.8,1,2}% of Lucy's initial ATK + {CAL:40+AvatarSkillLevel(1)*4,1,2}, up to a maximum of 600. The Cheer On! status lasts for 10s when a Line Drive is hit, and 15s when a Fly Ball is hit. Repeated triggers reset the duration."
+              },
+              {
+                "name": "Chain Attack: Grand Slam!",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLucy jumps up and sends a guard boar at enemies in front in a large area, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nWhen the skill hits an enemy, it triggers a Quick Assist."
+              },
+              {
+                "name": "Ultimate: Walk-Off Home Run!",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nLaunch all guard boars sequentially, dealing massive Fire DMG in a large area to enemies ahead.\nWhile using this skill, other squad members recover 10 energy, and the next character to switch in gains an additional 20 energy.\nCharacter is invulnerable while using this skill.\nWhen the skill hits an enemy, it triggers a Quick Assist."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Crimson Mane Guard",
+                "type": "Core Passive",
+                "desc": "When Lucy uses her Special Attack or EX Special Attack, a guard boar will join the battle and call in two other guard boars. The guard boars inherit Lucy's ATK, Impact, and Anomaly Proficiency. The Cheer On! buff for the guard boars is increased to 200% of the original effect, and their attack frequency is increased."
+              },
+              {
+                "name": "Additional Ability: Batter Up!",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nThe guard boars inherit Lucy's CRIT Rate and CRIT DMG."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Drill Formations",
+                "type": "Mindscape 1",
+                "desc": "When the guard boars launch Guard Boars: Spinning Swing!, Lucy recovers 2 Energy. This effect can trigger once every 15s, with each guard boar having its own separate cooldown."
+              },
+              {
+                "name": "Little Boar Captain",
+                "type": "Mindscape 2",
+                "desc": "When Lucy uses a Chain Attack or Ultimate, it grants all squad members and Bangboo, and the guard boars themselves the Cheer On! status for 10s."
+              },
+              {
+                "name": "Ironfist Overseer",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Chaos Ball Game",
+                "type": "Mindscape 4",
+                "desc": "While in the Cheer On! state, allies' CRIT DMG is increased by an additional 10%."
+              },
+              {
+                "name": "Wildland Princess",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Fierce Fangs of Fire",
+                "type": "Mindscape 6",
+                "desc": "When another squad member in the Cheer On! state hits an enemy with an EX Special Attack, a guard boar will drop from the sky and cause an explosion, dealing Fire DMG equal to 300% of the guard boar's ATK. This will extend the duration of the Cheer On! buff for all squad members and Bangboo, and for the guard boars themselves by 5s. The duration can increase up to 3 times, with a maximum duration of 30s. Refreshing the Cheer On! state resets the stack count. After the guard boar's explosion, it will launch Guard Boars: Spinning Swing!."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -71342,6 +77427,133 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Blazing Wind Slash",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerform up to three forward slashes, dealing Physical DMG.\nDuring each slash, pressing triggers Scorchwind, causing the attack to deal increased Fire DMG."
+              },
+              {
+                "name": "Basic Attack: Blazing Wind - Misty Slash",
+                "type": "Basic",
+                "desc": "While in the Molten Edge state, press to activate:\nUnleash up to four forward slashes, dealing Fire DMG.\nIf Manato's HP\u00a0is above 30% when the skill is activated, 3.5% of his Max HP will be consumed."
+              },
+              {
+                "name": "Dodge: Radiant Blade",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Radiant Blade - Zanshin",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nPerform a shoulder slam forward, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Radiant Blade - Battle Sweep",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nPerform a slash followed by a punch at enemies ahead, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Lone Shadow - Regroup",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nSlashes and punches enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Lone Shadow - Mountain Stand",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, inflicting massive Daze and dealing Fire DMG.\nGain 75 Blazing Heart upon activating this skill.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Lone Shadow - Breaking Fang",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleash multiple slashes at enemies ahead, dealing Fire DMG.\nRepeated presses allow up to 7 extra consecutive slashes.\nWhile chaining slashes, if Manato's HP is above 30%, 2% of Max HP is consumed.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Return to Ashes",
+                "type": "Special",
+                "desc": "Press to activate:\nSlash forward at enemies, dealing Fire DMG.\nIf hit by an enemy during the skill, restore 20% of missing HP when unleashing the slash. The healing effects of Special Attack: Return to Ashes and Special Attack: Return to Ashes - Sacrifice have a shared cooldown and can trigger once every 20s.\nIf hit by an enemy during the skill, the slash is enhanced.\nDMG taken is reduced by 40% while using this skill.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Special Attack: Return to Ashes - Sacrifice",
+                "type": "Special",
+                "desc": "Hold to activate:\nEnter a charging state, consuming up to 10% of Max HP and gaining 100 Blazing Heart. HP consumption will at most reduce Manato's HP to 30% of Max HP.\nRelease the button to activate Special Attack: Return to Ashes. If struck during the skill, the slash heals 20% of missing HP. The healing effects of Special Attack: Return to Ashes and Special Attack: Return to Ashes - Sacrifice have a shared cooldown and can trigger once every 20s.\nIf hit by an enemy during the skill or if charging reaches a certain duration, the slash is enhanced.\nDMG taken is reduced by 40% while using this skill.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Return to Ashes - Fall",
+                "type": "Special",
+                "desc": "While in the Molten Edge state and with sufficient Adrenaline, press to activate:\nJump up and unleash a falling slash on enemies in front, dealing massive Fire DMG.\nUpon activating the skill, restore 33% of Max HP.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Blazing Eruption",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nHurls his sword forward, then charges the enemy to trigger an explosion, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Musou Aratama",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nJump into the air and deliver a falling slash at enemies in front, followed by an explosion, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Mighty Molten Edge",
+                "type": "Core Passive",
+                "desc": "Manato gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1.\nAll Fire DMG Manato deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nWhen Manato uses Special Attack: Return to Ashes - Sacrifice or a Defensive Assist, he accumulates Blazing Heart, up to a maximum of 100 points. At 75 Blazing Heart, Manato enters the Molten Edge state. While in the Molten Edge state, Manato consumes 3.3 Blazing Heart per second. When Blazing Heart is fully depleted, he exits Molten Edge.\nWhile in the Molten Edge state, Manato's Basic Attacks are enhanced, and he can use EX Special Attack: Return to Ashes - Fall.\nWhen consuming HP during Basic Attack: Blazing Wind - Misty Slash or during the consecutive slashes from an Assist Follow-Up, that attack's CRIT DMG increases by 50%, and the Adrenaline Generation Rate increases by 100%.\nWhile in the Molten Edge state, Manato's CRIT Rate increases by 10%, and his Fire DMG increases by 20%."
+              },
+              {
+                "name": "Additional Ability: Rekindled Heart",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Support or Stun character:\nWhen Manato uses his Ultimate, he gains 8 stacks of Remnant Flame, and when using a Chain Attack, he gains 4 stacks of Remnant Flame, lasting 60s, stacking up to 20 times. Repeated triggers reset the duration. While launching Basic Attack: Blazing Wind - Misty Slash or during the consecutive slashes of an Assist Follow-Up, if his HP is below 100% of Max HP, one stack of Remnant Flame is consumed to restore 2% of his Max HP."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Drifter's Rules of Survival",
+                "type": "Mindscape 1",
+                "desc": "Whenever Manato loses HP, the amount of HP lost is tallied. Each 1% of his Max HP tallied increases the Fire DMG of Assist Follow-Ups and Basic Attacks by 0.4%, up to a max of 20%."
+              },
+              {
+                "name": "Day & Night, Kitchen & Love",
+                "type": "Mindscape 2",
+                "desc": "While in the Molten Edge state, Manato ignores 8% of a target's Fire RES. After being hit by an enemy while using Special Attack: Return to Ashes or Special Attack: Return to Ashes - Sacrifice, press to trigger an Assist Follow-Up."
+              },
+              {
+                "name": "Enter the Realm of Urban Legends",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Childhood Oath",
+                "type": "Mindscape 4",
+                "desc": "Max HP increases by 8%. During Special Attack: Return to Ashes and Special Attack: Return to Ashes - Sacrifice, when Manato takes fatal DMG, he remains in battle, with his HP not dropping below 1. This effect can trigger once every 10s."
+              },
+              {
+                "name": "Lone Shadow Returns to the Pack",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Beyond Dreams of the Past",
+                "type": "Mindscape 6",
+                "desc": "When Special Attack: Return to Ashes hits a Stunned enemy, Manato gains 75 Blazing Heart and 4 stacks of Remnant Flame, and pressing will launch an Assist Follow-Up. This Remnant Flame effect can trigger once every 20s. When his Assist Follow-Up hits an enemy, Manato's Fire DMG increases by 3% for 8s, stacking up to 5 times. Repeated triggers reset the duration."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -72863,6 +79075,128 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Cunning Combo",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 3 strikes, dealing Physical DMG."
+              },
+              {
+                "name": "Basic Attack: Do As I Please",
+                "type": "Basic",
+                "desc": "After using a Special Attack, EX Special Attack, Chain Attack, or Ultimate, Nicole can reload, and her Basic Attack and Dash Attack are enhanced, increasing the power of her bullets."
+              },
+              {
+                "name": "Dodge: Speed Demon",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\nDrag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to dodge, then hold to reload while dodging, enhancing Basic Attacks and Dash Attacks up to 8 times."
+              },
+              {
+                "name": "Dash Attack: Jack in the Box",
+                "type": "Dodge",
+                "desc": "When dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} during a dodge, press :\nDashes in the target direction and strikes nearby enemies, dealing Physical DMG.\nWhen not dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} during a dodge, press :\nVaults backward and launches a ranged strike against enemies in front, dealing Physical DMG.\nAutomatically reloads after the attack to enhance her Basic Attack and Dash Attack, up to 8 times."
+              },
+              {
+                "name": "Dodge Counter: Diverted Bombard",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nDodge backwards and send a ranged strike at enemies in front, dealing Ether DMG.\nCharacter is invulnerable while using this skill.\nAutomatically reloads after the attack to enhance Basic Attack and Dash Attack up to 8 times."
+              },
+              {
+                "name": "Quick Assist: Emergency Bombard",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nDodge backwards and send a ranged strike at enemies in front, dealing Ether DMG.\nCharacter is invulnerable while using this skill.\nAutomatically reloads after the attack to enhance Basic Attack and Dash Attack up to 8 times."
+              },
+              {
+                "name": "Defensive Assist: The Hare Strikes Back!",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Window of Opportunity",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nCharge forward and bombard enemies, dealing Ether DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Sugarcoated Bullet",
+                "type": "Special",
+                "desc": "Press to activate:\nUnleashes a ranged strike against enemies in front, dealing Ether DMG.\nAnti-Interrupt level is increased while using this skill.\nAutomatically reloads after the attack to enhance Basic Attack and Dash Attack up to 8 times."
+              },
+              {
+                "name": "EX Special Attack: Stuffed Sugarcoated Bullet",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nA powerful ranged strike, generating an energy field that pulls enemies towards its center to deal Ether DMG.\nHold down to charge up this attack, during which a small energy field is generated at the muzzle as Energy is consumed, dealing bonus DMG to enemies nearby.\nCharacter is invulnerable while using this skill.\nA Quick Assist is triggered when this skill hits an enemy.\nAutomatically reloads after the attack to enhance Basic Attack and Dash Attack up to 8 times."
+              },
+              {
+                "name": "Chain Attack: Ether Shellacking",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful ranged strike at enemies in a small area, generating an energy field that pulls enemies towards its center to deal Ether DMG.\nCharacter is invulnerable while using this skill.\nA Quick Assist is triggered when this skill hits an enemy.\nAutomatically reloads after the attack to enhance Basic Attack and Dash Attack up to 8 times."
+              },
+              {
+                "name": "Ultimate: Ether Grenade",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful ranged strike at enemies in a small area, generating an energy field that pulls enemies towards its center to deal Ether DMG.\nWhen using this skill, other squad members recover 10 Energy. The next character to switch in gains an additional 20 Energy.\nCharacter is invulnerable while using this skill.\nA Quick Assist is triggered when this skill hits an enemy.\nAutomatically reloads after the attack to enhance Basic Attack and Dash Attack up to 8 times."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Mechanical Case",
+                "type": "Core Passive",
+                "desc": "After hitting an enemy with a Special Attack, EX Special Attack, Chain Attack, or Ultimate, Nicole can reload, enhancing her Basic Attack and Dash Attack. When her enhanced bullets or Energy Field hits an enemy, the target's DEF is reduced by 40% for 3.5s."
+              },
+              {
+                "name": "Additional Ability: Hare of Many Burrows",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nWhen Nicole's Core Passive: Mechanical Case applies a debuff to an enemy, all units deal 25% more Ether DMG to the target for 3.5s."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Supercharged Bomb",
+                "type": "Mindscape 1",
+                "desc": "The DMG and the Anomaly Buildup inflicted by Nicole's EX Special Attack increases by 16%. For each additional 0.1s of charging when Nicole activates her EX Special Attack, the duration of the energy field created at the target location increases by 0.15s"
+              },
+              {
+                "name": "Charging Device",
+                "type": "Mindscape 2",
+                "desc": "Nicole recovers 5 Energy when Core Passive: Mechanical Case's debuff is triggered. This effect can trigger once every 15s."
+              },
+              {
+                "name": "A Hare's Cunning",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Field Expansion",
+                "type": "Mindscape 4",
+                "desc": "When Nicole uses her EX Special Attack, Chain Attack, or Ultimate, the diameter of the energy field generated at the target location is increased by 3m."
+              },
+              {
+                "name": "Industry Star",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Corrupting Energy Field",
+                "type": "Mindscape 6",
+                "desc": "When Nicole's energy fields deal DMG to an enemy, all units' CRIT Rate against that enemy increases by 1.5%, stacking up to 10 times, and lasting 12s. The duration of each stack is calculated separately."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -74384,6 +80718,128 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Unyielding Strikes",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunches up to four consecutive melee attacks, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge: Light as a Swallow",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Sizzling Oil Supreme",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nPerform a quick forward melee attack, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Moving Mountains and Seas",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nPerform a melee attack on enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Lift Your Gaze to Good Fortune",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nPerform a melee attack on enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Intimidating Presence",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Ride the Momentum",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nPerform a melee attack on enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Sonic Pressure-Point Strike",
+                "type": "Special",
+                "desc": "Press to activate:\nDelivers a forward melee technique while tossing firecrackers, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Special Attack: Touch of Death",
+                "type": "Special",
+                "desc": "With Break Force, press to activate:\nSpecial Attack: Touch of Death attacks centered on the enemy, dealing Physical DMG.\nThe skill can be chained up to three times. Each use of Special Attack: Touch of Death consumes 1 point of Break Force.\nWhen Pan Yinhu is the active character, DMG received during the skill is reduced by 40% and Anti-Interrupt Level is increased. If he isn't the active character, he becomes Invulnerable."
+              },
+              {
+                "name": "EX Special Attack: Mountainous Pulse Strike",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nEX Special Attack: Mountainous Pulse Strike unleashes a powerful strike forward, dealing Physical DMG.\nGain 3 points of Break Force on activation. Upon hitting an enemy, it triggers the Quick Assist of the previous character in the squad.\nAgents who enter the field via this Quick Assist will gain the Sheer Force bonus from the Core Passive. After switching out, Pan Yinhu will stay on the field and automatically launch Special Attack: Touch of Death until his Break Force runs out, where he then leaves the field.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Anointed with Wok Steam",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nHop onto the Iron Wok and spin rapidly to ram into enemies, dealing massive Physical DMG to all enemies on the way.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: A Feast Fit for an Emperor!",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nPerform a technique that compresses qi into fried rice and catapults it at foes, dealing massive Physical DMG and healing all squad members for {CAL:100+AvatarSkillLevel(3)*60,1,2} HP, while also applying a 8s heal over time on all squad members, recovering {CAL:0.8+AvatarSkillLevel(3)*0.05,1,2}% HP/s.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Meridian Enlightenment",
+                "type": "Core Passive",
+                "desc": "For a brief period when Pan Yinhu's EX Special Attack: Mountainous Pulse Strike hits an enemy and triggers Quick Assist, the next Agent entering through a Quick Assist or Chain Attack will gain the Meridian Flow effect. This effect provides a Sheer Force boost equal to 18% of Pan Yinhu's initial ATK and lasts for 25s. The Sheer Force provided by this effect cannot exceed 540 points."
+              },
+              {
+                "name": "Additional Ability: Iron Stomach",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Rupture character or shares the same Faction:\nWhen Pan Yinhu hits an enemy with Special Attack: Touch of Death, the enemy suffers the Depleted Qi effect, increasing DMG from all units against the target by 20%. Each hit of Special Attack: Touch of Death inflicts a 10s Depleted Qi effect. This effect does not stack, but repeated hits on the same enemy will extend the duration."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Qi Shield",
+                "type": "Mindscape 1",
+                "desc": "All units deal 10% increased DMG to enemies affected by Depleted Qi."
+              },
+              {
+                "name": "Yunkui Pressure-Point Strike",
+                "type": "Mindscape 2",
+                "desc": "For every 6 points of Break Force consumed, Pan Yinhu will recover 4 Energy, and the Depleted Qi effect applied when Special Attack: Touch of Death hits an enemy will have its duration increased to 12s."
+              },
+              {
+                "name": "Non-Meridian Pressure Point",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "First-Class Head Chef",
+                "type": "Mindscape 4",
+                "desc": "When Ultimate: A Feast Fit for an Emperor! heals all squad members, the HP recovery is increased by 25%, and the healing over time effect is increased by 25%. On activating Ultimate: A Feast Fit for an Emperor!, gain the Backup Provisions effect. Whenever any character in the squad loses HP, consume the Backup Provisions effect to instantly restore 50% of the HP recovered with Ultimate: A Feast Fit for an Emperor!'s instant HP recovery effect. This effect does not stack."
+              },
+              {
+                "name": "\"Thiren\"",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Meridian Theory",
+                "type": "Mindscape 6",
+                "desc": "The Meridian Flow effect provided by Core Passive: Meridian Enlightenment increases by an extra 6% of Pan Yinhu's initial ATK. The maximum Sheer Force provided by this effect increases to 720."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -75905,6 +82361,133 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Load Up and Roll Out",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 4 slashes, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge: Handbrake Drift",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Pedal to the Metal",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Power Drift",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nUnleash a downward smash attack in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Brake Tap",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nLaunches a downward smash attack at enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Emergency Brake",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Overtaking Maneuver",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nCharge and slash enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Tire Spin",
+                "type": "Special",
+                "desc": "Press to activate:\nPiper spins and launches a sweeping slash around her, dealing Physical DMG.\nHold to extend the skill duration, unleashing increasingly powerful spinning slashes and increasing the charge level of the skill up to 2 times.\nIf the skill is used after the first 3 hits of a Basic Attack, Dash Attack, or Dodge Counter, you can quickly activate Special Attack: Tire Spin of an increased charge level.\nDuring the skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%."
+              },
+              {
+                "name": "Special Attack: One Trillion Tons",
+                "type": "Special",
+                "desc": "While Special Attack: Tire Spin is active, release to trigger a downward smash attack based on the charge level of Special Attack: Tire Spin, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Engine Spin",
+                "type": "Special",
+                "desc": "With enough Energy, continue holding after Special Attack: Tire Spin reaches maximum charge level to activate:\nRapidly spins, unleashing powerful spinning slashes around her and dealing massive Physical DMG.\nThis skill consumes Energy continuously for up to 3s.\nDuring the skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%."
+              },
+              {
+                "name": "EX Special Attack:\u00a0Really Heavy",
+                "type": "Special",
+                "desc": "During EX Special Attack: Engine Spin, release to activate:\nPiper unleashes a downward smash attack, dealing massive Physical DMG.\nIf the duration of EX Special Attack: Engine Spin reaches its limit or Energy drops to 20, EX Special Attack: Really Heavy will automatically activate.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack:\u00a0Buckle Up",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful downward smash at enemies ahead in a large area, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Hold~ On~ Tight~",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nRapidly spins, unleashing powerful spinning slashes at enemies in a large area ahead, followed by a downward smash, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Power Charge",
+                "type": "Core Passive",
+                "desc": "When Piper's EX Special Attack: Engine Spin or Ultimate hits an enemy, she gains 1 stack of Power, up to a maximum of 20 stacks, lasting for 12s. Repeated triggers reset the duration. For every stack of Power, Piper's Physical Anomaly Buildup Rate increases by 4%."
+              },
+              {
+                "name": "Additional Ability: Synced Acceleration",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of Power, all squad members' DMG is increased by 18%."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Leisure Moment",
+                "type": "Mindscape 1",
+                "desc": "When Piper's Special Attack: Tire Spin, EX Special Attack: Engine Spin, or Ultimate hits an enemy with a spinning slash, there is a 50% chance to gain an additional stack of Power. The maximum stack limit of Power is increased to 30."
+              },
+              {
+                "name": "Motivation",
+                "type": "Mindscape 2",
+                "desc": "During Special Attack: Tire Spin and EX Special Attack: Engine Spin, Piper's movement speed increases. When using Special Attack: One Trillion Tons, EX Special Attack: Really Heavy, or Ultimate to launch a downward smash that hits an enemy, the Physical DMG dealt by the move is increased by 10%. For each stack of Power, this buff is further increased by 1%."
+              },
+              {
+                "name": "Truck Expert",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Refined Techniques",
+                "type": "Mindscape 4",
+                "desc": "Whenever a squad member inflicts an Attribute Anomaly on an enemy, Piper recovers 20 Energy. This effect can trigger once every 30s."
+              },
+              {
+                "name": "Personal Hobbies",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Mild Excitement",
+                "type": "Mindscape 6",
+                "desc": "Increases the duration limit of EX Special Attack: Engine Spin by 2s and extends the duration of Power by 4s."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -77426,6 +84009,133 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Swift Strike",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 3 attacks forward, dealing Physical DMG."
+              },
+              {
+                "name": "Basic Attack: Leaping Strike",
+                "type": "Basic",
+                "desc": "Hold to activate:\nLeap forward and unleash a series of slashes, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge: Reversal Shot",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: First Strike Advantage",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nDash forward and slash, dealing Physical DMG."
+              },
+              {
+                "name": "Dodge Counter: Relentless Retribution",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nThrust at enemies in front, then follow up with a swift slash, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Contract - Bodyguard",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nThrust at enemies in front, followed by rapid slashes, dealing Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Evasive Assist: Contract - Outsourced Combat",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nDodges the enemy's attack and activates Vital View.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Independent Pricing",
+                "type": "Assist",
+                "desc": "Press after an Evasive Assist to activate:\nLeap forward into the air and fire, dealing Physical DMG.\nUpon activating this skill, consume 1 Assist Point to enter the Hunter's Gait state.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Rending Claw",
+                "type": "Special",
+                "desc": "Press to activate:\nPerform a rapid back-and-forth piercing attack, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Special Attack: Rending Claw - Nightmare Shadow",
+                "type": "Special",
+                "desc": "While Pulchra is in the Hunter's Gait state, and when another active character in the squad hits an enemy with a heavy attack from a Special Attack or EX Special Attack:\nDash back-and-forth piercing enemies centered on the target, dealing Physical DMG.\nAfter using this skill, if another active character in the squad hits an enemy, Pulchra will repeat the attack up to 5 additional times, with the final attack being a more powerful Finishing Move.\nCharacter is invulnerable while using this skill.\nSpecial Attack: Rending Claw - Nightmare Shadow is an Aftershock attack."
+              },
+              {
+                "name": "EX Special Attack: Rending Claw - Flashstep",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nPierce back and forth times, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Chain Attack: Hey, Didn't Expect That, Right?",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a charged shot forward, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Oh, Time to Play?",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleash a powerful shot at enemies in a large area ahead, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Hunter's Instinct",
+                "type": "Core Passive",
+                "desc": "When Pulchra activates an EX Special Attack, Assist Follow-Up, Chain Attack, or Ultimate, she enters the Hunter's Gait state, increasing the Daze she deals by 30% for 6s. After switching to another character, if Pulchra is still in the Hunter's Gait state, the state will last until Pulchra switches back in. While in the Hunter's Gait state and as the active character, when Pulchra lands a heavy attack on enemies, she can trigger a Quick Assist from the previous character in the squad."
+              },
+              {
+                "name": "Additional Ability: Business Partner",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Attack or Rupture character or shares the same Faction:\nWhen Pulchra hits enemies with Special Attack: Rending Claw - Nightmare Shadow, EX Special Attack: Rending Claw - Flashstep, Assist Follow-Up: Independent Pricing, Chain Attack: Hey, Didn't Expect That, Right?, or Ultimate: Oh, Time to Play?, it applies the Binding Trap effect for 15s. After applying Binding Trap, all units' Aftershock DMG against the target is increased by 30%."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Self-Interest",
+                "type": "Mindscape 1",
+                "desc": "When dealing DMG to enemies affected by Binding Trap, increase own CRIT Rate by 10%."
+              },
+              {
+                "name": "Opportunistic",
+                "type": "Mindscape 2",
+                "desc": "While in the Hunter's Gait state from Core Passive: Hunter's Instinct, Pulchra's ATK is increased by an additional 10%."
+              },
+              {
+                "name": "Territorial",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Joy of the Hunt",
+                "type": "Mindscape 4",
+                "desc": "Reduces Energy Cost of activating EX Special Attack: Rending Claw - Flashstep by 5."
+              },
+              {
+                "name": "Tail Game",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Behind the Mask",
+                "type": "Mindscape 6",
+                "desc": "Special Attack: Rending Claw - Nightmare Shadow's DMG is increased by 15%, and the number of times the repeated attack can trigger is increased by 2. Additional Ability: Business Partner's Binding Trap effect now also applies to all damage types, not just Aftershock DMG."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -78947,6 +85657,128 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Lightning Strike",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 4 attacks in front, dealing Physical DMG and Electric DMG."
+              },
+              {
+                "name": "Basic Attack: Lightning Strike - Electrified",
+                "type": "Basic",
+                "desc": "When Resolve is above or equal to 75%, hold to activate.\nConsume 75% Resolve to launch consecutive attacks in front, followed by a Finishing Move, dealing Electric DMG.\nWhen the Finishing Move hits an enemy, it triggers the Quick Assist of the squad member positioned before Seth.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Dodge: Evasion Maneuver",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Thunder Assault",
+                "type": "Dodge",
+                "desc": "Press during a Dodge to activate:\nCharge forward with a shield attack, dealing Physical DMG.\nDamage received during the move is decreased by 40%."
+              },
+              {
+                "name": "Dodge Counter: Retreat to Advance",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nUnleash a quick downward slash on enemies in front, dealing Electric DMG.\nAfter the move, hold to chain into EX Special Attack: Thunder Shield Rush - High Voltage, enabling faster charging.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Armed Support",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nUnleash a quick downward slash on enemies in front, dealing Electric DMG.\nAfter the move, hold to chain into EX Special Attack: Thunder Shield Rush - High Voltage, enabling faster charging.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Thundershield",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nUpon activation, gain 25% Resolve.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Public Security Ruling",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nLaunch a forward thrust attack, followed by two horizontal slashes, dealing Electric DMG.\nWhen the skill hits an enemy, it triggers the Quick Assist of the squad member positioned before Seth.\nAfter activating the move, hold to transition to EX Special Attack: Thunder Shield Rush - High Voltage and charge faster.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Thunder Shield Rush",
+                "type": "Special",
+                "desc": "Press to activate:\nLaunch two shield attacks forward, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "EX Special Attack: Thunder Shield Rush - High Voltage",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nUnleash a series of slashes in front, dealing massive Electric DMG.\nHold to charge the move, and Seth will dash forward, unleashing a series of powerful slashes, dealing massive Electric DMG.\nActivating the move accumulates 75% Resolve.\nAnti-Interrupt level is increased while charging this skill, and damage taken is reduced by 40%.\nSeth is invulnerable during the consecutive slashes."
+              },
+              {
+                "name": "Chain Attack: Final Judgment",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunch a series of slashes in front, dealing massive Electric DMG.\nActivating the move accumulates 75% Resolve.\nAfter the move, hold to chain into EX Special Attack: Thunder Shield Rush - High Voltage, enabling faster charging.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Justice Prevails",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nLaunch a series of upward attacks in front, followed by a Finishing Move, dealing massive Electric DMG.\nActivating the move accumulates 75% Resolve, and grants 3 additional Assist Points.\nAfter the move, hold to chain into EX Special Attack: Thunder Shield Rush - High Voltage, enabling faster charging.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Protector",
+                "type": "Core Passive",
+                "desc": "When Seth uses EX Special Attack: Thunder Shield Rush - High Voltage, he gains a Shield of Firm Resolve equal to 80% of his initial ATK, up to a max of 3,000 points, and lasting 25s. This effect can trigger once every 10s. When Basic Attack: Lightning Strike - Electrified or Assist Follow-Up: Public Security Ruling triggers a Quick Assist or Chain Attack, causing another squad member to enter the field, that squad member gains a Shield of Firm Resolve equal to 80% of Seth's initial ATK, up to a max of 3,000 points, and lasting 25s. This effect can trigger once every 10s. Having a Shield of Firm Resolve increases Anomaly Proficiency by 100."
+              },
+              {
+                "name": "Additional Ability: High Spirit",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nWhen Seth's Chain Attack: Final Judgment or Finishing Move during Basic Attack: Lightning Strike - Electrified hits an enemy, the target's Anomaly Buildup RES to all Attributes is reduced by 20%, lasting 20s."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Heroism",
+                "type": "Mindscape 1",
+                "desc": "The shield value provided by Shield of Firm Resolve and its maximum limit is increased by 30%. When Shield of Firm Resolve ends, the Anomaly Proficiency increase provided by Core Passive: Protector lasts an additional 10s."
+              },
+              {
+                "name": "Recklessness of Youth",
+                "type": "Mindscape 2",
+                "desc": "Upon entering battle, Seth immediately gains 75% Resolve. Hitting an enemy with Basic Attack: Lightning Strike - Electrified increases the move's accumulated Electric Anomaly Buildup by 35%."
+              },
+              {
+                "name": "Slow Reflexes",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Core Aspiration",
+                "type": "Mindscape 4",
+                "desc": "The Daze caused by Defensive Assist: Thundershield is increased by 25%."
+              },
+              {
+                "name": "Distant Admiration",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Idealist",
+                "type": "Mindscape 6",
+                "desc": "When Seth lands a Finishing Move on an enemy with Basic Attack: Lightning Strike - Electrified, it deals additional damage equal to 500% of his ATK. The attack is guaranteed to trigger a critical hit, and CRIT DMG is increased by 60%."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -80468,6 +87300,138 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Making Rice Cakes",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 3 attacks, dealing Physical DMG."
+              },
+              {
+                "name": "Basic Attack: Making Rice Cakes (Frosted Banner)",
+                "type": "Basic",
+                "desc": "When Frosted Banner is active, press to activate:\nUnleashes up to 3 faster attacks in front, dealing Ice DMG."
+              },
+              {
+                "name": "Dodge: Grab a Bite",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: 50/50",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG."
+              },
+              {
+                "name": "Dash Attack: 50/50 (Frosted Banner)",
+                "type": "Dodge",
+                "desc": "When Frosted Banner is active, press during a Dodge to activate:\nSlashes enemies in front, dealing Ice DMG."
+              },
+              {
+                "name": "Dodge Counter: Away From My Snacks",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nSlashes enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: A Set for Two",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nSlashes enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Guarding Tactics",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Sweeping Strike",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nCharges and strikes enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\nHolding while using this skill allows for a quick transition to Fly the Flag."
+              },
+              {
+                "name": "Special Attack: Cooling Bento",
+                "type": "Special",
+                "desc": "Press to activate:\nSoukaku releases a wind current in front of her and unleashes her finishing move, dealing Ice DMG.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%.\nHolding while using this skill allows for a quick transition to Fly the Flag."
+              },
+              {
+                "name": "EX Special Attack: Fanning Mosquitoes",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nReleases wind currents of extended range in front of her, dealing massive Ice DMG.\nThis skill can be triggered consecutively by pressing repeatedly. Each use consumes a specified amount of Energy. When Soukaku's Energy is depleted, or you stop pressing the button, she unleashes a powerful finishing move that deals massive Ice DMG.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%.\nHolding while using this skill allows for a quick transition to Fly the Flag."
+              },
+              {
+                "name": "Special Attack: Rally!",
+                "type": "Special",
+                "desc": "Hold to activate:\nSoukaku plunges her weapon into the ground, morphs it into a flag, and launches Fly the Flag, dealing Ice DMG. Hitting an enemy with Fly the Flag triggers a Quick Assist.\nPressing or after Fly the Flag activates a Special Attack as she retracts the flag, dealing Ice DMG.\nIf Soukaku owns 3 stacks of Vortex on using Fly the Flag, she consumes all 3 stacks and enters the Frosted Banner state. In the Frosted Banner state, she can unleash an enhanced Basic Attack or an enhanced Dash Attack, dealing massive Ice DMG. This effect can last up to 45s or stack up to 6 times.\nSoukaku's weapon gains Vortexes in the following circumstances:\nGains 1 stack of Vortex when launching an EX Special Attack,\nGains 1 stack of Vortex when launching a Chain Attack,\nGains 3 stacks of Vortex when launching an Ultimate.\nSoukaku can accumulate a maximum of 3 stacks of Vortex."
+              },
+              {
+                "name": "Chain Attack: Pudding Slash",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nSoukaku quickly unleashes a series of strikes at enemies in front of her and follows up with Fly the Flag, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Jumbo Pudding Slash",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nSoukaku quickly unleashes an extended series of strikes at enemies in front of her and follows up with Fly the Flag, dealing massive Ice DMG.\nUpon activating this skill, Soukaku enters the Masked state, increasing her CRIT Rate by 15% for 15s.\nUpon activating this skill, other squad members recover 10 Energy. The next character to switch in gains an additional 20 Energy.\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Blade Banner",
+                "type": "Core Passive",
+                "desc": "When Soukaku launches Fly the Flag, her ATK is increased by 20% of her initial ATK, up to 500, for 22s. When consuming Vortex during Fly the Flag, the ATK increase is doubled, up to a max of 1,000. This buff can be passed along to characters switching in via Quick Assists or Chain Attacks triggered by Fly the Flag, and it refreshes the duration of the buff."
+              },
+              {
+                "name": "Additional Ability: Group Set Meal",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nWhen Soukaku consumes Vortex to activate Fly the Flag, the Ice DMG of all squad members is increased by 20% for 22s."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Uplifting Current",
+                "type": "Mindscape 1",
+                "desc": "When Soukaku triggers Core Passive: Blade Banner or Additional Ability: Group Set Meal, the buff duration is increased by 8s."
+              },
+              {
+                "name": "Experimental Charging Module",
+                "type": "Mindscape 2",
+                "desc": "When Soukaku's Basic Attack, Dash Attack, Dodge Counter, or Quick Assist hits an enemy, there's a 15% chance she gains 1 stack of Vortex, triggering up to once per second.\nWhen Vortex reaches max stacks, any additional stacks grant Soukaku 1.2 Energy instead."
+              },
+              {
+                "name": "Attendance Meal Allowance",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Hypothermia",
+                "type": "Mindscape 4",
+                "desc": "If an enemy is hit by Fly the Flag, the target's Ice RES is reduced by 10% for 8s."
+              },
+              {
+                "name": "Late-Night Snacks",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Northern Wind",
+                "type": "Mindscape 6",
+                "desc": "While in the Frosted Banner state, the number of usable enhanced Basic Attacks and enhanced Dash Attacks is increased to 12, and also deal 45% more DMG."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -81982,6 +88946,138 @@
         "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
         "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Engineering Insurance",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerforms up to four attacks forward, dealing Fire DMG."
+              },
+              {
+                "name": "Basic Attack: Hat Trick",
+                "type": "Basic",
+                "desc": "When Norma is the active character and is in combat, she gains 1.5% Preheated Chamber per second.\nWhen Top Hat Companion is on her head, hold to activate:\nAfter firing, Norma throws out Top Hat Companion, ordering it to unleash a round of aerial fire, dealing Fire DMG and storing the current Preheated Chamber.\nWhen the skill hits an enemy, it triggers the previous character's Quick Assist. This effect can trigger once every 5s.\nOnce Top Hat Companion has been thrown out, it will accumulate and retain Preheated Chamber at the same speed on behalf of Norma. Norma does not need to stay on the field during this period.\nAfter Norma retrieves the Top Hat Companion, she immediately gains the stored Preheated Chamber.\nWhen holding , the Top Hat Companion will accelerate toward Norma.\nIf retrieving the Top Hat Companion would raise Preheated Chamber to 80% or higher, the Top Hat Companion will automatically accelerate toward Norma.\nWhen Norma switches from on field to off field while in combat, if Preheated Chamber is not full, Top Hat Companion automatically enters the battlefield.\nAnti-Interrupt level is increased while using this skill."
+              },
+              {
+                "name": "Dodge: Development Protocols",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Deadline Rush",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSpins while firing at nearby enemies, dealing Fire DMG."
+              },
+              {
+                "name": "Dodge Counter: Compliance Testing",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nCommands the Rumble Drill to continuously drill the target, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Quick Assist: Roaring Backup",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nCommands the Rumble Drill to continuously attack the target, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Defensive Assist: Technological Bastion",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Assist Follow-Up: Technological Suppression",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleashes a series of attacks, dealing Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Thermal Shutdown",
+                "type": "Special",
+                "desc": "Press to activate:\nBombards enemies, dealing Fire DMG."
+              },
+              {
+                "name": "EX Special Attack: En-Nah Barrage",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nOperates the turret to fire continuously and launch different types of missiles based on the target's state:\nWhen the primary target is not Stunned, launches an Armor-Piercing Warhead, dealing Fire DMG and inflicting a large amount of Daze.\nWhen the primary target is Stunned, launches a High-Explosive Warhead, dealing greater Fire DMG.\nAfter using this skill, Norma gains 16% and enters the En-Nah Barrage state for 32s. While En-Nah Barrage is active, Norma deploys two En-Nah Turrets to join the battle.\nContinuing to hold extends the firing time by up to 2s, continuously consuming energy. For each 1 point of energy consumed while holding, Norma gains an additional 0.4% Preheated Chamber, and this round of En-Nah Barrage lasts 0.8s longer, up to a maximum additional duration of {CAL:2*20*0.8,1,2}s.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Special Attack: Target Practice",
+                "type": "Special",
+                "desc": "During battle, automatically attacks enemies, dealing Fire DMG."
+              },
+              {
+                "name": "EX Special Attack: Explosive Experiment",
+                "type": "Special",
+                "desc": "When any squad member Stuns an enemy, or when Norma consumes to trigger a Chain Attack, deploys its missile bay for 8s. Repeated triggers reset the duration.\nDuring this time, En-Nah Turrets automatically attack more frequently. When performing automatic attacks, they launch different missiles based on the enemy's state:\nWhen the primary target is not Stunned, launch an Armor-Piercing Warhead, dealing Fire DMG and inflicting a large amount of Daze.\nWhen the primary target is Stunned, launch a High-Explosive Warhead, dealing greater Fire DMG."
+              },
+              {
+                "name": "Chain Attack: Impact Drill",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nCommands a swarm of Rumble Drills to deal multiple hits, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Ultimate: Doctrine of Superior Firepower",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nCalls in tactical artillery to bombard enemies ahead, dealing massive Fire DMG.\nUpon activation, immediately gains 30% .\nCharacter is invulnerable while using this skill."
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Precise Guidance",
+                "type": "Core Passive",
+                "desc": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.7%, up to a maximum increase of 85%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.8% when they hit an enemy, up to a maximum increase of 40%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
+              },
+              {
+                "name": "Additional Ability: Advantage in Numbers",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Attack or Rupture character, or shares the same Faction:\nWhen Norma, her creations, or Combat Bangboo hit an enemy, they apply 1 stack of Tech Divide. Each stack of Tech Divide increases the target's Stun DMG Multiplier by 3%, stacking up to 10 times. This effect can stack once every 0.5s.\nEnemies with Tech Divide stacks have their Stun duration increased by 2s upon becoming Stunned. This Stun duration increase cannot stack with similar effects. When an enemy affected by Tech Divide recovers from Stun, the Tech Divide effect ends.\nWhile is active, Norma's ATK increases by 44. This effect scales with character level, increasing by 14 per level, up to a maximum increase of 870.\nWhile En-Nah Barrage is active, DMG dealt by all squad members increases by 20%."
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Visionary Extremism",
+                "type": "Mindscape 1",
+                "desc": "The duration of the En-Nah Turret's missile bay deployed by EX Special Attack: Explosive Experiment increases to 12s. When an Armor-Piercing Warhead or High-Explosive Warhead from any skill hits an enemy, the target's All-Attribute RES is reduced by 15% for 15s."
+              },
+              {
+                "name": "Axiom of Universal Unity",
+                "type": "Mindscape 2",
+                "desc": "The Stun DMG Multiplier granted by each stack of Tech Divide in Norma's Additional Ability: Advantage in Numbers is increased to 6%. When Norma uses Basic Attack: Hat Trick while in combat, she gains 25 Energy. This effect can trigger once every 20s."
+              },
+              {
+                "name": "Natural-Born Villain Paradox",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Bangboo Superiority Theory",
+                "type": "Mindscape 4",
+                "desc": "When Norma consumes Preheated Chamber to trigger a Chain Attack, both Norma and the corresponding Agent gain 200 Decibels."
+              },
+              {
+                "name": "En-Nah Big Bang",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "The Primary Cause of Genius",
+                "type": "Mindscape 6",
+                "desc": "After any squad member Stuns an enemy, Norma will continuously summon missiles to bombard random enemies on the field for 6s. A missile is launched every 0.75s, dealing Fire DMG equal to 200% of Norma's ATK to enemies within the area. This DMG is considered Ultimate DMG. Repeated triggers reset the duration. This effect can trigger once every 30s. The Daze inflicted by Armor-Piercing Warhead increases by 30%, and the DMG dealt by High-Explosive Warhead increases by 30%."
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {

@@ -110,6 +110,66 @@ function cleanText(s, len = 220) {
     .slice(0, len);
 }
 
+function cleanKitText(s, len = 2600) {
+  return String(s || '')
+    .replace(/\r/g, '')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/(?:p|div|li|h\d)>/gi, '\n')
+    .replace(/<IconMap:[^>]+>/gi, '')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\{RUBY_[^}]+\}/g, '')
+    .replace(/[ \t]+\n/g, '\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .replace(/[ \t]{2,}/g, ' ')
+    .trim()
+    .slice(0, len);
+}
+
+function cleanKitName(s, len = 120) {
+  return cleanKitText(s, len).replace(/\n+/g, ' ').trim();
+}
+
+function formatKitNumber(value, isPercent = false) {
+  const n = Number(value);
+  if (!Number.isFinite(n)) return String(value ?? '');
+  const raw = isPercent && Math.abs(n) <= 10 ? n * 100 : n;
+  const fixed = Math.abs(raw) >= 100 ? raw.toFixed(0)
+    : Math.abs(raw) >= 10 ? raw.toFixed(1)
+      : raw.toFixed(2);
+  const text = fixed.replace(/\.0+$/, '').replace(/(\.\d*[1-9])0+$/, '$1');
+  return text + (isPercent ? '%' : '');
+}
+
+function applyKitParams(desc, params = []) {
+  const list = Array.isArray(params) ? params : [];
+  return String(desc || '').replace(/#(\d+)(?:\[[^\]]+\])?(%)?/g, (_, rawIndex, pct) => {
+    const value = list[Number(rawIndex) - 1];
+    return value === undefined ? _ : formatKitNumber(value, !!pct);
+  });
+}
+
+function kitSource(game, source = 'Nanoka') {
+  const manifest = exists('Nanoka/manifest.json') ? readJson('Nanoka/manifest.json') : {};
+  const key = game === 'wuwa' ? 'ww' : game;
+  return {
+    source,
+    channel: NANOKA_CHANNEL,
+    version: manifest[key]?.[NANOKA_CHANNEL === 'beta' ? 'latest' : 'live'] || manifest[key]?.latest || manifest[key]?.live || null,
+  };
+}
+
+function kitEntry({ name, type, desc, icon, params, stats }) {
+  const body = cleanKitText(applyKitParams(desc, params));
+  if (!name && !body) return null;
+  return {
+    name: cleanKitName(name || type || 'Skill'),
+    ...(type ? { type: cleanKitName(type, 80) } : {}),
+    ...(body ? { desc: body } : {}),
+    ...(icon ? { icon } : {}),
+    ...(Array.isArray(stats) && stats.length ? { stats: stats.slice(0, 8) } : {}),
+  };
+}
+
 function normKey(s) {
   return String(s || '')
     .normalize('NFKD')
@@ -1561,6 +1621,44 @@ function giSkillIcons(raw) {
     .filter(Boolean);
 }
 
+function giSkillIcon(skill) {
+  const icon = giSkillIconName(skill);
+  return icon ? dbAsset(`Nanoka/gi/assets/skills/${icon}.webp`) : null;
+}
+
+function buildGiKit(raw) {
+  if (!raw) return null;
+  const sections = [];
+  const skills = (raw.skills || [])
+    .map((skill) => kitEntry({
+      name: skill?.name,
+      type: 'Talent',
+      desc: skill?.desc,
+      icon: giSkillIcon(skill),
+    }))
+    .filter(Boolean);
+  if (skills.length) sections.push({ title: 'Talents', entries: skills });
+  const passives = (raw.passives || [])
+    .map((skill) => kitEntry({
+      name: skill?.name,
+      type: 'Passive Talent',
+      desc: skill?.desc,
+      icon: skill?.icon ? dbAsset(`Nanoka/gi/assets/skills/${skill.icon}.webp`) : null,
+    }))
+    .filter(Boolean);
+  if (passives.length) sections.push({ title: 'Passive Talents', entries: passives });
+  const constellations = (raw.constellations || [])
+    .map((rank, index) => kitEntry({
+      name: rank?.name,
+      type: `Constellation ${index + 1}`,
+      desc: rank?.desc,
+      icon: rank?.icon ? dbAsset(`Nanoka/gi/assets/skills/${rank.icon}.webp`) : null,
+    }))
+    .filter(Boolean);
+  if (constellations.length) sections.push({ title: 'Constellations', entries: constellations });
+  return sections.length ? { ...kitSource('gi'), sections } : null;
+}
+
 function loadGiSignatureMap() {
   const rel = 'AsIveHoarded/gi-signatures.json';
   if (!exists(rel)) return new Map();
@@ -1600,6 +1698,7 @@ function buildGiRoster() {
       const signature = signatures.get(nameKey);
       const skillIcons = giSkillIcons(raw);
       const meta = fandom.get(nameKey);
+      const kit = buildGiKit(raw);
       return {
         id: 'gi-' + ch.id,
         n: ch.name,
@@ -1618,6 +1717,7 @@ function buildGiRoster() {
         birthdayArtPool: birthdayArtPool.length ? birthdayArtPool : undefined,
         namecard: GENSHIN_NAMECARD_ART.get(nameKey) || undefined,
         ...(skillIcons.length ? { skillIcons } : {}),
+        ...(kit ? { kit } : {}),
         book,
         ...(signature ? {
           signatureWeapon: signature,
@@ -1746,9 +1846,9 @@ function hsrRequirements(raw) {
 
 function buildHsrLightConeReqMap() {
   const out = new Map();
-  if (!exists('Nanoka/hsr/live/lightcones.json')) return out;
+  if (!exists(`Nanoka/hsr/${nch()}/lightcones.json`)) return out;
   const lookup = nanokaItemLookup('hsr');
-  for (const lc of readJson('Nanoka/hsr/live/lightcones.json')) {
+  for (const lc of readJson(`Nanoka/hsr/${nch()}/lightcones.json`)) {
     if (!lc?.name) continue;
     const rows = [];
     for (const asc of lc.ascensions || []) {
@@ -1768,9 +1868,9 @@ function buildHsrLightConeReqMap() {
 }
 
 function buildHsrLightConeRoster() {
-  if (!exists('Nanoka/hsr/live/lightcones.json')) return [];
+  if (!exists(`Nanoka/hsr/${nch()}/lightcones.json`)) return [];
   const lookup = nanokaItemLookup('hsr');
-  return readJson('Nanoka/hsr/live/lightcones.json')
+  return readJson(`Nanoka/hsr/${nch()}/lightcones.json`)
     .filter((lc) => lc?.name && rarityNumber(lc.rarity, 0) >= 3)
     .map((lc) => {
       const rows = [];
@@ -1799,6 +1899,103 @@ function hsrSignatureForCharacter(name, pathName) {
   return candidates.find((lc) => lc.path === pathName) || null;
 }
 
+function hsrSkillIconAsset(icon) {
+  if (!icon) return null;
+  return dbAsset(`Nanoka/hsr/assets/skills/${String(icon).replace(/\.(png|jpe?g)$/i, '.webp')}`);
+}
+
+function hsrSkillMaxParams(skill) {
+  const levels = Object.values(skill?.level || {});
+  const max = levels.sort((a, b) => Number(b?.level || 0) - Number(a?.level || 0))[0];
+  return max?.param_list || skill?.param_list || [];
+}
+
+function buildHsrKit(raw) {
+  if (!raw) return null;
+  const sections = [];
+  const order = ['Normal', 'BPSkill', 'Ultra', 'Talent', 'Maze', 'MazeNormal'];
+  const skills = Object.values(raw.skills || {})
+    .sort((a, b) => {
+      const ai = order.indexOf(a?.type);
+      const bi = order.indexOf(b?.type);
+      return (ai < 0 ? 99 : ai) - (bi < 0 ? 99 : bi) || Number(a?.id || 0) - Number(b?.id || 0);
+    })
+    .map((skill) => {
+      const icon = Object.values(raw.skill_trees || {})
+        .flatMap((point) => Object.values(point || {}))
+        .find((node) => (node?.level_up_skill_id || []).map(String).includes(String(skill.id)))?.icon;
+      return kitEntry({
+        name: skill?.name,
+        type: skill?.type_name || skill?.tag,
+        desc: skill?.desc || skill?.simple_desc,
+        params: hsrSkillMaxParams(skill),
+        icon: hsrSkillIconAsset(icon),
+      });
+    })
+    .filter(Boolean);
+  if (skills.length) sections.push({ title: 'Skills', entries: skills });
+
+  const traces = Object.values(raw.skill_trees || {})
+    .flatMap((point) => Object.values(point || {}))
+    .filter((node) => Number(node?.point_type) === 3 && (node?.point_name || node?.point_desc))
+    .sort((a, b) => Number(a?.point_id || 0) - Number(b?.point_id || 0))
+    .map((node) => kitEntry({
+      name: node?.point_name,
+      type: 'Major Trace',
+      desc: node?.point_desc,
+      params: node?.param_list,
+      icon: hsrSkillIconAsset(node?.icon),
+    }))
+    .filter(Boolean);
+  if (traces.length) sections.push({ title: 'Major Traces', entries: traces });
+
+  const eidolons = Object.entries(raw.ranks || {})
+    .sort((a, b) => Number(a[0]) - Number(b[0]))
+    .map(([rank, row]) => kitEntry({
+      name: row?.name,
+      type: `Eidolon ${rank}`,
+      desc: row?.desc,
+      params: row?.param_list,
+      icon: hsrSkillIconAsset(row?.icon),
+    }))
+    .filter(Boolean);
+  if (eidolons.length) sections.push({ title: 'Eidolons', entries: eidolons });
+
+  return sections.length ? { ...kitSource('hsr'), sections } : null;
+}
+
+function buildHsrKitMap() {
+  const out = new Map();
+  if (!exists(`Nanoka/hsr/${nch()}/characters.json`)) return out;
+  for (const ch of readJson(`Nanoka/hsr/${nch()}/characters.json`)) {
+    const rawRel = `Nanoka/hsr/${nch()}/raw/characters/${ch.id}.json`;
+    if (!ch?.name || !exists(rawRel)) continue;
+    const kit = buildHsrKit(readJson(rawRel));
+    if (kit) setReqMapEntry(out, ch.name, kit);
+  }
+  return out;
+}
+
+function buildHsrNanokaSignatureMap() {
+  const out = new Map();
+  if (!exists(`Nanoka/hsr/${nch()}/characters.json`)) return out;
+  const lightCones = new Map(buildHsrLightConeRoster().map((lc) => [String(lc.id), lc]));
+  for (const ch of readJson(`Nanoka/hsr/${nch()}/characters.json`)) {
+    const rawRel = `Nanoka/hsr/${nch()}/raw/characters/${ch.id}.json`;
+    if (!ch?.name || !exists(rawRel)) continue;
+    const raw = readJson(rawRel);
+    const first = (Array.isArray(raw?.lightcones) ? raw.lightcones : []).find(Boolean);
+    const lightCone = first ? lightCones.get(String(first)) : null;
+    if (!lightCone) continue;
+    setReqMapEntry(out, ch.name, {
+      ...lightCone,
+      source: 'Nanoka recommended light cone',
+      educated: false,
+    });
+  }
+  return out;
+}
+
 // The 4 main traces map to skill_trees point01-04 (Basic ATK / Skill / Ultimate
 // / Talent). Each level under a point carries the same skill `icon` (upstream
 // names it .png; the scraped assets are .webp). Returns a 4-slot array aligned
@@ -1811,7 +2008,7 @@ function hsrSkillIcons(raw) {
     const lv = point['1'] || Object.values(point)[0];
     const icon = lv?.icon;
     if (!icon) return null;
-    return dbAsset(`Nanoka/hsr/assets/skills/${String(icon).replace(/\.(png|jpe?g)$/i, '.webp')}`);
+    return hsrSkillIconAsset(icon);
   });
   return icons.some(Boolean) ? icons : [];
 }
@@ -2125,6 +2322,62 @@ function zzzRequirements(raw) {
   };
 }
 
+function buildZzzKit(raw) {
+  if (!raw) return null;
+  const sections = [];
+  const skillEntries = [];
+  for (const key of ZZZ_SKILL_ORDER) {
+    const group = raw.skill?.[key];
+    const descriptions = Array.isArray(group?.description) ? group.description : [];
+    for (const row of descriptions) {
+      if (!row?.desc) continue;
+      const entry = kitEntry({
+        name: row.name,
+        type: key.charAt(0).toUpperCase() + key.slice(1),
+        desc: row.desc,
+      });
+      if (entry) skillEntries.push(entry);
+    }
+  }
+  if (skillEntries.length) sections.push({ title: 'Skills', entries: skillEntries });
+
+  const passiveRows = Object.values(raw.passive?.level || {});
+  const passive = passiveRows.sort((a, b) => Number(b?.level || 0) - Number(a?.level || 0))[0];
+  const passiveEntries = [];
+  if (passive) {
+    const names = Array.isArray(passive.name) ? passive.name : [passive.name];
+    const descs = Array.isArray(passive.desc) ? passive.desc : [passive.desc];
+    names.forEach((name, i) => {
+      const entry = kitEntry({ name, type: i === 0 ? 'Core Passive' : 'Additional Ability', desc: descs[i] });
+      if (entry) passiveEntries.push(entry);
+    });
+  }
+  if (passiveEntries.length) sections.push({ title: 'Core Skill', entries: passiveEntries });
+
+  const mindscapes = Object.entries(raw.talent || {})
+    .sort((a, b) => Number(a[0]) - Number(b[0]))
+    .map(([rank, row]) => kitEntry({
+      name: row?.name,
+      type: `Mindscape ${rank}`,
+      desc: row?.desc,
+    }))
+    .filter(Boolean);
+  if (mindscapes.length) sections.push({ title: 'Mindscape Cinema', entries: mindscapes });
+  return sections.length ? { ...kitSource('zzz'), sections } : null;
+}
+
+function buildZzzKitMap() {
+  const out = new Map();
+  if (!exists(`Nanoka/zzz/${nch()}/agents.json`)) return out;
+  for (const ch of readJson(`Nanoka/zzz/${nch()}/agents.json`)) {
+    const rawRel = `Nanoka/zzz/${nch()}/raw/agents/${ch.id}.json`;
+    if (!ch?.name || !exists(rawRel)) continue;
+    const kit = buildZzzKit(readJson(rawRel));
+    if (kit) setReqMapEntry(out, ch.name, kit);
+  }
+  return out;
+}
+
 function buildZzzReqMap() {
   const out = new Map();
   if (!exists(`Nanoka/zzz/${nch()}/agents.json`)) return out;
@@ -2221,6 +2474,13 @@ function buildWuwaReqMap() {
 
 // G37/WuWa: the 5 core skills carry an Unreal icon path in raw.skill_trees;
 // map it to the locally-scraped webp under Nanoka/ww/assets/skills.
+function wuwaSkillIconAsset(icon) {
+  if (!icon) return null;
+  const p = String(icon).replace(/^\/Game\/Aki\/UI\//, '').split('.')[0];
+  const rel = `Nanoka/ww/assets/skills/${p}.webp`;
+  return exists(rel) ? dbAsset(rel) : null;
+}
+
 function wuwaSkillIcons(raw) {
   const ORDER = ['Normal Attack', 'Resonance Skill', 'Resonance Liberation', 'Forte Circuit', 'Intro Skill'];
   const byType = {};
@@ -2230,12 +2490,61 @@ function wuwaSkillIcons(raw) {
   }
   const icons = ORDER.map((t) => {
     const ic = byType[t];
-    if (!ic) return null;
-    const p = String(ic).replace(/^\/Game\/Aki\/UI\//, '').split('.')[0];
-    const rel = `Nanoka/ww/assets/skills/${p}.webp`;
-    return exists(rel) ? dbAsset(rel) : null;
+    return wuwaSkillIconAsset(ic);
   });
   return icons.some(Boolean) ? icons : [];
+}
+
+function buildWuwaKit(raw) {
+  if (!raw) return null;
+  const sections = [];
+  const order = ['Normal Attack', 'Resonance Skill', 'Resonance Liberation', 'Forte Circuit', 'Intro Skill', 'Outro Skill'];
+  const seen = new Set();
+  const skills = Object.values(raw.skill_trees || {})
+    .filter((node) => node?.skill?.name || node?.skill?.desc)
+    .filter((node) => {
+      const key = normKey(node.skill?.type || node.skill?.name);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .sort((a, b) => {
+      const ai = order.indexOf(a.skill?.type);
+      const bi = order.indexOf(b.skill?.type);
+      return (ai < 0 ? 99 : ai) - (bi < 0 ? 99 : bi) || String(a.skill?.name || '').localeCompare(String(b.skill?.name || ''));
+    })
+    .map((node) => kitEntry({
+      name: node.skill?.name,
+      type: node.skill?.type,
+      desc: node.skill?.desc || node.skill?.simple_desc,
+      icon: wuwaSkillIconAsset(node.skill?.icon),
+    }))
+    .filter(Boolean);
+  if (skills.length) sections.push({ title: 'Skills', entries: skills });
+
+  const chains = Object.entries(raw.chains || {})
+    .sort((a, b) => Number(a[0]) - Number(b[0]))
+    .map(([rank, row]) => kitEntry({
+      name: row?.name,
+      type: `Sequence ${rank}`,
+      desc: row?.desc,
+      icon: wuwaSkillIconAsset(row?.icon),
+    }))
+    .filter(Boolean);
+  if (chains.length) sections.push({ title: 'Resonance Chain', entries: chains });
+  return sections.length ? { ...kitSource('wuwa'), sections } : null;
+}
+
+function buildWuwaKitMap() {
+  const out = new Map();
+  if (!exists(`Nanoka/ww/${nch()}/characters.json`)) return out;
+  for (const ch of readJson(`Nanoka/ww/${nch()}/characters.json`)) {
+    const rawRel = `Nanoka/ww/${nch()}/raw/characters/${ch.id}.json`;
+    if (!ch?.name || !exists(rawRel)) continue;
+    const kit = buildWuwaKit(readJson(rawRel));
+    if (kit) setReqMapEntry(out, ch.name, kit);
+  }
+  return out;
 }
 
 function buildWuwaSkillIconMap() {
@@ -2252,11 +2561,12 @@ function buildWuwaSkillIconMap() {
   return out;
 }
 
-function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName = null) {
+function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName = null, signatureByName = null, kitByName = null) {
   const overlayGame = game === 'ww' ? 'wuwa' : game;
   const overlay = localAvatarOverlay(game);
   const fandom = fandomCharacterMetadata(overlayGame);
   const rawChars = readJson(`Prydwen/${game}/characters.json`);
+  const hsrLightConeReqMap = game === 'hsr' ? buildHsrLightConeReqMap() : null;
   // ZZZ: only surface agents Nanoka actually has — drop Prydwen-only placeholders
   // (which arrive without icons/data). Other games keep the full Prydwen roster.
   const chars = (game === 'zzz' ? rawChars.filter((ch) => overlay.has(normKey(ch.name))) : rawChars).map((ch) => {
@@ -2265,15 +2575,19 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const meta = fandom.get(normKey(ch.name));
     const req = reqByName?.get(String(ch.name || '').toLowerCase()) || reqByName?.get(normKey(ch.name)) || null;
     const skillIcons = skillIconsByName?.get(String(ch.name || '').toLowerCase()) || skillIconsByName?.get(normKey(ch.name)) || (game === 'zzz' ? ZZZ_SKILL_ICONS : null);
-    const signatureLightCone = game === 'hsr' ? hsrSignatureForCharacter(ch.name, mapped.path) : null;
+    const kit = kitByName?.get(String(ch.name || '').toLowerCase()) || kitByName?.get(normKey(ch.name)) || null;
+    const nanokaSignature = signatureByName?.get(String(ch.name || '').toLowerCase()) || signatureByName?.get(normKey(ch.name)) || null;
+    const signatureLightCone = game === 'hsr' ? (hsrSignatureForCharacter(ch.name, mapped.path) || nanokaSignature) : null;
     const signatureEquipment = signatureLightCone ? null : prydwenRecommendedEquipment(game, ch);
     const signatureDisplay = signatureLightCone || signatureEquipment;
-    const signatureReq = signatureLightCone ? hsrLightConeReqByName.get(normKey(signatureLightCone.name)) : signatureEquipment;
+    const signatureReq = signatureLightCone ? (signatureLightCone.items ? signatureLightCone : hsrLightConeReqMap?.get(normKey(signatureLightCone.name))) : signatureEquipment;
     const holidayArtPool = game === 'hsr' ? (HSR_HOLIDAY_ART.get(normKey(ch.name)) || []) : [];
     const icon = local?.icon || dbAsset(ch.art?.icon || ch.art?.card || ch.art?.full);
     const iconZoom = MANUAL_ICON_ZOOM[overlayGame]?.[normKey(ch.name)] || (!local?.icon && icon ? 1.18 : undefined);
     const art = dbAsset(ch.art?.full || ch.art?.card || ch.art?.icon) || local?.fallbackArt;
     const card = dbAsset(ch.art?.card || ch.art?.full || ch.art?.icon) || local?.fallbackArt;
+    const hasReliableData = !!(local || req || kit);
+    const upcomingOnly = ch.contentStatus && ch.contentStatus !== 'live' && !hasReliableData;
     const mergedReq = req || signatureReq
       ? {
           ...(req || {}),
@@ -2330,6 +2644,12 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
       labels: ch.statusLabels || [],
       ...mapped,
       ...(skillIcons ? { skillIcons } : {}),
+      ...(kit ? { kit } : {}),
+      ...(upcomingOnly ? {
+        upcoming: true,
+        reliableData: false,
+        noReliableInfo: true,
+      } : {}),
       ...(mergedReq ? { req: mergedReq } : {}),
     };
   });
@@ -2345,6 +2665,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
       if (!display || have.has(normKey(display))) continue;
       have.add(normKey(display));
       const req = reqByName?.get(String(ag.name || '').toLowerCase()) || reqByName?.get(normKey(ag.name)) || null;
+      const kit = kitByName?.get(String(ag.name || '').toLowerCase()) || kitByName?.get(normKey(ag.name)) || null;
       const icon = dbAsset(ag.assets?.icon);
       chars.push({
         id: `zzz-${ag.id}`,
@@ -2358,6 +2679,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
         el: firstVal(ag.element) || 'Unknown',
         spec: firstVal(ag.specialty) || undefined,
         status: 'beta',
+        ...(kit ? { kit } : {}),
         ...(req ? { req } : {}),
       });
     }
@@ -2368,6 +2690,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     chars.sort((a, b) => (b.updated || 0) - (a.updated || 0) || rarityScore(b.r) - rarityScore(a.r) || a.n.localeCompare(b.n));
   }
   markRecentBuckets(chars, (ch) => ch.updated, game === 'ww' ? 9 : 9);
+  chars.forEach((ch) => { if (ch.upcoming) ch.recent = false; });
   return chars;
 }
 
@@ -2493,6 +2816,92 @@ function endfieldRecommendationItems(ch, recKey, fallbackKind) {
   }).filter((item) => item?.icon || ENDFIELD_ITEM_LOOKUP.has(normKey(item?.name)));
 }
 
+function escapeRegExp(s) {
+  return String(s || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function endfieldRecommendationSection(ch, recKey) {
+  const page = endfieldPageForCharacter(ch);
+  return page?.recommendations?.[recKey]?.sections?.find((row) => row?.text) || null;
+}
+
+function endfieldSignatureWeapon(ch, recommendedWeapons, wikiWeaponsByName) {
+  const first = recommendedWeapons?.[0];
+  if (!first?.name) return null;
+  const wiki = wikiWeaponsByName.get(normKey(first.name));
+  const section = endfieldRecommendationSection(ch, 'best-weapons');
+  const text = cleanKitText(section?.text || '', 5000);
+  const nameRx = escapeRegExp(first.name).replace(/\s+/g, '\\s+');
+  const explicitSignature = new RegExp(`signature[\\s\\S]{0,450}${nameRx}|${nameRx}[\\s\\S]{0,450}signature`, 'i').test(text);
+  return {
+    ...(wiki || {}),
+    id: wiki?.id || first.id || `weapon:${normKey(first.name)}`,
+    name: wiki?.name || first.name,
+    icon: wiki?.icon || first.icon,
+    art: wiki?.art || first.art || first.icon,
+    weaponType: wiki?.weaponType || wiki?.type || first.type,
+    type: wiki?.type || wiki?.weaponType || first.type,
+    items: wiki?.items || [],
+    cost: Number(wiki?.cost || 0),
+    educated: !explicitSignature,
+    source: explicitSignature ? 'Prydwen signature wording' : 'Prydwen best weapon',
+  };
+}
+
+function parseEndfieldTemplateFields(body) {
+  const fields = {};
+  const text = '\n' + String(body || '').trim();
+  const re = /\n\|([^=\n]+)=([\s\S]*?)(?=\n\|[^=\n]+=|$)/g;
+  let match;
+  while ((match = re.exec(text))) {
+    fields[String(match[1] || '').trim()] = String(match[2] || '').trim();
+  }
+  return fields;
+}
+
+function endfieldCombatSkillStats(fields) {
+  return Object.entries(fields)
+    .filter(([key]) => /^stat\d+$/i.test(key))
+    .map(([, value]) => {
+      const parts = String(value || '').split(/\s*,\s*/).filter(Boolean);
+      if (parts.length < 2) return null;
+      return {
+        label: cleanKitName(parts[0], 90),
+        value: cleanKitName(parts[parts.length - 1], 80),
+      };
+    })
+    .filter(Boolean);
+}
+
+function buildEndfieldKit(ch) {
+  const sections = [];
+  const combatText = (ch.sections || []).find((row) => /combat skills/i.test(row?.heading || ''))?.text || '';
+  const entries = [...String(combatText).matchAll(/\{\{Combat skill([\s\S]*?)\}\}/g)]
+    .map((match) => {
+      const fields = parseEndfieldTemplateFields(match[1]);
+      return kitEntry({
+        name: fields.name,
+        type: fields.type || fields.info || 'Combat Skill',
+        desc: fields.desc,
+        stats: endfieldCombatSkillStats(fields),
+      });
+    })
+    .filter(Boolean);
+  if (entries.length) sections.push({ title: 'Combat Skills', entries });
+
+  const baseText = (ch.sections || []).find((row) => /base skills/i.test(row?.heading || ''))?.text;
+  if (baseText) {
+    const entry = kitEntry({ name: 'Base Skills', type: 'Base', desc: baseText });
+    if (entry) sections.push({ title: 'Base Skills', entries: [entry] });
+  }
+  return sections.length ? {
+    source: 'EndfieldWiki',
+    channel: ch.contentStatus || 'live',
+    version: ch.contentStatus || null,
+    sections,
+  } : null;
+}
+
 function buildEndfieldItemGroups(roster, fields, fallbackTitle) {
   const source = cmRosterSource(roster);
   const groups = new Map();
@@ -2586,13 +2995,32 @@ function buildEndfieldRoster() {
   const src = exists('EndfieldWiki/endfield/characters.json')
     ? readJson('EndfieldWiki/endfield/characters.json')
     : readJson('Prydwen/endfield/characters.json');
+  const wikiWeaponsByName = new Map(buildEndfieldWeaponRoster().map((weapon) => [normKey(weapon.name), weapon]));
   const chars = src.map((ch) => {
     const recommendedWeapons = endfieldRecommendationItems(ch, 'best-weapons', 'weapon');
     const recommendedGear = endfieldRecommendationItems(ch, 'best-gear', 'gear');
     const preferredWeapons = recommendedWeapons.length ? recommendedWeapons : endfieldItemsFromCharacter(ch, 'preferredWeapons', 'weapon');
     const skillItems = recommendedGear.length ? recommendedGear : endfieldItemsFromCharacter(ch, 'matskill', 'gear');
     const statItems = endfieldItemsFromCharacter(ch, 'matstats', 'gear');
-    const req = endfieldReqFromMaterials(ch.materials) || endfieldSharedReq();
+    const signatureWeapon = endfieldSignatureWeapon(ch, recommendedWeapons, wikiWeaponsByName);
+    const reqBase = endfieldReqFromMaterials(ch.materials) || endfieldSharedReq();
+    const req = signatureWeapon ? {
+      ...(reqBase || {}),
+      weapon: {
+        id: signatureWeapon.id,
+        name: signatureWeapon.name,
+        icon: signatureWeapon.icon,
+        art: signatureWeapon.art,
+        path: signatureWeapon.weaponType,
+        weaponType: signatureWeapon.weaponType,
+        type: signatureWeapon.type,
+        items: signatureWeapon.items || [],
+        cost: Number(signatureWeapon.cost || 0),
+        educated: !!signatureWeapon.educated,
+      },
+      currency: Number(reqBase?.currency || 0) + Number(signatureWeapon.cost || 0),
+    } : reqBase;
+    const kit = buildEndfieldKit(ch);
     return {
       id: 'ae-' + (ch.id || ch.slug || ch.name.toLowerCase().replace(/\W+/g, '-')),
       n: ch.name,
@@ -2606,6 +3034,18 @@ function buildEndfieldRoster() {
       art: dbAsset(ch.art?.splash?.path || ch.art?.banner?.path || ch.art?.full || ch.art?.card || ch.art?.icon?.path),
       card: dbAsset(ch.art?.banner?.path || ch.art?.portrait?.path || ch.art?.splash?.path || ch.art?.card),
       skillIcons: ENDFIELD_SKILL_ICONS.get(normKey(ch.name)) || undefined,
+      ...(kit ? { kit } : {}),
+      ...(signatureWeapon ? {
+        signatureWeapon: {
+          id: signatureWeapon.id,
+          name: signatureWeapon.name,
+          path: signatureWeapon.weaponType,
+          type: signatureWeapon.type,
+          educated: !!signatureWeapon.educated,
+        },
+        signatureWeaponId: signatureWeapon.id,
+        signatureWeaponName: signatureWeapon.name,
+      } : {}),
       req,
       aePreferredItems: preferredWeapons,
       aeSkillItems: skillItems.length ? skillItems : preferredWeapons,
@@ -3515,20 +3955,18 @@ function collectEndfieldIconGaps(roster) {
   };
 }
 
-const hsrLightConeReqByName = buildHsrLightConeReqMap();
-
 // Build the full roster set for a given Nanoka channel ('live' or 'beta'). The req-map
-// builders and Nanoka item/avatar reads honour NANOKA_CHANNEL, so flipping it here yields
-// the channel-specific character materials. Signature light cones stay on the live scrape.
+// builders and Nanoka item/avatar/light-cone reads honour NANOKA_CHANNEL, so flipping
+// it here yields the channel-specific character materials and weapon options.
 function buildRostersForChannel(channel) {
   const prev = NANOKA_CHANNEL;
   NANOKA_CHANNEL = channel;
   try {
     const rawRosters = {
       gi: buildGiRoster(),
-      hsr: buildPrydwenRoster('hsr', (f) => ({ r: f.rarity, el: f.element, path: f.path }), buildHsrReqMap(), buildHsrSkillIconMap()),
-      zzz: buildPrydwenRoster('zzz', (f) => ({ r: f.rarity, el: f.attribute, spec: f.specialty, tag: f.faction }), buildZzzReqMap()),
-      wuwa: buildPrydwenRoster('ww', (f) => ({ r: f.rarity, el: f.element, w: f.weapon }), buildWuwaReqMap(), buildWuwaSkillIconMap()),
+      hsr: buildPrydwenRoster('hsr', (f) => ({ r: f.rarity, el: f.element, path: f.path }), buildHsrReqMap(), buildHsrSkillIconMap(), buildHsrNanokaSignatureMap(), buildHsrKitMap()),
+      zzz: buildPrydwenRoster('zzz', (f) => ({ r: f.rarity, el: f.attribute, spec: f.specialty, tag: f.faction }), buildZzzReqMap(), null, null, buildZzzKitMap()),
+      wuwa: buildPrydwenRoster('ww', (f) => ({ r: f.rarity, el: f.element, w: f.weapon }), buildWuwaReqMap(), buildWuwaSkillIconMap(), null, buildWuwaKitMap()),
       ae: buildEndfieldRoster(),
     };
     return Object.fromEntries(
@@ -3588,7 +4026,14 @@ const cmBetaDeltas = (() => {
     NANOKA_CHANNEL = prevChannel;
   }
   const nanokaManifest = exists('Nanoka/manifest.json') ? readJson('Nanoka/manifest.json') : {};
-  const reqSig = (ch) => JSON.stringify(ch?.req ?? null);
+  const charSig = (ch) => JSON.stringify({
+    req: ch?.req ?? null,
+    signatureWeaponId: ch?.signatureWeaponId ?? null,
+    signatureWeaponName: ch?.signatureWeaponName ?? null,
+    reliableData: ch?.reliableData ?? null,
+    upcoming: ch?.upcoming ?? null,
+    kit: ch?.kit?.sections ?? null,
+  });
   const rowSig = (row) => JSON.stringify(row ?? null);
   const out = {};
   for (const key of CM_BETA_GAMES) {
@@ -3596,7 +4041,7 @@ const cmBetaDeltas = (() => {
     const liveById = new Map((cmCfg[key]?.roster || []).map((ch) => [ch.id, ch]));
     const liveWeaponsById = new Map((cmCfg[key]?.weapons || []).map((weapon) => [weapon.id, weapon]));
     const delta = (betaCfg[key]?.roster || [])
-      .filter((bc) => { const lc = liveById.get(bc.id); return !lc || reqSig(bc) !== reqSig(lc); })
+      .filter((bc) => { const lc = liveById.get(bc.id); return !lc || charSig(bc) !== charSig(lc); })
       .map((bc) => ({ ...bc, betaStatus: liveById.has(bc.id) ? 'changed' : 'new' }));
     const weaponDelta = (betaCfg[key]?.weapons || [])
       .filter((bw) => {

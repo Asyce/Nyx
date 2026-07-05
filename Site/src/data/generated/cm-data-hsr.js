@@ -9811,7 +9811,10 @@
       "r": 5,
       "el": "Quantum",
       "path": "Elation",
-      "recent": 1
+      "upcoming": true,
+      "reliableData": false,
+      "noReliableInfo": true,
+      "recent": false
     },
     {
       "id": "hsr-robin-summeretto",
@@ -9833,7 +9836,10 @@
       "r": 5,
       "el": "Wind",
       "path": "Remembrance",
-      "recent": 1
+      "upcoming": true,
+      "reliableData": false,
+      "noReliableInfo": true,
+      "recent": false
     },
     {
       "id": "hsr-evanescia",
@@ -9889,6 +9895,123 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Syllabus: Pop Quiz",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 140% of Evanescia's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Normal.webp"
+              },
+              {
+                "name": "Discipline: Final Verdict",
+                "type": "Skill",
+                "desc": "Deals Physical DMG equal to 375% of Evanescia's ATK to one designated enemy and Physical DMG equal to 188% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_BP.webp"
+              },
+              {
+                "name": "Swordsong: Absolution Denied",
+                "type": "Ultimate",
+                "desc": "Deals Physical DMG equal to 200% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 144% of Evanescia's ATK to one random enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Ultra.webp"
+              },
+              {
+                "name": "Petalfall: Floral Reminiscence",
+                "type": "Technique",
+                "desc": "Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to 100% of Evanescia's ATK to all enemies and gains 20 point(s) of \"Certified Banger.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Youth: Halcyon Evermore",
+                "type": "Talent",
+                "desc": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 125% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 20% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 30% Physical Elation DMG to all enemies and also deals 35% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 31.3% Physical Elation DMG to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Passive.webp"
+              },
+              {
+                "name": "Scarlet: Elation or Execution",
+                "type": "Elation Skill",
+                "desc": "Deals 138% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\".",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Elation.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Watch All Revels",
+                "type": "Major Trace",
+                "desc": "Increases Evanescia's CRIT Rate by 30%. When there are (\u22653)/2/1 enemy target(s) on the field, the Ultimate's bounce count increases by 1/2/4. When a teammate with an Elation Skill Participant ID lower than Evanescia's gains \"Certified Banger,\" Evanescia converts 50% of it into her own \"Certified Banger.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_SkillTree1.webp"
+              },
+              {
+                "name": "Weigh All Truths",
+                "type": "Major Trace",
+                "desc": "When \"Master Fox\" uses an attack, it additionally inflicts Vulnerability on the target, increasing the DMG they take by 12% for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_SkillTree2.webp"
+              },
+              {
+                "name": "Best All Blooms",
+                "type": "Major Trace",
+                "desc": "When a teammate's \"Certified Banger\" ends, Evanescia converts 50% of it into her own \"Certified Banger.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Home: A Prayer in Dance",
+                "type": "Eidolon 1",
+                "desc": "Increases All-Type RES PEN by 20%. After \"Master Fox\" uses an attack, additionally triggers 1 instance of Elation Skill. Elation Skill additionally grants this unit 10 \"Certified Banger\" point(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Rank1.webp"
+              },
+              {
+                "name": "Voyage: A Wish for Everbloom",
+                "type": "Eidolon 2",
+                "desc": "CRIT DMG increases by 36%. When triggering the Certified Banger gain effect from the Trace \"Watch All Revels\"/\"Best All Blooms\", additionally gains \"Certified Banger\" equal to 50%/100% of the \"Certified Banger\" gained this time.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Rank2.webp"
+              },
+              {
+                "name": "Blade: A Feast on Evils",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Ultra.webp"
+              },
+              {
+                "name": "Meadow: A Ruin by Vice",
+                "type": "Eidolon 4",
+                "desc": "Evanescia's DMG dealt ignores 15% of the enemy targets' DEF.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Rank4.webp"
+              },
+              {
+                "name": "Arcadia: A Glimpse of Fates",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_BP.webp"
+              },
+              {
+                "name": "Maiden: A Step into Dreams",
+                "type": "Eidolon 6",
+                "desc": "The duration of Evanescia's \"Certified Banger\" increases by 1 turn(s). The Elation DMG dealt by Evanescia merrymakes by 15%. For every 100 points of \"Certified Banger\" held, it additionally merrymakes by 2%. Up to 1000 points of \"Certified Banger\" can be taken into account. After using Ultimate for the first time upon entering combat, regenerates a fixed amount of 120 Energy for Evanescia. This effect can trigger 1 time for every 4 more instances of Ultimate used.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -10871,7 +10994,10 @@
       "r": 5,
       "el": "Fire",
       "path": "Erudition",
-      "recent": 1
+      "upcoming": true,
+      "reliableData": false,
+      "noReliableInfo": true,
+      "recent": false
     },
     {
       "id": "hsr-yao-guang",
@@ -10932,6 +11058,123 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Whistlebolt Sings Joy",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 126% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 42% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Normal.webp"
+              },
+              {
+                "name": "Decalight Unveils All",
+                "type": "Skill",
+                "desc": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 25% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_BP.webp"
+              },
+              {
+                "name": "Hexagram of Feathered Fortune",
+                "type": "Ultimate",
+                "desc": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 25% for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Ultra.webp"
+              },
+              {
+                "name": "Untethered Glimmer Sails Far",
+                "type": "Technique",
+                "desc": "After using Technique, automatically triggers Skill 1 time at the start of the next battle without consuming any Skill Points. When Yao Guang is in the team, breaking destructible objects immediately grants Fortune Pouch, up to 8 within every Earth Week.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Maze.webp"
+              },
+              {
+                "name": "Whistlebolt Sings Joy",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Behold Wherever Light Unfolds",
+                "type": "Talent",
+                "desc": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 25% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Passive.webp"
+              },
+              {
+                "name": "Let Thy Fortune Burst in Flames",
+                "type": "Elation Skill",
+                "desc": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 125% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 25% Physical Elation DMG to one random enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Elation.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Amaze-In Grace",
+                "type": "Major Trace",
+                "desc": "When Yao Guang's SPD is 120 or higher, increases this unit's Elation by 30%. For every 1 SPD exceeded, increases this unit's Elation by 1%. Up to a max of 200 excess SPD can be taken into account for this effect.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_SkillTree1.webp"
+              },
+              {
+                "name": "Poised and Sated",
+                "type": "Major Trace",
+                "desc": "Increases this unit's CRIT DMG by 60%. After using Elation Skill, recovers 1 Skill Point(s) for the team.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_SkillTree2.webp"
+              },
+              {
+                "name": "Felicity Ensemble",
+                "type": "Major Trace",
+                "desc": "When Yao Guang gains \"Certified Banger,\" its duration increases by 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Chuckle Chimes Where Jade Falls",
+                "type": "Eidolon 1",
+                "desc": "In Aha's extra turn triggered by Ultimate, the fixed amount of Punchline taken into account increases to 40. When dealing Elation DMG, all ally targets ignore 20% of the target's DEF.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Rank1.webp"
+              },
+              {
+                "name": "Blind Arrows Guided by Feathers",
+                "type": "Eidolon 2",
+                "desc": "While the Zone is active, increases all ally targets' SPD by 12%, and additionally increases Elation by 16%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Rank2.webp"
+              },
+              {
+                "name": "Auspices Mirrored In Decalight",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_BP.webp"
+              },
+              {
+                "name": "Threads of Fate Colored by Plumes",
+                "type": "Eidolon 4",
+                "desc": "In Aha's extra turn triggered by Yao Guang's Ultimate, the DMG dealt by all ally characters' Elation Skill becomes 150% of the original DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Rank4.webp"
+              },
+              {
+                "name": "Bejeweled in Radiant Grace",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Ultra.webp"
+              },
+              {
+                "name": "Ferried Along the Astral Arc",
+                "type": "Eidolon 6",
+                "desc": "All ally targets' Elation DMG merrymakes by 25%. Increases the DMG multiplier of Yao Guang's Elation Skill by 100% of its original multiplier.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -11953,6 +12196,134 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "A Broken Blade Still Slays",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 70% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Normal.webp"
+              },
+              {
+                "name": "A Tempered Blade Severs Souls",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Normal.webp"
+              },
+              {
+                "name": "A Rain of Blades Seals Fate",
+                "type": "Skill",
+                "desc": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 90% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 30% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_BP.webp"
+              },
+              {
+                "name": "A Rain of Blades Seals Fate",
+                "type": "Skill",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_BP.webp"
+              },
+              {
+                "name": "Fornax Ex Corpore",
+                "type": "Ultimate",
+                "desc": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 35% and the DMG they receive increases by 60%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 75%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Ultra.webp"
+              },
+              {
+                "name": "Tenax Per Ignem",
+                "type": "Ultimate",
+                "desc": "Deals Fire DMG equal to 420% of Mortenax Blade's Max HP to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Ultra.webp"
+              },
+              {
+                "name": "Blade's Reach Spares None",
+                "type": "Technique",
+                "desc": "Immediately attacks all enemies within a certain range. After entering combat, inflicts the Taunt state on all enemies for 1 turn and decreases DMG taken by this unit by 90% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Maze.webp"
+              },
+              {
+                "name": "One Cut Ends All",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "All Karma Comes Due",
+                "type": "Talent",
+                "desc": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 30 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Bone, Hardened ad Nauseam",
+                "type": "Major Trace",
+                "desc": "Mortenax Blade can accumulate up to 80 overflow Energy. After using Ultimate, clears it and regenerates a corresponding amount of Energy. When the battle starts or when the Zone is dispelled, if Energy is below 75%, it is immediately regenerated to 75%. When Energy is regenerated to its maximum, dispels all debuffs from this unit.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_SkillTree1.webp"
+              },
+              {
+                "name": "Soul, Tempered ad Mortem",
+                "type": "Major Trace",
+                "desc": "While the Zone is active, increases the chance of being attacked by enemies, decreases DMG taken by this unit by 50%, and increases Incoming Healing by 50%. After being attacked, inflicts the \"Balefire Bind\" state on the corresponding target, and enables Mortenax Blade to gain 1 Charge.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_SkillTree2.webp"
+              },
+              {
+                "name": "Heart, Refined ad Infinitum",
+                "type": "Major Trace",
+                "desc": "While the Zone is active, ally targets deal 50% increased DMG. If there are other Nihility characters aside from Mortenax Blade in the team, Ultimate DMG dealt by ally targets increases by 75%. Otherwise, DMG dealt by Mortenax Blade additionally increases by 75%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Ere My Death, I Stood Unmade",
+                "type": "Eidolon 1",
+                "desc": "While the Zone is active, decreases all enemies' All-Type RES by 20%. After using the extra Skill from Talent, the \"Infinite Fury\" countdown has its action delayed by 15%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Rank1.webp"
+              },
+              {
+                "name": "Ash Was My Heart, Yet the Flame Stayed",
+                "type": "Eidolon 2",
+                "desc": "When an ally character uses Ultimate to deal DMG, it is considered as having launched Follow-Up ATK. And the Follow-Up ATK DMG dealt by ally targets increases by 75%. The upper limit of Mortenax Blade's Charge decreases to 7.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Rank2.webp"
+              },
+              {
+                "name": "Across the Shore, Wrath Laid Bare",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Ultra.webp"
+              },
+              {
+                "name": "Odium I've Smitten, Thence Came the Blade",
+                "type": "Eidolon 4",
+                "desc": "\"Heart, Refined ad Infinitum\" additionally increases ally targets' DMG dealt by 50%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Rank4.webp"
+              },
+              {
+                "name": "I Severed My Woes, Knowing Death Begets Life",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_BP.webp"
+              },
+              {
+                "name": "If Immortality Could Die, I Swore THEM Slain",
+                "type": "Eidolon 6",
+                "desc": "As the Zone persists, when Mortenax Blade takes DMG or consumes HP, he gains 1 Charge. This effect can trigger again after any target's turn ends. The DMG multiplier of \"Tenax Per Ignem\" increases to 150% of its original value.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -12941,7 +13312,11 @@
       ],
       "r": 5,
       "el": "Lightning",
-      "path": "Destruction"
+      "path": "Destruction",
+      "upcoming": true,
+      "reliableData": false,
+      "noReliableInfo": true,
+      "recent": false
     },
     {
       "id": "hsr-cerydra",
@@ -12997,6 +13372,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "King's Castling",
+                "type": "Basic ATK",
+                "desc": "Deals Wind DMG equal to 140% of Cerydra's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Normal.webp"
+              },
+              {
+                "name": "Pawn's Promotion",
+                "type": "Skill",
+                "desc": "Grants \"Military Merit\" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's \"Military Merit\" to \"Peerage\" and dispels their Crowd Control debuffs. The character with \"Peerage\" is considered to have \"Military Merit\" simultaneously. The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG by 90%, increases their All-Type RES PEN by 11%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert \"Peerage\" to \"Military Merit.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_BP.webp"
+              },
+              {
+                "name": "Scholar's Mate",
+                "type": "Ultimate",
+                "desc": "Gains 2 Charge. Deals Wind DMG equal to 288% of Cerydra's ATK to all enemies. If no character on the field has \"Military Merit,\" prioritizes granting \"Military Merit\" to the first character in the current team.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Ultra.webp"
+              },
+              {
+                "name": "First-Move Advantage",
+                "type": "Technique",
+                "desc": "After using Technique, gains \"Military Merit.\" When switching the active character, \"Military Merit\" transfers to the current active character. At the start of the next battle, automatically uses Skill 1 time on the character with \"Military Merit\" without consuming any Skill Points.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Ave Imperator",
+                "type": "Talent",
+                "desc": "The character with \"Military Merit\" increases ATK by an amount equal to 27% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 75% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. \"Military Merit\" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Veni",
+                "type": "Major Trace",
+                "desc": "For every 100 of Cerydra's ATK that exceeds 2000, increases her CRIT DMG by 18%, up to a max increase of 360%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_SkillTree1.webp"
+              },
+              {
+                "name": "Vidi",
+                "type": "Major Trace",
+                "desc": "Increases Cerydra's CRIT Rate by 100%. While Cerydra's Charge is below its maximum, the character with \"Military Merit\" using their Ultimate grants Cerydra 1 Charge. This effect can trigger once per battle.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_SkillTree2.webp"
+              },
+              {
+                "name": "Vici",
+                "type": "Major Trace",
+                "desc": "When using Skill, increases SPD by 20 for this unit and the teammate with \"Military Merit,\" lasting for 3 turn(s). When the character with \"Military Merit\" uses Basic ATK or Skill, regenerates 5 Energy for Cerydra.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Seize the Crowns of All",
+                "type": "Eidolon 1",
+                "desc": "The character with \"Military Merit\" ignores 16% of the targets' DEF when dealing DMG. If \"Military Merit\" has been upgraded to \"Peerage,\" then the character additionally ignores 20% of the targets' DEF when dealing Skill DMG. When Cerydra uses her Skill, regenerates 2 Energy for the designated ally target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Rank1.webp"
+              },
+              {
+                "name": "Forge the Dreams of Many",
+                "type": "Eidolon 2",
+                "desc": "The character with \"Military Merit\" deals 40% increased DMG. While a teammate on the field has \"Military Merit,\" Cerydra's DMG dealt increases by 160%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Rank2.webp"
+              },
+              {
+                "name": "Torch the Laws of Old",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_BP.webp"
+              },
+              {
+                "name": "Remake the Realms of Men",
+                "type": "Eidolon 4",
+                "desc": "Increases Ultimate's DMG multiplier by 240%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Rank4.webp"
+              },
+              {
+                "name": "Help and Hurt Repaid in Full",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Ultra.webp"
+              },
+              {
+                "name": "A Journey Set Starward",
+                "type": "Eidolon 6",
+                "desc": "The character with \"Military Merit\" increases their All-Type RES PEN by 20%, and the multiplier for the Additional DMG triggered via \"Military Merit\" increases by 300%. While a teammate on the field has \"Military Merit,\" Cerydra's All-Type RES PEN increases by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -14014,6 +14500,141 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Trilateral Wiltcross",
+                "type": "Basic ATK",
+                "desc": "Deals Lightning DMG equal to 140% of Acheron's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Normal.webp"
+              },
+              {
+                "name": "Octobolt Flash",
+                "type": "Skill",
+                "desc": "Gains 1 point(s) of \"Slashed Dream.\" Inflicts 1 stack(s) of \"Crimson Knot\" on one designated enemy target, dealing Lightning DMG equal to 200% of Acheron's ATK to this target, as well as Lightning DMG equal to 75% of Acheron's ATK to adjacent targets.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_BP.webp"
+              },
+              {
+                "name": "Slashed Dream Cries in Red",
+                "type": "Ultimate",
+                "desc": "Sequentially unleash \"Rainblade\" 3 times and \"Stygian Resurge\" 1 time, dealing Lightning DMG up to 446% of Acheron's ATK to one designated enemy target, as well as Lightning DMG up to 360% of Acheron's ATK to other targets.\\n\"Rainblade\": Deals Lightning DMG equal to 28.8% of Acheron's ATK to one designated enemy target and removes up to 3 stacks of \"Crimson Knot\" from the target. When \"Crimson Knot\" is removed, immediately deals Lightning DMG equal to 18% of Acheron's ATK to all enemies. For every stack of \"Crimson Knot\" removed, this DMG Multiplier is additionally increased, up to a maximum of 72%.\\n\"Stygian Resurge\": Deals Lightning DMG equal to 144% of Acheron's ATK to all enemies and remove all \"Crimson Knots.\"\\n\"Crimson Knot\" cannot be applied to enemies during the Ultimate.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Ultra.webp"
+              },
+              {
+                "name": "Rainblade",
+                "type": "Ultimate",
+                "desc": "Deals minor Lightning DMG to one enemy, and removes up to 3 stacks of \"Crimson Knot\" from the target. When \"Crimson Knot\" is removed, deals minor Lightning DMG to all enemies 1 time, with this DMG multiplier increased for every stack of \"Crimson Knot\" removed.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Ultra.webp"
+              },
+              {
+                "name": "Rainblade",
+                "type": "Ultimate",
+                "desc": "Deals minor Lightning DMG to one enemy, and removes up to 3 stacks of \"Crimson Knot\" from the target. When \"Crimson Knot\" is removed, deals minor Lightning DMG to all enemies 1 time, with this DMG multiplier increased for every stack of \"Crimson Knot\" removed.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Ultra.webp"
+              },
+              {
+                "name": "Rainblade",
+                "type": "Ultimate",
+                "desc": "Deals minor Lightning DMG to one enemy, and removes up to 3 stacks of \"Crimson Knot\" from the target. When \"Crimson Knot\" is removed, deals minor Lightning DMG to all enemies 1 time, with this DMG multiplier increased for every stack of \"Crimson Knot\" removed.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Ultra.webp"
+              },
+              {
+                "name": "Stygian Resurge",
+                "type": "Ultimate",
+                "desc": "Deals Lightning DMG to all enemies and removes all Crimson Knots.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Ultra.webp"
+              },
+              {
+                "name": "Quadrivalent Ascendance",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. At the start of each wave, gains Quadrivalent Ascendance, dealing Lightning DMG equal to 200% of Acheron's ATK to all enemies and reducing Toughness of all enemies irrespective of Weakness Types. When breaking Weaknesses, triggers the Lightning Weakness Break effect.\\nQuadrivalent Ascendance: After using the Ultimate, Acheron gains 1 point(s) of Slashed Dream and inflicts 1 stack(s) of Crimson Knot on a single random enemy.\\nIf attacking a normal enemy, immediately defeats them without entering combat. When not hitting enemies, no Technique Points are consumed.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Atop Rainleaf Hangs Oneness",
+                "type": "Talent",
+                "desc": "When Slashed Dream reaches 9 point(s), the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES by 25%, lasting until the end of the Ultimate.\\nWhen any unit inflicts debuffs on an enemy target while using their ability, Acheron gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on a target. If debuffs are inflicted on multiple targets, then the 1 stack of Crimson Knot will be inflicted on the enemy target with the most Crimson Knot stacks. This effect can only trigger once for every ability use.\\nAfter an enemy target exits the field or gets defeated by any unit while Acheron is on the field, their Crimson Knot stacks will be transferred to the enemy target with the most Crimson Knot stacks on the whole field.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Red Oni",
+                "type": "Major Trace",
+                "desc": "When battle starts, immediately gains 5 point(s) of Slashed Dream and applies 5 stack(s) of Crimson Knot to a random enemy. When Slashed Dream reaches its upper limit, for every point of Slashed Dream that exceeds the limit, gains 1 stack of Quadrivalent Ascendance. Enables Quadrivalent Ascendance to stack up to 3 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_SkillTree1.webp"
+              },
+              {
+                "name": "The Abyss",
+                "type": "Major Trace",
+                "desc": "When there are 1 or 2 Nihility characters other than Acheron in the team, the DMG dealt by Acheron's Basic ATK, Skill, and Ultimate increases to 115% or 160% of the original DMG respectively.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_SkillTree2.webp"
+              },
+              {
+                "name": "Thunder Core",
+                "type": "Major Trace",
+                "desc": "When the Ultimate's Rainblade hits enemy targets that have Crimson Knot, the DMG dealt by Acheron increases by 30%, stacking up to 3 time(s) and lasting for 3 turn(s). And when Stygian Resurge triggers, additionally deals DMG for 6 times. Each time deals Lightning DMG equal to 25% of Acheron's ATK to a single random enemy and is considered as Ultimate DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Silenced Sky Spake Sooth",
+                "type": "Eidolon 1",
+                "desc": "When dealing DMG to debuffed enemies, increases CRIT Rate by 18%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Rank1.webp"
+              },
+              {
+                "name": "Mute Thunder in Still Tempest",
+                "type": "Eidolon 2",
+                "desc": "The number of Nihility characters required for the Trace \"The Abyss\" to achieve its highest possible effect is reduced by 1. When this unit's turn starts, gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on the enemy with the most Crimson Knot stacks.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Rank2.webp"
+              },
+              {
+                "name": "Frost Bites in Death",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Ultra.webp"
+              },
+              {
+                "name": "Shrined Fire for Mirrored Soul",
+                "type": "Eidolon 4",
+                "desc": "When enemy targets enter combat, inflicts them with the Ultimate DMG Vulnerability, increasing the amount of Ultimate DMG they take by 8%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Rank4.webp"
+              },
+              {
+                "name": "Strewn Souls on Erased Earths",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_BP.webp"
+              },
+              {
+                "name": "Apocalypse, the Emancipator",
+                "type": "Eidolon 6",
+                "desc": "Increases the All-Type RES PEN for the Ultimate DMG dealt by Acheron by 20%. The DMG dealt by Basic ATK and Skill will also be considered as Ultimate DMG and can Reduce enemy Toughness regardless of Weakness Types. When breaking Weaknesses, triggers the Lightning Weakness Break effect.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -15033,6 +15654,129 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Thorned Nectar",
+                "type": "Basic ATK",
+                "desc": "Deals Lightning DMG equal to 140% of Aglaea's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_Normal.webp"
+              },
+              {
+                "name": "Slash by a Thousandfold Kiss",
+                "type": "Basic ATK",
+                "desc": "Aglaea and Garmentmaker launch a Joint ATK on the target, respectively dealing Lightning DMG equal to 280% of Aglaea's ATK and 280% of Garmentmaker's ATK to the target. Also, respectively deals Lightning DMG equal to 126% of Aglaea's ATK and 126% of Garmentmaker's ATK to adjacent targets.\\n\"Slash by a Thousandfold Kiss\" cannot recover Skill Points.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_Normal.webp"
+              },
+              {
+                "name": "Rise, Exalted Renown",
+                "type": "Skill",
+                "desc": "Restores HP to Garmentmaker by 62.5% of its Max HP. If Garmentmaker is absent, then summons the memosprite Garmentmaker and makes this unit immediately take action.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_BP.webp"
+              },
+              {
+                "name": "Rise, Exalted Renown",
+                "type": "Skill",
+                "desc": "Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_BP.webp"
+              },
+              {
+                "name": "Dance, Destined Weaveress",
+                "type": "Ultimate",
+                "desc": "Summons the memosprite Garmentmaker. If Garmentmaker is already on the field, then restores its HP to max. Aglaea enters the \"Supreme Stance\" state and immediately takes action.\\nWhile in \"Supreme Stance,\" Aglaea gains the SPD Boost stacks from Garmentmaker's Memosprite Talent, with each stack increasing this unit's SPD by 17.5%. Enhances Basic ATK to \"Slash by a Thousandfold Kiss,\" and cannot use Skill. Garmentmaker is immune to Crowd Control debuffs.\\nA countdown appears in the Action Order, with its own SPD set at 100. While the countdown exists, using Ultimate again will reset the countdown. When the countdown's turn starts, Garmentmaker self-destructs. When Garmentmaker disappears, Aglaea dispels the \"Supreme Stance\" state.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_Ultra.webp"
+              },
+              {
+                "name": "Meteoric Sunder",
+                "type": "Technique",
+                "desc": "Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates 30 Energy and deals Lightning DMG equal to 100% of Aglaea's ATK to all enemy targets. Then, randomly inflicts the \"Seam Stitch\" state on a random enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Rosy-Fingered",
+                "type": "Talent",
+                "desc": "The memosprite Garmentmaker has an initial SPD equal to 35% of Aglaea's SPD and a Max HP equal to 77% of Aglaea's Max HP plus 990. While Garmentmaker is on the field, Aglaea's attacks inflict the target with the \"Seam Stitch\" state. After attacking enemies in the \"Seam Stitch\" state, further deals Lightning Additional DMG equal to 39% of Aglaea's ATK. \"Seam Stitch\" only takes effect on the most recently inflicted target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "The Myopic's Doom",
+                "type": "Major Trace",
+                "desc": "While in \"Supreme Stance,\" increases Aglaea's and Garmentmaker's ATK by an amount equal to 720% of Aglaea's SPD plus 360% of Garmentmaker's SPD.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_SkillTree1.webp"
+              },
+              {
+                "name": "Last Thread of Fate",
+                "type": "Major Trace",
+                "desc": "When Garmentmaker disappears, up to 1 stack(s) of the SPD Boost from the Memosprite Talent can be retained. When Garmentmaker is summoned again, gains the corresponding number of SPD Boost stacks.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_SkillTree2.webp"
+              },
+              {
+                "name": "The Speeding Sol",
+                "type": "Major Trace",
+                "desc": "At the start of battle, if this unit's Energy is lower than 50%, regenerates this unit's Energy to 50%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Drift at the Whim of Venus",
+                "type": "Eidolon 1",
+                "desc": "The enemy afflicted with \"Seam Stitch\" takes 15% increased DMG. After Aglaea or Garmentmaker attacks this target, additionally regenerates 20 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_Rank1.webp"
+              },
+              {
+                "name": "Sail on the Raft of Eyelids",
+                "type": "Eidolon 2",
+                "desc": "When Aglaea or Garmentmaker takes action, enables the DMG dealt by Aglaea and Garmentmaker to ignore 14% of the target's DEF. This effect stacks up to 3 time(s) and lasts until any unit, other than Aglaea or Garmentmaker, actively uses an ability.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_Rank2.webp"
+              },
+              {
+                "name": "Bequeath in the Coalescence of Dew",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_BP.webp"
+              },
+              {
+                "name": "Flicker Below the Surface of Marble",
+                "type": "Eidolon 4",
+                "desc": "The SPD Boost effect from the Memosprite Talent has its max stack limit increased by 1. After Aglaea uses an attack, can also make Garmentmaker gain the SPD Boost effect from the Memosprite Talent.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_Rank4.webp"
+              },
+              {
+                "name": "Weave Under the Shroud of Woe",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_Ultra.webp"
+              },
+              {
+                "name": "Fluctuate in the Tapestry of Fates",
+                "type": "Eidolon 6",
+                "desc": "While Aglaea is in \"Supreme Stance,\" increases her and Garmentmaker's Lightning RES PEN by 20%. When Aglaea's or Garmentmaker's SPD is greater than 160/240/320, the Joint ATK DMG dealt by them increases by 10%/30%/60%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -16057,6 +16801,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Pain, Brews Truth",
+                "type": "Basic ATK",
+                "desc": "Deals Wind DMG equal to 140% of Anaxa's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_Normal.webp"
+              },
+              {
+                "name": "Fractal, Exiles Fallacy",
+                "type": "Skill",
+                "desc": "Deals Wind DMG equal to 87.5% of Anaxa's ATK to one designated enemy and additionally deals 4 instance(s) of DMG. Each instance of DMG deals Wind DMG equal to 87.5% of Anaxa's ATK to one random enemy, prioritizing Bouncing to enemy targets that have not been hit by this instance of Skill.\\nWhen used, for each attackable enemy on the field, this Skill has its DMG dealt increased by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_BP.webp"
+              },
+              {
+                "name": "Sprouting Life Sculpts Earth",
+                "type": "Ultimate",
+                "desc": "Inflicts the \"Sublimation\" state on all enemies, then deals Wind DMG equal to 200% of Anaxa's ATK to all enemies.\\nIn the \"Sublimation\" state, the targets will be simultaneously inflicted with Physical, Fire, Ice, Lightning, Wind, Quantum, and Imaginary Weaknesses, lasting until the start of the targets' turn. If the targets do not have Control RES, they are unable to take action in the \"Sublimation\" state.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_Ultra.webp"
+              },
+              {
+                "name": "Prism of the Pupil",
+                "type": "Technique",
+                "desc": "After using Technique, inflicts the Terrified state on enemies in a set area. Terrified enemies will flee in a direction away from Anaxa for 10 second(s). When allies enter combat via actively attacking a Terrified enemy, it will always be considered as entering battle via attacking a Weakness. After entering battle, Anaxa applies 1 Weakness of the attacker's Type to every enemy target, lasting for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Tetrad Wisdom Reigns Thrice",
+                "type": "Talent",
+                "desc": "Each time Anaxa lands 1 hit on enemy targets, inflicts 1 Weakness of a random Type to the targets, lasting for 3 turn(s), with priority to the Weakness Type that the target doesn't already possess.\\nWhile Anaxa is on the field, inflicts the \"Qualitative Disclosure\" state on enemy targets that have at least 5 different Types of Weaknesses. Anaxa deals 36% increased DMG to targets afflicted with the \"Qualitative Disclosure\" state. In addition, after using Basic ATK or Skill on them, unleashes 1 additional instance of Skill on the targets. This additional Skill does not consume any Skill Points and cannot trigger this effect again. If the target has been defeated before the additional Skill is used, it will be cast on one random enemy instead.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Roaming Signifier",
+                "type": "Major Trace",
+                "desc": "When using Basic ATK, additionally regenerates 10 Energy.\\nAt the start of the turn, if there are no enemy targets in the \"Qualitative Disclosure\" state, immediately regenerates 30 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_SkillTree1.webp"
+              },
+              {
+                "name": "Imperative Hiatus",
+                "type": "Major Trace",
+                "desc": "Based on the number of \"Erudition\" characters in the team, one of the following effects will be triggered in the current battle:\\n1 character: Increases Anaxa's CRIT DMG by 140%.\\nAt least 2 characters: Increases DMG dealt by all allies by 50%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_SkillTree2.webp"
+              },
+              {
+                "name": "Qualitative Shift",
+                "type": "Major Trace",
+                "desc": "For every 1 different Weakness Type an enemy target has, the DMG that Anaxa deals to that target ignores 4% of their DEF. Up to a max of 7 Weakness Types can be taken into account for this effect.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Magician, Isolated by Stars",
+                "type": "Eidolon 1",
+                "desc": "After using Skill for the first time, recovers 1 Skill Point(s). When using Skill to hit enemy targets, decreases the targets' DEF by 16%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_Rank1.webp"
+              },
+              {
+                "name": "Soul, True to History",
+                "type": "Eidolon 2",
+                "desc": "When enemy targets enter the battlefield, triggers 1 instance of the Talent's Weakness Implant effect, and reduces their All-Type RES by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_Rank2.webp"
+              },
+              {
+                "name": "Pupil, Etched into Cosmos",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_Ultra.webp"
+              },
+              {
+                "name": "Blaze, Plunged to Canyon",
+                "type": "Eidolon 4",
+                "desc": "When using Skill, increases ATK by 30%, lasting for 2 turn(s). This effect can stack up to 2 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_Rank4.webp"
+              },
+              {
+                "name": "Embryo, Set Beyond Vortex",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_BP.webp"
+              },
+              {
+                "name": "Everything Is in Everything",
+                "type": "Eidolon 6",
+                "desc": "The DMG dealt by Anaxa is 130% of the original DMG. The 2 effects in the Trace \"Imperative Hiatus\" will be triggered directly and will no longer depend on the number of \"Erudition\" characters in the team.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -17077,6 +17932,122 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Kanshou and Bakuya",
+                "type": "Basic ATK",
+                "desc": "Deals Quantum DMG equal to 130% of Archer's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_Normal.webp"
+              },
+              {
+                "name": "Caladbolg II: Fake Spiral Sword",
+                "type": "Skill",
+                "desc": "Enters the \"Circuit Connection\" state. Deals Quantum DMG equal to 450% of Archer's ATK to one designated enemy. After using Skill in the \"Circuit Connection\" state, the current turn does not end, and the DMG dealt by Archer's Skill increases by 120%. This effect can stack up to 2 time(s), lasting until he exits the \"Circuit Connection\" state. After actively using Skill 5 time(s) or when Skill Points are insufficient to use Skill again, exits the \"Circuit Connection\" state. After all enemy targets have been defeated in each wave, exits the \"Circuit Connection\" state.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_BP.webp"
+              },
+              {
+                "name": "End",
+                "type": "Skill",
+                "desc": "Exits \"Circuit Connection\" state and ends the turn."
+              },
+              {
+                "name": "Unlimited Blade Works",
+                "type": "Ultimate",
+                "desc": "Deals Quantum DMG equal to 12% of Archer's ATK to one designated enemy and gains 2 point(s) of Charge, up to a maximum of 4.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_Ultra.webp"
+              },
+              {
+                "name": "Clairvoyance",
+                "type": "Technique",
+                "desc": "Immediately attacks enemies. After entering combat, deals Quantum DMG equal to 200% of Archer's ATK to all enemies and gains 1 point(s) of Charge.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Mind's Eye (True)",
+                "type": "Talent",
+                "desc": "After Archer's teammates attack enemy targets, Archer consumes 1 Charge and immediately launches Follow-Up ATK on the primary target, dealing Quantum DMG equal to 250% of Archer's ATK and recovering 1 Skill Point. If the target is defeated before this Follow-Up ATK is launched, the Follow-Up ATK will be directed at one random enemy instead.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Projection Magecraft",
+                "type": "Major Trace",
+                "desc": "When Archer is on the field, increases the maximum Skill Point limit by 2.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_SkillTree1.webp"
+              },
+              {
+                "name": "Hero of Justice",
+                "type": "Major Trace",
+                "desc": "When Archer enters combat, gains 1 point(s) of Charge.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_SkillTree2.webp"
+              },
+              {
+                "name": "Guardian",
+                "type": "Major Trace",
+                "desc": "After allies gain a Skill Point, if there are 4 Skill Points or more, increases Archer's CRIT DMG by 120% for 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "The Unreached Dream",
+                "type": "Eidolon 1",
+                "desc": "After using Skill 3 time(s) within one turn, recovers 2 Skill Point(s) for allies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_Rank1.webp"
+              },
+              {
+                "name": "The Unfulfilled Happiness",
+                "type": "Eidolon 2",
+                "desc": "When using Ultimate, reduces the enemy target's Quantum RES by 20%, and applies Quantum Weakness to it, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_Rank2.webp"
+              },
+              {
+                "name": "The Untamed Will",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_BP.webp"
+              },
+              {
+                "name": "The Unsung Life",
+                "type": "Eidolon 4",
+                "desc": "Increases the Ultimate DMG dealt by 150%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_Rank4.webp"
+              },
+              {
+                "name": "The Nameless Watch",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_Ultra.webp"
+              },
+              {
+                "name": "The Endless Pilgrimage",
+                "type": "Eidolon 6",
+                "desc": "When the turn starts, recovers 1 Skill Point for allies. The maximum number of stacks allowed for the DMG boost effect provided by this unit's Skill increases by 1. The Skill DMG dealt ignores 20% of DEF.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -18094,6 +19065,123 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Fleeting Fragrance",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 140% of Argenti's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_Normal.webp"
+              },
+              {
+                "name": "Justice, Hereby Blooms",
+                "type": "Skill",
+                "desc": "Deals Physical DMG equal to 150% of Argenti's ATK to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_BP.webp"
+              },
+              {
+                "name": "For In This Garden, Supreme Beauty Bestows",
+                "type": "Ultimate",
+                "desc": "Consumes 90 Energy and deals Physical DMG equal to 192% of Argenti's ATK to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_Ultra.webp"
+              },
+              {
+                "name": "Merit Bestowed in \"My\" Garden",
+                "type": "Ultimate",
+                "desc": "Consumes 180 Energy and deals Physical DMG equal to 336% of Argenti's ATK to all enemies. And further deals DMG for 6 extra time(s), with each time dealing Physical DMG equal to 114% of Argenti's ATK to a random enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_Ultra.webp"
+              },
+              {
+                "name": "Manifesto of Purest Virtue",
+                "type": "Technique",
+                "desc": "After using the Technique, enemies in a set area are inflicted with Daze for 10 second(s). Dazed enemies will not actively attack the team.\\nWhen attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies equal to 80% of Argenti's ATK and regenerates his Energy by 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Sublime Object",
+                "type": "Talent",
+                "desc": "For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by 3, and grants him a stack of Apotheosis, increasing his CRIT Rate by 3.25%. This effect can stack up to 10 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Piety",
+                "type": "Major Trace",
+                "desc": "At the start of a turn, immediately gains 1 stack(s) of Apotheosis.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_SkillTree1.webp"
+              },
+              {
+                "name": "Generosity",
+                "type": "Major Trace",
+                "desc": "When enemy targets enter combat, immediately regenerates 2 Energy for self.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_SkillTree2.webp"
+              },
+              {
+                "name": "Courage",
+                "type": "Major Trace",
+                "desc": "Deals 15% more DMG to enemies whose HP percentage is 50% or less.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "A Lacuna in Kingdom of Aesthetics",
+                "type": "Eidolon 1",
+                "desc": "Each stack of Apotheosis additionally increases CRIT DMG by 4%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_Rank1.webp"
+              },
+              {
+                "name": "Agate's Humility",
+                "type": "Eidolon 2",
+                "desc": "If the number of enemies on the field equals to 3 or more when the Ultimate is used, ATK increases by 40% for 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_Rank2.webp"
+              },
+              {
+                "name": "Thorny Road's Glory",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_BP.webp"
+              },
+              {
+                "name": "Trumpet's Dedication",
+                "type": "Eidolon 4",
+                "desc": "At the start of battle, gains 2 stack(s) of Apotheosis and increases the maximum stack limit of the Talent's effect by 2.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_Rank4.webp"
+              },
+              {
+                "name": "Snow, From Somewhere in Cosmos",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_Ultra.webp"
+              },
+              {
+                "name": "\"Your\" Resplendence",
+                "type": "Eidolon 6",
+                "desc": "When using Ultimate, ignores 30% of enemy targets' DEF.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -19118,6 +20206,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Talons: Inculcate Decorum",
+                "type": "Basic ATK",
+                "desc": "Deals Lightning DMG equal to 140% of Ashveil's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Normal.webp"
+              },
+              {
+                "name": "Flog: Smite Evil",
+                "type": "Skill",
+                "desc": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 250% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to 125% of Ashveil's ATK, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by 50%.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_BP.webp"
+              },
+              {
+                "name": "Banquet: Insatiable Appetite",
+                "type": "Ultimate",
+                "desc": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to 500% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains 3 Charge.\\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to 250% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Ultra.webp"
+              },
+              {
+                "name": "Devour: O Loathsome Hand",
+                "type": "Technique",
+                "desc": "After using Technique, inflicts Daze on enemies within a set area for 10 second(s). Dazed enemies will not actively attack ally targets.\\nWhen entering combat via actively attacking a Dazed enemy, deals Lightning DMG to all enemies equal to 100% of Ashveil's ATK, and grants Ashveil 1 Charge.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Maze.webp"
+              },
+              {
+                "name": "Talons: Inculcate Decorum",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Rancor: Enmity Reprisal",
+                "type": "Talent",
+                "desc": "Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to 250% of Ashveil's ATK. Afterwards, gains 2 stack(s) of \"Gluttony,\" which can stack up to 12.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Damnation Trail",
+                "type": "Major Trace",
+                "desc": "When Ashveil uses Skill/Ultimate, gains 1/2 stacks of \"Gluttony.\" During Ashveil's Follow-Up ATK, for every 1 enemy(ies) that suffer a killing blow, Ashveil gains 1 stack(s) of \"Gluttony.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_SkillTree1.webp"
+              },
+              {
+                "name": "Phantom Limb",
+                "type": "Major Trace",
+                "desc": "DMG dealt by Ashveil's Follow-Up ATK increases by 80%. And for every 1 stack(s) of \"Gluttony\" in possession, DMG dealt by Follow-Up ATK additionally increases by 10%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_SkillTree2.webp"
+              },
+              {
+                "name": "First Fang",
+                "type": "Major Trace",
+                "desc": "While Ashveil is on the field, CRIT DMG dealt by ally targets increases by 40%, and CRIT DMG dealt by ally target's Follow-Up ATK additionally increases by 80%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Beware: Venture Not at Full Moon",
+                "type": "Eidolon 1",
+                "desc": "While Ashveil is on the field, increases DMG taken by all enemies by 24%. When an enemy target's current HP percentage is 50% or lower, the DMG they take increases to 36%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Rank1.webp"
+              },
+              {
+                "name": "Knock: Where Snickers Echo",
+                "type": "Eidolon 2",
+                "desc": "The max stack limit of \"Gluttony\" increases to 18. After each time Ashveil launches the enhanced Talent's Follow-Up ATK, refunds 35% of the removed \"Gluttony\" stacks.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Rank2.webp"
+              },
+              {
+                "name": "Hush: Unsaid Between Friends",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Ultra.webp"
+              },
+              {
+                "name": "Heed: Swallow Truth Whole",
+                "type": "Eidolon 4",
+                "desc": "When Ashveil uses Ultimate, increases ATK by 40% for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Rank4.webp"
+              },
+              {
+                "name": "Caution: Sleuth Turns Slayer",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_BP.webp"
+              },
+              {
+                "name": "Finale: And Then There Were None",
+                "type": "Eidolon 6",
+                "desc": "When the \"Bait\" exists on the field, reduces all enemies' All-Type RES by 20%. For every 1 stack of \"Gluttony\" Ashveil has gained, the DMG dealt increases by 4%. This effect can stack up to 30 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -20136,6 +21335,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Straight Bet",
+                "type": "Basic ATK",
+                "desc": "Deals Imaginary DMG equal to 140% of Aventurine's DEF to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_Normal.webp"
+              },
+              {
+                "name": "Cornerstone Deluxe",
+                "type": "Skill",
+                "desc": "Provides all allies with a Fortified Wager shield that can block DMG equal to 28% of Aventurine's DEF plus 410, lasting for 3 turn(s). When Fortified Wager is gained repeatedly, the Shield Effect can stack, up to 200% of the current Shield Effect provided by the Skill.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_BP.webp"
+              },
+              {
+                "name": "Roulette Shark",
+                "type": "Ultimate",
+                "desc": "Randomly gains 1 to 7 points of \"Blind Bet.\" Then, inflicts \"Unnerved\" on one designated enemy target for 3 turn(s) and deals Imaginary DMG equal to 324% of Aventurine's DEF to that enemy target. When an ally hits an \"Unnerved\" enemy target, the CRIT DMG dealt increases by 18%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_Ultra.webp"
+              },
+              {
+                "name": "The Red or the Black",
+                "type": "Technique",
+                "desc": "After using the Technique, 1 of the following effects will be granted:\\nThere is a chance for DEF to increase by 24%.\\nThere is a high chance for DEF to increase by 36%.\\nThere is a small chance for DEF to increase by 60%.\\n\\nWhen this Technique is used repeatedly, the acquired effect with the highest buff value is retained.\\nWhen the next battle starts, increases all allies' DEF by the corresponding value, lasting for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Shot Loaded Right",
+                "type": "Talent",
+                "desc": "For any single ally with \"Fortified Wager,\" their Effect RES increases by 62.5%, and when they get attacked, Aventurine gains 1 point of \"Blind Bet.\" When Aventurine has \"Fortified Wager,\" he can resist Crowd Control debuffs. This effect can trigger again after 2 turn(s). Aventurine additionally gains 1 point(s) of \"Blind Bet\" after getting attacked. Upon reaching 7 points of \"Blind Bet,\" Aventurine consumes the 7 points to launch a 7-hit Follow-Up ATK, with each hit dealing Imaginary DMG equal to 31.3% of Aventurine's DEF to one random enemy. \"Blind Bet\" is capped at 10 points.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Leverage",
+                "type": "Major Trace",
+                "desc": "For every 100 of Aventurine's DEF that exceeds 1600, increases his own CRIT Rate by 2%, up to a maximum increase of 48%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_SkillTree1.webp"
+              },
+              {
+                "name": "Hot Hand",
+                "type": "Major Trace",
+                "desc": "When battle starts, grants all allies a Fortified Wager shield, whose Shield Effect is equal to 100% of the one provided by the Skill, lasting for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_SkillTree2.webp"
+              },
+              {
+                "name": "Bingo!",
+                "type": "Major Trace",
+                "desc": "After a teammate with \"Fortified Wager\" launches Follow-Up ATK, Aventurine accumulates 1 \"Blind Bet\" point. This effect can trigger up to 3 time(s). Its trigger count resets at the start of Aventurine's turn. After Aventurine launches his Talent's Follow-Up ATK, provides all ally targets with a \"Fortified Wager\" that can offset DMG equal to 7.2% of Aventurine's DEF plus 96, and additionally grants a \"Fortified Wager\" that can block DMG equal to 7.2% of Aventurine's DEF plus 96 to the ally with the lowest Shield Effect, lasting for 3 turns.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Prisoner's Dilemma",
+                "type": "Eidolon 1",
+                "desc": "Increases CRIT DMG by 20% for ally targets with Fortified Wager. After using the Ultimate, provides all allies with a Fortified Wager shield, whose Shield Effect is equal to 100% of the one provided by the Skill, lasting for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_Rank1.webp"
+              },
+              {
+                "name": "Bounded Rationality",
+                "type": "Eidolon 2",
+                "desc": "When using the Basic ATK, reduces the target's All-Type RES by 12% for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_Rank2.webp"
+              },
+              {
+                "name": "Droprate Maxing",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_Ultra.webp"
+              },
+              {
+                "name": "Unexpected Hanging Paradox",
+                "type": "Eidolon 4",
+                "desc": "When triggering his Talent's Follow-Up ATK, first increases Aventurine's DEF by 40% for 2 turn(s), and additionally increases the Hits Per Action for his talent's Follow-Up ATK by 3.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_Rank4.webp"
+              },
+              {
+                "name": "Ambiguity Aversion",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_BP.webp"
+              },
+              {
+                "name": "Stag Hunt Game",
+                "type": "Eidolon 6",
+                "desc": "For every teammate that holds a Shield, the DMG dealt by Aventurine increases by 50%, up to a maximum of 150%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -21155,6 +22465,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Diagnostic Kick",
+                "type": "Basic ATK",
+                "desc": "Deals Lightning DMG equal to 140% of Bailu's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_Normal.webp"
+              },
+              {
+                "name": "Singing Among Clouds",
+                "type": "Skill",
+                "desc": "Heals a single ally for 13.7% of Bailu's Max HP plus 400. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_BP.webp"
+              },
+              {
+                "name": "Felicitous Thunderleap",
+                "type": "Ultimate",
+                "desc": "Heals all allies for 15.8% of Bailu's Max HP plus 461.\\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_Ultra.webp"
+              },
+              {
+                "name": "Saunter in the Rain",
+                "type": "Technique",
+                "desc": "After Technique is used, at the start of the next battle, all allies are granted Invigoration for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Gourdful of Elixir",
+                "type": "Talent",
+                "desc": "After an ally target with Invigoration is hit, restores the ally's HP for 6.3% of Bailu's Max HP plus 185. This effect can trigger 2 time(s).\\nWhen Bailu's teammate receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for 21% of Bailu's Max HP plus 615 HP. This effect can be triggered 1 time per battle.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Qihuang Analects",
+                "type": "Major Trace",
+                "desc": "When Bailu heals a target ally above their normal Max HP, the target's Max HP increases by 10% for 2 turns.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_SkillTree1.webp"
+              },
+              {
+                "name": "Vidyadhara Ichor Lines",
+                "type": "Major Trace",
+                "desc": "Invigoration can trigger 1 more time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_SkillTree2.webp"
+              },
+              {
+                "name": "Aquatic Benediction",
+                "type": "Major Trace",
+                "desc": "Characters with Invigoration receive 10% less DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Ambrosial Aqua",
+                "type": "Eidolon 1",
+                "desc": "If the target ally's current HP is equal to their Max HP when Invigoration ends, regenerates 8 extra Energy for this target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_Rank1.webp"
+              },
+              {
+                "name": "Sylphic Slumber",
+                "type": "Eidolon 2",
+                "desc": "After using her Ultimate, Bailu's Outgoing Healing increases by an additional 15% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_Rank2.webp"
+              },
+              {
+                "name": "Omniscient Opulence",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_BP.webp"
+              },
+              {
+                "name": "Evil Excision",
+                "type": "Eidolon 4",
+                "desc": "Every healing provided by the Skill makes the recipient deal 10% more DMG for 2 turn(s). This effect can stack up to 3 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_Rank4.webp"
+              },
+              {
+                "name": "Waning Worries",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_Ultra.webp"
+              },
+              {
+                "name": "Drooling Drop of Draconic Divinity",
+                "type": "Eidolon 6",
+                "desc": "Bailu can heal allies who received a killing blow 1 more time(s) in a single battle.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -22172,6 +23593,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Percipience, Silent Dawn",
+                "type": "Basic ATK",
+                "desc": "Deals Wind DMG equal to 84% of Black Swan's ATK to one designated enemy target, with a 77% base chance of inflicting 1 stack of \"Arcana\" on the target. Additionally, when attacking a target that suffers Wind Shear, Bleed, Burn, or Shock, there is respectively a 77% base chance of inflicting 1 extra stack of \"Arcana\" on the target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_Normal.webp"
+              },
+              {
+                "name": "Decadence, False Twilight",
+                "type": "Skill",
+                "desc": "Deals Wind DMG equal to 113% of Black Swan's ATK to one designated enemy target and any adjacent targets. At the same time, there is a 100% base chance of inflicting 1 stack of \"Arcana\" on the target enemy and the adjacent targets. Additionally, there is a 100% base chance of reducing the DEF of the target enemy and the adjacent targets by 23.8%, lasting for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_BP.webp"
+              },
+              {
+                "name": "Bliss of Otherworld's Embrace",
+                "type": "Ultimate",
+                "desc": "Inflicts Epiphany on all enemies for 2 turn(s).\\nWhile afflicted with Epiphany, enemies take 30% increased DMG in their turn. Additionally, if enemies are also inflicted with Arcana, they are also considered to be simultaneously afflicted with Wind Shear, Bleed, Burn, and Shock. After Arcana causes DMG at the start of each turn, its stacks are not reset. This non-reset effect of Arcana stacks can be triggered up to 1 time(s) for the duration of Epiphany. And the trigger count resets when Epiphany is applied again.\\nDeals Wind DMG equal to 144% of Black Swan's ATK to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_Ultra.webp"
+              },
+              {
+                "name": "From Fa\u00e7ade to V\u00e9rit\u00e9",
+                "type": "Technique",
+                "desc": "After this Technique is used, there is a 150% base chance for each enemy to be inflicted with 1 stack of Arcana at the start of the next battle. For each successful application of Arcana on a target, inflicts another stack of Arcana on the same target. This process repeats until Arcana fails to be inflicted on this target. For each successive application of Arcana on a target, its base chance of success is equal to 50% of the base chance of the previous successful infliction of Arcana on that target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Loom of Fate's Caprice",
+                "type": "Talent",
+                "desc": "Every time an enemy target receives DoT at the start of each turn, there is a 72.5% base chance for it to be inflicted with 1 stack of Arcana.\\nWhile afflicted with Arcana, enemy targets receive Wind DoT equal to 300% of Black Swan's ATK at the start of each turn. Each stack of Arcana increases this DMG multiplier by 15%. Then Arcana resets to 1 stack. Arcana can stack up to 50 times.\\nOnly when Arcana causes DMG at the start of an enemy target's turn, Black Swan triggers additional effects based on the number of Arcana stacks inflicted on the target:\\nWhen there are 3 or more Arcana stacks, deals Wind DoT equal to 225% of Black Swan's ATK to adjacent targets, with a 72.5% base chance of inflicting 1 stack of Arcana on adjacent targets.\\nWhen there are 7 or more Arcana stacks, enables the current DoT dealt this time to ignore 20% of the target's and adjacent targets' DEF.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Viscera's Disquiet",
+                "type": "Major Trace",
+                "desc": "After using Skill to attack one designated enemy that has Wind Shear, Bleed, Burn, or Shock, each of these debuffs respectively has a 65% base chance of inflicting 1 extra stack of Arcana.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_SkillTree1.webp"
+              },
+              {
+                "name": "Goblet's Dredges",
+                "type": "Major Trace",
+                "desc": "When an enemy target enters combat, there is a 65% base chance for it to be inflicted with 1 stack of Arcana.\\nEvery time an enemy target receives 1 instance of DoT during a single attack by an ally, there is a 65% base chance for the target to be inflicted with 1 stack of Arcana. The maximum number of stacks that can be inflicted during 1 single attack is 3.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_SkillTree2.webp"
+              },
+              {
+                "name": "Candleflame's Portent",
+                "type": "Major Trace",
+                "desc": "Increases this unit's DMG by an amount equal to 60% of Effect Hit Rate, up to a maximum DMG increase of 72%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Seven Pillars of Wisdom",
+                "type": "Eidolon 1",
+                "desc": "While Black Swan is active in combat, enemies afflicted with Wind Shear, Bleed, Burn, or Shock will have their corresponding Wind, Physical, Fire, or Lightning RES respectively reduced by 25%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_Rank1.webp"
+              },
+              {
+                "name": "Weep Not For Me, My Lamb",
+                "type": "Eidolon 2",
+                "desc": "When an enemy target afflicted with \"Arcana\" is defeated, there is a 100% base chance of inflicting 6 stack(s) of \"Arcana\" on adjacent targets.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_Rank2.webp"
+              },
+              {
+                "name": "As Above, So Below",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_BP.webp"
+              },
+              {
+                "name": "In Tears We Gift",
+                "type": "Eidolon 4",
+                "desc": "While in the Epiphany state, enemy targets have their Effect RES reduced by 10% and Black Swan regenerates 8 Energy at the start of these targets' turns or when they are defeated. This Energy Regeneration effect can only trigger up to 1 time while Epiphany lasts. The trigger count is reset when Epiphany is applied again.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_Rank4.webp"
+              },
+              {
+                "name": "Linnutee Flyway",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_Ultra.webp"
+              },
+              {
+                "name": "Pantheon Merciful, Masses Pitiful",
+                "type": "Eidolon 6",
+                "desc": "When an enemy target is attacked by Black Swan's teammates, Black Swan has a 65% base chance of inflicting 1 stack of \"Arcana\" on the target.\\nEvery time Black Swan inflicts \"Arcana\" on an enemy target, there is a 50% fixed chance to additionally increase the number of \"Arcana\" stacked this time by 1.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -23195,6 +24727,123 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Shard Sword",
+                "type": "Basic ATK",
+                "desc": "Deals 140% of Blade's ATK as Wind DMG to a target enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_Normal.webp"
+              },
+              {
+                "name": "Forest of Swords",
+                "type": "Basic ATK",
+                "desc": "Consumes HP equal to 10% of Blade's Max HP and deals Wind DMG equal to the sum of 56% of his ATK and 140% of his Max HP to one designated enemy. In addition, deals Wind DMG equal to the sum of 22.4% of Blade's ATK and 56% of his Max HP to adjacent targets.\\nIf Blade's current HP is insufficient, his HP will be reduced to 1 when using \"Forest of Swords.\"\\n\"Forest of Swords\" cannot regenerate Skill Points.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_Normal.webp"
+              },
+              {
+                "name": "Hellscape",
+                "type": "Skill",
+                "desc": "Consumes HP equal to 30% of Blade's Max HP to enter the Hellscape state.\\nWhen Hellscape is active, his Skill cannot be used, his DMG dealt increases by 54%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s).\\nIf Blade's current HP is insufficient, his HP will be reduced to 1 when he uses his Skill.\\nThis Skill does not regenerate Energy. Using this Skill does not end the current turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_BP.webp"
+              },
+              {
+                "name": "Death Sentence",
+                "type": "Ultimate",
+                "desc": "Sets Blade's current HP to 50% of his Max HP and deals Wind DMG to one enemy equal to the sum of 48% of his ATK, 120% of his Max HP, and 120% of the tally of Blade's HP loss in the current battle. At the same time, deals Wind DMG to adjacent targets equal to the sum of 19.2% of his ATK, 48% of his Max HP, and 48% of the tally of his HP loss in the current battle.\\nThe tally of Blade's HP loss in the current battle is capped at 90% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_Ultra.webp"
+              },
+              {
+                "name": "Karma Wind",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. After entering combat, consumes 20% of Blade's Max HP while dealing Wind DMG equal to 40% of his Max HP to all enemies.\\nIf Blade's current HP is insufficient, his HP will be reduced to 1 when this Technique is used.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Shuhu's Gift",
+                "type": "Talent",
+                "desc": "When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked.\\nWhen Charge stack reaches maximum, immediately launches a Follow-Up ATK on all enemies, dealing Wind DMG equal to 55% of Blade's ATK plus 138% of his Max HP. At the same time, restores Blade's HP by 25% of his Max HP. After the Follow-Up ATK, all Charges are consumed.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Vita Infinita",
+                "type": "Major Trace",
+                "desc": "When Blade's current HP percentage is at 50% of Max HP or lower, the HP restored when receiving healing increases by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_SkillTree1.webp"
+              },
+              {
+                "name": "Neverending Deaths",
+                "type": "Major Trace",
+                "desc": "If Blade hits a Weakness Broken enemy after using \"Forest of Swords,\" he will restore HP equal to 5% of his Max HP plus 100.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_SkillTree2.webp"
+              },
+              {
+                "name": "Cyclone of Destruction",
+                "type": "Major Trace",
+                "desc": "Increases DMG dealt by the Talent's Follow-Up ATK by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Blade Cuts the Deepest in Hell",
+                "type": "Eidolon 1",
+                "desc": "Blade's Ultimate deals additionally increased DMG to one designated enemy target, with the increased amount equal to 150% of the tally of Blade's HP loss in the current battle.\\nThe tally of Blade's HP loss in the current battle is capped at 90% of his Max HP. The tally value will be reset and re-accumulated after his Ultimate has been used.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_Rank1.webp"
+              },
+              {
+                "name": "Ten Thousand Sorrows From One Broken Dream",
+                "type": "Eidolon 2",
+                "desc": "When Blade is in the Hellscape state, his CRIT Rate increases by 15%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_Rank2.webp"
+              },
+              {
+                "name": "Hardened Blade Bleeds Coldest Shade",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_Ultra.webp"
+              },
+              {
+                "name": "Rejected by Death, Infected With Life",
+                "type": "Eidolon 4",
+                "desc": "When Blade's current HP percentage drops to 50% or lower of his Max HP, increases his Max HP by 20%. Stacks up to 2 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_Rank4.webp"
+              },
+              {
+                "name": "Death By Ten Lords' Gaze",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_BP.webp"
+              },
+              {
+                "name": "Reborn Into an Empty Husk",
+                "type": "Eidolon 6",
+                "desc": "The maximum number of Charge stacks is reduced to 4. The Follow-Up ATK triggered by Talent deals additionally increased DMG, with the increased amount equal to 50% of Blade's Max HP.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -24219,6 +25868,123 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Skullcrush Spurs",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 140% of Boothill's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_Normal.webp"
+              },
+              {
+                "name": "Fanning the Hammer",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 308% of Boothill's ATK to one designated enemy target.\\nThe Enhanced Basic Attack cannot recover Skill Points and can only target the enemy that is in the \"Standoff\" state.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_Normal.webp"
+              },
+              {
+                "name": "Sizzlin' Tango",
+                "type": "Skill",
+                "desc": "Forces Boothill and one designated enemy target into the \"Standoff\" state. Boothill's Basic ATK gets Enhanced, and he cannot use his Skill, lasting for 2 turn(s). This duration decreases by 1 at the start of Boothill's every turn.\\nThe enemy target in the \"Standoff\" becomes Taunted. When this enemy target/Boothill gets attacked by the other party in the Standoff, the DMG they receive increases by 37.5%/15%.\\nAfter this target is defeated or becomes Weakness Broken, Boothill gains 1 stack of \"Pocket Trickshot,\" then dispels the \"Standoff.\"\\nThis Skill cannot regenerate Energy. After using this Skill, the current turn does not end.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_BP.webp"
+              },
+              {
+                "name": "Dust Devil's Sunset Rodeo",
+                "type": "Ultimate",
+                "desc": "Applies Physical Weakness to one designated enemy target, lasting for 2 turn(s).\\nDeals Physical DMG equal to 480% of Boothill's ATK to the target and delays their action by 45%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_Ultra.webp"
+              },
+              {
+                "name": "3-9\u00d7 Smile",
+                "type": "Technique",
+                "desc": "After the Technique is used, when casting the Skill for the first time in the next battle, applies the same Physical Weakness to the target as the one induced by the Ultimate, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Five Peas in a Pod",
+                "type": "Talent",
+                "desc": "Each stack of Pocket Trickshot increases the Enhanced Basic Attack's Toughness Reduction by 50%, stacking up to 3 time(s).\\nIf the target is Weakness Broken while the Enhanced Basic ATK is being used, based on the number of Pocket Trickshot stacks, deals Break DMG to this target equal to 87.5%/150%/213% of Boothill's Physical Break DMG. The max Toughness taken into account for this DMG cannot exceed 16 times the base Toughness Reduction of the Basic Attack \"Skullcrush Spurs.\"\\nAfter winning the battle, Boothill can retain Pocket Trickshot for the next battle.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Ghost Load",
+                "type": "Major Trace",
+                "desc": "Increase this character's CRIT Rate/CRIT DMG, by an amount equal to 10%/50% of Break Effect, up to a max increase of 30%/150%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_SkillTree1.webp"
+              },
+              {
+                "name": "Above Snakes",
+                "type": "Major Trace",
+                "desc": "While Boothill is in the Standoff, reduces the DMG he receives from targets that are not in the Standoff by 30%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_SkillTree2.webp"
+              },
+              {
+                "name": "Point Blank",
+                "type": "Major Trace",
+                "desc": "When in Standoff and gaining Pocket Trickshot, regenerates 10 Energy. Can also trigger this effect when gaining Pocket Trickshot stacks that exceed the max limit.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Dusty Trail's Lone Star",
+                "type": "Eidolon 1",
+                "desc": "When the battle starts, obtains 1 stack of Pocket Trickshot. When Boothill deals DMG, ignores 16% of the enemy target's DEF.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_Rank1.webp"
+              },
+              {
+                "name": "Milestonemonger",
+                "type": "Eidolon 2",
+                "desc": "When in Standoff and gaining Pocket Trickshot, recovers 1 Skill Point(s) and increases Break Effect by 30%, lasting for 2 turn(s). Can also trigger this effect when gaining Pocket Trickshot stacks that exceed the max limit. But cannot trigger repeatedly within one turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_Rank2.webp"
+              },
+              {
+                "name": "Marble Orchard's Guard",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_Ultra.webp"
+              },
+              {
+                "name": "Cold Cuts Chef",
+                "type": "Eidolon 4",
+                "desc": "When the enemy target in the Standoff is attacked by Boothill, the DMG they receive additionally increases by 12%. When Boothill is attacked by the enemy target in the Standoff, the effect of him receiving increased DMG is offset by 12%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_Rank4.webp"
+              },
+              {
+                "name": "Stump Speech",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_BP.webp"
+              },
+              {
+                "name": "Crowbar Hotel's Raccoon",
+                "type": "Eidolon 6",
+                "desc": "When triggering the Talent's Break DMG, additionally deals Break DMG to the target equal to 40% of the original DMG multiplier and additionally deals Break DMG to adjacent targets equal to 70% of the original DMG multiplier.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -25237,6 +27003,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Windrider Bullet",
+                "type": "Basic ATK",
+                "desc": "Deals Wind DMG equal to 140% of Bronya's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_Normal.webp"
+              },
+              {
+                "name": "Combat Redeployment",
+                "type": "Skill",
+                "desc": "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 82.5% for 1 turn(s).\\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_BP.webp"
+              },
+              {
+                "name": "The Belobog March",
+                "type": "Ultimate",
+                "desc": "Increases the ATK of all allies by 66%, and increases their CRIT DMG equal to 18% of Bronya's CRIT DMG plus 24% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_Ultra.webp"
+              },
+              {
+                "name": "Banner of Command",
+                "type": "Technique",
+                "desc": "After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Leading the Way",
+                "type": "Talent",
+                "desc": "After using her Basic ATK, Bronya's next action will be Advanced Forward by 37.5%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Command",
+                "type": "Major Trace",
+                "desc": "The CRIT Rate for Basic ATK increases to 100%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_SkillTree1.webp"
+              },
+              {
+                "name": "Battlefield",
+                "type": "Major Trace",
+                "desc": "At the start of the battle, all allies' DEF increases by 20% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_SkillTree2.webp"
+              },
+              {
+                "name": "Military Might",
+                "type": "Major Trace",
+                "desc": "When Bronya is on the field, all allies deal 10% more DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Hone Your Strength",
+                "type": "Eidolon 1",
+                "desc": "When using Skill, there is a 50% fixed chance of recovering 1 Skill Point. This effect has a 1-turn cooldown.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_Rank1.webp"
+              },
+              {
+                "name": "Quick March",
+                "type": "Eidolon 2",
+                "desc": "When using Skill, the target ally's SPD increases by 30% after taking action, lasting for 1 turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_Rank2.webp"
+              },
+              {
+                "name": "Bombardment",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_Ultra.webp"
+              },
+              {
+                "name": "Take by Surprise",
+                "type": "Eidolon 4",
+                "desc": "After any other ally character uses Basic ATK on an enemy target that has Wind Weakness, Bronya immediately launches 1 instance of Follow-Up ATK, dealing Wind DMG to this target equal to 80% of her Basic ATK DMG. This effect can only trigger once per turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_Rank4.webp"
+              },
+              {
+                "name": "Unstoppable",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_BP.webp"
+              },
+              {
+                "name": "Piercing Rainbow",
+                "type": "Eidolon 6",
+                "desc": "The duration of the DMG Boost effect placed by the Skill on the target ally increases by 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -26256,6 +28133,123 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Lament, Nethersea's Ripple",
+                "type": "Basic ATK",
+                "desc": "Deals Quantum DMG equal to 70% of Castorice's Max HP to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Normal.webp"
+              },
+              {
+                "name": "Silence, Wraithfly's Caress",
+                "type": "Skill",
+                "desc": "Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 62.5% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 37.5% of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_BP.webp"
+              },
+              {
+                "name": "Boneclaw, Doomdrake's Embrace",
+                "type": "Skill",
+                "desc": "Consumes 40% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to 37.5% and 62.5% of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_BP.webp"
+              },
+              {
+                "name": "Doomshriek, Dawn's Chime",
+                "type": "Ultimate",
+                "desc": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by 25%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max \"Newbud.\"\\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Ultra.webp"
+              },
+              {
+                "name": "Wail, Death's Herald",
+                "type": "Technique",
+                "desc": "After using Technique, enters the \"Netherveil\" state that lasts for 20 seconds. While \"Netherveil\" is active, enemies are unable to actively approach Castorice.\\nDuring \"Netherveil,\" active attacks will cause all enemies within range to enter combat. At the same time, summons the memosprite Netherwing, advances its action by 100%, and deploys the Territory \"Lost Netherland.\" Netherwing has its current HP equal to 50% of max \"Newbud.\" After entering battle, consumes 40% of the current HP of all allies (except Netherwing).\\nIf Netherwing is not summoned after entering battle, Castorice gains \"Newbud\" by an amount equal to 30% of max \"Newbud.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Desolation Across Palms",
+                "type": "Talent",
+                "desc": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 25%. This effect can stack up to 3 time(s), lasting for 3 turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Contained Dark Tide",
+                "type": "Major Trace",
+                "desc": "After ally targets (excluding Netherwing) receive healing, converts 100% of the healed amount into \"Newbud.\" If Netherwing is on the field, this is converted to Netherwing's HP instead. Each ally target can accumulate a conversion amount up to 12% of the max \"Newbud.\" After any unit takes action, all units reset their accumulated conversion amount.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_SkillTree1.webp"
+              },
+              {
+                "name": "Inverted Torch",
+                "type": "Major Trace",
+                "desc": "When Castorice's current HP is higher than or equal to 50% of her Max HP, her SPD increases by 40%. When Netherwing uses \"Breath Scorches the Shadow\" and deals fatal damage to all enemies on the field or brings them to a point where their HP cannot be reduced further, Netherwing's SPD increases by 100%, lasting for 1 turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_SkillTree2.webp"
+              },
+              {
+                "name": "Where The West Wind Dwells",
+                "type": "Major Trace",
+                "desc": "Each time Netherwing uses \"Breath Scorches the Shadow,\" the DMG dealt increases by 30%. This effect stacks up to 6 time(s) and lasts until the end of this turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Snowbound Maiden, Memory to Tomb",
+                "type": "Eidolon 1",
+                "desc": "When the enemy target's current HP is 80%/50% of Max HP or lower, the DMG dealt to it by \"Boneclaw, Doomdrake's Embrace,\" \"Claw Splits the Veil,\" \"Breath Scorches the Shadow,\" and \"Wings Sweep the Ruins\" is 120%/140% of the original DMG respectively.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Rank1.webp"
+              },
+              {
+                "name": "Crown on Wings of Bloom",
+                "type": "Eidolon 2",
+                "desc": "After summoning the memosprite Netherwing, Castorice gains 2 stack(s) of \"Ardent Will.\" \"Ardent Will\" can stack up to 2 time(s) and can be used to offset the HP cost of Netherwing's Memosprite Skill, \"Breath Scorches the Shadow\" and advance Castorice's action by 100%. When using the next Enhanced Skill, Castorice gains \"Newbud\" by an amount equal to 30% of max \"Newbud.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Rank2.webp"
+              },
+              {
+                "name": "Pious Pilgrim, Dance in Doom",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Ultra.webp"
+              },
+              {
+                "name": "Rest in Songs of Gloom",
+                "type": "Eidolon 4",
+                "desc": "While Castorice is on the field, all allies' HP restored when receiving healing increases by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Rank4.webp"
+              },
+              {
+                "name": "Pristine Pages, Prophecy as Plume",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_BP.webp"
+              },
+              {
+                "name": "Await for Years to Loom",
+                "type": "Eidolon 6",
+                "desc": "When Castorice or Netherwing deals DMG, increases Quantum RES PEN by 20%. During Netherwing's attacks, can reduce enemy Toughness regardless of Weakness Types. When breaking Weaknesses, triggers the Quantum Weakness Break effect. And the number of Bounces for Netherwing's Talent \"Wings Sweep the Ruins\" additionally increases by 3.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -27273,6 +29267,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Oops, a Missed Catch",
+                "type": "Basic ATK",
+                "desc": "Deals Quantum DMG equal to 140% of Cipher's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Normal.webp"
+              },
+              {
+                "name": "Hey, Jackpot for the Taking",
+                "type": "Skill",
+                "desc": "Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 250% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 125% of Cipher's ATK to the adjacent targets.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_BP.webp"
+              },
+              {
+                "name": "Yours Truly, Kitty Phantom Thief!",
+                "type": "Ultimate",
+                "desc": "Deals Quantum DMG equal to 150% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 50% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Ultra.webp"
+              },
+              {
+                "name": "Puss in Boots",
+                "type": "Technique",
+                "desc": "Gains \"Zagreus's Blessing\" that lasts for 15 second(s). During this time, Cipher will be undetectable by enemies and her movement speed increases by 50%. When approaching an enemy in the overworld/Simulated Universe/Divergent Universe, can immediately gain a random Consumable. Consumables can be gained this way for up to 50 time(s) in each Earth day.\\nWhen entering battle with \"Zagreus's Blessing\" active, deals Quantum DMG equal to 100% of Cipher's ATK to all enemies. And the tallied amount Cipher gains from this instance of DMG increases by 200%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "The Hospitable Dolosian",
+                "type": "Talent",
+                "desc": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to 188% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.\\nCipher will tally 12% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Empyrean Strides",
+                "type": "Major Trace",
+                "desc": "When Cipher's SPD is higher than or equal to 140/170, CRIT Rate increases by 25%/50%, and the gained tally increases by 50%/100%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_SkillTree1.webp"
+              },
+              {
+                "name": "300 Rogues",
+                "type": "Major Trace",
+                "desc": "Cipher can tally 8% of the non-True DMG dealt by ally targets to the enemy targets other than the \"Patron.\" Overflow DMG is not tallied.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_SkillTree2.webp"
+              },
+              {
+                "name": "Sleight of Sky",
+                "type": "Major Trace",
+                "desc": "Increases the CRIT DMG dealt by the Talent's Follow-Up ATK by 100%. When Cipher is on the battlefield, DMG received by all enemy targets increases by 40%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Read the Room, Seek the Glee",
+                "type": "Eidolon 1",
+                "desc": "Cipher's tally of DMG is 150% of its original value. When using the Talent's Follow-Up ATK, increases Cipher's ATK by 80%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Rank1.webp"
+              },
+              {
+                "name": "In the Fray, Nab On a Spree",
+                "type": "Eidolon 2",
+                "desc": "When Cipher hits an enemy target, there is a 120% base chance to increase the DMG it receives by 30%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Rank2.webp"
+              },
+              {
+                "name": "From Thin Air, Hard to Foresee",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Ultra.webp"
+              },
+              {
+                "name": "The Jig Is Up, Quick to Flee",
+                "type": "Eidolon 4",
+                "desc": "After the \"Patron\" gets attacked by an ally target, Cipher deals Quantum Additional DMG to it equal to 50% of Cipher's ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Rank4.webp"
+              },
+              {
+                "name": "Safe in Numbers, Light as a Bee",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_BP.webp"
+              },
+              {
+                "name": "The Thief's Game, Unsung and Free",
+                "type": "Eidolon 6",
+                "desc": "The DMG dealt by Follow-Up ATK from Cipher's Talent increases by 350%. During the tally, an additional 16% of non-Overflow DMG dealt by this attack is tallied. After the tally is cleared by using Ultimate, 20% of the cleared tally is returned.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -28291,6 +30396,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "I Want to Help",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 140% of Clara's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_Normal.webp"
+              },
+              {
+                "name": "Svarog Watches Over You",
+                "type": "Skill",
+                "desc": "Deals Physical DMG equal to 150% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to 150% of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\\nAll Marks of Counter will be removed after this Skill is used.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_BP.webp"
+              },
+              {
+                "name": "Promise, Not Command",
+                "type": "Ultimate",
+                "desc": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 30%, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\\nIn addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 192%. Enemies adjacent to it take 50% of the DMG dealt to the primary target enemy. Enhanced Counter(s) can take effect 2 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_Ultra.webp"
+              },
+              {
+                "name": "A Small Price for Victory",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Because We're Family",
+                "type": "Talent",
+                "desc": "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 200% of Clara's ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Kinship",
+                "type": "Major Trace",
+                "desc": "When attacked, this unit has a 35% fixed chance to dispel 1 debuff placed on them.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_SkillTree1.webp"
+              },
+              {
+                "name": "Under Protection",
+                "type": "Major Trace",
+                "desc": "Increases the chance to resist Crowd Control debuffs by 35%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_SkillTree2.webp"
+              },
+              {
+                "name": "Revenge",
+                "type": "Major Trace",
+                "desc": "Increases DMG dealt by Svarog's Counter by 30%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "A Tall Figure",
+                "type": "Eidolon 1",
+                "desc": "Using Skill will not remove Marks of Counter on the enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_Rank1.webp"
+              },
+              {
+                "name": "A Tight Embrace",
+                "type": "Eidolon 2",
+                "desc": "After using the Ultimate, ATK increases by 30% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_Rank2.webp"
+              },
+              {
+                "name": "Cold Steel Armor",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_BP.webp"
+              },
+              {
+                "name": "Family's Warmth",
+                "type": "Eidolon 4",
+                "desc": "After Clara is hit, the DMG taken by Clara is reduced by 30%. This effect lasts until the start of her next turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_Rank4.webp"
+              },
+              {
+                "name": "A Small Promise",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_Ultra.webp"
+              },
+              {
+                "name": "Long Company",
+                "type": "Eidolon 6",
+                "desc": "After other allies are attacked, Svarog also has a 50% fixed chance to trigger a Counter on the attacker and mark them with a \"Mark of Counter.\" When using Ultimate, the number of Enhanced Counters increases by 1.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -29309,6 +31525,134 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Lo, Hope Takes Flight!",
+                "type": "Basic ATK",
+                "desc": "Gains 1 \"Recollection\" point(s) and deals Ice DMG equal to 70% of Cyrene's Max HP to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Normal.webp"
+              },
+              {
+                "name": "To Love and Tomorrow \u266a",
+                "type": "Basic ATK",
+                "desc": "Gains 3 \"Recollection\" points and deals Ice DMG equal to 42% of Cyrene's Max HP to one designated enemy. Then, deals Ice DMG equal to 42% of Cyrene's Max HP to all enemies.\\n\"To Love and Tomorrow \u266a\" cannot recover Skill Points.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Normal.webp"
+              },
+              {
+                "name": "Bloom, Elysium of Beyond",
+                "type": "Skill",
+                "desc": "Gains 3 \"Recollection\" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 30% of the original DMG. When Cyrene is downed, the Zone will also be dispelled.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_BP.webp"
+              },
+              {
+                "name": "Verse \u25e6 Vow \u221e",
+                "type": "Ultimate",
+                "desc": "Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the \"Ripples of Past Reverie\" state. Enhances Basic ATK to \"To Love and Tomorrow \u266a\" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 62.5%, and deploys the Zone effect from Skill with no duration limit.\\nCan only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Ultra.webp"
+              },
+              {
+                "name": "Reunion at First Sight",
+                "type": "Ultimate",
+                "desc": "Enables Demiurge to immediately gain 1 extra turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Ultra.webp"
+              },
+              {
+                "name": "Peace at West Wind's End",
+                "type": "Technique",
+                "desc": "After using Technique, creates a Special Dimension that lasts for 30 second(s) around the character. Enemies within this Special Dimension enter the \"This Moment, Forever\" state. While in this state, enemies will cease all actions. Ally characters within this Special Dimension have 50% increased movement speed. After entering combat within the duration, deploys the Skill's Zone. Only 1 Dimension Effect created by allies can exist at the same time.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "SingleAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Attack",
+                "type": "SingleAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Hearts Gather as One",
+                "type": "Talent",
+                "desc": "When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain \"Future.\" When ally targets with \"Future\" take action, consumes \"Future\" to grant Cyrene 1 \"Recollection\" point(s). When Cyrene has 24 \"Recollection\" points, can activate Ultimate and dispel all debuffs on her. When she has 12 \"Recollection\" points during the \"Ripples of Past Reverie\" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by 25%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Child of Remembrance",
+                "type": "Major Trace",
+                "desc": "When a teammate's memosprite is summoned, it gains \"Future.\" \"Future\" held by the memosprite won't be consumed.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_SkillTree1.webp"
+              },
+              {
+                "name": "Ripples Across Time",
+                "type": "Major Trace",
+                "desc": "When there are 1/2/3 Chrysos Heir or Remembrance characters (excluding Cyrene) in the team, Cyrene gains 2/3/6 \"Recollection\" point(s) respectively at the start of combat.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_SkillTree2.webp"
+              },
+              {
+                "name": "Causality in Trichotomy",
+                "type": "Major Trace",
+                "desc": "When Cyrene's SPD is 180 or higher, increases all allies' DMG dealt by 20%. Then, for every 1 SPD that exceeds 180, increases Cyrene's and Demiurge's Ice RES PEN by 2%. Up to a maximum of 60 excess SPD can be taken into account for this effect.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Epics, Born on a Blank Slate",
+                "type": "Eidolon 1",
+                "desc": "When Demiurge triggers the Memosprite Skill \"Ode to Ego\" during the use of \"Minuet of Blooms and Plumes,\" gains 6 \"Recollection\" point(s) and increases the number of bounces for this attack by 12.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Rank1.webp"
+              },
+              {
+                "name": "A Tomorrow in Thirteen Shades",
+                "type": "Eidolon 2",
+                "desc": "When entering combat, additionally gains 12 \"Recollection\" point(s). For every 1 different ally character that gains the Memosprite Skill buff from Demiurge, the DMG multiplier for the True DMG dealt by ally targets via the Skill's Zone increases by 6%, up to a max increase of 24%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Rank2.webp"
+              },
+              {
+                "name": "By Thy Being, As I've Written",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Ultra.webp"
+              },
+              {
+                "name": "Please Write On, With a Smile",
+                "type": "Eidolon 4",
+                "desc": "After every 1 use of \"Minuet of Blooms and Plumes\" by Demiurge, the Bounce DMG multiplier for the triggered Memosprite Skill \"Ode to Ego\" increases by 6% in the current battle, stacking up to 24 times.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Rank4.webp"
+              },
+              {
+                "name": "Gaze, Steeped in Yesterbloom",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_BP.webp"
+              },
+              {
+                "name": "Remembrance, Sung in Ripples \u266a",
+                "type": "Eidolon 6",
+                "desc": "When Cyrene uses Ultimate for the first time, all allies advance action by 100%. Each time Demiurge triggers the Memosprite Skill \"Ode to Ego\" during the use of \"Minuet of Blooms and Plumes,\" gains the following effects based on the number of times it has been triggered in the current battle:\\n1 time: When Demiurge is on the field, reduces all enemy targets' DEF by 20%.\\n2 times and more: All allies advance action by 24%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -30333,6 +32677,140 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Beneficent Lotus",
+                "type": "Basic ATK",
+                "desc": "Uses a 2-hit attack and deals Imaginary DMG equal to 140% of Dan Heng \u2022 Imbibitor Lunae's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Normal.webp"
+              },
+              {
+                "name": "Transcendence",
+                "type": "Basic ATK",
+                "desc": "Uses a 3-hit attack and deals Imaginary DMG equal to 364% of Dan Heng \u2022 Imbibitor Lunae's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Normal.webp"
+              },
+              {
+                "name": "Divine Spear",
+                "type": "Basic ATK",
+                "desc": "Uses a 5-hit attack and deals Imaginary DMG equal to 532% of Dan Heng \u2022 Imbibitor Lunae's ATK to one designated enemy target. From the fourth hit onward, simultaneously deals Imaginary DMG equal to 84% of Dan Heng \u2022 Imbibitor Lunae's ATK to adjacent targets.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Normal.webp"
+              },
+              {
+                "name": "Fulgurant Leap",
+                "type": "Basic ATK",
+                "desc": "Uses a 7-hit attack and deals Imaginary DMG equal to 700% of Dan Heng \u2022 Imbibitor Lunae's ATK to one designated enemy target. From the fourth hit onward, simultaneously deal Imaginary DMG equal to 252% of Dan Heng \u2022 Imbibitor Lunae's ATK to adjacent targets.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Normal.webp"
+              },
+              {
+                "name": "Dracore Libre",
+                "type": "Skill",
+                "desc": "Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill.\\nEnhanced once, Beneficent Lotus becomes Transcendence.\\nEnhanced twice, Beneficent Lotus becomes Divine Spear.\\nEnhanced thrice, Beneficent Lotus becomes Fulgurant Leap.\\nWhen using Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack of Outroar is gained before every hit. Each stack of Outroar increases Dan Heng \u2022 Imbibitor Lunae's CRIT DMG by 15%, for a max of 4 stacks. These stacks last until the end of his turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_BP.webp"
+              },
+              {
+                "name": "Cancel",
+                "type": "Skill",
+                "desc": "Cancel Enhancement"
+              },
+              {
+                "name": "Azure's Aqua Ablutes All",
+                "type": "Ultimate",
+                "desc": "Uses a 3-hit attack and deals Imaginary DMG equal to 360% of Dan Heng \u2022 Imbibitor Lunae's ATK to one designated enemy target. At the same time, deals Imaginary DMG equal to 168% of Dan Heng \u2022 Imbibitor Lunae's ATK to adjacent targets. Then, obtains 2 \"Squama Sacrosancta.\"\\nIt's possible to hold up to 3 \"Squama Sacrosancta,\" which can be used to offset Dan Heng \u2022 Imbibitor Lunae's consumption of skill points. Consuming \"Squama Sacrosancta\" is considered equivalent to consuming skill points.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Ultra.webp"
+              },
+              {
+                "name": "Heaven-Quelling Prismadrakon",
+                "type": "Technique",
+                "desc": "After using his Technique, Dan Heng \u2022 Imbibitor Lunae enters the Leaping Dragon state for 20 seconds. While in the Leaping Dragon state, using his attack enables him to move forward rapidly for a set distance, attacking all enemies he touches and blocking all incoming attacks. After entering combat via attacking enemies in the Leaping Dragon state, Dan Heng \u2022 Imbibitor Lunae deals Imaginary DMG equal to 120% of his ATK to all enemies, and gains 1 Squama Sacrosancta.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Righteous Heart",
+                "type": "Talent",
+                "desc": "After each hit dealt during an attack, Dan Heng \u2022 Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by 12.5%. This effect can stack up to 6 time(s), lasting until the end of his turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Star Veil",
+                "type": "Major Trace",
+                "desc": "At the start of the battle, immediately regenerates 15 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_SkillTree1.webp"
+              },
+              {
+                "name": "Aqua Reign",
+                "type": "Major Trace",
+                "desc": "Increases the chance to resist Crowd Control debuffs by 35%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_SkillTree2.webp"
+              },
+              {
+                "name": "Jolt Anew",
+                "type": "Major Trace",
+                "desc": "When dealing DMG to enemy targets with Imaginary Weakness, CRIT DMG increases by 24%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Tethered to Sky",
+                "type": "Eidolon 1",
+                "desc": "Increases the stackable Righteous Heart count by 4, and gains 1 extra stack of Righteous Heart for each hit during an attack.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Rank1.webp"
+              },
+              {
+                "name": "Imperium On Cloud Nine",
+                "type": "Eidolon 2",
+                "desc": "After using his Ultimate, Dan Heng \u2022 Imbibitor Lunae's action advances by 100% and gains 1 extra \"Squama Sacrosancta.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Rank2.webp"
+              },
+              {
+                "name": "Clothed in Clouds",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_BP.webp"
+              },
+              {
+                "name": "Zephyr's Bliss",
+                "type": "Eidolon 4",
+                "desc": "The buff effect granted by \"Outroar\" lasts until the end of this unit's next turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Rank4.webp"
+              },
+              {
+                "name": "Fall is the Pride",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Ultra.webp"
+              },
+              {
+                "name": "Reign, Returned",
+                "type": "Eidolon 6",
+                "desc": "After another ally character uses their Ultimate, the Imaginary RES PEN of Dan Heng \u2022 Imbibitor Lunae's next \"Fulgurant Leap\" attack increases by 20%. This effect can stack up to 3 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -31351,6 +33829,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Aegis Vitae",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 140% of Dan Heng \u2022 Permansor Terrae's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Normal.webp"
+              },
+              {
+                "name": "Terra Omnibus",
+                "type": "Skill",
+                "desc": "Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to 23% of Dan Heng \u2022 Permansor Terrae's ATK plus 513 for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Bondmate\" only applies to the most recent target of Dan Heng \u2022 Permansor Terrae's Skill.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_BP.webp"
+              },
+              {
+                "name": "A Dragon's Zenith Knows No Rue",
+                "type": "Ultimate",
+                "desc": "Deals Physical DMG equal to 375% of Dan Heng \u2022 Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to 23% of Dan Heng \u2022 Permansor Terrae's ATK plus 513, lasting for 3 turn(s). When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.\\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 100% of Dan Heng \u2022 Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to 100% of the Bondmate's ATK. The enhancement lasts for 2 \"Souldragon\" action(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Ultra.webp"
+              },
+              {
+                "name": "Earthrend",
+                "type": "Technique",
+                "desc": "After using Technique, gains \"Bondmate\" and inflict Daze on enemies within a certain area for 10 second(s). Dazed enemies will not actively attack ally targets.\\nWhen switching the active character, \"Bondmate\" transfers to the current active character. At the start of the next battle, automatically uses Skill 1 time on the character with \"Bondmate\" without consuming any Skill Points.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Of Virtue, Forms Unfold",
+                "type": "Talent",
+                "desc": "When an ally character becomes the \"Bondmate,\" Dan Heng \u2022 Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of 165.\\nWhen \"Souldragon\" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to 11.5% of Dan Heng \u2022 Permansor Terrae's ATK plus 256 for 3 turn(s). The Shield Effect provided by Dan Heng \u2022 Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng \u2022 Permansor Terrae's Skill.\\nWhen Dan Heng \u2022 Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Empyreanity",
+                "type": "Major Trace",
+                "desc": "When using Skill, increases ATK for the target who has become \"Bondmate\" by an amount equal to 15% of Dan Heng \u2022 Permansor Terrae's ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_SkillTree1.webp"
+              },
+              {
+                "name": "Sylvanity",
+                "type": "Major Trace",
+                "desc": "When combat starts, Dan Heng \u2022 Permansor Terrae advances action by 40%. When the \"Bondmate\" uses an attack, Dan Heng \u2022 Permansor Terrae regenerates 6 Energy and \"Souldragon\" advances action by 15%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_SkillTree2.webp"
+              },
+              {
+                "name": "Sublimity",
+                "type": "Major Trace",
+                "desc": "When \"Souldragon\" takes action, additionally provides a Shield that can offset DMG equal to 5% of Dan Heng \u2022 Permansor Terrae's ATK plus 100 to the ally target whose current Shield Effect is the lowest. When repeatedly receiving Dan Heng \u2022 Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill. When the enhanced \"Souldragon\" takes action, additionally deals 1 instance of Additional DMG of the Bondmate's Type to the one enemy target whose current HP is the highest, equal to 40% of the Bondmate's ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Shed Scales of Old",
+                "type": "Eidolon 1",
+                "desc": "When Dan Heng \u2022 Permansor Terrae uses Ultimate, recovers 1 Skill Point(s) and increases the \"Bondmate's\" All-Type RES PEN by 18%, lasting for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Rank1.webp"
+              },
+              {
+                "name": "Watch Trails to Blaze",
+                "type": "Eidolon 2",
+                "desc": "Additionally increases the number of actions for the enhanced Souldragon from Ultimate by 2. After Dan Heng \u2022 Permansor Terrae uses Ultimate, Souldragon advances action by 100%. When the enhanced \"Souldragon\" takes action, the Additional DMG dealt by the \"Bondmate\" becomes 200% of its original DMG, and the Shield Effect provided in this instance becomes 200% of its original Shield Effect.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Rank2.webp"
+              },
+              {
+                "name": "Bear Weight of Worlds",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Ultra.webp"
+              },
+              {
+                "name": "By Oath, This Vessel Is I",
+                "type": "Eidolon 4",
+                "desc": "Reduces the DMG taken by the \"Bondmate\" by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Rank4.webp"
+              },
+              {
+                "name": "The Path of Permanence Sweeps Far",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_BP.webp"
+              },
+              {
+                "name": "One Dream to Enfold All Wilds",
+                "type": "Eidolon 6",
+                "desc": "When the \"Bondmate\" is on the field, increases the DMG taken by all enemies by 20%. When the \"Bondmate\" deals DMG, ignores 12% of the enemy targets' DEF. When Dan Heng \u2022 Permansor Terrae uses Ultimate, the \"Bondmate\" will deal Additional DMG of the Bondmate's Type to all enemies, equal to 330% of the Bondmate's ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -32368,6 +34957,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Mind is Might",
+                "type": "Basic ATK",
+                "desc": "Deals Imaginary DMG equal to 140% of Dr. Ratio's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_Normal.webp"
+              },
+              {
+                "name": "Intellectual Midwifery",
+                "type": "Skill",
+                "desc": "Deals Imaginary DMG equal to 188% of Dr. Ratio's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_BP.webp"
+              },
+              {
+                "name": "Syllogistic Paradox",
+                "type": "Ultimate",
+                "desc": "Deals Imaginary DMG equal to 288% of Dr. Ratio's ATK to one designated enemy target and applies \"Wiseman's Folly.\" When Dr. Ratio's teammates attack a target afflicted with \"Wiseman's Folly,\" Dr. Ratio launches 1 instance of his Talent's Follow-Up ATK against this target.\\n\"Wiseman's Folly\" can be triggered for up to 2 times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_Ultra.webp"
+              },
+              {
+                "name": "Mold of Idolatry",
+                "type": "Technique",
+                "desc": "After using Technique, creates a Special Dimension that Taunts nearby enemies, lasting for 10 second(s). After entering battle with enemies in this Special Dimension, there is a 100% base chance to reduce each single enemy target's SPD by 15% for 2 turn(s). Only 1 Dimension Effect created by allies can exist at the same time.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Cogito, Ergo Sum",
+                "type": "Talent",
+                "desc": "When using his Skill, Dr. Ratio has a 40% fixed chance of launching a Follow-Up ATK against his target for 1 time, dealing Imaginary DMG equal to 338% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching Follow-Up ATK increases by 20%. If the target enemy is defeated before the Follow-Up ATK triggers, the Follow-Up ATK will be directed at a single random enemy instead.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Summation",
+                "type": "Major Trace",
+                "desc": "When Dr. Ratio uses his Skill, for every debuff on the target, his CRIT Rate increases by 2.5% and CRIT DMG by 5%. This effect can stack up to 6 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_SkillTree1.webp"
+              },
+              {
+                "name": "Inference",
+                "type": "Major Trace",
+                "desc": "When Skill is used to attack an enemy target, there is a 100% base chance to reduce the attacked enemy target's Effect RES by 10% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_SkillTree2.webp"
+              },
+              {
+                "name": "Deduction",
+                "type": "Major Trace",
+                "desc": "When dealing DMG to a target that has 3 or more debuff(s), for each debuff the target has, the DMG dealt by Dr. Ratio to this target increases by 10%, up to a maximum increase of 50%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Pride Comes Before a Fall",
+                "type": "Eidolon 1",
+                "desc": "The maximum stackable count for the Trace \"Summation\" increases by 4. When a battle begins, immediately obtains 4 stacks of Summation. Needs to unlock Summation first.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_Rank1.webp"
+              },
+              {
+                "name": "The Divine Is in the Details",
+                "type": "Eidolon 2",
+                "desc": "When his Talent's Follow-Up ATK hits a target, for every debuff the target has, deals Imaginary Additional DMG equal to 20% of Dr. Ratio's ATK. This effect can be triggered for a maximum of 4 time(s) during each Follow-Up ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_Rank2.webp"
+              },
+              {
+                "name": "Know Thyself",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_Ultra.webp"
+              },
+              {
+                "name": "Ignorance Is Blight",
+                "type": "Eidolon 4",
+                "desc": "When triggering the Talent, additionally regenerates 15 Energy for Dr. Ratio.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_Rank4.webp"
+              },
+              {
+                "name": "Sic Itur Ad Astra",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_BP.webp"
+              },
+              {
+                "name": "Vincit Omnia Veritas",
+                "type": "Eidolon 6",
+                "desc": "Additionally increases the trigger count for \"Wiseman's Folly\" by 1. The DMG dealt by the Talent's Follow-Up ATK increases by 50%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -33387,6 +36087,135 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Boltsunder",
+                "type": "Basic ATK",
+                "desc": "Deals Wind DMG equal to 140% of Feixiao's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Normal.webp"
+              },
+              {
+                "name": "Waraxe",
+                "type": "Skill",
+                "desc": "Deals Wind DMG equal to 250% of Feixiao's ATK to one designated enemy target. Then, immediately launches 1 extra instance of Talent's Follow-Up ATK against the target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_BP.webp"
+              },
+              {
+                "name": "Terrasplit",
+                "type": "Ultimate",
+                "desc": "Deals Wind DMG to one designated enemy target, up to 849% of Feixiao's ATK. During this time, can ignore Weakness Type to reduce the target's Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases by 100%.\\nDuring the attack, Feixiao first launches \"Boltsunder Blitz\" or \"Waraxe Skyward\" on the target, for a total of 6 time(s). At the end, deals Wind DMG equal to 192% of Feixiao's ATK to the target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Ultra.webp"
+              },
+              {
+                "name": "Boltsunder Blitz",
+                "type": "Ultimate",
+                "desc": "Deals Wind DMG equal to 72% of Feixiao's ATK to the chosen target. If the target is Weakness Broken, the DMG multiplier increases by 37.5%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Ultra.webp"
+              },
+              {
+                "name": "Waraxe Skyward",
+                "type": "Ultimate",
+                "desc": "Deals Wind DMG equal to 72% of Feixiao's ATK to the chosen target. If the target is not Weakness Broken, the DMG multiplier increases by 37.5%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Ultra.webp"
+              },
+              {
+                "name": "Terrasplit",
+                "type": "Ultimate",
+                "desc": "During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.\\nLaunches \"Boltsunder Blitz\" or \"Waraxe Skyward\" on one enemy 6 time(s). Deals Wind DMG at the end.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Ultra.webp"
+              },
+              {
+                "name": "Stormborn",
+                "type": "Technique",
+                "desc": "After using Technique, enters the \"Onrush\" state, lasting for 20 seconds. While in \"Onrush,\" pulls in enemies within a certain range, and increases this unit's movement speed by 50%. After entering battle, gains 1 point(s) of \"Flying Aureus.\"\\nWhile in \"Onrush,\" actively attacking will start battle with all pulled enemies. After entering battle, deals Wind DMG equal to 200% of Feixiao's ATK to all enemies at the start of each wave. This DMG is guaranteed to CRIT. If more than 1 enemy is pulled in, increases the multiplier of this DMG by 100% for each additional enemy pulled in, up to a maximum of 1000%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Thunderhunt",
+                "type": "Talent",
+                "desc": "Can activate Ultimate when \"Flying Aureus\" reaches 6 points, accumulating up to 12 points. Feixiao gains 1 point of \"Flying Aureus\" for every 2 attacks by ally targets. Feixiao's Ultimate attacks do not count towards this number.\\nAfter Feixiao's teammates attack an Enemy target, Feixiao immediately launches Follow-Up ATK against the primary target, dealing Wind DMG equal to 138% of Feixiao's ATK. If there is no primary target available to attack, Feixiao attacks a single random enemy instead. This effect can only trigger once per turn and the trigger count resets at the start of Feixiao's turn. When using this attack, increases DMG dealt by this unit by 75%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Heavenpath",
+                "type": "Major Trace",
+                "desc": "When the battle starts, gains 3 point(s) of \"Flying Aureus.\"\\nAt the start of a turn, if no Follow-Up ATK was launched via Talent in the previous turn, then this counts as 1 toward the number of attacks required to gain \"Flying Aureus.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_SkillTree1.webp"
+              },
+              {
+                "name": "Formshift",
+                "type": "Major Trace",
+                "desc": "When using Ultimate to deal DMG to an enemy target, it is considered as a Follow-Up ATK. Follow-Up ATKs' CRIT DMG increases by 36%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_SkillTree2.webp"
+              },
+              {
+                "name": "Boltcatch",
+                "type": "Major Trace",
+                "desc": "When using Skill, increases ATK by 48%, lasting for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Skyward I Quell",
+                "type": "Eidolon 1",
+                "desc": "After launching \"Boltsunder Blitz\" or \"Waraxe Skyward,\" additionally increases the Ultimate DMG dealt by Feixiao by an amount equal to 10% of the original DMG, stacking up to 5 time(s) and lasting until the end of the Ultimate action.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Rank1.webp"
+              },
+              {
+                "name": "Moonward I Wish",
+                "type": "Eidolon 2",
+                "desc": "In the Talent's effect, for every 1 instance of Follow-Up ATK launched by ally targets, Feixiao gains 1 point of \"Flying Aureus.\" This effect can trigger up to 6 time(s) per turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Rank2.webp"
+              },
+              {
+                "name": "Starward I Bode",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Ultra.webp"
+              },
+              {
+                "name": "Stormward I Hear",
+                "type": "Eidolon 4",
+                "desc": "The Toughness Reduction from the Talent's Follow-Up ATK increases by 100% and, when launched, increases this unit's SPD by 8%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Rank4.webp"
+              },
+              {
+                "name": "Heavenward I Leap",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_BP.webp"
+              },
+              {
+                "name": "Homeward I Near",
+                "type": "Eidolon 6",
+                "desc": "Increases the All-Type RES PEN of Ultimate DMG dealt by Feixiao by 20%. Talent's Follow-Up ATK DMG is considered as Ultimate DMG at the same time, and its DMG multiplier increases by 140%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -34410,6 +37239,129 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Order: Flare Propulsion",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of SAM's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_Normal.webp"
+              },
+              {
+                "name": "Fyrefly Type-IV: Pyrogenic Decimation",
+                "type": "Basic ATK",
+                "desc": "Restores HP by an amount equal to 20% of this unit's Max HP. Deals Fire DMG equal to 280% of SAM's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_Normal.webp"
+              },
+              {
+                "name": "Order: Aerial Bombardment",
+                "type": "Skill",
+                "desc": "Consumes HP equal to 40% of this unit's Max HP and regenerates a fixed amount of Energy equal to 65% of this unit's Max Energy. Deals Fire DMG equal to 250% of SAM's ATK to one designated enemy. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. Advances this unit's next Action by 25%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_BP.webp"
+              },
+              {
+                "name": "Fyrefly Type-IV: Deathstar Overload",
+                "type": "Skill",
+                "desc": "Restores HP by an amount equal to 25% of this unit's Max HP. Applies Fire Weakness to one designated enemy, lasting for 2 turn(s). Deals Fire DMG equal to (0.2 \u00d7 Break Effect + 250%) of SAM's ATK to this target. At the same time, deals Fire DMG equal to (0.1 \u00d7 Break Effect + 125%) of SAM's ATK to adjacent targets. The Break Effect taken into the calculation is capped at 360%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_BP.webp"
+              },
+              {
+                "name": "Fyrefly Type-IV: Complete Combustion",
+                "type": "Ultimate",
+                "desc": "Enters the Complete Combustion state, advances this unit's Action by 100%, and gains Enhanced Basic ATK and Enhanced Skill. While in Complete Combustion, increases SPD by 75, and when using the Enhanced Basic ATK or Enhanced Skill, increases this unit's Weakness Break Efficiency by 50% and increases the Break DMG dealt by SAM to the enemy targets by 25%, lasting until this current attack ends.\\nA countdown timer for the Complete Combustion state appears in the Action Order. When the countdown timer's turn starts, SAM exits the Complete Combustion state. The countdown timer has a fixed SPD of 70.\\nSAM cannot use Ultimate while in Complete Combustion.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_Ultra.webp"
+              },
+              {
+                "name": "\u0394 Order: Meteoric Incineration",
+                "type": "Technique",
+                "desc": "Leaps into the air and moves about freely for 5 seconds, which can be ended early by launching a plunging attack. When the duration ends, plunges and immediately attacks all enemies within a set area. At the start of each wave, applies a Fire Weakness to all enemies, lasting for 2 turn(s). Then, deals Fire DMG equal to 200% of SAM's ATK to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Chrysalid Pyronexus",
+                "type": "Talent",
+                "desc": "The lower the HP, the less DMG received. When HP is 20% or lower, the DMG Reduction reaches its maximum effect, reducing up to 50%. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases by 40%.\\nIf Energy is lower than 50% when the battle starts, regenerates Energy to 50%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Module \u03b1: Antilag Outburst",
+                "type": "Major Trace",
+                "desc": "During the Complete Combustion, attacking enemies that have no Fire Weakness can also reduce their Toughness, with the effect being equivalent to 55% of the original Toughness Reduction from abilities.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_SkillTree1.webp"
+              },
+              {
+                "name": "Module \u03b2: Autoreactive Armor",
+                "type": "Major Trace",
+                "desc": "When SAM is in Complete Combustion with a Break Effect that is equal to or greater than 200%/360%, attacking a Weakness-Broken enemy target will convert the Toughness Reduction of this attack into 1 instance of 35%/50% Super Break DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_SkillTree2.webp"
+              },
+              {
+                "name": "Module \u03b3: Core Overload",
+                "type": "Major Trace",
+                "desc": "For every 10 point(s) of SAM's ATK that exceeds 1800, increases this unit's Break Effect by 0.8%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "In Reddened Chrysalis, I Once Rest",
+                "type": "Eidolon 1",
+                "desc": "When using the Enhanced Skill, ignores 15% of the target's DEF. The Enhanced Skill does not consume Skill Points.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_Rank1.webp"
+              },
+              {
+                "name": "From Shattered Sky, I Free Fall",
+                "type": "Eidolon 2",
+                "desc": "While in Complete Combustion, using the Enhanced Basic ATK or the Enhanced Skill to defeat an enemy target or to Break their Weakness allows SAM to immediately gain 1 extra turn. This effect can trigger again after 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_Rank2.webp"
+              },
+              {
+                "name": "Amidst Silenced Stars, I Deep Sleep",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_BP.webp"
+              },
+              {
+                "name": "Upon Lighted Fyrefly, I Soon Gaze",
+                "type": "Eidolon 4",
+                "desc": "While in Complete Combustion, increases SAM's Effect RES by 50%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_Rank4.webp"
+              },
+              {
+                "name": "From Undreamt Night, I Thence Shine",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_Ultra.webp"
+              },
+              {
+                "name": "In Finalized Morrow, I Full Bloom",
+                "type": "Eidolon 6",
+                "desc": "While in Complete Combustion, increases SAM's Fire RES PEN by 20%. When using the Enhanced Basic ATK or Enhanced Skill, increases Weakness Break Efficiency by 50%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -35429,6 +38381,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Novaburst",
+                "type": "Basic ATK",
+                "desc": "Deals Quantum DMG equal to 70% of Fu Xuan's Max HP to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_Normal.webp"
+              },
+              {
+                "name": "Known by Stars, Shown by Hearts",
+                "type": "Skill",
+                "desc": "Activates Matrix of Prescience, via which Fu Xuan's teammates will Distribute 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s).\\nWhile affected by Matrix of Prescience, all ally targets gain the Knowledge effect, which increases their respective Max HP by 7.5% of Fu Xuan's Max HP, and increases CRIT Rate by 15%.\\nWhen Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_BP.webp"
+              },
+              {
+                "name": "Woes of Many Morphed to One",
+                "type": "Ultimate",
+                "desc": "Deals Quantum DMG equal to 120% of Fu Xuan's Max HP to all enemies and obtains 1 trigger count for the HP Restore effect granted by Fu Xuan's Talent.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_Ultra.webp"
+              },
+              {
+                "name": "Of Fortune Comes Fate",
+                "type": "Technique",
+                "desc": "After the Technique is used, all team members receive a Barrier, lasting for 20 seconds. This Barrier can block all enemy attacks, and the team will not enter combat when attacked. Entering battle while the Barrier is active will have Fu Xuan automatically activate Matrix of Prescience at the start of the battle, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Bleak Breeds Bliss",
+                "type": "Talent",
+                "desc": "While Fu Xuan is still active in combat, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take 22% less DMG.\\nWhen Fu Xuan's current HP percentage falls to 50% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by 95% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect has 1 trigger count by default and can hold up to a maximum of 2 trigger counts.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Taiyi, the Macrocosmic",
+                "type": "Major Trace",
+                "desc": "When Matrix of Prescience is active, Fu Xuan will regenerate 20 extra Energy when she uses her Skill.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_SkillTree1.webp"
+              },
+              {
+                "name": "Dunjia, the Metamystic",
+                "type": "Major Trace",
+                "desc": "When Fu Xuan's Ultimate is used, heals all other allies by an amount equal to 5% of Fu Xuan's Max HP plus 133.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_SkillTree2.webp"
+              },
+              {
+                "name": "Liuren, the Sexagenary",
+                "type": "Major Trace",
+                "desc": "If a target enemy applies Crowd Control debuffs to allies while the \"Matrix of Prescience\" is active, all allies will resist all Crowd Control debuffs applied by the enemy target during the current action. This effect can only be triggered once. When \"Matrix of Prescience\" is activated again, the number of times this effect can be triggered will reset.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Dominus Pacis",
+                "type": "Eidolon 1",
+                "desc": "The Knowledge effect increases CRIT DMG by 30%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_Rank1.webp"
+              },
+              {
+                "name": "Optimus Felix",
+                "type": "Eidolon 2",
+                "desc": "If any ally target is struck by a killing blow while \"Matrix of Prescience\" is active, then all ally targets who were struck by a killing blow during this action will not be knocked down, and 70% of their Max HP is immediately restored. This effect can trigger 1 time per battle.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_Rank2.webp"
+              },
+              {
+                "name": "Apex Nexus",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_BP.webp"
+              },
+              {
+                "name": "Fortuna Stellaris",
+                "type": "Eidolon 4",
+                "desc": "When other allies under Matrix of Prescience are attacked, Fu Xuan regenerates 5 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_Rank4.webp"
+              },
+              {
+                "name": "Arbiter Primus",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_Ultra.webp"
+              },
+              {
+                "name": "Omnia Vita",
+                "type": "Eidolon 6",
+                "desc": "Once Matrix of Prescience is activated, it will keep a tally of the total HP lost by all team members in the current battle. The DMG dealt by Fu Xuan's Ultimate will increase by 200% of this tally of HP loss.\\nThis tally is also capped at 120% of Fu Xuan's Max HP and the tally value will reset and re-accumulate after Fu Xuan's Ultimate is used.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -36447,6 +39510,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Fist of Conviction",
+                "type": "Basic ATK",
+                "desc": "Deals Ice DMG equal to 140% of Gepard's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_Normal.webp"
+              },
+              {
+                "name": "Daunting Smite",
+                "type": "Skill",
+                "desc": "Deals Ice DMG equal to 250% of Gepard's ATK to one designated enemy, with a 65% base chance to Freeze the enemy for 1 turn(s).\\nWhile Frozen, the enemy cannot take action and will take Ice Additional DMG equal to 75% of Gepard's ATK at the beginning of each turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_BP.webp"
+              },
+              {
+                "name": "Enduring Bulwark",
+                "type": "Ultimate",
+                "desc": "Applies a Shield to all allies, absorbing DMG equal to 52.5% of Gepard's DEF plus 769 for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_Ultra.webp"
+              },
+              {
+                "name": "Comradery",
+                "type": "Technique",
+                "desc": "After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to 24% of Gepard's DEF plus 150 for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Unyielding Will",
+                "type": "Talent",
+                "desc": "When struck with a killing blow, instead of becoming knocked down, Gepard's HP immediately restores to 62.5% of his Max HP. This effect can only trigger once per battle.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Integrity",
+                "type": "Major Trace",
+                "desc": "Gepard has a higher chance to be attacked by enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_SkillTree1.webp"
+              },
+              {
+                "name": "Commander",
+                "type": "Major Trace",
+                "desc": "When \"Unyielding Will\" is triggered, Gepard's Energy will be restored to 100%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_SkillTree2.webp"
+              },
+              {
+                "name": "Grit",
+                "type": "Major Trace",
+                "desc": "Gepard's ATK increases by 35% of his current DEF. This effect will refresh at the start of each turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Due Diligence",
+                "type": "Eidolon 1",
+                "desc": "When using Skill, increases the base chance to Freeze the attacked target enemy by 35%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_Rank1.webp"
+              },
+              {
+                "name": "Lingering Cold",
+                "type": "Eidolon 2",
+                "desc": "After an enemy Frozen by Skill is unfrozen, their SPD is reduced by 20% for 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_Rank2.webp"
+              },
+              {
+                "name": "Never Surrender",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_Ultra.webp"
+              },
+              {
+                "name": "Faith Moves Mountains",
+                "type": "Eidolon 4",
+                "desc": "When Gepard is in battle, all allies' Effect RES increases by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_Rank4.webp"
+              },
+              {
+                "name": "Cold Iron Fist",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_BP.webp"
+              },
+              {
+                "name": "Unyielding Resolve",
+                "type": "Eidolon 6",
+                "desc": "When his Talent is triggered, Gepard immediately takes action and restores extra HP equal to 50% of his Max HP.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -37470,6 +40644,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Sawblade Tuning",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of Himeko's ATK to one enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_Normal.webp"
+              },
+              {
+                "name": "Molten Detonation",
+                "type": "Skill",
+                "desc": "Deals Fire DMG equal to 250% of Himeko's ATK to one designated enemy and Fire DMG equal to 100% of Himeko's ATK to enemies adjacent to it.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_BP.webp"
+              },
+              {
+                "name": "Heavenly Flare",
+                "type": "Ultimate",
+                "desc": "Deals Fire DMG equal to 276% of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_Ultra.webp"
+              },
+              {
+                "name": "Incomplete Combustion",
+                "type": "Technique",
+                "desc": "After using Technique, creates a Special Dimension that lasts for 15 second(s). After entering battle with enemies in the Special Dimension, there is a 100% base chance to increase Fire DMG taken by enemies by 10% for 2 turn(s). Only 1 Dimension Effect created by allies can exist at the same time.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Victory Rush",
+                "type": "Talent",
+                "desc": "When an enemy target is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\\nIf Himeko is fully Charged when an ally target performs an attack, Himeko immediately performs 1 Follow-Up ATK and deals Fire DMG equal to 175% of her ATK to all enemies, consuming all Charge points.\\nAt the start of the battle, Himeko gains 1 point of Charge.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Starfire",
+                "type": "Major Trace",
+                "desc": "After using an attack, there is a 50% base chance to inflict Burn on enemies, lasting for 2 turn(s).\\nWhen afflicted with Burn, enemies take Fire DoT equal to 30% of Himeko's ATK at the start of each turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_SkillTree1.webp"
+              },
+              {
+                "name": "Magma",
+                "type": "Major Trace",
+                "desc": "Skill deals 20% more DMG to enemies currently afflicted with Burn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_SkillTree2.webp"
+              },
+              {
+                "name": "Benchmark",
+                "type": "Major Trace",
+                "desc": "When current HP percentage is 80% or higher, CRIT Rate increases by 15%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Childhood",
+                "type": "Eidolon 1",
+                "desc": "After \"Victory Rush\" is triggered, Himeko's SPD increases by 20% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_Rank1.webp"
+              },
+              {
+                "name": "Convergence",
+                "type": "Eidolon 2",
+                "desc": "Deals 15% more DMG to enemies whose HP percentage is 50% or less.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_Rank2.webp"
+              },
+              {
+                "name": "Poised",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_BP.webp"
+              },
+              {
+                "name": "Dedication",
+                "type": "Eidolon 4",
+                "desc": "When Himeko's Skill inflicts Weakness Break on an enemy, she gains 1 extra point(s) of Charge.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_Rank4.webp"
+              },
+              {
+                "name": "Aspiration",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_Ultra.webp"
+              },
+              {
+                "name": "Trailblaze!",
+                "type": "Eidolon 6",
+                "desc": "Ultimate deals 2 extra instances of Fire DMG equal to 40% of the original DMG to one random enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -38487,6 +41772,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Banner: Stormcaller",
+                "type": "Basic ATK",
+                "desc": "Deals Wind DMG equal to 70% of Huohuo's Max HP to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_Normal.webp"
+              },
+              {
+                "name": "Talisman: Protection",
+                "type": "Skill",
+                "desc": "Dispels 1 debuff(s) from one designated ally and immediately restores this ally's HP by an amount equal to 24.5% of Huohuo's Max HP plus 718. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to 19.6% of Huohuo's Max HP plus 574.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_BP.webp"
+              },
+              {
+                "name": "Tail: Spiritual Domination",
+                "type": "Ultimate",
+                "desc": "Regenerates Energy for all teammates (i.e., excluding this unit) by an amount equal to 22.5% of their respective Max Energy. At the same time, increases their ATK by 48% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_Ultra.webp"
+              },
+              {
+                "name": "Fiend: Impeachment of Evil",
+                "type": "Technique",
+                "desc": "Huohuo terrorizes surrounding enemies, afflicting Horror-Struck on them. Enemies in Horror-Struck will flee away from Huohuo for 10 second(s). When entering battle with enemies in Horror-Struck, there is a 100% base chance of reducing every single enemy's ATK by 25% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Possession: Ethereal Metaflow",
+                "type": "Talent",
+                "desc": "After using her Skill, Huohuo gains Divine Provision, lasting for 2 turn(s). This duration decreases by 1 turn at the start of Huohuo's every turn. If Huohuo has Divine Provision when an ally's turn starts or when an ally uses their Ultimate, restores HP for that ally by an amount equal to 5.25% of Huohuo's Max HP plus 154. At the same time, every ally with 50% HP percentage or lower receives healing once.\\nWhen Divine Provision is triggered to heal an ally, dispel 1 debuff(s) from that ally. This effect can be triggered up to 6 time(s). Using the skill again resets the effect's trigger count.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Fearful to Act",
+                "type": "Major Trace",
+                "desc": "When combat starts, Huohuo gains Divine Provision, lasting for 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_SkillTree1.webp"
+              },
+              {
+                "name": "The Cursed One",
+                "type": "Major Trace",
+                "desc": "Increases the chance to resist Crowd Control debuffs by 35%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_SkillTree2.webp"
+              },
+              {
+                "name": "Stress Reaction to Horror",
+                "type": "Major Trace",
+                "desc": "When her Talent is triggered to heal allies, Huohuo regenerates 1 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Anchored to Vessel, Specters Nestled",
+                "type": "Eidolon 1",
+                "desc": "The duration of Divine Provision produced by the Talent is extended by 1 turn(s). When Huohuo possesses Divine Provision, all allies' SPD increases by 12%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_Rank1.webp"
+              },
+              {
+                "name": "Sealed in Tail, Wraith Subdued",
+                "type": "Eidolon 2",
+                "desc": "If Huohuo possesses \"Divine Provision\" when an ally target is struck by a killing blow, the ally will not be knocked down and their HP will immediately be restored by an amount equal to 50% of their Max HP. This reduces the duration of \"Divine Provision\" by 1 turn. This effect can only be triggered 2 time(s) per battle.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_Rank2.webp"
+              },
+              {
+                "name": "Cursed by Fate, Moths to Flame",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_Ultra.webp"
+              },
+              {
+                "name": "Tied in Life, Bound to Strife",
+                "type": "Eidolon 4",
+                "desc": "When healing a target ally via Skill or Talent, the less HP the target ally currently has, the higher the amount of healing they will receive. The maximum increase in healing provided by Huohuo is 80%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_Rank4.webp"
+              },
+              {
+                "name": "Mandated by Edict, Evils Evicted",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_BP.webp"
+              },
+              {
+                "name": "Woven Together, Cohere Forever",
+                "type": "Eidolon 6",
+                "desc": "When healing a target ally, increases the target ally's DMG dealt by 50% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -39510,6 +42906,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "When Breeze Kisses Cirrus",
+                "type": "Basic ATK",
+                "desc": "Deals Wind DMG equal to 70% of Hyacine's Max HP to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_Normal.webp"
+              },
+              {
+                "name": "Love Over the Rainbow",
+                "type": "Skill",
+                "desc": "Summons memosprite Little Ica. Restores HP equal to 10% of Hyacine's Max HP plus 205 for all allies (except Little Ica), and restores HP equal to 12.5% of Hyacine's Max HP plus 256 for Little Ica.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_BP.webp"
+              },
+              {
+                "name": "We Who Fly Into Twilight",
+                "type": "Ultimate",
+                "desc": "Summons memosprite Little Ica. Restores HP equal to 12.5% of Hyacine's Max HP plus 256 for all allies (except Little Ica), and restores HP equal to 15% of Hyacine's Max HP plus 308 for Little Ica. Hyacine enters the \"After Rain\" state, lasting for 3 turn(s). This duration decreases by 1 at the start of Hyacine's every turn. While \"After Rain\" is active, all ally targets increase their Max HP by 37.5% plus 769.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_Ultra.webp"
+              },
+              {
+                "name": "Day So Right, Life So Fine!",
+                "type": "Technique",
+                "desc": "When the next battle starts, restores HP by an amount equal to 30% of Hyacine's Max HP plus 600 for all allies and increases Max HP by 20%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "First Light Heals the World",
+                "type": "Talent",
+                "desc": "The memosprite Little Ica initially has Max HP equal to 50% of Hyacine's Max HP. When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt by 100% for 2 turn(s). Stacks up to 3 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Gloomy Grin",
+                "type": "Major Trace",
+                "desc": "Increases Hyacine's and Little Ica's CRIT Rate by 100%. When providing healing to an ally target whose current HP is equal to or less than 50% of their Max HP, increases Hyacine's and Little Ica's Outgoing Healing by 25%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_SkillTree1.webp"
+              },
+              {
+                "name": "Stormy Caress",
+                "type": "Major Trace",
+                "desc": "Increases Hyacine's Effect RES by 50%. When using Skill and Ultimate, dispels 1 debuff(s) from all ally targets.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_SkillTree2.webp"
+              },
+              {
+                "name": "Tempestuous Halt",
+                "type": "Major Trace",
+                "desc": "When Hyacine's SPD exceeds 200, increases her and Little Ica's Max HP by 20%. Then, for every 1 excess SPD, increases Hyacine's and Little Ica's Outgoing Healing by 1%. Up to a max of 200 excess SPD can be taken into account for this effect.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Cradle the Candle of Night",
+                "type": "Eidolon 1",
+                "desc": "While Hyacine is in the \"After Rain\" state, all ally targets additionally increase their Max HP by 50%, and after using an attack, immediately restore their HP by an amount equal to 8% of Hyacine's Max HP.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_Rank1.webp"
+              },
+              {
+                "name": "Come Sit in My Courtyard",
+                "type": "Eidolon 2",
+                "desc": "When an ally target's HP decreases, SPD increases by 30%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_Rank2.webp"
+              },
+              {
+                "name": "Depart, Unto the Sun!",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_Ultra.webp"
+              },
+              {
+                "name": "Sunlit Amber, Yours to Keep",
+                "type": "Eidolon 4",
+                "desc": "The \"Tempestuous Halt\" Trace gets enhanced: For every 1 excess SPD, additionally increases Hyacine's and Little Ica's CRIT DMG by 2%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_Rank4.webp"
+              },
+              {
+                "name": "Twilight Drapes the Tide",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_BP.webp"
+              },
+              {
+                "name": "O Sky, Heed My Plea",
+                "type": "Eidolon 6",
+                "desc": "When Little Ica uses Memosprite Skill, the amount cleared from the tally of healing is changed to 12%. While Little Ica is on the field, all ally targets' All-Type RES PEN increases by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -40530,6 +44037,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Aeolian Mode: Echoes in Still Waters",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 140% of Hysilens's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Normal.webp"
+              },
+              {
+                "name": "Overtone Hum: Chorus After Dark Tides",
+                "type": "Skill",
+                "desc": "Has a 100% base chance to increase the DMG taken by all enemies by 25%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 175% of Hysilens's ATK to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_BP.webp"
+              },
+              {
+                "name": "Maelstrom Rhapsody",
+                "type": "Ultimate",
+                "desc": "Hysilens deploys a Zone that reduces enemy targets' ATK by 15% and DEF by 30%, and deals Physical DMG equal to 240% of Hysilens's ATK to all enemies.\\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to 100% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.\\nThe Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Ultra.webp"
+              },
+              {
+                "name": "At Ocean's Abode",
+                "type": "Technique",
+                "desc": "After using Technique, creates a Special Dimension that lasts for 20 seconds and automatically moves forward. Enemies within the Special Dimension enter the \"Soulstruck\" state. \"Soulstruck\" enemies will not attack ally targets and will follow the dimension while it persists.\\nAfter entering combat with \"Soulstruck\" enemies, there is a 100% base chance to inflict each enemy target with 2 of the following states: Wind Shear/Bleed/Burn/Shock, all of which are equivalent to those provided by Hysilens's Talent effect. Only 1 Dimension Effect created by allies can exist at the same time.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Sirenic Serenade",
+                "type": "Talent",
+                "desc": "When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to 31.3% of Hysilens's ATK for 2 turn(s).\\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to 20% of their Max HP, up to 31.3% of Hysilens's ATK, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "The Gladius of Conquest",
+                "type": "Major Trace",
+                "desc": "At the start of combat, Hysilens deploys a Zone, equivalent to that provided by her Ultimate, lasting for 3 turn(s). Whenever Hysilens deploys a Zone, she recovers 1 Skill Point(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_SkillTree1.webp"
+              },
+              {
+                "name": "The Bubble of Banquets",
+                "type": "Major Trace",
+                "desc": "When Hysilens uses Ultimate, if the enemy target is currently afflicted with DoT(s), all DoTs currently applied on the target will immediately produce DMG equal to 150% of their original DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_SkillTree2.webp"
+              },
+              {
+                "name": "The Fiddle of Pearls",
+                "type": "Major Trace",
+                "desc": "For every 10% of Hysilens's Effect Hit Rate that exceeds 60%, increases her DMG dealt by 15%, up to a max increase of 90%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "You Ask Why Hearts Cry",
+                "type": "Eidolon 1",
+                "desc": "While Hysilens is on the field, the DoT dealt by ally targets is equal to 116% of their original value. When Hysilens inflicts Wind Shear/Bleed/Burn/Shock on enemies via her Talent, there is a 100% base chance to additionally inflict the target with 1 instance of Wind Shear/Bleed/Burn/Shock state that is equivalent to those from the original Talent effect and can coexist with such pre-existing states.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Rank1.webp"
+              },
+              {
+                "name": "Tell Me Why Waves Roar High",
+                "type": "Eidolon 2",
+                "desc": "While the Zone is active, the DMG Boost effect from Trace \"The Fiddle of Pearls\" applies to all allies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Rank2.webp"
+              },
+              {
+                "name": "Why Do Lights Bid Goodbye",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Ultra.webp"
+              },
+              {
+                "name": "Lo, How Time Flows By",
+                "type": "Eidolon 4",
+                "desc": "While the Zone is active, reduces All-Type RES of all enemies by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Rank4.webp"
+              },
+              {
+                "name": "In Ablution, I Hum and Sigh",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_BP.webp"
+              },
+              {
+                "name": "When to Return From Where You Lie",
+                "type": "Eidolon 6",
+                "desc": "While the Zone is active, at the start of each turn or after one attack by an ally target, increases the maximum trigger count for Hysilens's Physical DoT effect to 12, and increases the multiplier of the DMG dealt by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -41547,6 +45165,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Lash of Riches",
+                "type": "Basic ATK",
+                "desc": "Deals Quantum DMG equal to 126% of Jade's ATK to one designated enemy target, and Quantum DMG equal to 42% of Jade's ATK to adjacent enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_Normal.webp"
+              },
+              {
+                "name": "Acquisition Surety",
+                "type": "Skill",
+                "desc": "Makes a single target ally become the Debt Collector and increases their SPD by 30, lasting for 3 turn(s).\\nAfter the Debt Collector attacks, deals 1 instance of Quantum Additional DMG equal to 30% of Jade's ATK to each enemy target hit, and consumes the Debt Collector's HP by an amount equal to 2% of their Max HP. If the current HP is insufficient, reduces HP to 1.\\nIf Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP.\\nWhen the Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade's every turn, the Debt Collector's duration decreases by 1 turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_BP.webp"
+              },
+              {
+                "name": "Vow of the Deep",
+                "type": "Ultimate",
+                "desc": "Deals Quantum DMG equal to 300% of Jade's ATK to all enemies. At the same time, Jade enhances her Talent's Follow-Up ATK, increasing its DMG multiplier by 100%. This enhancement can take effect 2 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_Ultra.webp"
+              },
+              {
+                "name": "Visionary Predation",
+                "type": "Technique",
+                "desc": "After using the Technique, inflicts enemies within a set area with Blind Fealty for 10 second(s). Enemies inflicted with Blind Fealty will not initiate attacks on allies. When entering battle via actively attacking enemies inflicted with Blind Fealty, all enemies with Blind Fealty will enter combat simultaneously. After entering battle, deals Quantum DMG equal to 50% of Jade's ATK to all enemies, and immediately gains 15 stack(s) of Pawned Asset.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Fang of Flare Flaying",
+                "type": "Talent",
+                "desc": "After Jade or the \"Debt Collector\" unit attacks, gains 1 point of Charge for each enemy target hit. Upon reaching 8 points of Charge, consumes the 8 points to launch 1 instance of Follow-Up ATK, dealing Quantum DMG equal to 150% of Jade's ATK to all enemies. This Follow-Up ATK does not generate Charge.\\nWhen launching her Talent's Follow-Up ATK, Jade immediately gains 5 stack(s) of \"Pawned Asset,\" with each stack increasing CRIT DMG by 3%, stacking up to 50 times.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Reverse Repo",
+                "type": "Major Trace",
+                "desc": "When an enemy target enters combat, Jade gains 1 stack(s) of Pawned Asset. When the Debt Collector character's turn starts, additionally gains 3 stack(s) of Pawned Asset.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_SkillTree1.webp"
+              },
+              {
+                "name": "Collateral Ticket",
+                "type": "Major Trace",
+                "desc": "When the battle starts, action advances Jade by 50%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_SkillTree2.webp"
+              },
+              {
+                "name": "Asset Forfeiture",
+                "type": "Major Trace",
+                "desc": "Each Pawned Asset stack from the Talent additionally increases Jade's ATK by 0.5%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Altruism? Nevertheless Tradable",
+                "type": "Eidolon 1",
+                "desc": "The Follow-Up ATK DMG from Jade's Talent increases by 32%. After the \"Debt Collector\" character attacks and the number of the enemy target(s) hit is either 2 or 1, Jade additionally gains 1 or 2 point(s) of Charge respectively.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_Rank1.webp"
+              },
+              {
+                "name": "Morality? Herein Authenticated",
+                "type": "Eidolon 2",
+                "desc": "When there are 15 stacks of Pawned Asset, Jade's CRIT Rate increases by 18%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_Rank2.webp"
+              },
+              {
+                "name": "Honesty? Soon Mortgaged",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_BP.webp"
+              },
+              {
+                "name": "Sincerity? Put Option Only",
+                "type": "Eidolon 4",
+                "desc": "When using Ultimate, enables the DMG dealt by Jade to ignore 12% of enemy targets' DEF, lasting for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_Rank4.webp"
+              },
+              {
+                "name": "Hope? Hitherto Forfeited",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_Ultra.webp"
+              },
+              {
+                "name": "Equity? Pending Sponsorship",
+                "type": "Eidolon 6",
+                "desc": "While the \"Debt Collector\" character exists on the field, Jade's Quantum RES PEN increases by 20%, and Jade gains the \"Debt Collector\" state.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -42565,6 +46294,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Heart Afire",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of Jiaoqiu's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_Normal.webp"
+              },
+              {
+                "name": "Scorch Onslaught",
+                "type": "Skill",
+                "desc": "Deals Fire DMG equal to 188% of Jiaoqiu's ATK to one designated enemy target and Fire DMG equal to 113% of Jiaoqiu's ATK to adjacent targets, with a 100% base chance to inflict 1 stack of \"Ashen Roast\" on the primary target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_BP.webp"
+              },
+              {
+                "name": "Pyrograph Arcanum",
+                "type": "Ultimate",
+                "desc": "Sets the number of \"Ashen Roast\" stacks on enemy targets to the highest number of \"Ashen Roast\" stacks present on the battlefield. Then, activates a Zone and deals Fire DMG equal to 120% of Jiaoqiu's ATK to all enemies.\\nWhile inside the Zone, enemy targets receive 18% increased Ultimate DMG, with a 65% base chance of being inflicted with 1 stack of Ashen Roast when taking action. While the Zone exists, this effect can trigger up to 6 time(s). And for each enemy target, it can only trigger once per turn. This trigger count resets every time Jiaoqiu uses Ultimate.\\nThe Zone lasts for 3 turn(s), and its duration decreases by 1 at the start of this unit's every turn. If Jiaoqiu gets knocked down, the Zone will also be dispelled.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_Ultra.webp"
+              },
+              {
+                "name": "Fiery Queller",
+                "type": "Technique",
+                "desc": "After using Technique, creates a Special Dimension that lasts for 15 second(s). After entering combat with enemies in this Special Dimension, deals Fire DMG equal to 100% of Jiaoqiu's ATK to all enemies, with a 100% base chance of applying 1 \"Ashen Roast\" stack. Only 1 dimension created by allies can exist at the same time.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Quartet Finesse, Octave Finery",
+                "type": "Talent",
+                "desc": "When Jiaoqiu hits an enemy with Basic ATK, Skill or Ultimate, there is a 100% base chance to inflict 1 stack of Ashen Roast on them. At 1 stack, increases DMG received by the enemy by 18.8%. Then, each subsequent stack increases this by 6.25%.\\nAshen Roast is capped at 5 stack(s) and lasts for 2 turn(s).\\nWhen an enemy target is afflicted with Ashen Roast, they are also considered as being Burned at the same time, taking Fire DoT equal to 225% of Jiaoqiu's ATK at the start of each turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Pyre Cleanse",
+                "type": "Major Trace",
+                "desc": "When battle starts, immediately regenerates 15 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_SkillTree1.webp"
+              },
+              {
+                "name": "Hearth Kindle",
+                "type": "Major Trace",
+                "desc": "For every 15% of Jiaoqiu's Effect Hit Rate that exceeds 80%, additionally increases ATK by 60%, up to 240%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_SkillTree2.webp"
+              },
+              {
+                "name": "Seared Scent",
+                "type": "Major Trace",
+                "desc": "While the Zone exists, enemies entering combat will be inflicted with Ashen Roast. The number of stacks applied will match the highest number of \"Ashen Roast\" stacks possessed by any unit while the Zone is active, with a minimum of 1 stack(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Pentapathic Transference",
+                "type": "Eidolon 1",
+                "desc": "Allies deal 40% increased DMG to enemy targets afflicted with Ashen Roast. Whenever inflicting Ashen Roast on an enemy target via triggering the Talent's effect, additionally increases the number of \"Ashen Roast\" stacks applied this time by 1.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_Rank1.webp"
+              },
+              {
+                "name": "From Savor Comes Suffer",
+                "type": "Eidolon 2",
+                "desc": "When an enemy target is afflicted with Ashen Roast, increases the multiplier for the Fire DoT dealt by Ashen Roast to this target by 300%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_Rank2.webp"
+              },
+              {
+                "name": "Flavored Euphony Reigns Supreme",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_BP.webp"
+              },
+              {
+                "name": "Leisure In, Luster Out",
+                "type": "Eidolon 4",
+                "desc": "When the Zone exists, reduces enemy target's ATK by 15%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_Rank4.webp"
+              },
+              {
+                "name": "Duel in Dawn, Dash in Dusk",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_Ultra.webp"
+              },
+              {
+                "name": "Nonamorphic Pyrobind",
+                "type": "Eidolon 6",
+                "desc": "When an enemy target gets defeated, their accumulated \"Ashen Roast\" stacks will transfer to the enemy with the lowest number of \"Ashen Roast\" stacks on the battlefield. The maximum stack limit of Ashen Roast increases to 9, and each \"Ashen Roast\" stack reduces the target's All-Type RES by 3%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -43588,6 +47428,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Glistening Light",
+                "type": "Basic ATK",
+                "desc": "Jing Yuan deals Lightning DMG equal to 140% of his ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_Normal.webp"
+              },
+              {
+                "name": "Rifting Zenith",
+                "type": "Skill",
+                "desc": "Deals Lightning DMG equal to 125% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 2 for the next turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_BP.webp"
+              },
+              {
+                "name": "Lightbringer",
+                "type": "Ultimate",
+                "desc": "Deals Lightning DMG equal to 240% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 3 for the next turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_Ultra.webp"
+              },
+              {
+                "name": "Spiritus Invocation",
+                "type": "Technique",
+                "desc": "After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by 3 at the start of the next battle.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Prana Extirpated",
+                "type": "Talent",
+                "desc": "Summons \"Lightning-Lord\" at the start of the battle. \"Lightning-Lord\" has 60 base SPD and 3 base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as Follow-Up ATKs, with each hit dealing Lightning DMG equal to 82.5% of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to 25% of the DMG dealt to the primary target enemy.\\nThe Lightning-Lord's Hits Per Action can reach a max of 10. Every time \"Lightning-Lord's\" Hits Per Action increases by 1, its SPD increases by 10. After the \"Lightning-Lord's\" action ends, its SPD and Hits Per Action return to their base values.\\nWhen Jing Yuan is knocked down, the \"Lightning-Lord\" will disappear.\\nWhen Jing Yuan is affected by Crowd Control debuff, the \"Lightning-Lord\" is unable to take action.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Battalia Crush",
+                "type": "Major Trace",
+                "desc": "If the Lightning-Lord's Hits Per Action is greater or equal to 6 in the next turn, its CRIT DMG increases by 25% for the next turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_SkillTree1.webp"
+              },
+              {
+                "name": "Savant Providence",
+                "type": "Major Trace",
+                "desc": "At the start of the battle, immediately regenerates 15 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_SkillTree2.webp"
+              },
+              {
+                "name": "War Marshal",
+                "type": "Major Trace",
+                "desc": "After the Skill is used, the CRIT Rate increases by 10% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Slash, Seas Split",
+                "type": "Eidolon 1",
+                "desc": "When Lightning-Lord attacks, the DMG multiplier on enemies adjacent to the target enemy increases by an extra amount equal to 25% of the DMG multiplier against the primary target enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_Rank1.webp"
+              },
+              {
+                "name": "Swing, Skies Squashed",
+                "type": "Eidolon 2",
+                "desc": "After Lightning-Lord takes action, DMG dealt by Jing Yuan's Basic ATK, Skill, and Ultimate increases by 20%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_Rank2.webp"
+              },
+              {
+                "name": "Strike, Suns Subdued",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_Ultra.webp"
+              },
+              {
+                "name": "Spin, Stars Sieged",
+                "type": "Eidolon 4",
+                "desc": "For each hit performed by the Lightning-Lord when it takes action, Jing Yuan regenerates 2 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_Rank4.webp"
+              },
+              {
+                "name": "Stride, Spoils Seized",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_BP.webp"
+              },
+              {
+                "name": "Sweep, Souls Slain",
+                "type": "Eidolon 6",
+                "desc": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable.\\nWhile Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -44605,6 +48556,123 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Lucent Moonglow",
+                "type": "Basic ATK",
+                "desc": "Deals Ice DMG equal to 140% of Jingliu's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_Normal.webp"
+              },
+              {
+                "name": "Transcendent Flash",
+                "type": "Skill",
+                "desc": "Deals Ice DMG equal to 250% of Jingliu's ATK to one designated enemy and obtains 1 stack(s) of \"Syzygy.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_BP.webp"
+              },
+              {
+                "name": "Moon On Glacial River",
+                "type": "Skill",
+                "desc": "Deals Ice DMG equal to 313% of Jingliu's ATK to one designated enemy, and deals Ice DMG equal to 156% of Jingliu's ATK to adjacent enemies. Consumes 1 stack(s) of \"Syzygy.\" Using this ability does not consume Skill Points.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_BP.webp"
+              },
+              {
+                "name": "Florephemeral Dreamflux",
+                "type": "Ultimate",
+                "desc": "Deals Ice DMG equal to 360% of Jingliu's ATK to one designated enemy, and deals Ice DMG equal to 180% of Jingliu's ATK to any adjacent enemies. Gains 1 stack(s) of \"Syzygy\" after attack ends.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_Ultra.webp"
+              },
+              {
+                "name": "Shine of Truth",
+                "type": "Technique",
+                "desc": "After using this Technique, creates a Special Dimension around Jingliu that lasts for 20 seconds, and all enemies in this Special Dimension will become Frozen. After entering combat with enemies in the Special Dimension, Jingliu immediately regenerates 15 Energy and obtains 1 stack(s) of Syzygy, with a 100% base chance of Freezing enemy targets for 1 turn(s). While Frozen, enemy targets cannot take action, and receive Ice Additional DMG equal to 80% of Jingliu's ATK at the start of every turn. Only 1 Dimension Effect created by allies can exist at the same time.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Crescent Transmigration",
+                "type": "Talent",
+                "desc": "When Jingliu has 2 stack(s) of Syzygy, she enters the Spectral Transmigration state with her action advanced by 100% and her CRIT Rate increased by 55%. Then, Jingliu's Skill \"Transcendent Flash\" is enhanced to \"Moon On Glacial River,\" and only this enhanced Skill is available for use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from her teammates equal to 4% of their respective Max HP (this cannot reduce teammates' HP to lower than 1). Jingliu's ATK increases by 540% of the total HP consumed from all allies in this attack, capped at 225% of her base ATK, lasting until the current attack ends. Jingliu cannot enter the Spectral Transmigration state again until the current Spectral Transmigration state ends. Syzygy can stack up to 3 times. When Syzygy stacks become 0, Jingliu will exit the Spectral Transmigration state.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Deathrealm",
+                "type": "Major Trace",
+                "desc": "While in the Spectral Transmigration state, increases Effect RES by 35%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_SkillTree1.webp"
+              },
+              {
+                "name": "Sword Champion",
+                "type": "Major Trace",
+                "desc": "After using \"Transcendent Flash,\" the next action advances by 10%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_SkillTree2.webp"
+              },
+              {
+                "name": "Frost Wraith",
+                "type": "Major Trace",
+                "desc": "While in the Spectral Transmigration state, increases DMG dealt by Ultimate by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Moon Crashes Tianguan Gate",
+                "type": "Eidolon 1",
+                "desc": "When using her Ultimate or Enhanced Skill, Jingliu's CRIT DMG increases by 24% for 1 turn(s). If only one enemy target is attacked, the target will additionally be dealt Ice DMG equal to 100% of Jingliu's ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_Rank1.webp"
+              },
+              {
+                "name": "Crescent Shadows Qixing Dipper",
+                "type": "Eidolon 2",
+                "desc": "After using Ultimate, increases the DMG of the next Enhanced Skill by 80%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_Rank2.webp"
+              },
+              {
+                "name": "Halfmoon Gapes Mercurial Haze",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_Ultra.webp"
+              },
+              {
+                "name": "Lunarlance Shines Skyward Dome",
+                "type": "Eidolon 4",
+                "desc": "During the Spectral Transmigration state, the ATK gained from consuming teammates' HP is additionally increased by 90% of the total HP consumed from the entire team. The cap for ATK gained this way also increases by 30%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_Rank4.webp"
+              },
+              {
+                "name": "Night Shades Astral Radiance",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_BP.webp"
+              },
+              {
+                "name": "Eclipse Hollows Corporeal Husk",
+                "type": "Eidolon 6",
+                "desc": "When Jingliu enters the Spectral Transmigration state, the Syzygy stack limit increases by 1, and Jingliu obtains 1 stack(s) of Syzygy. While she is in the Spectral Transmigration state, her CRIT DMG increases by 50%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -45622,6 +49690,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Midnight Tumult",
+                "type": "Basic ATK",
+                "desc": "Deals Lightning DMG equal to 140% of Kafka's ATK to a one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_Normal.webp"
+              },
+              {
+                "name": "Caressing Moonlight",
+                "type": "Skill",
+                "desc": "Deals Lightning DMG equal to 200% of Kafka's ATK to a target enemy and Lightning DMG equal to 75% of Kafka's ATK to enemies adjacent to it.\\nIf the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to 82.5% of their original DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_BP.webp"
+              },
+              {
+                "name": "Twilight Trill",
+                "type": "Ultimate",
+                "desc": "Deals Lightning DMG equal to 96% of Kafka's ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG from their current Shock state, equal to 110% of its original DMG. Shock lasts for 2 turn(s).\\nWhile Shocked, enemies receive Lightning DoT equal to 361% of Kafka's ATK at the beginning of each turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_Ultra.webp"
+              },
+              {
+                "name": "Mercy Is Not Forgiveness",
+                "type": "Technique",
+                "desc": "Immediately attacks all enemies within a set range. After entering battle, deals Lightning DMG equal to 50% of Kafka's ATK to all enemies, with a 100% base chance to inflict Shock equivalent to that applied by her Ultimate on every enemy target for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Gentle but Cruel",
+                "type": "Talent",
+                "desc": "After Kafka's teammate uses Basic ATK on an enemy target, Kafka immediately launches Follow-Up ATK and deals Lightning DMG equal to 189% of her ATK to that target, with a 100% base chance to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target, lasting for 2 turns. This effect can only be triggered 1 time per turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Torture",
+                "type": "Major Trace",
+                "desc": "When the Ultimate is used, enemy targets will now receive DMG immediately from all currently applied DoT sources instead of just receiving DMG immediately from the currently applied Shock state.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_SkillTree1.webp"
+              },
+              {
+                "name": "Plunder",
+                "type": "Major Trace",
+                "desc": "If an enemy is defeated while Shocked, Kafka additionally regenerates 5 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_SkillTree2.webp"
+              },
+              {
+                "name": "Thorns",
+                "type": "Major Trace",
+                "desc": "The base chance for target enemies to be Shocked by the Ultimate, the Technique, and the Talent-triggered Follow-Up ATK increases by 30%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Da Capo",
+                "type": "Eidolon 1",
+                "desc": "When the Talent triggers a Follow-Up ATK, there is a 100% base chance to increase the DoT received by the target by 30% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_Rank1.webp"
+              },
+              {
+                "name": "Fortississimo",
+                "type": "Eidolon 2",
+                "desc": "While Kafka is on the field, DoT dealt by all allies increases by 25%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_Rank2.webp"
+              },
+              {
+                "name": "Capriccio",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_BP.webp"
+              },
+              {
+                "name": "Recitativo",
+                "type": "Eidolon 4",
+                "desc": "When an enemy target takes DMG from the Shock status inflicted by Kafka, Kafka additionally regenerates 2 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_Rank4.webp"
+              },
+              {
+                "name": "Doloroso",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_Ultra.webp"
+              },
+              {
+                "name": "Leggiero",
+                "type": "Eidolon 6",
+                "desc": "The Shock state inflicted on the enemy target by the Ultimate, Technique, or the Talent-triggered Follow-Up ATK has a DMG multiplier increase of 156% and lasts 1 turn(s) longer.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -46640,6 +50819,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Votive Incense",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of Lingsha's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_Normal.webp"
+              },
+              {
+                "name": "Smoke and Splendor",
+                "type": "Skill",
+                "desc": "Deals Fire DMG equal to 100% of Lingsha's ATK to all enemies and at the same time, restores HP equal to 16% of Lingsha's ATK plus 538 for all allies. Fuyuan's action advances by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_BP.webp"
+              },
+              {
+                "name": "Dripping Mistscape",
+                "type": "Ultimate",
+                "desc": "Inflicts \"Befog\" on all enemies. While in \"Befog,\" targets receive 30% increased Break DMG, lasting for 2 turn(s).\\nDeals Fire DMG equal to 180% of Lingsha's ATK to all enemies, and at the same time restores HP equal to 14% of Lingsha's ATK plus 461 for all allies. Fuyuan's action advances by 100%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_Ultra.webp"
+              },
+              {
+                "name": "Wisps of Aurora",
+                "type": "Technique",
+                "desc": "After using Technique, immediately summons Fuyuan at the start of the next battle and inflicts \"Befog\" on all enemies, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "SingleAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Mistdance Manifest",
+                "type": "Talent",
+                "desc": "When using Skill, summons \"Fuyuan,\" with an initial SPD of 90 and an initial action count of 3.\\nWhen taking action, \"Fuyuan\" launches Follow-Up ATK, dealing Fire DMG equal to 93.8% of Lingsha's ATK to all enemies. Additionally deals Fire DMG equal to 93.8% of Lingsha's ATK to one random enemy, and this DMG prioritizes targets that have both Toughness greater than 0 and Fire Weakness. Dispels 1 debuff(s) from all allies and restores HP equal to 14% of Lingsha's ATK plus 461.\\n\"Fuyuan's\" action count can accumulate up to 5. When the action count reaches 0 or when Lingsha is knocked down, \"Fuyuan\" disappears.\\nWhile \"Fuyuan\" is on the field, using Skill can increase \"Fuyuan's\" action count by 3.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Vermilion Waft",
+                "type": "Major Trace",
+                "desc": "Increases this unit's ATK or Outgoing Healing by an amount equal to 25%/10% of Break Effect, up to a maximum increase of 50%/20% respectively.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_SkillTree1.webp"
+              },
+              {
+                "name": "Sylvan Smoke",
+                "type": "Major Trace",
+                "desc": "When using Basic ATK, additionally regenerates 10 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_SkillTree2.webp"
+              },
+              {
+                "name": "Ember's Echo",
+                "type": "Major Trace",
+                "desc": "While \"Fuyuan\" is on the field and any ally character takes DMG or consumes HP, if a character in the team has their current HP percentage lower than or equal to 60%, \"Fuyuan\" will immediately launch the Talent's Follow-Up ATK against enemies. This does not consume Fuyuan's action count. This effect can trigger again after 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Bloom on Vileward Bouquet",
+                "type": "Eidolon 1",
+                "desc": "Lingsha's Weakness Break Efficiency increases by 50%. When an enemy unit's Weakness is Broken, reduces their DEF by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_Rank1.webp"
+              },
+              {
+                "name": "Leisure in Carmine Smokeveil",
+                "type": "Eidolon 2",
+                "desc": "When using Ultimate, increases all allies' Break Effect by 40%, lasting for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_Rank2.webp"
+              },
+              {
+                "name": "Shine of Floral Wick",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_Ultra.webp"
+              },
+              {
+                "name": "Redolence from Canopied Banquet",
+                "type": "Eidolon 4",
+                "desc": "When Fuyuan takes action, restores HP equal to 40% of Lingsha's ATK for the ally target whose current HP is the lowest.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_Rank4.webp"
+              },
+              {
+                "name": "Poise Atop Twists and Turns",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_BP.webp"
+              },
+              {
+                "name": "Arcadia Under Deep Seclusion",
+                "type": "Eidolon 6",
+                "desc": "While \"Fuyuan\" is on the field, reduces all enemies' All-Type RES by 20%. When \"Fuyuan\" attacks, additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 50% of Lingsha's ATK and 5 Toughness Reduction to one random enemy. This prioritizes targets with both Toughness greater than 0 and Fire Weakness.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -47658,6 +51948,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Thorns of the Abyss",
+                "type": "Basic ATK",
+                "desc": "Deals Imaginary DMG equal to 140% of Luocha's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_Normal.webp"
+              },
+              {
+                "name": "Prayer of Abyss Flower",
+                "type": "Skill",
+                "desc": "After using his Skill, Luocha immediately restores the target ally's HP equal to 70% of Luocha's ATK plus 1025. Meanwhile, Luocha gains 1 stack of Abyss Flower.\\nWhen any ally's HP percentage drops to 50% or lower, an effect equivalent to Luocha's Skill will immediately be triggered and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_BP.webp"
+              },
+              {
+                "name": "Death Wish",
+                "type": "Ultimate",
+                "desc": "Removes 1 buff(s) from all enemies and deals all enemies Imaginary DMG equal to 240% of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_Ultra.webp"
+              },
+              {
+                "name": "Mercy of a Fool",
+                "type": "Technique",
+                "desc": "After the Technique is used, the Talent will be immediately triggered at the start of the next battle.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Cycle of Life",
+                "type": "Talent",
+                "desc": "When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Zone against the enemy.\\nWhen any enemy in the Zone is attacked by an ally, the attacking ally's HP is immediately restored by an amount equal to 21% of Luocha's ATK plus 308.\\nThe Zone's effect lasts for 2 turns. When Luocha is knocked down, the Zone will be dispelled.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Cleansing Revival",
+                "type": "Major Trace",
+                "desc": "When Skill's effect is triggered, dispel 1 debuff(s) from one designated ally.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_SkillTree1.webp"
+              },
+              {
+                "name": "Sanctified",
+                "type": "Major Trace",
+                "desc": "When any enemy in the Zone is attacked by an ally, all allies (except the attacker) restore HP equal to 7% of Luocha's ATK plus 93.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_SkillTree2.webp"
+              },
+              {
+                "name": "Through the Valley",
+                "type": "Major Trace",
+                "desc": "Increases the chance to resist Crowd Control debuffs by 70%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Ablution of the Quick",
+                "type": "Eidolon 1",
+                "desc": "While the Zone is active, ATK of all allies increases by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_Rank1.webp"
+              },
+              {
+                "name": "Bestowal From the Pure",
+                "type": "Eidolon 2",
+                "desc": "When his Skill is triggered, if the target ally's HP percentage is lower than 50%, Luocha's Outgoing Healing increases by 30%. If the target ally's HP percentage is at 50% or higher, the ally receives a Shield that can absorb DMG equal to 18% of Luocha's ATK plus 240, lasting for 2 turns.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_Rank2.webp"
+              },
+              {
+                "name": "Surveyal by the Fool",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_BP.webp"
+              },
+              {
+                "name": "Heavy Lies the Crown",
+                "type": "Eidolon 4",
+                "desc": "When Luocha's Zone is active, enemies become Weakened and deal 12% less DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_Rank4.webp"
+              },
+              {
+                "name": "Cicatrix 'Neath the Pain",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_Ultra.webp"
+              },
+              {
+                "name": "Reunion With the Dust",
+                "type": "Eidolon 6",
+                "desc": "When Ultimate is used, there is a 100% fixed chance to reduce all enemies' All-Type RES by 20% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -48784,6 +53185,129 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Vow of Voyage",
+                "type": "Basic ATK",
+                "desc": "Deals Imaginary DMG equal to 70% of Mydei's Max HP to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_Normal.webp"
+              },
+              {
+                "name": "Deaths are Legion, Regrets are None",
+                "type": "Skill",
+                "desc": "Consumes HP by an amount equal to 50% of Mydei's current HP. Deals Imaginary DMG equal to 113% of Mydei's Max HP to one designated enemy and Imaginary DMG equal to 62.5% of Mydei's Max HP to adjacent targets.\\nIf the current HP is not sufficient, using Skill reduces Mydei's current HP to 1.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_BP.webp"
+              },
+              {
+                "name": "Kingslayer Be King",
+                "type": "Skill",
+                "desc": "Consumes HP by an amount equal to 35% of Mydei's current HP. Deals Imaginary DMG equal to 138% of Mydei's Max HP to one enemy and Imaginary DMG equal to 82.5% of Mydei's Max HP to adjacent targets.\\nIf the current HP is not sufficient, using Skill reduces Mydei's current HP to 1.\\nThis ability will be automatically used.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_BP.webp"
+              },
+              {
+                "name": "Godslayer Be God",
+                "type": "Skill",
+                "desc": "Consumes 150 point(s) of Charge. Deals Imaginary DMG equal to 350% of Mydei's Max HP to one enemy and Imaginary DMG equal to 210% of Mydei's Max HP to adjacent targets.\\nThis ability will be automatically used. While this ability is in use, Charge cannot be accumulated.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_BP.webp"
+              },
+              {
+                "name": "Throne of Bones",
+                "type": "Ultimate",
+                "desc": "Restores HP by 22.5% of Mydei's Max HP and accumulates 20 Talent's Charge point(s). Deals Imaginary DMG equal to 192% of Mydei's Max HP to one designated enemy, and deals Imaginary DMG equal to 120% of Mydei's Max HP to adjacent targets. Additionally, Taunts the target and targets adjacent to it, lasting for 2 turn(s). The next use of \"Godslayer Be God\" prioritizes attacking one designated enemy, and this effect only works on the latest target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_Ultra.webp"
+              },
+              {
+                "name": "Cage of Broken Lance",
+                "type": "Technique",
+                "desc": "After using Technique, pulls in enemies within a certain area and inflicts Daze on them for 10 second(s). Dazed enemies will not actively attack ally targets.\\nIf actively attacking Dazed enemies, when entering battle, deals Imaginary DMG equal to 80% of Mydei's Max HP to all enemies, and Taunts the targets, lasting for 1 turn(s). This unit accumulates 50 point(s) of Talent's Charge.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Blood for Blood",
+                "type": "Talent",
+                "desc": "For each 1% of HP lost, accumulates 1 point of Charge (up to 200 points). When Charge reaches 100, consumes 100 points of Charge to enter the \"Vendetta\" state, restores HP equal to 30% of Mydei's Max HP, and advances action by 100%. While the \"Vendetta\" state is active, Max HP increases by 50% of the current Max HP and DEF remains at 0. At the start of this unit's turn, automatically uses \"Kingslayer Be King.\"\\nWhen Charge reaches 150 points during the \"Vendetta\" state, Mydei immediately gains 1 extra turn and automatically uses \"Godslayer Be God.\"\\nWhen receiving a killing blow during the \"Vendetta\" state, Mydei will not be knocked down, but will clear his Charge, exits the \"Vendetta\" state, and restores HP by 50% of his Max HP.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Earth and Water",
+                "type": "Major Trace",
+                "desc": "During the \"Vendetta\" state, Mydei will not exit the \"Vendetta\" state when receiving a killing blow. This effect can trigger 3 time(s) per battle.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_SkillTree1.webp"
+              },
+              {
+                "name": "Thirty Tyrants",
+                "type": "Major Trace",
+                "desc": "While in the \"Vendetta\" state, Mydei is immune to Crowd Control debuffs.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_SkillTree2.webp"
+              },
+              {
+                "name": "Bloodied Chiton",
+                "type": "Major Trace",
+                "desc": "When battle starts, if Mydei's Max HP exceeds 4000, for every 100 excess HP, Mydei's CRIT Rate increases by 1.2%, his Charge ratio from enemy targets' DMG increases by 2.5%, and his HP restored when receiving healing increases by 0.75%. Up to 4000 excess HP can be taken into account for this effect.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Frost Hones Spine of Steel",
+                "type": "Eidolon 1",
+                "desc": "Increases the DMG multiplier dealt by \"Godslayer Be God\" to the primary target by 30%. This ability now deals to all enemies Imaginary DMG equal to the DMG multiplier dealt to the primary target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_Rank1.webp"
+              },
+              {
+                "name": "Strife Beholds Cry of Dead",
+                "type": "Eidolon 2",
+                "desc": "During \"Vendetta,\" the DMG dealt by Mydei ignores 15% of enemy targets' DEF. After he receives healing, converts 40% of the healed amount to Charge. The tally of the converted Charge cannot exceed 40 point(s). Resets this tally of Charge after any unit takes action.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_Rank2.webp"
+              },
+              {
+                "name": "Honor Exalts Feast of Faith",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_BP.webp"
+              },
+              {
+                "name": "Siren Jolts the Laconic Lion",
+                "type": "Eidolon 4",
+                "desc": "While in \"Vendetta,\" increases CRIT DMG by 30% and restores HP by 10% of this unit's Max HP after receiving attacks from enemy targets.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_Rank4.webp"
+              },
+              {
+                "name": "War Chisels Flesh of Flame",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_Ultra.webp"
+              },
+              {
+                "name": "Legacy Scales Mound of Blood",
+                "type": "Eidolon 6",
+                "desc": "When entering battle, immediately enters the \"Vendetta\" state, and lowers the Charge required for \"Godslayer Be God\" to 100 point(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -49802,6 +54326,141 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Stride to Deliverance",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 140% of Phainon's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Normal.webp"
+              },
+              {
+                "name": "Creation: Bloodthorn Ferry",
+                "type": "Basic ATK",
+                "desc": "Gains 2 point(s) of \"Scourge\", dealing Physical DMG equal to 350% of Khaslana's ATK to one designated enemy and Physical DMG equal to 105% of Khaslana's ATK to adjacent targets.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Normal.webp"
+              },
+              {
+                "name": "Let There Be Light",
+                "type": "Skill",
+                "desc": "Gains 2 point(s) of \"Coreflame,\" dealing Physical DMG equal to 375% of Phainon's ATK to one designated enemy and Physical DMG equal to 150% of Phainon's ATK to adjacent targets.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_BP.webp"
+              },
+              {
+                "name": "Calamity: Soulscorch Edict",
+                "type": "Skill",
+                "desc": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to 50% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 37.5% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_BP.webp"
+              },
+              {
+                "name": "Foundation: Stardeath Verdict",
+                "type": "Skill",
+                "desc": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of 14.6% of Khaslana's ATK.\\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to 56.3% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to 563% of Khaslana's ATK, which is evenly distributed across all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_BP.webp"
+              },
+              {
+                "name": "He Who Bears the World Must Burn",
+                "type": "Ultimate",
+                "desc": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 12% of Khaslana's ATK that is distributed evenly across all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Ultra.webp"
+              },
+              {
+                "name": "Beginning of the End",
+                "type": "Technique",
+                "desc": "While Phainon is in the team, increases Max Technique Points by 3.\\nWhen actively using this Technique, consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, regenerates 25 Energy for allies and gains 2 \"Scourge\" and 1 Skill Point(s). Deals Physical DMG equal to 200% of Phainon's ATK to all enemies at the start of each wave.\\nIf attacking a normal enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Pyric Corpus",
+                "type": "Talent",
+                "desc": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 37.5% for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Passive.webp"
+              },
+              {
+                "name": "Fate: Divine Vessel",
+                "type": "Talent",
+                "desc": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by 100% and Max HP by 338%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "March to Oblivion",
+                "type": "Major Trace",
+                "desc": "When the battle starts, gains 1 point(s) of \"Coreflame.\" When the transformation ends, gains 3 point(s) of \"Coreflame.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_SkillTree1.webp"
+              },
+              {
+                "name": "Bide in Flames",
+                "type": "Major Trace",
+                "desc": "When receiving healing or a Shield from a teammate, deals 45% increased DMG for 4 turn(s). This effect cannot trigger repeatedly within one turn.\\nWhen receiving an Energy Regeneration effect from a teammate's ability, gains 1 point(s) of \"Coreflame.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_SkillTree2.webp"
+              },
+              {
+                "name": "Shine with Valor",
+                "type": "Major Trace",
+                "desc": "When entering combat or ending transformation, increases ATK by 50%. This effect can stack up to 2 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Fire and Light Bind Virtue and Vice",
+                "type": "Eidolon 1",
+                "desc": "The base SPD inheritance ratio for Khaslana's extra turn increases to 66%. For every enemy target defeated in one battle, additionally increases this ratio by 1.5%, up to a max of 84%.\\nWhen using Ultimate, increases CRIT DMG by 50%, lasting for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Rank1.webp"
+              },
+              {
+                "name": "Sky and Earth Churn Mortal Froth",
+                "type": "Eidolon 2",
+                "desc": "Khaslana's Physical RES PEN increases by 20%. When one use of \"Foundation: Stardeath Verdict\" consumes 4 \"Scourge\" point(s), gains 1 extra turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Rank2.webp"
+              },
+              {
+                "name": "Depths of Quiet, Entombed in Ruin",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Ultra.webp"
+              },
+              {
+                "name": "Faces of Titans, Blurred by Time",
+                "type": "Eidolon 4",
+                "desc": "When using \"Calamity: Soulscorch Edict,\" additionally gains 4 stack(s) of \"Soulscorch.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Rank4.webp"
+              },
+              {
+                "name": "The Wheel Spins Forevermore",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_BP.webp"
+              },
+              {
+                "name": "Embers of Old Rise Still",
+                "type": "Eidolon 6",
+                "desc": "The number of overflow points allowed for \"Coreflame\" no longer has an upper limit. When the battle starts, gains 6 point(s) of \"Coreflame.\"\\nAfter using the attack from \"Foundation: Stardeath Verdict,\" additionally deals True DMG equal to 36% of the total DMG dealt in this attack to the enemy target with the highest HP.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -50820,6 +55479,141 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Ninjutsu: Rise Above Tumbles",
+                "type": "Basic ATK",
+                "desc": "Deals Imaginary DMG equal to 140% of Rappa's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Normal.webp"
+              },
+              {
+                "name": "Ningu: Demonbane Petalblade",
+                "type": "Basic ATK",
+                "desc": "Deals minor Imaginary DMG to one designated enemy and minor Imaginary DMG to adjacent targets. Attacking enemies without Imaginary Weakness can also reduce their Toughness.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Normal.webp"
+              },
+              {
+                "name": "Ningu: Demonbane Petalblade",
+                "type": "Basic ATK",
+                "desc": "Deals minor Imaginary DMG to one designated enemy and minor Imaginary DMG to adjacent targets. Attacking enemies without Imaginary Weakness can also reduce their Toughness.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Normal.webp"
+              },
+              {
+                "name": "Ningu: Demonbane Petalblade",
+                "type": "Basic ATK",
+                "desc": "Deals minor Imaginary DMG to all enemies. Attacking enemies without Imaginary Weakness can also reduce their Toughness.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Normal.webp"
+              },
+              {
+                "name": "Ningu: Demonbane Petalblade",
+                "type": "Basic ATK",
+                "desc": "Launches \"Ningu: Demonbane Petalblade.\" The first 2 hits deal Imaginary DMG equal to 132% of Rappa's ATK to one designated enemy and Imaginary DMG equal to 66% of Rappa's ATK to adjacent targets, and the 3rd hit deals Imaginary DMG equal to 132% of Rappa's ATK to all enemies.\\nEnhanced Basic ATK will not recover Skill Points. Attacking enemies that don't have Imaginary Weakness can also reduce Toughness, whose effect is equal to 50% of the original Toughness Reduction. When Breaking Weakness, triggers the Imaginary Weakness Break effect.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Normal.webp"
+              },
+              {
+                "name": "Ninja Strike: Rooted Resolute",
+                "type": "Skill",
+                "desc": "Deals Imaginary DMG equal to 150% of Rappa's ATK to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_BP.webp"
+              },
+              {
+                "name": "Nind\u014d Supreme: Aishiteru",
+                "type": "Ultimate",
+                "desc": "Enters the \"Sealform\" state, immediately gains 1 extra turn, obtains 3 points of \"Chroma Ink,\" and increases Weakness Break Efficiency by 50% and Break Effect by 40%.\\nWhile in the \"Sealform\" state, Basic ATK is enhanced, and Skill and Ultimate cannot be used. After using Enhanced Basic ATK, consumes 1 point of \"Chroma Ink.\" When \"Chroma Ink\" is depleted, exits the \"Sealform\" state.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Ultra.webp"
+              },
+              {
+                "name": "Ninja Dash: By Leaps and Bounds",
+                "type": "Technique",
+                "desc": "After using Technique, enters the \"Graffiti\" state for 20 seconds. While in the \"Graffiti\" state, moves forward rapidly for a set distance and attacks any enemies touched. During the rapid movement, can block all enemies' attacks. Using an attack in the \"Graffiti\" state can end the state's duration early. After entering combat via attacking enemies, deals 30 Toughness Reduction regardless of Weakness Type and Break DMG equal to 200% of Rappa's Imaginary Break DMG to each enemy target, and deals Break DMG equal to 180% of Rappa's Imaginary Break DMG to adjacent targets. At the same time, this unit regenerates 10 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Ninja Tech: Endurance Gauge",
+                "type": "Talent",
+                "desc": "Each time the enemy target is Weakness Broken, Rappa gains 1 point of Charge, up to a max of 10 points of Charge. When Rappa next launches the third hit of \"Ningu: Demonbane Petalblade,\" additionally deals Break DMG equal to 75% of Rappa's Imaginary Break DMG to all enemies. This DMG can ignore Weakness Type to reduce 2 Toughness, consuming all Charge. Each point of Charge increases the Break DMG multiplier by 62.5% and increases the Toughness Reduction that can ignore Weakness Type by 1.\\nWhen Breaking Weakness, triggers the Imaginary Weakness Break effect.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Ninjutsu Inscription: Sky High",
+                "type": "Major Trace",
+                "desc": "When the Weakness of an elite-level or higher enemy is broken, Rappa additionally gains 1 point(s) of Charge and regenerates 10 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_SkillTree1.webp"
+              },
+              {
+                "name": "Ninjutsu Inscription: Sea Echo",
+                "type": "Major Trace",
+                "desc": "While in the \"Sealform\" state, after Rappa uses Enhanced Basic ATK to deal DMG to a Weakness Broken enemy target, converts the Toughness Reduction from this instance of DMG to 1 instance of 60% Super Break DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_SkillTree2.webp"
+              },
+              {
+                "name": "Ninjutsu Inscription: Withered Leaf",
+                "type": "Major Trace",
+                "desc": "When an enemy target becomes Weakness Broken, increases the Break DMG taken by 2%. If Rappa's current ATK is higher than 2400, for every 100 excess ATK, additionally increases this value by 1%, up to a max additional increase of 8%. This effect lasts for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Returned Is the Revenant With No Ferry Toll",
+                "type": "Eidolon 1",
+                "desc": "During the \"Sealform\" state entered by using Ultimate, DMG dealt by Rappa ignores 15% of the targets' DEF. After exiting the \"Sealform\" state, regenerates 20 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Rank1.webp"
+              },
+              {
+                "name": "Free Is the Mind Enlightened by Haikus",
+                "type": "Eidolon 2",
+                "desc": "The Enhanced Basic ATK's first 2 hits have their Toughness Reduction against the one designated enemy increased by 50%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Rank2.webp"
+              },
+              {
+                "name": "Many Are the Shrines That Repel No Hell",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_BP.webp"
+              },
+              {
+                "name": "Lost Is the Nind\u014d Devoured by Time",
+                "type": "Eidolon 4",
+                "desc": "While in the \"Sealform\" state, increases all allies' SPD by 12%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Rank4.webp"
+              },
+              {
+                "name": "Steady Is The Ranger With Unerring Arrows",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Ultra.webp"
+              },
+              {
+                "name": "Righteous Is the Wrath That Spares No Evil",
+                "type": "Eidolon 6",
+                "desc": "When battle starts, Rappa gains 5 point(s) of her Talent's Charge, and its upper limit increases by 5 point(s). After launching the third hit of \"Ningu: Demonbane Petalblade,\" gains 5 point(s) of Charge.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -51814,7 +56608,11 @@
       ],
       "r": 5,
       "el": "Quantum",
-      "path": "Erudition"
+      "path": "Erudition",
+      "upcoming": true,
+      "reliableData": false,
+      "noReliableInfo": true,
+      "recent": false
     },
     {
       "id": "hsr-robin",
@@ -51873,6 +56671,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Wingflip White Noise",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 140% of Robin's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_Normal.webp"
+              },
+              {
+                "name": "Pinion's Aria",
+                "type": "Skill",
+                "desc": "Increase DMG dealt by all allies by 62.5%, lasting for 3 turn(s). This duration decreases by 1 at the start of Robin's every turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_BP.webp"
+              },
+              {
+                "name": "Vox Harmonique, Opus Cosmique",
+                "type": "Ultimate",
+                "desc": "Robin enters the \"Concerto\" state and makes all teammates (i.e., excluding this unit) immediately take action.\\nWhile in the \"Concerto\" state, increases all allies' ATK by 26.6% of Robin's ATK plus 275. Moreover, after every attack by ally targets, Robin deals Physical Additional DMG equal to 144% of her ATK for 1 time, with a fixed CRIT Rate for this damage set at 100% and fixed CRIT DMG set at 150%.\\nWhile in the \"Concerto\" state, Robin is immune to Crowd Control debuffs and cannot enter her turn or take action until the \"Concerto\" state ends.\\nA \"Concerto\" countdown appears in the Action Order. When the countdown's turn begins, Robin exits the \"Concerto\" state and immediately takes action. The countdown has its own fixed SPD of 90.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_Ultra.webp"
+              },
+              {
+                "name": "Overture of Inebriation",
+                "type": "Technique",
+                "desc": "After using Technique, creates a Special Dimension around the character that lasts for 15 seconds. Enemies within this dimension will not attack Robin and will follow Robin while the dimension is active. After entering battle while the dimension is active, Robin regenerates 5 Energy at the start of each wave. Only 1 Dimension Effect created by allies can exist at the same time.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Tonal Resonance",
+                "type": "Talent",
+                "desc": "Increase all allies' CRIT DMG by 27.5%. Moreover, after allies attack enemy targets, Robin additionally regenerates 2 Energy for herself.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Coloratura Cadenza",
+                "type": "Major Trace",
+                "desc": "When the battle begins, action advances this character by 25%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_SkillTree1.webp"
+              },
+              {
+                "name": "Impromptu Flourish",
+                "type": "Major Trace",
+                "desc": "While the \"Concerto\" state is active, the CRIT DMG dealt when all allies launch Follow-Up ATK increases by 25%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_SkillTree2.webp"
+              },
+              {
+                "name": "Sequential Passage",
+                "type": "Major Trace",
+                "desc": "When using Skill, additionally regenerates 5 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Land of Smiles",
+                "type": "Eidolon 1",
+                "desc": "While the \"Concerto\" state is active, all allies' All-Type RES PEN increases by 24%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_Rank1.webp"
+              },
+              {
+                "name": "Afternoon Tea For Two",
+                "type": "Eidolon 2",
+                "desc": "While the \"Concerto\" state is active, all allies' SPD increases by 16%. The Talent's Energy Regeneration effect additionally increases by 1.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_Rank2.webp"
+              },
+              {
+                "name": "Inverted Tuning",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nUltimate Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_BP.webp"
+              },
+              {
+                "name": "Raindrop Key",
+                "type": "Eidolon 4",
+                "desc": "When using the Ultimate, dispels Crowd Control debuffs from all allies. While Robin is in the \"Concerto\" state, increases the Effect RES of all allies by 50%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_Rank4.webp"
+              },
+              {
+                "name": "Lonestar's Lament",
+                "type": "Eidolon 5",
+                "desc": "Basic ATK Lv. +1, up to a maximum of Lv. 10.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_Normal.webp"
+              },
+              {
+                "name": "Moonless Midnight",
+                "type": "Eidolon 6",
+                "desc": "While the \"Concerto\" state is active, the CRIT DMG for the Physical Additional DMG caused by the Ultimate increases by 450%. The effect of \"Moonless Midnight\" can trigger up to 8 time(s) and the trigger count resets each time the Ultimate is used.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -52892,6 +57801,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Threading Fragrance",
+                "type": "Basic ATK",
+                "desc": "Deals Ice DMG equal to 140% of Ruan Mei's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_Normal.webp"
+              },
+              {
+                "name": "String Sings Slow Swirls",
+                "type": "Skill",
+                "desc": "After using her Skill, Ruan Mei gains Overtone, lasting for 3 turn(s). This duration decreases by 1 at the start of Ruan Mei's every turn. When Ruan Mei has Overtone, all allies' DMG increases by 40% and Weakness Break Efficiency increases by 50%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_BP.webp"
+              },
+              {
+                "name": "Petals to Stream, Repose in Dream",
+                "type": "Ultimate",
+                "desc": "Ruan Mei deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of her turn.\\nWhile inside the Zone, all allies' All-Type RES PEN increases by 30% and their attacks apply Thanatoplum Rebloom to the enemies hit.\\nWhen these enemies attempt to recover from Weakness Break, Thanatoplum Rebloom is triggered, extending the duration of their Weakness Break, delaying their action by an amount equal to 20% of Ruan Mei's Break Effect plus 10%, and dealing Break DMG equal to 60% of Ruan Mei's Ice Break DMG.\\nEnemy targets cannot have Thanatoplum Rebloom re-applied to them until they recover from Weakness Break.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_Ultra.webp"
+              },
+              {
+                "name": "Silken Serenade",
+                "type": "Technique",
+                "desc": "After using the Technique, gains Silken Serenade. At the start of the next battle, automatically triggers the Skill for 1 time(s) without consuming Skill Points.\\nIn Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, the team actively attacking enemies will always be regarded as attacking their Weakness to enter combat, and this attack can reduce all enemies' Toughness regardless of Weakness types. When breaking Weakness, triggers Weakness Break Effect corresponding to the attacker's Type. For every Blessing in possession (up to a max of 20 Blessings will be taken into account), additionally increases the Toughness Reduction of this attack by 100%. After breaking an enemy target's Weakness, additionally deals to the enemy target Break DMG equal to 100% of Ruan Mei's Ice Break DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Somatotypical Helix",
+                "type": "Talent",
+                "desc": "Increases SPD by 11% for all teammates (i.e., excluding this unit). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to 150% of her Ice Break DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Inert Respiration",
+                "type": "Major Trace",
+                "desc": "Increases Break Effect by 20% for all allies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_SkillTree1.webp"
+              },
+              {
+                "name": "Days Wane, Thoughts Wax",
+                "type": "Major Trace",
+                "desc": "Ruan Mei regenerates 5 Energy at the start of her turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_SkillTree2.webp"
+              },
+              {
+                "name": "Candle Lights on Still Waters",
+                "type": "Major Trace",
+                "desc": "In battle, for every 10% of Ruan Mei's Break Effect that exceeds 120%, her Skill additionally increases allies' DMG by 6%, up to a maximum of 36%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Neuronic Embroidery",
+                "type": "Eidolon 1",
+                "desc": "While the Ultimate's Zone is deployed, the DMG dealt by all allies ignores 20% of the target's DEF.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_Rank1.webp"
+              },
+              {
+                "name": "Reedside Promenade",
+                "type": "Eidolon 2",
+                "desc": "While Ruan Mei is on the field, all allies increase their ATK by 40% when dealing DMG to enemies that are Weakness Broken.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_Rank2.webp"
+              },
+              {
+                "name": "Viridescent Pirouette",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_Ultra.webp"
+              },
+              {
+                "name": "Chatoyant \u00c9clat",
+                "type": "Eidolon 4",
+                "desc": "When an enemy target's Weakness is Broken, Ruan Mei's Break Effect increases by 100% for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_Rank4.webp"
+              },
+              {
+                "name": "Languid Barrette",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_BP.webp"
+              },
+              {
+                "name": "Sash Cascade",
+                "type": "Eidolon 6",
+                "desc": "Extends the duration of the Ultimate's Zone by 1 turn(s). The Talent's Break DMG multiplier additionally increases by 200%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -53906,6 +58926,123 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Invisible Air: Barrier of the Wind King",
+                "type": "Basic ATK",
+                "desc": "Deals Wind DMG equal to 140% of Saber's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_Normal.webp"
+              },
+              {
+                "name": "Release, the Golden Scepter",
+                "type": "Basic ATK",
+                "desc": "Gains 2 point(s) of \"Core Resonance\" and deals Wind DMG to all enemies equal to 210% of Saber's ATK. When this ability is used, if the number of enemy targets is 2 or 1, additionally deals Wind DMG to all enemies equal to 210% or 308% of Saber's ATK respectively.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_Normal.webp"
+              },
+              {
+                "name": "Strike Air: Hammer of the Wind King",
+                "type": "Skill",
+                "desc": "Deals Wind DMG equal to 188% of Saber's ATK to one designated enemy, and deals Wind DMG equal to 93.8% of Saber's ATK to adjacent targets. If Saber currently holds \"Core Resonance\" and her Energy can be fully regenerated by consuming \"Core Resonance\" after this instance of Skill attack, then increases the multiplier for this instance of Skill. For every 1 point of \"Core Resonance,\" increases the DMG multiplier for this instance of Skill by 17.5%. And after the attack, consumes all \"Core Resonance\" to regenerate Energy for Saber. Otherwise, immediately gains 3 point(s) of \"Core Resonance.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_BP.webp"
+              },
+              {
+                "name": "Excalibur",
+                "type": "Ultimate",
+                "desc": "Deals Wind DMG equal to 350% of Saber's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance being Wind DMG equal to 138% of Saber's ATK dealt to one random enemy. After using Ultimate, the next Basic ATK switches to \"Release, the Golden Scepter,\" and only \"Release, the Golden Scepter\" can be used.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_Ultra.webp"
+              },
+              {
+                "name": "Behold, the King of Knights",
+                "type": "Technique",
+                "desc": "After using Technique, at the start of the next battle, increases Saber's ATK by 35% for 2 turn(s) and gains 2 \"Core Resonance.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Dragon Reactor Core",
+                "type": "Talent",
+                "desc": "When entering combat, gains 1 \"Core Resonance\" point(s). When any ally target uses Ultimate, increases the DMG dealt by Saber by 75% for 2 turn(s) and gains 3 \"Core Resonance\" point(s). For every 1 \"Core Resonance\" point consumed, regenerates a fixed amount of 8 Energy for Saber.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Knight of the Dragon",
+                "type": "Major Trace",
+                "desc": "Increases Saber's CRIT Rate by 20%. When entering combat or when using her Enhanced Basic ATK, gains the \"Mana Burst\" effect. Under this effect, if Saber has \"Core Resonance\" and her Energy can be fully regenerated by using her Skill and consuming \"Core Resonance,\" then consumes \"Mana Burst\" to recover 1 Skill Point for allies, and causes Saber to immediately take action.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_SkillTree1.webp"
+              },
+              {
+                "name": "Blessing of the Lake",
+                "type": "Major Trace",
+                "desc": "Saber can accumulate up to 120 overflow Energy. After using Ultimate, the overflow Energy is cleared and a corresponding amount of Energy is regenerated. When the battle starts, if Energy is below 60%, it is regenerated to 60%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_SkillTree2.webp"
+              },
+              {
+                "name": "Crown of the Star",
+                "type": "Major Trace",
+                "desc": "When using Skill, increases Saber's CRIT DMG by 50% for 2 turns. During this battle, for every 1 point of \"Core Resonance\" gained, increases Saber's CRIT DMG by 4%, stacking up to 8 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "The Lost White Walls",
+                "type": "Eidolon 1",
+                "desc": "Increases the Ultimate DMG dealt by Saber by 60%. After Saber uses Basic ATK or Skill, gains 1 \"Core Resonance.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_Rank1.webp"
+              },
+              {
+                "name": "The Lost Oath of the Round Table",
+                "type": "Eidolon 2",
+                "desc": "For every 1 point of \"Core Resonance\" gained in this battle, Saber's DMG dealt ignores 1% of the target's DEF. This effect stacks up to 15 time(s). When triggering the \"Core Resonance\" effect to boost Skill's multiplier, each point of \"Core Resonance\" additionally increases the DMG multiplier for the current instance of Skill by 7%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_Rank2.webp"
+              },
+              {
+                "name": "A Wish Across Fifteen Centuries",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_Ultra.webp"
+              },
+              {
+                "name": "The Saga of Sixteen Winter Days",
+                "type": "Eidolon 4",
+                "desc": "Increases Saber's Wind RES PEN by 8%. After using Ultimate, increases Saber's Wind RES PEN by 4%. This effect stacks up to 3 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_Rank4.webp"
+              },
+              {
+                "name": "The Dreamed Utopian Dawn",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_BP.webp"
+              },
+              {
+                "name": "The Long Fated Night",
+                "type": "Eidolon 6",
+                "desc": "The Wind RES PEN of the Ultimate DMG dealt by Saber increases by 20%. The amount of overflow Energy that can be accumulated with the Trace \"Blessing of the Lake\" increases to 200. After using Ultimate for the first time upon entering combat, regenerates a fixed amount of 300 Energy for Saber. This effect can trigger 1 time after every 3 Ultimate use(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -54930,6 +60067,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Thwack",
+                "type": "Basic ATK",
+                "desc": "Deals Quantum DMG equal to 140% of Seele's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_Normal.webp"
+              },
+              {
+                "name": "Sheathed Blade",
+                "type": "Skill",
+                "desc": "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to 275% of Seele's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_BP.webp"
+              },
+              {
+                "name": "Butterfly Flurry",
+                "type": "Ultimate",
+                "desc": "Seele enters the Amplification state and deals Quantum DMG equal to 510% of her ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_Ultra.webp"
+              },
+              {
+                "name": "Phantom Illusion",
+                "type": "Technique",
+                "desc": "After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the Amplification state.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Resurgence",
+                "type": "Talent",
+                "desc": "Enters the Amplification state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the Amplification state, increases the DMG of Seele's attacks by 100% for 1 turn(s).\\nEnemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Nightshade",
+                "type": "Major Trace",
+                "desc": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_SkillTree1.webp"
+              },
+              {
+                "name": "Lacerate",
+                "type": "Major Trace",
+                "desc": "While Seele is in the Amplification state, her Quantum RES PEN increases by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_SkillTree2.webp"
+              },
+              {
+                "name": "Rippling Waves",
+                "type": "Major Trace",
+                "desc": "After using a Basic ATK, advances Seele's next action by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Extirpating Slash",
+                "type": "Eidolon 1",
+                "desc": "When dealing DMG to an enemy whose HP percentage is 80% or lower, increases CRIT Rate by 15%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_Rank1.webp"
+              },
+              {
+                "name": "Dancing Butterfly",
+                "type": "Eidolon 2",
+                "desc": "The SPD Boost effect of Seele's Skill can stack up to 2 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_Rank2.webp"
+              },
+              {
+                "name": "Dazzling Tumult",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_BP.webp"
+              },
+              {
+                "name": "Flitting Phantasm",
+                "type": "Eidolon 4",
+                "desc": "Seele regenerates 15 Energy when she defeats an enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_Rank4.webp"
+              },
+              {
+                "name": "Piercing Shards",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_Ultra.webp"
+              },
+              {
+                "name": "Shattering Shambles",
+                "type": "Eidolon 6",
+                "desc": "After attacking with Ultimate, Seele inflicts \"Butterfly Flurry\" on the attacked enemy target for 1 turn(s). Enemies in \"Butterfly Flurry\" will additionally take 1 instance of Quantum Additional DMG equal to 15% of Seele's Ultimate DMG every time they are attacked. If the target is defeated by the \"Butterfly Flurry\" state's Additional DMG triggered by other allies' attacks, Seele's Talent will not be triggered.\\nWhen Seele is knocked down, the \"Butterfly Flurry\" inflicted on the enemies will be removed.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -55947,6 +61195,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "System Warning",
+                "type": "Basic ATK",
+                "desc": "Deals Quantum DMG equal to 140% of Silver Wolf's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_Normal.webp"
+              },
+              {
+                "name": "Allow Changes?",
+                "type": "Skill",
+                "desc": "There is a 90% base chance to add 1 Weakness of an on-field character's Type to the target enemy. This also reduces the enemy's DMG RES to that Weakness Type by 20% for 2 turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered.\\nEach enemy can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent implanted Weakness will be kept.\\nIn addition, there is a 100% base chance to further reduce the All-Type RES of the enemy by 11.3% for 2 turn(s).\\nDeals Quantum DMG equal to 245% of Silver Wolf's ATK to this enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_BP.webp"
+              },
+              {
+                "name": "User Banned",
+                "type": "Ultimate",
+                "desc": "There's a 108% base chance to decrease the target enemy's DEF by 49.5% for 3 turn(s). And at the same time, deals Quantum DMG equal to 456% of Silver Wolf's ATK to the target enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_Ultra.webp"
+              },
+              {
+                "name": "Force Quit Program",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. After entering battle, deals Quantum DMG equal to 80% of Silver Wolf's ATK to all enemies, and ignores Weakness Types and reduces Toughness from all enemies. Enemies with their Weakness Broken in this way will trigger the Quantum Weakness Break effect.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Awaiting System Response...",
+                "type": "Talent",
+                "desc": "Silver Wolf can create three types of Bugs: Reduce ATK by 12.5%, reduce DEF by 10%, and reduce SPD by 7.5%.\\nEvery time Silver Wolf attacks, she has a 78% base chance to implant a random Bug that lasts for 3 turn(s) in an enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Generate",
+                "type": "Major Trace",
+                "desc": "The duration of \"Bug\" is extended by 1 turn(s). Every time an enemy is inflicted with Weakness Break, Silver Wolf has a 65% base chance of implanting a random \"Bug\" on that target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_SkillTree1.webp"
+              },
+              {
+                "name": "Inject",
+                "type": "Major Trace",
+                "desc": "The duration of the Weakness implanted by Silver Wolf's Skill increases by 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_SkillTree2.webp"
+              },
+              {
+                "name": "Side Note",
+                "type": "Major Trace",
+                "desc": "If there are 3 or more debuff(s) affecting the enemy when the Skill is used, then the Skill decreases the enemy's All-Type RES by an additional 3%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Social Engineering",
+                "type": "Eidolon 1",
+                "desc": "After using her Ultimate to attack enemies, Silver Wolf regenerates 7 Energy for every debuff that the target enemy currently has. This effect can be triggered up to 5 time(s) in each use of her Ultimate.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_Rank1.webp"
+              },
+              {
+                "name": "Zombie Network",
+                "type": "Eidolon 2",
+                "desc": "When an enemy enters combat, reduces their Effect RES by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_Rank2.webp"
+              },
+              {
+                "name": "Payload",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_BP.webp"
+              },
+              {
+                "name": "Bounce Attack",
+                "type": "Eidolon 4",
+                "desc": "After using her Ultimate to attack enemies, deals Quantum Additional DMG equal to 20% of Silver Wolf's ATK for every debuff currently on the enemy target. This effect can be triggered for a maximum of 5 time(s) during each use of her Ultimate.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_Rank4.webp"
+              },
+              {
+                "name": "Brute Force Attack",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_Ultra.webp"
+              },
+              {
+                "name": "Overlay Network",
+                "type": "Eidolon 6",
+                "desc": "For every debuff the enemy target has, the DMG dealt by Silver Wolf to it increases by 20%, up to a max increase of 100%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -57060,6 +62419,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Monodrama",
+                "type": "Basic ATK",
+                "desc": "Deals Quantum DMG equal to 140% of Sparkle's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_Normal.webp"
+              },
+              {
+                "name": "Dreamdiver",
+                "type": "Skill",
+                "desc": "Increases the CRIT DMG of a single target ally by 30% of Sparkle's CRIT DMG plus 54%, lasting for 1 turn(s). And at the same time, Advances Forward this ally's action by 50%.\\nWhen Sparkle uses this ability on herself, the Action Advance effect will not trigger.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_BP.webp"
+              },
+              {
+                "name": "The Hero with a Thousand Faces",
+                "type": "Ultimate",
+                "desc": "Recovers 4 Skill Points for the team and grants all allies Cipher. For allies with Cipher, each stack of the DMG Boost effect provided by Sparkle's Talent additionally increases by 12%, lasting for 2 turns.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_Ultra.webp"
+              },
+              {
+                "name": "Unreliable Narrator",
+                "type": "Technique",
+                "desc": "After using Technique, grants all allies Misdirect for 20 seconds. Characters with Misdirect will not be detected by enemies, and entering combat in the Misdirect state recovers 3 Skill Point(s) for the team.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Red Herring",
+                "type": "Talent",
+                "desc": "While Sparkle is on the battlefield, additionally increases the max number of Skill Points by 2. Whenever an ally consumes 1 Skill Point, all allies' DMG dealt increases by 7.5%. This effect lasts for 2 turn(s) and can stack up to 3 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Almanac",
+                "type": "Major Trace",
+                "desc": "When using Basic ATK, additionally regenerates 10 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_SkillTree1.webp"
+              },
+              {
+                "name": "Artificial Flower",
+                "type": "Major Trace",
+                "desc": "The CRIT DMG Boost effect provided by the Skill will be extended until the start of the target's next turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_SkillTree2.webp"
+              },
+              {
+                "name": "Nocturne",
+                "type": "Major Trace",
+                "desc": "Increases all allies' ATK by 15%. When there are 1/2/3 Quantum-Type allies in the team, additionally increases Quantum-Type allies' ATK by 5%/15%/30%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Suspension of Disbelief",
+                "type": "Eidolon 1",
+                "desc": "The Cipher effect granted by the Ultimate lasts for 1 extra turn. All allies with Cipher have their ATK increased by 40%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_Rank1.webp"
+              },
+              {
+                "name": "Purely Fictitious",
+                "type": "Eidolon 2",
+                "desc": "Every stack of the Talent's effect allows allies to additionally ignore 8% of the target's DEF when dealing DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_Rank2.webp"
+              },
+              {
+                "name": "Pipedream",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_BP.webp"
+              },
+              {
+                "name": "Life Is a Gamble",
+                "type": "Eidolon 4",
+                "desc": "The Ultimate recovers 1 more Skill Point. The Talent additionally increases the Max Skill Points by 1.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_Rank4.webp"
+              },
+              {
+                "name": "Parallax Truth",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_Ultra.webp"
+              },
+              {
+                "name": "Narrative Polysemy",
+                "type": "Eidolon 6",
+                "desc": "The CRIT DMG Boost effect provided by the Skill additionally increases by an amount equal to 30% of Sparkle's CRIT DMG. When Sparkle uses Skill, her Skill's CRIT DMG Boost effect will apply to all teammates with Cipher. When Sparkle uses her Ultimate, any single ally who benefits from her Skill's CRIT DMG Boost will spread that effect to teammates with Cipher.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -58077,6 +63547,139 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Cat Got Your Flametongue?",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of Sparxie's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Normal.webp"
+              },
+              {
+                "name": "Bloom! Winner Takes All",
+                "type": "Basic ATK",
+                "desc": "Finalizes the livestream. Deals Fire DMG equal to 140% of Sparxie's ATK to one designated enemy, and Fire DMG equal to 70% of Sparxie's ATK to adjacent targets.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Normal.webp"
+              },
+              {
+                "name": "Bloom! Winner Takes All",
+                "type": "Basic ATK"
+              },
+              {
+                "name": "Boom! Sparxicle's Poppin'",
+                "type": "Skill",
+                "desc": "Start a livestream to turn Basic ATK into \"Bloom! Winner Takes All\" and trigger \"Engagement Farming\" 1 time. During this ability, \"Engagement Farming\" can be triggered repeatedly, up to 20 time(s). Using this ability is not considered as using a Skill.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_BP.webp"
+              },
+              {
+                "name": "Engagement Farming",
+                "type": "Skill",
+                "desc": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by 25% and the DMG multiplier against adjacent targets by 12.5%. Randomly gains one of the following gifts:\\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\\n\"Unreal Banger\": 1 Punchline point(s).\\nUsing this ability is not considered as using a Skill.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_BP.webp"
+              },
+              {
+                "name": "Party's Wildin' and Camera's Rollin'",
+                "type": "Ultimate",
+                "desc": "Gains 2 Punchline point(s). Deals Fire DMG equal to (0.6 \u00d7 Elation + 60%) of Sparxie's ATK to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Ultra.webp"
+              },
+              {
+                "name": "Content Monetization",
+                "type": "Technique",
+                "desc": "After using the Technique, inflicts enemies within a set area with \"Block\" for 10 second(s). \"Blocked\" enemies cannot detect ally targets.\\nAfter entering combat via actively attacking a \"Blocked\" enemy, deals Fire DMG to all enemies equal to 50% of Sparxie's ATK and recovers 2 Skill Point(s) for allies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Sleight of Sparx Hand",
+                "type": "Talent",
+                "desc": "While Sparxie holds \"Certified Banger\":\\nUsing Enhanced Basic ATK deals 50% Fire Elation DMG to one designated enemy, and 25% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of 25% Fire Elation DMG to 1 random attacked enemy target.\\nUsing Ultimate deals 60% Fire Elation DMG to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Passive.webp"
+              },
+              {
+                "name": "Signal Overflow: The Great Encore!",
+                "type": "Elation Skill",
+                "desc": "Deals 62.5% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals 31.3% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Elation.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Sweet! Punchline Signing",
+                "type": "Major Trace",
+                "desc": "For every 100 of Sparxie's ATK that exceeds 2000, increases this unit's Elation by 5%, up to a maximum increase of 80%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_SkillTree1.webp"
+              },
+              {
+                "name": "Dazzling! Persona Kaleidoscope",
+                "type": "Major Trace",
+                "desc": "When there are 1/2/\u22653 Elation characters in the team, using Sparxie's Ultimate will additionally gain 2/4/8 Punchline and 1/1/4 \"Thrill\".",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_SkillTree2.webp"
+              },
+              {
+                "name": "Frenzy! Palette of Truth and Lies",
+                "type": "Major Trace",
+                "desc": "For every 1 Punchline currently owned, increases all allies' CRIT DMG by 8%, up to a max increase of 80%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "#GoingViral #WhoIsShe",
+                "type": "Eidolon 1",
+                "desc": "When Aha Instant ends, gains 5 Punchline. For every 1 Punchline owned, increases All-Type RES PEN for all allies by 1.5%, up to a max increase of 15%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Rank1.webp"
+              },
+              {
+                "name": "#AudienceKnows",
+                "type": "Eidolon 2",
+                "desc": "When Aha Instant ends, Sparxie gains 1 extra turn and 2 \"Thrill.\" For every 1 \"Thrill\" consumed, increases this unit's CRIT DMG by 10%, lasting for 2 turn(s) and stacking up to 4 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Rank2.webp"
+              },
+              {
+                "name": "#LinkUp #HeartSkip",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_BP.webp"
+              },
+              {
+                "name": "#LockedIn #FaceCard",
+                "type": "Eidolon 4",
+                "desc": "When using Ultimate, additionally gains 5 Punchline and increases this unit's Elation by 36% for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Rank4.webp"
+              },
+              {
+                "name": "#HealingTheWorld #GoodVibesOnly",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Ultra.webp"
+              },
+              {
+                "name": "#BuiltDifferent #GoingExtinct",
+                "type": "Eidolon 6",
+                "desc": "Increases All-Type RES PEN by 20%. For every 1 Punchline taken into account, the number of additional DMG instances dealt by the Elation Skill increases by 1, up to a max of 40.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -59096,6 +64699,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Gleaming Admonition",
+                "type": "Basic ATK",
+                "desc": "Deals Imaginary DMG equal to 140% of Sunday's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_Normal.webp"
+              },
+              {
+                "name": "Benison of Paper and Rites",
+                "type": "Skill",
+                "desc": "Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt by 37.5%. If the target has a summon, then the DMG Boost effect is further boosted by an additional 62.5%, lasting for 2 turn(s).\\nAfter using Skill on The Beatified, recovers 1 Skill Point.\\nWhen Sunday uses this ability on characters following the Path of Harmony, cannot trigger the \"immediate action\" effect.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_BP.webp"
+              },
+              {
+                "name": "Ode to Caress and Cicatrix",
+                "type": "Ultimate",
+                "desc": "Regenerates Energy by 20% of Max Energy for one designated ally character, and turns the target and their summon into \"The Beatified.\" \"The Beatified\" have their CRIT DMG increased by an amount equal to 39% of Sunday's CRIT DMG plus 14%.\\nAt the start of Sunday's every turn, the duration of \"The Beatified\" decreases by 1 turn, lasting for a total of 3 turn(s). And it only takes effect on the most recent target of the Ultimate (excluding Sunday himself). When Sunday is knocked down, \"The Beatified\" will also be dispelled.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_Ultra.webp"
+              },
+              {
+                "name": "The Glorious Mysteries",
+                "type": "Technique",
+                "desc": "After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases by 50%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "The Sorrowing Body",
+                "type": "Talent",
+                "desc": "When using Skill, increases the target's CRIT Rate by 25%, lasting for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Rest Day's Longing",
+                "type": "Major Trace",
+                "desc": "When using Ultimate, if the Energy regenerated for the target is less than 40, increases the regenerated Energy to 40.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_SkillTree1.webp"
+              },
+              {
+                "name": "Exalted Sweep",
+                "type": "Major Trace",
+                "desc": "When battle starts, Sunday regenerates 25 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_SkillTree2.webp"
+              },
+              {
+                "name": "Haven in Palm",
+                "type": "Major Trace",
+                "desc": "When using Skill, dispels 1 debuff(s) from the target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Millennium's Quietus",
+                "type": "Eidolon 1",
+                "desc": "When Sunday uses Skill, the target character can ignore 16% of enemy target's DEF to deal DMG and their summon can ignore 40% of enemy target's DEF to deal DMG, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_Rank1.webp"
+              },
+              {
+                "name": "Faith Outstrips Frailty",
+                "type": "Eidolon 2",
+                "desc": "After the first use of Ultimate, recovers 2 Skill Point(s). The DMG dealt by \"The Beatified\" increases by 30%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_Rank2.webp"
+              },
+              {
+                "name": "Hermitage of Thorns",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_Ultra.webp"
+              },
+              {
+                "name": "Sculpture's Preamble",
+                "type": "Eidolon 4",
+                "desc": "When the turn starts, regenerates 8 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_Rank4.webp"
+              },
+              {
+                "name": "Paper Raft in Silver Bay",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_BP.webp"
+              },
+              {
+                "name": "Dawn of Sidereal Cacophony",
+                "type": "Eidolon 6",
+                "desc": "The Talent's CRIT Rate boost effect becomes stackable up to 3 time(s), and the Talent's duration increases by 1 turn(s). When Sunday uses Ultimate, can also apply the Talent's CRIT Rate boost effect to the target. When the Talent's CRIT Rate boost takes effect and the target's CRIT Rate exceeds 100%, every 1% of excess CRIT Rate increases CRIT DMG by 2%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -60119,6 +65833,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Fiddle... Fissured Memory",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of The Dahlia's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Normal.webp"
+              },
+              {
+                "name": "Lick... Enkindled Betrayal",
+                "type": "Skill",
+                "desc": "Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 200% of The Dahlia's ATK to one designated enemy and their adjacent targets.\\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_BP.webp"
+              },
+              {
+                "name": "Wallow... Entombed Ash",
+                "type": "Ultimate",
+                "desc": "Inflicts a \"Wilt\" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 360% of The Dahlia's ATK, which is distributed evenly across all enemies.\\nEnemy targets in the \"Wilt\" state have their DEF reduced by 23% and will be implanted with Weakness of all Dance Partners' Types.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Ultra.webp"
+              },
+              {
+                "name": "The Heart Makes the Finest Tomb",
+                "type": "Technique",
+                "desc": "After using Technique, creates a Special Dimension that lasts for 20 second(s). Enemies within this dimension will not actively attack ally targets. After entering combat with enemies in the Special Dimension, The Dahlia immediately deploys her Skill's Zone, and converts the combat-triggering Toughness Reduction into 1 instance of Super Break DMG at 60% against enemy targets that are Weakness Broken.\\nOnly 1 Dimension Effect created by allies can exist at the same time.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Who's Afraid of Constance?",
+                "type": "Talent",
+                "desc": "When entering combat, The Dahlia regenerates 35 Energy and becomes \"Dance Partners\" along with the teammate that triggered combat. Whenever there is no other \"Dance Partner\" on the field, this unit and the teammate with the highest Break Effect become \"Dance Partners\" together. After a \"Dance Partner\" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 75%.\\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 37.5% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 250%.\\nThis effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Yet Another Funeral",
+                "type": "Major Trace",
+                "desc": "When entering combat, increases other characters' Break Effect by an amount equal to 24% of The Dahlia's Break Effect plus 50%, lasting for 1 turn(s). When The Dahlia receives healing or a Shield provided by a teammate, this effect triggers again, lasting for 3 turn(s). Cannot trigger repeatedly within one turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_SkillTree1.webp"
+              },
+              {
+                "name": "Lament, Lost Soul",
+                "type": "Major Trace",
+                "desc": "When using Talent's Follow-Up ATK, recovers 1 Skill Point for allies. For every 2 instance(s) of Talent's Follow-Up ATK used, this effect can trigger once.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_SkillTree2.webp"
+              },
+              {
+                "name": "Outgrow the Old, Espouse the New",
+                "type": "Major Trace",
+                "desc": "When an ally target adds Weakness to an enemy target, increases SPD by 30% for 2 turn(s). If a Fire ally character has implanted a Weakness when using an attack, then after the attack, additionally deals a fixed amount of 20 Fire Toughness Reduction to every target implanted with Weakness. Also, regenerates Energy equal to 10% of Max Energy. This effect can regenerate Energy up to 50% of Max Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "When a Bud Readies to Bloom",
+                "type": "Eidolon 1",
+                "desc": "The Super Break DMG multiplier provided by Talent to \"Dance Partners\" now applies to all ally characters, with \"Dance Partners\" additionally receiving a 40% boost. After \"Dance Partners\" use an attack, additionally deals the attacked enemy targets a fixed amount of Toughness Reduction equal to 25% of their Max Toughness (minimum 10, maximum 300). This effect can only trigger once per enemy target, and this trigger count resets after the enemy target receives a killing blow.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Rank1.webp"
+              },
+              {
+                "name": "Fresh, Ethereal, and Beloved",
+                "type": "Eidolon 2",
+                "desc": "When The Dahlia is on the field, decreases all enemies' All-Type RES by 20%. When an enemy target enters the field, immediately inflicts \"Wilt\" on them, lasting for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Rank2.webp"
+              },
+              {
+                "name": "Pity Its Petals Thin as Mist",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Ultra.webp"
+              },
+              {
+                "name": "Pity Its Heart Gnawed by Worms",
+                "type": "Eidolon 4",
+                "desc": "Increases the number of DMG instances dealt by Talent's Follow-Up ATK by 5. Upon its use, the DMG taken by all enemy targets increases by 12%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Rank4.webp"
+              },
+              {
+                "name": "Fallen, Decayed, and Despised",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_BP.webp"
+              },
+              {
+                "name": "And Yet, Always, Deathly Beautiful",
+                "type": "Eidolon 6",
+                "desc": "Increases Dance Partners' Break Effect by 150%. When using Talent's Follow-Up ATK, advances the next action of all \"Dance Partners\" by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -61136,6 +66961,123 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Did You Get It",
+                "type": "Basic ATK",
+                "desc": "Deals Ice DMG equal to 140% of The Herta's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_Normal.webp"
+              },
+              {
+                "name": "Big Brain Energy",
+                "type": "Skill",
+                "desc": "Deals Ice DMG equal to 87.5% of The Herta's ATK to one designated enemy, and inflicts 1 stack(s) of \"Interpretation.\" Deals Ice DMG equal to 87.5% of The Herta's ATK to the targets hit by this instance of Skill and their respective adjacent targets. This effect can repeat 2 times.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_BP.webp"
+              },
+              {
+                "name": "Hear Me Out",
+                "type": "Skill",
+                "desc": "Consumes 1 stack of \"Inspiration.\" Deals Ice DMG equal to 100% of The Herta's ATK to one designated enemy and inflicts 1 stack(s) of \"Interpretation.\" Deals Ice DMG equal to 100% of The Herta's ATK to the targets hit by this instance of Skill and their respective adjacent targets, repeating 2 times. At the end, deals Ice DMG equal to 50% of The Herta's ATK to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_BP.webp"
+              },
+              {
+                "name": "Told Ya! Magic Happens",
+                "type": "Ultimate",
+                "desc": "Rearranges the numbers of \"Interpretation\" stacks on all enemies, prioritizing the transfer of the higher numbers of \"Interpretation\" stacks to Elite-level targets and above. Then, deals Ice DMG equal to 250% of The Herta's ATK to all enemies. When using Ultimate, increases The Herta's ATK by 100%, lasting for 3 turn(s). After the use, The Herta immediately takes action and gains 1 stack of \"Inspiration.\" \"Inspiration\" can stack up to 4 time(s). While having \"Inspiration,\" enhances Skill to \"Hear Me Out.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_Ultra.webp"
+              },
+              {
+                "name": "Vibe Checker",
+                "type": "Technique",
+                "desc": "After using Technique, increases The Herta's ATK by 60% at the start of the next battle, lasting for 2 turn(s).\\nIf there are Basic Treasures in this current map, using Technique can mark up to 3 Basic Treasures' locations.\\nAfter entering battle by using Technique in Simulated Universe or Divergent Universe, at the start of each wave, deals True DMG to enemy targets lower than Elite-level by an amount equal to 99% of the targets' Max HP, and deals True DMG to enemy targets at Elite-level and above by an amount equal to 30% of the targets' Max HP.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Hand Them Over",
+                "type": "Talent",
+                "desc": "When enemy targets enter combat, The Herta inflicts 1 stack of \"Interpretation\" on them. At the start of each wave, applies 25 stack(s) of \"Interpretation\" to a random enemy target, prioritizing Elite-level targets and above. When the Enhanced Skill's primary target has \"Interpretation,\" the multiplier for the DMG dealt increases, with each stack granting an increase of 10%/5% on the primary target/other targets respectively. If 2 or more characters follow the Path of Erudition in the team, each stack grants an additional increase of 10%/5% on the primary target/other targets respectively. \"Interpretation\" can stack up to 42 time(s). When using the Enhanced Skill, resets the number of \"Interpretation\" stacks on the primary target to 1. After the enemy target leaves the field or gets defeated by any unit, \"Interpretation\" will be transferred, prioritizing the transfer to Elite-level targets and above.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Aloofly Honest",
+                "type": "Major Trace",
+                "desc": "When ally targets attack, inflicts 1 stack of \"Interpretation\" on the hit enemy target. After attacking, for every 1 target hit by this attack, regenerates 3 fixed Energy for The Herta, counting up to a maximum of 5 targets. When using Enhanced Skill, if the primary target's \"Interpretation\" stack reaches 42, increases the Ice DMG dealt by The Herta by 50%, lasting until the end of this attack.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_SkillTree1.webp"
+              },
+              {
+                "name": "Message From Beyond the Veil",
+                "type": "Major Trace",
+                "desc": "When entering battle, if the team has 2 or more Erudition characters, increases all allies' CRIT DMG by 80%. And the Trace \"Aloofly Honest\" counts at least 3 target(s) when calculating the number of targets hit. After attacking, applies 1 \"Interpretation\" stack(s) to the target that has the highest existing \"Interpretation\" stacks among the hit enemy targets. If the attacker is an Erudition character, then additionally applies 2 \"Interpretation\" stack(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_SkillTree2.webp"
+              },
+              {
+                "name": "Starved Landscape of Vacua",
+                "type": "Major Trace",
+                "desc": "For every 1 stack of \"Interpretation\" inflicted on enemy targets, The Herta gains 1 stack of \"Answer,\" up to a max of 99 stack(s). When using Ultimate, each \"Answer\" stack increases this instance of Ultimate's DMG multiplier by 1%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Night at Shorefall",
+                "type": "Eidolon 1",
+                "desc": "When the Enhanced Skill calculates the number of \"Interpretation\" stacks, additionally counts 50% of the number of \"Interpretation\" stacks on the 1 target with the most stacks among the primary target and adjacent targets. When \"Interpretation\" is reset by using the Enhanced Skill, its stack number is reset to 15 instead.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_Rank1.webp"
+              },
+              {
+                "name": "Wind Through Keyhole",
+                "type": "Eidolon 2",
+                "desc": "After The Herta enters combat or uses Ultimate, additionally gains 1 \"Inspiration\" stack. After using Enhanced Skill, advances The Herta's next action by 35%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_Rank2.webp"
+              },
+              {
+                "name": "Door into Summer",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_BP.webp"
+              },
+              {
+                "name": "The Sixteenth Key",
+                "type": "Eidolon 4",
+                "desc": "The SPD of Erudition characters in the team increases by 12%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_Rank4.webp"
+              },
+              {
+                "name": "Bitter Pill of Truth",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_Ultra.webp"
+              },
+              {
+                "name": "Sweet Lure of Answer",
+                "type": "Eidolon 6",
+                "desc": "The Herta's Ice RES PEN increases by 20%. When the number of enemy targets on the field is (\u22653)/2/1, Ultimate's DMG multiplier increases by 140%/250%/400% respectively.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -62250,6 +68192,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Deficit...",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of Topaz's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_Normal.webp"
+              },
+              {
+                "name": "Difficulty Paying?",
+                "type": "Skill",
+                "desc": "Inflicts one designated enemy target with a \"Proof of Debt\" state, increasing the Follow-Up ATK DMG it receives by 62.5%. \"Proof of Debt\" only takes effect on the most recent target it is applied to. If there are no enemies inflicted with \"Proof of Debt\" on the field when an ally's turn starts or when an ally takes action, Topaz will inflict a random enemy with \"Proof of Debt.\"\\nNumby deals Fire DMG equal to 188% of Topaz's ATK to this target. Using this Skill to deal DMG is considered as launching a Follow-Up ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_BP.webp"
+              },
+              {
+                "name": "Turn a Profit!",
+                "type": "Ultimate",
+                "desc": "Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 188% and CRIT DMG increases by 31.3%. Also, when enemies with Proof of Debt are hit by an ally's Basic ATK, Skill, or Ultimate, Numby's action is Advanced Forward by 50%. Numby exits the Windfall Bonanza! state after using 2 attacks.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_Ultra.webp"
+              },
+              {
+                "name": "Explicit Subsidy",
+                "type": "Technique",
+                "desc": "Summons Numby when Topaz enters the overworld. Numby will automatically search for Basic Treasures and Trotters within a set radius.\\nUsing her Technique will regenerate 60 Energy for Topaz after Numby's first attack in the next battle.\\nIf Topaz is still in the team after using her Technique and defeating overworld enemies, a small bonus amount of credits will be added to the earned credits. A maximum of 10000 bonus credits can be received per calendar day.\\nAfter using her Technique and defeating enemies in Simulated Universe or Divergent Universe, additionally receive a small amount of Cosmic Fragments with a small chance to obtain 1 random Curio.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Trotter Market!?",
+                "type": "Talent",
+                "desc": "Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches Follow-Up ATKs on one enemy target afflicted with \"Proof of Debt,\" dealing Fire DMG equal to 188% of Topaz's ATK.\\nWhen enemies afflicted with \"Proof of Debt\" receive an ally's Follow-Up ATKs, Numby's action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby's own turn.\\nWhen Topaz is downed, Numby disappears.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Overdraft",
+                "type": "Major Trace",
+                "desc": "When Topaz uses Basic ATK to deal DMG, it is considered as a Follow-Up ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_SkillTree1.webp"
+              },
+              {
+                "name": "Financial Turmoil",
+                "type": "Major Trace",
+                "desc": "Increases Topaz & Numby's DMG dealt to enemy targets with Fire Weakness by 15%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_SkillTree2.webp"
+              },
+              {
+                "name": "Stonks Market",
+                "type": "Major Trace",
+                "desc": "After Numby uses an attack while in the Windfall Bonanza! state, Topaz additionally regenerates 10 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Future Market",
+                "type": "Eidolon 1",
+                "desc": "When enemies afflicted with \"Proof of Debt\" receive Follow-Up ATKs, they will enter the \"Debtor\" state. This can take effect only once within a single attack.\\nThe \"Debtor\" state increases the CRIT DMG of Follow-Up ATKs inflicted on the enemy target by 25%, stacking up to 2 time(s). When \"Proof of Debt\" is removed, the \"Debtor\" state is also removed.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_Rank1.webp"
+              },
+              {
+                "name": "Bona Fide Acquisition",
+                "type": "Eidolon 2",
+                "desc": "After Numby takes action and launches an attack, Topaz regenerates 5 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_Rank2.webp"
+              },
+              {
+                "name": "Seize the Big and Free the Small",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_BP.webp"
+              },
+              {
+                "name": "Agile Operation",
+                "type": "Eidolon 4",
+                "desc": "After Numby's turn begins, Topaz's action advances by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_Rank4.webp"
+              },
+              {
+                "name": "Inflationary Demand",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_Ultra.webp"
+              },
+              {
+                "name": "Incentive Mechanism",
+                "type": "Eidolon 6",
+                "desc": "Numby's attack count during the \"Windfall Bonanza!\" state increases by 1, and its Fire RES PEN increases by 10% when it attacks.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -63514,6 +69567,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Hundred Rockets",
+                "type": "Basic ATK",
+                "desc": "Deals Quantum DMG equal to 42% of Tribbie's Max HP to one designated enemy. Deals Quantum DMG equal to 21% of Tribbie's Max HP to adjacent targets.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_Normal.webp"
+              },
+              {
+                "name": "Where'd the Gifts Go",
+                "type": "Skill",
+                "desc": "Gains \"Numinosity,\" lasting for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While Tribbie has \"Numinosity,\" increases all ally targets' All-Type RES PEN by 30%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_BP.webp"
+              },
+              {
+                "name": "Guess Who Lives Here",
+                "type": "Ultimate",
+                "desc": "Activates a Zone and deals Quantum DMG equal to 37.5% of Tribbie's Max HP to all enemies.\\nWhile the Zone lasts, increases enemy targets' DMG taken by 37.5%. After an ally target attacks, for every 1 target hit, deals 1 instance of Quantum Additional DMG equal to 15% of Tribbie's Max HP to the target that has the highest HP among the hit targets.\\nThe Zone lasts for 2 turn(s). This duration decreases by 1 at the start of this unit's every turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_Ultra.webp"
+              },
+              {
+                "name": "If You're Happy and You Know It",
+                "type": "Technique",
+                "desc": "After using Technique and upon entering battle, obtains \"Numinosity,\" lasting for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Busy as Tribbie",
+                "type": "Talent",
+                "desc": "After other ally characters use Ultimate, Tribbie launches Follow-Up ATK, dealing Quantum DMG equal to 22.5% of Tribbie's Max HP to all enemies. This effect triggers up to 1 time per character. When Tribbie uses Ultimate, resets the trigger count for other ally characters. If the target was defeated before the Follow-Up ATK is launched, then launches the Follow-Up ATK against new enemy targets entering the battlefield.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Lamb Outside the Wall...",
+                "type": "Major Trace",
+                "desc": "After using Talent's Follow-Up ATK, increases the DMG dealt by Tribbie by 72%. This effect can stack up to 3 time(s), lasting for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_SkillTree1.webp"
+              },
+              {
+                "name": "Glass Ball with Wings!",
+                "type": "Major Trace",
+                "desc": "While the Zone lasts, Tribbie's Max HP increases by an amount equal to 9% of the sum of all ally characters' Max HP.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_SkillTree2.webp"
+              },
+              {
+                "name": "Pebble at Crossroads?",
+                "type": "Major Trace",
+                "desc": "At the start of battle, Tribbie regenerates 30 Energy. After other ally targets attack, Tribbie regenerates 1.5 Energy for each target hit.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Rite of Sugar Scoop",
+                "type": "Eidolon 1",
+                "desc": "While the Zone lasts and after ally targets attack enemies, additionally deals True DMG equal to 24% of the total DMG of this attack to targets that have been dealt Additional DMG by the Zone.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_Rank1.webp"
+              },
+              {
+                "name": "Guide of Dream Tour",
+                "type": "Eidolon 2",
+                "desc": "The Additional DMG dealt by the Zone increases to 120% of the original DMG. When the Zone deals Additional DMG, further deals 1 instance(s) of Additional DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_Rank2.webp"
+              },
+              {
+                "name": "Trove of Morning Glow",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_Ultra.webp"
+              },
+              {
+                "name": "Peace of Empathy Bond",
+                "type": "Eidolon 4",
+                "desc": "While \"Numinosity\" lasts, the DMG dealt by all allies ignores 18% of the target's DEF.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_Rank4.webp"
+              },
+              {
+                "name": "Clock of Wonder Origin",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_BP.webp"
+              },
+              {
+                "name": "Morrow of Star Shine",
+                "type": "Eidolon 6",
+                "desc": "After Tribbie uses Ultimate, launches her Talent's Follow-Up ATK against all enemies. The DMG dealt by Talent's Follow-Up ATK increases by 729%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -64535,6 +70699,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Gravity Suppression",
+                "type": "Basic ATK",
+                "desc": "Deals Imaginary DMG equal to 140% of Welt's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_Normal.webp"
+              },
+              {
+                "name": "Edge of the Void",
+                "type": "Skill",
+                "desc": "Deals Imaginary DMG equal to 90% of Welt's ATK to one designated enemy and additionally deals 2 instances of DMG, with each time dealing Imaginary DMG equal to 90% of Welt's ATK to a random enemy. On hit, there is a 80% base chance to reduce the enemy's SPD by 10% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_BP.webp"
+              },
+              {
+                "name": "Synthetic Black Hole",
+                "type": "Ultimate",
+                "desc": "Deals Imaginary DMG equal to 180% of Welt's ATK to all enemies, with a 100% base chance for enemies hit by this ability to be Imprisoned for 1 turn.\\nImprisoned enemies have their actions delayed by 44% and SPD reduced by 10%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_Ultra.webp"
+              },
+              {
+                "name": "Gravitational Imprisonment",
+                "type": "Technique",
+                "desc": "After using Welt's Technique, create a Special Dimension that lasts for 15 second(s). Enemies in this Special Dimension have their movement speed reduced by 50%. After entering battle with enemies in the Special Dimension, there is a 100% base chance to Imprison the enemies for 1 turn.\\nImprisoned enemies have their actions delayed by 20% and SPD reduced by 10%. Only 1 Dimension Effect created by allies can exist at the same time.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Time Distortion",
+                "type": "Talent",
+                "desc": "When hitting an enemy that is already Slowed, Welt deals Imaginary Additional DMG equal to 75% of his ATK to the enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Retribution",
+                "type": "Major Trace",
+                "desc": "When using Ultimate, there is a 100% base chance to increase the DMG taken by the targets by 12% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_SkillTree1.webp"
+              },
+              {
+                "name": "Judgment",
+                "type": "Major Trace",
+                "desc": "Using Ultimate additionally regenerates 10 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_SkillTree2.webp"
+              },
+              {
+                "name": "Punishment",
+                "type": "Major Trace",
+                "desc": "Deals 20% more DMG to enemies inflicted with Weakness Break.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Legacy of Honor",
+                "type": "Eidolon 1",
+                "desc": "After using Ultimate, Welt gets enhanced. Then, the next 2 time(s) he uses Basic ATK or Skill, deals 1 extra instance of Additional DMG to the enemy target. The Additional DMG dealt when using Basic ATK is equal to 50% of Basic ATK DMG multiplier. The Additional DMG dealt when using Skill is equal to 80% of Skill DMG multiplier.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_Rank1.webp"
+              },
+              {
+                "name": "Conflux of Stars",
+                "type": "Eidolon 2",
+                "desc": "When his Talent is triggered, Welt regenerates 3 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_Rank2.webp"
+              },
+              {
+                "name": "Prayer of Peace",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_BP.webp"
+              },
+              {
+                "name": "Appellation of Justice",
+                "type": "Eidolon 4",
+                "desc": "When using Skill, increases the base chance of reducing the attacked enemy target's SPD by 35%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_Rank4.webp"
+              },
+              {
+                "name": "Power of Kindness",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_Ultra.webp"
+              },
+              {
+                "name": "Prospect of Glory",
+                "type": "Eidolon 6",
+                "desc": "When using Skill, deals DMG for 1 extra time to one random enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -65554,6 +71829,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Frost Thorn",
+                "type": "Basic ATK",
+                "desc": "Deals Ice DMG equal to 140% of Yanqing's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_Normal.webp"
+              },
+              {
+                "name": "Darting Ironthorn",
+                "type": "Skill",
+                "desc": "Deals Ice DMG equal to 275% of Yanqing's ATK to one designated enemy and activates \"Soulsteel Sync\" for 1 turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_BP.webp"
+              },
+              {
+                "name": "Amidst the Raining Bliss",
+                "type": "Ultimate",
+                "desc": "Increases Yanqing's CRIT Rate by 60%. When \"Soulsteel Sync\" is active, increases Yanqing's CRIT DMG by an extra 60%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 420% of Yanqing's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_Ultra.webp"
+              },
+              {
+                "name": "The One True Sword",
+                "type": "Technique",
+                "desc": "After using his Technique, at the start of the next battle, Yanqing deals 30% more DMG for 2 turn(s) to enemies whose current HP percentage is 50% or higher.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "One With the Sword",
+                "type": "Talent",
+                "desc": "When \"Soulsteel Sync\" is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by 22.5% and his CRIT DMG increases by 37.5%. After Yanqing attacks an enemy, there is a 65% fixed chance to launch Follow-Up ATK, dealing Ice DMG equal to 62.5% of Yanqing's ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn.\\nThe Frozen target cannot take action and receives Ice Additional DMG equal to 62.5% of Yanqing's ATK at the beginning of each turn.\\nWhen Yanqing receives DMG, the \"Soulsteel Sync\" effect will disappear.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Icing on the Kick",
+                "type": "Major Trace",
+                "desc": "After Yanqing attacks, deals Ice Additional DMG equal to 30% of Yanqing's ATK to enemies with Ice Weakness.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_SkillTree1.webp"
+              },
+              {
+                "name": "Frost Favors the Brave",
+                "type": "Major Trace",
+                "desc": "When Soulsteel Sync is active, Effect RES increases by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_SkillTree2.webp"
+              },
+              {
+                "name": "Gentle Blade",
+                "type": "Major Trace",
+                "desc": "When a CRIT Hit is triggered, increases SPD by 10% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Svelte Saber",
+                "type": "Eidolon 1",
+                "desc": "When Yanqing attacks a Frozen enemy, he deals Ice Additional DMG equal to 60% of his ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_Rank1.webp"
+              },
+              {
+                "name": "Supine Serenade",
+                "type": "Eidolon 2",
+                "desc": "When Soulsteel Sync is active, Energy Regeneration Rate increases by an extra 10%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_Rank2.webp"
+              },
+              {
+                "name": "Sword Savant",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_BP.webp"
+              },
+              {
+                "name": "Searing Sting",
+                "type": "Eidolon 4",
+                "desc": "When the current HP percentage is 80% or higher, this unit's Ice RES PEN increases by 12%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_Rank4.webp"
+              },
+              {
+                "name": "Surging Strife",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_Ultra.webp"
+              },
+              {
+                "name": "Swift Swoop",
+                "type": "Eidolon 6",
+                "desc": "If the buffs from \"Soulsteel Sync\" or the Ultimate are in effect when an enemy is defeated, the duration of these buffs is extended by 1 turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -66572,6 +72958,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Galespin Summersault",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 140% of Yunli's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_Normal.webp"
+              },
+              {
+                "name": "Bladeborne Quake",
+                "type": "Skill",
+                "desc": "Restores HP equal to 35% of Yunli's ATK plus 256. Deals Physical DMG equal to 150% of Yunli's ATK to one designated enemy target and Physical DMG equal to 75% of Yunli's ATK to adjacent targets.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_BP.webp"
+              },
+              {
+                "name": "Earthbind, Etherbreak",
+                "type": "Ultimate",
+                "desc": "Consumes 120 Energy. Yunli gains Parry and Taunts all enemies, lasting until the end of the next ally's or enemy's turn. Increases the CRIT DMG dealt by Yunli's next Counter by 120%. When triggering the Counter effect from Talent, launches the Counter \"Intuit: Cull\" instead and removes the Parry effect. If no Counter is triggered while Parry is active, Yunli will immediately launch the Counter \"Intuit: Slash\" on a random enemy target.\\n\\n\"Intuit: Slash\": Deals Physical DMG equal to 264% of Yunli's ATK to the target, and deals Physical DMG equal to 132% of Yunli's ATK to adjacent targets.\\n\"Intuit: Cull\": Deals Physical DMG equal to 264% of Yunli's ATK to the target, and deals Physical DMG equal to 132% of Yunli's ATK to adjacent targets. Then, additionally deals 6 instances of DMG, each dealing Physical DMG equal to 86.4% of Yunli's ATK to a random single enemy.\\n\\nWhen Yunli deals DMG via this ability, it's considered as dealing Ultimate DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_Ultra.webp"
+              },
+              {
+                "name": "Posterior Precedence",
+                "type": "Technique",
+                "desc": "This unit gains the Ward effect, lasting for 20 seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts \"Intuit: Cull\" on a random enemy, and increases the DMG dealt by this attack by 80%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Flashforge",
+                "type": "Talent",
+                "desc": "When Yunli gets attacked by an enemy target, additionally regenerates 15 Energy and immediately launches a Counter on the attacker, dealing Physical DMG equal to 150% of Yunli's ATK to the attacker and Physical DMG equal to 75% of Yunli's ATK to adjacent targets.\\nIf there is no immediate target to Counter, then Counters a random enemy target instead.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Fiery Wheel",
+                "type": "Major Trace",
+                "desc": "After each use of \"Intuit: Slash,\" the next \"Intuit: Slash\" will be replaced by \"Intuit: Cull.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_SkillTree1.webp"
+              },
+              {
+                "name": "Demon Quell",
+                "type": "Major Trace",
+                "desc": "While in the \"Parry\" state, resists Crowd Control debuffs received and reduces DMG received by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_SkillTree2.webp"
+              },
+              {
+                "name": "True Sunder",
+                "type": "Major Trace",
+                "desc": "When using a Counter, increases Yunli's ATK by 30%, lasting for 1 turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Weathered Blade Does Not Sully",
+                "type": "Eidolon 1",
+                "desc": "Increases DMG dealt by \"Intuit: Slash\" and \"Intuit: Cull\" by 20%. Increases the number of additional DMG instances for \"Intuit: Cull\" by 3.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_Rank1.webp"
+              },
+              {
+                "name": "First Luster Breaks Dawn",
+                "type": "Eidolon 2",
+                "desc": "When dealing DMG via Counter, ignores 20% of the target's DEF.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_Rank2.webp"
+              },
+              {
+                "name": "Mastlength Twirls Mountweight",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_Ultra.webp"
+              },
+              {
+                "name": "Artisan's Ironsong",
+                "type": "Eidolon 4",
+                "desc": "After launching \"Intuit: Slash\" or \"Intuit: Cull,\" increases this unit's Effect RES by 50%, lasting for 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_Rank4.webp"
+              },
+              {
+                "name": "Blade of Old Outlasts All",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_BP.webp"
+              },
+              {
+                "name": "Walk in Blade, Talk in Zither",
+                "type": "Eidolon 6",
+                "desc": "While \"Parry\" is active, if an enemy actively uses their abilities, regardless of whether it attacks Yunli or not, it will trigger \"Intuit: Cull\" and remove the \"Parry\" effect. When dealing DMG via \"Intuit: Slash\" or \"Intuit: Cull,\" increases CRIT Rate by 15% and Physical RES PEN by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -67555,6 +74052,26 @@
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1008.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/arlan-f5ff2658fe9e.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/arlan-6570c752e7cc.webp",
+      "signatureLightCone": {
+        "id": "21012",
+        "name": "A Secret Vow",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21012.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21012.webp",
+        "path": "Destruction"
+      },
+      "signatureWeapon": {
+        "id": "21012",
+        "name": "A Secret Vow",
+        "path": "Destruction",
+        "type": "Destruction",
+        "educated": false
+      },
+      "signatureWeaponId": "21012",
+      "signatureWeaponName": "A Secret Vow",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21012.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21012.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -67566,6 +74083,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Lightning Rush",
+                "type": "Basic ATK",
+                "desc": "Deals Lightning DMG equal to 140% of Arlan's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_Normal.webp"
+              },
+              {
+                "name": "Shackle Breaker",
+                "type": "Skill",
+                "desc": "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to 300% of Arlan's ATK to one designated enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_BP.webp"
+              },
+              {
+                "name": "Frenzied Punishment",
+                "type": "Ultimate",
+                "desc": "Deals Lightning DMG equal to 384% of Arlan's ATK to one designated enemy and Lightning DMG equal to 192% of Arlan's ATK to enemies adjacent to it.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_Ultra.webp"
+              },
+              {
+                "name": "Swift Harvest",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 80% of Arlan's ATK to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Pain and Anger",
+                "type": "Talent",
+                "desc": "Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of 90% DMG dealt by Arlan.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Revival",
+                "type": "Major Trace",
+                "desc": "If the current HP percentage is 30% or lower when defeating an enemy, immediately restores HP equal to 20% of Max HP.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_SkillTree1.webp"
+              },
+              {
+                "name": "Endurance",
+                "type": "Major Trace",
+                "desc": "The chance to resist DoT Debuffs increases by 50%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_SkillTree2.webp"
+              },
+              {
+                "name": "Repel",
+                "type": "Major Trace",
+                "desc": "Upon entering battle, if Arlan's HP percentage is less than or equal to 50%, he can nullify all DMG received except for DoTs until he is attacked.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "To the Bitter End",
+                "type": "Eidolon 1",
+                "desc": "When HP percentage is lower than or equal to 50% of Max HP, increases DMG dealt by Skill by 10%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_Rank1.webp"
+              },
+              {
+                "name": "Breaking Free",
+                "type": "Eidolon 2",
+                "desc": "Using Skill or Ultimate removes 1 debuff from this unit.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_Rank2.webp"
+              },
+              {
+                "name": "Power Through",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_BP.webp"
+              },
+              {
+                "name": "Turn the Tables",
+                "type": "Eidolon 4",
+                "desc": "When struck by a killing blow after entering battle, instead of becoming knocked down, Arlan immediately restores his HP to 25% of his Max HP. This effect is automatically removed after it is triggered once or after 2 turn(s) have elapsed.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_Rank4.webp"
+              },
+              {
+                "name": "Hammer and Tongs",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_Ultra.webp"
+              },
+              {
+                "name": "Self-Sacrifice",
+                "type": "Eidolon 6",
+                "desc": "When the current HP percentage drops to 50% or below, Ultimate deals 20% more DMG, and the DMG multiplier for adjacent targets is raised to the same level as that for the primary target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -68442,7 +75070,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "A Secret Vow",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21012.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21012.webp",
+          "path": "Destruction",
+          "items": [
+            {
+              "id": "110111",
+              "name": "Shattered Blade",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110111.webp"
+            },
+            {
+              "id": "110112",
+              "name": "Lifeless Blade",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110112.webp"
+            },
+            {
+              "id": "110113",
+              "name": "Worldbreaker Blade",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110113.webp"
+            },
+            {
+              "id": "112001",
+              "name": "Silvermane Badge",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/112001.webp"
+            },
+            {
+              "id": "112002",
+              "name": "Silvermane Insignia",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/112002.webp"
+            },
+            {
+              "id": "112003",
+              "name": "Silvermane Medal",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/112003.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -68471,6 +75156,26 @@
       "holidayArtPool": [
         "../../Database/HsrWiki/holiday-art/asta/01-Christmas 2023.png"
       ],
+      "signatureLightCone": {
+        "id": "21032",
+        "name": "Carve the Moon, Weave the Clouds",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21032.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21032.webp",
+        "path": "Harmony"
+      },
+      "signatureWeapon": {
+        "id": "21032",
+        "name": "Carve the Moon, Weave the Clouds",
+        "path": "Harmony",
+        "type": "Harmony",
+        "educated": false
+      },
+      "signatureWeaponId": "21032",
+      "signatureWeaponName": "Carve the Moon, Weave the Clouds",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21032.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21032.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -68482,6 +75187,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Spectrum Beam",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of Asta's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_Normal.webp"
+              },
+              {
+                "name": "Meteor Storm",
+                "type": "Skill",
+                "desc": "Deals Fire DMG equal to 62.5% of Asta's ATK to one designated enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to 62.5% of Asta's ATK to a random enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_BP.webp"
+              },
+              {
+                "name": "Astral Blessing",
+                "type": "Ultimate",
+                "desc": "Increases SPD of all allies by 57 for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_Ultra.webp"
+              },
+              {
+                "name": "Miracle Flash",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. After entering battle, deals Fire DMG equal to 50% of Asta's ATK to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Astrometry",
+                "type": "Talent",
+                "desc": "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\\nFor every stack of Charging Asta has, all allies' ATK increases by 17.5%, up to 5 time(s).\\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Sparks",
+                "type": "Major Trace",
+                "desc": "Asta's Basic ATK has a 80% base chance to Burn the enemy target for 3 turn(s).\\nBurned enemies take Fire DoT equal to 50% of DMG dealt by Asta's Basic ATK at the start of each turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_SkillTree1.webp"
+              },
+              {
+                "name": "Ignite",
+                "type": "Major Trace",
+                "desc": "When Asta is on the field, all allies' Fire DMG increases by 18%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_SkillTree2.webp"
+              },
+              {
+                "name": "Constellation",
+                "type": "Major Trace",
+                "desc": "Asta's DEF increases by 6% for every current Charging stack she possesses.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Star Sings Sans Verses or Vocals",
+                "type": "Eidolon 1",
+                "desc": "When using Skill, deals DMG for 1 extra time to a random enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_Rank1.webp"
+              },
+              {
+                "name": "Moon Speaks in Wax and Wane",
+                "type": "Eidolon 2",
+                "desc": "After using her Ultimate, Asta's Charging stacks will not be reduced in the next turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_Rank2.webp"
+              },
+              {
+                "name": "Meteor Showers for Wish and Want",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_BP.webp"
+              },
+              {
+                "name": "Aurora Basks in Beauty and Bliss",
+                "type": "Eidolon 4",
+                "desc": "Asta's Energy Regeneration Rate increases by 15% when she has 2 or more Charging stacks.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_Rank4.webp"
+              },
+              {
+                "name": "Nebula Secludes in Runes and Riddles",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_Ultra.webp"
+              },
+              {
+                "name": "Cosmos Dreams in Calm and Comfort",
+                "type": "Eidolon 6",
+                "desc": "Charging stack(s) lost in each turn is reduced by 1.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -69358,7 +76174,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "Carve the Moon, Weave the Clouds",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21032.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21032.webp",
+          "path": "Harmony",
+          "items": [
+            {
+              "id": "110161",
+              "name": "Harmonic Tune",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110161.webp"
+            },
+            {
+              "id": "110162",
+              "name": "Ancestral Hymn",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110162.webp"
+            },
+            {
+              "id": "110163",
+              "name": "Stellaris Symphony",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110163.webp"
+            },
+            {
+              "id": "111011",
+              "name": "Thief's Instinct",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111011.webp"
+            },
+            {
+              "id": "111012",
+              "name": "Usurper's Scheme",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111012.webp"
+            },
+            {
+              "id": "111013",
+              "name": "Conqueror's Will",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111013.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -69396,6 +76269,26 @@
         "../../Database/HsrWiki/holiday-art/danheng/08-Chinese New Year 2026 Sunday Dan Heng Jing Yuan Fugue.png",
         "../../Database/HsrWiki/holiday-art/danheng/09-Chinese New Year 2026 2.png"
       ],
+      "signatureLightCone": {
+        "id": "24001",
+        "name": "Cruising in the Stellar Sea",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/24001.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/24001.webp",
+        "path": "Hunt"
+      },
+      "signatureWeapon": {
+        "id": "24001",
+        "name": "Cruising in the Stellar Sea",
+        "path": "Hunt",
+        "type": "Hunt",
+        "educated": false
+      },
+      "signatureWeaponId": "24001",
+      "signatureWeaponName": "Cruising in the Stellar Sea",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/24001.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/24001.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -69407,6 +76300,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Cloudlancer Art: North Wind",
+                "type": "Basic ATK",
+                "desc": "Deals Wind DMG equal to 140% of Dan Heng's ATK to one enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_Normal.webp"
+              },
+              {
+                "name": "Cloudlancer Art: Torrent",
+                "type": "Skill",
+                "desc": "Deals Wind DMG equal to 325% of Dan Heng's ATK to one designated enemy.\\nWhen DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce the target's SPD by 12%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_BP.webp"
+              },
+              {
+                "name": "Ethereal Dream",
+                "type": "Ultimate",
+                "desc": "Deals Wind DMG equal to 480% of Dan Heng's ATK to one designated enemy target. If the attacked enemy is Slowed, the multiplier for the DMG dealt by Ultimate increases by 144%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_Ultra.webp"
+              },
+              {
+                "name": "Splitting Spearhead",
+                "type": "Technique",
+                "desc": "After Dan Heng uses his Technique, his ATK increases by 40% at the start of the next battle for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Superiority of Reach",
+                "type": "Talent",
+                "desc": "When Dan Heng becomes the target of an ally's ability, his next attack's Wind RES PEN increases by 45%. This effect can be triggered again after 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Hidden Dragon",
+                "type": "Major Trace",
+                "desc": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_SkillTree1.webp"
+              },
+              {
+                "name": "Faster Than Light",
+                "type": "Major Trace",
+                "desc": "After launching an attack, there is a 50% fixed chance to increase this unit's SPD by 20% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_SkillTree2.webp"
+              },
+              {
+                "name": "High Gale",
+                "type": "Major Trace",
+                "desc": "Basic ATK deals 40% more DMG to Slowed enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "The Higher You Fly, the Harder You Fall",
+                "type": "Eidolon 1",
+                "desc": "When the target enemy's current HP percentage is greater than or equal to 50%, CRIT Rate increases by 12%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_Rank1.webp"
+              },
+              {
+                "name": "Quell the Venom Octet, Quench the Vice O'Flame",
+                "type": "Eidolon 2",
+                "desc": "Reduces Talent cooldown by 1 turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_Rank2.webp"
+              },
+              {
+                "name": "Seen and Unseen",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_BP.webp"
+              },
+              {
+                "name": "Roaring Dragon and Soaring Sun",
+                "type": "Eidolon 4",
+                "desc": "When Dan Heng uses his Ultimate to defeat an enemy, he will immediately take action again.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_Rank4.webp"
+              },
+              {
+                "name": "A Drop of Rain Feeds a Torrent",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_Ultra.webp"
+              },
+              {
+                "name": "The Troubled Soul Lies in Wait",
+                "type": "Eidolon 6",
+                "desc": "The Slow state triggered by Skill reduces the enemy's SPD by an extra 8%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -70283,7 +77287,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 3031400,
+        "weapon": {
+          "name": "Cruising in the Stellar Sea",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/24001.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/24001.webp",
+          "path": "Hunt",
+          "items": [
+            {
+              "id": "110121",
+              "name": "Arrow of the Beast Hunter",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110121.webp"
+            },
+            {
+              "id": "110122",
+              "name": "Arrow of the Demon Slayer",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110122.webp"
+            },
+            {
+              "id": "110123",
+              "name": "Arrow of the Starchaser",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110123.webp"
+            },
+            {
+              "id": "111001",
+              "name": "Extinguished Core",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111001.webp"
+            },
+            {
+              "id": "111002",
+              "name": "Glimmering Core",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111002.webp"
+            },
+            {
+              "id": "111003",
+              "name": "Squirming Core",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111003.webp"
+            }
+          ],
+          "cost": 385000
+        }
       }
     },
     {
@@ -70310,6 +77371,26 @@
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1301.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/gallagher-3b2d2ab7dcb6.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/gallagher-53eb230701d1.webp",
+      "signatureLightCone": {
+        "id": "21035",
+        "name": "What Is Real?",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21035.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21035.webp",
+        "path": "Abundance"
+      },
+      "signatureWeapon": {
+        "id": "21035",
+        "name": "What Is Real?",
+        "path": "Abundance",
+        "type": "Abundance",
+        "educated": false
+      },
+      "signatureWeaponId": "21035",
+      "signatureWeaponName": "What Is Real?",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21035.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21035.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -70321,6 +77402,123 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Corkage Fee",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of Gallagher's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_Normal.webp"
+              },
+              {
+                "name": "Nectar Blitz",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 350% of Gallagher's ATK to one designated enemy target. Reduces the target's ATK by 19%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_Normal.webp"
+              },
+              {
+                "name": "Special Brew",
+                "type": "Skill",
+                "desc": "Immediately heals a target ally for 2020 HP.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_BP.webp"
+              },
+              {
+                "name": "Champagne Etiquette",
+                "type": "Ultimate",
+                "desc": "Inflicts Besotted on all enemies, lasting for 2 turn(s). At the same time, deals Fire DMG equal to 188% of Gallagher's ATK to all enemies, and enhances his next Basic ATK to Nectar Blitz.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_Ultra.webp"
+              },
+              {
+                "name": "Artisan Elixir",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. Upon entering battle, inflicts Besotted on all enemies, lasting for 2 turn(s). And deals Fire DMG equal to 50% of Gallagher's ATK to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Tipsy Tussle",
+                "type": "Talent",
+                "desc": "The Besotted state makes targets receive 15% more Break DMG. Every time a Besotted target gets attacked by an ally, the attacking ally's HP is restored by 808.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Novel Concoction",
+                "type": "Major Trace",
+                "desc": "Increases this unit's Outgoing Healing by an amount equal to 50% of Break Effect, up to a maximum Outgoing Healing increase of 75%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_SkillTree1.webp"
+              },
+              {
+                "name": "Organic Yeast",
+                "type": "Major Trace",
+                "desc": "After using the Ultimate, immediately advances action for this unit by 100%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_SkillTree2.webp"
+              },
+              {
+                "name": "Bottoms Up",
+                "type": "Major Trace",
+                "desc": "When Gallagher uses Nectar Blitz to attack Besotted enemies, the HP Restore effect of his Talent will also apply to teammates for this time.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Salty Dog",
+                "type": "Eidolon 1",
+                "desc": "When entering the battle, Gallagher regenerates 20 Energy and increases Effect RES by 50%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_Rank1.webp"
+              },
+              {
+                "name": "Lion's Tail",
+                "type": "Eidolon 2",
+                "desc": "When using the Skill, dispels 1 debuff(s) from the designated ally. At the same time, increases their Effect RES by 30% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_Rank2.webp"
+              },
+              {
+                "name": "Corpse Reviver",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_BP.webp"
+              },
+              {
+                "name": "Last Word",
+                "type": "Eidolon 4",
+                "desc": "Extends the duration of the Besotted state inflicted by Gallagher's Ultimate by 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_Rank4.webp"
+              },
+              {
+                "name": "Death in the Afternoon",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_Ultra.webp"
+              },
+              {
+                "name": "Blood and Sand",
+                "type": "Eidolon 6",
+                "desc": "Increases Gallagher's Break Effect by 20% and Weakness Break Efficiency by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -71197,7 +78395,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "What Is Real?",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21035.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21035.webp",
+          "path": "Abundance",
+          "items": [
+            {
+              "id": "110171",
+              "name": "Seed of Abundance",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110171.webp"
+            },
+            {
+              "id": "110172",
+              "name": "Sprout of Life",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110172.webp"
+            },
+            {
+              "id": "110173",
+              "name": "Flower of Eternity",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110173.webp"
+            },
+            {
+              "id": "114001",
+              "name": "Dream Collection Component",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/114001.webp"
+            },
+            {
+              "id": "114002",
+              "name": "Dream Flow Valve",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/114002.webp"
+            },
+            {
+              "id": "114003",
+              "name": "Dream Making Engine",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/114003.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -71223,6 +78478,26 @@
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1210.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/guinaifen-ccfd0b05a9af.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/guinaifen-e7c32f758256.webp",
+      "signatureLightCone": {
+        "id": "21008",
+        "name": "Eyes of the Prey",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21008.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21008.webp",
+        "path": "Nihility"
+      },
+      "signatureWeapon": {
+        "id": "21008",
+        "name": "Eyes of the Prey",
+        "path": "Nihility",
+        "type": "Nihility",
+        "educated": false
+      },
+      "signatureWeaponId": "21008",
+      "signatureWeaponName": "Eyes of the Prey",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21008.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21008.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -71234,6 +78509,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Standing Ovation",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of Guinaifen's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_Normal.webp"
+              },
+              {
+                "name": "Blazing Welcome",
+                "type": "Skill",
+                "desc": "Deals Fire DMG equal to 150% of Guinaifen's ATK to one designated enemy and Fire DMG equal to 50% of Guinaifen's ATK to any adjacent enemies, with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 273% of Guinaifen's ATK at the beginning of each turn, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_BP.webp"
+              },
+              {
+                "name": "Watch This Showstopper",
+                "type": "Ultimate",
+                "desc": "Deals Fire DMG equal to 144% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produces DMG equal to 102% of their original DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_Ultra.webp"
+              },
+              {
+                "name": "Skill Showcase",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. After entering battle, deals DMG for 4 time(s), dealing Fire DMG equal to 50% of Guinaifen's ATK to a random single enemy target each time, with a 100% base chance of inflicting Firekiss on them.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "PatrAeon Benefits",
+                "type": "Talent",
+                "desc": "When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives 8.5% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "High Poles",
+                "type": "Major Trace",
+                "desc": "Basic ATK has a 80% base chance of inflicting an enemy with a Burn equivalent to that of Skill.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_SkillTree1.webp"
+              },
+              {
+                "name": "Bladed Hoop",
+                "type": "Major Trace",
+                "desc": "When the battle begins, Guinaifen's action advances by 25%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_SkillTree2.webp"
+              },
+              {
+                "name": "Walking on Knives",
+                "type": "Major Trace",
+                "desc": "Deals 20% more DMG to Burned enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Slurping Noodles During Handstand",
+                "type": "Eidolon 1",
+                "desc": "When Skill is used, there is a 100% base chance to reduce the attacked target enemy's Effect RES by 10% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_Rank1.webp"
+              },
+              {
+                "name": "Brushing Teeth While Whistling",
+                "type": "Eidolon 2",
+                "desc": "When an enemy target is being Burned, the DMG multiplier of the Burn status applied by her Basic ATK or Skill increases by 40%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_Rank2.webp"
+              },
+              {
+                "name": "Smashing Boulder on Chest",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_BP.webp"
+              },
+              {
+                "name": "Blocking Pike with Neck",
+                "type": "Eidolon 4",
+                "desc": "Every time the Burn status inflicted by Guinaifen causes DMG, Guinaifen regenerates 2 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_Rank4.webp"
+              },
+              {
+                "name": "Swallowing Sword to Stomach",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_Ultra.webp"
+              },
+              {
+                "name": "Catching Bullet with Hands",
+                "type": "Eidolon 6",
+                "desc": "Increases the stackable Firekiss count by 1.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -72110,7 +79496,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "Eyes of the Prey",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21008.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21008.webp",
+          "path": "Nihility",
+          "items": [
+            {
+              "id": "110151",
+              "name": "Obsidian of Dread",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110151.webp"
+            },
+            {
+              "id": "110152",
+              "name": "Obsidian of Desolation",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110152.webp"
+            },
+            {
+              "id": "110153",
+              "name": "Obsidian of Obsession",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110153.webp"
+            },
+            {
+              "id": "112011",
+              "name": "Ancient Part",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/112011.webp"
+            },
+            {
+              "id": "112012",
+              "name": "Ancient Spindle",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/112012.webp"
+            },
+            {
+              "id": "112013",
+              "name": "Ancient Engine",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/112013.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -72137,6 +79580,26 @@
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1215.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/hanya-ef653980c8ac.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/hanya-e05f75e0ed4b.webp",
+      "signatureLightCone": {
+        "id": "21011",
+        "name": "Planetary Rendezvous",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21011.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21011.webp",
+        "path": "Harmony"
+      },
+      "signatureWeapon": {
+        "id": "21011",
+        "name": "Planetary Rendezvous",
+        "path": "Harmony",
+        "type": "Harmony",
+        "educated": false
+      },
+      "signatureWeaponId": "21011",
+      "signatureWeaponName": "Planetary Rendezvous",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21011.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21011.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -72148,6 +79611,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Oracle Brush",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 140% of Hanya's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_Normal.webp"
+              },
+              {
+                "name": "Samsara, Locked",
+                "type": "Skill",
+                "desc": "Deals Physical DMG equal to 300% of Hanya's ATK to one designated enemy target, then applies \"Burden\" to them.\\nFor every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with \"Burden,\" allies will immediately recover 1 Skill Point. \"Burden\" is only active on the latest target it is applied to, and will be dispelled automatically after the Skill Point recovery effect has been triggered 2 times.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_BP.webp"
+              },
+              {
+                "name": "Ten-Lords' Decree, All Shall Obey",
+                "type": "Ultimate",
+                "desc": "Increases the SPD of a target ally by 22.5% of Hanya's SPD and increases the same target ally's ATK by 72%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_Ultra.webp"
+              },
+              {
+                "name": "Netherworld Judgment",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Sanction",
+                "type": "Talent",
+                "desc": "When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by 37.5%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Scrivener",
+                "type": "Major Trace",
+                "desc": "Allies triggering Burden's Skill Point recovery effect have their ATK increased by 10% for 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_SkillTree1.webp"
+              },
+              {
+                "name": "Netherworld",
+                "type": "Major Trace",
+                "desc": "If the trigger count for the Burden's Skill Point recovery effect is 1 or lower when an enemy with Burden is defeated, then additionally recovers 1 Skill Point(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_SkillTree2.webp"
+              },
+              {
+                "name": "Reanimated",
+                "type": "Major Trace",
+                "desc": "When Burden's Skill Point recovery effect is triggered, this character regenerates 2 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "One Heart",
+                "type": "Eidolon 1",
+                "desc": "When an ally target with Hanya's Ultimate effect defeats an enemy, Hanya's action advances by 15%. This effect can only be triggered 1 time(s) per turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_Rank1.webp"
+              },
+              {
+                "name": "Two Views",
+                "type": "Eidolon 2",
+                "desc": "After using the Skill, this character's SPD increases by 20% for 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_Rank2.webp"
+              },
+              {
+                "name": "Three Temptations",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_BP.webp"
+              },
+              {
+                "name": "Four Truths",
+                "type": "Eidolon 4",
+                "desc": "The Ultimate's duration is additionally extended for 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_Rank4.webp"
+              },
+              {
+                "name": "Five Skandhas",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_Ultra.webp"
+              },
+              {
+                "name": "Six Reverences",
+                "type": "Eidolon 6",
+                "desc": "Increase the DMG Boost effect of the Talent by an additional 10%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -73030,7 +80604,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "Planetary Rendezvous",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21011.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21011.webp",
+          "path": "Harmony",
+          "items": [
+            {
+              "id": "110161",
+              "name": "Harmonic Tune",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110161.webp"
+            },
+            {
+              "id": "110162",
+              "name": "Ancestral Hymn",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110162.webp"
+            },
+            {
+              "id": "110163",
+              "name": "Stellaris Symphony",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110163.webp"
+            },
+            {
+              "id": "111011",
+              "name": "Thief's Instinct",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111011.webp"
+            },
+            {
+              "id": "111012",
+              "name": "Usurper's Scheme",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111012.webp"
+            },
+            {
+              "id": "111013",
+              "name": "Conqueror's Will",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111013.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -73056,6 +80687,26 @@
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1013.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/herta-5eb921b823ca.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/herta-d93a5aec8214.webp",
+      "signatureLightCone": {
+        "id": "23000",
+        "name": "Night on the Milky Way",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23000.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23000.webp",
+        "path": "Erudition"
+      },
+      "signatureWeapon": {
+        "id": "23000",
+        "name": "Night on the Milky Way",
+        "path": "Erudition",
+        "type": "Erudition",
+        "educated": false
+      },
+      "signatureWeaponId": "23000",
+      "signatureWeaponName": "Night on the Milky Way",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23000.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/23000.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -73067,6 +80718,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "What Are You Looking At?",
+                "type": "Basic ATK",
+                "desc": "Deals Ice DMG equal to 140% of Herta's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_Normal.webp"
+              },
+              {
+                "name": "One-Time Offer",
+                "type": "Skill",
+                "desc": "Deals Ice DMG equal to 125% of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_BP.webp"
+              },
+              {
+                "name": "It's Magic, I Added Some Magic",
+                "type": "Ultimate",
+                "desc": "Deals Ice DMG equal to 240% of Herta's ATK to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_Ultra.webp"
+              },
+              {
+                "name": "It Can Still Be Optimized",
+                "type": "Technique",
+                "desc": "After using her Technique, Herta's ATK increases by 40% for 3 turn(s) at the beginning of the next battle.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Fine, I'll Do It Myself",
+                "type": "Talent",
+                "desc": "When an ally target's attack causes an enemy target's HP percentage to fall to 50% or lower, Herta will launch a Follow-Up ATK, dealing Ice DMG equal to 47.5% of Herta's ATK to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Efficiency",
+                "type": "Major Trace",
+                "desc": "When Skill is used, the DMG Boost effect on target enemies increases by an extra 25%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_SkillTree1.webp"
+              },
+              {
+                "name": "Puppet",
+                "type": "Major Trace",
+                "desc": "Increases the chance to resist Crowd Control debuffs by 35%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_SkillTree2.webp"
+              },
+              {
+                "name": "Icing",
+                "type": "Major Trace",
+                "desc": "When Ultimate is used, deals 20% more DMG to Frozen enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Kick You When You're Down",
+                "type": "Eidolon 1",
+                "desc": "When using Basic ATK, if the designated enemy's HP percentage is at 50% or less, additionally deals Ice Additional DMG equal to 40% of Herta's ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_Rank1.webp"
+              },
+              {
+                "name": "Keep the Ball Rolling",
+                "type": "Eidolon 2",
+                "desc": "Every time Talent is triggered, this character's CRIT Rate increases by 3%. This effect can stack up to 5 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_Rank2.webp"
+              },
+              {
+                "name": "That's the Kind of Girl I Am",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_BP.webp"
+              },
+              {
+                "name": "Hit Where It Hurts",
+                "type": "Eidolon 4",
+                "desc": "When Talent is triggered, DMG increases by 10%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_Rank4.webp"
+              },
+              {
+                "name": "Cuss Big or Cuss Nothing",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_Ultra.webp"
+              },
+              {
+                "name": "No One Can Betray Me",
+                "type": "Eidolon 6",
+                "desc": "After using Ultimate, this character's ATK increases by 25% for 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -73943,7 +81705,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 3031400,
+        "weapon": {
+          "name": "Night on the Milky Way",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23000.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23000.webp",
+          "path": "Erudition",
+          "items": [
+            {
+              "id": "110131",
+              "name": "Key of Inspiration",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110131.webp"
+            },
+            {
+              "id": "110132",
+              "name": "Key of Knowledge",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110132.webp"
+            },
+            {
+              "id": "110133",
+              "name": "Key of Wisdom",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110133.webp"
+            },
+            {
+              "id": "111001",
+              "name": "Extinguished Core",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111001.webp"
+            },
+            {
+              "id": "111002",
+              "name": "Glimmering Core",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111002.webp"
+            },
+            {
+              "id": "111003",
+              "name": "Squirming Core",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111003.webp"
+            }
+          ],
+          "cost": 385000
+        }
       }
     },
     {
@@ -73973,6 +81792,26 @@
         "../../Database/HsrWiki/holiday-art/hook/01-Halloween 2022.png",
         "../../Database/HsrWiki/holiday-art/hook/02-Lantern Festival 2023.png"
       ],
+      "signatureLightCone": {
+        "id": "21005",
+        "name": "The Moles Welcome You",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21005.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21005.webp",
+        "path": "Destruction"
+      },
+      "signatureWeapon": {
+        "id": "21005",
+        "name": "The Moles Welcome You",
+        "path": "Destruction",
+        "type": "Destruction",
+        "educated": false
+      },
+      "signatureWeaponId": "21005",
+      "signatureWeaponName": "The Moles Welcome You",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21005.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21005.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -73984,6 +81823,123 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Hehe! Don't Get Burned!",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of Hook's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_Normal.webp"
+              },
+              {
+                "name": "Hey! Remember Hook?",
+                "type": "Skill",
+                "desc": "Deals Fire DMG equal to 300% of Hook's ATK to one designated enemy. In addition, there is a 100% base chance to inflict Burn for 2 turn(s).\\nWhen afflicted with Burn, enemies will take Fire DoT equal to 81.3% of Hook's ATK at the beginning of each turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_BP.webp"
+              },
+              {
+                "name": "Hey! Remember Hook?",
+                "type": "Skill",
+                "desc": "Deals Fire DMG equal to 350% of Hook's ATK to one designated enemy, with a 100% base chance to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to 100% of Hook's ATK to enemies adjacent to it.\\nWhen afflicted with Burn, enemies will take Fire DoT equal to 81.3% of Hook's ATK at the beginning of each turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_BP.webp"
+              },
+              {
+                "name": "Boom! Here Comes the Fire!",
+                "type": "Ultimate",
+                "desc": "Deals Fire DMG equal to 480% of Hook's ATK to one designated enemy.\\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to one designated enemy and enemies adjacent to it.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_Ultra.webp"
+              },
+              {
+                "name": "Ack! Look at This Mess!",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to 50% of her ATK to a random enemy. In addition, there is a 100% base chance to inflict Burn on every enemy for 3 turn(s).\\nWhen afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK at the beginning of each turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Ha! Oil to the Flames!",
+                "type": "Talent",
+                "desc": "When attacking a target afflicted with Burn, deals Fire Additional DMG equal to 125% of Hook's ATK and regenerates 5 extra Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Innocence",
+                "type": "Major Trace",
+                "desc": "Hook restores HP equal to 5% of her Max HP whenever her Talent is triggered.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_SkillTree1.webp"
+              },
+              {
+                "name": "Naivete",
+                "type": "Major Trace",
+                "desc": "Increases the chance to resist Crowd Control debuffs by 35%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_SkillTree2.webp"
+              },
+              {
+                "name": "Playing With Fire",
+                "type": "Major Trace",
+                "desc": "After using her Ultimate, Hook has her action advanced by 20% and additionally regenerates 5 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Early to Bed, Early to Rise",
+                "type": "Eidolon 1",
+                "desc": "Enhanced Skill deals 20% increased DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_Rank1.webp"
+              },
+              {
+                "name": "Happy Tummy, Happy Body",
+                "type": "Eidolon 2",
+                "desc": "Extends the duration of Burn caused by Skill by 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_Rank2.webp"
+              },
+              {
+                "name": "Don't Be Picky, Nothing's Icky",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_BP.webp"
+              },
+              {
+                "name": "It's Okay to Not Know",
+                "type": "Eidolon 4",
+                "desc": "When Talent is triggered, there is a 100% base chance to Burn enemies adjacent to the designated enemy target, equivalent to that of Skill.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_Rank4.webp"
+              },
+              {
+                "name": "Let the Moles' Deeds Be Known",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_Ultra.webp"
+              },
+              {
+                "name": "Always Ready to Punch and Kick",
+                "type": "Eidolon 6",
+                "desc": "Hook deals 20% more DMG to enemies afflicted with Burn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -74860,7 +82816,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "The Moles Welcome You",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21005.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21005.webp",
+          "path": "Destruction",
+          "items": [
+            {
+              "id": "110111",
+              "name": "Shattered Blade",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110111.webp"
+            },
+            {
+              "id": "110112",
+              "name": "Lifeless Blade",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110112.webp"
+            },
+            {
+              "id": "110113",
+              "name": "Worldbreaker Blade",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110113.webp"
+            },
+            {
+              "id": "111011",
+              "name": "Thief's Instinct",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111011.webp"
+            },
+            {
+              "id": "111012",
+              "name": "Usurper's Scheme",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111012.webp"
+            },
+            {
+              "id": "111013",
+              "name": "Conqueror's Will",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111013.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -74889,6 +82902,26 @@
       "holidayArtPool": [
         "../../Database/HsrWiki/holiday-art/luka/01-White Day 2024 Luka.png"
       ],
+      "signatureLightCone": {
+        "id": "21015",
+        "name": "Resolution Shines As Pearls of Sweat",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21015.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21015.webp",
+        "path": "Nihility"
+      },
+      "signatureWeapon": {
+        "id": "21015",
+        "name": "Resolution Shines As Pearls of Sweat",
+        "path": "Nihility",
+        "type": "Nihility",
+        "educated": false
+      },
+      "signatureWeaponId": "21015",
+      "signatureWeaponName": "Resolution Shines As Pearls of Sweat",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21015.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21015.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -74900,6 +82933,123 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Direct Punch",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 140% of Luka's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_Normal.webp"
+              },
+              {
+                "name": "Sky-Shatter Fist",
+                "type": "Basic ATK",
+                "desc": "Consumes 2 stacks of \"Fighting Will.\" First, uses \"Direct Punch\" to deal 3 hits, with each hit dealing Physical DMG equal to 28% of Luka's ATK to one designated enemy target.\\nThen, uses \"Rising Uppercut\" to deal 1 hit, dealing Physical DMG equal to 112% of Luka's ATK to the designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_Normal.webp"
+              },
+              {
+                "name": "Lacerating Fist",
+                "type": "Skill",
+                "desc": "Deals Physical DMG equal to 150% of Luka's ATK to one designated enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s).\\nWhile Bleeding, the enemy will take 24% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 422% of Luka's ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_BP.webp"
+              },
+              {
+                "name": "Coup de Gr\u00e2ce",
+                "type": "Ultimate",
+                "desc": "Receives 2 stack(s) of \"Fighting Will,\" with a 100% base chance to increase one designated enemy target's DMG received by 24% for 3 turn(s). Then, deals Physical DMG equal to 396% of Luka's ATK to the target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_Ultra.webp"
+              },
+              {
+                "name": "Anticipator",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to 50% of his ATK to a random single enemy with a 100% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Flying Sparks",
+                "type": "Talent",
+                "desc": "After Luka uses his Basic ATK \"Direct Punch\" or Skill \"Lacerating Fist,\" he receives 1 stack of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK \"Direct Punch\" is enhanced to \"Sky-Shatter Fist.\" After his Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to 93.5% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Kinetic Overload",
+                "type": "Major Trace",
+                "desc": "When using Skill, immediately dispels 1 buff(s) from the enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_SkillTree1.webp"
+              },
+              {
+                "name": "Cycle Braking",
+                "type": "Major Trace",
+                "desc": "For every stack of Fighting Will obtained, additionally regenerates 3 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_SkillTree2.webp"
+              },
+              {
+                "name": "Crush Fighting Will",
+                "type": "Major Trace",
+                "desc": "When using Enhanced Basic ATK, every hit of \"Direct Punch\" has a 50% fixed chance for Luka to use 1 additional hit. This effect does not apply to additional hits generated in this way.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Fighting Endlessly",
+                "type": "Eidolon 1",
+                "desc": "When Luka takes action, if the target enemy is Bleeding, increases DMG dealt by Luka by 15% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_Rank1.webp"
+              },
+              {
+                "name": "The Enemy is Weak, I am Strong",
+                "type": "Eidolon 2",
+                "desc": "If the Skill hits an enemy target with Physical Weakness, gain 1 stack(s) of Fighting Will.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_Rank2.webp"
+              },
+              {
+                "name": "Born for the Ring",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_BP.webp"
+              },
+              {
+                "name": "Never Turning Back",
+                "type": "Eidolon 4",
+                "desc": "For every stack of Fighting Will obtained, increases ATK by 5%, stacking up to 4 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_Rank4.webp"
+              },
+              {
+                "name": "The Spirit of Wildfire",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_Ultra.webp"
+              },
+              {
+                "name": "A Champion's Applause",
+                "type": "Eidolon 6",
+                "desc": "After the Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG 1 time equal to 8% of the original DMG for every hit of Direct Punch already unleashed during the current Enhanced Basic ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -75776,7 +83926,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "Resolution Shines As Pearls of Sweat",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21015.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21015.webp",
+          "path": "Nihility",
+          "items": [
+            {
+              "id": "110151",
+              "name": "Obsidian of Dread",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110151.webp"
+            },
+            {
+              "id": "110152",
+              "name": "Obsidian of Desolation",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110152.webp"
+            },
+            {
+              "id": "110153",
+              "name": "Obsidian of Obsession",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110153.webp"
+            },
+            {
+              "id": "113011",
+              "name": "Artifex's Module",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/113011.webp"
+            },
+            {
+              "id": "113012",
+              "name": "Artifex's Cogwheel",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/113012.webp"
+            },
+            {
+              "id": "113013",
+              "name": "Artifex's Gyreheart",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/113013.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -75805,6 +84012,26 @@
       "holidayArtPool": [
         "../../Database/HsrWiki/holiday-art/lynx/01-Halloween 2023.png"
       ],
+      "signatureLightCone": {
+        "id": "21028",
+        "name": "Warmth Shortens Cold Nights",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21028.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21028.webp",
+        "path": "Abundance"
+      },
+      "signatureWeapon": {
+        "id": "21028",
+        "name": "Warmth Shortens Cold Nights",
+        "path": "Abundance",
+        "type": "Abundance",
+        "educated": false
+      },
+      "signatureWeaponId": "21028",
+      "signatureWeaponName": "Warmth Shortens Cold Nights",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21028.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21028.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -75816,6 +84043,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Ice Crampon Technique",
+                "type": "Basic ATK",
+                "desc": "Deals Quantum DMG equal to 70% of this character's Max HP to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_Normal.webp"
+              },
+              {
+                "name": "Salted Camping Cans",
+                "type": "Skill",
+                "desc": "Applies \"Survival Response\" to a single target ally and increases their Max HP by 8.75% of Lynx's Max HP plus 256. If the target ally is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will greatly increase. \"Survival Response\" lasts for 2 turn(s).\\nRestores the target's HP by 14% of Lynx's Max HP plus 410.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_BP.webp"
+              },
+              {
+                "name": "Snowfield First Aid",
+                "type": "Ultimate",
+                "desc": "Dispels 1 debuff(s) from all allies and immediately restores their respective HP by an amount equal to 15.8% of Lynx's Max HP plus 461.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_Ultra.webp"
+              },
+              {
+                "name": "Chocolate Energy Bar",
+                "type": "Technique",
+                "desc": "After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "SingleAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Outdoor Survival Experience",
+                "type": "Talent",
+                "desc": "When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring the target ally's HP by an amount equal to 4.2% of Lynx's Max HP plus 123 at the start of each turn. If the target has \"Survival Response,\" the continuous healing effect additionally restores HP by an amount equal to 5.25% of Lynx's Max HP plus 154.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Advance Surveying",
+                "type": "Major Trace",
+                "desc": "After a target with \"Survival Response\" is hit, Lynx regenerates 2 Energy immediately.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_SkillTree1.webp"
+              },
+              {
+                "name": "Exploration Techniques",
+                "type": "Major Trace",
+                "desc": "Increases the chance to resist Crowd Control debuffs by 35%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_SkillTree2.webp"
+              },
+              {
+                "name": "Survival in the Extreme",
+                "type": "Major Trace",
+                "desc": "Extends the duration of the continuous healing effect granted by Talent for 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Morning of Snow Hike",
+                "type": "Eidolon 1",
+                "desc": "When healing allies with HP percentage equal to or lower than 50%, Lynx's Outgoing Healing increases by 20%. This effect also works on continuous healing.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_Rank1.webp"
+              },
+              {
+                "name": "Noon of Portable Furnace",
+                "type": "Eidolon 2",
+                "desc": "A target with \"Survival Response\" can resist debuff application for 1 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_Rank2.webp"
+              },
+              {
+                "name": "Afternoon of Avalanche Beacon",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_BP.webp"
+              },
+              {
+                "name": "Dusk of Warm Campfire",
+                "type": "Eidolon 4",
+                "desc": "When \"Survival Response\" is gained, increases the target's ATK by an amount equal to 3% of Lynx's Max HP for 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_Rank4.webp"
+              },
+              {
+                "name": "Night of Aurora Tea",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_Ultra.webp"
+              },
+              {
+                "name": "Dawn of Explorers' Chart",
+                "type": "Eidolon 6",
+                "desc": "Additionally boosts the Max HP increasing effect of \"Survival Response\" by an amount equal to 6% of Lynx's Max HP and increases Effect RES by 30%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -76692,7 +85030,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "Warmth Shortens Cold Nights",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21028.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21028.webp",
+          "path": "Abundance",
+          "items": [
+            {
+              "id": "110171",
+              "name": "Seed of Abundance",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110171.webp"
+            },
+            {
+              "id": "110172",
+              "name": "Sprout of Life",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110172.webp"
+            },
+            {
+              "id": "110173",
+              "name": "Flower of Eternity",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110173.webp"
+            },
+            {
+              "id": "111001",
+              "name": "Extinguished Core",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111001.webp"
+            },
+            {
+              "id": "111002",
+              "name": "Glimmering Core",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111002.webp"
+            },
+            {
+              "id": "111003",
+              "name": "Squirming Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111003.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -76731,6 +85126,26 @@
         "../../Database/HsrWiki/holiday-art/march7th/10-Chinese New Year 2026 2.png",
         "../../Database/HsrWiki/holiday-art/march7th/11-Dragon Boat Festival 2026.jpg"
       ],
+      "signatureLightCone": {
+        "id": "23012",
+        "name": "Sleep Like the Dead",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23012.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23012.webp",
+        "path": "Hunt"
+      },
+      "signatureWeapon": {
+        "id": "23012",
+        "name": "Sleep Like the Dead",
+        "path": "Hunt",
+        "type": "Hunt",
+        "educated": false
+      },
+      "signatureWeaponId": "23012",
+      "signatureWeaponName": "Sleep Like the Dead",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23012.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/23012.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -76742,6 +85157,123 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "My Sword Zaps Demons",
+                "type": "Basic ATK",
+                "desc": "Deals Imaginary DMG equal to 140% of March 7th's ATK to one designated enemy target and gains 1 point(s) of Charge.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_Normal.webp"
+              },
+              {
+                "name": "Brows Be Smitten, Heart Be Bitten",
+                "type": "Basic ATK",
+                "desc": "Initially, deals 3 hits, each causing Imaginary DMG equal to 112% of March 7th's ATK to one designated enemy target. When dealing the final hit, there is a 60% fixed chance to deal 1 additional hit of DMG, up to a max of 3 additional hit(s). Energy regenerated from using Enhanced Basic ATK does not increase with the number of hits.\\nEnhanced Basic ATK cannot recover Skill Points.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_Normal.webp"
+              },
+              {
+                "name": "Master, It's Tea Time!",
+                "type": "Skill",
+                "desc": "Designates one ally (excluding this unit) as \"Shifu\" and increases \"Shifu\"'s SPD by 12%. Only the most recent target of March 7th's Skill is considered as \"Shifu.\"\\nWhenever using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, triggers the corresponding effect if \"Shifu\" with the specified Path is present on the field:\\nErudition, Destruction, The Hunt, Remembrance, Elation: Deals Additional DMG (DMG Type based on \"Shifu\"'s Combat Type) equal to 25% of March 7th's ATK.\\nHarmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of this instance of DMG by 100%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_BP.webp"
+              },
+              {
+                "name": "March 7th, the Apex Heroine",
+                "type": "Ultimate",
+                "desc": "Deals Imaginary DMG equal to 288% of March 7th's ATK to one designated enemy target.\\nIncreases the initial Hits Per Action of the next Enhanced Basic ATK by 2 hit(s) and increase the fixed chance of additionally dealing DMG by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_Ultra.webp"
+              },
+              {
+                "name": "Feast in One Go",
+                "type": "Technique",
+                "desc": "If March 7th is on the team, she gains 1 point of Charge at the start of the next battle whenever a teammate uses Technique, up to a max of 3 point(s).\\nAfter using Technique, March 7th regenerates 30 Energy when the next battle starts.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Master, I've Ascended!",
+                "type": "Talent",
+                "desc": "After Shifu uses an attack or Ultimate, March 7th gains up to 1 point of Charge each time.\\nUpon reaching 7 or more points of Charge, March 7th immediately takes action and increases the DMG she deals by 100%. Her Basic ATK gets Enhanced, and her Skill cannot be used. After using Enhanced Basic ATK, consumes 7 point(s) of Charge. Charge is capped at 10 points.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Swan Soar",
+                "type": "Major Trace",
+                "desc": "When the battle starts, March 7th's action advances by 25%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_SkillTree1.webp"
+              },
+              {
+                "name": "Filigree",
+                "type": "Major Trace",
+                "desc": "March 7th can reduce the Toughness of enemies whose Weakness Type is the same as Shifu's Combat Type. When Breaking Weakness, triggers the Imaginary Weakness Break effect.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_SkillTree2.webp"
+              },
+              {
+                "name": "Tide Tamer",
+                "type": "Major Trace",
+                "desc": "After using Enhanced Basic ATK, increases Shifu's CRIT DMG by 60% and Break Effect by 36%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "My Sword Stirs Starlight",
+                "type": "Eidolon 1",
+                "desc": "When Shifu is on the field, increases March 7th's SPD by 10%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_Rank1.webp"
+              },
+              {
+                "name": "Blade Dances on Waves' Fight",
+                "type": "Eidolon 2",
+                "desc": "After \"Shifu\" uses Basic ATK or Skill to attack an enemy target, March 7th immediately launches a Follow-Up ATK and deals Imaginary DMG equal to 60% of March 7th's ATK to the primary target of this attack. Additionally, triggers the corresponding effect based on \"Shifu\"'s Path and then gains 1 point(s) of Charge. If there is no primary target available to attack, then she attacks a single random enemy instead. This effect can only trigger once per turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_Rank2.webp"
+              },
+              {
+                "name": "Sharp Wit in Martial Might",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_BP.webp"
+              },
+              {
+                "name": "Being Fabulous Never Frights",
+                "type": "Eidolon 4",
+                "desc": "At the start of the turn, regenerates 5 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_Rank4.webp"
+              },
+              {
+                "name": "Sword Delights, Sugar Blights",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_Ultra.webp"
+              },
+              {
+                "name": "Me, the Best Girl in Sight",
+                "type": "Eidolon 6",
+                "desc": "After using Ultimate, increases the CRIT DMG dealt by the next Enhanced Basic ATK by 50%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -77618,7 +86150,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 3031400,
+        "weapon": {
+          "name": "Sleep Like the Dead",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23012.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23012.webp",
+          "path": "Hunt",
+          "items": [
+            {
+              "id": "110121",
+              "name": "Arrow of the Beast Hunter",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110121.webp"
+            },
+            {
+              "id": "110122",
+              "name": "Arrow of the Demon Slayer",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110122.webp"
+            },
+            {
+              "id": "110123",
+              "name": "Arrow of the Starchaser",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110123.webp"
+            },
+            {
+              "id": "111011",
+              "name": "Thief's Instinct",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111011.webp"
+            },
+            {
+              "id": "111012",
+              "name": "Usurper's Scheme",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111012.webp"
+            },
+            {
+              "id": "111013",
+              "name": "Conqueror's Will",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111013.webp"
+            }
+          ],
+          "cost": 385000
+        }
       }
     },
     {
@@ -77677,6 +86266,26 @@
       "holidayArtPool": [
         "../../Database/HsrWiki/holiday-art/misha/01-Children's Day 2024.png"
       ],
+      "signatureLightCone": {
+        "id": "24000",
+        "name": "On the Fall of an Aeon",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/24000.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/24000.webp",
+        "path": "Destruction"
+      },
+      "signatureWeapon": {
+        "id": "24000",
+        "name": "On the Fall of an Aeon",
+        "path": "Destruction",
+        "type": "Destruction",
+        "educated": false
+      },
+      "signatureWeaponId": "24000",
+      "signatureWeaponName": "On the Fall of an Aeon",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/24000.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/24000.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -77688,6 +86297,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "E\u2014Excuse Me, Please!",
+                "type": "Basic ATK",
+                "desc": "Deals Ice DMG equal to 140% of Misha's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_Normal.webp"
+              },
+              {
+                "name": "R\u2014Room Service!",
+                "type": "Skill",
+                "desc": "Increases the Hits Per Action for Misha's next Ultimate by 1 hit(s). Deals Ice DMG equal to 250% of Misha's ATK to one designated enemy target, and Ice DMG equal to 100% of Misha's ATK to adjacent targets.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_BP.webp"
+              },
+              {
+                "name": "G\u2014Gonna Be Late!",
+                "type": "Ultimate",
+                "desc": "Has 3 Hits Per Action by default. First, uses 1 hit to deal Ice DMG equal to 72% of Misha's ATK to one designated enemy target. Then, the rest of the hits each deals Ice DMG equal to 72% of Misha's ATK to one random enemy. Just before each hit lands, there is a 24% base chance to Freeze the target, lasting for 1 turn.\\nWhile Frozen, enemy targets cannot take any actions, and at the start of their turn, they receive Ice Additional DMG equal to 36% of Misha's ATK.\\nThis Ultimate can possess up to 10 Hits Per Action. After the Ultimate is used, its Hits Per Action will be reset to the default level.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_Ultra.webp"
+              },
+              {
+                "name": "Wait, You Are So Beautiful!",
+                "type": "Technique",
+                "desc": "After using the Technique, creates a Special Dimension that lasts for 15 seconds. Enemies caught in the Special Dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by 2 hit(s). Only 1 Dimension Effect created by allies can exist at the same time.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Horological Escapement",
+                "type": "Talent",
+                "desc": "For every 1 Skill Point allies consume, Misha's next Ultimate delivers 1 more Hit(s) Per Action, and Misha regenerates 2.5 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Release",
+                "type": "Major Trace",
+                "desc": "Before the Ultimate's first hit, increases the base chance of Freezing the target by 80%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_SkillTree1.webp"
+              },
+              {
+                "name": "Interlock",
+                "type": "Major Trace",
+                "desc": "When using the Ultimate, increases the Effect Hit Rate by 60%, lasting until the end of the current Ultimate's action.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_SkillTree2.webp"
+              },
+              {
+                "name": "Transmission",
+                "type": "Major Trace",
+                "desc": "When dealing DMG to Frozen enemies, increases CRIT DMG by 30%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Whimsicality of Fancy",
+                "type": "Eidolon 1",
+                "desc": "When using the Ultimate, for every enemy on the field, additionally increases the Hits Per Action for the current Ultimate by 1 hit(s), up to a maximum increase of 5 hit(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_Rank1.webp"
+              },
+              {
+                "name": "Yearning of Youth",
+                "type": "Eidolon 2",
+                "desc": "Before each hit of the Ultimate lands, there is a 24% base chance of reducing the target's DEF by 16% for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_Rank2.webp"
+              },
+              {
+                "name": "Vestige of Happiness",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_Ultra.webp"
+              },
+              {
+                "name": "Visage of Kinship",
+                "type": "Eidolon 4",
+                "desc": "Increases the DMG multiplier for each hit of the Ultimate by 6%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_Rank4.webp"
+              },
+              {
+                "name": "Genesis of First Love",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_BP.webp"
+              },
+              {
+                "name": "Estrangement of Dream",
+                "type": "Eidolon 6",
+                "desc": "When using the Ultimate, increases own DMG by 30%, lasting until the end of the turn. In addition, the next time the Skill is used, recovers 1 Skill Point(s) for the team.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -78564,7 +87284,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 3031400,
+        "weapon": {
+          "name": "On the Fall of an Aeon",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/24000.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/24000.webp",
+          "path": "Destruction",
+          "items": [
+            {
+              "id": "110111",
+              "name": "Shattered Blade",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110111.webp"
+            },
+            {
+              "id": "110112",
+              "name": "Lifeless Blade",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110112.webp"
+            },
+            {
+              "id": "110113",
+              "name": "Worldbreaker Blade",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110113.webp"
+            },
+            {
+              "id": "111001",
+              "name": "Extinguished Core",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111001.webp"
+            },
+            {
+              "id": "111002",
+              "name": "Glimmering Core",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111002.webp"
+            },
+            {
+              "id": "111003",
+              "name": "Squirming Core",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111003.webp"
+            }
+          ],
+          "cost": 385000
+        }
       }
     },
     {
@@ -78594,6 +87371,26 @@
       "holidayArtPool": [
         "../../Database/HsrWiki/holiday-art/moze/01-Chinese New Year 2025 Moze.png"
       ],
+      "signatureLightCone": {
+        "id": "21010",
+        "name": "Swordplay",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21010.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21010.webp",
+        "path": "Hunt"
+      },
+      "signatureWeapon": {
+        "id": "21010",
+        "name": "Swordplay",
+        "path": "Hunt",
+        "type": "Hunt",
+        "educated": false
+      },
+      "signatureWeaponId": "21010",
+      "signatureWeaponName": "Swordplay",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21010.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21010.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -78605,6 +87402,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Hurlthorn",
+                "type": "Basic ATK",
+                "desc": "Deals Lightning DMG equal to 140% of Moze's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_Normal.webp"
+              },
+              {
+                "name": "Fleetwinged Raid",
+                "type": "Skill",
+                "desc": "Marks a designated single enemy target as \"Prey\" and deals to it Lightning DMG equal to 188% of Moze's ATK, and gains 9 points of Charge.\\nWhen there are no other characters on the field that are capable of combat, Moze cannot use his Skill and dispels the enemy's \"Prey\" state.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_BP.webp"
+              },
+              {
+                "name": "Dash In, Gash Out",
+                "type": "Ultimate",
+                "desc": "Deals Lightning DMG equal to 324% of Moze's ATK to one designated enemy target, and launches the Talent's Follow-Up ATK against this target. If the target is defeated before this Follow-Up ATK is used, then launches the Follow-Up ATK against a random single enemy instead.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_Ultra.webp"
+              },
+              {
+                "name": "Bated Wings",
+                "type": "Technique",
+                "desc": "After using Technique, enters the Stealth state for 20 second(s). While in Stealth, Moze is undetectable by enemies. If Moze attacks enemies to enter combat while in Stealth, increases DMG by 30%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Cascading Featherblade",
+                "type": "Talent",
+                "desc": "When \"Prey\" exists on the field, Moze will enter the Departed state.\\nAfter ally targets attack \"Prey,\" Moze will additionally deal 1 instance of Lightning Additional DMG equal to 37.5% of his ATK and consumes 1 point of Charge. For every 3 point(s) of Charge consumed, Moze launches 1 Follow-Up ATK to \"Prey,\" dealing Lightning DMG equal to 200% of his ATK. When Charge reaches 0, dispels the target's \"Prey\" state and resets the tally of Charge points required to launch Follow-Up ATK. Talent's Follow-Up ATK does not consume Charge.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Nightfeather",
+                "type": "Major Trace",
+                "desc": "After using Talent's Follow-Up ATK, recovers 1 Skill Point(s). This effect can trigger again after 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_SkillTree1.webp"
+              },
+              {
+                "name": "Daggerhold",
+                "type": "Major Trace",
+                "desc": "When Moze dispels his Departed state, his action advances by 20%. At the start of each wave, Moze's action advances by 30%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_SkillTree2.webp"
+              },
+              {
+                "name": "Vengewise",
+                "type": "Major Trace",
+                "desc": "When dealing DMG by using Ultimate, it is considered as having launched a Follow-Up ATK. The Follow-Up ATK DMG taken by the \"Prey\" increases by 25%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Oathkeeper",
+                "type": "Eidolon 1",
+                "desc": "After entering battle, Moze regenerates 20 Energy. Each time the Additional DMG from his Talent is triggered, Moze regenerates 2 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_Rank1.webp"
+              },
+              {
+                "name": "Wrathbearer",
+                "type": "Eidolon 2",
+                "desc": "When all allies deal DMG to the enemy target marked as \"Prey,\" increases CRIT DMG by 40%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_Rank2.webp"
+              },
+              {
+                "name": "Deathchaser",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_Ultra.webp"
+              },
+              {
+                "name": "Heathprowler",
+                "type": "Eidolon 4",
+                "desc": "When using Ultimate, increases the DMG dealt by Moze by 30%, lasting for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_Rank4.webp"
+              },
+              {
+                "name": "Truthbender",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_BP.webp"
+              },
+              {
+                "name": "Faithbinder",
+                "type": "Eidolon 6",
+                "desc": "Increases the DMG multiplier of the Talent's Follow-Up ATK by 25%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -79487,7 +88395,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "Swordplay",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21010.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21010.webp",
+          "path": "Hunt",
+          "items": [
+            {
+              "id": "110121",
+              "name": "Arrow of the Beast Hunter",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110121.webp"
+            },
+            {
+              "id": "110122",
+              "name": "Arrow of the Demon Slayer",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110122.webp"
+            },
+            {
+              "id": "110123",
+              "name": "Arrow of the Starchaser",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110123.webp"
+            },
+            {
+              "id": "111001",
+              "name": "Extinguished Core",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111001.webp"
+            },
+            {
+              "id": "111002",
+              "name": "Glimmering Core",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111002.webp"
+            },
+            {
+              "id": "111003",
+              "name": "Squirming Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111003.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -79516,6 +88481,26 @@
       "holidayArtPool": [
         "../../Database/HsrWiki/holiday-art/natasha/01-Lantern Festival 2023.png"
       ],
+      "signatureLightCone": {
+        "id": "21000",
+        "name": "Post-Op Conversation",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21000.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21000.webp",
+        "path": "Abundance"
+      },
+      "signatureWeapon": {
+        "id": "21000",
+        "name": "Post-Op Conversation",
+        "path": "Abundance",
+        "type": "Abundance",
+        "educated": false
+      },
+      "signatureWeaponId": "21000",
+      "signatureWeaponName": "Post-Op Conversation",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21000.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21000.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -79527,6 +88512,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Behind the Kindness",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 140% of Natasha's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_Normal.webp"
+              },
+              {
+                "name": "Love, Heal, and Choose",
+                "type": "Skill",
+                "desc": "Restores a single ally for 12.3% of Natasha's Max HP plus 359. Restores the ally for another 8.4% of Natasha's Max HP plus 246 at the beginning of each turn for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_BP.webp"
+              },
+              {
+                "name": "Gift of Rebirth",
+                "type": "Ultimate",
+                "desc": "Heals all allies for 16.1% of Natasha's Max HP plus 472.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_Ultra.webp"
+              },
+              {
+                "name": "Hypnosis Research",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. After entering battle, deals Physical DMG equal to 80% of Natasha's ATK to a random enemy, with a 100% base chance to Weaken all enemies.\\nWhile Weakened, enemies deal 30% less DMG to allies for 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Innervation",
+                "type": "Talent",
+                "desc": "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by 62.5%. This effect also works on continuous healing.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Soothe",
+                "type": "Major Trace",
+                "desc": "When using Skill, dispels 1 debuff(s) from one designated ally.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_SkillTree1.webp"
+              },
+              {
+                "name": "Healer",
+                "type": "Major Trace",
+                "desc": "Natasha's Outgoing Healing increases by 10%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_SkillTree2.webp"
+              },
+              {
+                "name": "Recuperation",
+                "type": "Major Trace",
+                "desc": "Increases the duration of Skill's continuous healing effect for 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Pharmacology Expertise",
+                "type": "Eidolon 1",
+                "desc": "After being attacked, if the current HP percentage is 30% or lower, heals self for 1 time to restore HP by an amount equal to 15% of Max HP plus 400. This effect can only be triggered 1 time per battle.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_Rank1.webp"
+              },
+              {
+                "name": "Clinical Research",
+                "type": "Eidolon 2",
+                "desc": "When Natasha uses her Ultimate, grant continuous healing for 1 turn(s) to allies whose HP percentage is at 30% or lower. And at the beginning of their turn, their HP is restored by an amount equal to 6% of Natasha's Max HP plus 160.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_Rank2.webp"
+              },
+              {
+                "name": "The Right Cure",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_BP.webp"
+              },
+              {
+                "name": "Miracle Cure",
+                "type": "Eidolon 4",
+                "desc": "After being attacked, regenerates 5 extra Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_Rank4.webp"
+              },
+              {
+                "name": "Preventive Treatment",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_Ultra.webp"
+              },
+              {
+                "name": "Doctor's Grace",
+                "type": "Eidolon 6",
+                "desc": "Natasha's Basic ATK additionally deals Physical DMG equal to 40% of her Max HP.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -80403,7 +89499,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "Post-Op Conversation",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21000.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21000.webp",
+          "path": "Abundance",
+          "items": [
+            {
+              "id": "110171",
+              "name": "Seed of Abundance",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110171.webp"
+            },
+            {
+              "id": "110172",
+              "name": "Sprout of Life",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110172.webp"
+            },
+            {
+              "id": "110173",
+              "name": "Flower of Eternity",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110173.webp"
+            },
+            {
+              "id": "111001",
+              "name": "Extinguished Core",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111001.webp"
+            },
+            {
+              "id": "111002",
+              "name": "Glimmering Core",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111002.webp"
+            },
+            {
+              "id": "111003",
+              "name": "Squirming Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111003.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -80432,6 +89585,26 @@
       "holidayArtPool": [
         "../../Database/HsrWiki/holiday-art/pela/01-Halloween 2023.png"
       ],
+      "signatureLightCone": {
+        "id": "21015",
+        "name": "Resolution Shines As Pearls of Sweat",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21015.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21015.webp",
+        "path": "Nihility"
+      },
+      "signatureWeapon": {
+        "id": "21015",
+        "name": "Resolution Shines As Pearls of Sweat",
+        "path": "Nihility",
+        "type": "Nihility",
+        "educated": false
+      },
+      "signatureWeaponId": "21015",
+      "signatureWeaponName": "Resolution Shines As Pearls of Sweat",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21015.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21015.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -80443,6 +89616,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Frost Shot",
+                "type": "Basic ATK",
+                "desc": "Deals Ice DMG equal to 140% of Pela's ATK to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_Normal.webp"
+              },
+              {
+                "name": "Frostbite",
+                "type": "Skill",
+                "desc": "Removes 1 buff(s) and deals Ice DMG equal to 263% of Pela's ATK to one designated target enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_BP.webp"
+              },
+              {
+                "name": "Zone Suppression",
+                "type": "Ultimate",
+                "desc": "Deals Ice DMG equal to 120% of Pela's ATK to all enemies, with a 100% base chance to inflict Exposed on all enemies.\\nWhen Exposed, enemies' DEF is reduced by 45% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_Ultra.webp"
+              },
+              {
+                "name": "Preemptive Strike",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to 80% of her ATK to a random enemy, with a 100% base chance of lowering the DEF of all enemies by 20% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Data Collecting",
+                "type": "Talent",
+                "desc": "If the enemy is debuffed after Pela's attack, Pela will restore 12.5 additional Energy. This effect can only be triggered 1 time per attack.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Bash",
+                "type": "Major Trace",
+                "desc": "Deals 20% more DMG to debuffed enemy targets.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_SkillTree1.webp"
+              },
+              {
+                "name": "The Secret Strategy",
+                "type": "Major Trace",
+                "desc": "When Pela is on the battlefield, all allies' Effect Hit Rate increases by 10%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_SkillTree2.webp"
+              },
+              {
+                "name": "Wipe Out",
+                "type": "Major Trace",
+                "desc": "When using Skill to dispel buff(s), increases the DMG dealt by the next attack by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Victory Report",
+                "type": "Eidolon 1",
+                "desc": "When an enemy is defeated, Pela regenerates 5 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_Rank1.webp"
+              },
+              {
+                "name": "Adamant Charge",
+                "type": "Eidolon 2",
+                "desc": "Using Skill to dispel buff(s) increases SPD by 10% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_Rank2.webp"
+              },
+              {
+                "name": "Suppressive Force",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_BP.webp"
+              },
+              {
+                "name": "Full Analysis",
+                "type": "Eidolon 4",
+                "desc": "When using Skill, there is a 100% base chance to reduce the target enemy's Ice RES by 12% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_Rank4.webp"
+              },
+              {
+                "name": "Absolute Jeopardy",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_Ultra.webp"
+              },
+              {
+                "name": "Feeble Pursuit",
+                "type": "Eidolon 6",
+                "desc": "After Pela attacks, if the enemy target is debuffed, deals Ice Additional DMG equal to 40% of Pela's ATK to the enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -81319,7 +90603,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "Resolution Shines As Pearls of Sweat",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21015.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21015.webp",
+          "path": "Nihility",
+          "items": [
+            {
+              "id": "110151",
+              "name": "Obsidian of Dread",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110151.webp"
+            },
+            {
+              "id": "110152",
+              "name": "Obsidian of Desolation",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110152.webp"
+            },
+            {
+              "id": "110153",
+              "name": "Obsidian of Obsession",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110153.webp"
+            },
+            {
+              "id": "113011",
+              "name": "Artifex's Module",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/113011.webp"
+            },
+            {
+              "id": "113012",
+              "name": "Artifex's Cogwheel",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/113012.webp"
+            },
+            {
+              "id": "113013",
+              "name": "Artifex's Gyreheart",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/113013.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -81349,6 +90690,26 @@
         "../../Database/HsrWiki/holiday-art/qingque/01-Valentine's Day 2023 Qingque.jpg",
         "../../Database/HsrWiki/holiday-art/qingque/02-Chinese New Year 2024.png"
       ],
+      "signatureLightCone": {
+        "id": "21034",
+        "name": "Today Is Another Peaceful Day",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21034.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21034.webp",
+        "path": "Erudition"
+      },
+      "signatureWeapon": {
+        "id": "21034",
+        "name": "Today Is Another Peaceful Day",
+        "path": "Erudition",
+        "type": "Erudition",
+        "educated": false
+      },
+      "signatureWeaponId": "21034",
+      "signatureWeaponName": "Today Is Another Peaceful Day",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21034.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21034.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -81360,6 +90721,123 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Flower Pick",
+                "type": "Basic ATK",
+                "desc": "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to 140% of Qingque's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_Normal.webp"
+              },
+              {
+                "name": "Cherry on Top!",
+                "type": "Basic ATK",
+                "desc": "Deals Quantum DMG equal to 336% of Qingque's ATK to one designated enemy, and deals Quantum DMG equal to 140% of Qingque's ATK to enemies adjacent to it.\\n\"Cherry on Top!\" cannot recover Skill Points.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_Normal.webp"
+              },
+              {
+                "name": "A Scoop of Moon",
+                "type": "Skill",
+                "desc": "Immediately draws 2 jade tile(s) and increases DMG by 35% until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_BP.webp"
+              },
+              {
+                "name": "A Quartet? Woo-hoo!",
+                "type": "Ultimate",
+                "desc": "Deals Quantum DMG equal to 240% of Qingque's ATK to all enemies, and obtains 4 jade tiles of the same suit.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_Ultra.webp"
+              },
+              {
+                "name": "Game Solitaire",
+                "type": "Technique",
+                "desc": "After using Technique, Qingque draws 2 jade tile(s) when the battle starts.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Celestial Jade",
+                "type": "Talent",
+                "desc": "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by 90%, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Tile Battle",
+                "type": "Major Trace",
+                "desc": "Restores 1 Skill Point when using the Skill. This effect can only be triggered 1 time per battle.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_SkillTree1.webp"
+              },
+              {
+                "name": "Bide Time",
+                "type": "Major Trace",
+                "desc": "Using the Skill increases DMG Boost effect of attacks by an extra 10%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_SkillTree2.webp"
+              },
+              {
+                "name": "Winning Hand",
+                "type": "Major Trace",
+                "desc": "Qingque's SPD increases by 10% for 1 turn after using the Enhanced Basic ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Rise Through the Tiles",
+                "type": "Eidolon 1",
+                "desc": "Ultimate deals 10% more DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_Rank1.webp"
+              },
+              {
+                "name": "Sleep on the Tiles",
+                "type": "Eidolon 2",
+                "desc": "Every time Draw Tile is triggered, Qingque immediately regenerates 1 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_Rank2.webp"
+              },
+              {
+                "name": "Read Between the Tiles",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_Ultra.webp"
+              },
+              {
+                "name": "Right on the Tiles",
+                "type": "Eidolon 4",
+                "desc": "After using Skill, there is a 24% fixed chance to gain \"Self-Sufficer,\" lasting until the end of the current turn. \\nWhile \"Self-Sufficer\" is active, using Basic ATK or Enhanced Basic ATK immediately launches 1 Follow-Up ATK on the same target, dealing Quantum DMG equal to 100% of Basic ATK DMG or Enhanced Basic ATK DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_Rank4.webp"
+              },
+              {
+                "name": "Gambit for the Tiles",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_BP.webp"
+              },
+              {
+                "name": "Prevail Beyond the Tiles",
+                "type": "Eidolon 6",
+                "desc": "Recovers 1 Skill Point after using Enhanced Basic ATK.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -82236,7 +91714,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "Today Is Another Peaceful Day",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21034.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21034.webp",
+          "path": "Erudition",
+          "items": [
+            {
+              "id": "110131",
+              "name": "Key of Inspiration",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110131.webp"
+            },
+            {
+              "id": "110132",
+              "name": "Key of Knowledge",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110132.webp"
+            },
+            {
+              "id": "110133",
+              "name": "Key of Wisdom",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110133.webp"
+            },
+            {
+              "id": "113001",
+              "name": "Immortal Scionette",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/113001.webp"
+            },
+            {
+              "id": "113002",
+              "name": "Immortal Aeroblossom",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/113002.webp"
+            },
+            {
+              "id": "113003",
+              "name": "Immortal Lumintwig",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/113003.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -82266,6 +91801,26 @@
         "../../Database/HsrWiki/holiday-art/sampo/01-Halloween 2022.png",
         "../../Database/HsrWiki/holiday-art/sampo/02-Halloween 2023.png"
       ],
+      "signatureLightCone": {
+        "id": "21008",
+        "name": "Eyes of the Prey",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21008.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21008.webp",
+        "path": "Nihility"
+      },
+      "signatureWeapon": {
+        "id": "21008",
+        "name": "Eyes of the Prey",
+        "path": "Nihility",
+        "type": "Nihility",
+        "educated": false
+      },
+      "signatureWeaponId": "21008",
+      "signatureWeaponName": "Eyes of the Prey",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21008.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21008.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -82277,6 +91832,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Dazzling Blades",
+                "type": "Basic ATK",
+                "desc": "Deals Wind DMG equal to 140% of Sampo's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_Normal.webp"
+              },
+              {
+                "name": "Ricochet Love",
+                "type": "Skill",
+                "desc": "Deals Wind DMG equal to 70% of Sampo's ATK to one designated enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to 70% of Sampo's ATK to a random enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_BP.webp"
+              },
+              {
+                "name": "Surprise Present",
+                "type": "Ultimate",
+                "desc": "Deals Wind DMG equal to 192% of Sampo's ATK to all enemies, with a 100% base chance to increase the targets' DoT taken by 35% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_Ultra.webp"
+              },
+              {
+                "name": "Shining Bright",
+                "type": "Technique",
+                "desc": "After Sampo uses his Technique, enemies in a set area are afflicted with Blind for 10 second(s). Blinded enemies cannot detect ally targets.\\nWhen initiating combat against a Blinded enemy, there is a 100% fixed chance to delay all enemies' action by 25%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Windtorn Dagger",
+                "type": "Talent",
+                "desc": "Sampo's attacks have a 65% base chance to inflict Wind Shear for 3 turn(s).\\nEnemies inflicted with Wind Shear will take Wind DoT equal to 65% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Trap",
+                "type": "Major Trace",
+                "desc": "Extends the duration of Wind Shear caused by Talent by 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_SkillTree1.webp"
+              },
+              {
+                "name": "Defensive Position",
+                "type": "Major Trace",
+                "desc": "Using Ultimate additionally regenerates 10 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_SkillTree2.webp"
+              },
+              {
+                "name": "Spice Up",
+                "type": "Major Trace",
+                "desc": "Enemies with Wind Shear effect deal 15% less DMG to Sampo.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Rising Love",
+                "type": "Eidolon 1",
+                "desc": "When using Skill, deals DMG for 1 extra time(s) to a random enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_Rank1.webp"
+              },
+              {
+                "name": "Infectious Enthusiasm",
+                "type": "Eidolon 2",
+                "desc": "Defeating an enemy afflicted with Wind Shear has a 100% base chance to inflict all enemies with 1 stack(s) of Wind Shear, equivalent to that of Skill.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_Rank2.webp"
+              },
+              {
+                "name": "Big Money!",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_BP.webp"
+              },
+              {
+                "name": "The Deeper the Love, the Stronger the Hate",
+                "type": "Eidolon 4",
+                "desc": "When Skill hits an enemy with 5 or more stack(s) of Wind Shear, the enemy immediately takes 8% of current Wind Shear DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_Rank4.webp"
+              },
+              {
+                "name": "Huuuuge Money!",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_Ultra.webp"
+              },
+              {
+                "name": "Increased Spending",
+                "type": "Eidolon 6",
+                "desc": "Talent's Wind Shear DMG multiplier increases by 15%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -83153,7 +92819,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "Eyes of the Prey",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21008.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21008.webp",
+          "path": "Nihility",
+          "items": [
+            {
+              "id": "110151",
+              "name": "Obsidian of Dread",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110151.webp"
+            },
+            {
+              "id": "110152",
+              "name": "Obsidian of Desolation",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110152.webp"
+            },
+            {
+              "id": "110153",
+              "name": "Obsidian of Obsession",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110153.webp"
+            },
+            {
+              "id": "112011",
+              "name": "Ancient Part",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/112011.webp"
+            },
+            {
+              "id": "112012",
+              "name": "Ancient Spindle",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/112012.webp"
+            },
+            {
+              "id": "112013",
+              "name": "Ancient Engine",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/112013.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -83182,6 +92905,26 @@
       "holidayArtPool": [
         "../../Database/HsrWiki/holiday-art/serval/01-Valentine's Day 2023 Serval.jpg"
       ],
+      "signatureLightCone": {
+        "id": "21013",
+        "name": "Make the World Clamor",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21013.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21013.webp",
+        "path": "Erudition"
+      },
+      "signatureWeapon": {
+        "id": "21013",
+        "name": "Make the World Clamor",
+        "path": "Erudition",
+        "type": "Erudition",
+        "educated": false
+      },
+      "signatureWeaponId": "21013",
+      "signatureWeaponName": "Make the World Clamor",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21013.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21013.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -83193,6 +92936,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Roaring Thunderclap",
+                "type": "Basic ATK",
+                "desc": "Deals Lightning DMG equal to 140% of Serval's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_Normal.webp"
+              },
+              {
+                "name": "Lightning Flash",
+                "type": "Skill",
+                "desc": "Deals Lightning DMG equal to 175% of Serval's ATK to one designated enemy and Lightning DMG equal to 75% of Serval's ATK to enemies adjacent to it, with a 80% base chance for enemies hit to become Shocked for 2 turn(s).\\nWhile Shocked, enemies take Lightning DoT equal to 130% of Serval's ATK at the beginning of each turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_BP.webp"
+              },
+              {
+                "name": "Here Comes the Mechanical Fever",
+                "type": "Ultimate",
+                "desc": "Deals Lightning DMG equal to 216% of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_Ultra.webp"
+              },
+              {
+                "name": "Good Night, Belobog",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 50% of Serval's ATK to a random enemy, with a 100% base chance for all enemies to become Shocked for 3 turn(s).\\nWhile Shocked, enemies will take Lightning DoT equal to 50% of Serval's ATK at the beginning of each turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Galvanic Chords",
+                "type": "Talent",
+                "desc": "After Serval attacks, deals Lightning Additional DMG equal to 90% of Serval's ATK to all Shocked enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Rock 'n' Roll",
+                "type": "Major Trace",
+                "desc": "When using skill, increases the base chance for the attacked enemy target to become Shocked by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_SkillTree1.webp"
+              },
+              {
+                "name": "String Vibration",
+                "type": "Major Trace",
+                "desc": "At the start of the battle, immediately regenerates 15 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_SkillTree2.webp"
+              },
+              {
+                "name": "Mania",
+                "type": "Major Trace",
+                "desc": "Upon defeating an enemy, ATK is increased by 20% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Echo Chamber",
+                "type": "Eidolon 1",
+                "desc": "Basic ATK deals Lightning DMG equal to 60% of Basic ATK DMG to a random target adjacent to the target enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_Rank1.webp"
+              },
+              {
+                "name": "Encore!",
+                "type": "Eidolon 2",
+                "desc": "Every time Serval's Talent is triggered to deal Additional DMG, she regenerates 4 Energy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_Rank2.webp"
+              },
+              {
+                "name": "Listen, the Heartbeat of the Gears",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_BP.webp"
+              },
+              {
+                "name": "Make Some Noise!",
+                "type": "Eidolon 4",
+                "desc": "Ultimate has a 100% base chance to apply Shock to any enemies not currently Shocked. This Shock has the same effects as the one applied by Skill.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_Rank4.webp"
+              },
+              {
+                "name": "Belobog's Loudest Roar!",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_Ultra.webp"
+              },
+              {
+                "name": "This Song Rocks to Heaven!",
+                "type": "Eidolon 6",
+                "desc": "Serval deals 30% more DMG to Shocked enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -84069,7 +93923,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "Make the World Clamor",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21013.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21013.webp",
+          "path": "Erudition",
+          "items": [
+            {
+              "id": "110131",
+              "name": "Key of Inspiration",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110131.webp"
+            },
+            {
+              "id": "110132",
+              "name": "Key of Knowledge",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110132.webp"
+            },
+            {
+              "id": "110133",
+              "name": "Key of Wisdom",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110133.webp"
+            },
+            {
+              "id": "112011",
+              "name": "Ancient Part",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/112011.webp"
+            },
+            {
+              "id": "112012",
+              "name": "Ancient Spindle",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/112012.webp"
+            },
+            {
+              "id": "112013",
+              "name": "Ancient Engine",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/112013.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -84099,6 +94010,26 @@
         "../../Database/HsrWiki/holiday-art/sushang/01-Chinese New Year 2023 Sushang.png",
         "../../Database/HsrWiki/holiday-art/sushang/02-Chinese New Year 2024.png"
       ],
+      "signatureLightCone": {
+        "id": "21010",
+        "name": "Swordplay",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21010.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21010.webp",
+        "path": "Hunt"
+      },
+      "signatureWeapon": {
+        "id": "21010",
+        "name": "Swordplay",
+        "path": "Hunt",
+        "type": "Hunt",
+        "educated": false
+      },
+      "signatureWeaponId": "21010",
+      "signatureWeaponName": "Swordplay",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21010.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21010.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -84110,6 +94041,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Cloudfencer Art: Starshine",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 140% of Sushang's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_Normal.webp"
+              },
+              {
+                "name": "Cloudfencer Art: Mountainfall",
+                "type": "Skill",
+                "desc": "Deals Physical DMG equal to 263% of Sushang's ATK to one designated enemy. In addition, there is a 33% chance to trigger \"Sword Stance\" on the final hit, dealing Physical Additional DMG equal to 125% of Sushang's ATK to the enemy.\\nIf the enemy is inflicted with Weakness Break, \"Sword Stance\" is guaranteed to trigger.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_BP.webp"
+              },
+              {
+                "name": "Shape of Taixu: Dawn Herald",
+                "type": "Ultimate",
+                "desc": "Deals Physical DMG equal to 384% of Sushang's ATK to one designated enemy target, and she immediately takes action. In addition, Sushang's ATK increases by 36% and using her Skill has 2 extra chances to trigger \"Sword Stance\" for 2 turn(s).\\n\"Sword Stance\" triggered from the extra chances deals 50% of the original DMG.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_Ultra.webp"
+              },
+              {
+                "name": "Cloudfencer Art: Warcry",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to 80% of her ATK to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Dancing Blade",
+                "type": "Talent",
+                "desc": "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by 22.5% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Guileless",
+                "type": "Major Trace",
+                "desc": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_SkillTree1.webp"
+              },
+              {
+                "name": "Riposte",
+                "type": "Major Trace",
+                "desc": "For every Sword Stance triggered, the DMG dealt by Sword Stance increases by 2.5%. Stacks up to 10 time(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_SkillTree2.webp"
+              },
+              {
+                "name": "Vanquisher",
+                "type": "Major Trace",
+                "desc": "After using Basic ATK or Skill, if there are enemies on the field that are Weakness Broken, Sushang's action advances by 15%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Cut With Ease",
+                "type": "Eidolon 1",
+                "desc": "After using Skill against a Weakness Broken enemy, regenerates 1 Skill Point.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_Rank1.webp"
+              },
+              {
+                "name": "Refine in Toil",
+                "type": "Eidolon 2",
+                "desc": "After Sword Stance is triggered, the DMG taken by Sushang is reduced by 20% for 1 turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_Rank2.webp"
+              },
+              {
+                "name": "Rise From Fame",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_Ultra.webp"
+              },
+              {
+                "name": "Cleave With Heart",
+                "type": "Eidolon 4",
+                "desc": "Sushang's Break Effect increases by 40%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_Rank4.webp"
+              },
+              {
+                "name": "Prevail via Taixu",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_BP.webp"
+              },
+              {
+                "name": "Dwell Like Water",
+                "type": "Eidolon 6",
+                "desc": "Talent's SPD Boost is stackable and can stack up to 2 times. Additionally, after entering battle, Sushang immediately gains 1 stack of her Talent's SPD Boost.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -84986,7 +95028,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "Swordplay",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21010.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21010.webp",
+          "path": "Hunt",
+          "items": [
+            {
+              "id": "110121",
+              "name": "Arrow of the Beast Hunter",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110121.webp"
+            },
+            {
+              "id": "110122",
+              "name": "Arrow of the Demon Slayer",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110122.webp"
+            },
+            {
+              "id": "110123",
+              "name": "Arrow of the Starchaser",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110123.webp"
+            },
+            {
+              "id": "111001",
+              "name": "Extinguished Core",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111001.webp"
+            },
+            {
+              "id": "111002",
+              "name": "Glimmering Core",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111002.webp"
+            },
+            {
+              "id": "111003",
+              "name": "Squirming Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111003.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -85012,6 +95111,26 @@
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1202.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/tingyun-6b93ecc4e161.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/tingyun-1a50dd52f9a7.webp",
+      "signatureLightCone": {
+        "id": "21032",
+        "name": "Carve the Moon, Weave the Clouds",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21032.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21032.webp",
+        "path": "Harmony"
+      },
+      "signatureWeapon": {
+        "id": "21032",
+        "name": "Carve the Moon, Weave the Clouds",
+        "path": "Harmony",
+        "type": "Harmony",
+        "educated": false
+      },
+      "signatureWeaponId": "21032",
+      "signatureWeaponName": "Carve the Moon, Weave the Clouds",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21032.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21032.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -85023,6 +95142,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Dislodged",
+                "type": "Basic ATK",
+                "desc": "Tingyun deals Lightning DMG equal to 140% of her ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_Normal.webp"
+              },
+              {
+                "name": "Soothing Melody",
+                "type": "Skill",
+                "desc": "Grants a single ally with Benediction to increase their ATK by 62.5%, up to 30% of Tingyun's current ATK.\\nWhen the ally with Benediction attacks, they will deal Lightning Additional DMG equal to 50% of that ally's ATK for 1 time.\\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_BP.webp"
+              },
+              {
+                "name": "Amidst the Rejoicing Clouds",
+                "type": "Ultimate",
+                "desc": "Regenerates 50 Energy for a single ally and increases the target's DMG by 65% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_Ultra.webp"
+              },
+              {
+                "name": "Gentle Breeze",
+                "type": "Technique",
+                "desc": "Tingyun immediately regenerates 50 Energy upon using her Technique.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Violet Sparknado",
+                "type": "Talent",
+                "desc": "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Lightning Additional DMG equal to 75% of that ally's ATK to the same enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Nourished Joviality",
+                "type": "Major Trace",
+                "desc": "Tingyun's SPD increases by 20% for 1 turn after using Skill.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_SkillTree1.webp"
+              },
+              {
+                "name": "Knell Subdual",
+                "type": "Major Trace",
+                "desc": "DMG dealt by Basic ATK increases by 40%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_SkillTree2.webp"
+              },
+              {
+                "name": "Jubilant Passage",
+                "type": "Major Trace",
+                "desc": "Tingyun immediately regenerates 5 Energy at the start of her turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Windfall of Lucky Springs",
+                "type": "Eidolon 1",
+                "desc": "After using their Ultimate, the ally with Benediction gains a 20% increase in SPD for 1 turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_Rank1.webp"
+              },
+              {
+                "name": "Gainfully Gives, Givingly Gains",
+                "type": "Eidolon 2",
+                "desc": "The ally with Benediction regenerates 5 Energy after defeating an enemy. This effect can only be triggered once per turn.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_Rank2.webp"
+              },
+              {
+                "name": "Halcyon Bequest",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_Ultra.webp"
+              },
+              {
+                "name": "Jovial Versatility",
+                "type": "Eidolon 4",
+                "desc": "The DMG multiplier provided by Benediction increases by 20%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_Rank4.webp"
+              },
+              {
+                "name": "Sauntering Coquette",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_BP.webp"
+              },
+              {
+                "name": "Peace Brings Wealth to All",
+                "type": "Eidolon 6",
+                "desc": "Ultimate regenerates 10 more Energy for the target ally.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -85899,7 +96129,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "Carve the Moon, Weave the Clouds",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21032.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21032.webp",
+          "path": "Harmony",
+          "items": [
+            {
+              "id": "110161",
+              "name": "Harmonic Tune",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110161.webp"
+            },
+            {
+              "id": "110162",
+              "name": "Ancestral Hymn",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110162.webp"
+            },
+            {
+              "id": "110163",
+              "name": "Stellaris Symphony",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110163.webp"
+            },
+            {
+              "id": "111011",
+              "name": "Thief's Instinct",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111011.webp"
+            },
+            {
+              "id": "111012",
+              "name": "Usurper's Scheme",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111012.webp"
+            },
+            {
+              "id": "111013",
+              "name": "Conqueror's Will",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111013.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -85925,6 +96212,26 @@
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1214.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/xueyi-3ab3f97e181a.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/xueyi-89798f7f7acd.webp",
+      "signatureLightCone": {
+        "id": "21042",
+        "name": "Indelible Promise",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21042.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21042.webp",
+        "path": "Destruction"
+      },
+      "signatureWeapon": {
+        "id": "21042",
+        "name": "Indelible Promise",
+        "path": "Destruction",
+        "type": "Destruction",
+        "educated": false
+      },
+      "signatureWeaponId": "21042",
+      "signatureWeaponName": "Indelible Promise",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21042.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21042.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -85936,6 +96243,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Mara-Sunder Awl",
+                "type": "Basic ATK",
+                "desc": "Deals 140% of Xueyi's ATK as Quantum DMG to one designated enemy target.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_Normal.webp"
+              },
+              {
+                "name": "Iniquity Obliteration",
+                "type": "Skill",
+                "desc": "Deals Quantum DMG equal to 175% of Xueyi's ATK to one designated enemy, and Quantum DMG equal to 87.5% of Xueyi's ATK to any adjacent enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_BP.webp"
+              },
+              {
+                "name": "Divine Castigation",
+                "type": "Ultimate",
+                "desc": "Deals Quantum DMG equal to 300% of Xueyi's ATK to one designated enemy target. This attack ignores Weakness Types and reduces the enemy's Toughness. When the enemy's Weakness is Broken, the Quantum Weakness Break effect is triggered.\\nIn this attack, the more Toughness is reduced, the higher the DMG will be dealt, up to a max of 72% increase.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_Ultra.webp"
+              },
+              {
+                "name": "Summary Execution",
+                "type": "Technique",
+                "desc": "Immediately attacks the enemy. After entering combat, deals 80% of Xueyi's ATK as Quantum DMG to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Karmic Perpetuation",
+                "type": "Talent",
+                "desc": "When Xueyi reduces enemy Toughness with attacks, \"Karma\" will be stacked. The more Toughness is reduced, the more stacks of \"Karma\" are added, up to 8 stacks.\\nWhen Xueyi's teammates reduce enemy Toughness with attacks, Xueyi gains 1 stack(s) of \"Karma.\"\\nWhen \"Karma\" reaches the max number of stacks, consumes all current \"Karma\" stacks and immediately launches Follow-Up ATK against an enemy target, dealing DMG for 3 times, with each time dealing Quantum DMG equal to 113% of Xueyi's ATK to a single random enemy. This Follow-Up ATK will not add \"Karma\" stacks.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Clairvoyant Loom",
+                "type": "Major Trace",
+                "desc": "Increases DMG dealt by this unit by an amount equal to 100% of Break Effect, up to a maximum DMG increase of 240%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_SkillTree1.webp"
+              },
+              {
+                "name": "Intrepid Rollerbearings",
+                "type": "Major Trace",
+                "desc": "If the enemy target's Toughness is equal to or higher than 50% of their Max Toughness, deals 10% more DMG when using Ultimate.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_SkillTree2.webp"
+              },
+              {
+                "name": "Perspicacious Mainframe",
+                "type": "Major Trace",
+                "desc": "Xueyi will keep a tally of the number of Karma stacks that exceed the max stack limit, up to 6 stacks in the tally. After Xueyi's Talent is triggered, she will gain a corresponding number of tallied Karma stacks.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Dvesha, Inhibited",
+                "type": "Eidolon 1",
+                "desc": "Increases the DMG dealt by the Talent's Follow-Up ATK by 40%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_Rank1.webp"
+              },
+              {
+                "name": "Klesha, Breached",
+                "type": "Eidolon 2",
+                "desc": "Talent's Follow-Up ATK Reduces enemy Toughness regardless of Weakness types. At the same time, restores Xueyi's HP by an amount equal to 5% of her Max HP. When breaking Weakness, triggers the Quantum Break Effect.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_Rank2.webp"
+              },
+              {
+                "name": "Du\u1e25kha, Ceased",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_BP.webp"
+              },
+              {
+                "name": "Karma, Severed",
+                "type": "Eidolon 4",
+                "desc": "When using Ultimate, increases Break Effect by 40% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_Rank4.webp"
+              },
+              {
+                "name": "Deva, Enthralled",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_Ultra.webp"
+              },
+              {
+                "name": "Sa\u1e43s\u0101ra, Mastered",
+                "type": "Eidolon 6",
+                "desc": "The max stack limit for Karma decreases to 6.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -86812,7 +97230,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "Indelible Promise",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21042.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21042.webp",
+          "path": "Destruction",
+          "items": [
+            {
+              "id": "110181",
+              "name": "Borisin Teeth",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110181.webp"
+            },
+            {
+              "id": "110182",
+              "name": "Lupitoxin Sawteeth",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110182.webp"
+            },
+            {
+              "id": "110183",
+              "name": "Moon Rage Fang",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110183.webp"
+            },
+            {
+              "id": "114001",
+              "name": "Dream Collection Component",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/114001.webp"
+            },
+            {
+              "id": "114002",
+              "name": "Dream Flow Valve",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/114002.webp"
+            },
+            {
+              "id": "114003",
+              "name": "Dream Making Engine",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/114003.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     },
     {
@@ -86841,6 +97316,26 @@
       "holidayArtPool": [
         "../../Database/HsrWiki/holiday-art/yukong/01-Lantern Festival 2026.png"
       ],
+      "signatureLightCone": {
+        "id": "21025",
+        "name": "Past and Future",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21025.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21025.webp",
+        "path": "Harmony"
+      },
+      "signatureWeapon": {
+        "id": "21025",
+        "name": "Past and Future",
+        "path": "Harmony",
+        "type": "Harmony",
+        "educated": false
+      },
+      "signatureWeaponId": "21025",
+      "signatureWeaponName": "Past and Future",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21025.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/21025.webp"
+      ],
       "status": "live",
       "labels": [],
       "r": 4,
@@ -86852,6 +97347,117 @@
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_Ultra.webp",
         "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_Passive.webp"
       ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Arrowslinger",
+                "type": "Basic ATK",
+                "desc": "Deals 140% of Yukong's ATK as Imaginary DMG to a target enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_Normal.webp"
+              },
+              {
+                "name": "Emboldening Salvo",
+                "type": "Skill",
+                "desc": "Obtains 2 stack(s) of \"Roaring Bowstrings\" (to a maximum of 2 stacks). When \"Roaring Bowstrings\" is active, the ATK of all allies increases by 100%, and every time an ally's turn (including Yukong's) ends, Yukong loses 1 stack of \"Roaring Bowstrings.\"\\nWhen it's the turn where Yukong gains \"Roaring Bowstrings\" by using Skill, \"Roaring Bowstrings\" will not be removed.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_BP.webp"
+              },
+              {
+                "name": "Diving Kestrel",
+                "type": "Ultimate",
+                "desc": "If \"Roaring Bowstrings\" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by 31.5% and CRIT DMG by 78%. At the same time, deals Imaginary DMG equal to 456% of Yukong's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_Ultra.webp"
+              },
+              {
+                "name": "Windchaser",
+                "type": "Technique",
+                "desc": "After using her Technique, Yukong enters Sprint mode for 20 seconds. In Sprint mode, her movement speed increases by 35%, and Yukong gains 2 stack(s) of \"Roaring Bowstrings\" when she enters combat by attacking enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "MazeAttack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Seven Layers, One Arrow",
+                "type": "Talent",
+                "desc": "Basic ATK additionally deals Imaginary DMG equal to 100% of Yukong's ATK, and increases the Toughness Reduction of this attack by 100%. This effect can be triggered again after 1 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_Passive.webp"
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Archerion",
+                "type": "Major Trace",
+                "desc": "Yukong can resist 1 debuff application for 1 time. This effect can be triggered again after 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_SkillTree1.webp"
+              },
+              {
+                "name": "Bowmaster",
+                "type": "Major Trace",
+                "desc": "When Yukong is on the field, Imaginary DMG dealt by all allies increases by 12%.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_SkillTree2.webp"
+              },
+              {
+                "name": "Majestas",
+                "type": "Major Trace",
+                "desc": "When \"Roaring Bowstrings\" is active, Yukong regenerates 2 additional Energy every time an ally takes action.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Aerial Marshal",
+                "type": "Eidolon 1",
+                "desc": "At the start of battle, increases the SPD of all allies by 10% for 2 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_Rank1.webp"
+              },
+              {
+                "name": "Skyward Command",
+                "type": "Eidolon 2",
+                "desc": "When any ally's current energy is equal to its energy limit, Yukong regenerates an additional 5 energy. This effect can only be triggered once for each ally. The trigger count is reset after Yukong uses her Ultimate.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_Rank2.webp"
+              },
+              {
+                "name": "Torrential Fusillade",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_BP.webp"
+              },
+              {
+                "name": "Zephyrean Echoes",
+                "type": "Eidolon 4",
+                "desc": "When \"Roaring Bowstrings\" is active, Yukong deals 30% more DMG to enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_Rank4.webp"
+              },
+              {
+                "name": "August Deadshot",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_Ultra.webp"
+              },
+              {
+                "name": "Bowstring Thunderclap",
+                "type": "Eidolon 6",
+                "desc": "When Yukong uses her Ultimate, she immediately gains 1 stack(s) of \"Roaring Bowstrings.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
         "ascension": [
           {
@@ -87728,7 +98334,64 @@
         "talentBaseCost": 642000,
         "ascCost": 246400,
         "talentCost": 2400000,
-        "currency": 2646400
+        "currency": 2954400,
+        "weapon": {
+          "name": "Past and Future",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/21025.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/21025.webp",
+          "path": "Harmony",
+          "items": [
+            {
+              "id": "110161",
+              "name": "Harmonic Tune",
+              "qty": 3,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110161.webp"
+            },
+            {
+              "id": "110162",
+              "name": "Ancestral Hymn",
+              "qty": 9,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110162.webp"
+            },
+            {
+              "id": "110163",
+              "name": "Stellaris Symphony",
+              "qty": 12,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110163.webp"
+            },
+            {
+              "id": "111001",
+              "name": "Extinguished Core",
+              "qty": 15,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111001.webp"
+            },
+            {
+              "id": "111002",
+              "name": "Glimmering Core",
+              "qty": 15,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111002.webp"
+            },
+            {
+              "id": "111003",
+              "name": "Squirming Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/111003.webp"
+            }
+          ],
+          "cost": 308000
+        }
       }
     }
   ],

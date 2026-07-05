@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-04T22:44:29.414Z",
+  "generatedAt": "2026-07-05T12:31:52.858Z",
   "codes": {
-    "updated": "2026-07-04T19:50:01.616Z",
+    "updated": "2026-07-05T10:50:23.678Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -19,7 +19,7 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-20T23:42:46.446Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
@@ -62,7 +62,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-06-12",
-          "firstSeen": "2026-07-04T19:49:39.977Z",
+          "firstSeen": "2026-07-05T10:49:59.746Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L"
         }
@@ -77,7 +77,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-13T20:18:18.521Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -91,7 +91,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-07-04T19:50:01.616Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
@@ -105,7 +105,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -119,7 +119,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -133,7 +133,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -147,7 +147,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -161,7 +161,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
@@ -191,7 +191,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-20T23:42:44.037Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -251,20 +251,6 @@ var NYX_DB = {
           "firstSeen": "2026-06-13T20:18:20.166Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
-        },
-        {
-          "code": "BEYONDTHECLOUDS",
-          "reward": "300 Polychromes, 30k Dennies, Two Senior Investigation Logs, and Three W Engine Energy Modules",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-06-06",
-          "firstSeen": "2026-07-02T11:40:20.504Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=BEYONDTHECLOUDS",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=BEYONDTHECLOUDS"
         }
       ],
       "wuwa": [],
@@ -325,16 +311,17 @@ var NYX_DB = {
   },
   "banners": {
     "updated": "2026-07-04T19:35:34.218Z",
-    "checkedAt": "2026-07-04T19:35:34.218Z",
+    "checkedAt": "2026-07-05T09:22:02.115Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T19:35:34.218Z",
+          "checkedAt": "2026-07-05T09:22:02.115Z",
           "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
           "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "4.3",
@@ -394,10 +381,11 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T19:35:34.218Z",
+          "checkedAt": "2026-07-05T09:22:02.115Z",
           "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
           "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "6.7 Phase 1",
@@ -448,10 +436,11 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T19:35:34.218Z",
+          "checkedAt": "2026-07-05T09:22:02.115Z",
           "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
           "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -636,10 +625,11 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T19:35:34.218Z",
+          "checkedAt": "2026-07-05T09:22:02.115Z",
           "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
           "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -699,10 +689,11 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T19:35:34.218Z",
+          "checkedAt": "2026-07-05T09:22:02.115Z",
           "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
           "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "1.3 Phase 2",
@@ -4403,7 +4394,7 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-20T23:42:46.446Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
@@ -4446,7 +4437,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-06-12",
-          "firstSeen": "2026-07-04T19:49:39.977Z",
+          "firstSeen": "2026-07-05T10:49:59.746Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L"
         }
@@ -4455,10 +4446,11 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T19:35:34.218Z",
+          "checkedAt": "2026-07-05T09:22:02.115Z",
           "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
           "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "6.7 Phase 1",
@@ -4506,7 +4498,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-04T18:10:31.862Z",
+        "updated": "2026-07-05T09:37:14.602Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -114684,7 +114676,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-13T20:18:18.521Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -114698,7 +114690,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-07-04T19:50:01.616Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
@@ -114712,7 +114704,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -114726,7 +114718,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -114740,7 +114732,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -114754,7 +114746,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -114768,7 +114760,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
@@ -114792,10 +114784,11 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T19:35:34.218Z",
+          "checkedAt": "2026-07-05T09:22:02.115Z",
           "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
           "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "4.3",
@@ -115930,6 +115923,10 @@ var NYX_DB = {
           "role": "Destruction",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1008.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/arlan-f5ff2658fe9e.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21012.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21012.webp"
+          ],
           "forms": []
         },
         {
@@ -115941,6 +115938,10 @@ var NYX_DB = {
           "role": "Harmony",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1009.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/asta-6b116c87f39d.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21032.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21032.webp"
+          ],
           "forms": []
         },
         {
@@ -115953,6 +115954,10 @@ var NYX_DB = {
           "role": "Hunt",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1002.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/dan-heng-2af74fc9cd45.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/24001.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/24001.webp"
+          ],
           "forms": []
         },
         {
@@ -115965,6 +115970,10 @@ var NYX_DB = {
           "role": "Abundance",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1301.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/gallagher-3b2d2ab7dcb6.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21035.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21035.webp"
+          ],
           "forms": []
         },
         {
@@ -115976,6 +115985,10 @@ var NYX_DB = {
           "role": "Nihility",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1210.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/guinaifen-ccfd0b05a9af.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21008.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21008.webp"
+          ],
           "forms": []
         },
         {
@@ -115988,6 +116001,10 @@ var NYX_DB = {
           "role": "Harmony",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1215.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/hanya-ef653980c8ac.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21011.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21011.webp"
+          ],
           "forms": []
         },
         {
@@ -115999,6 +116016,10 @@ var NYX_DB = {
           "role": "Erudition",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1013.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/herta-5eb921b823ca.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23000.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/23000.webp"
+          ],
           "forms": []
         },
         {
@@ -116010,6 +116031,10 @@ var NYX_DB = {
           "role": "Destruction",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1109.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/hook-c27c777b6337.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21005.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21005.webp"
+          ],
           "forms": []
         },
         {
@@ -116021,6 +116046,10 @@ var NYX_DB = {
           "role": "Nihility",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1111.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/luka-c408c18123ff.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21015.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21015.webp"
+          ],
           "forms": []
         },
         {
@@ -116032,6 +116061,10 @@ var NYX_DB = {
           "role": "Abundance",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1110.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/lynx-20fadae192d9.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21028.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21028.webp"
+          ],
           "forms": []
         },
         {
@@ -116043,6 +116076,10 @@ var NYX_DB = {
           "role": "Preservation",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1224.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/march-7th-b9b058e0b744.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23012.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/23012.webp"
+          ],
           "forms": []
         },
         {
@@ -116066,6 +116103,10 @@ var NYX_DB = {
           "role": "Destruction",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1312.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/misha-160cd1f54f79.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/24000.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/24000.webp"
+          ],
           "forms": []
         },
         {
@@ -116078,6 +116119,10 @@ var NYX_DB = {
           "role": "Hunt",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1223.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/moze-abf9d7bef1cb.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21010.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21010.webp"
+          ],
           "forms": []
         },
         {
@@ -116089,6 +116134,10 @@ var NYX_DB = {
           "role": "Abundance",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1105.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/natasha-85dfaeda1186.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21000.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21000.webp"
+          ],
           "forms": []
         },
         {
@@ -116100,6 +116149,10 @@ var NYX_DB = {
           "role": "Nihility",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1106.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/pela-3a94179844a2.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21015.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21015.webp"
+          ],
           "forms": []
         },
         {
@@ -116111,6 +116164,10 @@ var NYX_DB = {
           "role": "Erudition",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1201.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/qingque-fbd9d82bca58.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21034.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21034.webp"
+          ],
           "forms": []
         },
         {
@@ -116122,6 +116179,10 @@ var NYX_DB = {
           "role": "Nihility",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1108.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/sampo-4990c1afc41a.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21008.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21008.webp"
+          ],
           "forms": []
         },
         {
@@ -116133,6 +116194,10 @@ var NYX_DB = {
           "role": "Erudition",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1103.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/serval-e59543413d0c.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21013.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21013.webp"
+          ],
           "forms": []
         },
         {
@@ -116144,6 +116209,10 @@ var NYX_DB = {
           "role": "Hunt",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1206.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/sushang-1f3fcfa90040.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21010.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21010.webp"
+          ],
           "forms": []
         },
         {
@@ -116155,6 +116224,10 @@ var NYX_DB = {
           "role": "Harmony",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1202.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/tingyun-6b93ecc4e161.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21032.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21032.webp"
+          ],
           "forms": []
         },
         {
@@ -116166,6 +116239,10 @@ var NYX_DB = {
           "role": "Destruction",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1214.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/xueyi-3ab3f97e181a.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21042.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21042.webp"
+          ],
           "forms": []
         },
         {
@@ -116177,6 +116254,10 @@ var NYX_DB = {
           "role": "Harmony",
           "icon": "../../Database/Nanoka/hsr/assets/characters/round/1207.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/yukong-237e9805e9d7.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/21025.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/21025.webp"
+          ],
           "forms": []
         }
       ]
@@ -118385,7 +118466,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-04",
+          "added": "2026-07-05",
           "firstSeen": "2026-06-20T23:42:44.037Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -118445,30 +118526,17 @@ var NYX_DB = {
           "firstSeen": "2026-06-13T20:18:20.166Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
-        },
-        {
-          "code": "BEYONDTHECLOUDS",
-          "reward": "300 Polychromes, 30k Dennies, Two Senior Investigation Logs, and Three W Engine Energy Modules",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-06-06",
-          "firstSeen": "2026-07-02T11:40:20.504Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=BEYONDTHECLOUDS",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=BEYONDTHECLOUDS"
         }
       ],
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T19:35:34.218Z",
+          "checkedAt": "2026-07-05T09:22:02.115Z",
           "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
           "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -122736,10 +122804,11 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T19:35:34.218Z",
+          "checkedAt": "2026-07-05T09:22:02.115Z",
           "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
           "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -127125,10 +127194,11 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-04T19:35:34.218Z",
+          "checkedAt": "2026-07-05T09:22:02.115Z",
           "lastSuccessfulFetch": "2026-07-04T19:35:34.218Z",
           "lastValidUpdate": "2026-07-04T19:35:34.218Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "1.3 Phase 2",

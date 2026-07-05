@@ -2238,9 +2238,89 @@ function navKeyDown(fn){
   return (e) => { if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); fn(); } };
 }
 
+function BetaDataPanel({ gameKey }){
+  const [, setTick] = React.useState(0);
+  React.useEffect(() => {
+    let live = true;
+    const onBeta = (event) => {
+      if (!event.detail || event.detail.key === gameKey) setTick((v) => v + 1);
+    };
+    window.addEventListener('nyx:cm-beta-loaded', onBeta);
+    if (window.loadNyxCmGame) window.loadNyxCmGame(gameKey).then(() => { if (live) setTick((v) => v + 1); }).catch(() => {});
+    if (window.loadNyxCmBeta) window.loadNyxCmBeta(gameKey).then(() => { if (live) setTick((v) => v + 1); }).catch(() => {});
+    return () => { live = false; window.removeEventListener('nyx:cm-beta-loaded', onBeta); };
+  }, [gameKey]);
+
+  const pack = (window.CM_CFG_BETA || {})[gameKey] || null;
+  const liveCfg = (window.CM_CFG || {})[gameKey] || null;
+  const characters = (pack?.roster || []).slice().sort((a, b) => (a.betaStatus === 'new' ? 0 : 1) - (b.betaStatus === 'new' ? 0 : 1) || String(a.n || '').localeCompare(String(b.n || '')));
+  const weapons = (pack?.weapons || []).slice().sort((a, b) => String(a.name || '').localeCompare(String(b.name || '')));
+  const hasAny = characters.length || weapons.length;
+  return (
+    <main className="gp-main-pane fill beta-pane">
+      <div className="beta-pane-head">
+        <div>
+          <b>Beta</b>
+          <span>{[pack?.version ? `Version ${pack.version}` : '', pack?.liveVersion ? `Live ${pack.liveVersion}` : ''].filter(Boolean).join(' / ')}</span>
+        </div>
+        <em>{pack ? `${pack.newCount || 0} new / ${pack.changedCount || 0} changed` : ''}</em>
+      </div>
+      {characters.length > 0 && (
+        <section className="beta-section">
+          <div className="beta-section-title">Characters</div>
+          <div className="beta-grid">
+            {characters.map((ch) => (
+              <article className="beta-card" key={ch.id}>
+                {ch.icon && <img src={ch.icon} alt="" draggable="false" />}
+                <div><b>{ch.n}</b><span>{ch.betaStatus === 'new' ? 'New' : 'Changed'}{ch.reliableData === false ? ' / No reliable data' : ''}</span></div>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+      {weapons.length > 0 && (
+        <section className="beta-section">
+          <div className="beta-section-title">{gameKey === 'hsr' ? 'Light Cones' : 'Weapons'}</div>
+          <div className="beta-grid">
+            {weapons.map((weapon) => (
+              <article className="beta-card" key={weapon.id}>
+                {weapon.icon && <img src={weapon.icon} alt="" draggable="false" />}
+                <div><b>{weapon.name}</b><span>{weapon.type || weapon.weaponType || liveCfg?.tabs?.mid || 'Beta'}</span></div>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+      {!hasAny && <div className="db-empty">No beta datasets are available for this game right now.</div>}
+    </main>
+  );
+}
+
 function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, characterCustomize, setCharacterCustomize, materialSelection, setMaterialSelection, onSelectMaterialCharacter, onCloseMaterialCharacter }){
   const fns = cfg.fns || ['Character Materials','Database','Wish Tracker'];
+  const visibleFns = fns.filter((f) => !/^database$/i.test(f));
+  const [cmChannel, setCmChannel] = React.useState(() => (typeof cmLoadChannel === 'function' ? cmLoadChannel(cfg.key) : 'live'));
+  React.useEffect(() => {
+    setCmChannel(typeof cmLoadChannel === 'function' ? cmLoadChannel(cfg.key) : 'live');
+  }, [cfg.key]);
+  React.useEffect(() => {
+    const onChannel = (event) => {
+      const detail = event.detail || {};
+      if (detail.key === cfg.key && (detail.channel === 'live' || detail.channel === 'beta')) setCmChannel(detail.channel);
+    };
+    const onSettings = () => setCmChannel(typeof cmLoadChannel === 'function' ? cmLoadChannel(cfg.key) : 'live');
+    window.addEventListener('nyx:cm-channel-changed', onChannel);
+    window.addEventListener('nyx:settings-changed', onSettings);
+    return () => {
+      window.removeEventListener('nyx:cm-channel-changed', onChannel);
+      window.removeEventListener('nyx:settings-changed', onSettings);
+    };
+  }, [cfg.key]);
   const hasTcg = cfg.key === 'gi';
+  const betaActive = cfg.key !== 'ae' && typeof cmHasBeta === 'function' && cmHasBeta(cfg.key) && (cmChannel === 'beta' || window.NYX_ALWAYS_BETA === true);
+  React.useEffect(() => {
+    if (tab === 'beta' && !betaActive) setTab('mats');
+  }, [tab, betaActive, setTab]);
   const openCharacterCustomize = (payload) => {
     setCharacterCustomize(Object.assign({ game:cfg.key, restoreScroll:0 }, payload || {}));
     setTab('char-customize');
@@ -2255,7 +2335,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   };
   // G13: the section list the Character-Materials header icon-dropdown switches between.
   const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^character materials$/i.test(f) ? 'mats' : 'library';
-  const sections = [{ key:'overview', label:'Overview' }, ...fns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasTcg ? [{ key:'tcg', label:'TCG' }, { key:'pot', label:'Serenitea Pot' }] : []), { key:'settings', label:'Settings' }];
+  const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasTcg ? [{ key:'tcg', label:'TCG' }, { key:'pot', label:'Serenitea Pot' }] : []), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
       <nav className="gp-side-nav" aria-label="Tools">
@@ -2264,7 +2344,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
              onClick={() => setTab('overview')} onKeyDown={navKeyDown(() => setTab('overview'))}>
           <span className="dia" aria-hidden="true"></span><span>Overview</span>
         </div>
-        {fns.map(f => {
+        {visibleFns.map(f => {
           const isTracker = /tracker$/i.test(f);
           const isMats = /^character materials$/i.test(f);
           const key = isTracker ? 'tracker' : isMats ? 'mats' : 'library';
@@ -2288,6 +2368,13 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
                role="button" tabIndex={0} aria-current={tab === 'pot' ? 'page' : undefined}
                onClick={() => setTab('pot')} onKeyDown={navKeyDown(() => setTab('pot'))}>
             <span className="dia" aria-hidden="true"></span><span>Serenitea Pot</span><span className="go">{'\u203A'}</span>
+          </div>
+        )}
+        {betaActive && (
+          <div className={'gp-fn-row click' + (tab === 'beta' ? ' on' : '')}
+               role="button" tabIndex={0} aria-current={tab === 'beta' ? 'page' : undefined}
+               onClick={() => setTab('beta')} onKeyDown={navKeyDown(() => setTab('beta'))}>
+            <span className="dia" aria-hidden="true"></span><span>Beta</span><span className="go">{'\u203A'}</span>
           </div>
         )}
         <div className={'gp-fn-row click' + (tab === 'settings' ? ' on' : '')}
@@ -2355,6 +2442,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
           <GenshinPotView />
         </main>
       )}
+      {tab === 'beta' && betaActive && <BetaDataPanel gameKey={cfg.key} />}
       {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
 
       {tab === 'overview' && <OverviewAside cfg={cfg} />}
@@ -2414,6 +2502,7 @@ const GAME_TAB_TO_ROUTE = {
   tracker:'tracker',
   tcg:'tcg',
   pot:'serenitea-pot',
+  beta:'beta',
   settings:'settings',
 };
 const NYX_TAB_TO_ROUTE = {
@@ -2434,6 +2523,7 @@ const ROUTE_TO_GAME_TAB = {
   'serenitea-pot':'pot',
   pot:'pot',
   furniture:'pot',
+  beta:'beta',
   settings:'settings',
 };
 const ROUTE_TO_NYX_TAB = {
@@ -2512,7 +2602,7 @@ function routeTitleFor(key, tab, selection){
   const selectedName = selection && selection.game === key ? routeDisplayName(selection.name) : '';
   if (selectedName) return 'Nyx \u2014 ' + selectedName + ' \u2014 ' + name;
   if (key === 'nyx') return tab && tab !== 'overview' ? 'Nyx \u2014 ' + tab.replace(/\b\w/g, (c) => c.toUpperCase()) : 'Nyx';
-  const label = { mats:'Character Materials', library:'Library', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', settings:'Settings' }[tab] || '';
+  const label = { mats:'Character Materials', library:'Library', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', beta:'Beta', settings:'Settings' }[tab] || '';
   return label ? 'Nyx \u2014 ' + label + ' \u2014 ' + name : 'Nyx \u2014 ' + name;
 }
 
@@ -2523,8 +2613,8 @@ function keyFromLocation(){
 }
 
 function validTabsForKey(key){
-  if (key === 'gi') return ['overview','mats','char-customize','library','tracker','tcg','pot','settings'];
-  return key === 'nyx' ? ['overview','pulls','codes','banners','settings'] : ['overview','mats','char-customize','library','tracker','settings'];
+  if (key === 'gi') return ['overview','mats','char-customize','library','tracker','tcg','pot','beta','settings'];
+  return key === 'nyx' ? ['overview','pulls','codes','banners','settings'] : ['overview','mats','char-customize','library','tracker','beta','settings'];
 }
 
 function coerceTabForKey(key, wanted){

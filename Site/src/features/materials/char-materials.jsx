@@ -593,25 +593,7 @@ function cmRequirements(gameKey, ch, opts){
       currency: ascCost + talentCost + weaponCost,
     };
   }
-  const M = CM_MATS[gameKey] || CM_MATS.gi;
-  const ascension = [
-    { name:ch.el + ' ' + M.gem, qty:46, rar:5, kind:'gem' },
-    { name:M.boss, qty:46, rar:4, kind:'boss' },
-    { name:M.specialty, qty:168, rar:1, kind:'specialty' },
-    { name:M.mob[2], qty:36, rar:3, kind:'mob' },
-    { name:M.mob[1], qty:96, rar:2, kind:'mob' },
-    { name:M.mob[0], qty:18, rar:1, kind:'mob' },
-  ];
-  const talents = [
-    { name:M.book[2], qty:12, rar:4, kind:'book' },
-    { name:M.book[1], qty:21, rar:3, kind:'book' },
-    { name:M.book[0], qty:9,  rar:2, kind:'book' },
-    { name:M.mob[2], qty:18, rar:3, kind:'mob' },
-    { name:M.mob[1], qty:66, rar:2, kind:'mob' },
-    { name:M.weekly, qty:18, rar:5, kind:'weekly' },
-    { name:M.crown,  qty:3,  rar:5, kind:'crown' },
-  ];
-  return { ascension, talents };
+  return null;
 }
 
 function cmCurrencyMat(cfg, qty){
@@ -1718,6 +1700,16 @@ function CharacterImageControls({ gameKey, base, view, prefs, onPrefs }){
 function cmCharRelease(ch){
   return Number(ch && (ch.release || ch.updated || ch.sourceOrder)) || 0;
 }
+function cmIsUpcomingOnly(ch){
+  return !!(ch && (ch.upcoming || ch.noReliableInfo || ch.reliableData === false || (ch.status && ch.status !== 'live' && !ch.req && !ch.__beta)));
+}
+function cmRosterSort(a, b){
+  return (b.__betaNew ? 1 : 0) - (a.__betaNew ? 1 : 0)
+    || cmCharRelease(b) - cmCharRelease(a)
+    || String(b.sourceOrder || '').localeCompare(String(a.sourceOrder || ''))
+    || cmRarityValue(b.r) - cmRarityValue(a.r)
+    || String(a.n || '').localeCompare(String(b.n || ''));
+}
 function cmNewestChar(chars){
   let best = null;
   for (const ch of (chars || [])){
@@ -2004,8 +1996,50 @@ function CMCell({ ch, onClick, hideMode, hidden, onToggleHidden }){
       <CMAvatar ch={ch} />
       <span className="cn">{ch.n}</span>
       {ch.__betaNew && <span className="cm-beta-tag" title="Beta (latest) data — upcoming, not yet released">Beta</span>}
+      {cmIsUpcomingOnly(ch) && !ch.__betaNew && <span className="cm-beta-tag upcoming" title="Upcoming unit - currently no reliable material data">Upcoming</span>}
       {hideMode && <span className="hm">{hidden ? 'Hidden' : 'Hide'}</span>}
     </button>
+  );
+}
+
+function CharacterKitPanel({ kit, emptyText }){
+  const sections = (kit?.sections || []).filter((section) => (section?.entries || []).length);
+  if (!sections.length) return <div className="cm-empty">{emptyText || 'No character kit data available yet.'}</div>;
+  const versionParts = [
+    kit.source || 'Source',
+    kit.version ? `Version ${kit.version}` : '',
+    kit.channel ? `Channel ${kit.channel}` : '',
+  ].filter(Boolean);
+  return (
+    <div className="cm-kit-panel">
+      {versionParts.length > 0 && <div className="cm-kit-source">{versionParts.join(' / ')}</div>}
+      {sections.map((section, si) => (
+        <div className="cm-kit-section" key={section.title || si}>
+          <div className="cm-kit-section-title">{section.title || 'Kit'}</div>
+          <div className="cm-kit-list">
+            {(section.entries || []).map((entry, ei) => (
+              <article className="cm-kit-entry" key={(entry.name || 'entry') + ei}>
+                <div className="cm-kit-entry-head">
+                  {entry.icon && <img src={entry.icon} alt="" draggable="false" />}
+                  <div>
+                    {entry.type && <span>{entry.type}</span>}
+                    <b>{entry.name || 'Skill'}</b>
+                  </div>
+                </div>
+                {entry.desc && <p>{entry.desc}</p>}
+                {Array.isArray(entry.stats) && entry.stats.length > 0 && (
+                  <div className="cm-kit-stats">
+                    {entry.stats.map((stat, i) => (
+                      <span key={(stat.label || 'stat') + i}><b>{stat.label}</b><em>{stat.value}</em></span>
+                    ))}
+                  </div>
+                )}
+              </article>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
   );
 }
 
@@ -2092,6 +2126,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const [totalIncludeByChar, setTotalIncludeByChar] = React.useState(cmLoadTotalIncludePrefs);
   const [customizeOpen, setCustomizeOpen] = React.useState(false);
   const [ledgerRestoreScroll, setLedgerRestoreScroll] = React.useState(0);
+  const [detailTab, setDetailTab] = React.useState('materials');
   const [identityPrefs, setIdentityPrefs] = React.useState(cmLoadIdentityPrefs);
   const [unitPrefs, setUnitPrefs] = React.useState(cmLoadSpecialUnitPrefs);
   const [languagePrefs, setLanguagePrefs] = React.useState(cmLoadLanguagePrefs);
@@ -2120,6 +2155,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
     const pool = cmSpecialArtPool(gk, ch);
     const idx = pool.length > 1 ? (artCycleRef.current[key] || 0) : 0;
     setActiveArtIndex(idx);
+    setDetailTab('materials');
     setSel(ch);
     if (onSelectCharacter && !(opts && opts.silent)) onSelectCharacter(ch);
     if (pool.length > 1) {
@@ -2424,11 +2460,12 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
 
   // ----- roster tab data -----
   const roster = displayRoster.filter(show);
+  const coreRoster = roster.filter((ch) => !cmIsUpcomingOnly(ch));
+  const upcoming = roster.filter((ch) => cmIsUpcomingOnly(ch)).sort(cmRosterSort);
   // G14: beta-new units lead the Recent strip. G24: Recent is an ADDITIONAL
   // quick-access row — units still appear under their 5★/4★ rarity group too.
-  const recent = displayRoster.filter((ch) => ch.recent).filter(show)
-    .sort((a, b) => (a.__betaNew ? 0 : 1) - (b.__betaNew ? 0 : 1));
-  const rarityGroups = cfg.rarities.map(r => ({ r, label:cfg.rarityLabel[r], list:roster.filter(c => c.r === r) }));
+  const recent = coreRoster.filter((ch) => ch.recent).sort(cmRosterSort);
+  const rarityGroups = cfg.rarities.map(r => ({ r, label:cfg.rarityLabel[r], list:coreRoster.filter(c => c.r === r).sort(cmRosterSort) }));
 
   // ----- mid tab helpers -----
   const giDayTrio = day === 6 ? null : (day % 3);
@@ -2469,6 +2506,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
 
   const viewBase = sel ? cmActiveForm(sel, activeVariant, activeGender) : null;
   const view = viewBase ? nyxApplyCharacterCustomImages(gk, viewBase, characterImagePrefs) : null;
+  const noReliableInfo = view ? cmIsUpcomingOnly(view) : false;
   const formOptions = cmFormOptions(sel);
   const genderOptions = cmGenderOptions(sel);
   const hsrTalentTargets = hsrMax ? CM_TALENT_CFG.hsr.max : hsrTargets;
@@ -2481,7 +2519,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const ascItemsCost = giAsc ? giAsc.cost : (req?.ascCost || 0);
   const ascReq = req ? cmReqItems([cmCurrencyMat(cfg, ascItemsCost), ...ascItems]) : [];
   const talentReq = req ? cmReqItems([cmCurrencyMat(cfg, req.talentCost), ...(req.talents || [])]) : [];
-  const weaponOptions = view ? (cfg.weapons || []).filter((weapon) => cmWeaponCompatible(gk, view, weapon)) : [];
+  const weaponOptions = view && !noReliableInfo ? (cfg.weapons || []).filter((weapon) => cmWeaponCompatible(gk, view, weapon)) : [];
   const weaponPickKey = view ? `${gk}:${cmHiddenKey(view)}` : null;
   const signatureWeaponId = view?.signatureWeaponId || view?.signatureWeapon?.id || view?.signatureLightCone?.id || req?.weapon?.id || null;
   const signatureWeapon = signatureWeaponId
@@ -2525,6 +2563,10 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const metaChips = view ? cmMetaChips(gk, view) : [];
   const releaseText = view ? cmCharacterReleaseText(view) : '';
   const voiceRows = view ? cmVoiceRows(view, gk) : [];
+  const hasKit = !!(view?.kit?.sections || []).some((section) => (section?.entries || []).length);
+  const kitEmptyText = noReliableInfo
+    ? 'Currently no reliable information available for this unit. The kit will update automatically when a trusted source has data.'
+    : 'No character kit data available yet.';
   if (customizeOnly) {
     return (
       <div className="cm-inline cm-custom-page">
@@ -2728,13 +2770,20 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                   <div className="cm-grid cm-grid-recent">{recent.map((c, i) => renderCell('recent', c, i))}</div>
                 </div>
               )}
+              {upcoming.length > 0 && (
+                <div className="cm-group cm-upcoming-group">
+                  <div className="cm-ghd" title="Upcoming units without reliable Nanoka/wiki material data yet"><span className="t">Upcoming</span></div>
+                  <div className="cm-upcoming-note">Currently no reliable information available for these units. They will update automatically when a trusted scraper source has data.</div>
+                  <div className="cm-grid cm-grid-recent">{upcoming.map((c, i) => renderCell('upcoming', c, i))}</div>
+                </div>
+              )}
               {rarityGroups.map(g => g.list.length > 0 && (
                 <div className="cm-group" key={g.r}>
                   <div className="cm-ghd"><span className="t">{g.label}</span></div>
                   <div className="cm-grid">{g.list.map((c, i) => renderCell('rarity-' + g.r, c, i))}</div>
                 </div>
               ))}
-              {roster.length === 0 && recent.length === 0 && <div className="cm-empty">No units match your filters.</div>}
+              {roster.length === 0 && recent.length === 0 && upcoming.length === 0 && <div className="cm-empty">No units match your filters.</div>}
             </React.Fragment>
           )}
 
@@ -2869,9 +2918,6 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                   <button type="button" className="cm-detail-back" onClick={closePop}>
                     <span>{'\u2039'}</span><b>{selectedFrom === 'overview' ? 'Back to Overview' : 'Back to Character Materials'}</b>
                   </button>
-                  <button type="button" className="cm-detail-custom" onClick={openCustomize}>
-                    <span>Customize Visuals</span><b>Icon / Background / Local Upload</b>
-                  </button>
                 </div>
               )}
               <div className="cm-pop-main cm-ledger-main" ref={cmLedgerMainRef}>
@@ -2883,6 +2929,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                           style={view.iconPosition ? { objectPosition:view.iconPosition } : undefined} />}
                         <span className="cm-pop-name">{sel.n}</span>
                         {sel.__betaNew && <span className="cm-beta-tag pop" title="Beta (latest) data — upcoming and subject to change">Beta</span>}
+                        {cmIsUpcomingOnly(sel) && !sel.__betaNew && <span className="cm-beta-tag pop upcoming" title="Upcoming unit - currently no reliable material data">Upcoming</span>}
                       </span>
                       {metaChips.length > 0 && (
                         <span className="cm-pop-meta-inline">
@@ -2893,24 +2940,14 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                           ))}
                         </span>
                       )}
-                      {(releaseText || voiceRows.length > 0) && (
-                        <span className="cm-pop-meta-text">
-                          {releaseText && <span><b>Release:</b> {releaseText}</span>}
-                        {voiceRows.length > 0 && (
-                            <span className="voice"><b>Voice Actor:</b>{voiceRows.map((row) => (
-                            <em key={row.key}>
-                              {row.label}: {row.url
-                                ? <a href={row.url} target="_blank" rel="noopener noreferrer">{row.value}</a>
-                                : row.value}
-                            </em>
-                          ))}</span>
-                        )}
-                        </span>
-                      )}
+                      <span className="cm-character-tabs">
+                        <button type="button" className={detailTab === 'materials' ? 'on' : ''} onClick={() => setDetailTab('materials')}>Materials</button>
+                        <button type="button" className={detailTab === 'kit' ? 'on' : ''} disabled={!hasKit} title={hasKit ? 'Character Kit' : 'No kit data available yet'} onClick={() => hasKit && setDetailTab('kit')}>Character Kit</button>
+                      </span>
                     </div>
                   </div>
 
-                  {gk === 'gi' && view.req?.talentStages?.length > 0 && (
+                  {detailTab === 'materials' && gk === 'gi' && view.req?.talentStages?.length > 0 && (
                     <div className="cm-presets cm-presets-ledger">
                       {CM_GI_PRESETS.map((preset) => (
                         <button
@@ -2925,13 +2962,13 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                     </div>
                   )}
                   {/* G36: HSR "Max" toggle sits top-right, same slot/format as the GI presets */}
-                  {gk === 'hsr' && view.req?.talentStages?.some?.((s) => s.length) && (
+                  {detailTab === 'materials' && gk === 'hsr' && view.req?.talentStages?.some?.((s) => s.length) && (
                     <div className="cm-presets cm-presets-ledger cm-hsr-max-row">
                       <button type="button" className={'cm-trace-max' + (hsrMax ? ' on' : '')} aria-pressed={hsrMax}
                               title="Max out all traces" onClick={() => { setHsrTargets(CM_TALENT_CFG.hsr.max.slice()); setHsrMax(true); }}>Max</button>
                     </div>
                   )}
-                  {gk === 'zzz' && view.req?.talentStages?.some?.((s) => s.length) && (
+                  {detailTab === 'materials' && gk === 'zzz' && view.req?.talentStages?.some?.((s) => s.length) && (
                     <div className="cm-presets cm-presets-ledger cm-hsr-max-row">
                       <button type="button" className={'cm-trace-max' + (zzzMax ? ' on' : '')} aria-pressed={zzzMax}
                               title="Max out all skills" onClick={() => { setZzzTargets(CM_TALENT_CFG.zzz.max.slice()); setZzzMax(true); }}>Max</button>
@@ -2952,6 +2989,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                       onPrefs={setCharacterImagePrefs}
                     />
                   </div>
+                ) : detailTab === 'kit' ? (
+                  <CharacterKitPanel kit={view?.kit} emptyText={kitEmptyText} />
                 ) : (
                   <React.Fragment>
                 {(formOptions.length > 1 || genderOptions.length > 1) && (
@@ -3193,7 +3232,28 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                     </div>
                   )}
                   {!hasAnyLedgerReq && (
-                    <div className="cm-empty">No material data available for this unit yet.</div>
+                    <div className="cm-empty">{noReliableInfo ? 'Currently no reliable information available for this unit. Materials and kit data will update automatically when a trusted source has data.' : 'No material data available for this unit yet.'}</div>
+                  )}
+                  {inline && (
+                    <div className="cm-ledger-info-row">
+                      <button type="button" className="cm-detail-custom" onClick={openCustomize}>
+                        <span>Customize Visuals</span><b>Icon / Background / Local Upload</b>
+                      </button>
+                      {(releaseText || voiceRows.length > 0) && (
+                        <span className="cm-pop-meta-text">
+                          {releaseText && <span><b>Release:</b> {releaseText}</span>}
+                          {voiceRows.length > 0 && (
+                            <span className="voice"><b>Voice Actor:</b>{voiceRows.map((row) => (
+                              <em key={row.key}>
+                                {row.label}: {row.url
+                                  ? <a href={row.url} target="_blank" rel="noopener noreferrer">{row.value}</a>
+                                  : row.value}
+                              </em>
+                            ))}</span>
+                          )}
+                        </span>
+                      )}
+                    </div>
                   )}
                   {!inline && <div className="cm-ledger-customize-entry">
                     <button type="button" onClick={openCustomize}>

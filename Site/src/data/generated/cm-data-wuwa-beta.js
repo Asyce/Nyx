@@ -4951,6 +4951,2422 @@
       "recent": 1,
       "betaStatus": "changed"
     }
+  ],
+  "weapons": [
+    {
+      "id": "21010045",
+      "name": "Radiance Cleaver",
+      "rarity": 5,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21010045_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21010045_UI.webp",
+      "items": [
+        {
+          "id": "41100081",
+          "name": "Fractured Exoswarm Pendant",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100082",
+          "name": "Worn Exoswarm Pendant",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100083",
+          "name": "Chipped Exoswarm Pendant",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "41100084",
+          "name": "Intact Exoswarm Pendant",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "43021041",
+          "name": "LF Carved Crystal",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021042",
+          "name": "MF Carved Crystal",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021043",
+          "name": "HF Carved Crystal",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021044",
+          "name": "FF Carved Crystal",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21010066",
+      "name": "Starfield Calibrator",
+      "rarity": 5,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010066_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010066_UI.webp",
+      "items": [
+        {
+          "id": "41100081",
+          "name": "Fractured Exoswarm Pendant",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100082",
+          "name": "Worn Exoswarm Pendant",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100083",
+          "name": "Chipped Exoswarm Pendant",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "41100084",
+          "name": "Intact Exoswarm Pendant",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "43021041",
+          "name": "LF Carved Crystal",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021042",
+          "name": "MF Carved Crystal",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021043",
+          "name": "HF Carved Crystal",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021044",
+          "name": "FF Carved Crystal",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21040056",
+      "name": "Daybreaker's Spine",
+      "rarity": 5,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21040056_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21040056_UI.webp",
+      "items": [
+        {
+          "id": "41100071",
+          "name": "LF Mech Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100072",
+          "name": "MF Mech Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100073",
+          "name": "HF Mech Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "41100074",
+          "name": "FF Mech Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "43021051",
+          "name": "LF Waveworn Shard",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021052",
+          "name": "MF Waveworn Shard",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021053",
+          "name": "HF Waveworn Shard",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021054",
+          "name": "FF Waveworn Shard",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21040045",
+      "name": "Pulsation Bracer",
+      "rarity": 5,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21040045_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21040045_UI.webp",
+      "items": [
+        {
+          "id": "41100071",
+          "name": "LF Mech Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100072",
+          "name": "MF Mech Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100073",
+          "name": "HF Mech Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "41100074",
+          "name": "FF Mech Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "43021051",
+          "name": "LF Waveworn Shard",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021052",
+          "name": "MF Waveworn Shard",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021053",
+          "name": "HF Waveworn Shard",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021054",
+          "name": "FF Waveworn Shard",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21040066",
+      "name": "Solsworn Ciphers",
+      "rarity": 5,
+      "weaponType": "Gauntlets",
+      "type": "Gauntlets",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040066_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040066_UI.webp",
+      "items": [
+        {
+          "id": "41100071",
+          "name": "LF Mech Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100072",
+          "name": "MF Mech Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100073",
+          "name": "HF Mech Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "41100074",
+          "name": "FF Mech Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "43021051",
+          "name": "LF Waveworn Shard",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021052",
+          "name": "MF Waveworn Shard",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021053",
+          "name": "HF Waveworn Shard",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        },
+        {
+          "id": "43021054",
+          "name": "FF Waveworn Shard",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Void",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Void"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21030045",
+      "name": "Phasic Homogenizer",
+      "rarity": 5,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21030045_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21030045_UI.webp",
+      "items": [
+        {
+          "id": "41100081",
+          "name": "Fractured Exoswarm Pendant",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100082",
+          "name": "Worn Exoswarm Pendant",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100083",
+          "name": "Chipped Exoswarm Pendant",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "41100084",
+          "name": "Intact Exoswarm Pendant",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "43021021",
+          "name": "Incomplete Combustor",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021022",
+          "name": "Aftertune Combustor",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021023",
+          "name": "Remnant Combustor",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021024",
+          "name": "Reverb Combustor",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21030066",
+      "name": "Skull Thrasher",
+      "rarity": 5,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030066_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030066_UI.webp",
+      "items": [
+        {
+          "id": "41100081",
+          "name": "Fractured Exoswarm Pendant",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100082",
+          "name": "Worn Exoswarm Pendant",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100083",
+          "name": "Chipped Exoswarm Pendant",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "41100084",
+          "name": "Intact Exoswarm Pendant",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "43021021",
+          "name": "Incomplete Combustor",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021022",
+          "name": "Aftertune Combustor",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021023",
+          "name": "Remnant Combustor",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021024",
+          "name": "Reverb Combustor",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21030056",
+      "name": "Spectral Trigger",
+      "rarity": 5,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030056_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030056_UI.webp",
+      "items": [
+        {
+          "id": "41100081",
+          "name": "Fractured Exoswarm Pendant",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100082",
+          "name": "Worn Exoswarm Pendant",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100083",
+          "name": "Chipped Exoswarm Pendant",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "41100084",
+          "name": "Intact Exoswarm Pendant",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "43021021",
+          "name": "Incomplete Combustor",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021022",
+          "name": "Aftertune Combustor",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021023",
+          "name": "Remnant Combustor",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021024",
+          "name": "Reverb Combustor",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21030046",
+      "name": "Spectrum Blaster",
+      "rarity": 5,
+      "weaponType": "Pistols",
+      "type": "Pistols",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030046_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21030046_UI.webp",
+      "items": [
+        {
+          "id": "41100081",
+          "name": "Fractured Exoswarm Pendant",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100082",
+          "name": "Worn Exoswarm Pendant",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100083",
+          "name": "Chipped Exoswarm Pendant",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "41100084",
+          "name": "Intact Exoswarm Pendant",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "43021021",
+          "name": "Incomplete Combustor",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021022",
+          "name": "Aftertune Combustor",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021023",
+          "name": "Remnant Combustor",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        },
+        {
+          "id": "43021024",
+          "name": "Reverb Combustor",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Embers",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Embers"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21050045",
+      "name": "Boson Astrolabe",
+      "rarity": 5,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21050045_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21050045_UI.webp",
+      "items": [
+        {
+          "id": "41100061",
+          "name": "LF Exoswarm Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100062",
+          "name": "MF Exoswarm Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100063",
+          "name": "HF Exoswarm Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "41100064",
+          "name": "FF Exoswarm Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "43021031",
+          "name": "Spliced String",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021032",
+          "name": "Broken String",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021033",
+          "name": "Solidified String",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021034",
+          "name": "Melodic String",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21050096",
+      "name": "Firstlight's Herald",
+      "rarity": 5,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": null,
+      "art": null,
+      "items": [
+        {
+          "id": "41100061",
+          "name": "LF Exoswarm Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100062",
+          "name": "MF Exoswarm Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100063",
+          "name": "HF Exoswarm Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "41100064",
+          "name": "FF Exoswarm Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "43021031",
+          "name": "Spliced String",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021032",
+          "name": "Broken String",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021033",
+          "name": "Solidified String",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021034",
+          "name": "Melodic String",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21050076",
+      "name": "Forged Dwarf Star",
+      "rarity": 5,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050076_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050076_UI.webp",
+      "items": [
+        {
+          "id": "41100061",
+          "name": "LF Exoswarm Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100062",
+          "name": "MF Exoswarm Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100063",
+          "name": "HF Exoswarm Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "41100064",
+          "name": "FF Exoswarm Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "43021031",
+          "name": "Spliced String",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021032",
+          "name": "Broken String",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021033",
+          "name": "Solidified String",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021034",
+          "name": "Melodic String",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21050086",
+      "name": "Freeze Frame",
+      "rarity": 5,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050086_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050086_UI.webp",
+      "items": [
+        {
+          "id": "41100061",
+          "name": "LF Exoswarm Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100062",
+          "name": "MF Exoswarm Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100063",
+          "name": "HF Exoswarm Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "41100064",
+          "name": "FF Exoswarm Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "43021031",
+          "name": "Spliced String",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021032",
+          "name": "Broken String",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021033",
+          "name": "Solidified String",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021034",
+          "name": "Melodic String",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21020096",
+      "name": "Azure Oath",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": null,
+      "art": null,
+      "items": [
+        {
+          "id": "41100071",
+          "name": "LF Mech Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100072",
+          "name": "MF Mech Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100073",
+          "name": "HF Mech Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "41100074",
+          "name": "FF Mech Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "43021011",
+          "name": "Broken Wing Polarizer",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021012",
+          "name": "Monowing Polarizer",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021013",
+          "name": "Polywing Polarizer",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021014",
+          "name": "Layered Wing Polarizer",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21020076",
+      "name": "Everbright Polestar",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020076_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020076_UI.webp",
+      "items": [
+        {
+          "id": "41100071",
+          "name": "LF Mech Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100072",
+          "name": "MF Mech Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100073",
+          "name": "HF Mech Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "41100074",
+          "name": "FF Mech Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "43021011",
+          "name": "Broken Wing Polarizer",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021012",
+          "name": "Monowing Polarizer",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021013",
+          "name": "Polywing Polarizer",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021014",
+          "name": "Layered Wing Polarizer",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21020086",
+      "name": "Frostburn",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020086_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020086_UI.webp",
+      "items": [
+        {
+          "id": "41100071",
+          "name": "LF Mech Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100072",
+          "name": "MF Mech Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100073",
+          "name": "HF Mech Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "41100074",
+          "name": "FF Mech Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "43021011",
+          "name": "Broken Wing Polarizer",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021012",
+          "name": "Monowing Polarizer",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021013",
+          "name": "Polywing Polarizer",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021014",
+          "name": "Layered Wing Polarizer",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
+      "id": "21020045",
+      "name": "Laser Shearer",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21020045_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon_21020045_UI.webp",
+      "items": [
+        {
+          "id": "41100071",
+          "name": "LF Mech Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100072",
+          "name": "MF Mech Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100073",
+          "name": "HF Mech Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "41100074",
+          "name": "FF Mech Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "43021011",
+          "name": "Broken Wing Polarizer",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021012",
+          "name": "Monowing Polarizer",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021013",
+          "name": "Polywing Polarizer",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021014",
+          "name": "Layered Wing Polarizer",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+          "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Stay tuned"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    }
   ]
 };
   window.dispatchEvent(new CustomEvent('nyx:cm-beta-loaded', { detail:{ key:"wuwa" } }));

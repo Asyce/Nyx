@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["zzz"] = {
-  "version": "3.1.4+17261355",
+  "version": "3.1.4+17277842",
   "liveVersion": "3.0",
   "newCount": 1,
   "changedCount": 0,
@@ -1469,6 +1469,80 @@
       },
       "recent": 1,
       "betaStatus": "new"
+    }
+  ],
+  "weapons": [
+    {
+      "id": "14158",
+      "name": "Poem of the Empty Feather Return",
+      "rarity": 4,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1581.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1581.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 32,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 30,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14159",
+      "name": "...",
+      "rarity": 4,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1591.webp",
+      "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1591.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 32,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 30,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 400000
     }
   ]
 };

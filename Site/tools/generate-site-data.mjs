@@ -1521,8 +1521,9 @@ function sumGiWeaponMaterials(weapon) {
 }
 
 function buildGiWeaponRoster() {
-  if (!exists('Nanoka/gi/live/weapons.json')) return [];
-  return readJson('Nanoka/gi/live/weapons.json')
+  const rel = `Nanoka/gi/${nch()}/weapons.json`;
+  if (!exists(rel)) return [];
+  return readJson(rel)
     .filter((weapon) => weapon?.name && rarityNumber(weapon.rarity, 0) >= 3)
     .map((weapon) => {
       const summed = sumGiWeaponMaterials(weapon);
@@ -3578,17 +3579,31 @@ const cmBetaDeltas = (() => {
   if (!anyBeta) return {};
   const betaRosters = buildRostersForChannel('beta');
   applyGenshinTcgOverviewArt(betaRosters.gi);
-  const betaCfg = buildCmCfg(betaRosters);
+  const prevChannel = NANOKA_CHANNEL;
+  NANOKA_CHANNEL = 'beta';
+  let betaCfg;
+  try {
+    betaCfg = buildCmCfg(betaRosters);
+  } finally {
+    NANOKA_CHANNEL = prevChannel;
+  }
   const nanokaManifest = exists('Nanoka/manifest.json') ? readJson('Nanoka/manifest.json') : {};
   const reqSig = (ch) => JSON.stringify(ch?.req ?? null);
+  const rowSig = (row) => JSON.stringify(row ?? null);
   const out = {};
   for (const key of CM_BETA_GAMES) {
     if (!betaChannelAvailable(key)) continue;
     const liveById = new Map((cmCfg[key]?.roster || []).map((ch) => [ch.id, ch]));
+    const liveWeaponsById = new Map((cmCfg[key]?.weapons || []).map((weapon) => [weapon.id, weapon]));
     const delta = (betaCfg[key]?.roster || [])
       .filter((bc) => { const lc = liveById.get(bc.id); return !lc || reqSig(bc) !== reqSig(lc); })
       .map((bc) => ({ ...bc, betaStatus: liveById.has(bc.id) ? 'changed' : 'new' }));
-    if (!delta.length) continue;
+    const weaponDelta = (betaCfg[key]?.weapons || [])
+      .filter((bw) => {
+        const lw = liveWeaponsById.get(bw.id);
+        return !lw || rowSig(bw) !== rowSig(lw);
+      });
+    if (!delta.length && !weaponDelta.length) continue;
     const manifestKey = key === 'wuwa' ? 'ww' : key;
     out[key] = {
       version: nanokaManifest[manifestKey]?.latest || null,
@@ -3596,6 +3611,7 @@ const cmBetaDeltas = (() => {
       newCount: delta.filter((ch) => ch.betaStatus === 'new').length,
       changedCount: delta.filter((ch) => ch.betaStatus === 'changed').length,
       roster: delta,
+      ...(weaponDelta.length ? { weapons: weaponDelta } : {}),
     };
   }
   return out;

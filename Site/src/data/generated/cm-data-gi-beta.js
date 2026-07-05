@@ -2178,6 +2178,1739 @@
       },
       "betaStatus": "new"
     }
+  ],
+  "weapons": [
+    {
+      "id": "11521",
+      "name": "Staredge Saber",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Sword_WeaponQuestSnezhnaya.webp",
+      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_WeaponQuestSnezhnaya.webp",
+      "items": [
+        {
+          "id": "112146",
+          "name": "Phantasmagorical Dust",
+          "qty": 15,
+          "rar": 1,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112147",
+          "name": "Phantasm Crystal",
+          "qty": 23,
+          "rar": 2,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112148",
+          "name": "Dreamy Crystal Koku",
+          "qty": 27,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112152",
+          "name": "Sediment Fragment",
+          "qty": 23,
+          "rar": 2,
+          "kind": "gem",
+          "icon": null
+        },
+        {
+          "id": "112153",
+          "name": "Sediment Clot",
+          "qty": 27,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112154",
+          "name": "Crystalline Cyst",
+          "qty": 41,
+          "rar": 4,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "114093",
+          "name": "Resurrection of the Frost Sovereign",
+          "qty": 5,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114093.webp"
+        },
+        {
+          "id": "114094",
+          "name": "Ceremonial of the Frost Sovereign",
+          "qty": 14,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114094.webp"
+        },
+        {
+          "id": "114095",
+          "name": "Lament of the Frost-Veiled Emperor",
+          "qty": 14,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114095.webp"
+        },
+        {
+          "id": "114096",
+          "name": "Gash of the Frost-Blade Emperor",
+          "qty": 6,
+          "rar": 5,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114096.webp"
+        }
+      ],
+      "cost": 225000
+    },
+    {
+      "id": "11520",
+      "name": "Whitelake Frostfeather",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Sword_Swanlake.webp",
+      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_Swanlake.webp",
+      "items": [
+        {
+          "id": "112149",
+          "name": "Chimera",
+          "qty": 15,
+          "rar": 1,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112150",
+          "name": "Symbiotic Chimera Cell",
+          "qty": 23,
+          "rar": 2,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112151",
+          "name": "Primordial Chimera",
+          "qty": 27,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112155",
+          "name": "Aether-Life Root",
+          "qty": 23,
+          "rar": 2,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112156",
+          "name": "Crystalline Sprout",
+          "qty": 27,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112157",
+          "name": "Everliving Branch of the Heart",
+          "qty": 41,
+          "rar": 4,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "114089",
+          "name": "Deliberation of the Cellar Nectar",
+          "qty": 5,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114089.webp"
+        },
+        {
+          "id": "114090",
+          "name": "Drunkard's Spirit of the Cellar",
+          "qty": 14,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114090.webp"
+        },
+        {
+          "id": "114091",
+          "name": "Exhilaration of the Cellar Elixir",
+          "qty": 14,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114091.webp"
+        },
+        {
+          "id": "114092",
+          "name": "Libation of the Cellar-Lord's Whim",
+          "qty": 6,
+          "rar": 5,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114092.webp"
+        }
+      ],
+      "cost": 225000
+    },
+    {
+      "id": "15435",
+      "name": "BP Weapon",
+      "rarity": 4,
+      "weaponType": "Bow",
+      "type": "Bow",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Bow_ShatteredMirror.webp",
+      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Bow_ShatteredMirror.webp",
+      "items": [
+        {
+          "id": "112032",
+          "name": "Recruit's Insignia",
+          "qty": 10,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112032.webp",
+          "sourceDetails": [
+            {
+              "name": "Fatui Skirmisher - Cryogunner Legionnaire",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Ice_01.webp"
+            },
+            {
+              "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Water_01.webp"
+            },
+            {
+              "name": "Fatui Skirmisher - Electrohammer Vanguard",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Strong_GreatHammer_Electric_01.webp"
+            },
+            {
+              "name": "Fatui Skirmisher - Geochanter Bracer",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Standard_Staff_Rock_01.webp"
+            },
+            {
+              "name": "Fatui Skirmisher - Anemoboxer Vanguard",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Strong_Gloves_Wind_01.webp"
+            },
+            {
+              "name": "Fatui Skirmisher - Pyroslinger Bracer",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Standard_Rifle_Fire_01.webp"
+            }
+          ]
+        },
+        {
+          "id": "112033",
+          "name": "Sergeant's Insignia",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112033.webp",
+          "sourceDetails": [
+            {
+              "name": "Fatui Skirmisher - Cryogunner Legionnaire",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Ice_01.webp"
+            },
+            {
+              "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Water_01.webp"
+            },
+            {
+              "name": "Fatui Skirmisher - Electrohammer Vanguard",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Strong_GreatHammer_Electric_01.webp"
+            },
+            {
+              "name": "Fatui Skirmisher - Geochanter Bracer",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Standard_Staff_Rock_01.webp"
+            },
+            {
+              "name": "Fatui Skirmisher - Anemoboxer Vanguard",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Strong_Gloves_Wind_01.webp"
+            },
+            {
+              "name": "Fatui Skirmisher - Pyroslinger Bracer",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Standard_Rifle_Fire_01.webp"
+            }
+          ]
+        },
+        {
+          "id": "112034",
+          "name": "Lieutenant's Insignia",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112034.webp",
+          "sourceDetails": [
+            {
+              "name": "Fatui Skirmisher - Cryogunner Legionnaire",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Ice_01.webp"
+            },
+            {
+              "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Water_01.webp"
+            },
+            {
+              "name": "Fatui Skirmisher - Electrohammer Vanguard",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Strong_GreatHammer_Electric_01.webp"
+            },
+            {
+              "name": "Fatui Skirmisher - Geochanter Bracer",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Standard_Staff_Rock_01.webp"
+            },
+            {
+              "name": "Fatui Skirmisher - Anemoboxer Vanguard",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Strong_Gloves_Wind_01.webp"
+            },
+            {
+              "name": "Fatui Skirmisher - Pyroslinger Bracer",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Skirmisher_Male_Standard_Rifle_Fire_01.webp"
+            }
+          ]
+        },
+        {
+          "id": "112041",
+          "name": "Fragile Bone Shard",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112041.webp",
+          "sourceDetails": [
+            {
+              "name": "Geovishap Hatchling",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Wyrm_Rock.webp"
+            },
+            {
+              "name": "Geovishap",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Drake_Rock.webp"
+            },
+            {
+              "name": "Primordial Bathysmal Vishap",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Drake_Deepsea_Water.webp"
+            }
+          ]
+        },
+        {
+          "id": "112042",
+          "name": "Sturdy Bone Shard",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112042.webp",
+          "sourceDetails": [
+            {
+              "name": "Geovishap Hatchling",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Wyrm_Rock.webp"
+            },
+            {
+              "name": "Geovishap",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Drake_Rock.webp"
+            },
+            {
+              "name": "Primordial Bathysmal Vishap",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Drake_Deepsea_Water.webp"
+            }
+          ]
+        },
+        {
+          "id": "112043",
+          "name": "Fossilized Bone Shard",
+          "qty": 27,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112043.webp",
+          "sourceDetails": [
+            {
+              "name": "Geovishap Hatchling",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Wyrm_Rock.webp"
+            },
+            {
+              "name": "Geovishap",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Drake_Rock.webp"
+            },
+            {
+              "name": "Primordial Bathysmal Vishap",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Drake_Deepsea_Water.webp"
+            }
+          ]
+        },
+        {
+          "id": "114021",
+          "name": "Grain of Aerosiderite",
+          "qty": 3,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114021.webp",
+          "source": "Aerosiderite - Liyue - Hidden Palace of Lianshan Formula",
+          "sourceDetails": [
+            {
+              "name": "Aerosiderite - Liyue - Hidden Palace of Lianshan Formula"
+            }
+          ]
+        },
+        {
+          "id": "114022",
+          "name": "Piece of Aerosiderite",
+          "qty": 9,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114022.webp",
+          "source": "Aerosiderite - Liyue - Hidden Palace of Lianshan Formula",
+          "sourceDetails": [
+            {
+              "name": "Aerosiderite - Liyue - Hidden Palace of Lianshan Formula"
+            }
+          ]
+        },
+        {
+          "id": "114023",
+          "name": "Bit of Aerosiderite",
+          "qty": 9,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114023.webp",
+          "source": "Aerosiderite - Liyue - Hidden Palace of Lianshan Formula",
+          "sourceDetails": [
+            {
+              "name": "Aerosiderite - Liyue - Hidden Palace of Lianshan Formula"
+            }
+          ]
+        },
+        {
+          "id": "114024",
+          "name": "Chunk of Aerosiderite",
+          "qty": 4,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114024.webp",
+          "source": "Aerosiderite - Liyue - Hidden Palace of Lianshan Formula",
+          "sourceDetails": [
+            {
+              "name": "Aerosiderite - Liyue - Hidden Palace of Lianshan Formula"
+            }
+          ]
+        }
+      ],
+      "cost": 150000
+    },
+    {
+      "id": "15436",
+      "name": "Forgeable Weapon",
+      "rarity": 4,
+      "weaponType": "Bow",
+      "type": "Bow",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Bow_GlintstoneBow.webp",
+      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Bow_GlintstoneBow.webp",
+      "items": [
+        {
+          "id": "112149",
+          "name": "Chimera",
+          "qty": 10,
+          "rar": 1,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112150",
+          "name": "Symbiotic Chimera Cell",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112151",
+          "name": "Primordial Chimera",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112155",
+          "name": "Aether-Life Root",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112156",
+          "name": "Crystalline Sprout",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112157",
+          "name": "Everliving Branch of the Heart",
+          "qty": 27,
+          "rar": 4,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "114085",
+          "name": "The Stirring of the Pale Star Host",
+          "qty": 3,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114085.webp"
+        },
+        {
+          "id": "114086",
+          "name": "The Gathering of the Pale Star Host",
+          "qty": 9,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114086.webp"
+        },
+        {
+          "id": "114087",
+          "name": "Command of the Pale Star's Host",
+          "qty": 9,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114087.webp"
+        },
+        {
+          "id": "114088",
+          "name": "Conquest of the Pale Star Host",
+          "qty": 4,
+          "rar": 5,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114088.webp"
+        }
+      ],
+      "cost": 150000
+    },
+    {
+      "id": "14435",
+      "name": "BP Weapon",
+      "rarity": 4,
+      "weaponType": "Catalyst",
+      "type": "Catalyst",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Catalyst_SandMemoria.webp",
+      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Catalyst_SandMemoria.webp",
+      "items": [
+        {
+          "id": "112065",
+          "name": "Faded Red Satin",
+          "qty": 10,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112065.webp",
+          "sourceDetails": [
+            {
+              "name": "Eremite Axe Vanguard",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_Female_Hatchet.webp"
+            },
+            {
+              "name": "Eremite Crossbow",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_Male_Standard_Crossbow.webp"
+            },
+            {
+              "name": "Eremite Ravenbeak Halberdier",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_Male_Standard_Pole.webp"
+            },
+            {
+              "name": "Eremite Linebreaker",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_MuscleMan_Gloves.webp"
+            },
+            {
+              "name": "Eremite Sword-Dancer",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_MuscleMan_Simitar.webp"
+            },
+            {
+              "name": "Eremite Desert Clearwater",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_Female_Slim_PushDagger.webp"
+            }
+          ]
+        },
+        {
+          "id": "112066",
+          "name": "Trimmed Red Silk",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112066.webp",
+          "sourceDetails": [
+            {
+              "name": "Eremite Axe Vanguard",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_Female_Hatchet.webp"
+            },
+            {
+              "name": "Eremite Crossbow",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_Male_Standard_Crossbow.webp"
+            },
+            {
+              "name": "Eremite Ravenbeak Halberdier",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_Male_Standard_Pole.webp"
+            },
+            {
+              "name": "Eremite Linebreaker",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_MuscleMan_Gloves.webp"
+            },
+            {
+              "name": "Eremite Sword-Dancer",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_MuscleMan_Simitar.webp"
+            },
+            {
+              "name": "Eremite Desert Clearwater",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_Female_Slim_PushDagger.webp"
+            }
+          ]
+        },
+        {
+          "id": "112067",
+          "name": "Rich Red Brocade",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112067.webp",
+          "sourceDetails": [
+            {
+              "name": "Eremite Axe Vanguard",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_Female_Hatchet.webp"
+            },
+            {
+              "name": "Eremite Crossbow",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_Male_Standard_Crossbow.webp"
+            },
+            {
+              "name": "Eremite Ravenbeak Halberdier",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_Male_Standard_Pole.webp"
+            },
+            {
+              "name": "Eremite Linebreaker",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_MuscleMan_Gloves.webp"
+            },
+            {
+              "name": "Eremite Sword-Dancer",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_MuscleMan_Simitar.webp"
+            },
+            {
+              "name": "Eremite Desert Clearwater",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Eremite_Female_Slim_PushDagger.webp"
+            }
+          ]
+        },
+        {
+          "id": "112071",
+          "name": "Damaged Prism",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112071.webp",
+          "sourceDetails": [
+            {
+              "name": "Primal Construct: Repulsor",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Monolith_Ordinator.webp"
+            },
+            {
+              "name": "Primal Construct: Reshaper",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Monolith_Ordinator.webp"
+            },
+            {
+              "name": "Primal Construct: Prospector",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Monolith_Ordinator.webp"
+            }
+          ]
+        },
+        {
+          "id": "112072",
+          "name": "Turbid Prism",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112072.webp",
+          "sourceDetails": [
+            {
+              "name": "Primal Construct: Repulsor",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Monolith_Ordinator.webp"
+            },
+            {
+              "name": "Primal Construct: Reshaper",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Monolith_Ordinator.webp"
+            },
+            {
+              "name": "Primal Construct: Prospector",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Monolith_Ordinator.webp"
+            }
+          ]
+        },
+        {
+          "id": "112073",
+          "name": "Radiant Prism",
+          "qty": 27,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112073.webp",
+          "sourceDetails": [
+            {
+              "name": "Primal Construct: Repulsor",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Monolith_Ordinator.webp"
+            },
+            {
+              "name": "Primal Construct: Reshaper",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Monolith_Ordinator.webp"
+            },
+            {
+              "name": "Primal Construct: Prospector",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Monolith_Ordinator.webp"
+            }
+          ]
+        },
+        {
+          "id": "114037",
+          "name": "Copper Talisman of the Forest Dew",
+          "qty": 3,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114037.webp",
+          "source": "Forest Dew - Sumeru - Tower of Abject Pride",
+          "sourceDetails": [
+            {
+              "name": "Forest Dew - Sumeru - Tower of Abject Pride"
+            }
+          ]
+        },
+        {
+          "id": "114038",
+          "name": "Iron Talisman of the Forest Dew",
+          "qty": 9,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114038.webp",
+          "source": "Forest Dew - Sumeru - Tower of Abject Pride",
+          "sourceDetails": [
+            {
+              "name": "Forest Dew - Sumeru - Tower of Abject Pride"
+            }
+          ]
+        },
+        {
+          "id": "114039",
+          "name": "Silver Talisman of the Forest Dew",
+          "qty": 9,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114039.webp",
+          "source": "Forest Dew - Sumeru - Tower of Abject Pride",
+          "sourceDetails": [
+            {
+              "name": "Forest Dew - Sumeru - Tower of Abject Pride"
+            }
+          ]
+        },
+        {
+          "id": "114040",
+          "name": "Golden Talisman of the Forest Dew",
+          "qty": 4,
+          "rar": 5,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114040.webp",
+          "source": "Forest Dew - Sumeru - Tower of Abject Pride",
+          "sourceDetails": [
+            {
+              "name": "Forest Dew - Sumeru - Tower of Abject Pride"
+            }
+          ]
+        }
+      ],
+      "cost": 150000
+    },
+    {
+      "id": "14436",
+      "name": "Forgeable Weapon",
+      "rarity": 4,
+      "weaponType": "Catalyst",
+      "type": "Catalyst",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Catalyst_GlintstoneCatalyst.webp",
+      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Catalyst_GlintstoneCatalyst.webp",
+      "items": [
+        {
+          "id": "112146",
+          "name": "Phantasmagorical Dust",
+          "qty": 10,
+          "rar": 1,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112147",
+          "name": "Phantasm Crystal",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112148",
+          "name": "Dreamy Crystal Koku",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112152",
+          "name": "Sediment Fragment",
+          "qty": 15,
+          "rar": 2,
+          "kind": "gem",
+          "icon": null
+        },
+        {
+          "id": "112153",
+          "name": "Sediment Clot",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112154",
+          "name": "Crystalline Cyst",
+          "qty": 27,
+          "rar": 4,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "114085",
+          "name": "The Stirring of the Pale Star Host",
+          "qty": 3,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114085.webp"
+        },
+        {
+          "id": "114086",
+          "name": "The Gathering of the Pale Star Host",
+          "qty": 9,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114086.webp"
+        },
+        {
+          "id": "114087",
+          "name": "Command of the Pale Star's Host",
+          "qty": 9,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114087.webp"
+        },
+        {
+          "id": "114088",
+          "name": "Conquest of the Pale Star Host",
+          "qty": 4,
+          "rar": 5,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114088.webp"
+        }
+      ],
+      "cost": 150000
+    },
+    {
+      "id": "12435",
+      "name": "BP Weapon",
+      "rarity": 4,
+      "weaponType": "Claymore",
+      "type": "Claymore",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Claymore_EscapeWheel.webp",
+      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Claymore_EscapeWheel.webp",
+      "items": [
+        {
+          "id": "112080",
+          "name": "Transoceanic Pearl",
+          "qty": 10,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112080.webp",
+          "sourceDetails": [
+            {
+              "name": "Hunter's Ray",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_MantaRay_Larva_01.webp"
+            },
+            {
+              "name": "Armored Crab",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_HermitCrab_Larva_01.webp"
+            },
+            {
+              "name": "Blubberbeast",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Seal_Larva_01.webp"
+            },
+            {
+              "name": "Hat Jellyfish",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_JellyFish_Larva_01.webp"
+            },
+            {
+              "name": "Bubbly Seahorse",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_SeaHorse_Larva_01.webp"
+            },
+            {
+              "name": "Ball Octopus",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Octopus_Larva_01.webp"
+            }
+          ]
+        },
+        {
+          "id": "112081",
+          "name": "Transoceanic Chunk",
+          "qty": 15,
+          "rar": 2,
+          "kind": "gem",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112081.webp",
+          "sourceDetails": [
+            {
+              "name": "Hunter's Ray",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_MantaRay_Larva_01.webp"
+            },
+            {
+              "name": "Armored Crab",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_HermitCrab_Larva_01.webp"
+            },
+            {
+              "name": "Blubberbeast",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Seal_Larva_01.webp"
+            },
+            {
+              "name": "Hat Jellyfish",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_JellyFish_Larva_01.webp"
+            },
+            {
+              "name": "Bubbly Seahorse",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_SeaHorse_Larva_01.webp"
+            },
+            {
+              "name": "Ball Octopus",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Octopus_Larva_01.webp"
+            }
+          ]
+        },
+        {
+          "id": "112082",
+          "name": "Xenochromatic Crystal",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112082.webp",
+          "sourceDetails": [
+            {
+              "name": "Hunter's Ray",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_MantaRay_Larva_01.webp"
+            },
+            {
+              "name": "Armored Crab",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_HermitCrab_Larva_01.webp"
+            },
+            {
+              "name": "Blubberbeast",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Seal_Larva_01.webp"
+            },
+            {
+              "name": "Hat Jellyfish",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_JellyFish_Larva_01.webp"
+            },
+            {
+              "name": "Bubbly Seahorse",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_SeaHorse_Larva_01.webp"
+            },
+            {
+              "name": "Ball Octopus",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Octopus_Larva_01.webp"
+            }
+          ]
+        },
+        {
+          "id": "112098",
+          "name": "Ruined Hilt",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112098.webp",
+          "sourceDetails": [
+            {
+              "name": "Praetorian Golem",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Golem_Legion.webp"
+            }
+          ]
+        },
+        {
+          "id": "112099",
+          "name": "Splintered Hilt",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112099.webp",
+          "sourceDetails": [
+            {
+              "name": "Praetorian Golem",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Golem_Legion.webp"
+            }
+          ]
+        },
+        {
+          "id": "112100",
+          "name": "Still-Smoldering Hilt",
+          "qty": 27,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112100.webp",
+          "sourceDetails": [
+            {
+              "name": "Praetorian Golem",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Golem_Legion.webp"
+            }
+          ]
+        },
+        {
+          "id": "114053",
+          "name": "Dross of Pure Sacred Dewdrop",
+          "qty": 3,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114053.webp",
+          "source": "Pure Sacred Dewdrop - Fontaine - Echoes of the Deep Tides",
+          "sourceDetails": [
+            {
+              "name": "Pure Sacred Dewdrop - Fontaine - Echoes of the Deep Tides"
+            }
+          ]
+        },
+        {
+          "id": "114054",
+          "name": "Sublimation of Pure Sacred Dewdrop",
+          "qty": 9,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114054.webp",
+          "source": "Pure Sacred Dewdrop - Fontaine - Echoes of the Deep Tides",
+          "sourceDetails": [
+            {
+              "name": "Pure Sacred Dewdrop - Fontaine - Echoes of the Deep Tides"
+            }
+          ]
+        },
+        {
+          "id": "114055",
+          "name": "Spring of Pure Sacred Dewdrop",
+          "qty": 9,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114055.webp",
+          "source": "Pure Sacred Dewdrop - Fontaine - Echoes of the Deep Tides",
+          "sourceDetails": [
+            {
+              "name": "Pure Sacred Dewdrop - Fontaine - Echoes of the Deep Tides"
+            }
+          ]
+        },
+        {
+          "id": "114056",
+          "name": "Essence of Pure Sacred Dewdrop",
+          "qty": 4,
+          "rar": 5,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114056.webp",
+          "source": "Pure Sacred Dewdrop - Fontaine - Echoes of the Deep Tides",
+          "sourceDetails": [
+            {
+              "name": "Pure Sacred Dewdrop - Fontaine - Echoes of the Deep Tides"
+            }
+          ]
+        }
+      ],
+      "cost": 150000
+    },
+    {
+      "id": "12436",
+      "name": "Forgeable Weapon",
+      "rarity": 4,
+      "weaponType": "Claymore",
+      "type": "Claymore",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Claymore_GlintstoneClaymore.webp",
+      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Claymore_GlintstoneClaymore.webp",
+      "items": [
+        {
+          "id": "112149",
+          "name": "Chimera",
+          "qty": 10,
+          "rar": 1,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112150",
+          "name": "Symbiotic Chimera Cell",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112151",
+          "name": "Primordial Chimera",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112155",
+          "name": "Aether-Life Root",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112156",
+          "name": "Crystalline Sprout",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112157",
+          "name": "Everliving Branch of the Heart",
+          "qty": 27,
+          "rar": 4,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "114085",
+          "name": "The Stirring of the Pale Star Host",
+          "qty": 3,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114085.webp"
+        },
+        {
+          "id": "114086",
+          "name": "The Gathering of the Pale Star Host",
+          "qty": 9,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114086.webp"
+        },
+        {
+          "id": "114087",
+          "name": "Command of the Pale Star's Host",
+          "qty": 9,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114087.webp"
+        },
+        {
+          "id": "114088",
+          "name": "Conquest of the Pale Star Host",
+          "qty": 4,
+          "rar": 5,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114088.webp"
+        }
+      ],
+      "cost": 150000
+    },
+    {
+      "id": "224008",
+      "name": "224008",
+      "rarity": 4,
+      "weaponType": "ITEM_TPS_WEAPON",
+      "type": "ITEM_TPS_WEAPON",
+      "icon": null,
+      "art": null,
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "224002",
+      "name": "Asha's Thousand Lights",
+      "rarity": 4,
+      "weaponType": "ITEM_TPS_WEAPON",
+      "type": "ITEM_TPS_WEAPON",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Fulmen.webp",
+      "art": null,
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "224006",
+      "name": "Electro Crystal",
+      "rarity": 4,
+      "weaponType": "ITEM_TPS_WEAPON",
+      "type": "ITEM_TPS_WEAPON",
+      "icon": null,
+      "art": null,
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "224007",
+      "name": "Garnet Cryo",
+      "rarity": 4,
+      "weaponType": "ITEM_TPS_WEAPON",
+      "type": "ITEM_TPS_WEAPON",
+      "icon": null,
+      "art": null,
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "224005",
+      "name": "Hydro Crystal",
+      "rarity": 4,
+      "weaponType": "ITEM_TPS_WEAPON",
+      "type": "ITEM_TPS_WEAPON",
+      "icon": null,
+      "art": null,
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "224004",
+      "name": "Pomegranate Crystal Pyro",
+      "rarity": 4,
+      "weaponType": "ITEM_TPS_WEAPON",
+      "type": "ITEM_TPS_WEAPON",
+      "icon": null,
+      "art": null,
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "224001",
+      "name": "Shathanaya's Pale Silver",
+      "rarity": 4,
+      "weaponType": "ITEM_TPS_WEAPON",
+      "type": "ITEM_TPS_WEAPON",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Glacia.webp",
+      "art": null,
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "224003",
+      "name": "Sun of Valsag",
+      "rarity": 4,
+      "weaponType": "ITEM_TPS_WEAPON",
+      "type": "ITEM_TPS_WEAPON",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_GrenadeLauncher_Ignis.webp",
+      "art": null,
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "13435",
+      "name": "BP Weapon",
+      "rarity": 4,
+      "weaponType": "Polearm",
+      "type": "Polearm",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Pole_FaesCrystalle.webp",
+      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Pole_FaesCrystalle.webp",
+      "items": [
+        {
+          "id": "112149",
+          "name": "Chimera",
+          "qty": 10,
+          "rar": 1,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112150",
+          "name": "Symbiotic Chimera Cell",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112151",
+          "name": "Primordial Chimera",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112152",
+          "name": "Sediment Fragment",
+          "qty": 15,
+          "rar": 2,
+          "kind": "gem",
+          "icon": null
+        },
+        {
+          "id": "112153",
+          "name": "Sediment Clot",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112154",
+          "name": "Crystalline Cyst",
+          "qty": 27,
+          "rar": 4,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "114089",
+          "name": "Deliberation of the Cellar Nectar",
+          "qty": 3,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114089.webp"
+        },
+        {
+          "id": "114090",
+          "name": "Drunkard's Spirit of the Cellar",
+          "qty": 9,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114090.webp"
+        },
+        {
+          "id": "114091",
+          "name": "Exhilaration of the Cellar Elixir",
+          "qty": 9,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114091.webp"
+        },
+        {
+          "id": "114092",
+          "name": "Libation of the Cellar-Lord's Whim",
+          "qty": 4,
+          "rar": 5,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114092.webp"
+        }
+      ],
+      "cost": 150000
+    },
+    {
+      "id": "13436",
+      "name": "Forgeable Weapon",
+      "rarity": 4,
+      "weaponType": "Polearm",
+      "type": "Polearm",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Pole_GlintstonePolearm.webp",
+      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Pole_GlintstonePolearm.webp",
+      "items": [
+        {
+          "id": "112146",
+          "name": "Phantasmagorical Dust",
+          "qty": 10,
+          "rar": 1,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112147",
+          "name": "Phantasm Crystal",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112148",
+          "name": "Dreamy Crystal Koku",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112155",
+          "name": "Aether-Life Root",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112156",
+          "name": "Crystalline Sprout",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112157",
+          "name": "Everliving Branch of the Heart",
+          "qty": 27,
+          "rar": 4,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "114093",
+          "name": "Resurrection of the Frost Sovereign",
+          "qty": 3,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114093.webp"
+        },
+        {
+          "id": "114094",
+          "name": "Ceremonial of the Frost Sovereign",
+          "qty": 9,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114094.webp"
+        },
+        {
+          "id": "114095",
+          "name": "Lament of the Frost-Veiled Emperor",
+          "qty": 9,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114095.webp"
+        },
+        {
+          "id": "114096",
+          "name": "Gash of the Frost-Blade Emperor",
+          "qty": 4,
+          "rar": 5,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114096.webp"
+        }
+      ],
+      "cost": 150000
+    },
+    {
+      "id": "380003",
+      "name": "380003",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Sword_Icecream.webp",
+      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_Icecream.webp",
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "11435",
+      "name": "BP Weapon",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Sword_SerpentTooth.webp",
+      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_SerpentTooth.webp",
+      "items": [
+        {
+          "id": "112104",
+          "name": "Sentry's Wooden Whistle",
+          "qty": 10,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112104.webp",
+          "sourceDetails": [
+            {
+              "name": "Flowing Blade Skirmisher",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus.webp"
+            },
+            {
+              "name": "Forged Sand Interrogator",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Female_NoWeapon_Drillhead.webp"
+            },
+            {
+              "name": "Swiftstep Seeker",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Female_Sword_Hookwalker.webp"
+            },
+            {
+              "name": "Spiritspeaker Warrior: Determinator",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Female_Sword_Shamansaurus.webp"
+            },
+            {
+              "name": "Swiftstep Storm Scout",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Male_Sword_Hookwalker.webp"
+            },
+            {
+              "name": "Flowing Blade Grease-Saw",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Male_Sword_Mosasaurus.webp"
+            }
+          ]
+        },
+        {
+          "id": "112105",
+          "name": "Warrior's Metal Whistle",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112105.webp",
+          "sourceDetails": [
+            {
+              "name": "Flowing Blade Skirmisher",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus.webp"
+            },
+            {
+              "name": "Forged Sand Interrogator",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Female_NoWeapon_Drillhead.webp"
+            },
+            {
+              "name": "Swiftstep Seeker",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Female_Sword_Hookwalker.webp"
+            },
+            {
+              "name": "Spiritspeaker Warrior: Determinator",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Female_Sword_Shamansaurus.webp"
+            },
+            {
+              "name": "Swiftstep Storm Scout",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Male_Sword_Hookwalker.webp"
+            },
+            {
+              "name": "Flowing Blade Grease-Saw",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Male_Sword_Mosasaurus.webp"
+            }
+          ]
+        },
+        {
+          "id": "112106",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112106.webp",
+          "sourceDetails": [
+            {
+              "name": "Flowing Blade Skirmisher",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus.webp"
+            },
+            {
+              "name": "Forged Sand Interrogator",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Female_NoWeapon_Drillhead.webp"
+            },
+            {
+              "name": "Swiftstep Seeker",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Female_Sword_Hookwalker.webp"
+            },
+            {
+              "name": "Spiritspeaker Warrior: Determinator",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Female_Sword_Shamansaurus.webp"
+            },
+            {
+              "name": "Swiftstep Storm Scout",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Male_Sword_Hookwalker.webp"
+            },
+            {
+              "name": "Flowing Blade Grease-Saw",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Human_Male_Sword_Mosasaurus.webp"
+            }
+          ]
+        },
+        {
+          "id": "112119",
+          "name": "Cold-Cracked Shellshard",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112119.webp",
+          "sourceDetails": [
+            {
+              "name": "Furnace Shell Mountain Weasel",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_VolcanoWeasel.webp"
+            }
+          ]
+        },
+        {
+          "id": "112120",
+          "name": "Warm Back-Shell",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112120.webp",
+          "sourceDetails": [
+            {
+              "name": "Furnace Shell Mountain Weasel",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_VolcanoWeasel.webp"
+            }
+          ]
+        },
+        {
+          "id": "112121",
+          "name": "Blazing Prismshell",
+          "qty": 27,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112121.webp",
+          "sourceDetails": [
+            {
+              "name": "Furnace Shell Mountain Weasel",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_VolcanoWeasel.webp"
+            }
+          ]
+        },
+        {
+          "id": "114061",
+          "name": "Blazing Sacrificial Heart's Terror",
+          "qty": 3,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114061.webp",
+          "source": "Blazing Sacrificial Heart - Natlan - Ancient Watchtower",
+          "sourceDetails": [
+            {
+              "name": "Blazing Sacrificial Heart - Natlan - Ancient Watchtower"
+            }
+          ]
+        },
+        {
+          "id": "114062",
+          "name": "Blazing Sacrificial Heart's Hesitance",
+          "qty": 9,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114062.webp",
+          "source": "Blazing Sacrificial Heart - Natlan - Ancient Watchtower",
+          "sourceDetails": [
+            {
+              "name": "Blazing Sacrificial Heart - Natlan - Ancient Watchtower"
+            }
+          ]
+        },
+        {
+          "id": "114063",
+          "name": "Blazing Sacrificial Heart's Resolve",
+          "qty": 9,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114063.webp",
+          "source": "Blazing Sacrificial Heart - Natlan - Ancient Watchtower",
+          "sourceDetails": [
+            {
+              "name": "Blazing Sacrificial Heart - Natlan - Ancient Watchtower"
+            }
+          ]
+        },
+        {
+          "id": "114064",
+          "name": "Blazing Sacrificial Heart's Splendor",
+          "qty": 4,
+          "rar": 5,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114064.webp",
+          "source": "Blazing Sacrificial Heart - Natlan - Ancient Watchtower",
+          "sourceDetails": [
+            {
+              "name": "Blazing Sacrificial Heart - Natlan - Ancient Watchtower"
+            }
+          ]
+        }
+      ],
+      "cost": 150000
+    },
+    {
+      "id": "11436",
+      "name": "Forgeable Weapon",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Sword_GlintstoneSword.webp",
+      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_GlintstoneSword.webp",
+      "items": [
+        {
+          "id": "112146",
+          "name": "Phantasmagorical Dust",
+          "qty": 10,
+          "rar": 1,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112147",
+          "name": "Phantasm Crystal",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112148",
+          "name": "Dreamy Crystal Koku",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112152",
+          "name": "Sediment Fragment",
+          "qty": 15,
+          "rar": 2,
+          "kind": "gem",
+          "icon": null
+        },
+        {
+          "id": "112153",
+          "name": "Sediment Clot",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "112154",
+          "name": "Crystalline Cyst",
+          "qty": 27,
+          "rar": 4,
+          "kind": "mob",
+          "icon": null
+        },
+        {
+          "id": "114085",
+          "name": "The Stirring of the Pale Star Host",
+          "qty": 3,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114085.webp"
+        },
+        {
+          "id": "114086",
+          "name": "The Gathering of the Pale Star Host",
+          "qty": 9,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114086.webp"
+        },
+        {
+          "id": "114087",
+          "name": "Command of the Pale Star's Host",
+          "qty": 9,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114087.webp"
+        },
+        {
+          "id": "114088",
+          "name": "Conquest of the Pale Star Host",
+          "qty": 4,
+          "rar": 5,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114088.webp"
+        }
+      ],
+      "cost": 150000
+    }
   ]
 };
   window.dispatchEvent(new CustomEvent('nyx:cm-beta-loaded', { detail:{ key:"gi" } }));

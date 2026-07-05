@@ -2023,18 +2023,33 @@ function cmLoadChannel(gk){
 function cmSaveChannel(gk, ch){
   try { localStorage.setItem('nyx:cm-channel:' + gk, ch); } catch (e) {}
 }
-// Merge the shipped beta delta over the live roster: changed characters are replaced by id,
-// brand-new beta characters are appended and surfaced in the recent strip.
+function cmMergeBetaRows(liveRows, betaRows, decorate){
+  const base = Array.isArray(liveRows) ? liveRows : [];
+  const delta = Array.isArray(betaRows) ? betaRows : [];
+  if (!delta.length) return base;
+  const byId = new Map(delta.map((row) => [row.id, decorate ? decorate(row) : row]));
+  const liveIds = new Set(base.map((row) => row.id));
+  const merged = base.map((row) => byId.get(row.id) || row);
+  for (const row of delta) {
+    if (!liveIds.has(row.id)) merged.push(decorate ? decorate(row, true) : row);
+  }
+  return merged;
+}
+
+// Merge the shipped beta delta over live data: changed characters/weapons are replaced
+// by id, and brand-new beta characters are appended and surfaced in the recent strip.
 function cmMergeBetaCfg(liveCfg, betaPack){
   if (!liveCfg) return liveCfg;
-  if (!betaPack || !Array.isArray(betaPack.roster) || !betaPack.roster.length) return liveCfg;
-  const byId = new Map(betaPack.roster.map((ch) => [ch.id, { ...ch, __beta:true, __betaNew: ch.betaStatus === 'new' }]));
-  const liveIds = new Set(liveCfg.roster.map((ch) => ch.id));
-  const merged = liveCfg.roster.map((ch) => byId.get(ch.id) || ch);
-  for (const ch of betaPack.roster){
-    if (!liveIds.has(ch.id)) merged.push({ ...ch, __beta:true, __betaNew:true, recent:true });
-  }
-  return { ...liveCfg, roster: merged, __betaActive:true };
+  if (!betaPack) return liveCfg;
+  const roster = cmMergeBetaRows(liveCfg.roster, betaPack.roster, (ch, isNew) => ({
+    ...ch,
+    __beta:true,
+    __betaNew: isNew || ch.betaStatus === 'new',
+    ...(isNew ? { recent:true } : {}),
+  }));
+  const weapons = cmMergeBetaRows(liveCfg.weapons, betaPack.weapons);
+  if (roster === liveCfg.roster && weapons === liveCfg.weapons) return liveCfg;
+  return { ...liveCfg, roster, weapons, __betaActive:true };
 }
 
 function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom, modalOnly, pageTab, onPageTab, sections, customizeOnly, onCustomizeCharacter, onBackCustomize, onSelectedClose, onSelectCharacter }){
@@ -2212,7 +2227,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   React.useEffect(() => {
     if (!selectedName) return;
     const activeGame = game || gk;
-    const nextCfg = CM_CFG[activeGame] || cfg || { roster:[] };
+    const nextCfg = cfg || CM_CFG[activeGame] || { roster:[] };
     const nextRoster = (nextCfg.roster || [])
       .map((ch) => cmApplyIdentityDisplay(activeGame, ch, identityPrefs))
       .filter((ch) => cmSpecialUnitVisible(activeGame, ch, unitPrefs))

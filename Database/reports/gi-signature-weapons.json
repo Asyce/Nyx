@@ -1,21 +1,20 @@
 {
-  "generatedAt": "2026-07-04T22:53:45.154Z",
-  "startedAt": "2026-07-04T22:53:31.408Z",
+  "generatedAt": "2026-07-05T00:39:24.912Z",
+  "startedAt": "2026-07-05T00:39:19.818Z",
   "dryRun": false,
-  "source": "GameWith character build pages",
+  "source": "GameWith character build pages + web consensus fallback",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
-  "existingSignatures": 115,
+  "consensus": {
+    "enabled": true,
+    "minSources": 2,
+    "maxPages": 12
+  },
+  "existingSignatures": 116,
   "targetCharacters": [
     {
       "name": "Alyosha",
       "rarity": 4,
       "weaponType": "Polearm",
-      "channel": "beta"
-    },
-    {
-      "name": "Odette",
-      "rarity": 5,
-      "weaponType": "Sword",
       "channel": "beta"
     },
     {
@@ -36,23 +35,76 @@
     {
       "character": "Alyosha",
       "status": "no-explicit-signature-phrase",
-      "characterPage": "https://gamewith.net/genshin-impact/article/show/76471"
-    },
-    {
-      "character": "Odette",
-      "status": "no-explicit-signature-phrase",
-      "characterPage": "https://gamewith.net/genshin-impact/article/show/76476"
+      "characterPage": "https://gamewith.net/genshin-impact/article/show/76471",
+      "consensusStatus": "no-consensus-signature",
+      "consensusCandidates": [],
+      "consensusSources": [
+        {
+          "title": "Alyosha Genshin Impact kit",
+          "url": "https://www.u7buy.com/blog/genshin-impact-alyosha-kit/",
+          "domain": "u7buy.com",
+          "query": "source-template",
+          "searchProvider": "source-template",
+          "status": "fetch-error",
+          "error": "HTTP 404 Not Found"
+        },
+        {
+          "title": "Alyosha Genshin Impact materials",
+          "url": "https://www.u7buy.com/blog/genshin-impact-alyosha-materials/",
+          "domain": "u7buy.com",
+          "query": "source-template",
+          "searchProvider": "source-template",
+          "status": "fetch-error",
+          "error": "HTTP 404 Not Found"
+        },
+        {
+          "title": "Alyosha Genshin Impact leaks",
+          "url": "https://www.enjoygm.com/blog/genshin-impact/alyosha-leaks",
+          "domain": "enjoygm.com",
+          "query": "source-template",
+          "searchProvider": "source-template",
+          "status": "no-match"
+        },
+        {
+          "title": "Alyosha Genshin Impact leak build guide",
+          "url": "https://www.topuplive.com/news/genshin-impact-alyosha-leaks.html",
+          "domain": "topuplive.com",
+          "query": "source-template",
+          "searchProvider": "source-template",
+          "status": "fetch-error",
+          "error": "HTTP 404 Not Found"
+        },
+        {
+          "title": "Alyosha Genshin Impact kit and constellations",
+          "url": "https://beebom.com/genshin-impact-alyosha-kit-constellations/",
+          "domain": "beebom.com",
+          "query": "source-template",
+          "searchProvider": "source-template",
+          "status": "no-match"
+        }
+      ],
+      "consensusSearchQueries": [
+        "Alyosha Genshin Impact signature weapon",
+        "Alyosha Genshin Impact best weapon signature",
+        "Alyosha Genshin Impact Polearm signature"
+      ],
+      "consensusSearchErrors": []
     },
     {
       "character": "TPS Traveler",
-      "status": "no-character-page"
+      "status": "no-character-page",
+      "consensusStatus": "no-compatible-local-weapons",
+      "consensusCandidates": [],
+      "consensusSources": [],
+      "consensusSearchQueries": [],
+      "consensusSearchErrors": []
     }
   ],
   "summary": {
-    "targets": 3,
+    "targets": 2,
     "found": 0,
     "added": 0,
     "skipped": 1,
-    "unresolved": 3
+    "unresolved": 2
   }
 }

@@ -38,6 +38,13 @@
         "../../Database/Nanoka/gi/assets/skills/Skill_E_Odette_01.webp"
       ],
       "book": "\"Mercy\"",
+      "signatureWeapon": {
+        "id": "11520",
+        "name": "Whitelake Frostfeather",
+        "educated": false
+      },
+      "signatureWeaponId": "11520",
+      "signatureWeaponName": "Whitelake Frostfeather",
       "req": {
         "ascension": [
           {

@@ -12,8 +12,29 @@ const reportPath = path.resolve(reportsDir, 'gi-signature-weapons.json');
 
 const gameWithCharacterListUrl = 'https://gamewith.net/genshin-impact/article/show/22357';
 const userAgent = 'NyxGiSignatureWeaponScraper/1.0';
+const searchUserAgent = 'Mozilla/5.0 NyxGiSignatureWeaponScraper/1.0';
 const fetchTimeoutMs = 25_000;
 const noSignatureCharacters = new Set(['traveler']);
+const blockedConsensusDomains = new Set([
+  'bing.com',
+  'discord.com',
+  'discord.gg',
+  'duckduckgo.com',
+  'facebook.com',
+  'google.com',
+  'instagram.com',
+  'microsoft.com',
+  'reddit.com',
+  't.co',
+  't.me',
+  'telegram.me',
+  'threads.com',
+  'tiktok.com',
+  'twitter.com',
+  'x.com',
+  'youtu.be',
+  'youtube.com',
+]);
 
 const args = new Map();
 for (const arg of process.argv.slice(2)) {
@@ -26,6 +47,9 @@ const includeExisting = args.get('include-existing') === 'true' || args.get('all
 const includeNoSignature = args.get('include-no-signature') === 'true';
 const dryRun = args.get('dry-run') === 'true';
 const concurrency = Math.max(1, Math.min(8, Number(args.get('concurrency') || 4)));
+const useConsensusFallback = !args.has('no-consensus') && args.get('consensus') !== 'false';
+const consensusMinSources = Math.max(1, Number(args.get('consensus-min-sources') || 2));
+const consensusMaxPages = Math.max(consensusMinSources, Number(args.get('consensus-max-pages') || 12));
 
 function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
@@ -33,6 +57,12 @@ function ensureDir(dir) {
 
 function readJson(absPath) {
   return JSON.parse(fs.readFileSync(absPath, 'utf8'));
+}
+
+function writeJsonPreserveStyle(absPath, data) {
+  const existing = fs.existsSync(absPath) ? fs.readFileSync(absPath, 'utf8') : '';
+  const pretty = existing.trim().includes('\n');
+  fs.writeFileSync(absPath, `${JSON.stringify(data, null, pretty ? 2 : 0)}\n`, 'utf8');
 }
 
 function readDbJson(rel) {
@@ -68,6 +98,78 @@ function stripTags(s) {
   return decodeHtml(String(s || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim());
 }
 
+function cleanText(s, limit = 500) {
+  const text = stripTags(s)
+    .replace(/[\u2018\u2019]/g, "'")
+    .replace(/[\u201c\u201d]/g, '"')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return limit && text.length > limit ? `${text.slice(0, limit - 3).trim()}...` : text;
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function uniqBy(items, keyFn) {
+  const seen = new Set();
+  const out = [];
+  for (const item of items) {
+    const key = keyFn(item);
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    out.push(item);
+  }
+  return out;
+}
+
+function sourceDomain(url) {
+  try {
+    return new URL(url).hostname.toLowerCase().replace(/^www\./, '');
+  } catch {
+    return '';
+  }
+}
+
+function isBlockedConsensusDomain(domain) {
+  if (!domain) return true;
+  return [...blockedConsensusDomains].some((blocked) => domain === blocked || domain.endsWith(`.${blocked}`));
+}
+
+function phraseRegexText(s) {
+  return String(s || '')
+    .replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    .replace(/\s+/g, '[\\s\\-]+');
+}
+
+function firstMatchIndex(text, aliases) {
+  for (const alias of aliases) {
+    const re = new RegExp(phraseRegexText(alias), 'i');
+    const match = re.exec(text);
+    if (match) return { index: match.index, alias };
+  }
+  return null;
+}
+
+function clipAround(text, index, length = 360) {
+  const start = Math.max(0, index - Math.floor(length / 2));
+  const end = Math.min(text.length, index + Math.floor(length / 2));
+  return cleanText(text.slice(start, end), length);
+}
+
+function decodeSearchUrl(href) {
+  const raw = decodeHtml(href || '').trim();
+  if (!raw) return '';
+  const value = raw.startsWith('//') ? `https:${raw}` : raw;
+  try {
+    const parsed = new URL(value, 'https://duckduckgo.com/');
+    const uddg = parsed.searchParams.get('uddg');
+    return uddg || parsed.href;
+  } catch {
+    return value;
+  }
+}
+
 function cleanAnchorText(html) {
   return stripTags(String(html || '').replace(/<noscript>[\s\S]*?<\/noscript>/gi, ' '));
 }
@@ -101,6 +203,31 @@ async function fetchText(url, tries = 3) {
   });
 }
 
+async function fetchSearchText(url, tries = 2) {
+  let lastError = null;
+  for (let i = 1; i <= tries; i += 1) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), fetchTimeoutMs);
+    try {
+      const res = await fetch(url, {
+        signal: controller.signal,
+        headers: {
+          'User-Agent': searchUserAgent,
+          Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        },
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+      return await res.text();
+    } catch (error) {
+      lastError = error;
+      if (i < tries) await sleep(750 * i);
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+  throw lastError || new Error(`Unable to fetch search page ${url}`);
+}
+
 async function mapConcurrent(items, worker) {
   const out = new Array(items.length);
   let cursor = 0;
@@ -123,6 +250,347 @@ function weaponTypeLabel(type) {
     WEAPON_BOW: 'Bow',
     WEAPON_CATALYST: 'Catalyst',
   }[type] || String(type || '');
+}
+
+function weaponAliases(weapon) {
+  const aliases = new Set([weapon.name]);
+  const name = String(weapon.name || '');
+  if (/whitelake/i.test(name)) aliases.add(name.replace(/whitelake/i, 'White Lake'));
+  if (/frostfeather/i.test(name)) aliases.add(name.replace(/frostfeather/i, 'Winterfeather'));
+  if (/whitelake/i.test(name) && /frostfeather/i.test(name)) {
+    aliases.add(name.replace(/whitelake/i, 'White Lake').replace(/frostfeather/i, 'Winterfeather'));
+  }
+  return [...aliases].filter(Boolean);
+}
+
+function compatibleWeaponsForCharacter(weaponsByName, ch) {
+  return [...weaponsByName.values()]
+    .filter((weapon) => !ch.weapon || !weapon.type || weapon.type === ch.weapon)
+    .sort((a, b) => Number(b.rarity || 0) - Number(a.rarity || 0) || String(a.name).localeCompare(String(b.name)));
+}
+
+function betaOnlyFiveStarWeapons(weapons) {
+  return weapons.filter((weapon) => {
+    const channels = weapon.channels || [weapon.channel].filter(Boolean);
+    return Number(weapon.rarity || 0) >= 5 && channels.includes('beta') && !channels.includes('live');
+  });
+}
+
+function signatureSearchQueries(ch, compatibleWeapons) {
+  const base = [
+    `${ch.name} Genshin Impact signature weapon`,
+    `${ch.name} Genshin Impact best weapon signature`,
+    `${ch.name} Genshin Impact ${weaponTypeLabel(ch.weapon)} signature`,
+  ];
+  const betaWeapons = betaOnlyFiveStarWeapons(compatibleWeapons).slice(0, 4);
+  for (const weapon of betaWeapons) {
+    base.push(`${ch.name} Genshin Impact ${weapon.name}`);
+    base.push(`${ch.name} Genshin Impact ${weapon.name} signature`);
+  }
+  return [...new Set(base.map((q) => q.replace(/\s+/g, ' ').trim()).filter(Boolean))];
+}
+
+function slugForSearchPath(name) {
+  return String(name || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function sourceTemplateResults(ch) {
+  const slug = slugForSearchPath(ch.name);
+  if (!slug) return [];
+  const rows = [
+    {
+      title: `${ch.name} Genshin Impact kit`,
+      url: `https://www.u7buy.com/blog/genshin-impact-${slug}-kit/`,
+      snippet: 'Genshin Impact kit, weapons, and signature weapon guide.',
+    },
+    {
+      title: `${ch.name} Genshin Impact materials`,
+      url: `https://www.u7buy.com/blog/genshin-impact-${slug}-materials/`,
+      snippet: 'Genshin Impact materials and signature weapon guide.',
+    },
+    {
+      title: `${ch.name} Genshin Impact leaks`,
+      url: `https://www.enjoygm.com/blog/genshin-impact/${slug}-leaks`,
+      snippet: 'Genshin Impact kit, constellations, and signature weapon guide.',
+    },
+    {
+      title: `${ch.name} Genshin Impact leak build guide`,
+      url: `https://www.topuplive.com/news/genshin-impact-${slug}-leaks.html`,
+      snippet: 'Genshin Impact build, weapons, and signature weapon guide.',
+    },
+    {
+      title: `${ch.name} Genshin Impact kit and constellations`,
+      url: `https://beebom.com/genshin-impact-${slug}-kit-constellations/`,
+      snippet: 'Genshin Impact kit, constellations, and weapon guide.',
+    },
+  ];
+  return rows.map((row) => ({
+    ...row,
+    domain: sourceDomain(row.url),
+    searchProvider: 'source-template',
+    query: 'source-template',
+  })).filter((row) => !isBlockedConsensusDomain(row.domain));
+}
+
+function parseDuckDuckGoResults(html) {
+  const out = [];
+  const re = /<a[^>]+class=["'][^"']*\bresult__a\b[^"']*["'][^>]+href=(["'])(?<href>[^"']+)\1[^>]*>(?<title>[\s\S]*?)<\/a>[\s\S]*?(?:<a[^>]+class=["'][^"']*\bresult__snippet\b[^"']*["'][^>]*>(?<snippet>[\s\S]*?)<\/a>|<div[^>]+class=["'][^"']*\bresult__snippet\b[^"']*["'][^>]*>(?<snippetDiv>[\s\S]*?)<\/div>)/gi;
+  for (const match of html.matchAll(re)) {
+    const url = decodeSearchUrl(match.groups.href);
+    const domain = sourceDomain(url);
+    if (!url || isBlockedConsensusDomain(domain)) continue;
+    out.push({
+      title: cleanText(match.groups.title, 180),
+      url,
+      domain,
+      snippet: cleanText(match.groups.snippet || match.groups.snippetDiv || '', 320),
+      searchProvider: 'duckduckgo',
+    });
+  }
+  return out;
+}
+
+function parseBingRssResults(xml) {
+  const out = [];
+  const itemRe = /<item>([\s\S]*?)<\/item>/gi;
+  for (const item of xml.matchAll(itemRe)) {
+    const body = item[1];
+    const title = cleanText((body.match(/<title>([\s\S]*?)<\/title>/i) || [])[1], 180);
+    const url = cleanText((body.match(/<link>([\s\S]*?)<\/link>/i) || [])[1], 500);
+    const domain = sourceDomain(url);
+    if (!url || isBlockedConsensusDomain(domain)) continue;
+    out.push({
+      title,
+      url,
+      domain,
+      snippet: cleanText((body.match(/<description>([\s\S]*?)<\/description>/i) || [])[1], 320),
+      searchProvider: 'bing-rss',
+    });
+  }
+  return out;
+}
+
+function plausibleConsensusResult(result, ch) {
+  const hay = norm(`${result.title} ${result.snippet} ${result.url}`);
+  const nameKey = norm(ch.name);
+  if (!hay.includes(nameKey)) return false;
+  if (!hay.includes('genshin')) return false;
+  return ['signature', 'weapon', 'build', 'kit', 'materials', 'leak'].some((token) => hay.includes(token));
+}
+
+async function searchSignatureSources(ch, compatibleWeapons) {
+  const results = [];
+  const queries = signatureSearchQueries(ch, compatibleWeapons);
+  for (const query of queries) {
+    try {
+      const ddgUrl = `https://html.duckduckgo.com/html/?q=${encodeURIComponent(query)}`;
+      const html = await fetchSearchText(ddgUrl);
+      results.push(...parseDuckDuckGoResults(html).map((row) => ({ ...row, query })));
+    } catch (error) {
+      results.push({
+        title: '',
+        url: '',
+        domain: '',
+        snippet: '',
+        searchProvider: 'duckduckgo',
+        query,
+        error: error?.message || String(error),
+      });
+    }
+
+    try {
+      const bingUrl = `https://www.bing.com/search?format=rss&q=${encodeURIComponent(query)}`;
+      const xml = await fetchSearchText(bingUrl, 1);
+      results.push(...parseBingRssResults(xml).map((row) => ({ ...row, query })));
+    } catch (error) {
+      results.push({
+        title: '',
+        url: '',
+        domain: '',
+        snippet: '',
+        searchProvider: 'bing-rss',
+        query,
+        error: error?.message || String(error),
+      });
+    }
+  }
+
+  const usable = [...sourceTemplateResults(ch), ...results].filter((row) => row.url && plausibleConsensusResult(row, ch));
+  return {
+    queries,
+    errors: results.filter((row) => row.error).map((row) => ({
+      query: row.query,
+      provider: row.searchProvider,
+      error: row.error,
+    })),
+    results: uniqBy(usable, (row) => row.url).slice(0, consensusMaxPages),
+  };
+}
+
+function signatureEvidenceInText(text, ch, weapon, source) {
+  const body = cleanText(text, 0);
+  if (!body) return null;
+  const aliases = weaponAliases(weapon);
+  const match = firstMatchIndex(body, aliases);
+  if (!match) return null;
+
+  const window = body.slice(Math.max(0, match.index - 320), Math.min(body.length, match.index + 420));
+  const windowKey = norm(window);
+  if (!windowKey.includes(norm(ch.name))) return null;
+
+  const signature = /\bsignature\s+(weapon|sword|claymore|polearm|bow|catalyst)\b|\b(?:sig|sign)\b/i.test(window);
+  const best = /\bbest\s+(weapon|sword|claymore|polearm|bow|catalyst)\b|\brecommended\s+(weapon|sword|claymore|polearm|bow|catalyst)\b/i.test(window);
+  if (!signature && !best) return null;
+
+  return {
+    character: ch.name,
+    weaponId: String(weapon.id),
+    weaponName: weapon.name,
+    matchedAlias: match.alias,
+    kind: signature ? 'signature' : 'best-weapon',
+    strength: signature ? 2 : 1,
+    matchedText: clipAround(body, match.index),
+    title: source.title,
+    url: source.url,
+    domain: source.domain,
+    query: source.query,
+    searchProvider: source.searchProvider,
+  };
+}
+
+function bestEvidenceForSource(text, ch, candidateWeapons, source) {
+  const evidence = [];
+  for (const weapon of candidateWeapons) {
+    const row = signatureEvidenceInText(text, ch, weapon, source);
+    if (row) evidence.push(row);
+  }
+  evidence.sort((a, b) => b.strength - a.strength || a.weaponName.localeCompare(b.weaponName));
+  return evidence[0] || null;
+}
+
+function consensusFromEvidence(ch, evidence) {
+  const byWeapon = new Map();
+  for (const row of evidence) {
+    const prev = byWeapon.get(row.weaponId) || {
+      weaponId: row.weaponId,
+      weaponName: row.weaponName,
+      sourcesByDomain: new Map(),
+    };
+    const current = prev.sourcesByDomain.get(row.domain);
+    if (!current || row.strength > current.strength) prev.sourcesByDomain.set(row.domain, row);
+    byWeapon.set(row.weaponId, prev);
+  }
+
+  const candidates = [...byWeapon.values()].map((row) => {
+    const sources = [...row.sourcesByDomain.values()].sort((a, b) => b.strength - a.strength || a.domain.localeCompare(b.domain));
+    return {
+      weaponId: row.weaponId,
+      weaponName: row.weaponName,
+      sourceCount: sources.length,
+      signatureSourceCount: sources.filter((source) => source.kind === 'signature').length,
+      score: sources.reduce((sum, source) => sum + source.strength, 0),
+      sources,
+    };
+  }).sort((a, b) => (
+    b.score - a.score
+    || b.signatureSourceCount - a.signatureSourceCount
+    || b.sourceCount - a.sourceCount
+    || a.weaponName.localeCompare(b.weaponName)
+  ));
+
+  const top = candidates[0];
+  const second = candidates[1];
+  if (
+    top
+    && top.signatureSourceCount >= consensusMinSources
+    && top.sourceCount >= consensusMinSources
+    && top.score > Number(second?.score || 0)
+  ) {
+    return {
+      status: 'ok',
+      character: ch.name,
+      weaponId: top.weaponId,
+      weaponName: top.weaponName,
+      evidence: top.sources.slice(0, 6),
+      confidence: top.signatureSourceCount >= 3 ? 'high' : 'medium',
+      candidates: candidates.map((candidate) => ({
+        weaponId: candidate.weaponId,
+        weaponName: candidate.weaponName,
+        sourceCount: candidate.sourceCount,
+        signatureSourceCount: candidate.signatureSourceCount,
+        score: candidate.score,
+      })),
+    };
+  }
+
+  return {
+    status: 'no-consensus-signature',
+    character: ch.name,
+    candidates: candidates.map((candidate) => ({
+      weaponId: candidate.weaponId,
+      weaponName: candidate.weaponName,
+      sourceCount: candidate.sourceCount,
+      signatureSourceCount: candidate.signatureSourceCount,
+      score: candidate.score,
+      sources: candidate.sources.slice(0, 3),
+    })),
+  };
+}
+
+async function resolveSignatureByConsensus(ch, weaponsByName) {
+  const compatibleWeapons = compatibleWeaponsForCharacter(weaponsByName, ch);
+  if (!compatibleWeapons.length) {
+    return {
+      character: ch.name,
+      status: 'no-compatible-local-weapons',
+    };
+  }
+
+  const search = await searchSignatureSources(ch, compatibleWeapons);
+  const sourceRows = [];
+  const evidence = [];
+  for (const source of search.results) {
+    const combinedSnippet = `${source.title}\n${source.snippet}`;
+    const snippetEvidence = bestEvidenceForSource(combinedSnippet, ch, compatibleWeapons, source);
+    let pageEvidence = null;
+    let error = null;
+    try {
+      const html = await fetchText(source.url, 1);
+      const pageText = cleanText(html, 0);
+      pageEvidence = bestEvidenceForSource(pageText, ch, compatibleWeapons, source);
+    } catch (err) {
+      error = err?.message || String(err);
+    }
+
+    const chosen = pageEvidence || snippetEvidence;
+    sourceRows.push({
+      title: source.title,
+      url: source.url,
+      domain: source.domain,
+      query: source.query,
+      searchProvider: source.searchProvider,
+      status: chosen ? 'matched' : error ? 'fetch-error' : 'no-match',
+      ...(chosen ? {
+        weaponId: chosen.weaponId,
+        weaponName: chosen.weaponName,
+        kind: chosen.kind,
+        matchedText: chosen.matchedText,
+      } : {}),
+      ...(error ? { error } : {}),
+    });
+    if (chosen) evidence.push(chosen);
+  }
+
+  const consensus = consensusFromEvidence(ch, evidence);
+  return {
+    ...consensus,
+    searchQueries: search.queries,
+    searchErrors: search.errors,
+    sources: sourceRows,
+  };
 }
 
 function loadChannelRows(kind) {
@@ -356,11 +824,61 @@ if (targets.length) {
   }
 }
 
+if (useConsensusFallback && targets.length) {
+  const byCharacter = new Map(results.map((row) => [norm(row.character), row]));
+  const consensusTargets = targets.filter((ch) => byCharacter.get(norm(ch.name))?.status !== 'ok');
+  if (consensusTargets.length) {
+    console.log(`GI signatures: web consensus fallback for ${consensusTargets.length} unresolved character(s).`);
+    const consensusRows = await mapConcurrent(consensusTargets, async (ch, i) => {
+      const row = await resolveSignatureByConsensus(ch, weaponsByName);
+      const suffix = row.status === 'ok' ? `${row.weaponName} (${row.confidence})` : row.status;
+      console.log(`[consensus ${i + 1}/${consensusTargets.length}] ${ch.name}: ${suffix}`);
+      return { ch, row };
+    });
+
+    const allWeapons = [...weaponsByName.values()];
+    for (const { ch, row } of consensusRows) {
+      const key = norm(ch.name);
+      const original = byCharacter.get(key) || { character: ch.name, status: 'not-scraped' };
+      if (row.status === 'ok') {
+        const weapon = allWeapons.find((candidate) => String(candidate.id) === String(row.weaponId));
+        byCharacter.set(key, {
+          ...original,
+          character: ch.name,
+          status: 'ok',
+          source: 'web-consensus',
+          originalStatus: original.status,
+          weaponId: String(row.weaponId),
+          weaponName: row.weaponName,
+          weaponType: weaponTypeLabel(weapon?.type || ch.weapon),
+          weaponChannels: weapon?.channels || [weapon?.channel].filter(Boolean),
+          consensusConfidence: row.confidence,
+          consensusEvidence: row.evidence || [],
+          consensusCandidates: row.candidates || [],
+          consensusSources: row.sources || [],
+          consensusSearchQueries: row.searchQueries || [],
+          consensusSearchErrors: row.searchErrors || [],
+        });
+      } else {
+        byCharacter.set(key, {
+          ...original,
+          consensusStatus: row.status,
+          consensusCandidates: row.candidates || [],
+          consensusSources: row.sources || [],
+          consensusSearchQueries: row.searchQueries || [],
+          consensusSearchErrors: row.searchErrors || [],
+        });
+      }
+    }
+    results = targets.map((ch) => byCharacter.get(norm(ch.name))).filter(Boolean);
+  }
+}
+
 const additions = results.filter((row) => row.status === 'ok');
 if (additions.length && !dryRun) {
   const next = {
     ...signatureSource,
-    source: 'GameWith character build pages + existing imported signatures',
+    source: 'GameWith character build pages + web consensus fallback + existing imported signatures',
     generated: new Date().toISOString(),
     signatures: { ...signatureSource.signatures },
   };
@@ -370,21 +888,40 @@ if (additions.length && !dryRun) {
       ...prev,
       weaponId: row.weaponId,
       weaponName: row.weaponName,
-      source: 'gamewith-character-build',
-      sourceUrl: row.characterPage,
+      source: row.source === 'web-consensus' ? 'web-consensus' : 'gamewith-character-build',
+      sourceUrl: row.source === 'web-consensus' ? row.consensusEvidence?.[0]?.url : row.characterPage,
       ...(row.weaponSourceUrl ? { weaponSourceUrl: row.weaponSourceUrl } : {}),
+      ...(row.source === 'web-consensus' ? {
+        confidence: row.consensusConfidence,
+        consensus: {
+          minSources: consensusMinSources,
+          evidence: (row.consensusEvidence || []).slice(0, 6).map((source) => ({
+            title: source.title,
+            url: source.url,
+            domain: source.domain,
+            kind: source.kind,
+            matchedAlias: source.matchedAlias,
+            matchedText: source.matchedText,
+          })),
+        },
+      } : {}),
       scrapedAt: new Date().toISOString(),
     };
   }
-  fs.writeFileSync(signaturesPath, JSON.stringify(next, null, 2) + '\n', 'utf8');
+  writeJsonPreserveStyle(signaturesPath, next);
 }
 
 const report = {
   generatedAt: new Date().toISOString(),
   startedAt,
   dryRun,
-  source: 'GameWith character build pages',
+  source: 'GameWith character build pages + web consensus fallback',
   sourcePage: gameWithCharacterListUrl,
+  consensus: {
+    enabled: useConsensusFallback,
+    minSources: consensusMinSources,
+    maxPages: consensusMaxPages,
+  },
   existingSignatures: Object.keys(signatureSource.signatures).length,
   targetCharacters: targets.map((ch) => ({
     name: ch.name,

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-05T17:11:04.127Z",
-  "startedAt": "2026-07-05T17:10:57.110Z",
+  "generatedAt": "2026-07-06T11:22:06.684Z",
+  "startedAt": "2026-07-06T11:21:38.097Z",
   "dryRun": false,
   "source": "GameWith character build pages + web consensus fallback",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
@@ -45,8 +45,7 @@
           "domain": "u7buy.com",
           "query": "source-template",
           "searchProvider": "source-template",
-          "status": "fetch-error",
-          "error": "HTTP 404 Not Found"
+          "status": "no-match"
         },
         {
           "title": "Alyosha Genshin Impact materials",
@@ -54,8 +53,7 @@
           "domain": "u7buy.com",
           "query": "source-template",
           "searchProvider": "source-template",
-          "status": "fetch-error",
-          "error": "HTTP 404 Not Found"
+          "status": "no-match"
         },
         {
           "title": "Alyosha Genshin Impact leaks",
@@ -71,8 +69,7 @@
           "domain": "topuplive.com",
           "query": "source-template",
           "searchProvider": "source-template",
-          "status": "fetch-error",
-          "error": "HTTP 404 Not Found"
+          "status": "no-match"
         },
         {
           "title": "Alyosha Genshin Impact kit and constellations",

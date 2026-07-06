@@ -1291,16 +1291,16 @@
   },
   "113172": {
     "name": "Denial of Darkness",
-    "desc": "<color=#FFFFFFFF>When you declare the end of your Round:</color> Deals 3 Pyro DMG.\\n<color=#FFFFFFFF>$[K3]: 1</color>",
+    "desc": "<color=#FFFFFFFF>When you declare the end of your Round:</color> Deals 3 $[K103].\\n<color=#FFFFFFFF>$[K3]: 1</color>",
     "icon": ""
   },
   "113173": {
-    "name": "Dragon of White Flame (Active)",
+    "name": "Dragon of White Flame (In Effect)",
     "desc": "Your side deals +1 DMG.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
     "icon": ""
   },
   "113174": {
-    "name": "Dragon of Dark Decay (Active)",
+    "name": "Dragon of Dark Decay (In Effect)",
     "desc": "Your <color=#FFFFFFFF>$[A1317]</color> and <color=#FFFFFFFF>$[C13172]</color> deal +1 DMG.",
     "icon": ""
   },
@@ -1826,7 +1826,7 @@
   },
   "115161": {
     "name": "Purr-loined Treasure Flask",
-    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent's active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
     "icon": "Gcg_CardFace_Summon_Jahoda_Wind"
   },
   "115162": {
@@ -1835,7 +1835,7 @@
     "icon": "Gcg_CardFace_Summon_Jahoda_Fire"
   },
   "115163": {
-    "name": "Purr-loined Treasure Flask - Hydro",
+    "name": "Purr-loined Treasure Flask: Hydro",
     "desc": "$[K1]: Deal 1 <color=#FFFFFFFF>$[K102]</color> to the opponent's active character. Repeat once.",
     "icon": "Gcg_CardFace_Summon_Jahoda_Water"
   },
@@ -1850,8 +1850,8 @@
     "icon": "Gcg_CardFace_Summon_Jahoda_Ice"
   },
   "115166": {
-    "name": "Purrsonal Coordinated Assistance Robot",
-    "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 1 Elemental DMG of the same type as your active character (if the character is Dendro or Geo, deal Anemo DMG), and heal your character with the lowest HP for 2 points.\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+    "name": "Purrsonal Coordinated Assistance Robots",
+    "desc": "<color=#FFFFFFFF>End Phase:</color> Deals 1 Anemo DMG if your active character is Dendro or Geo; otherwise, deals 1 DMG of that character's Elemental Type. Heal the character on your team that has taken the most damage for 2 HP.\\n<color=#FFFFFFFF>$[K3]: 2</color>",
     "icon": ""
   },
   "116011": {
@@ -2500,12 +2500,12 @@
     "icon": ""
   },
   "122082": {
-    "name": "Water Droplets",
+    "name": "Water Droplet",
     "desc": "<color=#FFFFFFFF>End Phase:</color> If your <color=#FFFFFFFF>$[A2208]</color> does not have <color=#FFFFFFFF>$[C122081]</color> attached, attach <color=#FFFFFFFF>$[C122081]</color> to this character. Otherwise, deal 2 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
     "icon": "Gcg_CardFace_Summon_EffigyWater"
   },
   "122083": {
-    "name": "Flood Storage",
+    "name": "Swelling Torrent",
     "desc": "The next time this character acts, they will immediately use the Skill <color=#FFFFFFFF>$[S22085]</color>.",
     "icon": ""
   },
@@ -4225,12 +4225,12 @@
     "icon": "Gcg_CardFace_Modify_Constellation_Mona"
   },
   "212032": {
-    "name": "Makoto of the Heaven Steps",
+    "name": "Genesis of Starsigns",
     "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1203]</color>, equip this card.\\nAfter $[A1203] equips this card, generate <color=#FFFFFFFF>$[C212033]</color> and immediately use <color=#FFD780FF>$[S12031]</color> once.\\nWhen <color=#FFFFFFFF>$[A1203]</color> uses a Normal Attack, spend 1 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>. After the Normal Attack, generate <color=#FFFFFFFF>$[C212033]</color>.\\n(You must have $[A1203] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Talent_Modao_Mona"
   },
   "212033": {
-    "name": "Amaterasu's Originality (Active)",
+    "name": "Genesis of Starsigns (In Effect)",
     "desc": "Your next Vaporize Reaction deals +2 DMG.",
     "icon": ""
   },
@@ -4330,8 +4330,8 @@
     "icon": "Gcg_CardFace_Modify_Talent_Klee"
   },
   "213062": {
-    "name": "Spark Magic",
-    "desc": "$[K2]: Equip to your <color=#FFFFFFFF>$[A1306]</color>.\\n$[A1306] attaches <color=#FFFFFFFF>$[C113061]</color>.\\n<color=#FFFFFFFF>After the attached character performs a $[K51]:</color> Attach 1 stack of <color=#FFFFFFFF>$[C210]</color>.\\n(Must have $[A1306] in deck to add to deck.)",
+    "name": "Sparkborne Magic",
+    "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1306]</color>.\\nAttach <color=#FFFFFFFF>$[C113061]</color> to $[A1306].\\n<color=#FFFFFFFF>When the attached character uses a $[K51]:</color> Attach 1 stack of <color=#FFFFFFFF>$[C210]</color>.\\n(You must have $[A1306] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Talent_Modao_Klee"
   },
   "213071": {
@@ -4386,7 +4386,7 @@
   },
   "213171": {
     "name": "Adamah's Redemption",
-    "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> once.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[C13173]:</color> Your next 3 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[C13174]:</color> This character and your <color=#FFFFFFFF>$[C13172]</color> deal +1 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
+    "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> or <color=#FFD780FF>$[S13174]</color>once based on the character's current Elemental Burst.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13173]:</color> Your next 3 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13174]:</color> This character and your <color=#FFFFFFFF>$[C113172]</color> deal +1 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Talent_Durin"
   },
   "214011": {
@@ -4395,7 +4395,7 @@
     "icon": "Gcg_CardFace_Modify_Talent_Fischl"
   },
   "214012": {
-    "name": "Phantasm of Night",
+    "name": "Phantasmal Nocturne",
     "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1401]</color>.\\nSummon <color=#FFFFFFFF>$[C114011]</color>.\\nWhile the <color=#FFFFFFFF>$[C114011]</color> is on the field, your $[K214] deals +1 DMG.\\n(You must have $[A1401] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Talent_Modao_Fischl"
   },
@@ -4505,12 +4505,12 @@
     "icon": "Gcg_CardFace_Modify_Talent_Venti"
   },
   "215032": {
-    "name": "Wind-Swept Feathers",
-    "desc": "$[K2]: When equipping to your <color=#FFFFFFFF>$[A1503]</color>, equip this card.\\nSummon <color=#FFFFFFFF>$[C115034]</color>.\\nAfter you summon <color=#FFFFFFFF>$[C115034]</color>, the attached character's $[K100] is converted to $[K105] for their next two <color=#FFFFFFFF>Normal Attacks</color> during this Round, and these attacks cost 2 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>.\\n(You must have $[A1503] in your deck to add this card to your deck.)",
+    "name": "Temporal Wind's Eulogy",
+    "desc": "$[K2]: When equip this to your <color=#FFFFFFFF>$[A1503]</color>, equip this card.\\nSummon <color=#FFFFFFFF>$[C115034]</color>.\\nAfter you summon <color=#FFFFFFFF>$[C115034]</color>, the attached character's $[K100] is converted to $[K105] for their next two <color=#FFFFFFFF>Normal Attacks</color> during this Round, and these attacks cost 2 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>.\\n(You must have $[A1503] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Talent_Modao_Venti"
   },
   "215033": {
-    "name": "Gale of the Passing Time (Active)",
+    "name": "Temporal Wind's Eulogy (In Effect)",
     "desc": "The attached character's $[K100] is converted to $[K105] for their next two <color=#FFFFFFFF>Normal Attacks</color> during this Round, and these attacks cost 2 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>.",
     "icon": ""
   },
@@ -4576,7 +4576,7 @@
   },
   "215161": {
     "name": "Backstreet Guile",
-    "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1516]</color>, equip this card.\\nAfter $[A1516] equips this card, immediately use <color=#FFD780FF>$[S15162]</color> once.\\nWhen <color=#FFFFFFFF>$[K1516]</color> switches to the active character, if the number of cards in your opponent's Hand is greater than or equal to the number of cards in your Hand, randomly copy 2 cards from their Hand.\\n(You must have $[A1516] in your deck to add this card to your deck.)",
+    "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1516]</color>, equip this card.\\nAfter $[A1516] equips this card, immediately use <color=#FFD780FF>$[S15162]</color> once.\\nWhen <color=#FFFFFFFF>$[A1516]</color> switches to the active character, if the number of cards in your opponent's Hand is greater than or equal to yours, randomly copy 2 cards from their Hand.\\n(You must have $[A1516] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Talent_Jahoda"
   },
   "216011": {
@@ -4815,8 +4815,8 @@
     "icon": "Gcg_CardFace_Modify_Talent_GatorSacred"
   },
   "222081": {
-    "name": "Treacherous Tides",
-    "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A2208]</color>.\\nAfter your <color=#FFFFFFFF>$[A2208]</color> or <color=#FFFFFFFF>$[C122082]</color> deals Damage, heal the most damaged Monster on your side for 1 HP. (3 times per Round)\\n(You must have $[A2208] in your deck to add this card to your deck.)",
+    "name": "Treacherous Torrent",
+    "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A2208]</color>.\\nAfter your <color=#FFFFFFFF>$[A2208]</color> or <color=#FFFFFFFF>$[C122082]</color> deals DMG, heal the most damaged Monster on your side for 1 HP. (3 times per Round)\\n(You must have $[A2208] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Talent_EffigyWater"
   },
   "223011": {
@@ -5795,8 +5795,8 @@
     "icon": ""
   },
   "303250": {
-    "name": "Gathering to Drink (Active)",
-    "desc": "<color=#FFFFFFFF>When the next Round begins:</color> Draw 2 cards and generate 2 random Elemental Dice.",
+    "name": "Feasting in a Shared Toast (In Effect)",
+    "desc": "<color=#FFFFFFFF>When the next Round begins:</color> Draw 2 cards and gain 2 random Elemental Dice.",
     "icon": ""
   },
   "303300": {
@@ -7460,12 +7460,12 @@
     "icon": "Gcg_CardFace_Event_Event_Keyan"
   },
   "332065": {
-    "name": "「Witch's Homework」",
+    "name": "Witch's Homework",
     "desc": "Draw 1 {SPRITE_PRESET#3006} Talent card. If your deck initially contains at least 3 {SPRITE_PRESET#3006} Talent cards, grant $[K3005] to the {SPRITE_PRESET#3006} Talent card with the highest <color=#FFFFFFFF>$[K3002]</color> in your Hand.",
     "icon": "Gcg_CardFace_Event_Event_Modao"
   },
   "332066": {
-    "name": "Gather for a Drink",
+    "name": "Feasting in a Shared Toast",
     "desc": "<color=#FFFFFFFF>When the next Round begins:</color> Both sides draw 2 cards and gain 2 random Elemental Dice.",
     "icon": "Gcg_CardFace_Event_Event_XumiFriend"
   },

@@ -1473,7 +1473,7 @@
   },
   "13171": {
     "name": "Radiant Wingslash",
-    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] DMG."
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]."
   },
   "13172": {
     "name": "Binary Form: Convergence and Division",
@@ -1481,15 +1481,15 @@
   },
   "13173": {
     "name": "Principle of Purity: As the Light Shifts",
-    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#FFFFFFFF>$[C113171]</color>."
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create <color=#FFFFFFFF>$[C113171]</color>."
   },
   "13174": {
     "name": "Principle of Darkness: As the Stars Smolder",
-    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#FFFFFFFF>$[C113172]</color>."
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create <color=#FFFFFFFF>$[C113172]</color>."
   },
   "13175": {
     "name": "Light Manifest of the Divine Calculus",
-    "desc": "[Passive] <color=#FFFFFFFF>After you use a Normal Attack:</color> Switch your Elemental Burst to <color=#FFFFFFFF>$[S13174]</color>.\\n<color=#FFFFFFFF>After you use an Elemental Skill:</color> Switch your Elemental Burst to <color=#FFFFFFFF>$[S13173]</color>."
+    "desc": "(Passive) <color=#FFFFFFFF>After this character uses a Normal Attack:</color> Switches their Elemental Burst to <color=#FFFFFFFF>$[S13174]</color>.\\n<color=#FFFFFFFF>After this character uses an Elemental Skill:</color> Switches their Elemental Burst to<color=#FFFFFFFF>$[S13173]</color>."
   },
   "14011": {
     "name": "Bolts of Downfall",
@@ -1985,7 +1985,7 @@
   },
   "15162": {
     "name": "Savvy Strategy: Splitting the Spoils",
-    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 layer of <color=#FFFFFFFF>$[C170]</color>, and switches to your next character. If you do not have <color=#FFFFFFFF>$[C115161]</color> of any element in your Hand, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand; otherwise, grant $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand."
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 stack of <color=#FFFFFFFF>$[C170]</color>, and switch to your next character. If you do not have <color=#FFFFFFFF>$[C115161]</color> of any element in your Hand, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand. Otherwise, grant $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand."
   },
   "15163": {
     "name": "Hidden Aces: Seven Tools of the Hunter",
@@ -1993,11 +1993,11 @@
   },
   "15164": {
     "name": "Moonsign Benediction: Rooftop Dash",
-    "desc": "[Passive] When the battle begins, create <color=#FFFFFFFF>$[C115161]</color> in your hand.\\nAfter your side triggers a Lunar or Swirl reaction, grant all <color=#FFFFFFFF>$[C115161]</color> in your hand $[K3005]. (Max 2 times per round)"
+    "desc": "(Passive)  When battle begins, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand.\\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand. (Twice per Round)"
   },
   "15165": {
     "name": "Moonsign Benediction: Rooftop Dash",
-    "desc": "[Passive] At the start of combat, create $[C115161] in your Hand.\\nAfter our side triggers a Lunar or Swirl reaction, grant all $[C115161] in your Hand $[K3005]. (Max 2 times per round)"
+    "desc": "(Passive)  When battle begins, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand.\\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand. (Twice per Round)"
   },
   "16011": {
     "name": "Sparkling Scatter",
@@ -2576,28 +2576,28 @@
     "desc": "(Passive) After you play or $[K56] a <color=#FFFFFFFF>$[C124051]</color> card, heal the character on your team that has taken the most damage for 1 HP."
   },
   "22081": {
-    "name": "Hydro Diffusion",
+    "name": "Droplet Diffusion",
     "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]."
   },
   "22082": {
-    "name": "Surging Torrent",
+    "name": "Surging Tides",
     "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], then performs \"$[K53]\" for <color=#FFFFFFFF>$[S22085]</color>."
   },
   "22083": {
-    "name": "Tide of Calamity",
+    "name": "Calamitous Tides",
     "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and summons <color=#FFFFFFFF>$[C122082]</color>."
   },
   "22084": {
-    "name": "Crystal Core",
-    "desc": "[Passive] At the start of battle, gain <color=#FFFFFFFF>$[C122081]</color> initially. If <color=#FFFFFFFF>$[C122082]</color> is present on the field, re-attach <color=#FFFFFFFF>$[C122081]</color> upon consumption, and reduce the usable charges of <color=#FFFFFFFF>$[C122082]</color> by 1."
+    "name": "Hydro Crystal Core",
+    "desc": "(Passive) When the battle begins, this character starts with <color=#FFFFFFFF>$[C122081]</color> attached. If <color=#FFFFFFFF>$[C122082]</color> is on the field when <color=#FFFFFFFF>$[C122081]</color> is consumed: Reattach <color=#FFFFFFFF>$[C122081]</color>, and decreases the Usage(s) of <color=#FFFFFFFF>$[C122082]</color> by 1."
   },
   "22085": {
-    "name": "Surge",
+    "name": "Overflow",
     "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]."
   },
   "22086": {
     "name": "Hydro Crystal Core",
-    "desc": "[Passive] At the start of combat, initially attach <color=#FFFFFFFF>$[C122081]</color>. If <color=#FFFFFFFF>$[C122082]</color> is on the field, when <color=#FFFFFFFF>$[C122081]</color> is consumed, re-attach <color=#FFFFFFFF>$[C122081]</color> and reduce the usage count of <color=#FFFFFFFF>$[C122082]</color> by 1."
+    "desc": "(Passive) When the battle begins, this character starts with <color=#FFFFFFFF>$[C122081]</color> attached. If <color=#FFFFFFFF>$[C122082]</color> is on the field when <color=#FFFFFFFF>$[C122081]</color> is consumed: Reattach <color=#FFFFFFFF>$[C122081]</color>, and decreases the Usage(s) of <color=#FFFFFFFF>$[C122082]</color> by 1."
   },
   "23011": {
     "name": "Thrust",

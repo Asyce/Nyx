@@ -2150,8 +2150,8 @@
     "relate": 222081,
     "cost": 2,
     "en": "Hydro Hypostasis",
-    "title": "He - Hydro Hypostasis",
-    "desc": "A powerful high-level Hydro Elemental Lifeform code-named \"He,\" it possesses a strong instinct for exclusion and will mercilessly drive away anyone who dares to probe it.",
+    "title": "Hydro Hypostasis: He",
+    "desc": "Code Name: He. A high-purity Hydro entity. They have strong rejection properties, and will mercilessly expel any that test them.",
     "tag": [
       "Hydro",
       "Other Weapons",
@@ -3107,15 +3107,15 @@
         "count": 2
       }
     ],
-    "en": "Amaterasu's Step",
-    "title": "Mona: Celestial Fate",
-    "desc": "\"If the fortune teller in the story ever took on an apprentice, I doubt she'd subject them to such an absurd test. Yeah, probably not.\"",
+    "en": "Genesis of Starsigns",
+    "title": "Mona: Genesis of Starsigns",
+    "desc": "If the fortune teller in the story truly takes on an apprentice in the future, surely she wouldn't test her in such bizarre, nonsensical ways... Right? Yes, presumably not.",
     "tag": [
       "Talent",
       "Combat Action",
       "Hexerei"
     ],
-    "ko": "",
+    "ko": "천체 운행론",
     "zh": "天步真原",
     "ja": "星座の始まり"
   },
@@ -3549,14 +3549,14 @@
         "cost_type": "GCG_COST_INVALID"
       }
     ],
-    "en": "Pyro Magic",
-    "title": "Klee's Pyro Magic",
+    "en": "Sparkborne Magic",
+    "title": "Klee: Sparkborne Magic",
     "desc": "\"And just like that, the cutest little Dodo-Sorcerer passed her qualification exam with the help of her friends. Now she's a real, full-fledged Dodo-Sorcerer! Congratulations!\"\\n\"Wait, weren't we supposed to be writing commentary? What does any of this have to do with the little witch!?\"",
     "tag": [
       "Talent",
       "Hexerei"
     ],
-    "ko": "",
+    "ko": "불꽃 마법",
     "zh": "火花魔法",
     "ja": "火花の魔法"
   },
@@ -3807,12 +3807,12 @@
     ],
     "en": "Adamah's Redemption",
     "title": "Durin: Adamah's Redemption",
-    "desc": "A turning point in fate.",
+    "desc": "\"A turning point in fate.\"",
     "tag": [
       "Talent",
       "Combat Action"
     ],
-    "ko": "",
+    "ko": "적토의 역전",
     "zh": "红土之逆",
     "ja": "赤土の逆理"
   },
@@ -3851,14 +3851,14 @@
         "cost_type": "GCG_COST_INVALID"
       }
     ],
-    "en": "Fantasia of the Evening World",
-    "title": "Fischl: Nightraven",
-    "desc": "\"However, while all of these assignments were unexpected, some were far more unexpected than others. For instance, some little witches simply had to figure out how to use the primordial light to create their own material world, while others were tasked with breathing 'soul' into lifeforms that previously existed only in the imagination...\"",
+    "en": "Phantasmal Nocturne",
+    "title": "Fischl: Phantasmal Nocturne",
+    "desc": "\"Still, while every question is unexpected, some are definitely more unexpected than others. For instance, one little witch might be asked to use the primordial light to create her own material world. Meanwhile, another might be told to grant a 'soul' to a being that only exists in the imagination.\"",
     "tag": [
       "Talent",
       "Hexerei"
     ],
-    "ko": "",
+    "ko": "유야의 환상곡",
     "zh": "宵世幻奏",
     "ja": "終宵の幻奏"
   },
@@ -4335,14 +4335,14 @@
         "cost_type": "GCG_COST_INVALID"
       }
     ],
-    "en": "Wind-Swept Verse",
-    "title": "Venti, Song of the Wind",
-    "desc": "\"Therefore, in principle, there are only two types of 'unrevealed' things: the Mirai of those who are not anchored by the stars, and the Mirai of those who proactively interfere with divination for some purpose. The latter is truly infuriating; I hope the little witch in the story never becomes that kind of person.\"",
+    "en": "Temporal Wind's Eulogy",
+    "title": "Venti: Temporal Wind's Eulogy",
+    "desc": "\"Therefore, the so-called 'Unrevealed' can mean only two things: a future not anchored by the stars, or one deliberately obscured by those with ill intentions. The latter is truly infuriating. I do hope the little witch in the story never becomes someone like that.\"",
     "tag": [
       "Talent",
       "Hexerei"
     ],
-    "ko": "",
+    "ko": "시간과 바람",
     "zh": "颂时风若",
     "ja": "風を讃えて"
   },
@@ -4636,13 +4636,13 @@
       }
     ],
     "en": "Backstreet Guile",
-    "title": "Jahoda's Backstreet Guile",
-    "desc": "All mine!",
+    "title": "Jahoda: Backstreet Guile",
+    "desc": "\"Finders keepers!\"",
     "tag": [
       "Talent",
       "Combat Action"
     ],
-    "ko": "",
+    "ko": "뒷골목의 지혜",
     "zh": "暗巷的黠慧",
     "ja": "アンダーグラウンドの悪知恵"
   },
@@ -5459,13 +5459,13 @@
         "cost_type": "GCG_COST_INVALID"
       }
     ],
-    "en": "Treacherous Tides",
-    "title": "Hydro Hypostasis: Treacherous Waves",
-    "desc": "Beneath the treacherous waves of the silent gathering, a calamity of vicious tides gathers in silence...",
+    "en": "Treacherous Torrent",
+    "title": "Hydro Hypostasis: Treacherous Torrent",
+    "desc": "Beneath the stealthily swelling waters, a catastrophic wave silently builds its strength...",
     "tag": [
       "Talent"
     ],
-    "ko": "",
+    "ko": "기이한 파도",
     "zh": "诡谲恶浪",
     "ja": ""
   },
@@ -12518,11 +12518,11 @@
         "cost_type": "GCG_COST_INVALID"
       }
     ],
-    "en": "\"Witch's Homework\"",
-    "title": "\"Witch's Homework\"",
-    "desc": "\"Rather than having a deus ex machina jump in at the very end of the story, it's much easier to accept if the foreshadowing is laid out early on...\"",
+    "en": "Witch's Homework",
+    "title": "Witch's Homework",
+    "desc": "\"Rather than a scenario where we jump in and save the day out of nowhere, it makes more sense to lay the groundwork over time...\"",
     "tag": [],
-    "ko": "",
+    "ko": "「마녀의 과제」",
     "zh": "「魔女的课业」",
     "ja": "「魔女の課題」"
   },
@@ -12537,11 +12537,11 @@
         "cost_type": "GCG_COST_INVALID"
       }
     ],
-    "en": "Gathering Gourmet",
-    "title": "Gather and drink together",
-    "desc": "\"You again? You're always the last one here. Sit down already, we've been waiting for you!\"",
+    "en": "Feasting in a Shared Toast",
+    "title": "Feasting in a Shared Toast",
+    "desc": "Always the last one, as usual! Grab a seat, we've been waiting ages for you!",
     "tag": [],
-    "ko": "",
+    "ko": "소모임",
     "zh": "齐聚共饮",
     "ja": ""
   },

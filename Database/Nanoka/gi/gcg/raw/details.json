@@ -4895,7 +4895,7 @@
     "talent": {
       "13171": {
         "name": "Radiant Wingslash",
-        "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] DMG.",
+        "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
         "child": {
           "d_key_damage": 2,
           "d_key_element": "GCG_ELEMENT_VOID"
@@ -4920,7 +4920,7 @@
       },
       "13173": {
         "name": "Principle of Purity: As the Light Shifts",
-        "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#FFFFFFFF>$[C113171]</color>.",
+        "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create <color=#FFFFFFFF>$[C113171]</color>.",
         "child": {
           "d_key_damage": 1,
           "d_key_element": "GCG_ELEMENT_PYRO",
@@ -4947,7 +4947,7 @@
       },
       "13175": {
         "name": "Light Manifest of the Divine Calculus",
-        "desc": "[Passive] <color=#FFFFFFFF>After you use a Normal Attack:</color> Switch your Elemental Burst to <color=#FFFFFFFF>$[S13174]</color>.\\n<color=#FFFFFFFF>After you use an Elemental Skill:</color> Switch your Elemental Burst to <color=#FFFFFFFF>$[S13173]</color>.",
+        "desc": "(Passive) <color=#FFFFFFFF>After this character uses a Normal Attack:</color> Switches their Elemental Burst to <color=#FFFFFFFF>$[S13174]</color>.\\n<color=#FFFFFFFF>After this character uses an Elemental Skill:</color> Switches their Elemental Burst to<color=#FFFFFFFF>$[S13173]</color>.",
         "child": {
           "s13174": "S13174",
           "s13173": "S13173"
@@ -8217,7 +8217,7 @@
     "name": "Jahoda",
     "title": "\"Windthreading Shadow\" Jahoda",
     "desc": "Persistent thought brings light to even the deepest secrets.",
-    "source": "Reward for inviting Jahoda to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
+    "source": "Reward for inviting Jahoda to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Jahoda",
     "hp": 10,
     "cost": 2,
@@ -8242,7 +8242,7 @@
       },
       "15162": {
         "name": "Savvy Strategy: Splitting the Spoils",
-        "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 layer of <color=#FFFFFFFF>$[C170]</color>, and switches to your next character. If you do not have <color=#FFFFFFFF>$[C115161]</color> of any element in your Hand, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand; otherwise, grant $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand.",
+        "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 stack of <color=#FFFFFFFF>$[C170]</color>, and switch to your next character. If you do not have <color=#FFFFFFFF>$[C115161]</color> of any element in your Hand, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand. Otherwise, grant $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand.",
         "child": {
           "d_key_damage": 2,
           "d_key_element": "GCG_ELEMENT_ANEMO",
@@ -8262,7 +8262,7 @@
           },
           "c115161": {
             "name": "Purr-loined Treasure Flask",
-            "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent's active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+            "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
             "child": {
               "a1516": "Jahoda",
               "k1": {
@@ -8292,8 +8292,8 @@
           "d_key_damage": 3,
           "d_key_element": "GCG_ELEMENT_ANEMO",
           "c115166": {
-            "name": "Purrsonal Coordinated Assistance Robot",
-            "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 1 Elemental DMG of the same type as your active character (if the character is Dendro or Geo, deal Anemo DMG), and heal your character with the lowest HP for 2 points.\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+            "name": "Purrsonal Coordinated Assistance Robots",
+            "desc": "<color=#FFFFFFFF>End Phase:</color> Deals 1 Anemo DMG if your active character is Dendro or Geo; otherwise, deals 1 DMG of that character's Elemental Type. Heal the character on your team that has taken the most damage for 2 HP.\\n<color=#FFFFFFFF>$[K3]: 2</color>",
             "child": {
               "k3": {
                 "name": "<color=#FFFFFFFF>Usage(s)</color>",
@@ -8310,11 +8310,11 @@
       },
       "15164": {
         "name": "Moonsign Benediction: Rooftop Dash",
-        "desc": "[Passive] When the battle begins, create <color=#FFFFFFFF>$[C115161]</color> in your hand.\\nAfter your side triggers a Lunar or Swirl reaction, grant all <color=#FFFFFFFF>$[C115161]</color> in your hand $[K3005]. (Max 2 times per round)",
+        "desc": "(Passive)  When battle begins, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand.\\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand. (Twice per Round)",
         "child": {
           "c115161": {
             "name": "Purr-loined Treasure Flask",
-            "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent's active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+            "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
             "child": {
               "a1516": "Jahoda",
               "k1": {
@@ -8337,11 +8337,11 @@
       },
       "15165": {
         "name": "Moonsign Benediction: Rooftop Dash",
-        "desc": "[Passive] At the start of combat, create $[C115161] in your Hand.\\nAfter our side triggers a Lunar or Swirl reaction, grant all $[C115161] in your Hand $[K3005]. (Max 2 times per round)",
+        "desc": "(Passive)  When battle begins, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand.\\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand. (Twice per Round)",
         "child": {
           "c115161": {
             "name": "Purr-loined Treasure Flask",
-            "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent's active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+            "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
             "child": {
               "a1516": "Jahoda",
               "k1": {
@@ -12201,9 +12201,9 @@
   "2208": {
     "type": "Character",
     "name": "Hydro Hypostasis",
-    "title": "He - Hydro Hypostasis",
-    "desc": "A powerful high-level Hydro Elemental Lifeform code-named \"He,\" it possesses a strong instinct for exclusion and will mercilessly drive away anyone who dares to probe it.",
-    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Hydro Hypostasis",
+    "title": "Hydro Hypostasis: He",
+    "desc": "Code Name: He. A high-purity Hydro entity. They have strong rejection properties, and will mercilessly expel any that test them.",
+    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Hydro Hypostasis",
     "icon": "UI_Gcg_CardFace_Char_Monster_EffigyWater",
     "hp": 8,
     "cost": 2,
@@ -12214,7 +12214,7 @@
     ],
     "talent": {
       "22081": {
-        "name": "Hydro Diffusion",
+        "name": "Droplet Diffusion",
         "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
         "child": {
           "d_key_damage": 1,
@@ -12227,7 +12227,7 @@
         }
       },
       "22082": {
-        "name": "Surging Torrent",
+        "name": "Surging Tides",
         "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], then performs \"$[K53]\" for <color=#FFFFFFFF>$[S22085]</color>.",
         "child": {
           "d_key_damage": 2,
@@ -12244,13 +12244,13 @@
         }
       },
       "22083": {
-        "name": "Tide of Calamity",
+        "name": "Calamitous Tides",
         "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and summons <color=#FFFFFFFF>$[C122082]</color>.",
         "child": {
           "d_key_damage": 3,
           "d_key_element": "GCG_ELEMENT_HYDRO",
           "c122082": {
-            "name": "Water Droplets",
+            "name": "Water Droplet",
             "desc": "<color=#FFFFFFFF>End Phase:</color> If your <color=#FFFFFFFF>$[A2208]</color> does not have <color=#FFFFFFFF>$[C122081]</color> attached, attach <color=#FFFFFFFF>$[C122081]</color> to this character. Otherwise, deal 2 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
             "child": {
               "a2208": "Hydro Hypostasis",
@@ -12282,8 +12282,8 @@
         }
       },
       "22084": {
-        "name": "Crystal Core",
-        "desc": "[Passive] At the start of battle, gain <color=#FFFFFFFF>$[C122081]</color> initially. If <color=#FFFFFFFF>$[C122082]</color> is present on the field, re-attach <color=#FFFFFFFF>$[C122081]</color> upon consumption, and reduce the usable charges of <color=#FFFFFFFF>$[C122082]</color> by 1.",
+        "name": "Hydro Crystal Core",
+        "desc": "(Passive) When the battle begins, this character starts with <color=#FFFFFFFF>$[C122081]</color> attached. If <color=#FFFFFFFF>$[C122082]</color> is on the field when <color=#FFFFFFFF>$[C122081]</color> is consumed: Reattach <color=#FFFFFFFF>$[C122081]</color>, and decreases the Usage(s) of <color=#FFFFFFFF>$[C122082]</color> by 1.",
         "child": {
           "c122081": {
             "name": "Hydro Crystal Core",
@@ -12296,7 +12296,7 @@
             }
           },
           "c122082": {
-            "name": "Water Droplets",
+            "name": "Water Droplet",
             "desc": "<color=#FFFFFFFF>End Phase:</color> If your <color=#FFFFFFFF>$[A2208]</color> does not have <color=#FFFFFFFF>$[C122081]</color> attached, attach <color=#FFFFFFFF>$[C122081]</color> to this character. Otherwise, deal 2 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
             "child": {
               "a2208": "Hydro Hypostasis",
@@ -12315,7 +12315,7 @@
         "cost": {}
       },
       "22085": {
-        "name": "Surge",
+        "name": "Overflow",
         "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
         "child": {
           "d_key_damage": 1,
@@ -12326,7 +12326,7 @@
       },
       "22086": {
         "name": "Hydro Crystal Core",
-        "desc": "[Passive] At the start of combat, initially attach <color=#FFFFFFFF>$[C122081]</color>. If <color=#FFFFFFFF>$[C122082]</color> is on the field, when <color=#FFFFFFFF>$[C122081]</color> is consumed, re-attach <color=#FFFFFFFF>$[C122081]</color> and reduce the usage count of <color=#FFFFFFFF>$[C122082]</color> by 1.",
+        "desc": "(Passive) When the battle begins, this character starts with <color=#FFFFFFFF>$[C122081]</color> attached. If <color=#FFFFFFFF>$[C122082]</color> is on the field when <color=#FFFFFFFF>$[C122081]</color> is consumed: Reattach <color=#FFFFFFFF>$[C122081]</color>, and decreases the Usage(s) of <color=#FFFFFFFF>$[C122082]</color> by 1.",
         "child": {
           "c122081": {
             "name": "Hydro Crystal Core",
@@ -12339,7 +12339,7 @@
             }
           },
           "c122082": {
-            "name": "Water Droplets",
+            "name": "Water Droplet",
             "desc": "<color=#FFFFFFFF>End Phase:</color> If your <color=#FFFFFFFF>$[A2208]</color> does not have <color=#FFFFFFFF>$[C122081]</color> attached, attach <color=#FFFFFFFF>$[C122081]</color> to this character. Otherwise, deal 2 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
             "child": {
               "a2208": "Hydro Hypostasis",
@@ -16105,9 +16105,9 @@
   },
   "212032": {
     "type": "Action",
-    "name": "Amaterasu's Step",
-    "title": "Mona: Celestial Fate",
-    "desc": "\"If the fortune teller in the story ever took on an apprentice, I doubt she'd subject them to such an absurd test. Yeah, probably not.\"",
+    "name": "Genesis of Starsigns",
+    "title": "Mona: Genesis of Starsigns",
+    "desc": "If the fortune teller in the story truly takes on an apprentice in the future, surely she wouldn't test her in such bizarre, nonsensical ways... Right? Yes, presumably not.",
     "source": "",
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Mona",
     "cost": [
@@ -16126,16 +16126,16 @@
       "Hexerei"
     ],
     "talent": {
-      "name": "Makoto of the Heaven Steps",
+      "name": "Genesis of Starsigns",
       "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1203]</color>, equip this card.\\nAfter $[A1203] equips this card, generate <color=#FFFFFFFF>$[C212033]</color> and immediately use <color=#FFD780FF>$[S12031]</color> once.\\nWhen <color=#FFFFFFFF>$[A1203]</color> uses a Normal Attack, spend 1 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>. After the Normal Attack, generate <color=#FFFFFFFF>$[C212033]</color>.\\n(You must have $[A1203] in your deck to add this card to your deck.)",
       "child": {
         "k1": {
           "name": "<color=#FFFFFFFF>Combat Action</color>",
           "desc": "After you finish 1 Combat Action, it will be your opponent's turn.\\n<color=#FFFFFFFF>Playing a card from your Hand with this rule is also a Combat Action rather than a Fast Action</color>."
         },
-        "a1203": "Amaterasu's Step",
+        "a1203": "Genesis of Starsigns",
         "c212033": {
-          "name": "Amaterasu's Originality (Active)",
+          "name": "Genesis of Starsigns (In Effect)",
           "desc": "Your next Vaporize Reaction deals +2 DMG.",
           "child": {}
         },
@@ -16987,8 +16987,8 @@
   },
   "213062": {
     "type": "Action",
-    "name": "Pyro Magic",
-    "title": "Klee's Pyro Magic",
+    "name": "Sparkborne Magic",
+    "title": "Klee: Sparkborne Magic",
     "desc": "\"And just like that, the cutest little Dodo-Sorcerer passed her qualification exam with the help of her friends. Now she's a real, full-fledged Dodo-Sorcerer! Congratulations!\"\\n\"Wait, weren't we supposed to be writing commentary? What does any of this have to do with the little witch!?\"",
     "source": "",
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Klee",
@@ -17005,14 +17005,14 @@
       "Hexerei"
     ],
     "talent": {
-      "name": "Spark Magic",
-      "desc": "$[K2]: Equip to your <color=#FFFFFFFF>$[A1306]</color>.\\n$[A1306] attaches <color=#FFFFFFFF>$[C113061]</color>.\\n<color=#FFFFFFFF>After the attached character performs a $[K51]:</color> Attach 1 stack of <color=#FFFFFFFF>$[C210]</color>.\\n(Must have $[A1306] in deck to add to deck.)",
+      "name": "Sparkborne Magic",
+      "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1306]</color>.\\nAttach <color=#FFFFFFFF>$[C113061]</color> to $[A1306].\\n<color=#FFFFFFFF>When the attached character uses a $[K51]:</color> Attach 1 stack of <color=#FFFFFFFF>$[C210]</color>.\\n(You must have $[A1306] in your deck to add this card to your deck.)",
       "child": {
         "k2": {
           "name": "<color=#FFFFFFFF>Fast Action</color>",
           "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
         },
-        "a1306": "Pyro Magic",
+        "a1306": "Sparkborne Magic",
         "c113061": {
           "name": "Explosive Spark",
           "desc": "<color=#FFFFFFFF>When the character to which this is attached uses a $[K51]: </color>Spend 1 less <color=#FF9999FF>$[K303]</color> and deal +1 DMG.\\n<color=#FFFFFFFF>$[K3]: 1</color>",
@@ -17442,7 +17442,7 @@
     "type": "Action",
     "name": "Adamah's Redemption",
     "title": "Durin: Adamah's Redemption",
-    "desc": "A turning point in fate.",
+    "desc": "\"A turning point in fate.\"",
     "source": "Reward for inviting Durin to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
     "icon": "UI_Gcg_CardFace_Modify_Talent_Durin",
     "cost": [
@@ -17461,14 +17461,29 @@
     ],
     "talent": {
       "name": "Adamah's Redemption",
-      "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> once.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[C13173]:</color> Your next 3 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[C13174]:</color> This character and your <color=#FFFFFFFF>$[C13172]</color> deal +1 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
+      "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> or <color=#FFD780FF>$[S13174]</color>once based on the character's current Elemental Burst.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13173]:</color> Your next 3 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13174]:</color> This character and your <color=#FFFFFFFF>$[C113172]</color> deal +1 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
       "child": {
         "k1": {
           "name": "<color=#FFFFFFFF>Combat Action</color>",
           "desc": "After you finish 1 Combat Action, it will be your opponent's turn.\\n<color=#FFFFFFFF>Playing a card from your Hand with this rule is also a Combat Action rather than a Fast Action</color>."
         },
         "a1317": "Adamah's Redemption",
-        "s13173": "S13173"
+        "s13173": "S13173",
+        "s13174": "S13174",
+        "c113172": {
+          "name": "Denial of Darkness",
+          "desc": "<color=#FFFFFFFF>When you declare the end of your Round:</color> Deals 3 $[K103].\\n<color=#FFFFFFFF>$[K3]: 1</color>",
+          "child": {
+            "k103": {
+              "name": "{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>",
+              "desc": "Applies {SPRITE_PRESET#2103}Pyro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Melt</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Overloaded</color>: DMG +2 for this instance, the target is forcibly switched to the next character\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Burning</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Burning Flame</color>] that will deal 1 Pyro DMG at the end of the Round (Takes effect once, max 2 stacks)"
+            },
+            "k3": {
+              "name": "<color=#FFFFFFFF>Usage(s)</color>",
+              "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+            }
+          }
+        }
       }
     }
   },
@@ -17529,9 +17544,9 @@
   },
   "214012": {
     "type": "Action",
-    "name": "Fantasia of the Evening World",
-    "title": "Fischl: Nightraven",
-    "desc": "\"However, while all of these assignments were unexpected, some were far more unexpected than others. For instance, some little witches simply had to figure out how to use the primordial light to create their own material world, while others were tasked with breathing 'soul' into lifeforms that previously existed only in the imagination...\"",
+    "name": "Phantasmal Nocturne",
+    "title": "Fischl: Phantasmal Nocturne",
+    "desc": "\"Still, while every question is unexpected, some are definitely more unexpected than others. For instance, one little witch might be asked to use the primordial light to create her own material world. Meanwhile, another might be told to grant a 'soul' to a being that only exists in the imagination.\"",
     "source": "",
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Fischl",
     "cost": [
@@ -17548,14 +17563,14 @@
       "Hexerei"
     ],
     "talent": {
-      "name": "Phantasm of Night",
+      "name": "Phantasmal Nocturne",
       "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1401]</color>.\\nSummon <color=#FFFFFFFF>$[C114011]</color>.\\nWhile the <color=#FFFFFFFF>$[C114011]</color> is on the field, your $[K214] deals +1 DMG.\\n(You must have $[A1401] in your deck to add this card to your deck.)",
       "child": {
         "k2": {
           "name": "<color=#FFFFFFFF>Fast Action</color>",
           "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
         },
-        "a1401": "Fantasia of the Evening World",
+        "a1401": "Phantasmal Nocturne",
         "c114011": {
           "name": "Oz",
           "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 1 $[K104].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
@@ -18427,9 +18442,9 @@
   },
   "215032": {
     "type": "Action",
-    "name": "Wind-Swept Verse",
-    "title": "Venti, Song of the Wind",
-    "desc": "\"Therefore, in principle, there are only two types of 'unrevealed' things: the Mirai of those who are not anchored by the stars, and the Mirai of those who proactively interfere with divination for some purpose. The latter is truly infuriating; I hope the little witch in the story never becomes that kind of person.\"",
+    "name": "Temporal Wind's Eulogy",
+    "title": "Venti: Temporal Wind's Eulogy",
+    "desc": "\"Therefore, the so-called 'Unrevealed' can mean only two things: a future not anchored by the stars, or one deliberately obscured by those with ill intentions. The latter is truly infuriating. I do hope the little witch in the story never becomes someone like that.\"",
     "source": "",
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Venti",
     "cost": [
@@ -18446,14 +18461,14 @@
       "Hexerei"
     ],
     "talent": {
-      "name": "Wind-Swept Feathers",
-      "desc": "$[K2]: When equipping to your <color=#FFFFFFFF>$[A1503]</color>, equip this card.\\nSummon <color=#FFFFFFFF>$[C115034]</color>.\\nAfter you summon <color=#FFFFFFFF>$[C115034]</color>, the attached character's $[K100] is converted to $[K105] for their next two <color=#FFFFFFFF>Normal Attacks</color> during this Round, and these attacks cost 2 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>.\\n(You must have $[A1503] in your deck to add this card to your deck.)",
+      "name": "Temporal Wind's Eulogy",
+      "desc": "$[K2]: When equip this to your <color=#FFFFFFFF>$[A1503]</color>, equip this card.\\nSummon <color=#FFFFFFFF>$[C115034]</color>.\\nAfter you summon <color=#FFFFFFFF>$[C115034]</color>, the attached character's $[K100] is converted to $[K105] for their next two <color=#FFFFFFFF>Normal Attacks</color> during this Round, and these attacks cost 2 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>.\\n(You must have $[A1503] in your deck to add this card to your deck.)",
       "child": {
         "k2": {
           "name": "<color=#FFFFFFFF>Fast Action</color>",
           "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
         },
-        "a1503": "Wind-Swept Verse",
+        "a1503": "Temporal Wind's Eulogy",
         "c115034": {
           "name": "Stormeye",
           "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 2 $[K105]. Your opponent switches to: $[K7].\\n<color=#FFFFFFFF>$[K3]: 2</color>\\n\\n<color=#FFFFFFFF>After your character or Summon triggers a Swirl reaction:</color> Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)",
@@ -18993,8 +19008,8 @@
   "215161": {
     "type": "Action",
     "name": "Backstreet Guile",
-    "title": "Jahoda's Backstreet Guile",
-    "desc": "All mine!",
+    "title": "Jahoda: Backstreet Guile",
+    "desc": "\"Finders keepers!\"",
     "source": "Reward for inviting Jahoda to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
     "icon": "UI_Gcg_CardFace_Modify_Talent_Jahoda",
     "cost": [
@@ -19012,7 +19027,7 @@
     ],
     "talent": {
       "name": "Backstreet Guile",
-      "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1516]</color>, equip this card.\\nAfter $[A1516] equips this card, immediately use <color=#FFD780FF>$[S15162]</color> once.\\nWhen <color=#FFFFFFFF>$[K1516]</color> switches to the active character, if the number of cards in your opponent's Hand is greater than or equal to the number of cards in your Hand, randomly copy 2 cards from their Hand.\\n(You must have $[A1516] in your deck to add this card to your deck.)",
+      "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1516]</color>, equip this card.\\nAfter $[A1516] equips this card, immediately use <color=#FFD780FF>$[S15162]</color> once.\\nWhen <color=#FFFFFFFF>$[A1516]</color> switches to the active character, if the number of cards in your opponent's Hand is greater than or equal to yours, randomly copy 2 cards from their Hand.\\n(You must have $[A1516] in your deck to add this card to your deck.)",
       "child": {
         "k1": {
           "name": "<color=#FFFFFFFF>Combat Action</color>",
@@ -20709,9 +20724,9 @@
   },
   "222081": {
     "type": "Action",
-    "name": "Treacherous Tides",
-    "title": "Hydro Hypostasis: Treacherous Waves",
-    "desc": "Beneath the treacherous waves of the silent gathering, a calamity of vicious tides gathers in silence...",
+    "name": "Treacherous Torrent",
+    "title": "Hydro Hypostasis: Treacherous Torrent",
+    "desc": "Beneath the stealthily swelling waters, a catastrophic wave silently builds its strength...",
     "source": "Reward for accepting the Tavern Challenge against the Hydro Hypostasis at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
     "icon": "UI_Gcg_CardFace_Modify_Talent_EffigyWater",
     "cost": [
@@ -20727,19 +20742,19 @@
       "Talent"
     ],
     "talent": {
-      "name": "Treacherous Tides",
-      "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A2208]</color>.\\nAfter your <color=#FFFFFFFF>$[A2208]</color> or <color=#FFFFFFFF>$[C122082]</color> deals Damage, heal the most damaged Monster on your side for 1 HP. (3 times per Round)\\n(You must have $[A2208] in your deck to add this card to your deck.)",
+      "name": "Treacherous Torrent",
+      "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A2208]</color>.\\nAfter your <color=#FFFFFFFF>$[A2208]</color> or <color=#FFFFFFFF>$[C122082]</color> deals DMG, heal the most damaged Monster on your side for 1 HP. (3 times per Round)\\n(You must have $[A2208] in your deck to add this card to your deck.)",
       "child": {
         "k2": {
           "name": "<color=#FFFFFFFF>Fast Action</color>",
           "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
         },
-        "a2208": "Treacherous Tides",
+        "a2208": "Treacherous Torrent",
         "c122082": {
-          "name": "Water Droplets",
+          "name": "Water Droplet",
           "desc": "<color=#FFFFFFFF>End Phase:</color> If your <color=#FFFFFFFF>$[A2208]</color> does not have <color=#FFFFFFFF>$[C122081]</color> attached, attach <color=#FFFFFFFF>$[C122081]</color> to this character. Otherwise, deal 2 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
           "child": {
-            "a2208": "Treacherous Tides",
+            "a2208": "Treacherous Torrent",
             "c122081": {
               "name": "Hydro Crystal Core",
               "desc": "<color=#FFFFFFFF>When the character to which this is attached would be defeated:</color> Remove this effect, ensure the character $[K54|s1], and heal them to 1 HP.",
@@ -30982,9 +30997,9 @@
   },
   "332065": {
     "type": "Action",
-    "name": "\"Witch's Homework\"",
-    "title": "\"Witch's Homework\"",
-    "desc": "\"Rather than having a deus ex machina jump in at the very end of the story, it's much easier to accept if the foreshadowing is laid out early on...\"",
+    "name": "Witch's Homework",
+    "title": "Witch's Homework",
+    "desc": "\"Rather than a scenario where we jump in and save the day out of nowhere, it makes more sense to lay the groundwork over time...\"",
     "source": "",
     "icon": "UI_Gcg_CardFace_Event_Event_Modao",
     "cost": [
@@ -30998,7 +31013,7 @@
     ],
     "tag": [],
     "talent": {
-      "name": "「Witch's Homework」",
+      "name": "Witch's Homework",
       "desc": "Draw 1 {SPRITE_PRESET#3006} Talent card. If your deck initially contains at least 3 {SPRITE_PRESET#3006} Talent cards, grant $[K3005] to the {SPRITE_PRESET#3006} Talent card with the highest <color=#FFFFFFFF>$[K3002]</color> in your Hand.",
       "child": {
         "k3005": {
@@ -31014,9 +31029,9 @@
   },
   "332066": {
     "type": "Action",
-    "name": "Gathering Gourmet",
-    "title": "Gather and drink together",
-    "desc": "\"You again? You're always the last one here. Sit down already, we've been waiting for you!\"",
+    "name": "Feasting in a Shared Toast",
+    "title": "Feasting in a Shared Toast",
+    "desc": "Always the last one, as usual! Grab a seat, we've been waiting ages for you!",
     "source": "",
     "icon": "UI_Gcg_CardFace_Event_Event_XumiFriend",
     "cost": [
@@ -31029,7 +31044,7 @@
     ],
     "tag": [],
     "talent": {
-      "name": "Gather for a Drink",
+      "name": "Feasting in a Shared Toast",
       "desc": "<color=#FFFFFFFF>When the next Round begins:</color> Both sides draw 2 cards and gain 2 random Elemental Dice.",
       "child": {}
     }

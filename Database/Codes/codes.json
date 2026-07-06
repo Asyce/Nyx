@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T15:54:49.343Z",
+  "generatedAt": "2026-07-06T16:27:27.656Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-06T15:54:49.343Z",
+      "lastSuccessfulFetch": "2026-07-06T16:26:41.493Z",
       "codes": [
         {
           "code": "PFY1S40I88T9",
@@ -41,6 +41,16 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-07-05T17:19:20.440Z"
+        },
+        {
+          "code": "LCXGEA5SX65L",
+          "rewards": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
+          "added": "2026-06-12",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-06T16:26:41.493Z"
         }
       ]
     },
@@ -51,7 +61,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-06T15:54:38.449Z",
+      "lastSuccessfulFetch": "2026-07-06T16:27:27.656Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -160,7 +170,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-06T15:54:40.047Z",
+      "lastSuccessfulFetch": "2026-07-06T16:26:41.536Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -222,7 +232,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-06T15:54:40.987Z",
+      "lastSuccessfulFetch": "2026-07-06T16:26:41.146Z",
       "codes": []
     },
     {
@@ -232,7 +242,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-06T15:54:42.447Z",
+      "lastSuccessfulFetch": "2026-07-06T16:26:58.148Z",
       "codes": [
         {
           "code": "ALLFIELD",

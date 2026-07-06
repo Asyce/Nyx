@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-07-05T17:05:29.364Z",
+  "generatedAt": "2026-07-06T09:17:39.801Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 4,
-      "unchanged": 91
+      "changed": 1,
+      "unchanged": 94
     }
   },
   "sections": {
@@ -16,31 +16,13 @@
       "removed": [],
       "changed": [
         {
-          "id": "characters:aglaea",
-          "name": "Aglaea",
-          "previousHash": "70d9f0cc82c3468ce855029664f506e255b653b53945c3b5e2e84e406024966b",
-          "currentHash": "a0f94ad36f0c2e0faefbddacde57b8453992b0a5cec718ffc0c32e653d44cb26"
-        },
-        {
-          "id": "characters:misha",
-          "name": "Misha",
-          "previousHash": "4e36f693d3131de0b7cc6bf712cdc22a8d041f39926449f410e66e14feb7e10b",
-          "currentHash": "a3cb1480b444f0fca5e9e01f34fae04ad5770e09c4c4c52b52f86b90572020b0"
-        },
-        {
           "id": "characters:moze",
           "name": "Moze",
-          "previousHash": "e817fc338756b6e2ea23d1fc35f40dfeb8574b9fc102d54e542df7389bb16c65",
-          "currentHash": "1f0b0d03ee839c389bcec0118ca315597e62244d4308db9da993e375d76ac38b"
-        },
-        {
-          "id": "characters:silver-wolf",
-          "name": "Silver Wolf",
-          "previousHash": "07dd7b46f7d9fce6160b75e6b5f44b69d98daaaf654810d48dadd65f5e77627f",
-          "currentHash": "6d62d4e8bbd1c9d196762ab8450fb3f13b6ceee57cdcee749095e441e65c5931"
+          "previousHash": "1f0b0d03ee839c389bcec0118ca315597e62244d4308db9da993e375d76ac38b",
+          "currentHash": "e817fc338756b6e2ea23d1fc35f40dfeb8574b9fc102d54e542df7389bb16c65"
         }
       ],
-      "unchanged": 91,
+      "unchanged": 94,
       "totals": {
         "previous": 95,
         "current": 95

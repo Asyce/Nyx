@@ -120,9 +120,17 @@ async function writeVersionFile() {
 await fs.rm(deployDir, { recursive: true, force: true });
 await ensureDir(deployDir);
 
+// Pages carry a hand-maintained `?v=` cache-buster on script/style URLs; browsers
+// keep the old bundle when it isn't bumped. The deploy copy stamps it with the
+// commit so every deploy invalidates caches; source pages stay untouched for dev.
+const stampCommit = process.env.PENGO_DEPLOY_COMMIT || process.env.GITHUB_SHA || await gitValue(['rev-parse', 'HEAD']);
+const cacheStamp = (stampCommit || String(Date.now())).slice(0, 12);
 for (const page of await fs.readdir(path.resolve(siteDir, 'pages'))) {
   if (page.endsWith('.html')) {
-    await copyFile(path.resolve(siteDir, 'pages', page), path.resolve(deployDir, page));
+    const html = await fs.readFile(path.resolve(siteDir, 'pages', page), 'utf8');
+    const stamped = html.replace(/\?v=[\w.-]+/g, '?v=' + cacheStamp);
+    await ensureDir(deployDir);
+    await fs.writeFile(path.resolve(deployDir, page), stamped);
   }
 }
 

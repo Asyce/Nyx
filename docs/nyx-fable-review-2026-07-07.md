@@ -28,13 +28,16 @@ mobile 375x812. This doc supersedes the *status* of earlier reviews; their desig
 ## 2. New findings (live pass, 2026-07-07)
 
 ### Functionality / correctness
-1. **Banner cards render art-less for new characters.** Current 4.7 banners (Sandrone,
-   Citlali; up-next Columbina) show empty dark cards. Circle icons exist
-   (`…MarionetteNew_Circle.webp` → 200) but splash art 404s
-   (`…UI_Gacha_AvatarImg_MarionetteNew.webp`). Two defects in one:
-   (a) data pipeline doesn't ingest splash art for new characters yet,
-   (b) the banner card has **no visual fallback** (should degrade to circle icon + name
-   treatment, never an empty box). This is the first thing a returning user sees.
+1. **~~Banner cards render art-less for new characters.~~ RETRACTED 2026-07-07.**
+   Deep-dive with runtime instrumentation proved the cards were never broken: they render
+   *namecard* art by design (`phaseUnit` prefers `ch.namecard`), all namecard/gacha files
+   exist and return 200 on production, and Genshin namecards are simply dark images —
+   misread as "empty" in a small screenshot. The "confirming" 404 was fetched from a
+   `characters/splash/` path that exists nowhere in the codebase (reviewer-invented URL).
+   Lesson recorded: verify against URLs read from the live DOM, never constructed ones.
+   *Kept from this item:* the art-load fallback hardening shipped anyway (pool entries
+   that fail to load now drop out of rotation and cards cascade to game art — verified
+   live on a Database-less server), protecting future banners whose art genuinely lags.
 2. **Library/Database section absent from Genshin nav** at HEAD (code for `tab === 'library'`
    exists; nav showed only Overview/Materials/Tracker/TCG/Pot/Settings). Confirm whether a
    settings toggle hides it intentionally or the `visibleFns` list regressed.
@@ -111,10 +114,10 @@ mobile over-perfection (app planned), Vite migration (post-stability), account s
 
 ## Addendum (same day, after user feedback)
 
-- **Banner art finding confirmed on production**, ruling out any test-browser artifact:
-  `pengo.gg` returns 404 for Sandrone AND Citlali splash art while circle icons return 200.
-  Production runs `486b428c` (newer than the local checkout at review time — `git pull`
-  before starting nyx-0004).
+- ~~**Banner art finding confirmed on production**~~ **RETRACTED — see finding 1.** The
+  production "404s" were fetched from an invented `splash/` path; the real art lives under
+  `characters/gacha/` + `GenshinWiki/namecards/` and returns 200 for every current banner
+  character. (The `git pull` note stands — CI data commits land continuously.)
 - **Database hidden = intended.** Shipped the requested control: a **Database Library
   On/Off row** in the Pengo menu → Interface group (`showDatabase` in `nyx-pengo-settings`,
   default Off, participates in Interface reset). Verified: default nav has no Database;

@@ -8,7 +8,7 @@ Important current direction:
 - Treat `C:\Pengo\AI\As-I-ve-Hoarded` as historical reference only unless the user explicitly asks.
 - `docs/report-feedback-decisions-2026-06-30.md` supersedes earlier review wording where it differs.
 - Keep both quick PowerShell and safer verified script import paths, but they must be Pengo-owned and plainly explained.
-- Do not update React to 19 until the UMD/global build is replaced.
+- React 19 + esbuild bundling landed (2026-07): do not reintroduce UMD vendor scripts to the HTML pages; React is bundled via `Site/tools/build-site.mjs`.
 - Do not commit `.deploy`.
 
 ## User vocabulary → where the code lives

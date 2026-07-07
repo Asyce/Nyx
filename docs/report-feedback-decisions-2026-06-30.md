@@ -141,6 +141,10 @@ Do this after trust, imports, data gates, mobile basics, and deploy provenance a
 
 ## React update decision
 
+> **Superseded 2026-07-07:** the build-system migration happened — React 19 is bundled
+> through esbuild (`build-site.mjs`); the UMD copy step is gone. The guidance below is
+> kept for history only.
+
 Recommendation: do not update React yet.
 
 Reason:

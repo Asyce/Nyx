@@ -695,13 +695,30 @@ function gameBannerCards(gameCfg, source){
 function BannerPhaseCard({ card, now, showGame }){
   const artPool = card.artPool || [];
   const [artIndex, setArtIndex] = React.useState(0);
+  // Splash files can lag behind banner data for brand-new characters. The art
+  // path is only a constructed string, so a card must verify the file actually
+  // loads; broken entries drop out of the rotation and the card falls back to
+  // the game background instead of an empty well.
+  const [badArts, setBadArts] = React.useState(() => new Set());
+  const livePool = artPool.filter((a) => !badArts.has(a));
   React.useEffect(() => {
     setArtIndex(0);
-    if (artPool.length < 2) return undefined;
-    const id = setInterval(() => setArtIndex((idx) => (idx + 1) % artPool.length), 4200);
-    return () => clearInterval(id);
+    setBadArts(new Set());
   }, [artPool.join('|')]);
-  const art = artPool.length ? artPool[artIndex % artPool.length] : (card.game?.bg || card.game?.art);
+  React.useEffect(() => {
+    if (livePool.length < 2) return undefined;
+    const id = setInterval(() => setArtIndex((idx) => idx + 1), 4200);
+    return () => clearInterval(id);
+  }, [artPool.join('|'), livePool.length]);
+  const art = livePool.length ? livePool[artIndex % livePool.length] : (card.game?.bg || card.game?.art);
+  React.useEffect(() => {
+    if (!art || !livePool.includes(art)) return undefined;
+    let alive = true;
+    const probe = new Image();
+    probe.onerror = () => { if (alive) setBadArts((prev) => { const next = new Set(prev); next.add(art); return next; }); };
+    probe.src = art;
+    return () => { alive = false; probe.onerror = null; };
+  }, [art]);
   const when = bannerWhen(card, now);
   const meta = BANNER_STATUS_META[when.state] || BANNER_STATUS_META[card.status] || BANNER_STATUS_META.live;
   const gameIcon = card.game?.icon || GAME_REGISTRY[card.game?.key]?.benchIcon;

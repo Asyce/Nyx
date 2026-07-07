@@ -265,6 +265,15 @@ async function handleAccountSync(request, action, env) {
     return jsonResponse(request, { ok: true, updatedAt, size: record.size }, { status: 200 }, env);
   }
 
+  if (action === 'delete') {
+    if (typeof store.delete !== 'function') return errorResponse(request, env, { status: 501, code: 'sync_not_configured', message: 'Pengo sync storage cannot delete right now.', rid });
+    // Idempotent: removing the game blob returns ok whether or not it existed.
+    // The auth record is intentionally left in place — it holds only a token
+    // hash, and keeping it lets the user re-sync the same phrase later.
+    await store.delete(key);
+    return jsonResponse(request, { ok: true, deleted: true }, { status: 200 }, env);
+  }
+
   const record = await store.get(key, 'json');
   if (!record) return errorResponse(request, env, { status: 404, code: 'sync_empty', message: 'No synced history was found for this game.', rid });
   if (action === 'status') {
@@ -384,6 +393,7 @@ export default {
     if (url.pathname === '/api/account/sync/push') return handleAccountSync(request, 'push', env);
     if (url.pathname === '/api/account/sync/pull') return handleAccountSync(request, 'pull', env);
     if (url.pathname === '/api/account/sync/status') return handleAccountSync(request, 'status', env);
+    if (url.pathname === '/api/account/sync/delete') return handleAccountSync(request, 'delete', env);
     if (url.pathname.startsWith('/api/account/')) {
       return errorResponse(request, env, { status: 404, code: 'not_found', message: 'Unknown account endpoint.', rid: requestId() });
     }

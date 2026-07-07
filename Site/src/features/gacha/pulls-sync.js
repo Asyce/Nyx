@@ -105,12 +105,15 @@ window.NyxAccountSync = (function () {
     const json = await res.json().catch(() => null);
     if (!res.ok || !json || json.ok === false) {
       const msg = json && json.error && json.error.message ? json.error.message : ('Sync request failed (' + res.status + ').');
-      throw new Error(msg);
+      const err = new Error(msg);
+      if (json && json.error && json.error.code) err.code = json.error.code;
+      if (json && json.serverExportedAt) err.serverExportedAt = json.serverExportedAt;
+      throw err;
     }
     return json;
   }
 
-  async function pushGame(secret, game) {
+  async function pushGame(secret, game, opts) {
     if (!available()) throw new Error('Encrypted sync is not available in this browser.');
     const auth = await credentials(secret);
     const bundle = await STORE().exportGame(game);
@@ -122,6 +125,7 @@ window.NyxAccountSync = (function () {
       game,
       payload,
       exportedAt: bundle.exportedAt,
+      force: !!(opts && opts.force),
     });
     saveSettings({ accountId: auth.accountId, lastGame: game, updatedAt: result.updatedAt || Date.now() });
     return Object.assign({}, result, { accountId: auth.accountId, accounts: bundle.accounts.length });

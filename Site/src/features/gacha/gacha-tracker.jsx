@@ -778,9 +778,21 @@ function GachaTracker({ open, onClose, cfg, inline }){
     setSyncBusy(true);
     setSyncStatus(mode === 'push' ? 'Encrypting and uploading history...' : 'Downloading and decrypting history...');
     try {
-      const result = mode === 'push'
-        ? await SYNC.pushGame(syncSecret, ADAPT.game)
-        : await SYNC.pullGame(syncSecret, ADAPT.game);
+      let result;
+      if (mode === 'push') {
+        try {
+          result = await SYNC.pushGame(syncSecret, ADAPT.game);
+        } catch (e) {
+          if (e && e.code === 'stale_push' && typeof window !== 'undefined' && window.confirm
+            && window.confirm('The copy saved on Pengo is newer than this device. Upload anyway and overwrite it?\n\nTip: use Restore instead to bring the newer copy to this device.')) {
+            result = await SYNC.pushGame(syncSecret, ADAPT.game, { force: true });
+          } else {
+            throw e;
+          }
+        }
+      } else {
+        result = await SYNC.pullGame(syncSecret, ADAPT.game);
+      }
       if (mode === 'pull') {
         const uids = await STORE.loadAllUids(ADAPT.game);
         if (uids && uids.length) {

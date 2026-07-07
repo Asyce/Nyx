@@ -251,13 +251,30 @@ async function handleAccountSync(request, action, env) {
   const key = syncKey(accountId, game);
   if (action === 'push') {
     if (!validEncryptedPayload(body.payload)) return errorResponse(request, env, { status: 400, code: 'bad_payload', message: 'Invalid encrypted sync payload.', rid });
+    const incomingExportedAt = Number(body.exportedAt || Date.now());
+    // Stale-push guard: block only when the incoming copy is STRICTLY older than
+    // what's stored, and never when the client explicitly forces. A push with no
+    // exportedAt defaults to "now", so it is treated as current and never blocked;
+    // equal timestamps (a re-push of the same export) are allowed. This makes the
+    // force path always reachable and a legitimate save impossible to lock out.
+    if (body.force !== true) {
+      const existing = await store.get(key, 'json');
+      const priorExportedAt = existing ? Number(existing.exportedAt) : NaN;
+      if (existing && Number.isFinite(priorExportedAt) && incomingExportedAt < priorExportedAt) {
+        return jsonResponse(request, {
+          ok: false,
+          error: { code: 'stale_push', message: 'The saved Pengo copy is newer than this device. Restore first, or upload anyway to overwrite it.', requestId: rid },
+          serverExportedAt: existing.exportedAt || null,
+        }, { status: 409 }, env);
+      }
+    }
     const updatedAt = new Date().toISOString();
     const record = {
       version: 1,
       accountId,
       game,
       payload: body.payload,
-      exportedAt: Number(body.exportedAt || Date.now()),
+      exportedAt: incomingExportedAt,
       updatedAt,
       size: JSON.stringify(body.payload).length,
     };

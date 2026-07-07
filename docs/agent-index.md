@@ -12,6 +12,10 @@ Use this as the first reference when Codex, Claude, or another coding agent work
 
 Read these before implementing review-driven work:
 
+0a. `docs/wish-tracker-plan-2026-07-07.md`
+   - Grounded plan for the wish-tracker design pass (nyx-0005). The tracker is
+     already past the old handoff; this is a focused gap pass (hero module,
+     filterable history, polish), not a rebuild. Has one open question for the user.
 0. `docs/nyx-fable-review-2026-07-07.md`
    - Newest full-project review: verifies which earlier findings are done at HEAD,
      live-tested findings (banner art fallback, tracker overflow, mobile Pengo menu,

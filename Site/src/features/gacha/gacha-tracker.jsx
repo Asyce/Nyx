@@ -803,6 +803,23 @@ function GachaTracker({ open, onClose, cfg, inline }){
     }
   };
 
+  const runSyncDelete = async () => {
+    const SYNC = window.NyxAccountSync || null;
+    if (!SYNC || !SYNC.available || !SYNC.available() || !ADAPT) return;
+    if (typeof window !== 'undefined' && window.confirm
+      && !window.confirm('Remove this game’s synced history from Pengo’s servers? Your local history stays on this device.')) return;
+    setSyncBusy(true);
+    setSyncStatus('Removing synced copy from Pengo...');
+    try {
+      await SYNC.deleteGame(syncSecret, ADAPT.game);
+      setSyncStatus('Removed this game’s synced copy from Pengo. Local history is untouched.');
+    } catch (e) {
+      setSyncStatus(String((e && e.message) || e || 'Could not remove synced copy.'));
+    } finally {
+      setSyncBusy(false);
+    }
+  };
+
   if (!inline && !open) return null;
 
   const fmt = (n) => n.toLocaleString('en-US');
@@ -905,6 +922,7 @@ function GachaTracker({ open, onClose, cfg, inline }){
               <div>
                 <b>Pengo encrypted sync</b>
                 <span>Use the same sync phrase on another browser or device to restore this game&rsquo;s saved history. Pengo stores only encrypted data and cannot read your pulls.</span>
+                <span className="gt-sync-warn">There is no password reset: anyone who knows or guesses your phrase can restore your history. Use 3&ndash;4 random words (for example <i>copper-lantern-otter-tide</i>), not a common password.</span>
               </div>
               <div className="gt-sync-row">
                 <input
@@ -912,11 +930,12 @@ function GachaTracker({ open, onClose, cfg, inline }){
                   value={syncSecret}
                   autoComplete="off"
                   onChange={(e) => setSyncSecret(e.target.value)}
-                  placeholder="Sync phrase, at least 10 characters"
+                  placeholder="Sync phrase, 3-4 random words"
                 />
                 <button type="button" disabled={syncBusy || !syncSecret} onClick={() => runSync('push')}>Upload</button>
                 <button type="button" disabled={syncBusy || !syncSecret} onClick={() => runSync('pull')}>Restore</button>
               </div>
+              <button type="button" className="gt-sync-delete" disabled={syncBusy || !syncSecret} onClick={runSyncDelete}>Remove synced copy from Pengo</button>
               {syncStatus && <p className="gt-sync-status">{syncStatus}</p>}
             </section>
             {error && <div className="gt-err">{error}</div>}

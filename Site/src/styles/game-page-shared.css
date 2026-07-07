@@ -3337,6 +3337,13 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
   color:#100c26; background:linear-gradient(160deg,#d3c8ff,#9a89ea); font-family:'HSR',sans-serif;
   font-size:10.5px; letter-spacing:.11em; text-transform:uppercase; }
 .gt-sync-row button:disabled{ opacity:.55; cursor:default; }
+.gt-sync-warn{ color:#e6b98f !important; font-size:11.5px !important; line-height:1.45; }
+.gt-sync-warn i{ color:#f3d8b6; font-style:italic; }
+.gt-sync-delete{ margin-top:9px; height:30px; border:none; border-radius:9px; padding:0 12px; cursor:pointer;
+  background:rgba(120,30,55,.24); box-shadow:inset 0 0 0 1px rgba(255,120,150,.30); color:#ffd9e2;
+  font-family:'HSR',sans-serif; font-size:11px; letter-spacing:.1em; text-transform:uppercase; transition:filter .2s; }
+.gt-sync-delete:hover{ filter:brightness(1.12); }
+.gt-sync-delete:disabled{ opacity:.5; cursor:default; }
 .gt-sync-status{ margin:8px 0 0; color:#cfc6ff; font-size:12px; line-height:1.4; }
 .gt-sha{ margin-top:6px; color:#9a90c8; font-size:11px; word-break:break-all; }
 .gt-sha code{ color:#b7aaff; font-family:'Consolas','SF Mono',monospace; }

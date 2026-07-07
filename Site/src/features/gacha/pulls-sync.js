@@ -143,6 +143,11 @@ window.NyxAccountSync = (function () {
     return request('status', { accountId: auth.accountId, token: auth.token, game });
   }
 
+  async function deleteGame(secret, game) {
+    const auth = await credentials(secret);
+    return request('delete', { accountId: auth.accountId, token: auth.token, game });
+  }
+
   function loadSettings() {
     try { return JSON.parse(localStorage.getItem(SETTINGS_KEY) || '{}') || {}; } catch (e) { return {}; }
   }
@@ -161,6 +166,7 @@ window.NyxAccountSync = (function () {
     pushGame,
     pullGame,
     status,
+    deleteGame,
     loadSettings,
     forgetSettings,
   };

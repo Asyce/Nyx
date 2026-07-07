@@ -34,3 +34,13 @@ Database/_httpcache/
 Database/Nanoka/_state/
 Database/Nanoka/changes/
 
+
+# Agent coordination (junctions into C:\Pengo\AI) - never commit
+.claude/
+.agents/
+.codex/
+.claude.pre-junction-bak/
+
+# Local codebase-intelligence index + project MCP config
+.repowise/
+.mcp.json
